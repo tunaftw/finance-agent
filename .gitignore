@@ -112,11 +112,8 @@ dmypy.json
 # PodStock Specific
 # =============================================================================
 
-# Runtime data directory - contains downloaded audio, transcripts, etc.
-data/
-
-# But keep the templates
-!data_templates/
+# Ljudfiler (stora, kan laddas ner igen med 'podstock download')
+data/audio/
 
 # Temporary files
 *.tmp
