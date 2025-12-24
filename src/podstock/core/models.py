@@ -155,6 +155,8 @@ class EpisodeStatus(BaseModel):
         transcribed: Whether audio has been transcribed.
         transcribed_at: When transcription completed.
         transcript_path: Path to transcript file.
+        transcript_source: Source of transcript ('whisper' or 'apple').
+        has_timestamps: Whether transcript includes timestamps.
         analyzed: Whether transcript has been analyzed.
         analyzed_at: When analysis completed.
         recommendations_count: Number of recommendations found.
@@ -172,6 +174,8 @@ class EpisodeStatus(BaseModel):
     transcribed: bool = False
     transcribed_at: datetime | None = None
     transcript_path: Path | None = None
+    transcript_source: str | None = None  # "whisper" or "apple"
+    has_timestamps: bool = False
     analyzed: bool = False
     analyzed_at: datetime | None = None
     recommendations_count: int = 0

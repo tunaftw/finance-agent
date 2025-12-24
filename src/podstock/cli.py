@@ -194,11 +194,167 @@ def cmd_download(args: argparse.Namespace) -> int:
 def cmd_transcribe(args: argparse.Namespace) -> int:
     """Transcribe downloaded episodes."""
     from podstock.core.exceptions import TranscribeError
-    from podstock.transcribe.whisper import save_transcript, transcribe
+    from podstock.rss.manager import load_podcasts
 
     config = get_config(args.data_dir)
     config.ensure_directories()
     state = State(config.state_file)
+
+    # Handle --list-apple: show available Apple transcripts
+    if args.list_apple:
+        return _cmd_list_apple_transcripts(config)
+
+    # Handle --source apple: extract from Apple Podcasts
+    if args.source == "apple":
+        return _cmd_transcribe_apple(args, config, state)
+
+    # Default: Whisper transcription
+    return _cmd_transcribe_whisper(args, config, state)
+
+
+def _cmd_list_apple_transcripts(config: Config) -> int:
+    """List available Apple Podcast transcripts."""
+    from podstock.rss.manager import load_podcasts
+    from podstock.transcribe.apple import get_transcript_stats, list_available_transcripts
+
+    try:
+        stats = get_transcript_stats()
+    except Exception as e:
+        console.print(f"[red]✗[/red] {e}")
+        return 1
+
+    if "error" in stats:
+        console.print(f"[red]✗[/red] {stats['error']}")
+        return 1
+
+    console.print(f"\n[bold]Apple Podcasts Transcripts[/bold]")
+    console.print(f"Total in database: {stats['total_in_database']}")
+    console.print(f"Cached locally: {stats['total_cached']}")
+
+    # Show configured podcasts that have transcripts
+    podcasts = load_podcasts(config.podcasts_file)
+    configured_names = {p.name.lower() for p in podcasts}
+
+    table = Table(title="\nBy Podcast")
+    table.add_column("Podcast", style="cyan")
+    table.add_column("In Database", justify="right")
+    table.add_column("Cached", justify="right")
+    table.add_column("Configured", justify="center")
+
+    for podcast_name, counts in sorted(stats["by_podcast"].items()):
+        is_configured = any(
+            podcast_name.lower() in name or name in podcast_name.lower()
+            for name in configured_names
+        )
+        configured_mark = "[green]✓[/green]" if is_configured else ""
+        table.add_row(
+            podcast_name,
+            str(counts["total"]),
+            str(counts["cached"]),
+            configured_mark,
+        )
+
+    console.print(table)
+
+    if stats["total_cached"] == 0:
+        console.print("\n[yellow]No transcripts cached locally.[/yellow]")
+        console.print("View transcripts in Apple Podcasts app to cache them.")
+
+    return 0
+
+
+def _cmd_transcribe_apple(args: argparse.Namespace, config: Config, state: State) -> int:
+    """Extract transcripts from Apple Podcasts."""
+    from podstock.core.exceptions import TranscribeError
+    from podstock.rss.manager import get_podcast, load_podcasts
+    from podstock.transcribe.apple import (
+        extract_and_save,
+        list_available_transcripts,
+        match_to_podcast,
+    )
+
+    podcasts = load_podcasts(config.podcasts_file)
+    if not podcasts:
+        console.print("[red]✗[/red] No podcasts configured.")
+        return 1
+
+    # Filter by podcast if specified
+    if args.podcast:
+        podcast = get_podcast(args.podcast, config.podcasts_file)
+        if not podcast:
+            console.print(f"[red]✗[/red] Podcast not found: {args.podcast}")
+            return 1
+        podcasts = [podcast]
+
+    with_timestamps = not args.no_timestamps
+
+    console.print(f"\n[bold]Extracting Apple Podcast transcripts[/bold]")
+    console.print(f"Timestamps: {'Yes' if with_timestamps else 'No'}")
+
+    try:
+        transcripts = list_available_transcripts(podcasts=podcasts)
+    except TranscribeError as e:
+        console.print(f"[red]✗[/red] {e}")
+        return 1
+
+    # Filter to only cached transcripts
+    cached_transcripts = [t for t in transcripts if t.is_cached]
+
+    if not cached_transcripts:
+        console.print("[yellow]No cached transcripts found for configured podcasts.[/yellow]")
+        console.print("View transcripts in Apple Podcasts app to cache them.")
+        console.print(f"\nAvailable in database (not cached): {len(transcripts)}")
+        return 0
+
+    total_extracted = 0
+    total_skipped = 0
+
+    for transcript in cached_transcripts:
+        # Match to configured podcast
+        matched_podcast = match_to_podcast(transcript.podcast_name, podcasts)
+        if not matched_podcast:
+            continue
+
+        try:
+            transcript_path, episode_id = extract_and_save(
+                transcript=transcript,
+                transcript_dir=config.transcripts_dir,
+                podcast=matched_podcast,
+                with_timestamps=with_timestamps,
+            )
+
+            # Check if already transcribed
+            existing_status = state.get_status(episode_id)
+            if existing_status and existing_status.transcribed and not args.force:
+                console.print(f"[dim]Skipping (already transcribed): {episode_id}[/dim]")
+                total_skipped += 1
+                continue
+
+            state.mark_transcribed(
+                episode_id,
+                transcript_path,
+                source="apple",
+                has_timestamps=with_timestamps,
+            )
+
+            console.print(f"[green]✓[/green] {transcript.episode_title}")
+            console.print(f"    → {transcript_path}")
+            total_extracted += 1
+
+        except TranscribeError as e:
+            console.print(f"[red]✗[/red] {transcript.episode_title}: {e}")
+
+    console.print(f"\n[bold]Extracted {total_extracted} transcript(s)[/bold]")
+    if total_skipped > 0:
+        console.print(f"[dim]Skipped {total_skipped} (already transcribed)[/dim]")
+
+    return 0
+
+
+def _cmd_transcribe_whisper(args: argparse.Namespace, config: Config, state: State) -> int:
+    """Transcribe episodes using Whisper."""
+    from podstock.core.exceptions import TranscribeError
+    from podstock.transcribe.whisper import save_transcript, transcribe
 
     # Get episodes to transcribe
     if args.episode:
@@ -260,7 +416,7 @@ def cmd_transcribe(args: argparse.Namespace) -> int:
                 metadata={"model": model},
             )
 
-            state.mark_transcribed(episode_id, transcript_path)
+            state.mark_transcribed(episode_id, transcript_path, source="whisper")
             console.print(f"  [green]✓[/green] Saved to: {transcript_path}")
             total_transcribed += 1
 
@@ -524,6 +680,22 @@ def create_parser() -> argparse.ArgumentParser:
     transcribe_parser.add_argument("--episode", "-e", help="Specific episode ID")
     transcribe_parser.add_argument("--model", "-m", help="Whisper model to use")
     transcribe_parser.add_argument("--force", "-f", action="store_true", help="Force re-transcribe")
+    transcribe_parser.add_argument(
+        "--source", "-s",
+        choices=["whisper", "apple"],
+        default="whisper",
+        help="Transcript source (default: whisper)"
+    )
+    transcribe_parser.add_argument(
+        "--list-apple",
+        action="store_true",
+        help="List available Apple Podcast transcripts"
+    )
+    transcribe_parser.add_argument(
+        "--no-timestamps",
+        action="store_true",
+        help="Exclude timestamps from Apple transcripts"
+    )
 
     # Analyze command
     analyze_parser = subparsers.add_parser("analyze", help="Analyze transcripts")

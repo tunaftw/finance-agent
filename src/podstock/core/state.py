@@ -219,17 +219,28 @@ class State:
         status.audio_path = audio_path
         self.save()
 
-    def mark_transcribed(self, episode_id: str, transcript_path: Path) -> None:
+    def mark_transcribed(
+        self,
+        episode_id: str,
+        transcript_path: Path,
+        *,
+        source: str = "whisper",
+        has_timestamps: bool = False,
+    ) -> None:
         """Mark episode as transcribed.
 
         Args:
             episode_id: Episode identifier.
             transcript_path: Path to the transcript file.
+            source: Transcript source ('whisper' or 'apple').
+            has_timestamps: Whether transcript includes timestamps.
         """
         status = self._get_or_create_status(episode_id)
         status.transcribed = True
         status.transcribed_at = datetime.now()
         status.transcript_path = transcript_path
+        status.transcript_source = source
+        status.has_timestamps = has_timestamps
         self.save()
 
     def mark_analyzed(self, episode_id: str, recommendations_count: int) -> None:
