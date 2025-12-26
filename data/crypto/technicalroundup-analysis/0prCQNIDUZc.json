@@ -1,0 +1,141 @@
+{
+  "source_id": "0prCQNIDUZc",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-01-19",
+  "hosts": [
+    "Cred",
+    "Neck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Neck",
+      "context": "Believes BTC has topped for now, expecting pullback to 30-40k range before ATH due to ETF hype being priced in",
+      "quote": "Bitcoin has topped for a bit... there's a good chance you get to buy you know sub 40 down to you know the low mid to low 30s uh before an alltime high",
+      "price_levels": [
+        "$35,000",
+        "$44-45,000",
+        "mid-to-low 30s",
+        "sub-40,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Neck",
+      "context": "Long ETH expecting rotation vs BTC, but underperforming relative to BTC and SOL",
+      "quote": "I longed it this morning and my target is just to here at 2.74k the old high",
+      "price_levels": [
+        "$2,740",
+        "$2,700"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Neck",
+      "context": "SOL taking ETH's relevancy, outperforming with meme coins on its ecosystem",
+      "quote": "and being taken over by something like salana right and that rotation that I think everyone was waiting on to E it maybe it kind of already happened and it happened in Soul uh",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "OP",
+      "asset_name": "Optimism",
+      "sentiment": "bullish",
+      "speaker": "Neck",
+      "context": "Mentioned as long position on watch list",
+      "quote": "I'm I'm long optimism long optimism virtually um",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "PEPE",
+      "asset_name": "Pepe",
+      "sentiment": "neutral",
+      "speaker": "Neck",
+      "context": "Speculated as potential revenge pump for OG meme coins vs SOL meme coins",
+      "quote": "does Pepe get a Revenge pump oh God because we've had all of these meme coins that are on salana",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Neck",
+      "context": "Long-term bullish outlook for 2024 with halving catalyst",
+      "quote": "but overall I'm still bullish on crypto you know for this year I just think there's a good chance you get to buy um you know sub 40 down to you know the low mid to low 30s uh before an alltime high",
+      "price_levels": [
+        "all-time high"
+      ],
+      "timeframe": "long-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$35,000",
+        "$44-45,000",
+        "30s"
+      ],
+      "ETH": [
+        "$2,740",
+        "$2,700"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin expected to pull back to 30-40k range before all-time high due to ETF hype being priced in since June",
+    "GBTC outflows (potentially $20 billion) creating spot selling overhang - ETF inflows don't directly translate to $1 of buy pressure",
+    "ETH underperforming relative to BTC and SOL - rotation thesis based on 2021 cycle not yet materialized, needs BTC to stabilize first",
+    "Distribution pattern on BTC weekly/monthly suggests short-term top before next leg up toward halving",
+    "Solana ecosystem with meme coins (dog with hat, Bonk) capturing rotation that was expected for ETH"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$35,000 or low 30s on monthly",
+      "target": "new all-time high",
+      "stop": null,
+      "speaker": "Neck"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "current levels",
+      "target": "$2,740",
+      "stop": null,
+      "speaker": "Neck"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short/avoid",
+      "entry": "$44-45,000 area on potential dead cat bounce",
+      "target": "30s to take out lows",
+      "stop": null,
+      "speaker": "Neck"
+    }
+  ],
+  "summary": "Neck expects Bitcoin to pull back to the 30-40k range (with $35k being a key monthly level) after the ETF hype, viewing current structure as distributive. He's long ETH expecting it to catch up to BTC once BTC stabilizes, but SOL has been outperforming with its meme coins capturing the rotation that was expected for ETH. GBTC outflows creating spot pressure but long-term view remains bullish for crypto in 2024.",
+  "transcript_word_count": 42097,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:20:05.610267"
+}

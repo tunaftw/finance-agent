@@ -231,6 +231,27 @@ class TweetAnalysis(BaseModel):
     model_used: str = "claude-sonnet-4-20250514"
 
 
+class CollectionRun(BaseModel):
+    """Record of a single tweet collection run.
+
+    IMPORTANT: This is automatically created by api_collector.collect_source()
+    whenever tweets are downloaded. Do NOT create manually.
+
+    Attributes:
+        collected_at: When this collection was performed.
+        requested_since: Start date requested (YYYY-MM-DD), None if not specified.
+        requested_until: End date requested (YYYY-MM-DD), None if not specified.
+        tweets_added: Number of new tweets added in this run.
+        method: Collection method used ('advanced_search' or 'last_tweets').
+    """
+
+    collected_at: datetime = Field(default_factory=datetime.now)
+    requested_since: str | None = None  # YYYY-MM-DD format
+    requested_until: str | None = None  # YYYY-MM-DD format
+    tweets_added: int = 0
+    method: str = "last_tweets"  # 'advanced_search' or 'last_tweets'
+
+
 class TwitterCollectionState(BaseModel):
     """Tracks collection progress per source.
 
@@ -249,6 +270,7 @@ class TwitterCollectionState(BaseModel):
         last_error: Last error message if any.
         error_count: Total errors encountered.
         consecutive_errors: Consecutive errors (reset on success).
+        collection_history: Log of all collection runs (auto-updated by api_collector).
 
     Example:
         >>> state = TwitterCollectionState(source_id="vildkatten")
@@ -268,6 +290,7 @@ class TwitterCollectionState(BaseModel):
     last_error: str | None = None
     error_count: int = 0
     consecutive_errors: int = 0
+    collection_history: list[CollectionRun] = Field(default_factory=list)
 
 
 class TwitterSourcesFile(BaseModel):

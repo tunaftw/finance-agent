@@ -1,0 +1,128 @@
+{
+  "source_id": "E4C5vXow0qs",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-04-25",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Discussing Bitcoin's consolidation and key support levels. BTC is trading in a range between 39k and mid-40s. Monthly levels are the most reliable timeframes to watch.",
+      "quote": "I see no good reason at the moment to trade outside of the monthly time frame. It's just been so good and as long as that continues to be the case that will be my guiding light.",
+      "price_levels": [
+        "$35k-$37k",
+        "$40k",
+        "$43k-$47k",
+        "$30k",
+        "$60k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "If BTC reaches the 35-37k monthly support level, it becomes compelling for a trade. Best case scenario is reclaiming 40k and pushing toward 60k.",
+      "quote": "The best case for crypto is that it either ignites its own medium term uptrend by reclaiming this 40 odd k level and maybe there's enough juice to push us from range midpoint to range high which is to say from mid 40s closer towards 60.",
+      "price_levels": [
+        "$35k-$37k",
+        "$40k",
+        "$60k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Warning that if 30k breaks, BTC could drop significantly lower by 20-40%. Monthly levels are key - if they break without immediate reclaim, downside is substantial.",
+      "quote": "The more benign version is some sort of low volatility capitulation above into around 30k as we've discussed before... but the other scenarios suck because they involve 30k breaking and if it breaks meaningfully in ie in a way that isn't some sort of deviation or failed breakdown you know that's minus 20 30 40 on deck rather easily.",
+      "price_levels": [
+        "$30k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH is stuck below the 3k resistance level. The speaker is not interested until ETH can reclaim this level on a weekly and daily timeframe.",
+      "quote": "Someone just asks very casually what do you think of eth i'd say 3k is a big level it's currently resistance and i'm not terribly interested while that is the case.",
+      "price_levels": [
+        "$3k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "ETH would look constructive if it can trade back above and close through the 3k level, which is currently acting as resistance after being support.",
+      "quote": "For me the only thing that would make eth look constructive would be as you can imagine trading back above and closing through this multi-pivot support line now turn resistance line... eth is compelling on a weekly back above 3k at the very least",
+      "price_levels": [
+        "$3k",
+        "$4k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$35k-$37k",
+        "$40k"
+      ],
+      "ETH": [
+        "$3k"
+      ]
+    }
+  },
+  "key_insights": [
+    "Monthly timeframes are providing the most reliable trading signals for both BTC and ETH",
+    "BTC is in a consolidation between 39k and mid-40s with 35-37k as key support below",
+    "ETH is struggling at the 3k level which has flipped from support to resistance",
+    "Crypto markets remain highly correlated with S&P 500 and Nasdaq - unlikely to decouple while equities decline",
+    "Best case scenario is equities bottom or inflation peaks, allowing crypto to potentially outperform on recovery",
+    "Failed breakdown patterns would be bullish for both BTC and ETH if they can reclaim key levels"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$35k-$37k or failed breakdown below $39k-$40k",
+      "target": "$43k-$47k or $60k if range reclaim",
+      "stop": "$30k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Weekly close above $3k",
+      "target": "$4k or higher",
+      "stop": "Below $3k on daily close",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "The episode analyzes Bitcoin and Ethereum during a period of high correlation with equities. BTC is consolidating in a range with 35-37k as key support. ETH is stuck below the 3k resistance level after breaking support. The speaker expects failed breakdown patterns to develop but notes that 30k breaking for BTC would be very bearish. Monthly timeframes are providing the clearest signals.",
+  "transcript_word_count": 6341,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:21:25.017063"
+}

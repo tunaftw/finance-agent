@@ -1,0 +1,67 @@
+{
+  "source_id": "30OkajZzXBQ",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-04-11",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Monthly time frame at range midpoint acting as resistance, failed breakout pattern",
+      "quote": "This is still looking like a monthly time frame bearish retest at the moment. The bullish idea was contingent on a monthly time frame acceptance through the range midpoint into the range high... neither has taken place.",
+      "price_levels": [
+        "$44,470",
+        "$35,000-$37,000",
+        "$40,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$44,470",
+        "$35,000-$37,000",
+        "$40,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC is at monthly range midpoint resistance ($44.47k) after failing to break through",
+    "Monthly levels remain relevant - range low at 35-37k is the next target",
+    "Failed breakout pattern suggests continuation downward until support is reached",
+    "A second failed breakout at 44-46k is less likely, so reclaim would be bullish"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$35,000-$37,000",
+      "target": null,
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Above $44,000-$46,000 on reclaim",
+      "target": "$52,000+",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred provides a bearish technical analysis of BTC, noting it's at monthly range midpoint resistance ($44.47k) after a failed breakout attempt. The market has rejected key levels and moving averages, making a bearish retest likely until proven otherwise. He expects price to target monthly support at 35-37k, with 40k as a possible interim bounce area. Trading back above 44k would be bullish as a second failed breakout is less likely.",
+  "transcript_word_count": 4466,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:29:48.393713"
+}

@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import os
 import time
-from datetime import datetime
+from datetime import date, datetime
 from typing import Any
 
 import requests
@@ -130,6 +130,135 @@ class TwitterAPIClient:
         next_cursor = data.get("next_cursor") if has_more else None
 
         return tweets, next_cursor, has_more
+
+    def search_user_tweets(
+        self,
+        username: str,
+        since: date | None = None,
+        until: date | None = None,
+        cursor: str = "",
+        include_replies: bool = True,
+    ) -> tuple[list[Tweet], str | None, bool]:
+        """Search tweets from a user with date filtering via Advanced Search.
+
+        Uses the Advanced Search endpoint which supports date filtering,
+        making it more cost-effective when you only need tweets from a
+        specific time period.
+
+        Args:
+            username: Twitter username (without @).
+            since: Start date (inclusive). Format: YYYY-MM-DD.
+            until: End date (inclusive). Format: YYYY-MM-DD.
+            cursor: Pagination cursor (empty for first page).
+            include_replies: Whether to include replies.
+
+        Returns:
+            Tuple of (tweets, next_cursor, has_more).
+
+        Raises:
+            TwitterRateLimitError: If rate limited.
+            TwitterCollectionError: If request fails.
+        """
+        # Build query: from:username since:DATE until:DATE
+        query_parts = [f"from:{username.lstrip('@')}"]
+        if since:
+            query_parts.append(f"since:{since.isoformat()}_00:00:00_UTC")
+        if until:
+            query_parts.append(f"until:{until.isoformat()}_23:59:59_UTC")
+        if not include_replies:
+            query_parts.append("-filter:replies")
+
+        query = " ".join(query_parts)
+
+        url = f"{self.base_url}/twitter/tweet/advanced_search"
+        params: dict[str, Any] = {
+            "query": query,
+            "queryType": "Latest",
+        }
+        if cursor:
+            params["cursor"] = cursor
+
+        try:
+            response = self._session.get(url, params=params, timeout=self.timeout)
+        except requests.RequestException as e:
+            raise TwitterCollectionError(f"Request failed: {e}") from e
+
+        if response.status_code == 429:
+            raise TwitterRateLimitError("Rate limit exceeded")
+
+        if response.status_code != 200:
+            raise TwitterCollectionError(
+                f"API error: {response.status_code} - {response.text}"
+            )
+
+        try:
+            data = response.json()
+        except ValueError as e:
+            raise TwitterCollectionError(f"Invalid JSON response: {e}") from e
+
+        # Advanced Search has different response structure - tweets directly in response
+        # Check for error responses
+        if "error" in data:
+            raise TwitterCollectionError(f"API returned error: {data.get('error')}")
+
+        tweets_data = data.get("tweets", [])
+        tweets = [
+            self._parse_tweet(tweet_data, username)
+            for tweet_data in tweets_data
+        ]
+
+        has_more = data.get("has_next_page", False)
+        next_cursor = data.get("next_cursor") if has_more else None
+
+        return tweets, next_cursor, has_more
+
+    def collect_user_tweets_by_date(
+        self,
+        username: str,
+        since: date | None = None,
+        until: date | None = None,
+        max_tweets: int = 10000,
+        include_replies: bool = True,
+    ) -> list[Tweet]:
+        """Collect tweets from a user within a date range.
+
+        Uses Advanced Search for cost-effective date-filtered collection.
+
+        Args:
+            username: Twitter username (without @).
+            since: Start date (inclusive).
+            until: End date (inclusive).
+            max_tweets: Maximum number of tweets to collect.
+            include_replies: Whether to include replies.
+
+        Returns:
+            List of tweets (newest first).
+
+        Raises:
+            TwitterRateLimitError: If rate limited.
+            TwitterCollectionError: If collection fails.
+        """
+        all_tweets: list[Tweet] = []
+        cursor = ""
+
+        while len(all_tweets) < max_tweets:
+            tweets, next_cursor, has_more = self.search_user_tweets(
+                username, since, until, cursor, include_replies
+            )
+
+            for tweet in tweets:
+                all_tweets.append(tweet)
+                if len(all_tweets) >= max_tweets:
+                    return all_tweets
+
+            if not has_more or not next_cursor:
+                break
+
+            cursor = next_cursor
+            # Rate limit: wait between pages
+            time.sleep(5)
+
+        return all_tweets
 
     def collect_user_tweets(
         self,

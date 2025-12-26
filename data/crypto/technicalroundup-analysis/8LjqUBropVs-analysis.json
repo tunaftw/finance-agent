@@ -1,0 +1,111 @@
+{
+  "source_id": "8LjqUBropVs",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-09-12",
+  "hosts": ["Cred", "Duck"],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Bitcoin showed strong reversal signals with a weekly engulfing candle at the $20k support level and reclaimed the mid-20k range, signaling potential demand at key support",
+      "quote": "20k still acting as support and it's good to see some buying interest below those swing glow points...that's a nice weekly engulfing...suggesting some demand finally stepping in at that round number",
+      "price_levels": ["$19k", "$20k", "$22.5k", "$22.6k", "$23k", "$24.7k", "$25k", "$28k", "$30k", "$31k"],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Ethereum trading in resistance zone around $1700 ahead of merge, with CPI data considered more important than the merge itself for market impact",
+      "quote": "ether is in an area of resistance...i think cpi data is just going to be more important than the merge at this point...the market's currently pricing in just a fairly orderly successful merge",
+      "price_levels": ["$900", "$1200", "$1500", "$1700", "$1800", "$1900", "$2000"],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum to Bitcoin trading pair",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH/BTC showing resistance on monthly timeframe, trading within range as momentum slows from the bottom",
+      "quote": "this is an area of resistance and the market slowed down and stalled there versus the breakout we all wanted to see",
+      "price_levels": ["0.06", "0.07", "0.08"],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "S&P 500 bounced off support at $3900 and facing resistance around $4170, with CPI data being key catalyst",
+      "quote": "the sort of over under 3900 level on the s p acted as support sort of tick perfect to the close...first weekly level of resistance for me is 4170s",
+      "price_levels": ["$3900", "$4120", "$4170"],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "NDAQ",
+      "asset_name": "Nasdaq",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Nasdaq holding at monthly cluster support but more useful signals were when markets were at support levels before the bounce",
+      "quote": "monthly cluster is acting as support which is nice...i think the more useful period for signal was when they were at monthly and weekly support",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": ["$19k", "$20k", "$22.6k", "$23k", "$28k", "$30k"],
+      "ETH": ["$1500", "$1700", "$1800", "$2000"]
+    }
+  },
+  "key_insights": [
+    "Bitcoin showing first meaningful weekly timeframe strength in months with engulfing candle at critical $20k support",
+    "CPI data considered more important than Ethereum merge for market direction in near term",
+    "Market likely to follow legacy markets rather than crypto-specific narratives",
+    "Technical levels useful for trading but macro data in driver's seat",
+    "Better trading opportunities likely after news events rather than into them",
+    "Ethereum/BTC momentum slowing, suggesting potential rotation back to Bitcoin dominance"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$20.7k-$21k or $19k-$20k cluster on pullback",
+      "target": "$30k pre-breakdown range",
+      "stop": "$19k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$22.6k if close above range high",
+      "target": "$30k",
+      "stop": "below range if rejection",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1500s on dip",
+      "target": "$1800-$2000",
+      "stop": "$1200-$900 if bearish",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin is showing its first meaningful weekly timeframe strength in months with a bullish engulfing candle at the critical $20k support level, reclaiming the mid-20k range and signaling potential reversal. While Ethereum approaches its merge event, the speaker believes CPI data is more important than the merge itself for market direction. Technical levels provide good trading opportunities but macroeconomic data remains the key driver, with markets likely following legacy markets rather than crypto-specific narratives.",
+  "transcript_word_count": 14274,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:05:00.000000"
+}

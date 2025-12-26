@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from podstock.twitter.exceptions import TwitterStateError
-from podstock.twitter.models import TwitterCollectionState, TwitterStateFile
+from podstock.twitter.models import CollectionRun, TwitterCollectionState, TwitterStateFile
 
 
 class TwitterState:
@@ -69,6 +69,15 @@ class TwitterState:
                 if state_data.get(key):
                     state_data[key] = datetime.fromisoformat(state_data[key])
 
+            # Parse collection_history
+            if "collection_history" in state_data:
+                history = []
+                for run_data in state_data["collection_history"]:
+                    if run_data.get("collected_at"):
+                        run_data["collected_at"] = datetime.fromisoformat(run_data["collected_at"])
+                    history.append(CollectionRun(**run_data))
+                state_data["collection_history"] = history
+
             sources[source_id] = TwitterCollectionState(
                 source_id=source_id, **state_data
             )
@@ -99,6 +108,16 @@ class TwitterState:
             for key in ["last_collected_at", "last_processed_at"]:
                 if state_dict.get(key):
                     state_dict[key] = state_dict[key].isoformat()
+
+            # Serialize collection_history
+            if "collection_history" in state_dict:
+                serialized_history = []
+                for run in state_dict["collection_history"]:
+                    if run.get("collected_at"):
+                        run["collected_at"] = run["collected_at"].isoformat()
+                    serialized_history.append(run)
+                state_dict["collection_history"] = serialized_history
+
             sources_data[source_id] = state_dict
 
         data = {
@@ -215,8 +234,17 @@ class TwitterState:
         tweet_count: int,
         oldest_tweet_id: str | None = None,
         collection_complete: bool = False,
+        # Collection run parameters - ALWAYS pass these when collecting
+        tweets_added: int = 0,
+        requested_since: str | None = None,  # YYYY-MM-DD
+        requested_until: str | None = None,  # YYYY-MM-DD
+        collection_method: str = "last_tweets",
     ) -> None:
         """Mark source as having been collected.
+
+        IMPORTANT: This method automatically logs the collection run to history.
+        Always pass tweets_added, requested_since, requested_until when collecting
+        to maintain accurate history for auditing.
 
         Args:
             source_id: Source identifier.
@@ -224,6 +252,10 @@ class TwitterState:
             tweet_count: Total tweets now collected.
             oldest_tweet_id: Oldest tweet ID if known.
             collection_complete: Whether timeline end was reached.
+            tweets_added: Number of NEW tweets added in this run.
+            requested_since: Date filter used (YYYY-MM-DD), None if not filtered.
+            requested_until: Date filter used (YYYY-MM-DD), None if not filtered.
+            collection_method: 'advanced_search' or 'last_tweets'.
         """
         state = self._get_or_create_state(source_id)
         state.last_collected_at = datetime.now()
@@ -235,6 +267,16 @@ class TwitterState:
             state.oldest_tweet_id = oldest_tweet_id
         if collection_complete:
             state.collection_complete = True
+
+        # Always log collection run to history (even if 0 tweets added)
+        collection_run = CollectionRun(
+            collected_at=datetime.now(),
+            requested_since=requested_since,
+            requested_until=requested_until,
+            tweets_added=tweets_added,
+            method=collection_method,
+        )
+        state.collection_history.append(collection_run)
 
         self.save()
 

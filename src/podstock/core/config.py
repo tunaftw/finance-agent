@@ -74,12 +74,29 @@ class Config:
         """Path to podcasts.json."""
         return self.data_dir / "podcasts.json"
 
+    @property
+    def lists_file(self) -> Path:
+        """Path to lists.json for podcast list management."""
+        return self.data_dir / "lists.json"
+
+    @property
+    def reports_prompts_dir(self) -> Path:
+        """Directory for generated LLM prompts."""
+        return self.reports_dir / "prompts"
+
+    @property
+    def reports_summaries_dir(self) -> Path:
+        """Directory for generated summary reports."""
+        return self.reports_dir / "summaries"
+
     def ensure_directories(self) -> None:
         """Create all required directories if they don't exist."""
         self.audio_dir.mkdir(parents=True, exist_ok=True)
         self.transcripts_dir.mkdir(parents=True, exist_ok=True)
         self.recommendations_dir.mkdir(parents=True, exist_ok=True)
         self.reports_dir.mkdir(parents=True, exist_ok=True)
+        self.reports_prompts_dir.mkdir(parents=True, exist_ok=True)
+        self.reports_summaries_dir.mkdir(parents=True, exist_ok=True)
 
 
 # Default configuration values

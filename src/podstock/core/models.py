@@ -27,6 +27,8 @@ class Podcast(BaseModel):
         twitter: Optional Twitter handle.
         added_at: When the podcast was added.
         active: Whether to include in processing.
+        transcript_source: Preferred transcript source ('apple', 'whisper', 'auto').
+            'auto' tries Apple first, falls back to Whisper.
 
     Example:
         >>> podcast = Podcast(
@@ -47,6 +49,7 @@ class Podcast(BaseModel):
     twitter: str | None = None
     added_at: datetime = Field(default_factory=datetime.now)
     active: bool = True
+    transcript_source: str = "auto"  # "apple", "whisper", or "auto"
 
 
 class Episode(BaseModel):
@@ -149,6 +152,9 @@ class EpisodeStatus(BaseModel):
 
     Attributes:
         episode_id: ID of the episode.
+        podcast_id: ID of the parent podcast.
+        title: Episode title.
+        published_at: When the episode was published (for time-based filtering).
         downloaded: Whether audio has been downloaded.
         downloaded_at: When audio was downloaded.
         audio_path: Path to downloaded audio file.
@@ -168,6 +174,9 @@ class EpisodeStatus(BaseModel):
     """
 
     episode_id: str = Field(..., min_length=1)
+    podcast_id: str | None = None  # Parent podcast ID
+    title: str | None = None  # Episode title
+    published_at: datetime | None = None  # Publication date for time filtering
     downloaded: bool = False
     downloaded_at: datetime | None = None
     audio_path: Path | None = None

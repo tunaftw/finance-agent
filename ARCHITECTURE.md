@@ -1,11 +1,13 @@
 # PodStock – Architecture Document
 
-**Version:** 1.0  
-**Datum:** 2024-12-21
+**Version:** 2.0
+**Datum:** 2025-12-26
 
 ---
 
 ## 1. System Overview
+
+### 1.1 Historisk Analys (manuellt flöde)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -51,6 +53,44 @@
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+### 1.2 Real-time Monitoring (automatiserat flöde)
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                      Real-time Monitoring                        │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ┌──────────────┐                                               │
+│  │    Lists     │ ◀── broad / niche / custom                    │
+│  │   Manager    │                                               │
+│  └──────┬───────┘                                               │
+│         │                                                       │
+│         ▼                                                       │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐      │
+│  │    Sync      │───▶│    Apple     │ or │   Whisper    │      │
+│  │ Orchestrator │    │  Podcasts    │    │ Transcriber  │      │
+│  └──────┬───────┘    └──────────────┘    └──────────────┘      │
+│         │                                                       │
+│         ▼                                                       │
+│  ┌──────────────┐                                               │
+│  │    State     │ ◀── published_at, podcast_id, title          │
+│  │   Manager    │                                               │
+│  └──────┬───────┘                                               │
+│         │                                                       │
+│         ▼                                                       │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐      │
+│  │   Summary    │───▶│    Data      │───▶│   Prompt     │      │
+│  │  Generator   │    │   Loader     │    │   Builder    │      │
+│  └──────────────┘    └──────────────┘    └──────────────┘      │
+│         │                                                       │
+│         ▼                                                       │
+│  ┌──────────────────────────────────────────────────────┐      │
+│  │  Claude Code (tokens)  OR  Opencode/GLM-4.7 (gratis) │      │
+│  └──────────────────────────────────────────────────────┘      │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
 ---
 
 ## 2. Directory Structure
@@ -58,12 +98,8 @@
 ```
 podstock/
 ├── README.md                    # Quick start guide
-├── PRD.md                       # Product requirements (reference)
 ├── ARCHITECTURE.md              # This file
-├── IMPLEMENTATION.md            # Implementation checklist
-├── CONVENTIONS.md               # Coding conventions
 ├── pyproject.toml               # Project configuration
-├── requirements.txt             # Dependencies
 │
 ├── src/
 │   └── podstock/
@@ -71,59 +107,98 @@ podstock/
 │       ├── __main__.py          # Entry point: python -m podstock
 │       ├── cli.py               # CLI commands (argparse)
 │       │
-│       ├── core/
-│       │   ├── __init__.py
-│       │   ├── config.py        # Configuration management
-│       │   ├── state.py         # State/progress tracking
-│       │   └── models.py        # Pydantic data models
+│       ├── core/                # Kärnfunktionalitet
+│       │   ├── config.py        # Konfigurationshantering
+│       │   ├── state.py         # Tillståndsspårning
+│       │   ├── models.py        # Pydantic-modeller
+│       │   └── exceptions.py    # Undantag
 │       │
-│       ├── rss/
-│       │   ├── __init__.py
-│       │   ├── parser.py        # RSS feed parsing
-│       │   └── downloader.py    # Audio file downloading
+│       ├── rss/                 # RSS-hantering
+│       │   ├── parser.py        # RSS-parsing
+│       │   ├── downloader.py    # Ljudnedladdning
+│       │   └── manager.py       # Podcast CRUD
 │       │
-│       ├── transcribe/
-│       │   ├── __init__.py
-│       │   └── whisper.py       # mlx-whisper integration
+│       ├── transcribe/          # Transkribering
+│       │   ├── whisper.py       # mlx-whisper integration
+│       │   └── apple.py         # Apple Podcasts transcripts
 │       │
-│       ├── analyze/
-│       │   ├── __init__.py
-│       │   ├── prompt_builder.py  # Generate Claude prompts
-│       │   └── result_parser.py   # Parse Claude responses
+│       ├── analyze/             # Analys
+│       │   ├── prompt_builder.py  # Claude prompts
+│       │   └── result_parser.py   # Resultatparsning
 │       │
-│       └── report/
-│           ├── __init__.py
-│           └── markdown.py      # Markdown report generator
+│       ├── report/              # Rapportgenerering
+│       │   └── markdown.py      # Markdown-rapporter
+│       │
+│       ├── lists/               # NYA: List-hantering
+│       │   ├── models.py        # PodcastList, ListsFile
+│       │   └── manager.py       # CRUD för listor
+│       │
+│       ├── sync/                # NYA: Synkronisering
+│       │   ├── models.py        # SyncSummary, EpisodeSyncResult
+│       │   └── orchestrator.py  # SyncOrchestrator
+│       │
+│       ├── reports/             # NYA: Sammanfattningar
+│       │   ├── models.py        # SummaryConfig, ReportData
+│       │   ├── prompts.py       # LLM prompt-templates
+│       │   ├── data_loader.py   # ReportDataLoader
+│       │   └── generator.py     # SummaryReportGenerator
+│       │
+│       ├── extract/             # AI-extraktion
+│       │   ├── process_transcript.py
+│       │   ├── batch_runner.py
+│       │   ├── search.py
+│       │   └── build_index.py
+│       │
+│       ├── summary/             # Gäst-sammanfattning
+│       │   └── generator.py
+│       │
+│       ├── twitter/             # Twitter/X-integration
+│       │   ├── manager.py
+│       │   ├── api_collector.py
+│       │   ├── storage.py
+│       │   └── state.py
+│       │
+│       ├── youtube/             # YouTube-integration
+│       │   └── ...
+│       │
+│       └── crypto/              # Crypto-sentiment
+│           └── ...
 │
-├── prompts/
-│   └── analyze_transcript.md    # Template for Claude analysis
-│
-├── data/                        # All runtime data (gitignored)
-│   ├── config.json              # User configuration
-│   ├── state.json               # Processing state
-│   ├── podcasts.json            # Podcast definitions
+├── data/                        # Runtime-data (gitignored audio)
+│   ├── config.json              # Användarkonfiguration
+│   ├── state.json               # Processingsstatus
+│   ├── podcasts.json            # Podcast-definitioner
+│   ├── lists.json               # NYA: Podcast-listor
 │   │
-│   ├── audio/                   # Downloaded audio files
+│   ├── audio/                   # Nedladdade ljudfiler
 │   │   └── {podcast_id}/
 │   │       └── {episode_id}.mp3
 │   │
-│   ├── transcripts/             # Transcribed text
+│   ├── transcripts/             # Transkript
 │   │   └── {podcast_id}/
 │   │       └── {episode_id}.txt
 │   │
-│   ├── recommendations/         # Extracted recommendations
-│   │   └── {podcast_id}/
-│   │       └── {episode_id}.json
+│   ├── extracted/               # AI-extraherad data
+│   │   └── recommendations.json
 │   │
-│   └── reports/                 # Generated reports
-│       └── report_2024-12-21.md
+│   └── reports/                 # Genererade rapporter
+│       ├── prompts/             # NYA: LLM-prompts
+│       │   ├── YYYY-MM-DD-broad-prompt.md
+│       │   └── YYYY-MM-DD-broad-opencode.json
+│       └── summaries/           # NYA: Sammanfattningar
+│           └── YYYY-MM-DD-summary.md
+│
+├── .claude/commands/            # NYA: Claude Code skills
+│   ├── sync.md                  # /sync skill
+│   └── summary.md               # /summary skill
+│
+├── docs/                        # Dokumentation
+│   ├── REAL-TIME-MONITORING.md
+│   ├── CLI-REFERENCE.md
+│   └── ...
 │
 └── tests/
-    ├── __init__.py
-    ├── test_rss_parser.py
-    ├── test_models.py
-    └── fixtures/
-        └── sample_rss.xml
+    └── ...
 ```
 
 ---
@@ -254,6 +329,103 @@ def generate_report(
 ) -> None
 ```
 
+### 3.11 `lists/manager.py` – List-hantering (NY)
+Ansvar: CRUD-operationer för podcast-listor
+
+```python
+class ListManager:
+    def create_list(list_id, name, list_type, description) -> PodcastList
+    def get_list(list_id) -> PodcastList | None
+    def get_all_lists() -> list[PodcastList]
+    def add_podcast_to_list(list_id, podcast_id) -> bool
+    def remove_podcast_from_list(list_id, podcast_id) -> bool
+    def delete_list(list_id) -> bool
+```
+
+### 3.12 `lists/models.py` – List-modeller (NY)
+Ansvar: Datamodeller för podcast-listor
+
+```python
+class PodcastList(BaseModel):
+    id: str
+    name: str
+    description: str | None
+    type: Literal["broad", "niche", "custom"]
+    podcast_ids: list[str]
+    created_at: datetime
+    active: bool
+
+class ListsFile(BaseModel):
+    version: int
+    updated_at: datetime
+    lists: list[PodcastList]
+```
+
+### 3.13 `sync/orchestrator.py` – Sync-orkestrering (NY)
+Ansvar: Koordinera hämtning och transkribering av nya avsnitt
+
+```python
+class SyncOrchestrator:
+    def sync_podcast(podcast, latest_n, force, dry_run) -> list[EpisodeSyncResult]
+    def sync_list(list_id, latest_n, force, dry_run) -> SyncSummary
+    def sync_all(latest_n, force, dry_run) -> SyncSummary
+```
+
+### 3.14 `sync/models.py` – Sync-modeller (NY)
+Ansvar: Resultatmodeller för synkronisering
+
+```python
+class EpisodeSyncResult(BaseModel):
+    episode_id: str
+    podcast_id: str
+    title: str
+    published_at: datetime
+    status: Literal["synced", "skipped", "failed"]
+    transcript_source: Literal["apple", "whisper"] | None
+    error: str | None
+
+class SyncSummary(BaseModel):
+    started_at: datetime
+    completed_at: datetime | None
+    podcasts_checked: int
+    new_episodes: int
+    transcribed: int
+    failed: int
+    errors: list[str]
+    episodes: list[EpisodeSyncResult]
+```
+
+### 3.15 `reports/generator.py` – Sammanfattningsgenerator (NY)
+Ansvar: Generera periodiska sammanfattningar
+
+```python
+class SummaryReportGenerator:
+    def prepare_for_claude_code(start_date, end_date, list_id, report_type) -> Path
+    def prepare_for_opencode(start_date, end_date, list_id, report_type) -> Path
+    def get_available_data(start_date, end_date, list_id) -> dict
+    def save_report(content, output_path) -> Path
+```
+
+### 3.16 `reports/data_loader.py` – Dataladdning (NY)
+Ansvar: Ladda och förbereda data för sammanfattningar
+
+```python
+class ReportDataLoader:
+    def load_for_period(start_date, end_date, list_id) -> ReportData
+    def _load_transcripts(episodes) -> dict[str, str]
+    def _load_recommendations(podcast_ids) -> list[dict]
+```
+
+### 3.17 `reports/prompts.py` – LLM-prompts (NY)
+Ansvar: Prompt-templates för sammanfattningsgenerering
+
+```python
+BROAD_SUMMARY_SYSTEM: str   # System-prompt för bred analys
+BROAD_SUMMARY_USER: str     # User-prompt för bred analys
+DETAILED_SUMMARY_SYSTEM: str # System-prompt för detaljerad analys
+DETAILED_SUMMARY_USER: str   # User-prompt för detaljerad analys
+```
+
 ---
 
 ## 4. Data Flow
@@ -293,6 +465,41 @@ def generate_report(
 9. State updated
 ```
 
+### 4.4 Sync Flow (NY)
+```
+1. User: podstock sync --list broad --latest 2
+2. CLI loads ListManager, gets podcasts in list
+3. For each podcast:
+   a. RSS Parser fetches latest episodes
+   b. State checks which episodes exist
+   c. For new episodes:
+      i.  If transcript_source == "auto" or "apple":
+          - Try Apple Podcasts cache
+          - If found: save transcript, update state
+      ii. If Apple not available and source != "apple":
+          - Download audio
+          - Whisper transcribes
+          - Save transcript, update state
+   d. Track result (synced/skipped/failed)
+4. SyncSummary returned
+5. CLI prints summary
+```
+
+### 4.5 Summary Flow (NY)
+```
+1. User: podstock summary prepare --from 2025-12-20 --to 2025-12-26
+2. CLI creates SummaryReportGenerator
+3. ReportDataLoader:
+   a. Gets podcasts from list
+   b. Gets episodes in date range from State
+   c. Loads transcripts from files
+   d. Loads recommendations from extracted/
+4. Prompt Builder creates LLM prompt
+5. Prompt saved to data/reports/prompts/
+6. User runs prompt in Claude Code or Opencode
+7. User saves result: podstock summary save --output rapport.md
+```
+
 ---
 
 ## 5. State Management
@@ -301,24 +508,56 @@ def generate_report(
 ```json
 {
   "version": 1,
-  "last_updated": "2024-12-21T14:30:00Z",
+  "last_updated": "2025-12-26T14:30:00Z",
   "episodes": {
-    "bp-2024-12-18": {
+    "borspodden-2025-12-20-abc1": {
+      "podcast_id": "borspodden",
+      "title": "Avsnitt 600: Julspecial",
+      "published_at": "2025-12-20T10:00:00Z",
       "downloaded": true,
-      "downloaded_at": "2024-12-21T10:00:00Z",
-      "audio_path": "data/audio/borspodden/bp-2024-12-18.mp3",
+      "downloaded_at": "2025-12-21T10:00:00Z",
+      "audio_path": "data/audio/borspodden/borspodden-2025-12-20-abc1.mp3",
       "transcribed": true,
-      "transcribed_at": "2024-12-21T10:15:00Z",
-      "transcript_path": "data/transcripts/borspodden/bp-2024-12-18.txt",
+      "transcribed_at": "2025-12-21T10:15:00Z",
+      "transcript_path": "data/transcripts/borspodden/borspodden-2025-12-20-abc1.txt",
+      "transcript_source": "apple",
       "analyzed": true,
-      "analyzed_at": "2024-12-21T14:30:00Z",
+      "analyzed_at": "2025-12-21T14:30:00Z",
       "recommendations_count": 3
     }
   }
 }
 ```
 
-### 5.2 Idempotens-regler
+### 5.2 List File Format (`data/lists.json`) (NY)
+```json
+{
+  "version": 1,
+  "updated_at": "2025-12-26T12:00:00Z",
+  "lists": [
+    {
+      "id": "broad",
+      "name": "Bred Analys",
+      "description": "Alla podcasts för övergripande marknadsöversikt",
+      "type": "broad",
+      "podcast_ids": ["borspodden", "marketmakers", "aktiepodden"],
+      "created_at": "2025-12-26T12:00:00Z",
+      "active": true
+    },
+    {
+      "id": "niche",
+      "name": "Detaljerad Analys",
+      "description": "Utvalda podcasts för djupanalys",
+      "type": "niche",
+      "podcast_ids": ["borsensfinest", "fillorkill"],
+      "created_at": "2025-12-26T12:00:00Z",
+      "active": true
+    }
+  ]
+}
+```
+
+### 5.3 Idempotens-regler
 1. Innan nedladdning: kolla om filen finns OCH har rätt storlek
 2. Innan transkribering: kolla om transkript finns OCH är non-empty
 3. Innan analys: kolla state, fråga användaren om re-run

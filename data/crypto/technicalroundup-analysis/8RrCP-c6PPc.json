@@ -1,0 +1,152 @@
+{
+  "source_id": "8RrCP-c6PPc",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-02-23",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "BTC is grinding at weekly/monthly range high resistance, making altcoin trading difficult. Waiting for breakout or pullback to $20K midpoint before being aggressive with alts.",
+      "quote": "piling into altcoins at BTC resistance and the reason I say that is you know if the market breaks out then we can make an argument for momentum continuation across the board including altcoins",
+      "price_levels": [
+        "$20K"
+      ],
+      "timeframe": null,
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH at monthly range high ($1680), attempted breakout but making lower low closes, indicating weak structure at resistance.",
+      "quote": "eth also tried to break out and has just been making lower low closes for the time being that doesn't mean it can't ultimately consolidate and then break up but it just means it's not the clear setup",
+      "price_levels": [
+        "$1680"
+      ],
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "AVAX",
+      "asset_name": "Avalanche",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Clean daily level at $21.30 acting as support/resistance pivot. Daily close above would signal continuation with target toward $27.",
+      "quote": "if it closes above that and the rest of the market doesn't look a total scam I think there's a decent continuation trade",
+      "price_levels": [
+        "$21.30",
+        "$27",
+        "$15"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "GRT",
+      "asset_name": "The Graph",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Holding support at $0.14-0.15 range high after ugly candle, good structure with clear resistance at $0.30. Large upside potential if support holds.",
+      "quote": "didn't lead to a nuke and since then we've had daily sort of weekly closes and the retest of that support level for the time being structurally looks fine again",
+      "price_levels": [
+        "$0.14-$0.15",
+        "$0.30"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LDO",
+      "asset_name": "Lido",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Weekly range break at $2.60-2.70 with successful retest. Support level at $1.60. Good risk/reward if retest holds.",
+      "quote": "close above this week we had a retest so that's good structurally that looks fine essentially you've got a clear retest level",
+      "price_levels": [
+        "$2.60-$2.70",
+        "$1.60",
+        "$2.20"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "OP",
+      "asset_name": "Optimism",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Trading within $2.00-$2.30 cluster. Prefer trading at range low ($2.30) rather than current levels. Watch response to Coinbase L2 news for risk appetite read.",
+      "quote": "contextually and not the most attractive spot to do business I think if the rest of the market nukes and you get a chance to trade it at the range low that would be quite attractive",
+      "price_levels": [
+        "$2.00-$2.30",
+        "$2.70"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "DOT",
+      "asset_name": "Polkadot",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Weekly range low reclaim at $6.87 with bullish engulfing candle. Retesting former resistance as support with potential toward $9 range high.",
+      "quote": "last week was a pretty bullish close back through it specifically a weekly engulfing candle which spiked previous week's low and closed above previous week's high",
+      "price_levels": [
+        "$6.87",
+        "$9.00"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$20K"
+      ],
+      "ETH": [
+        "$1680"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC grinding at resistance makes altcoin trading tricky - three scenarios: breakout (good), pullback to $20K (dip buy opportunity), or resistance grind (worst for alts)",
+    "ETH showing weak structure at monthly range high with lower lows",
+    "Five altcoins at key inflection points with clear levels: AVAX ($21.30), GRT ($0.14-0.15), LDO ($2.60-2.70), OP ($2.30 range low), DOT ($6.87)",
+    "Approach is to use these levels for short-term trading regardless of directional bias",
+    "Optimism's response to Coinbase L2 news will reveal broader risk appetite among altcoins"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "AVAX",
+      "direction": "long",
+      "entry": "Daily close above $21.30",
+      "target": "$27",
+      "stop": "Not specified",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "DOT",
+      "direction": "long",
+      "entry": "Daily close above $6.80",
+      "target": "$9",
+      "stop": "$6.30",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes altcoins while BTC grinds at weekly/monthly resistance, noting this is the worst of three scenarios for altcoin trading. Five altcoins (AVAX, GRT, LDO, OP, DOT) have clear technical levels for short-term trading. Overall sentiment is neutral - waiting for BTC breakout or pullback before getting aggressive with alts, but enough volatility exists for short-term trades at key inflection points.",
+  "transcript_word_count": 10190,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:57:34.996031"
+}

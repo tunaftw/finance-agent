@@ -1,0 +1,142 @@
+{
+  "source_id": "0_F6GnODfTs",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-07-10",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Market is stuck in a tight range around $30k fair value. Above 30k gets sold, below gets bought. Not compelling for breakout trading due to weekly/monthly resistance above.",
+      "quote": "BTC 30k is fair value we seem to have fixed it above it it gets sold below it gets bought us worth watching who's being aggressive and are they being rewarded",
+      "price_levels": [
+        "$29,800",
+        "$31,000",
+        "$32,200-$32,300",
+        "$35,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "No weekly close above $1935 resistance after 18 months. Making lower highs and lower lows. Hard to justify trading ETH over BTC.",
+      "quote": "it's hard to make the bullish case for eptc it's been trending down for so long and sort of just breaking and re-testing levels",
+      "price_levels": [
+        "$1,800",
+        "$1,820-$1,790",
+        "$1,910",
+        "$1,935",
+        "$2,500"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Halving risk is high as market may have already priced in upside. Failed breakout above $100 with sell the news pressure.",
+      "quote": "I think the halving risk with Litecoin is on the higher side now that there's a real likelihood that the market has already done all enjoyed all the upside that's to be had from the halving",
+      "price_levels": [
+        "$100"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Had good reaction from weekly level but hasn't made higher high. Retesting origin of SEC candle dump which tends to be resistance.",
+      "quote": "for the time being it's a bit tricky because it's just retesting the origin of the dump and that tends to be resistance more often than not",
+      "price_levels": [
+        "$26",
+        "$30"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BNB",
+      "asset_name": "Binance Coin",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "Defending critical $210-220 level. Market using BNB as proxy for Binance's health. Breakdown would be concerning.",
+      "quote": "I think a lot of the market is sort of Fairly worried that if BNB dumps through this level there isn't a ton of structure built up after these Mega three impulsive bull market weeks",
+      "price_levels": [
+        "$210-$220"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$29,800",
+        "$31,000",
+        "$32,200",
+        "$35,000"
+      ],
+      "ETH": [
+        "$1,800",
+        "$1,935",
+        "$2,500"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC is stuck at $30k fair value - buyers show up below it, sellers above it",
+    "ETH resistance at $1,935 remains unbroken after 18 months of trying",
+    "LTC halving may already be priced in with significant sell the news risk",
+    "SOL needs to make a higher high above previous SEC candle level for bullish structure",
+    "BNB at $210-220 critical support level being watched as proxy for Binance health",
+    "Market waiting for either break with continuation or failed breakdown to provide trading opportunities",
+    "Limited compelling setups in altcoins while BTC is weak"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Failed breakdown at $29,800 or lower",
+      "target": "$31,000+",
+      "stop": "Below range",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "Failed breakout at $31,000+",
+      "target": "$29,800 or through range",
+      "stop": "Above breakout level",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Failed breakdown at $1,800 support cluster",
+      "target": "$1,910 resistance",
+      "stop": "Below $1,790",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC remains stuck in a tight range around $30k fair value, with sellers showing up above and buyers below. ETH continues to struggle at $1,935 resistance after 18 months, making lower highs and lows. Altcoins generally lack compelling setups with LTC facing halving sell-the-news pressure, SOL at resistance, and BNB defending critical $210-220 level. Market waiting for aggressive moves either breaking ranges with continuation or failed breakdowns to provide trading opportunities.",
+  "transcript_word_count": 13096,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:19:14.547162"
+}

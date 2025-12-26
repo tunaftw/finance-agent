@@ -7,7 +7,7 @@ the existing storage and state management systems.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 from podstock.twitter.api_client import TwitterAPIClient
@@ -88,6 +88,8 @@ class TwitterAPICollector:
         max_tweets: int = 500,
         include_replies: bool = False,
         incremental: bool = True,
+        since: date | None = None,
+        until: date | None = None,
     ) -> CollectionResult:
         """Collect tweets from a single source.
 
@@ -96,6 +98,8 @@ class TwitterAPICollector:
             max_tweets: Maximum tweets to collect.
             include_replies: Whether to include replies.
             incremental: If True, only fetch tweets newer than last collection.
+            since: Start date for date-filtered collection (uses Advanced Search).
+            until: End date for date-filtered collection (uses Advanced Search).
 
         Returns:
             CollectionResult with collection statistics.
@@ -104,6 +108,13 @@ class TwitterAPICollector:
             >>> result = collector.collect_source("vildkatten", max_tweets=100)
             >>> if result.success:
             ...     print(f"Got {result.tweets_collected} tweets")
+            >>> # With date filter (uses Advanced Search - more cost effective)
+            >>> from datetime import date
+            >>> result = collector.collect_source(
+            ...     "vildkatten",
+            ...     since=date(2024, 1, 1),
+            ...     until=date(2025, 12, 31)
+            ... )
         """
         result = CollectionResult(source_id=source_id)
 
@@ -111,16 +122,25 @@ class TwitterAPICollector:
         source_state = self.state.get_or_create_state(source_id)
         existing_ids = self.storage.get_tweet_ids(source_id)
 
-        # Determine since_id for incremental collection
-        since_id = source_state.last_tweet_id if incremental else None
-
         try:
-            tweets = self.client.collect_user_tweets(
-                username=source_id,
-                max_tweets=max_tweets,
-                since_id=since_id,
-                include_replies=include_replies,
-            )
+            # Use date-filtered collection if dates provided
+            if since or until:
+                tweets = self.client.collect_user_tweets_by_date(
+                    username=source_id,
+                    since=since,
+                    until=until,
+                    max_tweets=max_tweets,
+                    include_replies=include_replies,
+                )
+            else:
+                # Determine since_id for incremental collection
+                since_id = source_state.last_tweet_id if incremental else None
+                tweets = self.client.collect_user_tweets(
+                    username=source_id,
+                    max_tweets=max_tweets,
+                    since_id=since_id,
+                    include_replies=include_replies,
+                )
         except TwitterRateLimitError as e:
             result.error = f"Rate limited: {e}"
             self.state.mark_error(source_id, result.error)
@@ -130,8 +150,24 @@ class TwitterAPICollector:
             self.state.mark_error(source_id, result.error)
             return result
 
+        # Determine collection method for logging
+        collection_method = "advanced_search" if (since or until) else "last_tweets"
+        requested_since = since.isoformat() if since else None
+        requested_until = until.isoformat() if until else None
+
         if not tweets:
             result.is_complete = True
+            # Still log the collection run even with 0 tweets
+            self.state.mark_collected(
+                source_id=source_id,
+                last_tweet_id=source_state.last_tweet_id or "",
+                tweet_count=source_state.tweet_count,
+                collection_complete=True,
+                tweets_added=0,
+                requested_since=requested_since,
+                requested_until=requested_until,
+                collection_method=collection_method,
+            )
             return result
 
         # Filter out duplicates
@@ -152,7 +188,8 @@ class TwitterAPICollector:
         # Update total count
         result.total_tweets = len(existing_ids) + result.tweets_collected
 
-        # Update state
+        # Update state with collection history
+        # IMPORTANT: Always log collection run for audit trail
         if new_tweets:
             self.state.mark_collected(
                 source_id=source_id,
@@ -160,9 +197,14 @@ class TwitterAPICollector:
                 tweet_count=result.total_tweets,
                 oldest_tweet_id=result.oldest_id,
                 collection_complete=result.is_complete,
+                # Collection history parameters
+                tweets_added=result.tweets_collected,
+                requested_since=requested_since,
+                requested_until=requested_until,
+                collection_method=collection_method,
             )
         elif result.is_complete:
-            # Mark complete even if no new tweets
+            # Mark complete even if no new tweets (still log the run)
             current_state = self.state.get_state(source_id)
             if current_state:
                 self.state.mark_collected(
@@ -170,6 +212,10 @@ class TwitterAPICollector:
                     last_tweet_id=current_state.last_tweet_id or "",
                     tweet_count=current_state.tweet_count,
                     collection_complete=True,
+                    tweets_added=0,
+                    requested_since=requested_since,
+                    requested_until=requested_until,
+                    collection_method=collection_method,
                 )
 
         return result
@@ -240,6 +286,9 @@ def collect_tweets(
     max_tweets: int = 500,
     api_key: str | None = None,
     data_dir: Path | None = None,
+    since: date | None = None,
+    until: date | None = None,
+    include_replies: bool = True,
 ) -> CollectionResult:
     """Convenience function to collect tweets from a source.
 
@@ -248,6 +297,9 @@ def collect_tweets(
         max_tweets: Maximum tweets to collect.
         api_key: API key (optional, uses env var).
         data_dir: Data directory (optional, uses 'data').
+        since: Start date for date-filtered collection.
+        until: End date for date-filtered collection.
+        include_replies: Whether to include replies.
 
     Returns:
         CollectionResult with statistics.
@@ -255,6 +307,19 @@ def collect_tweets(
     Example:
         >>> result = collect_tweets("vildkatten", max_tweets=100)
         >>> print(f"Collected {result.tweets_collected} tweets")
+        >>> # With date filter
+        >>> from datetime import date
+        >>> result = collect_tweets(
+        ...     "vildkatten",
+        ...     since=date(2024, 1, 1),
+        ...     until=date(2025, 12, 31)
+        ... )
     """
     collector = TwitterAPICollector(api_key=api_key, data_dir=data_dir)
-    return collector.collect_source(source_id, max_tweets=max_tweets)
+    return collector.collect_source(
+        source_id,
+        max_tweets=max_tweets,
+        since=since,
+        until=until,
+        include_replies=include_replies,
+    )

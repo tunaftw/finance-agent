@@ -1,0 +1,67 @@
+{
+  "episode_id": "veckanstrade-2025-12-10-1214",
+  "podcast_name": "Veckans Trade",
+  "episode_title": "34. Traden som krävde en p-bot",
+  "episode_number": 34,
+  "date": "2025-12-10",
+  "hosts": ["Oidentifierad host"],
+  "guests": ["Long Terms"],
+  "main_topics": [
+    "Biotech trading strategi",
+    "Decote Pharma short trade",
+    "Fas 1/2A/2B/3 studier förklarade",
+    "Contrarian trading",
+    "Surgical Science dipp-köp",
+    "Livet som heltids-trader"
+  ],
+  "stocks_discussed": [
+    "Decote Pharma", "Surgical Science", "Guard Therapeutics", "Cambio",
+    "Sinch", "Trukollen", "Electa", "Getinge", "Bonesupport", "BIA"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Decote Pharma",
+      "ticker": "DKOT",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Long Terms",
+      "speaker_role": "guest",
+      "timestamp": "varies",
+      "reasoning": "Fas 2 studie failade - klarade inte primär endpoint på 4 veckor. Cherrypickade data genom att slå ihop 25+50mg grupper på 8 veckor. Tog lån för att korta, aktien gick från 1.20 till 0.30.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "De har ju inte klarat studien. De har ju misslyckats med det de skulle göra. Och sen tar de då och hittar på att de har klarat det på en längre period.",
+      "sector": "pharma",
+      "market": "sweden"
+    },
+    {
+      "stock_name": "Surgical Science",
+      "ticker": "SUS",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Long Terms",
+      "speaker_role": "guest",
+      "timestamp": "varies",
+      "reasoning": "Köpte på -68% öppning. EV 400 MSEK där. Fondflöden och stoppar pressade kursen. Best execution order bara ville ur oavsett pris.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Suus var nere på typ ev 400 miljoner kronor där med min svett på 24. De bästa lagren kommer när de flesta är rädda.",
+      "sector": "healthcare",
+      "market": "sweden"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Intervju med Long Terms - biotech-specialist och heltidstrader i 6 år. Bästa året pengamässigt. Förklarar biotech-faser: Fas 1 säkerhet, Fas 2A effekt, Fas 2B placebo-kontrollerad (där det blir intressant), Fas 3 stor studie. Decote Pharma kortas hårt - failade fas 2 men skrev positivt PM genom cherrypicking. Tog lån för att korta, aktien 1.20→0.30. Surgical Science köptes på -68% öppning, EV 400 MSEK. Contrarian strategi: går emot när marknaden är fel. Sitter i Börspodden-källaren med Hammar.",
+  "key_takeaways": [
+    "Decote Pharma: failade fas 2, cherrypickade data, kortades från 1.20 till 0.30",
+    "Biotech: investera först efter fas 2B-data, innan är det för riskabelt",
+    "Surgical Science: köpte på -68%, EV 400 MSEK, fondflöden pressade",
+    "Contrarian strategi: gå emot när marknaden är fel, hög smärttröskel krävs",
+    "Livet som trader: dra åt kranen vid drawdowns, annars unna sig"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/transcripts/veckanstrade/veckanstrade-2025-12-10-1214.txt",
+  "transcript_word_count": 9500,
+  "has_timestamps": true,
+  "processed_at": "2025-12-25T01:15:00",
+  "model_used": "claude-opus-4-5-20250514"
+}

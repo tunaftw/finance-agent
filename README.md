@@ -8,9 +8,10 @@
 
 PodStock är ett CLI-verktyg som:
 1. **Laddar ner** podcast-avsnitt från RSS-flöden
-2. **Transkriberar** ljudet med Whisper (optimerat för Apple Silicon)
+2. **Transkriberar** ljudet med Whisper (optimerat för Apple Silicon) eller hämtar från Apple Podcasts
 3. **Analyserar** transkriptet via Claude för att extrahera aktierekommendationer
 4. **Genererar rapporter** i Markdown-format
+5. **Real-time monitoring** – synka nya avsnitt och generera periodiska sammanfattningar
 
 **Målet:** Mäta "signal-to-noise ratio" hos olika podcastvärdar genom att spåra deras rekommendationer mot faktiska utfall.
 
@@ -20,6 +21,16 @@ PodStock är ett CLI-verktyg som:
 
 | Vad vill du göra? | Kommando |
 |-------------------|----------|
+| **Listor & Organisation** | |
+| Visa podcast-listor | `podstock list show` |
+| Lägg till i lista | `podstock list add broad borspodden` |
+| **Synkronisering** | |
+| Synka nya avsnitt | `podstock sync --list broad` |
+| Dry-run (visa vad som synkas) | `podstock sync --dry-run` |
+| **Sammanfattningar** | |
+| Förbered sammanfattning | `podstock summary prepare --from 2025-12-01 --to 2025-12-26` |
+| Visa tillgänglig data | `podstock summary info --from 2025-12-01 --to 2025-12-26` |
+| **Historisk analys** | |
 | Lista podcasts | `podstock podcast list` |
 | Ladda ner senaste | `podstock download --podcast borspodden --latest 2` |
 | Transkribera | `podstock transcribe` |
@@ -128,18 +139,29 @@ podstock/
 │   ├── cli.py           # Command-line interface
 │   ├── core/            # Config, models, state
 │   ├── rss/             # RSS parsing, downloading
-│   ├── transcribe/      # Whisper integration
+│   ├── transcribe/      # Whisper & Apple Podcasts integration
 │   ├── analyze/         # Prompt building, result parsing
 │   ├── extract/         # AI-based extraction from transcripts
 │   ├── summary/         # Guest summary report generation
-│   └── report/          # Markdown report generation
+│   ├── report/          # Markdown report generation
+│   ├── lists/           # Podcast list management (broad/niche)
+│   ├── sync/            # Real-time sync orchestration
+│   ├── reports/         # Summary report generation
+│   ├── twitter/         # Twitter/X data collection
+│   ├── youtube/         # YouTube integration
+│   └── crypto/          # Crypto sentiment analysis
 ├── data/                # Runtime data (gitignored)
 │   ├── audio/           # Downloaded MP3 files
 │   ├── transcripts/     # Transcribed text
 │   ├── extracted/       # AI-extracted recommendations (JSON)
+│   ├── lists.json       # Podcast list configuration
+│   ├── podcasts.json    # Podcast configuration
+│   ├── state.json       # Processing state
 │   └── reports/         # Generated reports
-│       └── summaries/   # Dated guest summary reports
-├── prompts/             # Claude prompt templates
+│       ├── prompts/     # LLM prompts for summaries
+│       └── summaries/   # Dated summary reports
+├── .claude/commands/    # Claude Code skills (/sync, /summary)
+├── docs/                # Documentation
 └── tests/               # Test suite
 ```
 
@@ -205,16 +227,68 @@ podstock guest-summary --output fil.md   # Anpassat filnamn
 # Sparas till: data/reports/summaries/2025-12-25-guest-summary.md
 ```
 
+### List Management (Podcast-listor)
+```bash
+podstock list show                       # Visa alla listor
+podstock list show broad                 # Visa podcasts i "broad"-listan
+podstock list create mylist --type custom  # Skapa ny lista
+podstock list add broad borspodden       # Lägg till podcast i lista
+podstock list remove niche fillorkill    # Ta bort podcast från lista
+podstock list delete mylist              # Radera lista (ej broad/niche)
+```
+
+### Sync (Real-time synkronisering)
+```bash
+podstock sync                            # Synka senaste avsnittet från alla
+podstock sync --podcast borspodden       # Synka specifik podcast
+podstock sync --list broad               # Synka alla i en lista
+podstock sync --latest 3                 # Hämta senaste 3 avsnitt
+podstock sync --dry-run                  # Visa vad som skulle synkas
+```
+
+### Summary (Sammanfattningar)
+```bash
+# Förbered prompt för Claude Code
+podstock summary prepare --from 2025-12-20 --to 2025-12-26
+
+# Detaljerad analys för niche-listan
+podstock summary prepare --from 2025-12-01 --to 2025-12-31 --type detailed --list niche
+
+# Exportera för Opencode/GLM-4.7 (gratis LLM)
+podstock summary prepare --from 2025-12-20 --to 2025-12-26 --opencode
+
+# Visa tillgänglig data för period
+podstock summary info --from 2025-12-20 --to 2025-12-26
+
+# Spara färdig rapport
+podstock summary save --output rapport.md
+```
+
 ---
 
-## 🔄 Workflow
+## 🔄 Workflows
 
-1. **Download** → Fetches MP3 from RSS feed
-2. **Transcribe** → Runs mlx-whisper locally (~10-15x realtime on M4)
-3. **Analyze** → Generates prompt, user runs in Claude, parses result
-4. **Report** → Creates Markdown summary of recommendations
+### Historisk Analys (manuellt)
+1. **Download** → Hämtar MP3 från RSS-flöde
+2. **Transcribe** → Kör mlx-whisper lokalt (~10-15x realtime på M4)
+3. **Analyze** → Genererar prompt, användaren kör i Claude, parsar resultat
+4. **Report** → Skapar Markdown-sammanfattning
 
-The system is **idempotent** – running the same command twice won't duplicate work.
+### Real-time Monitoring (automatiserat)
+1. **Sync** → Hämtar nya avsnitt och transkriberar automatiskt
+   - Provar först Apple Podcasts transcripts (gratis, snabbt)
+   - Fallback till Whisper om Apple inte tillgängligt
+2. **Summary** → Genererar periodiska sammanfattningar
+   - Bred analys: Alla podcasts, övergripande teman
+   - Detaljerad: Utvalda podcasts, djupanalys
+
+Systemet är **idempotent** – samma kommando kan köras flera gånger utan att duplicera arbete.
+
+### Transcript Sources
+Varje podcast har en `transcript_source`-inställning:
+- `auto` (default): Prova Apple först, fallback till Whisper
+- `apple`: Endast Apple Podcasts transcripts
+- `whisper`: Alltid använd lokal Whisper-transkribering
 
 ---
 

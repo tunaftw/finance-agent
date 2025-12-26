@@ -1,0 +1,96 @@
+{
+  "source_id": "CIeM7TwMEu8",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-06-10",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "BTC in long consolidation between 60-70k. Range midpoint is only meaningful support. Best setups at extremities, not middle where market is at fair value.",
+      "quote": "if you don't lose money in it that's a good thing and honestly the next meaningful signal will come from some sort of volatility expansion",
+      "price_levels": [
+        "$60,000",
+        "$70,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH testing daily support at 3600 ahead of ETF approval. Two strategies: buy spot now to front-run ETF flows, or wait for actual flows. 3600 must hold.",
+      "quote": "3600 is the relevant ta level SL mus hold",
+      "price_levels": [
+        "$3,600",
+        "$3,400"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BONK",
+      "asset_name": "Bonk",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "On watchlist after retesting level around 28, but got choppy and closed below. Waiting to see if resolves positively on weekly timeframe.",
+      "quote": "Bonk on my watch list because it was retesting this level earlier in the week at around 28 but then it kind of got choppy postwick and closed below it",
+      "price_levels": [
+        28
+      ],
+      "timeframe": null,
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$60,000",
+        "$70,000"
+      ],
+      "ETH": [
+        "$3,600"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC in consolidation between 60-70k with range midpoint as key support level",
+    "Best trading opportunities at range extremes where inefficiencies occur",
+    "ETH at critical 3600 support ahead of ETF approval",
+    "Two approaches for ETH: front-run flows now vs wait for actual ETF data",
+    "Volatility expansion will be next meaningful market signal"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "range midpoint",
+      "target": null,
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$3,600 daily support",
+      "target": null,
+      "stop": "$3,400",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC remains range-bound between 60-70k with the midpoint as key support and trading opportunities best at extremes. ETH is testing critical 3600 support ahead of ETF approval, with debate over buying now to front-run flows vs waiting for actual ETF data. The market is in a holding pattern awaiting volatility expansion.",
+  "transcript_word_count": 8713,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:16:37.849232"
+}

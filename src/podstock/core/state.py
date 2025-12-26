@@ -68,6 +68,9 @@ class State:
                 status_data["audio_path"] = Path(status_data["audio_path"])
             if status_data.get("transcript_path"):
                 status_data["transcript_path"] = Path(status_data["transcript_path"])
+            # Convert datetime strings
+            if status_data.get("published_at") and isinstance(status_data["published_at"], str):
+                status_data["published_at"] = datetime.fromisoformat(status_data["published_at"])
 
             episodes[episode_id] = EpisodeStatus(episode_id=episode_id, **status_data)
 
@@ -97,7 +100,7 @@ class State:
             if status_dict.get("transcript_path"):
                 status_dict["transcript_path"] = str(status_dict["transcript_path"])
             # Convert datetime objects to ISO strings
-            for key in ["downloaded_at", "transcribed_at", "analyzed_at"]:
+            for key in ["downloaded_at", "transcribed_at", "analyzed_at", "published_at"]:
                 if status_dict.get(key):
                     status_dict[key] = status_dict[key].isoformat()
             episodes_data[episode_id] = status_dict
@@ -289,6 +292,144 @@ class State:
             for episode_id, status in self._data.episodes.items()
             if status.transcribed and not status.analyzed
         ]
+
+    def get_episodes_in_period(
+        self,
+        start_date: datetime,
+        end_date: datetime,
+        podcast_ids: list[str] | None = None,
+    ) -> list[EpisodeStatus]:
+        """Get episodes within a date range.
+
+        Args:
+            start_date: Start of period (inclusive).
+            end_date: End of period (inclusive).
+            podcast_ids: Optional filter by podcast IDs.
+
+        Returns:
+            List of EpisodeStatus objects within the period.
+        """
+        results: list[EpisodeStatus] = []
+
+        for status in self._data.episodes.values():
+            # Get published_at, fallback to extracting from episode_id
+            pub_date = status.published_at
+            if pub_date is None:
+                pub_date = self._extract_date_from_id(status.episode_id)
+
+            if pub_date is None:
+                continue
+
+            # Check date range
+            if not (start_date <= pub_date <= end_date):
+                continue
+
+            # Check podcast filter
+            if podcast_ids is not None:
+                # Extract podcast_id from episode_id or use stored value
+                ep_podcast_id = status.podcast_id
+                if ep_podcast_id is None:
+                    ep_podcast_id = self._extract_podcast_from_id(status.episode_id)
+
+                if ep_podcast_id not in podcast_ids:
+                    continue
+
+            results.append(status)
+
+        # Sort by published_at descending
+        results.sort(
+            key=lambda s: s.published_at or self._extract_date_from_id(s.episode_id) or datetime.min,
+            reverse=True
+        )
+
+        return results
+
+    def get_episodes_by_podcast(self, podcast_id: str) -> list[EpisodeStatus]:
+        """Get all episodes for a specific podcast.
+
+        Args:
+            podcast_id: Podcast identifier.
+
+        Returns:
+            List of EpisodeStatus objects for the podcast.
+        """
+        results: list[EpisodeStatus] = []
+
+        for status in self._data.episodes.values():
+            # Check stored podcast_id or extract from episode_id
+            ep_podcast_id = status.podcast_id
+            if ep_podcast_id is None:
+                ep_podcast_id = self._extract_podcast_from_id(status.episode_id)
+
+            if ep_podcast_id == podcast_id:
+                results.append(status)
+
+        return results
+
+    @staticmethod
+    def _extract_date_from_id(episode_id: str) -> datetime | None:
+        """Extract publication date from episode ID.
+
+        Episode IDs have format: podcast-YYYY-MM-DD-hash
+
+        Args:
+            episode_id: Episode identifier.
+
+        Returns:
+            Datetime if parseable, None otherwise.
+        """
+        import re
+        # Match YYYY-MM-DD pattern in the ID
+        match = re.search(r'(\d{4}-\d{2}-\d{2})', episode_id)
+        if match:
+            try:
+                return datetime.strptime(match.group(1), "%Y-%m-%d")
+            except ValueError:
+                return None
+        return None
+
+    @staticmethod
+    def _extract_podcast_from_id(episode_id: str) -> str | None:
+        """Extract podcast ID from episode ID.
+
+        Episode IDs have format: podcast-YYYY-MM-DD-hash
+
+        Args:
+            episode_id: Episode identifier.
+
+        Returns:
+            Podcast ID if parseable, None otherwise.
+        """
+        import re
+        # Match everything before YYYY-MM-DD
+        match = re.match(r'^(.+?)-\d{4}-\d{2}-\d{2}', episode_id)
+        if match:
+            return match.group(1)
+        return None
+
+    def set_episode_metadata(
+        self,
+        episode_id: str,
+        podcast_id: str | None = None,
+        title: str | None = None,
+        published_at: datetime | None = None,
+    ) -> None:
+        """Set metadata for an episode.
+
+        Args:
+            episode_id: Episode identifier.
+            podcast_id: Parent podcast ID.
+            title: Episode title.
+            published_at: Publication date.
+        """
+        status = self._get_or_create_status(episode_id)
+        if podcast_id is not None:
+            status.podcast_id = podcast_id
+        if title is not None:
+            status.title = title
+        if published_at is not None:
+            status.published_at = published_at
+        self.save()
 
 
 def load_state(state_file: Path) -> State:

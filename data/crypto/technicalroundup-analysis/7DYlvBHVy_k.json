@@ -1,0 +1,84 @@
+{
+  "source_id": "7DYlvBHVy_k",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2020-09-02",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Technical analysis showing ETH reclaimed key monthly level at 394, turning monthly timeframe bullish with clear support structure",
+      "quote": "currently on the monthly time frame ether sd is bullish why because the monthly closed above this resistance or old range",
+      "price_levels": [
+        "$394",
+        "$430",
+        "$532",
+        "$669",
+        "$290-$300"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "General reference to cryptocurrency market without specific analysis",
+      "quote": "we've seen some scary intraday candles in each usd so i thought it'd be a good time to do a similar road map type of video and discuss is the bull market over",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "ETH": [
+        "$290-$300",
+        "$390",
+        "$394",
+        "$430",
+        "$532",
+        "$669"
+      ]
+    }
+  },
+  "key_insights": [
+    "ETH reclaimed monthly resistance level at 394, turning monthly timeframe bullish with objectives at 532 and 669",
+    "390-394 area acts as critical support - breakdown below this level would invalidate bullish bias and target 290-300",
+    "Weekly consolidation cluster between 394-430 provides intraday trading opportunities and directional bias",
+    "Preferred long setups: either failed breakdown below 390 followed by reclaim, or strength above 430 after consolidation",
+    "Monthly timeframe provides clear risk/reward with significant space between support levels (390 to 290)"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "retest of 430 after reclaim or failed breakdown below 390",
+      "target": "$532-$530",
+      "stop": "below 390 for high time frame trades",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "break below 390 with conviction",
+      "target": "$290-$300",
+      "stop": "above 390",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred presents a bullish bias on ETH as long as the critical 390-394 support level holds, noting that ETH successfully reclaimed monthly resistance at 394 which turns the monthly timeframe bullish with targets at 532 and 669. He outlines two preferred long setups: either a failed breakdown below 390 followed by reclaim, or strength above 430 after consolidation. The trade remains bullish until 390 breaks, which would target 290-300. Key levels are 390-394 support, 430 resistance (range high), and 532-530 as the next major target.",
+  "transcript_word_count": 7982,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:54:28.694428"
+}
