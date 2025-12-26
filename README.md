@@ -27,6 +27,8 @@ PodStock är ett CLI-verktyg som:
 | Parsa Claude-svar | `podstock analyze <episode-id> --input svar.txt` |
 | Generera rapport | `podstock report --output rapport.md` |
 | Se status | `podstock status` |
+| Sök aktie | `podstock extract search --stock "Novo Nordisk"` |
+| Gäst-sammanfattning | `podstock guest-summary` |
 
 ---
 
@@ -128,12 +130,15 @@ podstock/
 │   ├── rss/             # RSS parsing, downloading
 │   ├── transcribe/      # Whisper integration
 │   ├── analyze/         # Prompt building, result parsing
+│   ├── extract/         # AI-based extraction from transcripts
+│   ├── summary/         # Guest summary report generation
 │   └── report/          # Markdown report generation
 ├── data/                # Runtime data (gitignored)
 │   ├── audio/           # Downloaded MP3 files
 │   ├── transcripts/     # Transcribed text
-│   ├── recommendations/ # Extracted recommendations
+│   ├── extracted/       # AI-extracted recommendations (JSON)
 │   └── reports/         # Generated reports
+│       └── summaries/   # Dated guest summary reports
 ├── prompts/             # Claude prompt templates
 └── tests/               # Test suite
 ```
@@ -180,6 +185,24 @@ podstock report --podcast <id>           # Filter by podcast
 ### Status
 ```bash
 podstock status                          # Overview of all episodes
+```
+
+### Extract (Sökning i rekommendationer)
+```bash
+podstock extract rebuild-index           # Bygg sökindex från JSON-filer
+podstock extract stats                   # Visa statistik
+podstock extract search --stock "X"      # Sök aktie
+podstock extract search --speaker "Namn" # Sök per talare
+podstock extract search --top 20         # Topp 20 mest omnämnda
+podstock extract search --action buy     # Alla köprekar
+```
+
+### Guest Summary (Gäst-sammanfattning)
+```bash
+podstock guest-summary                   # Generera full rapport
+podstock guest-summary --podcast "X"     # Filtrera på podcast
+podstock guest-summary --output fil.md   # Anpassat filnamn
+# Sparas till: data/reports/summaries/2025-12-25-guest-summary.md
 ```
 
 ---

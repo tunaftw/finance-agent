@@ -39,7 +39,7 @@ class Podcast(BaseModel):
 
     id: str = Field(..., min_length=1, pattern=r"^[a-z0-9_-]+$")
     name: str = Field(..., min_length=1)
-    rss_url: HttpUrl
+    rss_url: HttpUrl | None = None  # Optional for Apple-only podcasts
     hosts: list[str] = Field(default_factory=list)
     description: str | None = None
     language: str = "sv"

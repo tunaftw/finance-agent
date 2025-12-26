@@ -200,11 +200,15 @@ def match_to_podcast(podcast_name: str, podcasts: list[Podcast]) -> Podcast | No
     """
     normalized_apple = _normalize_podcast_name(podcast_name)
 
+    # First pass: look for exact matches only
     for podcast in podcasts:
         normalized_config = _normalize_podcast_name(podcast.name)
-        # Check for exact match or substring match
         if normalized_apple == normalized_config:
             return podcast
+
+    # Second pass: look for substring matches
+    for podcast in podcasts:
+        normalized_config = _normalize_podcast_name(podcast.name)
         if normalized_apple in normalized_config or normalized_config in normalized_apple:
             return podcast
 
