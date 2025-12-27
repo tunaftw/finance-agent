@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 
+from podstock.analysis import extract_json_from_response
 from .llm_client import LLMClient, create_llm_client
 from .models import EpisodeAnalysis
 from .prompt_templates import (
@@ -122,18 +123,8 @@ class TranscriptProcessor:
             max_tokens=8000,
         )
 
-        # Extrahera JSON från response (kan vara wrappat i markdown code block)
-        json_match = re.search(r"```json\s*(.*?)\s*```", response_text, re.DOTALL)
-        if json_match:
-            json_str = json_match.group(1)
-        else:
-            # Försök hitta JSON direkt
-            json_str = response_text.strip()
-            # Ta bort eventuell ledande/efterföljande text
-            start = json_str.find("{")
-            end = json_str.rfind("}") + 1
-            if start != -1 and end > start:
-                json_str = json_str[start:end]
+        # Extrahera JSON från response (hanterar markdown code blocks)
+        json_str = extract_json_from_response(response_text)
 
         # Parse och validera
         data = json.loads(json_str)

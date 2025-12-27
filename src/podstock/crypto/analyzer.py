@@ -7,11 +7,11 @@ from transcripts, using the existing LLM client infrastructure.
 from __future__ import annotations
 
 import json
-import re
 from datetime import datetime
 from pathlib import Path
-from typing import Any
+import re
 
+from podstock.analysis import extract_json_from_response
 from podstock.crypto.models import (
     CryptoMention,
     CryptoSentimentAnalysis,
@@ -207,7 +207,7 @@ class CryptoAnalyzer:
             Parsed analysis object.
         """
         # Extract JSON from response
-        json_str = self._extract_json(response)
+        json_str = extract_json_from_response(response)
         data = json.loads(json_str)
 
         # Parse mentions
@@ -270,32 +270,6 @@ class CryptoAnalyzer:
         )
 
         return analysis
-
-    def _extract_json(self, response: str) -> str:
-        """Extract JSON from LLM response.
-
-        Handles responses with markdown code blocks or raw JSON.
-
-        Args:
-            response: Raw response text.
-
-        Returns:
-            Extracted JSON string.
-
-        Raises:
-            ValueError: If no valid JSON found.
-        """
-        # Try to find JSON in code blocks first
-        json_match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", response, re.DOTALL)
-        if json_match:
-            return json_match.group(1)
-
-        # Try to find raw JSON object
-        json_match = re.search(r"\{.*\}", response, re.DOTALL)
-        if json_match:
-            return json_match.group(0)
-
-        raise ValueError("No JSON found in response")
 
     def _parse_sentiment(self, sentiment: str) -> SentimentLevel:
         """Parse sentiment string to SentimentLevel enum.

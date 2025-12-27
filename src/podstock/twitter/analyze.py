@@ -8,11 +8,10 @@ from __future__ import annotations
 
 import json
 import os
-import re
 from datetime import datetime
 from pathlib import Path
-from typing import Any
 
+from podstock.analysis import extract_json_from_response
 from podstock.extract.llm_client import LLMClient, create_llm_client
 from podstock.twitter.models import (
     StockMention,
@@ -125,7 +124,7 @@ class TweetAnalyzer:
             )
 
             # Extract JSON from response
-            json_str = self._extract_json(response)
+            json_str = extract_json_from_response(response)
             data = json.loads(json_str)
 
             # Parse stock mentions
@@ -200,21 +199,6 @@ class TweetAnalyzer:
                 analyses.append(analysis)
 
         return analyses
-
-    def _extract_json(self, text: str) -> str:
-        """Extract JSON from LLM response, handling markdown code blocks."""
-        # Try to find JSON in markdown code block
-        json_match = re.search(r"```(?:json)?\s*\n?(.*?)\n?```", text, re.DOTALL)
-        if json_match:
-            return json_match.group(1).strip()
-
-        # Try to find raw JSON object
-        json_match = re.search(r"\{.*\}", text, re.DOTALL)
-        if json_match:
-            return json_match.group(0)
-
-        # Return as-is and let json.loads handle it
-        return text
 
     def save_analyses(
         self,
