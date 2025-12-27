@@ -153,16 +153,56 @@ podstock/
 │       │   └── generator.py
 │       │
 │       ├── twitter/             # Twitter/X-integration
-│       │   ├── manager.py
-│       │   ├── api_collector.py
-│       │   ├── storage.py
-│       │   └── state.py
+│       │   ├── manager.py       # TwitterManager (CRUD)
+│       │   ├── api_client.py    # TwitterApiClient (twitterapi.io)
+│       │   ├── api_collector.py # Insamling via API
+│       │   ├── collector.py     # Legacy scraper
+│       │   ├── storage.py       # Tweet-lagring (JSONL)
+│       │   ├── state.py         # TwitterState
+│       │   ├── search.py        # Sökindex
+│       │   ├── analyze.py       # LLM-analys
+│       │   ├── report.py        # Rapportgenerering
+│       │   ├── models.py        # Pydantic-modeller
+│       │   └── exceptions.py    # Undantag
 │       │
 │       ├── youtube/             # YouTube-integration
-│       │   └── ...
+│       │   ├── channel_manager.py  # Kanal-CRUD
+│       │   ├── extractor.py     # Transkript-extraktion (yt-dlp)
+│       │   ├── storage.py       # Video/transkript-lagring
+│       │   ├── models.py        # Pydantic-modeller
+│       │   └── exceptions.py    # Undantag
 │       │
-│       └── crypto/              # Crypto-sentiment
-│           └── ...
+│       ├── crypto/              # Crypto-sentiment
+│       │   ├── analyzer.py      # CryptoAnalyzer
+│       │   ├── aggregator.py    # Aggregera prediktioner
+│       │   ├── price_tracker.py # Prisverifiering (CoinGecko)
+│       │   ├── coingecko.py     # CoinGecko API-klient
+│       │   ├── prompt_templates.py  # LLM-prompts
+│       │   ├── report.py        # Rapportgenerering
+│       │   └── models.py        # Pydantic-modeller
+│       │
+│       ├── filings/             # Årsredovisningsanalys
+│       │   ├── models.py        # Filing, Company, FilingAnalysis
+│       │   ├── exceptions.py    # FilingsError, PDFParseError
+│       │   ├── clients/         # API-klienter (SEC EDGAR)
+│       │   ├── pdf/             # PDF-parsing och chunking
+│       │   └── analysis/        # LLM-analys av rapporter
+│       │
+│       ├── prices/              # Prisdata och verifiering
+│       │   ├── clients/         # API-klienter (Yahoo)
+│       │   ├── tracker.py       # PriceTracker
+│       │   └── storage.py       # Lokal cache
+│       │
+│       └── db/                  # NYA: SQLite databas
+│           ├── __init__.py      # Publika exporter
+│           ├── engine.py        # Database engine & sessions
+│           ├── models.py        # SQLAlchemy ORM-modeller
+│           ├── schema.sql       # SQL-schema (13 tabeller)
+│           ├── loader.py        # PodcastLoader, TwitterLoader
+│           ├── queries.py       # Sökfunktioner
+│           ├── ticker_lookup.py # Security resolution
+│           ├── performance.py   # Avkastningsberäkning
+│           └── cli.py           # CLI-kommandon
 │
 ├── data/                        # Runtime-data (gitignored audio)
 │   ├── config.json              # Användarkonfiguration
@@ -179,7 +219,28 @@ podstock/
 │   │       └── {episode_id}.txt
 │   │
 │   ├── extracted/               # AI-extraherad data
-│   │   └── recommendations.json
+│   │   └── {podcast}-{date}-{hash}.json
+│   │
+│   ├── twitter/                 # Twitter/X-data
+│   │   ├── sources.json         # Konfigurerade källor
+│   │   ├── raw/{source}/        # Råa tweets (JSONL)
+│   │   └── analyses/            # LLM-analyserade tweets
+│   │
+│   ├── youtube/                 # YouTube-data
+│   │   ├── channels.json        # Konfigurerade kanaler
+│   │   ├── transcripts/{channel}/ # Transkript per kanal
+│   │   └── state.json           # Insamlingsstatus
+│   │
+│   ├── crypto/                  # Crypto-analysdata
+│   │   ├── technicalroundup-analysis/ # Per-kanal analyser
+│   │   └── glm-batch/           # GLM batch-input/output
+│   │
+│   ├── prices/                  # Prisdata
+│   │   ├── ticker_mapping.json  # Aktie → ticker mappning
+│   │   ├── recommendations.json # Spårade rekommendationer
+│   │   └── history/             # Historisk prisdata (cache)
+│   │
+│   ├── podstock.db              # SQLite-databas (gitignored)
 │   │
 │   └── reports/                 # Genererade rapporter
 │       ├── prompts/             # NYA: LLM-prompts
@@ -426,6 +487,195 @@ DETAILED_SUMMARY_SYSTEM: str # System-prompt för detaljerad analys
 DETAILED_SUMMARY_USER: str   # User-prompt för detaljerad analys
 ```
 
+### 3.18 `db/` – SQLite Database Module (NY)
+Ansvar: Persitent lagring, frågor, och prestanda-spårning
+
+#### 3.18.1 `db/engine.py` – Databas-engine
+```python
+def get_engine(db_path: Path | None = None, echo: bool = False) -> Engine
+def get_session(engine: Engine | None = None) -> Generator[Session]
+def init_db(engine: Engine | None = None, force: bool = False) -> None
+```
+
+#### 3.18.2 `db/models.py` – ORM-modeller
+```python
+class Source(Base):       # Podcast/Twitter-källa
+class Content(Base):      # Episode/Tweet
+class Analysis(Base):     # AI-analys med versionshantering
+class Security(Base):     # Normaliserad aktie/ticker
+class SecurityAlias(Base) # Alternativa namn (EVO, Evolution Gaming)
+class Recommendation(Base) # Köp/sälj-rekommendation
+class Price(Base):        # Historisk kursdata
+class RecommendationPerformance(Base)  # Avkastning 1d/7d/30d/90d/365d
+```
+
+#### 3.18.3 `db/loader.py` – Dataimport
+```python
+class BaseLoader:
+    def compute_content_hash(data: dict) -> str  # SHA256 för idempotens
+    def should_load(session, file_path, file_hash) -> bool
+
+class PodcastLoader(BaseLoader):
+    """Laddar podcast-analyser från data/extracted/glm-batch/*.json"""
+    def load(json_path: Path, session: Session) -> LoadResult
+
+class TwitterLoader(BaseLoader):
+    """Laddar tweet-analyser från data/twitter/analyses/*-tweet-analyses.json"""
+    def load(json_path: Path, session: Session) -> LoadResult
+
+class YouTubeLoader(BaseLoader):
+    """Laddar crypto-analyser från data/crypto/{channel}-analysis/*.json"""
+    def load(json_path: Path, session: Session) -> LoadResult
+```
+
+**Datatyper som laddas vs inte laddas:**
+| Typ | Mönster | Laddas? | Beskrivning |
+|-----|---------|---------|-------------|
+| Podcast | `*.json` | Ja | Episode-analyser med recommendations |
+| Twitter tweets | `*-tweet-analyses.json` | Ja | Tweet-för-tweet analyser |
+| Twitter profiler | `*-analysis.json` | Nej | Profilsammanfattningar (custom) |
+| YouTube/Crypto | `{video_id}.json` | Ja | Crypto-mentions med sentiment |
+
+Se [docs/DATA-FORMATS.md](docs/DATA-FORMATS.md) för fullständig dokumentation.
+
+#### 3.18.4 `db/queries.py` – Sökfunktioner
+```python
+def search_recommendations(session, stock, ticker, action, since, speaker, source_id, limit) -> list[RecommendationResult]
+def get_top_stocks(session, days, action, limit) -> list[tuple]
+def get_recent_by_source(session, source_id, limit) -> list[Recommendation]
+def get_speaker_stats(session, days, limit) -> list[tuple]
+def get_unmatched_securities(session, limit) -> list[PendingSecurity]
+```
+
+#### 3.18.5 `db/ticker_lookup.py` – Aktie-resolution
+```python
+def parse_ticker_suffix(ticker: str) -> tuple[str, str, str]  # base, suffix, exchange
+def resolve_security(session, name, ticker) -> Security | None
+def get_or_create_security(session, ticker, name, ...) -> tuple[Security, bool]
+def add_alias(session, security_id, alias, alias_type) -> bool
+def seed_from_ticker_mapping(session, mapping_path) -> dict[str, int]
+```
+
+#### 3.18.6 `db/performance.py` – Avkastningsberäkning
+```python
+def get_price_on_date(session, security_id, target_date, lookback_days) -> float | None
+def calculate_return(price_at_rec: float, current_price: float) -> float
+def update_recommendation_performance(session, recommendation_id, force) -> RecommendationPerformance | None
+def update_all_performance(session, limit, force) -> dict[str, int]
+def import_prices_from_tracker(session, data_dir) -> dict[str, int]
+```
+
+#### 3.18.7 `db/cli.py` – CLI-kommandon
+```bash
+podstock db init [--force]           # Skapa/återskapa databas
+podstock db status                   # Visa statistik
+podstock db seed-securities          # Ladda aktier från ticker_mapping
+podstock db load [--type podcast|twitter|youtube]  # Importera analyser
+podstock db load --type youtube [--channel NAME]   # Ladda crypto-data
+podstock db search "query" [--action buy]  # Sök rekommendationer
+podstock db pending list             # Visa omatchade aktier
+podstock db performance update       # Beräkna avkastning
+```
+
+### 3.19 `twitter/` – Twitter/X-integration
+Ansvar: Samla in och analysera tweets från finanskonton
+
+```python
+class TwitterManager:
+    def add_source(username, category, description) -> TwitterSource
+    def list_sources(active_only: bool) -> list[TwitterSource]
+    def remove_source(source_id: str) -> bool
+
+class TwitterApiClient:
+    def get_user_tweets(username, since_id, max_results) -> list[Tweet]
+    def get_user_info(username) -> UserInfo
+
+class TwitterStorage:
+    def save_tweets(tweets: list[Tweet]) -> int  # JSONL format
+    def get_tweets(source_id, since, until) -> list[Tweet]
+    def get_tweet_analyses(source_id) -> list[TweetAnalysis]
+```
+
+### 3.20 `youtube/` – YouTube-integration
+Ansvar: Extrahera transkript från YouTube-kanaler för crypto-analys
+
+```python
+class YouTubeChannelManager:
+    def add_channel(channel_url, category, language) -> YouTubeChannel
+    def list_channels(active_only: bool) -> list[YouTubeChannel]
+    def remove_channel(channel_id: str) -> bool
+
+class YouTubeExtractor:
+    def get_channel_videos(channel_url, max_videos) -> list[YouTubeVideo]
+    def extract_transcript(video_id, language) -> YouTubeTranscript
+
+class YouTubeStorage:
+    def save_videos(videos: list[YouTubeVideo]) -> int
+    def save_transcript(transcript: YouTubeTranscript) -> None
+    def has_transcript(channel_id, video_id) -> bool
+```
+
+### 3.21 `crypto/` – Crypto-sentiment
+Ansvar: Analysera crypto-prediktioner från YouTube-kanaler
+
+```python
+class CryptoAnalyzer:
+    def analyze_transcript(transcript: str, video_info: dict) -> CryptoAnalysis
+    def batch_analyze(transcripts: list[str]) -> list[CryptoAnalysis]
+
+class CryptoAggregator:
+    def get_predictions(coin: str, channel: str) -> list[CryptoPrediction]
+    def get_top_coins(days: int, limit: int) -> list[tuple]
+    def get_channel_bias(channel_id: str) -> ChannelBias
+
+class CryptoPriceTracker:
+    def verify_prediction(prediction_id: str) -> VerificationResult
+    def get_accuracy_stats(channel: str) -> AccuracyStats
+```
+
+### 3.22 `prices/` – Prisverifiering
+Ansvar: Hämta priser och verifiera rekommendationers utfall
+
+```python
+class TickerMapper:
+    def add_mapping(name: str, ticker: str) -> None
+    def get_ticker(name: str) -> str | None
+    def search(query: str) -> list[tuple[str, str, int]]  # name, ticker, score
+
+class PriceTracker:
+    def track_recommendation(source_type, source_id, asset_name, action, ...) -> TrackedRecommendation
+    def verify_recommendation(tracking_id, interval_months) -> VerificationResult
+    def verify_all_due() -> list[tuple[TrackedRecommendation, VerificationResult]]
+    def get_accuracy_stats(source_name, speaker, action) -> AccuracyStats
+    def import_from_extractions(episode_ids, ...) -> ImportResult
+```
+
+### 3.23 `filings/` – Årsredovisningsanalys (Library Only)
+Ansvar: Parsa och analysera finansiella rapporter (10-K, 10-Q, årsredovisningar)
+
+**OBS:** Denna modul har ännu ingen CLI-integration.
+
+```python
+class FilingsClient:
+    def add_company(ticker: str, market: str) -> Company
+    def sync_filings(company_id: str, limit: int) -> list[Filing]
+    def get_filing(filing_id: str) -> Filing
+
+class FilingAnalyzer:
+    def analyze(filing: Filing, model: str) -> FilingAnalysis
+    def chunk_document(pdf_path: Path, max_tokens: int) -> list[DocumentChunk]
+    def extract_metrics(filing: Filing) -> FinancialMetrics
+
+class FilingType(Enum):
+    ANNUAL_REPORT = "10-K"
+    QUARTERLY_REPORT = "10-Q"
+    SWEDISH_ANNUAL = "årsredovisning"
+
+class FilingSource(Enum):
+    SEC_EDGAR = "edgar"  # US companies
+    MANUAL_PDF = "pdf"   # Any company
+```
+
 ---
 
 ## 4. Data Flow
@@ -498,6 +748,44 @@ DETAILED_SUMMARY_USER: str   # User-prompt för detaljerad analys
 5. Prompt saved to data/reports/prompts/
 6. User runs prompt in Claude Code or Opencode
 7. User saves result: podstock summary save --output rapport.md
+```
+
+### 4.6 Database Load Flow (NY)
+```
+1. User: podstock db load
+2. CLI iterates over data/extracted/*.json
+3. For each file:
+   a. Compute file hash (SHA256)
+   b. Check LoadLog – skip if already loaded with same hash
+   c. Parse JSON, validate structure
+   d. Get/create Source (podcast/twitter)
+   e. Get/create Content (episode/tweet)
+   f. Compute content hash for versioning
+   g. Create Analysis with version number
+   h. For each recommendation:
+      i.   Try resolve_security() → match to Security
+      ii.  If unmatched: create PendingSecurity entry
+      iii. Create Recommendation with security_id (or null)
+   i. Log to LoadLog
+4. Session commit
+5. CLI prints summary (loaded, skipped, failed)
+```
+
+### 4.7 Performance Update Flow (NY)
+```
+1. User: podstock db performance update
+2. CLI calls update_all_performance()
+3. Query: Recommendations with security_id but incomplete performance
+4. For each recommendation:
+   a. Get recommendation date from Content.published_at
+   b. get_price_on_date() for price_at_rec
+   c. For each interval (1d, 7d, 30d, 90d, 365d):
+      i.  Check if enough days have passed
+      ii. get_price_on_date() for that interval
+      iii. calculate_return()
+   d. Create/update RecommendationPerformance
+   e. Mark is_complete if 365d available
+5. CLI prints results (updated, skipped, failed)
 ```
 
 ---
@@ -605,6 +893,8 @@ requests>=2.28.0       # HTTP requests
 pydantic>=2.0.0        # Data validation
 rich>=13.0.0           # Terminal UI (progress bars, tables)
 mlx-whisper>=0.1.0     # Apple Silicon optimized Whisper
+sqlalchemy>=2.0.0      # Database ORM
+yfinance>=0.2.0        # Yahoo Finance prisdata
 ```
 
 ### 7.2 Development
@@ -637,3 +927,11 @@ mypy                   # Type checking
 1. Lägg till `analyze/claude_api.py`
 2. Konfigurera API-nyckel i config
 3. CLI väljer automatiskt baserat på config
+
+### 8.5 Database Module (Implementerat ✅)
+SQLite-baserat frågelager för strukturerad sökning och prestanda-spårning:
+- **13 tabeller**: sources, content, analyses, securities, recommendations, prices, etc.
+- **Loaders**: PodcastLoader, TwitterLoader, YouTubeLoader med idempotent import
+- **Security resolution**: Ticker-normalisering med alias-support
+- **Performance tracking**: Automatisk avkastningsberäkning (1d-365d)
+- **CLI**: `podstock db` kommandogrupp

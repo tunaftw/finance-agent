@@ -1,0 +1,111 @@
+{
+  "source_id": "cAOw_PYWENI",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-06-30",
+  "hosts": [
+    "Cred"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "BTC trading at range highs around $30-31k, awaiting confirmation of breakout or continuation. Monthly close analysis for bullish engulfing pattern.",
+      "quote": "I'm leaning towards odds of range break uh given as I mentioned we had a long downtrend that was broken in one candle sort of you know eight weeks of selling in one move uh with a plausible credible uh sort of narrative or Catalyst which in this case is the spot ETF",
+      "price_levels": [
+        "$24,000-$35,000",
+        "$29,300-$29,400",
+        "$30,000",
+        "$31,000",
+        "$35,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "ETH showing strength with failed breakdown, looking for reclaim above key levels. Weekly swing trade setup identified.",
+      "quote": "the clearest weekly swing trade is some version of closed back above 1.9 take it to towards 2.5 k that is still pretty clear to me",
+      "price_levels": [
+        "$1,900-$2,000",
+        "$1,915-$1,930",
+        "$2,500"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "strongly_bullish",
+      "speaker": "Cred",
+      "context": "Solana showing strong price action, up 10% in current session",
+      "quote": "we're seeing this bid spill over uh to a bunch of altcoins as well as well as well Solana's up 10 today",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "strongly_bullish",
+      "speaker": "Cred",
+      "context": "Litecoin up 30% showing strong momentum",
+      "quote": "Litecoin is up 30",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$29,300-$29,400",
+        "$30,000",
+        "$31,000",
+        "$35,000"
+      ],
+      "ETH": [
+        "$1,900-$2,000",
+        "$2,500"
+      ]
+    }
+  },
+  "key_insights": [
+    "Market participants are aggressively front-running BTC breakout by piling into altcoins before BTC confirms the breakout",
+    "SEC's comment on ETF filings being inadequate caused significant volatility, but appears to be procedural rather than a rejection",
+    "Waiting for confirmation on higher timeframe closes (daily/weekly) is preferable to front-running breakouts at resistance levels",
+    "BTC needs to hold above $29.3-29.4k to maintain bullish bias, otherwise range continuation becomes more likely",
+    "ETF narrative remains the primary catalyst, with the entire rally being Blackrock spot ETF driven"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$29,300-$29,400 or daily/weekly close above $30,000",
+      "target": "$35,000",
+      "stop": "$29,300",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "close above $1,915-$1,930",
+      "target": "$2,500",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes BTC trading at range highs around $30-31k, discussing the importance of waiting for breakout confirmation rather than front-running. The market reacted negatively to SEC comments about ETF filings being inadequate, but this appears to be procedural. ETH shows strength with a clear weekly swing trade setup above $1,900 targeting $2,500. Altcoins are rallying aggressively before BTC confirms its breakout, which presents risks if BTC fails to break out. Key support for BTC is $29.3-29.4k, with $35,000 as the next resistance above $30,000.",
+  "transcript_word_count": 13525,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:42:55.847742"
+}

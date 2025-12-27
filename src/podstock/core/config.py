@@ -80,6 +80,31 @@ class Config:
         return self.data_dir / "lists.json"
 
     @property
+    def filings_dir(self) -> Path:
+        """Directory for financial filings."""
+        return self.data_dir / "filings"
+
+    @property
+    def filings_raw_dir(self) -> Path:
+        """Directory for raw filing files (PDFs, HTML)."""
+        return self.filings_dir / "raw"
+
+    @property
+    def filings_analysis_dir(self) -> Path:
+        """Directory for filing analysis results."""
+        return self.filings_dir / "analysis"
+
+    @property
+    def filings_companies_file(self) -> Path:
+        """Path to filings companies.json."""
+        return self.filings_dir / "companies.json"
+
+    @property
+    def filings_state_file(self) -> Path:
+        """Path to filings_state.json."""
+        return self.filings_dir / "filings_state.json"
+
+    @property
     def reports_prompts_dir(self) -> Path:
         """Directory for generated LLM prompts."""
         return self.reports_dir / "prompts"
@@ -97,6 +122,9 @@ class Config:
         self.reports_dir.mkdir(parents=True, exist_ok=True)
         self.reports_prompts_dir.mkdir(parents=True, exist_ok=True)
         self.reports_summaries_dir.mkdir(parents=True, exist_ok=True)
+        self.filings_dir.mkdir(parents=True, exist_ok=True)
+        self.filings_raw_dir.mkdir(parents=True, exist_ok=True)
+        self.filings_analysis_dir.mkdir(parents=True, exist_ok=True)
 
 
 # Default configuration values

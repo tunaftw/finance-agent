@@ -1,0 +1,108 @@
+{
+  "source_id": "cPmgqNEoL7E",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2020-11-01",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Monthly close at resistance at 13.8k, uncertain whether structure is broken or intact, expects potential range-bound movement",
+      "quote": "there still needs to be more evidence for that to be valid given the monthly close at resistance even if we start rallying above the level i think it's likely we get some sort of range or consolidation environment between these two high time frame levels",
+      "price_levels": [
+        "$13.8k",
+        "$11.6k",
+        "$10.7k",
+        "$15k",
+        "$16k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Skeptical of rallies above resistance, sees potential for high time frame wick before reversal",
+      "quote": "i will be skeptical of rallies should they form especially as they begin to reach levels at 15k and 16k resistance remains intact",
+      "price_levels": [
+        "$15k",
+        "$16k"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Failed breakout at 390-400 followed by bearish monthly close, expecting retest of support",
+      "quote": "this recent monthly close has done nothing to change that and it still suggests a bearish retest at this level until proven otherwise until we get a clear-up of this monthly structure ideally with a monthly close back above 400",
+      "price_levels": [
+        "$400",
+        "$390",
+        "$290",
+        "$300"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$13.8k",
+        "$11.6k",
+        "$10.7k",
+        "$15k",
+        "$16k"
+      ],
+      "ETH": [
+        "$400",
+        "$390",
+        "$290",
+        "$300"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin monthly close at resistance remains intact despite some data feed ambiguity",
+    "Monthly closes have proven reliable throughout the current move from 10.7k",
+    "Potential for high time frame wick to 15-16k before resistance holds",
+    "Range consolidation between 10-11k support and 13.8k resistance is a plausible scenario",
+    "Ethereum showing weaker structure than BTC with failed breakout and bearish monthly close"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "$13.8k or rallies toward $15k-$16k",
+      "target": "$11.6k",
+      "stop": "$16.5k or above",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "$390-$400",
+      "target": "$290-$300",
+      "stop": "$440",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes monthly closes in BTC and ETH to determine if bears are dead. BTC closed at resistance around 13.8k, suggesting structure remains intact with potential to move toward support at 11.6k. He's skeptical of rallies and sees 15k-16k as potential high time frame wick targets if resistance fails. Ethereum looks worse with a failed breakout at 390-400 and a bearish monthly close signaling a retest of support at 290-300. Overall, he doesn't believe bears are dead and expects range-bound consolidation.",
+  "transcript_word_count": 8204,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:44:32.537732"
+}

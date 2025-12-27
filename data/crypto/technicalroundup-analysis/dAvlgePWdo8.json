@@ -1,0 +1,98 @@
+{
+  "source_id": "dAvlgePWdo8",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-01-15",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "Discussing Bitcoin price action in the ETF era, spot selling from GBTC redemptions, and current consolidation range",
+      "quote": "We're still very much trading in the Bitcoin spot ETF range that we had before the spike which is to say you know between 41.3k and roughly 44k we're still just going sideways",
+      "price_levels": [
+        "$40,000",
+        "$41,300",
+        "$44,000",
+        "$44,470"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Unknown",
+      "context": "ETH/BTC ratio showing strength with first decent signal in some time, closing above 0.057",
+      "quote": "ETH/BTC still looks reasonable on the weekly time frame it's the first decent signal we've had in some time that the market has closed above 0.057",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "Mentions Solana seeing a bit of a bounce and trying to catch up",
+      "quote": "Solana saw a bit of a bounce and was trying to catch up earlier",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "SEI",
+      "asset_name": "Sei",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "SEI trade is still ongoing",
+      "quote": "The whole SEI trade is still going on",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$40,000",
+        "$41,300",
+        "$44,000"
+      ],
+      "ETH": null
+    }
+  },
+  "key_insights": [
+    "Spot selling from GBTC redemptions is affecting Bitcoin price, but it's unclear if this will continue",
+    "ETF flows will likely override technical analysis in the short term until markets settle",
+    "Bitcoin trading sideways in range between 41.3k and 44k, with support around 40k",
+    "ETH/BTC ratio showing strength but ETH bullishness is contingent on BTC remaining stable",
+    "CME futures trading at discount due to new ETF products being more competitive",
+    "Quarterly basis at 9%, not particularly frothy",
+    "Open interest flatlining since the market 'nuke' with price action showing liquidations both ways without directional movement",
+    "Altcoins may see organic crypto-native price action on weekends if ETF trading dominates weekdays"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "below $40,000 or sub-$40k on aggressive spot selling",
+      "target": "back inside range or to $44,000",
+      "stop": "not specified",
+      "speaker": "Unknown"
+    }
+  ],
+  "summary": "Market is in consolidation phase with Bitcoin trading between 41.3k and 44k. Spot selling from GBTC redemptions is affecting price but unclear if this will continue. Technical analysis less relevant until ETF flows settle. ETH/BTC showing strength but ETH bullishness depends on BTC stability. Quarterly basis at 9% and CME futures at discount due to new ETF products.",
+  "transcript_word_count": 10157,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:52:02.538890"
+}

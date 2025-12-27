@@ -1,0 +1,154 @@
+{
+  "source_id": "eJhGS6PxiC0",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-02-24",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Duck",
+      "context": "DonAlt re-bought at $23k after selling at $25k, targeting $30-32k for a 30-40% move. Concerned about monthly/weekly bearish signals.",
+      "quote": "I just felt naked not having the position so I bought early... I'm targeting 32k ish right so like I'm pretty sure that we're gonna go to 30k at least that's like a 30 to 40% move right",
+      "price_levels": [
+        "$23,000",
+        "$25,000",
+        "$30,000",
+        "$32,000",
+        "$20,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Cred identifies monthly resistance at $23.3-$23.4K, with $20K as the major pullback level. Views $20K as massive support.",
+      "quote": "Monthly resistance 23.3 23.4 20K is the big pullback level as far as the monthly goes... I think 20K is massive support it's some of the best support we've had in a long time",
+      "price_levels": [
+        "$23,300",
+        "$23,400",
+        "$20,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH stuck at range high like BTC was. Pullback support at $1,400-$1,420. Daily range $1,500-$1,680, currently at midpoint $1,590-$1,600.",
+      "quote": "My view is that if it doesn't basically invalidate this Range High if it in the absence of a breakout the the pullback support is at 1400 sort of 1400 1420... consolidation where 1680 is the Range High and the range low is around 15 10 1500 ish",
+      "price_levels": [
+        "$1,400",
+        "$1,420",
+        "$1,680",
+        "$1,500"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Duck prefers ETH/BTC chart over ETHUSD. Likes $1,500 level, cites February 11th green candle on daily as good buying level.",
+      "quote": "I give you just box out the 11th of February on the daily chart if we shoot nuke I think that's a good level to buy ETH... I like the ETHBTC chart",
+      "price_levels": [
+        "$1,500"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Duck has position with target $220. Weekly support at $77. Risk-reward setup with stop below $77 weekly close.",
+      "quote": "My target is basically 220 ish right now... stopping out on a weekly close below 77 with a target of 220 the risk to reward on that is like seven",
+      "price_levels": [
+        "$220",
+        "$77",
+        "$100"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Cred notes $100 resistance level. Pullback level around $77. Mentioned Litecoin halving in ~150 days.",
+      "quote": "Litecoin is one of the victims of the pullback specifically a victim of the hundred dollar cred resistance level... the pullback levels on this thing there's one level around like 80 ish... Litecoin is in 142 days",
+      "price_levels": [
+        "$100",
+        "$77",
+        "$80"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$20,000",
+        "$23,000",
+        "$25,000"
+      ],
+      "ETH": [
+        "$1,400",
+        "$1,500",
+        "$1,680"
+      ],
+      "LTC": [
+        "$77",
+        "$100"
+      ]
+    }
+  },
+  "key_insights": [
+    "DonAlt re-bought BTC at $23k after selling at $25k, targeting $30-32k for a 30-40% move",
+    "Monthly and weekly timeframes are critical - if BTC closes poorly on monthly, expect more downside to $20K",
+    "$20K is viewed as massive support for Bitcoin by both hosts",
+    "ETH is stuck at resistance similar to BTC's recent setup, with support at $1,400-$1,420",
+    "LTC has weekly support at $77 with risk-reward to $220, halving in ~150 days as narrative catalyst",
+    "Duck notes he's on a hot streak and trading his gut feelings, but will revert to systematic approach when it fails"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$23,000",
+      "target": "$30,000 - $32,000",
+      "stop": "Monthly/weekly closes bearishly",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "LTC",
+      "direction": "long",
+      "entry": "Current levels (~$100)",
+      "target": "$220",
+      "stop": "Weekly close below $77",
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "DonAlt re-bought Bitcoin at $23k after selling at $25k, targeting $30-32k for a 30-40% move. Both hosts view $20k as strong support for BTC, with concern about bearish monthly/weekly signals if the monthly closes poorly. ETH is stuck at resistance with support at $1,400-$1,420. Duck maintains a Litecoin long position targeting $220 with weekly support at $77.",
+  "transcript_word_count": 50456,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:55:41.941057"
+}

@@ -1,0 +1,235 @@
+{
+  "source_id": "ZxAbeWbmUZQ",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-12-16",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Failed breakout above 17.5K in a downtrend structure, daily structure looks horrendous, currently testing 16.8K support",
+      "quote": "The Daily structure is a little bit less good... it's a false breakout which in a downtrend you actually do not want to see that's usually like where the top is",
+      "price_levels": [
+        "$16.2K",
+        "$16.8K",
+        "$17.5K",
+        "$12-14K"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Doesn't care too much about weekly candle, but daily structure concerns; BTC failed breakout and fell back into range",
+      "quote": "I mean honestly I don't really care too much about the weekly candle like the daily is much worse than the weekly",
+      "price_levels": [
+        "$16.2K",
+        "$16.8K",
+        "$17.5K"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Failed breakout above 1.3K, now testing 1.2K midpoint; similar bearish pattern to BTC",
+      "quote": "That's like a really shitty support level and then you're already at range low and then you kind of like you don't have anything left",
+      "price_levels": [
+        "$1.1K",
+        "$1.2K",
+        "$1.3K"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Failed breakout looks bad, lost support at 1.2K-1.25K area",
+      "quote": "So now that kind of starts looking really shitty really fast too it's basically we're reliant on a little bit of SP strength",
+      "price_levels": [
+        "$1.2K",
+        "$1.3K"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Holding from $60 entry despite 20% drawdown; still above weekly support; believes in bottom",
+      "quote": "I mean this is the thing right when you're buying bear markets basically like you're either by low and I manage to do that quite well",
+      "price_levels": [
+        "$64",
+        "$60",
+        "$66",
+        "$84"
+      ],
+      "timeframe": "long-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LTC/BTC",
+      "asset_name": "Litecoin/Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "BTC pair still looks decent above 0.003; doesn't care about pair as long as USD pair holds",
+      "quote": "I honestly don't give a shit about it like as long as the USD pair isn't invalidated I'm gonna keep the trade",
+      "price_levels": [
+        "0.003",
+        "0.004"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "XRP",
+      "asset_name": "Ripple",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Bought at $0.36 range midpoint aiming for higher; stop at 0.36 if close below",
+      "quote": "Which was enough for me to just be like okay I had this position I like to set up um especially on the Bitcoin pair",
+      "price_levels": [
+        "$0.32",
+        "$0.36",
+        "$0.40"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BNB",
+      "asset_name": "Binance Coin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "210 range lows interesting; sees mispricing given exchange FUD",
+      "quote": "But yeah thing is with pnb right um I actually wanted to buy it off of the fud and that's uh like that's why I kept a bunch of money on binance",
+      "price_levels": [
+        "$210",
+        "$50"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Weekly candle looks horrendous; lost 3900 support, now testing 3700 monthly",
+      "quote": "That's that's that's a horrendous car right um yeah a horrendous car right um yeah",
+      "price_levels": [
+        "$3700",
+        "$3900",
+        "$3500",
+        "$3200"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Below 3900 is bad, 3700 is last line of defense; looks like lower high forming",
+      "quote": "And if that fails I mean and honestly if that level fails it's a long way down right",
+      "price_levels": [
+        "$3700",
+        "$3900"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$16K",
+        "$17.5K",
+        "$12-14K"
+      ],
+      "ETH": [
+        "$1.1K",
+        "$1.3K"
+      ],
+      "SPX": [
+        "$3700",
+        "$3900"
+      ]
+    }
+  },
+  "key_insights": [
+    "Failed breakouts on BTC and ETH in downtrends are bearish continuation setups, not reversal signals",
+    "BTC and ETH need to reclaim 17.5K and 1.3K respectively to turn bullish; otherwise expect range lows to be tested",
+    "Crypto remains highly correlated with S&P 500; market participants should wait for SP guidance rather than trading range midpoints",
+    "Weekend price action has been garbage (either dead vol or forced selling), making Friday entries into weekend risky",
+    "Exchange counterparty risk is significant; diversification across multiple exchanges is prudent",
+    "Binance appears solvent but communication is poor; Mazars discontinuing crypto attestations is concerning but likely due to liability concerns"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "Failed breakout below 17.5K",
+      "target": "$16K",
+      "stop": "$17.6K",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Reclaim above 17.5K",
+      "target": "Higher",
+      "stop": "$16.8K",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Reclaim above 1.3K",
+      "target": "Higher",
+      "stop": "$1.2K",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "XRP",
+      "direction": "long",
+      "entry": "$0.36",
+      "target": "$0.40+",
+      "stop": "$0.36",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "BNB",
+      "direction": "long",
+      "entry": "$210 range lows",
+      "target": "Higher",
+      "stop": "$200",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC and ETH both experienced bearish failed breakouts above key resistance levels (17.5K and 1.3K), falling back into ranges with potential for range low tests. Crypto remains heavily correlated with S&P 500, which is testing critical monthly support at 3700 after losing 3900. Duck maintains bullish conviction on LTC from bottom despite 20% drawdown, while both hosts agree weekend price action has been garbage. Exchange counterparty risk warrants diversification across multiple exchanges.",
+  "transcript_word_count": 52132,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:26:37.238997"
+}

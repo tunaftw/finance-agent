@@ -40,6 +40,26 @@ PodStock är ett CLI-verktyg som:
 | Se status | `podstock status` |
 | Sök aktie | `podstock extract search --stock "Novo Nordisk"` |
 | Gäst-sammanfattning | `podstock guest-summary` |
+| **Twitter** | |
+| Lägg till källa | `podstock twitter add @username` |
+| Samla tweets | `podstock twitter collect` |
+| Visa statistik | `podstock twitter stats` |
+| **YouTube** | |
+| Lägg till kanal | `podstock youtube add <channel_url>` |
+| Samla transkript | `podstock youtube collect` |
+| **Crypto** | |
+| Förbered batch | `podstock crypto prepare-batch --channel technicalroundup` |
+| Sök prediktioner | `podstock crypto search --coin BTC` |
+| Visa bias | `podstock crypto bias` |
+| **Prisverifiering** | |
+| Lista spårade | `podstock prices list` |
+| Verifiera | `podstock prices verify --all` |
+| Visa träffsäkerhet | `podstock prices accuracy` |
+| **Databas** | |
+| Initiera databas | `podstock db init` |
+| Ladda analyser | `podstock db load` |
+| Sök i databas | `podstock db search "Evolution"` |
+| Beräkna avkastning | `podstock db performance update` |
 
 ---
 
@@ -149,11 +169,19 @@ podstock/
 │   ├── reports/         # Summary report generation
 │   ├── twitter/         # Twitter/X data collection
 │   ├── youtube/         # YouTube integration
-│   └── crypto/          # Crypto sentiment analysis
+│   ├── crypto/          # Crypto sentiment analysis
+│   ├── prices/          # Price tracking and verification
+│   ├── filings/         # Annual report analysis (library)
+│   └── db/              # SQLite database layer
 ├── data/                # Runtime data (gitignored)
 │   ├── audio/           # Downloaded MP3 files
 │   ├── transcripts/     # Transcribed text
 │   ├── extracted/       # AI-extracted recommendations (JSON)
+│   ├── twitter/         # Twitter sources, tweets, analyses
+│   ├── youtube/         # YouTube channels, transcripts
+│   ├── crypto/          # Crypto analyses, GLM batch data
+│   ├── prices/          # Ticker mappings, price history
+│   ├── podstock.db      # SQLite database (gitignored)
 │   ├── lists.json       # Podcast list configuration
 │   ├── podcasts.json    # Podcast configuration
 │   ├── state.json       # Processing state
@@ -246,6 +274,20 @@ podstock sync --latest 3                 # Hämta senaste 3 avsnitt
 podstock sync --dry-run                  # Visa vad som skulle synkas
 ```
 
+### Database (SQLite frågelager)
+```bash
+podstock db init                         # Skapa databas
+podstock db init --force                 # Återskapa databas
+podstock db status                       # Visa statistik
+podstock db seed-securities              # Ladda aktier från ticker_mapping
+podstock db load                         # Importera podcast-analyser
+podstock db load --type twitter          # Importera Twitter-analyser
+podstock db search "Evolution"           # Sök rekommendationer
+podstock db search --action buy          # Filtrera på köprekar
+podstock db pending list                 # Visa omatchade aktier
+podstock db performance update           # Beräkna avkastning
+```
+
 ### Summary (Sammanfattningar)
 ```bash
 # Förbered prompt för Claude Code
@@ -326,8 +368,8 @@ mypy src/
 
 ## 📊 Future Plans (Phase 2)
 
-- [ ] Automatic price data integration (Yahoo Finance)
-- [ ] Performance tracking dashboard
+- [x] ~~Automatic price data integration (Yahoo Finance)~~ ✅ Implementerad
+- [x] ~~Performance tracking dashboard~~ ✅ `podstock db performance`
 - [ ] Claude API integration (automated analysis)
 - [ ] Web UI
 

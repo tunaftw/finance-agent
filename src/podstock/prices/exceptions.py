@@ -1,4 +1,35 @@
-"""Custom exceptions for the prices module."""
+"""Custom exceptions for the prices module.
+
+Exceptions
+----------
+PriceError
+    Base exception for all price-related errors.
+
+TickerNotFoundError(PriceError)
+    Raised when a ticker symbol cannot be resolved from a company name.
+    Includes the company name that failed to resolve.
+
+PriceNotAvailableError(PriceError)
+    Raised when price data cannot be fetched from the data source.
+    Includes the symbol and optional date that failed.
+
+InvalidTickerError(PriceError)
+    Raised when a ticker symbol is invalid or doesn't exist.
+    Includes the invalid ticker.
+
+Example::
+
+    from podstock.prices import PriceTracker, TickerNotFoundError
+
+    tracker = PriceTracker(data_dir)
+    try:
+        rec = tracker.track_recommendation(
+            asset_name="Unknown Company",
+            ...
+        )
+    except TickerNotFoundError as e:
+        print(f"Could not find ticker for: {e.name}")
+"""
 
 
 class PriceError(Exception):

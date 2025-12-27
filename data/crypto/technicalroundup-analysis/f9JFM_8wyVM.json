@@ -1,0 +1,159 @@
+{
+  "source_id": "f9JFM_8wyVM",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-06-05",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Unknown",
+      "context": "Market trying to break down with lower highs and lower lows since 30k. Looking for signs of life before entering.",
+      "quote": "on the weekly downtrending structure with lower highs and lower lows ever since 30k so in general if I want to buy something right I want to buy something there are three criteria you know three criteria that it needs to meet",
+      "price_levels": [
+        "35,000",
+        "24,000-22,000",
+        "26,700-27,400",
+        "20,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "Weekly support zone of 24-22k would be key level for potential failed breakdown setup.",
+      "quote": "hit something would mean hitting a level of weekly support I think the earliest version of that is 24K and all the way down to the other kind of this cluster essentially the other side of it at 22k",
+      "price_levels": [
+        "24,000-22,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Unknown",
+      "context": "Failed breakouts at 1.9K, still dealing with pre-breakout range as resistance.",
+      "quote": "the prevailing theme on this thing has been the failed breakouts at sort of 1.9 K as youll recall and the Markets done very little to invalidate that",
+      "price_levels": [
+        "1,900",
+        "1,600",
+        "1,500",
+        "1,790",
+        "1,700-1,800",
+        "1,800-1,900"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "Hasnt made lower lows yet like BTC, showing relative strength on this bearish day.",
+      "quote": "if USD curious because the relative strength of a day like this and this entire trend is is very strong but Im not a fan of each BTC Longs or just USD Longs",
+      "price_levels": [
+        "1,900",
+        "1,600"
+      ],
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "ALTS",
+      "asset_name": "Altcoins",
+      "sentiment": "strongly_bearish",
+      "speaker": "Unknown",
+      "context": "Getting wrecked after SEC lawsuit named many altcoins as securities.",
+      "quote": "alts obviously getting wrecked it didnt help that in this uh lawsuit they named a bunch of altcoins as being Securities",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ALTS",
+      "asset_name": "Altcoins",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "Some mean reversion possible for stronger names that have held up better.",
+      "quote": "it wouldnt be terribly surprising to see some mean reversion uh among some of the some of the stronger names",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "35,000",
+        "24,000-22,000",
+        "26,700-27,400"
+      ],
+      "ETH": [
+        "1,900",
+        "1,600",
+        "1,500",
+        "1,800-1,900"
+      ]
+    }
+  },
+  "key_insights": [
+    "Market experiencing failed breakdown setups across BTC and ETH with lower highs and lower lows",
+    "SEC lawsuit against Binance caused aggressive selling, likely from insiders before announcement",
+    "Market needs to prove strength by either spiking in reverse, hitting support (22-24k for BTC), or reclaiming broken levels",
+    "Legacy markets (S&P 500, NASDAQ) showing strength while crypto weakens, concerning if legacy hits resistance",
+    "Regime appears to be shifting from low volatility to high volatility environment",
+    "Altcoins particularly vulnerable due to being named as securities in lawsuit"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Wait for failed breakdown above 26,300-26,400",
+      "target": "Above 27,400",
+      "stop": "Below current lows",
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "24,000-22,000 support zone",
+      "target": "Range reclaim",
+      "stop": "Below 20,000",
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Short-term pump from 1,700 support",
+      "target": "Range midpoint",
+      "stop": "Below daily low at ~1,790",
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "ALTS",
+      "direction": "long",
+      "entry": "Look at relatively stronger names that are less red",
+      "target": "Mean reversion bounce",
+      "stop": "Unknown",
+      "speaker": "Unknown"
+    }
+  ],
+  "summary": "The episode analyzes the aftermath of the SEC lawsuit against Binance, which caused significant market weakness. BTC and ETH both showing failed breakdown structures with lower highs and lower lows. The host recommends waiting for one of three bullish signals: failed breakdown (spike in reverse), hitting support (22-24k for BTC), or reclaiming broken ranges. Altcoins are particularly vulnerable. The focus is on short-term trading rather than trend positions given the uncertain environment, especially with legacy markets showing strength while crypto weakens.",
+  "transcript_word_count": 11107,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:01:36.192928"
+}

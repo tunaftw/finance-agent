@@ -1,0 +1,117 @@
+{
+  "source_id": "vctox2ZWujQ",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-02-14",
+  "hosts": ["Cred", "Duck"],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Market tested resistance at 43-47k, closed at 42k. No clear directional bias, resistance did its job but didn't lead to rollover. Range-bound behavior with support at 38-40k.",
+      "quote": "given how the candle closed I don't have a clear read it's it's a bit of a coin toss",
+      "price_levels": ["$38,000", "$42,000", "$43,000-$47,000", "$49,000", "$58,000"],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Conditional bullish scenario if weekly acceptance above 47k resistance. Would be a classic range midpoint reclaim into range high setup.",
+      "quote": "weekly acceptance above 47k which would really make the case for a move from the range midpoint into the range high",
+      "price_levels": ["$47,000", "$58,000"],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Higher low pullback setup at 38k weekly support. Offers better risk-reward but scarier to trade. Validating higher low after higher high structure.",
+      "quote": "pullback into this area of high time frame structure from 38 to 40k... with your first trouble area 43 to 47k",
+      "price_levels": ["$38,000", "$40,000", "$43,000-$47,000", "$58,000"],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH tested resistance at 3.2-3.3k and it held. No real rollover structure yet. Similar story to BTC.",
+      "quote": "resistance did its job but you know no real rollover structure yet",
+      "price_levels": ["$2,700", "$3,000", "$3,200-$3,300", "$3,600"],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Failed reclaim at 3k means low probability of second fake-out. If 3k gets reclaimed again, odds of continuation to 3.6k are much better.",
+      "quote": "if the market reclaims 3k and gets back above and has another stab at this level I think the odds of continuation are much better than the odds of this type of price action happening once again",
+      "price_levels": ["$3,000", "$3,600"],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "uncertain",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": ["$38,000", "$43,000-$47,000", "$58,000"],
+      "ETH": ["$2,700", "$3,000", "$3,600"]
+    }
+  },
+  "key_insights": [
+    "Main speaker Cred shows overall neutral sentiment - \"the best I can do is meh\"",
+    "Central bank quantitative tightening, rate hikes, and inflation concerns are primary macro headwinds",
+    "High timeframe technicals for BTC and ETH do not look constructive - market below 21-weekly and 200-day moving averages",
+    "Market structure is bearish on most timeframes with lower lows and lower highs",
+    "Failed reclaim pattern on ETH suggests low probability of second fake-out at 3k level",
+    "Large altcoin unlocks in early 2022 creating additional supply pressure in weak market",
+    "Current environment described as \"terrible\" for rushing or forcing setups - capital preservation prioritized",
+    "Correlation with S&P 500 remains tight - crypto trades as risk asset not haven",
+    "Two viable long setups: momentum continuation above resistance or pullback to support with skewed risk-reward"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$47,000+ (weekly acceptance)",
+      "target": "$58,000",
+      "stop": "below $47,000",
+      "speaker": "Cred",
+      "notes": "Momentum continuation setup - requires weekly acceptance above 47k resistance to confirm strength"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$38,000-$40,000",
+      "target": "$43,000-$47,000 (first trouble area), $58,000 (moonshot target)",
+      "stop": "below previous low",
+      "speaker": "Cred",
+      "notes": "Higher low pullback setup at weekly 38-40k support zone - better risk-reward but scarier to trade"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$3,000 (reclaim)",
+      "target": "$3,600",
+      "stop": "below $3,000",
+      "speaker": "Cred",
+      "notes": "Failed reclaim pattern at 3k means second attempt likely succeeds - reclaim of 3k could lead to 3.6k"
+    }
+  ],
+  "summary": "Cred provides a neutral to slightly bearish outlook on BTC and ETH, noting both tested resistance without rolling over but also no clear bullish setups. He identifies two potential long setups: momentum continuation requiring weekly acceptance above $47k targeting $58k, or a higher low pullback to $38-$40k zone with superior risk-reward. Market headwinds include central bank tightening, macro uncertainty, geopolitical tensions, large altcoin unlocks, and bearish high timeframe technicals. Cred emphasizes being extremely selective and prioritizing capital preservation in this challenging environment.",
+  "transcript_word_count": 13225,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T02:47:34.423450"
+}

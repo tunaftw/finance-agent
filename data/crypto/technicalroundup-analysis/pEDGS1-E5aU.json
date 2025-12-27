@@ -1,0 +1,224 @@
+{
+  "source_id": "pEDGS1-E5aU",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-11-27",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Monthly close coming up with 35k as key level - close above is bullish signal that reclaimed prior range low",
+      "quote": "35k is the key monthly level this is one of those mini ones where if we close above it it's bullish if we goose below it it's bearish",
+      "price_levels": [
+        "$35k",
+        "$37k",
+        "$44-46k",
+        "$60k",
+        "$32k",
+        "$34-35k",
+        "$33.6-34k"
+      ],
+      "timeframe": "monthly",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Weekly timeframe analysis showing it's difficult to justify trade at current levels due to 13% distance to invalidation",
+      "quote": "Your invalidation even at the time of recording is about 13% away now that's quite far away for a swing trade",
+      "price_levels": [
+        "$32k"
+      ],
+      "timeframe": "weekly",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Daily timeframe showing bearish signal with two spikes at ~38k and no close above, suggesting potential pullback",
+      "quote": "We had this high set here and we've now had two spikes of the level with no close above which would generally suggest some odds that the market trades towards the other side which would be 35 Kish",
+      "price_levels": [
+        "$38k",
+        "$35.4k",
+        "$34k"
+      ],
+      "timeframe": "daily",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "4H timeframe concerns about potential flush similar to bitmex PTSD scenarios",
+      "quote": "You get a sort of grinding up walk up higher low higher low higher low and price action and then it just gets completely flushed all of these trailed stops get taken out",
+      "price_levels": [
+        "$33.6-34k"
+      ],
+      "timeframe": "4H",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH/BTC showing weekly breakdown and bearish retest at 0.057, no compelling technical evidence for reversal",
+      "quote": "We still have the weekly breakdown and retest at 0.057 that just looks like a bearish retest and a breakdown of a very long range so unless the technical picture shifts it's just very difficult to be bullish eth again",
+      "price_levels": [
+        "0.057",
+        "0.04"
+      ],
+      "timeframe": "weekly",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH/USD stuck in weak range between 2.1k resistance and 1.9k support, concerning technical picture",
+      "quote": "The market is stuck for 3 weeks at a shitty level in comparison only 10% higher someone's bluffing something's wrong",
+      "price_levels": [
+        "$2.1k",
+        "$1.9k"
+      ],
+      "timeframe": "weekly",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ADA",
+      "asset_name": "Cardano",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ADA mentioned as pivot around 40 cents during altcoin pullback discussion",
+      "quote": "On Ada being a pivot around 40 cents",
+      "price_levels": [
+        "$0.40"
+      ],
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "AVAX",
+      "asset_name": "Avalanche",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "AVAX mentioned as continuing to pullback during altcoin discussion",
+      "quote": "Solana continuing to pull back",
+      "price_levels": [
+        "$44-47"
+      ],
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Solana mentioned as continuing to pullback with potential test of 44-47 levels",
+      "quote": "Solana continuing to pull back and might get a give a test of 44-47 at this point",
+      "price_levels": [
+        "$44-47"
+      ],
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$35k",
+        "$32k",
+        "$44-46k",
+        "$60k"
+      ],
+      "ETH": [
+        "$1.9k",
+        "$2.1k",
+        "0.057 BTC"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC monthly close above 35k would be bullish technical signal but doesn't guarantee immediate continuation or speed of movement",
+    "ETH/BTC showing bearish breakdown and retest at 0.057, no evidence of regime change toward broader bull market",
+    "ETH/USD stuck in concerning range between 1.9k and 2.1k with weak price action and poor ETF news reaction",
+    "Bitcoin market dominance very strong, altcoins not showing clear leadership or sector rotation",
+    "Potential for catch-up trade in altcoins post BTC spot ETF if regime change occurs from Bitcoin-centric to broader market"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "close to $32k if retested",
+      "target": "$44-46k or $60k",
+      "stop": "below $32k",
+      "speaker": "Cred",
+      "timeframe": "weekly"
+    },
+    {
+      "asset": "ETH/USD",
+      "direction": "short",
+      "entry": "below $1.9k",
+      "target": "$1.8k or lower",
+      "stop": "above $1.9k",
+      "speaker": "Cred",
+      "timeframe": "weekly"
+    },
+    {
+      "asset": "ETH/USD",
+      "direction": "long",
+      "entry": "break above $2.1k",
+      "target": "acceleration higher",
+      "stop": "below $1.9k",
+      "speaker": "Cred",
+      "timeframe": "weekly"
+    },
+    {
+      "asset": "Alts",
+      "direction": "long",
+      "entry": "shallow dips if BTC dips 0.3% and alts are green",
+      "target": "higher levels",
+      "stop": "depends on individual alt",
+      "speaker": "Cred",
+      "timeframe": "short-term"
+    },
+    {
+      "asset": "Alts",
+      "direction": "long",
+      "entry": "after larger BTC pullback to $34-35k or $33.6-34k",
+      "target": "retest higher low levels",
+      "stop": "depends on individual alt",
+      "speaker": "Cred",
+      "timeframe": "short-term"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "trend line overthrow on 4H with reclaim and negative delta absorption",
+      "target": "short to medium term continuation",
+      "stop": "when market reclaims",
+      "speaker": "Cred",
+      "timeframe": "4H"
+    }
+  ],
+  "summary": "BTC monthly close approaching with 35k as key bullish level, though Cred warns immediate continuation not guaranteed. ETH showing very weak price action with concerning range structure between 1.9k-2.1k and bearish ETH/BTC breakdown. Bitcoin dominance increasing with no clear altcoin season yet. Cred suggests potential for altcoin catch-up trade post BTC spot ETF if regime change occurs, but current market lacks clear leadership.",
+  "transcript_word_count": 11670,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:47:45.892068"
+}

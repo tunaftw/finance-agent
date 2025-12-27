@@ -1,0 +1,69 @@
+{
+  "source_id": "f9JFM_8wyVM",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-06-05",
+  "hosts": ["Cred", "Duck"],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Breaking below all support levels, failed breakouts, lower highs and lower lows since $30k",
+      "quote": "it's certainly trying to break down and the success or lack thereof of the simples uh will kind of set our bias for the uh days and potentially weeks to come but for the time being it's breaking below everything",
+      "price_levels": ["$35k", "$24-22k", "$26.7-27.4", "$26.3-26.4"],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Showing relative strength compared to BTC, hasn't made lower lows yet but structure still bearish",
+      "quote": "structurally you can make the argument that it looks stronger I still think BTC has the clearer levels",
+      "price_levels": ["$1,900", "$1,700-1,800", "$1,600", "$1,500"],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": ["$35k (resistance)", "$24-22k (support)", "$26.7-27.4 (daily range)"],
+      "ETH": ["$1,900 (resistance)", "$1,600-1,500 (support)"]
+    }
+  },
+  "key_insights": [
+    "SEC lawsuit against Binance triggered aggressive market selling, with open interest ramping up before news release",
+    "Market shifting from low volatility to high volatility regime",
+    "Traditional markets (S&P, NASDAQ) showing strength while crypto underperforms with lower highs and lower lows",
+    "Three criteria for bullish setups: Spike something (failed breakdown), Hit something (support level), Reclaim something (previous range)",
+    "Weekly timeframe critical - waiting for weekly close to confirm if double bottom holds or breakdown continues"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$26,400-27,400 on four-hour close above double bottom lows",
+      "target": "Reclaim daily range above $27,400",
+      "stop": "$22-24k weekly support cluster",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1,700-1,800 range on bounce",
+      "target": "$1,900 daily resistance",
+      "stop": "$1,790 daily consolidation lows",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "The SEC's lawsuit against Binance triggered a significant market downturn, with BTC breaking below support levels and showing failed breakout patterns. Key levels to watch are $22-24k for BTC support and $1,600-1,500 for ETH. The market may be transitioning from low to high volatility, while traditional markets remain strong. Trading approach remains cautious, waiting for weekly confirmation of a potential double bottom reversal before entering long positions.",
+  "transcript_word_count": 11123,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:58:48.021729"
+}

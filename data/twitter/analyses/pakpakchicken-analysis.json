@@ -1,0 +1,150 @@
+{
+  "source_id": "pakpakchicken",
+  "analyzed_at": "2025-12-26T23:45:00",
+  "analyzed_by": "claude-code-agent",
+  "total_tweets_in_dataset": 1400,
+  "investment_relevant_tweets": 702,
+  "tweets_reviewed": 35,
+  "profile_summary": {
+    "name": "PakPakChicken",
+    "description": "Macro trader with strong track record. Publicly called 2021 stock top (20x), 2022 crypto (7x), now rotating to robotics and emerging markets.",
+    "investment_style": "Macro rotation, asymmetric risk seeking, position sizing focus",
+    "language": "en",
+    "notable": "Very transparent - shares full portfolio, not selective wins. Anti-KOL culture."
+  },
+  "track_record": {
+    "2021": "Stocks top exit - publicly 20x",
+    "2022": "Shifted to crypto - publicly 7x",
+    "2025": "Crypto top exit, shifting to Robotics & Emerging Markets"
+  },
+  "current_portfolio": {
+    "name": "Challenge Portfolio",
+    "starting_capital": "$500,000",
+    "current_value": "~$943,000 (as of Dec 2025)",
+    "returns": "+$443k (~88%)",
+    "style": "No options, no leverage, no day trading",
+    "cash_position": "30-50% always invested, rest cash"
+  },
+  "stock_mentions": [
+    {
+      "stock_name": "UBtech Robotics",
+      "ticker": "UBTECH (HK)",
+      "exchange": "Hong Kong",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Humanoid robotics. Real B2B commercial orders. Scaling. Walker S2 product. DCA accumulating.",
+      "quotes": [
+        "My conviction for UBtech grows by the day",
+        "I do not know of any other humanoid robotics company doing this at this scale now",
+        "Will not talk about this company anymore. Need to buy more shares."
+      ]
+    },
+    {
+      "stock_name": "Virgin Galactic",
+      "ticker": "SPCE",
+      "exchange": "NYSE",
+      "action": "buy",
+      "confidence": "medium",
+      "reasoning": "Added to challenge portfolio. SpaceX IPO thesis could revalue entire space sector.",
+      "quotes": [
+        "just added spce to challenge portfolio",
+        "A successful SpaceX IPO at $1.5 trillion would force public markets to revalue the entire space economy"
+      ]
+    },
+    {
+      "stock_name": "Figma",
+      "ticker": "FIG",
+      "exchange": "NASDAQ",
+      "action": "watch",
+      "confidence": "medium",
+      "reasoning": "Adobe deal collapsed at $20B. Currently at 18B mcap. 180-day lockup ended. Strong AI adoption could re-rate.",
+      "risk": "Lock-up overhang"
+    },
+    {
+      "stock_name": "Archer Aviation / Joby",
+      "ticker": "FLY",
+      "exchange": "NYSE",
+      "action": "hold",
+      "confidence": "medium",
+      "reasoning": "IPO exit liquidity flattening. 6 successful flights. Possible hypersonics pivot.",
+      "quotes": [
+        "Rotated from $PG back to $onds & $fly yesterday"
+      ]
+    },
+    {
+      "stock_name": "Procter & Gamble",
+      "ticker": "PG",
+      "exchange": "NYSE",
+      "action": "rotation_target",
+      "confidence": "high",
+      "reasoning": "Defensive rotation. US defensives thesis for 2026.",
+      "quotes": [
+        "Sold everything. When all in $PG",
+        "2026: US defensives"
+      ]
+    },
+    {
+      "stock_name": "XPeng",
+      "ticker": "XPEV",
+      "exchange": "NYSE",
+      "action": "avoid",
+      "confidence": "high",
+      "reasoning": "Did hit piece, stock fell 80%. CEO sucks, work culture sucks, engineering sucks.",
+      "quotes": [
+        "Do I still hate xpeng? YES"
+      ]
+    }
+  ],
+  "sector_thesis": {
+    "2023": "Crypto comeback",
+    "2024": "AI + Tech",
+    "2025": "Gold + Silver",
+    "2026": "US Defensives",
+    "long_term": "Robotics & Emerging Markets (China/HK)"
+  },
+  "market_outlook": {
+    "overall_sentiment": "cautious",
+    "crypto_view": "Top called, reduced exposure. Trenches dead, liquidity dried up.",
+    "stocks_view": "VIX near lows, stocks near highs - watching for 10% sneeze",
+    "risk_stance": "Playing not to lose, not playing to win",
+    "key_concern": "Watching for capital outflows from US (historically precedes crashes)"
+  },
+  "trading_philosophy": {
+    "position_sizing": "Never affects sleep. 30-50% invested max.",
+    "asymmetric_risk": "Looking for small mcap with big upside, not Baba 2x",
+    "transparency": "Shows full portfolio, not selective wins",
+    "panic_selling": "Never panic sell. Wait for bounce, then exit.",
+    "quotes": [
+      "What makes a difference between a good investor and the top 0.1% is finding asymmetric risks",
+      "The goal is simply stay in the game as long as possible"
+    ]
+  },
+  "actionable_insights": [
+    {
+      "insight": "UBtech (HK) - humanoid robotics at scale",
+      "actionable": true,
+      "action_type": "buy_candidate",
+      "ticker": "UBTECH"
+    },
+    {
+      "insight": "SpaceX IPO could revalue entire space sector",
+      "actionable": true,
+      "action_type": "sector_thesis"
+    },
+    {
+      "insight": "2026 rotation to US defensives (PG, etc)",
+      "actionable": true,
+      "action_type": "rotation_thesis"
+    },
+    {
+      "insight": "Avoid XPEV despite potential price increase",
+      "actionable": true,
+      "action_type": "avoid"
+    },
+    {
+      "insight": "Watch for US capital outflows as crash signal",
+      "actionable": true,
+      "action_type": "risk_monitor"
+    }
+  ]
+}

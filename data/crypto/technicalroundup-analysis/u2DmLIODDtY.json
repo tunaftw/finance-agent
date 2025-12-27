@@ -1,0 +1,168 @@
+{
+  "source_id": "u2DmLIODDtY",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-12-02",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Monthly time frame analysis showing bearish engulfing candle",
+      "quote": "the monthly closed is a bearish engulfing like a classic bearish engulfing the one where it spikes above last month's high and then closes below last month's low which is like not great",
+      "price_levels": [
+        "$14k",
+        "$19k"
+      ],
+      "timeframe": "monthly",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Weekly timeframe showing attempted recovery",
+      "quote": "the weekly time frame where you've got some some semblance of a swing low type of structure",
+      "price_levels": null,
+      "timeframe": "weekly",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Daily timeframe showing failed breakdown and recovery",
+      "quote": "I bought Bitcoin I bought Litecoin um so I'm I think you're also decent otherwise I wouldn't have",
+      "price_levels": [
+        "$16k",
+        "$19k"
+      ],
+      "timeframe": "daily",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Monthly timeframe showing support holding at 1.1k",
+      "quote": "it's not below support it's at support and the attempted stab through the preceding candles low also was kind of unsuccessful",
+      "price_levels": [
+        "$1.1k",
+        "$1.5k",
+        "$2.3k"
+      ],
+      "timeframe": "monthly",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Waiting for more strength above 1.3k before entering",
+      "quote": "I honestly I'm surprised at the lows holding as I think are you and us",
+      "price_levels": [
+        "$1.2k",
+        "$1.3k",
+        "$1.5k"
+      ],
+      "timeframe": "weekly",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Monthly breakout above $60 with target at $120",
+      "quote": "Litecoin has a really good monthly close now if you just go on like when you use D monthly it basically broke UH 60 dollar resistance",
+      "price_levels": [
+        "$60",
+        "$120",
+        "$220"
+      ],
+      "timeframe": "monthly",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "XRP",
+      "asset_name": "Ripple",
+      "sentiment": "mixed",
+      "speaker": "Duck",
+      "context": "Sold before expected dump, re-entered cheaper",
+      "quote": "I basically added the xrp to the Litecoin trade and the reason for that is that I like the Litecoin narrative better",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Mentioned as example of failed range low trade",
+      "quote": "obviously Solana as an example kind of sucks because it eventually broke down",
+      "price_levels": [
+        "$27"
+      ],
+      "timeframe": "historical",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$14k",
+        "$16k",
+        "$19k"
+      ],
+      "ETH": [
+        "$1.1k",
+        "$1.3k",
+        "$1.5k"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC and ETH showing divergent behavior on monthly timeframe - BTC broke down from range while ETH holding at support",
+    "First failed breakdown on BTC daily timeframe since this bear market began",
+    "ETH showing relative strength potentially due to staking yields protecting price floor",
+    "Hidden leverage arguments exist at any point in market cycle, not unique to bear markets",
+    "Macro setup bullish with SPX reclaim and dollar weakness, but crypto-specific headwinds (FTX) overshadowing",
+    "December historically good month for crypto trading",
+    "Litecoin showing high timeframe breakout with clean technical setup"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$16k range",
+      "target": "$19k squeeze",
+      "stop": "$16k support",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "LTC",
+      "direction": "long",
+      "entry": "$60-70",
+      "target": "$120 initially, $220 longer-term",
+      "stop": "Below $60",
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "Monthly timeframe shows BTC in bearish downtrend with bearish engulfing candle while ETH maintains support at 1.1k, creating notable divergence. Daily BTC showing first failed breakdown of bear market with potential squeeze to 19k. Duck positioned long BTC and Litecoin with stops at 16k and 60 respectively, targeting 19k and 120. Macro backdrop supportive (SPX reclaimed, dollar weakening) but crypto-specific FTX drama dampening tailwinds.",
+  "transcript_word_count": 41685,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T02:31:41.942432"
+}

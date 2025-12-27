@@ -1,0 +1,146 @@
+{
+  "source_id": "venturafpc",
+  "analyzed_at": "2025-12-26T23:25:00",
+  "analyzed_by": "claude-code-agent",
+  "total_tweets_in_dataset": 698,
+  "investment_relevant_tweets": 287,
+  "tweets_reviewed": 30,
+  "profile_summary": {
+    "name": "Michael Kjaer (VenturaFPC)",
+    "description": "Nordic small/micro-cap fundamental analyst. Focus on quality growth companies with good management.",
+    "investment_style": "Quality growth, fundamental analysis, concentrated portfolio",
+    "language": "en/da/sv",
+    "notable": "Very detailed Q-report analysis, follows Nordic markets closely"
+  },
+  "investment_philosophy": {
+    "portfolio_size": "8-12 companies",
+    "position_sizing": "Start 3-10%, let winners run to 30-35%",
+    "approach": "Averaging up, not down",
+    "focus": [
+      "Organic growth companies",
+      "Simple business models",
+      "Recurring revenue",
+      "Intelligent fanatics (proven CEOs)",
+      "Overlooked and misunderstood cases"
+    ],
+    "sell_triggers": [
+      "Bad quarterly reports (usually followed by more bad quarters)",
+      "Valuation too high on NTM estimates",
+      "Management stops executing"
+    ],
+    "key_metrics": ["EV/EBIT", "EBIT margin scaling", "Revenue growth", "Gross margin"]
+  },
+  "stock_mentions": [
+    {
+      "stock_name": "Hove",
+      "ticker": "HOVE",
+      "exchange": "First North Denmark",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Detailed bullish analysis. Wind turbine grease/pumps. Nespresso model with recurring revenue. Upgraded 2025 forecast. MC 119m, EBIT 19-22m.",
+      "valuation_notes": "MC 119m DKK, Net assets 70m, EBIT 19-22m. Very attractive.",
+      "quotes": [
+        "Da de IPO'ed for 4 år siden var EBITDA 6m nu er den 21-24m",
+        "Omsætning steget fra 103m til nu 200-210m",
+        "Jeg synes det ser ret attraktivt ud"
+      ]
+    },
+    {
+      "stock_name": "Plejd",
+      "ticker": "PLEJD",
+      "exchange": "First North Stockholm",
+      "action": "hold",
+      "confidence": "high",
+      "reasoning": "Sold in 2023 when growth slowed, re-entered April 2024 when growth returned. Electricians prefer Plejd over Shelly.",
+      "quotes": [
+        "Yes I sold Plejd when growth was slowing down back in summer of 2023, i reentered in april 2024 because growth was back"
+      ]
+    },
+    {
+      "stock_name": "Dellia",
+      "ticker": "DELLIA",
+      "exchange": "First North",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Recent IPO with 156% growth. 40.3m EBIT adjusted. Strong demand, supply issues resolving in 2026. EV/EBIT 8.5x on 2026e, target 15x.",
+      "quotes": [
+        "40,3m EBIT adjusted for IPO cost",
+        "156% growth, most of revenue is from core market's in Nordic countries",
+        "Trades around EV/EBIT 8,5x on my 2026e, I think 15x EV/EBIT is justified"
+      ]
+    },
+    {
+      "stock_name": "Zinzino",
+      "ticker": "ZZ",
+      "exchange": "First North Stockholm",
+      "action": "hold",
+      "confidence": "medium",
+      "reasoning": "Strong Q3 EBIT beat (101.3m vs 54.4m). Improved gross margin.",
+      "quotes": [
+        "Stronger EBIT than expected 101,3m vs 54,4m last year",
+        "Gross margin improved, better market mix, lower raw material prices"
+      ]
+    },
+    {
+      "stock_name": "SNX",
+      "ticker": "SNX",
+      "exchange": "First North Denmark",
+      "action": "hold",
+      "confidence": "medium",
+      "reasoning": "Strong Q3 momentum. Upgraded forecast to 550m revenue, EBITA ~7%.",
+      "quotes": [
+        "Fortsat meget stærk momentum i q3",
+        "Opjustere forecast til 550m omsætning og EBITA omkring 7%"
+      ]
+    }
+  ],
+  "sector_views": [
+    {
+      "sector": "Nordic Small/Micro-caps",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "reasoning": "Primary focus area. Many overlooked opportunities."
+    },
+    {
+      "sector": "Wind Energy/Green Tech",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "reasoning": "Hove exposure. India wind market growth to 100 GW by 2030."
+    },
+    {
+      "sector": "Smart Home (Plejd)",
+      "sentiment": "bullish",
+      "confidence": "medium",
+      "reasoning": "Re-entered when growth returned. Electricians prefer product."
+    }
+  ],
+  "market_outlook": {
+    "overall_sentiment": "bullish",
+    "focus_areas": "Nordic small-caps with quality management",
+    "key_insight": "Market slow to price in good/bad reports - creates opportunities if quick to react"
+  },
+  "actionable_insights": [
+    {
+      "insight": "Hove at attractive valuation (MC 119m, EBIT 19-22m)",
+      "actionable": true,
+      "action_type": "buy_candidate",
+      "ticker": "HOVE"
+    },
+    {
+      "insight": "Dellia trading at 8.5x EV/EBIT, target 15x",
+      "actionable": true,
+      "action_type": "buy_candidate",
+      "ticker": "DELLIA"
+    },
+    {
+      "insight": "Sell on bad reports - next quarters usually also bad",
+      "actionable": true,
+      "action_type": "strategy"
+    },
+    {
+      "insight": "Market slow to react to reports - be quick",
+      "actionable": true,
+      "action_type": "strategy"
+    }
+  ]
+}

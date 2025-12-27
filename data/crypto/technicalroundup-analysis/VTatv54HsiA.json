@@ -1,0 +1,104 @@
+{
+  "source_id": "VTatv54HsiA",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-03-25",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "BTC is trading close to all-time highs after a 17% correction from highs, viewed as a typical shakeout before trend continuation",
+      "quote": "the most bullish outcome to this is that this two week move lower was the all time high shakeout and then you get trend continuation",
+      "price_levels": [
+        "$61k-$62k",
+        "$68.4k",
+        "$71.4k-$72.1k",
+        "sub $59k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH/BTC not super interesting, but ETH/USD may become interesting for swing traders at $3k and $3.9k levels",
+      "quote": "looking at this chart I don't don't find it super interesting to be completely honest with you at this point either",
+      "price_levels": [
+        "$3,000",
+        "$3,500",
+        "$3,900"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$61k-$62k",
+        "$68.4k",
+        "$71.4k-$72.1k"
+      ],
+      "ETH": [
+        "$3,000",
+        "$3,900"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC's 17% correction from all-time highs is consistent with typical shakeout patterns that lead to trend continuation",
+    "Open interest increased 9-10% with price up 6%, and funding rates spiked - if shorts pile in during consolidation they could provide fuel for upside",
+    "Key BTC levels to watch: support at $61k-$62k (tested and held), $68.4k is critical support/breakout level, resistance at $71.4k-$72.1k",
+    "ETH/USD may offer swing trading opportunities at $3k support and $3.9k breakout level",
+    "The weekly close above $68.4k would signal continuation; dropping below $59k would indicate failed breakout"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$68.4k on dip",
+      "target": "expansion through all-time highs",
+      "stop": "$68.4k (daily close)",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "breakout through $72k",
+      "target": "new highs",
+      "stop": "$71k-$72k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$3k on dip",
+      "target": "$3.9k+",
+      "stop": "below $3k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "weekly close above $3.9k",
+      "target": "towards highs",
+      "stop": "below $3.9k",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC is trading near all-time highs after a 17% correction from March peaks, with Cred viewing this as a typical shakeout pattern before trend continuation. Key support at $61k-$62k has already held twice, while $68.4k serves as a critical level that should not be lost on a daily closing basis. Funding rates and open interest have spiked, creating conditions where shorts during consolidation could fuel the next leg higher. ETH/USD is showing potential for swing traders at the $3k support and $3.9k breakout levels, though ETH/BTC remains uninteresting.",
+  "transcript_word_count": 9068,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T23:58:00.815284"
+}

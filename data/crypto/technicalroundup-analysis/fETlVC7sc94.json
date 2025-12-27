@@ -1,0 +1,87 @@
+{
+  "source_id": "fETlVC7sc94",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-06-26",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Weekly breakout candle is significant sign of strength, but occurring at narrative resistance. Wants to see shallow pullbacks to confirm strength.",
+      "quote": "weekly breakout is significant uh and yeah that's it I sort of give more weight to that rather than of more weight for 30k",
+      "price_levels": [
+        "$29,000",
+        "$28,000",
+        "$35,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Stuck below resistance at $1,930, looking weak against BTC. Waiting for weekly strength through resistance level.",
+      "quote": "as far as eth goes it looks a bit whack on the on the daily time frame",
+      "price_levels": [
+        "$1,930",
+        "$1,910",
+        "$1,800"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$29,000",
+        "$28,000",
+        "$35,000"
+      ],
+      "ETH": [
+        "$1,930",
+        "$1,800"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin weekly breakout is significant sign of strength despite occurring at narrative resistance",
+    "Shallow pullbacks in BTC above $29k would confirm strength, while breakdown below would be bearish",
+    "Ethereum struggling at $1,930 resistance, needs weekly close above for signal toward $2,500",
+    "Market flows are Bitcoin-centric due to BlackRock ETF narrative",
+    "ETH/BTC pair appears weak, prefer BTC long setups over ETH"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$29,000-$31,000",
+      "target": "$35,000",
+      "stop": "Below $29,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Above $1,930 on weekly close",
+      "target": "$2,500",
+      "stop": "$1,800",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin shows strength with a significant weekly breakout, but traders should look for shallow pullbacks above $29k to confirm bullish momentum. Ethereum is stuck below $1,930 resistance and appears weak relative to BTC, with BlackRock ETF narrative driving Bitcoin-centric market flows. The overall sentiment is cautiously bullish on Bitcoin and neutral on Ethereum, with clear risk levels defined at $29k for BTC and $1,800 for ETH.",
+  "transcript_word_count": 8188,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:02:22.552815"
+}

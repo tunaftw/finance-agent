@@ -1,0 +1,130 @@
+{
+  "source_id": "cryptodonalt",
+  "analyzed_at": "2025-12-26T23:35:00",
+  "analyzed_by": "claude-code-agent",
+  "total_tweets_in_dataset": 7718,
+  "investment_relevant_tweets": 3061,
+  "tweets_reviewed": 35,
+  "profile_summary": {
+    "name": "CryptoDonAlt",
+    "description": "Veteran crypto trader, 10+ years experience. Started with $50. Swing trader, not LTF. Moving from on-chain to tradfi alternatives.",
+    "investment_style": "Swing trading, macro-focused, contrarian",
+    "language": "en",
+    "notable": "Very transparent about trades, calls tops/bottoms publicly. Skeptical of ETH, MSTR."
+  },
+  "current_positioning": {
+    "as_of": "2025-11-30",
+    "overall_stance": "bearish",
+    "btc_view": "Bearish from $91k, sold $110k. Watching for $100k+ or lower lows.",
+    "key_levels": {
+      "btc_sold": "$110k",
+      "btc_flipped_bullish": "$84k",
+      "btc_flipped_bearish_again": "$91k"
+    },
+    "transition": "Moving from on-chain to tradfi alternatives (IBIT, similar). Cleaning up on-chain positions."
+  },
+  "crypto_mentions": [
+    {
+      "asset": "Bitcoin",
+      "ticker": "BTC",
+      "action": "bearish",
+      "confidence": "high",
+      "reasoning": "Monthly failed to hold support. Weekly bear retesting breakdown. Worried about MSTR unwind.",
+      "key_levels": "Sold $110k, bearish at $91k. Could go to $60k if MSTR unravels.",
+      "quotes": [
+        "After having been bearish from 110k and flipping bullish at $84k I'm leaning bearish again at $91k here",
+        "I more and more think we might just go as low as long as we need to go to unravel at least parts of MSTR"
+      ]
+    },
+    {
+      "asset": "Ethereum",
+      "ticker": "ETH",
+      "action": "avoid",
+      "confidence": "high",
+      "reasoning": "Relative weakness vs BTC. Tom Lee exit liquidity. Underperformed for 5 years.",
+      "quotes": [
+        "ETH has underperformed for 5 years now, have some humility",
+        "Tom Lee having bought infinite ETH at like $4k makes me just not wanna own the thing"
+      ]
+    },
+    {
+      "asset": "Monad",
+      "ticker": "MON",
+      "action": "hold",
+      "confidence": "medium",
+      "reasoning": "Bought, doubled, roundtripped gains. Still believes in it but reduced position due to BTC concerns.",
+      "quotes": [
+        "I generally think you all are wrong on Monad but also think the market is weak",
+        "Monad still up like 20% from where I shilled it"
+      ]
+    },
+    {
+      "asset": "Solana",
+      "ticker": "SOL",
+      "action": "neutral",
+      "confidence": "low",
+      "reasoning": "Similar tokenomics to Monad, mentioned as comparison. No explicit recommendation."
+    },
+    {
+      "asset": "MSTR (MicroStrategy)",
+      "ticker": "MSTR",
+      "action": "bearish",
+      "confidence": "high",
+      "reasoning": "Sees it as a ponzi. Could trigger BTC drop to $60k if it unravels.",
+      "quotes": [
+        "shit looks like a proper ponzi to me though",
+        "MSTR FUD has market every single macro bottom so far"
+      ]
+    },
+    {
+      "asset": "IBIT (BlackRock ETF)",
+      "ticker": "IBIT",
+      "action": "preferred_vehicle",
+      "confidence": "high",
+      "reasoning": "Transitioning to tradfi alternatives for BTC exposure instead of on-chain.",
+      "quotes": [
+        "gonna be trading trad market alternatives (IBIT and similar) from here on out"
+      ]
+    }
+  ],
+  "trading_philosophy": {
+    "style": "Swing trader, not low-timeframe",
+    "position_management": "Buy, chase up if needed (good sign), cut if price falls below entry",
+    "time_horizon": "Days to weeks, watches monthly/weekly closes",
+    "risk_view": "Reducing on-chain risk, doesn't like being own bank with public profile",
+    "self_description": "I'm not an investor I'm a trader"
+  },
+  "market_outlook": {
+    "overall_sentiment": "bearish_cautious",
+    "btc_thesis": "Could see 2-year bear market if MSTR unwinds. $60k possible.",
+    "eth_thesis": "Relative weakness, avoid.",
+    "alt_thesis": "VC coins are the only decent ones. Garage projects = memecoins. Space has grown up."
+  },
+  "actionable_insights": [
+    {
+      "insight": "Sold BTC at $110k, bearish at $91k, watching monthly close",
+      "actionable": true,
+      "action_type": "timing"
+    },
+    {
+      "insight": "ETH underperforming - relative weakness signal",
+      "actionable": true,
+      "action_type": "avoid"
+    },
+    {
+      "insight": "Moving to IBIT instead of on-chain BTC",
+      "actionable": true,
+      "action_type": "vehicle_change"
+    },
+    {
+      "insight": "MSTR as systemic risk - watch for unwind",
+      "actionable": true,
+      "action_type": "risk_monitor"
+    }
+  ],
+  "notable_quotes": [
+    "I'm really surprised how stupid the ETH reply guys are",
+    "Space has grown up",
+    "if I have apples I intend to sell, will demand for apples go up down or stay the same if I sell them in front of the apple store instead of in the store itself?"
+  ]
+}

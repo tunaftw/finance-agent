@@ -1,0 +1,86 @@
+{
+  "source_id": "LTzkwIgjJNs",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-02-21",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Presents two bullish scenarios: $30k holds as strong support (base case) or market meltdown to $12-20k for generational buying opportunity. Emphasizes higher time frame perspective over short-term noise.",
+      "quote": "30k once again is able to absorb all the fud that ends up being some very magical value area for btc where everyone who wants to sell has already sold",
+      "price_levels": [
+        "$30k",
+        "$20k",
+        "$12-14k",
+        "$46-47k",
+        "$60-80k"
+      ],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Briefly mentioned alongside BTC as benefiting from potential generational buying opportunity if market experiences significant drawdown.",
+      "quote": "for bitcoin and also for eth those are the types of conviction trades if you follow them up with the appropriate strong handedness that pay for themselves you know for quarters and maybe years to come",
+      "price_levels": null,
+      "timeframe": "long-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Discusses increased correlation between crypto and S&P 500, noting that quantitative tightening and inflation are creating headwinds for risk assets.",
+      "quote": "crypto traders more than ever before are forced to care about macro stuff again as a product of the increased correlation with the s p 500",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$30k",
+        "$20k",
+        "$12-14k",
+        "$46-47k",
+        "$60-80k"
+      ]
+    }
+  },
+  "key_insights": [
+    "Market is being heavily influenced by macro factors including quantitative tightening, inflation, and geopolitics",
+    "Increased correlation between crypto and US equities (S&P 500, Nasdaq) is forcing traders to pay attention to traditional macro",
+    "Two primary bullish scenarios for BTC: $30k support holding (base case ~70%) or market breakdown to $12-20k for generational opportunity (tail case ~30%)",
+    "Historical parallels to 2018 when $6k support broke down to $3k - warns against knife catching major breakdowns",
+    "Emphasizes avoiding leverage and using spot trading to survive volatility on both sides of the spectrum"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$30-40k range, preferably averaging into low $30k area",
+      "target": "$60-80k if $46-47k resistance breaks, or $12-20k if $30k support fails",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred presents a high time frame analysis of Bitcoin with two main scenarios: the base case where $30k holds as major support and BTC ranges between $30-60k, or a tail event scenario where $30k breaks leading to a generational buying opportunity at $12-20k. He warns against using leverage and emphasizes surviving volatility to position for long-term upside once macro headwinds clear. Key lesson: don't knife catch major breakdowns as seen in 2018 when $6k failed.",
+  "transcript_word_count": 10810,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T23:11:57.653897"
+}

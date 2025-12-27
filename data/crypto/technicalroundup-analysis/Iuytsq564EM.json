@@ -1,0 +1,176 @@
+{
+  "source_id": "Iuytsq564EM",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-01-16",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Unknown",
+      "context": "Market reclaimed 20K level, breaking multi-month summer range. Above 20K looks constructive, below 19K looks disastrous",
+      "quote": "anything above 19.35 20K whatever looks pretty constructive and anything below that starts to look rather disastrous",
+      "price_levels": [
+        "$19K",
+        "$20K",
+        "$21K",
+        "$22.6K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Unknown",
+      "context": "Range midpoint consolidation strategy - looking for continuation from 20.3-20.7K level with range high target of 22.6K",
+      "quote": "if the market is going to continue higher the first reasonable area to look for continuation after consolidation is this combination of 20.7 20.3",
+      "price_levels": [
+        "$20.3K",
+        "$20.7K",
+        "$22.6K"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Unknown",
+      "context": "19K is last line of defense for bulls - support/resistance flip from failed breakdown",
+      "quote": "19k is the last Port of Call for any type of reasonable bounce because after that the weekly starts to look garbage",
+      "price_levels": [
+        "$19K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Unknown",
+      "context": "Blasted through 1400 potential lower high, reclaim is important despite resistance at 1590-1600",
+      "quote": "the 1400 reclaim and just the size of this impulse those two things slightly outweigh that",
+      "price_levels": [
+        "$1400",
+        "$1590",
+        "$1600",
+        "$1700"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "1400 must hold for bullish structure, potential midpoint consolidation around 1500",
+      "quote": "it has to hold 1400 frankly because if not then this just looks like a big wick and Market structure still looks garbage",
+      "price_levels": [
+        "$1400",
+        "$1500"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bearish",
+      "speaker": "Unknown",
+      "context": "At weekly resistance, described as one of the weaker setups. Resistance at 25-27",
+      "quote": "I think that might be one of the weaker ones or at the very least you know if you're looking for bullish continuation",
+      "price_levels": [
+        "$25",
+        "$26",
+        "$27"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bearish",
+      "speaker": "Unknown",
+      "context": "Could be used to hedge or offset long exposure given resistance levels",
+      "quote": "could be a decent one to offset some of your long positions you think so long is going to be weak",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$19K",
+        "$20K",
+        "$21K",
+        "$22.6K"
+      ],
+      "ETH": [
+        "$1400",
+        "$1590",
+        "$1700"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin's reclaim of 20K is a major technical and narrative breakthrough",
+    "Double failed breaks pattern identified at 17.6K level led to acceleration",
+    "Bitcoin in consolidation phase targeting range high of 22.6K from midpoint 20.7K",
+    "Ethereum showing strength with 1400 reclaim, but structure less clear than Bitcoin",
+    "Solana at weekly resistance with limited upside compared to major assets",
+    "Macro focus secondary to crypto momentum in current market conditions"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$20.3K-$20.7K (range midpoint)",
+      "target": "$22.6K (range high)",
+      "stop": "Below $20K",
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$19K (range low/retest)",
+      "target": "$22.6K (range high)",
+      "stop": "Below $19K",
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1400-$1500 (support/consolidation)",
+      "target": "$1600-$1700",
+      "stop": "Below $1400",
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "SOL",
+      "direction": "short",
+      "entry": "$25-$27 (resistance zone)",
+      "target": "Lower levels",
+      "stop": "Above resistance",
+      "speaker": "Unknown"
+    }
+  ],
+  "summary": "Bitcoin has reclaimed the critical 20K level, marking a significant technical and psychological breakthrough. The market is now in a consolidation phase with targets at the range high of 22.6K, presenting long opportunities at the 20.3-20.7K midpoint or on pullbacks to 19K. Ethereum has shown strength with its 1400 reclaim but has less clear structure, while Solana faces weekly resistance making it a weaker bullish candidate.",
+  "transcript_word_count": 13835,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T23:00:00.000000"
+}

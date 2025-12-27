@@ -1,0 +1,129 @@
+{
+  "source_id": "bZHq3bqtbRc",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-06-21",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "BTC holding steady while altcoins crash, technical analysis of range",
+      "quote": "like we're kind of like I would argue we're going through a bear market right now just Bitcoin isn't participating right",
+      "price_levels": [
+        "$52,000",
+        "$60,000",
+        "$62,000-$63,000",
+        "$65,200",
+        "$70,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "mixed",
+      "speaker": "Duck",
+      "context": "ETH/BTC strength potentially leads overall market weakness",
+      "quote": "I think E directly competes with Bitcoin and Bitcoin really doesn't like um being competed in that way um and I think that's basically why the moment you have E strength what happens is people rotate out of Bitcoin into E",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Shorting Solana actively, meme coin rotation ending",
+      "quote": "I think like a lot of these coins they're so ginormously wrecked...and um to pump that coin you basically have to put so much more money in now than before",
+      "price_levels": [
+        "$135",
+        "$170",
+        "$200",
+        "$70-$100"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "WIF",
+      "asset_name": "dogwifhat",
+      "sentiment": "strongly_bearish",
+      "speaker": "Duck",
+      "context": "Top likely in, would need BTC at 100k to hit ATH again",
+      "quote": "I think there's a good chance that the top for wh's in and um that that's going to stay for a while um if not forever",
+      "price_levels": null,
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "PEPE",
+      "asset_name": "Pepe",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Hedging with Pepe longs against Solana shorts, ETH meme stronger than SOL meme",
+      "quote": "I would be surprised if not like Pepe has been like surprisingly strong because it's a meme on e um rather than Solana and I think people are going to just pivot from Solana to Eve",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$52,000",
+        "$60,000",
+        "$62,000-$63,000",
+        "$65,200",
+        "$70,000"
+      ],
+      "ETH": null,
+      "SOL": [
+        "$135",
+        "$100"
+      ]
+    }
+  },
+  "key_insights": [
+    "Meme coin cycle peaked with ETH ETF announcement, focus shifting from Solana to ETH ecosystem",
+    "BTC holding steady while altcoins crash - technically a 'bear market' where only altcoins participating",
+    "ETH strength historically leads to Bitcoin weakness and broader market weakness due to rotation",
+    "Most meme coins likely permanently dead or will struggle for months even if BTC rises",
+    "Solana has bad reputation now, money lost there won't easily return due to burned holders",
+    "ETF flows having diminishing impact on price - obvious market effects no longer working",
+    "Very low market interest and liquidity currently",
+    "WIF top likely in, would require BTC at 100k to reclaim ATH"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "SOL",
+      "direction": "short",
+      "entry": "$170",
+      "target": "$100-$135",
+      "stop": "$200",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$52,000 or $50,000",
+      "target": "Reclaim range",
+      "stop": null,
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "The meme coin cycle peaked with the ETH ETF announcement, causing a shift from Solana to ETH. BTC remains stable in a range while altcoins crash 50-80%, effectively an altcoin bear market. ETH strength causes Bitcoin and broader market weakness due to rotation. Duck closed most shorts including SOL and WIF after substantial profits. Most meme coins are dead or will struggle for months. Key BTC levels: 62-63k cluster critical support, break targets 52-50k. SOL support at 135 with targets at 100 and potentially 70. Market sentiment has turned very bearish with widespread disillusionment.",
+  "transcript_word_count": 49637,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:42:03.134297"
+}

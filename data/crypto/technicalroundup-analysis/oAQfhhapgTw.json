@@ -1,0 +1,123 @@
+{
+  "source_id": "oAQfhhapgTw",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-09-05",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Analyzing BTC/USD structure across monthly, weekly, and daily timeframes",
+      "quote": "for me to get bullish this instrument i even need to see a breakdown that doesn't stick be it at 19k or at the larger 18.6k range low or potentially some sort of 20.7 reclaim",
+      "price_levels": [
+        "$20k",
+        "$20.7k",
+        "$19k",
+        "$18.6k",
+        "$18k"
+      ],
+      "timeframe": "short-term|medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "ETH strong narrative with merge approaching, outperforming BTC",
+      "quote": "eth btc looks quite reasonable...looking very constructive...narratively it's got a lot going for it unlike bitcoin at least at this point",
+      "price_levels": [
+        "$2000",
+        "$1700",
+        "$900-1000",
+        "$1500-1600",
+        "$2200-2400"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum to Bitcoin ratio",
+      "sentiment": "strongly_bullish",
+      "speaker": "Cred",
+      "context": "ETH/BTC in strong uptrend, closed through range high",
+      "quote": "we've seen eth btc go absolutely ballistic as a result this thing just looks very strong",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "decreasing",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$20k",
+        "$20.7k",
+        "$18.6k",
+        "$19k"
+      ],
+      "ETH": [
+        "$2000",
+        "$1700",
+        "$900-1000",
+        "$1500-1600",
+        "$2200-2400"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin structurally weak despite equities rally, stuck around 20k level",
+    "Ethereum outperforming Bitcoin with strong merge narrative",
+    "ETH/BTC in strong uptrend approaching yearly highs",
+    "Market correlation with equities remains in play, inflation data will be key driver",
+    "Volatility compression suggests upcoming catalyst event",
+    "Risk indices (S&P 500, Nasdaq) at support levels"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "failed breakdown at $19k or $18.6k",
+      "target": "$20.7k range midpoint",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$20.7k reclaim on daily/weekly timeframe",
+      "target": "higher timeframe levels",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "within $1700-2000 range or pullback to $1500-1600",
+      "target": "$2000 then $2200-2400 monthly levels",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH/BTC",
+      "direction": "long",
+      "entry": "current levels",
+      "target": "last swing high from end of last year",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes BTC structurally weak around $20k level, looking for failed breakdown at $18.6k-19k or reclaim of $20.7k before getting bullish. Ethereum outperforming with strong merge narrative, ETH/BTC in strong uptrend. Market correlation with equities remains key; inflation data will drive price action near mid-September.",
+  "transcript_word_count": 10945,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:40:56.121166"
+}

@@ -29,6 +29,10 @@ podstock <command> --help        # Hjälp för specifikt kommando
 | **Extract** | `podstock extract` | AI-baserad dataextraktion |
 | **Guest Summary** | `podstock guest-summary` | Gäst-sammanfattning |
 | **Twitter** | `podstock twitter` | Twitter/X-datasamling |
+| **YouTube** | `podstock youtube` | YouTube-transkriptsamling |
+| **Prices** | `podstock prices` | Prisverifiering och spårning |
+| **Crypto** | `podstock crypto` | Krypto-sentimentanalys |
+| **Database** | `podstock db` | SQLite-databas för frågor |
 
 ---
 
@@ -441,6 +445,260 @@ podstock twitter report
 
 ---
 
+## podstock youtube
+
+YouTube-transkriptsamling för crypto-analys.
+
+### add
+```bash
+podstock youtube add <channel_url>
+podstock youtube add https://youtube.com/@TechnicalRoundup --category crypto
+podstock youtube add <url> --language en --description "Beskrivning"
+```
+
+| Flag | Beskrivning |
+|------|-------------|
+| `--category` | Kategori (t.ex. crypto, finance) |
+| `--language` | Språk (default: en) |
+| `--description` | Valfri beskrivning |
+
+### list
+```bash
+podstock youtube list
+```
+Visa alla konfigurerade YouTube-kanaler med status.
+
+### remove
+```bash
+podstock youtube remove <channel_id>
+```
+
+### collect
+```bash
+podstock youtube collect                 # Alla aktiva kanaler
+podstock youtube collect --channel X     # Specifik kanal
+podstock youtube collect --max 100       # Max videos per kanal
+podstock youtube collect --all           # Inkludera inaktiva
+```
+
+| Flag | Beskrivning |
+|------|-------------|
+| `--channel ID` | Specifik kanal |
+| `--max N` | Max videos per kanal (default: 50) |
+| `--all` | Inkludera inaktiva kanaler |
+
+### stats
+```bash
+podstock youtube stats
+```
+Visa statistik: kanaler, videos, transkript.
+
+---
+
+## podstock prices
+
+Prisverifiering och rekommendationsspårning.
+
+### mapping
+```bash
+podstock prices mapping list             # Visa alla mappningar
+podstock prices mapping add "Aktie" TICK # Lägg till mapping
+podstock prices mapping search "query"   # Sök mappningar
+podstock prices mapping stats            # Visa statistik
+```
+
+### verify
+```bash
+podstock prices verify                   # Visa väntande verifieringar
+podstock prices verify --all             # Verifiera alla förfallna
+podstock prices verify --today           # Visa dagens priser
+podstock prices verify --id <id>         # Verifiera specifik
+```
+
+| Flag | Beskrivning |
+|------|-------------|
+| `--all` | Verifiera alla förfallna rekommendationer |
+| `--today` | Visa aktuell avkastning |
+| `--id ID` | Verifiera specifik rekommendation |
+
+### accuracy
+```bash
+podstock prices accuracy                 # Alla
+podstock prices accuracy --podcast X     # Filter på podcast
+podstock prices accuracy --speaker Y     # Filter på talare
+podstock prices accuracy --action buy    # Filter på action
+```
+
+### list
+```bash
+podstock prices list
+```
+Lista alla spårade rekommendationer med senaste avkastning.
+
+### track
+```bash
+podstock prices track "Aktie" buy --source "Podcast" --speaker "Namn"
+podstock prices track "Aktie" sell --date 2025-01-15
+```
+
+| Flag | Beskrivning |
+|------|-------------|
+| `--source` | Källnamn (default: Manual) |
+| `--speaker` | Talarnamn |
+| `--date` | Datum YYYY-MM-DD (default: idag) |
+
+### import
+```bash
+podstock prices import                   # Importera från extraktioner
+podstock prices import --episode <id>    # Specifikt avsnitt
+podstock prices import --podcast X       # Filter på podcast
+podstock prices import --since 2025-01-01  # Från datum
+podstock prices import --stock "Aktie"   # Specifik aktie
+podstock prices import --action buy      # Filter på action
+podstock prices import --dry-run         # Visa utan att köra
+```
+
+---
+
+## podstock crypto
+
+Krypto-sentimentanalys från YouTube-transkript.
+
+### prepare-batch
+```bash
+podstock crypto prepare-batch --channel technicalroundup
+podstock crypto prepare-batch --source youtube --all
+podstock crypto prepare-batch --channel X --max 20
+```
+
+Förbereder transkript för GLM-batch-analys. Genererar instructions.md och JSON-filer.
+
+| Flag | Beskrivning |
+|------|-------------|
+| `--channel ID` | Specifik YouTube-kanal |
+| `--source youtube` | Källa (youtube) |
+| `--all` | Alla kanaler |
+| `--max N` | Max transkript |
+
+### search
+```bash
+podstock crypto search --coin BTC
+podstock crypto search --channel technicalroundup
+podstock crypto search --action buy
+podstock crypto search --top 20
+```
+
+Sök i analyserade krypto-prediktioner.
+
+| Flag | Beskrivning |
+|------|-------------|
+| `--coin` | Sök på coin/token |
+| `--channel` | Filter på kanal |
+| `--action` | buy/sell/hold |
+| `--top N` | Topp N mest omnämnda |
+
+### predictions
+```bash
+podstock crypto predictions
+podstock crypto predictions --coin ETH
+podstock crypto predictions --channel X
+```
+
+Visa aktiva prediktioner med tidsramar.
+
+### report
+```bash
+podstock crypto report
+podstock crypto report --output rapport.md
+```
+
+Generera sammanfattningsrapport.
+
+### bias
+```bash
+podstock crypto bias
+podstock crypto bias --channel X
+```
+
+Analysera bias per kanal/influencer.
+
+### stats
+```bash
+podstock crypto stats
+```
+
+Visa statistik: analyserade videos, prediktioner, täckning.
+
+---
+
+## podstock db
+
+SQLite-databas för strukturerad sökning och prestanda-spårning.
+
+### init
+```bash
+podstock db init                         # Skapa databas
+podstock db init --force                 # Återskapa (raderar befintlig)
+```
+
+### status
+```bash
+podstock db status
+```
+
+Visa databasstatistik: sources, content, recommendations, securities.
+
+### seed-securities
+```bash
+podstock db seed-securities
+```
+
+Ladda aktier från `ticker_mapping.json` till securities-tabellen.
+
+### load
+```bash
+podstock db load                         # Ladda podcast-analyser
+podstock db load --type twitter          # Ladda Twitter-analyser
+podstock db load --verbose               # Visa detaljer
+```
+
+Importerar JSON-analyser till databasen. Idempotent (skippar redan laddade).
+
+| Flag | Beskrivning |
+|------|-------------|
+| `--type` | `podcast` (default) eller `twitter` |
+| `--verbose` | Visa detaljerad output |
+
+### search
+```bash
+podstock db search "Evolution"           # Sök på aktienamn
+podstock db search --ticker EVO          # Sök på ticker
+podstock db search --action buy          # Filter på action
+podstock db search --speaker "Johan"     # Filter på talare
+podstock db search --since 2025-01-01    # Från datum
+podstock db search --source borspodden   # Filter på källa
+podstock db search --limit 50            # Max resultat
+```
+
+### pending
+```bash
+podstock db pending list                 # Visa omatchade aktier
+podstock db pending list --limit 20      # Begränsa antal
+```
+
+Visa aktier som inte kunde matchas mot securities-tabellen.
+
+### performance
+```bash
+podstock db performance update           # Beräkna avkastning
+podstock db performance update --force   # Omberäkna alla
+podstock db performance update --limit 100  # Begränsa antal
+```
+
+Beräknar avkastning (1d, 7d, 30d, 90d, 365d) för rekommendationer.
+
+---
+
 ## Globala flaggor
 
 Dessa flaggor fungerar för alla kommandon:
@@ -458,6 +716,7 @@ Dessa flaggor fungerar för alla kommandon:
 |----------|-------------|
 | `ANTHROPIC_API_KEY` | API-nyckel för Claude (krävs för extract process) |
 | `TWITTER_API_KEY` | API-nyckel för twitterapi.io |
+| `YAHOO_FINANCE_API_KEY` | API-nyckel för Yahoo Finance (optional, för premium) |
 
 ---
 

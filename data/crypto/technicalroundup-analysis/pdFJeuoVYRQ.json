@@ -1,0 +1,85 @@
+{
+  "source_id": "pdFJeuoVYRQ",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-07-25",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "BTC showing failed breakout pattern on daily timeframe with close below 22.5k, 200-week moving average still resistance",
+      "quote": "closing below 22.5 daily is bad because it's a 200 week moving average on the weekly timeframe still resistance daily failed range breakout",
+      "price_levels": [
+        "$20,000",
+        "$22,500",
+        "$23,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "ETH showing weaker structure than BTC, down more on the day with unclear consolidation pattern",
+      "quote": "eth down more um slightly weirder structure on each we can be honest with you like on the weekly time frame i thought it might push slightly higher",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum Bitcoin Trading Pair",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH/BTC ratio down 3%, pulling back to 0.06 interim support level",
+      "quote": "eth btc for some confluence down three percent today uh if i recall correctly it was trading above its range midpoint somewhere in this area here so you know pulling back to 0.06",
+      "price_levels": [
+        "0.06"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$20,000",
+        "$22,500",
+        "$23,000"
+      ],
+      "ETH": null
+    }
+  },
+  "key_insights": [
+    "BTC showing failed breakout pattern with close below 22.5k on daily timeframe",
+    "200-week moving average remains key resistance for BTC, no weekly close above it yet",
+    "Market in consolidation mode, failed breakouts generally bearish targeting range midpoint or range low",
+    "ETH structure less clear than BTC, better levels are above or below current consolidation zone",
+    "Headline heavy week with Fed decision, GDP data, and major tech earnings creating volatility risk"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "$22,500+",
+      "target": "Range midpoint ~$22,500 or range low ~$20,000",
+      "stop": "Weekly close above 20-week moving average / daily reclaim of range high",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes BTC/USD showing failed breakout pattern on daily timeframe with close below 22.5k, marking 200-week moving average as key resistance. Market appears in consolidation with bearish bias, trading toward range mean or low. ETH/BTC down 3% with interim support at 0.06. Cred emphasizes waiting for proper setup amid headline-heavy week with Fed decision and major tech earnings.",
+  "transcript_word_count": 4846,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:54:45.019372"
+}

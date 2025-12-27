@@ -1,0 +1,121 @@
+{
+  "source_id": "Zs4Ub-cezNc",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-08-07",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Unknown",
+      "context": "BTC has made three red weeks in a row, drifting lower with low volatility, currently retesting previous month's low",
+      "quote": "if has been drifting you know three red weeks in a row for the time being again you want to call this chop but it's just going down on the weekly",
+      "price_levels": [
+        "$28.8",
+        "$29.2-29.3",
+        "$29.8-29.9",
+        "$30k",
+        "$26.7-28",
+        "$27"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "Potential bullish scenario if weekly closes above 29.2-29.3, but would still face resistance at 29.8-29.9",
+      "quote": "you can make a bullish argument if the weekly closes above [29.2-29.3] and doesn't look terrible at that point you'll essentially have had a swing low form of sorts",
+      "price_levels": [
+        "$29.2-29.3",
+        "$29.8-29.9",
+        "$30.1-30.3"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Unknown",
+      "context": "ETH at 1800 has reached most generous weekly support, facing 1935 resistance",
+      "quote": "it's almost reached the most generous weekly support I can think of which is 1800 hasn't quite done it yet",
+      "price_levels": [
+        "$1800",
+        "$1935"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "Questioning whether 1900 is strong resistance - if not, 1800 support could lead to continuation trade",
+      "quote": "it's like is 1900 strong resistance it looks like it well if that's true then buying 1800 is unlikely to work out whereas if it's not strong resistance and 1800 actually works out and you can still catch the continuation trade through 19 100",
+      "price_levels": [
+        "$1800",
+        "$1900"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$28.8",
+        "$29.2-29.3",
+        "$29.8-29.9",
+        "$30k",
+        "$26.7-28",
+        "$27"
+      ],
+      "ETH": [
+        "$1800",
+        "$1935"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC trading range is extremely narrow at 28.8-29.8, described as 'absolutely miserable'",
+    "Low volatility low volume market conditions will just eat you up in trading fees - be very selective",
+    "If market penetrates the ETF candle, could lead to panic selling and create opportunity for 'wick fishing'",
+    "Key dilemma: can't simultaneously argue 30k is strong resistance while calling 29k meaningful support",
+    "ETH made first lower low on daily timeframe since start of year, potentially significant market structure shift"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "above $29.2-29.3 on weekly close",
+      "target": "$30.1-30.3",
+      "stop": null,
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "panic selling at $26.7-28 if ETF candle penetrated",
+      "target": null,
+      "stop": null,
+      "speaker": "Unknown"
+    }
+  ],
+  "summary": "BTC and ETH are both drifting lower with low volatility in narrow trading ranges. BTC is stuck between 28.8-29.8 with key resistance at 30k. Speakers recommend being very selective in these conditions. Potential for more meaningful downside if ETF candle levels are breached, which could create opportunities. ETH showing first daily structure breakdown of the year, potentially signaling more challenging second half.",
+  "transcript_word_count": 9347,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:25:23.599831"
+}

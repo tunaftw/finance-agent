@@ -1,0 +1,161 @@
+{
+  "source_id": "VQhuNKo2-7I",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-10-28",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "Monthly time frame looking like bearish retest of 2017 highs, but daily shows potential breakout setup",
+      "quote": "first glance just looks like we're bearishly retesting the 2017 December highs... but on the daily time frame just on its own I don't really hate the setup... I think just the daily that's like a 7A RR setup",
+      "price_levels": [
+        "$20,000",
+        "$22,000",
+        "$23,000",
+        "$14,000",
+        "$34,000-$35,000",
+        "$19,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Duck",
+      "context": "Wants to see if breakout has momentum, would buy lower if it fails",
+      "quote": "I'd much rather be a buyer at 19 18 17 16 15K uh then a seller... I think at some point you just kind of have to bet on it going up and I'm not willing to bet on it going up but I'm definitely not willing to bet on it going down anymore",
+      "price_levels": [
+        "$15,000",
+        "$16,000",
+        "$17,000",
+        "$18,000",
+        "$19,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Outperforming BTC, likely to close above cycle high, looking better than altcoins",
+      "quote": "Ethereum's just been a better bet... it's been outperforming the entire way so ETH kind of looks okay to me and if it closes this weekly like it is doing right now maybe you get like a 1.4k retest next week",
+      "price_levels": [
+        "$1,200",
+        "$1,400",
+        "$1,900",
+        "$2,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Setup on ETH similar to BTC, maintaining strength with tight invalidation",
+      "quote": "there's a setup for ETH on the weekly as well so you have like a setup on bitcoin right just okay maintain the strength basically and the same thing is true for ETH... stop loss around like the lows that we had around 1.2 K and then you can Target like even if you want to be tight with your targets you can Target like the underside of 2K",
+      "price_levels": [
+        "$1,200",
+        "$1,900",
+        "$2,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Testing underside of weekly range at $30.5K, trade if closes above that level",
+      "quote": "unless you get a close back above the the lows that you can outline just now so like what is it 30.5 K yeah um but if we start closing above above there it starts looking a little bit better",
+      "price_levels": [
+        "$30,500"
+      ],
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Weak range pattern, third test of same area, mostly BTC dependent",
+      "quote": "I think in general if you think that Bitcoin is gonna carry over into Solana I could see Solana Bitcoin go down anyway uh if Bitcoin really shows strength I could see Solana underperform",
+      "price_levels": [
+        "$30,500"
+      ],
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$20,000",
+        "$22,000",
+        "$23,000",
+        "$19,000",
+        "$14,000"
+      ],
+      "ETH": [
+        "$1,200",
+        "$1,400",
+        "$1,900",
+        "$2,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC is testing key 20K level with conflicting signals - bearish on monthly/weekly but daily shows potential breakout setup",
+    "ETH is outperforming the rest of the market and likely to close above previous cycle high",
+    "Lack of volatility and momentum is concerning for breakout traders - if it's a real breakout, should move faster",
+    "Market is mostly BTC dependent - altcoins unlikely to rally without BTC strength",
+    "Equities showing strength with SP potentially closing above monthly resistance, could be risk-on indicator"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "above $20,400",
+      "target": "$29,000",
+      "stop": "$19,000",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "above $1,400",
+      "target": "$1,900-$2,000",
+      "stop": "$1,200",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "SOL",
+      "direction": "long",
+      "entry": "above $30,500",
+      "target": "range high",
+      "stop": "below $30,000",
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "BTC is hovering around the critical $20K level with mixed timeframes - monthly showing bearish retest of 2017 highs while daily frames show potential breakout setup with good RR. Both hosts agree daily setup looks good but higher timeframes are concerning. ETH is outperforming, likely to close above cycle high near $1.4K with potential for retest. Overall sentiment is mixed with preference for setup-based trading over directional betting. Equities showing strength with SP potentially closing above resistance.",
+  "transcript_word_count": 39941,
+  "model_used": "glm-4",
+  "analyzed_at": "2025-12-26T23:57:15.234567"
+}

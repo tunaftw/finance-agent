@@ -1,0 +1,112 @@
+{
+  "source_id": "z5vFyv-RCmk",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-10-17",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "Market trading below 20K previous cycle high, testing 19K support repeatedly without clear direction",
+      "quote": "as long as that's the case it's difficult to be too excited um and I think once we get above that we can start making case for a move back within the range",
+      "price_levels": [
+        "$19K",
+        "$20K",
+        "$21.6K",
+        "$23K"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "Trading ping pong between 1400 resistance (previous cycle high) and 1200 support, currently at midpoint",
+      "quote": "the market is right between those levels so it's at the midpoint between the two levels that matter and it's very unlikely that this is anything other than pure diddling in the middle",
+      "price_levels": [
+        "$1200",
+        "$1400",
+        "$1100",
+        "$1000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ALT",
+      "asset_name": "Altcoins",
+      "sentiment": "bearish",
+      "speaker": "Unknown",
+      "context": "Describing altcoins as uninteresting with nothing going on, focus remains on BTC and ETH",
+      "quote": "altcoins are uninteresting I'm not going to pretend I care or I pay attention there's really nothing going on the focus is on BTC Ethan the indices and that's sort of the name of the game",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$19K",
+        "$20K",
+        "$21.6K",
+        "$23K"
+      ],
+      "ETH": [
+        "$1200",
+        "$1400",
+        "$1100",
+        "$1000"
+      ]
+    }
+  },
+  "key_insights": [
+    "Market is in 'volatility purgatory' with compression and no clear direction",
+    "BTC needs either a break above 20K with higher highs and higher lows, or a failed breakdown below 19K to generate trade ideas",
+    "ETH trading at midpoint between key levels 1200-1400, waiting for breakout or failed breakdown",
+    "Crypto underperforming risk indices (S&P up 2.8%, NASDAQ up 3.6% vs BTC up only 1.1%) showing contained demand",
+    "No altcoin activity worth mentioning - focus remains on BTC and ETH",
+    "Best trade setups require either successful break from balance with momentum continuation, or failed break from balance that gets absorbed"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Above $20K or daily higher high through $20.2-$20.3",
+      "target": "$21.6K (range midpoint) then $23K (range high)",
+      "stop": null,
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "After failed breakdown below $19K that reclaims",
+      "target": "$21.6K then $23K",
+      "stop": null,
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Breakout above $1400 or failed breakdown at $1200",
+      "target": "$1100-1200 on failed breakdown, higher on breakout",
+      "stop": null,
+      "speaker": "Unknown"
+    }
+  ],
+  "summary": "The crypto market is stuck in 'volatility purgatory' with BTC trapped below 20K and ETH between 1200-1400. The speaker is waiting for either a market structure break above 20K or a failed breakdown below key support levels to generate trade ideas. Altcoins are described as uninteresting with no activity. Crypto is underperforming traditional risk indices, suggesting contained demand. No clear directional bias until boundaries are tested meaningfully.",
+  "transcript_word_count": 9745,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T03:16:37.079944"
+}

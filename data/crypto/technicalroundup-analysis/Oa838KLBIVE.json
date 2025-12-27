@@ -1,0 +1,139 @@
+{
+  "source_id": "Oa838KLBIVE",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-07-02",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "4 months of consolidation in 61.4-71.3k range, beaten up support at 60k",
+      "quote": "60k has lost my interest a long time ago... not super interested in trading levels that have been tested five six seven eight times",
+      "price_levels": [
+        "$60k",
+        "$63.3-63.4",
+        "$66",
+        "$71.3"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "Bullish case: consolidation before next leg; Bearish case: distribution to 47k",
+      "quote": "the bullish argument is that hey we're just consolidating and recharging above a key level before we shoot off for the next leg... the bearish argument is basically the inverse of that which is hey we had an all-time high breakout and the market hasn't gone anywhere in four months this distribution it's all going to zero the next support is at 47k",
+      "price_levels": [
+        "$47k"
+      ],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Market structure is bearish, walking down between levels, support to resistance trade played out",
+      "quote": "Market structure was bearish right breakdown of the range retest breakdown... that structure hasn't shifted yet",
+      "price_levels": [
+        "$3,400",
+        "$3,500"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Strong bounce post ETF announcement, keeping gains, showing relative strength vs BTC",
+      "quote": "salana has been strong uh but I wouldn't personally Chase it up to 157 until I become convinced that this is going to be a really strong move and the earliest bit of evidence for that would be closes above 157",
+      "price_levels": [
+        "$156",
+        "$157"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Range-bound, not terrible but not amazing",
+      "quote": "it doesn't look terrible doesn't look amazing it's just more more of a mental burden on the ethusd front",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$60k",
+        "$63.3-63.4",
+        "$66",
+        "$71.3"
+      ],
+      "ETH": [
+        "$3,400",
+        "$3,500"
+      ],
+      "SOL": [
+        "$156",
+        "$157"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC has been consolidating for 4 months (61.4-71.3k) - exhausted range",
+    "60k support level tested too many times, losing significance",
+    "SOL showing relative strength post-ETF announcement",
+    "ETH market structure remains bearish, walking down",
+    "Trading philosophy: after 2-3 HTF tests of a level, stop trading it",
+    "Prefer break and acceptance trades in consolidated markets"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "break above $63.3-63.4",
+      "target": "$66 (range midpoint) or $71.3 (range high)",
+      "stop": "below $63.3",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "SOL",
+      "direction": "long",
+      "entry": "close above $157",
+      "target": "higher momentum",
+      "stop": "breakout candle low",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "current levels",
+      "target": "$3,400 support or lower",
+      "stop": "break above $3,500",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC remains in a 4-month consolidation range (61.4-71.3k) with the 60k support level losing significance after repeated tests. Cred prefers waiting for break and acceptance rather than trading beaten-up levels. SOL shows relative strength post-ETF announcement, with 157 as key breakout level. ETH market structure remains bearish, walking down between 3,400 and 3,500 with the support-to-resistance trade already played out.",
+  "transcript_word_count": 15137,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T23:30:00.629988"
+}

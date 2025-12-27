@@ -1,0 +1,124 @@
+{
+  "source_id": "ccvTFKS053M",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-07-04",
+  "hosts": ["Cred", "Duck"],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Market stuck around prior cycle all-time high at 20k, worst quarter in Bitcoin's history, downtrend with no meaningful counter-trend bounce since Luna-fueled move failed",
+      "quote": "the worst quarter in bitcoin's record history whatever so it's not the type of thing where you expect a fresh trend to emerge straight away",
+      "price_levels": ["$20k", "$12-14k", "$10-14k", "$30-32k"],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Looking for potential counter-trend bounce to mean reversion levels around 30-32k, would be first visible higher timeframe bounce of the entire downtrend",
+      "quote": "the first one in the entire trend from this kind of 20k level i think you just have a nice cluster of confluence as to where that rally might end up... the low to mid 30k area",
+      "price_levels": ["$30-32k", "$22k"],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Waiting for evidence of strength at 20k level, hasn't bought outright yet, wants to see absorption before entering",
+      "quote": "i haven't outrightly bought at this level i do want to see some evidence of strength absorption or whatever",
+      "price_levels": ["$20k"],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Analysis similar to Bitcoin, mentions same 200-week MA structure applies",
+      "quote": "this analysis you can pretty much copy paste the eth i know it's got slightly different structures but the levels and the especially 200 week are more or less the same",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LUNA",
+      "asset_name": "Luna",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Luna Foundation buying BTC caused a temporary bounce that failed completely, triggering systemic risk and contagion",
+      "quote": "this was the lunar foundation guard buying btc it was one of the most aggressive kind of spot driven market catalyst that we've had in some time and the result of that speaks for itself it failed the experiment failed it blew up took the market lower",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ALTCOINS",
+      "asset_name": "Altcoins (general)",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Altcoin narratives are dead, no amazing catalysts, suggests waiting for BTC/ETH to show strength before looking at altcoins",
+      "quote": "i think a lot of the altcoin narratives that we have are dead... say that if the bitcoin and eve higher time frame setups set up then you can just kind of take a look at old reliable or whatever altcoins you generally like",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": ["$20k", "$22k", "$30-32k", "$12-14k", "$10-14k"],
+      "ETH": null
+    }
+  },
+  "key_insights": [
+    "Bitcoin experiencing worst quarter in its history with no meaningful counter-trend bounce since Luna-fueled move failed",
+    "Market is extremely extended to downside; even a bearish retest would represent 60-80% upside from current levels",
+    "200-week moving average (~22k) is critical level; weekly close above it would signal first visible counter-trend bounce",
+    "Consolidation breakdown pattern has been consistent; earliest bullish setup would be failed bearish setup where range is reclaimed instead of breaking down",
+    "Mean reversion potential targets cluster around 30-32k (previous range low) which would still be technically a bear market rally",
+    "Altcoin narratives are dead; should only consider after BTC/ETH show strength",
+    "Best bullish setups are failed bearish setups - waiting for market to show evidence of behavior change",
+    "If 20k fails, next structural support at 12-14k represents existential panic levels where industry viability would be questioned"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Weekly close above $22k (200-week MA)",
+      "target": "$29-32k",
+      "stop": "At the lows or can be tightened based on candle structure",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Reclaim of $20-21k range on lower timeframes",
+      "target": "$30k",
+      "stop": "Low of the move before range was reclaimed",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Spot allocation at $20k if comfortable buying at discount",
+      "target": "Mean reversion to $30-32k",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin stuck at prior cycle all-time high of 20k in worst quarter on record, downtrend characterized by relentless selling with no meaningful counter-trend bounce since Luna Foundation intervention failed. Cred sees two paths: either 20k breaks down leading to existential panic at 12-14k, or market shows strength through reclaim of 200-week MA (~22k) triggering first visible bounce toward 30-32k mean reversion. Best bullish setups are failed bearish setups; waiting for behavior change in consolidation breakdown pattern. Altcoin narratives dead, focus on BTC/ETH first.",
+  "transcript_word_count": 10619,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:45:04.066394"
+}

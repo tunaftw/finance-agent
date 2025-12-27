@@ -49,6 +49,19 @@ class RecommendationStorage:
     Attributes:
         file_path: Path to the JSONL storage file.
 
+    Methods
+    -------
+    save(rec)
+        Append a new recommendation to the file.
+    update(rec)
+        Update an existing recommendation (rewrites file).
+    get(tracking_id)
+        Get a recommendation by tracking ID.
+    get_all()
+        Get all recommendations.
+    delete(tracking_id)
+        Delete a recommendation by tracking ID.
+
     Example:
         >>> storage = RecommendationStorage(Path("data/prices/recommendations.jsonl"))
         >>> storage.save(recommendation)

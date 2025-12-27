@@ -3058,6 +3058,225 @@ def cmd_crypto_stats(args: argparse.Namespace, config: Config) -> int:
 
 
 # =============================================================================
+# Unified Search Commands
+# =============================================================================
+
+
+def cmd_search(args: argparse.Namespace) -> int:
+    """Search unified signals across all sources."""
+    from datetime import datetime
+
+    from podstock.unified.search import (
+        count_signals,
+        format_signal_output,
+        get_signal_stats,
+        search_signals,
+    )
+
+    config = get_config(args.data_dir)
+
+    # Handle subcommands
+    if hasattr(args, "search_command") and args.search_command == "stats":
+        return cmd_search_stats(args)
+    elif hasattr(args, "search_command") and args.search_command == "import":
+        return cmd_search_import(args)
+    elif hasattr(args, "search_command") and args.search_command == "enrich-prices":
+        return cmd_search_enrich_prices(args)
+
+    # Parse dates
+    from_date = None
+    to_date = None
+
+    if hasattr(args, "start") and args.start:
+        try:
+            from_date = datetime.strptime(args.start, "%Y-%m-%d").date()
+        except ValueError:
+            console.print(f"[red]Invalid date format: {args.start}[/red]")
+            return 1
+
+    if hasattr(args, "end") and args.end:
+        try:
+            to_date = datetime.strptime(args.end, "%Y-%m-%d").date()
+        except ValueError:
+            console.print(f"[red]Invalid date format: {args.end}[/red]")
+            return 1
+
+    # Get results
+    signals = search_signals(
+        asset=args.asset if hasattr(args, "asset") else None,
+        speaker=args.speaker if hasattr(args, "speaker") else None,
+        signal_type=args.signal if hasattr(args, "signal") else None,
+        source_type=args.source if hasattr(args, "source") else None,
+        from_date=from_date,
+        to_date=to_date,
+        limit=args.limit if hasattr(args, "limit") else 50,
+    )
+
+    if not signals:
+        console.print("[yellow]No signals found matching criteria.[/yellow]")
+        return 0
+
+    # Count total
+    total = count_signals(
+        asset=args.asset if hasattr(args, "asset") else None,
+        speaker=args.speaker if hasattr(args, "speaker") else None,
+        signal_type=args.signal if hasattr(args, "signal") else None,
+        source_type=args.source if hasattr(args, "source") else None,
+        from_date=from_date,
+        to_date=to_date,
+    )
+
+    console.print(f"Found {total} signals (showing {len(signals)}):\n")
+
+    # Display results
+    verbose = args.verbose if hasattr(args, "verbose") else False
+
+    for signal in signals:
+        output = format_signal_output(signal, verbose=verbose)
+        console.print(output)
+
+    return 0
+
+
+def cmd_search_stats(args: argparse.Namespace) -> int:
+    """Show signal statistics."""
+    from datetime import datetime
+
+    from podstock.unified.search import get_signal_stats
+
+    # Parse dates
+    from_date = None
+    to_date = None
+
+    if hasattr(args, "start") and args.start:
+        try:
+            from_date = datetime.strptime(args.start, "%Y-%m-%d").date()
+        except ValueError:
+            pass
+
+    if hasattr(args, "end") and args.end:
+        try:
+            to_date = datetime.strptime(args.end, "%Y-%m-%d").date()
+        except ValueError:
+            pass
+
+    stats = get_signal_stats(from_date=from_date, to_date=to_date)
+
+    console.print(f"\n[bold]Total signals:[/bold] {stats['total']}")
+
+    console.print("\n[bold]By source:[/bold]")
+    for source, count in stats["by_source"].items():
+        console.print(f"  {source}: {count}")
+
+    console.print("\n[bold]By signal type:[/bold]")
+    for signal, count in stats["by_signal"].items():
+        emoji = {"bullish": "+", "bearish": "-", "neutral": "~"}.get(signal, "?")
+        console.print(f"  [{emoji}] {signal}: {count}")
+
+    console.print("\n[bold]Top assets:[/bold]")
+    for asset in stats["top_assets"][:10]:
+        console.print(f"  {asset['symbol']}: {asset['count']}")
+
+    console.print("\n[bold]Top speakers:[/bold]")
+    for speaker in stats["top_speakers"][:10]:
+        console.print(f"  {speaker['name']}: {speaker['count']}")
+
+    return 0
+
+
+def cmd_search_import(args: argparse.Namespace) -> int:
+    """Import signals from all sources."""
+    from podstock.unified.importers import (
+        import_podcast_analyses,
+        import_twitter_analyses,
+        import_youtube_analyses,
+    )
+
+    source = args.source if hasattr(args, "source") else "all"
+    dry_run = args.dry_run if hasattr(args, "dry_run") else False
+
+    total_stats = {
+        "files_processed": 0,
+        "signals_created": 0,
+        "signals_skipped": 0,
+        "errors": 0,
+    }
+
+    if source in ("all", "podcast"):
+        console.print("[bold]Importing podcast analyses...[/bold]")
+        stats = import_podcast_analyses(dry_run=dry_run)
+        console.print(f"  Processed: {stats.get('files_processed', 0)} files")
+        console.print(f"  Created: {stats.get('signals_created', 0)} signals")
+        for key in total_stats:
+            total_stats[key] += stats.get(key, 0)
+
+    if source in ("all", "youtube"):
+        console.print("\n[bold]Importing YouTube analyses...[/bold]")
+        stats = import_youtube_analyses(dry_run=dry_run)
+        console.print(f"  Processed: {stats.get('files_processed', 0)} files")
+        console.print(f"  Created: {stats.get('signals_created', 0)} signals")
+        for key in total_stats:
+            total_stats[key] += stats.get(key, 0)
+
+    if source in ("all", "twitter"):
+        console.print("\n[bold]Importing Twitter analyses...[/bold]")
+        stats = import_twitter_analyses(dry_run=dry_run)
+        console.print(f"  Processed: {stats.get('files_processed', 0)} files")
+        console.print(f"  Created: {stats.get('signals_created', 0)} signals")
+        for key in total_stats:
+            total_stats[key] += stats.get(key, 0)
+
+    console.print(f"\n[green]Total:[/green]")
+    console.print(f"  Files processed: {total_stats['files_processed']}")
+    console.print(f"  Signals created: {total_stats['signals_created']}")
+    console.print(f"  Signals skipped: {total_stats['signals_skipped']}")
+    if total_stats["errors"]:
+        console.print(f"  [red]Errors: {total_stats['errors']}[/red]")
+
+    return 0
+
+
+def cmd_search_enrich_prices(args: argparse.Namespace) -> int:
+    """Enrich signals with entry prices from Yahoo Finance."""
+    from podstock.unified.enrichment import enrich_signals_with_prices, get_enrichment_coverage
+
+    since = args.since if hasattr(args, "since") else None
+    limit = args.limit if hasattr(args, "limit") else None
+    dry_run = args.dry_run if hasattr(args, "dry_run") else False
+
+    if dry_run:
+        console.print("[yellow]DRY RUN - no changes will be made[/yellow]\n")
+
+    # Show current coverage first
+    console.print("[bold]Current price coverage:[/bold]")
+    coverage = get_enrichment_coverage(since=since)
+    console.print(f"  Total signals: {coverage['total_signals']}")
+    console.print(f"  Enriched: {coverage['enriched_signals']} ({coverage['coverage_percent']}%)")
+
+    console.print("\n[bold]By asset type:[/bold]")
+    for asset_type, type_stats in coverage.get("by_asset_type", {}).items():
+        pct = round(100 * type_stats["enriched"] / type_stats["total"], 1) if type_stats["total"] > 0 else 0
+        console.print(f"  {asset_type}: {type_stats['enriched']}/{type_stats['total']} ({pct}%)")
+
+    console.print("\n[bold]Enriching signals with prices...[/bold]")
+    stats = enrich_signals_with_prices(
+        since=since,
+        limit=limit,
+        dry_run=dry_run,
+    )
+
+    console.print(f"\n[green]Results:[/green]")
+    console.print(f"  Signals processed: {stats['total_signals']}")
+    console.print(f"  Enriched: {stats['enriched']}")
+    console.print(f"  No ticker mapping: {stats['no_ticker']}")
+    console.print(f"  No price data: {stats['no_price']}")
+    if stats["errors"]:
+        console.print(f"  [red]Errors: {stats['errors']}[/red]")
+
+    return 0
+
+
+# =============================================================================
 # Main Entry Point
 # =============================================================================
 
@@ -3457,6 +3676,43 @@ def create_parser() -> argparse.ArgumentParser:
     prices_import.add_argument("--force", action="store_true", help="Re-import existing")
     prices_import.add_argument("--dry-run", action="store_true", help="Preview without importing")
 
+    # Unified Search command
+    search_parser = subparsers.add_parser("search", help="Search unified signals across all sources")
+    search_sub = search_parser.add_subparsers(dest="search_command")
+
+    # search (default - query)
+    search_parser.add_argument("--asset", "-a", help="Filter by asset symbol (e.g., BTC, VOLVO)")
+    search_parser.add_argument("--speaker", "-s", help="Filter by speaker name")
+    search_parser.add_argument("--signal", choices=["bullish", "bearish", "neutral"], help="Filter by signal type")
+    search_parser.add_argument("--source", choices=["podcast", "youtube", "twitter"], help="Filter by source type")
+    search_parser.add_argument("--from", dest="start", help="Start date (YYYY-MM-DD)")
+    search_parser.add_argument("--to", dest="end", help="End date (YYYY-MM-DD)")
+    search_parser.add_argument("--limit", "-n", type=int, default=50, help="Max results (default: 50)")
+
+    # search stats
+    search_stats = search_sub.add_parser("stats", help="Show signal statistics")
+    search_stats.add_argument("--from", dest="start", help="Start date (YYYY-MM-DD)")
+    search_stats.add_argument("--to", dest="end", help="End date (YYYY-MM-DD)")
+
+    # search import
+    search_import = search_sub.add_parser("import", help="Import signals from all sources")
+    search_import.add_argument("--source", choices=["podcast", "youtube", "twitter", "all"], default="all", help="Source to import")
+    search_import.add_argument("--dry-run", action="store_true", help="Preview without importing")
+
+    # search enrich-prices
+    search_enrich = search_sub.add_parser("enrich-prices", help="Enrich signals with entry prices from Yahoo Finance")
+    search_enrich.add_argument("--since", help="Only enrich signals from this date (YYYY-MM-DD)")
+    search_enrich.add_argument("--limit", type=int, help="Maximum number of signals to process")
+    search_enrich.add_argument("--dry-run", action="store_true", help="Preview without updating database")
+
+    # Database command group
+    from podstock.db.cli import add_db_parser
+    add_db_parser(subparsers)
+
+    # Filings command group
+    from podstock.filings.cli import setup_filings_parser
+    setup_filings_parser(subparsers)
+
     return parser
 
 
@@ -3523,6 +3779,18 @@ def main() -> None:
 
         elif args.command == "prices":
             sys.exit(cmd_prices(args))
+
+        elif args.command == "search":
+            sys.exit(cmd_search(args))
+
+        elif args.command == "db":
+            from podstock.db.cli import cmd_db
+            sys.exit(cmd_db(args))
+
+        elif args.command == "filings":
+            from podstock.filings.cli import cmd_filings
+            config = get_config(args.data_dir)
+            sys.exit(cmd_filings(args, config))
 
         else:
             parser.print_help()

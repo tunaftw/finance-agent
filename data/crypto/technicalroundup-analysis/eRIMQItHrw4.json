@@ -1,0 +1,159 @@
+{
+  "source_id": "eRIMQItHrw4",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-06-06",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Monthly timeframe breakdown below range low of 35-37k. Looking for weekly close above 32-33k as failed breakdown signal before getting bullish.",
+      "quote": "at its simplest i'm looking for some evidence of a mirror setup where this looks like the market wants to go lower it didn't and therefore it's probably going to go higher i need at least a weekly close to deal with that",
+      "price_levels": [
+        "35-37k",
+        "20k",
+        "14k",
+        "32-33k",
+        "40k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Monthly breakdown with support at 1k. Needs weekly close above 1930-1940 to signal potential reversal. Quintuple bottom at 1700 not compelling.",
+      "quote": "I'm not a huge fan of this quintuple bottom the market is set around 1700 it could certainly bounce while those lows are there but i think it doesn't make for a compelling macro bottom",
+      "price_levels": [
+        "1000",
+        "1700",
+        "1930-1940",
+        "mid to high 2000s"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "AVAX",
+      "asset_name": "Avalanche",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Holding weekly range low at 23 for second consecutive week. Daily structure still weak with lower highs and lower lows.",
+      "quote": "on the closing basis it's at least at support and hasn't closed below it so that's on my radar as far as if you are gonna not gamble but position aggressively",
+      "price_levels": [
+        "23"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Needs to clear prior range high around 46 before considering bullish. Reclaim hasn't taken place yet. Potential 60-70% move to 80 if reclaim happens.",
+      "quote": "this needs to clear that and close back above 46 and then we can have a conversation about a move towards 80. and that's a pretty big move there's like 60 70 there and it's worth waiting for",
+      "price_levels": [
+        "46",
+        "80"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "FTT",
+      "asset_name": "FTX Token",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as one of the options for expressing bullish views in a higher beta way during potential reclaim scenarios.",
+      "quote": "there are a couple others like ftt and whatnot to express those bullish views in a kind of slightly more juiced up higher beta way",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "S&P 500",
+      "asset_name": "S&P 500 Index",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Approaching weekly resistance. No strong case for decoupling between crypto and equities.",
+      "quote": "something else on my radar is that the s p is approaching weekly resistance if not there already... i don't think there's any strong case we made for like a decoupling or meaningful strength outside of equities",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "35-37k",
+        "20k",
+        "14k",
+        "32-33k",
+        "40k"
+      ],
+      "ETH": [
+        "1000",
+        "1700",
+        "1930-1940",
+        "mid to high 2000s"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC and ETH both broke down on monthly timeframe with key support levels significantly below current price",
+    "Weekly close above 32-33k for BTC and 1930-1940 for ETH would signal failed breakdown and potential reversal",
+    "S&P 500 at resistance makes crypto decoupling unlikely at current time",
+    "Some altcoins (AVAX, SOL) showing relative strength but still need reclaim signals",
+    "Wait for confirmed reclaims rather than positioning below support hoping for bounces"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Weekly close above 32-33k",
+      "target": "around 40k",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Weekly close above 1930-1940",
+      "target": "mid to high 2000s",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "SOL",
+      "direction": "long",
+      "entry": "Weekly close above 46",
+      "target": "80",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "AVAX",
+      "direction": "long",
+      "entry": "Current level around 23",
+      "target": null,
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC and ETH remain below monthly support levels after breakdowns. Cred is waiting for weekly close signals: BTC above 32-33k and ETH above 1930-1940 before considering long positions. S&P 500 approaching resistance without signs of decoupling. AVAX holding weekly support at 23, while SOL needs to reclaim 46 before bullish setup becomes valid.",
+  "transcript_word_count": 7887,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:56:52.546028"
+}

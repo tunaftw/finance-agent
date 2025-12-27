@@ -1,0 +1,149 @@
+{
+  "source_id": "y1Rt_cuuec0",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-07-08",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Weekly breakdown from 4-month consolidation, below monthly support at 59k. Bearish until proven otherwise, waiting for either reclaim or deeper support test.",
+      "quote": "This is a breakdown to the downside after a multi-month consolidation and that's bearish until proven otherwise",
+      "price_levels": [
+        "$60k",
+        "$51.8k",
+        "$44-47k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Potential bullish scenario if BTC reclaims 60k level - would signal failed breakdown and bullish momentum",
+      "quote": "If the weekly daily Etc starts reclaiming 60k all the higher time frames will start to look good",
+      "price_levels": [
+        "$60k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH range low tested 18 times, speaker won't trade levels tested more than 2-3 times. Waiting for ETF flows.",
+      "quote": "This is the 18th test of the range low now again fantastic for short-term trading but if you're looking for high conviction swing positions I simply don't have a setup",
+      "price_levels": [
+        "$2800",
+        "$3200",
+        "$3300"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Weekly cluster reclaim at 3300 would be meaningful if ETF narrative picks up and market buys strength",
+      "quote": "If the ETF narrative and all of that good stuff is going to pick up steam and there's a market where you can buy some strength I think the weekly cluster reclaim is probably the best signal",
+      "price_levels": [
+        "$3300"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Battle at 125 level with weakening defenders. No setup for 5th-6th test, but showing relative strength vs BTC",
+      "quote": "There is just a very big battle going on at 125 being defended the bouncers are getting a bit weaker... I don't have setups that let me buy fifth sixth tests",
+      "price_levels": [
+        "$125"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETC",
+      "asset_name": "Ethereum Classic",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Briefly mentioned in context of relative strength comparison with BTC and SOL",
+      "quote": "salana very interesting Soul BTC is up Etc but in terms of putting that putting that on as a technical trade there's not much to be done",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$60k",
+        "$51.8k",
+        "$44-47k"
+      ],
+      "ETH": [
+        "$2800",
+        "$3200",
+        "$3300"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC just broke down from 4-month weekly consolidation - bearish until reclaim or deeper support",
+    "Monthly BTC close below 59k would be bearish, targeting 44-47k monthly support",
+    "Monthly close above 60k would signal failed breakdown and bullish setup",
+    "ETH range low tested 18 times - no high conviction setup at battered levels",
+    "Waiting for actual ETF flows, not just approval news, for meaningful ETH move",
+    "Trading rule: won't trade levels tested more than 2-3 times in same direction",
+    "No urgency to enter positions after range breakdown - better setups at reclaim or deeper discount",
+    "High volatility/low liquidity environment favors day traders over swing traders"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$60k+ reclaim",
+      "target": "$70k+",
+      "stop": "below $60k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$44-47k",
+      "target": "higher",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$3300+ reclaim",
+      "target": "higher",
+      "stop": "below $3200",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC recently broke down from a 4-month weekly consolidation below 60k, which is bearish until proven otherwise. Key levels are 60k reclaim (bullish signal), 51.8k (intermediate), and 44-47k (monthly support). ETH's range low has been tested 18 times with no high conviction setup, but reclaiming 3300 would be meaningful if ETF flows materialize. SOL battling at 125 but no clear setup on 5th-6th test. No urgency to enter - better setups exist at reclaim levels or deeper discounts.",
+  "transcript_word_count": 9427,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T03:05:43.120280"
+}

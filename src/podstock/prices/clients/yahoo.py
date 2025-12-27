@@ -1,4 +1,35 @@
-"""Yahoo Finance price client using yfinance library."""
+"""Yahoo Finance price client using yfinance library.
+
+This module provides the YahooFinanceClient for fetching stock and crypto prices
+from Yahoo Finance. It handles:
+- Swedish stocks (.ST suffix)
+- Nordic stocks (Finland .HE, Denmark .CO, Norway .OL)
+- US stocks (no suffix)
+- Crypto (via -USD suffix, e.g., BTC-USD, ETH-USD)
+
+Features:
+- Rate limiting to avoid being blocked
+- Automatic market suffix handling
+- Historical and current price fetching
+- OHLCV data support
+
+Example usage::
+
+    from podstock.prices.clients.yahoo import YahooFinanceClient
+
+    client = YahooFinanceClient()
+
+    # Get current price
+    snapshot = client.get_current_price("EVO.ST")
+    print(f"Evolution: {snapshot.price} {snapshot.currency}")
+
+    # Get historical price
+    from datetime import datetime
+    hist = client.get_historical_price("EVO.ST", datetime(2024, 6, 15))
+
+    # Get crypto price
+    btc = client.get_current_price("BTC-USD")
+"""
 
 from __future__ import annotations
 
@@ -14,14 +45,36 @@ from podstock.prices.models import PriceSnapshot
 
 
 class YahooFinanceClient(PriceClient):
-    """Yahoo Finance price client with rate limiting and Swedish stock support.
+    """Yahoo Finance price client with rate limiting and Nordic stock support.
 
     Handles Swedish stocks by automatically adding .ST suffix when needed.
     Implements rate limiting to avoid being blocked by Yahoo Finance.
+    Also supports crypto via -USD suffix (e.g., BTC-USD, ETH-USD).
 
     Attributes:
         rate_limit_delay: Seconds to wait between requests.
         default_currency: Default currency for prices.
+
+    Class Attributes:
+        MARKET_SUFFIX: Mapping of market to ticker suffix.
+        MARKET_CURRENCY: Mapping of market to currency code.
+
+    Methods
+    -------
+    get_current_price(symbol)
+        Get current price for a symbol.
+    get_historical_price(symbol, date)
+        Get closing price for a specific historical date.
+    get_price_range(symbol, start, end)
+        Get daily prices over a date range.
+    normalize_ticker(ticker, market)
+        Add exchange suffix if needed.
+    get_currency_for_ticker(ticker)
+        Determine currency based on ticker suffix.
+    is_crypto(ticker)
+        Check if ticker is a crypto asset.
+    validate_ticker(ticker)
+        Validate that a ticker exists and has data.
 
     Example:
         >>> client = YahooFinanceClient()
