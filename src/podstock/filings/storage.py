@@ -17,6 +17,7 @@ from podstock.filings.models import (
     FilingAnalysis,
     FilingsStateFile,
     FinancialMetrics,
+    PresentationMetadata,
 )
 
 if TYPE_CHECKING:
@@ -53,6 +54,12 @@ class FilingsStorage:
         self.config.filings_raw_dir.mkdir(parents=True, exist_ok=True)
         self.config.filings_analysis_dir.mkdir(parents=True, exist_ok=True)
         (self.config.filings_dir / "extracted").mkdir(parents=True, exist_ok=True)
+        self.presentations_dir.mkdir(parents=True, exist_ok=True)
+
+    @property
+    def presentations_dir(self) -> Path:
+        """Directory for presentation files."""
+        return self.config.filings_raw_dir / "presentations"
 
     # =========================================================================
     # Companies Management
@@ -287,3 +294,85 @@ class FilingsStorage:
                 metrics_list.append(metrics)
 
         return metrics_list
+
+    # =========================================================================
+    # Presentations Management
+    # =========================================================================
+
+    def save_presentation_metadata(
+        self,
+        company_id: str,
+        url: str,
+        title: str,
+        year: int,
+        quarter: int | None,
+        linked_filing_id: str | None,
+        local_path: str,
+    ) -> str:
+        """Save presentation metadata to state.
+
+        Args:
+            company_id: Company ID.
+            url: Source URL of the presentation.
+            title: Presentation title.
+            year: Fiscal year.
+            quarter: Fiscal quarter (None for annual).
+            linked_filing_id: ID of the linked filing (or None).
+            local_path: Relative path to the downloaded file.
+
+        Returns:
+            Presentation ID.
+        """
+        state = self._load_state_file()
+
+        # Generate presentation ID
+        pres_id = f"{company_id}-presentation-{year}"
+        if quarter:
+            pres_id += f"-q{quarter}"
+
+        metadata = PresentationMetadata(
+            url=url,
+            title=title,
+            year=year,
+            quarter=quarter,
+            linked_filing_id=linked_filing_id,
+            local_path=local_path,
+        )
+
+        state.presentations[pres_id] = metadata
+        self._save_state_file(state)
+
+        return pres_id
+
+    def list_presentations(
+        self,
+        company_id: str | None = None,
+    ) -> list[tuple[str, PresentationMetadata]]:
+        """List all presentations, optionally filtered by company.
+
+        Args:
+            company_id: Filter by company ID.
+
+        Returns:
+            List of (presentation_id, metadata) tuples.
+        """
+        state = self._load_state_file()
+        presentations = list(state.presentations.items())
+
+        if company_id:
+            presentations = [
+                (pid, meta) for pid, meta in presentations
+                if pid.startswith(f"{company_id}-")
+            ]
+
+        # Sort by year/quarter descending
+        presentations.sort(
+            key=lambda x: (-x[1].year, -(x[1].quarter or 0))
+        )
+
+        return presentations
+
+    def get_presentation(self, presentation_id: str) -> PresentationMetadata | None:
+        """Get presentation metadata by ID."""
+        state = self._load_state_file()
+        return state.presentations.get(presentation_id)

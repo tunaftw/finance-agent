@@ -250,6 +250,16 @@ LARGE_CAP_COMPANIES: dict[str, CompanyIRInfo] = {
         backup_urls=["https://www.hacksawgroup.com/en/investor-relations/"],
         notes="Listed on Nasdaq Stockholm June 2025",
     ),
+    "getinge": CompanyIRInfo(
+        id="getinge",
+        name="Getinge AB",
+        ticker="GETI B",
+        ir_url="https://www.getinge.com/int/company/investors/reports-presentations/",
+        segment=MarketSegment.LARGE_CAP,
+        report_patterns=["Annual Report", "Quarterly Report", "Q", "Interim"],
+        backup_urls=["https://www.getinge.com/int/company/investors/overview/"],
+        notes="Medical technology company, founded 1904, HQ Gothenburg",
+    ),
 }
 
 # Combine all registries

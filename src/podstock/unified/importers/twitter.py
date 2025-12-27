@@ -31,7 +31,7 @@ def parse_twitter_analysis(file_path: Path) -> Iterator[Signal]:
         file_path: Path to the JSON analysis file
 
     Yields:
-        Signal objects for each crypto mention in the file
+        Signal objects for each mention in the file (crypto, stock, recommendations)
     """
     # Skip non-analysis files
     if not file_path.name.endswith("-analysis.json"):
@@ -73,11 +73,167 @@ def parse_twitter_analysis(file_path: Path) -> Iterator[Signal]:
     profile = data.get("profile_summary", {})
     speaker_name = profile.get("name", source_id)
 
-    # Process crypto_mentions
-    mentions = data.get("crypto_mentions", [])
+    # Collect all mentions from different fields
+    all_mentions = []
 
-    for mention in mentions:
-        asset_name = mention.get("asset")
+    # 1. crypto_mentions (format: asset, ticker, action)
+    for mention in data.get("crypto_mentions", []):
+        all_mentions.append({
+            "asset_name": mention.get("asset"),
+            "ticker": mention.get("ticker"),
+            "action": mention.get("action", "neutral"),
+            "confidence": mention.get("confidence"),
+            "reasoning": mention.get("reasoning"),
+            "quotes": mention.get("quotes", []),
+            "key_levels": mention.get("key_levels"),
+            "asset_type_hint": "crypto",
+        })
+
+    # 2. stock_mentions (format: stock_name, ticker, action)
+    for mention in data.get("stock_mentions", []):
+        all_mentions.append({
+            "asset_name": mention.get("stock_name"),
+            "ticker": mention.get("ticker"),
+            "action": mention.get("action", "neutral"),
+            "confidence": mention.get("confidence"),
+            "reasoning": mention.get("reasoning"),
+            "quotes": mention.get("quotes", []),
+            "key_levels": mention.get("valuation_notes"),
+            "asset_type_hint": "stock",
+        })
+
+    # 3. recommendations (format: name, ticker, signal, date)
+    for rec in data.get("recommendations", []):
+        # Try to parse individual recommendation date
+        rec_date = None
+        if rec.get("date"):
+            try:
+                rec_date = date.fromisoformat(rec["date"][:10])
+            except (ValueError, TypeError):
+                pass
+
+        all_mentions.append({
+            "asset_name": rec.get("name"),
+            "ticker": rec.get("ticker"),
+            "action": rec.get("signal", rec.get("action", "neutral")),
+            "confidence": rec.get("confidence"),
+            "reasoning": rec.get("reasoning") or rec.get("thesis"),
+            "quotes": rec.get("quotes", []),
+            "key_levels": rec.get("valuation"),
+            "asset_type_hint": "stock",
+            "date": rec_date,  # Individual tweet date
+        })
+
+    # 4. core_holdings (format: name, ticker, signal, with nested recommendations)
+    for holding in data.get("core_holdings", []):
+        # Process each recommendation within the holding to get individual dates
+        recommendations = holding.get("recommendations", [])
+        if recommendations:
+            for rec in recommendations:
+                rec_date = None
+                if rec.get("date"):
+                    try:
+                        rec_date = date.fromisoformat(rec["date"][:10])
+                    except (ValueError, TypeError):
+                        pass
+
+                all_mentions.append({
+                    "asset_name": holding.get("name"),
+                    "ticker": holding.get("ticker"),
+                    "action": rec.get("signal", holding.get("signal", "buy")),
+                    "confidence": "high",
+                    "reasoning": rec.get("reasoning") or rec.get("text"),
+                    "quotes": [rec.get("text")] if rec.get("text") else [],
+                    "key_levels": None,
+                    "asset_type_hint": "stock",
+                    "date": rec_date,
+                })
+        else:
+            # Fallback: if no recommendations, create a signal for the holding itself
+            all_mentions.append({
+                "asset_name": holding.get("name"),
+                "ticker": holding.get("ticker"),
+                "action": holding.get("signal", "buy"),
+                "confidence": "high",
+                "reasoning": holding.get("thesis") or holding.get("reasoning") or holding.get("notes"),
+                "quotes": [],
+                "key_levels": None,
+                "asset_type_hint": "stock",
+            })
+
+    # 5. other_positions (same format as core_holdings, with nested recommendations)
+    for position in data.get("other_positions", []):
+        recommendations = position.get("recommendations", [])
+        if recommendations:
+            for rec in recommendations:
+                rec_date = None
+                if rec.get("date"):
+                    try:
+                        rec_date = date.fromisoformat(rec["date"][:10])
+                    except (ValueError, TypeError):
+                        pass
+
+                all_mentions.append({
+                    "asset_name": position.get("name"),
+                    "ticker": position.get("ticker"),
+                    "action": rec.get("signal", position.get("signal", "neutral")),
+                    "confidence": position.get("confidence", "medium"),
+                    "reasoning": rec.get("reasoning") or rec.get("text"),
+                    "quotes": [rec.get("text")] if rec.get("text") else [],
+                    "key_levels": None,
+                    "asset_type_hint": "stock",
+                    "date": rec_date,
+                })
+        else:
+            all_mentions.append({
+                "asset_name": position.get("name"),
+                "ticker": position.get("ticker"),
+                "action": position.get("signal", "neutral"),
+                "confidence": position.get("confidence", "medium"),
+                "reasoning": position.get("thesis") or position.get("reasoning") or position.get("notes"),
+                "quotes": [],
+                "key_levels": None,
+                "asset_type_hint": "stock",
+            })
+
+    # 6. negative_mentions (with nested recommendations)
+    for mention in data.get("negative_mentions", []):
+        recommendations = mention.get("recommendations", [])
+        if recommendations:
+            for rec in recommendations:
+                rec_date = None
+                if rec.get("date"):
+                    try:
+                        rec_date = date.fromisoformat(rec["date"][:10])
+                    except (ValueError, TypeError):
+                        pass
+
+                all_mentions.append({
+                    "asset_name": mention.get("name"),
+                    "ticker": mention.get("ticker"),
+                    "action": rec.get("signal", mention.get("signal", "avoid")),
+                    "confidence": mention.get("confidence", "medium"),
+                    "reasoning": rec.get("reasoning") or rec.get("text"),
+                    "quotes": [rec.get("text")] if rec.get("text") else [],
+                    "key_levels": None,
+                    "asset_type_hint": "stock",
+                    "date": rec_date,
+                })
+        else:
+            all_mentions.append({
+                "asset_name": mention.get("name"),
+                "ticker": mention.get("ticker"),
+                "action": mention.get("signal", "avoid"),
+                "confidence": mention.get("confidence", "medium"),
+                "reasoning": mention.get("reasoning") or mention.get("notes"),
+                "quotes": [],
+                "key_levels": None,
+                "asset_type_hint": "stock",
+            })
+
+    # Process all mentions
+    for mention in all_mentions:
+        asset_name = mention.get("asset_name")
         ticker = mention.get("ticker", asset_name)
 
         if not asset_name:
@@ -96,20 +252,25 @@ def parse_twitter_analysis(file_path: Path) -> Iterator[Signal]:
         signal_strength = SignalNormalizer.normalize_confidence(confidence)
 
         # Determine asset type
-        asset_type = SignalNormalizer.detect_asset_type(ticker or "", asset_name)
+        if mention.get("asset_type_hint") == "crypto":
+            asset_type = AssetType.CRYPTO
+        else:
+            asset_type = SignalNormalizer.detect_asset_type(ticker or "", asset_name)
 
         # Parse key levels if present
         key_levels = mention.get("key_levels")
         price_levels = None
         if key_levels:
-            # Try to extract prices from key_levels string
             price_levels = [key_levels]
+
+        # Use individual mention date if available, otherwise fall back to analysis date
+        mention_date = mention.get("date") or analysis_date
 
         yield Signal(
             source_type=SourceType.TWITTER,
             source_id=source_id,
-            content_id=f"{source_id}-analysis",  # Use analysis as content_id since it's aggregated
-            content_date=analysis_date,
+            content_id=f"{source_id}-{mention_date.isoformat()}",  # Include date for uniqueness
+            content_date=mention_date,
             asset_symbol=ticker or asset_name.upper(),
             asset_name=asset_name,
             asset_type=asset_type,

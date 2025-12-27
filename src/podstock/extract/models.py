@@ -8,6 +8,83 @@ from typing import Literal
 from pydantic import BaseModel, Field
 
 
+# === Stock Segment Models (för djupanalys) ===
+
+
+class SegmentQuote(BaseModel):
+    """Ett enskilt citat från en aktiediskussion."""
+
+    speaker: str = Field(description="Vem som sa citatet")
+    text: str = Field(description="Citatets text")
+    timestamp: str | None = Field(default=None, description="Tidsstämpel om tillgänglig")
+    context: Literal["thesis", "bull_case", "bear_case", "metric", "conclusion", "other"] = Field(
+        default="other", description="Vad citatet handlar om"
+    )
+
+
+class FinancialMetrics(BaseModel):
+    """Finansiella nyckeltal som nämns i diskussionen."""
+
+    pe_ratio: str | None = Field(default=None, description="P/E-tal")
+    ev_ebitda: str | None = Field(default=None, description="EV/EBITDA")
+    ev_sales: str | None = Field(default=None, description="EV/Sales")
+    fcf_yield: str | None = Field(default=None, description="Free cash flow yield")
+    dividend_yield: str | None = Field(default=None, description="Direktavkastning")
+    revenue_growth: str | None = Field(default=None, description="Omsättningstillväxt")
+    margin: str | None = Field(default=None, description="Marginal (brutto/EBIT/netto)")
+    debt_level: str | None = Field(default=None, description="Skuldsättning")
+    custom: list[str] = Field(
+        default_factory=list,
+        description="Branschspecifika KPIer (ARPDAU, NRR, etc.)"
+    )
+
+
+class ThesisComponents(BaseModel):
+    """Bull/bear case och katalysatorer/risker."""
+
+    bull_case: list[str] = Field(default_factory=list, description="Argument för att köpa")
+    bear_case: list[str] = Field(default_factory=list, description="Argument emot / risker")
+    catalysts: list[str] = Field(default_factory=list, description="Vad som kan driva aktien")
+    risks: list[str] = Field(default_factory=list, description="Vad som kan gå fel")
+
+
+class StockSegment(BaseModel):
+    """Komplett segment för djupanalys av en aktiediskussion."""
+
+    stock_name: str = Field(description="Aktiens namn")
+    ticker: str | None = Field(default=None, description="Ticker om känd")
+
+    # Tidsstämplar och längd
+    timestamp_start: str | None = Field(default=None, description="När diskussionen börjar [HH:MM:SS]")
+    timestamp_end: str | None = Field(default=None, description="När diskussionen slutar [HH:MM:SS]")
+    word_count: int | None = Field(default=None, description="Antal ord i segmentet")
+
+    # Deltagare
+    speakers: list[str] = Field(default_factory=list, description="Alla som deltar i diskussionen")
+    primary_speaker: str | None = Field(default=None, description="Huvudtalare")
+
+    # Innehåll
+    discussion_summary: str = Field(description="3-5 meningar som sammanfattar diskussionen")
+    quotes: list[SegmentQuote] = Field(default_factory=list, description="Alla relevanta citat")
+
+    # Analys
+    financial_metrics: FinancialMetrics | None = Field(default=None)
+    thesis: ThesisComponents | None = Field(default=None)
+
+    # Positionering
+    position_disclosure: Literal["owns", "bought", "sold", "none", "unknown"] = Field(
+        default="unknown", description="Har talaren position i aktien?"
+    )
+
+    # Rå-data för framtida behov
+    segment_text: str | None = Field(
+        default=None, description="Full råtext av diskussionen (optional)"
+    )
+
+
+# === Existing Models ===
+
+
 class StockRecommendation(BaseModel):
     """En enskild aktie-rekommendation från ett poddavsnitt."""
 
@@ -45,6 +122,9 @@ class StockRecommendation(BaseModel):
 class EpisodeAnalysis(BaseModel):
     """Komplett analys av ett poddavsnitt."""
 
+    # Schema version för bakåtkompatibilitet
+    schema_version: str = Field(default="1.0", description="1.0=legacy, 2.0=med stock_segments")
+
     # Identifiering
     episode_id: str = Field(description="Unikt ID, t.ex. 'borspodden_2024-12-20'")
     podcast_name: str = Field(description="Podcastens namn")
@@ -60,6 +140,12 @@ class EpisodeAnalysis(BaseModel):
     main_topics: list[str] = Field(description="Max 5 huvudämnen som diskuteras")
     stocks_discussed: list[str] = Field(description="Alla aktier/bolag som nämns")
     recommendations: list[StockRecommendation] = Field(default_factory=list)
+
+    # Djupanalys (v2.0) - optional för bakåtkompatibilitet
+    stock_segments: list[StockSegment] = Field(
+        default_factory=list,
+        description="Detaljerade segment för aktier med >2 min diskussion"
+    )
 
     # Sentiment
     market_sentiment: Literal["bullish", "bearish", "neutral", "mixed"] = Field(

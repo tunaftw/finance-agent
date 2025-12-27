@@ -41,7 +41,7 @@ def extract_json_from_response(text: str) -> str:
 
 def validate_analysis(data: dict) -> tuple[bool, str]:
     """Validera analys mot schema."""
-    
+
     required_fields = [
         "episode_id",
         "podcast_name",
@@ -51,28 +51,53 @@ def validate_analysis(data: dict) -> tuple[bool, str]:
         "summary",
         "model_used"
     ]
-    
+
     for field in required_fields:
         if field not in data:
             return False, f"Missing required field: {field}"
-    
+
     if not isinstance(data["recommendations"], list):
         return False, "recommendations must be a list"
-    
+
     for i, rec in enumerate(data["recommendations"]):
         rec_required = ["stock_name", "action", "confidence", "reasoning", "quote"]
         for field in rec_required:
             if field not in rec:
                 return False, f"recommendation[{i}] missing field: {field}"
-        
+
         valid_actions = ["buy", "sell", "hold", "watch", "avoid"]
         if rec["action"] not in valid_actions:
             return False, f"recommendation[{i}] invalid action: {rec['action']}"
-        
+
         valid_confidence = ["high", "medium", "low", "speculative"]
         if rec["confidence"] not in valid_confidence:
             return False, f"recommendation[{i}] invalid confidence: {rec['confidence']}"
-    
+
+    # Validera stock_segments om de finns (v2.0 schema)
+    if "stock_segments" in data and data["stock_segments"]:
+        if not isinstance(data["stock_segments"], list):
+            return False, "stock_segments must be a list"
+
+        for i, seg in enumerate(data["stock_segments"]):
+            seg_required = ["stock_name", "discussion_summary"]
+            for field in seg_required:
+                if field not in seg:
+                    return False, f"stock_segments[{i}] missing field: {field}"
+
+            # Validera quotes om de finns
+            if "quotes" in seg and seg["quotes"]:
+                if not isinstance(seg["quotes"], list):
+                    return False, f"stock_segments[{i}].quotes must be a list"
+                for j, quote in enumerate(seg["quotes"]):
+                    if "speaker" not in quote or "text" not in quote:
+                        return False, f"stock_segments[{i}].quotes[{j}] missing speaker or text"
+
+            # Validera position_disclosure om det finns
+            if "position_disclosure" in seg and seg["position_disclosure"]:
+                valid_positions = ["owns", "bought", "sold", "none", "unknown"]
+                if seg["position_disclosure"] not in valid_positions:
+                    return False, f"stock_segments[{i}] invalid position_disclosure: {seg['position_disclosure']}"
+
     return True, ""
 
 
@@ -139,6 +164,7 @@ Din uppgift är att noggrant läsa podcast-transkript och identifiera:
 2. Vem som ger rekommendationen (host eller gäst)
 3. Argumenten bakom rekommendationen
 4. Eventuella kursmål eller tidshorisonter
+5. DJUPANALYS: För aktier som diskuteras >2 minuter, skapa detaljerade segment
 
 VIKTIGA RIKTLINJER:
 - Var KONSERVATIV: Inkludera bara tydliga rekommendationer, inte vag diskussion
@@ -164,13 +190,24 @@ FINANSTERMINOLOGI ATT KÄNNA IGEN:
 - Watch: "bevaka", "intressant", "håll koll på", "kan bli köpvärd"
 - Undvik: "håll dig borta", "undvik", "för riskfyllt"
 
+📊 STOCK SEGMENTS (DJUPANALYS):
+För varje aktie som diskuteras i MER ÄN 2 MINUTER, skapa ett detaljerat segment med:
+1. ALLA relevanta citat (inte bara ett!) - med kontext (thesis/bull_case/bear_case/metric/conclusion)
+2. Finansiella nyckeltal som nämns (P/E, EV/EBITDA, FCF yield, tillväxt, etc.)
+3. Bull case: Varför köpa? Vad är positivt?
+4. Bear case: Vad kan gå fel? Vilka risker?
+5. Katalysatorer: Vad kan driva aktien?
+6. Position disclosure: Äger/köpte/sålde talaren aktien?
+7. Sammanfattning av hela diskussionen (3-5 meningar)
+
 OUTPUT:
 Returnera ENDAST valid JSON enligt följande schema (ingen markdown, inga code blocks):
 
 {{
+  "schema_version": "2.0",
   "episode_id": "{episode_stem}",
   "podcast_name": "Podcastens namn",
-  "episode_title": "Avsnittets titel om känd" null,
+  "episode_title": "Avsnittets titel om känd",
   "episode_number": null,
   "date": "YYYY-MM-DD",
   "hosts": ["host1", "host2"],
@@ -180,18 +217,56 @@ Returnera ENDAST valid JSON enligt följande schema (ingen markdown, inga code b
   "recommendations": [
     {{
       "stock_name": "Aktiens namn",
-      "ticker": null eller "TICKER",
+      "ticker": null,
       "action": "buy|sell|hold|watch|avoid",
       "confidence": "high|medium|low|speculative",
       "speaker": "Vem som pratar",
       "speaker_role": "host|guest|unknown",
-      "timestamp": null eller "HH:MM:SS",
+      "timestamp": null,
       "reasoning": "1-3 meningar om varför",
-      "price_target": null eller "kursmål",
-      "time_horizon": null eller "tidsram",
+      "price_target": null,
+      "time_horizon": null,
       "quote": "Exakt citat som stödjer rekommendationen, max 100 ord",
-      "sector": null eller "sektor",
+      "sector": null,
       "market": "sweden|us|europe|other|unknown"
+    }}
+  ],
+  "stock_segments": [
+    {{
+      "stock_name": "Aktiens namn",
+      "ticker": null,
+      "timestamp_start": "HH:MM:SS",
+      "timestamp_end": "HH:MM:SS",
+      "word_count": 500,
+      "speakers": ["Talare1", "Talare2"],
+      "primary_speaker": "Huvudtalare",
+      "discussion_summary": "3-5 meningar som sammanfattar diskussionen om denna aktie",
+      "quotes": [
+        {{
+          "speaker": "Namn",
+          "text": "Exakt citat...",
+          "timestamp": "HH:MM:SS",
+          "context": "thesis|bull_case|bear_case|metric|conclusion|other"
+        }}
+      ],
+      "financial_metrics": {{
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "tex: 8.5%",
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["branschspecifika KPIer"]
+      }},
+      "thesis": {{
+        "bull_case": ["argument1", "argument2"],
+        "bear_case": ["risk1", "risk2"],
+        "catalysts": ["katalysator1"],
+        "risks": ["risk1"]
+      }},
+      "position_disclosure": "owns|bought|sold|none|unknown"
     }}
   ],
   "market_sentiment": "bullish|bearish|neutral|mixed",
@@ -202,6 +277,8 @@ Returnera ENDAST valid JSON enligt följande schema (ingen markdown, inga code b
   "has_timestamps": {"true" if has_timestamps else "false"},
   "model_used": "glm-4.7"
 }}
+
+VIKTIGT: stock_segments ska BARA innehålla aktier med >2 min diskussion. För korta omnämnanden räcker recommendations.
 
 Transkript:
 {content}

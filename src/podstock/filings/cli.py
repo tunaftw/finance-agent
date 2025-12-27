@@ -70,6 +70,11 @@ def setup_filings_parser(subparsers) -> None:
         help="Filing type filter",
     )
     sync_parser.add_argument("--limit", type=int, default=3, help="Max filings per company")
+    sync_parser.add_argument(
+        "--include-presentations",
+        action="store_true",
+        help="Also download presentations linked to reports",
+    )
 
     # podstock filings import <pdf_path>
     import_parser = filings_sub.add_parser("import", help="Import a local PDF")
@@ -361,10 +366,15 @@ def cmd_sync(args: argparse.Namespace, config: Config) -> int:
             from podstock.filings.clients.swedish_ir import SwedishIRClient
             client = SwedishIRClient()
 
+            include_presentations = getattr(args, 'include_presentations', False)
+
             for company in swedish_companies:
                 console.print(f"\n[bold]Syncing {company.name} (IR page)...[/bold]")
                 try:
-                    added = _sync_company(client, company, filing_types, args.limit, storage, config)
+                    added = _sync_company(
+                        client, company, filing_types, args.limit, storage, config,
+                        include_presentations=include_presentations,
+                    )
                     total_added += added
                 except Exception as e:
                     console.print(f"  [red]Error syncing: {e}[/red]")
@@ -377,11 +387,20 @@ def cmd_sync(args: argparse.Namespace, config: Config) -> int:
     return 0
 
 
-def _sync_company(client, company, filing_types, limit, storage, config) -> int:
+def _sync_company(
+    client,
+    company,
+    filing_types,
+    limit,
+    storage,
+    config,
+    include_presentations: bool = False,
+) -> int:
     """Sync filings for a single company. Returns count of added filings."""
     from podstock.filings.clients.base import FilingsClient
 
     added = 0
+    downloaded_filings = []  # Track downloaded filings for presentation matching
 
     try:
         # Get filings from client
@@ -402,6 +421,7 @@ def _sync_company(client, company, filing_types, limit, storage, config) -> int:
             existing = storage.get_filing(filing.id)
             if existing:
                 console.print(f"  [dim]Already have: {filing.id}[/dim]")
+                downloaded_filings.append(filing)
                 continue
 
             # Download the filing
@@ -411,13 +431,83 @@ def _sync_company(client, company, filing_types, limit, storage, config) -> int:
                 storage.add_filing(filing)
                 console.print(f"  [green]Added: {filing.id}[/green]")
                 added += 1
+                downloaded_filings.append(filing)
             except Exception as e:
                 console.print(f"  [red]Failed to download {filing.id}: {e}[/red]")
 
     except Exception as e:
         console.print(f"  [red]Error getting filings: {e}[/red]")
 
+    # Download presentations if requested (Swedish companies only)
+    if include_presentations and hasattr(client, 'get_presentations'):
+        _sync_presentations(client, company, downloaded_filings, storage, config)
+
     return added
+
+
+def _sync_presentations(client, company, filings, storage, config) -> None:
+    """Sync presentations for a company, linking to existing filings."""
+    console.print(f"  [dim]Looking for presentations...[/dim]")
+
+    try:
+        presentations = client.get_presentations(company.id, limit=10)
+
+        if not presentations:
+            console.print(f"  [dim]No presentations found[/dim]")
+            return
+
+        linked_count = 0
+        skipped_count = 0
+
+        for pres, linked_filing_id in presentations:
+            # Only download if we have an exact match
+            if linked_filing_id is None:
+                skipped_count += 1
+                continue
+
+            # Check if we already have this presentation
+            pres_id = f"{company.id}-presentation-{pres.year}"
+            if pres.quarter:
+                pres_id += f"-q{pres.quarter}"
+
+            existing = storage.get_presentation(pres_id)
+            if existing:
+                console.print(f"    [dim]Already have: {pres_id}[/dim]")
+                continue
+
+            # Download the presentation
+            try:
+                local_path = client.download_presentation(
+                    pres,
+                    storage.presentations_dir / company.id,
+                    company.id,
+                )
+                relative_path = str(local_path.relative_to(storage.presentations_dir))
+
+                # Save metadata
+                storage.save_presentation_metadata(
+                    company_id=company.id,
+                    url=pres.url,
+                    title=pres.title,
+                    year=pres.year,
+                    quarter=pres.quarter,
+                    linked_filing_id=linked_filing_id,
+                    local_path=relative_path,
+                )
+
+                console.print(f"    [green]Presentation: {pres_id} -> {linked_filing_id}[/green]")
+                linked_count += 1
+
+            except Exception as e:
+                console.print(f"    [red]Failed to download presentation: {e}[/red]")
+
+        if skipped_count > 0:
+            console.print(f"    [yellow]Skipped {skipped_count} unlinked presentations[/yellow]")
+        if linked_count > 0:
+            console.print(f"    [bold]Downloaded {linked_count} presentations[/bold]")
+
+    except Exception as e:
+        console.print(f"  [red]Error syncing presentations: {e}[/red]")
 
 
 def cmd_import(args: argparse.Namespace, config: Config) -> int:

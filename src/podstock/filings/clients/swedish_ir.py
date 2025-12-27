@@ -239,3 +239,70 @@ class SwedishIRClient(FilingsClient):
             )
             for info in infos
         ]
+
+    def get_presentations(
+        self,
+        company_id: str,
+        limit: int = 10,
+    ) -> list[tuple]:
+        """Get presentations for a company with linked report IDs.
+
+        Each presentation is linked to its corresponding report using strict
+        matching (exact year + quarter).
+
+        Args:
+            company_id: Company ID (must exist in registry).
+            limit: Maximum number of presentations to return.
+
+        Returns:
+            List of (FoundPresentation, linked_filing_id or None) tuples.
+
+        Raises:
+            CompanyNotFoundError: If company not in registry.
+        """
+        from podstock.filings.swedish.ir_scraper import FoundPresentation
+
+        info = self.registry.get(company_id)
+        if not info:
+            raise CompanyNotFoundError(company_id, "sweden", "Company not in IR registry")
+
+        try:
+            # Get reports first for linking
+            reports = self.scraper.find_reports(info, limit=20)
+
+            # Get presentations
+            presentations = self.scraper.find_presentations(info, limit=limit)
+
+            # Link each presentation to its report
+            result: list[tuple[FoundPresentation, str | None]] = []
+            for pres in presentations:
+                linked_id = self.scraper.link_presentation_to_report(
+                    pres, reports, company_id
+                )
+                result.append((pres, linked_id))
+
+            return result
+
+        except Exception as e:
+            logger.error(f"Failed to get presentations for {company_id}: {e}")
+            raise FilingsError(f"Failed to scrape presentations for {company_id}: {e}") from e
+
+    def download_presentation(
+        self,
+        presentation,
+        output_dir: Path,
+        company_id: str,
+    ) -> Path:
+        """Download a presentation PDF.
+
+        Args:
+            presentation: FoundPresentation to download.
+            output_dir: Directory to save the file.
+            company_id: Company ID for file naming.
+
+        Returns:
+            Path to the downloaded file.
+        """
+        return self.scraper.download_presentation(
+            presentation, output_dir, company_id
+        )

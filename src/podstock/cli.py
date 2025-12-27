@@ -3082,6 +3082,8 @@ def cmd_search(args: argparse.Namespace) -> int:
         return cmd_search_import(args)
     elif hasattr(args, "search_command") and args.search_command == "enrich-prices":
         return cmd_search_enrich_prices(args)
+    elif hasattr(args, "search_command") and args.search_command == "report":
+        return cmd_search_report(args)
 
     # Parse dates
     from_date = None
@@ -3272,6 +3274,93 @@ def cmd_search_enrich_prices(args: argparse.Namespace) -> int:
     console.print(f"  No price data: {stats['no_price']}")
     if stats["errors"]:
         console.print(f"  [red]Errors: {stats['errors']}[/red]")
+
+    return 0
+
+
+def cmd_search_report(args: argparse.Namespace) -> int:
+    """Generate monthly or yearly report with performance data."""
+    from pathlib import Path
+
+    from podstock.unified.report import (
+        format_full_report,
+        format_yearly_report,
+        generate_monthly_report,
+        generate_yearly_report,
+        save_report,
+    )
+
+    # Check for year or month
+    year_str = args.year if hasattr(args, "year") else None
+    month_str = args.month if hasattr(args, "month") else None
+    output_file = args.output if hasattr(args, "output") else None
+    no_prices = args.no_prices if hasattr(args, "no_prices") else False
+    limit = args.limit if hasattr(args, "limit") else 500
+
+    # Yearly report
+    if year_str:
+        try:
+            year = int(year_str)
+        except ValueError:
+            console.print(f"[red]Invalid year format: {year_str}. Use YYYY.[/red]")
+            return 1
+
+        # Use higher limit for yearly reports
+        if limit == 500:
+            limit = 5000
+
+        console.print(f"\nGenerating yearly report for {year}...")
+
+        if not no_prices:
+            console.print("[dim]Fetching current prices from Yahoo Finance (this may take a while)...[/dim]\n")
+
+        report = generate_yearly_report(
+            year=year,
+            fetch_current_prices=not no_prices,
+            limit=limit,
+        )
+
+        output = format_yearly_report(report)
+
+    # Monthly report
+    else:
+        if not month_str:
+            # Default to current month
+            from datetime import date
+
+            today = date.today()
+            year = today.year
+            month = today.month
+        else:
+            try:
+                parts = month_str.split("-")
+                year = int(parts[0])
+                month = int(parts[1])
+            except (ValueError, IndexError):
+                console.print(f"[red]Invalid month format: {month_str}. Use YYYY-MM.[/red]")
+                return 1
+
+        console.print(f"\nGenerating report for {year}-{month:02d}...")
+
+        if not no_prices:
+            console.print("[dim]Fetching current prices from Yahoo Finance...[/dim]\n")
+
+        report = generate_monthly_report(
+            year=year,
+            month=month,
+            fetch_current_prices=not no_prices,
+            limit=limit,
+        )
+
+        output = format_full_report(report)
+
+    # Save to file if requested
+    if output_file:
+        output_path = Path(output_file)
+        save_report(output, output_path)
+        console.print(f"[green]Report saved to: {output_path}[/green]\n")
+
+    console.print(output)
 
     return 0
 
@@ -3705,6 +3794,14 @@ def create_parser() -> argparse.ArgumentParser:
     search_enrich.add_argument("--limit", type=int, help="Maximum number of signals to process")
     search_enrich.add_argument("--dry-run", action="store_true", help="Preview without updating database")
 
+    # search report
+    search_report = search_sub.add_parser("report", help="Generate monthly/yearly report with performance data")
+    search_report.add_argument("--month", "-m", help="Month to report (YYYY-MM)")
+    search_report.add_argument("--year", "-y", help="Year to report (YYYY) - generates full year report")
+    search_report.add_argument("--no-prices", action="store_true", help="Skip fetching current prices")
+    search_report.add_argument("--output", "-o", help="Save report to file (e.g., report.txt)")
+    search_report.add_argument("--limit", type=int, default=500, help="Maximum signals to include (default: 500, use higher for yearly)")
+
     # Database command group
     from podstock.db.cli import add_db_parser
     add_db_parser(subparsers)
@@ -3712,6 +3809,14 @@ def create_parser() -> argparse.ArgumentParser:
     # Filings command group
     from podstock.filings.cli import setup_filings_parser
     setup_filings_parser(subparsers)
+
+    # Earnings command group
+    from podstock.earnings.cli import setup_earnings_parser
+    setup_earnings_parser(subparsers)
+
+    # News command group
+    from podstock.news.cli import setup_news_parser
+    setup_news_parser(subparsers)
 
     return parser
 
@@ -3791,6 +3896,16 @@ def main() -> None:
             from podstock.filings.cli import cmd_filings
             config = get_config(args.data_dir)
             sys.exit(cmd_filings(args, config))
+
+        elif args.command == "earnings":
+            from podstock.earnings.cli import cmd_earnings
+            config = get_config(args.data_dir)
+            sys.exit(cmd_earnings(args, config))
+
+        elif args.command == "news":
+            from podstock.news.cli import cmd_news
+            config = get_config(args.data_dir)
+            sys.exit(cmd_news(args, config))
 
         else:
             parser.print_help()

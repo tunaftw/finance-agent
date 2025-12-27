@@ -22,6 +22,7 @@ class FilingType(str, Enum):
     INTERIM_REPORT = "interim"  # Halvarsrapport / 8-K
     CURRENT_REPORT = "current"  # 8-K
     PROSPECTUS = "prospectus"
+    PRESENTATION = "presentation"  # Investor presentations
     OTHER = "other"
 
 
@@ -417,6 +418,18 @@ class CompaniesFile(BaseModel):
     companies: list[Company] = Field(default_factory=list)
 
 
+class PresentationMetadata(BaseModel):
+    """Metadata for a downloaded presentation."""
+
+    url: str
+    title: str
+    year: int
+    quarter: int | None = None
+    linked_filing_id: str | None = None
+    local_path: str
+    downloaded_at: datetime = Field(default_factory=datetime.now)
+
+
 class FilingsStateFile(BaseModel):
     """Schema for filings_state.json file.
 
@@ -427,6 +440,7 @@ class FilingsStateFile(BaseModel):
         last_sync: Last sync timestamp.
         filings: Dictionary mapping filing_id to Filing.
         analyzed_filings: Set of filing IDs that have been analyzed.
+        presentations: Dictionary mapping presentation_id to PresentationMetadata.
     """
 
     version: int = 1
@@ -434,3 +448,4 @@ class FilingsStateFile(BaseModel):
     last_updated: datetime = Field(default_factory=datetime.now)
     filings: dict[str, Filing] = Field(default_factory=dict)
     analyzed_filings: list[str] = Field(default_factory=list)
+    presentations: dict[str, PresentationMetadata] = Field(default_factory=dict)

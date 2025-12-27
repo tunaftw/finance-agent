@@ -38,6 +38,17 @@ class FoundReport:
     file_size: int | None = None
 
 
+@dataclass
+class FoundPresentation:
+    """A presentation found on an IR page."""
+
+    url: str
+    title: str
+    year: int
+    quarter: int | None = None
+    language: str = "en"
+
+
 class IRScraper:
     """Scrapes IR pages to find financial reports.
 
@@ -84,6 +95,31 @@ class IRScraper:
         (r"q2|apr.*jun|second[\s_-]*quarter", 2),
         (r"q3|jul.*sep|third[\s_-]*quarter", 3),
         (r"q4|oct.*dec|fourth[\s_-]*quarter", 4),
+    ]
+
+    # Presentation patterns (Swedish + English)
+    PRESENTATION_PATTERNS = [
+        r"presentation",
+        r"investor[\s_-]*presentation",
+        r"q[1-4][\s_-]*\d{4}[\s_-]*presentation",
+        r"presentation[\s_-]*q[1-4]",
+        r"investerarpresentation",
+        r"kvartal[\s_-]*[1-4][\s_-]*presentation",
+        r"webcast",
+        r"audiocast",
+        r"earnings[\s_-]*call",
+        r"resultat[\s_-]*presentation",
+    ]
+
+    # Patterns to exclude (generic/marketing materials)
+    PRESENTATION_EXCLUDE = [
+        r"corporate[\s_-]*presentation",
+        r"company[\s_-]*overview",
+        r"sustainability",
+        r"hållbarhet",
+        r"annual[\s_-]*general[\s_-]*meeting",
+        r"årsstämma",
+        r"agm",
     ]
 
     def __init__(
@@ -318,6 +354,227 @@ class IRScraper:
 
         except Exception as e:
             raise FilingsError(f"Failed to download {report.url}: {e}") from e
+
+    def find_presentations(
+        self,
+        company: CompanyIRInfo,
+        limit: int = 20,
+    ) -> list[FoundPresentation]:
+        """Find presentations on a company's IR page.
+
+        This method searches for investor presentations that accompany
+        quarterly and annual reports.
+
+        Args:
+            company: Company info with IR URL.
+            limit: Maximum number of presentations to return.
+
+        Returns:
+            List of found presentations, sorted by year/quarter descending.
+        """
+        soup, working_url = self._fetch_with_fallback(company)
+        presentations = []
+
+        try:
+            # Find PDFs matching presentation patterns on main page
+            presentations.extend(self._extract_presentations(soup, working_url))
+
+            # Try to find dedicated presentations page
+            presentations_url = self._find_presentations_page(soup, working_url)
+            if presentations_url:
+                try:
+                    pres_soup = self._fetch_page(presentations_url)
+                    presentations.extend(self._extract_presentations(pres_soup, presentations_url))
+                except Exception as e:
+                    logger.debug(f"Failed to fetch presentations page: {e}")
+
+            # Deduplicate by URL
+            seen_urls = set()
+            unique = []
+            for p in presentations:
+                if p.url not in seen_urls:
+                    seen_urls.add(p.url)
+                    unique.append(p)
+
+            # Sort by year desc, then quarter desc
+            unique.sort(key=lambda p: (-p.year, -(p.quarter or 0)))
+            return unique[:limit]
+
+        except Exception as e:
+            logger.error(f"Failed to find presentations for {company.name}: {e}")
+            return []
+
+    def _find_presentations_page(
+        self,
+        soup: BeautifulSoup,
+        base_url: str,
+    ) -> str | None:
+        """Find link to a dedicated presentations page."""
+        patterns = [
+            r"/presentations",
+            r"/investor.*presentations",
+            r"/webcasts",
+            r"/events.*presentations",
+        ]
+
+        for link in soup.find_all("a", href=True):
+            href = link["href"].lower()
+            text = link.get_text(strip=True).lower()
+
+            for pattern in patterns:
+                if re.search(pattern, href) or re.search(pattern, text):
+                    return urljoin(base_url, link["href"])
+
+        return None
+
+    def _extract_presentations(
+        self,
+        soup: BeautifulSoup,
+        base_url: str,
+    ) -> list[FoundPresentation]:
+        """Extract presentation links from a page."""
+        presentations = []
+
+        for link in soup.find_all("a", href=True):
+            href = link["href"]
+            text = self._get_link_context(link)
+            combined = f"{href} {text}".lower()
+
+            # Must be a PDF
+            if not self._is_pdf_link(href):
+                continue
+
+            # Must match presentation patterns
+            if not self._matches_patterns(combined, self.PRESENTATION_PATTERNS):
+                continue
+
+            # Must NOT match exclusion patterns
+            if self._matches_patterns(combined, self.PRESENTATION_EXCLUDE):
+                continue
+
+            # Extract year - prefer title over URL (URL may contain upload date)
+            # Try title first, then fall back to combined (includes URL)
+            year = self._extract_year(text.lower())
+            if not year:
+                year = self._extract_year(combined)
+            if not year:
+                continue
+
+            # Extract quarter - prefer title over URL
+            quarter = self._extract_quarter(text.lower())
+            if quarter is None:
+                quarter = self._extract_quarter(combined)
+
+            presentations.append(FoundPresentation(
+                url=urljoin(base_url, href),
+                title=text.strip()[:200],
+                year=year,
+                quarter=quarter,
+            ))
+
+        return presentations
+
+    def link_presentation_to_report(
+        self,
+        presentation: FoundPresentation,
+        reports: list[FoundReport],
+        company_id: str,
+    ) -> str | None:
+        """Link a presentation to its corresponding report.
+
+        Uses STRICT matching to ensure correct linking:
+        - Quarterly presentations must match exact year AND quarter
+        - Annual presentations (no quarter) link to annual reports
+
+        Args:
+            presentation: The presentation to link.
+            reports: List of reports to match against.
+            company_id: Company ID for generating filing IDs.
+
+        Returns:
+            Filing ID of the matched report, or None if no exact match.
+        """
+        from podstock.filings.models import Filing
+
+        # Rule 1: Exact year + quarter match for quarterly presentations
+        if presentation.quarter is not None:
+            for report in reports:
+                if (report.year == presentation.year and
+                    report.quarter == presentation.quarter):
+                    logger.info(
+                        f"Linked presentation '{presentation.title[:50]}...' "
+                        f"to Q{report.quarter} {report.year} report"
+                    )
+                    return Filing.generate_id(
+                        company_id,
+                        report.filing_type,
+                        report.year,
+                        report.quarter,
+                    )
+
+        # Rule 2: Annual presentation (no quarter) -> annual report
+        if presentation.quarter is None:
+            for report in reports:
+                if (report.year == presentation.year and
+                    report.filing_type == FilingType.ANNUAL_REPORT):
+                    logger.info(
+                        f"Linked presentation '{presentation.title[:50]}...' "
+                        f"to annual report {report.year}"
+                    )
+                    return Filing.generate_id(
+                        company_id,
+                        report.filing_type,
+                        report.year,
+                        None,
+                    )
+
+        # No match found - log for visibility
+        logger.warning(
+            f"Could not link presentation: '{presentation.title[:50]}...' "
+            f"(year={presentation.year}, quarter={presentation.quarter})"
+        )
+        return None
+
+    def download_presentation(
+        self,
+        presentation: FoundPresentation,
+        output_dir: Path,
+        company_id: str,
+    ) -> Path:
+        """Download a presentation PDF.
+
+        Args:
+            presentation: Presentation to download.
+            output_dir: Directory to save the file.
+            company_id: Company ID for standardized naming.
+
+        Returns:
+            Path to downloaded file.
+        """
+        output_dir = Path(output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+        # Generate filename: {company}_{year}_presentation[_q{quarter}].pdf
+        parts = [company_id, str(presentation.year), "presentation"]
+        if presentation.quarter:
+            parts.append(f"q{presentation.quarter}")
+        filename = "_".join(parts) + ".pdf"
+
+        output_path = output_dir / filename
+
+        try:
+            response = self.session.get(presentation.url, timeout=self.timeout, stream=True)
+            response.raise_for_status()
+
+            with open(output_path, "wb") as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+
+            logger.info(f"Downloaded presentation: {output_path}")
+            return output_path
+
+        except Exception as e:
+            raise FilingsError(f"Failed to download presentation {presentation.url}: {e}") from e
 
     def _fetch_page(self, url: str) -> BeautifulSoup:
         """Fetch and parse a web page."""

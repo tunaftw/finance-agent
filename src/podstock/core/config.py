@@ -105,6 +105,36 @@ class Config:
         return self.filings_dir / "filings_state.json"
 
     @property
+    def earnings_dir(self) -> Path:
+        """Directory for earnings call transcripts."""
+        return self.data_dir / "earnings"
+
+    @property
+    def earnings_transcripts_dir(self) -> Path:
+        """Directory for transcript files."""
+        return self.earnings_dir / "transcripts"
+
+    @property
+    def earnings_analysis_dir(self) -> Path:
+        """Directory for transcript analysis results."""
+        return self.earnings_dir / "analysis"
+
+    @property
+    def earnings_state_file(self) -> Path:
+        """Path to earnings_state.json."""
+        return self.earnings_dir / "earnings_state.json"
+
+    @property
+    def news_dir(self) -> Path:
+        """Directory for news data."""
+        return self.data_dir / "news"
+
+    @property
+    def news_state_file(self) -> Path:
+        """Path to news_state.json."""
+        return self.news_dir / "news_state.json"
+
+    @property
     def reports_prompts_dir(self) -> Path:
         """Directory for generated LLM prompts."""
         return self.reports_dir / "prompts"
@@ -125,6 +155,10 @@ class Config:
         self.filings_dir.mkdir(parents=True, exist_ok=True)
         self.filings_raw_dir.mkdir(parents=True, exist_ok=True)
         self.filings_analysis_dir.mkdir(parents=True, exist_ok=True)
+        self.earnings_dir.mkdir(parents=True, exist_ok=True)
+        self.earnings_transcripts_dir.mkdir(parents=True, exist_ok=True)
+        self.earnings_analysis_dir.mkdir(parents=True, exist_ok=True)
+        self.news_dir.mkdir(parents=True, exist_ok=True)
 
 
 # Default configuration values

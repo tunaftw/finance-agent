@@ -1,0 +1,981 @@
+{
+  "generated_at": "2025-12-27T18:56:40.607797",
+  "source": "Börsmagasinet",
+  "year": 2025,
+  "summary": {
+    "total_recommendations": 57,
+    "with_entry_price": 27,
+    "verified": 27,
+    "accuracy": {
+      "correct": 14,
+      "total": 27,
+      "hit_rate_pct": 51.9
+    },
+    "returns": {
+      "average_pct": -4.83,
+      "best_pct": 58.98,
+      "worst_pct": -56.56,
+      "winners": 11,
+      "losers": 16
+    }
+  },
+  "recommendations": [
+    {
+      "tracking_id": "evo-e8fd83c7",
+      "stock_name": "Evo",
+      "ticker": "EVO-B.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-01-10T00:00:00",
+      "speaker": "Speaker 1",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "vistry-29b27513",
+      "stock_name": "Vistry",
+      "ticker": "VTRY.L",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-01-10T00:00:00",
+      "speaker": "Speaker 1",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "smarteye-c2087e30",
+      "stock_name": "SmartEye",
+      "ticker": "SEYE.ST",
+      "action": "avoid",
+      "market": "sweden",
+      "recommendation_date": "2025-01-22T00:00:00",
+      "speaker": "Unknown",
+      "entry_price": {
+        "price": 47.9,
+        "currency": "SEK",
+        "date": "2025-01-22T00:00:00"
+      },
+      "current_price": {
+        "price": 76.15,
+        "currency": "SEK",
+        "date": "2025-12-27T18:53:48.590764"
+      },
+      "return_pct": 58.98,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "avanza-be4ca264",
+      "stock_name": "Avanza",
+      "ticker": "AZA.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-01-22T00:00:00",
+      "speaker": "Unknown",
+      "entry_price": {
+        "price": 316.7,
+        "currency": "SEK",
+        "date": "2025-01-22T00:00:00"
+      },
+      "current_price": {
+        "price": 351.8,
+        "currency": "SEK",
+        "date": "2025-12-27T18:53:49.118634"
+      },
+      "return_pct": 11.08,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "interactive-brokers-2ea62cac",
+      "stock_name": "Interactive Brokers",
+      "ticker": "IBKR",
+      "action": "buy",
+      "market": "us",
+      "recommendation_date": "2025-01-22T00:00:00",
+      "speaker": "Unknown",
+      "entry_price": {
+        "price": 52.17,
+        "currency": "USD",
+        "date": "2025-01-22T00:00:00"
+      },
+      "current_price": {
+        "price": 66.16,
+        "currency": "USD",
+        "date": "2025-12-27T18:53:49.593466"
+      },
+      "return_pct": 26.82,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "csa-49aca28f",
+      "stock_name": "CSA",
+      "ticker": "CSA.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-01-22T00:00:00",
+      "speaker": "Unknown",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "spotify-9e5a3b54",
+      "stock_name": "Spotify",
+      "ticker": "SPOT",
+      "action": "buy",
+      "market": "us",
+      "recommendation_date": "2025-02-04T00:00:00",
+      "speaker": "okänd",
+      "entry_price": {
+        "price": 621.77,
+        "currency": "USD",
+        "date": "2025-02-04T00:00:00"
+      },
+      "current_price": {
+        "price": 584.35,
+        "currency": "USD",
+        "date": "2025-12-27T18:53:50.124732"
+      },
+      "return_pct": -6.02,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "tuya-75d9c74a",
+      "stock_name": "Tuya",
+      "ticker": "TUYA.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-02-04T00:00:00",
+      "speaker": "okänd",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "crayon-f0641426",
+      "stock_name": "Crayon",
+      "ticker": "CRAY-B.ST",
+      "action": "avoid",
+      "market": "sweden",
+      "recommendation_date": "2025-02-04T00:00:00",
+      "speaker": "okänd",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "checkin-group-d26ef244",
+      "stock_name": "Checkin Group",
+      "ticker": "CHECK.ST",
+      "action": "avoid",
+      "market": "sweden",
+      "recommendation_date": "2025-02-13T00:00:00",
+      "speaker": "Host",
+      "entry_price": {
+        "price": 12.2,
+        "currency": "SEK",
+        "date": "2025-02-13T00:00:00"
+      },
+      "current_price": {
+        "price": 5.3,
+        "currency": "SEK",
+        "date": "2025-12-27T18:53:50.601029"
+      },
+      "return_pct": -56.56,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "borgh-f5780a87",
+      "stock_name": "Borgh",
+      "ticker": "BORR.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-02-20T00:00:00",
+      "speaker": "Speaker 2",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "dno-c0d4e471",
+      "stock_name": "DNO",
+      "ticker": "DNO.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-02-27T00:00:00",
+      "speaker": "Host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "sammanhållet-fe3be803",
+      "stock_name": "Sammanhållet",
+      "ticker": "SAM.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-02-27T00:00:00",
+      "speaker": "Host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "borg-drilling-e83e7968",
+      "stock_name": "Borg Drilling",
+      "ticker": "BORR.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-03-11T00:00:00",
+      "speaker": "Hampus Hedström",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "alten-75cbbbf2",
+      "stock_name": "Alten",
+      "ticker": "ATE.PA",
+      "action": "buy",
+      "market": "europe",
+      "recommendation_date": "2025-03-11T00:00:00",
+      "speaker": "Hampus Hedström",
+      "entry_price": {
+        "price": 93.06,
+        "currency": "SEK",
+        "date": "2025-03-11T00:00:00"
+      },
+      "current_price": {
+        "price": 71.3,
+        "currency": "EUR",
+        "date": "2025-12-27T18:53:51.109606"
+      },
+      "return_pct": -23.38,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "grindr-dfe01226",
+      "stock_name": "Grindr",
+      "ticker": "GRND",
+      "action": "buy",
+      "market": "us",
+      "recommendation_date": "2025-03-11T00:00:00",
+      "speaker": "Emil Hansljus",
+      "entry_price": {
+        "price": 16.31,
+        "currency": "USD",
+        "date": "2025-03-11T00:00:00"
+      },
+      "current_price": {
+        "price": 13.49,
+        "currency": "USD",
+        "date": "2025-12-27T18:53:51.689649"
+      },
+      "return_pct": -17.29,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "ec-healthcare-15ae3b76",
+      "stock_name": "EC Healthcare",
+      "ticker": "2138.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-04-03T00:00:00",
+      "speaker": "host1",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "broadleaf-3cb65580",
+      "stock_name": "Broadleaf",
+      "ticker": "3673.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-04-03T00:00:00",
+      "speaker": "host1",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "powerfleet-b83107f4",
+      "stock_name": "Powerfleet",
+      "ticker": "PWFL",
+      "action": "buy",
+      "market": "us",
+      "recommendation_date": "2025-05-06T00:00:00",
+      "speaker": "Bonesauce",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "tuya-63271591",
+      "stock_name": "Tuya",
+      "ticker": "TUYA",
+      "action": "buy",
+      "market": "china",
+      "recommendation_date": "2025-05-06T00:00:00",
+      "speaker": "Bonesauce",
+      "entry_price": {
+        "price": 2.32,
+        "currency": "USD",
+        "date": "2025-05-06T00:00:00"
+      },
+      "current_price": {
+        "price": 2.21,
+        "currency": "USD",
+        "date": "2025-12-27T18:53:52.120395"
+      },
+      "return_pct": -4.74,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "logic-instruments-8000abe3",
+      "stock_name": "Logic Instruments",
+      "ticker": "ALLOG.PA",
+      "action": "buy",
+      "market": "europe",
+      "recommendation_date": "2025-05-06T00:00:00",
+      "speaker": "Bonesauce",
+      "entry_price": {
+        "price": 1.63,
+        "currency": "SEK",
+        "date": "2025-05-06T00:00:00"
+      },
+      "current_price": {
+        "price": 1.84,
+        "currency": "EUR",
+        "date": "2025-12-27T18:53:52.607700"
+      },
+      "return_pct": 12.88,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "gig-software-3cef247a",
+      "stock_name": "Gig Software",
+      "ticker": "GIG.OL",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-05-15T00:00:00",
+      "speaker": "Gubbe",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "opsing-5aea22c4",
+      "stock_name": "Opsing",
+      "ticker": "OPS.OL",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-05-23T00:00:00",
+      "speaker": "Host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "gaming-innovation-gr-c31d7e42",
+      "stock_name": "Gaming Innovation Group (Gig)",
+      "ticker": "GIG.OL",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-05-23T00:00:00",
+      "speaker": "Host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "ubico-76aa63a1",
+      "stock_name": "Ubico",
+      "ticker": "INWI.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-07-03T00:00:00",
+      "speaker": "Ryttan",
+      "entry_price": {
+        "price": 212.8,
+        "currency": "SEK",
+        "date": "2025-07-03T00:00:00"
+      },
+      "current_price": {
+        "price": 163.1,
+        "currency": "SEK",
+        "date": "2025-12-27T18:53:53.106568"
+      },
+      "return_pct": -23.36,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "gerritsheimer-9fc65fe9",
+      "stock_name": "Gerritsheimer",
+      "ticker": "GXI.DE",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-07-03T00:00:00",
+      "speaker": "Spasska Ita",
+      "entry_price": {
+        "price": 48.84,
+        "currency": "SEK",
+        "date": "2025-07-03T00:00:00"
+      },
+      "current_price": {
+        "price": 26.9,
+        "currency": "EUR",
+        "date": "2025-12-27T18:53:53.612174"
+      },
+      "return_pct": -44.92,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "klara-bo-bc7fe725",
+      "stock_name": "Klara Bo",
+      "ticker": "KLAR.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-07-03T00:00:00",
+      "speaker": "Ryttan",
+      "entry_price": {
+        "price": 0.41,
+        "currency": "SEK",
+        "date": "2025-07-03T00:00:00"
+      },
+      "current_price": {
+        "price": 0.61,
+        "currency": "SEK",
+        "date": "2025-12-27T18:53:54.114631"
+      },
+      "return_pct": 50.62,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "cambio-e1d6c104",
+      "stock_name": "Cambio",
+      "ticker": "CAMB.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-07-03T00:00:00",
+      "speaker": "Ryttan",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "wipco-a0cf7c09",
+      "stock_name": "Wipco",
+      "ticker": "TOM.OL",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-07-03T00:00:00",
+      "speaker": "Spasska Ita",
+      "entry_price": {
+        "price": 157.7,
+        "currency": "NOK",
+        "date": "2025-07-03T00:00:00"
+      },
+      "current_price": {
+        "price": 132.8,
+        "currency": "NOK",
+        "date": "2025-12-27T18:53:54.624479"
+      },
+      "return_pct": -15.79,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "mildef-15be546e",
+      "stock_name": "Mildef",
+      "ticker": "MILDEF.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-07-29T00:00:00",
+      "speaker": "Okänd speaker",
+      "entry_price": {
+        "price": 171.2,
+        "currency": "SEK",
+        "date": "2025-07-29T00:00:00"
+      },
+      "current_price": {
+        "price": 122.9,
+        "currency": "SEK",
+        "date": "2025-12-27T18:53:55.133762"
+      },
+      "return_pct": -28.21,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "tiger-brokers-69eb01bc",
+      "stock_name": "Tiger Brokers",
+      "ticker": "TIGR",
+      "action": "buy",
+      "market": "us",
+      "recommendation_date": "2025-08-22T00:00:00",
+      "speaker": "Host",
+      "entry_price": {
+        "price": 12.71,
+        "currency": "USD",
+        "date": "2025-08-22T00:00:00"
+      },
+      "current_price": {
+        "price": 9.07,
+        "currency": "USD",
+        "date": "2025-12-27T18:53:55.631466"
+      },
+      "return_pct": -28.64,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "akuren-9091fa19",
+      "stock_name": "Akuren",
+      "ticker": "AKR",
+      "action": "buy",
+      "market": "us",
+      "recommendation_date": "2025-08-22T00:00:00",
+      "speaker": "Host",
+      "entry_price": {
+        "price": 19.84,
+        "currency": "USD",
+        "date": "2025-08-22T00:00:00"
+      },
+      "current_price": {
+        "price": 21.02,
+        "currency": "USD",
+        "date": "2025-12-27T18:53:56.170627"
+      },
+      "return_pct": 5.94,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "salaris-7dafab15",
+      "stock_name": "Salaris",
+      "ticker": "SALR.OL",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-08-22T00:00:00",
+      "speaker": "Host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "hellofresh-ca36b183",
+      "stock_name": "HelloFresh",
+      "ticker": "HFG",
+      "action": "avoid",
+      "market": "europe",
+      "recommendation_date": "2025-08-22T00:00:00",
+      "speaker": "Host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "salaris-5e61d16d",
+      "stock_name": "Salaris",
+      "ticker": "SALR.OL",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-08-25T00:00:00",
+      "speaker": "Unknown host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "tiger-brokers-f917fd45",
+      "stock_name": "Tiger Brokers",
+      "ticker": "TIGR",
+      "action": "buy",
+      "market": "us",
+      "recommendation_date": "2025-08-29T00:00:00",
+      "speaker": "Okänd speaker",
+      "entry_price": {
+        "price": 12.5,
+        "currency": "USD",
+        "date": "2025-08-29T00:00:00"
+      },
+      "current_price": {
+        "price": 9.07,
+        "currency": "USD",
+        "date": "2025-12-27T18:53:56.424274"
+      },
+      "return_pct": -27.44,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "salarie-70e76fad",
+      "stock_name": "Salarie",
+      "ticker": "SALR.OL",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-09-23T00:00:00",
+      "speaker": "Investing host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "tiger-brokers-b7166fbf",
+      "stock_name": "Tiger Brokers",
+      "ticker": "TIGR.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-09-23T00:00:00",
+      "speaker": "Investing host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "tiger-brokers-b91369df",
+      "stock_name": "Tiger Brokers",
+      "ticker": "TIGR.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-10-15T00:00:00",
+      "speaker": "Jörnes",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "munters-e08918e8",
+      "stock_name": "Munters",
+      "ticker": "MTRS.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-10-24T00:00:00",
+      "speaker": "Podcastvärd",
+      "entry_price": {
+        "price": 159.23,
+        "currency": "SEK",
+        "date": "2025-10-24T00:00:00"
+      },
+      "current_price": {
+        "price": 171.3,
+        "currency": "SEK",
+        "date": "2025-12-27T18:53:57.153040"
+      },
+      "return_pct": 7.58,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "taseco-mines-c180106f",
+      "stock_name": "Taseco Mines",
+      "ticker": "TSE.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-10-26T00:00:00",
+      "speaker": "Gäst",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "ubico-3d7d1de8",
+      "stock_name": "Ubico",
+      "ticker": "UBIC.ST",
+      "action": "avoid",
+      "market": "sweden",
+      "recommendation_date": "2025-10-26T00:00:00",
+      "speaker": "Gäst",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "grindr-1b4e7234",
+      "stock_name": "Grindr",
+      "ticker": "GRND",
+      "action": "buy",
+      "market": "us",
+      "recommendation_date": "2025-10-28T00:00:00",
+      "speaker": "Speaker1",
+      "entry_price": {
+        "price": 14.05,
+        "currency": "USD",
+        "date": "2025-10-28T00:00:00"
+      },
+      "current_price": {
+        "price": 13.49,
+        "currency": "USD",
+        "date": "2025-12-27T18:53:57.518884"
+      },
+      "return_pct": -3.99,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "netel-7df79028",
+      "stock_name": "Netel",
+      "ticker": "NETEL.ST",
+      "action": "avoid",
+      "market": "europe",
+      "recommendation_date": "2025-10-28T00:00:00",
+      "speaker": "Speaker1",
+      "entry_price": {
+        "price": 5.05,
+        "currency": "SEK",
+        "date": "2025-10-28T00:00:00"
+      },
+      "current_price": {
+        "price": 4.16,
+        "currency": "SEK",
+        "date": "2025-12-27T18:53:58.145821"
+      },
+      "return_pct": -17.62,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "balko-9909a83e",
+      "stock_name": "Balko",
+      "ticker": "BALCO.ST",
+      "action": "avoid",
+      "market": "sweden",
+      "recommendation_date": "2025-10-28T00:00:00",
+      "speaker": "Speaker1",
+      "entry_price": {
+        "price": 20.0,
+        "currency": "SEK",
+        "date": "2025-10-28T00:00:00"
+      },
+      "current_price": {
+        "price": 18.15,
+        "currency": "SEK",
+        "date": "2025-12-27T18:53:58.643265"
+      },
+      "return_pct": -9.25,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "api-group-3f8c62c8",
+      "stock_name": "API Group",
+      "ticker": "APIG",
+      "action": "buy",
+      "market": "us",
+      "recommendation_date": "2025-11-02T00:00:00",
+      "speaker": "Jönnäs",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "tiger-brokers-f5abe1dd",
+      "stock_name": "Tiger Brokers",
+      "ticker": "TIGR.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-11-06T00:00:00",
+      "speaker": "Guest",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "nelly-17838e7b",
+      "stock_name": "Nelly",
+      "ticker": "NELY-B.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-11-06T00:00:00",
+      "speaker": "Guest",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "fractal-gaming-65f92e6e",
+      "stock_name": "Fractal Gaming",
+      "ticker": "FRACT.ST",
+      "action": "sell",
+      "market": "sweden",
+      "recommendation_date": "2025-11-06T00:00:00",
+      "speaker": "Guest",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "evolution-b1432c6a",
+      "stock_name": "Evolution",
+      "ticker": "EVO.ST",
+      "action": "sell",
+      "market": "sweden",
+      "recommendation_date": "2025-11-06T00:00:00",
+      "speaker": "Guest",
+      "entry_price": {
+        "price": 627.2,
+        "currency": "SEK",
+        "date": "2025-11-06T00:00:00"
+      },
+      "current_price": {
+        "price": 621.2,
+        "currency": "SEK",
+        "date": "2025-12-27T18:53:59.005275"
+      },
+      "return_pct": -0.96,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "tiger-brokers-867d80de",
+      "stock_name": "Tiger Brokers",
+      "ticker": "TIGR.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-12-04T00:00:00",
+      "speaker": "Host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "par-technology-de04dd74",
+      "stock_name": "Par Technology",
+      "ticker": "PAR",
+      "action": "buy",
+      "market": "us",
+      "recommendation_date": "2025-12-04T00:00:00",
+      "speaker": "Host",
+      "entry_price": {
+        "price": 34.47,
+        "currency": "USD",
+        "date": "2025-12-04T00:00:00"
+      },
+      "current_price": {
+        "price": 37.73,
+        "currency": "USD",
+        "date": "2025-12-27T18:53:59.659902"
+      },
+      "return_pct": 9.46,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "hacksaw-gaming-8d76da66",
+      "stock_name": "Hacksaw Gaming",
+      "ticker": "HACK.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-12-04T00:00:00",
+      "speaker": "Host",
+      "entry_price": {
+        "price": 62.39,
+        "currency": "SEK",
+        "date": "2025-12-04T00:00:00"
+      },
+      "current_price": {
+        "price": 62.61,
+        "currency": "SEK",
+        "date": "2025-12-27T18:54:00.182161"
+      },
+      "return_pct": 0.35,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "axo-bff7f2cf",
+      "stock_name": "Axo",
+      "ticker": "AXO.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-12-04T00:00:00",
+      "speaker": "Host",
+      "entry_price": null,
+      "current_price": null,
+      "return_pct": null,
+      "direction_correct": null
+    },
+    {
+      "tracking_id": "sbi-holdings-805e8d74",
+      "stock_name": "SBI Holdings",
+      "ticker": "8473.T",
+      "action": "sell",
+      "market": "japan",
+      "recommendation_date": "2025-12-04T00:00:00",
+      "speaker": "Host",
+      "entry_price": {
+        "price": 3311.0,
+        "currency": "SEK",
+        "date": "2025-12-04T00:00:00"
+      },
+      "current_price": {
+        "price": 3417.0,
+        "currency": "JPY",
+        "date": "2025-12-27T18:54:00.746977"
+      },
+      "return_pct": 3.2,
+      "direction_correct": false
+    },
+    {
+      "tracking_id": "ricks-e858bf1d",
+      "stock_name": "Ricks",
+      "ticker": "RICK",
+      "action": "avoid",
+      "market": "us",
+      "recommendation_date": "2025-12-04T00:00:00",
+      "speaker": "Host",
+      "entry_price": {
+        "price": 26.22,
+        "currency": "USD",
+        "date": "2025-12-04T00:00:00"
+      },
+      "current_price": {
+        "price": 23.32,
+        "currency": "USD",
+        "date": "2025-12-27T18:54:01.206172"
+      },
+      "return_pct": -11.07,
+      "direction_correct": true
+    },
+    {
+      "tracking_id": "haxo-35c2bb5c",
+      "stock_name": "Haxo",
+      "ticker": "HACK.ST",
+      "action": "buy",
+      "market": "sweden",
+      "recommendation_date": "2025-12-17T00:00:00",
+      "speaker": "Okänd talare",
+      "entry_price": {
+        "price": 61.44,
+        "currency": "SEK",
+        "date": "2025-12-17T00:00:00"
+      },
+      "current_price": {
+        "price": 62.61,
+        "currency": "SEK",
+        "date": "2025-12-27T18:54:01.536252"
+      },
+      "return_pct": 1.9,
+      "direction_correct": true
+    }
+  ]
+}
