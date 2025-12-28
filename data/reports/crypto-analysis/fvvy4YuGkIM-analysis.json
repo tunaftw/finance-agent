@@ -1,0 +1,155 @@
+{
+  "source_id": "fvvy4YuGkIM",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-01-06",
+  "hosts": ["Cred", "Duck"],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Bitcoin is stuck at the range midpoint, showing an inside week on the weekly timeframe. Market has not moved despite macro catalysts.",
+      "quote": "we're still stuck at the range midpoint...it's like below it no breakdown above it no breakout it's just complete agony",
+      "price_levels": ["$16,200", "$17,200", "$17,600"],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Sees breakout above $17.2k as important level for Bitcoin. Expects upside if SP goes sideways.",
+      "quote": "I think 17.2 K is like a nice price price level to...if we break that to the upside it starts looking much much better on the weekly",
+      "price_levels": ["$17,200", "$17,600"],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Ethereum near resistance around $1.3k on daily. If it breaks through, targets $1.5k and potentially $2.5k.",
+      "quote": "if you break 1.3 uh it's gonna be quick to 1.5 and that's where it starts getting really interesting if you can flip that I think it just starts making sense to expect much much higher",
+      "price_levels": ["$1,300", "$1,500", "$2,500"],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "cautious",
+      "speaker": "Cred",
+      "context": "Ethereum showing bearish market structure on weekly. $1.4-$1.5k area is scary as potential lower high formation.",
+      "quote": "if you're going to get a potential lower high if you're going to get trend continuation is at 1.4 to 1.5 k",
+      "price_levels": ["$1,400", "$1,500"],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "strongly_bullish",
+      "speaker": "Duck",
+      "context": "Litecoin swing trade with targets $100-120 initially, then $220 if strength continues. Bought around $60s.",
+      "quote": "my initial idea is basically buying 60...looking for 100 to 120...just as a level to level play that's a 2X it's pretty nice",
+      "price_levels": ["$60", "$84", "$100", "$120", "$220"],
+      "timeframe": "long-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "TRX",
+      "asset_name": "Tron",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Tron has been outperforming Bitcoin on BTC pair since end of 2020. Technical setup looks interesting above 0.063.",
+      "quote": "TRX has been doing really well too right...you can just look at the BTC pair and you can see that's been out forming Bitcoin for basically since end of 2020",
+      "price_levels": ["0.063"],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Solana looks strong after Vitalik's support. Entry around $12, targets $15-$19 initially, then potential move to $17-$20.",
+      "quote": "if I was looking for an active trade I really like Solana I think around like 12 dollars looks really good...I think like that so long is a really good play",
+      "price_levels": ["$11.75", "$12", "$14.5", "$15", "$17", "$20"],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LDO",
+      "asset_name": "Lido",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Lido has been going up recently as staking narrative play. Market cap is relatively low.",
+      "quote": "I know Lido's been going up...a fair bit of sort of eth staking type of argument slash narrative",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": ["$16,200", "$17,200", "$17,600"],
+      "ETH": ["$1,300", "$1,500"],
+      "LTC": ["$60", "$84", "$100", "$120"],
+      "SOL": ["$12", "$15"]
+    }
+  },
+  "key_insights": [
+    "Crypto markets ignoring macro catalysts - correlation slowing down",
+    "Bitcoin stuck in tight range between $16.2k-$17k for 7 weeks with minimal volatility",
+    "Ethereum showing relative strength in bear market, could double and still be down 50%",
+    "Litecoin and Tron have been outperforming Bitcoin on BTC pairs since end of 2020",
+    "Major crypto lending firms and exchanges in distress or facing bankruptcy",
+    "Bear markets create bad trading habits - need to relearn for next bull market",
+    "Historical drawdowns of 80% are normal for Bitcoin and Ethereum across cycles"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "LTC",
+      "direction": "long",
+      "entry": "$60-$70 area",
+      "target": "$100-$120 initially, then $220",
+      "stop": "$69 (daily) or $68 (weekly)",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "SOL",
+      "direction": "long",
+      "entry": "$11.75-$12",
+      "target": "$15-$19 initially, then $17-$20",
+      "stop": "$12",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Above $17,200",
+      "target": "$17,600 and above",
+      "stop": "$16,000",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "TRX/BTC",
+      "direction": "long",
+      "entry": "Above 0.063 on BTC pair",
+      "target": "Continuation of uptrend",
+      "stop": "0.063",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "This TechnicalRoundup episode discusses the crypto market in early 2023 with Cred and Duck. Bitcoin remains range-bound between $16.2k-$17k with minimal volatility despite macro catalysts. Duck shows bullish bias on Bitcoin above $17.2k, while Cred remains more cautious. Ethereum shows strength near $1.3k with targets at $1.5k and potentially $2.5k if it breaks through. Duck is strongly bullish on Litecoin with a swing trade targeting $100-$120 initially, then $220. Solana is discussed as bullish around $12 with targets up to $15-$19. Tron shows interesting technical setup on BTC pair despite Justin Sun concerns. Major industry issues discussed include Three Arrows Capital, Genesis, Voyager, Silvergate, and ongoing FTX fallout.",
+  "transcript_word_count": 50575,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:07:14.411631"
+}

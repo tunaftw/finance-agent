@@ -1,0 +1,615 @@
+{
+  "source_id": "cryptodonalt",
+  "analysis_type": "positioning_timeline",
+  "created_at": "2025-12-26",
+  "data_period": {
+    "start": "2022-01-01",
+    "end": "2025-12-08"
+  },
+  "total_tweets_analyzed": 11614,
+  "positioning_events": [
+    {
+      "date": "2022-01-06",
+      "btc_price": 43000,
+      "bias": "neutral",
+      "action": "waiting",
+      "details": "Sold at $60k earlier, waiting for strength",
+      "quote": "I sold at $60k, I don't mind waiting for strength"
+    },
+    {
+      "date": "2022-01-24",
+      "btc_price": 36000,
+      "bias": "bullish",
+      "action": "bought",
+      "details": "Bought BTC around $33k support",
+      "quote": "I'm actually green on my buys"
+    },
+    {
+      "date": "2022-01-30",
+      "btc_price": 38000,
+      "bias": "neutral",
+      "action": "sold",
+      "details": "Sold BTC for +12% gain",
+      "quote": "Been selling the BTC that I bought a week ago for ~12% gain"
+    },
+    {
+      "date": "2022-02-02",
+      "btc_price": 37000,
+      "bias": "bullish",
+      "action": "bought",
+      "assets": ["XTZ"],
+      "details": "Bought Tezos",
+      "quote": "Been buying $XTZ the last few days"
+    },
+    {
+      "date": "2022-04-16",
+      "btc_price": 40000,
+      "bias": "bullish",
+      "action": "bought",
+      "assets": ["LTC"],
+      "details": "Bought Litecoin despite calling it garbage",
+      "quote": "Total and utter garbage coin... Bought a bunch"
+    },
+    {
+      "date": "2022-05-14",
+      "btc_price": 30000,
+      "bias": "bullish",
+      "action": "watching",
+      "details": "Listed 8 reasons to be bullish after LUNA crash",
+      "quote": "Capitulation on an institutional level, Retail selling Tether out of fear..."
+    },
+    {
+      "date": "2022-05-26",
+      "btc_price": 29000,
+      "bias": "neutral",
+      "action": "closed",
+      "details": "Closed positions at breakeven",
+      "quote": "Closed my positions all morning. Managed to get out +-0"
+    },
+    {
+      "date": "2022-06-14",
+      "btc_price": 22000,
+      "bias": "bullish",
+      "action": "bought_heavy",
+      "assets": ["BTC", "ETH", "SOL"],
+      "entry_prices": {
+        "BTC": 22000,
+        "ETH": 1200,
+        "SOL": 29
+      },
+      "targets": {
+        "BTC": 28000,
+        "ETH": 1800,
+        "SOL": 50
+      },
+      "details": "Major buy at cycle lows",
+      "quote": "Don't ask me why but I bought a bunch",
+      "significance": "major_bottom_call"
+    },
+    {
+      "date": "2022-06-15",
+      "btc_price": 21000,
+      "bias": "bullish",
+      "action": "bought",
+      "assets": ["BAYC NFT"],
+      "entry_prices": {
+        "BAYC": 100000
+      },
+      "details": "Bought Bored Ape NFT",
+      "quote": "Loom legit made me buy a fucking ape for $100k"
+    },
+    {
+      "date": "2022-06-18",
+      "btc_price": 19000,
+      "bias": "bullish",
+      "action": "bought_more",
+      "details": "Weekend dip buying",
+      "quote": "The market is wrong bought more"
+    },
+    {
+      "date": "2022-06-21",
+      "btc_price": 21000,
+      "bias": "bullish",
+      "action": "raised_targets",
+      "assets": ["SOL"],
+      "new_target": 80,
+      "details": "Raised SOL target from $50 to $80",
+      "quote": "Reconsidered all my sells on $SOL. Targeting $80 now"
+    },
+    {
+      "date": "2022-07-15",
+      "btc_price": 21000,
+      "bias": "bullish",
+      "action": "holding",
+      "details": "Bullish for over a month",
+      "quote": "I've literally been bullish for more than a month now"
+    },
+    {
+      "date": "2022-07-18",
+      "btc_price": 22000,
+      "bias": "bullish",
+      "action": "bought_more",
+      "details": "Added to positions",
+      "quote": "I just bought more"
+    },
+    {
+      "date": "2022-07-20",
+      "btc_price": 24000,
+      "bias": "bullish",
+      "action": "holding",
+      "details": "50/50 chance this is THE bottom",
+      "quote": "Honestly think there is about a 50/50 chance THE bottom is in"
+    },
+    {
+      "date": "2022-11-22",
+      "btc_price": 16000,
+      "bias": "bullish",
+      "action": "bought_heavy",
+      "assets": ["BTC", "LTC", "XRP"],
+      "entry_prices": {
+        "LTC": 69,
+        "XRP": 0.36
+      },
+      "details": "Major buy after FTX crash",
+      "quote": "Finished buying today. Bought a bunch of BTC for the long term",
+      "significance": "major_bottom_call"
+    },
+    {
+      "date": "2022-11-27",
+      "btc_price": 16500,
+      "bias": "bullish",
+      "action": "repositioned",
+      "details": "Sold XRP $0.4, partially sold LTC $77",
+      "quote": "Repositioned... $XRP at ~$0.4 (sold)"
+    },
+    {
+      "date": "2022-11-28",
+      "btc_price": 16500,
+      "bias": "bullish",
+      "action": "rebought",
+      "assets": ["LTC"],
+      "entry_prices": {
+        "LTC": 70
+      },
+      "details": "Rebought LTC cheaper, +10% position size",
+      "quote": "Rebought LTC what I sold at $77... Managed to increase my position by 10%"
+    },
+    {
+      "date": "2022-12-16",
+      "btc_price": 16800,
+      "bias": "bullish",
+      "action": "rebought",
+      "assets": ["XRP"],
+      "entry_prices": {
+        "XRP": 0.36
+      },
+      "details": "Rebought XRP at 10% discount",
+      "quote": "Rebought $XRP for a ~10% discount from my sells in November"
+    },
+    {
+      "date": "2022-12-17",
+      "btc_price": 16800,
+      "bias": "bullish",
+      "action": "holding",
+      "details": "Bullish, sees 100%+ potential",
+      "quote": "Prices are obviously down... That hasn't changed any of my bullishness though"
+    },
+    {
+      "date": "2024-01-11",
+      "btc_price": 46000,
+      "bias": "neutral",
+      "action": "sidelined",
+      "details": "ETF approved, but waiting for better entry",
+      "quote": "I buy when the market is dying, you buy when it's doing well"
+    },
+    {
+      "date": "2024-01-24",
+      "btc_price": 40000,
+      "bias": "bullish",
+      "action": "watching",
+      "details": "ETF played out more bullish than expected",
+      "quote": "The ETF event played out significantly more bullish than I expected"
+    },
+    {
+      "date": "2024-02-09",
+      "btc_price": 47000,
+      "bias": "bullish",
+      "action": "watching",
+      "details": "No reason to be bearish",
+      "quote": "Really don't see a good reason to be bearish on this"
+    },
+    {
+      "date": "2024-05-01",
+      "btc_price": 58000,
+      "bias": "bullish",
+      "action": "planning",
+      "assets": ["ETH", "DOGE", "LTC", "PEPE"],
+      "details": "Will buy these when BTC bottoms",
+      "quote": "I'll buy ETH, DOGE, LTC, and maybe PEPE whenever I think BTC has bottomed"
+    },
+    {
+      "date": "2024-05-15",
+      "btc_price": 62000,
+      "bias": "bearish_memes",
+      "action": "shorted",
+      "assets": ["WIF", "PEPE"],
+      "details": "Shorted meme coins",
+      "quote": "$WIF: Actively looking to short the range high",
+      "significance": "major_short"
+    },
+    {
+      "date": "2024-05-20",
+      "btc_price": 67000,
+      "bias": "neutral",
+      "action": "closed_shorts",
+      "details": "Closed meme shorts in profit",
+      "quote": "I close that position"
+    },
+    {
+      "date": "2024-06-20",
+      "btc_price": 65000,
+      "bias": "neutral",
+      "action": "closed",
+      "details": "Closed positions, expecting chop",
+      "quote": "Closed a bunch of my positions this morning"
+    },
+    {
+      "date": "2024-06-24",
+      "btc_price": 63000,
+      "bias": "bearish",
+      "action": "shorted",
+      "assets": ["BTC", "SOL"],
+      "details": "Short from higher levels",
+      "quote": "I'm short from higher... I still think price will head lower"
+    },
+    {
+      "date": "2024-06-25",
+      "btc_price": 62000,
+      "bias": "neutral",
+      "action": "closed_shorts",
+      "details": "Closed shorts to be able to buy dips",
+      "quote": "I'm calling it a day shorting... I wanna be able to concentrate on buying"
+    },
+    {
+      "date": "2024-08-16",
+      "btc_price": 59000,
+      "bias": "bullish",
+      "action": "watching",
+      "details": "Market feels better despite worse charts",
+      "quote": "I've been vocally bearish in the 70-60k range... The market feels much better now"
+    },
+    {
+      "date": "2024-08-23",
+      "btc_price": 64000,
+      "bias": "bullish",
+      "action": "flipped_bull",
+      "flip_level": 58000,
+      "stop_loss": 58000,
+      "details": "Flipped bullish at $58k, ignoring weekly resistance",
+      "quote": "I went bull at $58k... Eyes closed, pray, cut if sub $58k",
+      "significance": "major_flip"
+    },
+    {
+      "date": "2024-10-17",
+      "btc_price": 68000,
+      "bias": "bullish",
+      "action": "bought",
+      "assets": ["DOGE"],
+      "entry_prices": {
+        "DOGE": 0.12
+      },
+      "targets": {
+        "DOGE": 1.0
+      },
+      "details": "Bought DOGE, targeting $1",
+      "quote": "I bought 0.12ish and think it can run to $1"
+    },
+    {
+      "date": "2024-10-24",
+      "btc_price": 67000,
+      "bias": "neutral",
+      "action": "sold_all",
+      "assets": ["BTC", "ETH", "DOGE"],
+      "exit_prices": {
+        "BTC": 67000,
+        "ETH": 2550,
+        "DOGE": 0.12
+      },
+      "details": "Closed all positions before US election",
+      "quote": "Closed my BTC, my ETH, my DOGE today. Not bearish just gonna have a lot on my plate",
+      "significance": "major_exit"
+    },
+    {
+      "date": "2024-11-07",
+      "btc_price": 76000,
+      "bias": "bullish",
+      "action": "watching",
+      "details": "Trump win = bullish alts, crime season",
+      "quote": "Think Trump is most bullish altcoins... This may end up being the crime cycle"
+    },
+    {
+      "date": "2024-11-15",
+      "btc_price": 88000,
+      "bias": "bullish",
+      "action": "bought",
+      "assets": ["XRP"],
+      "details": "Crime season = XRP",
+      "quote": "We're in crime season and you didn't long XRP?"
+    },
+    {
+      "date": "2024-11-21",
+      "btc_price": 98000,
+      "bias": "bullish",
+      "action": "bought",
+      "assets": ["ETH"],
+      "entry_prices": {
+        "ETH": 3000
+      },
+      "details": "Bought ETH at $3k while BTC at $100k",
+      "quote": "You're telling me I just bought at $3k while BTC is at $100k? That seems like I just scammed someone"
+    },
+    {
+      "date": "2025-02-10",
+      "btc_price": 98000,
+      "bias": "bullish",
+      "action": "holding",
+      "details": "90% certain market goes up unless Trump messes up",
+      "quote": "90% certain the market is gonna go up as long as Trump doesn't fuck something big up"
+    },
+    {
+      "date": "2025-03-02",
+      "btc_price": 94000,
+      "bias": "bullish",
+      "action": "holding",
+      "assets": ["XRP", "ADA"],
+      "details": "Laughing at US buying ADA/XRP, already owns them cheap",
+      "quote": "America is gonna buy the worst fucking assets on the planet. And I bought them for pennies"
+    },
+    {
+      "date": "2025-03-23",
+      "btc_price": 84000,
+      "bias": "bearish_technical",
+      "action": "holding",
+      "details": "Technically bearish but holding anyway",
+      "quote": "Until we've reclaimed it, this is technically bearish. I'm personally just gonna hold"
+    },
+    {
+      "date": "2025-05-08",
+      "btc_price": 103000,
+      "bias": "bullish",
+      "action": "holding",
+      "details": "Back at $100k+",
+      "quote": "Kinda insane we're already back at $100k+"
+    },
+    {
+      "date": "2025-07-11",
+      "btc_price": 125000,
+      "bias": "bullish",
+      "action": "holding",
+      "details": "BTC treasury ponzi barely begun",
+      "quote": "I think the whole BTC treasury company ponzi has barely begun"
+    },
+    {
+      "date": "2025-07-18",
+      "btc_price": 130000,
+      "bias": "bullish",
+      "action": "holding",
+      "assets": ["XRP"],
+      "details": "XRP up 6x from buy",
+      "quote": "XRP, up 6x since I bought it a couple months ago"
+    },
+    {
+      "date": "2025-11-02",
+      "btc_price": 110000,
+      "bias": "bearish",
+      "action": "derisked",
+      "details": "Significantly reduced exposure",
+      "quote": "Derisked significantly, cashed in lots of wins",
+      "significance": "major_derisk"
+    },
+    {
+      "date": "2025-11-02",
+      "btc_price": 110000,
+      "bias": "bearish",
+      "action": "bearish_sol",
+      "assets": ["SOL"],
+      "level": 188,
+      "details": "Bearish SOL at range high",
+      "quote": "$SOL: Think its probably wise to have a bearish bias between here and $210"
+    },
+    {
+      "date": "2025-11-04",
+      "btc_price": 110000,
+      "bias": "bearish",
+      "action": "shorted",
+      "assets": ["SOL", "BTC"],
+      "entry_prices": {
+        "SOL": 188
+      },
+      "details": "10-20% from short targets",
+      "quote": "We're about 10-20% away from my short targets",
+      "significance": "major_short"
+    },
+    {
+      "date": "2025-11-11",
+      "btc_price": 92000,
+      "bias": "bearish",
+      "action": "holding_shorts",
+      "details": "Most bearish HTF chart he's seen",
+      "quote": "This is just straight up one of the most bearish HTF charts I've seen"
+    },
+    {
+      "date": "2025-11-15",
+      "btc_price": 87000,
+      "bias": "neutral",
+      "action": "closed_shorts",
+      "assets": ["SOL"],
+      "exit_prices": {
+        "SOL": 130
+      },
+      "profit_pct": 30,
+      "details": "Closed SOL short at target",
+      "quote": "$SOL update: Good enough for me, good luck bulls"
+    },
+    {
+      "date": "2025-11-17",
+      "btc_price": 85000,
+      "bias": "bullish",
+      "action": "nibbling",
+      "assets": ["XRP"],
+      "details": "Starting to rebuy XRP",
+      "quote": "Starting to nibble to reestablish my XRP position"
+    },
+    {
+      "date": "2025-11-18",
+      "btc_price": 87000,
+      "bias": "bullish",
+      "action": "bought",
+      "assets": ["LTC", "XRP"],
+      "details": "Stopped shorting, started buying",
+      "quote": "Wow I stopped shorting and bought and things are going up"
+    },
+    {
+      "date": "2025-11-19",
+      "btc_price": 88000,
+      "bias": "neutral",
+      "action": "closed",
+      "details": "Closed at breakeven, waiting",
+      "quote": "Closed my positions from yesterday around breakeven"
+    },
+    {
+      "date": "2025-11-21",
+      "btc_price": 84000,
+      "bias": "neutral",
+      "action": "waiting",
+      "details": "Waiting for bulls to step in or bears to finish",
+      "quote": "Would rather wait for the bulls to step in huge or for bears to finish the job"
+    },
+    {
+      "date": "2025-11-24",
+      "btc_price": 84000,
+      "bias": "bullish",
+      "action": "bought",
+      "assets": ["MON"],
+      "entry_prices": {
+        "MON": 0.025
+      },
+      "targets": {
+        "MON": 0.1
+      },
+      "details": "Bought Monad at ICO",
+      "quote": "Bought a bunch of Mon at ICO price 0.025",
+      "significance": "major_buy"
+    },
+    {
+      "date": "2025-11-27",
+      "btc_price": 93000,
+      "bias": "bullish",
+      "action": "holding",
+      "details": "HTFs could look good if monthly reclaims $93.5k",
+      "quote": "IF the monthly reclaims $93.5k it actually starts looking quite alright"
+    },
+    {
+      "date": "2025-11-30",
+      "btc_price": 91000,
+      "bias": "bearish",
+      "action": "sold_all",
+      "flip_levels": {
+        "bearish_from": 110000,
+        "bullish_at": 84000,
+        "bearish_again": 91000
+      },
+      "details": "Closed all positions, bearish again at $91k",
+      "quote": "After having been bearish from 110k and flipping bullish at $84k I'm leaning bearish again at $91k",
+      "significance": "major_flip"
+    },
+    {
+      "date": "2025-12-04",
+      "btc_price": 92000,
+      "bias": "bearish",
+      "action": "cleared_onchain",
+      "details": "Moving from on-chain to IBIT/tradfi",
+      "quote": "Not gonna be holding any significant crypto itself anymore, just gonna be trading trad market alternatives (IBIT and similar)",
+      "significance": "strategy_shift"
+    },
+    {
+      "date": "2025-12-05",
+      "btc_price": 96000,
+      "bias": "bearish",
+      "action": "bearish_eth",
+      "assets": ["ETH"],
+      "details": "Tom Lee = exit liquidity",
+      "quote": "Tom Lee having bought infinite ETH at like $4k makes me just not wanna own the thing"
+    }
+  ],
+  "major_calls": {
+    "bottoms_called": [
+      {
+        "date": "2022-06-14",
+        "btc_price": 22000,
+        "actual_bottom": 15500,
+        "accuracy": "close",
+        "note": "Bought within 30% of actual bottom"
+      },
+      {
+        "date": "2022-11-22",
+        "btc_price": 16000,
+        "actual_bottom": 15500,
+        "accuracy": "excellent",
+        "note": "Bought within 5% of actual bottom"
+      },
+      {
+        "date": "2024-08-23",
+        "btc_price": 58000,
+        "result": "correct",
+        "note": "Flipped bull, BTC went to $100k+"
+      }
+    ],
+    "tops_called": [
+      {
+        "date": "2021-11",
+        "btc_price": 60000,
+        "actual_top": 69000,
+        "accuracy": "good",
+        "note": "Sold $60k before $69k top"
+      },
+      {
+        "date": "2025-11-04",
+        "btc_price": 110000,
+        "result": "correct_so_far",
+        "note": "Sold $110k, shorted, price fell to $84k"
+      }
+    ]
+  },
+  "trading_patterns": {
+    "style": "swing_trader",
+    "time_horizon": "days_to_weeks",
+    "key_timeframes": ["monthly", "weekly"],
+    "entry_strategy": "buys_support_and_capitulation",
+    "exit_strategy": "sells_resistance_and_euphoria",
+    "position_management": "cuts_below_entry_chases_up_if_working",
+    "transparency": "publishes_buys_and_sells_in_realtime"
+  },
+  "asset_preferences": {
+    "core_holdings": ["BTC"],
+    "swing_trades": ["LTC", "XRP", "SOL", "ETH", "DOGE"],
+    "recent_additions": ["MON"],
+    "avoided": ["most_memecoins", "low_cap_alts"],
+    "current_vehicle": "IBIT_and_tradfi_alternatives"
+  },
+  "key_levels_mentioned": {
+    "btc": {
+      "major_support": [58000, 84000, 91000],
+      "major_resistance": [100000, 110000],
+      "cycle_levels": [20000, 60000, 69000]
+    }
+  },
+  "current_status": {
+    "as_of": "2025-12-08",
+    "bias": "bearish",
+    "position": "sidelined",
+    "watching_for": ["$100k+ reclaim", "lower_lows_to_buy"],
+    "vehicle": "IBIT_not_onchain",
+    "concerns": ["MSTR_unwind", "Trump_risks", "Tom_Lee_ETH"]
+  }
+}

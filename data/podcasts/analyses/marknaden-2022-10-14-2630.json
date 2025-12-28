@@ -1,0 +1,123 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "marknaden-2022-10-14-2630",
+  "podcast_name": "Marknaden",
+  "episode_title": "Fredag! Riksbankskritik, M&A-stopp och Spotify",
+  "episode_number": null,
+  "date": "2022-10-14",
+  "hosts": [
+    "Helene Rådstein"
+  ],
+  "guests": [
+    "Mikael Söderlund",
+    "Johan Gripp",
+    "Sven Karlsson"
+  ],
+  "main_topics": [
+    "Riksbanken",
+    "inflation",
+    "räntehöjningar",
+    "fastighetsmarknaden",
+    "Spotify",
+    "M&A"
+  ],
+  "stocks_discussed": [
+    "Spotify",
+    "ABB",
+    "Castellum",
+    "SBB",
+    "Nyfosa",
+    "Sandvik"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Spotify",
+      "ticker": "SPOT",
+      "timestamp_start": "34:03",
+      "timestamp_end": "48:07",
+      "word_count": 1400,
+      "speakers": [
+        "Sven Karlsson",
+        "Mikael Söderlund",
+        "Helene Rådstein"
+      ],
+      "primary_speaker": "Sven Karlsson",
+      "discussion_summary": "Lång diskussion om Spotifys position i marknaden, historik och utmaningar. Spotify marknadsledande men möter hård konkurrens från stora tech-bolag som Apple, Amazon och Tencent. Bolaget har aldrig rapporterat helårsvinst och kämpar med låga marginaler. Musikbranschen återupplivad men musikskapare missnöjda med ersättning.",
+      "quotes": [
+        {
+          "speaker": "Sven Karlsson",
+          "text": "Spotify är en distributionstjänst enbart, och de andra företagen, Tencent, Apple, Amazon och så vidare, tjänar pengar på en massa andra håll. Så för dem är det kanske ingen fara att driva något sånt här med förlust eller med små vinster, men för Spotify behöver hitta ett sätt att göra det här självständigt på något vis.",
+          "timestamp": "42:56",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sven Karlsson",
+          "text": "Marginalerna som ju är rätt så låga, det är ju det största skälet att de inte, alltså de har väl aldrig rapporterat en helårsvinst, vad jag vet, men vissa kvartal har varit positiva. Men marginalerna är svåra, de måste få upp dem",
+          "timestamp": "45:42",
+          "context": "metric"
+        },
+        {
+          "speaker": "Sven Karlsson",
+          "text": "Microsoft 2010 ville köpa dem för ungefär en miljard dollar då. Google ville 2013 när det gick sådär i USA för Spotify efter lanseringen. Och Tencent ville, innan Tencent investerade i Spotify så fanns det en tanke om att Tencent till stället skulle köpa Spotify. Men de har velat hålla sig självständiga",
+          "timestamp": "45:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Sven Karlsson",
+          "text": "När man till exempel höjer ersättningen för låtskrivare i USA, vilket det nyligen beslutades om, så slår ju det också mot deras marginaler. Samtidigt som de inte vill framstå som några som profiterar på musikskapare",
+          "timestamp": "46:23",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "låga marginaler, aldrig helårsvinst rapporterad",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Marknadsledande inom musikstreaming",
+          "Stark position globalt",
+          "Självständigt bolag med stark entreprenör (Daniel Ek)",
+          "Har avvisat uppköp från Microsoft, Google och Tencent"
+        ],
+        "bear_case": [
+          "Låga marginaler, aldrig helårsvinst rapporterad",
+          "Konkurrens från Apple, Amazon, Tencent som har andra inkomstkällor",
+          "Kritik från musikskapare om för låg ersättning",
+          "Höjda avgifter till låtskrivare slår mot marginalerna"
+        ],
+        "catalysts": [
+          "Ökade intäkter från poddar och ljudböcker",
+          "Direkta avtal med artister"
+        ],
+        "risks": [
+          "Regulatoriska hot och ökade ersättningar till musikskapare",
+          "Konkurrens från större tech-bolag med djupa fickor",
+          "Potentiellt uppköp om situationen förändras"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet fokuserar på Riksbankens höga räntehöjning som svar på 9,7% inflation, med kritik att den kom för sent och brått. Fastighetssektorn diskuteras utförligt med kraftiga värdeförluster på börsen, men transaktionsmarknaden är nedkyld. Spotify analyseras som marknadsledande men med marginalproblem och musikskaparnas missnöje.",
+  "key_takeaways": [
+    "Riksbanken genomförde största räntehöjningen på 30 år (0,75% till 1,75%) efter att inflationen nått 9,7%",
+    "Noterade fastighetsbolag har tappat ca 50% i börsvärde men transaktionsmarknaden är död med 60% volymnedgång",
+    "Spotify är marknadsledande men har aldrig rapporterat helårsvinst och kämpar med låga marginaler",
+    "Tech-sektorn genomgår personalnedskärningar vilket kan skapa tillgång på kompetens till nya startups",
+    "Kommande rapportperiod särskilt intressant för fastighetsbolag där börsen värderar till 40% rabatt mot bokfört värde"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marknaden/transcripts/marknaden-2022-10-14-2630.txt",
+  "transcript_word_count": 10354,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

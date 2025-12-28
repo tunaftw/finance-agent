@@ -1,0 +1,634 @@
+{
+  "source_id": "alexeliasson",
+  "analyzed_at": "2025-12-25T21:45:00",
+  "total_tweets": 180,
+  "period": {
+    "oldest": "2022-01-11",
+    "newest": "2025-12-24"
+  },
+  "total_tickers": 80,
+  "investment_style": {
+    "focus_areas": [
+      "Fintech/Online Brokers",
+      "Emerging Markets SaaS",
+      "Value in EM (Kazakhstan, Iraq, Ukraine)",
+      "Niche Industrial"
+    ],
+    "preferred_metrics": [
+      "FCF yield >20%",
+      "P/E <10x",
+      "ROE >30%",
+      "Insider buying"
+    ],
+    "geographic_focus": ["Kazakhstan", "Greece", "Turkey", "Japan", "Hong Kong", "Brazil", "Ukraine", "Iraq"]
+  },
+  "core_holdings": [
+    {
+      "name": "Tiger Brokers",
+      "ticker": "TIGR",
+      "mentions": 8,
+      "signal": "buy",
+      "notes": "Two largest holdings, P/E 12x"
+    },
+    {
+      "name": "Futu Holdings",
+      "ticker": "FUTU",
+      "mentions": 3,
+      "signal": "buy",
+      "notes": "Two largest holdings, crypto/HK exposure"
+    },
+    {
+      "name": "Halyk Bank",
+      "ticker": "HSBK",
+      "mentions": 9,
+      "signal": "buy",
+      "notes": "Kazakhstan bank, ROE 34%, P/E 3-4x, top holding"
+    },
+    {
+      "name": "Epsilon Net",
+      "ticker": "EPSIL",
+      "mentions": 10,
+      "signal": "buy",
+      "notes": "Greek SaaS, South European Fortnox"
+    },
+    {
+      "name": "AO Johansen",
+      "ticker": "AOJ",
+      "mentions": 10,
+      "signal": "buy",
+      "notes": "Largest holding 20%, Danish wholesaler, FCF yield 20%"
+    },
+    {
+      "name": "Evolution",
+      "ticker": "EVO",
+      "mentions": 3,
+      "signal": "buy",
+      "notes": "Sizeable position, near IPO-low valuation"
+    }
+  ],
+  "recommendations": [
+    {
+      "date": "2025-12-24",
+      "ticker": "GMS.L",
+      "name": "Gulf Marine Services",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "New day, new contract. P/E <6x, EV/EBITDA <4x, P/TBV ~0.6",
+      "metrics": "P/E <6x, EV/EBITDA <4x"
+    },
+    {
+      "date": "2025-12-23",
+      "ticker": "GMS.L",
+      "name": "Gulf Marine Services",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Backlog 250% of mcap, 35% FCF yield, maiden dividend Q2-2026",
+      "metrics": "35% FCF yield"
+    },
+    {
+      "date": "2025-12-04",
+      "ticker": "TIGR",
+      "name": "Tiger Brokers",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Q3: Revenue +73%, Net Profit +180%, Client Assets +49%",
+      "metrics": "Net Profit +180%"
+    },
+    {
+      "date": "2025-09-30",
+      "ticker": "TIGR",
+      "name": "Tiger Brokers",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "HK Trading Volume YoY +340%, Market Share Doubled",
+      "metrics": "Volume +340%"
+    },
+    {
+      "date": "2025-08-27",
+      "ticker": "TIGR",
+      "name": "Tiger Brokers",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Q2: Revenue +64%, Operating Profit +183%, Margin 42%",
+      "metrics": "Op Margin 42%"
+    },
+    {
+      "date": "2025-08-20",
+      "ticker": "HSBK",
+      "name": "Halyk Bank",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Q2: ROE 32%, Cost-to-income 17.8%, NIM 7%, Net profit +26%",
+      "metrics": "ROE 32%"
+    },
+    {
+      "date": "2025-08-19",
+      "ticker": "AOJ",
+      "name": "AO Johansen",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "SEB raises to 130 DKK, P/E 8x + 5% dividend",
+      "metrics": "P/E 8x + 5% div"
+    },
+    {
+      "date": "2025-08-14",
+      "ticker": "AOJ",
+      "name": "AO Johansen",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Q2: Revenue +15%, VPS +36%, raises guidance",
+      "metrics": "VPS +36%"
+    },
+    {
+      "date": "2025-08-07",
+      "ticker": "KYIV",
+      "name": "Kyivstar",
+      "signal": "buy",
+      "confidence": "medium",
+      "text": "#1 Mobile, Broadband, Ride-hailing in Ukraine, EV/EBITDA 3.9x, debt free",
+      "metrics": "EV/EBITDA 3.9x"
+    },
+    {
+      "date": "2025-07-22",
+      "ticker": "TIGR",
+      "name": "Tiger Brokers",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "CITI upgrades to Buy, raises from $9 to $14",
+      "metrics": "PT $14"
+    },
+    {
+      "date": "2025-07-20",
+      "ticker": "TIGR",
+      "name": "Tiger Brokers",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Q1: Revenue +68%, Op Profit +203%, P/E 12x probably too cheap",
+      "metrics": "P/E 12x"
+    },
+    {
+      "date": "2025-07-12",
+      "ticker": "FUTU",
+      "name": "Futu Holdings",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "J.P. Morgan upgrades from $145 to $185, HK digital assets",
+      "metrics": "PT $185"
+    },
+    {
+      "date": "2025-07-10",
+      "ticker": "GXI",
+      "name": "Gerresheimer",
+      "signal": "watch",
+      "confidence": "medium",
+      "text": "Drug Delivery leader slaughtered -50% last year in bull market",
+      "metrics": "-50% YTD"
+    },
+    {
+      "date": "2025-07-09",
+      "ticker": "AOJ",
+      "name": "AO Johansen",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Picked up again at 87 DKK after 18 months out",
+      "metrics": "Entry 87 DKK"
+    },
+    {
+      "date": "2025-07-08",
+      "ticker": "TIGR",
+      "name": "Tiger Brokers",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "My two largest holdings TIGR & FUTU sending portfolio to ATH",
+      "metrics": "Top holding"
+    },
+    {
+      "date": "2025-07-08",
+      "ticker": "FUTU",
+      "name": "Futu Holdings",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "My two largest holdings TIGR & FUTU sending portfolio to ATH",
+      "metrics": "Top holding"
+    },
+    {
+      "date": "2025-05-29",
+      "ticker": "FUTU",
+      "name": "Futu Holdings",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Q1: Clients +42%, Assets +60%, Net Profit +97%",
+      "metrics": "Net Profit +97%"
+    },
+    {
+      "date": "2025-05-19",
+      "ticker": "HSBK",
+      "name": "Halyk Bank",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Q1: Net Profit +54.5%, ROE 34.7%",
+      "metrics": "ROE 34.7%"
+    },
+    {
+      "date": "2025-03-27",
+      "ticker": "HSBK",
+      "name": "Halyk Bank",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Investment platform reached 1M clients",
+      "metrics": "1M clients"
+    },
+    {
+      "date": "2025-03-17",
+      "ticker": "HSBK",
+      "name": "Halyk Bank",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "1Y return +50% USD, 10-year high. Still a top holding. P/E 4x, 12-14% div",
+      "metrics": "P/E 4x, 12-14% div"
+    },
+    {
+      "date": "2025-03-24",
+      "ticker": "WMA.DC",
+      "name": "WindowMaster",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Revenue +24%, Nordamerika +89%, ROE 33%, single-digit multiples. Long.",
+      "metrics": "ROE 33%"
+    },
+    {
+      "date": "2025-02-08",
+      "ticker": "IMAX",
+      "name": "IMAX",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Ne Zha 2 breaks Star Wars box office record in 9 days",
+      "metrics": "Box office record"
+    },
+    {
+      "date": "2025-01-29",
+      "ticker": "IMAX",
+      "name": "IMAX",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "50% global market share, asset-light, +30% EBITDA margins, rarely discussed",
+      "metrics": "50% market share, 30% EBITDA"
+    },
+    {
+      "date": "2025-01-16",
+      "ticker": "XP",
+      "name": "XP Inc",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "P/E 7x, +6% dividend probably too cheap. Long (new position)",
+      "metrics": "P/E 7x, 6% div"
+    },
+    {
+      "date": "2025-01-02",
+      "ticker": "EVO",
+      "name": "Evolution",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Made EVO a sizeable position. Valuation near IPO-lows, SEK/USD 3y lows, insiders buying",
+      "metrics": "IPO-low valuation"
+    },
+    {
+      "date": "2024-10-27",
+      "ticker": "EVO",
+      "name": "Evolution",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Sales +37.1%, EPS +41.8%",
+      "metrics": "EPS +41.8%"
+    },
+    {
+      "date": "2024-10-24",
+      "ticker": "AOJ",
+      "name": "AO Johansen",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Omvänd vinstvarning (positive profit warning)",
+      "metrics": "Profit warning up"
+    },
+    {
+      "date": "2024-10-18",
+      "ticker": "KSPI",
+      "name": "Kaspi",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Acquires majority in HEPS - wasn't on my bingo card",
+      "metrics": "M&A"
+    },
+    {
+      "date": "2024-11-22",
+      "ticker": "EPSIL",
+      "name": "Epsilon Net",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Q3: Revenue +39%, Earnings before tax +267%",
+      "metrics": "EBT +267%"
+    },
+    {
+      "date": "2024-09-20",
+      "ticker": "EPSIL",
+      "name": "Epsilon Net",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "H1: Revenue +72.5%, EBITDA +73.5%, 125k customers",
+      "metrics": "125k customers"
+    },
+    {
+      "date": "2024-08-17",
+      "ticker": "AOJ",
+      "name": "AO Johansen",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Största innehavet (20%), +20% FCF yield 2024",
+      "metrics": "20% portfolio, 20% FCF yield"
+    },
+    {
+      "date": "2024-07-26",
+      "ticker": "EPSIL",
+      "name": "Epsilon Net",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "80k subscriptions, ev/ebit 12-13x, Sydeuropeiskt Fortnox",
+      "metrics": "EV/EBIT 12-13x"
+    },
+    {
+      "date": "2024-06-27",
+      "ticker": "CBOX",
+      "name": "Cake Box",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Fantastic print, grows double-digit, P/E 10 + 3.5% div. Long.",
+      "metrics": "P/E 10, 3.5% div"
+    },
+    {
+      "date": "2024-06-26",
+      "ticker": "8715",
+      "name": "Anicom",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "44% market share Japan pet insurance, only 12% penetration, P/E 20",
+      "metrics": "44% market share"
+    },
+    {
+      "date": "2024-06-21",
+      "ticker": "GKP",
+      "name": "Gulf Keystone",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Restarts dividends, 20% FCF yield, 2-3x in reopening scenario",
+      "metrics": "20% FCF yield"
+    },
+    {
+      "date": "2024-05-13",
+      "ticker": "GKP",
+      "name": "Gulf Keystone",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Initiates buyback, FCF $7m/month, 30% mcap net cash, EV/FCF <4",
+      "metrics": "EV/FCF <4"
+    },
+    {
+      "date": "2024-05-02",
+      "ticker": "DOM",
+      "name": "Dometic",
+      "signal": "watch",
+      "confidence": "medium",
+      "text": "33 consecutive insider buys 2021-2022, CEO buying",
+      "metrics": "33 insider buys"
+    },
+    {
+      "date": "2024-04-29",
+      "ticker": "EVO",
+      "name": "Evolution",
+      "signal": "buy",
+      "confidence": "medium",
+      "text": "Riktigt fint, sentimentsförändring på G?",
+      "metrics": "Sentiment shift"
+    },
+    {
+      "date": "2024-04-24",
+      "ticker": "FTK",
+      "name": "FlatexDegiro",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Q1: Revenue +19%, Net Profit +40%. Germans under-allocated in equities",
+      "metrics": "Net Profit +40%"
+    },
+    {
+      "date": "2024-04-22",
+      "ticker": "GKP",
+      "name": "Gulf Keystone",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Pipeline reopening imminent, can double and still be silly cheap",
+      "metrics": "100% upside"
+    },
+    {
+      "date": "2024-04-22",
+      "ticker": "DNO",
+      "name": "DNO",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Can double from here and still be silly cheap",
+      "metrics": "100% upside"
+    },
+    {
+      "date": "2024-04-20",
+      "ticker": "8715",
+      "name": "Anicom",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "#1 Pet Insurance Japan, valuation 10y-low, P/GWP <0.8, buybacks",
+      "metrics": "10y-low valuation"
+    },
+    {
+      "date": "2024-04-20",
+      "ticker": "EPSIL",
+      "name": "Epsilon Net",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "+53% upside (not accounting further M&A)",
+      "metrics": "53% upside"
+    },
+    {
+      "date": "2024-04-08",
+      "ticker": "GKP",
+      "name": "Gulf Keystone",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Best asymmetrical risk proposition I've ever encountered. SNM earns >1x mcap per year when ITP reopens",
+      "metrics": ">1x mcap earnings"
+    },
+    {
+      "date": "2024-04-08",
+      "ticker": "DNO",
+      "name": "DNO",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Best asymmetrical risk proposition ever encountered",
+      "metrics": "Best asymmetric risk"
+    },
+    {
+      "date": "2024-04-08",
+      "ticker": "SAVE",
+      "name": "Nordnet",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Köpte med båda händerna under dippen",
+      "metrics": "Bought the dip"
+    },
+    {
+      "date": "2024-04-03",
+      "ticker": "HSBK",
+      "name": "Halyk Bank",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "ATH, 1Y return +100% USD, P/E 2.8x + 16% div",
+      "metrics": "P/E 2.8x, 16% div"
+    },
+    {
+      "date": "2024-03-29",
+      "ticker": "EPSIL",
+      "name": "Epsilon Net",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "EpsilonSmart targets 50% market share, €200 ARPU target",
+      "metrics": "50% market share target"
+    },
+    {
+      "date": "2024-03-17",
+      "ticker": "DOM",
+      "name": "Dometic",
+      "signal": "watch",
+      "confidence": "medium",
+      "text": "Förvaltaren: Aktien kan gå +100%",
+      "metrics": "100% upside potential"
+    },
+    {
+      "date": "2024-02-28",
+      "ticker": "EPSIL",
+      "name": "Epsilon Net",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Revenue +132%, Net Profit +221%",
+      "metrics": "Net Profit +221%"
+    },
+    {
+      "date": "2024-02-17",
+      "ticker": "TEQ",
+      "name": "Teqnion",
+      "signal": "neutral",
+      "confidence": "medium",
+      "text": "Organic -8%, backlog 2y-low, ROE -700bp, P/E 35x. Skeptical.",
+      "metrics": "P/E 35x, organic -8%"
+    },
+    {
+      "date": "2024-02-12",
+      "ticker": "DNO",
+      "name": "DNO",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "It's happening - Iraq negotiations on way to be resolved",
+      "metrics": "Catalyst"
+    },
+    {
+      "date": "2024-02-12",
+      "ticker": "HSBK",
+      "name": "Halyk Bank",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Kino marketplace explosive growth. Boring bank at P/E 2-3",
+      "metrics": "P/E 2-3"
+    },
+    {
+      "date": "2024-02-07",
+      "ticker": "DNO",
+      "name": "DNO",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Iraq UN: Every effort to resume oil exports from Kurdistan",
+      "metrics": "Pipeline catalyst"
+    },
+    {
+      "date": "2024-02-03",
+      "ticker": "SAVE",
+      "name": "Nordnet",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Revenue +35%, Op result +69%, ROE 44%, dividend +70%",
+      "metrics": "ROE 44%"
+    },
+    {
+      "date": "2022-12-29",
+      "ticker": "OXY",
+      "name": "Occidental Petroleum",
+      "signal": "watch",
+      "confidence": "medium",
+      "text": "Buffett initiated position Q3 2019, now trading at his entry",
+      "metrics": "Buffett entry"
+    },
+    {
+      "date": "2022-12-12",
+      "ticker": "YAL",
+      "name": "Yancoal",
+      "signal": "buy",
+      "confidence": "medium",
+      "text": "~1x EV/EBITDA +30% div 2023e",
+      "metrics": "EV/EBITDA 1x"
+    },
+    {
+      "date": "2022-11-13",
+      "ticker": "SRAD",
+      "name": "Sportradar",
+      "signal": "watch",
+      "confidence": "medium",
+      "text": "Exclusive deals NBA, NHL, MBL. IPO $27, now $9.8",
+      "metrics": "-64% from IPO"
+    },
+    {
+      "date": "2022-07-07",
+      "ticker": "HEPS",
+      "name": "D-Market (Hepsiburada)",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Revenue +42%, Gross Profit +60%. Valued 1/10th of peers. New position.",
+      "metrics": "1/10 peer valuation"
+    },
+    {
+      "date": "2022-01-11",
+      "ticker": "EPSIL",
+      "name": "Epsilon Net",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Acquires healthcare IT company at EV/EBITDA ~5",
+      "metrics": "EV/EBITDA 5x M&A"
+    }
+  ],
+  "negative_mentions": [
+    {
+      "date": "2024-02-17",
+      "ticker": "TEQ",
+      "name": "Teqnion",
+      "signal": "neutral",
+      "text": "Organic -8%, P/E 35x, ROE declining"
+    },
+    {
+      "date": "2024-04-20",
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "signal": "avoid",
+      "text": "-25% after hours, halved since earlier, 4 years 0 gains"
+    },
+    {
+      "date": "2024-02-03",
+      "ticker": "SPOT",
+      "name": "Spotify",
+      "signal": "avoid",
+      "text": "Zero return four years after IPO"
+    }
+  ]
+}

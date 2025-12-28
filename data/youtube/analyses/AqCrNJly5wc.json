@@ -1,0 +1,146 @@
+{
+  "source_id": "AqCrNJly5wc",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-04-15",
+  "hosts": [
+    "Cred"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Discussion of weekly market structure breakdown with lower lows, triple test of support at 61.1-62.5, and overall market weakness",
+      "quote": "Vi för närvarande har en lägre lägsta stängning. Det var ett tag sedan vi såg det i princip, så jag tycker att det är värt att ta det på allvar",
+      "price_levels": [
+        "61.1-62.5",
+        "67-69k",
+        "58.8-59k"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH showing weakness around $3k with support at 2.9-3k and resistance at 3.1k. Ambiguous level and not attractive for trading",
+      "quote": "Jag är inte så förtjust i eth USD av den anledningen. Jag tror att det finns mycket tvetydighet kring 3K",
+      "price_levels": [
+        "2.9-3k",
+        "3.1k",
+        "2.2-2.4k"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "Alts",
+      "asset_name": "Altcoins",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Massive open interest wipeout from 1920 billion to 11 billion. Speaker not a fan of rushing in after mega-wipeouts",
+      "quote": "Detta är en enorm kärnvapenexplosion i öppet intresse för altcoins nu. Jag tror att det finns en verklig risk att de argumenterar för en bredare trendvändning snarare än en trendfortsättning",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Testing 135 as important weekly level. If weekly close below 135, target around 100 and potentially lower",
+      "quote": "135, vilken veckostängning som helst under 135 skulle bara se ganska dålig ut eftersom det är en ganska massiv vändpunkt. Jag skulle då titta mot ett slags 100-runda tal",
+      "price_levels": [
+        "135",
+        "100"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "R&R",
+      "asset_name": "R&R",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Noteringsnivå around $7. Trade already played out from crash into support to resistance at breakout level",
+      "quote": "inspelningen av den här videon görs handeln direkt, kraschen in i stödet på den höga tidsramen har spelats ut, rörelsen in i det första problemområdet har spelats ut",
+      "price_levels": [
+        "7-7.5"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ONO",
+      "asset_name": "ONO",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Technical support at 74-70 cents. If market rejects again at 70-74 and closes below, probability of real breakdown is high",
+      "quote": "Jag tror att sannolikheten att det är ett riktigt sammanbrott är ganska hög. så åtminstone den tekniska nivån är vettig",
+      "price_levels": [
+        "70-74 cents"
+      ],
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "61.1-62.5",
+        "67-69k",
+        "58.8-59k"
+      ],
+      "ETH": [
+        "2.9-3k",
+        "3.1k",
+        "2.2-2.4k"
+      ]
+    }
+  },
+  "key_insights": [
+    "Weekly market structure for BTC showing weakness with first lower low since ETF week",
+    "Massive altcoin open interest wipeout (1920B to 11B) - mega-wipeouts tend to lead to trend reversal not continuation",
+    "Post-liquidation market flow is difficult to trade - mechanical bounce trade is complete, next trade less clear",
+    "Funding rates must be interpreted in context of price action - negative funding during liquidations doesn't necessarily mean new short positioning",
+    "Don't just trade levels blindly - after multiple tests, wait for breakdown and reclaim rather than buying support directly"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Breakdown below 61.1-62.5 and reclaim above 62.5",
+      "target": "67-69k",
+      "stop": "Below breakdown",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "Below 3k if it breaks",
+      "target": "2.2-2.4k",
+      "stop": "Above 3.1k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "SOL",
+      "direction": "short",
+      "entry": "Weekly close below 135",
+      "target": "100",
+      "stop": "Above 135",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC showing weekly market structure weakness with lower lows at 67, trading in 61.1-62.5 support zone for third test. Altcoins experienced massive open interest wipeout from 1920B to 11B, signaling potential trend reversal. ETH struggling around 3k with support at 2.9-3k but not attractive due to proximity to resistance. Speaker advising caution post-liquidation as mechanical bounce trades are complete and market flow is difficult to trade.",
+  "transcript_word_count": 16278,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:15:00.000000"
+}

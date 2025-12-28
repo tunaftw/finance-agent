@@ -1,0 +1,73 @@
+{
+  "source_id": "j3ksAhH84Hc",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-12-04",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Analyzing potential pullback entry points during ongoing uptrend, emphasizing market strength but seeking better entries",
+      "quote": "the market looks strong and then just completely ignoring it when the market gives you what you wanted in the first place",
+      "price_levels": [
+        "$32,000",
+        "$35,000",
+        "$37,000",
+        "$41,800-$43,000",
+        "$44,000-$47,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$32,000",
+        "$35,000",
+        "$37,000",
+        "$41,800-$43,000",
+        "$44,000-$47,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin is in an uptrend with strong momentum but lacks meaningful pullback opportunities",
+    "Two types of pullbacks to watch: shallow (open interest wipe with price and OI down) or deep (to daily/weekly/monthly levels)",
+    "Key resistance zone exists between $44-47k, with monthly range midpoint at $46.8k",
+    "Early resistance may start around $41.8-43k as approaching weekly levels",
+    "If market continues melting up without pullbacks, traders must decide between missing entries or trading lower time frames",
+    "Trading lower time frames carries risk of entering during high timeframe pullbacks that turn into larger declines"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$35,000-$37,000 pullback",
+      "target": "continuation of trend",
+      "stop": "below $32,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "near daily/weekly opens on lower time frames",
+      "target": "short-term trend continuation",
+      "stop": "manage small position sizes",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes Bitcoin's current market state, noting the strong uptrend but lack of quality pullback entry points. He outlines two scenarios: waiting for a shallow open-interest flush or deeper pullbacks to key levels ($37k daily, $35k monthly, $32k weekly). He warns of resistance at $44-47k and advises traders to either wait for high timeframe retests or carefully manage risk when trading lower time frames, as entries during small pullbacks can turn into larger corrections.",
+  "transcript_word_count": 7483,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:21:12.589528"
+}

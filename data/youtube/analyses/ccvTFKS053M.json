@@ -1,0 +1,111 @@
+{
+  "source_id": "ccvTFKS053M",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-07-04",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "Market trading at previous cycle ATH around 20k, 200-week MA at 22k has been broken",
+      "quote": "the market is still more or less glued to the prior cycle all-time high at around 20k... this is the worst quarter in bitcoin's record history",
+      "price_levels": [
+        "$20k",
+        "$22k",
+        "$30-32k",
+        "$12-14k",
+        "$10k"
+      ],
+      "timeframe": "short-term|medium-term|long-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH has similar structure and levels to BTC, especially the 200-week moving average",
+      "quote": "this analysis you can pretty much copy paste the eth... the levels and the especially 200 week are more or less the same",
+      "price_levels": [
+        "$200-week MA",
+        "$30k"
+      ],
+      "timeframe": "medium-term|long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LUNA",
+      "asset_name": "Terra/Luna",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Referring to Luna Foundation's failed BTC buying program that caused a temporary pump to 45k before collapsing",
+      "quote": "this was the lunar foundation guard buying btc... the experiment failed it blew up took the market lower",
+      "price_levels": [
+        "$0",
+        "$45k"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ALT",
+      "asset_name": "Altcoins",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Most altcoin narratives are dead, recommending liquid altcoins with good charts if BTC recovers",
+      "quote": "i think a lot of the altcoin narratives that we have are dead",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$20k",
+        "$22k",
+        "$30-32k",
+        "$12-14k"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin is trading at previous cycle ATH around $20k, which has been a key support area",
+    "The 200-week moving average at $22k has been broken and needs to be reclaimed for bullish signal",
+    "Potential counter-trend bounce could target $30-32k (previous range low) if support holds",
+    "The downtrend has been very one-sided with Luna foundation event being the only meaningful interruption",
+    "Consolidation breakdown pattern has been repeating - a shift in this pattern would signal change",
+    "Altcoin narratives are largely dead, suggesting focus on BTC first and liquid alts second"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$20-22k or reclaim of 200-week MA",
+      "target": "$30-32k",
+      "stop": "new lows or below $20k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "reclaim of $20.5-21k range on lower timeframes",
+      "target": "$30k",
+      "stop": "new low or breakdown of range",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes Bitcoin trading at $20k (previous cycle ATH) with the 200-week MA at $22k broken. Market is in severe downtrend with only Luna foundation intervention providing temporary relief. Looking for a weekly close above 200-week MA or reclaim of $20.5-21k range as bullish signals. Counter-trend bounce could target $30-32k. If $20k fails, deeper levels at $12-14k and $10k await. Altcoin narratives are dead; wait for BTC setup before considering alts.",
+  "transcript_word_count": 10619,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:46:26.632184"
+}

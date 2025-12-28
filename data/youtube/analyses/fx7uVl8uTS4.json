@@ -1,0 +1,117 @@
+{
+  "source_id": "fx7uVl8uTS4",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-10-10",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Market stuck below $20K previous all-time high acting as resistance; 6th test of $18-19K support with volatility compression",
+      "quote": "The first thing you want to see is for 20K to stop acting as resistance and turn to support if you want to be constructive on this market",
+      "price_levels": [
+        "$20K",
+        "$21K",
+        "$18-19K",
+        "$14K",
+        "$12K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Trading below previous cycle high at $1400 which now acts as resistance; range-bound between $1200 and $1400",
+      "quote": "The first sign of bullishness would be turning previous cycles high which is resistance into support and that's currently not available to us",
+      "price_levels": [
+        "$1400",
+        "$1370-1380",
+        "$1300",
+        "$1200"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Index below monthly cluster at 3710-3760 that broke down and now acts as resistance",
+      "quote": "In its current form that 3710 3760 area is resistance not support So until that gets reclaimed hard to be too excited",
+      "price_levels": [
+        "3710-3760",
+        "3820"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "NDX",
+      "asset_name": "NASDAQ",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Below support cluster around 11k-12k after breakdown and retest",
+      "quote": "NASDAQ you had a breakdown of high time frame support of retests and it's currently below that level once again",
+      "price_levels": [
+        "11k-12k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$20K",
+        "$21K",
+        "$18-19K"
+      ],
+      "ETH": [
+        "$1400",
+        "$1200"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin stuck below $20K resistance for 4+ months of consolidation (June-October), compressing volatility to historically low levels",
+    "Volatility compression typically precedes sharp moves - analog to 2018 where long consolidation led to 50% breakdown from $6K to $3K",
+    "Cred warns not to fade volatility expansion too early as strategy shift could lead to being carried out on wrong side of large moves",
+    "Bullish scenario: Continued bearish retests of $20K-$21K that don't follow through (similar to post-COVID recovery at $5-7K)",
+    "Cred's approach: Let breakdowns happen to reach cyclical support levels ($14K, $12K) OR wait for failed breakdown/reclaim before entering"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Breakdown to cyclical levels $14K or $12K OR reclaim of $20K-$21K with weekly close above",
+      "target": "Range high if reclaim successful",
+      "stop": "Below support if buying at cyclical levels",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "Below $18K with breakdown confirmation",
+      "target": "$14K or $12K monthly support",
+      "stop": "Above $20K",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes Bitcoin's 4-month consolidation below $20K resistance, noting historically low volatility that typically precedes sharp moves. He's bearish given $20K acts as resistance rather than support, with 6th test of $18-19K support. Cred warns against fading volatility expansion early, suggesting letting breakdowns reach cyclical levels ($14K, $12K) or waiting for failed breakdowns. Potential bullish setup involves continued bearish retests of $20K that don't follow through. Ethereum stuck below $1400 resistance. Traditional indices (S&P, NASDAQ) also showing bearish structure with broken support.",
+  "transcript_word_count": 16422,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:11:49.497309"
+}

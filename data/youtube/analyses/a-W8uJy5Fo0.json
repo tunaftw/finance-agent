@@ -1,0 +1,98 @@
+{
+  "source_id": "a-W8uJy5Fo0",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-06-24",
+  "hosts": [
+    "Cred"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Trading at range low around $60k after multiple tests and a failed breakdown",
+      "quote": "I'm just not particularly interested in re-buying it and that reasoning is twofold the first as mentioned we've already had a ton of setups including a failed breakdown",
+      "price_levels": [
+        "$50k",
+        "$60k",
+        "$61.8k",
+        "$63.3k-$63.4k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Weak structure since breaking below ETF consolidation around 3600, market walking down",
+      "quote": "I think the Market's been weak ever since that broke to the downside and I think the Market's been weak ever since that broke to the downside",
+      "price_levels": [
+        "$3600",
+        "$3380-$3400"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Weekly close slightly below 135 level, no swing setup",
+      "quote": "the weekly close was I think interesting I believe it was slightly below the 135 level so even if I wanted to at least if I'm being systematic about it there's no long setup for me here",
+      "price_levels": [
+        "$135",
+        "$120"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "uncertain",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$50k",
+        "$60k",
+        "$61.8k",
+        "$63.3k-$63.4k"
+      ],
+      "ETH": [
+        "$3380-$3400",
+        "$3600"
+      ],
+      "SOL": [
+        "$120",
+        "$135"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC is consolidating at the $60k range low after multiple tests (up to 6+), with a previous failed breakdown",
+    "Cred prefers not to buy at beaten-up range lows due to potential regime shift risk",
+    "ETH structure has been weak since breaking below $3600 ETF consolidation level",
+    "SOL closed weekly below $135 with no swing long setup present",
+    "Open interest and liquidation data do not support a capitulation/wipeout narrative at $60k",
+    "Quarterly futures basis still at double digits (~9-10%), indicating no major leverage wipeout"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$61.8k or higher with daily close confirmation",
+      "target": "other side of the range",
+      "stop": "wherever the low forms",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred discusses BTC trading at the $60k range low after multiple tests and a failed breakdown, expressing reluctance to buy due to concerns about a potential regime shift that could see BTC drop to the next high time frame support around $50k. ETH structure remains weak since breaking below $3600, and SOL has no swing setup with weekly close below $135. Cred notes that open interest and liquidation data don't support a capitulation narrative at current levels.",
+  "transcript_word_count": 10287,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:29:49.577131"
+}

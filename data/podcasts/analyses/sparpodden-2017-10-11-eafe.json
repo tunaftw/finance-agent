@@ -1,0 +1,173 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "sparpodden-2017-10-11-eafe",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Sparpodden ep. 205 - Norge-special",
+  "episode_number": 205,
+  "date": "2017-10-11",
+  "hosts": [
+    "Jocke Bornold",
+    "Alexander Gustafsson",
+    "Eva Truin"
+  ],
+  "guests": [
+    "Tom Hauglund"
+  ],
+  "main_topics": [
+    "Norska börsen",
+    "Laxmarknaden",
+    "Oljesektorn",
+    "Investmentklimat Norge"
+  ],
+  "stocks_discussed": [
+    "Ericsson",
+    "Cloetta",
+    "Tomra",
+    "Statoil",
+    "Marine Harvest",
+    "Protektor",
+    "Norwegian",
+    "H&M",
+    "Seadrill",
+    "Golden Ocean",
+    "Frontline",
+    "Lerøy"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Tom Hauglund",
+      "speaker_role": "guest",
+      "timestamp": "[34:00]",
+      "reasoning": "Stefan Persson äger 40% av bolaget och köper aktier för miljarder. Aktien har fallit kraftigt men närmar sig intressanta nivåer runt 217-218 kronor. Liknar signalen från Norwegian när VD köpte aktier.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Persson köpte aktier för miljarder, jag tycker H&M börjar bli intressant... Jag såg att 200 dagar under H&M ligger, typ runt 220 kronor här och 217-218. Nivåer börjar bli intressant.",
+      "sector": "Retail",
+      "market": "sweden"
+    },
+    {
+      "stock_name": "Norwegian",
+      "ticker": "NAS",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Tom Hauglund",
+      "speaker_role": "guest",
+      "timestamp": "[35:30]",
+      "reasoning": "VD Bjørn Kjos köpte aktier för 220 miljoner kronor, 10% över sista kurs. Detta tolkas som en stark signal att Q3 blir bra. Aktien har fallit från 240 till 170 kronor men VD:s köp indikerar vändning.",
+      "price_target": null,
+      "time_horizon": "short-term",
+      "quote": "Alla börjar att viska i gången Norwegian, den mest kortade aktien i Europa typ. 30 procent free float. Vad händer? Björn Schoos går in och köper en aktie för 220 miljoner. 10 procent över sista kurs. Alltså, om inte det är ett signal om att Q3 blir bra.",
+      "sector": "Flyg",
+      "market": "norway"
+    },
+    {
+      "stock_name": "Seadrill",
+      "ticker": "SDRL",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Tom Hauglund",
+      "speaker_role": "guest",
+      "timestamp": "[50:50]",
+      "reasoning": "Aktien handlas på 2,60 kronor men implicit värdering är 25 öre. Bolaget är i chapter 11-rekonstruktion. Vänta tills aktien kommit ner till 25-30 öre innan övervägande köp.",
+      "price_target": "0.25 SEK",
+      "time_horizon": "long-term",
+      "quote": "Jag har regnat ut att den implicit värdagen för aktien är 25 öre, den handlar idag på 2,60. Så var så snäll inte köp aktien idag... Jag vill då vänta till det kommer ner på 25-30 år.",
+      "sector": "Olje/Offshore",
+      "market": "international"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Norwegian",
+      "ticker": "NAS",
+      "timestamp_start": "[34:28]",
+      "timestamp_end": "[36:12]",
+      "word_count": 400,
+      "speakers": [
+        "Tom Hauglund",
+        "Jocke Bornold"
+      ],
+      "primary_speaker": "Tom Hauglund",
+      "discussion_summary": "Norwegian har haft svårt resultatåret med Q1-förlust på 1,5 miljard och Q2-EBITDA på 37 miljoner mot väntade 532. Aktien har fallit från 240 till 170 kronor men VD Bjørn Kjos köpte aktier för 220 miljoner kronor, vilket tolkas som stark positiv signal inför Q3.",
+      "quotes": [
+        {
+          "speaker": "Tom Hauglund",
+          "text": "Jag älskar ju Norwegian... Bolaget har ju gjort det ganska dåligt nu i Norge med Q1 var dåligt, tappade 1,5 miljard. Q2 i fjol, de tjänade 1,4 miljarder i ebitda. I år var det väntat 532. Håll det fast, vi kom in på 37.",
+          "timestamp": "[34:28]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Tom Hauglund",
+          "text": "Det var en skandal liksom. Aktien fallit från 240 för det CFO, Frådefoss, sluta. Så kom talarna, fallit 10 procent till, aktien var 170 kronor.",
+          "timestamp": "[34:45]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Tom Hauglund",
+          "text": "Det är sådant ekotit på 7 procent, det är ett extremt gerigt spel. Accuracy är typ 7-8 procent.",
+          "timestamp": "[34:53]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Tom Hauglund",
+          "text": "Alla börjar att viska i gången Norwegian, den mest kortade aktien i Europa typ. 30 procent free float. Vad händer? Björn Schoos går in och köper en aktie för 220 miljoner. 10 procent över sista kurs. Alltså, om inte det är ett signal om att Q3 blir bra, att denna skuta är på väg upp.",
+          "timestamp": "[35:04]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "EBITDA margin mycket låg",
+        "debt_level": null,
+        "custom": [
+          "Short interest: 30% av free float",
+          "Aktiekurs: fallit från 240 till 170 kr"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "VD köpte aktier för 220 miljoner kr - 10% över marknadspris",
+          "Hög short interest kan ge short squeeze vid positiv Q3",
+          "Operationell gearing kan ge stor uppsida om resultat förbättras"
+        ],
+        "bear_case": [
+          "Mycket hög operationell gearing gör företaget sårbart",
+          "Q1 och Q2-resultaten var mycket svaga",
+          "Hög skuldsättning"
+        ],
+        "catalysts": [
+          "Q3-rapport",
+          "Eventuell positiv kursreaktion på VD-köpet"
+        ],
+        "risks": [
+          "Konjunkturnedgång",
+          "Höga bränslepriser",
+          "Priskrig med konkurrenter"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Tom Hauglund delar sin analys av norska börsen som är upp 15% på året men som han anser är övervärderad på P/E 19 med mycket trading-volym och högre volatilitet än Sverige. Börskursen vidare om oljesektorn (Statoil), laxmarknaden (Marine Harvest, Lerøy) och shipping (Golden Ocean, Seadrill). Diskussionen kretsar kring om lax är en cyklisk eller konsumvara och riskerna med förväntade kapitaltillskott. Tom rekommenderar att undvika Seadrill vid nuvarande nivåer men ser positivt på signalen från Norwegian-VD:s aktieköp.",
+  "key_takeaways": [
+    "Norska börsen har högre volatilitet och mer trading än Sverige",
+    "Oljefonden (Government Pension Fund Global) investerar inte i norska aktier",
+    "Laxmarknaden är på väg att bli viktig inkomstkälla för Norge men kan vara övervärderad",
+    "Shipping-branschen visar tecken på återhämtning men är extremt cyklisk",
+    "Norska småsparare har drabbats av riktade emissioner där de blivit utspädda"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2017-10-11-eafe.txt",
+  "transcript_word_count": 8498,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

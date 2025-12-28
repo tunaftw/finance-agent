@@ -1,0 +1,330 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "sparpodden-2023-05-15-2d75",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Sparpodden Special: Nordnet Live 2023",
+  "episode_number": null,
+  "date": "2023-05-15",
+  "hosts": [
+    "Johan Tidestad",
+    "Frida Bratt",
+    "Aram Mustafa",
+    "Martin Ringberg"
+  ],
+  "guests": [
+    "Fredrik Varg",
+    "Alexander Ståberg",
+    "Oscar Ekman",
+    "Peter Wensson",
+    "Janne Manuel",
+    "Fredrik Ekström",
+    "Carolina Ekholm",
+    "Ylva Snarby",
+    "Johan Henrichs",
+    "Arvid Lindqvist",
+    "Henrik Oh",
+    "Niklas Wikman",
+    "Henrik Agard",
+    "Mikael Staffas",
+    "Erik Strand",
+    "Adam Lundin",
+    "Joakim Vegabrandt",
+    "Daniel Somos",
+    "Hanif Bali",
+    "Ellen Gustafsson",
+    "Peter Elam Håkansson",
+    "Georgi Ganne",
+    "Hanna Wachtmeister",
+    "Henrik Blomqvist",
+    "Erik Söderberg"
+  ],
+  "main_topics": [
+    "inflation",
+    "räntor",
+    "fastigheter",
+    "banker",
+    "Kina",
+    "råvaror",
+    "koppar",
+    "AI",
+    "investmentbolag",
+    "ESG",
+    "politisk risk"
+  ],
+  "stocks_discussed": [
+    "NVIDIA",
+    "AMD",
+    "Intel",
+    "Boliden",
+    "SBB",
+    "OpenAI",
+    "Vivino",
+    "Ubico",
+    "Spring Health"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Intel",
+      "ticker": "INTC",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Hanif Bali",
+      "speaker_role": "guest",
+      "timestamp": "01:40:58",
+      "reasoning": "Intel är den enda av de tre chipjättarna som kan producera chips själva, vilket ger en strategisk fördela om konflikter uppstår i Taiwan. Hanif tror att USA och västvärlden kommer investera i chip-produktion närmare hemmet, vilket gynnar Intel.",
+      "price_target": null,
+      "time_horizon": "medellång",
+      "quote": "Intel har ju haft katastrof på sistone, men jag tror ändå på dem, för de är de enda av de tre som kan producera chip själva. Så man vill hedja för att om det blir krig i Taiwan, så är NVIDIA och AMD borta. Så Intel har en kapacitet att producera egna chip, och jag tror att USA och hela västvärlden kommer investera i att ha lite mer chip-produktion nära hemma. Så då skulle jag nog investera i Intel.",
+      "sector": "Teknologi",
+      "market": "us"
+    },
+    {
+      "stock_name": "Koppar/Koppargruvor",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Hanif Bali",
+      "speaker_role": "guest",
+      "timestamp": "01:46:22",
+      "reasoning": "Det finns ett enormt kopparunderskott med en framtida efterfrågan på 4,5 miljarder ton koppar för gröna omställningen, medan endast 800 miljoner ton har utvunnits historiskt och kända reserver är bara 800 miljoner ton. Koppar behövs också för AI-chiptillverkning.",
+      "price_target": null,
+      "time_horizon": "lång",
+      "quote": "Jag tror definitivt på koppar. Jag tyckte de pratade ner koppar lite väl mycket. Jag hade ännu mer bullish på koppar. Vi har en framtida efterfrågan på 4,5 miljarder ton koppar för att ha den gröna omställningen. Och den totala mängden koppar som vi har grävt upp genom historien är 800 miljoner ton. Och de kända reserverna är bara 800 miljoner ton. Så jag menar vi har en grav kopparunderskott.",
+      "sector": "Råvaror",
+      "market": "global"
+    },
+    {
+      "stock_name": "Material/Råvarubolag",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Hanif Bali",
+      "speaker_role": "guest",
+      "timestamp": "01:47:07",
+      "reasoning": "Material och råvaror ses som en långsiktig investering med starka fundamenta kopplade till kopparbehovet för AI och den gröna omställningen.",
+      "price_target": null,
+      "time_horizon": "lång",
+      "quote": "Jag tror på att jag hade investerat ganska mycket i material, alltså i råvaror.",
+      "sector": "Råvaror",
+      "market": "global"
+    },
+    {
+      "stock_name": "SBB",
+      "ticker": "SBB",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Fredrik Varg",
+      "speaker_role": "guest",
+      "timestamp": "17:35",
+      "reasoning": "SBB har inte fått ner skuldsättningarna och förtroendet är totalt skjutet i sank. Om bolaget behöver gå ut till marknaden och be om kapital igen så får de en tuff utmaning.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nej, men problemet är ju att man inte fått ner skuldsättningarna. Nu är ju förtroendet totalt skjutit i sank. Det är ju sällan man kan se en större förtroendekris. Och behöver man då gå ut till marknaden och be om kapital igen, då får man en tuff utmaning.",
+      "sector": "Fastigheter",
+      "market": "sweden"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "NVIDIA",
+      "ticker": "NVDA",
+      "timestamp_start": "01:39:57",
+      "timestamp_end": "01:41:22",
+      "word_count": 300,
+      "speakers": [
+        "Daniel Somos",
+        "Hanif Bali"
+      ],
+      "primary_speaker": "Daniel Somos",
+      "discussion_summary": "Diskussion kring AI-chipjättarna NVIDIA, AMD och Intel. NVIDIA beskrivs som dominant och väldigt stark med väldigt bra marknadssituation, men värderingsmässigt dyrt. AMD ses som ett säkrare alternativ mellan de två. Intel har haft problem men har unik fördel med egen chip-produktion.",
+      "quotes": [
+        {
+          "speaker": "Daniel Somos",
+          "text": "NVIDIA är väldigt stark, de går ju väldigt bra för, de är en väldigt dominant marknad och ligger framme i compute på det sättet.",
+          "timestamp": "01:40:10",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Daniel Somos",
+          "text": "Intel har ju haft katastrof på sistone, men jag tror ändå på dem, för de är de enda av de tre som kan producera chip själva.",
+          "timestamp": "01:40:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Hanif Bali",
+          "text": "Vi pratar lite om en vinmenu på restaurang, dyrast, medel och billigast. Det är NVIDIA, AMD och Intel. Det beror på om man väljer.",
+          "timestamp": "01:41:00",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "NVIDIA är dominant inom AI/chipmarknaden",
+          "Intel kan producera chips själva, ger hedging mot geopolitisk risk i Taiwan",
+          "Hög efterfrågan på drivande AI-teknologi"
+        ],
+        "bear_case": [
+          "Intel har haft katastrof på sistone",
+          "NVIDIA är väldigt dyrt värderat",
+          "AMD är skakigare"
+        ],
+        "catalysts": [
+          "AI-transformation",
+          "Chip-produktion närmare hemland"
+        ],
+        "risks": [
+          "Geopolitisk risk i Taiwan",
+          "Teknisk utveckling"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "OpenAI",
+      "ticker": null,
+      "timestamp_start": "02:09:55",
+      "timestamp_end": "02:11:53",
+      "word_count": 350,
+      "speakers": [
+        "Hanna Wachtmeister",
+        "Georgi Ganne",
+        "Henrik Blomqvist"
+      ],
+      "primary_speaker": "Hanna Wachtmeister",
+      "discussion_summary": "Flat Capital har investerat i OpenAI, skaparen av ChatGPT. Hanna beskriver bolaget som extremt spännande och att de varit stora fans av produkterna. Kinneviks Georgi vill sno OpenAI ifrån Flat och ser det som en del av AI-skiftet. Spring Health nämns också som ett intressant bolag inom hälsovård.",
+      "quotes": [
+        {
+          "speaker": "Hanna Wachtmeister",
+          "text": "Vi har på vår kant både i vårt operativa arbete på Flat, vi är bara två som sitter och jobbar där. Även i styrelsen i olika sammanhang arbetat mycket med deras produkter, både på nära håll och som användare av Chachi Petit. Så vi var ju stora fans och vi har haft möjligheten genom framförallt vår styrelseordförande Sebastian Dostjapnakovski att verkligen följa bolaget på nära håll. Så att vi är stora fans och anhängare, så det är kul att kunna få den typen av exponering och få vara med en liten del på deras resa.",
+          "timestamp": "02:10:09",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Georgi Ganne",
+          "text": "På Kinnevik tycker vi om stora trender och vad som händer i världen. Så jag får vara så tråkig så att jag snor de två bolagen som nämndes tidigare här. Jag tror både Open Hi High och Ubico står för just de här enorma skifterna som vi ser just nu.",
+          "timestamp": "02:20:29",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "OpenAI skaparen av ChatGPT",
+          "Enormt skifte inom AI",
+          "Produkt som teamet använt och följer på nära håll"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "AI-adoption globalt"
+        ],
+        "risks": [
+          "Konkurrens",
+          "Reglering"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Vivino",
+      "ticker": null,
+      "timestamp_start": "02:19:45",
+      "timestamp_end": "02:24:07",
+      "word_count": 280,
+      "speakers": [
+        "Hanna Wachtmeister",
+        "Janne Manuel",
+        "Peter Wensson",
+        "Henrik Blomqvist"
+      ],
+      "primary_speaker": "Janne Manuel",
+      "discussion_summary": "Vivino, världens största vin-app, diskuteras flitigt. Både Kinnevik och Bure har intresse för att sno detta innehav. Janne Manuel och Peter Wensson uttrycker starkt intresse för bolaget som ligger nära kroppen och där unga människor blir mer engagerade i vin.",
+      "quotes": [
+        {
+          "speaker": "Hanna Wachtmeister",
+          "text": "Sen älskar jag Vivino appen. Nu kan jag inte dricka vin på ett litetal, men det börjar närma sig, så att Vivino jag...",
+          "timestamp": "02:20:09",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Janne Manuel",
+          "text": "Jag gillar den här vino-delen mest för att jag egentligen tycker att man blir full på vin. Men just att den ligger nära kroppen. Du fattar vad du köper och den är smart. Det är en växande marknad. Man märker på att unga människor blir mer och mer engagerade i viner.",
+          "timestamp": "02:23:16",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Janne Manuel",
+          "text": "När de kommer att smälla till så kommer det bli en riktig höjdare för aktien.",
+          "timestamp": "02:23:36",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Peter Wensson",
+          "text": "Det är ju en tjänst som har så många användare. Det är världens största app för användarnät och det är för den typen av konsumentapplikationer men det ligger ju närma om man nu tycker om Vino.",
+          "timestamp": "02:21:46",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Antal användare"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Världens största vin-app",
+          "Nära kroppen - förståelig produkt",
+          "Unga människor blir mer engagerade i vin",
+          "Växande marknad"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Genomslaget för unga vinkonsumenter"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Heldagssändning från Nordnet Live 2023 med diskussioner om inflation, räntor, fastigheter, bankoro, Kina, råvaror, AI och investmentbolag. Generellt sett pessimistiskt kring ekonomin på kort sikt men mer positivt på råvaror, AI och investmentbolag. SBB pekades ut som ett riskfyllt bolag med stora problem.",
+  "key_takeaways": [
+    "Ekonomin blir sannolikt sämre innan den blir bättre",
+    "Fastighetssektorn har stora utmaningar med skuldsättning",
+    "Råvaror, särskilt koppar, ses som en långsiktig investering",
+    "AI och chipbolag har stor potential",
+    "Investmentbolag beskrivs som en bra sätt att köpa en portfölj"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2023-05-15-2d75.txt",
+  "transcript_word_count": 26224,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

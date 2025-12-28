@@ -1,0 +1,260 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "sparpodden-2016-01-13-f59e",
+  "podcast_name": "Sparpodden",
+  "episode_title": "#sparpodden Ep 114 - Trump for President",
+  "episode_number": 114,
+  "date": "2016-01-13",
+  "hosts": [
+    "Jocke Bornold",
+    "Peter Bensson"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Electrolux vd-byte",
+    "Fingerprint",
+    "Oljepris",
+    "Trump/USA-val",
+    "Brexit/EU",
+    "SIAF-notering"
+  ],
+  "stocks_discussed": [
+    "Electrolux",
+    "Fingerprint",
+    "SIAF"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Fingerprint Cards",
+      "ticker": "FING-B",
+      "timestamp_start": "03:20",
+      "timestamp_end": "05:43",
+      "word_count": 280,
+      "speakers": [
+        "Jocke Bornold",
+        "Peter Bensson"
+      ],
+      "primary_speaker": "Peter Bensson",
+      "discussion_summary": "Diskuterar en analys från Orkutic Securities som sätter värdet till 850 kr men med finstilt att det egentligen bara kan vara värt 350 kr. Aktien handlas stadigt under 500 kr. Innerförsäljningar pågår kontinuerligt, många viktiga personer har stora innehav som inte syns i insiderlistor. M&A story i sektorn kan ge uppsidor.",
+      "quotes": [
+        {
+          "speaker": "Peter Bensson",
+          "text": "Det var den här Orkutic Securities som är ett gäng enskilda avhoppare från Norge. De kom ut och tyckte att det här skulle ha värt 850 spänn och det borde ju vara superbullish, men Fingerprint-aktien gick bara upp någon procent på det där.",
+          "timestamp": "03:40",
+          "context": "other"
+        },
+        {
+          "speaker": "Peter Bensson",
+          "text": "I det finstiltas så var de inne på att den nog egentligen bara var värd 350 kronor.",
+          "timestamp": "04:22",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Bensson",
+          "text": "Om vi ser, det vi ser är att folk säljer, då kan vi nog anta att de säljer sig av det vi inte ser. Det är lite så att aktierna betätts också. Stadigt under 500.",
+          "timestamp": "05:15",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "850 kr riktkurs (officiellt)",
+          "350 kr värde (finstilt)",
+          "<500 kr nuvarande kurs"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "M&A möjligheter i sektorn",
+          "Kan vara värd 850 kr enligt analys"
+        ],
+        "bear_case": [
+          "Faktiskt värde kan vara 350 kr",
+          "Stadiga innerförsäljningar",
+          "Insiderregistreringar visar inte allt sälj"
+        ],
+        "catalysts": [
+          "Strukturaffärer i sektorn",
+          "Q4-rapport i början på februari"
+        ],
+        "risks": [
+          "Insiderförsäljningar fortsätter",
+          "Analysbolagets trovärdighet",
+          "Volatilitet i sektorn"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Olja (oljesektorn)",
+      "ticker": null,
+      "timestamp_start": "05:47",
+      "timestamp_end": "08:50",
+      "word_count": 320,
+      "speakers": [
+        "Jocke Bornold",
+        "Peter Bensson"
+      ],
+      "primary_speaker": "Peter Bensson",
+      "discussion_summary": "Peter förklarar sin oljethesis: investeringar i oljebranschen är väldigt låga och sjunker snabbt, vilket leder till minskad tillgång. Detta borde driva upp priset under året. Men risken är hög, olja kan gå ner till 20 dollar. Nuvarande pris runt 31-32 dollar.",
+      "quotes": [
+        {
+          "speaker": "Peter Bensson",
+          "text": "Och allt pekar på att det fortsätter att sjunka, och att det sjunka fort, väldigt snabbt. Någonstans måste det mynna ut i att det produceras mindre olja. Och då borde priset kunna gå upp lite grann. Det är egentligen mitt case på oljan.",
+          "timestamp": "06:28",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke Bornold",
+          "text": "Jag är nästan hundrad på att den kommer att halka under 30. Marknaden är ganska ofta så där på något sätt. Kommer man nära en sån här psykologisk viktig gräns så vill man testa hur det är på andra sidan.",
+          "timestamp": "07:01",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Peter Bensson",
+          "text": "Hög risk i den placeringen. Oljan kan mycket väl gå ner till 20 dollar också. Det finns inget som inte kan göra det.",
+          "timestamp": "07:32",
+          "context": "risks"
+        },
+        {
+          "speaker": "Peter Bensson",
+          "text": "Jag tror och hoppas på ett högre oljepris under året.",
+          "timestamp": "07:37",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "31-32 dollar nuvarande pris",
+          "Potentiellt 20 dollar (nedsida)",
+          "Låga investeringar i branschen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Investeringar sjunker snabbt",
+          "Tillgång kommer minska",
+          "Pris borde gå upp under året"
+        ],
+        "bear_case": [
+          "Kan gå under 30 dollar",
+          "Kan gå ner till 20 dollar",
+          "Ingen aptit på olja just nu"
+        ],
+        "catalysts": [
+          "Minskad produktion pga låga investeringar",
+          "Marknadstester av psykologiska gränser"
+        ],
+        "risks": [
+          "Hög risk",
+          "Både konsumenter och producenter gynnas av lågt pris",
+          "Kina-oron påverkar marknaden"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Sino Agrofood",
+      "ticker": "SIAF",
+      "timestamp_start": "22:52",
+      "timestamp_end": "25:19",
+      "word_count": 270,
+      "speakers": [
+        "Jocke Bornold",
+        "Peter Bensson"
+      ],
+      "primary_speaker": "Peter Bensson",
+      "discussion_summary": "SIAF ska noteras på Mercure Markets i Oslo. Amerikanskt registrerat bolag men verksamhet i Asien. Fiskodling, nötkött, restauranger, diversifierade dotterbolag. Väldigt många ägare hos Nordnet. Fredrik Danielsson har analyserat bolaget i tusentals timmar. Positivt att noteras på mer organiserad marknad.",
+      "quotes": [
+        {
+          "speaker": "Peter Bensson",
+          "text": "Bland Nordens kunder så är det... bolaget nummer två eller tre. Så det är väldigt många ägare i bolaget. Sino Agrofood. Och jobbar med flera saker tror jag, men fiskodling på något sätt.",
+          "timestamp": "23:05",
+          "context": "other"
+        },
+        {
+          "speaker": "Jocke Bornold",
+          "text": "Och det är räker, fiskar, biffkor, lite restauranger, lite diversa och väldigt mycket olika dotterbolag.",
+          "timestamp": "24:06",
+          "context": "other"
+        },
+        {
+          "speaker": "Jocke Bornold",
+          "text": "Jag tror Fredrik har ägnat säkert tusentals timmar, alltså Danielsson på att förstå SIAF. Och han är säkert bättre än de flesta men bara det att man behöver ägna tusentals timmar säger ju någonting.",
+          "timestamp": "24:16",
+          "context": "other"
+        },
+        {
+          "speaker": "Jocke Bornold",
+          "text": "Det är jättebra att de noteras där. För om inte finns det ett signalvärde i att de kan skaffa sig en bättre listning än den här ursäkt uttrycket Gärdsgårdsnoteringen i USA.",
+          "timestamp": "24:39",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Nummer 2-3 mest ägt amerikanskt bolag hos Nordnet"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Notering på Mercure ger bättre signalvärde",
+          "Nordisk laxbörs är positiv kontext",
+          "Många ägare hos Nordnet"
+        ],
+        "bear_case": [
+          "Komplex struktur med många dotterbolag",
+          "Kräver tusentals timmar att förstå",
+          "Tidigare noterad på OTC i USA"
+        ],
+        "catalysts": [
+          "Notering på Mercure Markets"
+        ],
+        "risks": [
+          "Komplexitet i bolagsstruktur",
+          "Fler verksamhetsområden gör analys svår"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet handlar om Electrolux vd-byte, Fingerprint med ny analys, oljepris och Peters oljethesis, amerikanska presidentvalet med Trump-risken, Brexit och EU-frågor samt SIAF-notering. Ingen tydlig köp- eller säljrekommendation ges, mestadels diskussion om marknadsläget och specifika bolag.",
+  "key_takeaways": [
+    "Electrolux får ny vd men framtidsstrategi oklar",
+    "Fingerprint-analys visar stor spridning mellan 350-850 kr",
+    "Peter äger olja på thesis om minskad tillgång och högre priser",
+    "Trump-vinst ses som 20% risk för aktiemarknaden",
+    "Brexit och EU-problem skapar osäkerhet",
+    "SIAF noteras på Mercure Markets"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2016-01-13-f59e.txt",
+  "transcript_word_count": 5359,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

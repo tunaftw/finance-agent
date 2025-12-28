@@ -1,0 +1,139 @@
+{
+  "source_id": "JH66-RTNSNI",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-05-30",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "BTC broke below yearly interval and monthly support, trading in bearish territory below key levels",
+      "quote": "Monthly interval looks bearish. If it breaks down further, expecting move to 200-week MA around 20,000 and potentially 14,000 support.",
+      "price_levels": [
+        "$35,370 (support)",
+        "$43,247 (midpoint)",
+        "$57,584 (resistance)",
+        "$20,000 (200-week MA)",
+        "$14,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH broke below consolidation zone, testing lower support levels",
+      "quote": "First value area would be around the 1,000 level which is the previous monthly high. 200-week MA also lands around there.",
+      "price_levels": [
+        "$1,700 (resistance)",
+        "$1,935 (weekly high)",
+        "$1,000",
+        "$400-700 (value area)"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "AVAX",
+      "asset_name": "Avalanche",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "AVAX held important weekly close at previous interval low of 24",
+      "quote": "Avax actually held an important weekly close at the previous interval low of 24. So it doesn't look completely terrible.",
+      "price_levels": [
+        "$24"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Solana closed back within its interval after breaking support",
+      "quote": "It closed back within the interval. When the market closes back within the interval, you generally have an expectation that it will trade to the midpoint.",
+      "price_levels": [
+        "$47 (resistance)",
+        "$70-80 (target)",
+        "$25 (interval low)"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$35,370 (support)",
+        "$40,000 (resistance)",
+        "$43,247 (midpoint)",
+        "$20,000",
+        "$14,000"
+      ],
+      "ETH": [
+        "$1,700 (resistance)",
+        "$1,935",
+        "$1,000",
+        "$400-700"
+      ]
+    }
+  },
+  "key_insights": [
+    "Market waiting for confirmation before positioning - either strength (invalidation of breakdown) or value (cheaper prices)",
+    "BTC value area 14,000-20,000 from cycle-to-cycle perspective",
+    "Best altcoin plays typically happen long after BTC and ETH have bottomed",
+    "200-week moving averages are key support levels for both BTC (~20k) and ETH (~1k)",
+    "Monthly timeframe remains bearish - weekly and daily need to show strength first",
+    "Trading philosophy: wait for crypto to invalidate itself - either through strength (reclaiming levels) or reaching value areas"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$35,000-37,000 (reclaim monthly support)",
+      "target": "$43,000-57,000",
+      "stop": "Below $35,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$20,000 (200-week MA)",
+      "target": "$35,000+",
+      "stop": "Below $14,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Above $1,935 (weekly close)",
+      "target": "Fill pre-breakdown consolidation",
+      "stop": "Below $1,700",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "SOL",
+      "direction": "long",
+      "entry": "Above $47 (reclaim resistance)",
+      "target": "$70-80",
+      "stop": "Below $25",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Market is in a clear downtrend with BTC and ETH below key support levels. Cred recommends waiting for either strength signals (reclaiming broken levels) or for prices to reach value areas (14k-20k for BTC, 1k for ETH) before accumulating. Altcoin season is not here yet - focus on BTC and ETH first.",
+  "transcript_word_count": 12064,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:58:19.003381"
+}

@@ -1,0 +1,222 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "sparpodden-2020-02-19-c77e",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Bygga en portfölj av investmentbolag - Sparpodden 328",
+  "episode_number": 328,
+  "date": "2020-02-19",
+  "hosts": ["Sparpodden-host"],
+  "guests": ["Torbjörn Olofsson"],
+  "main_topics": ["Investmentbolag", "Rabatter och premier", "Onoterade innehav", "Förvaltningskostnader", "Maskininlärning i förvaltning"],
+  "stocks_discussed": ["Investor", "Industrivärden", "Kinnevik", "Svolder", "Bure", "Creades", "Lifco", "Indutrade", "Melker Schörling", "EQT", "Latour"],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Creades",
+      "ticker": null,
+      "timestamp_start": "28:46",
+      "timestamp_end": "30:48",
+      "word_count": 300,
+      "speakers": ["Sparpodden-host", "Torbjörn Olofsson"],
+      "primary_speaker": "Torbjörn Olofsson",
+      "discussion_summary": "Diskussion kring Creades som handlas med 30% premie i februari 2020. Torbjörn förklarar att bolag med premium får lägre vikt i deras modell och att det generellt är svårare att se god kursutveckling med premie jämfört med rabatt. Creades har dock en historia av att ofta handlas med premie.",
+      "quotes": [
+        {
+          "speaker": "Sparpodden-host",
+          "text": "I början februari 2020, Creades handlas till ungefär 30 procent premie. Du betalar 30 procent mer för att få i en aktie. Och det gör man ju inte generellt sett. Om du nu inte tror att det finns någonting väldigt, väldigt bra, dåligt där som säkert kommer att spela ut sig i närtid.",
+          "timestamp": "28:46",
+          "context": "metric"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Kredis har ju en historia av att hamna med ofta med premium.",
+          "timestamp": "30:19",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Premium: 30% i februari 2020"]
+      },
+      "thesis": {
+        "bull_case": ["Har en historia av att handlas med premie"],
+        "bear_case": ["Handlas med 30% premie vilket är svårare för kursutveckling", "Får lägre vikt i modell pga premie"],
+        "catalysts": [],
+        "risks": ["Hög premie gör det svårare att uppnå god kursutveckling"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "EQT",
+      "ticker": null,
+      "timestamp_start": "12:02",
+      "timestamp_end": "13:46",
+      "word_count": 400,
+      "speakers": ["Sparpodden-host", "Torbjörn Olofsson"],
+      "primary_speaker": "Torbjörn Olofsson",
+      "discussion_summary": "Diskussion om EQT som gjorde en fantastisk resa från onoterat till noterat. Torbjörn argumenterar att EQT inte är ett investmentbolag utan ett förvaltningsbolag där man köper fonder med förvaltningsavgifter snarare än direkt ägande i bolag.",
+      "quotes": [
+        {
+          "speaker": "Sparpodden-host",
+          "text": "Jag kan tycka att det är lite kul just med EQT för att jag är inte säker på att Investor är en sämre huvudman för onoterade bolag än vad EQT är. Men om du köper Investor så är förvaltningskostnaden 14 punkter och det är den inte om du investerar hos EQT.",
+          "timestamp": "12:34",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sparpodden-host",
+          "text": "Antagligen är det samma typ av kontaktnät och governancestruktur, eller väldigt snarlik i alla fall, som du har hos Investor jämfört med vad du har hos EQT.",
+          "timestamp": "12:53",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Nej. För de som är nyfikna på aktien, det du får är ett förvaltningsbolag. Så det har kanske lite investmentbolags liknande karaktär, indirekt får du mycket ägande och så vidare, men det du köper in i är egentligen ett gäng fonder som får en förvaltningsavgift.",
+          "timestamp": "13:19",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Har haft en fantastisk resa sedan noteringen", "Fått stort intresse från aktiemarknaden"],
+        "bear_case": ["Är ett förvaltningsbolag, inte ett investmentbolag", "Man köper fonder med förvaltningsavgifter", "Får inte samma typ av värdeutveckling som i investmentbolag", "Saknar exponering mot bolagen som ägs av fonderna"],
+        "catalysts": [],
+        "risks": ["Högre förvaltningsavgifter än Investor"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Bure",
+      "ticker": null,
+      "timestamp_start": "35:55",
+      "timestamp_end": "37:40",
+      "word_count": 350,
+      "speakers": ["Sparpodden-host", "Torbjörn Olofsson"],
+      "primary_speaker": "Torbjörn Olofsson",
+      "discussion_summary": "Diskussion om hur Bure har en tydlig variation i rabatten där aktiepriset rört sig mycket mer än substansvärdet. Rabattförändringar utgör en väldigt stor risk i aktien. Bure är ett tydligt exempel på \"dubbel knock-effekten\" där både underliggande tillgångar och rabatt rör sig i samma riktning.",
+      "quotes": [
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "I just Bure så är rabatten en väldigt stor del av risken i... Förändringar i rabatten är en väldig stor risk i aktien.",
+          "timestamp": "35:55",
+          "context": "risk"
+        },
+        {
+          "speaker": "Sparpodden-host",
+          "text": "Det finns två väldigt stora innehav i substansvärdet. De är också fluktererande, kraftiga tillväxtbolag, ibland har de bättre och sämre tider. Det har gjort att det har rört sig mycket i substansvärde.",
+          "timestamp": "36:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Det finns två bidrag till risken i investmentbolagsaktier. Det ena är hur de underliggande bolagen, risken är dem, hur de rör sig. Det andra är hur rabatten rör sig.",
+          "timestamp": "36:42",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Två stora innehav i substansvärdet", "Rabattförändringar är stor del av risken"]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["Rabattförändringar utgör stor del av risken", "Aktiepris rör sig mycket mer än substansvärde", "Underliggande innehav är kraftiga tillväxtbolag med volatilitet"],
+        "catalysts": [],
+        "risks": ["Dubbel knock-effekt när både underliggande tillgångar och rabatt rör sig negativt", "Hög volatilitet pga stora fluktererande innehav"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Investor",
+      "ticker": null,
+      "timestamp_start": "04:44",
+      "timestamp_end": "07:57",
+      "word_count": 500,
+      "speakers": ["Sparpodden-host", "Torbjörn Olofsson"],
+      "primary_speaker": "Torbjörn Olofsson",
+      "discussion_summary": "Diskussion om Investor som är nästan hälften av sektorn värdemässigt. Finansinspektionen tillåter inte sådan koncentrationsrisk i värdepappersfonder, så Kvartalfonder har kapat Investors andel till 25% i sin passiva portfölj istället för 46%. Handlas med rabatt på nästan 20% jämfört med sektorsnittet på 10%.",
+      "quotes": [
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Investor är nästan hälften av sektorn värdemässigt. Och om man då ska starta en fond och ha ett innehav som står för hälften av portföljen, det känns inte så där jättebra kanske.",
+          "timestamp": "04:56",
+          "context": "metric"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Finansinspektionen tillåter inte den typen av koncentrationsrisk i en värdepappersfond. Så att det blir nästan en akademisk fråga. Om man ska ha en fond med investmentbolag så måste man dra ner investors andel.",
+          "timestamp": "05:20",
+          "context": "regulatory"
+        },
+        {
+          "speaker": "Sparpodden-host",
+          "text": "När man bara ser till det senaste året, ta de här stora investor i industrivärden, Kinnevik, de har ju gått helt okej väldigt bra.",
+          "timestamp": "07:08",
+          "context": "metric"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Vi har lagt i vår passiva portföl, då har vi 25% Investor. Egentligen borde de vara 46 eller något sånt där.",
+          "timestamp": "35:08",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Är nästan 46% av sektorn värdemässigt", "Kapad till 25% i fond", "Börsvärde: ca 400 miljarder", "Förvaltningskostnad: ca 14 punkter"]
+      },
+      "thesis": {
+        "bull_case": ["Är nästan hälften av hela sektorn", "Har gått bra senaste året"],
+        "bear_case": ["För stor koncentration om viktad efter marknadskap", "Kan inte kapitalisera på full storlek pga FI-regler"],
+        "catalysts": [],
+        "risks": ["Koncentrationsrisk"]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet handlar om investmentbolag och hur Kvartalfonder skapat fonden Investmentbolag plus Calculus med en aktiv-passiv approach. De diskuterar rabatter, förvaltningskostnader, onoterade innehav och hur man kan använda statistiska modeller för att fånga rabattförändringar. Torbjörn förklarar att rabatten historiskt krympt från 20-30% till 5-10% men väntvärdet för framtida överavkastning är lågt. De inkluderar Lifco och Indutrade som investmentbolags-liknande bolag i portföljen.",
+  "key_takeaways": [
+    "Investmentbolag har historiskt gett dubbelt så hög avkastning som svenska börsen sedan 2002",
+    "Förvaltningskostnaden i investmentbolag ligger nu på ca 0,20% (14 punkter)",
+    "Rabatten har krympt från 20-30% till 5-10% de senaste 6-7 åren",
+    "Onoterade innehav utgör ca 25% av investmentbolagens portföljer",
+    "Fonden Investmentbolag plus Calculus har 0,55% i avgift och finns på Nordnet",
+    "Rabattförändringar kan skapa en \"dubbel knock-effekt\" i sämre tider",
+    "Maskininlärning kan fungera bra för investmentbolag eftersom rabatten är stationär och oscillerar kring ett medelvärde"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2020-02-19-c77e.txt",
+  "transcript_word_count": 6281,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

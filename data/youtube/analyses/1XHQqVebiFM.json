@@ -1,0 +1,166 @@
+{
+  "source_id": "1XHQqVebiFM",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-02-16",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Opening discussion about BTC price approaching 60k, reflecting on the triple from 16k bottom",
+      "quote": "BTC Don uh it's above 50k this is really cool uh it's just kind of mental but also very cool...it took us one year basically for Price triple from the bottom which is fucking nuts",
+      "price_levels": [
+        "$58,000",
+        "$60,000",
+        "$35,000",
+        "$41,000-$44,000",
+        "$32,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Duck",
+      "context": "Technical analysis with 58k as key resistance and potential short at 60k, but noting overall strong trend",
+      "quote": "I think 58k the one that I've been talking about is range highest the only realistic resistance is now actually pretty close...I could see a short actually be play there...at 60 it'd be shorting not longing",
+      "price_levels": [
+        "$58,000",
+        "$60,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "ETH/BTC ratio continues to underperform significantly, ETH lagging despite narrative support",
+      "quote": "I think ETH/BTC is going to be a good trade down the line...ETH is underperforming massively...ETH/BTC has been sideways for like three months",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Longer-term bullish view on ETH despite current underperformance, expecting rotation",
+      "quote": "I think generally like I don't really see like too much negative out of it other than the fundamental side...ETH needs to go back above 0.06...ETH has all the narrative it has everything you know like it has the potentially ETF",
+      "price_levels": [
+        "0.06 ETH/BTC"
+      ],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Solana hitting major resistance on both USD and BTC pairs, narrative overheated",
+      "quote": "I think that's the only resistance that's on that chart right...the whole Sol is going to overtake ETH thing was a little bit much two months ago...the whole narrative got overheated",
+      "price_levels": [
+        "$100-$120"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Longer-term bullish on Solana expecting another rally after consolidation period",
+      "quote": "I think it's going to be an interesting trade again I just think it needs some time to digest...longer term I think it can um if it pulls back like for three four five six months here against Bitcoin",
+      "price_levels": [
+        "$40"
+      ],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "DOGE",
+      "asset_name": "Dogecoin",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Dogecoin BTC ratio likely never to see new highs against BTC, expects continued underperformance",
+      "quote": "I don't think it's ever going to go back above alltime high against Bitcoin um I think that high is forever set and um it's basically down only from here on just slowly",
+      "price_levels": null,
+      "timeframe": "long-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Litecoin struggling significantly, example of old coin underperformance",
+      "quote": "Litecoin Bitcoin you dream of this chart...that's the best example of it...what about that...what about shib BTC was horrendous",
+      "price_levels": null,
+      "timeframe": "long-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$58,000",
+        "$60,000",
+        "$35,000",
+        "$41,000-$44,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin ETF inflows have been massive and accelerating, exceeding expectations by immediately starting strong accumulation",
+    "Bitcoin has 2x'd from 16k to 52k with no weekly pullbacks, which is historically impressive",
+    "ETH/BTC ratio underperformance is notable with ETH struggling despite narrative support and potential ETF",
+    "Altcoins facing headwinds due to BTC dominance, lack of retail flows, and ETF narrative focusing on BTC",
+    "Solana hit major resistance levels and narrative overheated, needs consolidation",
+    "Meme coins good for trading but poor for long-term holding due to inevitable zero outcomes"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$41,000-$44,000 pullback or $32,000-$35,000 deeper pullback",
+      "target": "higher",
+      "stop": "below $32,000",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "$58,000-$60,000",
+      "target": "pullback to $46,000",
+      "stop": "above $60,000",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "ETH/BTC",
+      "direction": "long",
+      "entry": "20-30% lower from current levels",
+      "target": "higher",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin is in an exceptionally strong uptrend, having doubled from 16k with no weekly pullbacks, driven by massive ETF inflows that exceeded expectations. Key resistance at 58k-60k. ETH is underperforming significantly against BTC despite bullish narrative, presenting potential long-term value at lower levels. Altcoins facing headwinds due to BTC dominance and lack of retail flows.",
+  "transcript_word_count": 64963,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:21:42.534428"
+}

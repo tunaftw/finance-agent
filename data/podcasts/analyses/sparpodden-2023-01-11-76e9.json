@@ -1,0 +1,125 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "sparpodden-2023-01-11-76e9",
+  "podcast_name": "Spardpodden",
+  "episode_title": "477. Din börsguide 2023 - Frida Bratt, Sparekonom Nordnet",
+  "episode_number": 477,
+  "date": "2023-01-11",
+  "hosts": [
+    "Ara"
+  ],
+  "guests": [
+    "Frida Bratt"
+  ],
+  "main_topics": [
+    "Börsutsikter 2023",
+    "Inflation och räntor",
+    "Svensk ekonomi",
+    "Fastighetssektorn",
+    "Valutaeffekter"
+  ],
+  "stocks_discussed": [
+    "Castellum",
+    "SBB",
+    "Svenska exportbolag",
+    "Svenska fastighetsbolag"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Svenska exportbolag",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Frida Bratt",
+      "speaker_role": "guest",
+      "timestamp": "29:31",
+      "reasoning": "Svenska exportbolag kan gynnas av svag svensk krona vilket ger dopade vinster i kronor mätt. Exportbolag blickar utanför Sverige där ekonomiutvecklingen i USA och Europa är mer positiv än i Sverige. Fördelaktigt att investera globalt snarare än fokusera enbart på den tuffa svenska marknaden.",
+      "price_target": null,
+      "time_horizon": "2023",
+      "quote": "Kan det vara så att vi i år i Sverige kommer att få en dopad, dopad vinstmarginaler, dopad vinst för den tunga exportsektorn? Det skulle kunna vara så. Det kommer säkert att se bra ut nu i fjärde kvartalet när rapporterna kommer in.",
+      "sector": "Export",
+      "market": "sweden"
+    },
+    {
+      "stock_name": "Svenska fastighetsbolag",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Frida Bratt",
+      "speaker_role": "guest",
+      "timestamp": "32:50",
+      "reasoning": "Fastighetssektorn är högt skuldsatt och drabbas av ökade lånekostnader. Bolag kan komma att prioritera att stärka balansräkningen framför utdelningar. Sektor förväntas ge minskade eller inställda utdelningar.",
+      "price_target": null,
+      "time_horizon": "2023",
+      "quote": "Om vi pratar utdelningar så är det ju framförallt, tror jag i fastighetssektorn, för att den är så högt skuldsatt, nu pratar jag generellt, som vi kommer kanske att få se, minskade utdelningar eller inställda utdelningar.",
+      "sector": "Fastigheter",
+      "market": "sweden"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Castellum",
+      "ticker": null,
+      "timestamp_start": "31:59",
+      "timestamp_end": "33:09",
+      "word_count": 350,
+      "speakers": [
+        "Ara",
+        "Frida Bratt"
+      ],
+      "primary_speaker": "Frida Bratt",
+      "discussion_summary": "Castellum diskuteras som ett bolag som många köpt för utdelningen men som ställde in utdelningen och därmed bröt möjligheten att bli utdelningsaristokrat. Samtal om hur högt skuldsatta fastighetsbolag kan komma att välja att stärka balansräkningen istället för att dela ut.",
+      "quotes": [
+        {
+          "speaker": "Frida Bratt",
+          "text": "Castellum är ju framförallt en aktie som många har köpt för utdelningen. För att det skulle blivit en utdelningsaristokrat om man inte hade ställt in. De är verkligen på målsnöret.",
+          "timestamp": "31:59",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Då är det ju inte jättekonstigt om man prioriterar att stärka balansräkningen istället för att dela ut i de fall där man har hög skuldsättning i förhållande till sitt börsvärde och stora tillgångar som ska refinansieras.",
+          "timestamp": "32:36",
+          "context": "reasoning"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Hög",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Hög skuldsättning gör bolaget känsligt för räntehöjningar",
+          "Utmaningar att refinansiera tillgångar till högre kostnader"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Räntehöjningar",
+          "Balansräkningsbehov"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "market_sentiment": "cautiously_optimistic",
+  "summary": "Frida Bratt från Nordnet delar en försiktigt optimistisk syn på börsen 2023, drivet av fallande inflation och möjlig mjukare penningpolitik i USA. Sverige ses som ekonomiskt svagast pga höga elpriser, rörliga bolåneräntor och hög skuldsättning. Exportbolag kan gynnas av svag kronan medan fastighetssektorn förväntas minska utdelningar.",
+  "key_takeaways": [
+    "2023 kan bli ett positivt börsår drivet av fallande inflation i USA",
+    "Svensk ekonomi är särskilt utsatt jämfört med USA och Europa",
+    "Exportbolag kan gynnas av svag svensk krona",
+    "Fastighetssektorn kan komma att minska utdelningar",
+    "Amortering har blivit mer attraktivt som sparform för högt belånade"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2023-01-11-76e9.txt",
+  "transcript_word_count": 7691,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PodStock Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen" x-data="dashboard()">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-4">
+                    <span class="text-xl font-bold text-emerald-400">PodStock</span>
+                    <span class="text-gray-500">|</span>
+                    <span class="text-sm text-gray-400" x-text="`${metadata.counts?.recommendations || 0} recommendations`"></span>
+                </div>
+                <div class="flex space-x-1">
+                    <button @click="view = 'inbox'"
+                            :class="view === 'inbox' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Inbox
+                    </button>
+                    <button @click="view = 'watchlist'"
+                            :class="view === 'watchlist' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Watchlist
+                    </button>
+                    <button @click="view = 'timeline'"
+                            :class="view === 'timeline' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Timeline
+                    </button>
+                    <button @click="view = 'track-record'"
+                            :class="view === 'track-record' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Track Record
+                    </button>
+                    <button @click="view = 'tickers'"
+                            :class="view === 'tickers' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Bolag
+                    </button>
+                    <button @click="view = 'speakers'"
+                            :class="view === 'speakers' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Personer
+                    </button>
+                    <button @click="view = 'sources'"
+                            :class="view === 'sources' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Källor
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <!-- Loading State -->
+        <div x-show="loading" class="flex items-center justify-center py-20">
+            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-400"></div>
+        </div>
+
+        <!-- Inbox View -->
+        <div x-show="view === 'inbox' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">Inbox</h1>
+                <span class="text-sm text-gray-400" x-text="filteredInbox.length + ' rekommendationer'"></span>
+            </div>
+
+            <!-- Filter Panel -->
+            <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                    <!-- Date Filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Datum</label>
+                        <select x-model="inboxFilters.dateRange" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla</option>
+                            <option value="7d">Senaste 7 dagar</option>
+                            <option value="30d">Senaste 30 dagar</option>
+                            <option value="90d">Senaste 90 dagar</option>
+                            <option value="365d">Senaste året</option>
+                        </select>
+                    </div>
+
+                    <!-- Action Filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Action</label>
+                        <select x-model="inboxFilters.action" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla</option>
+                            <option value="buy">Buy</option>
+                            <option value="sell">Sell</option>
+                            <option value="hold">Hold</option>
+                            <option value="watch">Watch</option>
+                            <option value="avoid">Avoid</option>
+                        </select>
+                    </div>
+
+                    <!-- Confidence Filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Confidence</label>
+                        <select x-model="inboxFilters.confidence" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla</option>
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                            <option value="low">Low</option>
+                        </select>
+                    </div>
+
+                    <!-- Trust Filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Trust-nivå</label>
+                        <select x-model="inboxFilters.minTrust" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="0">Alla</option>
+                            <option value="3">★★★ och uppåt</option>
+                            <option value="4">★★★★ och uppåt</option>
+                            <option value="5">★★★★★ endast</option>
+                        </select>
+                    </div>
+
+                    <!-- Source Filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Källa</label>
+                        <select x-model="inboxFilters.source" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla källor</option>
+                            <template x-for="source in sources" :key="source.id">
+                                <option :value="source.id" x-text="source.name"></option>
+                            </template>
+                        </select>
+                    </div>
+
+                    <!-- Search -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Sök</label>
+                        <input type="text" x-model="inboxFilters.search" placeholder="Bolagsnamn..."
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500">
+                    </div>
+                </div>
+
+                <!-- Quick Filters -->
+                <div class="flex gap-2 mt-4 pt-4 border-t border-gray-700">
+                    <button @click="inboxFilters = { dateRange: '30d', action: 'buy', confidence: 'high', minTrust: '4', source: '', search: '' }"
+                            class="px-3 py-1 rounded-lg text-xs bg-emerald-900 text-emerald-300 hover:bg-emerald-800 transition-colors">
+                        High Conviction
+                    </button>
+                    <button @click="inboxFilters = { dateRange: '7d', action: '', confidence: '', minTrust: '0', source: '', search: '' }"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Senaste veckan
+                    </button>
+                    <button @click="inboxFilters = { dateRange: '', action: '', confidence: '', minTrust: '0', source: '', search: '' }"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Rensa filter
+                    </button>
+                </div>
+            </div>
+
+            <!-- Recommendations List -->
+            <div class="space-y-3">
+                <template x-for="rec in filteredInbox.slice(0, inboxDisplayLimit)" :key="rec.id">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700 transition-all"
+                         :class="(rec.trust_rating || rec.source_trust || 3) < 3 ? 'opacity-60' : ''">
+                        <div class="flex items-start justify-between">
+                            <div class="flex items-center space-x-3">
+                                <!-- Action Badge -->
+                                <span class="px-3 py-1 rounded-full text-sm font-medium"
+                                      :class="{
+                                          'bg-green-900 text-green-300': rec.action === 'buy',
+                                          'bg-red-900 text-red-300': rec.action === 'sell' || rec.action === 'avoid',
+                                          'bg-yellow-900 text-yellow-300': rec.action === 'hold',
+                                          'bg-blue-900 text-blue-300': rec.action === 'watch'
+                                      }"
+                                      x-text="rec.action ? rec.action.toUpperCase() : '-'">
+                                </span>
+                                <div>
+                                    <span class="font-semibold text-lg" x-text="rec.stock_name"></span>
+                                    <span x-show="rec.ticker" class="text-gray-500 text-sm ml-1" x-text="rec.ticker"></span>
+                                    <span x-show="rec.confidence" class="ml-2 px-2 py-0.5 rounded text-xs"
+                                          :class="{
+                                              'bg-emerald-900 text-emerald-300': rec.confidence === 'high',
+                                              'bg-yellow-900 text-yellow-300': rec.confidence === 'medium',
+                                              'bg-gray-700 text-gray-400': rec.confidence === 'low'
+                                          }"
+                                          x-text="rec.confidence">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <!-- Trust Stars -->
+                                <div class="flex items-center">
+                                    <template x-for="i in 5">
+                                        <span :class="i <= (rec.trust_rating || rec.source_trust || 3) ? 'text-yellow-400' : 'text-gray-600'" class="text-sm">★</span>
+                                    </template>
+                                </div>
+                                <span class="text-gray-400 text-sm" x-text="rec.date"></span>
+                            </div>
+                        </div>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <span x-text="rec.source_name"></span>
+                            <template x-if="rec.speaker">
+                                <span> · <span x-text="rec.speaker"></span></span>
+                            </template>
+                        </div>
+                        <p x-show="rec.reasoning" class="mt-2 text-sm text-gray-300" x-text="rec.reasoning"></p>
+                        <p x-show="rec.quote" class="mt-2 text-sm text-gray-500 italic" x-text="'\"' + rec.quote + '\"'"></p>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Load More -->
+            <button x-show="filteredInbox.length > inboxDisplayLimit"
+                    @click="inboxDisplayLimit += 50"
+                    class="mt-6 w-full py-3 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors">
+                Visa fler (<span x-text="filteredInbox.length - inboxDisplayLimit"></span> kvar)
+            </button>
+
+            <p x-show="filteredInbox.length === 0" class="text-gray-500 text-center py-10">
+                Inga rekommendationer matchar filtren
+            </p>
+        </div>
+
+        <!-- Watchlist View -->
+        <div x-show="view === 'watchlist' && !loading" x-cloak>
+            <h1 class="text-2xl font-bold mb-6">High Conviction Watchlist</h1>
+            <p class="text-gray-400 mb-6">Bolag med hög confidence från betrodda källor, eller omnämnda av 3+ oberoende källor</p>
+
+            <div class="grid gap-4">
+                <template x-for="item in watchlist" :key="item.stock_name + item.date">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700 hover:border-emerald-500 transition-colors">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <div class="flex items-center space-x-2">
+                                    <span class="text-lg font-semibold text-emerald-400" x-text="item.stock_name"></span>
+                                    <span x-show="item.ticker" class="text-sm text-gray-500" x-text="item.ticker"></span>
+                                    <span class="px-2 py-0.5 rounded text-xs"
+                                          :class="item.criteria === 'high_confidence_trusted' ? 'bg-emerald-900 text-emerald-300' : 'bg-blue-900 text-blue-300'"
+                                          x-text="item.criteria === 'high_confidence_trusted' ? 'High Conviction' : 'Multi-Source'">
+                                    </span>
+                                </div>
+                                <div class="text-sm text-gray-400 mt-1">
+                                    <span x-text="item.date"></span> ·
+                                    <span x-text="item.source"></span>
+                                    <template x-if="item.speaker">
+                                        <span> · <span x-text="item.speaker"></span></span>
+                                    </template>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-1">
+                                <template x-for="i in 5">
+                                    <span :class="i <= item.source_trust ? 'text-yellow-400' : 'text-gray-600'" class="text-sm">★</span>
+                                </template>
+                            </div>
+                        </div>
+                        <p x-show="item.reasoning" class="mt-3 text-sm text-gray-300" x-text="item.reasoning"></p>
+                        <p x-show="item.quote" class="mt-2 text-sm text-gray-500 italic" x-text="'\"' + item.quote + '\"'"></p>
+                        <div x-show="item.sources" class="mt-2 flex flex-wrap gap-1">
+                            <template x-for="src in item.sources || []">
+                                <span class="px-2 py-0.5 bg-gray-700 rounded text-xs text-gray-300" x-text="src"></span>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+            <p x-show="watchlist.length === 0" class="text-gray-500 text-center py-10">Ingen data i watchlist</p>
+        </div>
+
+        <!-- Timeline View -->
+        <div x-show="view === 'timeline' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">Timeline</h1>
+                <div class="flex items-center space-x-4">
+                    <input type="text" x-model="filters.search" placeholder="Sök bolag..."
+                           class="bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-emerald-500">
+                    <select x-model="filters.action" class="bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-sm">
+                        <option value="">Alla actions</option>
+                        <option value="buy">Buy</option>
+                        <option value="sell">Sell</option>
+                        <option value="hold">Hold</option>
+                        <option value="watch">Watch</option>
+                        <option value="avoid">Avoid</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="space-y-3">
+                <template x-for="rec in filteredRecommendations.slice(0, displayLimit)" :key="rec.id">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-start justify-between">
+                            <div class="flex items-center space-x-3">
+                                <span class="px-3 py-1 rounded-full text-sm font-medium"
+                                      :class="{
+                                          'bg-green-900 text-green-300': rec.action === 'buy',
+                                          'bg-red-900 text-red-300': rec.action === 'sell' || rec.action === 'avoid',
+                                          'bg-yellow-900 text-yellow-300': rec.action === 'hold',
+                                          'bg-blue-900 text-blue-300': rec.action === 'watch'
+                                      }"
+                                      x-text="rec.action.toUpperCase()">
+                                </span>
+                                <div>
+                                    <span class="font-semibold" x-text="rec.stock_name"></span>
+                                    <span x-show="rec.ticker" class="text-gray-500 text-sm ml-1" x-text="rec.ticker"></span>
+                                </div>
+                            </div>
+                            <div class="text-right text-sm">
+                                <div class="text-gray-400" x-text="rec.date"></div>
+                                <div class="text-gray-500" x-text="rec.source_name"></div>
+                            </div>
+                        </div>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <span x-show="rec.speaker" x-text="rec.speaker"></span>
+                            <span x-show="rec.confidence" class="ml-2 text-gray-500" x-text="'(' + rec.confidence + ' confidence)'"></span>
+                        </div>
+                        <p x-show="rec.reasoning" class="mt-2 text-sm text-gray-300" x-text="rec.reasoning"></p>
+                        <div x-show="rec.return_30d" class="mt-2 text-sm">
+                            <span class="text-gray-500">30d return:</span>
+                            <span :class="rec.return_30d > 0 ? 'text-green-400' : 'text-red-400'"
+                                  x-text="(rec.return_30d > 0 ? '+' : '') + rec.return_30d.toFixed(1) + '%'"></span>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <button x-show="filteredRecommendations.length > displayLimit"
+                    @click="displayLimit += 50"
+                    class="mt-6 w-full py-3 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors">
+                Visa fler...
+            </button>
+        </div>
+
+        <!-- Track Record View -->
+        <div x-show="view === 'track-record' && !loading" x-cloak>
+            <h1 class="text-2xl font-bold mb-6">Track Record</h1>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- By Source -->
+                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                    <h2 class="text-lg font-semibold mb-4">Per Källa</h2>
+                    <div class="space-y-3">
+                        <template x-for="source in trackRecord.by_source" :key="source.source_id">
+                            <div class="flex items-center justify-between py-2 border-b border-gray-700">
+                                <div>
+                                    <div class="font-medium" x-text="source.name"></div>
+                                    <div class="text-sm text-gray-500" x-text="source.total_verified + ' verifierade'"></div>
+                                </div>
+                                <div class="text-right">
+                                    <div :class="source.hit_rate_30d >= 50 ? 'text-green-400' : 'text-red-400'"
+                                         x-text="source.hit_rate_30d + '% hit rate'"></div>
+                                    <div class="text-sm"
+                                         :class="source.avg_return_30d >= 0 ? 'text-green-400' : 'text-red-400'"
+                                         x-text="(source.avg_return_30d >= 0 ? '+' : '') + source.avg_return_30d + '% avg'"></div>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+
+                <!-- By Speaker -->
+                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                    <h2 class="text-lg font-semibold mb-4">Per Person</h2>
+                    <div class="space-y-3">
+                        <template x-for="speaker in trackRecord.by_speaker" :key="speaker.speaker">
+                            <div class="flex items-center justify-between py-2 border-b border-gray-700">
+                                <div>
+                                    <div class="font-medium" x-text="speaker.speaker"></div>
+                                    <div class="text-sm text-gray-500" x-text="speaker.total_verified + ' verifierade'"></div>
+                                </div>
+                                <div class="text-right">
+                                    <div :class="speaker.hit_rate_30d >= 50 ? 'text-green-400' : 'text-red-400'"
+                                         x-text="speaker.hit_rate_30d + '% hit rate'"></div>
+                                    <div class="text-sm"
+                                         :class="speaker.avg_return_30d >= 0 ? 'text-green-400' : 'text-red-400'"
+                                         x-text="(speaker.avg_return_30d >= 0 ? '+' : '') + speaker.avg_return_30d + '% avg'"></div>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tickers View -->
+        <div x-show="view === 'tickers' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">Bolag</h1>
+                <input type="text" x-model="filters.tickerSearch" placeholder="Sök bolag..."
+                       class="bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-emerald-500">
+            </div>
+
+            <div class="grid gap-4">
+                <template x-for="ticker in filteredTickers.slice(0, 50)" :key="ticker.stock_name">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <span class="font-semibold text-lg" x-text="ticker.stock_name"></span>
+                                <span x-show="ticker.ticker" class="text-gray-500 ml-2" x-text="ticker.ticker"></span>
+                            </div>
+                            <div class="flex space-x-2">
+                                <template x-for="(count, action) in ticker.actions">
+                                    <span class="px-2 py-0.5 rounded text-xs"
+                                          :class="{
+                                              'bg-green-900 text-green-300': action === 'buy',
+                                              'bg-red-900 text-red-300': action === 'sell' || action === 'avoid',
+                                              'bg-yellow-900 text-yellow-300': action === 'hold',
+                                              'bg-blue-900 text-blue-300': action === 'watch'
+                                          }"
+                                          x-text="action + ': ' + count">
+                                    </span>
+                                </template>
+                            </div>
+                        </div>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <span x-text="ticker.total_mentions + ' omnämnanden'"></span> ·
+                            <span x-text="ticker.unique_sources + ' källor'"></span> ·
+                            <span x-text="ticker.unique_speakers + ' personer'"></span>
+                        </div>
+                        <div class="mt-2 flex flex-wrap gap-1">
+                            <template x-for="src in ticker.sources.slice(0, 5)">
+                                <span class="px-2 py-0.5 bg-gray-700 rounded text-xs text-gray-300" x-text="src"></span>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Speakers View -->
+        <div x-show="view === 'speakers' && !loading" x-cloak>
+            <h1 class="text-2xl font-bold mb-6">Personer</h1>
+
+            <div class="grid gap-4">
+                <template x-for="speaker in speakers.slice(0, 50)" :key="speaker.name">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <span class="font-semibold text-lg" x-text="speaker.name"></span>
+                                <span class="text-gray-500 ml-2" x-text="speaker.total_recommendations + ' rekommendationer'"></span>
+                            </div>
+                            <div class="flex space-x-2">
+                                <template x-for="(count, action) in speaker.actions">
+                                    <span class="px-2 py-0.5 rounded text-xs"
+                                          :class="{
+                                              'bg-green-900 text-green-300': action === 'buy',
+                                              'bg-red-900 text-red-300': action === 'sell' || action === 'avoid',
+                                              'bg-yellow-900 text-yellow-300': action === 'hold',
+                                              'bg-blue-900 text-blue-300': action === 'watch'
+                                          }"
+                                          x-text="action + ': ' + count">
+                                    </span>
+                                </template>
+                            </div>
+                        </div>
+                        <div class="mt-2 flex flex-wrap gap-1">
+                            <template x-for="src in speaker.sources">
+                                <span class="px-2 py-0.5 bg-gray-700 rounded text-xs text-gray-300" x-text="src"></span>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Sources View -->
+        <div x-show="view === 'sources' && !loading" x-cloak>
+            <h1 class="text-2xl font-bold mb-6">Källor</h1>
+
+            <div class="grid gap-4">
+                <template x-for="source in sources" :key="source.id">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <div class="flex items-center space-x-2">
+                                    <span class="font-semibold text-lg" x-text="source.name"></span>
+                                    <span class="px-2 py-0.5 bg-gray-700 rounded text-xs" x-text="source.type"></span>
+                                </div>
+                                <p x-show="source.description" class="text-sm text-gray-400 mt-1" x-text="source.description"></p>
+                            </div>
+                            <div class="flex items-center space-x-1">
+                                <template x-for="i in 5">
+                                    <span :class="i <= source.trust_rating ? 'text-yellow-400' : 'text-gray-600'" class="text-lg">★</span>
+                                </template>
+                            </div>
+                        </div>
+                        <div class="mt-3 flex items-center space-x-4 text-sm text-gray-400">
+                            <span x-text="source.content_count + ' avsnitt'"></span>
+                            <span x-text="source.recommendation_count + ' rekommendationer'"></span>
+                        </div>
+                        <p x-show="source.trust_notes" class="mt-2 text-sm text-gray-500 italic" x-text="source.trust_notes"></p>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 py-6 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500">
+            <span>Generated: </span>
+            <span x-text="metadata.generated_at ? new Date(metadata.generated_at).toLocaleString('sv-SE') : '-'"></span>
+        </div>
+    </footer>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>

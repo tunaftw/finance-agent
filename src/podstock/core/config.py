@@ -1,0 +1,431 @@
+"""Configuration management for PodStock.
+
+This module handles loading, saving, and accessing application configuration.
+Configuration is stored in data/config.json.
+"""
+
+from __future__ import annotations
+
+import json
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any
+
+from podstock.core.exceptions import ConfigError
+
+
+@dataclass
+class Config:
+    """Application configuration.
+
+    Attributes:
+        data_dir: Base directory for all data files.
+        whisper_model: Whisper model to use for transcription.
+        audio_format: Preferred audio format for downloads.
+        default_time_horizon: Default investment time horizon.
+        download_timeout: Timeout for downloads in seconds.
+        retry_attempts: Number of retry attempts for network operations.
+
+    Example:
+        >>> config = Config(data_dir=Path("data"))
+        >>> config.audio_dir
+        PosixPath('data/audio')
+    """
+
+    data_dir: Path
+    whisper_model: str = "large-v3"
+    audio_format: str = "mp3"
+    default_time_horizon: str = "6m"
+    download_timeout: int = 300
+    retry_attempts: int = 3
+
+    @property
+    def audio_dir(self) -> Path:
+        """Directory for downloaded audio files."""
+        return self.data_dir / "audio"
+
+    @property
+    def transcripts_dir(self) -> Path:
+        """Directory for transcript files."""
+        return self.data_dir / "transcripts"
+
+    @property
+    def recommendations_dir(self) -> Path:
+        """Directory for recommendation JSON files."""
+        return self.data_dir / "recommendations"
+
+    @property
+    def reports_dir(self) -> Path:
+        """Directory for generated reports."""
+        return self.data_dir / "reports"
+
+    @property
+    def config_file(self) -> Path:
+        """Path to config.json."""
+        return self.data_dir / "config.json"
+
+    @property
+    def state_file(self) -> Path:
+        """Path to state.json."""
+        return self.data_dir / "state.json"
+
+    @property
+    def podcasts_file(self) -> Path:
+        """Path to podcasts.json."""
+        return self.data_dir / "podcasts.json"
+
+    @property
+    def lists_file(self) -> Path:
+        """Path to lists.json for podcast list management."""
+        return self.data_dir / "lists.json"
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # PODCASTS - Konsekvent struktur: raw/analyses/index
+    # ═══════════════════════════════════════════════════════════════════════
+
+    @property
+    def podcasts_dir(self) -> Path:
+        """Directory for podcast data (new structure)."""
+        return self.data_dir / "podcasts"
+
+    @property
+    def podcasts_sources_file(self) -> Path:
+        """Path to podcasts/sources.json."""
+        return self.podcasts_dir / "sources.json"
+
+    @property
+    def podcasts_state_file(self) -> Path:
+        """Path to podcasts/state.json."""
+        return self.podcasts_dir / "state.json"
+
+    @property
+    def podcasts_raw_dir(self) -> Path:
+        """Directory for raw podcast data (audio, transcripts)."""
+        return self.podcasts_dir / "raw"
+
+    @property
+    def podcasts_analyses_dir(self) -> Path:
+        """Directory for podcast LLM analyses."""
+        return self.podcasts_dir / "analyses"
+
+    @property
+    def podcasts_index_dir(self) -> Path:
+        """Directory for podcast search index."""
+        return self.podcasts_dir / "index"
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # TWITTER - Konsekvent struktur: raw/analyses/index
+    # ═══════════════════════════════════════════════════════════════════════
+
+    @property
+    def twitter_dir(self) -> Path:
+        """Directory for Twitter data."""
+        return self.data_dir / "twitter"
+
+    @property
+    def twitter_sources_file(self) -> Path:
+        """Path to twitter/sources.json."""
+        return self.twitter_dir / "sources.json"
+
+    @property
+    def twitter_state_file(self) -> Path:
+        """Path to twitter/state.json."""
+        return self.twitter_dir / "state.json"
+
+    @property
+    def twitter_raw_dir(self) -> Path:
+        """Directory for raw tweets."""
+        return self.twitter_dir / "raw"
+
+    @property
+    def twitter_analyses_dir(self) -> Path:
+        """Directory for Twitter LLM analyses."""
+        return self.twitter_dir / "analyses"
+
+    @property
+    def twitter_index_dir(self) -> Path:
+        """Directory for Twitter search index."""
+        return self.twitter_dir / "index"
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # YOUTUBE - Konsekvent struktur: raw/analyses/index
+    # ═══════════════════════════════════════════════════════════════════════
+
+    @property
+    def youtube_dir(self) -> Path:
+        """Directory for YouTube data."""
+        return self.data_dir / "youtube"
+
+    @property
+    def youtube_sources_file(self) -> Path:
+        """Path to youtube/sources.json."""
+        return self.youtube_dir / "sources.json"
+
+    @property
+    def youtube_state_file(self) -> Path:
+        """Path to youtube/state.json."""
+        return self.youtube_dir / "state.json"
+
+    @property
+    def youtube_raw_dir(self) -> Path:
+        """Directory for raw YouTube data (metadata, transcripts)."""
+        return self.youtube_dir / "raw"
+
+    @property
+    def youtube_analyses_dir(self) -> Path:
+        """Directory for YouTube LLM analyses (crypto sentiment, etc.)."""
+        return self.youtube_dir / "analyses"
+
+    @property
+    def youtube_index_dir(self) -> Path:
+        """Directory for YouTube search index."""
+        return self.youtube_dir / "index"
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # PRICES & DATABASE
+    # ═══════════════════════════════════════════════════════════════════════
+
+    @property
+    def prices_dir(self) -> Path:
+        """Directory for price data and tracking."""
+        return self.data_dir / "prices"
+
+    @property
+    def db_path(self) -> Path:
+        """Path to SQLite database (cache/index)."""
+        return self.data_dir / "podstock.db"
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # LEGACY COMPATIBILITY (use podcasts_* properties for new code)
+    # ═══════════════════════════════════════════════════════════════════════
+
+    @property
+    def extracted_dir(self) -> Path:
+        """Directory for extracted analyses (LEGACY - use podcasts_analyses_dir)."""
+        return self.data_dir / "extracted"
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # FILINGS - Officiella källor
+    # ═══════════════════════════════════════════════════════════════════════
+
+    @property
+    def filings_dir(self) -> Path:
+        """Directory for financial filings."""
+        return self.data_dir / "filings"
+
+    @property
+    def filings_raw_dir(self) -> Path:
+        """Directory for raw filing files (PDFs, HTML)."""
+        return self.filings_dir / "raw"
+
+    @property
+    def filings_analysis_dir(self) -> Path:
+        """Directory for filing analysis results."""
+        return self.filings_dir / "analysis"
+
+    @property
+    def filings_companies_file(self) -> Path:
+        """Path to filings companies.json."""
+        return self.filings_dir / "companies.json"
+
+    @property
+    def filings_state_file(self) -> Path:
+        """Path to filings_state.json."""
+        return self.filings_dir / "filings_state.json"
+
+    @property
+    def earnings_dir(self) -> Path:
+        """Directory for earnings call transcripts."""
+        return self.data_dir / "earnings"
+
+    @property
+    def earnings_transcripts_dir(self) -> Path:
+        """Directory for transcript files."""
+        return self.earnings_dir / "transcripts"
+
+    @property
+    def earnings_analysis_dir(self) -> Path:
+        """Directory for transcript analysis results."""
+        return self.earnings_dir / "analysis"
+
+    @property
+    def earnings_state_file(self) -> Path:
+        """Path to earnings_state.json."""
+        return self.earnings_dir / "earnings_state.json"
+
+    @property
+    def news_dir(self) -> Path:
+        """Directory for news data."""
+        return self.data_dir / "news"
+
+    @property
+    def news_state_file(self) -> Path:
+        """Path to news_state.json."""
+        return self.news_dir / "news_state.json"
+
+    @property
+    def reports_prompts_dir(self) -> Path:
+        """Directory for generated LLM prompts."""
+        return self.reports_dir / "prompts"
+
+    @property
+    def reports_summaries_dir(self) -> Path:
+        """Directory for generated summary reports."""
+        return self.reports_dir / "summaries"
+
+    def ensure_directories(self) -> None:
+        """Create all required directories if they don't exist."""
+        # Legacy directories (for backwards compatibility)
+        self.audio_dir.mkdir(parents=True, exist_ok=True)
+        self.transcripts_dir.mkdir(parents=True, exist_ok=True)
+        self.recommendations_dir.mkdir(parents=True, exist_ok=True)
+        self.reports_dir.mkdir(parents=True, exist_ok=True)
+        self.reports_prompts_dir.mkdir(parents=True, exist_ok=True)
+        self.reports_summaries_dir.mkdir(parents=True, exist_ok=True)
+
+        # Podcasts (new structure)
+        self.podcasts_dir.mkdir(parents=True, exist_ok=True)
+        self.podcasts_raw_dir.mkdir(parents=True, exist_ok=True)
+        self.podcasts_analyses_dir.mkdir(parents=True, exist_ok=True)
+        self.podcasts_index_dir.mkdir(parents=True, exist_ok=True)
+
+        # Twitter
+        self.twitter_dir.mkdir(parents=True, exist_ok=True)
+        self.twitter_raw_dir.mkdir(parents=True, exist_ok=True)
+        self.twitter_analyses_dir.mkdir(parents=True, exist_ok=True)
+        self.twitter_index_dir.mkdir(parents=True, exist_ok=True)
+
+        # YouTube
+        self.youtube_dir.mkdir(parents=True, exist_ok=True)
+        self.youtube_raw_dir.mkdir(parents=True, exist_ok=True)
+        self.youtube_analyses_dir.mkdir(parents=True, exist_ok=True)
+        self.youtube_index_dir.mkdir(parents=True, exist_ok=True)
+
+        # Prices
+        self.prices_dir.mkdir(parents=True, exist_ok=True)
+
+        # Filings (official sources)
+        self.filings_dir.mkdir(parents=True, exist_ok=True)
+        self.filings_raw_dir.mkdir(parents=True, exist_ok=True)
+        self.filings_analysis_dir.mkdir(parents=True, exist_ok=True)
+
+        # Earnings
+        self.earnings_dir.mkdir(parents=True, exist_ok=True)
+        self.earnings_transcripts_dir.mkdir(parents=True, exist_ok=True)
+        self.earnings_analysis_dir.mkdir(parents=True, exist_ok=True)
+
+        # News
+        self.news_dir.mkdir(parents=True, exist_ok=True)
+
+
+# Default configuration values
+DEFAULT_CONFIG: dict[str, Any] = {
+    "version": 1,
+    "data_dir": "data",
+    "whisper_model": "large-v3",
+    "audio_format": "mp3",
+    "default_time_horizon": "6m",
+    "download_timeout": 300,
+    "retry_attempts": 3,
+}
+
+
+def load_config(config_path: Path | None = None, data_dir: Path | None = None) -> Config:
+    """Load configuration from file or create default.
+
+    Args:
+        config_path: Path to config.json. If None, uses data_dir/config.json.
+        data_dir: Base data directory. Defaults to 'data' in current directory.
+
+    Returns:
+        Loaded configuration.
+
+    Raises:
+        ConfigError: If config file exists but is invalid.
+
+    Example:
+        >>> config = load_config(data_dir=Path("data"))
+        >>> config.whisper_model
+        'large-v3'
+    """
+    if data_dir is None:
+        data_dir = Path("data")
+
+    if config_path is None:
+        config_path = data_dir / "config.json"
+
+    if config_path.exists():
+        try:
+            with open(config_path, encoding="utf-8") as f:
+                data = json.load(f)
+        except json.JSONDecodeError as e:
+            raise ConfigError(f"Invalid JSON in config file: {e}") from e
+        except OSError as e:
+            raise ConfigError(f"Failed to read config file: {e}") from e
+
+        # Merge with defaults for any missing keys
+        merged = {**DEFAULT_CONFIG, **data}
+    else:
+        merged = DEFAULT_CONFIG.copy()
+
+    # Override data_dir if explicitly provided
+    if data_dir is not None:
+        merged["data_dir"] = str(data_dir)
+
+    return Config(
+        data_dir=Path(merged["data_dir"]),
+        whisper_model=merged.get("whisper_model", DEFAULT_CONFIG["whisper_model"]),
+        audio_format=merged.get("audio_format", DEFAULT_CONFIG["audio_format"]),
+        default_time_horizon=merged.get(
+            "default_time_horizon", DEFAULT_CONFIG["default_time_horizon"]
+        ),
+        download_timeout=merged.get("download_timeout", DEFAULT_CONFIG["download_timeout"]),
+        retry_attempts=merged.get("retry_attempts", DEFAULT_CONFIG["retry_attempts"]),
+    )
+
+
+def save_config(config: Config) -> None:
+    """Save configuration to file.
+
+    Performs atomic write (write to temp file, then rename).
+
+    Args:
+        config: Configuration to save.
+
+    Raises:
+        ConfigError: If save fails.
+
+    Example:
+        >>> config = Config(data_dir=Path("data"))
+        >>> save_config(config)
+    """
+    config_path = config.config_file
+    temp_path = config_path.with_suffix(".tmp")
+
+    data = {
+        "version": 1,
+        "data_dir": str(config.data_dir),
+        "whisper_model": config.whisper_model,
+        "audio_format": config.audio_format,
+        "default_time_horizon": config.default_time_horizon,
+        "download_timeout": config.download_timeout,
+        "retry_attempts": config.retry_attempts,
+    }
+
+    try:
+        # Ensure parent directory exists
+        config_path.parent.mkdir(parents=True, exist_ok=True)
+
+        # Write to temp file first
+        with open(temp_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+
+        # Atomic rename
+        temp_path.replace(config_path)
+
+    except OSError as e:
+        # Clean up temp file if it exists
+        if temp_path.exists():
+            temp_path.unlink()
+        raise ConfigError(f"Failed to save config: {e}") from e

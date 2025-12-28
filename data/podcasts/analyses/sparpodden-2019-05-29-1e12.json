@@ -1,0 +1,158 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "sparpodden-2019-05-29-1e12",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Sparpodden 290 - Tankar inför börssommaren",
+  "episode_number": 290,
+  "date": "2019-05-29",
+  "hosts": [
+    "Host1",
+    "Host2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Fund-in-fond avgifter",
+    "Sparkonton och ränta",
+    "Börssommaren och historiska mönster",
+    "Handelskonflikt USA-Kina och Huawei",
+    "5G-teknik",
+    "Oljepris och geopolitik",
+    "Guld som safe haven",
+    "Federal Reserve och räntor"
+  ],
+  "stocks_discussed": [
+    "Ericsson"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "19:37",
+      "reasoning": "Hosten diskuterar om Ericsson kan gynnas kortsiktigt av handelskonflikten och restriktionerna mot Huawei inom 5G-sektorn, men uttrycker samtidigt skepticism. Om handelskriget eskalerar kan ingen gynnas på lång sikt, vilket gör rekommendationen mycket osäker.",
+      "price_target": null,
+      "time_horizon": "short-term potential",
+      "quote": "om man ska plocka fram en eventuell vinnare ur det här så är det då kanske Ericsson. För samtidigt som det är telefonkonflikt så har vi hela det här 5G-rejset. Där Ericsson och Huawei är stora... jag tänker att det kan de ju göra på kort sikt. Men liksom, på lång sikt, om det här kriget liksom eskalerar, då känns det bara som att ingen kommer att gynnas av det.",
+      "sector": "Telecommunications",
+      "market": "sweden"
+    },
+    {
+      "stock_name": "Guld",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "30:00",
+      "reasoning": "Hosten påpekar att guld har fungerat som safe haven historiskt och visar en visst anti-korrelation till SP500 - när börsen viker börjar guldet röra sig uppåt. Guld kan bli intressant om marknaden vänder negativt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "så kan det ju finnas lite rörelse i oljan också... Att den korrelationen är tillbaka, för undan några år... men det kan vara värt att hålla koll på både guld och olja under sommaren",
+      "sector": "Precious Metals",
+      "market": "global"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "timestamp_start": "19:37",
+      "timestamp_end": "21:50",
+      "word_count": 800,
+      "speakers": [
+        "Host1",
+        "Host2"
+      ],
+      "primary_speaker": "Host1",
+      "discussion_summary": "Värdarna diskuterar om Ericsson kan gynnas av handelskonflikten mellan USA och Kina och de restriktioner som riktats mot Huawei. 5G-tekniken beskrivs som en megatrend som möjliggör framtidens teknologier. Host1 menar att Ericsson kan vara en potentiell vinnare kortsikt, men Host2 uttrycker skepticism och menar att om konflikten eskalerar kan ingen bolag gynnas på lång sikt.",
+      "quotes": [
+        {
+          "speaker": "Host1",
+          "text": "om man ska plocka fram en eventuell vinnare ur det här så är det då kanske Ericsson. För samtidigt som det är telefonkonflikt så har vi hela det här 5G-rejset. Där Ericsson och Huawei är stora",
+          "timestamp": "19:37",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Det är den tekniken som möjliggör allt det som vi ser framför oss. Det bygger ju på 5G, den snabba tekniken. Och jag håller med dig att Ericsson kan gynnas, men...",
+          "timestamp": "20:09",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Ändå skeptisk. Jag tänker att det kan de ju göra på kort sikt. Men liksom, på lång sikt, om det här kriget liksom eskalerar, då känns det bara som att ingen kommer att gynnas av det.",
+          "timestamp": "20:25",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Jag märker bara såhär, teknik med tidningar och liknande börjar småthinta om att man kanske inte ens bör köpa Huawei-telefoner framöver. För att de kan miste nästa Android-uppdatering och liknande. Det sänder ändå en viss signal. Fler kommer väl att minska sin konsumtion av Huawei-telefoner.",
+          "timestamp": "18:57",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Men det som jag tycker också har hänt i handelskonflikten nu, det har ju SOTONU trappats upp och det var ganska oväntat det här när man införde tullarna och så där. Alla väntar på Kinas svar nu. Men från att ha handlat om tariffer och tullar på varu så har det ju börjat riktas mot ett enskilt bolag. Huawei.",
+          "timestamp": "17:40",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Förhandlingarna har ju i princip brutit samman, som det ser ut nu när vi spelar in det här idag. Det kan ändras i morgon.",
+          "timestamp": "21:22",
+          "context": "risks"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Ericsson kan vinna marknadsandelar i 5G om Huawei begränsas",
+          "5G är en megatrend som möjliggör framtida teknologier (smarta hem, självkörande bilar)",
+          "Medierapporterering tyder på att konsumenter kan undvika Huawei-telefoner vilket kan gynna Ericsson"
+        ],
+        "bear_case": [
+          "Handelskrigets eskalering kan negativt påverka alla bolag",
+          "Inga tydliga vinnare om globala handelsspänningar förvärras",
+          "Förhandlingarna mellan USA och Kina verkar ha brutit samman"
+        ],
+        "catalysts": [
+          "USAs restriktioner mot Huawei",
+          "5G-infrastrukturinvesteringar globalt"
+        ],
+        "risks": [
+          "Eskalerande handelskonflikt",
+          "Uppbrutna förhandlingar mellan USA och Kina",
+          "Negativ påverkan på all global handel"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Sparpodden diskuterar sommarens börsutsikter, handelskonflikten mellan USA och Kina och dess potentiella effekt på bolag som Ericsson, geopolitiska spänningar i Mellanöstern som påverkar oljepriset, och gulds roll som potentiell safe haven. Värdarna diskuterar även höga avgifter i fond-i-fond-produkter och vikten av att jämföra sparkonton.",
+  "key_takeaways": [
+    "Var skeptisk till höga avgifter i fond-i-fond och distributörsfonder",
+    "Jämför sparkonton - 1900 miljarder på låg/noll ränta representerar betydande förlorad ränteintäkt",
+    "Sommarmånader historiskt visar genomsnittlig negativ utveckling men medianen är positiv",
+    "Handelskonflikten kan kortsikt gynna Ericsson i 5G men långsikt oklart om konflikten eskalerar",
+    "Guld och olja värda att bevaka som safe havens om marknaden vänder negativt",
+    "Federal Reserves inställning till räntor kommer vara viktig att följa"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2019-05-29-1e12.txt",
+  "transcript_word_count": 5708,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,139 @@
+{
+  "source_id": "Kmoh6O_AlAU",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-01-22",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Long-term bullish if high time frame support at 32-35k holds, short-term cautious at current levels",
+      "quote": "if 30k or 32k fails on a weekly and monthly basis especially on the monthly you know if that monthly reclaim and the weekly reclaim get stuff that's bad news",
+      "price_levels": [
+        "$47,000",
+        "$45,000",
+        "$41,000",
+        "$37,000",
+        "$35,000",
+        "$32,000"
+      ],
+      "timeframe": "long-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Short-term bearish as market rejected from 47k monthly range midpoint and trading at range lows",
+      "quote": "we are still sort of getting rejected from the monthly range midpoint so that is the 47k level",
+      "price_levels": [
+        "$47,000",
+        "$41,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Wait and see approach, critical support at 2300, worried about breakdown",
+      "quote": "I'm not a huge fan of this chart really the only argument here is on the where if you're even remotely bullish eth basically need 2300 to hold",
+      "price_levels": [
+        "$2,300",
+        "$2,200"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "GBTC",
+      "asset_name": "Grayscale Bitcoin Trust",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "FTX sold about $1 billion of GBTC since ETF approval, creating sell pressure",
+      "quote": "coindesk reported that FTX sold about a billion of gbtc since the approval and that explains a large chunk of its outflow",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "37-35k is confluent weekly/monthly range low, high time frame support with proximity to invalidation",
+      "quote": "37 to 35k uh multi-time frame range low if you will... only reasonable area to do business with spot high time frame support proximity to invalidation",
+      "price_levels": [
+        "$37,000",
+        "$35,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$47,000",
+        "$45,000",
+        "$41,000",
+        "$37,000",
+        "$35,000",
+        "$32,000"
+      ],
+      "ETH": [
+        "$2,300",
+        "$2,200"
+      ]
+    }
+  },
+  "key_insights": [
+    "FTX estate sold approximately $1 billion of GBTC since ETF approval, explaining significant portion of outflows from Grayscale",
+    "Market is waiting for evidence that Grayscale spot flows sell pressure will abate, which could be catalyst for bounce",
+    "Bitcoin rejected from 47k monthly range midpoint, 32-35k is confluent weekly/monthly support area and best spot long entry",
+    "41k is current range low and potential short-term trading setup for mean reversion back to 45k",
+    "Ethereum at critical support at 2300; breakdown would invalidate bullish breakout structure from ETF launch"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$41,000 or sub-$40,000 panic flush",
+      "target": "$45,000",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$35,000-$37,000",
+      "target": "$47,000",
+      "stop": "$32,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$2,200-$2,300 with flush",
+      "target": null,
+      "stop": "$2,200",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin rejected from 47k monthly midpoint with market waiting for Grayscale sell pressure to abate. Key levels: 41k for short-term trades, 35-37k for higher conviction spot entries, 32k as absolute invalidation. FTX sold $1B of GBTC, causing outflows. Ethereum at critical 2300 support, needs to hold to avoid breakdown.",
+  "transcript_word_count": 10333,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T23:10:11.123091"
+}

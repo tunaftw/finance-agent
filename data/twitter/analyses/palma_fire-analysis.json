@@ -1,0 +1,145 @@
+{
+  "source_id": "palma_fire",
+  "analyzed_at": "2025-12-26T23:15:00",
+  "analyzed_by": "claude-code-agent",
+  "total_tweets_in_dataset": 892,
+  "investment_relevant_tweets": 226,
+  "tweets_reviewed": 50,
+  "profile_summary": {
+    "description": "FIRE-levande svensk utlandsboende (Mallorca). Fokus på Golden Butterfly-strategi, försvarsindustri och guld.",
+    "investment_style": "Defensiv, tillgångsallokering, makrofokus",
+    "language": "sv",
+    "notable": "Uppnått FIRE, 7+ år utomlands, mycket framgångsrik portföljutveckling"
+  },
+  "portfolio_allocation": {
+    "as_of": "2025-10-05",
+    "stocks": "50%",
+    "gold": "19%",
+    "long_bonds": "8%",
+    "short_bonds": "23%",
+    "strategy": "Golden Butterfly",
+    "notes": "Extremt defensiv positionering, rekordstor kassa, väntar på dipp"
+  },
+  "performance": {
+    "ytd_2025": "+50%",
+    "three_year": "+170% till +230%",
+    "q1_q3_2025": "+76%",
+    "gold_since_2019": "1300 -> 4300 (+230%)"
+  },
+  "stock_mentions": [
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "exchange": "OMX Stockholm",
+      "action": "hold",
+      "confidence": "high",
+      "reasoning": "Explicit portfolioinnehav nämnt. Stark övertygelse om försvarsindustrin. Försvarar Saab-aktien mot kritik.",
+      "quotes": [
+        "Den stora uppgången tidigare i år berodde mycket på Saab",
+        "Bra för svenska Saab som tog över Kockums verksamhet"
+      ]
+    },
+    {
+      "stock_name": "Rheinmetall",
+      "ticker": "RHM",
+      "exchange": "XETRA",
+      "action": "hold",
+      "confidence": "high",
+      "reasoning": "Explicit portfolioinnehav nämnt som bidragit till årets uppgång",
+      "quotes": [
+        "Den stora uppgången tidigare i år berodde mycket på Saab, Rheinmetall, BAE Systems"
+      ]
+    },
+    {
+      "stock_name": "BAE Systems",
+      "ticker": "BA",
+      "exchange": "LSE",
+      "action": "hold",
+      "confidence": "high",
+      "reasoning": "Explicit portfolioinnehav nämnt",
+      "quotes": [
+        "Den stora uppgången tidigare i år berodde mycket på Saab, Rheinmetall, BAE Systems"
+      ]
+    },
+    {
+      "stock_name": "OVH",
+      "ticker": "OVH",
+      "exchange": "Euronext Paris",
+      "action": "hold",
+      "confidence": "medium",
+      "reasoning": "EU-moln satsning nämnd, negativ rapport reaktion. Behåller inför 2026.",
+      "quotes": [
+        "Årets satsning på EU-moln har dock inte avkastat som önskat, behåller dock inför 2026",
+        "OVH:s rapport vars aktie...är ner 18%"
+      ]
+    },
+    {
+      "stock_name": "Guld (fysiskt/ETF)",
+      "ticker": "GOLD/GLD",
+      "exchange": "N/A",
+      "action": "watch",
+      "confidence": "high",
+      "reasoning": "20% allokering sedan 2019, börjar fundera på att sänka",
+      "quotes": [
+        "Nu börjar det dock kännas som att det är dags att sänka procenten"
+      ]
+    }
+  ],
+  "sector_views": [
+    {
+      "sector": "Försvarsindustri",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "reasoning": "Huvudsaklig drivare av portföljens avkastning"
+    },
+    {
+      "sector": "Guld/Silver",
+      "sentiment": "bullish_but_cautious",
+      "confidence": "high",
+      "reasoning": "Stor exponering, men funderar på att minska efter stark uppgång"
+    },
+    {
+      "sector": "Tech/Globalfonder",
+      "sentiment": "bearish",
+      "confidence": "high",
+      "reasoning": "Extremt låg exponering sedan september pga Tech-vikt. Väntar på dipp.",
+      "quotes": [
+        "Håller sedan September extremt låg exponering mot globalfonderna, mycket pga vikten Tech"
+      ]
+    },
+    {
+      "sector": "EU-moln/Cloud",
+      "sentiment": "neutral",
+      "confidence": "medium",
+      "reasoning": "Satsning har inte avkastat, behåller ändå"
+    }
+  ],
+  "market_outlook": {
+    "overall_sentiment": "cautious_bearish",
+    "positioning": "Defensiv, rekordstor kassa, 50% aktier (under normalt 50-70%)",
+    "expected_action": "Väntar på större dipp för att öka aktieexponering",
+    "time_horizon": "Kortsiktigt defensiv, långsiktigt bullish"
+  },
+  "actionable_insights": [
+    {
+      "insight": "Försvarsindustri (Saab, Rheinmetall, BAE) har drivit avkastningen",
+      "actionable": true,
+      "action_type": "sector_exposure"
+    },
+    {
+      "insight": "Golden Butterfly-strategi med 20% guld sedan 2019",
+      "actionable": true,
+      "action_type": "portfolio_strategy"
+    },
+    {
+      "insight": "Bearish tech, väntar på dipp i globalfonder",
+      "actionable": true,
+      "action_type": "timing"
+    },
+    {
+      "insight": "OVH (EU-moln) behålls trots dålig avkastning",
+      "actionable": false,
+      "action_type": "hold"
+    }
+  ]
+}

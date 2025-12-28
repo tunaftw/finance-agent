@@ -1,0 +1,281 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "sparpodden-2015-09-02-7590",
+  "podcast_name": "Sparpodden",
+  "episode_title": "#sparpodden Ep 95 - Tesla, terminer och dödskors",
+  "episode_number": 95,
+  "date": "2015-09-02",
+  "hosts": [
+    "Johan Tidestad",
+    "Eva Troin"
+  ],
+  "guests": [
+    "Peter Benson"
+  ],
+  "main_topics": [
+    "Tesla",
+    "H&M aktieanalys",
+    "Börsmånader statistik",
+    "Hedging/terminer"
+  ],
+  "stocks_discussed": [
+    "Tesla",
+    "H&M",
+    "SAS",
+    "Fortum",
+    "Claes Ohlson",
+    "SSAB"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "H&M",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan Tidestad",
+      "speaker_role": "host",
+      "timestamp": "[24:47]",
+      "reasoning": "Aktien har gått ner till 314,40 SEK (från 320-325 SEK). Peter genomför en detaljerad analys med två scenarier - bull case ger 816 SEK (15% tillväxt, 20% marginal), bear case ger 270 SEK (10% tillväxt, 12% marginal). Även med konservativa antaganden framstår bolaget som attraktivt vid nuvarande nivåer. Johan rekommenderar att köpa på dippen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är 314,40 senast. Så den har gått ner lite idag. Ja okej, då ser man. Då passar man på att köpa.",
+      "sector": "Retail",
+      "market": "sweden"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "speculative",
+      "speaker": "Peter Benson",
+      "speaker_role": "guest",
+      "timestamp": "[10:26]",
+      "reasoning": "Tesla är ett extremt hypat bolag med PS-tal på 8-9, värderat till 270 miljarder SEK. Trots att bolaget gör förlust anses teknologin vara disruptive. Det finns en enorm hype men det är verkligheten som kommer att avgöra om den är befogad. Aktien jämförs med Apple inom mobiltelefoni men värderingen är mycket hög.",
+      "price_target": null,
+      "time_horizon": "long term",
+      "quote": "Jag tror vi landar i att det är en enorm hype kring Tesla och Teslas produkter. Sen är det verkligheten som kommer att avgöra om den här hypen är befogad eller inte. Och om Tesla blir ett nytt Apple eller om det inte blir det.",
+      "sector": "Automotive",
+      "market": "us"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "H&M",
+      "ticker": null,
+      "timestamp_start": "[11:07]",
+      "timestamp_end": "[25:04]",
+      "word_count": 2500,
+      "speakers": [
+        "Peter Benson",
+        "Johan Tidestad",
+        "Eva Troin"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Peter genomför en detaljerad aktieanalys av H&M som case för hur man värderar aktier. Han presenterar en mekanisk analys med kärnfakta (börsvärde 530 miljarder SEK, omsättning 168 miljarder, marginal 15%), därefter två framtidscenarier med olika tillväxt- och marginalantaganden. Bull case ger potential till 816 SEK per aktie, bear case 270 SEK. Analysen balanserar mellan fakta och mjuka bedömningar kring framtiden.",
+      "quotes": [
+        {
+          "speaker": "Peter Benson",
+          "text": "Det är en enormt grej att beskriva hur man värderar en aktie. Och jag ser det inte som en konst och det är inte ett hantverk, utan det är lite av ett konsthantverk, utan det är både en mekanisk kunskap och väldigt mycket mjuka bedömningar.",
+          "timestamp": "[11:07]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "1 655 000 stycken, alltså 1,66 miljarder aktier. Det är en viktig siffra, för det multiplicerat med börskursen är börsvärdet, som då är 530 miljarder kronor till dagens börskurs 320 kronor.",
+          "timestamp": "[13:15]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "151 miljarder kronor. Det är fjolårets omsättning. Sen tar vi vad de har presterat i år, 86 miljarder. De ligger på en rullande omsättning. De senaste fyra kvartalen på 168 miljarder kronor.",
+          "timestamp": "[16:29]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "H&M förväntas tjäna typ 15,5% av sin omsättning i år. Man har en marginal på 15%. Och marginal är ett jäkligt viktigt begrepp.",
+          "timestamp": "[17:15]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Om vi tänker oss fyra år fram i tiden och så tänker vi oss att H&M har lyckats växa 15% per år. Och att de har lyckats komma tillbaks till 20% marginal. Då har vi ett bolag som omsätter 300 miljarder och tjänar 60 miljarder i verksamheten. Om vi tar ett P&E-tal på 30 på det där, då är det 816 kronor per aktie.",
+          "timestamp": "[20:04]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Då växer H&M bara 10%. Sen har de problem med marginalen. De kommer mer närma sig branschen än sin egen fantastiska historik. Så marginalen kanske kryper ner till 12%. Då är vi nere på 450 miljarder i börsvärde eller 270 spänn per aktie.",
+          "timestamp": "[21:14]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Eva Troin",
+          "text": "Jag tycker att H&M är ett bra exempel för jag handlar på H&M. Både till mig själv och mina barn, så jag har känsla för hur mycket det är som är på rea, och hur bra kollektionerna ser ut. Det som är lite intressant med H&M just nu är att de börjar bredda, så de breddade sig med hom-delen. Nu har de lanserat smink.",
+          "timestamp": "[22:47]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Tidestad",
+          "text": "Köp H&M. Det är alltid köp H&M och det är alltid dyrt.",
+          "timestamp": "[24:39]",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan Tidestad",
+          "text": "Det är 314,40 senast. Så den har gått ner lite idag. Ja okej, då ser man. Då passar man på att köpa.",
+          "timestamp": "[24:47]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 24,
+        "ev_ebitda": null,
+        "ev_sales": 3.2,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "10-15%",
+        "margin": "15%",
+        "debt_level": "0",
+        "custom": [
+          "Kassa 10 miljarder SEK",
+          "Eget kapital 47 miljarder SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "15% årlig tillväxt",
+          "Marginal tillbaka till historiska 20%",
+          "Nya marknader och produkter (H&M Home, smink)",
+          "Carl Johan Perssons ledarförmåga",
+          "Aggressiv digital tillväxtstrategi"
+        ],
+        "bear_case": [
+          "Tillväxt sjunker till 10%",
+          "Marginal faller till branschsnitt 12%",
+          "Konkurrens från Zalando och andra nätaktörer",
+          "Konsumentbeteende ändras"
+        ],
+        "catalysts": [
+          "Lansering av nya produkter och marknader",
+          "Digital expansion",
+          "Marginalförbättring"
+        ],
+        "risks": [
+          "Ökande konkurrens från e-handel",
+          "Sänkade marginaler",
+          "Sämre tillväxt än historiskt"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": null,
+      "timestamp_start": "[04:29]",
+      "timestamp_end": "[10:41]",
+      "word_count": 1800,
+      "speakers": [
+        "Johan Tidestad",
+        "Eva Troin",
+        "Peter Benson"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Diskussion kring Tesla som disruptive teknologi inom bilindustrin. Eva är positiv och planerar att köpa en Tesla. Peter jämför med Apple och Clayton Christensens teori om disruptive teknologier. Aktien är extremt hypad med PS-tal 8-9, men bolaget gör förlust. Consumer Report gav Tesla 103 poäng (av 100 möjliga), vilket indikerar stark produktkvalitet.",
+      "quotes": [
+        {
+          "speaker": "Eva Troin",
+          "text": "Jag gillar ju Tesla, både som aktie och produkt.",
+          "timestamp": "[04:45]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Det räcker ju att se Eva här i studion som förstår att det är disruptive. Att folk som har testat sådana här Teslas som bryr sig något om bilar tycker att det är något helt älgest.",
+          "timestamp": "[05:34]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Tesla, väldigt mycket talar för att det är en sån här disruptive aktör. Lite som Apple inom mobiltelefoni.",
+          "timestamp": "[06:38]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Tidestad",
+          "text": "Värderas PS-tal 8-9 gången försäljningen. Och jag hittar inget P-tal så det betyder väl att de gör förlust då hela tiden eller?",
+          "timestamp": "[06:44]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Men däremot så påstås de då typ dubbla omsättningen och då är du nere på en värdering på typ 4 gången försäljningen vilket ju inte är lågt men för någonting som kanske blir någonting enormt omvälvande så är det inte så dyrt.",
+          "timestamp": "[06:57]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Jag tror vi landar i att det är en enorm hype kring Tesla och Teslas produkter. Sen är det verkligheten som kommer att avgöra om den här hypen är befogad eller inte. Och om Tesla blir ett nytt Apple eller om det inte blir det.",
+          "timestamp": "[10:26]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan Tidestad",
+          "text": "Spännande bolag att hålla ögonen på.",
+          "timestamp": "[10:39]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "8-9",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Värdering 270 miljarder SEK",
+          "Gör förlust",
+          "Bilpris ca 800 000 SEK i Sverige"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Disruptiv teknologi som kan skrota förbränningsmotorer",
+          "Nytt system för batterier och laddstationer",
+          "Fantastisk körupplevelse",
+          "Jämförs med Apple",
+          "Konsumenter köper aktien för långsiktigt håll"
+        ],
+        "bear_case": [
+          "Extremt hög värdering (PS 8-9)",
+          "Gör förlust",
+          "Hype kan vara överdriven"
+        ],
+        "catalysts": [
+          "Nya bilmodeller (BMW 1-klass)"
+        ],
+        "risks": [
+          "Värderingen kan vara orealistisk",
+          "Konkurrens från traditionella biltillverkare"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet börjar med en diskussion om Tesla där gästerna är positiva till teknologin men vaksamma mot den höga värderingen. Huvuddelen av avsnittet ägnas åt en detaljerad aktieanalys av H&M som case för värdering, med två scenarier som ger potential till 816 SEK eller risk för 270 SEK. Avsnittet avslutas med statistik om bästa och sämsta börsmånaderna samt diskussion om hedging.",
+  "key_takeaways": [
+    "Tesla betraktas som disruptiv men extremt hypad med watch-rekommendation",
+    "H&M får buy-rekommendation med medium confidence vid 314 SEK baserat på scenarioanalys",
+    "November är historiskt bästa börsmånaden (+3,04%), september sämsta (-2,35%)",
+    "Hedging kan göras genom terminer eller säljoptioner men är komplicerat",
+    "Naturlig hedging kan uppnås genom riskspridning (t.ex. SAS/Fortum för oljeexponering)"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2015-09-02-7590.txt",
+  "transcript_word_count": 8597,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

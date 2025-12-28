@@ -1,0 +1,102 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "sparpodden-2015-10-07-2c3a",
+  "podcast_name": "Sparpodden",
+  "episode_title": "#sparpodden Ep 100 - Psykologiska aktiefällor",
+  "episode_number": 100,
+  "date": "2015-10-07",
+  "hosts": [
+    "Johan Tiddestal"
+  ],
+  "guests": [
+    "Jocke",
+    "Roger Jansson"
+  ],
+  "main_topics": [
+    "Börspsykologi",
+    "Aktiefällor",
+    "Federal Reserve räntehöjning",
+    "Nordiska marknader"
+  ],
+  "stocks_discussed": [
+    "Volkswagen",
+    "Apple",
+    "Volvo",
+    "Net Entertainment",
+    "SKF",
+    "Novo Nordisk"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Volkswagen",
+      "ticker": null,
+      "timestamp_start": "06:33",
+      "timestamp_end": "09:23",
+      "word_count": 350,
+      "speakers": [
+        "Johan Tiddestal",
+        "Roger Jansson"
+      ],
+      "primary_speaker": "Roger Jansson",
+      "discussion_summary": "Volkswagen används som ett aktuellt exempel på fallande kniv-fällan efter dieselgate-skandalen. Aktien föll 20% första dagen, 15% andra dagen och har fortsatt att falla. Roger förklarar att VW förmodligen befinner sig i anpassningsfasen och att panikfasen fortfarande ligger framför oss, vilket innebär att aktien kan komma att falla ytterligare innan det är köpläge.",
+      "quotes": [
+        {
+          "speaker": "Roger Jansson",
+          "text": "I Volkswagens fall kan man säga att den så här långt följer det klassiska mönstret. En snabb nedgång på ändrade förutsättningar. Många kastade sig på kniven och försökte fånga den. Det blev inte så bra, nu har den fortsatt nedåt.",
+          "timestamp": "07:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Tiddestal",
+          "text": "Volkswagen som föll först 20% första dagen, sen fortsatte att falla 15% andra dagen, och sen har gått riktigt knackigt även sen dess med typ 2-3% minus varje dag.",
+          "timestamp": "06:38",
+          "context": "metric"
+        },
+        {
+          "speaker": "Roger Jansson",
+          "text": "Om man tror att Volkswagen följer det här mönstret så är det en rimlig etis.",
+          "timestamp": "09:17",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Stora initiala nedgångar kan vara början på en längre fallande trend",
+          "Marknaden kan vara i överreaktionsfasen med panik"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Dieselgate-skandalen ändrar förutsättningarna för bolaget",
+          "Underreaction, adjustment, overreaction-fasen kan driva aktien lägre"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Detta hundrade avsnitt av Sparpodden fokuserar på börspsykologi och de vanligaste aktiefällorna som investerare kan gå i: fallande knivar, förlustskräck, strutsen, flockbeteende och kärleksfällan. Gästerna Jocke och Roger Jansson delar med sig av sina erfarenheter och ger konkreta råd om hur man undviker dessa psykologiska fällor. Avsnittet inkluderar även lyssnarefrågor om A- och B-aktier, Federal Reserve räntehöjningar, nordiska marknader och hedgefonder.",
+  "key_takeaways": [
+    "Fånga inte fallande knivar - vänta tills aktien stabiliserat sig",
+    "Ta förluster snabbt och låt vinster löpa",
+    "Var medveten om struts-beteendet och konfrontera problem direkt",
+    "Undvik flockbeteende - tänk tvärtom mot massan",
+    "Försök att hålla känslor borta från investeringsbeslut"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2015-10-07-2c3a.txt",
+  "transcript_word_count": 7772,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

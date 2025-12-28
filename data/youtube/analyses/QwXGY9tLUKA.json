@@ -1,0 +1,98 @@
+{
+  "source_id": "QwXGY9tLUKA",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-01-30",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Bitcoin is at monthly resistance around 23.3K with no clear evidence of monthly timeframe breakout. Market is in a range with risk of pullback to 20K.",
+      "quote": "we are going to spend most of our time around this monthly resistance level at the moment there's no clear evidence of a monthly time frame breakout",
+      "price_levels": [
+        "23.3K",
+        "20K",
+        "22.5K",
+        "22.6K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Ethereum showing similar structure to Bitcoin with monthly resistance at 1760-1780 area, range low equivalent at 1500",
+      "quote": "I think for Eve the sort of high 1300 the 1400 area is also kind of the last Port of Call for any type of decent pullback",
+      "price_levels": [
+        "1760-1780",
+        "1500",
+        "1300-1400"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ALT",
+      "asset_name": "Altcoins",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Altcoins taking a beating, showing weakness relative to BTC",
+      "quote": "as far as altcoins go you can see they're taking a beating at the moment",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "23.3K",
+        "20K"
+      ],
+      "ETH": [
+        "1760-1780",
+        "1500"
+      ]
+    }
+  },
+  "key_insights": [
+    "Market is at monthly resistance on both BTC and ETH with no clear breakout evidence",
+    "Busy week of headline risk including rate decisions and earnings creates uncertainty",
+    "Momentum continuation trades are less favorable near resistance vs support",
+    "Critical support for BTC is 20K, failure would invalidate bullish arguments",
+    "No evidence of decoupling from traditional markets, macro events remain relevant"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "23.3K reclaim",
+      "target": "30K+",
+      "stop": "22.5K",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "20K area",
+      "target": "23.3K+",
+      "stop": "below 20K",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC and ETH are at monthly resistance levels (BTC at 23.3K, ETH at 1760-1780) with no clear breakout evidence amid a week of significant macro headlines. The speakers recommend patience, waiting for either a reclaim of resistance levels or a pullback to support (20K for BTC, 1500 for ETH). Altcoins are underperforming with no altcoin season expected.",
+  "transcript_word_count": 8297,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T23:39:47.894166"
+}

@@ -1,0 +1,93 @@
+{
+  "source_id": "haATrBsJGxg",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-03-13",
+  "hosts": [
+    "Cred"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Market teleported from monthly support to monthly resistance aggressively, 20K held on weekly closing basis, now testing range high at 24.3K",
+      "quote": "the dip into the monthly support we spoke about for many weeks was very aggressively bought up basically teleported straight from monthly support to monthly resistance",
+      "price_levels": [
+        "$19.4-20.4",
+        "$23.56",
+        "$21.6",
+        "$24.3K",
+        "$30K",
+        "$35K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Bottomed exactly at weekly support levels (1360-1380) and moved to next resistance, following similar pattern to BTC",
+      "quote": "1400 is like a very obvious weekly support level and it's taken it to the next obvious Branch High Resistance level and that's essentially it",
+      "price_levels": [
+        "$1360-1380",
+        "$1400",
+        "$1600",
+        "$2000s",
+        "$2300"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$19.4-20.4",
+        "$23.56",
+        "$24.3K",
+        "$30K"
+      ],
+      "ETH": [
+        "$1360-1380",
+        "$1600",
+        "$2300"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC and ETH both bounced aggressively off key weekly/monthly support and are now testing range resistance",
+    "Critical BTC support at 19.4-20.4K - losing this would target yearly open and new lows",
+    "CPI data expected to be a volatility catalyst, speaker waiting for post-CPI positioning",
+    "Market at inflection point - either breakout towards higher targets or fakeout back into range",
+    "Speaker prefers shallow pullbacks (23K for BTC) or much deeper pullbacks for entries"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$23.56 (shallow) or $21.6 (deeper) on dips",
+      "target": "$30K-35K on breakout",
+      "stop": "Below $19.4K or weekly close below $20K",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1600 on dips or breakout",
+      "target": "$2300+ on breakout",
+      "stop": "Below weekly support or deviation stop",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Both BTC and ETH have successfully bounced from key support levels and are now testing multi-month range resistance. BTC held $20K on weekly basis and now tests $24.3K, while ETH bottomed at $1360-1380. Markets are at critical inflection points ahead of CPI data. Speaker takes cautious bullish stance, waiting for post-CPI entries at pullback levels rather than buying at resistance.",
+  "transcript_word_count": 8887,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:14:52.742178"
+}

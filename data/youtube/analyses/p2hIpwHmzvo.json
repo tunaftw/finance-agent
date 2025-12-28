@@ -1,0 +1,99 @@
+{
+  "source_id": "p2hIpwHmzvo",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-06-13",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Discussing the 200-week moving average at ~22k as a key support level, referencing previous cycles where this level marked bear market bottoms",
+      "quote": "we are reaching the equivalent 200-week moving average at around 22k or thereabouts... it's very likely that the market is going to spend anywhere from one to five weeks consolidating in this area even if it is the bottom",
+      "price_levels": [
+        "$22,000",
+        "$12,000-$14,000",
+        "$28,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Analyzing ETH structure similar to BTC, with 200-week MA below price and monthly support at previous cycle high around 1.1k",
+      "quote": "monthly structures one of them is the highest close of the previous cycle at around 1.1 k and then if that doesn't hold we have to deal with the bear market cluster range between 400 and 800 roughly",
+      "price_levels": [
+        "$1,100",
+        "$400-$800",
+        "$1,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LUNA",
+      "asset_name": "Terra Luna",
+      "sentiment": "bearish",
+      "speaker": "Unknown",
+      "context": "Mentioned as one of the crypto-specific supply overhang issues contributing to market pressure",
+      "quote": "crypto specific supply pressures created by celsius terra luna",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$22,000",
+        "$12,000-$14,000",
+        "$28,000"
+      ],
+      "ETH": [
+        "$1,100",
+        "$400-$800",
+        "$1,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "The 200-week moving average (~$22k for BTC) is a critical support level that has marked previous bear market bottoms, but it's rarely perfect on the first test",
+    "Even if current levels represent the bottom, markets typically spend 1-5 weeks consolidating before reversing",
+    "Previous cycles show 30-40% volatility around these support levels, suggesting buying blindly at the MA carries significant downside risk",
+    "The current market weakness is not crypto-specific but part of a global liquidity tightening crisis affecting all risk assets",
+    "Waiting for weekly closes, failed breakdowns, or discounts through key levels provides better risk/reward than buying initial support tests"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Wait for discount through $22k (e.g., wick below 20-22k) or wait 1-2 weeks for weekly confirmation",
+      "target": "Snapback towards highs after confirmation",
+      "stop": "Below $12k-$14k monthly support",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Below $1,000 (preferable discount to 200-week MA) or after 1-4 weekly closes around support",
+      "target": "Rebound after consolidation",
+      "stop": "Below $400-$800 bear market cluster",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes BTC and ETH at critical 200-week moving average support levels ($22k BTC, sub-$1k ETH), emphasizing that previous cycles show these levels mark bear market bottoms but rarely hold perfectly on first test. He recommends waiting for discounts through these levels or 1-2 weeks of weekly confirmation before positioning, noting that even at support, 30-40% downside is possible. The speaker stresses that current weakness is part of a global liquidity tightening crisis affecting all risk assets, not a crypto-specific problem caused by Celsius or Terra Luna.",
+  "transcript_word_count": 6029,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:45:19.094727"
+}

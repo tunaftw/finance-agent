@@ -1,0 +1,101 @@
+{
+  "source_id": "pQq3OJU8mMk",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-01-23",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Trading within a range from 16.5K to 23-24K, with critical support at 20K. Waiting for clear breakout or breakdown.",
+      "quote": "that leaves us with two levels that really matter that the range midpoint they're all confluent 20K area and then the Range High at around 23 to 24K so this is all very important",
+      "price_levels": [
+        "$16.5K",
+        "$20K",
+        "$23-24K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Trading near monthly range high at 1700 with double top formation. Support around 1500.",
+      "quote": "really the only monthly level that comes to mind in terms of recent structure is the top of the monthly range here at 16 you know 1700 basically and that's where you know the market is at the moment",
+      "price_levels": [
+        "$1500",
+        "$1700"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Legacy (LTC)",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Looking strong above 3900, trying to break out. Targets at 4150-4600 based on previous wicks.",
+      "quote": "Legacy just looks strong as I mentioned I'm not really worried about Legacy above 3 900 and most certainly above 3 700",
+      "price_levels": [
+        "$3900",
+        "$4150",
+        "$4600"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$16.5K",
+        "$20K",
+        "$23-24K"
+      ],
+      "ETH": [
+        "$1500",
+        "$1700"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC trading in range from 16.5K to 23-24K with 20K as critical bull/bear line",
+    "Loss of 20K support would likely lead to continuation to range low at 16.5K and potentially new lows",
+    "Breakout above 23-24K could target 28.8-29K or 35K",
+    "ETH at monthly range high with double top at 1700, watching for break above or rejection",
+    "LTC looks strong above 3900 with potential backfill to 4150-4600"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$23-24K on breakout and consolidation",
+      "target": "$28.8-29K or $35K",
+      "stop": "$20K",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1500 cluster on dip",
+      "target": "$1700 (poke above double top)",
+      "stop": "$1400",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC is trading within a 16.5K to 23-24K range with critical support at 20K that defines the current bull/bear line. Holding 20K suggests potential upside to 28.8-35K on breakout, while losing it could lead to 16.5K or new lows. ETH is at monthly range high near 1700 with a double top pattern, watching for break above or rejection back to 1500 support. LTC looks strong above 3900 with potential targets at 4150-4600.",
+  "transcript_word_count": 9523,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:50:03.683230"
+}

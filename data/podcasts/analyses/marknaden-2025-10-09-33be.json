@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "marknaden-2025-10-09-33be",
+  "podcast_name": "Marknaden",
+  "episode_title": "Kryptospanjoren och allt-haussen",
+  "episode_number": null,
+  "date": "2025-10-09",
+  "hosts": [
+    "host1",
+    "host2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Microcap/nanocap rally",
+    "VIX och marknadssentiment",
+    "Dollarns försvagning",
+    "AI-hås och cirkelinvesterande",
+    "Tillgångsinflation",
+    "Valutasystemets omvandling"
+  ],
+  "stocks_discussed": [
+    "Nvidia",
+    "Saab (sponsor)"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "timestamp_start": "09:25",
+      "timestamp_end": "44:55",
+      "word_count": 450,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "Diskussionen kring Nvidia fokuserar på AI-temat som börjar kännas maxat och hur bolaget gör Ericsson-liknande drag genom att finansiera kunder. Varning för cirkelinvesterande där AI-bolagen investerar i varandra med lånade pengar för att upprätthålla orderingång. Jämförelser med IT-bubblan och Ericssons krasch. Oro för överkapacitet i datacenterbyggnation.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Nvidia och AI-temat börjar kännas maxat. Man börjar ta till sådana här Ericsson-lika drag som att finansiera sina kunder för att de ska kunna köpa mer av hennes grejer, som i Nvidia fall är chip.",
+          "timestamp": "09:25",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "host1",
+          "text": "Men resonemanget är då att marknaden förefallet var mättad, realt. Men tanken uppstår rörande, liksom, ja vad ska vi göra nu då? När våra kunder säger att de inte behöver köpa mer. Ja ja, vi gör oss till delägare i våra kunder.",
+          "timestamp": "43:54",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Det är ju en pyramidspilsspelsnistante.",
+          "timestamp": "44:03",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "AI-revolutionen drivit börsen upp 70% på 3 år",
+          "Infrastrukturen kommer att finnas kvar långsiktigt"
+        ],
+        "bear_case": [
+          "AI-temat börjar kännas maxat",
+          "Cirkelinvesterande med lånade pengar skapar pyramidspelsstruktur",
+          "Risk för överkapacitet i datacenter",
+          "Jämförelser med IT-bubblan och Ericssons krasch"
+        ],
+        "catalysts": [
+          "Fortsatta investeringar i AI-infrastruktur",
+          "Nya AI-applikationer"
+        ],
+        "risks": [
+          "Minskad orderingång när kunderns datacenter är byggda",
+          "Pyramidspelsstruktur kollapsar",
+          "Övervärdering av AI-bolag"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar den pågående microcap/nanocap rallyn som ett tecken på sent i börscykeln, parallellt med att VIX stiger på grund av både FOMO och ökad köp av försäkring mot nedgång. Analyserar dollarns kraftiga försvagning i ett historiskt perspektiv och kopplar detta till begynnande tillgångsinflation. Varnar för AI-sektorns cirkelinvesterande och pyramidspels-liknande struktur. Konkluderar att vi kan stå inför ett strukturellt skifte i valutasystemet men att det inte nödvändigtvis betyder katastrof.",
+  "key_takeaways": [
+    "Microcap/nanocap rallyn är ett klassiskt sent-tecken i börscykeln",
+    "VIX stiger på grund av både köpoptioner (FOMO) och säljoptioner (försäkring)",
+    "Dollarn på väg mot sämsta år sedan 1971, parallellt med stigande aktier, guld och krypto",
+    "AI-bolag som Nvidia finansierar kunder som cirkelinvesterande - risk för pyramidspelsstruktur",
+    "Vi kan stå inför ett monetärt skifte men det inte nödvändigtvis negativt långsiktigt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marknaden/transcripts/marknaden-2025-10-09-33be.txt",
+  "transcript_word_count": 8328,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

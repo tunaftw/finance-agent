@@ -1,0 +1,121 @@
+{
+  "source_id": "jrNS9D6vR4U",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-03-06",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "Extensive technical analysis covering monthly, weekly, and daily timeframes. Discussing range between 23.3K resistance and 20K support, with intermediate level at 21.3K. Noting breakdown from daily range but potential for higher low",
+      "quote": "the big boys resistance support and just be aware of where previous month's low is in case we start trading down there... the continuation Target for that is around 30k which is the bottom of this previous range",
+      "price_levels": [
+        "$23.3K",
+        "$23.8K",
+        "$21.3K",
+        "$20.7K",
+        "$20.6K",
+        "$19.5K",
+        "$20.5K",
+        "$30K"
+      ],
+      "timeframe": "mixed",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Discusses ETH trading range between 1500 and 1660, with resistance at 1680. Advises against trading in the middle, suggests range low at 1500 could be interesting for short-term bounce if context appropriate",
+      "quote": "the one phrase kind of summarizes my view of don't diddle in the middle... the only two things I'll say on if the range low is a tradable area in the appropriate context the 1500 either just on a straight test or a failed breakdown",
+      "price_levels": [
+        "$1680",
+        "$1500",
+        "$1660",
+        "$1400",
+        "$1370",
+        "$1380"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Notes decoupling between equities and crypto, with equities bouncing while crypto declined. SPX range between 3900-4100 with resistance at 4100. Correlations not favorable for crypto",
+      "quote": "unfortunately it was in the wrong direction we had strength in equities and risk indices in particular while our Market puked... the correlations don't bear that out for crypto",
+      "price_levels": [
+        "$3911",
+        "$4100",
+        "$3900",
+        "$4300",
+        "$4400"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$23.3K",
+        "$21.3K",
+        "$20K"
+      ],
+      "ETH": [
+        "$1500",
+        "$1680"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin stuck in range trading with monthly resistance at 23.3K and support between 19.5-20.5K",
+    "Daily timeframe broke down from consolidation, not yet at meaningful support levels",
+    "No compelling setups until price reaches higher time frame support at 21.3K or 20K",
+    "Ethereum range-bound between 1500 and 1680, middle of range not worth trading",
+    "Crypto decoupled negatively from equities - equities rallied while crypto declined",
+    "Market is choppy across BTC and ETH, waiting for pullback to support levels"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$21.3K-$21.5K on failed breakdown below previous month's low",
+      "target": "$25K range high",
+      "stop": "below monthly support",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$20K-$20.7K monthly/weekly support",
+      "target": "$25K then $30K on breakout",
+      "stop": "below $19.5K",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1500 range low or $1370-$1380 zone on failed breakdown",
+      "target": "$1660 range high",
+      "stop": "below support zone",
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "Cred and Duck analyze Bitcoin and Ethereum technical setups with both markets trading in choppy consolidation. BTC faces monthly resistance at 23.3K with key support at 21.3K and 20K - the earliest bullish setup would be a failed breakdown at previous month's low. ETH is range-bound between 1500-1680 with Duck advising against trading the middle, suggesting the range low at 1500 could offer bounce opportunities. Crypto decoupled negatively from equities which rallied while crypto declined, indicating unfavorable correlations.",
+  "transcript_word_count": 13115,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:22:24.794971"
+}

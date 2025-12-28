@@ -1,0 +1,130 @@
+{
+  "source_id": "ycEHxpNzh4U",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-02-12",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Technical analysis across multiple timeframes showing breakout from consolidation",
+      "quote": "weekly time frame has been breakout consolidation breakout continuation another consolidation breakout. weekly Market structure has been very very resilient",
+      "price_levels": [
+        "$35-37k",
+        "$47k",
+        "$50-52k",
+        "$58k",
+        "$51.8k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Discussing BTC relative strength and ETH lagging performance",
+      "quote": "slightly counterintuitive typically on BTC strong days eth has lagged. the weekly time frame is probably the most interesting one",
+      "price_levels": [
+        "$2500",
+        "$3200"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ORDI",
+      "asset_name": "Ordinals/Audi",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Brief mention of performance",
+      "quote": "ordinals or Audi is doing well",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as slow relative to BTC",
+      "quote": "say salana slightly slow",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "STX",
+      "asset_name": "Stacks",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as BTC proxy",
+      "quote": "sort of proxy bet for BTC nowadays",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$35-37k",
+        "$47k",
+        "$50-52k",
+        "$58k"
+      ],
+      "ETH": [
+        "$2500",
+        "$3200"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC broke out from 8-week consolidation with strong weekly technical structure",
+    "Monthly time frame best used for buying large scary dips, weekly for faster signals",
+    "Weekly breakout above 44k is key support level now",
+    "Open interest and funding rates showing extended positioning, risk of short-term pullback",
+    "ETH showing relative weakness but could be trend reversal precursor"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$50-52k",
+      "target": "$58k",
+      "stop": "$47k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$2500+ on weekly close",
+      "target": "$3200",
+      "stop": "$2500",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "if price rejects and consolidates with elevated funding",
+      "target": "$47k",
+      "stop": "$52k",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes BTC technicals showing strong weekly breakout from 8-week consolidation with key support at 47k and resistance at 58k. Monthly time frame shows consolidation in 35-58k range. Open interest and funding rates are elevated suggesting extended positioning with potential for short-term correction. ETH showing relative strength today which could signal trend reversal, with key level at 2500.",
+  "transcript_word_count": 14999,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T03:07:17.893161"
+}

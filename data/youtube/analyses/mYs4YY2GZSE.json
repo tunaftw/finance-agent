@@ -1,0 +1,131 @@
+{
+  "source_id": "mYs4YY2GZSE",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-08-11",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Discussing BTC stuck at $29k, resistance levels, and market weakness",
+      "quote": "I don't really see a point in being too bullish unless we trade above there [29.5 to 29.8] because that's like that's the closest level that we have like it's very very close to price and it's the first indication that we actually have some strength going on and so far we have none of that right",
+      "price_levels": [
+        "$27",
+        "$27.5",
+        "$29.5",
+        "$29.8",
+        "$30k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "BTC rejected at 29.5-29.8 area, no bullish signs yet",
+      "quote": "technically we are at resistance and we have been weak given the headlines that we've been having...it's been a drag and it's not been stopping so I don't think uh any other time frame like the Daily's been working good but it's not as important as",
+      "price_levels": [
+        "$29.5",
+        "$29.8",
+        "$30k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BNB",
+      "asset_name": "Binance Coin",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "BNB at critical support with regulatory concerns about Binance",
+      "quote": "if it goes to 50 it's probably gonna go to zero...otherwise it's never gonna go there right like if anything I think BNB like at a hundred um ish like that's as low as I would buy this...because if it goes much lower than that I think it's just gone",
+      "price_levels": [
+        "$50",
+        "$100",
+        "$220"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "XRP",
+      "asset_name": "XRP",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "XRP at support around 0.6, failed to rally significantly despite SEC court decision",
+      "quote": "xrp USD is actually one of the few charts...it's basically trading at 0.6 support...if that goes uh yeah that looks horrendous right almost like if that's 0.6 0.6 uh support goes it almost looks as bad as BNB",
+      "price_levels": [
+        "$0.6"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$27",
+        "$29.5",
+        "$29.8",
+        "$30k"
+      ],
+      "BNB": [
+        "$100",
+        "$220"
+      ],
+      "XRP": [
+        "$0.6"
+      ]
+    }
+  },
+  "key_insights": [
+    "Crypto market is experiencing extremely low volatility and volume, making trading difficult",
+    "BTC has been weak while S&P500 was strong, but recently BTC has shown some resilience as S&P struggles",
+    "ETF delays are not moving the market significantly anymore; only BlackRock ETF approval/denial or Grayscale case resolution expected to be major catalysts",
+    "Exchange tokens like BNB carry existential regulatory risk that must be factored into risk/reward calculations",
+    "Professional traders typically make money in just a few days per year and stay out of the market during choppy periods",
+    "Regulatory uncertainty persists with SEC appealing partial Ripple case, creating uncertainty for US crypto market",
+    "Weekly close above $29.5-29.8 needed for any bullish BTC setup"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long (conditional)",
+      "entry": "Wait for weekly close above $29.5-29.8",
+      "target": "Break above $30.6 potential catalyst",
+      "stop": null,
+      "speaker": "Duck"
+    },
+    {
+      "asset": "BNB",
+      "direction": "short (on news)",
+      "entry": "On regulatory headline from DOJ",
+      "target": "Poke below range, test $100",
+      "stop": null,
+      "speaker": "Duck"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short (conditional)",
+      "entry": "If weekly fails and breaks down",
+      "target": "$27ish area",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Crypto market remains in a low volatility environment with BTC stuck around $29k. Both hosts express bearish sentiment, noting BTC has been rejected at $29.5-29.8 resistance and needs weekly close above this level for bullish setup. Major catalysts like ETF delays aren't moving price; traders are focused on BlackRock ETF decision. Exchange tokens like BNB face existential regulatory risk with support at $220. Trading opportunities are limited; most profitable traders stay inactive during these conditions and only trade during rare high conviction setups.",
+  "transcript_word_count": 42358,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:32:50.426141"
+}

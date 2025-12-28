@@ -1,0 +1,447 @@
+{
+  "source_id": "venturafpc",
+  "analyzed_at": "2025-12-28T14:00:00",
+  "analyzed_by": "claude-code-agent",
+  "total_tweets_in_dataset": 698,
+  "investment_relevant_tweets": 287,
+  "tweets_reviewed": 250,
+  "profile_summary": {
+    "name": "Michael Kjaer (VenturaFPC)",
+    "description": "Nordic small/micro-cap fundamental analyst. Focus on quality growth companies with good management.",
+    "investment_style": "Quality growth, fundamental analysis, concentrated portfolio",
+    "language": "en/da/sv",
+    "notable": "Very detailed Q-report analysis, follows Nordic markets closely. 128% return in 2025, 50% CAGR over 6 years.",
+    "influences": ["Ian Cassel", "Peter Lynch"]
+  },
+  "investment_philosophy": {
+    "portfolio_size": "8-12 companies",
+    "position_sizing": "Start 3-10%, let winners run to 30-35%",
+    "approach": "Averaging up, not down",
+    "performance_2025": "~128% YTD",
+    "cagr_6_years": "50%",
+    "focus": [
+      "Profitable companies or 1-2 quarters from profitability",
+      "Small companies before institutional investors",
+      "Overlooked, misunderstood, and cheap cases",
+      "Organic growth companies",
+      "Simple business models with recurring revenue",
+      "Intelligent fanatics (proven CEOs)",
+      "Small niche market leaders"
+    ],
+    "avoids": [
+      "Banks",
+      "Oil companies",
+      "Property developers",
+      "Mining companies",
+      "Companies with large net debt",
+      "Inorganic growth driven companies"
+    ],
+    "sell_triggers": [
+      "Bad quarterly reports (usually followed by more bad quarters)",
+      "Valuation too high on NTM estimates",
+      "Management stops executing",
+      "Increased risk combined with high valuation"
+    ],
+    "key_metrics": ["EV/EBIT", "EBIT margin scaling", "Revenue growth", "Gross margin", "Insider ownership"]
+  },
+  "stock_mentions": [
+    {
+      "stock_name": "Hove",
+      "ticker": "HOVE",
+      "exchange": "First North Denmark",
+      "action": "buy",
+      "confidence": "very_high",
+      "first_mentioned": "2025-09-15",
+      "latest_update": "2025-12-26",
+      "business_description": "Danish company supplying pumps and lubricants to wind turbine industry. Nespresso model - sell pumps (hardware) and grease (recurring).",
+      "valuation_notes": {
+        "market_cap": "119m DKK",
+        "ev": "103m DKK",
+        "net_assets": "70m DKK",
+        "ebit_estimate": "19-22m DKK",
+        "current_ev_ebit": "6x on R12",
+        "fair_ev_ebit": "10-12x",
+        "upside": "75-105%"
+      },
+      "reasoning": [
+        "Wind energy tailwind - India market growing to 100 GW by 2030",
+        "AI, EVs, datacenters driving wind demand",
+        "Non-cyclical - maintenance required even in weak economy",
+        "17% CAGR since IPO, EBITDA scaled from 6.5m to 21-24m",
+        "Nespresso model creates recurring revenue from grease",
+        "Conservative forecasts after trust destruction in 2023 - likely upgrades coming",
+        "Dividend yield 5.6% expected (0.25 DKK)",
+        "High insider ownership: CEO 30%, CCO 3%, COO 2%"
+      ],
+      "risks": [
+        "Trust destroyed in 2023 after insiders sold before downgrades",
+        "Currency headwind from USD decline (8-10m DKK)"
+      ],
+      "quotes": [
+        "Da de IPO'ed for 4 ar siden var EBITDA 6m nu er den 21-24m",
+        "Jeg synes det ser ret attraktivt ud",
+        "Wind is one of the cheapest energy forms, it's not going anywhere",
+        "The business model is not cyclical, as wind turbines require maintenance even in a weak economy"
+      ]
+    },
+    {
+      "stock_name": "Dellia",
+      "ticker": "DELLIA",
+      "exchange": "First North",
+      "action": "buy",
+      "confidence": "high",
+      "first_mentioned": "2025-11-20",
+      "latest_update": "2025-12-10",
+      "business_description": "Nordic snack company (dried fruit, nuts). Recently IPO'd.",
+      "valuation_notes": {
+        "ebit_adjusted": "40.3m (IPO costs removed)",
+        "growth": "156%",
+        "current_ev_ebit": "8.5x on 2026e",
+        "fair_ev_ebit": "15x",
+        "ebit_2025e": "115m",
+        "ebit_2026e": "170m"
+      },
+      "reasoning": [
+        "CEO execution track record exceptional - not many have executed like this",
+        "Hyper-growth in all markets justifies 15x EV/EBIT",
+        "Exclusive supplier agreements create moat",
+        "Strong in all Nordic markets, Sweden growth despite competition",
+        "Supply constraints resolving in 2026"
+      ],
+      "risks": [
+        "Supply constraints currently limiting growth"
+      ],
+      "quotes": [
+        "40,3m EBIT adjusted for IPO cost",
+        "156% growth, most of revenue is from core markets in Nordic countries",
+        "Trades around EV/EBIT 8,5x on my 2026e, I think 15x EV/EBIT is justified",
+        "Ikke mange har eksekveret som Dellia CEO har gjort"
+      ]
+    },
+    {
+      "stock_name": "Plejd",
+      "ticker": "PLEJD",
+      "exchange": "First North Stockholm",
+      "action": "hold",
+      "confidence": "high",
+      "first_mentioned": "2024-04",
+      "latest_update": "2025-12-26",
+      "business_description": "Smart home/lighting control systems for electricians.",
+      "trading_history": "Sold summer 2023 when growth slowed, re-entered April 2024 when growth returned",
+      "reasoning": [
+        "Electricians prefer Plejd over Shelly",
+        "Better customer service and higher quality products",
+        "First mover advantage",
+        "Management (Babak) praised for incredible work",
+        "Huge TAM, long-term compounder",
+        "Could become 100bn SEK company in 10 years"
+      ],
+      "quotes": [
+        "Yes I sold Plejd when growth was slowing down back in summer of 2023, i reentered in april 2024 because growth was back",
+        "It's up to the electricians, they seem to prefer Plejd over Shelly",
+        "I would not be surprised to see Plejd become a 100bn SEK company in 10 years"
+      ]
+    },
+    {
+      "stock_name": "Zinzino",
+      "ticker": "ZZ",
+      "exchange": "First North Stockholm",
+      "action": "hold",
+      "confidence": "medium",
+      "first_mentioned": "2025-01-07",
+      "latest_update": "2025-11-19",
+      "business_description": "Test-based nutritional supplements using network marketing model.",
+      "valuation_notes": {
+        "ev_ebit": "~20x on 2025e",
+        "q3_ebit": "101.3m vs 54.4m YoY"
+      },
+      "reasoning": [
+        "Not a pyramid scheme - 85%+ revenue from customers not partner recruitment",
+        "Products are legit, solve health issues",
+        "Test-based supplements unique approach",
+        "Very low churn for consumer product = stable growth",
+        "Zurvita acquisition boosting US market",
+        "Enhanzz acquisition success: 30m SEK -> 300m+ SEK in 3 years",
+        "15-year growth track record justifies multiple"
+      ],
+      "risks": [
+        "Large insider sales since 40 SEK",
+        "Short interest 3.51%"
+      ],
+      "quotes": [
+        "Stronger EBIT than expected 101,3m vs 54,4m last year",
+        "Gross margin improved, better market mix, lower raw material prices",
+        "85%+ af omsaetning kommer fra kunder og ikke rekrutering af nye partner"
+      ]
+    },
+    {
+      "stock_name": "SNX / Premium Snacks Nordic",
+      "ticker": "SNX",
+      "exchange": "First North Denmark",
+      "action": "hold",
+      "confidence": "medium",
+      "first_mentioned": "2025-02-07",
+      "latest_update": "2025-11-05",
+      "business_description": "Snack distributor/producer in Nordic countries.",
+      "valuation_notes": {
+        "revenue_2025": "550m",
+        "ebita_margin": "~7%"
+      },
+      "reasoning": [
+        "CEO Henrik praised repeatedly for amazing work",
+        "EBITA% scaling well with increased revenue",
+        "50m Coop deal helps 2026 growth",
+        "Industry benchmarks show 10%+ EBITA normal, some 20%+"
+      ],
+      "quotes": [
+        "Fortsat meget staerk momentum i q3",
+        "Opjustere forecast til 550m omsaetning og EBITA omkring 7%",
+        "Henrik done amazing work since he became CEO"
+      ]
+    },
+    {
+      "stock_name": "Nelly",
+      "ticker": "NELLY",
+      "exchange": "Stockholm",
+      "action": "hold",
+      "confidence": "medium",
+      "first_mentioned": "2025-01-21",
+      "latest_update": "2025-10-23",
+      "business_description": "Online fashion retailer, focus on young women, increasing own-brand products.",
+      "valuation_notes": {
+        "ev_ebit": "8-10x",
+        "ebit_2025e": "180m",
+        "seb_target": "91 SEK",
+        "upside": "75%"
+      },
+      "reasoning": [
+        "Turnaround story - gotten control of the business",
+        "Own brand growth key margin driver: 36% -> 55%",
+        "Return rate improvement huge profit impact: 33% -> 27.9%",
+        "Copenhagen store matching Stockholm traffic in year 1",
+        "Shein EU tariffs potential tailwind",
+        "~3 SEK dividend expected (~5% yield)"
+      ],
+      "quotes": [
+        "If Shein get hit by EU tariffs, then we could see a tailwind on growth",
+        "I guess they will make 180m EBIT this year"
+      ]
+    },
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS",
+      "exchange": "Stockholm",
+      "action": "hold",
+      "confidence": "medium",
+      "first_mentioned": "2025-02-06",
+      "latest_update": "2025-07-27",
+      "business_description": "Online gambling/betting operator.",
+      "valuation_notes": {
+        "pe": "8-10",
+        "dividend_yield": "~5%"
+      },
+      "reasoning": [
+        "Great management consistently praised",
+        "LATAM market leader in high-growth region",
+        "Regulated revenue at all-time high - de-risking",
+        "M&A expected with cash pile",
+        "World Cup 2026 catalyst"
+      ],
+      "quotes": [
+        "Good dividend stock with great management",
+        "Are among the market leaders in high growth LATAM area",
+        "Interesting what they will do with all the cash, I expect MA coming soon"
+      ]
+    },
+    {
+      "stock_name": "Avtech",
+      "ticker": "AVTECH",
+      "exchange": "First North Stockholm",
+      "action": "hold",
+      "confidence": "medium",
+      "first_mentioned": "2025-10-04",
+      "latest_update": "2025-10-23",
+      "valuation_notes": {
+        "ebit_2025e": "20m",
+        "ebit_2026e": "30m"
+      },
+      "reasoning": [
+        "Strong Q3 numbers",
+        "New product category developing",
+        "Potential acquisition target mentioned"
+      ],
+      "quotes": [
+        "Strong Q3 numbers. I look forward to seeing new deals in Q4"
+      ]
+    },
+    {
+      "stock_name": "Tekova",
+      "ticker": "TEKOVA",
+      "exchange": "Helsinki",
+      "action": "buy",
+      "confidence": "medium",
+      "first_mentioned": "2025-08-19",
+      "latest_update": "2025-09-11",
+      "business_description": "Finnish construction company for commercial, office, logistics, production, and sports facilities.",
+      "valuation_notes": {
+        "market_cap": "50m EUR",
+        "ev": "31m EUR",
+        "ebit_forecast": "7-10m EUR (upgraded to 8.5-11.5m)",
+        "fair_ev_ebit": "8x",
+        "upside": "~80%",
+        "dividend_yield": "5.3%"
+      },
+      "reasoning": [
+        "Stable development since founded",
+        "All-time high order book",
+        "English reports starting 2026",
+        "Spoke with CEO directly",
+        "Small niche reduces competition risk"
+      ],
+      "risks": [
+        "Market is cyclical",
+        "Individual project risk"
+      ],
+      "quotes": [
+        "I have a fair multiple of EV/EBIT 8x, and I expect 9m EBIT, hence approximately 80% upside"
+      ]
+    },
+    {
+      "stock_name": "Pexip",
+      "ticker": "PEXIP",
+      "exchange": "Oslo",
+      "action": "hold",
+      "confidence": "medium",
+      "first_mentioned": "2025-11-06",
+      "valuation_notes": {
+        "ev_ebit": "17x on 2026e"
+      },
+      "reasoning": [
+        "SaaS scaling incredibly well",
+        "Example of why people love SaaS"
+      ],
+      "quotes": [
+        "Pexip is why people love SaaS, they scale incredible well"
+      ]
+    }
+  ],
+  "sold_positions": [
+    {
+      "stock_name": "Freetrailer",
+      "ticker": "FREETR",
+      "exchange": "First North Denmark",
+      "sold_date": "2025-07",
+      "owned_since": "IPO",
+      "reason_sold": [
+        "Valuation increased too much vs potential NTM",
+        "Lost tier 1 customer (Salling Group - Fotex + Bilka, ~250 trailers)",
+        "High valuation + increased risk = bad combo"
+      ],
+      "lesson": "High valuation + increased risk = sell signal"
+    },
+    {
+      "stock_name": "WindowMaster",
+      "ticker": "WMA",
+      "sold_date": "2025-07",
+      "reason_sold": [
+        "Downgrade on 2025e",
+        "Visibility super low, increases risk",
+        "Stock more volatile than expected"
+      ],
+      "lesson": "Low visibility + volatility + downgrade = sell"
+    },
+    {
+      "stock_name": "Incap",
+      "ticker": "INCAP",
+      "reason_sold": [
+        "EMS too cyclical, can't value",
+        "Performance due to largest customer, not management",
+        "Management average"
+      ],
+      "lesson": "Cyclical + can't value + average management = not his style"
+    }
+  ],
+  "sector_views": [
+    {
+      "sector": "Nordic Small/Micro-caps",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "reasoning": "Primary focus area. Many overlooked opportunities. Mispriced before institutional investors get involved."
+    },
+    {
+      "sector": "Wind Energy/Green Tech",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "reasoning": "Hove exposure. India wind market growth to 100 GW by 2030. AI/EV/datacenter demand. Cheapest energy form."
+    },
+    {
+      "sector": "Smart Home",
+      "sentiment": "bullish",
+      "confidence": "medium",
+      "reasoning": "Plejd investment. Huge TAM, electricians prefer quality products."
+    },
+    {
+      "sector": "Network Marketing / MLM",
+      "sentiment": "neutral",
+      "confidence": "medium",
+      "reasoning": "Zinzino position. Must have 85%+ customer revenue vs recruitment. Products must be legit."
+    },
+    {
+      "sector": "Online Gambling",
+      "sentiment": "bullish",
+      "confidence": "medium",
+      "reasoning": "Betsson position. LATAM growth, regulated revenue, strong management."
+    }
+  ],
+  "market_outlook": {
+    "overall_sentiment": "bullish",
+    "focus_areas": "Nordic small-caps with quality management",
+    "key_insights": [
+      "Market slow to price in good/bad reports - creates opportunities if quick to react",
+      "Bad quarters usually followed by more bad quarters - sell quickly",
+      "Low valuation + rapid EPS growth + multiple expansion = multibagger",
+      "Smart retail -> funds -> dumb retail (capital flow)"
+    ]
+  },
+  "actionable_insights": [
+    {
+      "insight": "Hove at attractive valuation (EV/EBIT 6x, fair 10-12x)",
+      "actionable": true,
+      "action_type": "buy_candidate",
+      "ticker": "HOVE",
+      "upside": "75-105%"
+    },
+    {
+      "insight": "Dellia trading at 8.5x EV/EBIT, target 15x",
+      "actionable": true,
+      "action_type": "buy_candidate",
+      "ticker": "DELLIA",
+      "upside": "~77%"
+    },
+    {
+      "insight": "Tekova at 80% upside on fair EV/EBIT 8x",
+      "actionable": true,
+      "action_type": "buy_candidate",
+      "ticker": "TEKOVA",
+      "upside": "~80%"
+    },
+    {
+      "insight": "Nelly 75% upside on 2026e",
+      "actionable": true,
+      "action_type": "buy_candidate",
+      "ticker": "NELLY",
+      "upside": "75%"
+    },
+    {
+      "insight": "Sell on bad reports - next quarters usually also bad",
+      "actionable": true,
+      "action_type": "strategy"
+    },
+    {
+      "insight": "Market slow to react to reports - be quick",
+      "actionable": true,
+      "action_type": "strategy"
+    }
+  ],
+  "analysis_prompt_template": "Las igenom Twitter-datan for [USERNAME] i:\n- data/twitter/raw/[USERNAME]/tweets.jsonl\n- data/twitter/analyses/[USERNAME]-analysis.json (om den finns)\n\nGor en djupgaende analys av anvandarens aktierekommendationer over tid:\n\n1. **Investeringsfilosofi** - Vad ar deras overgripande strategi? Hur manga aktier i portfoljen? Position sizing? Sell-triggers?\n\n2. **Alla aktienamningar med hog conviction** - Lista ut:\n   - Aktienamn och ticker\n   - Datum for rekommendation\n   - Action (kop/salj/behall)\n   - Nyckeltal vid rekommendationen (MC, EV, EV/EBIT, P/E, etc.)\n   - **Detaljerad motivering** - inkludera sa mycket reasoning som mojligt fran tweets\n   - Direkta citat pa originalsprak\n\n3. **Salda positioner** - Vilka aktier har de salt och varfor? Vad kan man lara sig?\n\n4. **Sektorpreferenser** - Vilka branscher gillar/undviker de?\n\n5. **Roda flaggor de namner** - Vad far dem att salja?\n\nFormatera som en lasbar tabell/rapport. Inkludera alltid mer snarare an mindre nar det galler reasoning och motivation - jag vill forsta VARFOR de gillar varje aktie."
+}

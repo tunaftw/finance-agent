@@ -1,0 +1,414 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "sparpodden-2021-08-04-f3de",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Kan techbolagen fortsätta växa? - Med Johan Roslund - Sparpodden 404",
+  "episode_number": 404,
+  "date": "2021-08-04",
+  "hosts": [
+    "Sparpodden-host"
+  ],
+  "guests": [
+    "Johan Roslund"
+  ],
+  "main_topics": [
+    "Big Tech",
+    "Cloud computing",
+    "Semiconductors",
+    "Digital signing",
+    "Tencent/Prosus",
+    "Gaming"
+  ],
+  "stocks_discussed": [
+    "Microsoft",
+    "Amazon",
+    "Alphabet (Google)",
+    "Apple",
+    "Facebook/Meta",
+    "ASML",
+    "Lam Research",
+    "KLA",
+    "Applied Materials",
+    "Taiwan Semiconductor",
+    "Tencent",
+    "Alibaba",
+    "ProSus",
+    "Sea Limited",
+    "Activision Blizzard",
+    "Netflix",
+    "Salesforce",
+    "Nvidia",
+    "Adobe",
+    "DocuSign",
+    "Zoom",
+    "Embrace"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "ProSus",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Johan Roslund",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "ProSus äger 30 procent av Tencent och handlas med en rabatt på 45 procent mot detta innehav, vilket Johan bedömer är alldeles för högt. Han jämför rabatten med vad Industrivärden haft historiskt och menar att en rimlig nivå vore 10-15 procent rabatt istället för 45 procent. Utöver Tencent-posten får man dessutom andra intressanta innehav som Delivery Hero och Stack Overflow. Det beskrivs som Europas största tech-bolag med 130 miljarder euro i marknadsvärde men som nästan ingen känner till.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är 45 procents rabatt på Tencent-posten och så äger de en massa andra spännande bolag... Det kan man väl säga att industrivärden hade förut också. Nu är den lite uppsplittrat med Fredrik Lundberg och så. Men ska man dra paralleller till det så tycker jag att rabatten är i alla fall alldeles för hög. Den kanske skulle vara 10-15 procent",
+      "sector": "Technology/Investment Company",
+      "market": "europe"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Microsoft, Amazon, Alphabet (Cloud)",
+      "ticker": null,
+      "timestamp_start": "13:18",
+      "timestamp_end": "15:30",
+      "word_count": 800,
+      "speakers": [
+        "Sparpodden-host",
+        "Johan Roslund"
+      ],
+      "primary_speaker": "Johan Roslund",
+      "discussion_summary": "Diskussion kring de tre stora molnleverantörerna AWS (Amazon), Microsoft Azure och Google Cloud. AWS är ledande men Microsoft och Google växer snabbast och tar marknadsandelar. Microsoft har fördel av att Office redan är installerat hos många företag. Amazon har två distinkta delar där AWS skulle kunna spinnas ut. Google är minst men växer snabbast men måste investera mycket.",
+      "quotes": [
+        {
+          "speaker": "Johan Roslund",
+          "text": "Tillväxten drivs så mycket att det blir mer och mer data. Man ser bara själv hur mycket filmer och videos, AI och liknande kräver så mycket datamängder. Samtidigt så behövs det säkerhet, det behövs snabbhet. Så gamla aktörer som lagar det lokalt, det går inte längre.",
+          "timestamp": "13:36",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Den som är ledande är AWS som ingår i Amazon. Sen är det inte de som växer snabbast, för det gör Microsoft och Googles lösningar av de här tre stora. Så de tar marknadsandelar.",
+          "timestamp": "13:36",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Microsoft där är ju egentligen själva Office Software som är huvuddelen. Och sen så vävs Cloud in i det här, så de har ju väldigt fördel att de redan är installerade på så många stora företag.",
+          "timestamp": "14:47",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Amazon, där är ju två ganska olika delar. Så är det något av bolagen som kanske vore smartast att spinna ut så är vi just AWS.",
+          "timestamp": "14:47",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Google till slut, de är ju de minsta av de här tre men växer snabbast. Där kan man väl också tänka att de spinner ut det. Men den är fortfarande för liten och speciellt för olönsam. Så de måste kasta rätt mycket pengar.",
+          "timestamp": "14:47",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "20-30 (excluding cash for large tech)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "15-30%",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Huge data growth from AI, videos, cloud services driving demand",
+          "Microsoft installed base advantage with Office",
+          "Google growing fastest and gaining market share",
+          "Cloud becoming essential for security and speed"
+        ],
+        "bear_case": [
+          "Google still unprofitable in cloud, requires heavy investment",
+          "Complex businesses where you need to like all parts",
+          "Amazon has two very different business segments"
+        ],
+        "catalysts": [
+          "Digital transformation continuing",
+          "AI requiring more computing power",
+          "Security and speed requirements"
+        ],
+        "risks": [
+          "Valuation sensitivity to interest rates",
+          "Competition among the three"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "ASML, Lam Research, KLA, Applied Materials",
+      "ticker": null,
+      "timestamp_start": "17:47",
+      "timestamp_end": "20:36",
+      "word_count": 900,
+      "speakers": [
+        "Sparpodden-host",
+        "Johan Roslund"
+      ],
+      "primary_speaker": "Johan Roslund",
+      "discussion_summary": "Semiconductor equipment manufacturers as an investment theme. Despite current chip shortage and potential inventory buildup risks, long-term demand is driven by need for smaller, more power-efficient chips (5nm, 3nm) for smartwatches and AI. New generations require new equipment. Found no inventory buildup yet, shortage expected for years. Equal weighting in all four companies.",
+      "quotes": [
+        {
+          "speaker": "Johan Roslund",
+          "text": "Det är ju en sån här hårdvara som man inte ser som slutkonsument men som egentligen inte är över all teknologi. Under covid så trodde man ju att hela världen skulle stängas ner så att man tog bort sina beställningar... Och det där gjorde ju att när det var det motsatta som hände... så blev det bara mer efterfrågan.",
+          "timestamp": "17:47",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Det tar två till tre år att få fram de här utrustningarna och bygga en sån här fabrik som kostar kanske 10-20 miljarder.",
+          "timestamp": "17:47",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Även om det blir ett jätte överutbud, det säger att vi går in i recession och folk inte har råd att köpa nya grejer, så kommer det liksom i nästa generation, när man framförallt så här smartwatch och AI och sådant där, så behöver man ju ha mindre och mer strömsnåla, för vi vill ju att batteriet ska hållas längst möjligt.",
+          "timestamp": "19:03",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "När man kommer ner på mindre chippen, alltså 5 och 3 nanometers, och då behöver de här tillverkarna köpa ny utrustning för att kunna göra dem chippen. Så därför kommer det vara en väldig efterfrågan i flera år framöver på teknologin.",
+          "timestamp": "19:03",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Just nu ser man inga lagerbildningar, det kommer att ta flera år innan man ens kommer i kapp.",
+          "timestamp": "20:21",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "I Holland så är det ASML, i USA är det tre bolag, så det är Lamb Research, KLA och Applied Material. Så vi har liksom en korv av dem, så vi har ungefär lika stor viktning i alla.",
+          "timestamp": "19:43",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "10-20 miljarder kostnad för en fabrik"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Next generation chips (5nm, 3nm) require new equipment regardless of economic cycle",
+          "Smartwatch and AI demand for smaller, more power-efficient chips",
+          "Current shortage expected to last several years",
+          "No inventory buildup yet"
+        ],
+        "bear_case": [
+          "Risk of inventory buildup if recession occurs",
+          "Chip shortage might normalize"
+        ],
+        "catalysts": [
+          "AI advancement requiring more computing power",
+          "Wearable devices needing power efficiency",
+          "New chip generations"
+        ],
+        "risks": [
+          "Economic recession reducing chip demand",
+          "Inventory building by customers"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "ProSus",
+      "ticker": null,
+      "timestamp_start": "21:18",
+      "timestamp_end": "25:21",
+      "word_count": 700,
+      "speakers": [
+        "Sparpodden-host",
+        "Johan Roslund"
+      ],
+      "primary_speaker": "Johan Roslund",
+      "discussion_summary": "ProSus is a Dutch company owning 30% of Tencent with 45% discount to that holding. Originally Naspers which made early investment in Tencent. The discount has increased from 20% to 45% due to selling requirements by funds (can't hold >10% in one company on South African exchange). Despite owning the largest European tech company (130 billion euro), it's largely unknown. Compared to Industrivärden's historical discounts. Johan believes discount of 45% is too high, should be 10-15%. Also owns Delivery Hero, Stack Overflow.",
+      "quotes": [
+        {
+          "speaker": "Johan Roslund",
+          "text": "Till exempel ProSus, som också är noterade i Holland precis som ASML. Det är en lång historia men de äger i alla fall 30 procent av Tencent.",
+          "timestamp": "21:18",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Det kan man tro men det sjuka är att de äger faktiskt 30 procents av Tencent. De ägde 33 procents för ett år sedan men de har sålt 3 procents. De pengarna har de tagit och köpt till exempel Stack Overflow, som är ett intressant bolag om man vill rekrytera programmerare och så.",
+          "timestamp": "22:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Men det är faktiskt Europas största tech-bolag som nästan ingen känner till. Och de har 130 miljarder euro i market cap så det är ett jättestort bolag.",
+          "timestamp": "23:07",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Fonder får inte ha mer än 10 procent i ett bolag. Så när Tencent gick upp och Naspers gick upp, så var de tvungna att sälja aktierna för att inte bli överviktade. Det gjorde att stamsrabatten bara ökade.",
+          "timestamp": "24:35",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Det kan man väl säga att industrivärden hade förut också. Nu är den lite uppsplittrat med Fredrik Lundberg och så. Men ska man dra paralleller till det så tycker jag att rabatten är i alla fall alldeles för hög. Den kanske skulle vara 10-15 procent och inte 45.",
+          "timestamp": "24:43",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "130 miljarder euro i market cap",
+          "45% rabatt mot Tencent-innehav"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Owns 30% of Tencent - valuable asset",
+          "45% discount to holding is too high",
+          "Should be 10-15% discount like Industrivärden historically",
+          "Other assets like Delivery Hero and Stack Overflow come for free"
+        ],
+        "bear_case": [
+          "Complicated structure controlled by individuals in South Africa",
+          "Management has too much power",
+          "Governance concerns due to controlling shareholders"
+        ],
+        "catalysts": [
+          "Discount narrowing towards 10-15%",
+          "Tencent continuing to grow"
+        ],
+        "risks": [
+          "Governance and control structure issues",
+          "Discount could persist due to governance concerns"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Big Tech (Microsoft, Apple, Amazon, Alphabet, Facebook)",
+      "ticker": null,
+      "timestamp_start": "06:49",
+      "timestamp_end": "09:07",
+      "word_count": 600,
+      "speakers": [
+        "Sparpodden-host",
+        "Johan Roslund"
+      ],
+      "primary_speaker": "Johan Roslund",
+      "discussion_summary": "Discussion about large tech companies and their growth potential. These companies have doubled from 1 trillion to over 2 trillion in market cap in 2-3 years. When looking at valuation relative to earnings (excluding cash), they trade at 20-30x earnings, which is lower than Swedish industrials like Lagerkrans or Indutrade. Companies still growing 15-30% annually despite large size. Fund holds Microsoft, Amazon, Alphabet in top positions. Apple will likely reach 3 trillion market cap eventually.",
+      "quotes": [
+        {
+          "speaker": "Johan Roslund",
+          "text": "Jag kommer ihåg när de bröt, och jag tror att det var Apple som gjorde det en trillion dollar marken för kanske 2-3 år sedan. Och då sa man att nu kommer det bli en paus, men nu är ju Apple över 2 trillionen. Så att de har ju dubblats då på 2-3 år.",
+          "timestamp": "06:49",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Man måste fortfarande kolla på de klassiska förhållanden till vinsten. Och de stora techbolagen värderas ju till, drar man bort kassan så är det kanske 20-30 gånger vinsten för de som du nämnde.",
+          "timestamp": "07:27",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Så att man kan väl säga att man får Facebook billigare än om man köper lagerkrans eller Indutrade för i Sverige.",
+          "timestamp": "07:27",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Men de här bolagen växer ju ungefär 15-25-30 procent. De har rensat för alla coronaeffekter eller så där. Så Microsoft och Apple växer väl lite i mindre här i radet, med runt 15 procent, vilket är otroligt för så stora bolag.",
+          "timestamp": "08:06",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Kollar man Amazon och Facebook så är det ju över 20-25 procent som de växer.",
+          "timestamp": "08:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Roslund",
+          "text": "Ett Apple kommer förmodligen förr eller senare. Det är nog 3000 miljarder gränsen. Det är bara en tidsfråga.",
+          "timestamp": "39:35",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "20-30 (excluding cash)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "15-30%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Apple över 2 trillion USD i marknadsvärde"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "20-30x earnings valuation is reasonable",
+          "Growing 15-30% annually despite massive size",
+          "Cheaper valuation than Swedish industrials",
+          "Still innovative and acquiring"
+        ],
+        "bear_case": [
+          "Large companies can become inefficient and slow",
+          "Valuation sensitivity to interest rates",
+          "Growth must slow at some point"
+        ],
+        "catalysts": [
+          "Cloud computing growth",
+          "AI and data needs increasing",
+          "Digital transformation"
+        ],
+        "risks": [
+          "Interest rate increases hitting valuations",
+          "Regulation risks",
+          "Growth slowing"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "market_sentiment": "bullish",
+  "summary": "Sparpodden intervjuar Johan Roslund, fondförvaltare på GP Bullhound, om stora tech-bolagen och investeringsstrategi. Diskussionen fokuserar på molntjänster, halvledarutrustning, spel och digital signering som huvudteman. Johan beskriver att stora tech-bolag handlas till rimliga värderingar (20-30x vinst) och fortsätter växa 15-30% årligen. Fondens toppinnehav är Microsoft, Amazon och Alphabet. Han lyfter särskilt fram ProSus som ett köpläge på grund av 45% rabatt mot Tencent-innehavet. Halvledarutrustning ses som långsiktig vinnare oavsett konjunktur då nya chip-generationer kräver ny utrustning.",
+  "key_takeaways": [
+    "Stora tech-bolag växer 15-30% årligen och värderas till 20-30x vinst (exklusive kassa)",
+    "Cloud-tjänster drivs av ökande data, AI och säkerhetskrav med Microsoft och Google som snabbast växande",
+    "Halvledarutrustning (ASML, Lam Research, KLA, Applied Materials) har långsiktig efterfrågan oavsett konjunktur",
+    "ProSus har 45% rabatt mot sitt Tencent-innehav vilket är för högt enligt Johan",
+    "Digital signering är en tydlig trend där Adobe och DocuSign växer 30% med fokus på hela avtalshantering",
+    "Fonden har ca 25 innehav och är aktivt förvaltad",
+    "Tekniksektorn upp 40-50% sedan corona-utbrottet"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2021-08-04-f3de.txt",
+  "transcript_word_count": 6924,
+  "has_timestamps": true,
+  "model_used": "manual"
+}

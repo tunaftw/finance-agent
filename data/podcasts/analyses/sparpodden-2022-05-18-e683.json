@@ -1,0 +1,142 @@
+{
+  "schema_version": "2.0",
+  "episode_id": "sparpodden-2022-05-18-e683",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Att förbereda sig för svårare tider - Nikos Georgelis",
+  "episode_number": 445,
+  "date": "2022-05-18",
+  "hosts": [
+    "Sparpoddens host"
+  ],
+  "guests": [
+    "Nikos Georgelis"
+  ],
+  "main_topics": [
+    " Räntemarknad",
+    " Börsutveckling",
+    " Inflation",
+    " Investeringsstrategi"
+  ],
+  "stocks_discussed": [],
+  "recommendations": [
+    {
+      "stock_name": "Aktiemarknaden generellt (S&P 500/OMX)",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Nikos Georgelis",
+      "speaker_role": "guest",
+      "timestamp": "10:01",
+      "reasoning": "Nikos anser att aktiemarknaden kan värderas ned något ytterligare baserat på ränteuppgången. Fair value för OMX är 1700-1900, och S&P 3500-3800. Han är dock inte extremt negativ men rekommenderar försiktighet.",
+      "price_target": "OMX: 1700-1900, S&P: 3500-3800",
+      "time_horizon": "Närmaste perioden",
+      "quote": "På den ränteuppgången vi har haft tycker vi att 1700-1900 kanske är fair value för OMX. Vi är inte så långt därifrån. Och kanske S&P i 3500-3800, någonstans i den range.",
+      "sector": null,
+      "market": "mixed"
+    },
+    {
+      "stock_name": "Tillväxtaktier generellt",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Nikos Georgelis",
+      "speaker_role": "guest",
+      "timestamp": "03:36",
+      "reasoning": "Nikos menar att tillväxtaktier hade extrema värderingar (P/E på 40-60) och har sålt av kraftigt pga ränteuppgång. Han är förvånad över hur mycket de fallit men anser att det är en fundamental korrektion.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det känns ju sunt, för man satt ju och kollade på mycket av det här och förstod inte de här fantasivärderingarna så mycket. 40, 50 eller 60 epe om man nu växer omsättningen med 100 procent.",
+      "sector": "Tillväxt",
+      "market": "mixed"
+    },
+    {
+      "stock_name": "Value-bolag",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Nikos Georgelis",
+      "speaker_role": "guest",
+      "timestamp": "05:53",
+      "reasoning": "Value-bolag påverkas mindre av ränteförändringar eftersom deras kassaflöden ligger närmare i tid. Nikos nämner att bredda aktieindex står emot bättre än tillväxtaktier i räntehöjande miljö.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och mycket mer då om durationen är mycket längre, kassaflödena ligger väldigt långt bort. Och också då mindre i valuebolag där kassaflödena ligger mycket närmare idag.",
+      "sector": "Value",
+      "market": "mixed"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Investment Grade-obligationer",
+      "ticker": null,
+      "timestamp_start": "25:49",
+      "timestamp_end": "28:09",
+      "word_count": 400,
+      "speakers": [
+        "Nikos Georgelis",
+        "Host"
+      ],
+      "primary_speaker": "Nikos Georgelis",
+      "discussion_summary": "Diskussion om varför investment grade-obligationer tappat tvåsiffrigt. Det beror på ränteuppgång, inte på sämre kreditkvalitet. I USA och Europa har många bolag lånat till fasta räntor på mycket låga nivåer, vilket nu gör lånen värdefulla när marknadsräntorna stigit. Sverige har mer floating rate-lån (stibor plus spread), vilket gör dem mindre känsliga för ränteförändringar men mer för kreditrisk.",
+      "quotes": [
+        {
+          "speaker": "Nikos Georgelis",
+          "text": "I Sverige har vi mycket mer att bolagen betalar än spread över räntan. Medan de andra har emitterat fixed. Då har en mycket högre andel fixed lån.",
+          "timestamp": "26:11",
+          "context": "metric"
+        },
+        {
+          "speaker": "Nikos Georgelis",
+          "text": "Om Apple lånade pengar i 20 år på 1% ränta så kanske det är made sense då, men om helt plötsligt den statliga korta räntan blir 2% då är det här lånet, det är värdelösa lånet ut till dem, mycket lägre än vad du bara kan snurra pengar på ett vanligt sparkonto.",
+          "timestamp": "26:20",
+          "context": "explanation"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Fixed vs floating rate loans",
+          "Duration sensitivity"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Svenska obligationer mindre känsliga för ränteförändringar",
+          "Kreditspreadar fortfarande låga historiskt"
+        ],
+        "bear_case": [
+          "Högre andel fixed-lån i USA/Europa gör dem sårbara",
+          "Kreditspreadar kan gå upp ytterligare vid oro"
+        ],
+        "catalysts": [
+          "Recession rädsla",
+          "Konkursvåg"
+        ],
+        "risks": [
+          "Ränteförändringar",
+          "Kreditförsämringar"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Nikos Georgelis är lätt negativ till börsen pga ränteuppgång och pekar på risker med konsumentköpkraft och stigande bolåneräntor. Han tror på ytterligare nedvärdering men rekommenderar ändå månadssparande för långsiktiga investerare.",
+  "key_takeaways": [
+    "Tillväxtaktier med hög P/E har sålts av kraftigt pga ränteuppgång (duration-effekt)",
+    "Värderingar kan nedjusteras ytterligare men extremt sälj rekommenderas inte",
+    "Håll kassareserv för köpmöjligheter vid panikförsäljning",
+    "Fortsätt månadsspara för långsiktig horisont"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2022-05-18-e683.txt",
+  "transcript_word_count": 7003,
+  "has_timestamps": true,
+  "model_used": "gpt-4"
+}

@@ -1,0 +1,127 @@
+{
+  "source_id": "aVbDdPU1nTM",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-09-11",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Discussing BTC trading at previous month's low and June's low, below interim range low of 25.9-26k. Cred states local trend is down, breakdown continuation more likely than reversal.",
+      "quote": "I think breakdown continuation is more likely than breakdown reversal... I would be inclined to disagree that it's sideways. I would say local trend is down",
+      "price_levels": [
+        "$23k-$24k",
+        "$25.9k-$26k",
+        "$19k",
+        "$20k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Cred outlines conditions that would make him bullish: weekly close above 25.9-26k would signal failed breakdown. Also mentions potential monthly SFP at 23-20k.",
+      "quote": "The second part of that formula would be then closing above the original range low level all at sort of 25.9 to 26k if that were to happen then you could start to make a decently compelling argument for a failed range breakdown",
+      "price_levels": [
+        "$25.9k-$26k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Cred states ETH is even weaker than BTC. BTC holding June lows while ETH has been below equivalent levels for some time. Support at 1400-1500.",
+      "quote": "we're making the argument that ether's even weaker because at least BTC was holding on to its Joon lows whereas if has been below its Joon lows whereas if has been below its equivalent level for some time now",
+      "price_levels": [
+        "$1400-$1500",
+        "$1600",
+        "$1000-$1900"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "SOL has been down for five weeks straight. Key resistance above 30-33 or bottoming range 14-12/14-10. Market pricing in FTX estate supply selling.",
+      "quote": "this thing's just been getting down for five weeks in a row and there's some uh the Market's trying to price in some FTX estate Supply selling type of thing and that just hasn't been particularly good either",
+      "price_levels": [
+        "$30-$33",
+        "$14-$12",
+        "$14-$10"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "Altcoins",
+      "asset_name": "General Altcoin Market",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Altcoins getting murdered, high market cap majors all going down for 5-8 weeks. Correlations converging toward one, it's a bloodbath.",
+      "quote": "it's a bit of a bloodbath out there I mean if you just kind of zoom out on the weekly and look at the high market cap Majors uh they've all been going down at different rates but still going down",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$23k-$24k",
+        "$25.9k-$26k",
+        "$19k"
+      ],
+      "ETH": [
+        "$1400-$1500",
+        "$1600"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC trading at critical levels around 23-24k support, with bearish bias unless close above 25.9-26k",
+    "ETH showing relative weakness compared to BTC, already below equivalent support levels",
+    "Market lacks high time frame support at current breakdown levels, making failed breakdown unlikely",
+    "Liquidations not particularly outsized, not indicating major washout yet",
+    "Altcoin market in bloodbath phase with correlations converging toward 1"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$23.3k-$24.3k",
+      "target": "close above $25.9k-$26k",
+      "stop": "below support area",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1400-$1500",
+      "target": "reclaim previous range",
+      "stop": "below $1400",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred presents bearish outlook for crypto markets with BTC at critical 23-24k support. ETH showing relative weakness below equivalent levels. Market lacks high time frame support at current breakdown, making Cred unlikely to buy the breakdown without proof of reversal. Looking for weekly close above 25.9-26k on BTC as first bullish signal. Altcoins experiencing bloodbath with high correlations.",
+  "transcript_word_count": 10699,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:32:55.218014"
+}

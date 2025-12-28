@@ -1,0 +1,131 @@
+{
+  "source_id": "LIzYdtB_COs",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-06-03",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Monthly close above 58.8k former Range High, bullish retest, potential reaccumulation pattern",
+      "quote": "I don't think there's a strong or any kind of bearish argument to be had on this time frame uh we've had a bullish retest and now that we've spent two three months here if this is a true reaccumulation uh it should get moving quite quickly",
+      "price_levels": [
+        "$58.8k",
+        "$61.2k",
+        "$67k",
+        "$73k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum/Bitcoin pair",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Market in pause mode waiting for ETF flows, back above 052 but struggles with momentum",
+      "quote": "nothing too bearish or I think weak on the e e BTC side more I think the market is kind of in pause mode uh with regard to ETF flows",
+      "price_levels": [
+        "0.057"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "ETF narrative support, strong level at 3600, potential for front-running ETF flows",
+      "quote": "I think it's worth giving eth the whole ETF narrative a shot um looking for some eth front run it so looking for some eth upside with a real ETF shouldn't be the most insane proposition in the world",
+      "price_levels": [
+        "$3,600",
+        "$3,700",
+        "$3,928",
+        "$4,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Key pivot level at 170, watching for setups from this level",
+      "quote": "I think the best technical level to give rise to that view will come from 170ish I'm not so fond of the support levels below that",
+      "price_levels": [
+        "$170",
+        "$160"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$61.2k",
+        "$67k",
+        "$73k"
+      ],
+      "ETH": [
+        "$3,600",
+        "$3,928",
+        "$4,000"
+      ],
+      "SOL": [
+        "$170"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC monthly close is bullish with successful retest of former range high at $58.8k",
+    "BTC is in consolidation phase with range $61.2k-$73k, potential reaccumulation pattern",
+    "BTC daily range midpoint at $67k acts as key support level",
+    "ETH has strong support at $3,600 with resistance at $3,928-$4,000",
+    "ETH ETF narrative could drive upside similar to BTC ETF performance",
+    "ETH/BTC pair in pause mode waiting for ETF flows and approvals",
+    "SOL key pivot level at $170 for directional bias",
+    "Daily closes on BTC have been clean and worth taking at face value"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$67k or range midpoint",
+      "target": "$73k or range high",
+      "stop": "below $61.2k on daily close",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$3,600 with shallow breakdown setup",
+      "target": "$3,928-$4,000 or higher",
+      "stop": "below $3,600",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "SOL",
+      "direction": "range trade",
+      "entry": "watch $170 for directional cue",
+      "target": "breakout or breakdown trade",
+      "stop": "depends on setup",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "The episode analyzes BTC, ETH, and SOL technical setup with overall bullish sentiment. BTC shows constructive consolidation with successful retest of $58.8k and range $61.2k-$73k, suggesting reaccumulation. ETH has strong support at $3,600 with ETF narrative potential for upside. SOL key level at $170. Market remains bullish on higher timeframes but requires patience with consolidation.",
+  "transcript_word_count": 10805,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T23:11:15.253138"
+}

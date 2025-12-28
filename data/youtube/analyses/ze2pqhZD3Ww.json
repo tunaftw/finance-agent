@@ -1,0 +1,100 @@
+{
+  "source_id": "ze2pqhZD3Ww",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-03-07",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "BTC is stuck and magnetized at 38-40k level, struggling with resistance at 43-44k",
+      "quote": "the market continues to struggle with this market structure level and previous support and resistance at 43 44k or thereabouts",
+      "price_levels": [
+        "$38k-$40k",
+        "$43k-$44k",
+        "$32k-$38k",
+        "$43k-$47k",
+        "$60k",
+        "$20k",
+        "$14k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "If resistance at 43-47k breaks, bullish continuation target towards 60k",
+      "quote": "to me my eye test at least is that the next trade would be towards 60k if this mid to high 40 area breaks",
+      "price_levels": [
+        "$43k-$47k",
+        "$60k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "If support at 32-38k breaks, downside targets at 20k or 14k",
+      "quote": "the downside targets if this should break are fairly self-evident first of all the lows and then maybe as low as 20k 14k",
+      "price_levels": [
+        "$32k-$38k",
+        "$20k",
+        "$14k"
+      ],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$32k-$38k",
+        "$38k-$40k",
+        "$43k-$44k",
+        "$43k-$47k",
+        "$60k",
+        "$20k",
+        "$14k"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC is currently stuck and magnetized around the 38-40k level with a crypto native bid present",
+    "Key resistance zone is 43-47k, which has been capping the market",
+    "Support zone is 32-38k, representing the bottom of the previous range",
+    "If 43-47k breaks, trend metrics flip up and target is 60k",
+    "If 32-38k support breaks, could see 20k-14k as disaster territory",
+    "30k is the new 6k breakdown level - break would signal dire conditions",
+    "Current market conditions are choppy with no clear directional bias",
+    "For now, nothing compelling to trade - market stuck with resistance resisting and support supporting"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Above $43k-$47k on break",
+      "target": "$60k",
+      "stop": "Below $43k-$47k",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC is stuck in a range between 32-38k support and 43-47k resistance, currently magnetized around 38-40k. If resistance breaks, target is 60k. If support breaks, could see 20k-14k. Market conditions are choppy with no compelling trade setups at the moment.",
+  "transcript_word_count": 10117,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T03:19:21.594111"
+}

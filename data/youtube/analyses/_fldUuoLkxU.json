@@ -1,0 +1,169 @@
+{
+  "source_id": "_fldUuoLkxU",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-05-06",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Daily failed breakdown pattern reclaimed range low at 61-62k, expecting move to range midpoint 67.1 and range high 73.1 if setup holds with shallow pullback",
+      "quote": "failed breakdowns in general are bullish patterns... if a multi time frame failed breakdown in a high time frame area of support isn't enough to send the market higher then we probably need to go a lot lower to find buyers",
+      "price_levels": [
+        "$61.2k",
+        "$62.8k",
+        "$67.1k",
+        "$73.1k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BONK",
+      "asset_name": "Bonk",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Failed breakdown at 215 reclaimed, now at range high 281. Looking for shallow pullback to range midpoint 248 to hold",
+      "quote": "if you have a strong reclaim the market shouldn't really make its way all the way back to where that strong reclaim took place",
+      "price_levels": [
+        "$215",
+        "$248",
+        "$281"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "DOGE",
+      "asset_name": "Dogecoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "At resistance level that caused pullback, need daily close above 16 cents to confirm breakout",
+      "quote": "if you're going to be breakout trading this thing uh a daily close back above 16 cents is necessary",
+      "price_levels": [
+        "$0.16"
+      ],
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "PEPE",
+      "asset_name": "Pepe",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Ahead of other alts structurally, looking for shallow pullback around 800ish level for continuation setup",
+      "quote": "I quite like the cluster of highs we built up uh just around 800ish uh because a it's a good technical level and B it's efficiently shallow",
+      "price_levels": [
+        "$800"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Failed breakout above 15, now reclaiming. Daily close above 15 would confirm bias. Watchlist at 153-154",
+      "quote": "in general when the market offers you a failed breakout uh usually lightning doesn't strike twice",
+      "price_levels": [
+        "$15",
+        "$151",
+        "$153-154"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "WIF",
+      "asset_name": "dogwifhat",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Trades similar to BTC with failed breakdown pattern, wants to see acceleration not stagnation",
+      "quote": "anything back below $3 uh would just be a bit shitty otherwise um it's kind of worth giving the failed breakdown a chance",
+      "price_levels": [
+        "$3"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$61.2k",
+        "$67.1k",
+        "$73.1k"
+      ],
+      "SOL": [
+        "$15"
+      ],
+      "DOGE": [
+        "$0.16"
+      ]
+    }
+  },
+  "key_insights": [
+    "Failed breakdowns on multiple assets (BTC, Bonk, Wif, Pepe, SOL) creating bullish setup potential",
+    "Shallow pullbacks are the only acceptable form of trading bullish setups in current market regime",
+    "Urgency is critical ingredient - failed breakdowns must show momentum or setup becomes suspect",
+    "BTC daily failed breakdown at 61-62k is key catalyst, if valid should lead to 67.1 and potentially 73.1",
+    "Market showing low urgency which is concerning for failed breakdown setups",
+    "Pepe structurally ahead of other alts, shows relative strength"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$62,000-$62,800",
+      "target": "$67,100",
+      "stop": "$61,200",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "SOL",
+      "direction": "long",
+      "entry": "$153-154",
+      "target": "pre-breakdown floor",
+      "stop": "$151",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BONK",
+      "direction": "long",
+      "entry": "$245-248",
+      "target": "$281",
+      "stop": "$215",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "PEPE",
+      "direction": "long",
+      "entry": "~$800",
+      "target": "continuation above range",
+      "stop": "range breakdown",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "WIF",
+      "direction": "long",
+      "entry": "on failed breakdown pullback",
+      "target": "continuation",
+      "stop": "$3",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes multiple crypto assets showing failed breakdown patterns, with BTC being the primary catalyst at 61-62k. The key theme is that shallow pullbacks are the only acceptable bullish entries, as deep retraces would invalidate failed breakdown setups. Pepe shows relative strength, while SOL, Bonk, WIF, and DOGE offer similar failed breakdown trading opportunities. The main concern is lack of market urgency which could invalidate these setups.",
+  "transcript_word_count": 12020,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:28:50.175354"
+}

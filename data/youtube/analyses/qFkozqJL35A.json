@@ -1,0 +1,101 @@
+{
+  "source_id": "qFkozqJL35A",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-09-18",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "BTC is testing monthly resistance at 27.2 after a failed breakdown at 26k. Speaker notes this is a tricky part of the move to do business as the easy portion has played out and they've now reached resistance.",
+      "quote": "unless you were early to the failed breakdown this is a very tricky part of the move to do business because the easy portion has played out and we've now reached resistance",
+      "price_levels": [
+        "$27.2",
+        "$27.4",
+        "$26.4",
+        "$26.7",
+        "$26.8",
+        "$29.2",
+        "$29.3",
+        "$30,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH continues to be weaker than BTC, with no failed breakdown reclaim. ETH/BTC has been drooping towards lows. ETH falls neither here nor between bullish BTC trades and bearish altcoin trades.",
+      "quote": "it continues to be weaker than BTC... if you're going to be a bull it makes sense to be a Bitcoin bull at the same time if you're going to be a bear it makes more sense to be an altcoin bear",
+      "price_levels": [
+        "$1,700",
+        "$1,720"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "altcoins",
+      "asset_name": "Altcoins",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Altcoins generally follow the rest of the market - they bounce when BTC bounces and go down when BTC goes down. Low cap pump and dump pattern continues on Binance Futures.",
+      "quote": "just follow the rest of the market you know BTC bounce altcoins bounce BTC go down altcoins go down",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$27.4",
+        "$26.4"
+      ],
+      "ETH": [
+        "$1,700",
+        "$1,720"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC is at a critical juncture testing multi-timeframe resistance at 27.2-27.4 after a failed breakdown at 26k",
+    "The market is in a tricky range with clear signals needed: daily close above 27.4 for bullish continuation or below 26.4 for bearish confirmation",
+    "ETH continues to underperform BTC with no structural reclaim, making it less attractive for both bulls and bears",
+    "Bitcoin spot ETF is the key bullish catalyst centered around BTC, making BTC the preferred asset for bullish traders",
+    "Altcoins are largely tracking BTC's price action with low cap pump and dump patterns on Binance Futures"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$27.4+",
+      "target": "$29.2-$30,000",
+      "stop": "back below 27.4",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "$26.4-",
+      "target": "continuation lower",
+      "stop": "back above 26.4",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC is testing critical resistance at 27.2-27.4 after a failed breakdown at 26k, leaving the market in a tricky range. Clear signals are needed: daily close above 27.4 would open bullish continuation toward 29.2-30k, while close below 26.4 would confirm bearish continuation. ETH continues to underperform BTC without structural reclaim, making it less attractive. The Bitcoin spot ETF remains the key catalyst for bullish traders, while altcoins are largely following BTC's price action.",
+  "transcript_word_count": 4946,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:57:27.125962"
+}

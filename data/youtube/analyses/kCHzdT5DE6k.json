@@ -1,0 +1,132 @@
+{
+  "source_id": "kCHzdT5DE6k",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-08-16",
+  "hosts": [
+    "Cred"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "BTC is lagging and showing slow, grindy price action. Market participants are taking profit on ETH positions by selling BTC. Not participating in the current market rally.",
+      "quote": "it's been very sort of slow grindy and disappointing i think there was an expectation that there's a very clear level to level trade from 20k to 30k but it's on its way but it's very grindy very slow",
+      "price_levels": [
+        "$20,000",
+        "$21,000-22,000",
+        "$30,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "ETH showing great strength and leading the market rally. Driving the overall crypto market higher. Merge speculation is fueling the rally. Approaching important resistance levels.",
+      "quote": "that thing that thing continues to show great strength i think you can see that just by eye testing and seeing how often the market will just spike and pull back right",
+      "price_levels": [
+        "$1,700",
+        "$1,800-1,900",
+        "$2,000",
+        "$2,500"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "DOGE",
+      "asset_name": "Dogecoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Part of the more degenerate rotation in altcoins. Showing strong momentum.",
+      "quote": "dogecoin yeah doge is up 15",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SHIB",
+      "asset_name": "Shiba Inu",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Mentioned as part of the dog coin rally playing liquidity tug of war with DOGE.",
+      "quote": "shibe and doge are playing liquidity tug of war at the same time",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum vs BTC Pair",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "ETH outperforming BTC significantly. Evidence of participants selling BTC to take profit on ETH positions.",
+      "quote": "performance to eth hasn't been great um one way that participants have been taking profit on their eth positions is by selling btc right",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "decreasing",
+    "altcoin_season_view": "yes",
+    "key_levels": {
+      "BTC": [
+        "$20,000",
+        "$21,000-22,000",
+        "$30,000"
+      ],
+      "ETH": [
+        "$1,700",
+        "$1,800-1,900",
+        "$2,000",
+        "$2,500"
+      ]
+    }
+  },
+  "key_insights": [
+    "Trends forming without BTC participation tend to be limited in lifespan, suggesting skepticism is warranted",
+    "ETH volume on perpetual swaps has been higher than BTC on some days, indicating focus shift",
+    "ETH options now have larger open interest than BTC options, driven by merge speculation",
+    "Market rally is correlated with tech sector rally (S&P 500, Nasdaq) showing strength",
+    "If tech pulls back, crypto is likely to follow - not immune to macro factors",
+    "Monthly resistance levels are approaching: SP500 around 4200-4300, Nasdaq around 1450s, ETH around 2500",
+    "Current environment favors short-term momentum trading in altcoins and tokens showing strength"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1,700 support area",
+      "target": "$2,000 with extension to $2,500",
+      "stop": "Below $1,700",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "SP500",
+      "direction": "long",
+      "entry": "Monthly support breakout",
+      "target": "Monthly resistance at 4200-4300",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Range midpoint 1860 or thereabouts",
+      "target": "$2,000",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred provides a market update analyzing BTC, ETH, and overall crypto market. BTC is lagging with slow, grindy price action while ETH leads the rally showing strong strength. The market is in an altcoin season with ETH merge speculation driving volume and interest. Tech sector (SP500, Nasdaq) is rallying and positively correlated with crypto. Cred advises caution approaching monthly resistance levels and suggests staying skeptical of crypto trends that form without BTC participation. Short-term momentum trading in strong altcoins is favored.",
+  "transcript_word_count": 11089,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:25:01.928434"
+}

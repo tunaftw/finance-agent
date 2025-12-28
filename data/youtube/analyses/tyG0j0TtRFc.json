@@ -1,0 +1,144 @@
+{
+  "source_id": "tyG0j0TtRFc",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2021-06-18",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Max",
+      "context": "General market discussion after 55% correction from $60k",
+      "quote": "Bitcoin corrected about 55 percent...ethereum went much deeper",
+      "price_levels": [
+        "$30,000",
+        "$36,000",
+        "$50,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Max",
+      "context": "Opportunity during crash when funding was negative",
+      "quote": "I feel comfortable that the price paid not going to be less than 30,000",
+      "price_levels": [
+        "$30,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Max",
+      "context": "Prediction of market recovery",
+      "quote": "I'm sure it's going to be back to like 40 50 000 in no time",
+      "price_levels": [
+        "$40,000",
+        "$50,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Max",
+      "context": "Comparison to Bitcoin's crash",
+      "quote": "ethereum went much deeper",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "GBTC",
+      "asset_name": "Grayscale Bitcoin Trust",
+      "sentiment": "bullish",
+      "speaker": "Max",
+      "context": "GBTC premium went negative for the first time, creating opportunity",
+      "quote": "The premium of gbtc went negative...minus 17.5 i was like this is it",
+      "price_levels": [
+        "-17.5%"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "UNI",
+      "asset_name": "Uniswap",
+      "sentiment": "neutral",
+      "speaker": "Max",
+      "context": "Discussion about treating DeFi tokens as businesses",
+      "quote": "You buy the uni swap token and it's like you're buying a sharepin swap i feel like the governance is not as strong",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "PRIVACY_COINS",
+      "asset_name": "Privacy Coins",
+      "sentiment": "bullish",
+      "speaker": "Max",
+      "context": "Long-term view on privacy coins becoming more important",
+      "quote": "Pretty privacy coins are going to become more important in the future...narrative of not being able to have your assets confiscated might move to some other coins",
+      "price_levels": null,
+      "timeframe": "long-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$30,000",
+        "$36,000",
+        "$50,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "Funding rates on perpetual swaps reached 25% annualized at peak, then went negative during crash, now back to 7%",
+    "Institutional players were fading the move on the way up according to b2c2 flows",
+    "GBTC premium went negative for first time (-17.5%), creating opportunity",
+    "Altcoin decoupling narrative hasn't come to fruition - when BTC crashed, everything crashed with it",
+    "Market structure has two layers: inside spread (HFTs) and outside spread (hedge funds providing real liquidity)",
+    "Options market makers hedging call options may be supporting funding rates",
+    "Privacy coins may gain traction on narrative of asset protection",
+    "Arca fund provides free alpha with analysis of DeFi tokens treated as businesses"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$30,000",
+      "target": "$40,000-$50,000",
+      "stop": null,
+      "speaker": "Max"
+    },
+    {
+      "asset": "GBTC",
+      "direction": "long",
+      "entry": "-17.5% premium",
+      "target": "premium reverses positive",
+      "stop": null,
+      "speaker": "Max"
+    }
+  ],
+  "summary": "The crypto market experienced a 55% correction from $60k with institutions selling on the way up. Max identified a rare opportunity when GBTC premium went negative to -17.5% combined with BTC at $30k. The hosts believe we may see $40-50k again. Altcoin decoupling narratives failed during the crash. Privacy coins and DeFi fundamentals remain long-term themes.",
+  "transcript_word_count": 32672,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T02:22:01.647071"
+}

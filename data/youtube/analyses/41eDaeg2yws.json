@@ -1,0 +1,111 @@
+{
+  "source_id": "41eDaeg2yws",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-10-24",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "BTC is down 1.5% while indices are green, showing relative weakness. Market is in range with 19-20k acting as resistance. Speaker is waiting for either reclaim of 20k or failed breakdown below 19k.",
+      "quote": "at the moment that setup isn't available because the market is still treating the range low as resistance and not as supports that's kind of the very first thing that needs to shift in order for the bullish case to be supported",
+      "price_levels": [
+        "$19,000",
+        "$19,300-$19,600",
+        "$20,000",
+        "$21,000-$22,000",
+        "$24,000-$25,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH down 2% and trading in the 1300 area between key levels of 1200 and 1400-1420. Speaker is uninterested due to lack of volatility and market balance.",
+      "quote": "so I've naturally been completely uninterested in it um the market just when you have these types of conditions when with regards to volatility the market is balanced right",
+      "price_levels": [
+        "$1,200",
+        "$1,300",
+        "$1,400-$1,420"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Unknown",
+      "context": "Brief market update mentioning ETH price movement.",
+      "quote": "ether's down two percent",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$19,000",
+        "$19,300-$19,600",
+        "$20,000",
+        "$21,000-$22,000",
+        "$24,000-$25,000"
+      ],
+      "ETH": [
+        "$1,200",
+        "$1,400-$1,420"
+      ]
+    }
+  },
+  "key_insights": [
+    "Crypto is showing relative weakness with BTC and ETH down while S&P and NASDAQ are green",
+    "BTC is stuck in a range with 19-20k area acting as resistance rather than support",
+    "The 20k level is critical as it represents both a psychological level and 2017 ATH, reclaiming it would shift market structure bullishly",
+    "Failed breakdowns below support (19k for BTC, 1200 for ETH) could create bullish reversal setups as short sellers get squeezed",
+    "Market is in a low volatility environment with no conviction from buyers or sellers at range boundaries",
+    "Indices monthly closes upcoming (S&P at 3700, NASDAQ at 11,100-11,600) could provide clues for broader risk sentiment"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$20,000+ reclaim",
+      "target": "$21,000-$22,000 (range midpoint) or $24,000-$25,000 (range high)",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "after failed breakdown below $19,000 that reclaims above $19,000",
+      "target": "within range towards $21,000-$25,000",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1,200 or $1,400-$1,420 on confirmed rejection/reclaim",
+      "target": "within range",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "This episode discusses a stagnant crypto market with BTC stuck below 20k and ETH between 1200-1400 levels. The hosts express frustration with low volatility and lack of conviction at key levels. BTC needs to reclaim 20k to trigger bullish market structure, while a failed breakdown below 19k could also provide a buying opportunity. Crypto is underperforming traditional markets, showing relative weakness. The hosts recommend patience and waiting for clear signals at range boundaries before taking positions.",
+  "transcript_word_count": 11744,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:40:42.943344"
+}
