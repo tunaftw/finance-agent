@@ -9,6 +9,19 @@ from datetime import datetime
 from pathlib import Path
 from typing import TYPE_CHECKING
 
+
+def tweet_id_to_date(tweet_id: str) -> str:
+    """Extract date from Twitter Snowflake ID.
+
+    Twitter IDs encode timestamp: (id >> 22) + 1288834974657 = timestamp_ms
+    Returns ISO date string (YYYY-MM-DD).
+    """
+    try:
+        timestamp_ms = (int(tweet_id) >> 22) + 1288834974657
+        return datetime.fromtimestamp(timestamp_ms / 1000).strftime("%Y-%m-%d")
+    except (ValueError, OSError):
+        return datetime.now().strftime("%Y-%m-%d")
+
 from podstock.db.models import (
     Analysis,
     Content,
@@ -416,7 +429,7 @@ class TwitterLoader(BaseLoader):
                     type="tweet",
                     external_id=tweet_id,
                     title=None,
-                    published_at=tweet_analysis.get("processed_at", analyzed_at)[:10],
+                    published_at=tweet_id_to_date(tweet_id),
                     raw_text=None,
                     extra_data=json.dumps({
                         "market_sentiment": tweet_analysis.get("market_sentiment"),

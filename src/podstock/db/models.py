@@ -33,6 +33,8 @@ class Source(Base):
     language = Column(Text, default="sv")
     extra_data = Column(Text)  # JSON metadata
     active = Column(Integer, default=1)
+    trust_rating = Column(Integer, default=3)  # 1-5 scale for source credibility
+    trust_notes = Column(Text)  # Free text explaining trust rating
     created_at = Column(Text, default=lambda: datetime.now().isoformat())
     updated_at = Column(Text, default=lambda: datetime.now().isoformat())
 

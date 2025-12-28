@@ -1214,7 +1214,7 @@ def cmd_twitter_add(args: argparse.Namespace, config: Config) -> int:
     from podstock.twitter.manager import add_twitter_source
     from podstock.twitter.exceptions import TwitterError
 
-    sources_file = config.data_dir / "twitter_sources.json"
+    sources_file = config.twitter_sources_file
 
     try:
         source = add_twitter_source(
@@ -1239,8 +1239,8 @@ def cmd_twitter_list(args: argparse.Namespace, config: Config) -> int:
     from podstock.twitter.manager import load_twitter_sources
     from podstock.twitter.state import TwitterState
 
-    sources_file = config.data_dir / "twitter_sources.json"
-    state_file = config.data_dir / "twitter_state.json"
+    sources_file = config.twitter_sources_file
+    state_file = config.twitter_state_file
 
     sources = load_twitter_sources(sources_file)
     state = TwitterState(state_file)
@@ -1284,7 +1284,7 @@ def cmd_twitter_remove(args: argparse.Namespace, config: Config) -> int:
     from podstock.twitter.manager import remove_twitter_source
     from podstock.twitter.exceptions import TwitterSourceNotFoundError
 
-    sources_file = config.data_dir / "twitter_sources.json"
+    sources_file = config.twitter_sources_file
 
     try:
         source = remove_twitter_source(args.id, sources_file)
@@ -1305,8 +1305,8 @@ def cmd_twitter_collect(args: argparse.Namespace, config: Config) -> int:
     from podstock.twitter.manager import load_twitter_sources, add_twitter_source
     from podstock.twitter.state import TwitterState
 
-    sources_file = config.data_dir / "twitter_sources.json"
-    state_file = config.data_dir / "twitter_state.json"
+    sources_file = config.twitter_sources_file
+    state_file = config.twitter_state_file
 
     # Parse date arguments
     since_date = None
@@ -1445,7 +1445,7 @@ def cmd_twitter_info(args: argparse.Namespace, config: Config) -> int:
     from podstock.twitter.storage import TweetStorage
 
     source_id = args.source.lower().lstrip("@")
-    state_file = config.data_dir / "twitter_state.json"
+    state_file = config.twitter_state_file
 
     state = TwitterState(state_file)
     storage = TweetStorage(config.data_dir)
@@ -1719,8 +1719,8 @@ def cmd_twitter_stats(args: argparse.Namespace, config: Config) -> int:
     from podstock.twitter.state import TwitterState
     from podstock.twitter.manager import load_twitter_sources
 
-    sources_file = config.data_dir / "twitter_sources.json"
-    state_file = config.data_dir / "twitter_state.json"
+    sources_file = config.twitter_sources_file
+    state_file = config.twitter_state_file
 
     sources = load_twitter_sources(sources_file)
     state = TwitterState(state_file)
@@ -1843,7 +1843,7 @@ def cmd_twitter_analyze(args: argparse.Namespace, config: Config) -> int:
 
     # Save analyses
     if analyses:
-        output_dir = config.data_dir / "twitter" / "analyses"
+        output_dir = config.twitter_analyses_dir
         output_path = analyzer.save_analyses(analyses, output_dir, source_id)
         console.print(f"\n[green]✓[/green] Saved {len(analyses)} analyses to {output_path}")
 
@@ -1862,7 +1862,7 @@ def cmd_twitter_report(args: argparse.Namespace, config: Config) -> int:
         return 1
 
     # Load analyses
-    analyses_file = config.data_dir / "twitter" / "analyses" / f"{source_id}-tweet-analyses.json"
+    analyses_file = config.twitter_analyses_dir / f"{source_id}-tweet-analyses.json"
 
     if not analyses_file.exists():
         console.print(f"[yellow]No analyses found for @{source_id}[/yellow]")
@@ -3806,6 +3806,10 @@ def create_parser() -> argparse.ArgumentParser:
     from podstock.db.cli import add_db_parser
     add_db_parser(subparsers)
 
+    # Dashboard command group
+    from podstock.dashboard.cli import add_dashboard_parser
+    add_dashboard_parser(subparsers)
+
     # Filings command group
     from podstock.filings.cli import setup_filings_parser
     setup_filings_parser(subparsers)
@@ -3891,6 +3895,10 @@ def main() -> None:
         elif args.command == "db":
             from podstock.db.cli import cmd_db
             sys.exit(cmd_db(args))
+
+        elif args.command == "dashboard":
+            from podstock.dashboard.cli import cmd_dashboard
+            sys.exit(cmd_dashboard(args))
 
         elif args.command == "filings":
             from podstock.filings.cli import cmd_filings

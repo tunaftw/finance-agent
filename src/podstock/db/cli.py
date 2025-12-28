@@ -362,6 +362,134 @@ def cmd_db_pending(args: argparse.Namespace) -> int:
         return 1
 
 
+def cmd_db_trust(args: argparse.Namespace) -> int:
+    """Manage trust ratings for sources."""
+    from podstock.db.engine import get_engine, get_session, DEFAULT_DB_PATH
+    from podstock.db.models import Source
+
+    db_path = Path(args.db) if args.db else DEFAULT_DB_PATH
+
+    if not db_path.exists():
+        console.print(f"[yellow]Database not found:[/yellow] {db_path}")
+        return 1
+
+    try:
+        engine = get_engine(db_path)
+
+        with get_session(engine) as session:
+            if args.trust_command == "set":
+                source = session.query(Source).filter_by(id=args.source_id).first()
+                if not source:
+                    console.print(f"[red]Source not found:[/red] {args.source_id}")
+                    return 1
+
+                if args.rating < 1 or args.rating > 5:
+                    console.print("[red]Rating must be between 1 and 5[/red]")
+                    return 1
+
+                old_rating = source.trust_rating or 3
+                source.trust_rating = args.rating
+                if args.notes:
+                    source.trust_notes = args.notes
+                session.commit()
+
+                console.print(f"[green]✓[/green] Updated {source.name}: {old_rating} → {args.rating}")
+                if args.notes:
+                    console.print(f"  Notes: {args.notes}")
+
+            elif args.trust_command == "show":
+                if args.source_id:
+                    sources = session.query(Source).filter_by(id=args.source_id).all()
+                else:
+                    sources = session.query(Source).order_by(
+                        Source.trust_rating.desc(), Source.name
+                    ).all()
+
+                if not sources:
+                    console.print("[yellow]No sources found[/yellow]")
+                    return 0
+
+                table = Table(title="Source Trust Ratings")
+                table.add_column("ID", style="dim")
+                table.add_column("Name", style="cyan")
+                table.add_column("Type")
+                table.add_column("Trust", justify="center")
+                table.add_column("Notes", max_width=40)
+
+                for s in sources:
+                    rating = s.trust_rating or 3
+                    stars = "★" * rating + "☆" * (5 - rating)
+                    rating_style = {
+                        5: "green bold",
+                        4: "green",
+                        3: "yellow",
+                        2: "red dim",
+                        1: "red",
+                    }.get(rating, "")
+
+                    table.add_row(
+                        s.id,
+                        s.name,
+                        s.type,
+                        f"[{rating_style}]{stars}[/{rating_style}]",
+                        (s.trust_notes or "-")[:40],
+                    )
+
+                console.print(table)
+
+        return 0
+
+    except Exception as e:
+        console.print(f"[red]✗[/red] Error: {e}")
+        return 1
+
+
+def cmd_db_migrate(args: argparse.Namespace) -> int:
+    """Run database migrations."""
+    from podstock.db.engine import get_engine, DEFAULT_DB_PATH
+    import sqlite3
+
+    db_path = Path(args.db) if args.db else DEFAULT_DB_PATH
+
+    if not db_path.exists():
+        console.print(f"[yellow]Database not found:[/yellow] {db_path}")
+        return 1
+
+    try:
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+
+        migrations_run = 0
+
+        # Migration 1: Add trust_rating and trust_notes to sources
+        cursor.execute("PRAGMA table_info(sources)")
+        columns = [col[1] for col in cursor.fetchall()]
+
+        if "trust_rating" not in columns:
+            console.print("  Adding trust_rating column to sources...")
+            cursor.execute("ALTER TABLE sources ADD COLUMN trust_rating INTEGER DEFAULT 3")
+            migrations_run += 1
+
+        if "trust_notes" not in columns:
+            console.print("  Adding trust_notes column to sources...")
+            cursor.execute("ALTER TABLE sources ADD COLUMN trust_notes TEXT")
+            migrations_run += 1
+
+        conn.commit()
+        conn.close()
+
+        if migrations_run > 0:
+            console.print(f"[green]✓[/green] Ran {migrations_run} migration(s)")
+        else:
+            console.print("[dim]Database is up to date[/dim]")
+
+        return 0
+
+    except Exception as e:
+        console.print(f"[red]✗[/red] Migration error: {e}")
+        return 1
+
+
 def cmd_db_performance(args: argparse.Namespace) -> int:
     """Calculate performance for recommendations."""
     from podstock.db.engine import get_engine, get_session, DEFAULT_DB_PATH
@@ -447,6 +575,10 @@ def cmd_db(args: argparse.Namespace) -> int:
         return cmd_db_pending(args)
     elif args.db_command == "performance":
         return cmd_db_performance(args)
+    elif args.db_command == "trust":
+        return cmd_db_trust(args)
+    elif args.db_command == "migrate":
+        return cmd_db_migrate(args)
     else:
         console.print("Use 'podstock db --help' for usage")
         return 1
@@ -512,3 +644,18 @@ def add_db_parser(subparsers: argparse._SubParsersAction) -> None:
 
     perf_sub.add_parser("import-prices", help="Import prices from price tracker files")
     perf_sub.add_parser("fetch-prices", help="Fetch historical prices from Yahoo Finance")
+
+    # db trust
+    trust_parser = db_sub.add_parser("trust", help="Manage source trust ratings")
+    trust_sub = trust_parser.add_subparsers(dest="trust_command")
+
+    trust_show = trust_sub.add_parser("show", help="Show trust ratings")
+    trust_show.add_argument("source_id", nargs="?", help="Specific source ID")
+
+    trust_set = trust_sub.add_parser("set", help="Set trust rating for a source")
+    trust_set.add_argument("source_id", help="Source ID")
+    trust_set.add_argument("rating", type=int, help="Trust rating (1-5)")
+    trust_set.add_argument("--notes", help="Notes explaining the rating")
+
+    # db migrate
+    db_sub.add_parser("migrate", help="Run database migrations")
