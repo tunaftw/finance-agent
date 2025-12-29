@@ -31,6 +31,145 @@
     }
   },
   {
+    "id": "affarsvardenmagasin",
+    "name": "Affärsvärden Magasin",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 2,
+    "recommendation_count": 0,
+    "actions": {}
+  },
+  {
+    "id": "affarsvarden-magasin",
+    "name": "Affärsvärden-magasin",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 2,
+    "recommendation_count": 7,
+    "actions": {
+      "hold": 4,
+      "watch": 3
+    }
+  },
+  {
+    "id": "affarsvarlden",
+    "name": "Affärsvärlden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 14,
+    "recommendation_count": 10,
+    "actions": {
+      "avoid": 3,
+      "buy": 2,
+      "sell": 1,
+      "watch": 4
+    }
+  },
+  {
+    "id": "affarsvarlden-marknaden",
+    "name": "Affärsvärlden - Marknaden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 5,
+    "actions": {
+      "buy": 4,
+      "hold": 1
+    }
+  },
+  {
+    "id": "affarsvarldenmagasin",
+    "name": "Affärsvärlden Magasin",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 38,
+    "recommendation_count": 87,
+    "actions": {
+      "avoid": 6,
+      "buy": 36,
+      "hold": 28,
+      "sell": 10,
+      "watch": 7
+    }
+  },
+  {
+    "id": "affarsvarldenmagazine",
+    "name": "Affärsvärlden Magazine",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 0,
+    "actions": {}
+  },
+  {
+    "id": "affarsvarldenmarknaden",
+    "name": "Affärsvärlden Marknaden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 1,
+    "actions": {
+      "sell": 1
+    }
+  },
+  {
+    "id": "affarsvarlden-magasin",
+    "name": "Affärsvärlden-magasin",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 27,
+    "recommendation_count": 31,
+    "actions": {
+      "avoid": 2,
+      "buy": 15,
+      "hold": 5,
+      "sell": 2,
+      "watch": 7
+    }
+  },
+  {
+    "id": "affarsvarldensmagasin",
+    "name": "Affärsvärldens magasin",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 8,
+    "actions": {
+      "avoid": 1,
+      "buy": 2,
+      "hold": 1,
+      "sell": 3,
+      "watch": 1
+    }
+  },
+  {
     "id": "aktiepodden",
     "name": "Aktiepodden",
     "type": "podcast",
@@ -228,13 +367,14 @@
     "trust_rating": 3,
     "trust_notes": null,
     "active": true,
-    "content_count": 4,
-    "recommendation_count": 15,
+    "content_count": 7,
+    "recommendation_count": 34,
     "actions": {
-      "avoid": 1,
-      "buy": 9,
+      "avoid": 4,
+      "buy": 19,
+      "hold": 3,
       "sell": 2,
-      "watch": 3
+      "watch": 6
     }
   },
   {
@@ -450,6 +590,24 @@
     }
   },
   {
+    "id": "borsmagasinet",
+    "name": "Börsmagasinet",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 28,
+    "recommendation_count": 121,
+    "actions": {
+      "avoid": 10,
+      "buy": 46,
+      "hold": 30,
+      "sell": 5,
+      "watch": 30
+    }
+  },
+  {
     "id": "borspodden",
     "name": "Börspodden",
     "type": "podcast",
@@ -457,14 +615,14 @@
     "trust_rating": 3,
     "trust_notes": null,
     "active": true,
-    "content_count": 248,
-    "recommendation_count": 1922,
+    "content_count": 249,
+    "recommendation_count": 1931,
     "actions": {
-      "avoid": 436,
-      "buy": 645,
+      "avoid": 439,
+      "buy": 650,
       "hold": 138,
       "sell": 215,
-      "watch": 488
+      "watch": 489
     }
   },
   {
@@ -1233,12 +1391,220 @@
     "trust_rating": 3,
     "trust_notes": null,
     "active": true,
-    "content_count": 1,
-    "recommendation_count": 4,
+    "content_count": 7,
+    "recommendation_count": 34,
     "actions": {
-      "buy": 2,
+      "avoid": 2,
+      "buy": 9,
+      "hold": 11,
+      "sell": 2,
+      "watch": 10
+    }
+  },
+  {
+    "id": "gott&jott",
+    "name": "Gott & Jott",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 4,
+    "recommendation_count": 18,
+    "actions": {
+      "avoid": 1,
+      "buy": 4,
+      "hold": 6,
+      "sell": 1,
+      "watch": 6
+    }
+  },
+  {
+    "id": "gottochjot",
+    "name": "Gott och Jöt",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 9,
+    "actions": {
+      "hold": 7,
       "watch": 2
     }
+  },
+  {
+    "id": "gott&gott",
+    "name": "Gött & Gott",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 2,
+    "recommendation_count": 7,
+    "actions": {
+      "hold": 3,
+      "watch": 4
+    }
+  },
+  {
+    "id": "gott&jat",
+    "name": "Gött & Jät",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 7,
+    "actions": {
+      "avoid": 1,
+      "buy": 1,
+      "hold": 3,
+      "watch": 2
+    }
+  },
+  {
+    "id": "gott&kott",
+    "name": "Gött & Kött",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 6,
+    "actions": {
+      "buy": 5,
+      "watch": 1
+    }
+  },
+  {
+    "id": "gottkottavaktier",
+    "name": "Gött kött av aktier",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 6,
+    "actions": {
+      "watch": 6
+    }
+  },
+  {
+    "id": "gottkottochmaxer",
+    "name": "Gött kött och maxer",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 3,
+    "actions": {
+      "buy": 2,
+      "hold": 1
+    }
+  },
+  {
+    "id": "gottkottomaktier",
+    "name": "Gött kött om aktier",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 26,
+    "recommendation_count": 135,
+    "actions": {
+      "avoid": 5,
+      "buy": 35,
+      "hold": 47,
+      "sell": 5,
+      "watch": 43
+    }
+  },
+  {
+    "id": "gottochgott",
+    "name": "Gött och Gott",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 3,
+    "recommendation_count": 17,
+    "actions": {
+      "avoid": 1,
+      "buy": 8,
+      "hold": 2,
+      "sell": 2,
+      "watch": 4
+    }
+  },
+  {
+    "id": "gott,kottochmaxjer",
+    "name": "Gött, Kött och Maxjer",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 7,
+    "actions": {
+      "hold": 3,
+      "watch": 4
+    }
+  },
+  {
+    "id": "gott,kottochmaxer",
+    "name": "Gött, kött och maxer",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 6,
+    "actions": {
+      "avoid": 2,
+      "buy": 1,
+      "hold": 1,
+      "watch": 2
+    }
+  },
+  {
+    "id": "gottkott",
+    "name": "Göttkött",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 3,
+    "recommendation_count": 15,
+    "actions": {
+      "avoid": 1,
+      "buy": 1,
+      "hold": 13
+    }
+  },
+  {
+    "id": "kapitalet",
+    "name": "Kapitalet",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 0,
+    "actions": {}
   },
   {
     "id": "kort&lang",
@@ -1378,14 +1744,14 @@
     "trust_rating": 3,
     "trust_notes": null,
     "active": true,
-    "content_count": 171,
-    "recommendation_count": 1037,
+    "content_count": 177,
+    "recommendation_count": 1098,
     "actions": {
-      "avoid": 98,
-      "buy": 256,
-      "hold": 250,
-      "sell": 55,
-      "watch": 378
+      "avoid": 104,
+      "buy": 272,
+      "hold": 265,
+      "sell": 65,
+      "watch": 392
     }
   },
   {
@@ -1399,6 +1765,138 @@
     "content_count": 1,
     "recommendation_count": 0,
     "actions": {}
+  },
+  {
+    "id": "marketmakers",
+    "name": "Market Makers",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 330,
+    "recommendation_count": 1078,
+    "actions": {
+      "avoid": 92,
+      "buy": 335,
+      "hold": 174,
+      "sell": 53,
+      "watch": 424
+    }
+  },
+  {
+    "id": "marketmakerspodd",
+    "name": "Market Makers Podd",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 0,
+    "actions": {}
+  },
+  {
+    "id": "marketsmakers",
+    "name": "Markets Makers",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 2,
+    "recommendation_count": 5,
+    "actions": {
+      "hold": 2,
+      "watch": 3
+    }
+  },
+  {
+    "id": "marknaden",
+    "name": "Marknaden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 220,
+    "recommendation_count": 261,
+    "actions": {
+      "avoid": 36,
+      "buy": 72,
+      "hold": 75,
+      "sell": 18,
+      "watch": 60
+    }
+  },
+  {
+    "id": "marknaden(affarsvarldenmagasin)",
+    "name": "Marknaden (Affärsvärlden Magasin)",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 0,
+    "actions": {}
+  },
+  {
+    "id": "marknaden(affarsvarlden)",
+    "name": "Marknaden (Affärsvärlden)",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 6,
+    "recommendation_count": 7,
+    "actions": {
+      "buy": 5,
+      "hold": 2
+    }
+  },
+  {
+    "id": "marknaden(affarsvarlden-magasin)",
+    "name": "Marknaden (Affärsvärlden-magasin)",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 0,
+    "actions": {}
+  },
+  {
+    "id": "marknadsmakers",
+    "name": "MarknadsMakers",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 1,
+    "actions": {
+      "hold": 1
+    }
+  },
+  {
+    "id": "marknadsmaklarna",
+    "name": "Marknadsmäklarna",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 2,
+    "recommendation_count": 7,
+    "actions": {
+      "buy": 1,
+      "sell": 1,
+      "watch": 5
+    }
   },
   {
     "id": "nagontingomaktier",
@@ -1537,6 +2035,74 @@
     "actions": {}
   },
   {
+    "id": "smasparapodden",
+    "name": "Småspara podden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 4,
+    "recommendation_count": 0,
+    "actions": {}
+  },
+  {
+    "id": "smaspara-podden",
+    "name": "Småspara-podden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 2,
+    "recommendation_count": 0,
+    "actions": {}
+  },
+  {
+    "id": "smaspararguiden",
+    "name": "Småspararguiden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 2,
+    "actions": {
+      "buy": 2
+    }
+  },
+  {
+    "id": "smaspararpodden",
+    "name": "Småspararpodden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 40,
+    "recommendation_count": 53,
+    "actions": {
+      "avoid": 18,
+      "buy": 23,
+      "hold": 5,
+      "sell": 1,
+      "watch": 6
+    }
+  },
+  {
+    "id": "smasparpodden",
+    "name": "Småsparpodden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 0,
+    "actions": {}
+  },
+  {
     "id": "somethingaboutstocks",
     "name": "Something About Stocks",
     "type": "podcast",
@@ -1552,6 +2118,96 @@
     }
   },
   {
+    "id": "spardpodden",
+    "name": "Spardpodden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 2,
+    "actions": {
+      "watch": 2
+    }
+  },
+  {
+    "id": "sparpodden",
+    "name": "Sparpodden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 437,
+    "recommendation_count": 971,
+    "actions": {
+      "avoid": 130,
+      "buy": 364,
+      "hold": 148,
+      "sell": 47,
+      "watch": 282
+    }
+  },
+  {
+    "id": "sparpoddenspecial",
+    "name": "Sparpodden Special",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 0,
+    "actions": {}
+  },
+  {
+    "id": "sparpoddenspecialmedborspodden",
+    "name": "Sparpodden Special med Börspodden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 8,
+    "actions": {
+      "avoid": 1,
+      "buy": 4,
+      "sell": 3
+    }
+  },
+  {
+    "id": "sparpoden",
+    "name": "Sparpoden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 4,
+    "actions": {
+      "buy": 1,
+      "hold": 1,
+      "watch": 2
+    }
+  },
+  {
+    "id": "sparpaden",
+    "name": "Sparpåden",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 10,
+    "actions": {
+      "watch": 10
+    }
+  },
+  {
     "id": "technicalroundup",
     "name": "TechnicalRoundup",
     "type": "youtube",
@@ -1564,6 +2220,33 @@
     "actions": {}
   },
   {
+    "id": "vafalspodcast",
+    "name": "Vafals podcast",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 1,
+    "recommendation_count": 7,
+    "actions": {
+      "buy": 3,
+      "hold": 4
+    }
+  },
+  {
+    "id": "veckansraid",
+    "name": "Veckans Raid",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 0,
+    "recommendation_count": 0,
+    "actions": {}
+  },
+  {
     "id": "veckanstrade",
     "name": "Veckans Trade",
     "type": "podcast",
@@ -1572,13 +2255,25 @@
     "trust_notes": null,
     "active": true,
     "content_count": 35,
-    "recommendation_count": 109,
+    "recommendation_count": 261,
     "actions": {
-      "avoid": 27,
-      "buy": 36,
-      "hold": 9,
-      "sell": 6,
-      "watch": 31
+      "avoid": 51,
+      "buy": 102,
+      "hold": 17,
+      "sell": 22,
+      "watch": 69
     }
+  },
+  {
+    "id": "vackanstrade",
+    "name": "Väckans Trade",
+    "type": "podcast",
+    "description": null,
+    "trust_rating": 3,
+    "trust_notes": null,
+    "active": true,
+    "content_count": 0,
+    "recommendation_count": 0,
+    "actions": {}
   }
 ]

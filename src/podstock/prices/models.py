@@ -80,7 +80,7 @@ class PriceSnapshot(BaseModel):
     price: float = Field(..., gt=0)
     currency: str = Field(..., min_length=3, max_length=3)
     timestamp: datetime
-    source: Literal["yahoo", "coingecko"]
+    source: Literal["yahoo", "coingecko", "avanza"]
 
     # Optional OHLCV data
     open_price: float | None = None

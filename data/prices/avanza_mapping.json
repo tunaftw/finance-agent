@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "updated_at": "2025-12-29T01:00:00.000000",
+  "description": "Mapping från aktienamn till Avanza orderbookId. Används för aktier som inte finns på Yahoo Finance (t.ex. First North).",
+  "mappings": {
+    "Kopparbergs": "13477",
+    "Kopparbergs B": "13477",
+    "Zinzino": "249109",
+    "Zinzino B": "249109",
+    "Zinsino": "249109",
+    "Swedencare": "666686",
+    "Nobina": "5274",
+    "Pandox": "5564",
+    "Pandox B": "5564",
+    "Paxman": "760751",
+    "Fractal Gaming": "1188637",
+    "Fractal Gaming Group": "1188637",
+    "Norion Bank": "1447081",
+    "Collector": "1447081",
+    "Collector Bank": "1447081"
+  },
+  "delisted": {
+    "Kindred": "Delisted 2023 (FDJ buyout)",
+    "SAS": "Bankruptcy restructuring",
+    "Swedish Match": "Delisted 2022 (Philip Morris buyout)",
+    "Leo Vegas": "Delisted 2022 (MGM buyout)",
+    "Fortnox": "Delisted 2025 (EQT buyout)",
+    "ICA": "Privatized 2023",
+    "ICA Gruppen": "Privatized 2023",
+    "Haldex": "Acquired by Knorr-Bremse",
+    "MQ": "Bankruptcy",
+    "Veoneer": "Acquired by Qualcomm",
+    "XXL": "Bankruptcy 2024",
+    "Hövding": "Bankruptcy 2024",
+    "Oscar Properties": "Delisted",
+    "Lundin Petroleum": "Merged into Aker BP",
+    "Nordic Waterproofing": "Delisted/Not on Avanza",
+    "Intellego": "No trading data available",
+    "Intellego Technologies": "No trading data available"
+  }
+}

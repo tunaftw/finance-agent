@@ -77,18 +77,18 @@ class DashboardGenerator:
             self._write_json("sources.json", sources)
             files_generated += 1
 
-        # Export source-specific data from JSON files
-        podcasts = export_podcasts(self.source_data_dir)
-        self._write_json("podcasts.json", podcasts)
-        files_generated += 1
+            # Export source-specific data from JSON files (with session for price data)
+            podcasts = export_podcasts(self.source_data_dir, session=session)
+            self._write_json("podcasts.json", podcasts)
+            files_generated += 1
 
-        twitter = export_twitter(self.source_data_dir)
-        self._write_json("twitter.json", twitter)
-        files_generated += 1
+            twitter = export_twitter(self.source_data_dir, session=session)
+            self._write_json("twitter.json", twitter)
+            files_generated += 1
 
-        youtube = export_youtube(self.source_data_dir)
-        self._write_json("youtube.json", youtube)
-        files_generated += 1
+            youtube = export_youtube(self.source_data_dir, session=session)
+            self._write_json("youtube.json", youtube)
+            files_generated += 1
 
         # Add metadata
         metadata = {

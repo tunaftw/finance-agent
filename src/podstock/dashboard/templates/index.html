@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PodStock Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        /* Custom color for recommendation cards */
+        .bg-gray-750 { background-color: rgb(38, 42, 51); }
+    </style>
 </head>
 <body class="bg-gray-900 text-gray-100 min-h-screen" x-data="dashboard()">
     <!-- Navigation -->
@@ -191,7 +196,7 @@
                             </template>
                         </div>
                         <p x-show="rec.reasoning" class="mt-2 text-sm text-gray-300" x-text="rec.reasoning"></p>
-                        <p x-show="rec.quote" class="mt-2 text-sm text-gray-500 italic" x-text="'\"' + rec.quote + '\"'"></p>
+                        <p x-show="rec.quote" class="mt-2 text-sm text-gray-500 italic" x-text="rec.quote"></p>
                     </div>
                 </template>
             </div>
@@ -273,9 +278,9 @@
                                     <span x-show="episode.episode_number" class="text-gray-500 text-xs" x-text="'#' + episode.episode_number"></span>
                                 </div>
                                 <h3 class="font-semibold text-lg mt-1" x-text="episode.episode_title"></h3>
-                                <div x-show="episode.hosts.length || episode.guests.length" class="text-sm text-gray-500 mt-1">
-                                    <span x-show="episode.hosts.length" x-text="'Hosts: ' + episode.hosts.join(', ')"></span>
-                                    <span x-show="episode.guests.length" x-text="' | Gäster: ' + episode.guests.join(', ')"></span>
+                                <div x-show="(episode.hosts || []).length || (episode.guests || []).length" class="text-sm text-gray-500 mt-1">
+                                    <span x-show="(episode.hosts || []).length" x-text="'Hosts: ' + (episode.hosts || []).join(', ')"></span>
+                                    <span x-show="(episode.guests || []).length" x-text="' | Gäster: ' + (episode.guests || []).join(', ')"></span>
                                 </div>
                             </div>
                             <div class="flex items-center space-x-2">
@@ -304,19 +309,75 @@
 
                         <!-- Recommendations (expandable) -->
                         <div x-show="episode.recommendations.length > 0" class="mt-3 pt-3 border-t border-gray-700">
-                            <div class="flex flex-wrap gap-2">
-                                <template x-for="rec in episode.recommendations" :key="rec.stock_name">
-                                    <div class="flex items-center space-x-1 px-2 py-1 rounded bg-gray-700">
-                                        <span class="text-xs font-medium"
-                                              :class="{
-                                                  'text-green-400': rec.action === 'buy',
-                                                  'text-red-400': rec.action === 'sell' || rec.action === 'avoid',
-                                                  'text-yellow-400': rec.action === 'hold',
-                                                  'text-blue-400': rec.action === 'watch'
-                                              }"
-                                              x-text="rec.action?.toUpperCase()"></span>
-                                        <span class="text-xs text-gray-200" x-text="rec.stock_name"></span>
-                                        <span x-show="rec.ticker" class="text-xs text-gray-500" x-text="'(' + rec.ticker + ')'"></span>
+                            <div class="space-y-2">
+                                <template x-for="(rec, recIndex) in episode.recommendations" :key="rec.stock_name + '-' + recIndex">
+                                    <div class="rounded-lg bg-gray-750 border border-gray-600 overflow-hidden">
+                                        <!-- Recommendation Header (clickable) -->
+                                        <div class="flex items-center justify-between px-3 py-2 cursor-pointer hover:bg-gray-700 transition-colors"
+                                             @click="rec.expanded = !rec.expanded">
+                                            <div class="flex items-center space-x-2">
+                                                <span class="px-2 py-0.5 rounded text-xs font-semibold"
+                                                      :class="{
+                                                          'bg-green-900 text-green-300': rec.action === 'buy',
+                                                          'bg-red-900 text-red-300': rec.action === 'sell' || rec.action === 'avoid',
+                                                          'bg-yellow-900 text-yellow-300': rec.action === 'hold',
+                                                          'bg-blue-900 text-blue-300': rec.action === 'watch'
+                                                      }"
+                                                      x-text="rec.action?.toUpperCase()"></span>
+                                                <span class="font-medium text-gray-100" x-text="rec.stock_name"></span>
+                                                <span x-show="rec.ticker" class="text-sm text-gray-500" x-text="'(' + rec.ticker + ')'"></span>
+                                            </div>
+                                            <div class="flex items-center space-x-3">
+                                                <!-- Price change indicator (if available) -->
+                                                <span x-show="rec.price_change_pct !== undefined && rec.price_change_pct !== null"
+                                                      class="text-xs font-medium px-2 py-0.5 rounded"
+                                                      :class="rec.price_change_pct >= 0 ? 'bg-green-900/50 text-green-400' : 'bg-red-900/50 text-red-400'"
+                                                      x-text="(rec.price_change_pct >= 0 ? '+' : '') + rec.price_change_pct?.toFixed(1) + '%'"></span>
+                                                <!-- Confidence badge -->
+                                                <span x-show="rec.confidence" class="text-xs px-2 py-0.5 rounded"
+                                                      :class="{
+                                                          'bg-emerald-900/50 text-emerald-400': rec.confidence === 'high',
+                                                          'bg-yellow-900/50 text-yellow-400': rec.confidence === 'medium',
+                                                          'bg-gray-700 text-gray-400': rec.confidence === 'low' || rec.confidence === 'speculative'
+                                                      }"
+                                                      x-text="rec.confidence"></span>
+                                                <!-- Expand icon -->
+                                                <svg class="w-4 h-4 text-gray-500 transition-transform" :class="rec.expanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <!-- Recommendation Details (expandable) -->
+                                        <div x-show="rec.expanded" x-collapse class="px-3 pb-3 pt-1 border-t border-gray-700 bg-gray-800/50">
+                                            <!-- Price info -->
+                                            <div x-show="rec.price_at_signal || rec.latest_price" class="flex items-center space-x-2 text-sm text-gray-400 mb-2">
+                                                <span>📊</span>
+                                                <span x-show="rec.price_at_signal" x-text="'Pris vid signal: ' + rec.price_at_signal + ' SEK'"></span>
+                                                <span x-show="rec.price_at_signal && rec.latest_price">→</span>
+                                                <span x-show="rec.latest_price" x-text="rec.latest_price + ' SEK'"></span>
+                                            </div>
+                                            <!-- Speaker info -->
+                                            <div x-show="rec.speaker" class="text-sm text-gray-400 mb-2">
+                                                <span>🗣️</span>
+                                                <span x-text="rec.speaker"></span>
+                                                <span x-show="rec.speaker_role" class="text-gray-500" x-text="'(' + rec.speaker_role + ')'"></span>
+                                            </div>
+                                            <!-- Reasoning -->
+                                            <div x-show="rec.reasoning" class="mb-2">
+                                                <div class="text-xs text-gray-500 mb-1">Motivering:</div>
+                                                <p class="text-sm text-gray-300" x-text="rec.reasoning"></p>
+                                            </div>
+                                            <!-- Quote -->
+                                            <div x-show="rec.quote" class="mb-2">
+                                                <div class="text-xs text-gray-500 mb-1">Citat:</div>
+                                                <p class="text-sm text-gray-400 italic border-l-2 border-gray-600 pl-3" x-text="rec.quote"></p>
+                                            </div>
+                                            <!-- Price target & time horizon -->
+                                            <div x-show="rec.price_target || rec.time_horizon" class="flex space-x-4 text-sm text-gray-400">
+                                                <span x-show="rec.price_target" x-text="'🎯 Kursmål: ' + rec.price_target"></span>
+                                                <span x-show="rec.time_horizon" x-text="'⏱️ Tidshorisont: ' + rec.time_horizon"></span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </template>
                             </div>
@@ -434,7 +495,7 @@
 
             <!-- Tweet List -->
             <div class="space-y-3">
-                <template x-for="tweet in filteredTweets.slice(0, twitterDisplayLimit)" :key="tweet.id">
+                <template x-for="(tweet, tweetIndex) in filteredTweets.slice(0, twitterDisplayLimit)" :key="tweet.user_id + '-' + tweet.id + '-' + tweetIndex">
                     <div class="bg-gray-800 rounded-lg p-4 border border-gray-700"
                          :class="tweet.is_actionable ? 'border-l-2 border-l-emerald-500' : ''">
                         <div class="flex items-start justify-between">
@@ -451,28 +512,61 @@
 
                         <p class="mt-2 text-gray-200 whitespace-pre-wrap" x-text="tweet.text"></p>
 
-                        <!-- Stock mentions -->
-                        <div x-show="tweet.stock_mentions.length > 0" class="mt-3 flex flex-wrap gap-2">
-                            <template x-for="mention in tweet.stock_mentions" :key="mention.stock_name">
-                                <div class="flex items-center space-x-1 px-2 py-1 rounded"
-                                     :class="{
-                                         'bg-green-900': mention.action === 'buy',
-                                         'bg-red-900': mention.action === 'sell' || mention.action === 'avoid',
-                                         'bg-yellow-900': mention.action === 'hold',
-                                         'bg-blue-900': mention.action === 'watch',
-                                         'bg-gray-700': !mention.action || mention.action === 'unknown'
-                                     }">
-                                    <span class="text-xs font-medium"
-                                          :class="{
-                                              'text-green-300': mention.action === 'buy',
-                                              'text-red-300': mention.action === 'sell' || mention.action === 'avoid',
-                                              'text-yellow-300': mention.action === 'hold',
-                                              'text-blue-300': mention.action === 'watch',
-                                              'text-gray-300': !mention.action || mention.action === 'unknown'
-                                          }"
-                                          x-text="mention.action?.toUpperCase() || 'MENTION'"></span>
-                                    <span class="text-xs text-white" x-text="mention.stock_name"></span>
-                                    <span x-show="mention.ticker" class="text-xs text-gray-400" x-text="'$' + mention.ticker"></span>
+                        <!-- Stock mentions (expandable) -->
+                        <div x-show="tweet.stock_mentions.length > 0" class="mt-3 space-y-2">
+                            <template x-for="(mention, mentionIndex) in tweet.stock_mentions" :key="tweet.id + '-mention-' + mentionIndex">
+                                <div class="rounded-lg bg-gray-750 border border-gray-600 overflow-hidden">
+                                    <!-- Mention Header (clickable) -->
+                                    <div class="flex items-center justify-between px-3 py-2 cursor-pointer hover:bg-gray-700 transition-colors"
+                                         @click="mention.expanded = !mention.expanded">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2 py-0.5 rounded text-xs font-semibold"
+                                                  :class="{
+                                                      'bg-green-900 text-green-300': mention.action === 'buy',
+                                                      'bg-red-900 text-red-300': mention.action === 'sell' || mention.action === 'avoid',
+                                                      'bg-yellow-900 text-yellow-300': mention.action === 'hold',
+                                                      'bg-blue-900 text-blue-300': mention.action === 'watch',
+                                                      'bg-gray-700 text-gray-300': !mention.action || mention.action === 'unknown'
+                                                  }"
+                                                  x-text="mention.action?.toUpperCase() || 'MENTION'"></span>
+                                            <span class="font-medium text-gray-100" x-text="mention.stock_name"></span>
+                                            <span x-show="mention.ticker" class="text-sm text-gray-500" x-text="'$' + mention.ticker"></span>
+                                        </div>
+                                        <div class="flex items-center space-x-3">
+                                            <!-- Price change indicator -->
+                                            <span x-show="mention.price_change_pct !== undefined && mention.price_change_pct !== null"
+                                                  class="text-xs font-medium px-2 py-0.5 rounded"
+                                                  :class="mention.price_change_pct >= 0 ? 'bg-green-900/50 text-green-400' : 'bg-red-900/50 text-red-400'"
+                                                  x-text="(mention.price_change_pct >= 0 ? '+' : '') + mention.price_change_pct?.toFixed(1) + '%'"></span>
+                                            <!-- Confidence badge -->
+                                            <span x-show="mention.confidence" class="text-xs px-2 py-0.5 rounded"
+                                                  :class="{
+                                                      'bg-emerald-900/50 text-emerald-400': mention.confidence === 'high',
+                                                      'bg-yellow-900/50 text-yellow-400': mention.confidence === 'medium',
+                                                      'bg-gray-700 text-gray-400': mention.confidence === 'low'
+                                                  }"
+                                                  x-text="mention.confidence"></span>
+                                            <!-- Expand icon -->
+                                            <svg class="w-4 h-4 text-gray-500 transition-transform" :class="mention.expanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!-- Mention Details (expandable) -->
+                                    <div x-show="mention.expanded" x-collapse class="px-3 pb-3 pt-1 border-t border-gray-700 bg-gray-800/50">
+                                        <!-- Price info -->
+                                        <div x-show="mention.price_at_signal || mention.latest_price" class="flex items-center space-x-2 text-sm text-gray-400 mb-2">
+                                            <span>📊</span>
+                                            <span x-show="mention.price_at_signal" x-text="'Pris vid signal: ' + mention.price_at_signal + ' SEK'"></span>
+                                            <span x-show="mention.price_at_signal && mention.latest_price">→</span>
+                                            <span x-show="mention.latest_price" x-text="mention.latest_price + ' SEK'"></span>
+                                        </div>
+                                        <!-- Reasoning -->
+                                        <div x-show="mention.reasoning" class="mb-2">
+                                            <div class="text-xs text-gray-500 mb-1">Motivering:</div>
+                                            <p class="text-sm text-gray-300" x-text="mention.reasoning"></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </template>
                         </div>
@@ -564,21 +658,76 @@
 
                         <p x-show="video.summary" class="mt-3 text-sm text-gray-300" x-text="video.summary"></p>
 
-                        <!-- Recommendations -->
+                        <!-- Recommendations (expandable) -->
                         <div x-show="video.recommendations.length > 0" class="mt-3 pt-3 border-t border-gray-700">
-                            <div class="flex flex-wrap gap-2">
-                                <template x-for="rec in video.recommendations" :key="rec.stock_name">
-                                    <div class="flex items-center space-x-1 px-2 py-1 rounded bg-gray-700">
-                                        <span class="text-xs font-medium"
-                                              :class="{
-                                                  'text-green-400': rec.action === 'buy',
-                                                  'text-red-400': rec.action === 'sell' || rec.action === 'avoid',
-                                                  'text-yellow-400': rec.action === 'hold',
-                                                  'text-blue-400': rec.action === 'watch'
-                                              }"
-                                              x-text="rec.action?.toUpperCase()"></span>
-                                        <span class="text-xs text-gray-200" x-text="rec.stock_name"></span>
-                                        <span x-show="rec.ticker" class="text-xs text-gray-500" x-text="'(' + rec.ticker + ')'"></span>
+                            <div class="space-y-2">
+                                <template x-for="(rec, recIndex) in video.recommendations" :key="rec.stock_name + '-' + recIndex">
+                                    <div class="rounded-lg bg-gray-750 border border-gray-600 overflow-hidden">
+                                        <!-- Recommendation Header (clickable) -->
+                                        <div class="flex items-center justify-between px-3 py-2 cursor-pointer hover:bg-gray-700 transition-colors"
+                                             @click="rec.expanded = !rec.expanded">
+                                            <div class="flex items-center space-x-2">
+                                                <span class="px-2 py-0.5 rounded text-xs font-semibold"
+                                                      :class="{
+                                                          'bg-green-900 text-green-300': rec.action === 'buy',
+                                                          'bg-red-900 text-red-300': rec.action === 'sell' || rec.action === 'avoid',
+                                                          'bg-yellow-900 text-yellow-300': rec.action === 'hold',
+                                                          'bg-blue-900 text-blue-300': rec.action === 'watch'
+                                                      }"
+                                                      x-text="rec.action?.toUpperCase()"></span>
+                                                <span class="font-medium text-gray-100" x-text="rec.stock_name"></span>
+                                                <span x-show="rec.ticker" class="text-sm text-gray-500" x-text="'(' + rec.ticker + ')'"></span>
+                                            </div>
+                                            <div class="flex items-center space-x-3">
+                                                <!-- Price change indicator -->
+                                                <span x-show="rec.price_change_pct !== undefined && rec.price_change_pct !== null"
+                                                      class="text-xs font-medium px-2 py-0.5 rounded"
+                                                      :class="rec.price_change_pct >= 0 ? 'bg-green-900/50 text-green-400' : 'bg-red-900/50 text-red-400'"
+                                                      x-text="(rec.price_change_pct >= 0 ? '+' : '') + rec.price_change_pct?.toFixed(1) + '%'"></span>
+                                                <!-- Confidence badge -->
+                                                <span x-show="rec.confidence" class="text-xs px-2 py-0.5 rounded"
+                                                      :class="{
+                                                          'bg-emerald-900/50 text-emerald-400': rec.confidence === 'high',
+                                                          'bg-yellow-900/50 text-yellow-400': rec.confidence === 'medium',
+                                                          'bg-gray-700 text-gray-400': rec.confidence === 'low' || rec.confidence === 'speculative'
+                                                      }"
+                                                      x-text="rec.confidence"></span>
+                                                <!-- Expand icon -->
+                                                <svg class="w-4 h-4 text-gray-500 transition-transform" :class="rec.expanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <!-- Recommendation Details (expandable) -->
+                                        <div x-show="rec.expanded" x-collapse class="px-3 pb-3 pt-1 border-t border-gray-700 bg-gray-800/50">
+                                            <!-- Price info -->
+                                            <div x-show="rec.price_at_signal || rec.latest_price" class="flex items-center space-x-2 text-sm text-gray-400 mb-2">
+                                                <span>📊</span>
+                                                <span x-show="rec.price_at_signal" x-text="'Pris vid signal: ' + rec.price_at_signal + ' SEK'"></span>
+                                                <span x-show="rec.price_at_signal && rec.latest_price">→</span>
+                                                <span x-show="rec.latest_price" x-text="rec.latest_price + ' SEK'"></span>
+                                            </div>
+                                            <!-- Speaker info -->
+                                            <div x-show="rec.speaker" class="text-sm text-gray-400 mb-2">
+                                                <span>🗣️</span>
+                                                <span x-text="rec.speaker"></span>
+                                            </div>
+                                            <!-- Reasoning -->
+                                            <div x-show="rec.reasoning" class="mb-2">
+                                                <div class="text-xs text-gray-500 mb-1">Motivering:</div>
+                                                <p class="text-sm text-gray-300" x-text="rec.reasoning"></p>
+                                            </div>
+                                            <!-- Quote -->
+                                            <div x-show="rec.quote" class="mb-2">
+                                                <div class="text-xs text-gray-500 mb-1">Citat:</div>
+                                                <p class="text-sm text-gray-400 italic border-l-2 border-gray-600 pl-3" x-text="rec.quote"></p>
+                                            </div>
+                                            <!-- Price target & time horizon -->
+                                            <div x-show="rec.price_target || rec.time_horizon" class="flex space-x-4 text-sm text-gray-400">
+                                                <span x-show="rec.price_target" x-text="'🎯 Kursmål: ' + rec.price_target"></span>
+                                                <span x-show="rec.time_horizon" x-text="'⏱️ Tidshorisont: ' + rec.time_horizon"></span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </template>
                             </div>

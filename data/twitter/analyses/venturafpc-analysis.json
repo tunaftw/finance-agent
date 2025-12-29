@@ -11,7 +11,10 @@
     "investment_style": "Quality growth, fundamental analysis, concentrated portfolio",
     "language": "en/da/sv",
     "notable": "Very detailed Q-report analysis, follows Nordic markets closely. 128% return in 2025, 50% CAGR over 6 years.",
-    "influences": ["Ian Cassel", "Peter Lynch"]
+    "influences": [
+      "Ian Cassel",
+      "Peter Lynch"
+    ]
   },
   "investment_philosophy": {
     "portfolio_size": "8-12 companies",
@@ -42,7 +45,13 @@
       "Management stops executing",
       "Increased risk combined with high valuation"
     ],
-    "key_metrics": ["EV/EBIT", "EBIT margin scaling", "Revenue growth", "Gross margin", "Insider ownership"]
+    "key_metrics": [
+      "EV/EBIT",
+      "EBIT margin scaling",
+      "Revenue growth",
+      "Gross margin",
+      "Insider ownership"
+    ]
   },
   "stock_mentions": [
     {
@@ -443,5 +452,97 @@
       "action_type": "strategy"
     }
   ],
-  "analysis_prompt_template": "Las igenom Twitter-datan for [USERNAME] i:\n- data/twitter/raw/[USERNAME]/tweets.jsonl\n- data/twitter/analyses/[USERNAME]-analysis.json (om den finns)\n\nGor en djupgaende analys av anvandarens aktierekommendationer over tid:\n\n1. **Investeringsfilosofi** - Vad ar deras overgripande strategi? Hur manga aktier i portfoljen? Position sizing? Sell-triggers?\n\n2. **Alla aktienamningar med hog conviction** - Lista ut:\n   - Aktienamn och ticker\n   - Datum for rekommendation\n   - Action (kop/salj/behall)\n   - Nyckeltal vid rekommendationen (MC, EV, EV/EBIT, P/E, etc.)\n   - **Detaljerad motivering** - inkludera sa mycket reasoning som mojligt fran tweets\n   - Direkta citat pa originalsprak\n\n3. **Salda positioner** - Vilka aktier har de salt och varfor? Vad kan man lara sig?\n\n4. **Sektorpreferenser** - Vilka branscher gillar/undviker de?\n\n5. **Roda flaggor de namner** - Vad far dem att salja?\n\nFormatera som en lasbar tabell/rapport. Inkludera alltid mer snarare an mindre nar det galler reasoning och motivation - jag vill forsta VARFOR de gillar varje aktie."
+  "analysis_prompt_template": "Las igenom Twitter-datan for [USERNAME] i:\n- data/twitter/raw/[USERNAME]/tweets.jsonl\n- data/twitter/analyses/[USERNAME]-analysis.json (om den finns)\n\nGor en djupgaende analys av anvandarens aktierekommendationer over tid:\n\n1. **Investeringsfilosofi** - Vad ar deras overgripande strategi? Hur manga aktier i portfoljen? Position sizing? Sell-triggers?\n\n2. **Alla aktienamningar med hog conviction** - Lista ut:\n   - Aktienamn och ticker\n   - Datum for rekommendation\n   - Action (kop/salj/behall)\n   - Nyckeltal vid rekommendationen (MC, EV, EV/EBIT, P/E, etc.)\n   - **Detaljerad motivering** - inkludera sa mycket reasoning som mojligt fran tweets\n   - Direkta citat pa originalsprak\n\n3. **Salda positioner** - Vilka aktier har de salt och varfor? Vad kan man lara sig?\n\n4. **Sektorpreferenser** - Vilka branscher gillar/undviker de?\n\n5. **Roda flaggor de namner** - Vad far dem att salja?\n\nFormatera som en lasbar tabell/rapport. Inkludera alltid mer snarare an mindre nar det galler reasoning och motivation - jag vill forsta VARFOR de gillar varje aktie.",
+  "recommendations": [
+    {
+      "date": "2025-12-26",
+      "ticker": "HOVE",
+      "name": "Hove",
+      "signal": "buy",
+      "confidence": "very_high",
+      "text": "Danish company supplying pumps and lubricants to wind turbine industry. Nespresso model - sell pumps (hardware) and grease (recurring).",
+      "metrics": null
+    },
+    {
+      "date": "2025-12-10",
+      "ticker": "DELLIA",
+      "name": "Dellia",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Nordic snack company (dried fruit, nuts). Recently IPO'd.",
+      "metrics": null
+    },
+    {
+      "date": "2025-12-26",
+      "ticker": "PLEJD",
+      "name": "Plejd",
+      "signal": "hold",
+      "confidence": "high",
+      "text": "Smart home/lighting control systems for electricians.",
+      "metrics": null
+    },
+    {
+      "date": "2025-11-19",
+      "ticker": "ZZ",
+      "name": "Zinzino",
+      "signal": "hold",
+      "confidence": "medium",
+      "text": "Test-based nutritional supplements using network marketing model.",
+      "metrics": null
+    },
+    {
+      "date": "2025-11-05",
+      "ticker": "SNX",
+      "name": "SNX / Premium Snacks Nordic",
+      "signal": "hold",
+      "confidence": "medium",
+      "text": "Snack distributor/producer in Nordic countries.",
+      "metrics": null
+    },
+    {
+      "date": "2025-10-23",
+      "ticker": "NELLY",
+      "name": "Nelly",
+      "signal": "hold",
+      "confidence": "medium",
+      "text": "Online fashion retailer, focus on young women, increasing own-brand products.",
+      "metrics": null
+    },
+    {
+      "date": "2025-07-27",
+      "ticker": "BETS",
+      "name": "Betsson",
+      "signal": "hold",
+      "confidence": "medium",
+      "text": "Online gambling/betting operator.",
+      "metrics": null
+    },
+    {
+      "date": "2025-10-23",
+      "ticker": "AVTECH",
+      "name": "Avtech",
+      "signal": "hold",
+      "confidence": "medium",
+      "text": "",
+      "metrics": null
+    },
+    {
+      "date": "2025-09-11",
+      "ticker": "TEKOVA",
+      "name": "Tekova",
+      "signal": "buy",
+      "confidence": "medium",
+      "text": "Finnish construction company for commercial, office, logistics, production, and sports facilities.",
+      "metrics": null
+    },
+    {
+      "date": "2025-11-06",
+      "ticker": "PEXIP",
+      "name": "Pexip",
+      "signal": "hold",
+      "confidence": "medium",
+      "text": "",
+      "metrics": null
+    }
+  ]
 }

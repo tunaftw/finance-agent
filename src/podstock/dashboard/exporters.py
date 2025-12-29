@@ -3,10 +3,11 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 from sqlalchemy import func
 from sqlalchemy.orm import Session
@@ -15,20 +16,325 @@ from podstock.db.models import (
     Analysis,
     Content,
     Mention,
+    Price,
     Recommendation,
     RecommendationPerformance,
+    Security,
+    SecurityAlias,
     Source,
 )
 
 
+# --- PRICE DATA HELPERS ---
+
+
+def _get_price_data(
+    session: Session,
+    stock_name: str,
+    ticker: Optional[str],
+    signal_date: str,
+) -> dict[str, Any]:
+    """Get price data for a stock at signal date and latest available.
+
+    Args:
+        session: Database session
+        stock_name: Name of the stock
+        ticker: Optional ticker symbol
+        signal_date: Date of the recommendation (YYYY-MM-DD)
+
+    Returns:
+        Dict with price_at_signal, latest_price, price_change_pct
+    """
+    result = {
+        "price_at_signal": None,
+        "latest_price": None,
+        "price_change_pct": None,
+    }
+
+    if not session:
+        return result
+
+    # Try to find security by ticker first, then by name
+    security = None
+
+    if ticker:
+        security = session.query(Security).filter(
+            func.upper(Security.ticker) == ticker.upper()
+        ).first()
+
+    if not security and stock_name:
+        # Try by name
+        security = session.query(Security).filter(
+            func.lower(Security.name) == stock_name.lower()
+        ).first()
+
+        # Try by alias
+        if not security:
+            alias = session.query(SecurityAlias).filter(
+                func.lower(SecurityAlias.alias) == stock_name.lower()
+            ).first()
+            if alias:
+                security = alias.security
+
+    if not security:
+        return result
+
+    # Get price at signal date (or closest before)
+    if signal_date:
+        price_at_signal = (
+            session.query(Price)
+            .filter(
+                Price.security_id == security.id,
+                Price.date <= signal_date
+            )
+            .order_by(Price.date.desc())
+            .first()
+        )
+        if price_at_signal:
+            result["price_at_signal"] = round(price_at_signal.close, 2)
+
+    # Get latest price
+    latest_price = (
+        session.query(Price)
+        .filter(Price.security_id == security.id)
+        .order_by(Price.date.desc())
+        .first()
+    )
+    if latest_price:
+        result["latest_price"] = round(latest_price.close, 2)
+
+    # Calculate change percentage
+    if result["price_at_signal"] and result["latest_price"]:
+        change = (result["latest_price"] - result["price_at_signal"]) / result["price_at_signal"] * 100
+        result["price_change_pct"] = round(change, 1)
+
+    return result
+
+
 # --- NEW EXPORTERS FOR SOURCE-SPECIFIC TABS ---
 
+# Known name aliases for podcast normalization
+# Maps lowercase name variations -> canonical podcast_id
+KNOWN_NAME_ALIASES: dict[str, str] = {
+    # Kort & Lång / Analyspodden (DI)
+    "kort & lång": "kortochlang",
+    "kort och lång": "kortochlang",
+    "kort och lang": "kortochlang",
+    "analyspodden": "kortochlang",
+    "analyspodden från dagens industri": "kortochlang",
+    "analysepodden från dagens industri": "kortochlang",
+    "dagens industris analyspodd": "kortochlang",
+    "analyspodden (kort och lång)": "kortochlang",
+    "analyspodden (dagens industri)": "kortochlang",
+    "analysepodden": "kortochlang",
+    "analyspodd": "kortochlang",
+    "kort & lång – analyspodden från di": "kortochlang",
+    "di:s analyspodden": "kortochlang",
+    # Fill or Kill
+    "fill or kill": "fillorkill",
+    "fil or kill": "fillorkill",
+    "fil & kill": "fillorkill",
+    "fil eller kill": "fillorkill",
+    "phil & kill": "fillorkill",
+    "fill & kill": "fillorkill",
+    # Market Makers
+    "market makers": "marketmakers",
+    "markets makers": "marketmakers",
+    "market maker": "marketmakers",
+    # Avanzapodden
+    "avanza-podden": "avanzapodden",
+    "avanza podden": "avanzapodden",
+    # IG Börssnack
+    "ig borssnack": "igborssnack",
+    "ig börssnack": "igborssnack",
+    "ig:s börssnack": "igborssnack",
+    # Bull & Björn
+    "bull & björn": "bullochbjorn",
+    "bull och björn": "bullochbjorn",
+    "bull & bjorn": "bullochbjorn",
+    "bull och bjorn": "bullochbjorn",
+    # Gött Tjöt
+    "gött tjöt om aktier": "gotttjot",
+    "gött kött om aktier": "gotttjot",
+    "någonting om aktier": "gotttjot",
+    "gott tjot om aktier": "gotttjot",
+    "gött & jöt": "gotttjot",
+    "gott & jot": "gotttjot",
+    # Börsens Finest
+    "börsens finest": "borsensfinest",
+    "borsens finest": "borsensfinest",
+    # Kvalitet för pengarna
+    "kvalitet för pengarna": "kvalitetforpengarna",
+    "kvalitet for pengarna": "kvalitetforpengarna",
+    # Affärsvärlden / Marknaden
+    "affärsvärlden-magasin": "marknaden",
+    "affärsvärlden magasin": "marknaden",
+    "affärsvärlden": "marknaden",
+    "marknaden (affärsvärlden)": "marknaden",
+    "marknaden (affärsvärlden-magasin)": "marknaden",
+    "affarsvärlden": "marknaden",
+    "affarsvärlden-magasin": "marknaden",
+    # Analyspodden DNB Carnegie (separat från Kort & Lång)
+    "analyspodden (dnb carnegie)": "analyspodden",
+    "analyspodden - bolag & aktier med dnb carnegie": "analyspodden",
+    "dnb carnegie analyspodden": "analyspodden",
+    "analyspodden - bolag och aktier": "analyspodden",
+    # Börspodden
+    "börspodden": "borspodden",
+    "börsboden": "borspodden",
+    "börsbaden": "borspodden",
+    "borspodden": "borspodden",
+    # Börsmäklarna
+    "börsmäklarna": "borsmaklarna",
+    "borsmaklarna": "borsmaklarna",
+    # Global Gains
+    "global gains": "globalgains",
+    "global gains | om världens bästa aktier och fonder": "globalgains",
+    # Börsmagasinet
+    "börsmagasinet": "borsmagasinet",
+    "borsmagasinet": "borsmagasinet",
+    # Kvalitetsaktiepodden
+    "kvalitetsaktiepodden": "kvalitetsaktiepodden",
+    "kvalitets aktiepodden": "kvalitetsaktiepodden",
+    # Montrosepodden
+    "montrosepodden": "montrosepodden",
+    "montrose podden": "montrosepodden",
+    # Ett rikare liv
+    "ett rikare liv": "ettrikareliv",
+    # Sparpodden
+    "sparpodden": "sparpodden",
+    # Småspararpodden
+    "småspararpodden": "smaspararpodden",
+    "smaspararpodden": "smaspararpodden",
+    # Veckans Trade
+    "veckans trade": "veckanstrade",
+    # Aktiepodden
+    "aktiepodden": "aktiepodden",
+    # Log (if this is a podcast)
+    "log": "log",
+}
 
-def export_podcasts(data_dir: Path) -> dict[str, Any]:
+
+def _load_podcast_registry(data_dir: Path) -> dict[str, Any]:
+    """Load podcasts.json registry.
+
+    Args:
+        data_dir: Path to the data directory
+
+    Returns:
+        Registry dict with 'podcasts' list
+    """
+    podcasts_json = data_dir / "podcasts.json"
+    if podcasts_json.exists():
+        try:
+            with open(podcasts_json, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError):
+            pass
+    return {"podcasts": []}
+
+
+def _build_podcast_aliases(registry: dict[str, Any]) -> tuple[dict[str, dict], dict[str, dict]]:
+    """Build mapping from aliases to canonical podcast info.
+
+    Args:
+        registry: Podcast registry loaded from podcasts.json
+
+    Returns:
+        (id_aliases, name_aliases) where:
+        - id_aliases: maps podcast_id -> canonical podcast dict
+        - name_aliases: maps lowercase name variations -> canonical podcast dict
+    """
+    id_aliases: dict[str, dict] = {}
+    name_aliases: dict[str, dict] = {}
+
+    # Build id_aliases from registry
+    for podcast in registry.get("podcasts", []):
+        podcast_id = podcast["id"]
+        id_aliases[podcast_id] = podcast
+
+        # Also add name-based lookup (lowercase)
+        name_lower = podcast["name"].lower()
+        name_aliases[name_lower] = podcast
+
+    # Add known name aliases
+    for name_lower, canonical_id in KNOWN_NAME_ALIASES.items():
+        if canonical_id in id_aliases:
+            name_aliases[name_lower] = id_aliases[canonical_id]
+
+    return id_aliases, name_aliases
+
+
+def _extract_podcast_id(episode_id: str) -> str:
+    """Extract podcast_id from episode_id.
+
+    Episode ID format: {podcast_id}-{YYYY}-{MM}-{DD}-{hash}
+    Examples:
+        aktiepodden-2024-12-20-cff4 -> aktiepodden
+        fillorkill-2019-05-07-22e1 -> fillorkill
+        some-podcast-name-2024-01-15-abc1 -> some-podcast-name
+
+    Args:
+        episode_id: The episode identifier string
+
+    Returns:
+        Extracted podcast_id (everything before the date)
+    """
+    parts = episode_id.split("-")
+
+    # Find where the date starts (YYYY-MM-DD pattern)
+    for i, part in enumerate(parts):
+        if len(part) == 4 and part.isdigit():
+            year = int(part)
+            if 1900 <= year <= 2100:
+                # This is likely the year - podcast_id is everything before
+                return "-".join(parts[:i])
+
+    # Fallback: just take first part
+    return parts[0]
+
+
+def _resolve_podcast(
+    episode_id: str,
+    podcast_name_from_file: str,
+    id_aliases: dict[str, dict],
+    name_aliases: dict[str, dict],
+) -> tuple[str, str]:
+    """Resolve to canonical podcast_id and name.
+
+    Args:
+        episode_id: Episode identifier
+        podcast_name_from_file: Name from the analysis JSON file
+        id_aliases: Mapping from podcast_id to canonical podcast dict
+        name_aliases: Mapping from lowercase names to canonical podcast dict
+
+    Returns:
+        (canonical_id, canonical_name)
+    """
+    # 1. Extract podcast_id from episode_id
+    extracted_id = _extract_podcast_id(episode_id)
+
+    # 2. Try to find by ID first
+    if extracted_id in id_aliases:
+        podcast = id_aliases[extracted_id]
+        return podcast["id"], podcast["name"]
+
+    # 3. Try to find by name (normalized)
+    name_lower = podcast_name_from_file.lower().strip()
+    if name_lower in name_aliases:
+        podcast = name_aliases[name_lower]
+        return podcast["id"], podcast["name"]
+
+    # 4. Fallback: use extracted_id and original name
+    return extracted_id, podcast_name_from_file
+
+
+def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[str, Any]:
     """Export podcast episodes directly from analysis JSON files.
 
     Args:
         data_dir: Path to the data directory (e.g., /data/)
+        session: Optional database session for enriching with price data
 
     Returns:
         Dict with episodes, sources, and stock_mentions
@@ -37,6 +343,10 @@ def export_podcasts(data_dir: Path) -> dict[str, Any]:
 
     if not analyses_dir.exists():
         return {"episodes": [], "sources": [], "stock_mentions": []}
+
+    # Load podcast registry for canonical names
+    registry = _load_podcast_registry(data_dir)
+    id_aliases, name_aliases = _build_podcast_aliases(registry)
 
     episodes = []
     sources_map: dict[str, dict] = {}
@@ -50,12 +360,18 @@ def export_podcasts(data_dir: Path) -> dict[str, Any]:
         except (json.JSONDecodeError, IOError):
             continue
 
-        # Extract podcast_id from episode_id (e.g., "aktiepodden-2024-12-20-cff4" -> "aktiepodden")
+        # Extract and normalize podcast info
         episode_id = data.get("episode_id", json_file.stem)
-        parts = episode_id.rsplit("-", 3)
-        podcast_id = parts[0] if len(parts) >= 4 else episode_id.split("-")[0]
+        podcast_name_from_file = data.get("podcast_name", "")
 
-        podcast_name = data.get("podcast_name", podcast_id.replace("-", " ").title())
+        # Resolve to canonical podcast_id and name
+        podcast_id, podcast_name = _resolve_podcast(
+            episode_id, podcast_name_from_file, id_aliases, name_aliases
+        )
+
+        # Fallback if no name resolved
+        if not podcast_name:
+            podcast_name = podcast_id.replace("-", " ").title()
 
         # Build episode entry
         episode = {
@@ -65,14 +381,14 @@ def export_podcasts(data_dir: Path) -> dict[str, Any]:
             "episode_title": data.get("episode_title", ""),
             "episode_number": data.get("episode_number"),
             "date": data.get("date", ""),
-            "hosts": data.get("hosts", []),
-            "guests": data.get("guests", []),
-            "main_topics": data.get("main_topics", []),
-            "stocks_discussed": data.get("stocks_discussed", []),
+            "hosts": data.get("hosts") or [],
+            "guests": data.get("guests") or [],
+            "main_topics": data.get("main_topics") or [],
+            "stocks_discussed": data.get("stocks_discussed") or [],
             "recommendation_count": len(data.get("recommendations", [])),
             "market_sentiment": data.get("market_sentiment", ""),
             "summary": data.get("summary", ""),
-            "key_takeaways": data.get("key_takeaways", []),
+            "key_takeaways": data.get("key_takeaways") or [],
             "recommendations": [
                 {
                     "stock_name": rec.get("stock_name", ""),
@@ -85,6 +401,13 @@ def export_podcasts(data_dir: Path) -> dict[str, Any]:
                     "quote": rec.get("quote", ""),
                     "price_target": rec.get("price_target"),
                     "time_horizon": rec.get("time_horizon"),
+                    # Price data (enriched from database if session provided)
+                    **_get_price_data(
+                        session,
+                        rec.get("stock_name", ""),
+                        rec.get("ticker"),
+                        data.get("date", "")
+                    ),
                 }
                 for rec in data.get("recommendations", [])
             ],
@@ -132,11 +455,74 @@ def export_podcasts(data_dir: Path) -> dict[str, Any]:
     }
 
 
-def export_twitter(data_dir: Path) -> dict[str, Any]:
+# --- TWITTER MATCHING HELPERS ---
+
+
+def _normalize_name(name: str) -> str:
+    """Remove apostrophes and special chars for matching."""
+    return re.sub(r"['\-]", "", name)
+
+
+def _matches_stock(tweet_text: str, ticker: str, stock_name: str) -> bool:
+    """Check if tweet mentions a stock by ticker or company name.
+
+    Matching strategies (in order):
+    1. $TICKER - explicit cashtag
+    2. TICKER (3+ chars) - without exchange suffix
+    3. Full company name - case-insensitive word boundary
+    4. First word of company name (5+ chars)
+    5. Base name without trailing 's' (for possessives like "Portillo's")
+    """
+    tweet_upper = tweet_text.upper()
+    tweet_normalized = _normalize_name(tweet_text)
+
+    # 1. Check $TICKER
+    if ticker and f"${ticker.upper()}" in tweet_upper:
+        return True
+
+    # 2. Check TICKER without exchange suffix (ITECH.ST -> ITECH)
+    if ticker:
+        ticker_base = ticker.split(".")[0].upper()
+        if len(ticker_base) >= 3 and ticker_base in tweet_upper:
+            return True
+
+    # 3. Check full company name (word boundary)
+    if stock_name and len(stock_name) > 2:
+        # Try exact match
+        pattern = r"\b" + re.escape(stock_name) + r"\b"
+        if re.search(pattern, tweet_text, re.IGNORECASE):
+            return True
+        # Try normalized (without apostrophes)
+        name_normalized = _normalize_name(stock_name)
+        pattern = r"\b" + re.escape(name_normalized) + r"\b"
+        if re.search(pattern, tweet_normalized, re.IGNORECASE):
+            return True
+
+    # 4. Check first word of company name (if 5+ chars)
+    if stock_name:
+        first_word = _normalize_name(stock_name.split()[0])
+        if len(first_word) >= 5:
+            pattern = r"\b" + re.escape(first_word) + r"\b"
+            if re.search(pattern, tweet_normalized, re.IGNORECASE):
+                return True
+
+    # 5. Check base name without trailing 's' (for Portillo's -> Portillo)
+    if stock_name:
+        base_name = _normalize_name(stock_name).rstrip("s")
+        if len(base_name) >= 5:
+            pattern = r"\b" + re.escape(base_name) + r"\b"
+            if re.search(pattern, tweet_normalized, re.IGNORECASE):
+                return True
+
+    return False
+
+
+def export_twitter(data_dir: Path, session: Optional[Session] = None) -> dict[str, Any]:
     """Export Twitter tweets and analyses.
 
     Args:
         data_dir: Path to the data directory (e.g., /data/)
+        session: Optional database session for enriching with price data
 
     Returns:
         Dict with tweets, users, and stock_mentions
@@ -154,15 +540,55 @@ def export_twitter(data_dir: Path) -> dict[str, Any]:
 
     # Load analyses indexed by tweet_id
     analyses_by_tweet: dict[str, dict] = {}
+    users_with_tweet_analyses: set[str] = set()
+
     if analyses_dir.exists():
         for analysis_file in analyses_dir.glob("*-tweet-analyses.json"):
             try:
                 with open(analysis_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
+                    source_id = data.get("source_id", "")
+                    if source_id:
+                        users_with_tweet_analyses.add(source_id)
                     for analysis in data.get("analyses", []):
                         tweet_id = analysis.get("tweet_id")
                         if tweet_id:
                             analyses_by_tweet[tweet_id] = analysis
+            except (json.JSONDecodeError, IOError):
+                continue
+
+    # Load summary analyses as fallback for users without tweet-analyses
+    # Maps: user_id -> {date -> [recommendations]}
+    summary_recommendations: dict[str, dict[str, list]] = {}
+    if analyses_dir.exists():
+        for summary_file in analyses_dir.glob("*-analysis.json"):
+            try:
+                user_id = summary_file.stem.replace("-analysis", "")
+                # Skip if user already has tweet-analyses
+                if user_id in users_with_tweet_analyses:
+                    continue
+
+                with open(summary_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+
+                # Extract recommendations (may be in different locations)
+                recommendations = data.get("recommendations", [])
+                if not recommendations:
+                    # Try core_holdings with recommendations
+                    for holding in data.get("core_holdings", []):
+                        recommendations.extend(holding.get("recommendations", []))
+
+                # Build date -> recommendations map
+                if recommendations:
+                    date_recs: dict[str, list] = {}
+                    for rec in recommendations:
+                        rec_date = rec.get("date", "")
+                        if rec_date:
+                            if rec_date not in date_recs:
+                                date_recs[rec_date] = []
+                            date_recs[rec_date].append(rec)
+                    if date_recs:
+                        summary_recommendations[user_id] = date_recs
             except (json.JSONDecodeError, IOError):
                 continue
 
@@ -193,17 +619,39 @@ def export_twitter(data_dir: Path) -> dict[str, Any]:
 
                     tweet_id = str(tweet_data.get("id", ""))
 
+                    # Extract date from posted_at
+                    posted_at = tweet_data.get("posted_at", "")
+                    date = posted_at[:10] if posted_at else ""
+
                     # Get analysis if available
                     analysis = analyses_by_tweet.get(tweet_id, {})
                     stock_mentions = analysis.get("stock_mentions", [])
                     is_actionable = analysis.get("is_actionable", False)
 
+                    # Fallback: check summary recommendations if no tweet-analysis
+                    if not stock_mentions and user_id in summary_recommendations:
+                        user_recs = summary_recommendations[user_id]
+                        if date in user_recs:
+                            tweet_text = tweet_data.get("text", "")
+                            for rec in user_recs[date]:
+                                ticker = rec.get("ticker", "")
+                                stock_name = rec.get("name", "")
+                                # Check if stock is mentioned by ticker OR company name
+                                if _matches_stock(tweet_text, ticker, stock_name):
+                                    signal = rec.get("signal", "").lower()
+                                    action = signal if signal in ["buy", "sell", "hold", "watch", "avoid"] else "buy"
+                                    stock_mentions.append({
+                                        "stock_name": stock_name or ticker,
+                                        "ticker": ticker,
+                                        "action": action,
+                                        "confidence": rec.get("confidence", "high"),
+                                        "reasoning": rec.get("text", "From summary analysis"),
+                                        "quote": rec.get("text", "")[:150] if rec.get("text") else "",
+                                    })
+                                    is_actionable = True
+
                     if is_actionable:
                         actionable_count += 1
-
-                    # Extract date from posted_at
-                    posted_at = tweet_data.get("posted_at", "")
-                    date = posted_at[:10] if posted_at else ""
 
                     tweet = {
                         "id": tweet_id,
@@ -223,6 +671,13 @@ def export_twitter(data_dir: Path) -> dict[str, Any]:
                                 "action": m.get("action", ""),
                                 "confidence": m.get("confidence", ""),
                                 "reasoning": m.get("reasoning", ""),
+                                # Price data (enriched from database if session provided)
+                                **_get_price_data(
+                                    session,
+                                    m.get("stock_name", ""),
+                                    m.get("ticker"),
+                                    date
+                                ),
                             }
                             for m in stock_mentions
                         ],
@@ -283,11 +738,12 @@ def export_twitter(data_dir: Path) -> dict[str, Any]:
     }
 
 
-def export_youtube(data_dir: Path) -> dict[str, Any]:
+def export_youtube(data_dir: Path, session: Optional[Session] = None) -> dict[str, Any]:
     """Export YouTube videos from raw JSON files and analyses.
 
     Args:
         data_dir: Path to the data directory (e.g., /data/)
+        session: Optional database session for enriching with price data
 
     Returns:
         Dict with videos, channels, and stock_mentions
@@ -395,6 +851,13 @@ def export_youtube(data_dir: Path) -> dict[str, Any]:
                     "quote": m.get("quote", ""),
                     "price_target": m.get("price_target"),
                     "time_horizon": m.get("time_horizon"),
+                    # Price data (enriched from database if session provided)
+                    **_get_price_data(
+                        session,
+                        m.get("asset_name", ""),
+                        m.get("asset_symbol"),
+                        date
+                    ),
                 }
                 for m in mentions
             ]
