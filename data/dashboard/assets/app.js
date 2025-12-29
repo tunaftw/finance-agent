@@ -57,6 +57,7 @@ function dashboard() {
             dateFrom: '',
             dateTo: '',
             companySearch: '',
+            positionDisclosure: '',
         },
 
         // Twitter Filters
@@ -74,6 +75,7 @@ function dashboard() {
             dateFrom: '',
             dateTo: '',
             companySearch: '',
+            recommendationType: '',
         },
 
         // === INBOX COMPUTED ===
@@ -192,6 +194,14 @@ function dashboard() {
                 );
             }
 
+            // Position disclosure filter
+            if (this.podcastFilters.positionDisclosure) {
+                const disclosure = this.podcastFilters.positionDisclosure;
+                results = results.filter(e =>
+                    (e.stock_segments || []).some(seg => seg.position_disclosure === disclosure)
+                );
+            }
+
             // Sort by date descending
             return results.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
         },
@@ -293,6 +303,14 @@ function dashboard() {
                         r.stock_name.toLowerCase().includes(search) ||
                         (r.ticker && r.ticker.toLowerCase().includes(search))
                     )
+                );
+            }
+
+            // Recommendation type filter
+            if (this.youtubeFilters.recommendationType) {
+                const recType = this.youtubeFilters.recommendationType;
+                results = results.filter(v =>
+                    (v.recommendations || []).some(r => r.recommendation_type === recType)
                 );
             }
 

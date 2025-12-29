@@ -401,6 +401,10 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                     "quote": rec.get("quote", ""),
                     "price_target": rec.get("price_target"),
                     "time_horizon": rec.get("time_horizon"),
+                    # Additional fields
+                    "timestamp": rec.get("timestamp"),
+                    "sector": rec.get("sector"),
+                    "market": rec.get("market"),
                     # Price data (enriched from database if session provided)
                     **_get_price_data(
                         session,
@@ -411,6 +415,26 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                 }
                 for rec in data.get("recommendations", [])
             ],
+            # Stock segments - detailed discussion per stock
+            "stock_segments": [
+                {
+                    "stock_name": seg.get("stock_name", ""),
+                    "ticker": seg.get("ticker"),
+                    "timestamp_start": seg.get("timestamp_start"),
+                    "timestamp_end": seg.get("timestamp_end"),
+                    "word_count": seg.get("word_count"),
+                    "speakers": seg.get("speakers", []),
+                    "primary_speaker": seg.get("primary_speaker"),
+                    "discussion_summary": seg.get("discussion_summary", ""),
+                    "quotes": seg.get("quotes", []),
+                    "financial_metrics": seg.get("financial_metrics", {}),
+                    "thesis": seg.get("thesis", {}),
+                    "position_disclosure": seg.get("position_disclosure"),
+                }
+                for seg in data.get("stock_segments", [])
+            ],
+            # Insights array (if available)
+            "insights": data.get("insights", []),
         }
         episodes.append(episode)
 
@@ -851,6 +875,15 @@ def export_youtube(data_dir: Path, session: Optional[Session] = None) -> dict[st
                     "quote": m.get("quote", ""),
                     "price_target": m.get("price_target"),
                     "time_horizon": m.get("time_horizon"),
+                    # Additional fields for richer display
+                    "timestamp": m.get("timestamp"),
+                    "price_prediction": m.get("price_prediction"),
+                    "mentioned_catalysts": m.get("mentioned_catalysts", []),
+                    "risk_factors_mentioned": m.get("risk_factors_mentioned", []),
+                    "recommendation_type": m.get("recommendation_type"),
+                    "invalidation_price": m.get("invalidation_price"),
+                    "market_cap_awareness": m.get("market_cap_awareness"),
+                    "is_new_position": m.get("is_new_position"),
                     # Price data (enriched from database if session provided)
                     **_get_price_data(
                         session,
@@ -878,6 +911,9 @@ def export_youtube(data_dir: Path, session: Optional[Session] = None) -> dict[st
                 "stocks_discussed": stocks_discussed,
                 "recommendation_count": len(recommendations),
                 "recommendations": recommendations,
+                # Additional top-level fields (crypto channels)
+                "bitcoin_dominance_view": analysis.get("bitcoin_dominance_view"),
+                "alt_season_prediction": analysis.get("alt_season_prediction"),
             }
             channel_videos.append(video)
 
