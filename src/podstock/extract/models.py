@@ -82,6 +82,49 @@ class StockSegment(BaseModel):
     )
 
 
+# === Insight Models (v2.1) ===
+
+
+class Insight(BaseModel):
+    """Investeringsvisdom extraherad från transkript."""
+
+    quote: str = Field(description="Exakt citat som innehåller visdomen, max 300 ord")
+    summary: str = Field(description="1-2 meningar som sammanfattar insikten")
+    category: Literal["philosophy", "lesson", "wisdom"] = Field(
+        description="philosophy=investeringsfilosofi, lesson=lärdomar, wisdom=marknadsvisdom"
+    )
+    speaker: str = Field(description="Vem som sa det")
+    speaker_role: Literal["host", "guest", "unknown"] = Field(default="unknown")
+    timestamp: str | None = Field(default=None, description="Tidsstämpel om tillgänglig")
+    confidence: Literal["high", "medium", "low"] = Field(
+        default="medium", description="Hur stark/tydlig insikten är"
+    )
+    tags: list[str] = Field(
+        default_factory=list, description="Sökbara taggar: koncept, bolagsnamn, etc."
+    )
+
+
+class CryptoMention(BaseModel):
+    """Crypto-omnämnande med sentiment."""
+
+    asset_symbol: str = Field(description="Symbol: BTC, ETH, SOL, etc.")
+    asset_name: str | None = Field(default=None, description="Fullständigt namn: Bitcoin, Ethereum")
+    sentiment: Literal["bullish", "bearish", "neutral", "mixed"] = Field(
+        description="Uttryckt sentiment"
+    )
+    speaker: str = Field(description="Vem som nämnde det")
+    speaker_role: Literal["host", "guest", "unknown"] = Field(default="unknown")
+    quote: str = Field(description="Stödjande citat, max 100 ord")
+    context: str | None = Field(default=None, description="Diskussionskontext")
+    confidence: Literal["high", "medium", "low"] = Field(default="medium")
+    price_levels: list[str] = Field(
+        default_factory=list, description="Prisnivåer som nämns"
+    )
+    timeframe: str | None = Field(
+        default=None, description="'kort sikt', 'medellång sikt', 'lång sikt'"
+    )
+
+
 # === Existing Models ===
 
 
@@ -118,12 +161,26 @@ class StockRecommendation(BaseModel):
         default="unknown"
     )
 
+    # Extra alfa-fält (v2.1) - optional, fylls bara i om det nämns explicit
+    position_context: str | None = Field(
+        default=None,
+        description="Fri text om positionsstorlek, t.ex. '50% av portföljen', 'största positionen'"
+    )
+    downside_note: str | None = Field(
+        default=None,
+        description="Fri text om downside/risk, t.ex. '30% neddida', 'värsta fall 50 SEK'"
+    )
+    catalyst_timing: str | None = Field(
+        default=None,
+        description="Katalysator med timing, t.ex. 'Rapport 15 feb', 'produktlansering Q2'"
+    )
+
 
 class EpisodeAnalysis(BaseModel):
     """Komplett analys av ett poddavsnitt."""
 
     # Schema version för bakåtkompatibilitet
-    schema_version: str = Field(default="1.0", description="1.0=legacy, 2.0=med stock_segments")
+    schema_version: str = Field(default="2.1", description="1.0=legacy, 2.0=stock_segments, 2.1=insights+crypto")
 
     # Identifiering
     episode_id: str = Field(description="Unikt ID, t.ex. 'borspodden_2024-12-20'")
@@ -145,6 +202,16 @@ class EpisodeAnalysis(BaseModel):
     stock_segments: list[StockSegment] = Field(
         default_factory=list,
         description="Detaljerade segment för aktier med >2 min diskussion"
+    )
+
+    # Insights och Crypto (v2.1)
+    insights: list[Insight] = Field(
+        default_factory=list,
+        description="Investeringsvisdom och lärdomar extraherade från transkriptet"
+    )
+    crypto_mentions: list[CryptoMention] = Field(
+        default_factory=list,
+        description="Cryptocurrency-omnämnanden med sentiment"
     )
 
     # Sentiment

@@ -227,6 +227,12 @@ CREATE TABLE IF NOT EXISTS recommendation_performance (
     calculated_at       TEXT,
     is_complete         INTEGER DEFAULT 0,
 
+    -- Current price tracking (updated on each sync)
+    price_current       REAL,           -- Latest fetched price
+    price_current_date  TEXT,           -- YYYY-MM-DD when current price was fetched
+    ticker_used         TEXT,           -- Yahoo Finance ticker used for lookup
+    return_current      REAL,           -- Return from rec to current price
+
     UNIQUE(recommendation_id)
 );
 

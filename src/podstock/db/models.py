@@ -329,6 +329,12 @@ class RecommendationPerformance(Base):
     calculated_at = Column(Text)
     is_complete = Column(Integer, default=0)
 
+    # Current price tracking (updated on each sync)
+    price_current = Column(Float)  # Latest fetched price
+    price_current_date = Column(Text)  # YYYY-MM-DD when current price was fetched
+    ticker_used = Column(Text)  # Yahoo Finance ticker used for lookup
+    return_current = Column(Float)  # Return from rec to current price
+
     # Relationships
     recommendation = relationship("Recommendation", back_populates="performance")
 

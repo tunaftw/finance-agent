@@ -24,35 +24,20 @@
                             class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
                         Inbox
                     </button>
-                    <button @click="view = 'watchlist'"
-                            :class="view === 'watchlist' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                    <button @click="view = 'podcast'"
+                            :class="view === 'podcast' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
                             class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-                        Watchlist
+                        Podcast
                     </button>
-                    <button @click="view = 'timeline'"
-                            :class="view === 'timeline' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                    <button @click="view = 'twitter'"
+                            :class="view === 'twitter' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
                             class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-                        Timeline
+                        Twitter
                     </button>
-                    <button @click="view = 'track-record'"
-                            :class="view === 'track-record' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                    <button @click="view = 'youtube'"
+                            :class="view === 'youtube' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
                             class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-                        Track Record
-                    </button>
-                    <button @click="view = 'tickers'"
-                            :class="view === 'tickers' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
-                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-                        Bolag
-                    </button>
-                    <button @click="view = 'speakers'"
-                            :class="view === 'speakers' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
-                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-                        Personer
-                    </button>
-                    <button @click="view = 'sources'"
-                            :class="view === 'sources' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
-                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-                        Källor
+                        YouTube
                     </button>
                 </div>
             </div>
@@ -223,275 +208,401 @@
             </p>
         </div>
 
-        <!-- Watchlist View -->
-        <div x-show="view === 'watchlist' && !loading" x-cloak>
-            <h1 class="text-2xl font-bold mb-6">High Conviction Watchlist</h1>
-            <p class="text-gray-400 mb-6">Bolag med hög confidence från betrodda källor, eller omnämnda av 3+ oberoende källor</p>
-
-            <div class="grid gap-4">
-                <template x-for="item in watchlist" :key="item.stock_name + item.date">
-                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700 hover:border-emerald-500 transition-colors">
-                        <div class="flex items-start justify-between">
-                            <div>
-                                <div class="flex items-center space-x-2">
-                                    <span class="text-lg font-semibold text-emerald-400" x-text="item.stock_name"></span>
-                                    <span x-show="item.ticker" class="text-sm text-gray-500" x-text="item.ticker"></span>
-                                    <span class="px-2 py-0.5 rounded text-xs"
-                                          :class="item.criteria === 'high_confidence_trusted' ? 'bg-emerald-900 text-emerald-300' : 'bg-blue-900 text-blue-300'"
-                                          x-text="item.criteria === 'high_confidence_trusted' ? 'High Conviction' : 'Multi-Source'">
-                                    </span>
-                                </div>
-                                <div class="text-sm text-gray-400 mt-1">
-                                    <span x-text="item.date"></span> ·
-                                    <span x-text="item.source"></span>
-                                    <template x-if="item.speaker">
-                                        <span> · <span x-text="item.speaker"></span></span>
-                                    </template>
-                                </div>
-                            </div>
-                            <div class="flex items-center space-x-1">
-                                <template x-for="i in 5">
-                                    <span :class="i <= item.source_trust ? 'text-yellow-400' : 'text-gray-600'" class="text-sm">★</span>
-                                </template>
-                            </div>
-                        </div>
-                        <p x-show="item.reasoning" class="mt-3 text-sm text-gray-300" x-text="item.reasoning"></p>
-                        <p x-show="item.quote" class="mt-2 text-sm text-gray-500 italic" x-text="'\"' + item.quote + '\"'"></p>
-                        <div x-show="item.sources" class="mt-2 flex flex-wrap gap-1">
-                            <template x-for="src in item.sources || []">
-                                <span class="px-2 py-0.5 bg-gray-700 rounded text-xs text-gray-300" x-text="src"></span>
-                            </template>
-                        </div>
-                    </div>
-                </template>
-            </div>
-            <p x-show="watchlist.length === 0" class="text-gray-500 text-center py-10">Ingen data i watchlist</p>
-        </div>
-
-        <!-- Timeline View -->
-        <div x-show="view === 'timeline' && !loading" x-cloak>
+        <!-- Podcast View -->
+        <div x-show="view === 'podcast' && !loading" x-cloak>
             <div class="flex items-center justify-between mb-6">
-                <h1 class="text-2xl font-bold">Timeline</h1>
-                <div class="flex items-center space-x-4">
-                    <input type="text" x-model="filters.search" placeholder="Sök bolag..."
-                           class="bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-emerald-500">
-                    <select x-model="filters.action" class="bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-sm">
-                        <option value="">Alla actions</option>
-                        <option value="buy">Buy</option>
-                        <option value="sell">Sell</option>
-                        <option value="hold">Hold</option>
-                        <option value="watch">Watch</option>
-                        <option value="avoid">Avoid</option>
-                    </select>
+                <h1 class="text-2xl font-bold">Podcast</h1>
+                <span class="text-sm text-gray-400" x-text="filteredPodcastEpisodes.length + ' avsnitt'"></span>
+            </div>
+
+            <!-- Filter Panel -->
+            <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <!-- Podcast dropdown -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Podcast</label>
+                        <select x-model="podcastFilters.source" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla podcasts</option>
+                            <template x-for="src in podcastSources" :key="src.id">
+                                <option :value="src.id" x-text="src.name + ' (' + src.episode_count + ')'"></option>
+                            </template>
+                        </select>
+                    </div>
+
+                    <!-- Date From -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Från datum</label>
+                        <input type="date" x-model="podcastFilters.dateFrom"
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                    </div>
+
+                    <!-- Date To -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Till datum</label>
+                        <input type="date" x-model="podcastFilters.dateTo"
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                    </div>
+
+                    <!-- Company Search -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Sök bolag</label>
+                        <input type="text" x-model="podcastFilters.companySearch" placeholder="Bolagsnamn..."
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500">
+                    </div>
+                </div>
+
+                <!-- Clear filters -->
+                <div class="flex gap-2 mt-4 pt-4 border-t border-gray-700">
+                    <button @click="podcastFilters = { source: '', dateFrom: '', dateTo: '', companySearch: '' }"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Rensa filter
+                    </button>
                 </div>
             </div>
 
+            <!-- Episode List -->
             <div class="space-y-3">
-                <template x-for="rec in filteredRecommendations.slice(0, displayLimit)" :key="rec.id">
+                <template x-for="episode in filteredPodcastEpisodes.slice(0, podcastDisplayLimit)" :key="episode.id">
                     <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
                         <div class="flex items-start justify-between">
-                            <div class="flex items-center space-x-3">
-                                <span class="px-3 py-1 rounded-full text-sm font-medium"
+                            <div class="flex-1">
+                                <div class="flex items-center space-x-2 flex-wrap">
+                                    <span class="text-sm text-emerald-400 font-medium" x-text="episode.podcast_name"></span>
+                                    <span class="text-gray-500">|</span>
+                                    <span class="text-gray-400 text-sm" x-text="episode.date"></span>
+                                    <span x-show="episode.episode_number" class="text-gray-500 text-xs" x-text="'#' + episode.episode_number"></span>
+                                </div>
+                                <h3 class="font-semibold text-lg mt-1" x-text="episode.episode_title"></h3>
+                                <div x-show="episode.hosts.length || episode.guests.length" class="text-sm text-gray-500 mt-1">
+                                    <span x-show="episode.hosts.length" x-text="'Hosts: ' + episode.hosts.join(', ')"></span>
+                                    <span x-show="episode.guests.length" x-text="' | Gäster: ' + episode.guests.join(', ')"></span>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span x-show="episode.recommendation_count > 0" class="px-2 py-1 rounded text-xs bg-emerald-900 text-emerald-300"
+                                      x-text="episode.recommendation_count + ' rec'"></span>
+                                <span x-show="episode.market_sentiment" class="px-2 py-1 rounded text-xs"
                                       :class="{
-                                          'bg-green-900 text-green-300': rec.action === 'buy',
-                                          'bg-red-900 text-red-300': rec.action === 'sell' || rec.action === 'avoid',
-                                          'bg-yellow-900 text-yellow-300': rec.action === 'hold',
-                                          'bg-blue-900 text-blue-300': rec.action === 'watch'
+                                          'bg-green-900 text-green-300': episode.market_sentiment === 'bullish',
+                                          'bg-red-900 text-red-300': episode.market_sentiment === 'bearish',
+                                          'bg-gray-700 text-gray-300': episode.market_sentiment === 'neutral' || episode.market_sentiment === 'mixed'
                                       }"
-                                      x-text="rec.action.toUpperCase()">
-                                </span>
-                                <div>
-                                    <span class="font-semibold" x-text="rec.stock_name"></span>
-                                    <span x-show="rec.ticker" class="text-gray-500 text-sm ml-1" x-text="rec.ticker"></span>
-                                </div>
-                            </div>
-                            <div class="text-right text-sm">
-                                <div class="text-gray-400" x-text="rec.date"></div>
-                                <div class="text-gray-500" x-text="rec.source_name"></div>
+                                      x-text="episode.market_sentiment"></span>
                             </div>
                         </div>
-                        <div class="mt-2 text-sm text-gray-400">
-                            <span x-show="rec.speaker" x-text="rec.speaker"></span>
-                            <span x-show="rec.confidence" class="ml-2 text-gray-500" x-text="'(' + rec.confidence + ' confidence)'"></span>
+
+                        <p x-show="episode.summary" class="mt-3 text-sm text-gray-300" x-text="episode.summary"></p>
+
+                        <!-- Key Takeaways -->
+                        <div x-show="episode.key_takeaways.length > 0" class="mt-3">
+                            <div class="flex flex-wrap gap-1">
+                                <template x-for="(takeaway, i) in episode.key_takeaways.slice(0, 4)" :key="i">
+                                    <span class="px-2 py-0.5 bg-gray-700 rounded text-xs text-gray-300" x-text="takeaway"></span>
+                                </template>
+                            </div>
                         </div>
-                        <p x-show="rec.reasoning" class="mt-2 text-sm text-gray-300" x-text="rec.reasoning"></p>
-                        <div x-show="rec.return_30d" class="mt-2 text-sm">
-                            <span class="text-gray-500">30d return:</span>
-                            <span :class="rec.return_30d > 0 ? 'text-green-400' : 'text-red-400'"
-                                  x-text="(rec.return_30d > 0 ? '+' : '') + rec.return_30d.toFixed(1) + '%'"></span>
+
+                        <!-- Recommendations (expandable) -->
+                        <div x-show="episode.recommendations.length > 0" class="mt-3 pt-3 border-t border-gray-700">
+                            <div class="flex flex-wrap gap-2">
+                                <template x-for="rec in episode.recommendations" :key="rec.stock_name">
+                                    <div class="flex items-center space-x-1 px-2 py-1 rounded bg-gray-700">
+                                        <span class="text-xs font-medium"
+                                              :class="{
+                                                  'text-green-400': rec.action === 'buy',
+                                                  'text-red-400': rec.action === 'sell' || rec.action === 'avoid',
+                                                  'text-yellow-400': rec.action === 'hold',
+                                                  'text-blue-400': rec.action === 'watch'
+                                              }"
+                                              x-text="rec.action?.toUpperCase()"></span>
+                                        <span class="text-xs text-gray-200" x-text="rec.stock_name"></span>
+                                        <span x-show="rec.ticker" class="text-xs text-gray-500" x-text="'(' + rec.ticker + ')'"></span>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Stocks Discussed -->
+                        <div x-show="episode.stocks_discussed.length > 0 && episode.recommendations.length === 0" class="mt-3 pt-3 border-t border-gray-700">
+                            <span class="text-xs text-gray-500">Bolag diskuterade: </span>
+                            <span class="text-xs text-gray-400" x-text="episode.stocks_discussed.slice(0, 10).join(', ')"></span>
                         </div>
                     </div>
                 </template>
             </div>
 
-            <button x-show="filteredRecommendations.length > displayLimit"
-                    @click="displayLimit += 50"
+            <!-- Load More -->
+            <button x-show="filteredPodcastEpisodes.length > podcastDisplayLimit"
+                    @click="podcastDisplayLimit += 50"
                     class="mt-6 w-full py-3 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors">
-                Visa fler...
+                Visa fler (<span x-text="filteredPodcastEpisodes.length - podcastDisplayLimit"></span> kvar)
             </button>
+
+            <p x-show="filteredPodcastEpisodes.length === 0" class="text-gray-500 text-center py-10">
+                Inga avsnitt matchar filtren
+            </p>
         </div>
 
-        <!-- Track Record View -->
-        <div x-show="view === 'track-record' && !loading" x-cloak>
-            <h1 class="text-2xl font-bold mb-6">Track Record</h1>
-
-            <div class="grid md:grid-cols-2 gap-6">
-                <!-- By Source -->
-                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
-                    <h2 class="text-lg font-semibold mb-4">Per Källa</h2>
-                    <div class="space-y-3">
-                        <template x-for="source in trackRecord.by_source" :key="source.source_id">
-                            <div class="flex items-center justify-between py-2 border-b border-gray-700">
-                                <div>
-                                    <div class="font-medium" x-text="source.name"></div>
-                                    <div class="text-sm text-gray-500" x-text="source.total_verified + ' verifierade'"></div>
-                                </div>
-                                <div class="text-right">
-                                    <div :class="source.hit_rate_30d >= 50 ? 'text-green-400' : 'text-red-400'"
-                                         x-text="source.hit_rate_30d + '% hit rate'"></div>
-                                    <div class="text-sm"
-                                         :class="source.avg_return_30d >= 0 ? 'text-green-400' : 'text-red-400'"
-                                         x-text="(source.avg_return_30d >= 0 ? '+' : '') + source.avg_return_30d + '% avg'"></div>
-                                </div>
-                            </div>
-                        </template>
-                    </div>
-                </div>
-
-                <!-- By Speaker -->
-                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
-                    <h2 class="text-lg font-semibold mb-4">Per Person</h2>
-                    <div class="space-y-3">
-                        <template x-for="speaker in trackRecord.by_speaker" :key="speaker.speaker">
-                            <div class="flex items-center justify-between py-2 border-b border-gray-700">
-                                <div>
-                                    <div class="font-medium" x-text="speaker.speaker"></div>
-                                    <div class="text-sm text-gray-500" x-text="speaker.total_verified + ' verifierade'"></div>
-                                </div>
-                                <div class="text-right">
-                                    <div :class="speaker.hit_rate_30d >= 50 ? 'text-green-400' : 'text-red-400'"
-                                         x-text="speaker.hit_rate_30d + '% hit rate'"></div>
-                                    <div class="text-sm"
-                                         :class="speaker.avg_return_30d >= 0 ? 'text-green-400' : 'text-red-400'"
-                                         x-text="(speaker.avg_return_30d >= 0 ? '+' : '') + speaker.avg_return_30d + '% avg'"></div>
-                                </div>
-                            </div>
-                        </template>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tickers View -->
-        <div x-show="view === 'tickers' && !loading" x-cloak>
+        <!-- Twitter View -->
+        <div x-show="view === 'twitter' && !loading" x-cloak>
             <div class="flex items-center justify-between mb-6">
-                <h1 class="text-2xl font-bold">Bolag</h1>
-                <input type="text" x-model="filters.tickerSearch" placeholder="Sök bolag..."
-                       class="bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-emerald-500">
+                <h1 class="text-2xl font-bold">Twitter</h1>
+                <span class="text-sm text-gray-400" x-text="filteredTweets.length + ' tweets'"></span>
             </div>
 
-            <div class="grid gap-4">
-                <template x-for="ticker in filteredTickers.slice(0, 50)" :key="ticker.stock_name">
-                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                        <div class="flex items-start justify-between">
-                            <div>
-                                <span class="font-semibold text-lg" x-text="ticker.stock_name"></span>
-                                <span x-show="ticker.ticker" class="text-gray-500 ml-2" x-text="ticker.ticker"></span>
-                            </div>
-                            <div class="flex space-x-2">
-                                <template x-for="(count, action) in ticker.actions">
-                                    <span class="px-2 py-0.5 rounded text-xs"
-                                          :class="{
-                                              'bg-green-900 text-green-300': action === 'buy',
-                                              'bg-red-900 text-red-300': action === 'sell' || action === 'avoid',
-                                              'bg-yellow-900 text-yellow-300': action === 'hold',
-                                              'bg-blue-900 text-blue-300': action === 'watch'
-                                          }"
-                                          x-text="action + ': ' + count">
-                                    </span>
-                                </template>
-                            </div>
-                        </div>
-                        <div class="mt-2 text-sm text-gray-400">
-                            <span x-text="ticker.total_mentions + ' omnämnanden'"></span> ·
-                            <span x-text="ticker.unique_sources + ' källor'"></span> ·
-                            <span x-text="ticker.unique_speakers + ' personer'"></span>
-                        </div>
-                        <div class="mt-2 flex flex-wrap gap-1">
-                            <template x-for="src in ticker.sources.slice(0, 5)">
-                                <span class="px-2 py-0.5 bg-gray-700 rounded text-xs text-gray-300" x-text="src"></span>
+            <!-- Filter Panel -->
+            <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+                    <!-- User dropdown -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Användare</label>
+                        <select x-model="twitterFilters.user" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla användare</option>
+                            <template x-for="user in twitterUsers" :key="user.id">
+                                <option :value="user.id" x-text="user.handle + ' (' + user.actionable_count + ' actionable)'"></option>
                             </template>
-                        </div>
+                        </select>
                     </div>
-                </template>
-            </div>
-        </div>
 
-        <!-- Speakers View -->
-        <div x-show="view === 'speakers' && !loading" x-cloak>
-            <h1 class="text-2xl font-bold mb-6">Personer</h1>
-
-            <div class="grid gap-4">
-                <template x-for="speaker in speakers.slice(0, 50)" :key="speaker.name">
-                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                        <div class="flex items-start justify-between">
-                            <div>
-                                <span class="font-semibold text-lg" x-text="speaker.name"></span>
-                                <span class="text-gray-500 ml-2" x-text="speaker.total_recommendations + ' rekommendationer'"></span>
-                            </div>
-                            <div class="flex space-x-2">
-                                <template x-for="(count, action) in speaker.actions">
-                                    <span class="px-2 py-0.5 rounded text-xs"
-                                          :class="{
-                                              'bg-green-900 text-green-300': action === 'buy',
-                                              'bg-red-900 text-red-300': action === 'sell' || action === 'avoid',
-                                              'bg-yellow-900 text-yellow-300': action === 'hold',
-                                              'bg-blue-900 text-blue-300': action === 'watch'
-                                          }"
-                                          x-text="action + ': ' + count">
-                                    </span>
-                                </template>
-                            </div>
-                        </div>
-                        <div class="mt-2 flex flex-wrap gap-1">
-                            <template x-for="src in speaker.sources">
-                                <span class="px-2 py-0.5 bg-gray-700 rounded text-xs text-gray-300" x-text="src"></span>
-                            </template>
-                        </div>
+                    <!-- Date From -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Från datum</label>
+                        <input type="date" x-model="twitterFilters.dateFrom"
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
                     </div>
-                </template>
+
+                    <!-- Date To -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Till datum</label>
+                        <input type="date" x-model="twitterFilters.dateTo"
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                    </div>
+
+                    <!-- Company Search -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Sök bolag</label>
+                        <input type="text" x-model="twitterFilters.companySearch" placeholder="Bolagsnamn..."
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500">
+                    </div>
+
+                    <!-- Only Actionable -->
+                    <div class="flex items-end pb-2">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" x-model="twitterFilters.onlyActionable"
+                                   class="w-4 h-4 rounded border-gray-600 bg-gray-700 text-emerald-500 focus:ring-emerald-500">
+                            <span class="text-sm text-gray-300">Endast actionable</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Clear filters -->
+                <div class="flex gap-2 mt-4 pt-4 border-t border-gray-700">
+                    <button @click="twitterFilters = { user: '', dateFrom: '', dateTo: '', companySearch: '', onlyActionable: false }"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Rensa filter
+                    </button>
+                    <button @click="twitterFilters.onlyActionable = true"
+                            class="px-3 py-1 rounded-lg text-xs bg-emerald-900 text-emerald-300 hover:bg-emerald-800 transition-colors">
+                        Visa endast actionable
+                    </button>
+                </div>
             </div>
-        </div>
 
-        <!-- Sources View -->
-        <div x-show="view === 'sources' && !loading" x-cloak>
-            <h1 class="text-2xl font-bold mb-6">Källor</h1>
-
-            <div class="grid gap-4">
-                <template x-for="source in sources" :key="source.id">
-                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
-                        <div class="flex items-start justify-between">
-                            <div>
-                                <div class="flex items-center space-x-2">
-                                    <span class="font-semibold text-lg" x-text="source.name"></span>
-                                    <span class="px-2 py-0.5 bg-gray-700 rounded text-xs" x-text="source.type"></span>
+            <!-- Cross-reference section (when searching for company) -->
+            <div x-show="twitterFilters.companySearch && crossReferencedStocks.length > 0" class="mb-6">
+                <h2 class="text-lg font-semibold mb-3">Bolag nämnda av flera användare</h2>
+                <div class="grid gap-3">
+                    <template x-for="stock in crossReferencedStocks.slice(0, 10)" :key="stock.stock_name">
+                        <div class="bg-gray-800 rounded-lg p-3 border border-emerald-700">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <span class="font-medium text-emerald-400" x-text="stock.stock_name"></span>
+                                    <span x-show="stock.ticker" class="text-gray-500 text-sm ml-1" x-text="'(' + stock.ticker + ')'"></span>
                                 </div>
-                                <p x-show="source.description" class="text-sm text-gray-400 mt-1" x-text="source.description"></p>
+                                <span class="text-sm text-gray-400" x-text="stock.total_mentions + ' mentions'"></span>
                             </div>
-                            <div class="flex items-center space-x-1">
-                                <template x-for="i in 5">
-                                    <span :class="i <= source.trust_rating ? 'text-yellow-400' : 'text-gray-600'" class="text-lg">★</span>
+                            <div class="mt-2 flex flex-wrap gap-1">
+                                <template x-for="um in stock.user_mentions" :key="um.user_id">
+                                    <span class="px-2 py-0.5 bg-gray-700 rounded text-xs text-gray-300"
+                                          x-text="'@' + um.user_id + ' (' + um.count + ')'"></span>
                                 </template>
                             </div>
                         </div>
-                        <div class="mt-3 flex items-center space-x-4 text-sm text-gray-400">
-                            <span x-text="source.content_count + ' avsnitt'"></span>
-                            <span x-text="source.recommendation_count + ' rekommendationer'"></span>
+                    </template>
+                </div>
+            </div>
+
+            <!-- Tweet List -->
+            <div class="space-y-3">
+                <template x-for="tweet in filteredTweets.slice(0, twitterDisplayLimit)" :key="tweet.id">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700"
+                         :class="tweet.is_actionable ? 'border-l-2 border-l-emerald-500' : ''">
+                        <div class="flex items-start justify-between">
+                            <div class="flex items-center space-x-2">
+                                <span class="font-medium text-emerald-400" x-text="tweet.user_handle"></span>
+                                <span class="text-gray-500 text-sm" x-text="tweet.date"></span>
+                                <span x-show="tweet.is_reply" class="text-xs text-gray-600">reply</span>
+                            </div>
+                            <div class="flex items-center space-x-3 text-sm text-gray-500">
+                                <span x-show="tweet.likes" x-text="tweet.likes + ' ♥'"></span>
+                                <span x-show="tweet.views" x-text="tweet.views + ' views'"></span>
+                            </div>
                         </div>
-                        <p x-show="source.trust_notes" class="mt-2 text-sm text-gray-500 italic" x-text="source.trust_notes"></p>
+
+                        <p class="mt-2 text-gray-200 whitespace-pre-wrap" x-text="tweet.text"></p>
+
+                        <!-- Stock mentions -->
+                        <div x-show="tweet.stock_mentions.length > 0" class="mt-3 flex flex-wrap gap-2">
+                            <template x-for="mention in tweet.stock_mentions" :key="mention.stock_name">
+                                <div class="flex items-center space-x-1 px-2 py-1 rounded"
+                                     :class="{
+                                         'bg-green-900': mention.action === 'buy',
+                                         'bg-red-900': mention.action === 'sell' || mention.action === 'avoid',
+                                         'bg-yellow-900': mention.action === 'hold',
+                                         'bg-blue-900': mention.action === 'watch',
+                                         'bg-gray-700': !mention.action || mention.action === 'unknown'
+                                     }">
+                                    <span class="text-xs font-medium"
+                                          :class="{
+                                              'text-green-300': mention.action === 'buy',
+                                              'text-red-300': mention.action === 'sell' || mention.action === 'avoid',
+                                              'text-yellow-300': mention.action === 'hold',
+                                              'text-blue-300': mention.action === 'watch',
+                                              'text-gray-300': !mention.action || mention.action === 'unknown'
+                                          }"
+                                          x-text="mention.action?.toUpperCase() || 'MENTION'"></span>
+                                    <span class="text-xs text-white" x-text="mention.stock_name"></span>
+                                    <span x-show="mention.ticker" class="text-xs text-gray-400" x-text="'$' + mention.ticker"></span>
+                                </div>
+                            </template>
+                        </div>
                     </div>
                 </template>
             </div>
+
+            <!-- Load More -->
+            <button x-show="filteredTweets.length > twitterDisplayLimit"
+                    @click="twitterDisplayLimit += 100"
+                    class="mt-6 w-full py-3 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors">
+                Visa fler (<span x-text="filteredTweets.length - twitterDisplayLimit"></span> kvar)
+            </button>
+
+            <p x-show="filteredTweets.length === 0" class="text-gray-500 text-center py-10">
+                Inga tweets matchar filtren
+            </p>
+        </div>
+
+        <!-- YouTube View -->
+        <div x-show="view === 'youtube' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">YouTube</h1>
+                <span class="text-sm text-gray-400" x-text="filteredYoutubeVideos.length + ' videor'"></span>
+            </div>
+
+            <!-- Filter Panel -->
+            <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <!-- Channel dropdown -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Kanal</label>
+                        <select x-model="youtubeFilters.channel" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla kanaler</option>
+                            <template x-for="channel in youtubeChannels" :key="channel.id">
+                                <option :value="channel.id" x-text="channel.name + ' (' + channel.video_count + ')'"></option>
+                            </template>
+                        </select>
+                    </div>
+
+                    <!-- Date From -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Från datum</label>
+                        <input type="date" x-model="youtubeFilters.dateFrom"
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                    </div>
+
+                    <!-- Date To -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Till datum</label>
+                        <input type="date" x-model="youtubeFilters.dateTo"
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                    </div>
+
+                    <!-- Company Search -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Sök bolag</label>
+                        <input type="text" x-model="youtubeFilters.companySearch" placeholder="Bolagsnamn..."
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500">
+                    </div>
+                </div>
+
+                <!-- Clear filters -->
+                <div class="flex gap-2 mt-4 pt-4 border-t border-gray-700">
+                    <button @click="youtubeFilters = { channel: '', dateFrom: '', dateTo: '', companySearch: '' }"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Rensa filter
+                    </button>
+                </div>
+            </div>
+
+            <!-- Video List -->
+            <div class="space-y-3">
+                <template x-for="video in filteredYoutubeVideos.slice(0, youtubeDisplayLimit)" :key="video.id">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-start justify-between">
+                            <div class="flex-1">
+                                <div class="flex items-center space-x-2">
+                                    <span class="text-sm text-red-400 font-medium" x-text="video.channel_name"></span>
+                                    <span class="text-gray-500">|</span>
+                                    <span class="text-gray-400 text-sm" x-text="video.date"></span>
+                                    <span x-show="video.category" class="px-2 py-0.5 rounded text-xs bg-gray-700 text-gray-400" x-text="video.category"></span>
+                                </div>
+                                <h3 class="font-semibold text-lg mt-1" x-text="video.title"></h3>
+                            </div>
+                            <span x-show="video.recommendation_count > 0" class="px-2 py-1 rounded text-xs bg-emerald-900 text-emerald-300"
+                                  x-text="video.recommendation_count + ' rec'"></span>
+                        </div>
+
+                        <p x-show="video.summary" class="mt-3 text-sm text-gray-300" x-text="video.summary"></p>
+
+                        <!-- Recommendations -->
+                        <div x-show="video.recommendations.length > 0" class="mt-3 pt-3 border-t border-gray-700">
+                            <div class="flex flex-wrap gap-2">
+                                <template x-for="rec in video.recommendations" :key="rec.stock_name">
+                                    <div class="flex items-center space-x-1 px-2 py-1 rounded bg-gray-700">
+                                        <span class="text-xs font-medium"
+                                              :class="{
+                                                  'text-green-400': rec.action === 'buy',
+                                                  'text-red-400': rec.action === 'sell' || rec.action === 'avoid',
+                                                  'text-yellow-400': rec.action === 'hold',
+                                                  'text-blue-400': rec.action === 'watch'
+                                              }"
+                                              x-text="rec.action?.toUpperCase()"></span>
+                                        <span class="text-xs text-gray-200" x-text="rec.stock_name"></span>
+                                        <span x-show="rec.ticker" class="text-xs text-gray-500" x-text="'(' + rec.ticker + ')'"></span>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Stocks Discussed -->
+                        <div x-show="video.stocks_discussed.length > 0 && video.recommendations.length === 0" class="mt-3 pt-3 border-t border-gray-700">
+                            <span class="text-xs text-gray-500">Stocks discussed: </span>
+                            <span class="text-xs text-gray-400" x-text="video.stocks_discussed.slice(0, 10).join(', ')"></span>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Load More -->
+            <button x-show="filteredYoutubeVideos.length > youtubeDisplayLimit"
+                    @click="youtubeDisplayLimit += 50"
+                    class="mt-6 w-full py-3 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors">
+                Visa fler (<span x-text="filteredYoutubeVideos.length - youtubeDisplayLimit"></span> kvar)
+            </button>
+
+            <p x-show="filteredYoutubeVideos.length === 0" class="text-gray-500 text-center py-10">
+                Inga videor matchar filtren
+            </p>
         </div>
     </main>
 

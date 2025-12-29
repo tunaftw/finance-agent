@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "last_updated": "2025-12-28T13:14:48.368073",
+  "last_updated": "2025-12-28T16:45:19.352018",
   "sources": {
     "vildkatten": {
-      "last_collected_at": "2025-12-25T21:14:47.139273",
+      "last_collected_at": "2025-12-28T16:31:40.435708",
       "last_tweet_id": "2003166485813035155",
       "oldest_tweet_id": "2001640288352374911",
       "tweet_count": 636,
@@ -14,7 +14,15 @@
       "last_error": "Rate limited: Twitter rate limit exceeded, retry after Rate limit exceeded seconds",
       "error_count": 1,
       "consecutive_errors": 0,
-      "collection_history": []
+      "collection_history": [
+        {
+          "collected_at": "2025-12-28T16:31:40.435829",
+          "requested_since": "2024-12-26",
+          "requested_until": "2024-12-28",
+          "tweets_added": 0,
+          "method": "advanced_search"
+        }
+      ]
     },
     "venturafpc": {
       "last_collected_at": "2025-12-26T21:33:22.421660",
@@ -201,6 +209,28 @@
           "requested_since": "2025-01-01",
           "requested_until": null,
           "tweets_added": 292,
+          "method": "advanced_search"
+        }
+      ]
+    },
+    "Snaljapen": {
+      "last_collected_at": "2025-12-28T16:45:19.351601",
+      "last_tweet_id": "2005292749801893993",
+      "oldest_tweet_id": "1854427260851204332",
+      "tweet_count": 1470,
+      "estimated_total_tweets": null,
+      "collection_complete": true,
+      "processed_count": 0,
+      "last_processed_at": null,
+      "last_error": null,
+      "error_count": 0,
+      "consecutive_errors": 0,
+      "collection_history": [
+        {
+          "collected_at": "2025-12-28T16:45:19.351832",
+          "requested_since": "2024-01-01",
+          "requested_until": "2025-12-31",
+          "tweets_added": 1470,
           "method": "advanced_search"
         }
       ]

@@ -11,12 +11,11 @@ from typing import Any
 
 from .exporters import (
     export_analyses,
+    export_podcasts,
     export_recommendations,
     export_sources,
-    export_speakers,
-    export_tickers,
-    export_track_record,
-    export_watchlist,
+    export_twitter,
+    export_youtube,
 )
 
 
@@ -28,17 +27,21 @@ class GenerateResult:
     files_generated: int
     analyses_count: int
     recommendations_count: int
-    watchlist_count: int
+    podcast_episodes_count: int
+    tweets_count: int
+    youtube_videos_count: int
 
 
 class DashboardGenerator:
-    """Generates static HTML dashboard from database."""
+    """Generates static HTML dashboard from database and data files."""
 
-    def __init__(self, db_path: Path, output_dir: Path):
+    def __init__(self, db_path: Path, output_dir: Path, data_dir: Path | None = None):
         self.db_path = db_path
         self.output_dir = output_dir
-        self.data_dir = output_dir / "data"
+        self.json_data_dir = output_dir / "data"  # Output JSON data directory
         self.assets_dir = output_dir / "assets"
+        # Source data directory (for podcast/twitter/youtube JSON files)
+        self.source_data_dir = data_dir or db_path.parent
 
     def generate(self, full_rebuild: bool = False) -> GenerateResult:
         """Generate the complete dashboard.
@@ -53,7 +56,7 @@ class DashboardGenerator:
 
         # Create output directories
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        self.data_dir.mkdir(exist_ok=True)
+        self.json_data_dir.mkdir(exist_ok=True)
         self.assets_dir.mkdir(exist_ok=True)
 
         files_generated = 0
@@ -61,7 +64,7 @@ class DashboardGenerator:
         engine = get_engine(self.db_path)
 
         with get_session(engine) as session:
-            # Export all JSON data
+            # Export database data (for Inbox tab)
             analyses = export_analyses(session)
             self._write_json("analyses.json", analyses)
             files_generated += 1
@@ -74,37 +77,34 @@ class DashboardGenerator:
             self._write_json("sources.json", sources)
             files_generated += 1
 
-            speakers = export_speakers(session)
-            self._write_json("speakers.json", speakers)
-            files_generated += 1
+        # Export source-specific data from JSON files
+        podcasts = export_podcasts(self.source_data_dir)
+        self._write_json("podcasts.json", podcasts)
+        files_generated += 1
 
-            tickers = export_tickers(session)
-            self._write_json("tickers.json", tickers)
-            files_generated += 1
+        twitter = export_twitter(self.source_data_dir)
+        self._write_json("twitter.json", twitter)
+        files_generated += 1
 
-            track_record = export_track_record(session)
-            self._write_json("track_record.json", track_record)
-            files_generated += 1
+        youtube = export_youtube(self.source_data_dir)
+        self._write_json("youtube.json", youtube)
+        files_generated += 1
 
-            watchlist = export_watchlist(session, trust_threshold=4)
-            self._write_json("watchlist.json", watchlist)
-            files_generated += 1
-
-            # Add metadata
-            metadata = {
-                "generated_at": datetime.now().isoformat(),
-                "db_path": str(self.db_path),
-                "counts": {
-                    "analyses": len(analyses),
-                    "recommendations": len(recommendations),
-                    "sources": len(sources),
-                    "speakers": len(speakers),
-                    "tickers": len(tickers),
-                    "watchlist": len(watchlist),
-                },
-            }
-            self._write_json("metadata.json", metadata)
-            files_generated += 1
+        # Add metadata
+        metadata = {
+            "generated_at": datetime.now().isoformat(),
+            "db_path": str(self.db_path),
+            "counts": {
+                "analyses": len(analyses),
+                "recommendations": len(recommendations),
+                "sources": len(sources),
+                "podcast_episodes": len(podcasts["episodes"]),
+                "tweets": len(twitter["tweets"]),
+                "youtube_videos": len(youtube["videos"]),
+            },
+        }
+        self._write_json("metadata.json", metadata)
+        files_generated += 1
 
         # Build inline data for HTML embedding
         inline_data = {
@@ -112,10 +112,9 @@ class DashboardGenerator:
             "analyses": analyses,
             "recommendations": recommendations,
             "sources": sources,
-            "speakers": speakers,
-            "tickers": tickers,
-            "trackRecord": track_record,
-            "watchlist": watchlist,
+            "podcasts": podcasts,
+            "twitter": twitter,
+            "youtube": youtube,
         }
 
         # Copy HTML template and assets with inline data
@@ -127,12 +126,14 @@ class DashboardGenerator:
             files_generated=files_generated,
             analyses_count=len(analyses),
             recommendations_count=len(recommendations),
-            watchlist_count=len(watchlist),
+            podcast_episodes_count=len(podcasts["episodes"]),
+            tweets_count=len(twitter["tweets"]),
+            youtube_videos_count=len(youtube["videos"]),
         )
 
     def _write_json(self, filename: str, data: Any) -> None:
         """Write data to JSON file."""
-        path = self.data_dir / filename
+        path = self.json_data_dir / filename
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 

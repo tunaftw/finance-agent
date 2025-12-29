@@ -393,8 +393,8 @@ class YouTubeExtractor:
             # Determine transcript type
             transcript_type = "auto" if ".auto." in vtt_file.name or prefer_auto else "manual"
 
-            # Build full text
-            full_text = " ".join(seg.text for seg in segments)
+            # Build full text with deduplication for rolling captions
+            full_text = self._deduplicate_rolling_captions(segments)
             full_text = self._clean_transcript_text(full_text)
 
             # Calculate duration
@@ -484,6 +484,56 @@ class YouTubeExtractor:
             return float(minutes) * 60 + float(seconds)
         else:
             return float(timestamp)
+
+    def _deduplicate_rolling_captions(self, segments: list[TranscriptSegment]) -> str:
+        """Deduplicate rolling YouTube auto-captions.
+
+        YouTube auto-captions often use overlapping segments like:
+        - Segment 1: "Hello how are"
+        - Segment 2: "how are you"
+        - Segment 3: "are you today"
+
+        This method detects and removes the overlapping parts.
+
+        Args:
+            segments: List of transcript segments.
+
+        Returns:
+            Deduplicated text.
+        """
+        if not segments:
+            return ""
+
+        result_words: list[str] = []
+        prev_words: list[str] = []
+
+        for segment in segments:
+            curr_words = segment.text.split()
+            if not curr_words:
+                continue
+
+            if not prev_words:
+                result_words.extend(curr_words)
+                prev_words = curr_words
+                continue
+
+            # Find the best overlap between end of prev_words and start of curr_words
+            best_overlap = 0
+            max_check = min(len(prev_words), len(curr_words), 10)  # Check up to 10 words
+
+            for overlap in range(1, max_check + 1):
+                if prev_words[-overlap:] == curr_words[:overlap]:
+                    best_overlap = overlap
+
+            # Add only the non-overlapping part
+            if best_overlap > 0:
+                result_words.extend(curr_words[best_overlap:])
+            else:
+                result_words.extend(curr_words)
+
+            prev_words = curr_words
+
+        return " ".join(result_words)
 
     def _clean_transcript_text(self, text: str) -> str:
         """Clean up transcript text.

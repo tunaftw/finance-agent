@@ -98,6 +98,46 @@ def validate_analysis(data: dict) -> tuple[bool, str]:
                 if seg["position_disclosure"] not in valid_positions:
                     return False, f"stock_segments[{i}] invalid position_disclosure: {seg['position_disclosure']}"
 
+    # Validera insights om de finns (v2.1 schema)
+    if "insights" in data and data["insights"]:
+        if not isinstance(data["insights"], list):
+            return False, "insights must be a list"
+
+        for i, insight in enumerate(data["insights"]):
+            insight_required = ["quote", "summary", "category", "speaker"]
+            for field in insight_required:
+                if field not in insight:
+                    return False, f"insights[{i}] missing field: {field}"
+
+            valid_categories = ["philosophy", "lesson", "wisdom"]
+            if insight["category"] not in valid_categories:
+                return False, f"insights[{i}] invalid category: {insight['category']}"
+
+            if "confidence" in insight and insight["confidence"]:
+                valid_insight_confidence = ["high", "medium", "low"]
+                if insight["confidence"] not in valid_insight_confidence:
+                    return False, f"insights[{i}] invalid confidence: {insight['confidence']}"
+
+    # Validera crypto_mentions om de finns (v2.1 schema)
+    if "crypto_mentions" in data and data["crypto_mentions"]:
+        if not isinstance(data["crypto_mentions"], list):
+            return False, "crypto_mentions must be a list"
+
+        for i, crypto in enumerate(data["crypto_mentions"]):
+            crypto_required = ["asset_symbol", "sentiment", "speaker", "quote"]
+            for field in crypto_required:
+                if field not in crypto:
+                    return False, f"crypto_mentions[{i}] missing field: {field}"
+
+            valid_sentiment = ["bullish", "bearish", "neutral", "mixed"]
+            if crypto["sentiment"] not in valid_sentiment:
+                return False, f"crypto_mentions[{i}] invalid sentiment: {crypto['sentiment']}"
+
+            if "confidence" in crypto and crypto["confidence"]:
+                valid_crypto_confidence = ["high", "medium", "low"]
+                if crypto["confidence"] not in valid_crypto_confidence:
+                    return False, f"crypto_mentions[{i}] invalid confidence: {crypto['confidence']}"
+
     return True, ""
 
 
@@ -198,6 +238,59 @@ FINANSTERMINOLOGI ATT KÄNNA IGEN:
 - Citat får vara längre (max 200 ord) om de innehåller viktig information
 - Fånga kontext: varför just nu? Vad har hänt? Vad förväntas?
 
+💡 INSIGHTS - FÅNGA INVESTERINGSVISDOM:
+Extrahera tidlösa insikter och lärdomar som inte är specifika aktie-tips:
+
+Kategorier:
+- "philosophy": Investeringsfilosofi och grundprinciper
+  Exempel: "Jag köper aldrig bolag jag inte förstår", "Tid i marknaden slår timing"
+- "lesson": Lärdomar från misstag eller erfarenheter
+  Exempel: "Det största misstaget jag gjort var...", "Jag lärde mig att aldrig..."
+- "wisdom": Marknadsvisdom, psykologi, timing
+  Exempel: "Rädsla skapar möjligheter", "Girigheten tar över när..."
+
+INKLUDERA:
+- Tidlösa principer som håller över tid
+- Konkreta lärdomar från erfarenhet
+- Psykologiska insikter om investerande
+- Riskhanterings-filosofi
+
+EXKLUDERA från insights (fångas i recommendations istället):
+- Specifika aktie-tips ("köp Evolution")
+- Tidsbunden marknadskommentar ("marknaden är övervärderad just nu")
+
+🪙 CRYPTO-OMNÄMNANDEN:
+Extrahera alla omnämnanden av kryptovalutor med sentiment:
+
+Tokens att leta efter:
+- Major: BTC/Bitcoin, ETH/Ethereum, SOL/Solana, XRP, ADA/Cardano
+- DeFi: LINK, UNI, AAVE
+- Meme: DOGE, SHIB, PEPE
+- Svenska termer: "krypto", "bitcoin", "ethereum"
+
+Sentiment-signaler:
+- Bullish: "intressant", "potential", "vi köper", "undervärderat"
+- Bearish: "försiktig", "undvik", "risk", "övervärderat"
+- Neutral: "håller koll", "osäker"
+
+📊 EXTRA ALFA (fyll bara i om det nämns EXPLICIT - annars null):
+
+POSITION CONTEXT (position_context):
+- "50% av portföljen" → "50% av portföljen"
+- "Största positionen" → "Största positionen"
+- "Liten position" → "Liten position"
+- "Vi byggde på" → "Ökade positionen"
+
+DOWNSIDE/RISK (downside_note):
+- "30% neddida härifrån" → "30% downside"
+- "Värsta fall 50 SEK" → "Downside 50 SEK"
+- "3:1 risk/reward" → "Risk/reward 3:1"
+
+CATALYST TIMING (catalyst_timing):
+- "Rapport 15 feb" → "Rapport 2025-02-15"
+- "Produktlansering Q2" → "Produktlansering Q2 2025"
+- "Efter nästa Fed-möte" → "Efter Fed-möte jan"
+
 📊 STOCK SEGMENTS (DJUPANALYS):
 För varje aktie som diskuteras i MER ÄN 1 MINUT, skapa ett detaljerat segment med:
 1. ALLA relevanta citat (inte bara ett!) - med kontext (thesis/bull_case/bear_case/metric/conclusion)
@@ -212,7 +305,7 @@ OUTPUT:
 Returnera ENDAST valid JSON enligt följande schema (ingen markdown, inga code blocks):
 
 {{
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "episode_id": "{episode_stem}",
   "podcast_name": "Podcastens namn",
   "episode_title": "Avsnittets titel om känd",
@@ -236,7 +329,10 @@ Returnera ENDAST valid JSON enligt följande schema (ingen markdown, inga code b
       "time_horizon": null,
       "quote": "Exakt citat som stödjer rekommendationen, max 200 ord - inkludera hela resonemanget",
       "sector": null,
-      "market": "sweden|us|europe|other|unknown"
+      "market": "sweden|us|europe|other|unknown",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
     }}
   ],
   "stock_segments": [
@@ -275,6 +371,32 @@ Returnera ENDAST valid JSON enligt följande schema (ingen markdown, inga code b
         "risks": ["risk1"]
       }},
       "position_disclosure": "owns|bought|sold|none|unknown"
+    }}
+  ],
+  "insights": [
+    {{
+      "quote": "Exakt citat med investeringsvisdom, max 300 ord",
+      "summary": "1-2 meningar som sammanfattar insikten",
+      "category": "philosophy|lesson|wisdom",
+      "speaker": "Vem som sa det",
+      "speaker_role": "host|guest|unknown",
+      "timestamp": null,
+      "confidence": "high|medium|low",
+      "tags": ["relevanta", "taggar"]
+    }}
+  ],
+  "crypto_mentions": [
+    {{
+      "asset_symbol": "BTC|ETH|SOL|etc",
+      "asset_name": "Bitcoin|Ethereum|etc",
+      "sentiment": "bullish|bearish|neutral|mixed",
+      "speaker": "Vem som nämnde det",
+      "speaker_role": "host|guest|unknown",
+      "quote": "Stödjande citat, max 100 ord",
+      "context": "Diskussionskontext",
+      "confidence": "high|medium|low",
+      "price_levels": ["nivå1", "nivå2"],
+      "timeframe": "kort sikt|medellång sikt|lång sikt"
     }}
   ],
   "market_sentiment": "bullish|bearish|neutral|mixed",

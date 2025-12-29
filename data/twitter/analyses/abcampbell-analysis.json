@@ -1,0 +1,123 @@
+{
+  "source_id": "abcampbell",
+  "author_display_name": "Campbell",
+  "analyzed_at": "2025-12-28T17:00:00",
+  "total_tweets": 842,
+  "period": {
+    "oldest": "2024-12-01",
+    "newest": "2024-12-31"
+  },
+  "investment_style": {
+    "focus_areas": [
+      "Macro/Global Macro",
+      "Commodities (Silver)",
+      "Energy Transition",
+      "AI Infrastructure",
+      "China Deleveraging"
+    ],
+    "preferred_metrics": [
+      "Sharpe ratio",
+      "Correlation analysis",
+      "Macro indicators"
+    ],
+    "geographic_focus": ["USA", "China", "Europe"]
+  },
+  "core_holdings": [
+    {
+      "name": "Silver",
+      "ticker": "SLV",
+      "mentions": 25,
+      "signal": "buy",
+      "notes": "Core thesis: silver needed for solar panels, structural deficit coming. 'All roads lead to silver.'"
+    }
+  ],
+  "recommendations": [
+    {
+      "date": "2024-12-23",
+      "ticker": "EURUSD",
+      "name": "EUR/USD Currency Pair",
+      "signal": "sell",
+      "confidence": "high",
+      "text": "short EURUSD",
+      "metrics": null
+    },
+    {
+      "date": "2024-12-21",
+      "ticker": "SLV",
+      "name": "Silver/Solar Energy",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "aka silver for solar panels. There's just no way we can bring GW scale nuclear online fast enough for the hyperscalers. All roads lead to solar. All roads lead to silver.",
+      "metrics": null
+    },
+    {
+      "date": "2024-12-23",
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "signal": "watch",
+      "confidence": "medium",
+      "text": "$300m in GPUs to get a 10min answer from o3. Not sure if this outrageously bullish or bearish NVDA tbh.",
+      "metrics": null
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset": "BTC",
+      "sentiment": "skeptical",
+      "notes": "bitcoin can be cool or bitcoin can be money it cannot be both"
+    },
+    {
+      "asset": "fartcoin",
+      "sentiment": "satirical",
+      "notes": "Powell pivoted bc of fartcoin and it's still up on the day"
+    }
+  ],
+  "macro_views": {
+    "china": {
+      "view": "bearish",
+      "thesis": "Ugly deleveraging in progress. Zombie banks don't lend, credit demand weak, no plans to recap banking system. Headed for ZIRP."
+    },
+    "us_dollar": {
+      "view": "bullish",
+      "thesis": "Short EURUSD. Conflict is inflationary. Strong dollar environment."
+    },
+    "inflation": {
+      "view": "persistent",
+      "thesis": "Conflict is inflationary. No more Russian gas through Ukraine."
+    },
+    "ai": {
+      "view": "s_curve_skeptic",
+      "thesis": "o3 is 1000x more expensive for marginally more performance. S curve is real. Energy demand will skyrocket."
+    }
+  },
+  "insights": [
+    {
+      "quote": "100% inheritance tax solve this cause, the marginal billion is going away regardless",
+      "category": "philosophy",
+      "topic": "wealth inequality"
+    },
+    {
+      "quote": "equity market corrections are god's ways of teaching us the value of diversification and negative correlation",
+      "category": "wisdom",
+      "topic": "portfolio management"
+    },
+    {
+      "quote": "everyone wants to crack on Palantir nobody wants to get their hands dirty building sql joins that model enterprise warehouse data",
+      "category": "lesson",
+      "topic": "real world vs hype"
+    },
+    {
+      "quote": "data is oil... Illya: data is fossil fuel",
+      "category": "philosophy",
+      "topic": "AI training data"
+    }
+  ],
+  "key_themes": [
+    "Silver/solar energy structural bull thesis",
+    "China deleveraging and ZIRP trajectory",
+    "AI S-curve hitting diminishing returns",
+    "Energy demand from AI creating opportunities",
+    "Short EUR vs USD macro trade"
+  ],
+  "model_used": "claude-opus-4-5-20251101"
+}

@@ -6,6 +6,7 @@ Supports common formats from Libsyn, Acast, and other podcast hosts.
 
 from __future__ import annotations
 
+import hashlib
 from datetime import datetime
 from typing import Any
 from urllib.parse import urlparse
@@ -75,10 +76,15 @@ def _generate_episode_id(podcast_id: str, published: datetime, title: str) -> st
 
     Returns:
         Unique episode ID string.
+
+    Note:
+        Uses MD5 hash for consistency with apple.py module.
+        This ensures the same episode gets the same ID regardless
+        of whether it comes from RSS or Apple Podcasts.
     """
     date_str = published.strftime("%Y-%m-%d")
-    # Use first 4 chars of title hash for uniqueness
-    title_hash = hex(abs(hash(title)))[-4:]
+    # Use MD5 hash (same as apple.py) for cross-source consistency
+    title_hash = hashlib.md5(title.encode()).hexdigest()[:4]
     return f"{podcast_id}-{date_str}-{title_hash}"
 
 
