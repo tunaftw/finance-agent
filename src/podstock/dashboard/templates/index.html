@@ -49,6 +49,11 @@
                             class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
                         Filings
                     </button>
+                    <button @click="view = 'alpha'"
+                            :class="view === 'alpha' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Alpha
+                    </button>
                 </div>
             </div>
         </div>
@@ -192,6 +197,24 @@
                                     </template>
                                 </div>
                                 <span class="text-gray-400 text-sm" x-text="rec.date"></span>
+                            </div>
+                            <!-- Price Performance -->
+                            <div x-show="rec.price_at_rec" class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+                                <span class="text-gray-500">@<span x-text="rec.price_at_rec?.toFixed(2)"></span></span>
+                                <template x-for="period in [
+                                    {key: 'return_30d', label: '30d'},
+                                    {key: 'return_90d', label: '90d'},
+                                    {key: 'return_180d', label: '180d'},
+                                    {key: 'return_365d', label: '1y'},
+                                    {key: 'return_current', label: 'nu'}
+                                ]" :key="period.key">
+                                    <span x-show="rec[period.key] !== null && rec[period.key] !== undefined"
+                                          class="inline-flex items-center gap-0.5"
+                                          :class="rec[period.key] > 0 ? 'text-green-400' : (rec[period.key] < 0 ? 'text-red-400' : 'text-gray-400')">
+                                        <span x-text="(rec[period.key] > 0 ? '+' : '') + rec[period.key]?.toFixed(1) + '%'"></span>
+                                        <span class="text-gray-600 text-xs" x-text="'(' + period.label + ')'"></span>
+                                    </span>
+                                </template>
                             </div>
                         </div>
                         <div class="mt-2 text-sm text-gray-400">
@@ -1439,6 +1462,451 @@
             <!-- No filings data -->
             <p x-show="!filings?.companies?.length" class="text-gray-500 text-center py-10">
                 No filings data available. Run evolution synthesis first.
+            </p>
+        </div>
+
+        <!-- Alpha View -->
+        <div x-show="view === 'alpha' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">Alpha - Bolagsanalyser</h1>
+                <span class="text-sm text-gray-400" x-text="`${alphaCompanies.length} bolag analyserade`"></span>
+            </div>
+
+            <!-- Company Selection Grid -->
+            <div x-show="!selectedAlphaCompany || alphaCompanies.length <= 1" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+                <template x-for="company in alphaCompanies" :key="company.ticker">
+                    <div @click="selectedAlphaCompany = company.ticker"
+                         :class="['cursor-pointer rounded-lg p-4 border-2 transition-all hover:shadow-lg', getCardBorderClass(company.recommendation), selectedAlphaCompany === company.ticker ? 'bg-gray-700' : 'bg-gray-800']">
+                        <div class="flex items-center justify-between mb-2">
+                            <div>
+                                <span class="font-bold text-lg" x-text="company.ticker"></span>
+                                <span class="text-gray-400 text-sm ml-2" x-text="company.company"></span>
+                            </div>
+                            <span :class="['px-2 py-1 rounded text-xs font-medium', getVerdictClass(company.recommendation)]"
+                                  x-text="company.recommendation"></span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                            <div>
+                                <span class="text-gray-500">Pris:</span>
+                                <span class="font-medium" x-text="formatSEK(company.current_price)"></span>
+                            </div>
+                            <div>
+                                <span class="text-gray-500">Fair Value:</span>
+                                <span class="font-medium" x-text="formatSEK(company.weighted_fair_value)"></span>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <span class="text-gray-500 text-sm">Uppsida:</span>
+                            <span :class="['font-bold', getUpsideClass(company.upside_pct)]"
+                                  x-text="formatPercent(company.upside_pct)"></span>
+                        </div>
+                        <!-- Scenario mini-bar -->
+                        <div class="mt-3 relative h-2 bg-gray-700 rounded-full overflow-hidden">
+                            <template x-for="scenario in company.scenarios" :key="scenario.name">
+                                <div :class="[
+                                    'absolute h-full',
+                                    scenario.name === 'Bear' ? 'bg-red-500 left-0' : '',
+                                    scenario.name === 'Base' ? 'bg-yellow-500' : '',
+                                    scenario.name === 'Bull' ? 'bg-green-500 right-0' : ''
+                                ]" :style="{
+                                    width: (scenario.probability * 100) + '%',
+                                    left: scenario.name === 'Bear' ? '0' : (scenario.name === 'Base' ? '25%' : 'auto')
+                                }"></div>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Company Detail View -->
+            <div x-show="selectedAlphaCompany && currentAlphaAnalysis" class="space-y-6">
+                <!-- Back button and header -->
+                <div class="flex items-center justify-between">
+                    <button @click="selectedAlphaCompany = ''" x-show="alphaCompanies.length > 1"
+                            class="text-gray-400 hover:text-white flex items-center gap-2">
+                        <span>&larr;</span> Tillbaka
+                    </button>
+                    <div class="flex items-center gap-4">
+                        <h2 class="text-xl font-bold" x-text="currentAlphaAnalysis?.company"></h2>
+                        <span class="text-gray-400" x-text="currentAlphaAnalysis?.ticker"></span>
+                        <span :class="['px-3 py-1 rounded text-sm font-medium', getVerdictClass(currentAlphaAnalysis?.verdict?.recommendation)]"
+                              x-text="currentAlphaAnalysis?.verdict?.recommendation"></span>
+                    </div>
+                    <span class="text-sm text-gray-500" x-text="'Analyserad: ' + currentAlphaAnalysis?.date"></span>
+                </div>
+
+                <!-- Verdict Summary Card -->
+                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <!-- Price vs Fair Value -->
+                        <div class="text-center">
+                            <div class="text-gray-400 text-sm mb-1">Nuvarande Pris</div>
+                            <div class="text-2xl font-bold" x-text="formatSEK(currentAlphaAnalysis?.current_price)"></div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-gray-400 text-sm mb-1">Viktat Fair Value</div>
+                            <div class="text-2xl font-bold text-emerald-400" x-text="formatSEK(currentAlphaAnalysis?.weighted_fair_value)"></div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-gray-400 text-sm mb-1">Uppsida/Nedsida</div>
+                            <div :class="['text-2xl font-bold', getUpsideClass(currentAlphaAnalysis?.verdict?.upside_pct)]"
+                                 x-text="formatPercent(currentAlphaAnalysis?.verdict?.upside_pct)"></div>
+                        </div>
+                    </div>
+
+                    <!-- Price Position Bar -->
+                    <div class="mt-6">
+                        <div class="flex justify-between text-xs text-gray-500 mb-1">
+                            <span>Bear</span>
+                            <span>Base</span>
+                            <span>Bull</span>
+                        </div>
+                        <div class="relative h-4 bg-gradient-to-r from-red-600 via-yellow-500 to-green-500 rounded-full">
+                            <div class="absolute w-3 h-6 bg-white rounded-full -top-1 transform -translate-x-1/2 shadow-lg border-2 border-gray-800"
+                                 :style="{ left: getAlphaPricePosition(currentAlphaAnalysis) + '%' }"></div>
+                        </div>
+                        <div class="flex justify-between text-xs text-gray-400 mt-1">
+                            <span x-text="formatSEK(currentAlphaAnalysis?.scenarios?.find(s => s.name === 'Bear')?.fair_value)"></span>
+                            <span x-text="formatSEK(currentAlphaAnalysis?.scenarios?.find(s => s.name === 'Base')?.fair_value)"></span>
+                            <span x-text="formatSEK(currentAlphaAnalysis?.scenarios?.find(s => s.name === 'Bull')?.fair_value)"></span>
+                        </div>
+                    </div>
+
+                    <!-- Summary -->
+                    <p class="mt-4 text-gray-300 text-sm" x-text="currentAlphaAnalysis?.verdict?.summary"></p>
+                </div>
+
+                <!-- Sub-view Tabs -->
+                <div class="flex space-x-1 bg-gray-800 p-1 rounded-lg w-fit">
+                    <button @click="alphaSubView = 'overview'"
+                            :class="alphaSubView === 'overview' ? 'bg-emerald-600' : 'bg-transparent hover:bg-gray-700'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Scenarios
+                    </button>
+                    <button @click="alphaSubView = 'fundamentals'"
+                            :class="alphaSubView === 'fundamentals' ? 'bg-emerald-600' : 'bg-transparent hover:bg-gray-700'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Fundamenta
+                    </button>
+                    <button @click="alphaSubView = 'sentiment'"
+                            :class="alphaSubView === 'sentiment' ? 'bg-emerald-600' : 'bg-transparent hover:bg-gray-700'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Sentiment
+                    </button>
+                    <button @click="alphaSubView = 'risks'"
+                            :class="alphaSubView === 'risks' ? 'bg-emerald-600' : 'bg-transparent hover:bg-gray-700'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Risker
+                    </button>
+                    <button @click="alphaSubView = 'position'"
+                            :class="alphaSubView === 'position' ? 'bg-emerald-600' : 'bg-transparent hover:bg-gray-700'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Position
+                    </button>
+                </div>
+
+                <!-- Scenarios Sub-view -->
+                <div x-show="alphaSubView === 'overview'" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <template x-for="scenario in currentAlphaAnalysis?.scenarios || []" :key="scenario.name">
+                        <div :class="[
+                            'rounded-lg p-4 border',
+                            scenario.name === 'Bull' ? 'bg-green-900/20 border-green-700' : '',
+                            scenario.name === 'Base' ? 'bg-yellow-900/20 border-yellow-700' : '',
+                            scenario.name === 'Bear' ? 'bg-red-900/20 border-red-700' : ''
+                        ]">
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="font-bold" x-text="scenario.name"></span>
+                                <span class="text-sm text-gray-400" x-text="(scenario.probability * 100) + '%'"></span>
+                            </div>
+                            <div class="text-2xl font-bold mb-3" x-text="formatSEK(scenario.fair_value)"></div>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <template x-for="assumption in scenario.key_assumptions || []" :key="assumption">
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-gray-500">&bull;</span>
+                                        <span x-text="assumption"></span>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                    </template>
+                </div>
+
+                <!-- Fundamentals Sub-view -->
+                <div x-show="alphaSubView === 'fundamentals'" class="space-y-4">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                            <div class="text-gray-400 text-xs mb-1">Quality Score</div>
+                            <div :class="['text-xl font-bold inline-block px-2 py-1 rounded', getQualityScoreClass(currentAlphaAnalysis?.fundamenta?.quality_score)]"
+                                 x-text="(currentAlphaAnalysis?.fundamenta?.quality_score || '-') + '/10'"></div>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                            <div class="text-gray-400 text-xs mb-1">Piotroski F-Score</div>
+                            <div class="text-xl font-bold" x-text="(currentAlphaAnalysis?.fundamenta?.balance_sheet?.piotroski_score || '-') + '/9'"></div>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                            <div class="text-gray-400 text-xs mb-1">FCF Yield</div>
+                            <div class="text-xl font-bold" x-text="(currentAlphaAnalysis?.fundamenta?.cash_flow?.fcf_yield || currentAlphaAnalysis?.valuation_multiples?.fcf_yield || '-') + '%'"></div>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                            <div class="text-gray-400 text-xs mb-1">CEO Credibility</div>
+                            <div class="text-xl font-bold capitalize" x-text="currentAlphaAnalysis?.fundamenta?.ceo_credibility || '-'"></div>
+                        </div>
+                    </div>
+
+                    <!-- Green/Red Flags -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-gray-800 rounded-lg p-4 border border-green-700">
+                            <h4 class="font-medium text-green-400 mb-2">Green Flags</h4>
+                            <ul class="text-sm space-y-1">
+                                <template x-for="flag in currentAlphaAnalysis?.fundamenta?.green_flags || []" :key="flag">
+                                    <li class="flex items-center gap-2 text-green-300">
+                                        <span>&#x2714;</span>
+                                        <span x-text="flag"></span>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-4 border border-red-700">
+                            <h4 class="font-medium text-red-400 mb-2">Red Flags</h4>
+                            <ul class="text-sm space-y-1">
+                                <template x-for="flag in currentAlphaAnalysis?.fundamenta?.red_flags || []" :key="flag">
+                                    <li class="flex items-center gap-2 text-red-300">
+                                        <span>&#x26A0;</span>
+                                        <span x-text="flag"></span>
+                                    </li>
+                                </template>
+                                <li x-show="!(currentAlphaAnalysis?.fundamenta?.red_flags?.length)" class="text-gray-500">Inga identifierade</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Segments -->
+                    <div x-show="currentAlphaAnalysis?.fundamenta?.segments?.length" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-3">Segment</h4>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <thead class="text-gray-400 border-b border-gray-700">
+                                    <tr>
+                                        <th class="text-left py-2">Segment</th>
+                                        <th class="text-right py-2">Andel</th>
+                                        <th class="text-right py-2">Tillväxt</th>
+                                        <th class="text-right py-2">Marginal</th>
+                                        <th class="text-left py-2">Outlook</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <template x-for="seg in currentAlphaAnalysis?.fundamenta?.segments || []" :key="seg.name">
+                                        <tr class="border-b border-gray-700/50">
+                                            <td class="py-2" x-text="seg.name"></td>
+                                            <td class="text-right py-2" x-text="seg.revenue_pct ? seg.revenue_pct + '%' : '-'"></td>
+                                            <td class="text-right py-2" x-text="seg.growth ? seg.growth + '%' : '-'"></td>
+                                            <td class="text-right py-2" x-text="seg.margin ? seg.margin + '%' : '-'"></td>
+                                            <td class="py-2 capitalize" x-text="seg.outlook || '-'"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sentiment Sub-view -->
+                <div x-show="alphaSubView === 'sentiment'" class="space-y-4">
+                    <!-- Overall Sentiment -->
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-medium">Overall Sentiment</h4>
+                            <span :class="[
+                                'px-3 py-1 rounded text-sm font-medium',
+                                currentAlphaAnalysis?.sentiment?.label === 'bullish' ? 'bg-green-600' : '',
+                                currentAlphaAnalysis?.sentiment?.label === 'bearish' ? 'bg-red-600' : '',
+                                currentAlphaAnalysis?.sentiment?.label === 'neutral' ? 'bg-gray-600' : '',
+                                currentAlphaAnalysis?.sentiment?.label === 'cautiously_bullish' ? 'bg-green-500' : ''
+                            ]" x-text="currentAlphaAnalysis?.sentiment?.label || '-'"></span>
+                        </div>
+                    </div>
+
+                    <!-- Notable Speakers -->
+                    <div x-show="currentAlphaAnalysis?.sentiment?.notable_speakers?.length" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-3">Notable Speakers</h4>
+                        <div class="space-y-3">
+                            <template x-for="speaker in currentAlphaAnalysis?.sentiment?.notable_speakers || []" :key="speaker.name">
+                                <div class="flex items-start gap-3 p-3 bg-gray-700/50 rounded-lg">
+                                    <div :class="[
+                                        'w-8 h-8 rounded-full flex items-center justify-center text-white font-bold text-sm',
+                                        speaker.stance === 'bull' ? 'bg-green-600' : '',
+                                        speaker.stance === 'bear' ? 'bg-red-600' : 'bg-gray-600'
+                                    ]" x-text="speaker.stance === 'bull' ? '&#x1F402;' : speaker.stance === 'bear' ? '&#x1F43B;' : '&#x2796;'"></div>
+                                    <div class="flex-1">
+                                        <div class="flex items-center gap-2">
+                                            <span class="font-medium" x-text="speaker.name"></span>
+                                            <span class="text-xs text-gray-400" x-text="speaker.affiliation"></span>
+                                            <span x-show="speaker.owns_position" class="text-xs bg-blue-600 px-1.5 py-0.5 rounded">Äger</span>
+                                        </div>
+                                        <p class="text-sm text-gray-300 mt-1" x-text="speaker.argument || speaker.key_argument"></p>
+                                        <p x-show="speaker.quote" class="text-xs text-gray-400 mt-1 italic" x-text="'\"' + speaker.quote + '\"'"></p>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <!-- Bull/Bear Arguments -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-gray-800 rounded-lg p-4 border border-green-700">
+                            <h4 class="font-medium text-green-400 mb-2">Bull Arguments</h4>
+                            <ul class="text-sm space-y-1">
+                                <template x-for="arg in currentAlphaAnalysis?.sentiment?.bull_arguments || []" :key="arg">
+                                    <li class="flex items-start gap-2 text-gray-300">
+                                        <span class="text-green-400">&bull;</span>
+                                        <span x-text="arg"></span>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-4 border border-red-700">
+                            <h4 class="font-medium text-red-400 mb-2">Bear Arguments</h4>
+                            <ul class="text-sm space-y-1">
+                                <template x-for="arg in currentAlphaAnalysis?.sentiment?.bear_arguments || []" :key="arg">
+                                    <li class="flex items-start gap-2 text-gray-300">
+                                        <span class="text-red-400">&bull;</span>
+                                        <span x-text="arg"></span>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Insider Signal -->
+                    <div x-show="currentAlphaAnalysis?.insider" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-2">Insider Signal</h4>
+                        <div class="flex items-center gap-4">
+                            <span :class="['text-lg font-bold', getInsiderClass(currentAlphaAnalysis?.insider?.net_direction)]"
+                                  x-text="currentAlphaAnalysis?.insider?.net_direction"></span>
+                            <span class="text-gray-400 text-sm" x-text="currentAlphaAnalysis?.insider?.key_observation || currentAlphaAnalysis?.insider?.summary"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Risks Sub-view -->
+                <div x-show="alphaSubView === 'risks'" class="space-y-4">
+                    <!-- Risk Score -->
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-medium">Risk Score</h4>
+                            <span :class="['px-3 py-1 rounded font-bold', getRiskScoreClass(currentAlphaAnalysis?.risks?.overall_score)]"
+                                  x-text="(currentAlphaAnalysis?.risks?.overall_score || '-') + '/10'"></span>
+                        </div>
+                        <p class="text-sm text-gray-400 mt-2 capitalize" x-text="currentAlphaAnalysis?.risks?.interpretation?.replace('_', ' ')"></p>
+                    </div>
+
+                    <!-- Top Risks -->
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-3">Top Risks</h4>
+                        <div class="space-y-2">
+                            <template x-for="risk in currentAlphaAnalysis?.risks?.top_risks || []" :key="risk.risk">
+                                <div class="p-3 bg-gray-700/50 rounded-lg">
+                                    <div class="flex items-center justify-between">
+                                        <span class="font-medium" x-text="risk.risk"></span>
+                                        <div class="flex gap-2">
+                                            <span class="text-xs px-2 py-0.5 rounded bg-gray-600" x-text="risk.probability"></span>
+                                            <span :class="[
+                                                'text-xs px-2 py-0.5 rounded',
+                                                risk.impact === 'critical' ? 'bg-red-600' : '',
+                                                risk.impact === 'major' ? 'bg-orange-600' : '',
+                                                risk.impact === 'moderate' ? 'bg-yellow-600' : 'bg-gray-600'
+                                            ]" x-text="risk.impact"></span>
+                                        </div>
+                                    </div>
+                                    <p x-show="risk.notes" class="text-xs text-gray-400 mt-1" x-text="risk.notes"></p>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <!-- Kill the Thesis -->
+                    <div x-show="currentAlphaAnalysis?.risks?.kill_the_thesis" class="bg-red-900/20 rounded-lg p-4 border border-red-700">
+                        <h4 class="font-medium text-red-400 mb-2">Kill the Thesis</h4>
+                        <p class="text-sm text-red-200" x-text="currentAlphaAnalysis?.risks?.kill_the_thesis"></p>
+                    </div>
+
+                    <!-- Bear Thesis -->
+                    <div x-show="currentAlphaAnalysis?.risks?.bear_thesis" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-2">Bear Thesis</h4>
+                        <p class="text-sm text-gray-300" x-text="currentAlphaAnalysis?.risks?.bear_thesis"></p>
+                    </div>
+                </div>
+
+                <!-- Position Sub-view -->
+                <div x-show="alphaSubView === 'position'" class="space-y-4">
+                    <!-- Position Guidance -->
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-3">Position Guidance</h4>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                            <div>
+                                <span class="text-gray-400">Sizing:</span>
+                                <span class="font-medium capitalize ml-2" x-text="currentAlphaAnalysis?.position_guidance?.sizing || '-'"></span>
+                            </div>
+                            <div>
+                                <span class="text-gray-400">Max Position:</span>
+                                <span class="font-medium ml-2" x-text="currentAlphaAnalysis?.position_guidance?.max_position || currentAlphaAnalysis?.position_guidance?.max_position_pct + '%' || '-'"></span>
+                            </div>
+                            <div>
+                                <span class="text-gray-400">Time Horizon:</span>
+                                <span class="font-medium ml-2" x-text="currentAlphaAnalysis?.position_guidance?.time_horizon || '-'"></span>
+                            </div>
+                            <div x-show="currentAlphaAnalysis?.position_guidance?.entry_zone">
+                                <span class="text-gray-400">Entry Zone:</span>
+                                <span class="font-medium ml-2" x-text="formatSEK(currentAlphaAnalysis?.position_guidance?.entry_zone?.lower) + ' - ' + formatSEK(currentAlphaAnalysis?.position_guidance?.entry_zone?.upper)"></span>
+                            </div>
+                        </div>
+                        <p x-show="currentAlphaAnalysis?.position_guidance?.notes" class="text-sm text-gray-400 mt-3" x-text="currentAlphaAnalysis?.position_guidance?.notes"></p>
+                    </div>
+
+                    <!-- Entry Strategy -->
+                    <div x-show="currentAlphaAnalysis?.position_guidance?.entry_strategy?.length" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-3">Entry Strategy</h4>
+                        <div class="space-y-2">
+                            <template x-for="entry in currentAlphaAnalysis?.position_guidance?.entry_strategy || []" :key="entry.level">
+                                <div class="flex items-center justify-between p-2 bg-gray-700/50 rounded">
+                                    <span x-text="entry.level"></span>
+                                    <span class="font-medium text-emerald-400" x-text="entry.allocation_pct + '%'"></span>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <!-- Next Catalyst -->
+                    <div x-show="currentAlphaAnalysis?.next_catalyst" class="bg-gray-800 rounded-lg p-4 border border-emerald-700">
+                        <h4 class="font-medium text-emerald-400 mb-2">Next Catalyst</h4>
+                        <div class="flex items-center justify-between">
+                            <span x-text="currentAlphaAnalysis?.next_catalyst?.event"></span>
+                            <div class="flex gap-2">
+                                <span class="text-gray-400" x-text="currentAlphaAnalysis?.next_catalyst?.date"></span>
+                                <span :class="[
+                                    'text-xs px-2 py-0.5 rounded',
+                                    currentAlphaAnalysis?.next_catalyst?.impact === 'high' ? 'bg-red-600' : 'bg-gray-600'
+                                ]" x-text="currentAlphaAnalysis?.next_catalyst?.impact"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Peers -->
+                    <div x-show="currentAlphaAnalysis?.peers" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-2">Peers</h4>
+                        <div class="flex flex-wrap gap-2 mb-2">
+                            <template x-for="peer in currentAlphaAnalysis?.peers?.peer_group || []" :key="peer">
+                                <span class="px-2 py-1 bg-gray-700 rounded text-sm" x-text="peer"></span>
+                            </template>
+                        </div>
+                        <p class="text-sm text-gray-400" x-text="currentAlphaAnalysis?.peers?.relative_valuation?.notes || currentAlphaAnalysis?.peers?.relative_valuation"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- No alpha data -->
+            <p x-show="!alphaCompanies?.length" class="text-gray-500 text-center py-10">
+                No alpha analyses available. Run /alpha for a company first.
             </p>
         </div>
     </main>

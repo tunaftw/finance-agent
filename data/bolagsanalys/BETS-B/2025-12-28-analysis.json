@@ -1,0 +1,295 @@
+{
+  "ticker": "BETS-B",
+  "company": "Betsson AB",
+  "date": "2025-12-28",
+  "version": "1.0",
+  "weighted_fair_value": 240.0,
+  "current_price": 145.0,
+  "verdict": {
+    "recommendation": "KOPVARD",
+    "upside_pct": 65.5,
+    "confidence": "high",
+    "risk_adjusted_verdict": "KOPVARD",
+    "margin_of_safety": 39.6,
+    "summary": "Betsson ar ett kvalitetsbolag till skrappris. P/E 8x vs sektor 12-15x, FCF yield 12-13%, ROE 28%, Piotroski 9/9. Turkiet-risk ar PRICED IN med 40-50% rabatt mot peers. VM 2026 ar belagd katalysator."
+  },
+  "data_sources": {
+    "mode": "full",
+    "filings_count": 5,
+    "podcasts_count": 194,
+    "twitter_count": 1,
+    "youtube_count": 0,
+    "insider_count": 0,
+    "news_count": 2,
+    "external_searches": 4
+  },
+  "scenarios": [
+    {
+      "name": "Bull",
+      "probability": 0.25,
+      "ebitda": null,
+      "multiple": 11.0,
+      "ev": null,
+      "equity_value": null,
+      "fair_value": 328.0,
+      "key_assumptions": [
+        "VM/OS 2026 overtraffar forvantningar",
+        "Turkiet stabiliseras (domain-switching fungerar)",
+        "Intaktstillvaxt +18% 2025-26",
+        "EBIT-marginal 22%"
+      ]
+    },
+    {
+      "name": "Base",
+      "probability": 0.50,
+      "ebitda": null,
+      "multiple": 9.0,
+      "ev": null,
+      "equity_value": null,
+      "fair_value": 242.0,
+      "key_assumptions": [
+        "Stadig tillvaxt i linje med historik",
+        "Turkiet status quo (Realm fortsatter)",
+        "Intaktstillvaxt +12% 2025-26",
+        "EBIT-marginal 20%"
+      ]
+    },
+    {
+      "name": "Bear",
+      "probability": 0.25,
+      "ebitda": null,
+      "multiple": 7.0,
+      "ev": null,
+      "equity_value": null,
+      "fair_value": 148.0,
+      "key_assumptions": [
+        "Turkiet eskalerar (Realm stanger)",
+        "Marginpress fran skattehojningar",
+        "Intaktstillvaxt +3% 2025-26",
+        "EBIT-marginal 17%"
+      ]
+    }
+  ],
+  "fundamenta": {
+    "revenue": {
+      "latest_annual": 11500000000,
+      "latest_annual_eur": 1046000000,
+      "cagr_3y": 15.0,
+      "trend": "accelerating"
+    },
+    "margins": {
+      "ebit_margin": 20.3,
+      "ebit_margin_trend": "stable_expanding"
+    },
+    "cash_flow": {
+      "fcf_yield": 12.5,
+      "earnings_quality": "high"
+    },
+    "balance_sheet": {
+      "net_debt": -605000000,
+      "net_debt_ebitda": -0.3,
+      "piotroski_score": 9,
+      "health": "strong",
+      "notes": "Nettokassa ~55M EUR"
+    },
+    "segments": [
+      {
+        "name": "Casino",
+        "revenue_pct": 75,
+        "growth": null,
+        "margin": null,
+        "outlook": "positive",
+        "notes": "Ej beroende av sportspel"
+      },
+      {
+        "name": "Sportsbook",
+        "revenue_pct": 25,
+        "growth": null,
+        "margin": null,
+        "outlook": "positive",
+        "notes": "VM 2026 katalysator"
+      }
+    ],
+    "quality_score": 9,
+    "ceo_credibility": "high",
+    "ceo_name": "Pontus Lindwall",
+    "ceo_quote": "2024 was Betsson's best year ever, with new records across the board",
+    "red_flags": [],
+    "green_flags": [
+      "FCF Yield >10%",
+      "Nettokassa",
+      "Piotroski 9/9",
+      "Insider alignment (Lindwall)",
+      "ROE 28%"
+    ],
+    "summary": "Exceptionellt starka fundamenta. Revenue +15% YoY, EBIT +18% YoY, ROE 28%, Piotroski maxpoang. Nettokassa ger strategisk flexibilitet."
+  },
+  "sentiment": {
+    "overall_score": 0.75,
+    "label": "bullish",
+    "trend": "stable",
+    "notable_speakers": [
+      {
+        "name": "Richard Brase",
+        "affiliation": "Protean Fund",
+        "stance": "bull",
+        "confidence": "medium",
+        "owns_position": true,
+        "argument": "12-13% FCF yield, 1.5% av fonden",
+        "quote": "Betssons vardering ar sa lag att affaren i Turkiet i princip helt maste do for att det har ska bli daligt"
+      },
+      {
+        "name": "Lone Wolf",
+        "stance": "bull",
+        "confidence": "high",
+        "argument": "Very low P/E, ESG-concerns overstated"
+      },
+      {
+        "name": "Claes",
+        "stance": "bull",
+        "confidence": "medium",
+        "argument": "75% casino (ej sportspel), haller emot"
+      },
+      {
+        "name": "Ola",
+        "stance": "bull",
+        "confidence": "high",
+        "argument": "PE 7.3 for 2024, varderas for lagt"
+      },
+      {
+        "name": "Per Johansson",
+        "stance": "bear",
+        "confidence": "high",
+        "argument": "Turkiet-exponering strategisk risk"
+      }
+    ],
+    "bull_arguments": [
+      "Extrem undervardering (P/E 8 vs sektor 12-15)",
+      "FCF yield 12-13%",
+      "Nettokassa, stark balansrakning",
+      "Geografisk diversifiering minskar risk",
+      "VM 2026 = belagd katalysator (EM 2024 drev rekordkvartal)"
+    ],
+    "bear_arguments": [
+      "Turkiet-exponering via Realm Entertainment",
+      "Regulatorisk osakerhet i flera marknader",
+      "ESG-motvind fran institutioner"
+    ],
+    "summary": "Overbryggande bullish sentiment med aterkommande Turkey-varningar. Majoriteten ser risken som priced in vid nuvarande vardering."
+  },
+  "insider": {
+    "net_direction": "neutral",
+    "signal_strength": 5,
+    "notes": "Begransad insiderdata tillganglig",
+    "summary": "VD Pontus Lindwall har visat langsiktigt engagemang"
+  },
+  "risks": {
+    "overall_score": 4,
+    "interpretation": "medium_risk",
+    "top_risks": [
+      {
+        "risk": "Turkiet eskalerar (Erdogans offensiv)",
+        "category": "regulatory",
+        "probability": "medium",
+        "impact": "moderate",
+        "notes": "Realm revenue share <10%, minskar. Historiskt domain-switching har fungerat."
+      },
+      {
+        "risk": "Regulatorisk atstramning i nya marknader",
+        "category": "regulatory",
+        "probability": "medium",
+        "impact": "moderate"
+      },
+      {
+        "risk": "Marginpress fran skattehojningar",
+        "category": "financial",
+        "probability": "medium",
+        "impact": "moderate"
+      },
+      {
+        "risk": "ESG-driven institutionell avyttring",
+        "category": "market",
+        "probability": "low",
+        "impact": "minor"
+      }
+    ],
+    "de_escalated_risks": [],
+    "kill_the_thesis": "Turkiet-affaren maste helt do for att caset ska bli daligt (Brase-citat)",
+    "bear_thesis": "Om Erdogans offensiv lyckas stanga Realm helt, och samtidigt nya marknader infar striktare reglering, kan marginerna pressas betydligt. Men detta ar redan priced in med 40-50% rabatt.",
+    "summary": "Risken ar PRICED IN. Aktien handlas med 40-50% rabatt mot peers. Turkey-exponering ar <10% och minskar."
+  },
+  "peers": {
+    "peer_group": ["Kindred", "Evolution", "Flutter", "Entain", "888"],
+    "relative_valuation": {
+      "vs_peers_pe": "8x vs 12-15x sektor",
+      "vs_peers_ev_ebitda": "6-7x vs 9-11x sektor",
+      "notes": "Betsson handlas med 40-50% rabatt mot peers"
+    },
+    "peer_multiples": [
+      {"name": "Kindred", "pe": 10, "ev_ebitda": 8, "fcf_yield": 8},
+      {"name": "Evolution", "pe": 18, "ev_ebitda": 15, "fcf_yield": 5},
+      {"name": "Flutter", "pe": 22, "ev_ebitda": 12, "fcf_yield": 4}
+    ]
+  },
+  "position_guidance": {
+    "sizing": "full",
+    "max_position_pct": 20,
+    "entry_zone": {
+      "lower": 120,
+      "upper": 145
+    },
+    "entry_strategy": [
+      {"level": "Nu (~145 SEK)", "allocation_pct": 50},
+      {"level": "Dip <130 SEK", "allocation_pct": 30},
+      {"level": "Turkey-panik <120 SEK", "allocation_pct": 20}
+    ],
+    "stop_loss": null,
+    "take_profit": [242, 328],
+    "time_horizon": "10 manader",
+    "notes": "15-20% position rekommenderas. Asymmetrisk risk/reward - nedsida ~0% (bear case 148 vs pris 145), uppsida 65%+. Alternativt: Ga in med full position nu da VM-hype kan driva kursen fore dippar."
+  },
+  "catalysts": [
+    {
+      "event": "VM 2026 (USA/Mexiko/Kanada)",
+      "date": "2026-06",
+      "impact": "high",
+      "notes": "Forvantat hogsta betting-handle nagonsin. VM 2022 drev +65% vs foregaende VM."
+    },
+    {
+      "event": "OS 2026 Milano-Cortina",
+      "date": "2026-02",
+      "impact": "medium",
+      "notes": "Vinterspel = mindre betting-fokus, men feb-mars ar dead spot i andra sporter"
+    },
+    {
+      "event": "Q4 2025 rapport",
+      "date": "2026-02",
+      "impact": "medium",
+      "notes": "Ledtradar om Turkiet-utveckling"
+    }
+  ],
+  "next_catalyst": {
+    "event": "VM 2026 (USA/Mexiko/Kanada)",
+    "date": "2026-06",
+    "impact": "high"
+  },
+  "valuation_multiples": {
+    "pe": 8.0,
+    "ev_ebitda": 6.5,
+    "fcf_yield": 12.5,
+    "roe": 28.0
+  },
+  "metadata": {
+    "analysis_version": "1.0",
+    "created_at": "2025-12-28T00:00:00Z",
+    "converted_from": "alpha-analysis.md",
+    "model_used": "manual_conversion",
+    "data_completeness": "high",
+    "confidence_level": "high",
+    "sources": [
+      "https://www.betssonab.com/investors/share",
+      "https://casinobeats.com/2025/12/17/world-cup-2026-betting-35b-usa-favored-to-win-group/",
+      "https://www.investing.com/equities/betsson-b"
+    ]
+  }
+}

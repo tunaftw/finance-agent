@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any
 
 from .exporters import (
+    export_alpha,
     export_analyses,
     export_filings,
     export_podcasts,
@@ -96,6 +97,11 @@ class DashboardGenerator:
         self._write_json("filings.json", filings)
         files_generated += 1
 
+        # Export alpha analyses (bolagsanalys)
+        alpha = export_alpha(self.source_data_dir)
+        self._write_json("alpha.json", alpha)
+        files_generated += 1
+
         # Add metadata
         metadata = {
             "generated_at": datetime.now().isoformat(),
@@ -108,6 +114,7 @@ class DashboardGenerator:
                 "tweets": len(twitter["tweets"]),
                 "youtube_videos": len(youtube["videos"]),
                 "filings_companies": len(filings["companies"]),
+                "alpha_companies": len(alpha["companies"]),
             },
         }
         self._write_json("metadata.json", metadata)
@@ -123,6 +130,7 @@ class DashboardGenerator:
             "twitter": twitter,
             "youtube": youtube,
             "filings": filings,
+            "alpha": alpha,
         }
 
         # Copy HTML template and assets with inline data

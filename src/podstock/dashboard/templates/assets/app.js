@@ -88,6 +88,15 @@ function dashboard() {
         filingsSubView: 'promises',
         expandedTonePeriod: null,  // For click-to-expand tone details
 
+        // Alpha data and state
+        alpha: {
+            companies: [],
+            analyses: {},
+            history: {}
+        },
+        selectedAlphaCompany: '',
+        alphaSubView: 'overview',  // overview, fundamentals, sentiment, risks, position
+
         // === INBOX COMPUTED ===
 
         get filteredRecommendations() {
@@ -410,6 +419,113 @@ function dashboard() {
             return trend.charAt(0).toUpperCase() + trend.slice(1).replace('_', ' ');
         },
 
+        // === ALPHA COMPUTED ===
+
+        get alphaCompanies() {
+            return this.alpha.companies || [];
+        },
+
+        get currentAlphaAnalysis() {
+            if (!this.selectedAlphaCompany) return null;
+            return this.alpha.analyses[this.selectedAlphaCompany] || null;
+        },
+
+        get currentAlphaHistory() {
+            if (!this.selectedAlphaCompany) return [];
+            return this.alpha.history[this.selectedAlphaCompany] || [];
+        },
+
+        // Get verdict color class
+        getVerdictClass(recommendation) {
+            const rec = (recommendation || '').toUpperCase();
+            if (rec === 'KÖPVÄRD' || rec === 'KOPVARD') return 'bg-green-600 text-white';
+            if (rec === 'ATTRAKTIV') return 'bg-green-500 text-white';
+            if (rec === 'FAIR') return 'bg-yellow-500 text-white';
+            if (rec === 'FULLVÄRDERAD' || rec === 'FULLVARDERAD') return 'bg-orange-500 text-white';
+            if (rec === 'ÖVERVÄRDERAD' || rec === 'OVERVARDERAD') return 'bg-red-600 text-white';
+            return 'bg-gray-500 text-white';
+        },
+
+        // Get card border color based on verdict
+        getCardBorderClass(recommendation) {
+            const rec = (recommendation || '').toUpperCase();
+            if (rec === 'KÖPVÄRD' || rec === 'KOPVARD') return 'border-green-500';
+            if (rec === 'ATTRAKTIV') return 'border-green-400';
+            if (rec === 'FAIR') return 'border-yellow-400';
+            if (rec === 'FULLVÄRDERAD' || rec === 'FULLVARDERAD') return 'border-orange-400';
+            if (rec === 'ÖVERVÄRDERAD' || rec === 'OVERVARDERAD') return 'border-red-500';
+            return 'border-gray-300';
+        },
+
+        // Get upside color class
+        getUpsideClass(upside) {
+            if (upside === null || upside === undefined) return 'text-gray-500';
+            if (upside > 20) return 'text-green-600 font-bold';
+            if (upside > 5) return 'text-green-500';
+            if (upside > -10) return 'text-yellow-600';
+            if (upside > -20) return 'text-orange-500';
+            return 'text-red-600 font-bold';
+        },
+
+        // Get risk score color
+        getRiskScoreClass(score) {
+            if (!score) return 'bg-gray-200 text-gray-600';
+            if (score <= 3) return 'bg-green-100 text-green-800';
+            if (score <= 5) return 'bg-yellow-100 text-yellow-800';
+            if (score <= 7) return 'bg-orange-100 text-orange-800';
+            return 'bg-red-100 text-red-800';
+        },
+
+        // Get quality score color
+        getQualityScoreClass(score) {
+            if (!score) return 'bg-gray-200 text-gray-600';
+            if (score >= 8) return 'bg-green-100 text-green-800';
+            if (score >= 6) return 'bg-yellow-100 text-yellow-800';
+            if (score >= 4) return 'bg-orange-100 text-orange-800';
+            return 'bg-red-100 text-red-800';
+        },
+
+        // Get insider direction class
+        getInsiderClass(direction) {
+            const dir = (direction || '').toLowerCase();
+            if (dir.includes('köp') || dir.includes('buyer') || dir === 'stark_köpare') return 'text-green-600';
+            if (dir.includes('sälj') || dir.includes('seller')) return 'text-red-600';
+            return 'text-gray-500';
+        },
+
+        // Calculate price position as percentage between bear and bull case
+        getAlphaPricePosition(analysis) {
+            if (!analysis || !analysis.scenarios) return 50;
+            const scenarios = analysis.scenarios;
+            const bear = scenarios.find(s => s.name === 'Bear');
+            const bull = scenarios.find(s => s.name === 'Bull');
+            if (!bear || !bull) return 50;
+
+            const price = analysis.current_price;
+            const bearFv = bear.fair_value;
+            const bullFv = bull.fair_value;
+
+            if (!price || !bearFv || !bullFv) return 50;
+            if (bullFv === bearFv) return 50;
+
+            // Calculate position (0 = at bear, 100 = at bull)
+            const position = ((price - bearFv) / (bullFv - bearFv)) * 100;
+            return Math.max(0, Math.min(100, position));
+        },
+
+        // Format currency for Swedish display
+        formatSEK(value) {
+            if (value === null || value === undefined) return '-';
+            return `${value.toFixed(0)} SEK`;
+        },
+
+        // Format percentage
+        formatPercent(value) {
+            if (value === null || value === undefined) return '-';
+            const prefix = value >= 0 ? '+' : '';
+            return `${prefix}${value.toFixed(1)}%`;
+        },
+
         // === INITIALIZATION ===
 
         async init() {
@@ -427,10 +543,14 @@ function dashboard() {
                     this.twitter = data.twitter || { tweets: [], users: [], stock_mentions: [] };
                     this.youtube = data.youtube || { videos: [], channels: [], stock_mentions: [] };
                     this.filings = data.filings || { companies: [], evolutions: {}, theses: {} };
+                    this.alpha = data.alpha || { companies: [], analyses: {}, history: {} };
 
                     // Set default selected company if available
                     if (this.filings.companies.length > 0) {
                         this.selectedFilingCompany = this.filings.companies[0];
+                    }
+                    if (this.alpha.companies.length > 0) {
+                        this.selectedAlphaCompany = this.alpha.companies[0].ticker;
                     }
                 } else {
                     // Fallback to fetch (works when served via HTTP)
@@ -442,7 +562,8 @@ function dashboard() {
                         podcasts,
                         twitter,
                         youtube,
-                        filings
+                        filings,
+                        alpha
                     ] = await Promise.all([
                         this.loadJson('data/metadata.json'),
                         this.loadJson('data/analyses.json'),
@@ -452,6 +573,7 @@ function dashboard() {
                         this.loadJson('data/twitter.json'),
                         this.loadJson('data/youtube.json'),
                         this.loadJson('data/filings.json'),
+                        this.loadJson('data/alpha.json'),
                     ]);
 
                     this.metadata = metadata || {};
@@ -462,10 +584,14 @@ function dashboard() {
                     this.twitter = twitter || { tweets: [], users: [], stock_mentions: [] };
                     this.youtube = youtube || { videos: [], channels: [], stock_mentions: [] };
                     this.filings = filings || { companies: [], evolutions: {}, theses: {} };
+                    this.alpha = alpha || { companies: [], analyses: {}, history: {} };
 
                     // Set default selected company if available
                     if (this.filings.companies.length > 0) {
                         this.selectedFilingCompany = this.filings.companies[0];
+                    }
+                    if (this.alpha.companies.length > 0) {
+                        this.selectedAlphaCompany = this.alpha.companies[0].ticker;
                     }
                 }
 

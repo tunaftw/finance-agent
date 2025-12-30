@@ -1,0 +1,248 @@
+{
+  "ticker": "GETI-B",
+  "company": "Getinge AB",
+  "date": "2025-12-30",
+  "weighted_fair_value": 88.2,
+  "current_price": 210.4,
+  "verdict": {
+    "recommendation": "ÖVERVÄRDERAD",
+    "upside_pct": -58.08,
+    "confidence": "low",
+    "risk_adjusted_verdict": "ÖVERVÄRDERAD",
+    "margin_of_safety": -120.11,
+    "summary": "Aktien handlas 58% över viktat fair value med låg konfidens. Betydande nedsida på grund av regulatoriska problem och hög skuldsättning. Notera 10 identifierade risker varav FDA consent decree och produktåterkallelser är kritiska."
+  },
+  "data_sources": {
+    "mode": "full",
+    "filings_count": 7,
+    "podcasts_count": 52,
+    "twitter_count": 0,
+    "youtube_count": 0,
+    "insider_count": 0,
+    "news_count": 6,
+    "external_searches": 9
+  },
+  "scenarios": [
+    {
+      "name": "Bull",
+      "probability": 0.2,
+      "ebitda": 5200,
+      "multiple": 12.0,
+      "ev": 62400,
+      "equity_value": 47900,
+      "fair_value": 176.1,
+      "key_assumptions": [
+        "FDA consent decree löst 2026-2027",
+        "Kvalitetsåtgärder slutförda framgångsrikt",
+        "Paragonix integration lyckad, bidrar med tillväxt",
+        "Marginaler återhämtar sig till 16-17% justerad EBITA",
+        "Ingen ytterligare produktåterkallelse"
+      ]
+    },
+    {
+      "name": "Base",
+      "probability": 0.5,
+      "ebitda": 4500,
+      "multiple": 9.0,
+      "ev": 40500,
+      "equity_value": 26000,
+      "fair_value": 95.59,
+      "key_assumptions": [
+        "Regulatoriska problem kvarstår men förvärras inte",
+        "Marginaler stabiliseras på 13-14% justerad EBITA",
+        "Cardiac assist tappar marknadsandelar gradvis",
+        "Årliga saneringskostnader SEK 300-500M fortsätter",
+        "Skuldsättning minskar långsamt"
+      ]
+    },
+    {
+      "name": "Bear",
+      "probability": 0.3,
+      "ebitda": 3200,
+      "multiple": 6.0,
+      "ev": 19200,
+      "equity_value": 4700,
+      "fair_value": 17.28,
+      "key_assumptions": [
+        "FDA eskalerar consent decree till produktionsförbud",
+        "Cardiac assist-franchisen halveras på 2 år",
+        "Ytterligare Class I-återkallelser",
+        "Brasilien-utredningen expanderar",
+        "Kreditbetyg sänks, refinansieringsrisk"
+      ]
+    }
+  ],
+  "fundamenta": {
+    "revenue": {
+      "latest_annual": 34759000000,
+      "cagr_3y": 8.7,
+      "q1_q3_2025_yoy": 6.6,
+      "trend": "stable"
+    },
+    "margins": {
+      "ebit_margin": 8.2,
+      "adjusted_ebita_margin": 14.0,
+      "ebit_margin_trend": "expanding"
+    },
+    "cash_flow": {
+      "fcf_2024": 4577000000,
+      "fcf_margin": 13.2,
+      "earnings_quality": "high",
+      "ocf_to_ni_ratio": 2.77
+    },
+    "balance_sheet": {
+      "net_debt": 14500000000,
+      "net_debt_ebitda": 2.2,
+      "piotroski_score": 6,
+      "health": "adequate"
+    },
+    "segments": [
+      {
+        "name": "Acute Care Therapies",
+        "revenue_pct": 52,
+        "growth": 8.6,
+        "margin": 21.2,
+        "outlook": "positive"
+      },
+      {
+        "name": "Life Science",
+        "revenue_pct": 13,
+        "growth": 5.3,
+        "margin": 8.3,
+        "outlook": "neutral"
+      },
+      {
+        "name": "Surgical Workflows",
+        "revenue_pct": 35,
+        "growth": 11.7,
+        "margin": 5.3,
+        "outlook": "neutral"
+      }
+    ],
+    "quality_score": 6,
+    "ceo_credibility": "medium",
+    "red_flags": [
+      "CE certificate suspension for Cardiosave (now restored)",
+      "FDA letter urging transition from cardiac devices",
+      "Brazil CGU investigation - SEK 482M provision",
+      "FDA Consent Decree ongoing since 2015",
+      "2022-2025 financial targets missed"
+    ],
+    "summary": "Getinge visar förbättrade fundamenta med 8.7% CAGR och starkt kassaflöde (FCF SEK 4.6B). Dock överskuggas detta av allvarliga regulatoriska problem och ett stort gap mellan justerat (SEK 11) och faktiskt (SEK 6) resultat per aktie."
+  },
+  "sentiment": {
+    "overall_score": 0.35,
+    "label": "neutral",
+    "trend": "improving",
+    "notable_speakers": [
+      {
+        "name": "John (Börspodden)",
+        "stance": "bull",
+        "argument": "Stark Q4, insiderköp"
+      },
+      {
+        "name": "Johan (Börspodden)",
+        "stance": "bear",
+        "argument": "Stort gap justerat vs faktiskt resultat"
+      },
+      {
+        "name": "Pontus Dackmo (Protean)",
+        "stance": "neutral",
+        "argument": "FDA-brev skapade nya utmaningar"
+      }
+    ],
+    "bull_arguments": [
+      "Stark Q4 2024 (+40% på justerad EBITDA)",
+      "Utfasning av surgical perfusion positivt",
+      "Insiderköp före rapport"
+    ],
+    "bear_arguments": [
+      "Stort gap justerat vs faktiskt resultat",
+      "FDA-problem fortsätter",
+      "Tariffexponering"
+    ],
+    "summary": "Neutral till försiktigt positiv sentiment efter stark Q4 2024. Skepticism kvarstår kring uthålliga justeringar och regulatoriska risker."
+  },
+  "risks": {
+    "overall_score": 8,
+    "interpretation": "very_high_risk",
+    "top_risks": [
+      {
+        "risk": "FDA Consent Decree eskalering",
+        "category": "regulatory",
+        "probability": "medium",
+        "impact": "critical"
+      },
+      {
+        "risk": "Cardiac assist-franchise förstörelse",
+        "category": "operational",
+        "probability": "high",
+        "impact": "critical"
+      },
+      {
+        "risk": "Kroniska justeringar - gap SEK 11 vs 6",
+        "category": "financial",
+        "probability": "high",
+        "impact": "major"
+      },
+      {
+        "risk": "Skuldsättning SEK 14.5B och stigande",
+        "category": "financial",
+        "probability": "high",
+        "impact": "major"
+      },
+      {
+        "risk": "12 Class I-återkallelser på Cardiosave",
+        "category": "operational",
+        "probability": "high",
+        "impact": "major"
+      }
+    ],
+    "red_flags": [
+      "FDA consent decree nu i 10:e året med 2022-expansion",
+      "15 allvarliga skador/dödsfall kopplade till återkallade produkter",
+      "Nästan 2x gap mellan justerat och GAAP-resultat",
+      "CE-certifikat suspenderat 17 månader"
+    ],
+    "kill_the_thesis": "FDA-eskalering till produktionsförbud eller varningsbrev skulle vara katastrofalt",
+    "bear_thesis": "Getinge är ett strukturellt skadat bolag maskerat av aggressiva justeringar, där ett decennium av kvalitetsbrister permanent har skadat konkurrensposition inom cardiac assist medan regulatoriska kostnader konsumerar kassaflödet.",
+    "summary": "Mycket hög risk (8/10). FDA consent decree sedan 2015, multipla Class I-återkallelser, patientskador, korruptionsutredning - ändå prissatt till 42x faktiskt resultat."
+  },
+  "peers": {
+    "peer_group": [
+      "Elekta",
+      "Arjo",
+      "Philips",
+      "Medtronic",
+      "GE Healthcare"
+    ],
+    "relative_valuation": "Handlas till premie trots högre regulatorisk risk",
+    "notes": "Medtech-sektorn generellt underpresterande vs S&P 500"
+  },
+  "position_guidance": {
+    "sizing": "avoid",
+    "entry_zone": {
+      "lower": 70,
+      "upper": 90
+    },
+    "stop_loss": null,
+    "take_profit": null,
+    "notes": "Undvik tills regulatorisk klarhet. Om position önskas, vänta på sub-100 SEK."
+  },
+  "next_catalyst": {
+    "event": "Q4 2025 rapport och FDA-uppdatering",
+    "date": "2026-01-28",
+    "impact": "high"
+  },
+  "metadata": {
+    "analysis_version": "1.0",
+    "created_at": "2025-12-30T20:38:04.786375",
+    "data_limitations": [
+      "Ingen insiderdata tillgänglig",
+      "Begränsad Twitter/YouTube-täckning",
+      "Kortsiktig prisdata saknas"
+    ],
+    "analyst_targets_avg": 239.5,
+    "pe_ratio": 42.45
+  }
+}

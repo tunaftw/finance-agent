@@ -119,6 +119,9 @@ data/podcasts/raw/*/audio/
 
 # SQLite database (can be regenerated with 'podstock db init && podstock db load')
 data/podstock.db
+
+# Generated dashboard (too large for GitHub, regenerate with 'podstock dashboard generate')
+data/dashboard/
 data/podstock.db-journal
 data/podstock.db-wal
 data/podstock.db-shm

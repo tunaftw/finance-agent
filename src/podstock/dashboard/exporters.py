@@ -339,7 +339,8 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
     Returns:
         Dict with episodes, sources, and stock_mentions
     """
-    analyses_dir = data_dir / "podcasts" / "analyses"
+    # Use analyses-v2 as the canonical source for podcast analyses
+    analyses_dir = data_dir / "podcasts" / "analyses-v2"
 
     if not analyses_dir.exists():
         return {"episodes": [], "sources": [], "stock_mentions": []}
@@ -450,7 +451,7 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
         sources_map[podcast_id]["recommendation_count"] += len(data.get("recommendations", []))
 
         # Track stock mentions for company search
-        for stock in data.get("stocks_discussed", []):
+        for stock in data.get("stocks_discussed") or []:
             stock_key = stock.lower()
             stock_mentions_map[stock_key].append({
                 "stock_name": stock,
@@ -1062,6 +1063,10 @@ def export_recommendations(session: Session) -> list[dict[str, Any]]:
                 "return_7d": perf.return_7d if perf else None,
                 "return_30d": perf.return_30d if perf else None,
                 "return_90d": perf.return_90d if perf else None,
+                "return_180d": perf.return_180d if perf else None,
+                "return_365d": perf.return_365d if perf else None,
+                "return_current": perf.return_current if perf else None,
+                "price_current_date": perf.price_current_date if perf else None,
             }
         )
 
@@ -1403,6 +1408,140 @@ def export_filings(data_dir: Path) -> dict[str, Any]:
         "companies": sorted(companies),
         "evolutions": evolutions,
         "theses": theses,
+    }
+
+
+def export_alpha(data_dir: Path) -> dict[str, Any]:
+    """Export alpha analyses for company valuations.
+
+    Scans data/bolagsanalys/{ticker}/ directories for analysis JSON files
+    and builds a structure for the dashboard.
+
+    Args:
+        data_dir: Path to the data directory (e.g., /data/)
+
+    Returns:
+        Dict with:
+        - companies: List of company summaries with latest analysis
+        - analyses: Dict of ticker -> latest full analysis
+        - history: Dict of ticker -> list of historical analyses (date, fair_value, price)
+    """
+    bolagsanalys_dir = data_dir / "bolagsanalys"
+
+    if not bolagsanalys_dir.exists():
+        return {"companies": [], "analyses": {}, "history": {}}
+
+    companies = []
+    analyses = {}
+    history = {}
+
+    # Find all ticker directories
+    for ticker_dir in bolagsanalys_dir.iterdir():
+        if not ticker_dir.is_dir():
+            continue
+
+        ticker = ticker_dir.name
+
+        # Find all analysis JSON files for this ticker
+        # Sort by date (descending) then by version (v2 > v1 > base)
+        def sort_key(f):
+            name = f.stem
+            # Extract date part (YYYY-MM-DD)
+            date_part = name[:10] if len(name) >= 10 else ""
+            # Check for version suffix (-v2, -v3, etc.)
+            version = 0
+            if "-v" in name:
+                try:
+                    version = int(name.split("-v")[-1])
+                except ValueError:
+                    pass
+            return (date_part, version)
+
+        analysis_files = sorted(ticker_dir.glob("*-analysis*.json"), key=sort_key, reverse=True)
+
+        if not analysis_files:
+            continue
+
+        # Load all analyses for history
+        ticker_history = []
+        latest_analysis = None
+
+        for analysis_file in analysis_files:
+            try:
+                with open(analysis_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+
+                # Add to history
+                ticker_history.append({
+                    "date": data.get("date", ""),
+                    "version": data.get("version", "1.0"),
+                    "weighted_fair_value": data.get("weighted_fair_value"),
+                    "current_price": data.get("current_price"),
+                    "verdict": data.get("verdict", {}).get("recommendation", ""),
+                    "upside_pct": data.get("verdict", {}).get("upside_pct"),
+                    "filename": analysis_file.name,
+                })
+
+                # Keep the latest (first in sorted list)
+                if latest_analysis is None:
+                    latest_analysis = data
+
+            except (json.JSONDecodeError, IOError):
+                continue
+
+        if latest_analysis:
+            # Build company summary
+            verdict = latest_analysis.get("verdict", {})
+            company_summary = {
+                "ticker": ticker,
+                "company": latest_analysis.get("company", ticker),
+                "date": latest_analysis.get("date", ""),
+                "current_price": latest_analysis.get("current_price"),
+                "weighted_fair_value": latest_analysis.get("weighted_fair_value"),
+                "recommendation": verdict.get("recommendation", ""),
+                "upside_pct": verdict.get("upside_pct"),
+                "confidence": verdict.get("confidence", ""),
+                "margin_of_safety": verdict.get("margin_of_safety"),
+                "summary": verdict.get("summary", ""),
+                # Quick access to key metrics
+                "scenarios": [
+                    {
+                        "name": s.get("name", ""),
+                        "probability": s.get("probability"),
+                        "fair_value": s.get("fair_value"),
+                    }
+                    for s in latest_analysis.get("scenarios", [])
+                ],
+                "risk_score": latest_analysis.get("risks", {}).get("overall_score"),
+                "quality_score": latest_analysis.get("fundamenta", {}).get("quality_score"),
+                "insider_direction": latest_analysis.get("insider", {}).get("net_direction"),
+                "next_catalyst": latest_analysis.get("next_catalyst", {}),
+            }
+            companies.append(company_summary)
+
+            # Store full analysis
+            analyses[ticker] = latest_analysis
+
+            # Store history
+            history[ticker] = ticker_history
+
+    # Sort companies by recommendation priority
+    recommendation_order = {
+        "KÖPVÄRD": 0,
+        "KOPVARD": 0,
+        "ATTRAKTIV": 1,
+        "FAIR": 2,
+        "FULLVÄRDERAD": 3,
+        "FULLVARDERAD": 3,
+        "ÖVERVÄRDERAD": 4,
+        "OVERVARDERAD": 4,
+    }
+    companies.sort(key=lambda x: recommendation_order.get(x.get("recommendation", "").upper(), 5))
+
+    return {
+        "companies": companies,
+        "analyses": analyses,
+        "history": history,
     }
 
 
