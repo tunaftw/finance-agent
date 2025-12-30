@@ -329,3 +329,38 @@ class TestInsiderStorage:
         storage.save_cache(report, "sec_edgar")
 
         assert storage.is_cache_valid("AAPL", "sec_edgar", ttl_hours=1) is True
+
+
+class TestSECEdgarClient:
+    """Tests for SEC EDGAR client."""
+
+    def test_client_properties(self) -> None:
+        """Should have correct market properties."""
+        from podstock.insider.clients.sec_edgar import SECEdgarClient
+
+        client = SECEdgarClient()
+        assert client.market_code == "US"
+        assert client.supported_suffixes == []
+
+    def test_supports_us_tickers(self) -> None:
+        """Should support US tickers without suffix."""
+        from podstock.insider.clients.sec_edgar import SECEdgarClient
+
+        client = SECEdgarClient()
+        assert client.supports_ticker("AAPL") is True
+        assert client.supports_ticker("MSFT") is True
+        assert client.supports_ticker("EVO.ST") is False
+
+    def test_parse_cik_mapping(self) -> None:
+        """Should parse CIK mapping from SEC data."""
+        from podstock.insider.clients.sec_edgar import SECEdgarClient
+
+        client = SECEdgarClient()
+        # Mock data structure from SEC
+        mock_data = {
+            "0": {"cik_str": 320193, "ticker": "AAPL", "title": "Apple Inc."},
+            "1": {"cik_str": 789019, "ticker": "MSFT", "title": "Microsoft Corporation"},
+        }
+        mapping = client._parse_cik_mapping(mock_data)
+        assert mapping["AAPL"] == ("0000320193", "Apple Inc.")
+        assert mapping["MSFT"] == ("0000789019", "Microsoft Corporation")
