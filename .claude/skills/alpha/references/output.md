@@ -377,7 +377,10 @@ def save_analysis(analysis: dict) -> str:
     file_path = company_dir / filename
 
     # Create directory if needed
-    company_dir.mkdir(parents=True, exist_ok=True)
+    try:
+        company_dir.mkdir(parents=True, exist_ok=True)
+    except (PermissionError, OSError) as e:
+        raise IOError(f"Cannot create directory {company_dir}: {e}") from e
 
     # Add metadata
     if 'metadata' not in analysis:
@@ -386,8 +389,11 @@ def save_analysis(analysis: dict) -> str:
     analysis['metadata']['analysis_version'] = '1.0'
 
     # Save with pretty formatting
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(analysis, f, indent=2, ensure_ascii=False)
+    try:
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(analysis, f, indent=2, ensure_ascii=False)
+    except (PermissionError, OSError) as e:
+        raise IOError(f"Cannot write to {file_path}: {e}") from e
 
     return str(file_path)
 ```
@@ -534,6 +540,9 @@ def display_verdict(
     Returns:
         Formatted verdict string for display
 
+    Raises:
+        ValueError: If current_price is not greater than 0
+
     Example:
         >>> verdict = {
         ...     'recommendation': 'ATTRAKTIV',
@@ -580,6 +589,9 @@ def display_verdict(
         Attraktiv nivaer. Notera 2 identifierade risker.
         ============================================================
     """
+    if current_price <= 0:
+        raise ValueError("current_price must be greater than 0")
+
     lines = []
     separator = "=" * 60
     dash_line = "-" * 60
@@ -790,8 +802,11 @@ def load_latest_analysis(ticker: str) -> dict | None:
     if not analysis_files:
         return None
 
-    with open(analysis_files[0], 'r', encoding='utf-8') as f:
-        return json.load(f)
+    try:
+        with open(analysis_files[0], 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (json.JSONDecodeError, PermissionError, IOError) as e:
+        return None  # Or raise with context
 
 
 def list_analyses(ticker: str = None) -> list[dict]:
