@@ -13,7 +13,7 @@ class InsiderError(Exception):
     pass
 
 
-class SourceUnavailable(InsiderError):
+class SourceUnavailableError(InsiderError):
     """Market/source not yet supported."""
 
     def __init__(self, market: str) -> None:
@@ -21,7 +21,7 @@ class SourceUnavailable(InsiderError):
         super().__init__(f"Insider data source not available for market: {market}")
 
 
-class TickerNotFound(InsiderError):
+class TickerNotFoundError(InsiderError):
     """Could not map ticker to company in source."""
 
     def __init__(self, ticker: str) -> None:
@@ -29,7 +29,7 @@ class TickerNotFound(InsiderError):
         super().__init__(f"Ticker not found in insider registry: {ticker}")
 
 
-class RateLimitExceeded(InsiderError):
+class RateLimitExceededError(InsiderError):
     """Hit API rate limit, retry later."""
 
     def __init__(self, retry_after: int | None = None) -> None:

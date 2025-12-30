@@ -6,16 +6,16 @@ data from SEC EDGAR (US) and Finansinspektionen (Sweden).
 
 from podstock.insider.exceptions import (
     InsiderError,
-    SourceUnavailable,
-    TickerNotFound,
-    RateLimitExceeded,
     ParseError,
+    RateLimitExceededError,
+    SourceUnavailableError,
+    TickerNotFoundError,
 )
 
 __all__ = [
     "InsiderError",
-    "SourceUnavailable",
-    "TickerNotFound",
-    "RateLimitExceeded",
     "ParseError",
+    "RateLimitExceededError",
+    "SourceUnavailableError",
+    "TickerNotFoundError",
 ]

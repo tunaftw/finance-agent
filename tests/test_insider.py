@@ -2,14 +2,12 @@
 
 from __future__ import annotations
 
-import pytest
-
 from podstock.insider.exceptions import (
     InsiderError,
-    SourceUnavailable,
-    TickerNotFound,
-    RateLimitExceeded,
     ParseError,
+    RateLimitExceededError,
+    SourceUnavailableError,
+    TickerNotFoundError,
 )
 
 
@@ -22,23 +20,29 @@ class TestInsiderExceptions:
         assert isinstance(error, Exception)
         assert str(error) == "test error"
 
-    def test_source_unavailable(self) -> None:
-        """SourceUnavailable should include market code."""
-        error = SourceUnavailable("NO")
+    def test_source_unavailable_error(self) -> None:
+        """SourceUnavailableError should include market code."""
+        error = SourceUnavailableError("NO")
         assert error.market == "NO"
         assert "NO" in str(error)
 
-    def test_ticker_not_found(self) -> None:
-        """TickerNotFound should include ticker."""
-        error = TickerNotFound("INVALID.XX")
+    def test_ticker_not_found_error(self) -> None:
+        """TickerNotFoundError should include ticker."""
+        error = TickerNotFoundError("INVALID.XX")
         assert error.ticker == "INVALID.XX"
         assert "INVALID.XX" in str(error)
 
-    def test_rate_limit_exceeded(self) -> None:
-        """RateLimitExceeded should include retry_after."""
-        error = RateLimitExceeded(retry_after=60)
+    def test_rate_limit_exceeded_error(self) -> None:
+        """RateLimitExceededError should include retry_after."""
+        error = RateLimitExceededError(retry_after=60)
         assert error.retry_after == 60
         assert "60" in str(error)
+
+    def test_rate_limit_exceeded_error_without_retry_after(self) -> None:
+        """RateLimitExceededError should work without retry_after."""
+        error = RateLimitExceededError()
+        assert error.retry_after is None
+        assert "retry after" not in str(error)
 
     def test_parse_error(self) -> None:
         """ParseError should include source."""
