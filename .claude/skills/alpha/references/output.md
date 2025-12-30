@@ -350,7 +350,7 @@ def save_analysis(analysis: dict) -> str:
         ... }
         >>> path = save_analysis(analysis)
         >>> print(path)
-        '/Users/pontus/Developer/podcast-transcriber/data/bolagsanalys/EVO/2025-01-15-analysis.json'
+        'data/bolagsanalys/EVO/2025-01-15-analysis.json'
     """
     # Validate required fields
     required_fields = ['ticker', 'company', 'weighted_fair_value', 'current_price', 'verdict']
@@ -371,7 +371,7 @@ def save_analysis(analysis: dict) -> str:
     ticker = analysis['ticker'].upper().replace('.ST', '')
 
     # Build path
-    base_path = Path("/Users/pontus/Developer/podcast-transcriber/data/bolagsanalys")
+    base_path = Path("data/bolagsanalys")
     company_dir = base_path / ticker
     filename = f"{analysis['date']}-analysis.json"
     file_path = company_dir / filename
@@ -790,7 +790,7 @@ def load_latest_analysis(ticker: str) -> dict | None:
     import json
 
     ticker = ticker.upper().replace('.ST', '')
-    base_path = Path("/Users/pontus/Developer/podcast-transcriber/data/bolagsanalys")
+    base_path = Path("data/bolagsanalys")
     company_dir = base_path / ticker
 
     if not company_dir.exists():
@@ -822,7 +822,7 @@ def list_analyses(ticker: str = None) -> list[dict]:
     from pathlib import Path
     import json
 
-    base_path = Path("/Users/pontus/Developer/podcast-transcriber/data/bolagsanalys")
+    base_path = Path("data/bolagsanalys")
     results = []
 
     if ticker:

@@ -122,11 +122,13 @@ Return structured JSON following the schema below.
     "notes": "string"
   },
   "cash_flow": {
+    "ebitda": 0,
     "fcf_latest": 0,
     "fcf_margin": 0.0,
     "fcf_conversion": 0.0,
     "notes": "string"
   },
+  "shares_outstanding": 0,
   "balance_sheet": {
     "net_debt": 0,
     "net_debt_ebitda": 0.0,

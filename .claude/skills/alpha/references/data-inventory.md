@@ -22,7 +22,12 @@ def inventory_company_data(company_query: str) -> dict:
     Returns:
         dict with sources found and analysis mode recommendation
     """
-    base_path = Path("/Users/pontus/Developer/podcast-transcriber/data")
+    # Use relative path from project root (works from any machine)
+    # When running from Claude Code, the CWD is typically the project root
+    base_path = Path("data")
+    if not base_path.exists():
+        # Fallback: try to find data directory relative to this file
+        base_path = Path(__file__).parent.parent.parent.parent / "data"
 
     # Create query variants for flexible matching
     query_lower = company_query.lower()

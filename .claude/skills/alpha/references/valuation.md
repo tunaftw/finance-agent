@@ -515,3 +515,149 @@ print(verdict['summary'])
 - Use mid-cycle earnings (normalize for cycle)
 - ROIC > WACC for value creation
 - Capex intensity affects FCF conversion
+
+---
+
+## Helper Functions
+
+### detect_company_type()
+
+Classify company into valuation category based on characteristics.
+
+```python
+def detect_company_type(fundamenta: dict) -> str:
+    """
+    Detect company type based on fundamental characteristics.
+
+    Args:
+        fundamenta: FUNDAMENTA agent output with revenue, margins, etc.
+
+    Returns:
+        Company type string: 'gaming', 'saas', 'bank', 'fastighet',
+        'industri', or 'konsument' (default)
+
+    Heuristics:
+        - Gaming: High EBITDA margin (>15%) + gaming keywords
+        - SaaS: High gross margin (>70%) + recurring revenue indicators
+        - Bank: Has CET1 ratio or P/B focus
+        - Fastighet: Has NAV or FFO references
+        - Industri: Moderate margins + capex references
+        - Konsument: Default for consumer-facing companies
+    """
+    summary = fundamenta.get('summary', '').lower()
+    notes = str(fundamenta.get('capital_allocation', {}).get('notes', '')).lower()
+
+    # Check for gaming/betting keywords
+    gaming_keywords = ['casino', 'betting', 'gaming', 'igaming', 'poker', 'odds']
+    if any(kw in summary or kw in notes for kw in gaming_keywords):
+        return 'gaming'
+
+    # Check for SaaS indicators
+    gross_margin = fundamenta.get('margins', {}).get('gross_margin', 0)
+    if gross_margin > 0.70:  # 70%+ gross margin typical for SaaS
+        saas_keywords = ['saas', 'subscription', 'arr', 'mrr', 'recurring']
+        if any(kw in summary or kw in notes for kw in saas_keywords):
+            return 'saas'
+
+    # Check for bank/finance
+    bank_keywords = ['bank', 'cet1', 'tier 1', 'deposits', 'lending']
+    if any(kw in summary or kw in notes for kw in bank_keywords):
+        return 'bank'
+
+    # Check for real estate
+    fastighet_keywords = ['fastighet', 'property', 'nav', 'ffo', 'hyresintakt']
+    if any(kw in summary or kw in notes for kw in fastighet_keywords):
+        return 'fastighet'
+
+    # Check for industrial
+    industri_keywords = ['industri', 'manufacturing', 'machinery', 'components']
+    if any(kw in summary or kw in notes for kw in industri_keywords):
+        return 'industri'
+
+    # Default to konsument
+    return 'konsument'
+```
+
+---
+
+### get_sector_multiple()
+
+Get appropriate base EV/EBITDA multiple for sector.
+
+```python
+def get_sector_multiple(company_type: str) -> float:
+    """
+    Return appropriate base EV/EBITDA multiple for sector.
+
+    Args:
+        company_type: One of 'gaming', 'saas', 'bank', 'fastighet',
+                     'industri', 'konsument'
+
+    Returns:
+        Base EV/EBITDA multiple (float)
+
+    Sector multiples (mid-range):
+        - Gaming/Betting: 10.0x (range 8-12x)
+        - SaaS/Tech: 15.0x (range 10-20x, higher for growth)
+        - Bank/Finans: 8.0x (often use P/B instead)
+        - Fastighet: 12.0x (often use P/NAV instead)
+        - Industri: 8.5x (range 7-10x)
+        - Konsument: 10.0x (range 8-12x)
+    """
+    multiples = {
+        'gaming': 10.0,
+        'saas': 15.0,
+        'bank': 8.0,
+        'fastighet': 12.0,
+        'industri': 8.5,
+        'konsument': 10.0
+    }
+    return multiples.get(company_type, 10.0)
+```
+
+---
+
+### get_current_price()
+
+Fetch current stock price via local data or WebSearch.
+
+```python
+def get_current_price(ticker: str) -> float:
+    """
+    Get current stock price for ticker.
+
+    Strategy:
+        1. Check local price data in data/prices/
+        2. If not found or stale (>1 day), use WebSearch
+
+    Args:
+        ticker: Stock ticker (e.g., 'EVO', 'BETS-B', 'AAPL')
+
+    Returns:
+        Current price as float, or 0.0 if not found
+
+    Note:
+        This is a reference implementation. Claude should:
+        1. First check data/prices/{ticker}.json for recent price
+        2. If stale or missing, use WebSearch "{ticker} aktiekurs"
+        3. Parse the price from search results
+
+    Example:
+        >>> # Check local data first
+        >>> price_file = Path(f'data/prices/{ticker.lower()}.json')
+        >>> if price_file.exists():
+        ...     data = json.loads(price_file.read_text())
+        ...     if is_fresh(data['date']):  # Within last day
+        ...         return data['close']
+        >>>
+        >>> # Fall back to WebSearch
+        >>> # Use WebSearch tool with query: "{ticker} aktiekurs idag"
+        >>> # Parse price from result
+        >>> return parsed_price
+    """
+    # Implementation hint for Claude:
+    # 1. Try local: data/prices/{ticker}.json
+    # 2. If missing/stale: WebSearch "{ticker} aktiekurs"
+    # 3. Return 0.0 and flag as missing data if not found
+    pass
+```

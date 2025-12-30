@@ -255,6 +255,10 @@ for task in agent_tasks:
     pass
 ```
 
+**Note on Prompt Builders:**
+
+The functions `build_fundamenta_prompt()`, `build_sentiment_prompt()`, `build_insider_prompt()`, and `build_extern_prompt()` are pseudo-code patterns. When executing, Claude should construct prompts directly using the templates defined in `agents.md`.
+
 **Task Tool Invocation Pattern:**
 
 ```
@@ -401,13 +405,17 @@ base_multiple = get_sector_multiple(company_type)
 current_price = get_current_price(company_query)  # Via price API
 shares = fundamenta.get('shares_outstanding', 0)
 
-# Build scenarios with sector-appropriate adjustments
+# Get risk score from risk agent output (runs before this step)
+risk_output = agent_outputs.get('risker_bear', {})
+risk_score = risk_output.get('overall_risk_score', {}).get('score', 5)  # Default 5 (medium)
+
+# Build scenarios with risk-adjusted parameters
 scenarios = build_scenarios(
     base_ebitda=base_ebitda,
     base_multiple=base_multiple,
     net_debt=net_debt,
     shares=shares,
-    # Adjust based on risk assessment
+    # Adjust based on risk assessment (lower risk = wider scenarios)
     bull_ebitda_adj=0.20 if risk_score < 5 else 0.15,
     bear_ebitda_adj=-0.20 if risk_score < 5 else -0.30
 )
@@ -506,6 +514,7 @@ analysis = {
         'twitter_count': sources.get('twitter', {}).get('count', 0),
         'youtube_count': sources.get('youtube', {}).get('count', 0),
         'insider_count': sources.get('insider', {}).get('count', 0),
+        'news_count': sources.get('news', {}).get('count', 0),
         'external_searches': agent_outputs.get('extern_research', {}).get('searches_performed', [])
     },
     'fundamenta': agent_outputs.get('fundamenta'),
@@ -513,8 +522,7 @@ analysis = {
     'insider': agent_outputs.get('insider_agare'),
     'risks': agent_outputs.get('risker_bear'),
     'peers': {
-        'peer_group': peers,
-        'relative_valuation': peer_comparison
+        'peer_group': peers
     },
     'user_context': user_context,
     'metadata': {
