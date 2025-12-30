@@ -1,7 +1,25 @@
 {
   "version": 1,
-  "updated_at": "2025-12-30T11:00:00Z",
-  "companies": [],
+  "updated_at": "2025-12-30T11:07:11.251597",
+  "companies": [
+    {
+      "id": "hack-hacksaw-gaming",
+      "name": "Hacksaw Gaming",
+      "ticker": "HACK.ST",
+      "ticker_base": "HACK",
+      "exchange": "OMX",
+      "market": "sweden",
+      "nasdaq_id": null,
+      "isin": null,
+      "feeds": {
+        "nasdaq": "https://www.nasdaqomxnordic.com/news/companynews?symbol=HACK",
+        "mfn": "https://mfn.se/a/hacksaw-gaming"
+      },
+      "since": "2024-01-01",
+      "added_at": "2025-12-30T11:07:11.251590",
+      "active": true
+    }
+  ],
   "media_feeds": [
     {
       "id": "realtid",
