@@ -85,10 +85,11 @@ def format_report(report: InsiderReport) -> str:
     net_str = _format_value(abs(net), currency)
     signal = "bullish" if net > 0 else "bearish" if net < 0 else "neutral"
 
+    sign = '+' if net > 0 else ('-' if net < 0 else '')
     lines.extend([
         "",
         f"**Summary:** {len(buys)} buys, {len(sells)} sells | "
-        f"Net: {'+' if net > 0 else '-'}{net_str} ({signal} signal)",
+        f"Net: {sign}{net_str} ({signal} signal)",
     ])
 
     return "\n".join(lines)
