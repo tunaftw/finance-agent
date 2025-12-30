@@ -15,6 +15,7 @@ from podstock.insider.exceptions import (
     SourceUnavailableError,
     TickerNotFoundError,
 )
+from podstock.insider.formatter import format_portfolio_scan, format_report
 from podstock.insider.models import (
     InsiderReport,
     InsiderRole,
@@ -364,3 +365,55 @@ class TestSECEdgarClient:
         mapping = client._parse_cik_mapping(mock_data)
         assert mapping["AAPL"] == ("0000320193", "Apple Inc.")
         assert mapping["MSFT"] == ("0000789019", "Microsoft Corporation")
+
+
+class TestFormatter:
+    """Tests for output formatting."""
+
+    def test_format_empty_report(self) -> None:
+        """Should format report with no transactions."""
+        report = InsiderReport(
+            ticker="AAPL",
+            company_name="Apple Inc.",
+            market="US",
+            transactions=[],
+            period_days=90,
+            fetched_at=datetime.now(),
+        )
+        output = format_report(report)
+        assert "AAPL" in output
+        assert "Apple Inc." in output
+        assert "No transactions found" in output
+
+    def test_format_report_with_transactions(self) -> None:
+        """Should format report with transactions as table."""
+        tx = InsiderTransaction(
+            insider_name="Tim Cook",
+            role=InsiderRole.CEO,
+            transaction_type=TransactionType.SELL,
+            shares=50000,
+            price=250.0,
+            total_value=12500000.0,
+            currency="USD",
+            transaction_date=date(2025, 12, 15),
+            filing_date=date(2025, 12, 16),
+            source="sec_edgar",
+        )
+        report = InsiderReport(
+            ticker="AAPL",
+            company_name="Apple Inc.",
+            market="US",
+            transactions=[tx],
+            period_days=90,
+            fetched_at=datetime.now(),
+        )
+        output = format_report(report)
+        assert "Tim Cook" in output
+        assert "CEO" in output
+        assert "SELL" in output
+        assert "50,000" in output or "50000" in output
+
+    def test_format_portfolio_scan_empty(self) -> None:
+        """Should format empty portfolio scan."""
+        output = format_portfolio_scan([])
+        assert "No stocks to scan" in output or "0 stocks" in output

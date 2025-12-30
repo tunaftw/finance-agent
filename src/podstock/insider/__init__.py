@@ -12,6 +12,7 @@ from podstock.insider.exceptions import (
     SourceUnavailableError,
     TickerNotFoundError,
 )
+from podstock.insider.formatter import format_portfolio_scan, format_report
 from podstock.insider.models import (
     InsiderReport,
     InsiderRole,
@@ -34,4 +35,6 @@ __all__ = [
     "SourceUnavailableError",
     "TickerNotFoundError",
     "TransactionType",
+    "format_portfolio_scan",
+    "format_report",
 ]
