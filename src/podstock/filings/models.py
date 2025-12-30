@@ -449,3 +449,456 @@ class FilingsStateFile(BaseModel):
     filings: dict[str, Filing] = Field(default_factory=dict)
     analyzed_filings: list[str] = Field(default_factory=list)
     presentations: dict[str, PresentationMetadata] = Field(default_factory=dict)
+
+
+# === Deep Analysis Models ===
+
+
+class CEOLetterTone(str, Enum):
+    """Tone of CEO/Chairman letter."""
+
+    OPTIMISTIC = "optimistic"
+    CAUTIOUSLY_OPTIMISTIC = "cautiously_optimistic"
+    NEUTRAL = "neutral"
+    CAUTIOUS = "cautious"
+    DEFENSIVE = "defensive"
+
+
+class ConfidenceLevel(str, Enum):
+    """Confidence level in statements."""
+
+    HIGH = "high"
+    MEDIUM = "medium"
+    LOW = "low"
+
+
+class AttributionType(str, Enum):
+    """Attribution for challenges/issues."""
+
+    EXTERNAL = "external"  # Market conditions, macro, competitors
+    INTERNAL = "internal"  # Execution, mistakes, delays
+    MIXED = "mixed"
+
+
+class ChallengeAttribution(BaseModel):
+    """A challenge mentioned with its attribution."""
+
+    challenge: str
+    attribution: AttributionType
+    tone: str = "explanatory"  # explanatory, defensive, dismissive, accountable
+
+
+class Promise(BaseModel):
+    """A forward-looking commitment made by management."""
+
+    statement: str
+    metric: str | None = None  # organic_growth, operating_margin, etc.
+    target: str | None = None  # "4-6%", "15%", etc.
+    timeframe: str | None = None  # "FY 2024", "Q2 2025", "medium_term"
+    confidence_language: str = "expect"  # expect, target, aim, hope, will
+
+
+class Theme(BaseModel):
+    """A strategic theme discussed in the letter."""
+
+    topic: str
+    emphasis: str = "medium"  # high, medium, low
+    sentiment: str = "neutral"  # positive, neutral, negative, improving, declining
+
+
+class KeyQuote(BaseModel):
+    """A notable quote from the letter."""
+
+    quote: str
+    category: str = "general"  # commitment, vision, warning, achievement, excuse
+
+
+class CEOLetterAnalysis(BaseModel):
+    """Deep analysis of CEO/Chairman letter.
+
+    Extracts tone, promises, themes, challenges, and honesty signals
+    from the CEO letter section of annual/quarterly reports.
+    """
+
+    author: str | None = None
+    title: str | None = None  # "CEO", "President", "Chairman"
+    word_count: int = 0
+
+    # Tone analysis
+    tone: CEOLetterTone = CEOLetterTone.NEUTRAL
+    confidence_level: ConfidenceLevel = ConfidenceLevel.MEDIUM
+
+    # Forward-looking statements
+    promises: list[Promise] = Field(default_factory=list)
+
+    # Strategic themes
+    themes: list[Theme] = Field(default_factory=list)
+
+    # Challenges and attribution
+    challenges: list[ChallengeAttribution] = Field(default_factory=list)
+
+    # Honesty signals (positive indicators of transparent communication)
+    honesty_signals: list[str] = Field(default_factory=list)
+
+    # Notable quotes
+    key_quotes: list[KeyQuote] = Field(default_factory=list)
+
+    # Q&A format detection (common in Swedish reports)
+    is_qa_format: bool = False
+    questions_addressed: list[str] = Field(default_factory=list)
+
+
+class SegmentPerformance(BaseModel):
+    """Performance data for a business segment."""
+
+    name: str
+    revenue: float | None = None
+    revenue_growth_yoy: float | None = None  # As decimal, e.g., 0.08 for 8%
+    operating_margin: float | None = None
+    order_intake: float | None = None
+    order_intake_growth_yoy: float | None = None
+    management_commentary: str | None = None
+    outlook: str = "neutral"  # positive, neutral, cautious, negative
+    management_focus: str = "medium"  # high, medium, low
+
+
+class MDAAnalysis(BaseModel):
+    """Management Discussion & Analysis extraction.
+
+    Captures key narratives, segment commentary, and management's
+    interpretation of results.
+    """
+
+    key_narratives: list[str] = Field(default_factory=list)
+    management_interpretation: str | None = None
+
+    # Segment-level commentary
+    segment_commentary: dict[str, SegmentPerformance] = Field(default_factory=dict)
+
+    # Key operational highlights
+    operational_highlights: list[str] = Field(default_factory=list)
+
+    # Concerns or challenges mentioned
+    concerns_mentioned: list[str] = Field(default_factory=list)
+
+
+class RiskSeverity(str, Enum):
+    """Severity level of a risk."""
+
+    HIGH = "high"
+    MEDIUM = "medium"
+    LOW = "low"
+
+
+class RiskChange(str, Enum):
+    """Change in risk status from previous filing."""
+
+    NEW = "new"
+    ESCALATED = "escalated"
+    UNCHANGED = "unchanged"
+    DE_ESCALATED = "de-escalated"
+    REMOVED = "removed"
+
+
+class RiskFactor(BaseModel):
+    """A specific risk factor from the filing."""
+
+    risk: str
+    severity: RiskSeverity = RiskSeverity.MEDIUM
+    category: str | None = None  # regulatory, operational, market, financial, legal
+    change: RiskChange = RiskChange.UNCHANGED
+    previous_severity: RiskSeverity | None = None
+    is_boilerplate: bool = False
+
+
+class RiskFactorAnalysis(BaseModel):
+    """Analysis of risk factors section.
+
+    Tracks new, removed, and changed risks compared to previous filing.
+    """
+
+    risks: list[RiskFactor] = Field(default_factory=list)
+
+    # Summary counts
+    new_risks_count: int = 0
+    removed_risks_count: int = 0
+    escalated_risks_count: int = 0
+
+    # Boilerplate ratio (higher = less informative)
+    boilerplate_ratio: float = 0.0
+
+    # Key risk themes
+    top_risk_categories: list[str] = Field(default_factory=list)
+
+
+class GuidanceChange(str, Enum):
+    """Change in guidance from previous period."""
+
+    RAISED = "raised"
+    MAINTAINED = "maintained"
+    LOWERED = "lowered"
+    WITHDRAWN = "withdrawn"
+    NEW = "new"
+
+
+class GuidanceTarget(BaseModel):
+    """A specific guidance target."""
+
+    metric: str  # organic_growth, operating_margin, eps, revenue
+    value: str  # "4-6%", "15%", ">12%"
+    period: str  # "FY 2024", "medium_term", "2024-2028"
+    vs_previous: GuidanceChange = GuidanceChange.MAINTAINED
+    notes: str | None = None
+
+
+class GuidanceAnalysis(BaseModel):
+    """Forward-looking guidance extraction.
+
+    Captures specific targets and how they compare to previous guidance.
+    """
+
+    targets: list[GuidanceTarget] = Field(default_factory=list)
+
+    # Overall direction
+    overall_direction: GuidanceChange = GuidanceChange.MAINTAINED
+
+    # Commentary on guidance
+    commentary: str | None = None
+
+    # Confidence in guidance
+    management_confidence: ConfidenceLevel = ConfidenceLevel.MEDIUM
+
+
+class AuditorOpinion(str, Enum):
+    """Type of auditor opinion."""
+
+    UNQUALIFIED = "unqualified"
+    QUALIFIED = "qualified"
+    ADVERSE = "adverse"
+    DISCLAIMER = "disclaimer"
+
+
+class AuditorNotes(BaseModel):
+    """Auditor's report analysis.
+
+    Captures opinion type and any concerns or emphasis of matter.
+    """
+
+    opinion_type: AuditorOpinion = AuditorOpinion.UNQUALIFIED
+    concerns: list[str] = Field(default_factory=list)
+    emphasis_of_matter: list[str] = Field(default_factory=list)
+    key_audit_matters: list[str] = Field(default_factory=list)
+
+
+class DeepFilingAnalysis(BaseModel):
+    """Complete deep analysis of a filing.
+
+    Extends the basic FilingAnalysis with section-by-section deep extraction
+    including CEO letter, MD&A, risk factors, segments, and guidance.
+
+    This is the main output model for the deep analysis pipeline.
+    """
+
+    # Identification
+    filing_id: str
+    company_id: str
+    filing_type: FilingType
+    fiscal_year: int
+    fiscal_quarter: int | None = None
+
+    # Metadata
+    analyzed_at: datetime = Field(default_factory=datetime.now)
+    model_used: str = "claude-sonnet-4-20250514"
+    analysis_version: str = "2.0"  # Deep analysis version
+
+    # Basic analysis (from original FilingAnalysis)
+    executive_summary: str = ""
+    key_highlights: list[str] = Field(default_factory=list)
+
+    # Financial metrics
+    financial_metrics: FinancialMetrics | None = None
+
+    # Deep section analysis
+    ceo_letter: CEOLetterAnalysis | None = None
+    mda_analysis: MDAAnalysis | None = None
+    risk_factors: RiskFactorAnalysis | None = None
+    segment_reporting: list[SegmentPerformance] = Field(default_factory=list)
+    guidance: GuidanceAnalysis | None = None
+    auditor_notes: AuditorNotes | None = None
+
+    # Overall signals
+    management_tone: ManagementTone = ManagementTone.NEUTRAL
+    notable_quotes: list[str] = Field(default_factory=list)
+
+    # Processing metadata
+    chunks_processed: int = 0
+    total_tokens_used: int = 0
+    sections_found: list[str] = Field(default_factory=list)  # Which sections were detected
+
+
+class PromiseStatus(str, Enum):
+    """Status of a tracked promise."""
+
+    ON_TRACK = "on_track"
+    PARTIALLY_MET = "partially_met"
+    MET = "met"
+    MISSED = "missed"
+    DELAYED = "delayed"
+    UNKNOWN = "unknown"
+
+
+class TrackedPromise(BaseModel):
+    """A promise tracked across multiple filings."""
+
+    promise: str
+    metric: str | None = None
+    target: str | None = None
+    made_in: str  # Filing ID where promise was made
+    current_status: PromiseStatus = PromiseStatus.UNKNOWN
+    evidence: str | None = None
+    mentions: list[str] = Field(default_factory=list)  # Filing IDs where mentioned
+
+
+class ToneDataPoint(BaseModel):
+    """Tone at a specific point in time."""
+
+    period: str  # "Q3 2024", "Annual 2023"
+    tone: CEOLetterTone
+    confidence: ConfidenceLevel
+    reasoning: str | None = None  # Why this tone rating
+    key_quote: str | None = None  # Supporting CEO quote
+
+
+class ThemeEvolution(BaseModel):
+    """Evolution of a theme over time."""
+
+    theme: str
+    trend: str  # increasing, decreasing, stable
+    interpretation: str | None = None
+
+
+class FinancialTrendPoint(BaseModel):
+    """A single data point in a financial trend."""
+
+    period: str
+    value: float
+
+
+class FinancialTrend(BaseModel):
+    """Financial metric trend over time."""
+
+    metric: str
+    values: list[FinancialTrendPoint] = Field(default_factory=list)
+    cagr: float | None = None  # Compound annual growth rate
+    trajectory: str = "stable"  # improving, stable, declining
+
+
+class GuidanceAccuracyRecord(BaseModel):
+    """Historical record of guidance accuracy."""
+
+    year: int
+    metric: str
+    guided: str
+    actual: str
+    status: PromiseStatus
+
+
+class WatchItem(BaseModel):
+    """Detailed risk item for watch list."""
+
+    description: str  # Risk description
+    severity: str = "medium"  # high, medium, low
+    category: str = "unknown"  # external, operational, regulatory, financial, market, legal
+    source_filing: str = ""  # Filing ID where identified
+    change: str = "new"  # escalated, de-escalated, new, removed, unchanged
+
+
+class EvolutionSignals(BaseModel):
+    """Synthesized signals from evolution analysis."""
+
+    green_flags: list[str] = Field(default_factory=list)
+    red_flags: list[str] = Field(default_factory=list)
+    watch_items: list[WatchItem] = Field(default_factory=list)  # Detailed risk items
+
+
+class FilingEvolution(BaseModel):
+    """Cross-filing evolution synthesis.
+
+    Tracks how a company's narrative, promises, and metrics evolve
+    across multiple filings.
+    """
+
+    company_id: str
+    last_updated: datetime = Field(default_factory=datetime.now)
+    filings_analyzed: list[str] = Field(default_factory=list)
+
+    # Promise tracking
+    promise_tracker: list[TrackedPromise] = Field(default_factory=list)
+
+    # Tone trajectory
+    tone_trajectory: list[ToneDataPoint] = Field(default_factory=list)
+
+    # Theme evolution
+    theme_evolution: list[ThemeEvolution] = Field(default_factory=list)
+
+    # Financial trends
+    financial_trends: dict[str, FinancialTrend] = Field(default_factory=dict)
+
+    # Guidance accuracy
+    guidance_accuracy: list[GuidanceAccuracyRecord] = Field(default_factory=list)
+    accuracy_rate: float | None = None  # Overall accuracy rate
+
+    # Synthesized signals
+    signals: EvolutionSignals = Field(default_factory=EvolutionSignals)
+
+
+class InvestmentVerdict(str, Enum):
+    """Investment thesis verdict based on evolution analysis."""
+
+    GREEN = "green"  # Strong buy signal - credibility high, trends positive
+    YELLOW = "yellow"  # Mixed signals - watch closely
+    RED = "red"  # Warning flags - credibility issues or negative trends
+
+
+class InvestmentThesis(BaseModel):
+    """Investment thesis generated from evolution analysis.
+
+    Synthesizes CEO credibility scoring, trend analysis, and signals
+    into an actionable investment verdict.
+
+    CEO Credibility Score Formula (0-100):
+    - Promise delivery rate: 40%
+    - Guidance accuracy: 30%
+    - Tone consistency: 20%
+    - Challenge attribution: 10%
+    """
+
+    company_id: str
+    generated_at: datetime = Field(default_factory=datetime.now)
+
+    # Core verdict
+    verdict: InvestmentVerdict = InvestmentVerdict.YELLOW
+    verdict_reasoning: str = ""
+
+    # CEO Credibility
+    ceo_credibility_score: float = 50.0  # 0-100
+    credibility_breakdown: dict[str, float] = Field(default_factory=dict)
+
+    # Key signals
+    green_flags: list[str] = Field(default_factory=list)
+    red_flags: list[str] = Field(default_factory=list)
+    watch_items: list[WatchItem] = Field(default_factory=list)  # Detailed risk items
+
+    # Trend summaries
+    tone_trend: str = "stable"  # improving, stable, declining
+    margin_trend: str = "stable"
+    growth_trend: str = "stable"
+    leverage_assessment: str = "healthy"  # healthy, elevated, concerning
+
+    # Promise tracking summary
+    promises_met: int = 0
+    promises_missed: int = 0
+    promises_pending: int = 0
+
+    # Investment philosophy alignment (user's 17 principles)
+    philosophy_alignment: dict[str, str] = Field(default_factory=dict)

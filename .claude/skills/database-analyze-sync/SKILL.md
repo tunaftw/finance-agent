@@ -45,13 +45,13 @@ def get_sync_status():
     status = {}
 
     # Podcasts - kolla data/podcasts/analyses/
-    # OBS: Anvand str(f) for relativa sokvägar (matchar load_log)
+    # OBS: Anvand absoluta sokvagar for att matcha load_log
     podcast_files = list(Path("data/podcasts/analyses").glob("*.json"))
     podcast_new = []
     podcast_modified = []
     for f in podcast_files:
         file_hash = hashlib.sha256(f.read_bytes()).hexdigest()
-        path_str = str(f)  # Relativ sokvag
+        path_str = str(f.absolute())  # Absolut sokvag (matchar loader.py)
         if path_str not in loaded:
             podcast_new.append(f.name)
         elif loaded[path_str] != file_hash:
@@ -71,7 +71,7 @@ def get_sync_status():
     twitter_modified = []
     for f in twitter_files:
         file_hash = hashlib.sha256(f.read_bytes()).hexdigest()
-        path_str = str(f)  # Relativ sokvag
+        path_str = str(f.absolute())  # Absolut sokvag (matchar loader.py)
         if path_str not in loaded:
             twitter_new.append(f.name)
         elif loaded[path_str] != file_hash:
@@ -93,7 +93,7 @@ def get_sync_status():
     youtube_modified = []
     for f in youtube_files:
         file_hash = hashlib.sha256(f.read_bytes()).hexdigest()
-        path_str = str(f)  # Relativ sokvag
+        path_str = str(f.absolute())  # Absolut sokvag (matchar loader.py)
         if path_str not in loaded:
             youtube_new.append(f.name)
         elif loaded[path_str] != file_hash:

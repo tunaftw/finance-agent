@@ -697,6 +697,73 @@ podstock db performance update --limit 100  # Begränsa antal
 
 Beräknar avkastning (1d, 7d, 30d, 90d, 365d) för rekommendationer.
 
+### trust
+
+Hantera trovärdighetsbetyg för källor. Se [Trust Rating System](#trust-rating-system) för detaljer.
+
+```bash
+podstock db trust show                   # Visa alla sources med trust rating
+podstock db trust show <source_id>       # Visa specifik source
+podstock db trust set <source_id> <rating> --notes "Motivering"
+```
+
+**Exempel:**
+```bash
+# Markera en opålitlig källa
+podstock db trust set mrmikeinvesting -1 --notes "Verifierat falska bottom calls"
+
+# Uppgradera en pålitlig källa
+podstock db trust set fillorkill 2 --notes "Konsekvent korrekt track record sedan 2023"
+
+# Markera en GOAT-källa
+podstock db trust set analyspodden 3 --notes "Exceptionell träffsäkerhet, alltid motiverade rekommendationer"
+```
+
+### migrate
+```bash
+podstock db migrate
+```
+
+Kör databasmigreringar (t.ex. lägger till nya kolumner).
+
+---
+
+## Trust Rating System
+
+Ett system för att spåra källors trovärdighet baserat på track record och verifierad pålitlighet.
+
+### Skala
+
+| Rating | Symbol | Betydelse | Beskrivning |
+|--------|--------|-----------|-------------|
+| **-1** | ⚠️ Unreliable | Opålitlig | Verifierat missvisande, ta med stor nypa salt |
+| **0** | ⚪ Neutral | Neutral | Default/startpunkt, okänd track record |
+| **1** | ⭐ Positive | Positiv | Visat viss tillförlitlighet |
+| **2** | ⭐⭐ Very positive | Mycket positiv | Konsekvent pålitlig |
+| **3** | 👑 GOAT | GOAT | Prioritera alltid, exceptionell track record |
+
+### Användning
+
+**Watchlist-filtrering:** Sources med rating >= 1 inkluderas i watchlist för high-confidence rekommendationer.
+
+**Dashboard:** Trust rating visas på dashboard för att hjälpa användare bedöma rekommendationers pålitlighet.
+
+### Hur man bedömer en källa
+
+1. **Verifiera claims**: Gå igenom källans historiska tweets/uttalanden och jämför med vad som faktiskt hände
+2. **Kolla track record**: Har källans rekommendationer varit korrekta?
+3. **Identifiera mönster**: Överdriver källan? Ljuger om historiska calls?
+4. **Dokumentera**: Använd `--notes` för att förklara varför ett visst betyg satts
+
+### Exempel: Analys av @MrMikeInvesting (rating: -1)
+
+Genom att ladda ner och analysera tweets verifierades att:
+- Påstod TSLA call vid $210 i oktober 2024 - **inga tweets finns från den perioden**
+- Kallade PLTR "biggest bubble in history" i november 2024 - **påstår nu att han kallade botten**
+- AMD call vid $76 i april 2025 - **verifierat korrekt**
+
+Slutsats: Källan överdriver och ljuger om historiska calls → Rating: -1
+
 ---
 
 ## Globala flaggor

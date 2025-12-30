@@ -69,9 +69,11 @@ class BaseLoader:
 
     def should_load(self, session: "Session", file_path: Path, file_hash: str) -> bool:
         """Check if file should be loaded (not already loaded with same hash)."""
+        # Always use absolute paths for consistent matching
+        normalized_path = str(file_path.absolute())
         existing = (
             session.query(LoadLog)
-            .filter_by(file_path=str(file_path), file_hash=file_hash, status="success")
+            .filter_by(file_path=normalized_path, file_hash=file_hash, status="success")
             .first()
         )
         return existing is None
@@ -332,8 +334,9 @@ class PodcastLoader(BaseLoader):
         error: str | None = None,
     ) -> None:
         """Log a load operation."""
+        # Always use absolute paths for consistent matching
         log = LoadLog(
-            file_path=str(file_path),
+            file_path=str(file_path.absolute()),
             file_hash=file_hash,
             file_type=file_type,
             status=status,
@@ -547,8 +550,9 @@ class TwitterLoader(BaseLoader):
         error: str | None = None,
     ) -> None:
         """Log a load operation."""
+        # Always use absolute paths for consistent matching
         log = LoadLog(
-            file_path=str(file_path),
+            file_path=str(file_path.absolute()),
             file_hash=file_hash,
             file_type=file_type,
             status=status,
@@ -799,8 +803,9 @@ class YouTubeLoader(BaseLoader):
         error: str | None = None,
     ) -> None:
         """Log a load operation."""
+        # Always use absolute paths for consistent matching
         log = LoadLog(
-            file_path=str(file_path),
+            file_path=str(file_path.absolute()),
             file_hash=file_hash,
             file_type=file_type,
             status=status,

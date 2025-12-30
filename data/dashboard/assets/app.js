@@ -78,6 +78,16 @@ function dashboard() {
             recommendationType: '',
         },
 
+        // Filings data and state
+        filings: {
+            companies: [],
+            evolutions: {},
+            theses: {}
+        },
+        selectedFilingCompany: '',
+        filingsSubView: 'promises',
+        expandedTonePeriod: null,  // For click-to-expand tone details
+
         // === INBOX COMPUTED ===
 
         get filteredRecommendations() {
@@ -318,6 +328,88 @@ function dashboard() {
             return results.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
         },
 
+        // === FILINGS COMPUTED ===
+
+        get filingCompanies() {
+            return this.filings.companies || [];
+        },
+
+        get currentThesis() {
+            if (!this.selectedFilingCompany) return null;
+            return this.filings.theses[this.selectedFilingCompany] || null;
+        },
+
+        get currentEvolution() {
+            if (!this.selectedFilingCompany) return null;
+            return this.filings.evolutions[this.selectedFilingCompany] || null;
+        },
+
+        get sortedPromises() {
+            if (!this.currentEvolution) return [];
+            const promises = this.currentEvolution.promises || [];
+            // Sort by most recent quarter first
+            return [...promises].sort((a, b) => {
+                const quarterOrder = (q) => {
+                    if (!q) return 0;
+                    const match = q.match(/Q(\d)\s*(\d{4})/);
+                    if (match) return parseInt(match[2]) * 10 + parseInt(match[1]);
+                    return 0;
+                };
+                return quarterOrder(b.quarter_made) - quarterOrder(a.quarter_made);
+            });
+        },
+
+        get toneDataPoints() {
+            if (!this.currentEvolution) return [];
+            return this.currentEvolution.tone_trajectory || [];
+        },
+
+        get financialTrends() {
+            if (!this.currentEvolution) return null;
+            return this.currentEvolution.financial_trends || null;
+        },
+
+        get philosophyAlignment() {
+            if (!this.currentThesis) return null;
+            return this.currentThesis.philosophy_alignment || null;
+        },
+
+        // Helper to get status color class
+        getPromiseStatusClass(status) {
+            switch (status) {
+                case 'met': return 'bg-green-100 text-green-800';
+                case 'on_track': return 'bg-blue-100 text-blue-800';
+                case 'missed': return 'bg-red-100 text-red-800';
+                default: return 'bg-gray-100 text-gray-800';
+            }
+        },
+
+        // Helper to get tone color class
+        getToneClass(tone) {
+            switch (tone) {
+                case 'optimistic': return 'bg-green-500';
+                case 'cautiously_optimistic': return 'bg-green-300';
+                case 'neutral': return 'bg-gray-400';
+                case 'cautious': return 'bg-yellow-500';
+                case 'defensive': return 'bg-red-500';
+                default: return 'bg-gray-300';
+            }
+        },
+
+        // Helper to get philosophy alignment class
+        getPhilosophyClass(value) {
+            if (!value) return 'border-gray-200 bg-gray-50';
+            if (value.startsWith('POSITIVE')) return 'border-green-300 bg-green-50';
+            if (value.startsWith('NEGATIVE')) return 'border-red-300 bg-red-50';
+            return 'border-yellow-300 bg-yellow-50';
+        },
+
+        // Helper to format trend label
+        formatTrend(trend) {
+            if (!trend) return '-';
+            return trend.charAt(0).toUpperCase() + trend.slice(1).replace('_', ' ');
+        },
+
         // === INITIALIZATION ===
 
         async init() {
@@ -334,6 +426,12 @@ function dashboard() {
                     this.podcasts = data.podcasts || { episodes: [], sources: [], stock_mentions: [] };
                     this.twitter = data.twitter || { tweets: [], users: [], stock_mentions: [] };
                     this.youtube = data.youtube || { videos: [], channels: [], stock_mentions: [] };
+                    this.filings = data.filings || { companies: [], evolutions: {}, theses: {} };
+
+                    // Set default selected company if available
+                    if (this.filings.companies.length > 0) {
+                        this.selectedFilingCompany = this.filings.companies[0];
+                    }
                 } else {
                     // Fallback to fetch (works when served via HTTP)
                     const [
@@ -343,7 +441,8 @@ function dashboard() {
                         sources,
                         podcasts,
                         twitter,
-                        youtube
+                        youtube,
+                        filings
                     ] = await Promise.all([
                         this.loadJson('data/metadata.json'),
                         this.loadJson('data/analyses.json'),
@@ -352,6 +451,7 @@ function dashboard() {
                         this.loadJson('data/podcasts.json'),
                         this.loadJson('data/twitter.json'),
                         this.loadJson('data/youtube.json'),
+                        this.loadJson('data/filings.json'),
                     ]);
 
                     this.metadata = metadata || {};
@@ -361,6 +461,12 @@ function dashboard() {
                     this.podcasts = podcasts || { episodes: [], sources: [], stock_mentions: [] };
                     this.twitter = twitter || { tweets: [], users: [], stock_mentions: [] };
                     this.youtube = youtube || { videos: [], channels: [], stock_mentions: [] };
+                    this.filings = filings || { companies: [], evolutions: {}, theses: {} };
+
+                    // Set default selected company if available
+                    if (this.filings.companies.length > 0) {
+                        this.selectedFilingCompany = this.filings.companies[0];
+                    }
                 }
 
             } catch (error) {

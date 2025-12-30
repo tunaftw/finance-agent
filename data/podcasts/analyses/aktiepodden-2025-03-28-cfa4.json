@@ -1,4 +1,5 @@
 {
+  "schema_version": "2.1",
   "episode_id": "aktiepodden-2025-03-28-cfa4",
   "podcast_name": "Aktiepodden",
   "episode_title": "214. Förvärva eller icke vara",
@@ -40,14 +41,216 @@
       "speaker": "Jakob Sönsson",
       "speaker_role": "host",
       "timestamp": "30:00",
-      "reasoning": "Fullvärderat vid börsintroduktion, värderas i linje med de högst värderade serieförvärvarna men saknar historik. Lågmarginal distributionsverksamhet saknar kvalitetsindikatorer.",
+      "reasoning": "Fullvärderat vid börsintroduktion till 70 kr, värderar bolaget till 27 miljarder SEK. P/E 28 för 2026 mot seriöförvärdarnas snitt runt 22. Värderas i linje med de högst värderade serieförvärvarna men saknar historik. Lågmarginal distributionsverksamhet inom hälsovård saknar kvalitetsindikatorer och riskerar pressas mellan produktbolag och kunder. Uppmanar avvakta för att se hur aktien tas emot på börsen och presterar mot Addlife.",
       "price_target": null,
       "time_horizon": null,
-      "quote": "Avvakta. Jag tycker det är fullvärderat. Det ser ut som ett bra bolag, absolut. Men om man värderas i linje med en redan högt värderad sektor och inte har någon historik, då tycker jag att chans risk känns lite tveksamt.",
+      "quote": "Avvakta. Jag tycker det är fullvärderat. Det ser ut som ett bra bolag, absolut. Men om man värderas i linje med en redan högt värderad sektor och inte har någon historik, då tycker jag att chans risk känns lite tveksamt. Gillar man verkligen serieförvärv och vill exponera mot hälsovård så finns ju Addlife redan på börsen.",
       "sector": "Healthcare distribution",
-      "market": "sweden"
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
     }
   ],
+  "stock_segments": [
+    {
+      "stock_name": "Asker",
+      "ticker": null,
+      "timestamp_start": "20:00",
+      "timestamp_end": "31:24",
+      "word_count": 1800,
+      "speakers": [
+        "Lars Rick",
+        "Jakob Sönsson"
+      ],
+      "primary_speaker": "Jakob Sönsson",
+      "discussion_summary": "Asker är en nyligen noterad serieförvärvare inom hälsovård med fokus på distribution. Bolaget har gjort över 50 förvärv sedan 2019, värderas till 27 miljarder kr vid introduktionspris 70 kr, med omsättning ca 15 miljarder. Strategin kallas \"the twin engine\" med både organisk tillväxt och förvärv. Diskussionen fokuserar på värdering jämfört med befintliga serieförvärvare som Addlife, avsaknad av börs-historik, och frågetecken kring distributionsfokus med lågmarginal business.",
+      "quotes": [
+        {
+          "speaker": "Jakob Sönsson",
+          "text": "Det är en väldigt tydlig serie förvärvare. Det är inom hälsovård, det är mycket distribution, men det är inte inom specifika vertikaler. Deras affärsmässigt är de organiserade regionalt och inte i vertikaler. Så det är ganska mycket en generalist.",
+          "timestamp": "24:43",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jakob Sönsson",
+          "text": "Introduktionspriset då är 70 kronor som värderar bolaget till 27 miljarder. Och omsättningen ligger omkring 15 miljarder.",
+          "timestamp": "26:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jakob Sönsson",
+          "text": "Ebit-marginal runt 8 procent, den ska upp, steg till 9 i fjol och jag tror de vill upp mot 10 procent.",
+          "timestamp": "27:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jakob Sönsson",
+          "text": "Tittar man på P.E.-talet så tror jag att jag får till ungefär 28 för nästa år, 2026. Är vi ebitt 26 för innevarande år mot seriöförvärdande snitt runt 22 år.",
+          "timestamp": "29:16",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jakob Sönsson",
+          "text": "Gillar man verkligen serieförvärv och vill exponera mot hälsovård så finns ju Addlife redan på börsen. Och då tycker jag att man kanske, som nykomling på börsen, då måste man kanske ha någonting lite extra sådär. Och jag ser inte riktigt i asken.",
+          "timestamp": "30:07",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Jakob Sönsson",
+          "text": "Fångas mellan produktbolagen och kunderna. Man har inte så mycket fläsk att ta av också, man har låga marginaler till att börja med. Så lite frågetecken där då.",
+          "timestamp": "23:45",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "28 (2026)",
+        "ev_ebitda": "~26 (2025)",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "32% (2020-2024)",
+        "margin": "8% EBIT, växer till 9-10%",
+        "debt_level": "Ej jätthög skuldsättning",
+        "custom": [
+          "P/E sektorsnitt ~22",
+          "Addlife P/E >30",
+          "50 förvärv sedan 2019"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Utbredd portfölj inom hälsovård distribution",
+          "50 förvärv skapat 10 miljarder omsättning",
+          "Största ägare Interogo/Interikea kvar",
+          "Svenska institutioner som Handelsbanken med",
+          "Goda kassaflöden och egenfinansiering",
+          "EBIT marginal trend uppåt"
+        ],
+        "bear_case": [
+          "Hög värdering jämfört med sektorsnitt",
+          "Ingen börs-historik",
+          "Distributionsfokus med lågmarginal business",
+          "Risk att pressas mellan produktbolag och kunder",
+          "Värderat i linje med högst värderade serieförvärvare som Addlife utan bevisad historik",
+          "Historiskt ingen tydlig hävstång i lönsamhet"
+        ],
+        "catalysts": [
+          "Börsintroduktion och första kvartalens utveckling",
+          "Marginal expansion mot 10%",
+          "Fortsatta förvärv och tillväxt"
+        ],
+        "risks": [
+          "Hög ingångsvärdering",
+          "Konkurrens med Addlife i hälsovård",
+          "Lågmarginal distributionsbusiness sårbar för press",
+          "Avsaknad av bevisad trackrecord"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Små förvärv är oddsen mycket bättre. Det är alldeles för svårt i företagskulturer som krockar och det blir väldigt komplicerat internt helt enkelt. Medan så små förvärv är oddsen mycket bättre.",
+      "summary": "Stora förvärv har historiskt haft svårt att skapa värde medan små förvärv har bättre odds för värdeskapande.",
+      "category": "wisdom",
+      "speaker": "Lars Rick",
+      "speaker_role": "host",
+      "timestamp": "11:41",
+      "confidence": "high",
+      "tags": [
+        "acquisitions",
+        "value creation",
+        "culture"
+      ]
+    },
+    {
+      "quote": "Köper du till en lågkurs så får du bra avkastning. Det är förstås samma sak med att göra ett förvärv. Köper du billigt så här, ja det kan ju ta tid att vända det, men har du köpt det billigt så kommer du att få bra avkastning.",
+      "summary": "Grunden för värdeskapande är bra ingångsvärde, oavsett om det är aktieköp eller förvärv.",
+      "category": "philosophy",
+      "speaker": "Lars Rick",
+      "speaker_role": "host",
+      "timestamp": "13:48",
+      "confidence": "high",
+      "tags": [
+        "value investing",
+        "entry price",
+        "acquisitions"
+      ]
+    },
+    {
+      "quote": "Grunden för att skapa avkastning är ett bra ingångsvärde. Om man då till exempel har jättemycket förvärv under hosade perioder, då var ju förmodligen prislappen väldigt hög. Så var man tung på att investera 2021, då kommer det att ta lång tid att hämta in det.",
+      "summary": "Att göra förvärv under överhettade perioder (som 2021) med höga priser tar lång tid att hämta in.",
+      "category": "lesson",
+      "speaker": "Lars Rick",
+      "speaker_role": "host",
+      "timestamp": "14:08",
+      "confidence": "high",
+      "tags": [
+        "market timing",
+        "overvaluation",
+        "acquisitions"
+      ]
+    },
+    {
+      "quote": "Finansiering är ju förstås en väldigt viktig del. Det är liksom grunden att inte kanske belåna sig till taknocken, utan att du har ett kassaflöde från befintlig verksamhet som i sin tur då investeras tillbaka i verksamheten via förvärv.",
+      "summary": "Hållbar finansiering genom kassaflöde snarare än hög belåning är kritiskt för serieförvärvare.",
+      "category": "philosophy",
+      "speaker": "Lars Rick",
+      "speaker_role": "host",
+      "timestamp": "12:54",
+      "confidence": "high",
+      "tags": [
+        "financing",
+        "cash flow",
+        "leverage"
+      ]
+    },
+    {
+      "quote": "De senaste 15 åren har P&E-talet verkligen skenat. Det har gått från 12-13 upp till dagens nivåer som är över 30. Närmare 40. Det är en stor del av framgången kursmässigt för de här bolagen. Att de har fått högre multiplar, inte att underliggande verksamhet har gått så mycket bättre.",
+      "summary": "Serieförvärvares kursframgångar beror mer på multipel-expansion än förbättrat underliggande resultat.",
+      "category": "lesson",
+      "speaker": "Lars Rick",
+      "speaker_role": "host",
+      "timestamp": "20:10",
+      "confidence": "high",
+      "tags": [
+        "multiples",
+        "valuation",
+        "performance"
+      ]
+    },
+    {
+      "quote": "Sverige är just väldigt transparent. Man har stor tillit till samhället, även lågkroprion vilket också har lett till en stark tradition av företagande och decentralisering i verksamheten.",
+      "summary": "Sveriges transparens och företagandestradition förklarar varför serieförvärvare är så framgångsrika på svenska marknaden.",
+      "category": "wisdom",
+      "speaker": "Jakob Sönsson",
+      "speaker_role": "host",
+      "timestamp": "17:12",
+      "confidence": "medium",
+      "tags": [
+        "Swedish market",
+        "transparency",
+        "entrepreneurship"
+      ]
+    },
+    {
+      "quote": "Vi har Bergman och Beving och Indutrade som har på något vis öppnat dörren. Att såg något som inte andra såg. Har man sett det där så är det förstås lättare att bli nummer två.",
+      "summary": "Pionjärer som Bergman & Beving och Indutrade har visat vägen för andra att följa serial acquisition-modellen.",
+      "category": "wisdom",
+      "speaker": "Jakob Sönsson",
+      "speaker_role": "host",
+      "timestamp": "18:29",
+      "confidence": "medium",
+      "tags": [
+        "pioneers",
+        "Swedish market",
+        "serial acquirers"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
   "market_sentiment": "neutral",
   "summary": "Avsnittet fokuserar på serieförvärvare, för- och nackdelar med förvärvsstrategier, samt diskussioner om välkända svenska serieförvärvare. Veckans case Asker analyseras noggrant men landar i en avvakta-rekommendation.",
   "key_takeaways": [

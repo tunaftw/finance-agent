@@ -1,49 +1,110 @@
 {
+  "schema_version": "2.1",
   "episode_id": "avanzapodden-2025-06-03-74b5",
   "podcast_name": "Avanzapodden",
   "episode_title": "#399 – Handeln i maj, flygbolagen och så snabbt kan du nå miljonen",
   "episode_number": 399,
   "date": "2025-06-03",
-  "hosts": [
-    "Douglas",
-    "Host1",
-    "Host2",
-    "Host3"
-  ],
+  "hosts": ["Douglas", "Host1", "Host2", "Host3"],
   "guests": [],
-  "main_topics": [
-    "Marknadsgenomgång maj",
-    "Flygbolag",
-    "Spara till miljonen",
-    "Compound interest",
-    "Månadens handel"
-  ],
-  "stocks_discussed": [
-    "Nvidia",
-    "Berkshire Hathaway B",
-    "Evolution Gaming",
-    "Investor B",
-    "Rheinmetall",
-    "Saab",
-    "Novo Nordisk",
-    "SBB",
-    "Handelsbanken",
-    "Swedbank",
-    "Nordea",
-    "Embracer",
-    "NIBE",
-    "Volvo B",
-    "Volvo Cars",
-    "Telia Company",
-    "Ubico",
-    "Storebrand",
-    "Camurus",
-    "Asmodee",
-    "AstraZeneca",
-    "Sinch"
-  ],
+  "main_topics": ["Marknadsgenomgång maj", "Flygbolag", "Spara till miljonen", "Compound interest", "Månadens handel"],
+  "stocks_discussed": ["Nvidia", "Berkshire Hathaway B", "Evolution Gaming", "Investor B", "Rheinmetall", "Saab", "Novo Nordisk", "SBB", "Handelsbanken", "Swedbank", "Nordea", "Embracer", "NIBE", "Volvo B", "Volvo Cars", "Telia Company", "Ubico", "Storebrand", "Camurus", "Asmodee", "AstraZeneca", "Sinch"],
   "recommendations": [],
-  "market_sentiment": "neutral",
+  "stock_segments": [],
+  "insights": [
+    {
+      "quote": "Bullmarknader, om vi får se en ny uppåtgående marknad framöver, då kommer det vara ganska länge. Tittar man tillbaka från 50-talet så ligger snittet på 67 månader och medianen 60 månader. Så det är fem, fem och ett halvt år.",
+      "summary": "Historiskt varar en bullmarknad i genomsnitt 5-5,5 år",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "04:43",
+      "confidence": "medium",
+      "tags": ["bullmarket", "marknadscyklar", "historik"]
+    },
+    {
+      "quote": "Det visar på kraften att undvika gärna att börja från noll i tidig ålder. Har du något sparande från start, det kan vara att dina föräldrar kan ha sparat, du kan ha sommarjobbat, jobbat under en viss tid, se till att ha någonting avvarat, då kommer du att förkorta ner din restid ganska mycket.",
+      "summary": "Börja spara tidigt för att utnyttja ränta-på-ränta effekten maximalt",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "17:47",
+      "confidence": "high",
+      "tags": ["ränta-på-ränta", "tidsaspekt", "sparande"]
+    },
+    {
+      "quote": "Det kan vi också diskutera. Någonting som många pratar om är att man ska vara försiktig med att avbryta den här resan. Man måste låta ränta på ränteeffekten vara. Är man inne där och pillar och snor pengar från portföljen eller målet, då kan man avbryta den här effekten och så kan det ta ännu längre tid.",
+      "summary": "Avbryt inte ränta-på-ränta effekten genom att plocka ut pengar från portföljen",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "18:31",
+      "confidence": "high",
+      "tags": ["ränta-på-ränta", "portföljförvaltning"]
+    },
+    {
+      "quote": "Första gången som jag plockade ut pengar från min portfölj för att allokera dem till bostad så var det en viktig del i min investerarkarriär. Jag utvecklades mycket som investerare för jag kände att det är bara pengar som jag tar från en del av tillgångssidan till en annan.",
+      "summary": "Att reallokera pengar från portföljen till andra tillgångar kan vara en viktig del av investerarkarriären",
+      "category": "lesson",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "21:55",
+      "confidence": "high",
+      "tags": ["bostad", "allokering", "psykologi"]
+    },
+    {
+      "quote": "Oavsett om du tittar tillbaka 20, 30, 50, 100 år, då är det där du kommer få bäst avkastning.",
+      "summary": "Börsen har historiskt gett bäst avkastning över lång tid",
+      "category": "philosophy",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "14:39",
+      "confidence": "medium",
+      "tags": ["historisk avkastning", "börsen", "långsiktighet"]
+    },
+    {
+      "quote": "Jag är på börsen för att slå börsen. Om börsen ger 7% så vill vi vrida upp det lite.",
+      "summary": "Målet med aktieinvesteringar är att slå marknaden",
+      "category": "philosophy",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "15:44",
+      "confidence": "medium",
+      "tags": ["avkastningsmål", "aktieförvaltning"]
+    },
+    {
+      "quote": "Månadsparar man 100 spänn i månaden så tar det 60 år att bli miljonär. Skruvar upp det till 1000 så tar det 28 år. Du halverar din tid med 10 gånger pengarna då i varje månad.",
+      "summary": "Att öka månadssparandet drastiskt förkortar tiden till att nå miljonen exponentiellt",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "16:28",
+      "confidence": "high",
+      "tags": ["månadssparande", "tidsaspekt", "spartaktik"]
+    },
+    {
+      "quote": "Det talar jag om att du ska undvika att bara ligga likvid där över 24 år, för då har du tappat 50 procent av din köpkraft.",
+      "summary": "Ligga bara likvid leder till att man tappar köpkraft på grund av inflation",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "23:53",
+      "confidence": "high",
+      "tags": ["inflation", "likviditet", "köpkraft"]
+    },
+    {
+      "quote": "Vissa av de här personerna på Twitter har supertäta skott mellan portföljen och övriga privata ekonomin till andra investeringar. Man vill aldrig störa den här ränta på ränta-effekten och det ska bara bli så mycket pengar som möjligt. Det där är lätt att det blir en amöba på något sätt som man sen aldrig vågar röra.",
+      "summary": "Att vara för strikt med att aldrig röra portföljen kan leda till ångest och att man inte vågar använda pengarna",
+      "category": "lesson",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "21:14",
+      "confidence": "medium",
+      "tags": ["psykologi", "portföljförvaltning", "balans"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
   "summary": "Avsnittet summerar maj månad på börsen där USA stod starkt med upp till 10% uppgång för Nasdaq drivet av AI-trenden, medan Stockholmbörsen kom efter med 3%. Flygbolagssektorn analyserades och beskrevs som utmanande med endast 15 av 34 bolag lönsamma. Programmet diskuterade också hur lång tid det tar att nå miljonen genom månadsparande, vikten av compound interest, och visade att storbankerna och Saab sålts av efter stark kursutveckling medan aktier som Evolution och Ubico dipköptes.",
   "key_takeaways": [
     "USA-börserna ledde återhämtningen i maj med AI-bolag som drivkraft",
@@ -53,7 +114,7 @@
     "Evolution Gaming och Ubico var populära dipköp bland spararna"
   ],
   "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/transcripts/avanzapodden/avanzapodden-2025-06-03-74b5.txt",
-  "transcript_word_count": 2452,
+  "transcript_word_count": 6800,
   "has_timestamps": true,
   "model_used": "glm-4.7"
 }

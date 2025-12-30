@@ -39,6 +39,7 @@ from podstock.filings.exceptions import (
     XBRLParseError,
 )
 from podstock.filings.models import (
+    # Core models
     ChunkAnalysis,
     Company,
     DocumentChunk,
@@ -49,6 +50,36 @@ from podstock.filings.models import (
     FinancialMetrics,
     ManagementTone,
     Market,
+    # Deep analysis models
+    CEOLetterAnalysis,
+    CEOLetterTone,
+    ChallengeAttribution,
+    ConfidenceLevel,
+    DeepFilingAnalysis,
+    FilingEvolution,
+    GuidanceAnalysis,
+    KeyQuote,
+    MDAAnalysis,
+    Promise,
+    RiskFactorAnalysis,
+    SegmentPerformance,
+    Theme,
+)
+from podstock.filings.analysis import (
+    CEO_LETTER_EXTRACTION_PROMPT,
+    FULL_FILING_ANALYSIS_PROMPT,
+    GUIDANCE_EXTRACTION_PROMPT,
+    MDA_ANALYSIS_PROMPT,
+    RISK_FACTORS_PROMPT,
+    SEGMENT_ANALYSIS_PROMPT,
+    SWEDISH_CEO_LETTER_PROMPT,
+    extract_json_from_response,
+    find_ceo_letter_section,
+    find_guidance_section,
+    find_mda_section,
+    find_risk_factors_section,
+    find_section,
+    find_segment_section,
 )
 
 __all__ = [
@@ -60,7 +91,7 @@ __all__ = [
     "XBRLParseError",
     "ChunkingError",
     "AnalysisError",
-    # Models
+    # Core Models
     "FilingType",
     "FilingSource",
     "Market",
@@ -71,4 +102,35 @@ __all__ = [
     "ManagementTone",
     "DocumentChunk",
     "ChunkAnalysis",
+    # Deep Analysis Models
+    "CEOLetterTone",
+    "ConfidenceLevel",
+    "Promise",
+    "Theme",
+    "ChallengeAttribution",
+    "KeyQuote",
+    "CEOLetterAnalysis",
+    "MDAAnalysis",
+    "RiskFactorAnalysis",
+    "SegmentPerformance",
+    "GuidanceAnalysis",
+    "DeepFilingAnalysis",
+    "FilingEvolution",
+    # Section Finders
+    "find_ceo_letter_section",
+    "find_section",
+    "find_mda_section",
+    "find_risk_factors_section",
+    "find_guidance_section",
+    "find_segment_section",
+    # Prompt Templates
+    "CEO_LETTER_EXTRACTION_PROMPT",
+    "SWEDISH_CEO_LETTER_PROMPT",
+    "MDA_ANALYSIS_PROMPT",
+    "RISK_FACTORS_PROMPT",
+    "GUIDANCE_EXTRACTION_PROMPT",
+    "SEGMENT_ANALYSIS_PROMPT",
+    "FULL_FILING_ANALYSIS_PROMPT",
+    # Utility
+    "extract_json_from_response",
 ]

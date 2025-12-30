@@ -44,6 +44,11 @@
                             class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
                         YouTube
                     </button>
+                    <button @click="view = 'filings'"
+                            :class="view === 'filings' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Filings
+                    </button>
                 </div>
             </div>
         </div>
@@ -580,9 +585,16 @@
                                 <template x-for="(insight, i) in episode.insights.slice(0, 5)" :key="i">
                                     <div class="bg-gray-750 rounded p-2">
                                         <p class="text-sm text-gray-300" x-text="insight.summary || insight.quote"></p>
-                                        <div x-show="insight.speaker || insight.category" class="text-xs text-gray-500 mt-1">
-                                            <span x-show="insight.speaker" x-text="'— ' + insight.speaker"></span>
-                                            <span x-show="insight.category" class="px-1 py-0.5 bg-gray-700 rounded ml-1" x-text="insight.category"></span>
+                                        <div class="flex flex-wrap items-center gap-1 mt-1">
+                                            <span x-show="insight.timestamp" class="text-xs text-blue-400" x-text="'[' + insight.timestamp + ']'"></span>
+                                            <span x-show="insight.speaker" class="text-xs text-gray-500" x-text="'— ' + insight.speaker"></span>
+                                            <span x-show="insight.category" class="px-1 py-0.5 bg-gray-700 rounded text-xs text-gray-400" x-text="insight.category"></span>
+                                        </div>
+                                        <!-- Tags -->
+                                        <div x-show="insight.tags && insight.tags.length > 0" class="flex flex-wrap gap-1 mt-1">
+                                            <template x-for="tag in insight.tags" :key="tag">
+                                                <span class="px-1.5 py-0.5 bg-purple-900/50 text-purple-300 rounded text-xs" x-text="tag"></span>
+                                            </template>
                                         </div>
                                     </div>
                                 </template>
@@ -1018,6 +1030,415 @@
 
             <p x-show="filteredYoutubeVideos.length === 0" class="text-gray-500 text-center py-10">
                 Inga videor matchar filtren
+            </p>
+        </div>
+
+        <!-- Filings View -->
+        <div x-show="view === 'filings' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">Filings Analysis</h1>
+                <span class="text-sm text-gray-400" x-text="filings?.companies?.length + ' companies'"></span>
+            </div>
+
+            <!-- Company Selector -->
+            <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <div class="flex items-center gap-4">
+                    <label class="text-sm text-gray-400">Company:</label>
+                    <select x-model="selectedFilingCompany" class="bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-sm">
+                        <template x-for="company in filings?.companies || []" :key="company">
+                            <option :value="company" x-text="company.charAt(0).toUpperCase() + company.slice(1)"></option>
+                        </template>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Reports Analyzed Overview -->
+            <div x-show="currentEvolution" class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <h3 class="text-lg font-semibold mb-3">Reports Analyzed</h3>
+                <div class="flex flex-wrap gap-2 mb-3">
+                    <template x-for="filing in currentEvolution?.filings_analyzed || []" :key="filing">
+                        <span class="px-3 py-1 bg-gray-700 rounded-full text-sm" x-text="filing"></span>
+                    </template>
+                </div>
+                <div class="flex items-center justify-between text-sm text-gray-400">
+                    <span x-text="'Coverage: ' + (currentEvolution?.filings_analyzed?.length || 0) + ' filings analyzed'"></span>
+                    <span x-show="currentEvolution?.last_updated" x-text="'Last updated: ' + new Date(currentEvolution.last_updated).toLocaleDateString('sv-SE')"></span>
+                </div>
+            </div>
+
+            <!-- Investment Thesis Summary -->
+            <div x-show="currentThesis" class="mb-8">
+                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                    <div class="flex items-center justify-between mb-6">
+                        <div>
+                            <h2 class="text-xl font-bold mb-2" x-text="selectedFilingCompany?.charAt(0).toUpperCase() + selectedFilingCompany?.slice(1) + ' Investment Thesis'"></h2>
+                            <p class="text-gray-400 text-sm" x-text="'Generated: ' + (currentThesis?.generated_at ? new Date(currentThesis.generated_at).toLocaleDateString('sv-SE') : '-')"></p>
+                        </div>
+                        <!-- Verdict Badge -->
+                        <div class="text-center">
+                            <div class="text-6xl font-bold mb-2"
+                                 :class="{
+                                     'text-green-400': currentThesis?.verdict === 'green',
+                                     'text-yellow-400': currentThesis?.verdict === 'yellow',
+                                     'text-red-400': currentThesis?.verdict === 'red'
+                                 }">
+                                <span x-show="currentThesis?.verdict === 'green'">&#x1F7E2;</span>
+                                <span x-show="currentThesis?.verdict === 'yellow'">&#x1F7E1;</span>
+                                <span x-show="currentThesis?.verdict === 'red'">&#x1F534;</span>
+                            </div>
+                            <div class="text-sm font-medium uppercase"
+                                 :class="{
+                                     'text-green-400': currentThesis?.verdict === 'green',
+                                     'text-yellow-400': currentThesis?.verdict === 'yellow',
+                                     'text-red-400': currentThesis?.verdict === 'red'
+                                 }"
+                                 x-text="currentThesis?.verdict"></div>
+                        </div>
+                    </div>
+
+                    <!-- CEO Credibility Score -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <h3 class="text-lg font-semibold mb-3">CEO Credibility Score</h3>
+                            <div class="bg-gray-900 rounded-lg p-4">
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="text-4xl font-bold" x-text="currentThesis?.ceo_credibility_score?.toFixed(0) + '/100'"></span>
+                                    <span class="text-sm text-gray-400" x-text="currentThesis?.verdict_reasoning"></span>
+                                </div>
+                                <div class="space-y-2">
+                                    <template x-for="(score, metric) in currentThesis?.credibility_breakdown || {}" :key="metric">
+                                        <div class="flex items-center justify-between text-sm">
+                                            <span class="text-gray-400" x-text="metric.replace(/_/g, ' ')"></span>
+                                            <div class="flex items-center gap-2">
+                                                <div class="w-24 h-2 bg-gray-700 rounded-full overflow-hidden">
+                                                    <div class="h-full bg-emerald-500" :style="'width: ' + score + '%'"></div>
+                                                </div>
+                                                <span class="text-gray-300 w-8 text-right" x-text="score.toFixed(0)"></span>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Trend Summary -->
+                        <div>
+                            <h3 class="text-lg font-semibold mb-3">Trend Summary</h3>
+                            <div class="bg-gray-900 rounded-lg p-4 space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-gray-400">Tone</span>
+                                    <span class="px-2 py-1 rounded text-sm"
+                                          :class="{
+                                              'bg-green-900/50 text-green-400': currentThesis?.tone_trend === 'improving',
+                                              'bg-gray-700 text-gray-300': currentThesis?.tone_trend === 'stable',
+                                              'bg-red-900/50 text-red-400': currentThesis?.tone_trend === 'declining'
+                                          }"
+                                          x-text="currentThesis?.tone_trend"></span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-gray-400">Margin</span>
+                                    <span class="px-2 py-1 rounded text-sm"
+                                          :class="{
+                                              'bg-green-900/50 text-green-400': currentThesis?.margin_trend === 'improving',
+                                              'bg-gray-700 text-gray-300': currentThesis?.margin_trend === 'stable',
+                                              'bg-red-900/50 text-red-400': currentThesis?.margin_trend === 'declining'
+                                          }"
+                                          x-text="currentThesis?.margin_trend"></span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-gray-400">Growth</span>
+                                    <span class="px-2 py-1 rounded text-sm"
+                                          :class="{
+                                              'bg-green-900/50 text-green-400': currentThesis?.growth_trend === 'improving',
+                                              'bg-gray-700 text-gray-300': currentThesis?.growth_trend === 'stable',
+                                              'bg-red-900/50 text-red-400': currentThesis?.growth_trend === 'declining'
+                                          }"
+                                          x-text="currentThesis?.growth_trend"></span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-gray-400">Leverage</span>
+                                    <span class="px-2 py-1 rounded text-sm"
+                                          :class="{
+                                              'bg-green-900/50 text-green-400': currentThesis?.leverage_assessment === 'healthy',
+                                              'bg-yellow-900/50 text-yellow-400': currentThesis?.leverage_assessment === 'elevated',
+                                              'bg-red-900/50 text-red-400': currentThesis?.leverage_assessment === 'concerning'
+                                          }"
+                                          x-text="currentThesis?.leverage_assessment"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Signals Grid -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <!-- Green Flags -->
+                        <div class="bg-green-900/20 rounded-lg p-4 border border-green-900/50">
+                            <h4 class="text-green-400 font-semibold mb-3 flex items-center gap-2">
+                                <span>&#x2705;</span> Green Flags (<span x-text="currentThesis?.green_flags?.length || 0"></span>)
+                            </h4>
+                            <ul class="space-y-2 text-sm">
+                                <template x-for="flag in currentThesis?.green_flags || []" :key="flag">
+                                    <li class="text-green-300" x-text="flag"></li>
+                                </template>
+                                <li x-show="!currentThesis?.green_flags?.length" class="text-gray-500">None</li>
+                            </ul>
+                        </div>
+
+                        <!-- Red Flags -->
+                        <div class="bg-red-900/20 rounded-lg p-4 border border-red-900/50">
+                            <h4 class="text-red-400 font-semibold mb-3 flex items-center gap-2">
+                                <span>&#x26A0;&#xFE0F;</span> Red Flags (<span x-text="currentThesis?.red_flags?.length || 0"></span>)
+                            </h4>
+                            <ul class="space-y-2 text-sm">
+                                <template x-for="flag in currentThesis?.red_flags || []" :key="flag">
+                                    <li class="text-red-300" x-text="flag"></li>
+                                </template>
+                                <li x-show="!currentThesis?.red_flags?.length" class="text-gray-500">None</li>
+                            </ul>
+                        </div>
+
+                        <!-- Watch Items (Detailed Risks) -->
+                        <div class="bg-yellow-900/20 rounded-lg p-4 border border-yellow-900/50">
+                            <h4 class="text-yellow-400 font-semibold mb-3 flex items-center gap-2">
+                                <span>&#x1F440;</span> Watch Items (<span x-text="currentThesis?.watch_items?.length || 0"></span>)
+                            </h4>
+                            <div class="space-y-3 text-sm max-h-64 overflow-y-auto">
+                                <template x-for="(item, index) in currentThesis?.watch_items || []" :key="index">
+                                    <div class="bg-gray-800/50 rounded p-2">
+                                        <div class="flex items-start justify-between gap-2 mb-1">
+                                            <span class="text-yellow-300 flex-1" x-text="item.description || item"></span>
+                                            <span class="px-1.5 py-0.5 rounded text-xs shrink-0"
+                                                  :class="{
+                                                      'bg-red-900/50 text-red-400': item.severity === 'high',
+                                                      'bg-yellow-900/50 text-yellow-400': item.severity === 'medium',
+                                                      'bg-gray-700 text-gray-400': item.severity === 'low'
+                                                  }"
+                                                  x-text="item.severity || ''"></span>
+                                        </div>
+                                        <div class="flex items-center gap-2 text-xs text-gray-500">
+                                            <span x-show="item.category" class="px-1.5 py-0.5 bg-gray-700/50 rounded" x-text="item.category"></span>
+                                            <span x-show="item.change && item.change !== 'unchanged'"
+                                                  :class="{
+                                                      'text-red-400': item.change === 'escalated',
+                                                      'text-green-400': item.change === 'de-escalated',
+                                                      'text-blue-400': item.change === 'new'
+                                                  }"
+                                                  x-text="item.change"></span>
+                                            <span x-show="item.source_filing" class="text-gray-600" x-text="item.source_filing"></span>
+                                        </div>
+                                    </div>
+                                </template>
+                                <div x-show="!currentThesis?.watch_items?.length" class="text-gray-500">None</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sub-view Tabs -->
+            <div class="mb-6">
+                <div class="flex space-x-2 border-b border-gray-700 pb-2">
+                    <button @click="filingsSubView = 'promises'"
+                            :class="filingsSubView === 'promises' ? 'bg-gray-700 text-white' : 'text-gray-400 hover:text-white'"
+                            class="px-4 py-2 rounded-t-lg text-sm font-medium transition-colors">
+                        Promise Tracker
+                    </button>
+                    <button @click="filingsSubView = 'tone'"
+                            :class="filingsSubView === 'tone' ? 'bg-gray-700 text-white' : 'text-gray-400 hover:text-white'"
+                            class="px-4 py-2 rounded-t-lg text-sm font-medium transition-colors">
+                        Tone Timeline
+                    </button>
+                    <button @click="filingsSubView = 'financials'"
+                            :class="filingsSubView === 'financials' ? 'bg-gray-700 text-white' : 'text-gray-400 hover:text-white'"
+                            class="px-4 py-2 rounded-t-lg text-sm font-medium transition-colors">
+                        Financial Trends
+                    </button>
+                    <button @click="filingsSubView = 'philosophy'"
+                            :class="filingsSubView === 'philosophy' ? 'bg-gray-700 text-white' : 'text-gray-400 hover:text-white'"
+                            class="px-4 py-2 rounded-t-lg text-sm font-medium transition-colors">
+                        Philosophy Alignment
+                    </button>
+                </div>
+            </div>
+
+            <!-- Promise Tracker Sub-view -->
+            <div x-show="filingsSubView === 'promises'" class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                <h3 class="text-lg font-semibold mb-4">Promise Tracker</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="border-b border-gray-700">
+                                <th class="text-left py-3 px-4 text-gray-400">Promise</th>
+                                <th class="text-left py-3 px-4 text-gray-400">Target</th>
+                                <th class="text-left py-3 px-4 text-gray-400">Made In</th>
+                                <th class="text-left py-3 px-4 text-gray-400">Status</th>
+                                <th class="text-left py-3 px-4 text-gray-400">Evidence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template x-for="promise in currentEvolution?.promise_tracker || []" :key="promise.promise">
+                                <tr class="border-b border-gray-700/50 hover:bg-gray-750">
+                                    <td class="py-3 px-4" x-text="promise.promise.substring(0, 70) + (promise.promise.length > 70 ? '...' : '')"></td>
+                                    <td class="py-3 px-4 text-emerald-400" x-text="promise.target || '-'"></td>
+                                    <td class="py-3 px-4 text-gray-400 text-xs" x-text="promise.made_in"></td>
+                                    <td class="py-3 px-4">
+                                        <span class="px-2 py-1 rounded text-xs"
+                                              :class="{
+                                                  'bg-green-900/50 text-green-400': promise.current_status === 'met',
+                                                  'bg-blue-900/50 text-blue-400': promise.current_status === 'on_track',
+                                                  'bg-red-900/50 text-red-400': promise.current_status === 'missed',
+                                                  'bg-gray-700 text-gray-400': promise.current_status === 'unknown'
+                                              }"
+                                              x-text="promise.current_status"></span>
+                                    </td>
+                                    <td class="py-3 px-4 text-gray-400 text-xs max-w-xs" x-text="promise.evidence || 'No evidence yet'"></td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                    <p x-show="!currentEvolution?.promise_tracker?.length" class="text-gray-500 text-center py-6">No promises tracked</p>
+                </div>
+            </div>
+
+            <!-- Tone Timeline Sub-view -->
+            <div x-show="filingsSubView === 'tone'" class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                <h3 class="text-lg font-semibold mb-4">Tone Timeline</h3>
+                <p class="text-sm text-gray-500 mb-4">Click on a bar to see reasoning and CEO quote</p>
+                <div class="flex items-end gap-4 h-48">
+                    <template x-for="point in currentEvolution?.tone_trajectory || []" :key="point.period">
+                        <div class="flex-1 flex flex-col items-center cursor-pointer"
+                             @click="expandedTonePeriod = expandedTonePeriod === point.period ? null : point.period">
+                            <!-- Bar -->
+                            <div class="w-full flex flex-col items-center justify-end h-32 mb-2">
+                                <div class="w-12 rounded-t transition-all hover:opacity-80"
+                                     :class="{
+                                         'bg-green-500 h-full': point.tone === 'optimistic',
+                                         'bg-emerald-500 h-4/5': point.tone === 'cautiously_optimistic',
+                                         'bg-gray-500 h-3/5': point.tone === 'neutral',
+                                         'bg-yellow-500 h-2/5': point.tone === 'cautious',
+                                         'bg-red-500 h-1/5': point.tone === 'defensive',
+                                         'ring-2 ring-white': expandedTonePeriod === point.period
+                                     }"></div>
+                            </div>
+                            <!-- Label -->
+                            <div class="text-xs text-gray-400 text-center" x-text="point.period"></div>
+                            <div class="text-xs text-center mt-1 capitalize"
+                                 :class="{
+                                     'text-green-400': point.tone === 'optimistic',
+                                     'text-emerald-400': point.tone === 'cautiously_optimistic',
+                                     'text-gray-400': point.tone === 'neutral',
+                                     'text-yellow-400': point.tone === 'cautious',
+                                     'text-red-400': point.tone === 'defensive'
+                                 }"
+                                 x-text="point.tone?.replace('_', ' ')"></div>
+                        </div>
+                    </template>
+                </div>
+
+                <!-- Expanded Tone Detail Panel -->
+                <template x-for="point in currentEvolution?.tone_trajectory || []" :key="'detail-' + point.period">
+                    <div x-show="expandedTonePeriod === point.period"
+                         x-transition
+                         class="mt-6 bg-gray-900 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-center justify-between mb-3">
+                            <h4 class="font-semibold" x-text="point.period + ' - ' + (point.tone?.replace('_', ' ') || '')"></h4>
+                            <button @click="expandedTonePeriod = null" class="text-gray-400 hover:text-white">
+                                <span>&#x2715;</span>
+                            </button>
+                        </div>
+                        <!-- Reasoning -->
+                        <div class="mb-4" x-show="point.reasoning">
+                            <div class="text-xs text-gray-500 uppercase mb-1">Why this rating:</div>
+                            <div class="text-sm text-gray-300" x-text="point.reasoning"></div>
+                        </div>
+                        <!-- Key Quote -->
+                        <div x-show="point.key_quote">
+                            <div class="text-xs text-gray-500 uppercase mb-1">Key CEO Quote:</div>
+                            <blockquote class="text-sm text-emerald-300 italic border-l-2 border-emerald-500 pl-3" x-text="point.key_quote"></blockquote>
+                        </div>
+                        <!-- Confidence -->
+                        <div class="mt-3 flex items-center gap-2">
+                            <span class="text-xs text-gray-500">Confidence:</span>
+                            <span class="px-2 py-0.5 rounded text-xs"
+                                  :class="{
+                                      'bg-green-900/50 text-green-400': point.confidence === 'high',
+                                      'bg-yellow-900/50 text-yellow-400': point.confidence === 'medium',
+                                      'bg-red-900/50 text-red-400': point.confidence === 'low'
+                                  }"
+                                  x-text="point.confidence"></span>
+                        </div>
+                    </div>
+                </template>
+
+                <p x-show="!currentEvolution?.tone_trajectory?.length" class="text-gray-500 text-center py-6">No tone data available</p>
+            </div>
+
+            <!-- Financial Trends Sub-view -->
+            <div x-show="filingsSubView === 'financials'" class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                <h3 class="text-lg font-semibold mb-4">Financial Trends</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <template x-for="(trend, metric) in currentEvolution?.financial_trends || {}" :key="metric">
+                        <div class="bg-gray-900 rounded-lg p-4" x-show="trend.values && trend.values.length > 0">
+                            <div class="flex items-center justify-between mb-3">
+                                <h4 class="font-medium capitalize" x-text="metric.replace(/_/g, ' ')"></h4>
+                                <span class="px-2 py-1 rounded text-xs"
+                                      :class="{
+                                          'bg-green-900/50 text-green-400': trend.trajectory === 'improving',
+                                          'bg-gray-700 text-gray-400': trend.trajectory === 'stable',
+                                          'bg-red-900/50 text-red-400': trend.trajectory === 'declining'
+                                      }"
+                                      x-text="trend.trajectory"></span>
+                            </div>
+                            <div class="flex items-end gap-2 h-24">
+                                <template x-for="point in trend.values" :key="point.period">
+                                    <div class="flex-1 flex flex-col items-center">
+                                        <div class="w-full bg-emerald-600 rounded-t transition-all"
+                                             :style="'height: ' + Math.max(10, Math.min(100, point.value * 5)) + '%'"></div>
+                                        <div class="text-xs text-gray-400 mt-1" x-text="point.period"></div>
+                                        <div class="text-xs text-emerald-400" x-text="point.value?.toFixed(1) + (metric.includes('margin') || metric.includes('growth') ? '%' : '')"></div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+                <p x-show="!Object.keys(currentEvolution?.financial_trends || {}).length" class="text-gray-500 text-center py-6">No financial trend data available</p>
+            </div>
+
+            <!-- Philosophy Alignment Sub-view -->
+            <div x-show="filingsSubView === 'philosophy'" class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                <h3 class="text-lg font-semibold mb-4">Investment Philosophy Alignment</h3>
+                <div class="space-y-4">
+                    <template x-for="(assessment, principle) in currentThesis?.philosophy_alignment || {}" :key="principle">
+                        <div class="flex items-center justify-between p-4 rounded-lg"
+                             :class="{
+                                 'bg-green-900/20 border border-green-900/50': assessment.startsWith('POSITIVE'),
+                                 'bg-red-900/20 border border-red-900/50': assessment.startsWith('NEGATIVE'),
+                                 'bg-yellow-900/20 border border-yellow-900/50': assessment.startsWith('WATCH') || assessment.startsWith('WARNING'),
+                                 'bg-gray-700/50 border border-gray-600': assessment.startsWith('NEUTRAL')
+                             }">
+                            <div>
+                                <div class="font-medium capitalize" x-text="principle.replace(/_/g, ' ')"></div>
+                                <div class="text-sm text-gray-400" x-text="assessment"></div>
+                            </div>
+                            <span class="text-2xl"
+                                  x-text="assessment.startsWith('POSITIVE') ? '&#x2705;' :
+                                          assessment.startsWith('NEGATIVE') ? '&#x274C;' :
+                                          (assessment.startsWith('WATCH') || assessment.startsWith('WARNING')) ? '&#x26A0;&#xFE0F;' : '&#x2796;'"></span>
+                        </div>
+                    </template>
+                </div>
+                <p x-show="!Object.keys(currentThesis?.philosophy_alignment || {}).length" class="text-gray-500 text-center py-6">No philosophy alignment data available</p>
+            </div>
+
+            <!-- No company selected -->
+            <p x-show="!selectedFilingCompany && filings?.companies?.length > 0" class="text-gray-500 text-center py-10">
+                Select a company to view analysis
+            </p>
+
+            <!-- No filings data -->
+            <p x-show="!filings?.companies?.length" class="text-gray-500 text-center py-10">
+                No filings data available. Run evolution synthesis first.
             </p>
         </div>
     </main>

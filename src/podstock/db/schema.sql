@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS sources (
     language        TEXT DEFAULT 'sv',
     extra_data      TEXT,                  -- JSON metadata
     active          INTEGER DEFAULT 1,
-    trust_rating    INTEGER DEFAULT 3,     -- 1-5 scale for source credibility
+    trust_rating    INTEGER DEFAULT 0,     -- -1 to 3 scale: -1=unreliable, 0=neutral, 1=positive, 2=very positive, 3=GOAT
     trust_notes     TEXT,                  -- Free text explaining trust rating
     created_at      TEXT DEFAULT CURRENT_TIMESTAMP,
     updated_at      TEXT DEFAULT CURRENT_TIMESTAMP

@@ -11,6 +11,7 @@ from typing import Any
 
 from .exporters import (
     export_analyses,
+    export_filings,
     export_podcasts,
     export_recommendations,
     export_sources,
@@ -90,6 +91,11 @@ class DashboardGenerator:
             self._write_json("youtube.json", youtube)
             files_generated += 1
 
+        # Export filings evolution and thesis data (no session needed)
+        filings = export_filings(self.source_data_dir)
+        self._write_json("filings.json", filings)
+        files_generated += 1
+
         # Add metadata
         metadata = {
             "generated_at": datetime.now().isoformat(),
@@ -101,6 +107,7 @@ class DashboardGenerator:
                 "podcast_episodes": len(podcasts["episodes"]),
                 "tweets": len(twitter["tweets"]),
                 "youtube_videos": len(youtube["videos"]),
+                "filings_companies": len(filings["companies"]),
             },
         }
         self._write_json("metadata.json", metadata)
@@ -115,6 +122,7 @@ class DashboardGenerator:
             "podcasts": podcasts,
             "twitter": twitter,
             "youtube": youtube,
+            "filings": filings,
         }
 
         # Copy HTML template and assets with inline data

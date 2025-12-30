@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 from typing import Any, Optional
 
+
 # Configuration
 OPENCODE_CLI = "/Users/pontus/.opencode/bin/opencode"
 GLM_MODEL = "opencode/glm-4.7-free"
@@ -41,6 +42,10 @@ def extract_json_from_response(text: str) -> str:
 
 def validate_analysis(data: dict) -> tuple[bool, str]:
     """Validera analys mot schema."""
+
+    # Lägg till model_used om det saknas (GLM glömmer ibland)
+    if "model_used" not in data:
+        data["model_used"] = "glm-4.7"
 
     required_fields = [
         "episode_id",
@@ -92,11 +97,22 @@ def validate_analysis(data: dict) -> tuple[bool, str]:
                     if "speaker" not in quote or "text" not in quote:
                         return False, f"stock_segments[{i}].quotes[{j}] missing speaker or text"
 
-            # Validera position_disclosure om det finns
+            # Normalisera position_disclosure (GLM ger ibland fritext)
             if "position_disclosure" in seg and seg["position_disclosure"]:
                 valid_positions = ["owns", "bought", "sold", "none", "unknown"]
-                if seg["position_disclosure"] not in valid_positions:
-                    return False, f"stock_segments[{i}] invalid position_disclosure: {seg['position_disclosure']}"
+                pd = str(seg["position_disclosure"]).lower().strip()
+                if pd not in valid_positions:
+                    # Försök mappa fritext till närmaste värde
+                    if any(x in pd for x in ["köp", "buy", "bought", "köpt"]):
+                        seg["position_disclosure"] = "bought"
+                    elif any(x in pd for x in ["sål", "sell", "sold", "sålt", "short", "blankar", "blankat", "avoid", "undvik"]):
+                        seg["position_disclosure"] = "sold"
+                    elif any(x in pd for x in ["äger", "own", "har", "innehar", "hold"]):
+                        seg["position_disclosure"] = "owns"
+                    elif any(x in pd for x in ["ingen", "none", "nej", "inte"]):
+                        seg["position_disclosure"] = "none"
+                    else:
+                        seg["position_disclosure"] = "unknown"
 
     # Validera insights om de finns (v2.1 schema)
     if "insights" in data and data["insights"]:
@@ -177,7 +193,7 @@ def parse_opencode_output(stdout: str) -> Optional[dict]:
 def analyze_transcript(
     transcript_path: Path,
     max_retries: int = 3,
-    timeout: int = 180
+    timeout: int = 600  # 10 min - GLM-4.7 med stora prompts
 ) -> tuple[Optional[dict], bool, str]:
     """
     Analysera ett transkript med GLM-4.7.
@@ -213,8 +229,19 @@ VIKTIGA RIKTLINJER:
 - "Stark köpkandidat", "köpläge", "vi köper" = buy
 - "Dags att ta hem vinst", "sälj", "vi säljer" = sell
 - Fånga EXAKTA citat som stödjer rekommendationen
-- Om tidsstämplar finns [HH:MM:SS], inkludera dem
-- Svenska bolag listas ofta utan ticker - det är OK att lämna ticker tom
+
+⏱️ TIMESTAMPS (KRITISKT):
+Transkriptet innehåller tidsstämplar i formatet [HH:MM:SS].
+DU MÅSTE extrahera timestamp för varje rekommendation!
+Sök efter närmaste [XX:XX:XX] före eller vid varje aktie-diskussion.
+Om transkriptet har timestamps men du inte hittar en specifik, använd den närmaste.
+Lämna ALDRIG null om transkriptet har timestamps.
+
+📈 TICKERS:
+- Svenska bolag: Använd Stockholmsbörsen-ticker (t.ex. EVO, HM-B, VOLV-B, HEXA-B)
+- Japanska bolag: Använd Tokyo-ticker med .T suffix (t.ex. 3673.T för Broadleaf)
+- Amerikanska: Använd NYSE/NASDAQ ticker (t.ex. AAPL, MSFT)
+- Om okänd: Lämna null men sätt ALLTID korrekt "market" (sweden/japan/us/hongkong/etc)
 
 ⚠️ EXKLUDERA FÖLJANDE - DETTA ÄR INTE REKOMMENDATIONER:
 - Sponsormeddelanden (Interactive Brokers, Avanza, Nordnet, Syn Society, etc.)
@@ -324,7 +351,7 @@ Returnera ENDAST valid JSON enligt följande schema (ingen markdown, inga code b
       "speaker": "Vem som pratar",
       "speaker_role": "host|guest|unknown",
       "timestamp": null,
-      "reasoning": "3-5 meningar med FULLSTÄNDIG motivering: inkludera alla argument, nyckeltal och kontext",
+      "reasoning": "DETALJERAD motivering (50-100 ord): Inkludera ALLA konkreta siffror/nyckeltal (P/E, EV/EBITDA, marginaler, tillväxt%). Bull case: varför köpa? Bear case/risker. Tidsperspektiv och katalysatorer. Positionsstorlek om nämnd.",
       "price_target": null,
       "time_horizon": null,
       "quote": "Exakt citat som stödjer rekommendationen, max 200 ord - inkludera hela resonemanget",
@@ -420,7 +447,7 @@ Transkript:
                 "-m", GLM_MODEL,
                 prompt
             ]
-            
+
             result = subprocess.run(
                 cmd,
                 capture_output=True,

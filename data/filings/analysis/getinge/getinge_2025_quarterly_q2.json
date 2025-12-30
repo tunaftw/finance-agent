@@ -1,0 +1,349 @@
+{
+  "filing_id": "getinge-q2-2025",
+  "company_id": "getinge",
+  "filing_type": "quarterly",
+  "fiscal_year": 2025,
+  "fiscal_quarter": 2,
+  "analyzed_at": "2025-12-29T16:00:00Z",
+  "model_used": "claude-opus-4-5-20251101",
+
+  "executive_summary": "Getinge delivered solid Q2 2025 with 4.1% organic sales growth despite significant tariff and currency headwinds (SEK -270M impact). All business areas and regions showed positive growth. Paragonix acquisition contributing ahead of schedule. Management maintains positive outlook and unchanged 2025 guidance of 2-5% organic growth.",
+
+  "key_highlights": [
+    "Net sales +4.1% organic (H1: +5.1%)",
+    "Adjusted EBITA SEK 989M (12.0% margin, +0.2pp YoY)",
+    "Tariff impact ~SEK 110M absorbed in quarter",
+    "Paragonix contributing positively ahead of plan",
+    "Vasoview Hemopro 3 first clinical cases in US",
+    "Zimmer Biomet partnership for ASC segment",
+    "2025 outlook unchanged: 2-5% organic sales growth"
+  ],
+
+  "ceo_letter": {
+    "author": "Mattias Perjos",
+    "title": "President & CEO",
+    "word_count": 420,
+    "tone": "optimistic",
+    "confidence_level": "high",
+
+    "promises": [
+      {
+        "statement": "Average adjusted earnings per share growth of above 12%",
+        "metric": "eps_growth",
+        "target": ">12%",
+        "timeframe": "2024-2028",
+        "confidence_language": "target"
+      },
+      {
+        "statement": "Net sales for 2025 expected to increase by 2-5% organically",
+        "metric": "organic_growth",
+        "target": "2-5%",
+        "timeframe": "2025",
+        "confidence_language": "expect"
+      },
+      {
+        "statement": "Vasoview Hemopro 3 deliveries on larger scale during Q3",
+        "metric": "product_launch",
+        "target": "volume deliveries",
+        "timeframe": "Q3 2025",
+        "confidence_language": "expect"
+      }
+    ],
+
+    "themes": [
+      {
+        "topic": "tariff_management",
+        "emphasis": "high",
+        "sentiment": "challenging_but_managed"
+      },
+      {
+        "topic": "acquisition_integration",
+        "emphasis": "high",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "product_innovation",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "productivity",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "global_growth",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      }
+    ],
+
+    "challenges": [
+      {
+        "challenge": "Tariff costs approximately SEK 110M in the quarter",
+        "attribution": "external",
+        "tone": "factual"
+      },
+      {
+        "challenge": "Currency headwinds SEK -158M EBITA impact",
+        "attribution": "external",
+        "tone": "factual"
+      },
+      {
+        "challenge": "Elevated geopolitical risk",
+        "attribution": "external",
+        "tone": "cautious"
+      }
+    ],
+
+    "honesty_signals": [
+      "Quantifies tariff impact specifically (SEK 110M)",
+      "Acknowledges short-term absorption of tariff costs",
+      "Notes analyzing supply chain adaptation opportunities",
+      "Explicitly states geopolitical risk is elevated"
+    ],
+
+    "key_quotes": [
+      {
+        "quote": "Considering the tariff levels noted in the second quarter, we see no need to change our long-term financial target.",
+        "category": "confidence"
+      },
+      {
+        "quote": "Given our performance and dialogue with customers, my outlook for the remainder of 2025 is positive, even though geopolitical risk is elevated.",
+        "category": "outlook"
+      },
+      {
+        "quote": "We are well positioned to manage these challenges by leveraging our leading position in key niches.",
+        "category": "strategy"
+      }
+    ],
+
+    "is_qa_format": false,
+    "questions_addressed": []
+  },
+
+  "mda_analysis": {
+    "key_narratives": [
+      "Stable organic growth across all business areas and regions",
+      "Successfully managing tariff headwinds through pricing",
+      "Paragonix integration ahead of schedule with margin contribution",
+      "Bio-Processing rationalization progressing well",
+      "Continued productivity focus driving expense reduction"
+    ],
+    "management_interpretation": "Management frames Q2 as evidence of resilience despite external headwinds. The narrative emphasizes the company's ability to adapt to tariffs and currency while maintaining growth trajectory. Confidence in long-term targets remains high.",
+
+    "segment_commentary": {
+      "Acute Care Therapies": {
+        "name": "Acute Care Therapies",
+        "performance": "strong",
+        "revenue_growth_yoy": null,
+        "operating_margin": null,
+        "outlook": "positive",
+        "management_commentary": "Strong ventilator demand. ECLS consumables order intake high. Paragonix celebrating 100th kidney transplant. Vasoview Hemopro 3 clinical cases successful."
+      },
+      "Life Science": {
+        "name": "Life Science",
+        "performance": "mixed",
+        "revenue_growth_yoy": null,
+        "operating_margin": null,
+        "outlook": "improving",
+        "management_commentary": "Sterile Transfer double-digit growth. Bio-Processing rationalization underway. New washer launched. Waiting for demand return in Bio-Processing."
+      },
+      "Surgical Workflows": {
+        "name": "Surgical Workflows",
+        "performance": "strong",
+        "revenue_growth_yoy": null,
+        "operating_margin": null,
+        "outlook": "positive",
+        "management_commentary": "Sharp organic order intake increase. Infection Control and Digital Health driving growth. XEN cleaning products launched in US. Zimmer Biomet ASC partnership."
+      }
+    },
+
+    "operational_highlights": [
+      "Vasoview Hemopro 3 first clinical cases in US - larger scale deliveries Q3",
+      "Servo-c ventilator neonatal option extended",
+      "Paragonix 100th kidney transplant with KidneyVault",
+      "Full Intra-Aortic Balloon catheter portfolio EU MDR certified",
+      "XEN brand cleaning products launched in US",
+      "Zimmer Biomet partnership for ASC market",
+      "Life Science site 99.9% renewable energy milestone"
+    ],
+
+    "concerns_mentioned": [
+      "Tariff costs ~SEK 110M not fully passed through short-term",
+      "Currency headwinds significant (SEK -680M on sales)",
+      "Elevated geopolitical risk acknowledged",
+      "Net debt increased after Paragonix acquisition"
+    ]
+  },
+
+  "risk_factors": {
+    "risks": [
+      {
+        "risk": "Geopolitical risks and external shocks",
+        "severity": "high",
+        "category": "external",
+        "change": "escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Supply chain interruptions",
+        "severity": "medium",
+        "category": "operational",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Quality and regulatory compliance",
+        "severity": "medium",
+        "category": "regulatory",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Healthcare reimbursement systems",
+        "severity": "low",
+        "category": "market",
+        "change": "unchanged",
+        "is_boilerplate": true
+      },
+      {
+        "risk": "Tariff and trade barriers",
+        "severity": "high",
+        "category": "external",
+        "change": "escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Currency exposure",
+        "severity": "medium",
+        "category": "financial",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Cybersecurity",
+        "severity": "medium",
+        "category": "operational",
+        "change": "unchanged",
+        "is_boilerplate": true
+      }
+    ],
+
+    "new_risks_count": 0,
+    "removed_risks_count": 0,
+    "escalated_risks_count": 2,
+    "de_escalated_risks_count": 0,
+    "boilerplate_ratio": 0.29,
+    "top_risk_categories": ["external", "operational", "regulatory"]
+  },
+
+  "guidance": {
+    "targets": [
+      {
+        "metric": "organic_sales_growth",
+        "value": "2-5%",
+        "period": "2025",
+        "vs_previous": "maintained",
+        "notes": "Unchanged despite tariff headwinds"
+      },
+      {
+        "metric": "eps_growth",
+        "value": ">12%",
+        "period": "2024-2028 average",
+        "vs_previous": "maintained",
+        "notes": "Long-term target maintained despite current tariff levels"
+      },
+      {
+        "metric": "dividend_payout",
+        "value": "30-50%",
+        "period": "ongoing",
+        "vs_previous": "maintained",
+        "notes": "Dividend policy unchanged"
+      }
+    ],
+    "overall_direction": "maintained",
+    "commentary": "Management explicitly stated no need to change long-term financial targets despite tariff headwinds. Outlook for remainder of 2025 is positive.",
+    "management_confidence": "high"
+  },
+
+  "segments": [
+    {
+      "name": "Acute Care Therapies",
+      "revenue": null,
+      "revenue_growth_yoy": null,
+      "operating_margin": null,
+      "order_intake": null,
+      "order_intake_growth_yoy": null,
+      "management_commentary": "Strong performance in ventilators and ECLS. Paragonix ahead of plan. Vasoview Hemopro 3 clinical success.",
+      "outlook": "positive",
+      "management_focus": "high",
+      "share_of_group": null
+    },
+    {
+      "name": "Life Science",
+      "revenue": null,
+      "revenue_growth_yoy": null,
+      "operating_margin": null,
+      "order_intake": null,
+      "order_intake_growth_yoy": null,
+      "management_commentary": "Sterile Transfer strong. Bio-Processing rationalizing for profitable growth when demand returns.",
+      "outlook": "neutral",
+      "management_focus": "medium",
+      "share_of_group": null
+    },
+    {
+      "name": "Surgical Workflows",
+      "revenue": null,
+      "revenue_growth_yoy": null,
+      "operating_margin": null,
+      "order_intake": null,
+      "order_intake_growth_yoy": null,
+      "management_commentary": "Sharp organic growth. Infection Control and Digital Health leading. Zimmer Biomet partnership expands ASC presence.",
+      "outlook": "positive",
+      "management_focus": "medium",
+      "share_of_group": null
+    }
+  ],
+
+  "financial_metrics": {
+    "revenue": null,
+    "revenue_growth_reported": -0.008,
+    "revenue_growth_organic": 0.041,
+    "operating_income": null,
+    "operating_income_adjusted": null,
+    "operating_margin": null,
+    "operating_margin_adjusted": null,
+    "ebita_adjusted": 989000000,
+    "ebita_margin_adjusted": 0.120,
+    "ebitda_adjusted": null,
+    "ebitda_margin_adjusted": null,
+    "net_income": null,
+    "eps": null,
+    "eps_adjusted": 2.25,
+    "free_cash_flow": 510000000,
+    "net_debt": null,
+    "net_debt_to_ebitda": null,
+    "equity_ratio": null,
+    "roe": null,
+    "r_and_d_spend": null
+  },
+
+  "auditor_notes": {
+    "opinion_type": "not_applicable",
+    "concerns": [],
+    "emphasis_of_matter": []
+  },
+
+  "period_data": {
+    "quarter": "Q2",
+    "year": 2025,
+    "h1_organic_growth": 0.051,
+    "h1_ebita_margin": 0.120,
+    "h1_eps_adjusted": 4.43,
+    "h1_free_cash_flow": 670000000,
+    "tariff_impact_msek": -110,
+    "currency_impact_sales_msek": -680,
+    "currency_impact_ebita_msek": -158
+  }
+}

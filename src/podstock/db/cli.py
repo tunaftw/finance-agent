@@ -383,11 +383,16 @@ def cmd_db_trust(args: argparse.Namespace) -> int:
                     console.print(f"[red]Source not found:[/red] {args.source_id}")
                     return 1
 
-                if args.rating < 1 or args.rating > 5:
-                    console.print("[red]Rating must be between 1 and 5[/red]")
+                if args.rating < -1 or args.rating > 3:
+                    console.print("[red]Rating must be between -1 and 3[/red]")
+                    console.print("  -1: Unreliable (verified misleading)")
+                    console.print("   0: Neutral (unknown track record)")
+                    console.print("   1: Positive (somewhat reliable)")
+                    console.print("   2: Very positive (consistently reliable)")
+                    console.print("   3: GOAT (exceptional track record)")
                     return 1
 
-                old_rating = source.trust_rating or 3
+                old_rating = source.trust_rating if source.trust_rating is not None else 0
                 source.trust_rating = args.rating
                 if args.notes:
                     source.trust_notes = args.notes
@@ -417,21 +422,28 @@ def cmd_db_trust(args: argparse.Namespace) -> int:
                 table.add_column("Notes", max_width=40)
 
                 for s in sources:
-                    rating = s.trust_rating or 3
-                    stars = "★" * rating + "☆" * (5 - rating)
+                    rating = s.trust_rating if s.trust_rating is not None else 0
+                    # Display: -1=⚠️, 0=⚪, 1=⭐, 2=⭐⭐, 3=👑
+                    display = {
+                        -1: "⚠️ Unreliable",
+                        0: "⚪ Neutral",
+                        1: "⭐ Positive",
+                        2: "⭐⭐ Very positive",
+                        3: "👑 GOAT",
+                    }.get(rating, f"? ({rating})")
                     rating_style = {
-                        5: "green bold",
-                        4: "green",
-                        3: "yellow",
-                        2: "red dim",
-                        1: "red",
+                        3: "green bold",
+                        2: "green",
+                        1: "cyan",
+                        0: "dim",
+                        -1: "red",
                     }.get(rating, "")
 
                     table.add_row(
                         s.id,
                         s.name,
                         s.type,
-                        f"[{rating_style}]{stars}[/{rating_style}]",
+                        f"[{rating_style}]{display}[/{rating_style}]",
                         (s.trust_notes or "-")[:40],
                     )
 
@@ -654,7 +666,7 @@ def add_db_parser(subparsers: argparse._SubParsersAction) -> None:
 
     trust_set = trust_sub.add_parser("set", help="Set trust rating for a source")
     trust_set.add_argument("source_id", help="Source ID")
-    trust_set.add_argument("rating", type=int, help="Trust rating (1-5)")
+    trust_set.add_argument("rating", type=int, help="Trust rating (-1 to 3: -1=unreliable, 0=neutral, 1=positive, 2=very positive, 3=GOAT)")
     trust_set.add_argument("--notes", help="Notes explaining the rating")
 
     # db migrate

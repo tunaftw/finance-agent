@@ -1001,7 +1001,7 @@ def export_analyses(session: Session) -> list[dict[str, Any]]:
                 "source_id": source.id,
                 "source_name": source.name,
                 "source_type": source.type,
-                "trust_rating": source.trust_rating or 3,
+                "trust_rating": source.trust_rating if source.trust_rating is not None else 0,
                 "title": content.title,
                 "date": content.published_at[:10] if content.published_at else None,
                 "sentiment": analysis.sentiment,
@@ -1043,7 +1043,7 @@ def export_recommendations(session: Session) -> list[dict[str, Any]]:
                 "source_id": source.id,
                 "source_name": source.name,
                 "source_type": source.type,
-                "trust_rating": source.trust_rating or 3,
+                "trust_rating": source.trust_rating if source.trust_rating is not None else 0,
                 "content_title": content.title,
                 "stock_name": rec.raw_stock_name,
                 "ticker": rec.raw_ticker,
@@ -1102,7 +1102,7 @@ def export_sources(session: Session) -> list[dict[str, Any]]:
                 "name": source.name,
                 "type": source.type,
                 "description": source.description,
-                "trust_rating": source.trust_rating or 3,
+                "trust_rating": source.trust_rating if source.trust_rating is not None else 0,
                 "trust_notes": source.trust_notes,
                 "active": bool(source.active),
                 "content_count": content_count,
@@ -1208,7 +1208,7 @@ def export_tickers(session: Session) -> list[dict[str, Any]]:
                 "confidence": rec.confidence,
                 "speaker": rec.speaker,
                 "source": source.name,
-                "trust_rating": source.trust_rating or 3,
+                "trust_rating": source.trust_rating if source.trust_rating is not None else 0,
             }
         )
 
@@ -1275,7 +1275,7 @@ def export_track_record(session: Session) -> dict[str, Any]:
     for rec, perf, content, source in recs_with_perf:
         # Source stats
         source_stats[source.id]["name"] = source.name
-        source_stats[source.id]["trust_rating"] = source.trust_rating or 3
+        source_stats[source.id]["trust_rating"] = source.trust_rating if source.trust_rating is not None else 0
         source_stats[source.id]["total"] += 1
 
         if perf.return_30d and perf.return_30d > 0:
@@ -1355,12 +1355,65 @@ def export_track_record(session: Session) -> dict[str, Any]:
     }
 
 
-def export_watchlist(session: Session, trust_threshold: int = 4) -> list[dict[str, Any]]:
+def export_filings(data_dir: Path) -> dict[str, Any]:
+    """Export filings evolution and thesis data.
+
+    Args:
+        data_dir: Path to the data directory (e.g., /data/)
+
+    Returns:
+        Dict with companies, evolutions, and theses
+    """
+    from podstock.filings.analysis.evolution import load_evolution
+    from podstock.filings.analysis.thesis import load_thesis
+
+    filings_dir = data_dir / "filings" / "analysis"
+
+    if not filings_dir.exists():
+        return {"companies": [], "evolutions": {}, "theses": {}}
+
+    companies = []
+    evolutions = {}
+    theses = {}
+
+    # Find all company directories with evolution.json
+    for company_dir in filings_dir.iterdir():
+        if not company_dir.is_dir():
+            continue
+
+        company_id = company_dir.name
+        evolution_file = company_dir / "evolution.json"
+        thesis_file = company_dir / "thesis.json"
+
+        if not evolution_file.exists():
+            continue
+
+        # Load evolution
+        evolution = load_evolution(company_id, data_dir)
+        if evolution:
+            companies.append(company_id)
+            evolutions[company_id] = evolution.model_dump(mode="json")
+
+        # Load thesis
+        thesis = load_thesis(company_id, data_dir)
+        if thesis:
+            theses[company_id] = thesis.model_dump(mode="json")
+
+    return {
+        "companies": sorted(companies),
+        "evolutions": evolutions,
+        "theses": theses,
+    }
+
+
+def export_watchlist(session: Session, trust_threshold: int = 1) -> list[dict[str, Any]]:
     """Export high conviction watchlist.
 
     Criteria:
     - confidence = 'high' AND source.trust_rating >= trust_threshold
     - OR multiple independent mentions (3+ sources mentioning same stock with buy)
+
+    Trust scale: -1=unreliable, 0=neutral, 1=positive, 2=very positive, 3=GOAT
     """
     results = []
     now = datetime.now()
@@ -1428,7 +1481,7 @@ def export_watchlist(session: Session, trust_threshold: int = 4) -> list[dict[st
                 "source_name": source.name,
                 "date": content.published_at[:10] if content.published_at else None,
                 "speaker": rec.speaker,
-                "trust_rating": source.trust_rating or 3,
+                "trust_rating": source.trust_rating if source.trust_rating is not None else 0,
                 "rec": rec,
             }
         )

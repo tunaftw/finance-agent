@@ -1,0 +1,235 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "analyspodden-2021-11-18-f69c",
+  "podcast_name": "Analyspodden",
+  "episode_title": "Avsnitt 149: Altors Stefan Linder reder ut begreppen kring Private Equity",
+  "episode_number": 149,
+  "date": "2021-11-18",
+  "hosts": ["Daniel Ljungström"],
+  "guests": ["Stefan Linder"],
+  "main_topics": ["Private Equity", "Altor", "Cetec", "Dustin", "Yale Endowment model", "Fondbolagsstruktur"],
+  "stocks_discussed": ["EQT", "Cetec", "Dustin", "Byggmax", "Latour"],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Cetec",
+      "ticker": null,
+      "timestamp_start": "35:07",
+      "timestamp_end": "47:51",
+      "word_count": 2000,
+      "speakers": ["Stefan Linder", "Daniel Ljungström"],
+      "primary_speaker": "Stefan Linder",
+      "discussion_summary": "Cetec är ett batteriladdningsbolag från Vikmanshytten som Altor förvärvade för tio år sedan. Bolaget utvecklade en tekniskt effektiv laddare för bil-, motorcykel- och båtbatterier och var redan marknadsledande i Tyskland. Altor hjälpte bolaget med en ny ledning och strategisk utveckling, inklusive förvärvet av Charge Storm för att expandera in i elbilsladdning. Cetec börsnoterades senare och Latour köpte 30% i samband med noteringen. Altor äger fortfarande 20%.",
+      "quotes": [
+        {
+          "speaker": "Stefan Linder",
+          "text": "Cetec under de nästkommande tio åren utvecklade en väldigt liten och nätt och tekniskt effektiv laddare för vanliga, kallade bilbatterier, motorcykelbatterier, båtbatterier, där vi använder det i vardagen. Och de laddade mer effektivt och mer säkert än de här som jag på skåret kallar de här gamla brörostarna i plåt som stod i garaget hemma när jag var liten.",
+          "timestamp": "35:23",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Stefan Linder",
+          "text": "Vi hade kanske inte investerat i dem på grund av den lilla storleken, om det inte var så att de också hade lyckats i Tyskland. Tyskland är ju ändå bilmäcka och där var de redan marknadsledare.",
+          "timestamp": "37:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Stefan Linder",
+          "text": "Och genom att köpa Charge Storm, integrera det i bolaget, utveckla produkter tillsammans som är Cetechifierade och nu erbjuda dem till såväl laddstolps- och laddutrustningsbolag till konsument men också till de här bilproducenterna.",
+          "timestamp": "39:55",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Daniel Ljungström",
+          "text": "Det var 2011, alltså batterifrågan var inte så aktuell då som nu.",
+          "timestamp": "37:51",
+          "context": "other"
+        },
+        {
+          "speaker": "Stefan Linder",
+          "text": "Det vanligaste är nog fortfarande att man har en tioårsfond med två förlängningsår... vår är tretton med två förlängningsår, vi kallar det för ett femtonåret perspektiv.",
+          "timestamp": "22:04",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Stefan Linder",
+          "text": "Så i Cetex fall så sålde vi ner och äger idag 20% av bolaget.",
+          "timestamp": "46:32",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["200-300 miljoner SEK omsättning vid förvärv", "Marknadsledande i Tyskland", "Kunder: Porsche, McLaren, Ferrari"]
+      },
+      "thesis": {
+        "bull_case": ["Tekniskt effektiva laddare", "Marknadsledande position i Tyskland", "Expansion till elbilsladdning via Charge Storm-förvärv", "Etablerade relationer med premiumbilmärken", "Attraktion av Porsche, McLaren, Ferrari som kunder"],
+        "bear_case": ["Mindre bolagsstorlek", "Teknologisk skifte krävde anpassning"],
+        "catalysts": ["Elektrifiering av fordonsflottan", "Ökad efterfrågan på batteriladdare", "Integration av EV-laddningsteknologi"],
+        "risks": ["Teknologisk utveckling", "Konkurrens från stora aktörer"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Dustin",
+      "ticker": null,
+      "timestamp_start": "42:39",
+      "timestamp_end": "43:42",
+      "word_count": 150,
+      "speakers": ["Stefan Linder"],
+      "primary_speaker": "Stefan Linder",
+      "discussion_summary": "Dustin var en Altor-investering där de fick till ett partnerskap med Bosse Ulla Lundevall. Bolaget var marknadsledande online på datorer och IT-produkter i Sverige. Altor tog in kapital för att finansiera expansion till Norge, Finland och Danmark, vilket reducerade risken för den ursprungliga ägaren som ändå kunde behålla en ägarandel.",
+      "quotes": [
+        {
+          "speaker": "Stefan Linder",
+          "text": "Återigen då, där vi fick till ett jättebra partnerskap med Bosse Ulla Lundevall, familjeaktbolag. De hade ju lyckats bli marknadsledare online på deras typ av datorer och it-produkter i Sverige.",
+          "timestamp": "42:42",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Stefan Linder",
+          "text": "Medan vi kunde då komma in och ta en del av risken, investera kapital och så låta dem sälja ner lite grann initialt och så bygga den här nordiska expansionsplanen som vi då genomförde som blev väldigt lyckosam även för dem.",
+          "timestamp": "43:06",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Marknadsledande online på IT-produkter i Sverige"]
+      },
+      "thesis": {
+        "bull_case": ["Marknadsledande position i Sverige", "Nordisk expansionspotential", "Riskdelning med Altor"],
+        "bear_case": [],
+        "catalysts": ["Nordisk expansion"],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "EQT",
+      "ticker": "EQT AB",
+      "timestamp_start": "01:59",
+      "timestamp_end": "02:06",
+      "word_count": 50,
+      "speakers": ["Daniel Ljungström", "Stefan Linder"],
+      "primary_speaker": "Daniel Ljungström",
+      "discussion_summary": "EQT nämns kort som en konkurrent till Altor och som ett bolag som nyligen gått till börsen, vilket dragit intresset för private equity-bolag till sig.",
+      "quotes": [
+        {
+          "speaker": "Daniel Ljungström",
+          "text": "Det har dragit nästan alla investerare till sig.",
+          "timestamp": "02:02",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Men tillbaka till deras allokering då, nu begränsar de sig till att hälften får vara illikvitt. Det är ju en enormt hög andel, ska man komma ihåg. Särskilt som privatsparare. Men även i andra institutionella investerare och pensionsfonder ligger det kanske någonstans mellan 5-15-20% onoterat eller alternativa tillgångar totalt sett.",
+      "summary": "Yale Endowment allokerar 50% till illikvida tillgångar tack vare evig placeringshorisont. Vanliga institutionella investerare ligger på 5-20% och privatsparare bör vara ännu mer konservativa.",
+      "category": "wisdom",
+      "speaker": "Daniel Ljungström",
+      "speaker_role": "host",
+      "timestamp": "17:20",
+      "confidence": "high",
+      "tags": ["allokering", "institutionell investering", "horisont"]
+    },
+    {
+      "quote": "Det vanligaste är nog fortfarande att man har en tioårsfond med två förlängningsår, om man ska vara teknisk då. Och vår är tretton med två förlängningsår, vi kallar det för ett femtonåret perspektiv.",
+      "summary": "Private equity-fonder har typiskt en tioårsfund med två förlängningsår, vilket ger långsiktig kapitalallokering men kräver lång tidsram.",
+      "category": "wisdom",
+      "speaker": "Stefan Linder",
+      "speaker_role": "guest",
+      "timestamp": "22:04",
+      "confidence": "high",
+      "tags": ["private equity", "tidsram", "fondstruktur"]
+    },
+    {
+      "quote": "Så att ha lite distans både till titel, bolag och vad vi håller på med tror jag är jätteviktigt. Och ändå göra sitt bästa naturligtvis.",
+      "summary": "Att ha distans till sitt arbete och titel är viktigt för hantering av press, även om man gör sitt bästa.",
+      "category": "wisdom",
+      "speaker": "Stefan Linder",
+      "speaker_role": "guest",
+      "timestamp": "51:50",
+      "confidence": "medium",
+      "tags": ["stresshantering", "perspektiv"]
+    },
+    {
+      "quote": "Jag tror det viktigaste är en person i egenskapen. Nyfikenhet, analytiskt. Man gillar att gräva... Och det andra tror jag är att gilla och jobba med människor... Att inse att de kanske är lite lyckligt lottade eller har skapat sig en gynnsam position.",
+      "summary": "Nyfikenhet och analytisk förmåga är avgörande. Att gilla att jobba med människor och ha ödmjukhet är viktigt för att bygga relationer.",
+      "category": "wisdom",
+      "speaker": "Stefan Linder",
+      "speaker_role": "guest",
+      "timestamp": "53:13",
+      "confidence": "high",
+      "tags": ["karriär", "ledarskap", "egenskaper"]
+    },
+    {
+      "quote": "Det är klart att alla är intelligenta köpare, som vi får förutsätta att alla är. De ser ju genast om det här är ett bolag som är väl investerat, solitt har förutsättningar att växa, eller om man har krymt sig till lönsamhet. Planen framåt är lika viktig när man säljer som när man köper.",
+      "summary": "När man säljer är planen framåt lika viktig som vid köp. Köpare ser genast om bolaget har tillväxtpotential eller krympt till lönsamhet.",
+      "category": "wisdom",
+      "speaker": "Stefan Linder",
+      "speaker_role": "guest",
+      "timestamp": "45:14",
+      "confidence": "high",
+      "tags": ["värdering", "försäljning", "exit"]
+    },
+    {
+      "quote": "Man brukar återkomma till, är det lätt eller svårt att resa kapital idag, men det är mycket som ska falla på plats när man reser sin första fond. Investerarnas första fråga är ju varför ska ni med Garant Team lyckas?",
+      "summary": "Att resa första fonden är svårt. Investerare vill veta varför teamet kommer att lyckas. Etablerat track record underlättar.",
+      "category": "wisdom",
+      "speaker": "Stefan Linder",
+      "speaker_role": "guest",
+      "timestamp": "11:22",
+      "confidence": "high",
+      "tags": ["fondresning", "private equity", "investering"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet ger en djupgående genomgång av private equity och Altor som bolag. Stefan Linder förklarar hur private equity fungerar, från fondresning och bolagsförvärv till utveckling och exit. Fokus ligger på case studies med Cetec och Dustin där Altor genomfört transformationsresor. Diskussionen tar upp skillnader i horisont mellan institutionella investerare och privatsparare, samt vikten av trovärdighet och track record.",
+  "key_takeaways": [
+    "Private equity-fonder har typiskt tioårig horisont med två förlängningsår",
+    "Yale Endowment allokerar 50% till illikvida tillgångar tack vare evig placeringshorisont",
+    "Altor siktar på 3x avkastning på investeringar genom att göra större förändringsresor",
+    "Norden har hög penetration av private equity och god historik",
+    "Cetec gick från traditionell batteriladdning till elbilsladdning genom förvärv av ChargeStorm"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/analyspodden/transcripts/analyspodden-2021-11-18-f69c.txt",
+  "transcript_word_count": 9746,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,97 +1,492 @@
 {
+  "schema_version": "2.1",
   "episode_id": "borsmagasinet-2025-11-13-fb87",
-  "podcast_name": "Börs magasinet",
-  "episode_title": null,
+  "podcast_name": "Börsmagasinet",
+  "episode_title": "Avsnitt 101 - Rapporter och frågestund",
   "episode_number": 101,
   "date": "2025-11-13",
   "hosts": [
-    "Peckan"
+    "Anonymous host"
   ],
   "guests": [],
   "main_topics": [
     "Par Technology",
-    "Haxo",
-    "Kyivstar",
     "SBI Holdings",
-    "portföljhantering"
+    "Kyivstar",
+    "Hacksaw",
+    "Portföljallokering"
   ],
   "stocks_discussed": [
     "Par Technology",
-    "Haxo",
+    "SBI Holdings",
     "Kyivstar",
-    "SBI Holdings"
+    "Hacksaw"
   ],
   "recommendations": [
     {
-      "stock_name": "Haxo",
-      "ticker": "HAX",
-      "action": "hold",
-      "confidence": "medium",
-      "speaker": "Peckan",
-      "speaker_role": "host",
-      "timestamp": null,
-      "reasoning": "Host äger redan bolaget, tycker det är väderat billigt men varnar för risk med begränsad historik",
-      "price_target": "90-100",
-      "time_horizon": "short",
-      "quote": "Jag tror att det kan finnas ganska många kända investerare på Twitter som har köpt in... Ett bolag kommer att fortsätta att hålla koll på",
-      "sector": "Gaming/Casino",
-      "market": "unknown"
-    },
-    {
       "stock_name": "Par Technology",
       "ticker": "PAR",
-      "action": "hold",
+      "action": "buy",
       "confidence": "high",
-      "speaker": "Peckan",
+      "speaker": "Anonymous host",
       "speaker_role": "host",
       "timestamp": null,
-      "reasoning": "Host äger bolaget, ser uppsida i värdering men har säljmål runt 7-8 gånger sales",
+      "reasoning": "Bolaget gör $300M i ARR och handlas till ca 3-4x sales. Tillväxten har kommit tillbaka mot 20% efter att ha sjunkit till 15%. Man är i en anbudsprocess för en topp-3-restaurangkedja i världen vilket kan accelerera tillväxten 2025-2027. Marginalen borde kunna nå 20% EBIT och 15% FCF över tid. Aktien sjönk från 80 till 32-63 och sentimentet har skiftat negativt utan tydlig anledning. Jag äger bolaget och säljer om det når 7-8x sales.",
       "price_target": null,
-      "time_horizon": "medium",
-      "quote": "Jag tyckte det var en helt okej risk reward... Men kommer den upp igen mot typ 7-8 gånger sales så säljer jag nog",
-      "sector": "Programvara/Restauranger",
-      "market": "us"
+      "time_horizon": "medellång sikt",
+      "quote": "Jag tycker att det finns ganska mycket uppsida här. Jag vet inte hur länge jag kommer hålla det här bolaget. Men kommer den upp igen mot typ 7-8 gånger sales så säljer jag nog. Men jag tyckte det var en helt okej risk reward.",
+      "sector": "Programvara",
+      "market": "us",
+      "position_context": "~6% av portföljen",
+      "downside_note": null,
+      "catalyst_timing": "Storkundsavsnitt kan annonseras framöver"
     },
     {
       "stock_name": "Kyivstar",
       "ticker": null,
-      "action": "hold",
+      "action": "buy",
       "confidence": "medium",
-      "speaker": "Peckan",
+      "speaker": "Anonymous host",
       "speaker_role": "host",
       "timestamp": null,
-      "reasoning": "Host äger bolaget, ser stor uppsida vid eldupphör men varnar för låg likviditet och krigsrisk",
+      "reasoning": "Ukrainska telekom som växer 20% i både intäkter och EBITDA med 57% marginal. Efter capex på 30% blir FCF-marginen ca 25%. Digitala initiativ växer 600% med 50% marginal. Handlas till 3,5x EBITDA. Om eldupphör sker kan den ukrainska valutan stärkas 30-40% vilket ger 50-60% uppsida. VEON äger 90% men lock-up går ut i februari vilket kan pressa kursen kort sikt. Hyfsad risk/reward med hög upp- och nedsida.",
       "price_target": null,
-      "time_horizon": "long",
-      "quote": "Och jag tycker det är ändå en rätt hyfsad riskreward här... Det är en hyfsat liten position för mig. Men ja, vi har ungefär 5% här av portföljen",
+      "time_horizon": "lång sikt",
+      "quote": "Jag tycker att det är intressant att ha på radarn. Och det kan säkert bli lite intressanta möjligheter framöver. Jag har ungefär 5% här av portföljen.",
       "sector": "Telekom",
-      "market": "other"
+      "market": "other",
+      "position_context": "~5% av portföljen",
+      "downside_note": "Hög krigsrisk",
+      "catalyst_timing": "Eldupphör skulle ge omedelbar kursuppgång"
     },
     {
       "stock_name": "SBI Holdings",
-      "ticker": "8472",
-      "action": "hold",
+      "ticker": "8473",
+      "action": "buy",
       "confidence": "medium",
-      "speaker": "Peckan",
+      "speaker": "Anonymous host",
       "speaker_role": "host",
       "timestamp": null,
-      "reasoning": "Host äger bolaget, ser intressant uppsida från Ripple och Shinsei Bank noteringar men bolaget är svåranalyserat",
+      "reasoning": "Holdingbolag med flera finansiella tillgångar: banker, brokerage (ledande i Japan), asset management, crypto. Växer 33,5% och vinsten 172%. Handlas på 1,2-1,3x bok med 22-23% ROE. Äger 10% av Ripple - IPO kan bli stor katalysator och utgöra 30-40% av market cap. Shinsei Bank-notering kan vara 2/3 av SBI marknadsvärde. Asset management har växt från scratch till 12 biljoner yen med mål 20 biljoner 2027. Komplex bolagsstruktur men aktivist pressar på bättre kommunikation.",
       "price_target": null,
-      "time_horizon": "medium",
-      "quote": "Det är rätt intressant... Så trender kan bli... Kan bli ganska intressant. Ungefär 6... 6,5% av min portföljexponering",
+      "time_horizon": "medellång sikt",
+      "quote": "Till sju gånger earnings och att man har flera bolag som kan täcka market cap flera gånger om. Och plus en aktivist som är där också. Så trender kan bli kan bli ganska intressant.",
       "sector": "Finansiella tjänster",
-      "market": "other"
+      "market": "other",
+      "position_context": "~6,5% av portföljen",
+      "downside_note": null,
+      "catalyst_timing": "Shinsei-notering början av nästa år"
+    },
+    {
+      "stock_name": "Hacksaw",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Anonymous host",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Casino-slots provider som växte 50% QoQ i Q3 efter att tillväxt har varit svagare post-IPO. Aktien ligger 10% under IPO. Handlas till 7x EBIT nästa år med 40-50% tillväxt. Tredje ägaren har sålt stora mängder aktier vilket kan pressa kursen ytterligare. Potential till 90-100 men osäkert hur lång tid det tar. Kanske intressant trade men bör vara försiktig med att extrapolera för långt.",
+      "price_target": "90-100",
+      "time_horizon": "kort sikt",
+      "quote": "Jag tror ändå att det är lite väl billigt här. Känns jag tycker borde finnas en ganska enkel trade typ upp till 90 kanske hundra till och med. Sedan så får vi se. Det är svårt sia om hur lång framtiden.",
+      "sector": "Gaming",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": "Fortsatt säljpress från ägare",
+      "catalyst_timing": null
     }
   ],
-  "market_sentiment": "mixed",
-  "summary": "Peckan går igenom fyra bolag i portföljen: Haxo, Par Technology, Kyivstar och SBI Holdings. Alla fyra beskrivs som intressanta med potentiell uppsida men med olika risker. Par Technology kan accelerera tillväxten med nya kunder, Kyivstar har stort uppsidapotential vid eldupphör i Ukraina, och SBI Holdings kan få värdeökningar från Ripple och Shinsei Bank noteringar. Inga nya köprekommendationer ges.",
-  "key_takeaways": [
-    "Par Technology kan vinna stor restaurangkedja och accelerera tillväxten",
-    "Kyivstar kan få 50-60% uppsida vid eldupphör i Ukraina",
-    "SBI Holdings kan få uppsida från Ripple IPO och Shinsei Bank notering",
-    "Haxo är väderat billigt men har begränsad historik"
+  "stock_segments": [
+    {
+      "stock_name": "Par Technology",
+      "ticker": "PAR",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 800,
+      "speakers": [
+        "Anonymous host"
+      ],
+      "primary_speaker": "Anonymous host",
+      "discussion_summary": "Par Technology gör mjukvara till restauranger och snabbmatskedjor med 23% intäkter från McDonalds. Bolaget har $300M i ARR och handlas till ca 3-4x sales. Tillväxten sjönk till 15% men är nu tillbaka mot 20%. Aktiekursen kraschade från 80 till 32-63. Host ägde bolaget under pandemin och köpte nu igen. Storkund kontrakt kan accelerera tillväxt 2025-2027.",
+      "quotes": [
+        {
+          "speaker": "Anonymous host",
+          "text": "Par är ganska intressant historia. Man började att man hade ett P. O. S. Systemet. Så när du kör på en hamburgare systemet så när du går och köper en hamburgare på ett må ett finaste fem sex sju åren. Man flyttar sig mer och mer nykvarardelen.",
+          "timestamp": null,
+          "context": "business"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "I år i år gör man eller just gör man ungefär tre hundra miljoner dollar i E. R. R. Och det kan man ställas mot börsvärde på typ en halv miljard. Och ja kanske fyra gånger ARR nästa år.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Det kom ner lite grann de senaste kvartalen och det är därför också aktien har blivit slaktad. Aktien var uppe runt 80. Kom ner till 32-63 inför rapporten här.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Det här är ett bolag som borde kunna göra en 25-30% ebt och marginal. Och så kanske 10%. Så jag säger typ 20% ebit. Och så blir det en 15% free cashflow marginal.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Jag tycker att det finns ganska mycket uppsida här. Jag vet inte hur länge jag kommer hålla det här bolaget. Men kommer den upp igen mot typ 7-8 gånger sales så säljer jag nog.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "3.5-4.0x",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "23%",
+        "margin": {
+          "ebit": "20% (mål)",
+          "fcf": "15% (mål)"
+        },
+        "debt_level": null,
+        "custom": [
+          "ARR: $300M"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Tillväxt tillbaka mot 20% efter temporär svaghet",
+          "Storkund kontrakt kan accelerera tillväxt 2025-2027",
+          "Marginaler kan nå 20% EBIT/15% FCF",
+          "Värderingsmultiplar kan expandera till 7-8x sales"
+        ],
+        "bear_case": [
+          "Kompetition i mjukvarusektorn",
+          "Beroende av stora kunder som McDonalds"
+        ],
+        "catalysts": [
+          "Annonsering av storkund kontrakt",
+          "Tillväxtacceleration 2025-2027",
+          "Marginal expansion"
+        ],
+        "risks": [
+          "Beroende av snabbmatskedjor",
+          "Teknisk implementation risk"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Kyivstar",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 700,
+      "speakers": [
+        "Anonymous host"
+      ],
+      "primary_speaker": "Anonymous host",
+      "discussion_summary": "Kyivstar är största telekombolaget i Ukraina med 22,5 miljoner abonnenter. Växer 20% med 57% EBITDA marginal och ca 25% FCF marginal. Digitala tjänster växer 600%. Handlas till 3,5x EBITDA. Hög risk med krig men enorm uppsida vid eldupphör. VEON äger 90% men lock-up går ut februari.",
+      "quotes": [
+        {
+          "speaker": "Anonymous host",
+          "text": "Så här har vi liksom telefoni. Vi har tv. Vi har alla olika sorters av. Telekom service egentligen. Man växte intäkterna med 20% ungefär. 300 miljoner dollar.",
+          "timestamp": null,
+          "context": "business"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Ebita var ungefär 170 miljoner. Det var en ökning med 20-21% mot förra året. Och ger marginal på 57% ungefär.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Men i landet har man 22,5 miljoner abonnenter. Så det är en stor andel. Och 6,6 miljoner av de här så 32% av kundbasen ungefär de använder flera tjänster.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Skulle du få ett eldupphör. Då kommer antagligen den ukrainska valutan att gå upp 30-40% över natt. Och det kommer ju också göra att aktien kommer gå upp 30-40% över natt.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Under tiden så har du ett bolag som handlas till typ. 3,5 gånger i år. LGBT ungefär. Och växer vinsterna 20-25%.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Jag har ungefär 5% här av portföljen. Och det är liknande med Parum också. Parum har också en sekundär. Så det är 6%.",
+          "timestamp": null,
+          "context": "position"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "3.5x",
+        "ev_sales": null,
+        "fcf_yield": "~25%",
+        "dividend_yield": null,
+        "revenue_growth": "20%",
+        "margin": {
+          "ebitda": "57%",
+          "fcf": "25%"
+        },
+        "debt_level": null,
+        "custom": [
+          "ARPU: $3.7/månad",
+          "Subscribers: 22.5M",
+          "Digital growth: 600%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "20% tillväxt trots krig",
+          "Höga marginaler (57% EBITDA)",
+          "Digitala tjänster växer 600%",
+          "Eldupphör ger 50-60% uppsida",
+          "Låg värdering 3,5x EBITDA"
+        ],
+        "bear_case": [
+          "Hög krigsrisk - Ryssland kan vinna",
+          "Valutarisk (ukrainska valutan kollapsad)",
+          "VEON lock-up går ut februari"
+        ],
+        "catalysts": [
+          "Eldupphör/fredsförhandlingar",
+          "Valutastyrkning",
+          "Digital expansion"
+        ],
+        "risks": [
+          "Krigsutfall",
+          "Geopolitisk risk",
+          "Likviditet (låg free float)"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "SBI Holdings",
+      "ticker": "8473",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 900,
+      "speakers": [
+        "Anonymous host"
+      ],
+      "primary_speaker": "Anonymous host",
+      "discussion_summary": "SBI Holdings är ett japanskt holdingbolag med bank, brokerage (ledande i Japan), asset management och crypto-investeringar. Växer 33,5% med vinstökning 172%. Handlas till 1,2-1,3x bok med 22-23% ROE. Äger 10% av Ripple och har Shinsei Bank som kan noteras. Komplex struktur men flera katalysatorer.",
+      "quotes": [
+        {
+          "speaker": "Anonymous host",
+          "text": "Tredje bolaget som jag tänkte gå igenom är SBI Holdings. Noterat i A-appan. Ett ganska stort bolag. Ett holdingbolag egentligen. Av diverse olika finansiella tillgångar.",
+          "timestamp": null,
+          "context": "business"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Tittar man på konsoliderade siffror här för första halvan. Så växer man 33,5%. Och vinsten växer 172% year on year.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Det som är intressant här. Det här bolaget handlas på typ P7, P8. Det handlas på kanske 1,2-1,3 gånger bok. Och då har man return on equity på ungefär 22-23%.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Det som är intressant här är att man äger 10% av Ripple nätverket. Och det har ju stört som IPO för Ripple.",
+          "timestamp": null,
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Och det här skulle kunna vara två tredjedelar ungefär. Av SPIs market cap. Och det här har ju redan flöjtat. Så man siktar ju på notering i början av nästa år.",
+          "timestamp": null,
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Det är ett extremt svårt bolag att få grepp om. Om ni går in och kollar deras presentationer. Så gör de typ 160 sidor.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Anonymous host",
+          "text": "Så trender kan bli kan bli ganska intressant. Ungefär 6 6,5% av min portföljexponering.",
+          "timestamp": null,
+          "context": "position"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "7-8",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "33.5%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "ROE: 22-23%",
+          "P/B: 1.2-1.3x",
+          "Asset management: 12T yen (target 20T 2027)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hög tillväxt 33,5% och vinstökning 172%",
+          "Låg värdering 1,2-1,3x bok",
+          "Ripple IPO kan utgöra 30-40% av market cap",
+          "Shinsei notering kan vara 2/3 av marknadsvärde",
+          "Aktivist pressar bättre kommunikation"
+        ],
+        "bear_case": [
+          "Extremt komplex bolagsstruktur",
+          "Svårt för investerare att förstå",
+          "Crypto-beroende (Ripple)"
+        ],
+        "catalysts": [
+          "Ripple IPO",
+          "Shinsei Bank notering",
+          "Aktivist initiativ"
+        ],
+        "risks": [
+          "Komplexitet",
+          "Crypto-marknad risk",
+          "Valutarisk"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
   ],
-  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/transcripts/borsmagasinet/borsmagasinet-2025-11-13-fb87.txt",
+  "insights": [
+    {
+      "quote": "Jag tror att man får hitta det som passar ens personlighet. För vissa så funkar det bra. En koncentrerad portfölj. Man har typ 4-5 innehav. Man stoppar in allting i dem. Men vissa andra så. Klännar ju inte sova då.",
+      "summary": "Portföljallokering ska anpassas till ens personlighet och risktolerans - vissa klarar koncentrerade portföljer, andra behöver mer diversifiering för att kunna sova gott.",
+      "category": "philosophy",
+      "speaker": "Anonymous host",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "portföljallokering",
+        "riskhantering",
+        "investeringspsykologi"
+      ]
+    },
+    {
+      "quote": "När man är ganska ny så tror jag det är en fördel att ha fler bolag. För varje investering du gör så du har ju typ en feedback loop. Sen så får du feedback på det. Och hur du tänker. I en större omfattning. Än våra rösta nöds få bolag.",
+      "summary": "Nya investerare har nytta av bredare portföljer för att få mer feedback och erfarenhet. Med fler innehav lär man sig snabbare av misstag och bygger pattern recognition.",
+      "category": "wisdom",
+      "speaker": "Anonymous host",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "nybörjare",
+        "lärdom",
+        "feedback"
+      ]
+    },
+    {
+      "quote": "Det är ju konstant grejer som ska fixas. Det är ju det enda som är. Det är ju konstant grejer som ska fixas. Så då måste man ju fixa dem. Och det är ju inte så mycket mer med det.",
+      "summary": "Att driva företag handlar i grunden om att lösa problem konstant. Det är inget mysterium - bara lösa problem efter problem.",
+      "category": "wisdom",
+      "speaker": "Anonymous host",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": [
+        "företagande",
+        "entreprenörskap"
+      ]
+    },
+    {
+      "quote": "Man kan ju aldrig minimera misstag. Men att göra dem mer än en gång. Ja, det är ju onödigt. Då lär man sig ju inte av dem.",
+      "summary": "Man kan undvika alla misstag men man bör inte göra samma misstag två gånger. Att lära sig av sina misstag är avgörande för utveckling.",
+      "category": "lesson",
+      "speaker": "Anonymous host",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "misstag",
+        "lärande"
+      ]
+    },
+    {
+      "quote": "I slutändan är det ju typ bara pattern recognition. Allting. Jag har sett vissa situationer förut i tiden. Och försöker hitta. Alla de grejerna igen.",
+      "summary": "Framgångsrikt investerande handlar om pattern recognition - att känna igen situationer man sett tidigare och identifiera möjligheter när förändring sker.",
+      "category": "philosophy",
+      "speaker": "Anonymous host",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "pattern recognition",
+        "investeringsstrategi"
+      ]
+    },
+    {
+      "quote": "Jag tycker inte det är någon direkt fördel att sätta en måltavla på sig själv. Om man inte måste.",
+      "summary": "Det finns ingen fördel med att vara offentlig med sitt namn som investerare - det skapar bara en måltavla utan att ge tydliga fördelar.",
+      "category": "wisdom",
+      "speaker": "Anonymous host",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": [
+        "anonymitet",
+        "investerare"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "XRP",
+      "asset_name": "Ripple",
+      "sentiment": "bullish",
+      "speaker": "Anonymous host",
+      "speaker_role": "host",
+      "quote": "Det som är intressant här är att man äger 10% av Ripple nätverket. Och det har ju stört som IPO för Ripple. Vi vet inte om det kommer komma. Men frågan är ju att det kommer väl komma någon gång.",
+      "context": "SBI Holdings äger 10% av Ripple vilket kan bli stor katalysator vid IPO",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": null,
+      "asset_name": "Crypto (generellt)",
+      "sentiment": "neutral",
+      "speaker": "Anonymous host",
+      "speaker_role": "host",
+      "quote": "Det handlar lite efter nyhetsflödet i crypto. Vilket inte är min hemmafas vanligtvis.",
+      "context": "SBI Holdings exponering till crypto katalysatorer",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på fyra bolag: Par Technology (mjukvara till restauranger, köpsignal), Kyivstar (ukrainsk telekom, spekulativ köp med hög risk/reward), SBI Holdings (japanskt finansbolag med flera katalysatorer), och Hacksaw (casino gaming, watch). Hosten diskuterar också portföljstrategi och betonar vikten av att anpassa allokeringsstrategi till ens personlighet.",
+  "key_takeaways": [
+    "Par Technology handlas till låg multipl med potentiell storkund katalysator",
+    "Kyivstar erbjuder asymmetrisk risk/reward med eldupphör som super-katalysator",
+    "SBI Holdings är komplext men med flera uppsidescenarios (Ripple IPO, Shinsei notering)",
+    "Nya investerare bör ha bredare portföljer för att bygga pattern recognition",
+    "Pattern recognition är nyckeln till att identifiera förändringar i bolag"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borsmagasinet/transcripts/borsmagasinet-2025-11-13-fb87.txt",
   "transcript_word_count": 6695,
   "has_timestamps": false,
   "model_used": "glm-4.7"

@@ -37,7 +37,6 @@ def cmd_dashboard_generate(args: argparse.Namespace) -> int:
         console.print(f"[green]✓[/green] Dashboard generated: {result.output_path}")
         console.print(f"  Analyses: {result.analyses_count}")
         console.print(f"  Recommendations: {result.recommendations_count}")
-        console.print(f"  Watchlist items: {result.watchlist_count}")
 
         if args.open:
             _open_in_browser(result.output_path)
