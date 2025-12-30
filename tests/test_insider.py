@@ -4,6 +4,9 @@ from __future__ import annotations
 
 from datetime import date, datetime
 
+import pytest
+
+from podstock.insider.base_client import InsiderClient
 from podstock.insider.exceptions import (
     InsiderError,
     ParseError,
@@ -164,3 +167,44 @@ class TestInsiderReport:
         )
         assert len(report.transactions) == 1
         assert report.transactions[0].insider_name == "Tim Cook"
+
+
+class TestInsiderClient:
+    """Tests for InsiderClient abstract base class."""
+
+    def test_cannot_instantiate_directly(self) -> None:
+        """Should not be able to instantiate abstract class."""
+        with pytest.raises(TypeError):
+            InsiderClient()  # type: ignore
+
+    def test_supports_ticker_no_suffix(self) -> None:
+        """Client with empty suffixes should match tickers without dots."""
+
+        class USClient(InsiderClient):
+            market_code = "US"
+            supported_suffixes: list[str] = []
+
+            async def get_transactions(self, ticker: str, days: int = 90):
+                pass
+
+        client = USClient()
+        assert client.supports_ticker("AAPL") is True
+        assert client.supports_ticker("MSFT") is True
+        assert client.supports_ticker("EVO.ST") is False
+
+    def test_supports_ticker_with_suffix(self) -> None:
+        """Client with suffixes should match those suffixes."""
+
+        class SEClient(InsiderClient):
+            market_code = "SE"
+            supported_suffixes = [".ST", ".NGM"]
+
+            async def get_transactions(self, ticker: str, days: int = 90):
+                pass
+
+        client = SEClient()
+        assert client.supports_ticker("EVO.ST") is True
+        assert client.supports_ticker("VOLV-B.ST") is True
+        assert client.supports_ticker("TEST.NGM") is True
+        assert client.supports_ticker("AAPL") is False
+        assert client.supports_ticker("EQNR.OL") is False

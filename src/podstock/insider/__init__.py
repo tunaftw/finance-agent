@@ -4,6 +4,7 @@ This module provides tools for fetching and analyzing insider trading
 data from SEC EDGAR (US) and Finansinspektionen (Sweden).
 """
 
+from podstock.insider.base_client import InsiderClient
 from podstock.insider.exceptions import (
     InsiderError,
     ParseError,
@@ -19,6 +20,7 @@ from podstock.insider.models import (
 )
 
 __all__ = [
+    "InsiderClient",
     "InsiderError",
     "InsiderReport",
     "InsiderRole",
