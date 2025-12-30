@@ -208,3 +208,70 @@ class TestInsiderClient:
         assert client.supports_ticker("TEST.NGM") is True
         assert client.supports_ticker("AAPL") is False
         assert client.supports_ticker("EQNR.OL") is False
+
+
+class TestInsiderRouter:
+    """Tests for InsiderRouter."""
+
+    def test_detect_us_ticker(self) -> None:
+        """Should detect US tickers (no suffix)."""
+        from podstock.insider.router import InsiderRouter
+
+        router = InsiderRouter()
+        assert router.detect_market("AAPL") == "US"
+        assert router.detect_market("MSFT") == "US"
+        assert router.detect_market("TSLA") == "US"
+
+    def test_detect_swedish_ticker(self) -> None:
+        """Should detect Swedish tickers (.ST suffix)."""
+        from podstock.insider.router import InsiderRouter
+
+        router = InsiderRouter()
+        assert router.detect_market("EVO.ST") == "SE"
+        assert router.detect_market("VOLV-B.ST") == "SE"
+        assert router.detect_market("HM-B.ST") == "SE"
+
+    def test_detect_ngm_ticker(self) -> None:
+        """Should detect NGM tickers (.NGM suffix)."""
+        from podstock.insider.router import InsiderRouter
+
+        router = InsiderRouter()
+        assert router.detect_market("TEST.NGM") == "SE"
+
+    def test_detect_norwegian_ticker(self) -> None:
+        """Should detect Norwegian tickers (.OL suffix)."""
+        from podstock.insider.router import InsiderRouter
+
+        router = InsiderRouter()
+        assert router.detect_market("EQNR.OL") == "NO"
+
+    def test_detect_danish_ticker(self) -> None:
+        """Should detect Danish tickers (.CO suffix)."""
+        from podstock.insider.router import InsiderRouter
+
+        router = InsiderRouter()
+        assert router.detect_market("NOVO-B.CO") == "DK"
+
+    def test_detect_finnish_ticker(self) -> None:
+        """Should detect Finnish tickers (.HE suffix)."""
+        from podstock.insider.router import InsiderRouter
+
+        router = InsiderRouter()
+        assert router.detect_market("NOKIA.HE") == "FI"
+
+    def test_unknown_suffix_returns_none(self) -> None:
+        """Should return None for unknown suffixes."""
+        from podstock.insider.router import InsiderRouter
+
+        router = InsiderRouter()
+        assert router.detect_market("SAP.DE") is None
+        assert router.detect_market("INVALID.XX") is None
+
+    def test_get_client_raises_for_unsupported(self) -> None:
+        """Should raise SourceUnavailableError for unsupported markets."""
+        from podstock.insider.router import InsiderRouter
+
+        router = InsiderRouter()
+        with pytest.raises(SourceUnavailableError) as exc_info:
+            router.get_client("EQNR.OL")  # Norway not yet implemented
+        assert exc_info.value.market == "NO"

@@ -18,12 +18,14 @@ from podstock.insider.models import (
     InsiderTransaction,
     TransactionType,
 )
+from podstock.insider.router import InsiderRouter
 
 __all__ = [
     "InsiderClient",
     "InsiderError",
     "InsiderReport",
     "InsiderRole",
+    "InsiderRouter",
     "InsiderTransaction",
     "ParseError",
     "RateLimitExceededError",
