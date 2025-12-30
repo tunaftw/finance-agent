@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "updated_at": "2025-12-30T00:00:00Z",
+  "markets": {
+    "US": {"enabled": true, "client": "sec_edgar"},
+    "SE": {"enabled": true, "client": "finansinspektionen"},
+    "NO": {"enabled": false, "client": null},
+    "DK": {"enabled": false, "client": null},
+    "FI": {"enabled": false, "client": null}
+  }
+}

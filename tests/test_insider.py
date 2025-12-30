@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from datetime import date, datetime
+from pathlib import Path
 
 import pytest
 
@@ -20,6 +21,7 @@ from podstock.insider.models import (
     InsiderTransaction,
     TransactionType,
 )
+from podstock.insider.storage import InsiderStorage
 
 
 class TestInsiderExceptions:
@@ -275,3 +277,55 @@ class TestInsiderRouter:
         with pytest.raises(SourceUnavailableError) as exc_info:
             router.get_client("EQNR.OL")  # Norway not yet implemented
         assert exc_info.value.market == "NO"
+
+
+class TestInsiderStorage:
+    """Tests for InsiderStorage."""
+
+    def test_get_cache_path(self, tmp_path: Path) -> None:
+        """Should return correct cache path."""
+        storage = InsiderStorage(tmp_path)
+        path = storage.get_cache_path("AAPL", "sec_edgar")
+        assert "cache/sec_edgar" in str(path)
+        assert path.name == "AAPL.json"  # No date in filename
+
+    def test_get_report_path(self, tmp_path: Path) -> None:
+        """Should return correct report path."""
+        storage = InsiderStorage(tmp_path)
+        path = storage.get_report_path("apple", "AAPL")
+        assert "reports" in str(path)
+        assert "apple-AAPL" in str(path)
+
+    def test_save_and_load_report(self, tmp_path: Path) -> None:
+        """Should save and load report correctly."""
+        storage = InsiderStorage(tmp_path)
+        report = InsiderReport(
+            ticker="AAPL",
+            company_name="Apple Inc.",
+            market="US",
+            transactions=[],
+            period_days=90,
+            fetched_at=datetime.now(),
+        )
+        path = storage.save_report(report, "apple")
+        assert path.exists()
+
+        loaded = storage.load_report(path)
+        assert loaded.ticker == "AAPL"
+        assert loaded.company_name == "Apple Inc."
+
+    def test_is_cache_valid(self, tmp_path: Path) -> None:
+        """Should detect valid cache within TTL."""
+        storage = InsiderStorage(tmp_path)
+        # Save a fresh report
+        report = InsiderReport(
+            ticker="AAPL",
+            company_name="Apple Inc.",
+            market="US",
+            transactions=[],
+            period_days=90,
+            fetched_at=datetime.now(),
+        )
+        storage.save_cache(report, "sec_edgar")
+
+        assert storage.is_cache_valid("AAPL", "sec_edgar", ttl_hours=1) is True
