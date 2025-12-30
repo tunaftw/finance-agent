@@ -150,15 +150,13 @@ def inventory_company_data(company_query: str) -> dict:
                 with open(json_file, 'r') as f:
                     data = json.load(f)
 
-                # Check stocks_discussed and recommendations (same structure as podcasts)
-                stocks = data.get("stocks_discussed", [])
-                recs = data.get("recommendations", [])
+                # YouTube uses mentions[] structure with asset_symbol and asset_name
+                mentions = data.get("mentions", [])
 
-                stocks_lower = [s.lower() for s in stocks]
-                rec_stocks = [r.get("stock_name", "").lower() for r in recs]
-                rec_tickers = [r.get("ticker", "").lower() for r in recs]
+                mention_symbols = [m.get("asset_symbol", "").lower() for m in mentions]
+                mention_names = [m.get("asset_name", "").lower() for m in mentions]
 
-                all_mentions = set(stocks_lower + rec_stocks + rec_tickers)
+                all_mentions = set(mention_symbols + mention_names)
 
                 if any(v in mention or mention in v for v in query_variants for mention in all_mentions if mention):
                     youtube_files.append({
@@ -260,25 +258,18 @@ def inventory_company_data(company_query: str) -> dict:
             cursor = conn.cursor()
 
             # Check for company mentions in recommendations table
+            # Schema uses raw_stock_name and raw_ticker columns
             cursor.execute("""
                 SELECT COUNT(*) FROM recommendations
-                WHERE LOWER(stock_name) LIKE ? OR LOWER(ticker) LIKE ?
+                WHERE LOWER(raw_stock_name) LIKE ? OR LOWER(raw_ticker) LIKE ?
             """, (f"%{query_lower}%", f"%{query_lower}%"))
             rec_count = cursor.fetchone()[0]
 
-            # Check prices table
-            cursor.execute("""
-                SELECT COUNT(*) FROM prices
-                WHERE LOWER(ticker) LIKE ?
-            """, (f"%{query_lower}%",))
-            price_count = cursor.fetchone()[0]
-
             conn.close()
 
-            if rec_count > 0 or price_count > 0:
+            if rec_count > 0:
                 db_info = {
-                    "recommendations_count": rec_count,
-                    "price_entries": price_count
+                    "recommendations_count": rec_count
                 }
         except sqlite3.Error:
             pass
@@ -406,7 +397,6 @@ def display_inventory(inventory: dict) -> str:
         data = src["data"]
         lines.append(f"**Database** (podstock.db)")
         lines.append(f"  - {data.get('recommendations_count', 0)} recommendations")
-        lines.append(f"  - {data.get('price_entries', 0)} price entries")
         lines.append("")
 
     # Prices
