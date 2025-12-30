@@ -11,11 +11,21 @@ from podstock.insider.exceptions import (
     SourceUnavailableError,
     TickerNotFoundError,
 )
+from podstock.insider.models import (
+    InsiderReport,
+    InsiderRole,
+    InsiderTransaction,
+    TransactionType,
+)
 
 __all__ = [
     "InsiderError",
+    "InsiderReport",
+    "InsiderRole",
+    "InsiderTransaction",
     "ParseError",
     "RateLimitExceededError",
     "SourceUnavailableError",
     "TickerNotFoundError",
+    "TransactionType",
 ]
