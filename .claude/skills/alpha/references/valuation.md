@@ -171,6 +171,11 @@ def build_scenarios(
         >>> # Base: EBITDA=2000, Multiple=10.0x, EV=20000, FV=170.0
         >>> # Bear: EBITDA=1600, Multiple=8.5x, EV=13600, FV=106.0
     """
+    if shares <= 0:
+        raise ValueError("shares must be positive")
+    if base_ebitda <= 0:
+        raise ValueError("base_ebitda must be positive for EV/EBITDA valuation")
+
     scenarios = []
 
     # Bull case
@@ -267,6 +272,9 @@ def calculate_fair_value(
             'total_probability': 1.0
         }
     """
+    if not scenarios:
+        raise ValueError("scenarios list cannot be empty")
+
     weighted_sum = 0.0
     total_prob = 0.0
     contributions = {}
@@ -349,6 +357,9 @@ def generate_verdict(
             'summary': 'Aktien handlas 21% under viktat fair value...'
         }
     """
+    if current_price <= 0:
+        raise ValueError("current_price must be positive")
+
     # Calculate upside/downside
     upside_pct = ((weighted_fv - current_price) / current_price) * 100
 
