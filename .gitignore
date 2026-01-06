@@ -115,6 +115,9 @@ dmypy.json
 # Ljudfiler (stora, kan laddas ner igen med 'podstock download')
 data/audio/
 
+# Generated dashboard (use public/ for deployment)
+data/dashboard/
+
 # SQLite database (can be regenerated with 'podstock db init && podstock db load')
 data/podstock.db
 data/podstock.db-journal
