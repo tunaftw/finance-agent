@@ -1,0 +1,229 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2016-08-16-5dea",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 72 - Tradingspecial (160816)",
+  "episode_number": 72,
+  "date": "2016-08-16",
+  "hosts": [
+    "Puketrader",
+    "Andersson",
+    "Långulf"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Morgonrutiner för traders",
+    "Tradingsstrategier och psykologi",
+    "Riskhantering och belåning",
+    "Felklick och tradingmisstag"
+  ],
+  "stocks_discussed": [
+    "Coloplast",
+    "G4S",
+    "Bavarian",
+    "Peptonic",
+    "Fortum"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Coloplast",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Långulf",
+      "speaker_role": "host",
+      "timestamp": "25:11",
+      "reasoning": "Kortade aktien efter en rapport som missade förväntningarna. Bolaget har högt P/E-tal, verkar i läkemedelsbranschen där många förväntade sig att det skulle hålla sig i bäso, men det har inte varit någon bäso på sista morgonen. Positionen hölls hela dagen och squeeze up till 527 där positionen ökades.",
+      "price_target": null,
+      "time_horizon": "intraday",
+      "quote": "Jag tyckte att den var inget bra, den missade och de har högt PE. Så lät jag lära in liga hela dagen. Och den squeezeade sig upp till 527. Och där ökade jag på. Och sen lät jag lära in liga hela dagen.",
+      "sector": "Medtech/Läkemedelsindustri",
+      "market": "denmark",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Coloplast",
+      "ticker": null,
+      "timestamp_start": "24:53",
+      "timestamp_end": "27:42",
+      "word_count": 350,
+      "speakers": [
+        "Långulf",
+        "Andersson"
+      ],
+      "primary_speaker": "Långulf",
+      "discussion_summary": "Långulf berättar om en korttrade i Coloplast efter en rapport som kom tio minuter tidigt och missade förväntningarna. Trots sent entrande (dålig entry) lyckades han genomföra en lyckad trade genom att vänta på den andra svingen där Nordnet gjorde en sak var ensamma om och Anonymous (utländska banker) hakade på senare. Han squeezeade positionen till 527 och ökade på.",
+      "quotes": [
+        {
+          "speaker": "Långulf",
+          "text": "Han hade Coolplast i Danmark. Det vart ju lite speciellt för att rapporten skulle komma klockan tolv, den kom tio minuter innan, så man var inte helt förberedd där. Och den började röra sig, och sen så blir man lite orolig på sistone.",
+          "timestamp": "24:53",
+          "context": "metric"
+        },
+        {
+          "speaker": "Långulf",
+          "text": "Ja, jag tyckte att den fick nå det sent, jag såg det sent. Exakt. Vi mötte varandra i trappen här. Det är koloplast snart, han var i skit i att vara i. Fat and happy.",
+          "timestamp": "25:11",
+          "context": "other"
+        },
+        {
+          "speaker": "Långulf",
+          "text": "Jag tyckte att den var inget bra, den missade och de har högt PE. Nej, och det var ju nog en sån bransch också. De kör ju mycket till läkemedelsbranschen och så vidare som jag tror att många förväntade sig att den ska ha hållit sig i bäso.",
+          "timestamp": "25:55",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Långulf",
+          "text": "Så den squeezeen kom ju. Så jag tror att den squeezeade sig upp till 527. Och där ökade jag på. Och sen lät jag lära in liga hela dagen.",
+          "timestamp": "25:44",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Du hade någon konviktion att det här var sämre än väntat och därför trötte du ut.",
+          "timestamp": "26:00",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "hög",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Rapporten missade förväntningar",
+          "Högt P/E-tal",
+          "Läkemedelsbranschen har inte haft bäso på sista tiden"
+        ],
+        "catalysts": [
+          "Rapport som kom tidigt"
+        ],
+        "risks": [
+          "Sent på bollen",
+          "Dålig entry"
+        ]
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det det jag vill komma tillbaka till, som jag tycker att jag har tappat lite mer i alla fall det här året, det är väl att man inte, även om man har conviction, till exempel det kan vara en rapport eller så vidare, att man tar en position och sen när den går med dig, då hoppar jag av för snabbt. Jag är ju för inne på det här kassaflödesstänket, känns det som.",
+      "summary": "Vanligt misstag att kliva av vinnande positioner för snabbt på grund av kassaflödestänkande istället för att hålla conviction-trades över tid.",
+      "category": "lesson",
+      "speaker": "Långulf",
+      "speaker_role": "host",
+      "timestamp": "08:27",
+      "confidence": "high",
+      "tags": [
+        "conviction",
+        "kassaflöde",
+        "positionshantering"
+      ]
+    },
+    {
+      "quote": "Jag kan känna nu på senaste månaderna, förutom brexit-veckan så har det varit väldigt lugnt och väldigt nyhetsfattigt och då känner man att när man väl gör en liten vinst, då tar man gärna den för att det kommer inte komma så mycket mer tåg.",
+      "summary": "I lugna marknadsmiljöer tenderar traders att ta för små vinster istället för att vänta på större rörelser.",
+      "category": "wisdom",
+      "speaker": "Puketrader",
+      "speaker_role": "host",
+      "timestamp": "10:32",
+      "confidence": "medium",
+      "tags": [
+        "marknadsklimat",
+        "vinsttagning"
+      ]
+    },
+    {
+      "quote": "Då skulle jag väl säga att jag kanske är i kronor 10% över vad jag låg förra året. Så det får vi ju gratulera för. Det kanske inte är tillräckligt bra, man vill ju öka så mycket som möjligt, men det är ändå ett steg på vägen framåt.",
+      "summary": "Fokus på konsistenta, stabila resultat över tid istället för att jaga maximal avkastning.",
+      "category": "philosophy",
+      "speaker": "Långulf",
+      "speaker_role": "host",
+      "timestamp": "04:24",
+      "confidence": "medium",
+      "tags": [
+        "resultat",
+        "konsistens"
+      ]
+    },
+    {
+      "quote": "Om vi går tillbaka hela vägen till 2010-2011, det kunde vara dagar där du hade en dag. Tre punkter, fyra punkter i terminen. På den tiden, då kanske du fick två chanser.",
+      "summary": "Marknadsmiljön förändras - perioder med låg volatilitet kräver mer disciplin och patience än högvolatila perioder.",
+      "category": "wisdom",
+      "speaker": "Puketrader",
+      "speaker_role": "host",
+      "timestamp": "18:38",
+      "confidence": "high",
+      "tags": [
+        "volatilitet",
+        "marknadsklimat"
+      ]
+    },
+    {
+      "quote": "Hipotetiskt säger att börsen går upp 51% av dagarna och ner 49% bara, hipotetiskt, så kan vi konstatera att ju större populationen är, ju fler dagar du håller ut desto större sannolikhet kommer det att vara att du hamnar på grönt.",
+      "summary": "Över tid ökar sannolikheten för positivt utfall givet en positiv trend - patience kan vara en fördel.",
+      "category": "philosophy",
+      "speaker": "Andersson",
+      "speaker_role": "host",
+      "timestamp": "29:20",
+      "confidence": "high",
+      "tags": [
+        "tidshorisont",
+        "sannolikhet"
+      ]
+    },
+    {
+      "quote": "Jag fick det tipset för länge sen, att det ska alltid kännas som att du har lite för lite. Nu är jag inte någon förespråkare belåning över huvud taget egentligen, och använder inte det så mycket.",
+      "summary": "En tumregel för positionshantering - man ska känna att man har lite för små positioner snarare än för stora.",
+      "category": "wisdom",
+      "speaker": "Puketrader",
+      "speaker_role": "host",
+      "timestamp": "31:12",
+      "confidence": "high",
+      "tags": [
+        "positionshantering",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Om man känner att man sover dåligt, att man går och tänker på den här possen när börsen är stängt, då har man nog troligtvis lite för stor size.",
+      "summary": "Sömnkvalitet är en bra indikator på om man tagit för stora risker.",
+      "category": "wisdom",
+      "speaker": "Andersson",
+      "speaker_role": "host",
+      "timestamp": "30:47",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "psykologi"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar tradingstrategier, morgonrutiner, och riskhantering för day traders. Värdarna delar erfarenheter från första delen av året, psykologiska utmaningar som att kliva av för snabbt ur vinnande positioner, och vikten av att hitta sin nisch. Det behandlas också belåning, overnight risk, och flera berättelser om felklick och tradingmisstag som varningssignaler.",
+  "key_takeaways": [
+    "Disciplin att hålla conviction-trades är svårt men viktigt",
+    "Position sizing ska kännas lite för liten snarare än för stor",
+    "Sömnproblem är en varningssignal för överrisk",
+    "Marknadsmiljön förändras och kräver anpassning",
+    "Felklick handlar sällan positivt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2016-08-16-5dea.txt",
+  "transcript_word_count": 3900,
+  "has_timestamps": true,
+  "model_used": "manual"
+}

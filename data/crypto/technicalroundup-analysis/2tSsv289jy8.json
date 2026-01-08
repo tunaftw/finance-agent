@@ -1,0 +1,144 @@
+{
+  "source_id": "2tSsv289jy8",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-12-19",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Failed breakout at daily range high (17.6K) within ongoing downtrend, targeting range low (16K)",
+      "quote": "This failed breakout that happened at the range high it's in line with the larger downtrend that we're in so you kind of have to give this a bit more weight",
+      "price_levels": [
+        "$20,000",
+        "$19,000",
+        "$17,600",
+        "$16,800",
+        "$16,000",
+        "$14,000-$12,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Failed to break out above 1.3K range high, similar setup to Bitcoin with downtrend continuation",
+      "quote": "I think the most we can reasonably infer from the monthly is that if it continues puking uh your first Pit Stop has kind of got to be previous month's low",
+      "price_levels": [
+        "$1,300",
+        "$1,200",
+        "$1,100"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "SOL level continues to look like resistance",
+      "quote": "this soul level for the longest time this just looks puke still looks like resistance",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "APE",
+      "asset_name": "ApeCoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentions staking news but no significant price analysis",
+      "quote": "ape had some staking thing but broadly speaking you know he had the big Underside retest here not much else going on",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "AVAX",
+      "asset_name": "Avalanche",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Not interested in this coin, minimal analysis",
+      "quote": "avax uni I don't care about these coins",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "UNI",
+      "asset_name": "Uniswap",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Not interested in this coin, minimal analysis",
+      "quote": "avax uni I don't care about these coins",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$20,000",
+        "$17,600",
+        "$16,000",
+        "$14,000-$12,000"
+      ],
+      "ETH": [
+        "$1,300",
+        "$1,100"
+      ]
+    }
+  },
+  "key_insights": [
+    "Failed breakouts in downtrend are more powerful than failed breakdowns in uptrend - BTC and ETH both showing this pattern",
+    "BTC daily range (16K-17.6K) with failed breakout at 17.6K creates bearish bias targeting range low",
+    "Monthly timeframe still bearish for BTC with bearish engulfing from previous month",
+    "ETH critical support at 1.1K - monthly closes below would be catastrophic",
+    "S&P 500 also failed to break above 3900 and is puking, showing broader risk-off sentiment across markets",
+    "Not interested in altcoins given failed breakouts in BTC/ETH - waiting for capitulation levels"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "below $17,600",
+      "target": "$16,000 or range low",
+      "stop": "above $17,600",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "reclaim above $17,600",
+      "target": "$18,000-$19,000 retest",
+      "stop": "below current levels",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "below $1,300",
+      "target": "$1,200 or $1,100",
+      "stop": "above $1,300",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "TechnicalRoundup episode from December 2022 showing bearish bias across crypto markets. BTC and ETH both showing failed breakouts within downtrends - BTC failed at 17.6K range high while ETH failed at 1.3K. Weekly market structures remain bearish with no higher highs made. S&P 500 also showing weakness after failing to break 3900 level. Overall sentiment is risk-off with focus on failed breakout continuation patterns rather than mean reversals.",
+  "transcript_word_count": 12358,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:29:11.835541"
+}

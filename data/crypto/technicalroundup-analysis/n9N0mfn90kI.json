@@ -1,0 +1,151 @@
+{
+  "source_id": "n9N0mfn90kI",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-11-17",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Duck closed his swing long from 16k and is now flat. He sees both upside and downside as equally likely and is waiting on the sidelines for now.",
+      "quote": "it's not like I'm short or anything it's just me closing trades so that isn't like I think the chances of it going down a chance and a chance of it going up but I don't have strong conviction",
+      "price_levels": [
+        "$30,000",
+        "$32,000",
+        "$44,000-$46,000",
+        "$60,000",
+        "$20,000-$23,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Cred notes the weekly time frame shows one of the best setups in crypto with macro range reclaim, but the monthly shows resistance. If the weekly supersedes the monthly, 44-46k is target.",
+      "quote": "if there was only one time frame and I had no more information than than just that time frame there's no way in hell that I would be anything but bullish",
+      "price_levels": [
+        "$32,000",
+        "$44,000-$46,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Despite spot ETF news, ETH barely moved. The ETH/BTC pair is bearish and ETH/USD failed to reclaim. Duck sees it wanting to go lower.",
+      "quote": "Bitcoin went from 25 to 38k right Bitcoin being a much larger asset went up 50% on the same news ETH did nothing which is very very bearish",
+      "price_levels": [
+        "0.062 ETH/BTC",
+        "$1,935 ETH/USD",
+        "$1,900 ETH/USD"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH/BTC is described as a bearish chart that has broken down from a multi-year range and is now retesting from below.",
+      "quote": "I mean just look at ebtc that's a bearish chart it doesn't get more bearish than this",
+      "price_levels": [
+        "0.057 ETH/BTC",
+        "0.062 ETH/BTC",
+        "$1,900 ETH/USD"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Altcoins like Solana have been pumping hard, even outperforming Bitcoin during the rally. This is seen as a late-stage rotation.",
+      "quote": "especially with some of the outliers now again evidence that it's not some new regime necessarily is that there have been no sort of sectoral pumps or anything of that nature right",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Solana and AVAX mentioned as proxies that have been pumping during this period.",
+      "quote": "Salana has been pumping and AVX has been pumping as a sort of proxy beta to that",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "DOGE",
+      "asset_name": "Dogecoin",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Mentioned as example of altcoins pumping, even 40-50% in a day.",
+      "quote": "like for example today Dogecoin went up right like a bunch and it's easier for me to be kind of convicted in in my sales",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$30,000",
+        "$32,000",
+        "$44,000-$46,000"
+      ],
+      "ETH": [
+        "$1,900",
+        "0.062 ETH/BTC"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin shows divergence between bullish weekly time frame (range reclaim setup) and bearish monthly time frame (at resistance)",
+    "Altcoin pumps (Solana, etc.) at BTC monthly resistance are seen as signs of market froth and late-stage rotation",
+    "ETF narrative may be largely priced in - the market has been trading this story since around 24k",
+    "ETH has significantly underperformed BTC despite the same spot ETF news, showing weakness",
+    "Duck closed his 16k long due to lack of conviction and concerns about overextension at resistance"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$30,000-$32,000 or $20,000-$23,000",
+      "target": "$44,000-$46,000",
+      "stop": null,
+      "speaker": "Duck"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "Current prices",
+      "target": "Lower",
+      "stop": "0.062 ETH/BTC",
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "BTC is trading in a tricky spot around monthly resistance ($32k-$37k) with the weekly showing a bullish setup while the monthly shows resistance. Both hosts are cautious. Duck has closed his swing long and is now flat, citing lack of conviction. ETH is bearish despite spot ETF news, barely moving while BTC rallied 50% on the same news. Altcoins like Solana have been pumping, which the hosts view as concerning late-stage froth. ETF approval is seen as a potential sell-the-news event rather than a sustained bullish catalyst.",
+  "transcript_word_count": 52882,
+  "model_used": "glm-4",
+  "analyzed_at": "2025-12-27T01:35:24.392271"
+}

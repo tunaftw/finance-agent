@@ -1,0 +1,664 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kvalitetsaktiepodden-2024-08-28-ed7d",
+  "podcast_name": "Kvalitetsaktiepodden",
+  "episode_title": "Avsnitt 173 - We are back",
+  "episode_number": 173,
+  "date": "2024-08-28",
+  "hosts": [
+    "Ola",
+    "Markus",
+    "Claes"
+  ],
+  "guests": [
+    "Jonas Hasselberg"
+  ],
+  "main_topics": [
+    "Börsens utveckling",
+    "Kinneviks strategiskifte",
+    "Bud på småbolag",
+    "Securitas som säker investering",
+    "Intervju med Proact"
+  ],
+  "stocks_discussed": [
+    "Björn Borg",
+    "Infracom",
+    "Multikonsult",
+    "Innofaktor",
+    "Sarsys",
+    "Hexatronic",
+    "Kitron",
+    "Securitas",
+    "Proact"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Björn Borg",
+      "ticker": "EVO-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Ola, Markus, Claes",
+      "speaker_role": "host",
+      "timestamp": "[24:23]",
+      "reasoning": "Sålt positionen efter stor uppgång på 80% på ett år. Hittar inte tillräckligt margin of safety till nuvarande värdering (P22 bakåtblickande, P18 framåtblickande). Oroliga för prognosen på grund av integrering av skorverksamheten som höjer omsättningen men sänker lönsamheten. Gillar bolaget på sikt men avvaktar tills marknaden ger bättre köpläge.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi har faktiskt sålt vår aktie bara i här, för vi hittar inte riktigt tillräckligt mos efter den här stora uppgången.",
+      "sector": "Consumer Goods",
+      "market": "sweden",
+      "position_context": "Sålt position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Infracom",
+      "ticker": "INFA",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Markus",
+      "speaker_role": "host",
+      "timestamp": "[30:25]",
+      "reasoning": "Misslyckat transformativt förvärv av Connect som mer än fördubblade bolaget. Resultat 41% ner, marginal 7,5% (kraftigt ned). Två säljande entreprenörer har slutat. Större nedskrivning av Goodwill på ca 150 miljoner väntar. Balansräkningen har försvagats rejält. Kopplat till bluffbolag via Connect. Risk att det blir värre innan det blir bättre.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så vi är trots kursen i gång inte intresserade, tänkte jag säga också. För det finns risk att det här blir värre innan det blir bättre.",
+      "sector": "IT Services",
+      "market": "sweden",
+      "position_context": "Sålt bevakningspost",
+      "downside_note": "Risk för ytterligare nedgång innan vändning",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kitron",
+      "ticker": "KITRON.OL",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Markus",
+      "speaker_role": "host",
+      "timestamp": "[49:05]",
+      "reasoning": "Sålt position efter Q1-rapporten med sänkt prognos. Trodde på vinstminskningar 3-4 kvartal framåt. Värdering har gått upp efter Q2-rapportens 15,6% uppgång, nu P12 på prognos för 2024. Långa caset intakt men kursen har gått upp. Fortsatt osäkerheter kortsikt. Kvar i pensionsspar, Kavalier äger.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi tyckte att det långa caset var intakt men vi sålde våra aktier.",
+      "sector": "Technology",
+      "market": "norway",
+      "position_context": "Sålt position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Securitas",
+      "ticker": "SECU-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Markus",
+      "speaker_role": "host",
+      "timestamp": "[01:03:24]",
+      "reasoning": "Stabilt bolag med organisk tillväxt och förväntade marginalökningar mot 8% EBITDA-marginal till Q4 2025. Historiskt värderat till P17, nu P11-10 på 2025. Efter engångsposter faller ur Q3-23 rapporten ser siffror betydligt bättre ut. Möjlig försäljning av flygplatssäkerhet kan sänka nettoskulden med 4-5 miljarder. Potentiellt 40% uppsida till P15 på analytikernas estimat för 2025. Högt blankat (8,5%) kan ge extra skjuts om kursen fortsätter upp.",
+      "price_target": "170+ SEK",
+      "time_horizon": "2 år",
+      "quote": "På analytikernas estimat för 2025 skulle rimlig aktiekurs då vara strax över 170 spänn. Det ger en potential över 40% för kursen 120.",
+      "sector": "Security Services",
+      "market": "sweden",
+      "position_context": "Äger position",
+      "downside_note": "Hög belåning efter förvärv av Stanley Securities",
+      "catalyst_timing": "Q3 2024 rapport (engångsposter faller ut), Försäljning av flygplatssäkerhet"
+    },
+    {
+      "stock_name": "Proact",
+      "ticker": "PACT-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Jonas Hasselberg",
+      "speaker_role": "guest",
+      "timestamp": "[02:07:07]",
+      "reasoning": "Lever i en tillväxtmarknad (IT-infrastruktur och molntjänster). Stark finansiell ställning, kassapositiva. Betalar utdelning och gör aktieåterköp. Rider på teknikvågorna: säkerhet, AI, digital transformation, moln. Bra position i växande marknad. Målet om 8% EBITDA-marginal närmar sig (nu 7,3% rullande 12). Klarar 5% organisk tillväxt + förvärv för totalt 10% årlig tillväxt. 35% återkommande intäkter med potential att öka.",
+      "price_target": null,
+      "time_horizon": "Långsiktig",
+      "quote": "Vi lever i en tillväxtmarknad, så bra tillväxt. Vi har en marknad som växer och vi har en stark position i den marknaden. En oerhört stark finansiell ställning. Vi är kassa positiva.",
+      "sector": "IT Services",
+      "market": "sweden",
+      "position_context": "Ola och Markus äger i pensionsspar, Kavalier äger",
+      "downside_note": "Största risken är cyberhoten",
+      "catalyst_timing": "Kommande förvärv, fortsatt expansion av molntjänster"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Björn Borg",
+      "ticker": "EVO-B",
+      "timestamp_start": "[21:10]",
+      "timestamp_end": "[25:09]",
+      "word_count": 600,
+      "speakers": [
+        "Ola",
+        "Markus",
+        "Claes"
+      ],
+      "primary_speaker": "Markus",
+      "discussion_summary": "Diskussion om Björn Borgs uppdaterade finansiella mål där omsättningsmålet höjs till 10% årlig tillväxt från 5%, men marginalmålet ligger kvar på 10%. Aktien har gått +80% på ett år och +50% i år trots tuff konsumentmarknad. Historisk tillväxt har bara varit 5% men de ser bättre framtid genom sportmode-expansion och e-handelsfokus. Beslutet att sälja beror på för hög värdering (P22) kombinerat med osäker prognos på grund av integration av skorverksamheten. Gillar bolaget på sikt men avvaktar.",
+      "quotes": [
+        {
+          "speaker": "Markus",
+          "text": "21 augusti informerar man att man uppdaterar finansiella målen. Man höjer omsättningsmålet till ålig tillväxt på 10 procent. Istället för 5 procent som man hade innan.",
+          "timestamp": "[21:10]",
+          "context": "news"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Björn Borg är väl kanske ett av de bolag vi har fått mest mejl om på temat, vad ser ni här?",
+          "timestamp": "[22:09]",
+          "context": "discussion"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Vi har sagt många gånger att vi tycker att de överpresterar i en tuff marknad och det har de verkligen gjort.",
+          "timestamp": "[22:34]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Ola",
+          "text": "Historisk tillväxt har varit 5 procent ungefär. Aktien kanske värderas till P14, någonting sånt va? Och då får man inte ihop det riktigt med P-talet",
+          "timestamp": "[22:49]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ola",
+          "text": "Vi har faktiskt sålt vår aktie bara i här, för vi hittar inte riktigt tillräckligt mos efter den här stora uppgången.",
+          "timestamp": "[24:23]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "22 (bakåtblickande), 18 (framåtblickande)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "5% historiskt, 10% nytt mål",
+        "margin": "10% marginalmål",
+        "debt_level": null,
+        "custom": [
+          "Aktie +80% på ett år",
+          "+50% i år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Höjt omsättningsmål till 10% årlig tillväxt",
+          "Expansion inom sportmode förbi underkläder",
+          "Ökat fokus på e-handel och stängd butiker",
+          "Historik av att överprestera i tuff marknad"
+        ],
+        "bear_case": [
+          "Historisk tillväxt bara 5% mot nya 10%-mål",
+          "Hög värdering (P22) efter stark kursuppgång",
+          "Integration av skorverksamhet skapar osäkerhet kring underliggande tillväxt",
+          "Svårt att bedöma underliggande utveckling på grund av engångseffekter"
+        ],
+        "catalysts": [
+          "Framtidens rapporter som bekräftar högre tillväxt",
+          "Fortsatt traction i sportmode-segmentet"
+        ],
+        "risks": [
+          "Låg margin of safety vid nuvarande kurs",
+          "Prognososäkerhet på grund av integrationsomställning",
+          "Om nya tillväxtmål inte nås kan aktien falla"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Infracom",
+      "ticker": "INFA",
+      "timestamp_start": "[26:00]",
+      "timestamp_end": "[31:25]",
+      "word_count": 800,
+      "speakers": [
+        "Ola",
+        "Markus",
+        "Claes"
+      ],
+      "primary_speaker": "Markus",
+      "discussion_summary": "Det transformativa förvärvet av Connect som dubblade bolaget har misslyckats totalt. Q2-rapporten var riktigt svag med omsättning minus 1% (kraftig negativ organisk tillväxt) och resultat 41% ner. Vd:n för Connect har flyttats till strategisk rådgivare, vilket oftast indikerar att man inte vill ha med personen att göra. Total return swappen är en svart låda som genererar pengar men är svårt att förstå. Större goodwill-nedskrivning på ca 150 miljoner väntar. Balansräkningen har försvagats rejält. Kopplat till bluffbolag via Dagens Industris artikel. Marknaden orolig med 27% kursfall.",
+      "quotes": [
+        {
+          "speaker": "Markus",
+          "text": "I avsnitt 169 talar vi om Infracom. Det är det transformativa förvärvet av Connect som har gjort det som dubbla storleken på bolaget.",
+          "timestamp": "[26:00]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Vi sa att vi ser risker med så stora förvärv. Vi sa att vid Q1 också tyckte vi såg att Connect inte gick så bra.",
+          "timestamp": "[26:13]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Vi sålde en bevakningsposten vi hade, för att vi var lite oroliga för att Connect hade höjt risknivån och det inte verkar gå som man trodde.",
+          "timestamp": "[26:30]",
+          "context": "position_disclosure"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Q2-rapporten var riktigt svag. Omsättning minus en procent och då har man ju köpt några bolag, så det är rätt kraftig negativ organisk tillväxt.",
+          "timestamp": "[27:04]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Här behöver man inte vara järnkirurg för att inse att det kommer en stor nedskrivning av Goodwill. Och man har nästan 150 miljoner i Goodwill från det förvärvet.",
+          "timestamp": "[28:39]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Balansräkningen är inte alls så stark heller. Det är också ett riskmoment.",
+          "timestamp": "[29:31]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Det finns ett D-artikel om det som ni kan läsa. Jag vill inte säga något om vad jag tror om det där, för jag har inte mer än vad som står i den artikeln. Men det där var ju liksom så dåligt som det kan bli att få samtidigt som den här rapporten går inte att hitta på så mycket negativt på en och samma gång.",
+          "timestamp": "[30:35]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-1% (negativ organisk tillväxt)",
+        "margin": "7,5% (kraftigt ned)",
+        "debt_level": "Försvagad balansräkning",
+        "custom": [
+          "Resultat -41%",
+          "Goodwill ca 150 miljoner",
+          "Kurs -27% på rapporten",
+          "Sagt upp 30-tals tjänster"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Lång historia av fin prestanda innan förvärvet",
+          "Många mindre förvärv har gått bra historiskt",
+          "Underliggande verksamhet kan vända under 2024"
+        ],
+        "bear_case": [
+          "Transformativt förvärv av Connect har misslyckats",
+          "Resultat 41% ner och marginal kraftigt sänkt",
+          "Två säljande entreprenörer har slutat",
+          "Stor goodwill-nedskrivning väntar",
+          "Balansräkningen har försvagats rejält",
+          "Kopplat till bluffbolag via Connect"
+        ],
+        "catalysts": [
+          "Eventuell stabilisering och vändning 2024",
+          "Nedskrivningar klart kan börja bygga igen"
+        ],
+        "risks": [
+          "Risk för ytterligare nedgång innan vändning",
+          "Kan behöva emittera aktier vid fortsatt kursfall",
+          "Underliggande verksamhet kan fortsätta underprestera"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Kitron",
+      "ticker": "KITRON.OL",
+      "timestamp_start": "[43:15]",
+      "timestamp_end": "[49:44]",
+      "word_count": 1000,
+      "speakers": [
+        "Ola",
+        "Markus",
+        "Claes"
+      ],
+      "primary_speaker": "Markus",
+      "discussion_summary": "Kitrons Q2-rapport kom in enligt prognosen med omsättning minus 19% (framförallt Asien med 40% volymnedgång) men resultat 15 miljoner euro, bara 22% ner från förra året. Marginalen hölls bra vid 8,9% trots volymnedgång, vilket är imponerande för en kapitalintensiv kontraktstillverkare. Ordrebok minus 15% men orderingång +14% inklusive stor order på 500 miljoner norska från Kongsberg för leverans 2025-26. Trots prognossänkning efter Q1 och negativ utveckling reagerade marknaden positivt med +15,6% uppgång, möjligen driven av blanktäckning. Värdering nu P12 på prognos 2024. Långa caset intakt men osäkerheter kvarstår.",
+      "quotes": [
+        {
+          "speaker": "Markus",
+          "text": "Q2 kom också in enligt vad vi trodde. Omsättning minus 19%, det är ganska mycket, en femtedel bort.",
+          "timestamp": "[43:50]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Resultat 15 miljoner euro, det var strax över vår gissning men det var 22% ner från förra året.",
+          "timestamp": "[44:27]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Marginal 8,9%, det var ner från 9,3% men det är ändå inte mycket ner med tanke på att omsättningen följde med 19% så att säga.",
+          "timestamp": "[44:31]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Vi har sett det många kontaktverkare, att de har hållit upp lönsamheten väldigt bra när man tar på volymen.",
+          "timestamp": "[44:50]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Slår den här prognosen in så kommer andra halvåret bli ungefär minus 10 % i både Q3 och Q4. I omsättning och vinst också.",
+          "timestamp": "[45:59]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Rapporten kom in enligt prognosen, man höll i prognosen, den kom in som förväntat. Då var det inte så mycket dramatik på rapporten. Fel! 15,6 % upp. Det var helt sjukt.",
+          "timestamp": "[46:29]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Nyckeln kan ha varit den här positiv ordninggången. Sen sa man också att efterfrågan i Kina stabiliseras.",
+          "timestamp": "[46:53]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Vi tycker att Keytron är ganska färgvärderat, men att det finns intressanta alternativ i sektorn.",
+          "timestamp": "[48:52]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "12 (på prognos 2024)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-19% Q2",
+        "margin": "8,9%",
+        "debt_level": null,
+        "custom": [
+          "Resultat -22% YoY",
+          "Orderbok -15%",
+          "Orderingång +14%",
+          "Stor order 500 mln NOK från Kongsberg",
+          "Kurs +21% sedan förra analysen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Höll marginalen bra (8,9%) trots volymnedgång",
+          "Positiv orderingång inklusive stor Kongsberg-order för 2025-26",
+          "Tecken på stabilisering i Kina",
+          "Starkt kostnadsbesparingsprogram effektivt"
+        ],
+        "bear_case": [
+          "Omsättning minus 19% med Asien ner 40% i volym",
+          "Fortsatt osäkerhet kortsikt med väntat minskande vinst Q3-Q4",
+          "Värdering gått upp efter Q2-rapportens positiva reaktion",
+          "Låg visibilitet - slopade R12-guiding"
+        ],
+        "catalysts": [
+          "Stabilisering i Asien/Kina",
+          "Stor Kongsberg-order börjar leverera 2025",
+          "Turnaround på marknaden"
+        ],
+        "risks": [
+          "Fortsatt volymnedgång",
+          "Marginalpress vid lägre volym",
+          "Ovisibiltet i prognos"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Securitas",
+      "ticker": "SECU-B",
+      "timestamp_start": "[50:30]",
+      "timestamp_end": "[01:04:16]",
+      "word_count": 1200,
+      "speakers": [
+        "Ola",
+        "Markus",
+        "Claes"
+      ],
+      "primary_speaker": "Markus",
+      "discussion_summary": "Securitas är uppenbarligen ett högaaktuellt bolag med stort förvärv av Stanley Securities. Ett stort problem är Q3-23 med miljardstora engångskostnader kopplade till omstruktureringar i Sydamerika (lämnar Argentina). Dessa påverkar alla nyckeltal negativt men faller ur vid nästa rapport. Q1 och Q2 har kommit in väl med fortsatt organisk tillväxt och förbättrade marginaler. Bolaget fokuserar på att nå 8% EBITDA-marginal till Q4 2025. Hög blankning (8,5%) kopplat till oro för hög belåning efter förvärvet och utmaningar att växa traditionell bevakning mot AI/digitala lösningar. Amerikanska analytiker är mycket negativa (riktkurser under 100 kr) medan svenska analytiker är positiva (uppåt 150 kr). Möjlig försäljning av lågmarginal flygplatssäkerhet kan sänka nettoskulden med 4-5 miljarder.",
+      "quotes": [
+        {
+          "speaker": "Markus",
+          "text": "Securitas är ju enligt oss uppenbarligen ett högaaktuellt bolag som rapporterat senast.",
+          "timestamp": "[50:30]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Det var ju uppenbart på konfkålet att det var en del analytiker som började tröttna på att de aldrig taggades ner dem här.",
+          "timestamp": "[52:35]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Q2 kom också in i linje med vad vi hoppades på, till och med lite bättre, inte minst på rörelsemarginalen. Den här rapporten gillar även analytikerna. Så nu belönar man en 5% uppgång istället på rapporten.",
+          "timestamp": "[53:45]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Och bolaget fokuserar ju verkligen på att man vill ha 8% i ebitda marginal. Till Q4 2025.",
+          "timestamp": "[55:27]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Och om man får tro den breda analytikerkåren, så är ju djuren fortfarande ut i det här caset. Och vi har ju en enorm uppdelning här... Så många amerikanska analytiker. Och amerikanerna är ju kraftigt negativa.",
+          "timestamp": "[55:55]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Hög belåning efter köpet av standard securities här. Och en enorm utmaning att växa den här traditionella personaltunga bevakningsoffären, där man också tror att IT eller AI och sånt där ska kliva in och ta bort verksamhet.",
+          "timestamp": "[57:02]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Blanknäck gick ner en del efter Q1-rapporten, men har tagit sig här på slutet igen. Så nu kan vi titta på holdings här och se att det ligger runt 8,5 procent igen. Det är rejäl akumulerade blankar på skolan.",
+          "timestamp": "[57:33]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Så att Securitas sälja sin lågmarginalverksamhet inom flygplatssäkerhet där som har gått så dåligt i Europa också om man lämnade ett avtal i USA här.",
+          "timestamp": "[58:25]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Markus",
+          "text": "Med p15 på analytikernas estimat för 2025 skulle rimlig aktiekurs då vara strax över 170 spänn. Det ger en potential över 40% för kursen 120.",
+          "timestamp": "[01:03:02]",
+          "context": "price_target"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "11-10 (på 2025)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "3-4%",
+        "revenue_growth": "Fortsatt organisk tillväxt",
+        "margin": "8% EBITDA-marginalmål Q4 2025",
+        "debt_level": "Hög (men kan sänkas med försäljning av flygplatssäkerhet)",
+        "custom": [
+          "Kurs på två års högsta (~120 kr)",
+          "Blankat 8,5%",
+          "Engångskostnader faller ur Q3-24",
+          "Amerikanska analytiker: <100 kr riktkurs",
+          "Svenska analytiker: ~150 kr riktkurs"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Fortsatt organisk tillväxt i alla regioner",
+          "Förbättrade marginaler, målet 8% EBITDA till Q4 2025",
+          "P11-10 på 2025 jämfört med historiskt P17",
+          "Engångsposter faller ur Q3-23 ger betydligt bättre siffror",
+          "Möjlig försäljning av flygplatssäkerhet kan sänka nettoskulden 4-5 mdr",
+          "Hög blankning kan ge short squeeze om kursen fortsätter upp"
+        ],
+        "bear_case": [
+          "Hög belåning efter Stanley-förvärvet",
+          "Utmmaningar att växa traditionell bevakning mot AI/digitala lösningar",
+          "Amerikanska analytiker mycket negativa",
+          "Stor blankning (8,5%) indikerar marknadsskepticism"
+        ],
+        "catalysts": [
+          "Q3-rapport utan engångsposter",
+          "Försäljning av flygplatssäkerhet",
+          "Marginalutveckling mot 8% EBITDA",
+          "Short squeeze om blankare täcker positioner"
+        ],
+        "risks": [
+          "Blankare får rätt med negativ scenario",
+          "Fortsatta nedskrivningar",
+          "Misslyckad integration av Stanley Securities"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det finns ingen anledning att det är ingen strukturell anledning att alla våra marknader över tid ska nå vårt mål på 8 procent.",
+      "summary": "Investeringsfilosofi: Ge lönsamheten tid att utvecklas över olika marknader utan att kräva samma utvecklingstakt överallt.",
+      "category": "philosophy",
+      "speaker": "Jonas Hasselberg",
+      "speaker_role": "guest",
+      "timestamp": "[01:52:54]",
+      "confidence": "high",
+      "tags": [
+        "lönsamhet",
+        "tålamod",
+        "marknadsstrategi"
+      ]
+    },
+    {
+      "quote": "Är det transformativa förvärv under 10% av omsättningen du köper in, då kan du komma undan med ett sånt här ändå. Men är det så här stort? Är det 50% eller mer? Då kan du ju äventyra hela koncernen egentligen.",
+      "summary": "Lärdom om förvärvsrisker: Stora transformativa förvärv kan äventyra hela koncernen om de misslyckas, medan mindre förvärv (<10% av omsättningen) ger ett skyddsnät.",
+      "category": "lesson",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "[27:21]",
+      "confidence": "high",
+      "tags": [
+        "förvärv",
+        "riskhantering",
+        "affärsstrategi"
+      ]
+    },
+    {
+      "quote": "Det finns risk att det här blir värre innan det blir bättre. Det finns ju det här förvärvet och Infra kommer ju kopplad till ett ganska jobbig bluffbolag.",
+      "summary": "Investeringsvisdom: Ibland är det bäst att undvika situationer som kan bli värre innan de blir bättre, särskilt när det finns fundamentala problem.",
+      "category": "wisdom",
+      "speaker": "Markus",
+      "speaker_role": "host",
+      "timestamp": "[30:25]",
+      "confidence": "medium",
+      "tags": [
+        "riskhantering",
+        "undvikande",
+        "värstafallsscenario"
+      ]
+    },
+    {
+      "quote": "Det ironiska är att man blir nu rädd för att ekonomin var svagare än förväntat, medan man i ett års tid har jublat varje gång svag statistik har kommit.",
+      "summary": "Marknadens dubbla standard: När svag statistik var positivt (räntefall) jublade man, men nu när det betyder svagare ekonomi är det plötsligt negativt.",
+      "category": "wisdom",
+      "speaker": "Markus",
+      "speaker_role": "host",
+      "timestamp": "[11:05]",
+      "confidence": "high",
+      "tags": [
+        "marknadpsykologi",
+        "makro",
+        "marknadssentiment"
+      ]
+    },
+    {
+      "quote": "Om det är en grej man ska ta med från de här sju åren så är det väl förhoppningsvis det va, ändå? Köp kvalitetsbolag med stabil vinsthistoria.",
+      "summary": "Investeringsfilosofi: Kvalitetsbolag med stabil vinsthistoria har visat sig fungera bättre än strategin att sälja vinstgivande bolag för att köpa förhoppningsbolag.",
+      "category": "philosophy",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "[17:20]",
+      "confidence": "high",
+      "tags": [
+        "kvalitetsbolag",
+        "vinsthistoria",
+        "investeringsstrategi"
+      ]
+    },
+    {
+      "quote": "Om man tror på den här att pengarna flyttar sig successivt så är det small cap man ska snegra på då.",
+      "summary": "Marknadstiming: När mid cap rusat ifrån large cap kan det vara dags att titta på small cap som nästa steg i pengarörelsen.",
+      "category": "wisdom",
+      "speaker": "Markus",
+      "speaker_role": "host",
+      "timestamp": "[16:33]",
+      "confidence": "medium",
+      "tags": [
+        "marknadsrotation",
+        "smallcap",
+        "midcap",
+        "largecap"
+      ]
+    },
+    {
+      "quote": "Det som var lite nördigt och töntigt med back-upper är bland det viktigaste som finns just nu hos våra kunder.",
+      "summary": "Marknadsförändringar: IT-säkerhet och backup-lösningar har gått från att vara 'nördigt' till att bli kritiskt viktigt för företag efter ökat cyberhot.",
+      "category": "wisdom",
+      "speaker": "Jonas Hasselberg",
+      "speaker_role": "guest",
+      "timestamp": "[01:23:47]",
+      "confidence": "high",
+      "tags": [
+        "IT-säkerhet",
+        "backup",
+        "cyberhot",
+        "marknadstrender"
+      ]
+    },
+    {
+      "quote": "Generellt sett är det så att alla trender som man ser i it-branschen är inte på något vis akumulerande. Man lägger bara business casen av på varandra och så plötsligt har man triplat sin intäkt.",
+      "summary": "IT-trender: Alla trender (säkerhet, moln, AI, etc.) adderas till kundernas budgetar, vilket kan leda till exponentiell intäktstillväxt för leverantörer.",
+      "category": "wisdom",
+      "speaker": "Jonas Hasselberg",
+      "speaker_role": "guest",
+      "timestamp": "[01:25:52]",
+      "confidence": "medium",
+      "tags": [
+        "IT-trender",
+        "intäktstillväxt",
+        "moln",
+        "AI",
+        "säkerhet"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet bjuder på en blandad bild av börsen med diskussioner om marknadsrörelser drivna av makrohändelser som ISM-siffror och Japans carry-trade. Stark kritik riktas mot Kinneviks strategiskifte från vinstgivande till förhoppningsbolag som visat -52% på tio år. Björn Borg sålts efter stark uppgång medan Infracom undvikits efter misslyckat förvärv. Securitas lyfts fram som en säker investering med 40% uppsida till P15. Intervjun med Proacts VD Jonas Hasselberg ger inblick i bolagets IT-infrastruktur och molntjänster med positiv tillväxtutsikt.",
+  "key_takeaways": [
+    "Kinneviks strategiförändring från vinstgivande till förhoppningsbolag har misslyckats katastrofalt (-52% på tio år)",
+    "Infracom förvärv av Connect har misslyckats med -41% i resultat och risk för stor goodwill-nedskrivning",
+    "Securitas ses som köpvärd med P11-10 på 2025 jämfört med historiskt P17 och potential på 40%",
+    "Proact lever i en tillväxtmarknad med 35% återkommande intäkter, stark finansiering och mål om 8% EBITDA-marginal",
+    "Small cap kan bli nästa rotation om pengarna flyttar sig från mid cap som rusat 18% i år"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kvalitetsaktiepodden/transcripts/kvalitetsaktiepodden-2024-08-28-ed7d.txt",
+  "transcript_word_count": 23786,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

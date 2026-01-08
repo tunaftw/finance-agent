@@ -1,0 +1,713 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2022-11-30-1147",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 484 - FIRE-människors äckliga sylt",
+  "episode_number": 484,
+  "date": "2022-11-30",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Riksbank",
+    "Räntor",
+    "Aktierekommendationer",
+    "Rapporter",
+    "Sponsorer"
+  ],
+  "stocks_discussed": [
+    "Elekta",
+    "Raysearch",
+    "BioArctic",
+    "Sampo",
+    "Tryg",
+    "Storebrand",
+    "Midzona",
+    "Boozt",
+    "Sinis",
+    "Volvo",
+    "Dustin",
+    "Shells & Company"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Elekta",
+      "ticker": "EKTA-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "17:51",
+      "reasoning": "Elekta has been a pandemic loser when hospitals focused on covid, then faced tough times with rising costs. Despite missing downward revised expectations, the stock is up slightly. If you trust the forecasts, a significant improvement is priced in for next year. Valuation looks attractive at current levels around 60 SEK, down from over 100 SEK. Worth a chance for a potential turnaround.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag kan nog tycka att det rimligtvis borde kunna släppa snart för Elekta som varit en panemi förlorare när sjukhusen riktade allt fokus mot covid och sen då haft det tufft efter det med stigande kostnader. Mycket möjligt att det kan vända här och att Elekta är värd en liten chansning på de här nivåerna.",
+      "sector": "Healthcare",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Raysearch",
+      "ticker": "RAY-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "20:40",
+      "reasoning": "Bought after the reverse profit warning. Order book is at all-time highs and they're winning many tenders. The new Raycare system seems to be gaining traction. If they continue like this, the stock should go up significantly. It's a software company with 800 million SEK revenue valued at about 2x revenue. Signs that the investment period is paying off.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag köpte några här efter den omvända vinstvarningen. Det ryckas ju också om att AP-fonderna håller på att vräka ut aktier nu och att det kanske sätter lite lock på uppgången.",
+      "sector": "Healthcare",
+      "market": "sweden",
+      "position_context": "Köpte efter vinstvarning",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Midzona",
+      "ticker": "MIDZ-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "27:48",
+      "reasoning": "Bought below emission price with Stena as guarantor for the new issue. Everything has gone wrong this year but could reverse next year. Price hikes will start kicking in - takes 6 months to a year to roll out to stores. Input costs have decreased and dollar has gone down. Could have a big positive effect on the bottom line. However, Q4 probably won't be great - more of a 2023 case.",
+      "price_target": null,
+      "time_horizon": "2023",
+      "quote": "Jag har ju faktiskt ryggat dig här lite grann. Köpt på mig aktier under emissionskurs. Med lite det här i bakhuvudet att Stena ändå står som någon slags garant i grunden som köper allt som inte tecknas. För prissöjningarna som du sa, det tar lång tid att få ut prissöjningar i detaljhandeln. Det kan ju ofta vara upp mot ett halvår, ett år kanske för att rulla ut det här till butikerna. Och det börjar ju kicka igång snart och samtidigt så har ju många insatsvaror gått ner istället och dollarn har gått ner. Så det skulle kunna bli lite tvärtom.",
+      "sector": "Consumer",
+      "market": "sweden",
+      "position_context": "Köpte under emissionskurs",
+      "downside_note": null,
+      "catalyst_timing": "Prishöjningar börjar rulla ut 2023"
+    },
+    {
+      "stock_name": "Boozt",
+      "ticker": "BOOZT",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "31:10",
+      "reasoning": "Stock has doubled since end of September, now over 110 SEK. Making approximately 2 SEK per share in profit, so trading at very high valuation. Trading on growth expectations of 15% this year and likely worse next year. Concerned about 2023 as even Boozt customers will be forced to cut back on clothing spending due to less money in their wallets. Skeptical of the rally despite strong Black week performance.",
+      "price_target": null,
+      "time_horizon": "2023",
+      "quote": "Jag är skeptisk till boost här. Aktien en bit över 100 lappen, 110, 111 kanske. På den nivån så är det ju väldigt mycket tillväxt under lång tid som är inprisad. Och samtidigt så tycker jag att det inte är en alltför långsög tanke att även boostkunder kommer att tvingas sluta trots den här tyngdlagen och få mindre pengar över i plånboken till kläder nästa år.",
+      "sector": "Consumer",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Hög värdering, svagt konsumentklimat 2023",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sinis",
+      "ticker": "SINIS",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "33:27",
+      "reasoning": "New company making artificial fertilizer from battery waste in northern Sweden. The original thesis relied on extremely cheap electricity in northern Sweden, but electricity prices have surged to 425 öre/kWh - same as rest of country. The arbitrage opportunity no longer exists. Many companies are trying to exploit this. Risk has increased significantly. Staying away.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag skulle säga att oavsett vad Sinis själva säger så tycker jag att risken har ökat rätt rejält i det här caset nu på bara några månader och jag känner att den här skrivbordsprodukten är något jag inte är, ja men jag håller mig borta från det.",
+      "sector": "Industrial",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Elpriset i norr inte längre billigt",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Volvo",
+      "ticker": "VOLV-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "35:24",
+      "reasoning": "Believes in old, honest Volvo - trucks, wheel loaders, construction equipment. Volvo-owned Renault Trucks has taken the lead with electric trucks for Coca-Cola in Belgium, beating Tesla Semi to actual deployment. Volvo's truck business is performing very well. Valuation is low compared to many other companies. Looks very interesting.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tror på gamla, hedeliga Volvo. Truckar och lastvagnar, hjullastare och grejer. Volvo Trucks eller Volvo lastbilar är ju väldigt lågt värderade jämfört med många andra bolag. Så jag tycker att det såg väldigt intressant ut.",
+      "sector": "Industrial",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Dustin",
+      "ticker": "DUST",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "37:31",
+      "reasoning": "Stock has fallen 25% in three months while market has been strong. Dividend was cut to reduce debt, which caused sell-off. This could be a buying opportunity. In about six months, you'll own a financially more stable company that's not over-leveraged. For someone willing to wait, Dustin could be worth buying as demand might have been weaker than expected leading to more defensive stance.",
+      "price_target": null,
+      "time_horizon": "6 månader",
+      "quote": "jag tror ändå att det kan vara ett ganska intressant köpläge i Dustin nu. För att säga om ett halvår eller så så kan man börja blicka framåt igen och då äger man plötsligt ett finansiellt stabilare företag som inte är för belånat. Så att för den som orkar vänta lite grann tror jag att Dustin kan vara köpvärt.",
+      "sector": "IT Retail",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Shells & Company",
+      "ticker": "SHEL-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "40:15",
+      "reasoning": "Likes the company but cautious about the stock at current levels. Has done well by changing product mix to more private labels to parry currency and inflation headwinds. Opening new stores despite tough times. Collaboration with SkiStar. Stock is down 40% this year. Not obviously cheap, especially if earnings decline next year. High debt is a negative. Downside should be limited. For long-term investors who like the business, could start buying now but probably better to wait.",
+      "price_target": null,
+      "time_horizon": "långsiktig",
+      "quote": "Jag gillar bolaget. Fråga om jag gillar aktien... Jag tror man kan vänta lite med Kelle Company även om nersidan borde vara ganska begränsad där. Men för en som är riktigt långsiktig och gillar det här så känns det som att då kan man börja köpa in då kanske.",
+      "sector": "Retail",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Begränsad nedsida men hög skuldsättning",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Elekta",
+      "ticker": "EKTA-B",
+      "timestamp_start": "15:40",
+      "timestamp_end": "18:14",
+      "word_count": 350,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Elekta reported worse than expected with lower results due to continued gross margin pressure from cost inflation and supply chain challenges. Management guided that improvement will delay until Q4. Despite the weak report, the stock is up slightly, possibly because it's one of the most shorted stocks and market senses a turnaround. Valuation looks attractive if forecasts are correct, with a significant improvement expected next fiscal year. Worth considering at current levels around 60 SEK.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Jag kan nog tycka att det rimligtvis borde kunna släppa snart för Elekta som varit en panemi förlorare när sjukhusen riktade allt fokus mot covid och sen då haft det tufft efter det med stigande kostnader. Mycket möjligt att det kan vända här och att Elekta är värd en liten chansning på de här nivåerna.",
+          "timestamp": "17:51",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men trots den svaga rapporten så är aktien upp lite grann sedan de siffrorna representerades och det kan man väl delvis säga bero på att Elekta har till och med blankade bolag på börsen men också att marknaden nog börjar känna att vi kanske närmar oss en vänding här även om det ligger ett par kvartal bort.",
+          "timestamp": "17:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag tror också att Elekta kan vara på lite längre sikt köpvärt.",
+          "timestamp": "18:03",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "bruttomarginalpress",
+        "debt_level": null,
+        "custom": [
+          "aktiekurs runt 60 SEK",
+          "var över 100 SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Potential turnaround in H2",
+          "Valuation attractive if forecasts are correct",
+          "Market might be sensing inflection point",
+          "Significant improvement expected next fiscal year"
+        ],
+        "bear_case": [
+          "Continued cost inflation and supply chain challenges",
+          "Improvement delayed until Q4",
+          "Q3 will also be negatively impacted"
+        ],
+        "catalysts": [
+          "Q4 expected improvement in operations",
+          "Potential shift from pandemic loser to recovery"
+        ],
+        "risks": [
+          "Delayed turnaround beyond Q4",
+          "Continued margin pressure"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Raysearch",
+      "ticker": "RAY-B",
+      "timestamp_start": "18:14",
+      "timestamp_end": "20:22",
+      "word_count": 380,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Raysearch reported Q3 overall, with revenue, orders and results inline after the reverse profit warning. Not much new, but research has done well this year with much better cost control. The mix of activations and write-offs is more balanced now compared to years ago. Cash flow over the past year is significantly better. Signs of shift from heavy investment period to harvest time. Raycare seems to be gaining traction sales-wise. Order book is at all-time highs and they're winning many tenders. Valued at about 2x revenue with 800 million SEK revenue.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Jag tycker att det ser ganska spännande ut. Jag tycker också att man kan säga att både Elekta och Raysearch lever i lite andra cykler än många andra bolag.",
+          "timestamp": "20:08",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "De vinner i en hel del upphandlingar. Kan man fortsätta så här så ska aktien upp ganska mycket mer tror jag, för det är ändå ett mjukvarubolag som har 800 miljoner intäkter. De har värderat till ungefär två gånger det.",
+          "timestamp": "19:52",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag köpte några här efter den omvända vinstvarningen.",
+          "timestamp": "20:40",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "~2x",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "800 miljoner SEK intäkter",
+          "värderad till ca 2x intäkter",
+          "orderbok på all time high"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Better cost control",
+          "Significantly improved cash flow",
+          "Raycare gaining traction sales-wise",
+          "Order book at all-time highs",
+          "Winning tenders",
+          "Valuation of 2x revenue seems reasonable",
+          "Shift from investment to harvest phase"
+        ],
+        "bear_case": [
+          "Previous investment period weighed on results",
+          "Competition in the market"
+        ],
+        "catalysts": [
+          "Raycare sales momentum",
+          "Won tenders starting to contribute"
+        ],
+        "risks": [
+          "Competition"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Midzona",
+      "ticker": "MIDZ-B",
+      "timestamp_start": "24:52",
+      "timestamp_end": "28:45",
+      "word_count": 480,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Midzona is conducting a new rights issue to raise 600 million SEK. The prospectus shows how extremely poorly managed the company has been by Spena. The Scandinavian part is doing well, but everything outside Sweden that was quickly acquired has been a disaster. Should probably consider selling everything outside the Nordics. However, positive things ahead: price hikes will kick in, dollar has dropped from top, large savings program will start making a difference. Rights issue broken from day one. Stena guarantees the whole issue. For new shareholders coming in now, no overhang scenario.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Det är så att den skandinaviska delen faktiskt går ganska bra. Men allt som är en bit från Sverige och det som är snabbt ihopköpt har ju varit en katastrof. Nästan så att det vore läge att bara sätta allt utanför Norden i konken och sen har man ett ganska bra företag.",
+          "timestamp": "25:35",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag har ju faktiskt ryggat dig här lite grann. Köpt på mig aktier under emissionskurs. Med lite det här i bakhuvudet att Stena ändå står som någon slags garant i grunden som köper allt som inte tecknas.",
+          "timestamp": "27:48",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Ja, jag tycker att man ska ha lite tålamod här. Det är möjligt att Q4 inte heller kommer bli så bra. Det blir nog inte så bra. Utan man får nog se det här som ett 2023 case mer än ett Q4 case.",
+          "timestamp": "28:45",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "ganska skuldsatt även efter nyemission",
+        "custom": [
+          "nyemission på 600 miljoner SEK",
+          "emissionskurs under marknadspris"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Scandinavian operations doing well",
+          "Price hikes will kick in (takes 6-12 months to roll out)",
+          "Dollar dropped from peak",
+          "Large savings program will impact results",
+          "Stena guarantees the rights issue - no overhang for new shareholders",
+          "Everything has gone wrong this year - could reverse"
+        ],
+        "bear_case": [
+          "Extremely poor management by Spena",
+          "Non-Nordic acquisitions were disastrous",
+          "Higher interest rates will hit results",
+          "High debt load even after new issue",
+          "Q4 probably won't be good"
+        ],
+        "catalysts": [
+          "Price hikes rolling out in 2023",
+          "Savings program taking effect",
+          "Dollar weakness"
+        ],
+        "risks": [
+          "Poor management continues",
+          "Higher interest rates impact",
+          "Weak consumer demand"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Boozt",
+      "ticker": "BOOZT",
+      "timestamp_start": "28:57",
+      "timestamp_end": "31:34",
+      "word_count": 420,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Boozt has doubled since end of September and is trading over 110 SEK. Yesterday got an extra boost after announcing strong pressure and record sales in November during Black week. Surprising given reports of weaker Black Friday/Black week sales overall - Svea Ekonomi reported Black week down 9.5% and Black Friday down 12%. Boozt says inventory position is strong and sell-through of fall/winter collection is higher than last year. Aiming for upper end of guidance: up to 15% growth and adjusted EBITDA around 285 million SEK. If caught this rally, might be time to take profits. Trading at very high valuation with 2 SEK profit per share at 110+ SEK price. Even Boozt customers will be forced to cut back on clothing in 2023. Skeptical of the rally.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Jag är skeptisk till boost här. Aktien en bit över 100 lappen, 110, 111 kanske. På den nivån så är det ju väldigt mycket tillväxt under lång tid som är inprisad.",
+          "timestamp": "31:10",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Samtidigt så tycker jag att det inte är en alltför långsög tanke att även boostkunder kommer att tvingas sluta trots den här tyngdlagen och få mindre pengar över i plånboken till kläder nästa år. Och då finns det en risk att det blir ett ganska tufft 2023 även för boost, oavsett om de gör det fortsatt jättebra.",
+          "timestamp": "31:16",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "~55x",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "~15%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "ca 2 SEK vinst per aktie",
+          "justerat rörelseresultat ca 285 miljoner SEK",
+          "aktiekurs över 110 SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Strong Black week sales record",
+          "Inventory position strong",
+          "Sell-through higher than last year",
+          "Aiming for upper end of guidance"
+        ],
+        "bear_case": [
+          "Very high valuation (~55x P/E)",
+          "Overall Black week sales down significantly",
+          "Consumers will have less money for clothes in 2023",
+          "Growth of only 15% expected this year, probably worse next year",
+          "Much growth priced in for long time"
+        ],
+        "catalysts": [
+          "None mentioned"
+        ],
+        "risks": [
+          "Weaker consumer spending in 2023",
+          "Valuation correction"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Sinis",
+      "ticker": "SINIS",
+      "timestamp_start": "31:39",
+      "timestamp_end": "34:12",
+      "word_count": 280,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Sinis reported first quarterly report, a new listed company making artificial fertilizer from battery waste. Having problems already - delays in construction. Main thesis was extremely cheap electricity in northern Sweden, but this has completely changed in recent weeks. Electricity price in northern Sweden is now almost as high as rest of country - today 425 öre/kWh. Many have been doing the arbitrage with much cheaper electricity in the north. When steel companies start melting iron on electricity like H2GS and SSAB, won't use less electricity. Arbitrage that no longer exists. Risk increased significantly in just a few months. Staying away.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Jag skulle säga att oavsett vad Sinis själva säger så tycker jag att risken har ökat rätt rejält i det här caset nu på bara några månader och jag känner att den här skrivbordsprodukten är något jag inte är, ja men jag håller mig borta från det.",
+          "timestamp": "33:27",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men framför allt är ju huvudcaset med att det är så extremt billig el i norra Sverige totalt förändrats de sista veckorna. För de som följt elpriset de sista tiden så har ju priset i norra Sverige varit nästan lika höga som i resten av landet. Idag är ju elpriset hela 425 öre per kWh.",
+          "timestamp": "32:10",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "elpris 425 öre/kWh i norra Sverige"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "None mentioned"
+        ],
+        "bear_case": [
+          "Delays in construction",
+          "Electricity price thesis completely changed",
+          "Electricity in northern Sweden now same as rest of country - 425 öre/kWh",
+          "Arbitrage opportunity no longer exists",
+          "Many companies trying to exploit the arbitrage",
+          "Future electricity demand from steel companies (H2GS, SSAB) will keep prices high"
+        ],
+        "catalysts": [
+          "None mentioned"
+        ],
+        "risks": [
+          "High electricity prices",
+          "Construction delays",
+          "Arbitrage thesis no longer valid"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Dustin",
+      "ticker": "DUST",
+      "timestamp_start": "35:49",
+      "timestamp_end": "37:38",
+      "word_count": 250,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Dustin has fallen 25% in three months while market has been strong, despite being a favorite among managers and analysts. Smells like buying opportunity. The decline came after Dustin cut dividend - decision made after the quarterly report but lowered the stock significantly. Dustin has been a good payer previously but now wants to reduce debt. Could signal weaker demand than expected, or just responsible corporate behavior. Dividend holders, funds and foundations often sell when dividend is cut. In Sweden/Europe more flexible with dividends than US. Might be interesting buying opportunity. In about six months, you'll own a financially more stable company that's not over-leveraged. For someone willing to wait, Dustin could be worth buying.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "jag tror ändå att det kan vara ett ganska intressant köpläge i Dustin nu. För att säga om ett halvår eller så så kan man börja blicka framåt igen och då äger man plötsligt ett finansiellt stabilare företag som inte är för belånat. Så att för den som orkar vänta lite grann tror jag att Dustin kan vara köpvärt.",
+          "timestamp": "37:31",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "sänker skuldsättningen",
+        "custom": [
+          "aktien ner 25% på 3 månader"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stock down 25% in 3 months while market strong",
+          "Dividend cut to responsibly reduce debt",
+          "In 6 months will own financially more stable company",
+          "Not over-leveraged after debt reduction"
+        ],
+        "bear_case": [
+          "Dividend cut might signal weaker demand",
+          "Foreign owners typically sell when dividend cut"
+        ],
+        "catalysts": [
+          "Financial stabilization after debt reduction",
+          "Potential market recovery"
+        ],
+        "risks": [
+          "Weaker demand for IT products"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Shells & Company",
+      "ticker": "SHEL-B",
+      "timestamp_start": "37:38",
+      "timestamp_end": "40:20",
+      "word_count": 320,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Shells reported Q3 about 2-3 weeks ago. Has different customers than Dustin - more B2B focused. Has done well by changing product mix to larger share of private labels, helping parry currency and inflation headwinds. One of few actors continuing to net-open new stores - opened ten this year. Collaboration with SkiStar where Shells Express will enter several hotels and stores. Did similar with Circle K and gas stations. Working on new initiatives. Stock down 40% this year. Doesn't look obviously cheap, especially if earnings might decline next year. High debt is negative. Downside probably limited. For long-term investors who like the business, could start buying, but might be better to wait.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Jag gillar bolaget. Fråga om jag gillar aktien. I år är aktien ner runt 40 procent. Den känns ju inte uppenbart billig trots det. I alla fall inte om man som jag tror att vinsten nog skulle kunna backa lite även nästa år.",
+          "timestamp": "40:17",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tror man kan vänta lite med Kelle Company även om nersidan borde vara ganska begränsad där... Men för en som är riktigt långsiktig och gillar det här så känns det som att då kan man börja köpa in då kanske.",
+          "timestamp": "40:02",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "lite för stor skuldsättning",
+        "custom": [
+          "aktien ner 40% i år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Product mix shift to private labels",
+          "Continuing to open new stores (10 this year)",
+          "Collaboration with SkiStar",
+          "Collaboration with Circle K",
+          "Downside probably limited"
+        ],
+        "bear_case": [
+          "Stock not obviously cheap despite 40% decline",
+          "Earnings might decline next year",
+          "High debt load"
+        ],
+        "catalysts": [
+          "New store openings contributing",
+          "SkiStar collaboration",
+          "Potential economic recovery"
+        ],
+        "risks": [
+          "Weak consumer demand",
+          "High debt"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är väl kanske en av de mest överskattade sakerna av allt inom hela finans. Ofta hör man ju fonder, förvaltare berätta hur många fondbesök de gör och är väldigt stolta över det. Men är det någon gång man någonsin träffat förvaltare som är helt överlägsna för att de har träffat så många bolag? Kollat in fonder som pratat väldigt mycket om hur många bolag de träffar och ändå är de ner helt otroliga 37 procent i år.",
+      "summary": "Company visits are one of the most overrated things in finance. Meeting many companies doesn't necessarily lead to better investment performance.",
+      "category": "lesson",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "09:38",
+      "confidence": "medium",
+      "tags": [
+        "company visits",
+        "value of research",
+        "fund management"
+      ]
+    },
+    {
+      "quote": "och som jag sagt flera gånger, eftersom jag snodde från buffet, du behöver bara bli rik en gång Johan och därför ska man inte vara så hård mot sig själv, även om man gör lite fel",
+      "summary": "You only need to get rich once, so don't be too hard on yourself even when you make mistakes - as long as you're rich.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "10:56",
+      "confidence": "high",
+      "tags": [
+        "risk",
+        "psychology",
+        "success"
+      ]
+    },
+    {
+      "quote": "Buffet och Munger och andra som har hittat ett jobb de gillar, de jobbar ju tills de är hundra för att de älskar det. Att diska med samma diskborste i fem år och bo i ett ödehus utan värme i en by långt borta är det ingen som är avundsjuk på.",
+      "summary": "True success isn't about stopping work early, but finding work you love so much you want to keep doing it. The FIRE movement's extreme frugality isn't aspirational.",
+      "category": "philosophy",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "06:49",
+      "confidence": "high",
+      "tags": [
+        "FIRE",
+        "work",
+        "life philosophy"
+      ]
+    },
+    {
+      "quote": "Ja, men det är ofta så svårt. Man behöver signa avtal, du behöver ordna aktielån och så vidare. Men det behövs inte på skilling.",
+      "summary": "Short selling is often difficult - you need to sign agreements, arrange stock loans. Platforms like Skilling make it as simple as going long.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "01:05",
+      "confidence": "medium",
+      "tags": [
+        "short selling",
+        "trading"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Börspodden discusses a range of Swedish stocks with Johan expressing bearish sentiment overall about the market being in denial phase before expected downturn. Key recommendations include buying Raysearch, Midzona, Volvo, and Dustin at current levels; watching Elekta and Shells & Company; but avoiding Boozt and Sinis due to valuation concerns and changed investment thesis respectively. Discussion also covers criticism of Riksbank's Ingves and the FIRE movement's extreme frugality.",
+  "key_takeaways": [
+    "Johan is bearish on overall market expecting downturn as reality of higher rates and activity slowdown hits",
+    "Raysearch showing signs of harvest phase with strong order book and improving cash flow",
+    "Boozt trading at very high valuation (~55x P/E) with risks of consumer spending weakness in 2023",
+    "Sinis investment thesis broken as electricity in northern Sweden no longer cheap",
+    "Company visits are overrated according to Johan - don't guarantee better performance"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2022-11-30-1147.txt",
+  "transcript_word_count": 8166,
+  "has_timestamps": true,
+  "model_used": "claude-3.5-sonnet"
+}

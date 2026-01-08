@@ -1,0 +1,109 @@
+{
+  "id": "bets-b-betsson-turkey-risk",
+  "company_id": "bets-b-betsson",
+  "company_name": "Betsson",
+  "ticker": "BETS-B.ST",
+  "report_type": "risk_analysis",
+  "topic": "Turkey/Realm Entertainment exposure",
+  "created_at": "2025-12-30T15:45:00Z",
+  "summary": "Betssons Turkiet-exponering via B2B-partnern Realm Entertainment utgör en begränsad men ständigt närvarande risk. Erdogans pågående offensiv mot illegalt spel (2025-2026) är den mest aggressiva någonsin, men Betssons direkta exponering har minskat kraftigt sedan 2017.",
+  "risk_level": "moderate_but_priced_in",
+  "key_metrics": {
+    "realm_revenue_share": "<10%",
+    "estimated_turkey_revenue_eur": "50-60M",
+    "ceeca_share_of_group": "41%",
+    "trend": "gradually_declining"
+  },
+  "realm_entertainment": {
+    "founded": 2010,
+    "purchase_price_eur": 1900000,
+    "brands": ["Bets10", "Casino Metropol", "CasinoMaxi"],
+    "license": "MGA/B2C/196/2010",
+    "license_valid_until": "2028-07-01",
+    "headquarters": "Malta"
+  },
+  "erdogan_crackdown_2025": {
+    "trigger": "2025 Turkish football betting scandal",
+    "scandal_details": {
+      "referees_with_accounts_pct": 65,
+      "referees_actively_betting": 152,
+      "referees_suspended": 149,
+      "players_referred": 1024,
+      "arrested_dec_2025": 29
+    },
+    "action_plan_date": "2025-11-01",
+    "measures": {
+      "legislative": [
+        "Increased prison sentences for illegal gambling",
+        "Enhanced penalties for organized operations",
+        "Special penalties for targeting minors",
+        "Total advertising ban planned"
+      ],
+      "financial": [
+        "Biometric ID for all e-payment accounts",
+        "TL 3.6B frozen Jan-Jul 2025",
+        "PayFix, Ininal, Aypara licenses suspended",
+        "Papara founder arrested, $118M seized"
+      ],
+      "technical": [
+        "232,899 sites blocked in 2024",
+        "31,000+ sites blocked Jan-Nov 2025",
+        "420,000 criminal complaints filed",
+        "GSM lines require full ID validation"
+      ]
+    }
+  },
+  "scenarios": [
+    {
+      "name": "Status quo",
+      "probability": "high",
+      "description": "Realm continues via domain switching, Betsson revenue gradually declines",
+      "impact": "low"
+    },
+    {
+      "name": "Realm forced to close",
+      "probability": "medium",
+      "description": "Betsson loses EUR 50-60M license revenue, 3-4% EBIT impact",
+      "impact": "moderate_but_priced_in"
+    },
+    {
+      "name": "Legal escalation vs Malta",
+      "probability": "low",
+      "description": "EU/Malta relations make this unlikely, no precedent",
+      "impact": "unlikely"
+    }
+  ],
+  "analyst_views": {
+    "pe_ratio": 8,
+    "sector_pe": "12-15",
+    "valuation_discount_pct": "40-50",
+    "discount_reason": "Turkey exposure",
+    "average_target_sek": 192.5,
+    "intrinsic_value_sek": 285,
+    "quote": {
+      "text": "Betssons värdering är så låg att affären i Turkiet i princip helt måste dö för att det här ska bli dåligt",
+      "author": "Richard Bråse",
+      "role": "Fund manager",
+      "date": "2025-12"
+    }
+  },
+  "conclusion": {
+    "risk_level": "MODERATE BUT PRICED IN",
+    "key_points": [
+      "Exposure <10% of revenues, declining",
+      "Erdogan rhetoric high, but Malta license protects",
+      "Stock already trades at 40-50% discount",
+      "Betsson actively diversifying away from Turkey"
+    ],
+    "main_takeaway": "Erdogan's offensive is historically aggressive but targets domestic actors, payment systems, and Turkish citizens. Malta-licensed operators like Realm are harder to reach legally. Betsson's Turkey exposure is already so low and priced in that further downside is limited."
+  },
+  "sources": [
+    {"name": "Betsson AB - Cision Newsroom", "url": "https://news.cision.com/betsson-ab"},
+    {"name": "iGaming Expert - Turkey Penal Code", "url": "https://igamingexpert.com/features/turkey-penal-code"},
+    {"name": "Wikipedia - 2025 Turkish football betting scandal", "url": "https://en.wikipedia.org/wiki/2025_Turkish_football_betting_scandal"},
+    {"name": "Tribuna - Turkey crackdown", "url": "https://tribuna.com/en/betting/"},
+    {"name": "EQE - Betsson Analysis", "url": "https://www.eqe.se/companies/betsson/"},
+    {"name": "Rimligtpris.se - Betsson värdering", "url": "https://rimligtpris.se/betsson/"},
+    {"name": "EFN - Richard Bråse intervju", "url": "https://efn.se/richard-brase-tar-in-betsson-i-fonden-tillrackligt-forbisett"}
+  ]
+}

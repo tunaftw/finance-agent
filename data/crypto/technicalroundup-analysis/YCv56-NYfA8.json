@@ -1,0 +1,129 @@
+{
+  "source_id": "YCv56-NYfA8",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-08-21",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Analysis of BTC breaking down from low volatility period, expecting continuation to downside with bounces meeting resistance",
+      "quote": "I'm going to assume that this weekly break and the shift that from low volt to higher volt is Trend forming and not some Mega capitulation thing... I think this breakdown is transforming into improved otherwise and any bounces especially bounces into 27.2 will be met with resistance",
+      "price_levels": [
+        "$27.4K",
+        "$27.2K",
+        "$26.3K",
+        "$26K",
+        "$23-24K",
+        "$20K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH in narrow range around $1670-1700, no compelling setup, similar sentiment to BTC",
+      "quote": "same sentiment towards eth is this the best level absolutely not is it something rather nothing willing to make that argument... I don't think we have that luxury for eth so that's essentially where my eth views stop",
+      "price_levels": [
+        "$1670-1700",
+        "$1.9K",
+        "$1.4K"
+      ],
+      "timeframe": "uncertain",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BNB",
+      "asset_name": "Binance Coin",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Mention of partial BNB liquidation with DeFi protocol, scary multi-year support chart",
+      "quote": "this is a scary looking chart with this multi-year support I don't like it I don't think it's great for risk appetite in general",
+      "price_levels": null,
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Macro headwind, approaching first trouble area 43-4370, might push back toward 41",
+      "quote": "we are at least approaching some sort of reasonable first trouble area between 43 and 4370... but I really wouldn't be surprised if we push back towards the monthly 41 and that certainly wouldn't help the crypto side of things",
+      "price_levels": [
+        "$43-44",
+        "$41",
+        "$4370"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ALTCOINS",
+      "asset_name": "Altcoins",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Altcoins getting completely battered, mechanical bounce from order books being empty",
+      "quote": "altcoins are getting completely battered right now but it's not terribly surprising",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$27.4K",
+        "$27.2K",
+        "$26.3K",
+        "$26K",
+        "$23-24K"
+      ],
+      "ETH": [
+        "$1670-1700"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC broke down from historically low volatility period with aggressive selling, trend forming to downside",
+    "Market expects continuation lower rather than quick reversal, don't catch knives too early",
+    "Weekly support at 23-24K is key longer-term level, but 26K is critical local support for any bounce",
+    "ETF news will be major catalyst - positive news could push through resistance quickly, negative could accelerate drop",
+    "Futures data shows aggressive selling being rewarded (no divergence), supporting bearish bias",
+    "S&P 500 as macro headwind that hasn't helped crypto even at support levels"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "$27.2-27.4K range",
+      "target": "$26K or lower",
+      "stop": "Above $27.5K",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "Failed reclaim above $26.3K",
+      "target": "$26K support",
+      "stop": "Close above $27K",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC broke down from a historically low volatility period, with aggressive selling pushing price from $30K to ~$26K. Host expects continuation toward monthly support at $23-24K rather than quick reversal. Key resistance at $27.2-27.4K should be faded, while $26K is critical support. ETF news will be major catalyst. Futures data confirms bearish bias with sellers being rewarded. Altcoins getting battered, BNB looks scary with multi-year support at risk. S&P 500 providing macro headwinds.",
+  "transcript_word_count": 15635,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:07:53.883425"
+}

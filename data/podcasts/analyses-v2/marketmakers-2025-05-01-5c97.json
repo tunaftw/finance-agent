@@ -1,0 +1,553 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2025-05-01-5c97",
+  "podcast_name": "Marketmakers",
+  "episode_title": "#380 Total kollaps för onlinekasino och prislappar",
+  "episode_number": 380,
+  "date": "2025-05-01",
+  "hosts": [
+    "Fabian",
+    "Mange",
+    "Mattias"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Rapportsäsong",
+    "Marknadssentiment",
+    "Småbolagsrisker",
+    "Tech-bolag och ersättningar"
+  ],
+  "stocks_discussed": [
+    "Evolution",
+    "Betsson",
+    "G-Mot",
+    "HelloFresh",
+    "Nylörn",
+    "Nelly",
+    "Pricer"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Betsson har varit stabilt med 16 kvartal i rad av tvåsiffrig tillväxt. Q1 visade 18% intäktsökning och över 10% ökning av rörelsesresultatet. EV/EBIT är 7 på rullande 12 månader och kommer sannolikt att sjunka ytterligare med kommande kvartalsrapporter. Direktavkastning är 5% jämfört med Evolution som bara ger 3.5%. Samtidigt handlas båda bolagen på nästan samma PE-tal men med mycket olika framtidssiffror. Krigsrisken i Ukraina påverkar dock bolaget negativt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är väl lite, det tuggar på jävligt bra klassiskt Betsson-kvartal. Another stable quarter. Ja men verkligen, det börjar kännas så. De växer tvåsiffror, det har gjort det. Vad är det, 16 kvartal på raken nu. Och EVB är 7 på rullande 12. Och det kommer ju förmodligen bli billigare i takt med kommande kvartalsrapporter kommer och de kommer öka vinsten skulle jag tro.",
+      "sector": "Betting & Gaming",
+      "market": "sweden",
+      "position_context": "Äger aktier",
+      "downside_note": "Krigsrisken i Ukraina",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "HelloFresh",
+      "ticker": "HFG",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Q1-rapporten är den första som visar att HelloFresh har börjat leverera på Chefello Blueprint. De fortsätter dra ner på marknadsföringen, meal kit volymen är ned och Ready to Eat växer. Contribution margin (brutomarginal) är upp 27% justerat och kan hamna på cirka 25% för 2025e, vilket ger stor utväxling i EBIT och fritt kassaflöde. Bolaget fortsätter med buybacks och andra positiva trigger-skapande åtgärder. Handlas på 6x fritt kassaflöde för 2025, vilket inte är dyrt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Q1-rapporten är den första som visar att HelloFresh har börjat leverera på Chefello Blueprint. De fortsätter dra ner på marknadsföringen, meal kit volymen är ned, Ready to Eat växer och contribution margin, typ bruttomarginalen, den är upp 27 procent justerat. Jag tror att den kan hamna på cirka 25 procent för 2025e, det är några procent upp, men det ger en jättestor utväxling i ebit och i fritt kassaflöde.",
+      "sector": "Matleverans",
+      "market": "europe",
+      "position_context": "Sålt position",
+      "downside_note": "Valutapåverkan (svagare dollar)",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nylörn",
+      "ticker": "NYLO",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Nylörn levererade en stark rapport med ökad orderingång. Aktien har gått svagt efter rapporten vilket inte är förståeligt. Tulls är en risk men bedöms vara liten då Trump troligtvis kommer fokusera på bilar och chips snarare än textilier. EV/EBIT är 7.5 på rullande 12 månader och vinstmarginalen är under historisk nivå trots god tillväxt de senaste 15 åren. Aktien handlas på samma nivå som vid Black Monday och botten 2022. Ser inte dyrt ut men marknaden verkar inte gilla bolaget.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Action har gått jävligt svagt de senaste veckorna och faktiskt gått svagt efter rapporten också, vilket jag inte förstår riktigt. Men man ökade orderingången och höll sig ganska stabilt i övrigt från förra årets kvartal. Kollar man på värderingen så är EWB 7,5 på rullande tolv månader nu. Man handlas på samma nivå nu som Black Monday för tre veckor sedan och samma som botten 2022. Hur man än vrider och vänder på det så ser det ju inte dyrt ut för aktien i nulaget.",
+      "sector": "Etiketter",
+      "market": "sweden",
+      "position_context": "Äger aktier",
+      "downside_note": "Tulls (bedöms liten)",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nelly",
+      "ticker": "NELY",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Q1 var stark med 11.5% omsättningstillväxt och EBIT ökade från 1 till 20 miljoner. Returgraden har sänkts kraftigt (från 35% till 25%) genom ökat fokus på egna varumärken som nu står för 50% av handeln. Egna varumärken har högre bruttomarginal och lägre returgrad. Antalet aktiva kunder växte för andra kvartalet i rad. EV/EBIT 11 på rullande 12 och väntas sjunka till 7 för 2025 pga. stor nettokassa (nästan 20% av market cap). Om EV/EBIT stiger från 7 till 11 ger det 50% uppsida.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag räknar med EV-Ebit 7 för 2025, när kursen står i 38 som idag. Och det beror mycket på att de har en väldigt stor nettokassanell och kommer att bygga upp en del cash under året. Så jag räknar med att nettokassan är nästan 20 procent av market cap idag. Och det slår ju mycket på EV-Ebit såklart. Men på rullande 12 så handlas man istället på EV-Ebit 11, vilket jag tycker kanske är en ganska rimlig multipel för Nelly. Men om man då går till EV-Ebit 7 och ska upp till EV-Ebit 11 genom att aktiekursen stiger, då börjar aktiekursen stiga 50 procent.",
+      "sector": "E-handel",
+      "market": "sweden",
+      "position_context": "Äger aktier",
+      "downside_note": "Tuffare komparabler framåt",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Pricer",
+      "ticker": "PRIC-B",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Pricer har tappat 50% på fem månader pga. schweizisk storägare som sålt 4% av bolaget på fyra månader samt svag Q1-rapport (EBIT halverades, omsättning -20%). Värderingen är nu extremt låg på EV/EBIT 5.5, bland det lägsta i Norden. Positiva faktorer: insiderköp av 5 personer (totalt 700,000 aktier), SOB-ordern i Kanada kommer levereras under 5 kvartal (100 MSEK per kvartal), bruttomarginal hölls uppe bra. Valutaeffekten ser negativ ut i Q1 men är totalt positiv pga. svagare dollar mot svagare krona. Stora ordrar kan skicka aktien upp 100% men risk kvarstår för fortsatt sälj från schweizaren och svagt Q2.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Kollar man på värderingen nu så är det evv-ebit fem och en halv. Beroende av tolv månader. Så det är oljebolagsvärdering eller liknande. Det är bland det lägsta man kan se i Norden för normala bolag skulle jag säga. Skulle man få några stora ordrar och kan leverera dem under året då går ju aktien lätt upp 100% förmodligen. Med tanke på hur låg multiplen är.",
+      "sector": "Digitala prislappar",
+      "market": "sweden",
+      "position_context": "Äger aktier",
+      "downside_note": "Schweizisk storägare kan fortsätta sälja, svagt Q2 väntat",
+      "catalyst_timing": "SOB-ordern levereras under 5 kvartal från Q2 2025"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Evolution Gaming",
+      "ticker": "EVO",
+      "timestamp_start": "11:50",
+      "timestamp_end": "16:49",
+      "word_count": 600,
+      "speakers": [
+        "Fabian",
+        "Mange",
+        "Mattias"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Evolution levererade en mycket svag Q1-rapport med 1% tillväxt och sjunkande marginaler. Aktien föll ca 18% på rapporten. Fabian har köpt och sålt efter förra rapporten. Mattias menar att aktien ser billig ut (EV/EBIT ~10) men det finns ingen tydlig trigger för vändning. Diskussion fokuserar på regulatoriska risker, svaga intäkter från Asien och oreglerade marknader. Marknaden har haft rätt i att sänka aktien pga. negativ delta (minskande tillväxt). Betsson jämförs positivt som har bättre tillväxt men handlas på samma multipel.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Jag sa i avsnitt 367, då avhandlade jag rapporten, om det inte är fullständig kollaps på G, så ser det billigt ut. Och vad händer? Fullständig jävla kollaps. Ja, de bombade i stort sett, across the board. En siffra tillväxt, sjunkande marginaler. Jag menar, kollar man både quarter on quarter and year on year så ser det ju liksom ödesdigert ut.",
+          "timestamp": "11:55",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mattias",
+          "text": "Det vill säga omsättningstillväxten har minskat helt vid den. Marginalen har ju börjat till och med ta stryk nu. Och ja, då ska ju liksom aktien värderas ner en viss bit. Sen står jag nog fast vid det jag har sagt tidigare, det vill säga att aktien ser fortfarande jättebilligt ut. Tittar man på typ rullande så är det ju liksom EVAB 10 nu eller någonting.",
+          "timestamp": "13:00",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mattias",
+          "text": "Men med det sagt så är ju frågan, ingen vet ju vad exakta värderingen ska vara. Och framförallt så är ju frågan vad skulle liksom få marknaden att byta syn. Och det är det som är så viktigt med aktier och som vi tjatar om. Det måste ändå finnas någon form av trigger där helt plötsligt marknaden bestämmer sig för att okej men nu är den aktien värda jag äger igen, nu ska den upp igen. Och jag ser inte riktigt när det ska komma. Speciellt inte efter det här kvartalet.",
+          "timestamp": "13:18",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Trigger här känns ju liksom att man vill få bättre insyn kring regleringar och liksom faktiskt få en bättre förståelse av vad som händer där borta i Asien. Och sen framförallt måste ju komma tillbaka i Q2 och Q3, printa dubbelsiffrig tillväxt igen, kommande kvartal, stärka marginalerna och visa att det här var en one-off. Är det här det som händer nu i Q1, om inte det är en engångsgrade, då ser det ju inte billigt ut längre.",
+          "timestamp": "15:15",
+          "context": "catalyst"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "3.5%",
+        "revenue_growth": "1%",
+        "margin": "Sjunkande",
+        "debt_level": null,
+        "custom": [
+          "EV/EBIT ~10 på rullande 12 månader"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Aktien ser billig ut på EV/EBIT ~10",
+          "Stark direktavkastning på 3.5%",
+          "Välskött bolag historiskt"
+        ],
+        "bear_case": [
+          "Negativ delta (tillväxten minskar)",
+          "Marginalerna tar stryk",
+          "Regulatoriska risker i Asien och oreglerade marknader",
+          "Otydlig trigger för vändning"
+        ],
+        "catalysts": [
+          "Bättre insyn kring regleringar",
+          "Dubbelsiffrig tillväxt i Q2 och Q3",
+          "Stärkta marginaler"
+        ],
+        "risks": [
+          "Regulatoriska åtgärder",
+          "Svaga intäkter från Asien",
+          "Negativ trend kan fortsätta utan tydlig trigger"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS-B",
+      "timestamp_start": "15:45",
+      "timestamp_end": "18:19",
+      "word_count": 400,
+      "speakers": [
+        "Fabian",
+        "Mange",
+        "Mattias"
+      ],
+      "primary_speaker": "Mange",
+      "discussion_summary": "Betsson har presterat mycket bättre än Evolution sedan 2021, upp över 200% jämfört med Evolution som fortfarande är långt under nivåerna från 2021. Q1-rapporten var stabil med 18% intäktsökning och över 10% ökning av rörelsesresultatet. EV/EBIT är 7 på rullande 12 månader och beräknas sjunka ytterligare. Direktavkastning är 5% jämfört med Evolution 3.5%. Bolaget har levererat 16 kvartal i rad med tvåsiffrig tillväxt. Krigsrisken i Ukraina är huvudrisk. Mange äger aktien.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Det är lite kul också med Betsson som är upp över 200% sedan 2021. Om EVO går upp 100% härifrån så är de fortfarande inte på samma nivå som de var 2021. Så det är en ganska brutal outperformance av Betsson sedan dess.",
+          "timestamp": "15:45",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Om EVO växer inte tvåsiffrigt längre, man har tappat i marginalerna. Medan Betsson liksom ökade 18 procent, ökar man intäkterna i Q1 och rörelsesultatet ökar med över 10 procent. Så det gör ju en väldigt stor skillnad på de framåtblickande siffrorna, som är intressanta. EVO delar ut typ 3,5 procent, får man direktavkastning. Betsson har uppe på 5 procent.",
+          "timestamp": "16:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Det är väl lite, det tuggar på jävligt bra klassiskt Betsson-kvartal. Another stable quarter. Ja men verkligen, det börjar kännas så. De växer tvåsiffror, det har gjort det. Vad är det, 16 kvartal på raken nu. Och EVB är 7 på rullande 12. Och det kommer ju förmodligen bli billigare i takt med kommande kvartalsrapporter kommer och de kommer öka vinsten skulle jag tro.",
+          "timestamp": "17:37",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "5%",
+        "revenue_growth": "18%",
+        "margin": "Ökande",
+        "debt_level": null,
+        "custom": [
+          "EV/EBIT 7 på rullande 12 månader",
+          "16 kvartal i rad med tvåsiffrig tillväxt"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabil tillväxt med 18% intäktsökning",
+          "Rörelseresultat ökade över 10%",
+          "EV/EBIT 7 - värderingen kommer sannolikt att sjunka ytterligare",
+          "Hög direktavkastning på 5%",
+          "16 kvartal i rad med tvåsiffrig tillväxt"
+        ],
+        "bear_case": [
+          "Krigsrisken i Ukraina påverkar bolaget"
+        ],
+        "catalysts": [
+          "Fortsatt stabil tillväxt",
+          "Värderingssänkning pga. vinstökning"
+        ],
+        "risks": [
+          "Krigsrisken i Ukraina"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Nelly",
+      "ticker": "NELY",
+      "timestamp_start": "29:46",
+      "timestamp_end": "41:41",
+      "word_count": 800,
+      "speakers": [
+        "Fabian",
+        "Mange",
+        "Mattias"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Nelly levererade en stark Q1-rapport med 11.5% omsättningstillväxt och EBIT ökade från 1 till 20 miljoner. Rapporten var säsongsbetonat svagast på året. Nyckeldrivare är minskad returgrad (från 35% till 25%) genom ökat fokus på egna varumärken som nu står för 50% av försäljningen. Egna varumärken ger högre bruttomarginal och lägre returgrad. Antalet aktiva kunder och ordervolym växte. Fabian äger aktier och har köpt inför rapporten. Marknadens reaktion var negativ efter Peter (Matematikern) meddelade att det inte längre var hans största innehav.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Omsättningen växte 11,5%, ebit ökade från 1 till 20 miljoner kronor. Det är ett kvartal som är säsongsmässigt ganska svagt, det svagaste på året. Sen tänkte jag gå in i detalj på omsättningen då, vad som driver den här tillväxten. Den påverkas av antalet returor. För man har ju en brutto omsättning, vad man säljer för, jag säger att man säljer för 100, men sedan skickar folk tillbaka kanske 20, så då säljer du netto för 80.",
+          "timestamp": "30:36",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "När det kommer då till returgraden så är en väldigt viktig faktor hur mycket försäljning av eget varumärke det är. Och den ökade från 40-50 procent. Och anledningen till att det är viktigt, det är dels för att de har bättre bruttomarginal där. Man behöver inte ge en del av kakan till en extern varumärkesägare. Men sen så är det också lägre returgrad på egna varumärket.",
+          "timestamp": "32:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Kollar man mer på returgraden i detalj, så låg den på typ 35% för några år sedan, nu var den nere på 25%. Så frågan är ju hur lågt kan den gå? Och där sägs väl liksom under 20% i returgrad vara väldigt bra.",
+          "timestamp": "34:41",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Så jag räknar med EV-Ebit 7 för 2025, när kursen står i 38 som idag. Och det beror mycket på att de har en väldigt stor nettokassanell och kommer att bygga upp en del cash under året. Så jag räknar med att nettokassan är nästan 20 procent av market cap idag. Och det slår ju mycket på EV-Ebit såklart. Men på rullande 12 så handlas man istället på EV-Ebit 11, vilket jag tycker kanske är en ganska rimlig multipel för Nelly. Men om man då går till EV-Ebit 7 och ska upp till EV-Ebit 11 genom att aktiekursen stiger, då börjar aktiekursen stiga 50 procent.",
+          "timestamp": "36:42",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "11.5%",
+        "margin": "EBIT 20 MSEK",
+        "debt_level": null,
+        "custom": [
+          "EV/EBIT 11 på rullande 12 månader",
+          "EV/EBIT 7 förväntat för 2025",
+          "Nettokassa nästan 20% av market cap",
+          "Returgrad 25% (ner från 35%)",
+          "Egna varumärken 50% av försäljningen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Minskad returgrad från 35% till 25%",
+          "Egna varumärken 50% av försäljningen (bättre bruttomarginal, lägre returgrad)",
+          "Växande antal aktiva kunder och ordervolym",
+          "Låg värdering med EV/EBIT 11 på rullande 12 och 7 för 2025",
+          "Stor nettokassa (nästan 20% av market cap)"
+        ],
+        "bear_case": [
+          "Tuffare komparabler framåt - nu börjar möta kvartal där de växte förra året",
+          "Hur länge kan returgraden sänkas? Det finns en botten (under 20% anses väldigt bra)",
+          "Kan bli trade-off mellan lägre returgrad och lägre AOV"
+        ],
+        "catalysts": [
+          "Fortsatt sänkning av returgraden",
+          "Fortsatt tillväxt av egna varumärken",
+          "Värderingssänkning till EV/EBIT 7-11"
+        ],
+        "risks": [
+          "Tuffare komparabler framåt",
+          "Returgraden kan inte sänkas för evigt",
+          "Mode påverkar vad folk köper"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Pricer",
+      "ticker": "PRIC-B",
+      "timestamp_start": "42:56",
+      "timestamp_end": "48:58",
+      "word_count": 700,
+      "speakers": [
+        "Fabian",
+        "Mange",
+        "Mattias"
+      ],
+      "primary_speaker": "Mange",
+      "discussion_summary": "Pricer har tappat 50% på fem månader. Huvudorsaken är schweizisk storägare som sålt 4% av bolaget på fyra månader samt svag Q1-rapport (EBIT halverades, omsättning -20%). Vd var negativ i vd-ordet och räknar med svagt Q2. Positiva faktorer: insiderköp av 5 personer (totalt 700,000 aktier), SOB-ordern i Kanada ska levereras under 5 kvartal (100 MSEK per kvartal), bruttomarginal hölls uppe bra. Värderingen är extremt låg på EV/EBIT 5.5. Valutaeffekter ser negativ ut i Q1 men är totalt positiva (dollarn försvagats mer än kronan). Stora ordrar kan skicka aktien upp 100% men risk kvarstår för fortsatt sälj från schweizaren.",
+      "quotes": [
+        {
+          "speaker": "Mange",
+          "text": "Men anledningen till att det gått ner så mycket är ju till stor del, tror jag, från att man haft en schweizisk storägare som räkte ut aktier. De hade 9-10% och har sålt 4% av hela bolaget nu på fyra månader. De har varit väldigt prisokänsliga om de sålt. Det är ju liksom ner varje dag i praktiken.",
+          "timestamp": "43:08",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Men sen så kom det ju en jämfört svag rapport nu också där ebit halverades och omsättning sjönk med 20%. Jag tror att två anledningar till att jag hamnat snett i aktien det är dels att jag underskattade då när den här schweiziska ägaren började sälja. För det såg man redan i början på året.",
+          "timestamp": "43:45",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Och sen så ytterligare en grej är att valutan sänkte ju vinsten i kvartalet. Men det är för att den kortsiktiga effekten är negativ där. På grund av att man köper in mycket i dollar och sen så blir lagret mindre värt när man väl ska leverera. Men netus är den här valutaeffekten positiv. För att man tjänar på att dollarn blir svagare och förlorar på att djuren har blivit svagare.",
+          "timestamp": "45:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Kollar man på värderingen nu så är det evv-ebit fem och en halv. Beroende av tolv månader. Så det är oljebolagsvärdering eller liknande. Det är bland det lägsta man kan se i Norden för normala bolag skulle jag säga.",
+          "timestamp": "46:05",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Ska man kolla på det positiva istället så har det varit insiderköp av fem personer efter rapporten. Sammanlagt på 700.000 så inte jättemycket men ändå någonting. Man sa ju att brytemarginalen höll uppe bra i kvartalet. Och sen så den här SOB-ordern i Kanada som jag pratade om innan, den ska ju börja levereras i krutforor nu och levereras i fem kvartal framåt. Så det är bara därifrån kommer man få nästan 100 miljoner i omsättning per kvartal.",
+          "timestamp": "45:00",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-20% YoY",
+        "margin": "EBIT halverades",
+        "debt_level": null,
+        "custom": [
+          "EV/EBIT 5.5 på 12 månader",
+          "SOB-ordern: 100 MSEK per kvartal under 5 kvartal",
+          "Insiderköp: 5 personer, 700,000 aktier totalt",
+          "Schweizisk storägare sålde 4% på 4 månader, har 5% kvar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Extremt låg värdering på EV/EBIT 5.5",
+          "Insiderköp av 5 personer (700,000 aktier)",
+          "SOB-ordern i Kanada levereras under 5 kvartal (100 MSEK per kvartal)",
+          "Bruttomarginal hölls uppe bra",
+          "Netto valutaeffekt positiv (dollarn försvagats mer än kronan)"
+        ],
+        "bear_case": [
+          "Schweizisk storägare sålt 4% och har 5% kvar",
+          "Svag Q1-rapport (EBIT halverades, omsättning -20%)",
+          "Vd räknar med svagt Q2",
+          "Värdering är låg men saknar trigger"
+        ],
+        "catalysts": [
+          "Stora ordrar kan skicka aktien upp 100%",
+          "Schweizaren slutar sälja",
+          "SOB-ordern börjar leverera Q2"
+        ],
+        "risks": [
+          "Schweizaren kan fortsätta sälja (5% kvar)",
+          "Svagt Q2 väntat",
+          "Värdering är låg men marknad verkar inte tro på vändning"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är ju som så att, varför har bolag på börsen från första början? Speciellt de på de mindre listorna. Jo, det är för att de behöver kapital och det är någon annan som inte vill ge dem det kapitalet. Nu är de ut och raggar pengar från den öppna marknaden. När kreditmarknaden fryser igen, de vill ju oftast inte låna ut pengar till den här typen av väldigt spekulativa bolag som inte går med vinst. Då gör de nya emissioner och det har ju varit tuffa tider att fylla de här nya emissionerna, vilket har gjort att när även den dörren stängs så finns ingenting kvar och då går bolaget i en konkurs. Så det är lite en viktig läxa kanske att verkligen fokusera på det här med bolag som går med vinst och tjänar pengar.",
+      "summary": "Viktigt att fokusera på lönsamma bolag, särskilt bland småbolag. Bolag listas för att de behöver kapital de inte kan få annars. När kreditmarknaden stängs kan de inte finansieras och går i konkurs.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "03:42",
+      "confidence": "high",
+      "tags": [
+        "småbolag",
+        "riskhantering",
+        "lönsamhet"
+      ]
+    },
+    {
+      "quote": "Ja det där tror jag har en jättestor poäng med faktiskt. För om du har en aktie som visar en fin rapport, då köper man ju in sig direkt på rapportdagen, trots att den redan har gått upp, så vågar man ju köpa in sig för man tänker att den kommer att drifta några dagar till uppåt. Det samlar ju alla på nedsidan, så det har du nog en jättepoäng med faktiskt.",
+      "summary": "Post-earning announcement drift har blivit en trend där köpare hoppas på ytterligare uppsida efter positiva rapporter, medan förlorerare säljer direkt. Detta skapar mer extrema rörelser på en dag.",
+      "category": "wisdom",
+      "speaker": "Mattias",
+      "speaker_role": "host",
+      "timestamp": "11:09",
+      "confidence": "high",
+      "tags": [
+        "post-earning drift",
+        "marknadspsykologi",
+        "reaktioner"
+      ]
+    },
+    {
+      "quote": "Det måste ändå finnas någon form av trigger där helt plötsligt marknaden bestämmer sig för att okej men nu är den aktien värda jag äger igen, nu ska den upp igen. Och jag ser inte riktigt när det ska komma. Speciellt inte efter det här kvartalet.",
+      "summary": "En aktie kan vara billig men marknaden behöver en trigger för att ändra uppfattning. Utan trigger kan en billig aktie fortsätta att sjunka.",
+      "category": "wisdom",
+      "speaker": "Mattias",
+      "speaker_role": "host",
+      "timestamp": "13:18",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "trigger",
+        "marknadssyn"
+      ]
+    },
+    {
+      "quote": "Och där är det ju alltid svårt att veta när är de klara och hur mycket ska man respektera det. Det var svårt att veta att de bara skulle räka ut aktierna. Man ska ändå respektera det när man säger att någon med väldigt mycket aktier börjar sälja. Det kan gå snabbt då.",
+      "summary": "Viktigt att respektera när storägare säljer. Det kan gå snabbt och vara svårt att veta när de är klara. Forced selling kan döma aktier.",
+      "category": "lesson",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "timestamp": "44:04",
+      "confidence": "high",
+      "tags": [
+        "insiderförsäljning",
+        "riskhantering",
+        "storägare"
+      ]
+    },
+    {
+      "quote": "Det där är faktiskt något som jag tycker på riktigt är ganska intressant. Jag brukar ju ofta titta på det när det är stora nedgångar på börsen. Tittar man ju på vad som verkar stå emot nedgångarna mest. Sen är det väldigt intressant som du är inne på när det kommer negativa nyheter om ett bolag, om aktien ändå står emot det ganska bra, så säger det någonting om att det finns en köpvilja i aktien uppenbarligen.",
+      "summary": "Aktier som står emot negativa nyheter eller stora marknadsnedgångar visar på underliggande köpvilja och kan vara intressanta.",
+      "category": "wisdom",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "timestamp": "22:29",
+      "confidence": "medium",
+      "tags": [
+        "teknisk analys",
+        "styrka",
+        "köpvilja"
+      ]
+    },
+    {
+      "quote": "Det där ska man ha lite koll på, för det gör ju som så, betalar man ju till aktier, aktierna går upp i värde, då vänjas ju folk vid en viss kostnad. Så det här är en riktig kostnad som man ska ta hänsyn till. Men, nog om det hör ni.",
+      "summary": "Stock Based Compensation är en riktig kostnad som man måste ta hänsyn till, särskilt hos amerikanska tech-bolag. När aktier inte går upp vill anställda ha riktig lön istället.",
+      "category": "wisdom",
+      "speaker": "Mattias",
+      "speaker_role": "host",
+      "timestamp": "08:49",
+      "confidence": "high",
+      "tags": [
+        "stock based compensation",
+        "tech-bolag",
+        "ersättningar"
+      ]
+    },
+    {
+      "quote": "Det är lite kul också med Betsson som är upp över 200% sedan 2021. Om EVO går upp 100% härifrån så är de fortfarande inte på samma nivå som de var 2021. Så det är en ganska brutal outperformance av Betsson sedan dess. Och det var nog inte många som trodde det på finanstwitter då. Det var ju, jag har nog aldrig sett en aktie vara så hosad hela mitt liv som EVO 2021 egentligen.",
+      "summary": "Marknaden kan ha fel på lång sikt. Betsson har överpresterat massivt mot Evolution sedan 2021 trots att få trodde på det. Hype kan vända.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "15:45",
+      "confidence": "medium",
+      "tags": [
+        "hype",
+        "outperformance",
+        "marknadseffektivitet"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet behandlar en turbulent rapportsäsong där många aktier fått stora nedgångar. Diskussion fokuserar på specifika bolag som Evolution med svag rapport och regulatoriska risker, Betsson med stabil tillväxt och låg värdering, samt G-Mot och HelloFresh. Betsson rekommenderas som köp, HelloFresh och Nylörn som bevakning, och Nelly och Pricer som köp med varierande confidence. Det finns en viss marknadsskepticism men även uppmärksamhet på intressanta värderingsmöjligheter hos lönsamma bolag.",
+  "key_takeaways": [
+    "Fokusera på lönsamma bolag, särskilt bland småbolag där många går i konkurs",
+    "Betsson är stabil med 16 kvartal i rad av tvåsiffrig tillväxt och låg värdering",
+    "Nelly visar stark förbättring genom minskad returgrad och ökat fokus på egna varumärken",
+    "Pricer är extremt billigt på EV/EBIT 5.5 men har risker med storägare som säljer",
+    "Evolution är tekniskt billig men saknar trigger för vändning med negativ delta",
+    "Post-earning drift har blivit vanligare med mer extrema rörelser på en dag"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2025-05-01-5c97.txt",
+  "transcript_word_count": 9317,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

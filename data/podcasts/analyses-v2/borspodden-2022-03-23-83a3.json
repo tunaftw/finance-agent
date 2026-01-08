@@ -1,0 +1,715 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2022-03-23-83a3",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 448 - Analytikerbordellen",
+  "episode_number": 448,
+  "date": "2022-03-23",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Råvarubom",
+    "Småbolagsduo",
+    "Analytikermassage",
+    "Bank-spreadar",
+    "Loomis Pay"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "Profilgruppen",
+    "B-Group",
+    "Gränges",
+    "Arjo",
+    "Handelsbanken A/B",
+    "SEB A/C",
+    "TBD30",
+    "Spolargruppen",
+    "Bure-SPAC",
+    "Creade-SPAC",
+    "Bettingbolagen",
+    "Kindred Group",
+    "Loomis",
+    "Bivol",
+    "Traton",
+    "Volvo Cars",
+    "SSAB",
+    "Boliden",
+    "Ericsson"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "21:39",
+      "reasoning": "H&M är ner 20% i år, Q1-försäljning upp 18%, 10-11x EBIT, 5% direktavkastning, återköp startar efter stämman i maj. Lågprispositionering kan klara inflation bra. Negativ påverkan från Ryssland kan vara övervärderad.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Och med det där i ryggen så tycker jag att H&M skulle kunna vara ett intressant köp här ändå.",
+      "sector": "Kläder/Detailjhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Dubbla Index-nedgång i år kan vara inprisat",
+      "catalyst_timing": "Q1-rapport mitten mars 2022"
+    },
+    {
+      "stock_name": "Profilgruppen",
+      "ticker": "PGR-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "23:48",
+      "reasoning": "Småsparare jagar in efter vinningsrally. Speculation kring lager-vinster. Historiskt underpresterande bolag. Bättre att köpa när det ser uselt ut, inte när det ser bra ut.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Men jag skulle ändå vara extremt försiktig med att rusa in i de här bolagen nu.",
+      "sector": "Aluminiumprofiler",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "B-Group",
+      "ticker": "BGR-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "23:48",
+      "reasoning": "Samma som Profilgruppen - småsparare jagar in efter rally. Historiskt underpresterande. Speculation kring lager-vinster.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Men jag skulle ändå vara extremt försiktig med att rusa in i de här bolagen nu.",
+      "sector": "Aluminiumprofiler",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Gränges",
+      "ticker": "GRENG",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "24:57",
+      "reasoning": "Gått ned samtidigt som konkurrenterna gått upp. Tio gånger så stort som Profilgruppen. Kan vara värt att köpa om man vill ha exponering mot sektorn.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Men också att det har blivit lite utbudsproblem från utlandet som också gör att de kan höja priserna lite extra på sina varor. Men också att det har blivit lite utbudsproblem från utlandet som också gör att de kan höja priserna lite extra på sina varor.",
+      "sector": "Aluminiumprofiler",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Arjo",
+      "ticker": "ARJO-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "28:24",
+      "reasoning": "Kursreaktionen på 8% nedgång känns överdriven jämfört med kostnadsjusteringen från 65-70 miljoner till 150-110 miljoner.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Däremot skulle jag säga att den här justeringen som kom, tycker jag nästan så att kursreaktionen var överdriven jämfört med hur stor justeringen var. Så att vi har köpt lite aktier på det här.",
+      "sector": "Sjukvård/Medical",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Negativt sentiment kring kommunikation",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Handelsbanken A-aktie",
+      "ticker": "SHB-A",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "29:50",
+      "reasoning": "B-aktien 15 SEK dyrare än A-aktien (110 vs 95). Extrem spread utan logiskt värderingsmässigt stöd. Stora köpare drivit upp B-aktien som har mindre likviditet.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Så för den som är lite uthållig så är det nog nästan garanterat en bra affär. För så fort de här storköpen slutar så kommer nog spredden att gå ihop.",
+      "sector": "Bank",
+      "market": "sweden",
+      "position_context": "Spread opportunity",
+      "downside_note": null,
+      "catalyst_timing": "Bolagsstämma i dagarna"
+    },
+    {
+      "stock_name": "SEB A-aktie",
+      "ticker": "SEB-A",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "30:06",
+      "reasoning": "C-aktien 18 SEK dyrare än A-aktien (130 vs 112). Liknande spread-läge som Handelsbanken. Kan gälla flera andra bolag med olika aktieslag.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Det finns ingen anledning till att den inte ska göra det, så kan man ju säga.",
+      "sector": "Bank",
+      "market": "sweden",
+      "position_context": "Spread opportunity",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Bure-SPAC",
+      "ticker": "BURE-SPAC",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "33:59",
+      "reasoning": "Handlas under 100 kr. TBD30 visade att det kan bli förvärv. Kanske ett sätt att parkera pengar i väntan på förvärv. Kan knappast hitta något sämre än TBD30s förvärv.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Så här inser man ju återigen hur mycket spararna har blivit lurade av Carnegie när de satte Norva på börsen för 34 har jag för mig. När den kanske borde kostat mer än vad den handlas i nu kring 23 här.",
+      "sector": "SPAC",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Långa väntetider",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Creade-SPAC",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "33:59",
+      "reasoning": "Handlas under 100 kr. TBD30 visade att det kan bli förvärv. Parkera pengar i väntan på förvärv.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jo men du får tänka att Bure-spacken och Creade-spacken handlas nu under 100.",
+      "sector": "SPAC",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Långa väntetider",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kindred Group",
+      "ticker": "KIND-SDB",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "34:52",
+      "reasoning": "Svenska bettingbolag kan gynnas av att sponsringskostnader sjunker i Europa efter att ryska bolag lämnat. Klubbar mer försiktiga med kinesiska och andra svajiga länder, kan noga sig med svensk aktör.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Bettingbolagen skulle kunna vara stora vinnare på det här nuvarande rysslands hatet.",
+      "sector": "Betting/Gaming",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOM-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "37:52",
+      "reasoning": "Loomis Pay-projektet utvecklats till haveri enligt rykten. Kostnaderna skenar och man har inte kompetensen mot tech-jättarna. Kontantanvändning går ner långsiktigt, löner och kostnader stiger.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Men det är väldigt, väldigt låga odds på att den planen kommer att spricka och lite varning där för Loomis.",
+      "sector": "Kontanthantering",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Pay-projekt haveri",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Traton",
+      "ticker": "8TRA-DE",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "42:22",
+      "reasoning": "Guidar för ökad försäljning och 5-7% rörelsemarginal 2022 mot 5,2% förra året. Mindre avbokningar än befarat trots kriget. Väldigt lågt värderad men kanske ska vara.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Och Traton fortsätter vara en väldigt lågt värderad aktie men det kanske ska vara.",
+      "sector": "Lastbilar/Fordon",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "SSAB",
+      "ticker": "SSAB-A",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "45:01",
+      "reasoning": "Råvarubom gynnar SSAB och svenska gruvor som Boliden. AP-fonder och pensionsstiftelser sålt SSAB pga ESG (koldioxid/elförbrukning), vilket kan skapa undervärdering. Börsbolagen köpt av utländska fondbolag.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Svenskt stål, alltså SSAB, eller våra fina gruvor i Kyrna som Boliden äger. Men tyvärr har vi sålt ut de här aktierna till utlandet.",
+      "sector": "Stål",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Boliden",
+      "ticker": "BOL",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "45:01",
+      "reasoning": "Svenska naturtillgångar gynnas av råvarubom. AP-fonder sålt pga ESG. Ägad av Blackrock och T. Rowe Price men kan vara undervärderad.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "I Boliden ser det tyvärr likadant ut. Blackrock och T. Rowe Price är största och näst största ägare.",
+      "sector": "Gruvor/Metaller",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "21:18",
+      "timestamp_end": "23:36",
+      "word_count": 350,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan argumenterar för att H&M är ett intressant köp efter 20% nedgång i år, 18% försäljningstillväxt, 10-11x EBIT och 5% direktavkastning. Aktien har gått mer än dubbla Index. John håller med och äger lite H&M trots backning, men påpekar att det historiskt nästan alltid varit kast att köpa H&M. Likviditeten är en fördel i oroliga tider.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Aktien handlas runt 10-11 gånger ebit nu, ger 5% i direktavkastning och sen så har vi de här återköpen som drar igång efter stämman i maj.",
+          "timestamp": "22:28",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Med den här kursnygången som är dubbelt så stor som index i år så är ganska mycket redan inprisat i den här aktien.",
+          "timestamp": "22:25",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag håller med, jag äger lite H&M, jag är grotesk back på dem får jag väl säga.",
+          "timestamp": "22:50",
+          "context": "position_disclosure"
+        },
+        {
+          "speaker": "John",
+          "text": "H&M är ett bolag som kommer att finnas kvar imorgon också, oavsett vad som händer i världen. Så lång-term play på de här nivåerna borde inte vara helt fel.",
+          "timestamp": "23:05",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "10-11x EBIT",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "5%",
+        "revenue_growth": "18%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kursnedgång 20% i år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Lågprispositionering klarar inflation",
+          "Q1-försäljning upp 18%",
+          "Hög direktavkastning 5%",
+          "Återköp startar efter stämman i maj",
+          "Långsiktig stabilitet"
+        ],
+        "bear_case": [
+          "Dubbla Index-nedgång i år kan vara inprisat",
+          "Negativ påverkan från Ryssland/Ukraina",
+          "Historiskt dålig aktieutveckling"
+        ],
+        "catalysts": [
+          "Q1-rapport mitten mars 2022",
+          "Återköpsprogram efter stämman"
+        ],
+        "risks": [
+          "Ryska marknaden",
+          "Dollarstyrka",
+          "Historiskt underpresterande"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Arjo",
+      "ticker": "ARJO-B",
+      "timestamp_start": "25:20",
+      "timestamp_end": "28:56",
+      "word_count": 420,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "John är extremt kritisk till Arjos kommunikation med analytiker innan tyst period. VD:n har pratat med analytiker vilket lett till att aktien föll 7,5% utan nyheter. Pareto har fått exakta siffror om kostnadsökningar. Johan ser kursreaktionen som överdriven och köpte aktier, men håller med om att fenomenet är irriterande.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Jag måste säga att jag äcklas över hur de håller på de här bolagen.",
+          "timestamp": "26:15",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Och det är nästan så att det blir värre till och med.",
+          "timestamp": "27:28",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Däremot skulle jag säga att den här justeringen som kom, tycker jag nästan så att kursreaktionen var överdriven jämfört med hur stor justeringen var.",
+          "timestamp": "28:24",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Så att vi har köpt lite aktier på det här.",
+          "timestamp": "28:28",
+          "context": "position_disclosure"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kostnadsökning: 150-110 miljoner vs tidigare 65-70 miljoner"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kursreaktionen på 8% nedgång överdriven",
+          "Kostnadsjusteringen på cirka 50-60 miljoner inte så stor"
+        ],
+        "bear_case": [
+          "Analytikermassage med insiders",
+          "Dåligt förtroende för ledning",
+          "Kurs kan falla vidare"
+        ],
+        "catalysts": [
+          "Rapport 22 april"
+        ],
+        "risks": [
+          "Kommunikationsproblem med bolagsledning",
+          "Insiderproblem",
+          "Fortsatt negativt sentiment"
+        ]
+      },
+      "position_disclosure": "bought"
+    },
+    {
+      "stock_name": "Handelsbanken A/B spread",
+      "ticker": "SHB-A/SHB-B",
+      "timestamp_start": "29:23",
+      "timestamp_end": "32:07",
+      "word_count": 380,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan presenterar spread-lägen i bankerna inför utdelningar och bolagsstämmor. I Handelsbanken är B-aktien 15 SEK dyrare än A-aktien (110 vs 95), i SEB är C-aktien 18 SEK dyrare än A-aktien (130 vs 112). Stora köpare har drivit upp mindre likvida aktieslag. Spreaden bör gå ihop när storköpen slutar. Möjlighet att köpa den billigare eller blanka den dyrare.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "I Handelsbanken är B-aktien nu hela 15 kronor dyrare än A-aktien, där B-aktien kostar 110 kronor och A-aktien 95 kronor.",
+          "timestamp": "29:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "I SEB är det liknande då SEB C kostar 130 kronor och SEB A 112 kronor.",
+          "timestamp": "30:06",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Så för den som är lite uthållig så är det nog nästan garanterat en bra affär. För så fort de här storköpen slutar så kommer nog spredden att gå ihop.",
+          "timestamp": "30:40",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Handelsbanken B-aktie: 110 SEK",
+          "Handelsbanken A-aktie: 95 SEK",
+          "SEB C-aktie: 130 SEK",
+          "SEB A-aktie: 112 SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Extrem spread utan logiskt stöd",
+          "Storköpare drivit upp mindre likvida aktier",
+          "Spreaden bör gå ihop"
+        ],
+        "bear_case": [
+          "Spread kan bli värre innan den går ihop",
+          "Kan behöva utrymme att öka position"
+        ],
+        "catalysts": [
+          "Bolagsstämmor i dagarna",
+          "Utdelningar"
+        ],
+        "risks": [
+          "Spread kan vidgas",
+          "Ej brist på lån men ändå risk"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOM-B",
+      "timestamp_start": "36:13",
+      "timestamp_end": "38:06",
+      "word_count": 280,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan noterar att Loomis har gått upp 10% med starkt Q4 och gynnas av stark dollar samt ökat kontantanvändande prepper-klimat. Men den längre trenden är negativ med sjunkande kontantanvändning och stigande kostnader. Loomis Pay beskrivs som haveri med skenande kostnader och bristande kompetens mot tech-jättarna.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Och det senaste ryktet John, som har nått börspodden källan, är ju att Pay-projektet utvecklats till ett haveri av Guds nåde.",
+          "timestamp": "37:18",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men det är väldigt, väldigt låga odds på att den planen kommer att spricka och lite varning där för Loomis.",
+          "timestamp": "37:52",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Loomis gör nog bäst i att fortsätta köra runt i sina truckar. Gör det ni är bäst på.",
+          "timestamp": "37:52",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Upp 10% i år",
+          "Starkt Q4"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Upp 10% i år",
+          "Starkt Q4",
+          "Gynnas av stark dollar",
+          "Ökat kontantanvändande prepper-klimat"
+        ],
+        "bear_case": [
+          "Loomis Pay haveri",
+          "Kostnaderna skenar",
+          "Saknar kompetens mot tech-jättarna",
+          "Kontantanvändning sjunker långsiktigt",
+          "Stigande löner och kostnader"
+        ],
+        "catalysts": [
+          "Kapitalmarknadsdag"
+        ],
+        "risks": [
+          "Pay-projektet spricker",
+          "Långsiktig trend mot mindre kontanter"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Svenska sparare har våldsolt aktiefonder under inledningen av 2022. I februari noterades ett netto-uttag på 19,2 miljarder från aktiefonder. Räknar vi in i januari så ligger netto-uttagen på 32,9 miljarder kronor så här långt i år.",
+      "summary": "Stora utflöden från aktiefonder kan förklara kursnedgångar. Fonder köper mer av favoriter när pengar flödar in och säljer av när alla ska ut samtidigt.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "05:41",
+      "confidence": "high",
+      "tags": [
+        "fondflöden",
+        "marknadskraft",
+        "utflöden"
+      ]
+    },
+    {
+      "quote": "För när det flödar in pengar i fonderna då köper de mer av det de redan har och värderingarna i de bolag som är favoriter de trycks upp till i många fall ohållbara nivåer. På samma sätt blir då kursnedgångarna brutala när alla ska ut ur de här bolagen samtidigt.",
+      "summary": "Fondflöden driver värderingar upp och ned. När alla ska ut samtidigt blir nedgångarna brutala.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "06:20",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "fondflöden",
+        "marknadscykl"
+      ]
+    },
+    {
+      "quote": "Det brukar alltid vara så att man ska köpa när det ser ganska uselt ut för de här bolagen, och när det börjar se riktigt bra ut, då brukar det vara församt helt enkelt.",
+      "summary": "Köp när det ser uselt ut, inte när allt ser bra ut. Klassisk konträr investeringsstrategi.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "24:57",
+      "confidence": "high",
+      "tags": [
+        "konträr",
+        "timing",
+        "köpsignaler"
+      ]
+    },
+    {
+      "quote": "Men Charlie Munger brukar säga att man ska välja att spela mot lätt motstånd och det är ju inte här i det här fallet Johan.",
+      "summary": "Charlie Mungers princip att undvika svåra fall. Sök enkla investeringar med tydlig uppförsbacke.",
+      "category": "philosophy",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "40:55",
+      "confidence": "high",
+      "tags": [
+        "Munger",
+        "lätt motstånd",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Långa investerare jatar in i småbolag som presterat bra, vilket gör att P/E-talen blir skyhöga. Det är när P/E-talen ska vara på 1 i vinster, inte när bolagen presterar bäst.",
+      "summary": "Vänta på dåliga nyheter för att köpa, inte när bolagen presterar bäst och värderingar är höga.",
+      "category": "philosophy",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "25:07",
+      "confidence": "medium",
+      "tags": [
+        "P/E",
+        "timing",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Kontantanvändningen går sakta men säkert ner. Sedan har vi också stigande löner och annan kostnadsinflation som jag tror kan bli ganska tuff att kompensera för för Loomis.",
+      "summary": "Långa strukturella trender kan tvinga företag att förändras. Ersätta förtjänster när gamla modeller försvinner.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "37:10",
+      "confidence": "high",
+      "tags": [
+        "struktur",
+        "trender",
+        "företagsanpassning"
+      ]
+    },
+    {
+      "quote": "Det brukar alltid vara så att man ska köpa när det ser ganska uselt ut för de här bolagen, och när det börjar se riktigt bra ut, då brukar det vara församt helt enkelt.",
+      "summary": "Konträr strategi: köp när det ser uselt ut, inte när det ser bra ut.",
+      "category": "philosophy",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "24:57",
+      "confidence": "high",
+      "tags": [
+        "konträr",
+        "timing",
+        "värdering"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "John",
+      "speaker_role": "host",
+      "quote": "Betting och krypto kanske som också får möjlighet att köpa in sig ännu mer.",
+      "timestamp": "36:13",
+      "context": "Diskussion om att bettingbolag kan gynnas av minskad konkurrens från ryska bolag",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": "lång sikt"
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet handlar om marknadens återhämtning efter årets start men med förväntningar om fortsatt volatilitet. Johan och John diskuterar stora utflöden från svenska aktiefonder som förklarat delar av kursnedgångarna. Det finns diskussioner om specifika aktier som H&M, bank-spreadar, och kritik mot Arjos analytikerkommunikation. Det finns en del ilska kring insiderhandel och bristande myndighetskontroll.",
+  "key_takeaways": [
+    "Stora utflöden från svenska aktiefonder (32,9 miljarder) förklarar delar av årets kursfall",
+    "H&M ses som intressant köp efter 20% nedgång, 10-11x EBIT och 5% direktavkastning",
+    "Extrem spread mellan Handelsbanken A/B (15 SEK) och SEB A/C (18 SEK) kan utnyttjas",
+    "Arjo kritiserades för analytikermassage men Johan köpte aktier på överdriven kursreaktion",
+    "Småbolag som Profilgruppen och B-Group bör undvikas när de presterar bäst, köp när det ser uselt ut",
+    "Loomis Pay beskrivs som haveri med skenande kostnader",
+    "Bettingbolag kan gynnas av minskad sponsringskonkurrens efter Rysslands-utfall"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2022-03-23-83a3.txt",
+  "transcript_word_count": 8021,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

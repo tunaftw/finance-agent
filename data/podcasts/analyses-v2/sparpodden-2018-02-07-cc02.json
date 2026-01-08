@@ -1,0 +1,199 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2018-02-07-cc02",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Sparpodden 222 - Nu Lyfter Börsen",
+  "episode_number": 222,
+  "date": "2018-02-07",
+  "hosts": [
+    "Jocke",
+    "Claes"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Börsras 2018",
+    "VIX-index och volatilitet",
+    "Ratos vinstvarning",
+    "Elon Musk/SpaceX",
+    "Hävstångssparande"
+  ],
+  "stocks_discussed": [
+    "Ratos",
+    "Tesla"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[24:02]",
+      "reasoning": "Diskuterad i kontext av Elon Musks ambitioner. Hosten köper inte Tesla för lågt P/E-tal utan för eventuella ambitioner framåt och resultatet det kan medföra. Ingen köprekommendation, utan mer intresse för långsiktig vision.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Man köper ju inte Tesla-aktien för att den är väl värderad. För det låga p-talet. Utan man köper ju det för eventuella ambitioner framåt. Och det eventuella resultatet kan medföra.",
+      "sector": "Automotive/Space",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Ratos",
+      "ticker": "RATO-B",
+      "timestamp_start": "[16:36]",
+      "timestamp_end": "[18:51]",
+      "word_count": 400,
+      "speakers": [
+        "Host",
+        "Host"
+      ],
+      "primary_speaker": "Host",
+      "discussion_summary": "Ratos kom med en vinstvarning fredagskväll med en nedskrivning på 550 miljoner. Diskuterade timingen av meddelandet och bolagets problem. Förtroendet för bolaget är skadat, flera VD:ar har bytts ut och det är en lång väg tillbaka.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Ratos vinstvarning i fredags.",
+          "timestamp": "[16:36]",
+          "context": "other"
+        },
+        {
+          "speaker": "Host",
+          "text": "En halv miljard var i alla fall nedskrivningen. 550 miljoner.",
+          "timestamp": "[18:45]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Jag tycker det är lite tråkigt för förtroendet.",
+          "timestamp": "[18:27]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host",
+          "text": "Ratos var en lysande stjärna.",
+          "timestamp": "[18:35]",
+          "context": "other"
+        },
+        {
+          "speaker": "Host",
+          "text": "Faktum kvarstår ju att det är mycket som är struligt för ratos och lång väg tillbaka.",
+          "timestamp": "[17:57]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Nedskrivning 550 MSEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Stora problem med återhämtning",
+          "Förlorat förtroende",
+          "Flera VD-byten",
+          "Nedskrivning på 550 MSEK"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Fortsatta finansiella problem",
+          "Försämrat förtroende på marknaden"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag blir nästan glad när jag ser att det händer någonting. Man börjar undra om det har hänt, har börsen tappat stinget eller? Nej men nu är det ju tillbaka, så det är så här, kär ska det vara till och från. Det är sunt, det är bra.",
+      "summary": "Marknadskorrigeringar är normala och friska, börsen ska inte bara gå uppåt.",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[03:02]",
+      "confidence": "high",
+      "tags": [
+        "volatilitet",
+        "marknadscykler"
+      ]
+    },
+    {
+      "quote": "Helt plötsligt när det stökar till det lite så här, då blir det riktigt oroligt. Då är man med i mer allmän media... Det är när det går ner kraftigt. Och ibland kan jag tycka det är synd.",
+      "summary": "Media skapar oroliga sensationer vid marknadsras, vilket kan skada förtroendet för aktiesparande.",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[04:39]",
+      "confidence": "high",
+      "tags": [
+        "media",
+        "marknadssentiment"
+      ]
+    },
+    {
+      "quote": "Två, två och en halv, då är det faktiskt ganska mycket. Ta en finanskris, 28 eller 99 år 2000, då följer svenska indexet med ungefär 50-60%. Hade du en hävstång på två, var det rökt.",
+      "summary": "Hög hävstång (2x+) är farligt vid kraftiga marknadsnedgångar, hela kapitalet kan försvinna.",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[28:54]",
+      "confidence": "high",
+      "tags": [
+        "hävstång",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Det ökar trycket på att du ska agera när det går ner. Det mentala trycket blir ganska hårt om man ligger med lite hävstångs där. Så att var försiktig.",
+      "summary": "Hävstång ökar det mentala trycket att agera irrationellt vid nedgångar.",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[29:20]",
+      "confidence": "high",
+      "tags": [
+        "investeringspsykologi",
+        "hävstång"
+      ]
+    },
+    {
+      "quote": "Det är väl en påminnelse om att det finns viktigare saker än börsen också. Även om börsen är kul och viktig.",
+      "summary": "Det finns viktigare saker i livet än börsen.",
+      "category": "philosophy",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[24:18]",
+      "confidence": "high",
+      "tags": [
+        "investeringsfilosofi"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Sparpodden diskuterar februari 2018 års börsras där amerikanska och svenska marknader föll kraftigt på några dagar. VIX-indexet exploderade och volatiliteten återvände efter en lång period av låg rörlighet. Ratos kom med en vinstvarning på 550 MSEK. Avsnittet avslutas med diskussion om Elon Musks SpaceX-raketuppskjutning och varningar mot hög hävstång i sparandet.",
+  "key_takeaways": [
+    "Börsras och korrigeringar är normala och sunda",
+    "Media gör marknadsnedgångar mer dramatiska än de faktiskt är",
+    "Ratos har stora problem med 550 MSEK i nedskrivningar",
+    "Hög hävstång (2x+) är mycket riskfyllt vid marknadskrascher",
+    "Tesla handlar mer om långsiktig vision än nuvarande värdering"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2018-02-07-cc02.txt",
+  "transcript_word_count": 7355,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

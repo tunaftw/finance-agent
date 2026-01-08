@@ -1,0 +1,664 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2025-11-05-96a5",
+  "podcast_name": "IG Börssnack / Kort och lång analyspodden",
+  "episode_title": "Annons: Nvidias segertåg, sällsynta metaller & rusning till kärnkraft",
+  "episode_number": null,
+  "date": "2025-11-05",
+  "hosts": [
+    "host1",
+    "host2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Nvidia",
+    "AI",
+    "Sällsynta jordartsmetaller",
+    "Kärnkraft/SMR",
+    "Datacenter",
+    "Räntor"
+  ],
+  "stocks_discussed": [
+    "Nvidia",
+    "Palantir",
+    "Diamondback Energy",
+    "Intelligo",
+    "Astera Labs",
+    "Caterpillar",
+    "ProPetro",
+    "Ericsson",
+    "Oklo",
+    "Cameco",
+    "NuScale"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Diamondback Energy",
+      "ticker": "FANG",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "[02:00]",
+      "reasoning": "Stark rapport med ökad omsättning. Låga breakeven-nivåer för onshore-bolag i USA vilket gör att utdelning kan fortsätta även om oljepriset går ner. Väldigt aktieägarvänliga ledning som gör återköp och delar ut pengar. Bolaget har stabila kassaflöden men värderas ej upp. Skapar utväxlingseffekt genom återköp vid låg multipel.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är ett olje- och gasbolag i USA då. Framförallt det man kallar Onshore. Så det är den här stora Permian Base i USA.",
+      "sector": "Olja & Gas",
+      "market": "us",
+      "position_context": "Eget portföljbolag",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Intelligo",
+      "ticker": "INTEG",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "[13:22]",
+      "reasoning": "Äger aktien med 60 dagars regel. Rapporten läggs tidigare vilket ses som positivt signal att böckerna är i ordning. 9% blankad. Om rapporten blir stark kan det leda till short squeeze. Binärt scenario: antingen bedrägeri eller fantastisk utveckling.",
+      "price_target": null,
+      "time_horizon": "Kort",
+      "quote": "Du äger också den här med en 60 dagars regel... Kommer inte ihåg senast jag var så sugen på en rapport.",
+      "sector": "Teknisk analys",
+      "market": "sweden",
+      "position_context": "60 dagars regel",
+      "downside_note": "Bedrägeririsk",
+      "catalyst_timing": "Kommande rapport"
+    },
+    {
+      "stock_name": "Astera Labs",
+      "ticker": "ALAB",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[10:02]",
+      "reasoning": "Spännande bolag som löser problem med informationsöverföring mellan processorer/chips. Nvidia är nästan beroende av dem och bygger in deras chip. Från 16 stycken i nuvarande Nvidia-chip till 32 i nya. Hög värdering men intressant underleverantör till AI-sektorn.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är ju som ett traditionellt amplifier i ett ljudsystem till exempel, som tar en signal och förstärker den. Så vad man tar det här är att man tar en låg signal och förstärker upp den helt enkelt.",
+      "sector": "Halvledare",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sällsynta jordartsmetaller (sektor)",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[17:37]",
+      "reasoning": "Gruvbolag som generellt sett inte är lönsamma. Metallerna är inte sällsynta, svårigheten ligger i raffinering som mest sker i Kina. Vissa upp 800% men handlas på negativ P/E och höga sales-multiplar. Kapacitetsbrist i raffinering kan hålla priserna låga trots ökad produktion.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Inte speciellt. Vi tittade ju på dem här innan. Det är lätt att tänka sig att de här ska handlas upp för att bara i namnet så tänker man sig att det är någonting som är sällsynt.",
+      "sector": "Gruvor",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Caterpillar",
+      "ticker": "CAT",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[22:29]",
+      "reasoning": "Rider på AI-vågen genom att sälja generatorer till datacenter. 40% av intäkterna nu från detta segment som växer 17% årligen. Upp 57% i år. Historiskt indikator på global BNP men nu fullkomligt exploderat tack vare datacenter-behovet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är faktiskt så att de har börjat sälja generatorer till datacenter. Det här intäktsbenet är ju nu 40 % av deras intäkter och växer 17 % om året.",
+      "sector": "Industri",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Risk när datacenter ska rivas",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "ProPetro",
+      "ticker": "PUMP",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[24:34]",
+      "reasoning": "Frackingbolag som stigit 98% på en månad. Nytt avtal att erbjuda 60MW till hemlig datacenteroperatör. Oljebolagen elektrifierar sig och kan nu använda naturgas i generatorer för att skapa off-grid-el till datacenter. AI-spår kan ge högre värdering än nuvarande 10-15 P/E.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "I det här nya avtalet då ska man kunna erbjuda 60 megawatt till datacenteroperatör som är hemlig. Det är faktiskt spännande för vad oljegasbolagen har gjort de senaste åren kan man väl säga.",
+      "sector": "Olja & Gas",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Oklo",
+      "ticker": "OKLO",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[33:40]",
+      "reasoning": "SMR-bolag som gått upp tusentals procent. Enorm potentiell marknad för små modulära reaktorer (100-300MW vs >1000MW för traditionella). Snabbare och billigare att bygga, mer flexibla, kan placeras nära datacenter. Men handlas som hype, regulatoriska risker kvar.",
+      "price_target": null,
+      "time_horizon": "Lång",
+      "quote": "Här kommer ju de här spännande namnen som Oklo, med flera som har gått upp otroligt mycket... Det är en enorm potentiell marknad om man skulle lyckas ta fram de här nya typerna av kärnkraftsreaktorer.",
+      "sector": "Kärnkraft",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Regulatorisk risk",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Cameco",
+      "ticker": "CCJ",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[35:54]",
+      "reasoning": "Kanadensiskt bolag som gör bränsle till kärnkraft. Populärt i sektorn, gått bra på senaste år. Ger tydlig exponering mot kärnkraftssektorn men handlas inte lika mycket som SMR-raketer. Host har ägt i omgångar men inte för närvarande.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men är man intresserad av själva bränslet och brytningen av uran så finns det ju till exempel Cameco som ju är ett kanadensiskt stort bolag som sysslar med det här som är väldigt populärt i sektorn.",
+      "sector": "Uran",
+      "market": "us",
+      "position_context": "Har ägt tidigare, inte nu",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Intelligo",
+      "ticker": "INTEG",
+      "timestamp_start": "[13:22]",
+      "timestamp_end": "[14:44]",
+      "word_count": 150,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "Bolaget meddelar att rapporten läggs tidigare vilket host ser som positivt signal att böckerna är i ordning. 9% blankad. Binärt scenario: antingen bedrägeri eller fantastisk utveckling. Väntar spänt på rapport med potential för short squeeze.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Du äger också den här med en 60 dagars regel",
+          "timestamp": "[13:22]",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "Kommer inte ihåg senast jag var så sugen på en rapport",
+          "timestamp": "[14:04]",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "Om det skulle komma en pangrapport som också kommer tidigare. Det skulle väl kunna bli någon typ av short squeeze då",
+          "timestamp": "[14:23]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "9% blankad"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Tidigare rapport = positivt signal",
+          "Potentiell short squeeze vid bra rapport",
+          "Fantastisk utveckling om inte bedrägeri"
+        ],
+        "bear_case": [
+          "Bedrägeririsiko",
+          "Binärt scenario"
+        ],
+        "catalysts": [
+          "Kommande rapport"
+        ],
+        "risks": [
+          "Bedrägeri",
+          "Blankad position 9%"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Sällsynta jordartsmetaller (sektor)",
+      "ticker": null,
+      "timestamp_start": "[17:07]",
+      "timestamp_end": "[22:21]",
+      "word_count": 500,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host2",
+      "discussion_summary": "Metallerna behövs för halvledare och elektronik men är inte sällsynta, svårigheten ligger i raffinering som främst sker i Kina. Gruvbolag generellt inte lönsamma, vissa upp 800% men på negativ P/E. Kapacitetsbrist i raffinering kan hålla priserna låga. Intressant att hålla koll på bestånd men inte attraktiv investering.",
+      "quotes": [
+        {
+          "speaker": "host2",
+          "text": "Inte speciellt. Vi tittade ju på dem här innan. Det är lätt att tänka sig att de här ska handlas upp för att bara i namnet så tänker man sig att det är någonting som är sällsynt",
+          "timestamp": "[17:37]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "host2",
+          "text": "De är sällsynta för att raffineringen är svår. De finns ju överallt, även i Sverige",
+          "timestamp": "[18:28]",
+          "context": "metric"
+        },
+        {
+          "speaker": "host2",
+          "text": "Det ligger i tiden att man handlar på det som pratas om, det som är hett i nyheterna. Men man kanske inte har räknat på det",
+          "timestamp": "[20:00]",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "Negativ",
+        "ev_ebitda": null,
+        "ev_sales": "Höga multiplar",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Vissa upp 800%",
+          "Negativ P/E"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Gruvbolag generellt inte lönsamma",
+          "Raffineringskapacitetbrist i Kina",
+          "Höga värderingar på negativ P/E"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Kina dominans i raffinering",
+          "Kapacitetsbrist håller priser låga"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Caterpillar",
+      "ticker": "CAT",
+      "timestamp_start": "[22:29]",
+      "timestamp_end": "[24:15]",
+      "word_count": 200,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host2",
+      "discussion_summary": "Industrimaskinbolag historiskt som indikator på global BNP. Nu rider på AI-vågen genom att sälja generatorer till datacenter. 40% av intäkter från detta segment, växer 17% årligen. Upp 57% i år, exploderat tack vare datacenter-behov. Risk när datacenter ska rivas.",
+      "quotes": [
+        {
+          "speaker": "host2",
+          "text": "Det är faktiskt så att de har börjat sälja generatorer till datacenter. Det här intäktsbenet är ju nu 40 % av deras intäkter och växer 17 % om året",
+          "timestamp": "[23:44]",
+          "context": "metric"
+        },
+        {
+          "speaker": "host2",
+          "text": "De åker med på AI-vågen och de är upp 57 procent i år",
+          "timestamp": "[23:14]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "17%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Upp 57% i år",
+          "40% intäkter från generatorer till datacenter"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Datacenter-expansion driver generatorförsäljning",
+          "Växer 17% årligt i AI-segment"
+        ],
+        "bear_case": [
+          "Risk när datacenter ska rivas"
+        ],
+        "catalysts": [
+          "Fortsatt datacenter-expansion"
+        ],
+        "risks": [
+          "Cyklisk risk när AI-boom mognar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "ProPetro",
+      "ticker": "PUMP",
+      "timestamp_start": "[24:34]",
+      "timestamp_end": "[28:00]",
+      "word_count": 350,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host2",
+      "discussion_summary": "Frackingbolag som stigit 98% på en månad. Nytt avtal att erbjuda 60MW off-grid-el till hemlig datacenteroperatör. Oljebolagen elektrifierar sig och kan använda naturgas från pumpning i generatorer. Skapar stabilitet för datacenter som alltid behöver el. Handlas på 10-15 P/E men AI-spår kan ge högre värdering.",
+      "quotes": [
+        {
+          "speaker": "host2",
+          "text": "Det är ett ganska lite sådant här bolag... De här har ju stigit 98 procent på en månad",
+          "timestamp": "[24:34]",
+          "context": "metric"
+        },
+        {
+          "speaker": "host2",
+          "text": "I det här nya avtalet då ska man kunna erbjuda 60 megawatt till datacenteroperatör som är hemlig",
+          "timestamp": "[24:58]",
+          "context": "metric"
+        },
+        {
+          "speaker": "host2",
+          "text": "Just nu prissätts oljegasbolag till just det här kommissionella och kanske ligger i 10-15 p",
+          "timestamp": "[27:35]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "10-15",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Upp 98% på en månad",
+          "60MW datacenteravtal"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Off-grid-el från naturgas till datacenter",
+          "Låg värdering 10-15 P/E",
+          "Stabilitet för datacenter"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "AI-datacenter expansion"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Diamondback Energy",
+      "ticker": "FANG",
+      "timestamp_start": "[28:08]",
+      "timestamp_end": "[30:38]",
+      "word_count": 280,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "Rapporterade starkt med ökad omsättning och produktion. Onshore-bolag i Permian med låga breakeven-nivåer. Kan fortsätta utdelning även om oljepriset går ner. Väldigt aktieägarvänliga med återköp och utdelningar. Lönsamma på nuvarande nivåer men värderas ej upp. Skapar utväxling genom återköp vid låg multipel.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "De rapporterade i går, de hade en jättefin rapport och de lyckas producera mycket mer så att omsättningen går upp",
+          "timestamp": "[28:08]",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "De är ju ett bolag som har låga breakeven-nivåer för att vara ett onshore-bolag i USA",
+          "timestamp": "[28:08]",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Så de delar ut och köper på dem. Så de är väldigt aktieägarvänliga, men de värderas inte upp",
+          "timestamp": "[29:12]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "Ja",
+        "revenue_growth": "Ökad",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Låga breakeven-nivåer",
+          "Onshore Permian",
+          "Aktieägarvänliga med återköp"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Låga breakeven-nivåer",
+          "Aktieägarvänligt med återköp och utdelning",
+          "Stabila kassaflöden"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": [
+          "Oljeprisnedgång"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Kärnkraft/SMR (sektor)",
+      "ticker": null,
+      "timestamp_start": "[32:16]",
+      "timestamp_end": "[41:42]",
+      "word_count": 1200,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host2",
+      "discussion_summary": "Datacenter behöver enorma mängder el (100,000 hushåll för vanligt center, 2 miljoner för Amazons). Kärnkraft ger stabil energi. SMR (100-300MW) vs traditionella (>1000MW) är snabbare, billigare, säkrare, mer flexibla, kan placeras nära datacenter. Oklo, NuScale, Rolls Royce, BVX, Centrus nämns. Regulatoriska risker kvar. Microsoft försöker starta Three Mile Island. Framtid snarare än hype men handlas som hype nu.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Ett vanligt datacenter, om man kan säga så, kräver el motsvarande 100 000 hushåll. Och tittar vi på några av de här riktigt stora som Amazon håller på att bygga, då pratar vi el för två miljoner hushåll",
+          "timestamp": "[32:30]",
+          "context": "metric"
+        },
+        {
+          "speaker": "host2",
+          "text": "Så skillnaden med de här små då det är ju att de kanske vanligtvis kommer att producera någonstans 100 till 300 megawatt jämfört med över 1000 megawatt-timmar på de stora verken",
+          "timestamp": "[35:15]",
+          "context": "metric"
+        },
+        {
+          "speaker": "host2",
+          "text": "Men de är liksom modulära, så att man bygger dem i fabrik i standardiserade delar. Och de här kan liksom transporteras då färdiga och installeras på plats",
+          "timestamp": "[35:15]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host1",
+          "text": "Microsoft har ju varit inblandad i att försöka få igång det här på Three Mile Island",
+          "timestamp": "[37:20]",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "host2",
+          "text": "Jag tror mer på det här än andra områden vi har varit inne på och som vätgas till exempel. Det här ligger närmare till hands att kunna lyckas",
+          "timestamp": "[42:16]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "SMR: 100-300MW",
+          "Traditionella: >1000MW",
+          "Oklo upp 1000%",
+          "Datacenter: 100K-2M hushåll"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Datacenter-behov av stabil energi",
+          "Snabbare och billigare att bygga än traditionella",
+          "Kan placeras nära användningsområde",
+          "Tekniskt beprövad grundteknik"
+        ],
+        "bear_case": [
+          "Regulatoriska risker",
+          "Avfallsproblematik kvarstår",
+          "Handlas som hype nu"
+        ],
+        "catalysts": [
+          "Tech-jättar investerar",
+          "USA regelförändringar med Trump",
+          "Datacenter expansion"
+        ],
+        "risks": [
+          "Regulatoriska risker",
+          "Avfallshantering",
+          "Klarar de uppnå milestones?"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "När man har sänkt initialt, pausar räntan ett tag och senker igen, precis som vi gör nu. Så att det är ju det här man brukar prata om, är det soft landing eller är det hard landing? Soft landing och vi sänker, det är ju så att då kan man skruva upp prognoserna för framtiden. Men om vi pratar en hard landing, då gör ju att ekonomin kraschar nu och då vill man inte vara investerad i huvud taget",
+      "summary": "Marknaden tenderar handla upp vid räntehöjningar och ner vid räntesänkningar. Soft landing (ekonomin landar mjukt) möjliggör högre framtida prognoser medan hard landing (ekonomisk krasch) gör att man inte vill vara investerad",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[15:11]",
+      "confidence": "medium",
+      "tags": [
+        "räntor",
+        "marknadscyklar",
+        "soft landing",
+        "hard landing"
+      ]
+    },
+    {
+      "quote": "När ett bolag med stor del kassaflöde, och man kan räkna till exempel pris genom kassaflöde, så att man har en ganska låg multipel där, då får de väldigt många aktier i sina återköpsprogram helt enkelt. Det här ger en utväxling över tid, så att det blir som en hävstångseffekt när man börjar prisa upp de här bolagen",
+      "summary": "Vid återköp vill man faktiskt att aktiekursen går upp sent för att maximera hävstångseffekten. Ju lägre kurs vid återköp desto fler aktier köps tillbaka, vilket ger utväxling när kursen senare prisas upp",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[29:12]",
+      "confidence": "high",
+      "tags": [
+        "återköp",
+        "värdering",
+        "utväxling",
+        "kassaflöde"
+      ]
+    },
+    {
+      "quote": "Det är ett bett de gör och det behöver inte alltid falla i god jord så småningom, men jag tror att vi ska vara väldigt glada för det är de här investeringarna som just nu driver inte bara börsen, men underliggande ekonomi framförallt i USA. Alltså deras höga BNP-utveckling är ju tack vare investeringen, till exempel datacenter",
+      "summary": "Tech-jättarnas stora investeringar (som 38 miljarder mellan Amazon, OpenAI och Nvidia) är bets på framtiden som driver både börsen och den underliggande ekonomin, inte minst USA:s BNP-tillväxt genom datacenter-investeringar",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[08:16]",
+      "confidence": "medium",
+      "tags": [
+        "AI",
+        "investeringar",
+        "BNP",
+        "datacenter",
+        "tech-jättar"
+      ]
+    },
+    {
+      "quote": "De är sällsynta för att raffineringen är svår. De finns ju överallt, även i Sverige. Sålunda själva metallerna är inte så sällsynta",
+      "summary": "Sällsynta jordartsmetaller heter så för att raffineringen är svår, inte för att metallerna är sällsynta. De finns överallt inklusive i Sverige men historiskt slängts som gruvavfall",
+      "category": "lesson",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[18:28]",
+      "confidence": "high",
+      "tags": [
+        "jordartsmetaller",
+        "raffinering",
+        "gruva",
+        "kommoditet"
+      ]
+    },
+    {
+      "quote": "Det ligger i tiden att man handlar på det som pratas om, det som är hett i nyheterna. Så tänker man att det här kommer bli stort. Men man kanske inte har räknat på det. Det är väl lite klassiskt just nu",
+      "summary": "Investerare tenderar köpa baserat på nyhetshype snarare än fundamental analys. Klassiskt misstag att köpa på trend utan räkna på om värderingen motiverar potentialen",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "[20:00]",
+      "confidence": "high",
+      "tags": [
+        "hype",
+        "nyheter",
+        "fundamental analys",
+        "psykologi"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar Nvidias fortsatta uppåtgång och nya satsningar på kvantdatorer och kärnkraftsdatacenter. Intelligo väntar med spänning på rapport, Diamondback rapporterar starkt med aktieägarvänlig utdelningspolitik. Sällsynta jordartsmetaller ses som överhype - metallerna är inte sällsynta, raffineringen är. Kärnkraft och särskilt SMR (små modulära reaktorer) presenteras som framtiden för datacenter-energi men handlas som hype. Caterpillar och oljebolag som ProPetro rider med på AI-vågen genom att sälja elgenererare till datacenter.",
+  "key_takeaways": [
+    "Nvidia integrerar kvantdatorer och bygger kärnkraftsdatacenter med US energidepartement",
+    "Sällsynta jordartsmetaller är överhypade - problemet är raffinering inte sällsynthet",
+    "Datacenter driver nya sektorer: Caterpillars generatorer, oljebolagens off-grid-el, kärnkraftens SMR",
+    "SMR (100-300MW) vs traditionella kärnkraftverk (>1000MW) är snabbare, billigare, mer flexibla",
+    "Regulatoriska risker kvar för kärnkraft men tech-jättar som Microsoft investerar aktivt",
+    "Diamondback Energy: Stark rapport, låga breakeven-nivåer, aktieägarvänliga med återköp och utdelning"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2025-11-05-96a5.txt",
+  "transcript_word_count": 7658,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

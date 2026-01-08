@@ -1,0 +1,396 @@
+{
+  "filing_id": "getinge-annual-2022",
+  "company_id": "getinge",
+  "filing_type": "annual",
+  "fiscal_year": 2022,
+  "fiscal_quarter": null,
+  "analyzed_at": "2025-12-30T10:00:00Z",
+  "model_used": "claude-opus-4-5-20251101",
+
+  "executive_summary": "Getinge delivered a challenging 2022 with organic sales declining 5.4% as COVID-related demand normalization impacted Acute Care Therapies. Total sales grew 4.6% to SEK 28,292 M due to currency effects. Adjusted EBITA declined to SEK 4,281 M (15.1% margin). Supply chain disruptions, component shortages and inflation pressured margins. Russia's invasion of Ukraine added complexity. Key acquisitions included Fluoptics for fluorescence imaging. New financial targets established for 2022-2025.",
+
+  "key_highlights": [
+    "Net sales SEK 28,292 M, up 4.6% (organic -5.4%)",
+    "Adjusted EBITA SEK 4,281 M with 15.1% margin (vs 19.3% prior year)",
+    "Acute Care Therapies organic decline of 12.2% due to COVID normalization",
+    "Life Science and Surgical Workflows both grew organically 3.6%",
+    "Fluoptics acquisition completed in fluorescence imaging",
+    "67% of manufacturing sites EU MDR certified (vs 42% prior year)",
+    "Net debt reduced to SEK 2,602 M from SEK 3,609 M",
+    "Carbon emissions in own operations reduced 48% year-on-year"
+  ],
+
+  "ceo_letter": {
+    "author": "Mattias Perjos",
+    "title": "President & CEO",
+    "word_count": 580,
+    "tone": "cautious",
+    "confidence_level": "medium",
+
+    "promises": [
+      {
+        "statement": "Average annual organic growth in net sales: 4-6%",
+        "metric": "organic_growth",
+        "target": "4-6%",
+        "timeframe": "2022-2025",
+        "confidence_language": "target"
+      },
+      {
+        "statement": "Average adjusted earnings per share growth: >10%",
+        "metric": "eps_growth",
+        "target": ">10%",
+        "timeframe": "2022-2025",
+        "confidence_language": "target"
+      },
+      {
+        "statement": "Dividend policy to pay dividends of 30-50% of net profit",
+        "metric": "dividend_payout",
+        "target": "30-50%",
+        "timeframe": "ongoing",
+        "confidence_language": "policy"
+      }
+    ],
+
+    "themes": [
+      {
+        "topic": "supply_chain_challenges",
+        "emphasis": "high",
+        "sentiment": "cautious"
+      },
+      {
+        "topic": "post_pandemic_normalization",
+        "emphasis": "high",
+        "sentiment": "cautious"
+      },
+      {
+        "topic": "digital_advancement",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "sustainability_progress",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "service_business_growth",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      }
+    ],
+
+    "challenges": [
+      {
+        "challenge": "Supply chain problems with component shortages and logistical difficulties",
+        "attribution": "external",
+        "tone": "explanatory"
+      },
+      {
+        "challenge": "Russia's invasion of Ukraine impacting global trade",
+        "attribution": "external",
+        "tone": "explanatory"
+      },
+      {
+        "challenge": "Healthcare not yet recovered to pre-pandemic elective surgery levels",
+        "attribution": "external",
+        "tone": "explanatory"
+      },
+      {
+        "challenge": "Inflation impacting customers' finances",
+        "attribution": "external",
+        "tone": "explanatory"
+      }
+    ],
+
+    "honesty_signals": [
+      "Openly acknowledges organic sales and order intake declined year-on-year",
+      "Admits cost increases from supply chain could not be fully compensated by price increases",
+      "Discusses post-pandemic normalization impact directly",
+      "Acknowledges future remains difficult to predict"
+    ],
+
+    "key_quotes": [
+      {
+        "quote": "The organic order intake and net sales declined year-on-year in 2022. However, we still see many opportunities to develop our offering to meet customer needs and thereby expand our market shares",
+        "category": "accountability"
+      },
+      {
+        "quote": "Together with our customers and suppliers, we are now working to create an improved work environment for healthcare staff with products that simplify their work, lead to increased productivity and save more lives",
+        "category": "vision"
+      },
+      {
+        "quote": "The future ahead remains difficult to predict, but we will likely continue to be faced with the global challenges that we experienced in 2022 some way into the new year",
+        "category": "warning"
+      }
+    ],
+
+    "is_qa_format": false,
+    "questions_addressed": []
+  },
+
+  "mda_analysis": {
+    "key_narratives": [
+      "Post-pandemic normalization driving Acute Care Therapies decline",
+      "Supply chain disruptions and component shortages impacting production",
+      "Life Science and Surgical Workflows maintaining organic growth",
+      "Sustainability achievements with 48% carbon emission reduction in own operations"
+    ],
+    "management_interpretation": "Management views 2022 as a transition year following exceptional pandemic demand. Focus on addressing supply chain challenges while maintaining growth in non-COVID segments. Digital solutions and service business emphasized as future growth drivers.",
+
+    "segment_commentary": {
+      "Acute Care Therapies": {
+        "name": "Acute Care Therapies",
+        "performance": "weak",
+        "revenue_growth_yoy": -0.016,
+        "operating_margin": null,
+        "outlook": "cautious",
+        "management_commentary": "Organic decline of 12.2% due to COVID-19 demand normalization. Lower ventilator demand vs exceptional 2021. Supply chain challenges impacted production. Anesthesia contract won with Premier Inc."
+      },
+      "Life Science": {
+        "name": "Life Science",
+        "performance": "stable",
+        "revenue_growth_yoy": 0.132,
+        "operating_margin": null,
+        "outlook": "positive",
+        "management_commentary": "Organic growth of 3.6%. Recovery of products restricted during COVID-19. New production line for DPTE-BetaBags in Merrimack delivering. First business area to reach carbon neutral status."
+      },
+      "Surgical Workflows": {
+        "name": "Surgical Workflows",
+        "performance": "stable",
+        "revenue_growth_yoy": 0.127,
+        "operating_margin": null,
+        "outlook": "positive",
+        "management_commentary": "Organic growth of 3.6%. Increased capital goods sales for operating rooms and sterile supply in US. IN2 modular room system and Aquadis 56 launched."
+      }
+    },
+
+    "operational_highlights": [
+      "Fluoptics SAS acquisition for fluorescence imaging",
+      "IN2 modular room system launched",
+      "Aquadis 56 washer-disinfector launched with sustainability focus",
+      "DPTE-EXO Alpha Port launched",
+      "Livit Flex bioprocess control system launched",
+      "67% of sites EU MDR certified",
+      "New Experience Centers opened in Wayne and Frankfurt"
+    ],
+
+    "concerns_mentioned": [
+      "Whistle-blower investigation in Germany regarding HLS SET packaging",
+      "Consent Decree with FDA - Datascope added to decree",
+      "Supply chain disruptions affecting production",
+      "Component shortages impacting delivery",
+      "Post-pandemic healthcare staffing shortages"
+    ]
+  },
+
+  "risk_factors": {
+    "risks": [
+      {
+        "risk": "External shocks including geopolitical risks, pandemics, natural disasters",
+        "severity": "high",
+        "category": "market",
+        "change": "escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Quality risks from regulatory perspective - potential violations under investigation",
+        "severity": "high",
+        "category": "regulatory",
+        "change": "escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Interruptions in supply chains and dependence on external suppliers",
+        "severity": "high",
+        "category": "operational",
+        "change": "escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Product quality from customer perspective",
+        "severity": "medium",
+        "category": "operational",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Digitization and innovation - ability to develop new successful products",
+        "severity": "medium",
+        "category": "technology",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Fragmented product portfolio lacking critical mass in some categories",
+        "severity": "medium",
+        "category": "operational",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Product liability risks - surgical mesh MDL settlement",
+        "severity": "high",
+        "category": "legal",
+        "change": "de-escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Brazil anti-competitive practices investigation ongoing",
+        "severity": "high",
+        "category": "legal",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Information and data security / cybersecurity",
+        "severity": "medium",
+        "category": "technology",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Financial risks - currency, interest rate and credit risks",
+        "severity": "medium",
+        "category": "financial",
+        "change": "unchanged",
+        "is_boilerplate": true
+      }
+    ],
+
+    "new_risks_count": 0,
+    "removed_risks_count": 0,
+    "escalated_risks_count": 3,
+    "de_escalated_risks_count": 1,
+    "boilerplate_ratio": 0.10,
+    "top_risk_categories": ["market", "regulatory", "operational"]
+  },
+
+  "guidance": {
+    "targets": [
+      {
+        "metric": "organic_growth",
+        "value": "4-6%",
+        "period": "2022-2025",
+        "vs_previous": "new",
+        "notes": "New financial framework established"
+      },
+      {
+        "metric": "eps_growth",
+        "value": ">10%",
+        "period": "2022-2025",
+        "vs_previous": "new",
+        "notes": "Average annual adjusted EPS growth target"
+      },
+      {
+        "metric": "dividend_payout",
+        "value": "30-50%",
+        "period": "ongoing",
+        "vs_previous": "new",
+        "notes": "New dividend policy"
+      }
+    ],
+    "overall_direction": "new_framework",
+    "commentary": "New financial targets for 2022-2025 established. 2022 performance significantly below targets due to external headwinds and post-pandemic normalization.",
+    "management_confidence": "medium"
+  },
+
+  "segments": [
+    {
+      "name": "Acute Care Therapies",
+      "revenue": 15285000000,
+      "revenue_growth_yoy": -0.016,
+      "operating_margin": null,
+      "order_intake": null,
+      "order_intake_growth_yoy": null,
+      "management_commentary": "Organic decline of 12.2% due to post-pandemic normalization in ventilator demand. Supply chain challenges impacted production.",
+      "outlook": "cautious",
+      "management_focus": "high"
+    },
+    {
+      "name": "Life Science",
+      "revenue": 4026000000,
+      "revenue_growth_yoy": 0.132,
+      "operating_margin": null,
+      "order_intake": null,
+      "order_intake_growth_yoy": null,
+      "management_commentary": "Organic growth of 3.6%. First business area to reach carbon neutral status. New DPTE-BetaBag production line operational.",
+      "outlook": "positive",
+      "management_focus": "medium"
+    },
+    {
+      "name": "Surgical Workflows",
+      "revenue": 8981000000,
+      "revenue_growth_yoy": 0.127,
+      "operating_margin": null,
+      "order_intake": null,
+      "order_intake_growth_yoy": null,
+      "management_commentary": "Organic growth of 3.6%. Strong capital goods sales in US market. IN2 and Aquadis 56 product launches.",
+      "outlook": "positive",
+      "management_focus": "medium"
+    }
+  ],
+
+  "financial_metrics": {
+    "revenue": 28292000000,
+    "operating_income": 3626000000,
+    "net_income": 2516000000,
+    "operating_margin": 0.128,
+    "net_margin": 0.089,
+    "eps": 9.15,
+    "free_cash_flow": 3367000000,
+    "net_debt": 2602000000,
+    "roe": 0.089,
+    "roic": null
+  },
+
+  "piotroski_f_score": {
+    "total": 6,
+    "interpretation": "average",
+    "signals": {
+      "positive_net_income": true,
+      "positive_ocf": true,
+      "roa_improving": false,
+      "ocf_greater_than_ni": true,
+      "leverage_declining": true,
+      "current_ratio_improving": false,
+      "no_dilution": true,
+      "margin_improving": false,
+      "turnover_improving": true
+    }
+  },
+
+  "earnings_quality": {
+    "accruals_ratio": 0.04,
+    "quality_grade": "high",
+    "ocf_to_ni_ratio": 1.34,
+    "one_time_items_impact": "significant",
+    "owner_earnings": null
+  },
+
+  "schilit_shenanigans": {
+    "overall_risk": "low",
+    "checks": {
+      "revenue_too_soon": {"risk": "none", "notes": null},
+      "bogus_revenue": {"risk": "none", "notes": null},
+      "one_time_gains": {"risk": "none", "notes": null},
+      "deferred_expenses": {"risk": "none", "notes": null},
+      "hidden_liabilities": {"risk": "low", "notes": "Surgical mesh provisions of SEK 2.4 billion properly disclosed. Brazil CGU negotiations ongoing."},
+      "cookie_jar_reserves": {"risk": "none", "notes": null},
+      "big_bath": {"risk": "low", "notes": "Restructuring costs of SEK 206 M for production capacity adjustment - appears legitimate"}
+    },
+    "red_flags": []
+  },
+
+  "working_capital_efficiency": {
+    "dso": null,
+    "dso_yoy_change": "Accounts receivable increased to SEK 5,275 M from SEK 4,695 M",
+    "dio": null,
+    "dio_yoy_change": "Inventories increased significantly to SEK 6,232 M from SEK 4,767 M",
+    "dpo": null,
+    "dpo_yoy_change": null,
+    "cash_conversion_cycle": null,
+    "ccc_yoy_change": null,
+    "ccc_trend": "worsening",
+    "flags": ["Significant inventory build-up (+31%) due to supply chain challenges and component hoarding"]
+  }
+}

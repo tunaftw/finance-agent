@@ -1,0 +1,831 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2022-07-12-86a5",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 380 - Tech-special med Inge Heydorn (GP Bullhound)",
+  "episode_number": 380,
+  "date": "2022-07-12",
+  "hosts": [
+    "Unknown"
+  ],
+  "guests": [
+    "Inge Heydorn"
+  ],
+  "main_topics": [
+    "Tech-aktier",
+    "Halvledare",
+    "Cloud computing",
+    "Gaming",
+    "E-sport",
+    "Cybersäkerhet",
+    "Marknadstrender"
+  ],
+  "stocks_discussed": [
+    "Google",
+    "Microsoft",
+    "Amazon",
+    "Apple",
+    "Cisco",
+    "Salesforce",
+    "Snowflake",
+    "Palo Alto Networks",
+    "ServiceNow",
+    "ASML",
+    "KLA Tencor",
+    "Applied Materials",
+    "Intel",
+    "IBM",
+    "Nintendo",
+    "Sony",
+    "Take Two",
+    "Activision",
+    "Accenture",
+    "FedEx",
+    "Micron",
+    "Snap",
+    "Facebook/Meta",
+    "Proact IT",
+    "Lime"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Google",
+      "ticker": "GOOGL",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "22:20",
+      "reasoning": "Google tar bort förlusterna på cloudlösningen och handlas på p10 idag. Värderingen har kommit ner fantastiskt. Förvänta bra avkastning på 5-10 års sikt. Google är en av de stora vinnarna inom cloud.",
+      "price_target": null,
+      "time_horizon": "5-10 år",
+      "quote": "Google tar bort förlusterna på cloudlösningen så handlades det ju p10 på Google idag ju. Vilket är helt fantastiskt. Så det kommer ju, tror jag, en bra avkastning om du tänker fem till tio år fram här.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "22:20",
+      "reasoning": "Värderingen har kommit ner fantastiskt. Microsoft är en av de stora vinnarna inom cloud. Bygger mervärden genom value-added lösningar som Teams. Förvänta bra avkastning på 5-10 års sikt.",
+      "price_target": null,
+      "time_horizon": "5-10 år",
+      "quote": "Och samma sak med Microsoft. Varför kan man ju inte spitta ut dem då? Jo det är ju för att, vad som händer också i nästa steg, att du bygger massor med value added lösningar på de här lösningarna som då ingår, att ta Teams till exempel på Microsoft och så vidare.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Cisco",
+      "ticker": "CSCO",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "19:42",
+      "reasoning": "Sålde innan Q1-rapport på grund av negativ makrosituation, köpte tillbaka 14-15% ner. Strategisk trading - sälj vid uncertainty, köp vid starka nivåer efter nedgång. Positiv utveckling efter återköp.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "Vi gjorde likadant med Apple och vi gjorde likadant med Amazon. Cisco är ett jättebra exempel. Cisco sålde två dagar innan rapporten var ner 15 % på rapporten, vi köpte tillbaka den dagen efter.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": "Trading position",
+      "downside_note": "15% nedgång vid tidpunkt för återköp",
+      "catalyst_timing": "Q1 2022 earnings"
+    },
+    {
+      "stock_name": "Salesforce",
+      "ticker": "CRM",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "41:55",
+      "reasoning": "Vinnare över tid sedan 2000. Bra värdering och kassaflöden. Vinner under kriser. Företag vill ha deras lösningar.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Salesforce gillar vi som bara den. Bra värdering, bra kassaflöden. Vi gillar ServiceNow.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "ServiceNow",
+      "ticker": "NOW",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "41:55",
+      "reasoning": "Bolag med bra mjukvara och tjänster till företag. Liknar Salesforce i kategori.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Vi gillar ServiceNow. Så mycket sådana typer av bolag.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Snowflake",
+      "ticker": "SNOW",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "41:45",
+      "reasoning": "Cloudbolag men värderingen är för hög för närvarande. Väntar på rimlig nivå för köp.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Vi är i Eginga Snowflake idag, men vi tittar ju väldigt noga på om värderingen kommer ner till en rimlig nivå, så kommer vi köpa in det.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": "Ej inne, väntar på rätt nivå",
+      "downside_note": null,
+      "catalyst_timing": "När värdering faller"
+    },
+    {
+      "stock_name": "Palo Alto Networks",
+      "ticker": "PANW",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "42:24",
+      "reasoning": "Safe haven inom cyber security. Jättesvårt att utvärdera bästa produkt, Palo Alto är säkrare val.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Vi är ju Palo Alto Network, som alla andra gör, som är en safe haven i den.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nintendo",
+      "ticker": "NTDOY",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "40:34",
+      "reasoning": "Gamingbolag som gillar. Gaming är en växande trend.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Vi gillar framförallt Nintendo. Vi gillar Sony.",
+      "sector": "Technology",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sony",
+      "ticker": "SONY",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "40:34",
+      "reasoning": "Gamingbolag som gillar. Gaming är en växande trend.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Vi gillar framförallt Nintendo. Vi gillar Sony.",
+      "sector": "Technology",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Take Two",
+      "ticker": "TTWO",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "40:45",
+      "reasoning": "Handlas på normaliserade multiplar utan GTA 6. GTA 6 är en positiv option. GTA 5 gjorde en miljard dollar per år.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Vi gillar till exempel Take Two. Take Two är ju rätt intressant för att du handlar idag på en multipel som inte tycker jag prissar in någon GTA 6. Om ni börjar leka med siffrorna och GTA 6 gör en miljard dollar per år eller något sådant som GTA 5.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "GTA 6 release"
+    },
+    {
+      "stock_name": "ASML",
+      "ticker": "ASML",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "39:57",
+      "reasoning": "Halvledarutrustning med stark kassa. Marknaden tror cyklisk men Inge tror 7-10 år med brist. Stora nettokasser, utdelningar, återköp.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Vi gillar hallledareutrustning, då är det ASML, KLA Tencore, Applied Materials, de typerna bolag. Stora nettokasser, stora utdelningar, återköp av aktier.",
+      "sector": "Technology",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "KLA Tencor",
+      "ticker": "KLAC",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "39:57",
+      "reasoning": "Halvledarutrustning med stark kassa. 40 miljarder dollar marknadsvärde, gjorde accelererat återköp på 3 miljarder dollar. Räknar man baklänges köper de tillbaka bolaget på 6-7 år.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "KLA Tencore är 40 miljarder just dollar, gjorde just en accelererad återköp på 3 miljarder dollar, sprutar in pengar. Reknar man att bygga modeller på de här baklängden, så köper de tillbaka sina egna bolag på 6-7 år.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Applied Materials",
+      "ticker": "AMAT",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "39:57",
+      "reasoning": "Halvledarutrustning med stark kassa. Stora nettokasser, utdelningar, återköp.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Vi gillar hallledareutrustning, då är det ASML, KLA Tencore, Applied Materials, de typerna bolag. Stora nettokasser, stora utdelningar, återköp av aktier.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "33:18",
+      "reasoning": "Orolig för Q2 särskilt service business. Mobile gaming ner för första gången, tuff jämförelse. App Store Business är beroende av mobile gaming.",
+      "price_target": null,
+      "time_horizon": "short-term",
+      "quote": "Jag är orolig för Apple, för Q2. Och framförallt på service-sidan. Och jag har sett några andra som har börjar höja sina ögonbryndar. Och framförallt vad som har hänt, det är ju att, om ni tänker på App Store Business, som är stabil och den man älskar, och den man ger en hög multipel till, den är ju väldigt beroende av mobile gaming. Mobile gaming i Q2 kommer att vara ner ger och ger, för första gången. Ner.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Q2 2022 earnings (July 17)"
+    },
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "20:48",
+      "reasoning": "AWS är fantastiskt och värt mer än hela värderingen, men marknaden handlar på retailproblem just nu. Cloud är 10% av marknaden, 90% kvar. Långsiktig positiv på cloud.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Vi tror ju mycket fortfarande på Amazon och framförallt på cloudlösningarna. Men man kommer ju inte att handla aktien på det sättet just nu då. För att cloud är en sån här sak som vi har långsiktig vy på som skapar jättebra köptillfällen just nu då. För att vi är bara 10% in i cloudlösningar än så länge.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Intel",
+      "ticker": "INTC",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "25:01",
+      "reasoning": "Strukturellt kortcase. Intel har inte en produkt redo när marknaden vänder. Risk att skära för hårt under kris.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Det värsta som kan hända, det är ju om vi tar Intel till exempel, att du skär under krisen så hårt så att du inte har en produkt som är utesänd när marknaden vänder. Vilket Intel inte har.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": "Kortposition",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "IBM",
+      "ticker": "IBM",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "48:58",
+      "reasoning": "Strukturellt kortcase som varit kort i flera år. Kursen kommer inte att dubbla plötsligt utan att något händer.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Det finns inget konstigt alls. Men det är mer sådana bolag vi försöker hitta då. IBM har varit kort i flera år. Det är strukturellt case.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": "Kortposition",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Snap",
+      "ticker": "SNAP",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "37:43",
+      "reasoning": "Drabbas hårdast av IDFA-förändring och fingerprinting från Apple. 50% brand awareness, 50% performance marketing. Hög andel brand awareness gör det svårt.",
+      "price_target": null,
+      "time_horizon": "short-term",
+      "quote": "Det finns två sätt att göra marknadsföring på internet. En är brand awareness, det skickar ut en reklam allvänt. Du betalar för det, det är som att sätta upp en lapp på stan. Den har drabbats hårdast, det är det första man drar i. Sen är det performance marketing, det klicks och man följer upp. Den drabbas inte alls lika hårt. Det gör att Snap har 50-50 av dem, det är den högsta procenten av de här bolagen. Därför drabbas de hårdast.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Vinstvarning 20-25% på topline Q2",
+      "catalyst_timing": "Q2 2022"
+    },
+    {
+      "stock_name": "Lime",
+      "ticker": "LIME",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "46:48",
+      "reasoning": "Småbolag med liknande multipel som Salesforce men lokal exponering. För koncentrerad geografiskt eller kundmässigt. Risk för stor kund exponering.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Om man tar, nu drar jag bara till någonting, tar Lime till exempel på Stockholmsbörsen. Seriem system, bra Seriem system men multipeln liknar Salesforce. Fort Knox, ta vad som helst. Det är bra bolag men de är väldigt lokala. De sitter vid en konstruktion, antingen geografiskt eller kundmässigt.",
+      "sector": "Technology",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Proact IT",
+      "ticker": "PACT",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "25:58",
+      "reasoning": "Historiskt exempel 2008. Köpte 5% på kassanivå. Bolag accelererade under krisen. Exempel på vinnare som presterar bra under svåra tider.",
+      "price_target": null,
+      "time_horizon": "long-term",
+      "quote": "Vi köpte 5% i Proact IT på den tiden. Det första inom cloud. Vi började pusha cloud 2008. Ingen hade hört av oss om cloud och vi pushade väldigt hårt. Vi köpte till och med 5% av bolaget. Vi köpte bolaget på en nivå som var lika med kassan.",
+      "sector": "Technology",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Halvledarutrustning (ASML, KLA Tencor, Applied Materials)",
+      "ticker": "ASML/KLAC/AMAT",
+      "timestamp_start": "17:09",
+      "timestamp_end": "17:57",
+      "word_count": 500,
+      "speakers": [
+        "Inge Heydorn",
+        "Host"
+      ],
+      "primary_speaker": "Inge Heydorn",
+      "discussion_summary": "Inge menar att marknaden felaktigt ser halvledarutrustning som cyklisk. De tror på 7-10 års problem med brist på avancerade kärnor. KLA Tencor har 40 miljarder i marknadsvärde, gjorde ett 3 miljarder återköp och köper tillbaka bolaget på 6-7 år till nuvarande takt. Liknar oljebolag i kraft.",
+      "quotes": [
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Vi tror inte att det kommer ske, men marknaden handlar ju på det som marknaden tror.",
+          "timestamp": "17:02",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Däremot tror vi på mer komplicerade kipp, så tror vi att det här är en 7-10 års problem.",
+          "timestamp": "17:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "KLA Tencore är 40 miljarder just dollar, gjorde just en accelererad återköp på 3 miljarder dollar, sprutar in pengar. Reknar man att bygga modeller på de här baklängden, så köper de tillbaka sina egna bolag på 6-7 år.",
+          "timestamp": "39:57",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "Höga utdelningar",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "40 miljarder dollar marknadsvärde för KLA Tencor",
+          "3 miljarder dollar återköp KLA Tencor",
+          "Köper tillbaka bolaget på 6-7 år (KLA Tencor)",
+          "Stora nettokasser"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Marknaden ser felaktigt sektorn som cyklisk",
+          "7-10 års brist på komplexa kärnor",
+          "Starka kassor och återköp",
+          "KLA Tencor köper tillbaka bolaget på 6-7 år"
+        ],
+        "bear_case": [
+          "Marknaden handlar på tro om kommande nedgång"
+        ],
+        "catalysts": [
+          "Långsiktig brist på halvledare"
+        ],
+        "risks": [
+          "Marknadsrisk om teorin är fel"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Cloud bolag (Google, Microsoft)",
+      "ticker": "GOOGL/MSFT",
+      "timestamp_start": "21:29",
+      "timestamp_end": "22:50",
+      "word_count": 600,
+      "speakers": [
+        "Inge Heydorn",
+        "Host"
+      ],
+      "primary_speaker": "Inge Heydorn",
+      "discussion_summary": "Inge rekommenderar långsiktig exponering mot de stora molnbolagen. Det är svårt att få ren exponering då det är integrerat i verksamheten. Google handlas på p10 om man tar bort cloud-förluster. Microsoft skapar mervärden genom value-added lösningar. Värderingar har kommit ner fantastiskt.",
+      "quotes": [
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Det finns ju inte det. Man kan ju köpa sådana här rights i USA, datacenterlösningar och sådant. Men jag tror inte man ska göra det. Jag tror man ska försöka köpa de här tre över tid så att säga.",
+          "timestamp": "21:29",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Google tar bort förlusterna på cloudlösningen så handlades det ju p10 på Google idag ju. Vilket är helt fantastiskt. Så det kommer ju, tror jag, en bra avkastning om du tänker fem till tio år fram här.",
+          "timestamp": "22:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Varför kan man ju inte spitta ut dem då? Jo det är ju för att, vad som händer också i nästa steg, att du bygger massor med value added lösningar på de här lösningarna som då ingår, att ta Teams till exempel på Microsoft och så vidare.",
+          "timestamp": "22:38",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "P10 (Google)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Google handlas på p10 utan cloud-förluster",
+          "5-10 års horisont för bra avkastning"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Långsiktig vinnare",
+          "Värderingar kommit ner",
+          "Google på p10",
+          "Microsoft skapar mervärden via Teams",
+          "Endast 10% av marknaden har flyttat till molnet"
+        ],
+        "bear_case": [
+          "Integrerat i bolagen gör svårt att få ren exponering"
+        ],
+        "catalysts": [
+          "Fortgående cloud-adoption"
+        ],
+        "risks": [
+          "Timing svår"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "timestamp_start": "33:18",
+      "timestamp_end": "36:20",
+      "word_count": 800,
+      "speakers": [
+        "Inge Heydorn",
+        "Host"
+      ],
+      "primary_speaker": "Inge Heydorn",
+      "discussion_summary": "Inge är orolig för Apples Q2 särskilt service business. App Store är beroende av mobile gaming som kommer vara ner för första gången. Hårdvaran ser bra ut med TSMC uppe 65% YoY. Q3 är historiskt det jobbigaste kvartalet under nedgångar. Q2 guidance för Q3 kommer inte vara rolig.",
+      "quotes": [
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Jag är orolig för Apple, för Q2. Och framförallt på service-sidan. Och jag har sett några andra som har börjar höja sina ögonbryndar.",
+          "timestamp": "33:18",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Mobile gaming i Q2 kommer att vara ner ger och ger, för första gången. Ner. För att konsumenten är squeezad eller?",
+          "timestamp": "33:54",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Vi har ju TSMC som gör all produktion till Apple och AMD. Det är ju den farligaste kunden. Den var upp 65 % year over year i maj.",
+          "timestamp": "34:54",
+          "context": "metric"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Den jobbigaste kvartalen är alltid Q3. Vad som händer när man har en nedgång är att man förlänger sommaren. Man förlänger inköpen, man förlänger allt som man bara kan.",
+          "timestamp": "35:17",
+          "context": "wisdom"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "TSMC (Apple-produktion) +65% YoY maj",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "TSMC uppe 65% YoY maj"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hårdvara ser bra ut (TSMC +65% YoY)",
+          "High-end klarar sig bra"
+        ],
+        "bear_case": [
+          "Mobile gaming ner för första gången",
+          "Service business beroende av gaming",
+          "Q3 historiskt svagast kvartal",
+          "Konsumenten squeezad"
+        ],
+        "catalysts": [
+          "Q2 earnings (July 17)"
+        ],
+        "risks": [
+          "Mobile gaming trend",
+          "Q3 guidance"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Social Media (Snap, Facebook)",
+      "ticker": "SNAP/META",
+      "timestamp_start": "37:43",
+      "timestamp_end": "39:13",
+      "word_count": 700,
+      "speakers": [
+        "Inge Heydorn",
+        "Host"
+      ],
+      "primary_speaker": "Inge Heydorn",
+      "discussion_summary": "Inge sålde Facebook och Snap tidigt augusti förra året. Snap drabbas hårdast av Apple IDFA-förändring och fingerprinting. Snap har 50% brand awareness (drabbas hårdast) och 50% performance. Vinstvarning 20-25% på topline Q2. Aggressiva hockeyklubbor i estimates.",
+      "quotes": [
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Vi har ingen position i Facebook heller faktiskt. Båda två sålde vi rätt tidigt i augusti förra året.",
+          "timestamp": "38:32",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Det finns två sätt att göra marknadsföring på internet. En är brand awareness, det skickar ut en reklam allvänt. Du betalar för det, det är som att sätta upp en lapp på stan. Den har drabbats hårdast.",
+          "timestamp": "37:48",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Det gör att Snap har 50-50 av dem, det är den högsta procenten av de här bolagen. Därför drabbas de hårdast.",
+          "timestamp": "38:08",
+          "context": "metric"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Du vet att missa på 20-25 %s Q2-försäljning på topline efter att ha guidat i slutet av april och sagt att april var runt 30, sa de.",
+          "timestamp": "36:53",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Vinstvarning: 20-25% miss på Q2 topline",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Snap: 50% brand awareness, 50% performance",
+          "April ~30, förväntas under 20 på Q2",
+          "Aggressiva hockeyklubbor i estimates"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Apple IDFA-förändring drabbar hårt",
+          "Fingerprinting förhindrar uppföljning",
+          "Snap drabbas hårdast (hög brand awareness)",
+          "20-25% miss på topline Q2",
+          "VC-backade bolag drar ner på marknadsföring"
+        ],
+        "catalysts": [
+          "IDFA-förändringar",
+          "Ekonomisk nedgång minskar annonsbudgetar"
+        ],
+        "risks": [
+          "Strukturell negativ för sociala medier"
+        ]
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Tid i marknaden slår timing. En vinnare är en vinnare. Du har en lösning som företag vill ha eller privatpersoner vill ha och folk kommer fort att köpa saker och ting.",
+      "summary": "Vinnande bolag återvinner snabbt efter kriser. Tålamod och kvalitet är viktigare än perfekt timing.",
+      "category": "wisdom",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "26:06",
+      "confidence": "high",
+      "tags": [
+        "tålamod",
+        "kvalitet",
+        "kriser"
+      ]
+    },
+    {
+      "quote": "Det värsta som kan hända nu egentligen är att du hamnar i en massa bolag som skär ner. Trimma lite i bolaget, det är aldrig fel. Man blir alltid lite överfet och kommer. Men egentligen nu, det är nu du ska ta magasandela. Det är nu du vill se ditt bolag tänka framåt och ta magasandela.",
+      "summary": "Under nedgångar bör bolag accelerera inte bromsa. Nu är det dags att ta marknadsandelar, inte dra ner.",
+      "category": "wisdom",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "27:03",
+      "confidence": "high",
+      "tags": [
+        "krisstrategi",
+        "marknadsandelar"
+      ]
+    },
+    {
+      "quote": "Vad jag lärde mig väldigt dyrt och hårt att man ska nog inte äga ett bolag som har för stor exponering mot en eller flera, få kunder för att faller den kunden eller någonting händer. Det finns ju inget sätt att ta emot den här kunden. Det finns ingen kudde.",
+      "summary": "Undvik bolag med stor koncentration mot få kunder. Risken prissätts ofta fel. Dyrköpt läxa från Marconi.",
+      "category": "lesson",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "47:28",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "kundkoncentration",
+        "Marconi"
+      ]
+    },
+    {
+      "quote": "Vi försöker kapsla in en uppsida och inte förlora för mycket pengar, för vi håller ju ändå på med tech. Så att det är väldigt, väldigt viktigt för oss att hålla ner risken och tänka långsiktigt.",
+      "summary": "Riskhantering är kritiskt inom tech. Kappla in uppsidan, kontrollera nedsidan.",
+      "category": "philosophy",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "10:53",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "tech",
+        "långsiktighet"
+      ]
+    },
+    {
+      "quote": "Det är nu du ska ta magasandela. Det är nu du vill se ditt bolag tänka framåt och ta magasandela.",
+      "summary": "Nedgångar är möjligheter att bygga marknadsandelar. Aggressiva bolag vinner långsiktigt.",
+      "category": "wisdom",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "27:10",
+      "confidence": "medium",
+      "tags": [
+        "kris",
+        "marknadsandelar"
+      ]
+    },
+    {
+      "quote": "Jag skulle hellre köpa aktie idag än sälja. Om jag säger så. Jag skulle nog börja bygga portfölj idag. Inte sälja. Men då bygga bolag med bra affärsmodell, nettkassa och som kommer att vara aktiva under nedgången.",
+      "summary": "Köp inte sälj under nedgång. Fokusera på bolag med starka kassor och goda affärsmodeller som kan vara aktiva.",
+      "category": "wisdom",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "51:20",
+      "confidence": "high",
+      "tags": [
+        "köpstrategi",
+        "kris",
+        "kassa"
+      ]
+    },
+    {
+      "quote": "Vi tittar ju över våra innehav och tänker just nu vad vi ska skapa i framtiden. Men de tre fonderna har vi idag då.",
+      "summary": "Långsiktig strategisk planering. Kontinuerlig utvärdering av fondstruktur.",
+      "category": "philosophy",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "09:44",
+      "confidence": "medium",
+      "tags": [
+        "strategi",
+        "fonder",
+        "utveckling"
+      ]
+    },
+    {
+      "quote": "Men det här visar igen att det här långsiktighet, fundamental, vy på saker och ting, det lönar sig i långa loppet.",
+      "summary": "Långsiktig fundamental analys lönar sig. Kortsiktig volatilitet ska inte styra.",
+      "category": "philosophy",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "23:39",
+      "confidence": "high",
+      "tags": [
+        "långsiktighet",
+        "fundamental",
+        "tålamod"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "quote": "Lite förvånande att det är så starkt fortfarande för att bitcoinminerserna har åkt på lite pumpen så att man skulle kunna tänka att investerarna inte har varit så starkt.",
+      "timestamp": "31:58",
+      "context": "Diskuterar grafix-sektorn som fortfarande är stark",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Inge Heydorn från GP Bullhound delar sin analys av tech-marknaden i juli 2022. Han varnar för tuffa tider de närmaste 6 månaderna men ser uppåt på 12 månader sikt. Favoriter är halvledarutrustning (ASML, KLA Tencor, Applied Materials) där han ser 7-10 års brist, samt molnbolagen (Google, Microsoft) som handlas på attraktiva nivåer. Varning för Apple (Q2 service business), sociala medier (IDFA-effekt), och bolag som behöver finansiering.",
+  "key_takeaways": [
+    "Halvledarutrustning är långsiktigt köp (7-10 års brist på komplexa kärnor)",
+    "Google och Microsoft på attraktiva nivåer för 5-10 års sikt",
+    "Varning för Apple Q2 (mobile gaming ner), social media drabbas av IDFA",
+    "Undvik bolag som behöver finansiering eller har stor kundkoncentration",
+    "Kvalitetsbolag med starka kassor kommer vinna under nedgång genom aggressiva investeringar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2022-07-12-86a5.txt",
+  "transcript_word_count": 9575,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

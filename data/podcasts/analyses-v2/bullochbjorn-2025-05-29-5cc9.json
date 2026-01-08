@@ -1,0 +1,309 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "bullochbjorn-2025-05-29-5cc9",
+  "podcast_name": "Bull och Björn",
+  "episode_title": "3. Östgöta valley",
+  "episode_number": 3,
+  "date": "2025-05-29",
+  "hosts": [
+    "Victor",
+    "Björn Högener"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Nvidia Q1-rapport",
+    "Codemill Q1-rapport",
+    "Dala Energy inlösningsprogram",
+    "AI-efterfrågan",
+    "Effektiva marknaden"
+  ],
+  "stocks_discussed": [
+    "Nvidia",
+    "Codemill",
+    "Dala Energy"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Codemill",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "13:35",
+      "reasoning": "Litet SAS-bolag med 14% ARR-tillväxt. Värderas till cirka 10x operativt kassaflöde (20-25 MSEK på EV 200 MSEK). Halva omsättningen är återkommande. Potentiellt billigt men likviditetsrisk och liten marknad gör det svårt att köpa stora positioner. Budprocess och återkallat bud skapar osäkerhet men förändrar inte affären.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Bolaget ser ändå ut att kunna leverera 20-25 miljoner i operativt cash flow, förändringar i rörelsekapital för 2025. Och EV är bara runt 200. Så multiplen är bara cirka 10. Och det låter väl inte så farligt för det här bolaget?",
+      "sector": "Software/SaaS",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "timestamp_start": "02:57",
+      "timestamp_end": "11:20",
+      "word_count": 1250,
+      "speakers": [
+        "Victor",
+        "Björn Högener"
+      ],
+      "primary_speaker": "Victor",
+      "discussion_summary": "Nvidia diskuteras inför Q1-rapport. Bolaget värderas till 26-27x EBIT för räkenskapsåret 2026, vilket beskrivs som historiskt lågt. Djup analys av AI-efterfrågan, datacenter-tillväxt, Blackwell-chip, marknadsdynamik och regulatoriska risker. Victor äger sedan länge (köpte på 3 USD), Björn har aldrig varit långsiktig ägare.",
+      "quotes": [
+        {
+          "speaker": "Victor",
+          "text": "De handlas ju faktiskt på en historiskt låg värdering. På typ 27-26 gånger ebit på det här räkenskapsåret 2026. Som avslutas nu då i januari 2026. Så det är ju faktiskt en...",
+          "timestamp": "03:19",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Björn Högener",
+          "text": "Jag var faktiskt själv inne och tradade en lite efterrasen där men jag har aldrig varit någon långsiktig ägare i Nvidia. Lite för stort, lite för svårt för min del.",
+          "timestamp": "04:00",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Det ska bli sjukt intressant att följa efterfrågan på just datacenter från framförallt hyperscalers då, som är typ Mag-7. Och hur tillväxten ser ut för de nya Blackwell-chippen som de har släppt.",
+          "timestamp": "04:37",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Nvidia kan liksom inte bli tio gånger större i market gap än de andra. För i slutändan måste någon ha möjlighet att betala för dem för den datorkraft som Nvidia levererar.",
+          "timestamp": "07:52",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Den här stora resan där man kan få 10-20x, den är nog redan gjord, men det betyder ju inte att de kan fortsatt växa om det är kanske 20-25% de kommande åren.",
+          "timestamp": "08:33",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Björn Högener",
+          "text": "Du har ju absolut varit den som har följt bolaget mest av oss två och du har ju dessutom varit med i, om man får skryta lite, och dina vägnar. Vart med på den här aktieresan länge och gjort väl åtminstone tio ex.",
+          "timestamp": "09:48",
+          "context": "other"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Jag köpte på typ tre dollar tror jag första köpet. Så jag har haft faktiskt en riktigt fin resa där.",
+          "timestamp": "10:16",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "26-27x EBIT (FY2026)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Historiskt låg värdering på 26-27x EBIT",
+          "Exponentiell efterfrågan på compute för AI",
+          "Blackwell-chip lansering driver tillväxt",
+          "Hyperscalers (Mag-7) stora kunder med stark efterfrågan",
+          "Brist på datakraft i vissa regioner"
+        ],
+        "bear_case": [
+          "Kan inte växa 10x relativt kunder (Mag-7)",
+          "Regulatoriska risker vid för stor dominans",
+          "Den stora resan (10-20x) redan gjord",
+          "Marknaden kan bli mindre chockad än 2022-2023"
+        ],
+        "catalysts": [
+          "Q1-rapport (visar efterfrågan)",
+          "Blackwell-chip tillväxt",
+          "Hyperscaler-datacenter investeringar"
+        ],
+        "risks": [
+          "Regulatoriska åtgärder",
+          "Tillväxttak relativt kunder",
+          "Marknadsförväntningar redan inprisade"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Dala Energy",
+      "ticker": "DALA-B",
+      "timestamp_start": "21:00",
+      "timestamp_end": "33:43",
+      "word_count": 1800,
+      "speakers": [
+        "Victor",
+        "Björn Högener"
+      ],
+      "primary_speaker": "Victor",
+      "discussion_summary": "Victor presenterar ett arbitrage-tillfälle i Dala Energy som erbjuder inlösen av 50% av aktier till 135 SEK (17% premie mot kurs 117). Analys av varför bolaget gör detta (storägare vill öka kontroll), risker, och Victor personliga trade (köp på 117.5, plan att sälja hälften efter inlösen, breakeven på 96). Diskussion om marknadens effektivitet och gratis lunch.",
+      "quotes": [
+        {
+          "speaker": "Victor",
+          "text": "Dala Energy jag har noterat ett potentiell arbitrarstillfälle.",
+          "timestamp": "24:04",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Victor",
+          "text": "De erbjuder aktieägarna att lösa in 50% av sina aktier till 135 kronor styck. När jag noterade det här så stod aktien i 117 kronor.",
+          "timestamp": "24:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Jag valde i alla fall att ta den här traden. Jag köpte aktier i Dala Energi i fredags på 117,5 kronor per aktie.",
+          "timestamp": "28:35",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Victor",
+          "text": "När marknaden öppnar här om någon timme så kommer jag sälja hälften av mina aktier och då behålla resten, resterande hälft för att lösa in den med hjälp av inlösningsrätterna.",
+          "timestamp": "28:47",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Om kursen inte faller lägre än 96 kronor per aktie så går jag åtminstone inte en förlustaffär med den här traden.",
+          "timestamp": "29:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Jag hoppas någonstans på att kunna sälja dem kanske runt 105 kronor. Då har jag tjänat 17 procent på hälften av mina aktier, förlorat 9 procent på andra hälften och då är jag alltså 4 procent netto plus på hela traden.",
+          "timestamp": "29:09",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn Högener",
+          "text": "Vilken nivå måste du ligga på för att gå plus?",
+          "timestamp": "30:45",
+          "context": "other"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Länge kursen inte sjunker under 96 kronor så går jag plus minus noll. På 100 kronor så är det plus ett par procent. 105 kronor så plus 4 procent ungefär.",
+          "timestamp": "31:03",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Jag tror ändå att några av de större ägarna helt enkelt vill få större kontroll över Dala Energy, men de ser ingen möjlighet att köpa de här aktierna via Barktiden.",
+          "timestamp": "26:51",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "2.3 kr/aktie",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Inlösningsprogram 135 SEK (17% premie)",
+          "Positiv signal att storägare inte löser in",
+          "Arbitrage-möjlighet med definierad breakeven på 96 SEK",
+          "Storägare vill öka kontroll vilket visar förtroende för värde"
+        ],
+        "bear_case": [
+          "Kurs kan falla under 96 SEK efter inlösen",
+          "Marknaden kan redan prisat in premien",
+          "Gratis lunchar är ovanliga (Martin-Gale teorin)",
+          "Oklar vad storägare vill göra med kontrollen"
+        ],
+        "catalysts": [
+          "Marknadsöppning efter avstämningsdag 27 maj",
+          "Utfall av inlösenprogrammet",
+          "Storägares handlingar framöver"
+        ],
+        "risks": [
+          "Kursras under 96 SEK",
+          "Marknadseffektivitet kan sänka kursen",
+          "Lärande från trade (kan vara felaktig)"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Martin-Gale säger egentligen att det går inte att estimera framtida priser i en aktie genom att kolla på tidigare prisrörelser. Dagens aktiekurs är helt enkelt det bästa estimatet på morgondagens aktiekurs givet att all information är tillgänglig för hela marknaden.",
+      "summary": "Effektiva marknadshypotesen menar att all information är inprisad, vilket gör teknisk analys värdelös.",
+      "category": "philosophy",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "23:23",
+      "confidence": "high",
+      "tags": [
+        "effektiva marknaden",
+        "EMH",
+        "teknisk analys",
+        "prissättning"
+      ]
+    },
+    {
+      "quote": "Bolag borde öka i takt med att ARR blir en större del av omsättningsmixen. Och det beror ju helt enkelt på att kassaflödet blir mer förutsägbart och säkert. Och det är ju hela kärnan i varför vi tycker att SaaS-bolag borde värderas högre än andra verksamheter.",
+      "summary": "Återkommande intäkter (ARR) gör kassaflödet förutsägbart, vilket motiverar högre värdering för SaaS-bolag.",
+      "category": "philosophy",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "14:28",
+      "confidence": "high",
+      "tags": [
+        "ARR",
+        "SaaS",
+        "värdering",
+        "kassaflöde",
+        "predictability"
+      ]
+    },
+    {
+      "quote": "Det finns helt enkelt inga gratis luncher. Du kan inte slå ett rättvist turspel utan till slut kommer du ändå att förlora.",
+      "summary": "Riskerna med speleteorier och system som verkar garantera vinst men misslyckas pga oändligt kapitalkrav och långa förlustsviter.",
+      "category": "lesson",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "22:53",
+      "confidence": "high",
+      "tags": [
+        "risk",
+        "spekteori",
+        "martingale",
+        "gratis lunch",
+        "förlustsvit"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet fokuserar på Nvidia inför Q1-rapport (historiskt låg värdering men begränsad uppsidning), Codemills Q1-rapport (14% ARR-tillväxt, 10x kassaflödesmultipel men likviditetsrisk) och Victor arbitrage-trade i Dala Energy (inlösningsprogram 17% premie, breakeven på 96 SEK). Djup analys av AI-efterfrågan, effektiva marknadshypotesen och risker med special situationer.",
+  "key_takeaways": [
+    "Nvidia värderas historiskt lågt på 26-27x men 10-20x resan troligen redan gjord",
+    "Codemill har attraktiv SAS-tillväxt men litet bolag med likviditetsproblem",
+    "Dala Energy inlösningsprogram kan erbjuda arbitrage men risk för kursfall",
+    "AI-efterfrågan fortsatt stark men modeller blir mer effektiva (DeepSeek)",
+    "Storägare som inte löser in till premie kan tolkas som positiv signal"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/bullochbjorn/transcripts/bullochbjorn-2025-05-29-5cc9.txt",
+  "transcript_word_count": 5467,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

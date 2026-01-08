@@ -1,0 +1,110 @@
+{
+  "source_id": "ESYDt_HTb-0",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-07-31",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "Weekly time frame analysis showing lower highs and lower lows, market stuck at 30k and drifting lower",
+      "quote": "the weekly time frame doesn't look too great at the moment I think the overarching picture is they got stuck at 30k and has been moving lower ever since",
+      "price_levels": [
+        "$30,000",
+        "$29,200-$29,300",
+        "$26,700-$28,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "strongly_bearish",
+      "speaker": "Duck",
+      "context": "DonAlt's view mentioned by Cred - skeptical of current supports, looking for deeper pullback",
+      "quote": "if Don were here he would say that this is all garbage and that the only supports that matter are sort of you know ETF candle retrace and then it's going to you know potentially go a lot lower and it's close to 20K 22k that he was discussing",
+      "price_levels": [
+        "$20,000-$22,000"
+      ],
+      "timeframe": "long-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH trading in a miserable range between 1860-1900 for 5 weeks, no interest in trading it",
+      "quote": "this is what we're dealing with right one two three four five weeks of a range between 1900 and 1860. I mean it's completely miserable",
+      "price_levels": [
+        "$1,860-$1,900"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH/BTC pair looks slightly better than before but still in a downtrend, doesn't change overall lack of interest",
+      "quote": "I would say the situation is also not aided by Eve BTC it certainly looks slightly better than they did before but bigger picture it's still very sort of downtrendy",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$30,000",
+        "$29,200-$29,500",
+        "$26,700-$28,000"
+      ],
+      "ETH": [
+        "$1,860-$1,900"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC broke down from 30k and has been making lower highs and lower lows on weekly timeframe",
+    "Critical BTC support zone at 26.7-28k represents the ETF candle and must hold for any bullish case",
+    "The gap between 29.4 (daily resistance) and 30k (major resistance) makes long trades difficult to structure",
+    "ETH is stuck in a tight 5-week range between 1860-1900 with no volatility expansion",
+    "Major crypto markets are uninteresting with speculation concentrated in degenerate on-chain meme coins"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$29,200-$29,300 area or flush below previous week's low",
+      "target": "$29,500-$30,000 range",
+      "stop": "below $28,000",
+      "speaker": "Cred",
+      "notes": "Short-term bounce opportunity if weekly close shapes up well above 29.3 and holds the weekly open, but tricky due to proximity to 30k resistance"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "if 26.7-28k support fails",
+      "target": "$20,000-$22,000",
+      "stop": "above $30,000",
+      "speaker": "Duck",
+      "notes": "DonAlt's bearish view looking for ETF candle retrace with much lower targets"
+    }
+  ],
+  "summary": "The episode focuses on BTC ranging below 30k after breaking down from that level, with the market making lower highs and lower lows. Cred identifies key levels at 29.2-29.3 and the critical 26.7-28k support zone that must hold for any bullish thesis, while DonAlt is cited as strongly bearish targeting 20k-22k. ETH is stuck in a miserable 5-week range between 1860-1900 with no interest from the hosts. Overall, the major crypto markets are boring with speculation shifted to degenerate on-chain meme coins, and the hosts recommend patience rather than forcing trades.",
+  "transcript_word_count": 11219,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:22:14.138190"
+}

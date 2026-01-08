@@ -1,0 +1,178 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2016-04-06-4709",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Ep 126 - Frågebonanza och Panama",
+  "episode_number": 126,
+  "date": "2016-04-06",
+  "hosts": ["Jocke Bornaud", "Eva Truin"],
+  "guests": [],
+  "main_topics": ["Tesla Model 3", "Nordea Panama Papers", "IPO-noteringar", "Utdelande ETF", "Kvantitativ investering", "MTG e-sport", "Startups", "Byta bank"],
+  "stocks_discussed": ["Tesla", "Nordea", "MTG", "Telia"],
+  "recommendations": [
+    {
+      "stock_name": "Modern Times Group MTG",
+      "ticker": "MTG-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "29:43",
+      "reasoning": "MTGs satsning på e-sport beskrivs som superintressant och ganska lågt värderad. E-sport växer enormt mycket med ökande intäkter. Branschfolk är superpositiva till MTGs satsning och tror det kan bli riktigt bra. Via MTGs aktiekurs kan man få potentialen ganska billigt. Svårt att analysera men värt att hålla koll på.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "MTGs satsningar kring e-sport. Svåranalyserat, men det känns ganska attraktivt. Det känns som det här är en del i MTG som är ganska lågt värderad. Och jag tycker att den känns superintressant faktisk. De jag har pratat med har trott att det kan bli någonting riktigt, riktigt bra. Via MTGs aktiekurs kan man få den potentialen ganska billigt",
+      "sector": "Media/E-sport",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Eva Truin",
+      "speaker_role": "host",
+      "timestamp": "06:02",
+      "reasoning": "Eva uttrycker skepsis mot Tesla framförallt när det gäller produktionsutmaningen att öka från 50 000 bilar till massproduktion av Model 3. 279 000 förbokningar med 10 000 SEK i deposition ger 3 miljarder SEK in, men leverans och kvalitet är osäkra. Tesla har dåligt track record på att leverera bilar i tid. Bilarna kommer inte till Europa förrän 2018.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag tror, jag är lite skeptisk till Tesla, och jag tror att du har mycket rätt i att ta steget från att producera 50 000 bilar till 250. Det är ett stort steg, eller vad det nu blir, hur mycket de ska leverera per år",
+      "sector": "Bilindustri",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Modell 3 leverans slutet 2017, Europa 2018"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "03:04",
+      "timestamp_end": "07:00",
+      "word_count": 450,
+      "speakers": ["Jocke Bornaud", "Eva Truin"],
+      "primary_speaker": "Jocke Bornaud",
+      "discussion_summary": "Diskussion kring Tesla Model 3-lanseringen med 279 000 förbokningar. Stora produktionsutmaningar att öka från 50 000 till massproduktion. Jocke har bokat en Model 3 men är skeptisk till leveransförmåga. Eva uttrycker tvekan om Tesla kan klara kvaliteten vid skala. Modellen konkurrerar med BMW och Audi som alla utvecklar elbilar.",
+      "quotes": [
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Det är en stående punkt jag är med. Ni har alltid pratat gott om Tesla. Nu kom de med ännu en ny bil va?",
+          "timestamp": "03:09",
+          "context": "other"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Ja, vi får väl se rädda Tesla. Jag skulle inte säga att Tesla har varit på djupvatten. Jag är ju också den som säger att Tesla är inte bara bilen. Det är så mycket runtomkring Tesla. Man måste lägga in värderingen av Tesla. Utmaningen tror jag är huruvida de kommer klara av den höga produktionen som det kommer bli. För jag var inne och tittade nu i lördags var det 279 000 bilar som redan är förbokade. De planerar ju att de första bilen kommer komma slutet 2017.",
+          "timestamp": "03:17",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Det finns ingen bil som har en sån här hype, att det är kö utanför butikerna, inför att man släpper på möjligheten att boka bilen. För att boka bilen måste du betala 10 000 svenska kronor. Du kan inte välja någon färg eller någonting, utan du kan boka att du vill köpa den här testen, då får du betala 10 000 kronor. Det är 279 000 personer som har bokat en sån bil, och därmed också betalat förskott.",
+          "timestamp": "04:58",
+          "context": "metric"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "Det är bra vitamininjektion i den firman, 3 miljarders spänn rakt in sådär. På en helg.",
+          "timestamp": "05:41",
+          "context": "metric"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "Jag tror, jag är lite skeptisk till Tesla, och jag tror att du har mycket rätt i att ta steget från att producera 50 000 bilar till 250. Det är ett stort steg, eller vad det nu blir, hur mycket de ska leverera per år, jag vet inte det. De ska fortsätta leverera modell S och X, som är ute nu. Så det blir väldigt mycket bilar. Spännande att se, lyckas de med det, och lyckas de göra det med kvalitet.",
+          "timestamp": "06:02",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Men i Europa kommer vi inte se dem förrän 2018 tror jag. Vad finns det mer för elbilar då? Det är det man undrar, kommer BMW, Audi, kommer de hinna komma ut med något som kan konkurrera?",
+          "timestamp": "06:23",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["279 000 förbokningar Model 3", "10 000 SEK deposition per bokning", "~3 miljarder SEK i depositioner", "50 000 bilar producerade förra året", "Leverans startar slutet 2017", "Europa leverans 2018"]
+      },
+      "thesis": {
+        "bull_case": ["Massiv hype med köer utanför butiker", "279 000 förbokningar ger 3 miljarder SEK i kassa", "Model 3 är massmarknadsbil till lägre pris", "Bolaget är mer än bara bilar - ekosystemet kring Tesla"],
+        "bear_case": ["Huge production scale challenge: 50k to 250k+ cars", "Tesla has poor track record on-time deliveries", "Quality concerns at scale uncertain", "Legacy competitors (BMW, Audi) developing electric vehicles", "European market delayed until 2018"],
+        "catalysts": ["Modell 3 leveranser slutet 2017", "Europeisk lansering 2018", "Konkurrenternas elbils-svar"],
+        "risks": ["Produktionskapacitet kan inte skalas", "Kvalitetsproblem vid massproduktion", "Leveransförseningar", "Konkurrens från BMW, Audi, etc."]
+      },
+      "position_disclosure": "bought"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Vad som är fördelen med den här typen av investeringar är att det blir inte känslostyrt. Utan du följer den här regeln. Då måste man för att lyckas följa den slaviskt. Annars kan du inte kombinera den med någon slags timingkänsla utan kör på. Så det är bra för den som inte är så intresserad. Nästan bättre om man inte är intresserad. För då följer man det verkligen.",
+      "summary": "Kvantitativa investeringsstrategier (som dual momentum) är fördelaktiga eftersom de tar bort känslosloterat beslutsfattande - följ reglerna slaviskt utan timing",
+      "category": "philosophy",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "28:02",
+      "confidence": "high",
+      "tags": ["kvantitativ investering", "emotionell disciplin", "automatiserad strategi"]
+    },
+    {
+      "quote": "Ska man gå in i den typen av investeringar, så tycker jag att man ska göra det i ett område som man själv är ganska insatt i. Det kanske är relaterat till ens jobb, vad man jobbar med eller något stort intresse man har. Det är lite mot mina normala råd, men någonstans känner jag att ska man involvera sig i startups ska man nog vara beredd som vanligt att göra det i flera bolag. Men här tycker jag faktiskt man kan nisha in sig i ett område och läsa på och bli riktigt duktig. Och ha en bransch som man investerar i faktiskt. För det är väldigt svårt att sätta sig in i nya branscher, nya bolag hela tiden.",
+      "summary": "När man investerar i startups bör man fokusera på branscher man har djup kunskap om (jobb eller intresse) och nischa sig snarare än att sprida sig över många olika sektorer",
+      "category": "wisdom",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "32:53",
+      "confidence": "high",
+      "tags": ["startups", "branschkunskap", "nischad investering", "diversifiering inom startup"]
+    },
+    {
+      "quote": "Det strategiska fördelningen som genererar mest avkastning i portfölj över tid. Kontra den taktiska. Fördelningen mellan aktier och räntor och att hitta den nivån får man hitta själv beroende på vad man har för investeringsstrategi.",
+      "summary": "Strategisk tillgångsallokering (aktier vs räntor) genererar mer avkastning över tid än taktisk marknadstiming",
+      "category": "wisdom",
+      "speaker": "Eva Truin",
+      "speaker_role": "host",
+      "timestamp": "28:16",
+      "confidence": "high",
+      "tags": ["tillgångsallokering", "strategisk vs taktisk", "räntor och aktier"]
+    },
+    {
+      "quote": "Sen är det jätteviktigt att komma ihåg att återinvestera i utdelningen. Annars blir det ingen avkastning i den här strategin. Ibland glömmer man det och tycker att det är roligare att köpa något annat för pengarna. Men det är en råd att återinvestera om, så det blir en riktigt bra strategi och det tar fart.",
+      "summary": "Återinvestering av utdelningar är kritiskt för utdelningsstrategier - utan återinvestering minskar avkastningen kraftigt",
+      "category": "lesson",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "23:24",
+      "confidence": "high",
+      "tags": ["utdelning", "återinvestering", "ränta-på-ränta", "utdelningsaristokrater"]
+    },
+    {
+      "quote": "Vi ser globalt att trenden går att man mer plockar det som är bäst för en själv. Det här med att samla allt hos en bank blir mindre och mindre vanligt. Cherry Pick brukar vi prata om, att man väljer russinen och kakan. För sina placeringar vill man ha den aktören som är bäst på det. För bolånen vill man välja den som är bäst för det och så vidare.",
+      "summary": "Cherry-picking-trenden ökar - kunder väljer bästa aktören för varje produkt (sparande, bolån, etc.) istället för att samla allt hos en bank",
+      "category": "wisdom",
+      "speaker": "Eva Truin",
+      "speaker_role": "host",
+      "timestamp": "36:00",
+      "confidence": "medium",
+      "tags": ["bankbyten", "cherry-picking", "kundbeteende", "bolån", "sparande"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet handlar om Tesla Model 3 med 279 000 förbokningar och produktionsutmaningar, Nordea och Panama-skandalen med etiska frågor men liten påverkan förväntas på aktien. Lyssnarfrågor om IPO-noteringar, utdelande ETF:er och dividend aristocrats, kvantitativa investeringar (dual momentum, magic formula), MTGs e-sports-satsning som beskrivs som intressant och lågt värderad, investeringar i startups och vad man bör tänka på, samt råd kring att byta bank och förhandla bolån.",
+  "key_takeaways": ["Tesla Model 3 har 279 000 förbokningar men stora produktionsutmaningar från 50k till 250k bilar", "Nordea drabbades av Panama Papers men påverkan på aktien bedöms som begränsad", "MTGs e-sport-satsning beskrivs som intressant och potentiellt undervärderad", "Utdelningsaristokrater (bolag som höjt utdelning 20+ år) är populära men återinvestering är kritiskt", "Kvantitativa strategier som dual momentum fungerar bra för de som vill undvika känslostyrat investerande", "Vid startup-investering bör man nischa sig till branscher man kan och sprida risken över flera bolag", "Cherry-picking av banktjänster ökar - kunder väljer bästa aktören för varje produkt separat"],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2016-04-06-4709.txt",
+  "transcript_word_count": 6754,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

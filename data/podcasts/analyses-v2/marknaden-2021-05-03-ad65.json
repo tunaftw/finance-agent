@@ -1,0 +1,540 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marknaden-2021-05-03-ad65",
+  "podcast_name": "Marknaden",
+  "episode_title": "118: Blankarspecial med Mikael Syding",
+  "episode_number": 118,
+  "date": "2021-05-03",
+  "hosts": [
+    "Madeleine Lundberg"
+  ],
+  "guests": [
+    "Mikael Syding"
+  ],
+  "main_topics": [
+    "blankning",
+    "short selling",
+    "hedgefonder",
+    "aktier",
+    "investeringsstrategi"
+  ],
+  "stocks_discussed": [
+    "Tesla",
+    "Peloton",
+    "Azelio",
+    "GameStop",
+    "Plugpower",
+    "Enron"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Peloton",
+      "ticker": "PTON",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "27:31",
+      "reasoning": "Extremt hög värdering, bedöms vara 'fem gånger för dyrt'. Fenomenet har vuxit sig alldeles för starkt och inte är uthålligt. När ekonomin öppnas upp kommer tillväxten att sakta ner. Används som kort position i en marknadsneutral strategi, inte absolut blankning.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Det är fem gånger för dyrt. Det brukar inte räcka för att blanka. Men jag har tryggen av att snart öppna ekonomin upp. Du får gå tillbaka till jobbet i någon slags utsträckning. Då kommer tillväxt och tempo att åtminstone ändras.",
+      "sector": "Konsumentvaror/Träningsutrustning",
+      "market": "us",
+      "position_context": "Kort position i marknadsneutral strategi",
+      "downside_note": null,
+      "catalyst_timing": "Ekonomiöppning 2021"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "34:14",
+      "reasoning": "Beskrivs som 'bluffföretag' med massor av dolda lagbrott. Aldrig tjänat riktiga pengar, bara genom subventioner och bitcoin-trading. Automatisk försäljning som inte fungerar, brott mot miljölagar. Regulatorisk fångst - myndigheter hjälper bolaget istället för att ställa dem till svars. 'Oinvesterbar' på grund av fanatiska anhängare och politiskt stöd.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är så vansinnigt ironiskt och roligt och tror jag också kan vara den där kanske lilla droppen som får en del att få upp i ögonen för att vänta nu, det här är ju ett bluffföretag.",
+      "sector": "Bilar/Energi",
+      "market": "us",
+      "position_context": "Ingen position (tidigare kort 2017)",
+      "downside_note": "Potentiellt 20 år kvar innan bubblan spricker",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Azelio",
+      "ticker": "ASELIO",
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "42:37",
+      "reasoning": "Innovativ energilagringsteknologi med smältnatrium och aluminium som lagrar solvärme i upp till 14 dagar. Behövs för pålitlig förnybar el dygnet runt. Miljövänlig (återvunnet aluminium), billig och robust. Mikael köpte mer aktier när han såg korta positioner och ser en potentiell 'short squeeze'. 2021 förväntas vara ett ESG-år som kan driva intresset.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Det är en aluminium-thermos och den behövs verkligen om vi ska kunna använda förnyelsebar el på ett stadigt och pålitligt sätt dygnet runt.",
+      "sector": "Energilagring/Grönteknik",
+      "market": "sweden",
+      "position_context": "Längre position, köpte mer efter kortattack",
+      "downside_note": null,
+      "catalyst_timing": "2021 - första orderleveranser, ESG-trend"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "34:14",
+      "timestamp_end": "40:33",
+      "word_count": 850,
+      "speakers": [
+        "Mikael Syding",
+        "Madeleine Lundberg"
+      ],
+      "primary_speaker": "Mikael Syding",
+      "discussion_summary": "Mikael Syding beskriver Tesla som ett bluffföretag som aldrig tjänat riktiga pengar, bara genom subventioner och bitcoin-trading. Han pekar på säljda autopiloter som inte fungerar, brott mot miljölagar och dolda lagbrott. Trots detta har bolaget en våg av fans och får politiskt stöd. Han tror att när bubblan spricker kommer massor av arga människor och information om oegentligheter att komma fram, men det kan ta 10-20 år.",
+      "quotes": [
+        {
+          "speaker": "Mikael Syding",
+          "text": "Den enklaste personen att lura är här i världen, det är en själv. Så fort man har tänkt ut en story så på något sätt så tror man att det är så och då blir det svårt att hitta något annat än en stödjande information för sin egen tes.",
+          "timestamp": "34:14",
+          "context": "wisdom"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Här finns det en våg av fans både bland köpar av bilarna och köpar av aktierna och även myndigheter. Det är många sådana myndighetspersoner som vill sända ut en signal om att de är goda, att de gör någonting bra för miljön.",
+          "timestamp": "35:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "De tjänar inga pengar, de bryter mot massa miljölagar, de har bilar som dödar folk, de säljer en autopilot sålt för många miljarder dollar där de fortar dem nu, som fem år senare säger att den funkar faktiskt inte.",
+          "timestamp": "36:15",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Det enda anledningen till att de till exempel lyckades visa en kvartalsvinst här nu i Q1 var att de tradade bitcoin. Det är så vansinnigt ironiskt och roligt och tror jag också kan vara den där kanske lilla droppen som får en del att få upp i ögonen för att vänta nu, det här är ju ett bluffföretag.",
+          "timestamp": "37:15",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Det ser ut som att det finns massor med lagbrott dolda i Tesla och de lyckas hållas dolda så länge aktien går upp eller håller sig stå kvar väldigt väldigt högt.",
+          "timestamp": "38:16",
+          "context": "risk"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Och det är det man lär sig av sådant som Enron eller Madoff... Den höll ju på åtminstone 20 år till efter att misstänksamma personer hade sagt till SSC att kolla på Madoff här.",
+          "timestamp": "38:30",
+          "context": "wisdom"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Det har bara gått ungefär fem år sedan det blev tydligt att Tesla hade gått från en intressant startup till ett bolag som gör vad som helst för att överleva.",
+          "timestamp": "39:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Han köper ett konkursmässigt bolag av sig själv. Han själv får massa pengar i handen och han slipper att det där bolaget går i konkurs.",
+          "timestamp": "39:45",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Ingen stark bull case presenteras - kallat 'oinvesterbar'"
+        ],
+        "bear_case": [
+          "Aldrig tjänat riktiga pengar",
+          "Bara subventioner och bitcoin-trading",
+          "Sålde autopiloter som inte fungerar för miljarder",
+          "Brott mot miljölagar",
+          "SolarCity-förvärv beskrivs som bedrägeri",
+          "Regulatorisk fångst - myndigheter stöttar istället för granskar"
+        ],
+        "catalysts": [
+          "Bitcoin-trading kan få investerare att vakna",
+          "Kursen visar teknisk svaghet"
+        ],
+        "risks": [
+          "Bubblan kan hålla i 10-20 år (jämförelse med Madoff)",
+          "Fanatiska anhängare och politiskt stöd",
+          "Myndigheter vill inte sänka Tesla"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Azelio",
+      "ticker": "ASELIO",
+      "timestamp_start": "42:37",
+      "timestamp_end": "46:59",
+      "word_count": 650,
+      "speakers": [
+        "Mikael Syding",
+        "Madeleine Lundberg"
+      ],
+      "primary_speaker": "Mikael Syding",
+      "discussion_summary": "Azelio utvecklar en energilagringsteknologi baserad på smältande aluminium och natrium som kan lagra solvärme i upp till 14 dagar. Teknologin är robust, miljövänlig (återvunnet aluminium) och billig. Bolaget startade 2008 men genomgick ett genombrott 2018 då de kunde värma aluminiumklumpen med vilken energi som helst. Tre order har mottagits men inte levererats. Mikael ser stor potential för teknologin när förnybar el behöver lagras pålitligt dygnet runt.",
+      "quotes": [
+        {
+          "speaker": "Mikael Syding",
+          "text": "När jag såg det så råkade jag också ha lite extra pengar över och då passade på att snabbt köpa så mycket Aselio jag kunde med båda händerna.",
+          "timestamp": "42:50",
+          "context": "position_disclosure"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Men för min del som tyckte att jag har rätt bra koll på vad Aselio gör och att det inte finns någon fuffens alls, och att vi snart kommer in i en period då vi börjar få se riktiga order och jag tror att det kan dra till sig mer och mer intresse.",
+          "timestamp": "43:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Jag tror att 2021 är någon slags ESG-år. Här ser vi den här vändningen uppåt i en exponentiell kurva då det startas massa ESG-fonder som letar efter bolag att fylla fonderna med.",
+          "timestamp": "43:45",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Och då tycker jag att i ljuset av det då kommer en sån här blankning inte hålla särskilt länge. Vilket innebär att den så kallade blankar-attacken kommer ju att vändas till en blankar squeeze.",
+          "timestamp": "43:55",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "De säljer en thermos kan man säga. Det är en thermos för solvärme. Du kan värma upp den med direkt solvärme men det är inte som primär sättet men du kan också värma den med typ en sån här doppvärmare.",
+          "timestamp": "44:54",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Det är smältnatrium som ligger runt den här aluminiumklumpen. På lite olika sätt så värmer du upp aluminiumet i alla fall och det kollar sig varmt väldigt länge.",
+          "timestamp": "45:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Eftersom det inte lyser på natten så behöver du på något sätt flytta solenergin från dagen till natten. Man kan inte bara skicka ut den i elnätet och låta den cirkula omkring. Det funkar inte så.",
+          "timestamp": "45:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Men den här aluminiumklumpen, den är väldigt robust, miljövänlig, relativt billig. Det krävs nästan inget underhåll av själva klumpen.",
+          "timestamp": "45:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Den tillverkas av återvunnet aluminium som i sig innebär att du inte behöver hålla på med någon extra gruvdrift.",
+          "timestamp": "45:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Från sommaren 2018 så är det som ett nytt bolag. Det är då man verkligen ser en lösning som är enkel för väldigt många olika kraftbolag att köpa.",
+          "timestamp": "47:55",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Madeleine Lundberg",
+          "text": "De har fått tre order totalt. De är inte levererade.",
+          "timestamp": "46:59",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Inga intäkter",
+          "Tre order mottagna men inte levererade",
+          "Startade 2008",
+          "Genombrott 2016",
+          "Nyt技术 2018"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Innovativ energilagringsteknologi",
+          "Lagrar solvärme i upp till 14 dagar",
+          "Robust och miljövänlig (återvunnet aluminium)",
+          "Relativt billig",
+          "Kräver nästan inget underhåll",
+          "Behövs för pålitlig förnybar el dygnet runt",
+          "Kan drivas av vilken energi som helst (sol, vind, etc.)"
+        ],
+        "bear_case": [
+          "Inga intäkter ännu",
+          "Bara tre order och inte levererade",
+          "Hög värdering trots inga intäkter",
+          "Lång tid till kommersialisering"
+        ],
+        "catalysts": [
+          "2021 förväntat vara ett ESG-år",
+          "Första orderleveranser",
+          "Korta positioner kan skapa short squeeze",
+          "Ökat intresse för hållbarhetsfonder"
+        ],
+        "risks": [
+          "Risk att bolaget inte lyckas kommersialisera teknologin",
+          "Konkurrens från andra energilagringslösningar"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Peloton",
+      "ticker": "PTON",
+      "timestamp_start": "27:31",
+      "timestamp_end": "29:30",
+      "word_count": 380,
+      "speakers": [
+        "Mikael Syding",
+        "Madeleine Lundberg"
+      ],
+      "primary_speaker": "Mikael Syding",
+      "discussion_summary": "Mikael Syding har en kort position i Peloton, ett bolag som säljer träningscyklar och virtuella spinningpass. Han erkänner att det är ett fantastiskt företag som lyckats rida covid-vågen och har lyckats väl med sina virtuella träningspass. Men han anser att det är extremt övervärderat ('fem gånger för dyrt') och att fenomenet Peloton har vuxit sig för starkt. När ekonomin öppnas upp kommer folk inte längre sitta hemma och tillväxten kommer att sakta ner.",
+      "quotes": [
+        {
+          "speaker": "Mikael Syding",
+          "text": "En av de korta positionerna till exempel är ett bolag som heter Peloton. De säljer träningscyklar och virtuella spinningpass och liknande över internet.",
+          "timestamp": "27:31",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Det är ett fantastiskt företag. De har verkligen lyckats rida hela den här covid-vågen.",
+          "timestamp": "27:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Peloton är ett väldigt, väldigt, väldigt starkt företag. De har lyckats oerhört väl med att skräddas i de här virtuella träningspassen.",
+          "timestamp": "27:55",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Men i vilket fall som helst så tror jag att det är en kombination av att de har blivit extremt högt värderade.",
+          "timestamp": "28:35",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Själva fenomenet Peloton har bland både investerare och kunder vuxit sig alldeles för starkt. Det är inte uthålligt.",
+          "timestamp": "28:40",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Särskilt inte nu när ekonomin snart öppnas upp igen, att det faktiskt inte ska sitta hemma. Då finns det ingen chans att det här ska fortsätta växa.",
+          "timestamp": "28:45",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Jag tror inte att idén om hemma träning och den virtuella spinningpass kommer att förändra världen på något sätt.",
+          "timestamp": "28:50",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Jag kan i alla fall inte räkna ihop vinsterna på långa vägarna. Det är fem gånger för dyrt.",
+          "timestamp": "28:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Min typ av blankning bygger ju egentligen bara på att jag ska vara marknadsneutral hela tiden. För varje grej jag köper måste jag sälja någonting.",
+          "timestamp": "29:15",
+          "context": "strategy"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Fem gånger för dyrt"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Fantastiskt företag",
+          "Lyckats rida covid-vågen",
+          "Starkt företag med bra virtuella träningspass",
+          "Fångat upp amerikanska konsumenter"
+        ],
+        "bear_case": [
+          "Extremt övervärderat",
+          "Fem gånger för dyrt",
+          "Fenomenet vuxit sig för starkt",
+          "Inte uthålligt",
+          "Tillväxt kommer sakta ner när ekonomin öppnas",
+          "Folk återgår till arbete"
+        ],
+        "catalysts": [
+          "Ekonomiöppning 2021"
+        ],
+        "risks": [
+          "Kan fortsätta växa om hemmaträning trenden består"
+        ]
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Den enklaste personen att lura är här i världen, det är en själv. Så fort man har tänkt ut en story så på något sätt så tror man att det är så och då blir det svårt att hitta något annat än en stödjande information för sin egen tes.",
+      "summary": "Investerare tenderar att bli blinda för annan information när de har skapat en story eller tes, vilket leder till bekräftelsebias.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "34:14",
+      "confidence": "high",
+      "tags": [
+        "psykologi",
+        "bias",
+        "storytelling"
+      ]
+    },
+    {
+      "quote": "Blankare är aktieägarnas absolut bästa vän på två sätt. Dels så vet man att de är därute och försöker leta fram dålig information hela tiden, vilket gör att det blir ett bättre funktionssätt på marknaden. Men det betyder ju också att om någon har blankat en aktie som det faktiskt inte är något fel på, då ligger det ett tvingande, latent köptryck.",
+      "summary": "Blankare bidrar till marknadseffektivitet genom att identifiera dåliga bolag, och korta positioner skapar potentiellt köptryck (short squeeze) om bolaget presterar bra.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "14:40",
+      "confidence": "high",
+      "tags": [
+        "blankning",
+        "marknadseffektivitet"
+      ]
+    },
+    {
+      "quote": "Och det är det man lär sig av sådant som Enron eller Madoff... Den höll ju på åtminstone 20 år till efter att misstänksamma personer hade sagt till SSC att kolla på Madoff här. Det här är fuskt. Titta på siffrorna. Det är omöjligt att det ser ut så här om. Det är inte bedrägeri och ett ponzi-scheme. Vad gör SSC? De tar fram ficklampan och lyser i ansiktet på den som har sagt till.",
+      "summary": "Bedrägerier kan pågå i decennier trots varningar, och myndigheter tenderar att rikta sin blick mot varningsgivare istället för bedragarna.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "38:30",
+      "confidence": "high",
+      "tags": [
+        "bedrägeri",
+        "myndigheter",
+        "regulatorisk fångst"
+      ]
+    },
+    {
+      "quote": "Som blankare ska man ställa sig precis i vägen för det här tåget med alla andra som vill att den ska gå upp. Det gör att för att blanka på ett rationellt sätt så måste man kunna mycket mer än alla andra. Man måste vara mycket noggrannare. Det får ingenting man gör vara fel eller det minsta osant.",
+      "summary": "Att blanka är svårt eftersom nästan alla andra intressenter (bolag, ledning, skattemyndigheter, andra investerare) vill att kursen ska gå upp, så blankaren måste ha mycket mer information och vara helt korrekt.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "10:00",
+      "confidence": "high",
+      "tags": [
+        "blankning",
+        "risks",
+        "marknadsstruktur"
+      ]
+    },
+    {
+      "quote": "Det beror på att det finns alltid en drift uppåt. Det är inte bara att det finns en drift uppåt för att det är tryckpengar, det är också en drift uppåt för att alla andra, i princip samhället, skattemyndigheter, ledningen i bolaget, andra aktieägare, själva sekterna, alla vill att kursen ska gå upp, alla vill tjäna pengar på att det går upp.",
+      "summary": "Det finns en inneboende drift uppåt på marknaden för att alla samhällsaktörer (myndigheter, bolag, investerare) har ett gemensamt intresse av stigande kurser.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "09:45",
+      "confidence": "high",
+      "tags": [
+        "marknadsstruktur",
+        "intressen"
+      ]
+    },
+    {
+      "quote": "Man ska inte göra det onödan. Man måste fundera på varför känner du att du måste blanka? Har du verkligen tömt ut alla dina intressanta köpidéer? Det är ändå där din analys bör börja i att du försöker hitta spännande affärsidéer, spännande företag som du på något sätt vill haka på eller vill ge ditt stöd.",
+      "summary": "Fokusera på att hitta bra köpmöjligheter istället för att blanka. Blanka bara om du har uttömt alla intressanta köpidéer.",
+      "category": "philosophy",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "48:07",
+      "confidence": "high",
+      "tags": [
+        "investeringsfilosofi",
+        "blankning"
+      ]
+    },
+    {
+      "quote": "För om du nu verkligen känner att du måste blanka, då är det enda riktiga rådet här att du måste kunna mycket mer än alla andra och framförallt så måste du ha den här utlösande faktorn på din sida och den ska vara i närtid. Kommer den inte i närtid och till exempel kursen visar styrka och teknisk analys, så bara ge upp direkt.",
+      "summary": "Om du ska blanka måste du veta mer än alla andra och ha en närliggande katalysator. Om kursen visar styrka ska du ge upp omedelbart.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "48:35",
+      "confidence": "high",
+      "tags": [
+        "blankning",
+        "risks",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Det är förskräckligt enkelt att manipulera marknaden på uppsidan. Det är cheerleaders som går ut och säger den här aktien är det bästa sen skivat bröd. Snart kommer GameStop göra såhär och såhär mycket vinster och därför så ska man ha den.",
+      "summary": "Marknadmanipulation är betydligt enklare på uppsidan (tjut-arkar som pushar aktier) än på nedsidan.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "06:45",
+      "confidence": "high",
+      "tags": [
+        "manipulation",
+        "marknadsstruktur"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet handlar om blankning och korta positioner med Mikael Syding. Han diskuterar riskerna med att blanka och förklarar varför det är svårt att blanka på bara värdering. Han delar sina nuvarande korta positioner (Peloton) och beskriver varför han anser att Tesla är ett bluffföretag men samtidigt 'oinvesterbar' på grund av fanatiska anhängare. Han nämner också Azelio som en favoritaktie inom energilagring där han köpte mer när han såg korta positioner. Han varnar för faran med att bygga stories och pekar på Tesla, Peloton och Plugpower som 'story stocks' som kan ha toppat.",
+  "key_takeaways": [
+    "Blankare bidrar till marknadseffektivitet genom att identifiera dåliga bolag och skapa köptryck om de har fel",
+    "Att blanka är farligt eftersom nästan alla aktörer vill att kursen ska gå upp, så blankaren måste veta mer än alla andra",
+    "Tesla beskrivs som ett bluffföretag med dolda lagbrott men är 'oinvesterbar' på grund av fanatiska anhängare och politiskt stöd",
+    "Bedrägerier kan pågå i decennier (jämförelse med Madoff) trots varningar, och myndigheter riktar ofta sin blick mot varningsgivare",
+    "Story stocks som Tesla, Peloton och Plugpower kan ha toppat ur",
+    "Den enklaste personen att lura är sig själv - när man skapat en tes blir det svårt att se motbevisande information"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marknaden/transcripts/marknaden-2021-05-03-ad65.txt",
+  "transcript_word_count": 7987,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

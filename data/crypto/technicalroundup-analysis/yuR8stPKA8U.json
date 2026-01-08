@@ -1,0 +1,132 @@
+{
+  "source_id": "yuR8stPKA8U",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-05-08",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "BTC is trading below the 5-6 week range low around 28k, having reacted to resistance at 29.30k. Weekly close below range low with potential breakdown to 24k.",
+      "quote": "on its face this looks a bit breakdowny for my liking if it's going to reverse what would need to happen over the course of this week would be a failed breakdown",
+      "price_levels": [
+        "$28,000",
+        "$26,000",
+        "$24,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Failed breakout at 1930ish still acting as resistance. Weekly shows bearish eclipse pattern. Time-based consideration: if it doesn't move away from resistance within a week, setup becomes less valid.",
+      "quote": "still cooking High time frame failed break um inval would be weekly close above 1.1.9 ish and or failing to follow through in the next week",
+      "price_levels": [
+        "$1,930",
+        "$1,680",
+        "$1,500-$1,400"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "PEPE",
+      "asset_name": "Pepe",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Meme coin down significantly from highs with 66% correction. Clear break in market structure with potential for dead cat bounce.",
+      "quote": "if you measure this from high to low that's a 66 correction so these moves are massive",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LDO",
+      "asset_name": "Lido DAO",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "LDO is breaking down towards range low/midpoint level from Casual Friday discussion. Weak structure.",
+      "quote": "we talked about ldo for a while back inside the range and is sort of puking towards the range low and this or midpoint level",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "OP",
+      "asset_name": "Optimism",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "OP had a high time frame range, broke out to all-time highs, got distributed and is now back inside range with failed breakout pattern.",
+      "quote": "looks like we essentially had a high time frame range here the market broke out of it and was making all-time highs and just got Mega distributed on and now we're back inside the range",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ARB",
+      "asset_name": "Arbitrum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Arbitrum breaking down from its only structure (pre-pump range). Failed breakout pattern in what should be trending strong altcoin.",
+      "quote": "at the moment looks like it's breaking down as well and maybe there's a nice reclaim long there somewhere towards mid and high",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$28,000",
+        "$26,000",
+        "$24,000"
+      ],
+      "ETH": [
+        "$1,930",
+        "$1,680",
+        "$1,500-$1,400"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC breakdown from 5-6 week range below 28k with weekly close pending could signal further downside to 24k",
+    "ETH failed breakout at 1930 remains resistance with time component - needs to show urgency within a week to validate bearish setup",
+    "Altcoins look very weak across board with even strong performers like LDO, OP, ARB breaking down",
+    "Failed breakdown scenario for BTC would require spike below 28k and reclaim back above range upper boundary",
+    "Market showing bearish alignment across time frames for major assets with distribution patterns at resistance"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "breakdown below 28k",
+      "target": "$24,000",
+      "stop": "reclaim above 28k daily close",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "under 1930 resistance",
+      "target": "$1,680 or $1,500-$1,400",
+      "stop": "weekly close above 1930",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC and ETH both showing bearish breakdowns from multi-week ranges with BTC threatening 24k support and ETH stuck below failed breakout at 1930. Altcoins are experiencing heavy selling pressure with meme coins down 66% and previously strong altcoins like LDO, OP, and ARB breaking distribution patterns. Cred advises waiting for failed breakdown signals (reclamations) while monitoring time-based validation on ETH's setup.",
+  "transcript_word_count": 9646,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T03:15:38.764684"
+}

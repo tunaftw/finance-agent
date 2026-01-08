@@ -1,0 +1,842 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2022-11-16-3aed",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 482 - Doktor Has Been",
+  "episode_number": 482,
+  "date": "2022-11-16",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Rally på börsen",
+    "Utdelningstopp",
+    "Likviditetsproblem",
+    "Kryptokrasch",
+    "Rapporter"
+  ],
+  "stocks_discussed": [
+    "Storskogen",
+    "Bicco",
+    "BioArctic",
+    "Bull",
+    "Midsona",
+    "Truecaller",
+    "SynSAM",
+    "Securitas",
+    "Creades Spackan",
+    "Bure Spackan",
+    "Image Systems"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Bicco",
+      "ticker": "BICO",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "24:50",
+      "reasoning": "Bicco har gått upp 180% på en månad driven av blankare som täcker positioner. Börsvärde på 6 miljarder trots nettoskuld på 600-700 miljoner, förlustgivande bolag med negativt kassaflöde. För mycket måste gå rätt för värderingen att hålla. Mycket sannolikt att aktien sjunker tillbaka rejält när blankare är klara.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Jag tror att man lurar sig själv om man tar den här vändningen i aktien som ett tecken på att allt är bra nu och att det kommer att tuffa på. Börsvärdet ligger kring 6 miljarder. Man har nettoskuld på 600-700 miljoner fortfarande. Det här är ett bolag som går med förlust, genererat negativt kassaflöde på hela året. Det är ju väldigt mycket som ska gå rätt för att den här värderingen ska hålla.",
+      "sector": "Media",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Rejäl nedsida när blankare täcker positioner",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "SynSAM",
+      "ticker": "SYSA",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "39:19",
+      "reasoning": "SynSAM är oförklarligt dyrt med abonnemangsmodell för glasögon (break-it-ekonomin). Galna butiksöppningar - SynSAM i varje hörn. CWC äger 60% vilket leder till sannolik placing framöver. 8 miljarder i börsvärde + ytterligare miljarder i nettoskuld.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "SynSAM är ju faktiskt oförklarligt dyrt. Det här med abonnemang på glasögon är ju deras stora grej, som jag verkligen inte är något fan av heller långsiktigt. För det känns lite som att det är liksom piken på break-it-ekonomin med glasögon-abonnement. CWC fortfarande äger 60 procent av SynSAM, vilket de nog inte har tänkt att göra för all framtid. Det betyder ju att vi förmodligen kommer få se en placing här. It's a no från börspodden här.",
+      "sector": "Retail",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Placing trolig framöver"
+    },
+    {
+      "stock_name": "Creades Spackan",
+      "ticker": "CREA-PREF",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "42:58",
+      "reasoning": "Hög ränta gör att Spacken nu tjänar pengar istället för kostar. Handlas långt under riktigt värde, nu när väntetiden är positiv. Nästan 10% uppsida utan risk. Option på bra förvärv med betydligt större uppsida. Räcker med att äga en av Spackarna.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Den här höga räntenivån som vi har sett nu i sista tiden har gjort att Creades Spacken faktiskt tjänar pengar istället för Lora. Jag tycker att det är lite konstigt att de här aktierna, alltså Bure Spacken och Creades Spacken, handlas så långt under sitt riktiga värde, särskilt nu när väntetiden inte är negativ utan att Spacken faktiskt betalar sig själv här. Så vet man inte vad man ska göra av sina cash, tycker jag man kan köpa någon av Spackarna, för man bör i alla fall ha cirka 10% i uppsida här, nästan utan risk.",
+      "sector": "Investment",
+      "market": "sweden",
+      "position_context": "Äger båda",
+      "downside_note": "Lite risk men begränsad",
+      "catalyst_timing": "December eller innan jul-nyår"
+    },
+    {
+      "stock_name": "Bure Spackan",
+      "ticker": "BURE-PREF",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "42:58",
+      "reasoning": "Samma logik som Creades Spackan - tjänar pengar på hög ränta. Räcker med att äga en av dem. Om ett gör bra förvärv åker den andra mot noll.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag äger båda men jag tror egentligen att det räcker med att äga en av dem. För gör ett av bolagen något bra så kommer den andra åkas noll.",
+      "sector": "Investment",
+      "market": "sweden",
+      "position_context": "Äger båda",
+      "downside_note": "Om andra gör bra förvärv",
+      "catalyst_timing": "December eller innan jul-nyår"
+    },
+    {
+      "stock_name": "Storskogen",
+      "ticker": "STOR",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "22:00",
+      "reasoning": "Rapport såg bra ut vid första anblick men number crunching avslöjar problem. Enorm nettoskuld med relativt låg finansieringskostnad. Skulle varit konkurs med Stockviks finansieringskostnad. Q4 förväntas bli bra. Börsen vädrar blod och vill atkaplan.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Samtidigt när man number crunchar så är det ju väldigt lätt att bli rädd för det här bolaget just med tanke på deras nettoskuld och faktiskt Storskogens relativt låga finansieringskostnad. Hadde Storskogen haft samma finansieringskostnad som till exempel Stockvik så hade Storskogen varit i konkurs vid det här laget.",
+      "sector": "Conglomerate",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Risk för konkurs om finansieringskostnaden stiger",
+      "catalyst_timing": "Q4 förväntas bli bra"
+    },
+    {
+      "stock_name": "BioArctic",
+      "ticker": "BIOA-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "25:56",
+      "reasoning": "Roche failade sin Alzheimer-studie vilket är extremt bra för BioArctic som nyligen lyckades med fas 3. Nu är bara Eli Lilly kvar med konkurrerande studie. Om den underpresterar blir det bortom guldläge. Aktien har inte rört sig i paritet med nyheterna.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Nu är det bara Eli Lille här kvar med sin konkurrerande studie och skulle den underprestera med så är det ju bortom guldläge för bioarktik och biogen och tjänar storkovan. Bioarktik har inte riktigt rört sig i paritet med de här nyheterna kan jag tycka.",
+      "sector": "Pharma",
+      "market": "sweden",
+      "position_context": "Grattar gubbarna som sitter kvar med aktier",
+      "downside_note": null,
+      "catalyst_timing": "Kapitalmarknadsdag presenterar studien"
+    },
+    {
+      "stock_name": "Bull",
+      "ticker": "BULL",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "31:20",
+      "reasoning": "Aktien havererat, John behåller sina aktier. Hoppas Q3 var botten. Hög risk men brukar vara hyfsat bra att köpa när aktier crashat och tar in nya pengar. Emission på 7.70 vs kurs runt 10.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Men jag tycker ändå att det är lite spännande att fundera på, jag har ju lite aktier här och kommer att behålla mina, nu när aktier ändå gått så pass dåligt här, så får vi se att det ändå känns som att Q3 är nästan van och typ av botten napp, får man hoppas i alla fall, och att det vänder upp.",
+      "sector": "Tech",
+      "market": "sweden",
+      "position_context": "Har kvar sina aktier",
+      "downside_note": "Hög risk",
+      "catalyst_timing": "Produktportfölj rullas ut 2024"
+    },
+    {
+      "stock_name": "Midsona",
+      "ticker": "MIDS-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "32:15",
+      "reasoning": "Nytt emission på 8 kr efter 80-90% kursnedgång. Styrelsemedlem räkar ut aktier dagligen. Ingen rush att teckna. Kan vara intressant vid eventuell nyemission.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Det kan ändå vara intressant att titta på Midsona för att de har också haft nästan allt emot sig och inte riktigt varit förberedda på det. Samtidigt är det ingen rush in för att teckningsrätterna har inte ens börjat handla sedan.",
+      "sector": "Consumer",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Dåligt förtroende",
+      "catalyst_timing": "Nyemission"
+    },
+    {
+      "stock_name": "Truecaller",
+      "ticker": "TRUE-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "37:10",
+      "reasoning": "Bolaget ganska dyrt när man tittar på resultat per aktie. Intjäning i Indien som Johan inte gillar. Johan förstår inte hur de tjänar pengar på honom som användare. Vad man inte förstår ska man inte äga.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag sålde mina truecaller aktier för att jag är... Lite tycker jag att bolaget är ganska dyrt när man tittar på resultat per aktie. Och det har ju sin intjäning i Indien. Jag fortsatt gillar ju inte det jättemycket. Och sen tycker jag att truecaller-appen är bra jag använder. Men det är aldrig så att jag någonsin är i appen. Och jag vet inte riktigt hur de kan tjäna pengar på mig. Så det man inte förstår ska man inte heller äga.",
+      "sector": "Tech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Securitas",
+      "ticker": "SECU-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "40:58",
+      "reasoning": "Q3 starkare än väntat. Oron kring Stanley var överdriven. Tillväxt okej, marginalutveckling rätt håll. Klarar stiga löner genom höjda priser. Bra lågrisk alternativ men ingen dundermöjlighet. Skuldsättning lite hög.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Securitas visar ju också att man klarar operera stigande löner genom höjda priser. Men i stort så känns den här aktien som ett bra lågrisk alternativ just nu. Fortsätter Securitas leverera stabila rapporter så finns det, tror jag, en helt okej uppsida i den här aktien.",
+      "sector": "Security",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Skuldsättning hög efter Stanley-förvärvet",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Bicco",
+      "ticker": "BICO",
+      "timestamp_start": "24:16",
+      "timestamp_end": "26:02",
+      "word_count": 800,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan diskuterar Biccos dramatiska kursuppgång på 180% driven av blankare som täcker positioner. Han menar att det är en räddningsaktion snarare än en vändning. Bolaget har 6 miljarder i börsvärde men 600-700 miljoner i nettoskuld, går med förlust och har negativt kassaflöde. John instämmer att det är svårt att vara blankare.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Den här rapportrustningen var väl driven av att den här enorma förlusten i Q2-an var utbytt mot en mindre vinst faktiskt i Q3-an. Det här nya fokuset på lönsamhet verkar ha gett lite resultat i alla fall. Kassaflödet är ju dock fortfarande negativt, men mindre negativt än tidigare.",
+          "timestamp": "24:41",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tror att man lurar sig själv om man tar den här vändningen i aktien som ett tecken på att allt är bra nu och att det kommer att tuffa på. Börsvärdet ligger kring 6 miljarder. Man har nettoskuld på 600-700 miljoner fortfarande. Det här är ett bolag som går med förlust, genererat negativt kassaflöde på hela året.",
+          "timestamp": "24:50",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det är ju väldigt mycket som ska gå rätt för att den här värderingen ska hålla. Jag tror att det är tveksamt om man ska ge Bicco det förtroendet rent ur ett aktieperspektiv efter allt som har hänt.",
+          "timestamp": "25:06",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Ja, det är ett svårt bolag och väldigt lätt att göra bort sig både för blankare och för långrockare. Det visar ju återigen hur svårt det är att vara blankare om man hamnar fel.",
+          "timestamp": "25:38",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "600-700 miljoner i nettoskuld",
+        "custom": [
+          "Börsvärde: 6 miljarder",
+          "180% uppgång på en månad",
+          "57% upp rapportdagen",
+          "Negativt kassaflöde hela året"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Q3 visade mindre förlust än Q2",
+          "Nytt fokus på lönsamhet",
+          "Blankare täcker positioner driver kurs"
+        ],
+        "bear_case": [
+          "Börsvärde på 6 miljarder för förlustgivande bolag",
+          "Negativt kassaflöde",
+          "Nätto skuld på 600-700 miljoner",
+          "Kursuppgång driven av blankare, inte fundamentala förbättringar",
+          "Mycket måste gå rätt för värderingen"
+        ],
+        "catalysts": [
+          "Blankare täcker positioner",
+          "Fortsatt fokus på lönsamhet"
+        ],
+        "risks": [
+          "Kursen kan falla rejält när blankare är klara",
+          "Bolaget kan inte leverera vinst",
+          "Hög värdering utan underliggande fundamenta"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "BioArctic",
+      "ticker": "BIOA-B",
+      "timestamp_start": "25:56",
+      "timestamp_end": "27:57",
+      "word_count": 700,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "John är mycket positiv till BioArctic efter att Roche failade sin Alzheimer-studie. BioArctic lyckades nyligen med sin fas 3-studie. Nu är bara Eli Lilly kvar som konkurrent. Om Eli Lillys studie underpresterar blir det bortom guldläge för BioArctic. Aktien har inte rört sig i paritet med nyheterna.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "För det var ju så att Roche failade sin studie för Alzheimer-medicinen häromdagen, vilket är ju trist för världen kanske, men extremt bra nyheter för bioarktik som nyligen lyckades med sin fas 3.",
+          "timestamp": "25:56",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Nu är det bara Eli Lille här kvar med sin konkurrerande studie och skulle den underprestera med så är det ju bortom guldläge för bioarktik och biogen och tjänar storkovan.",
+          "timestamp": "26:18",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag får direkt en sådan känsla. Förvisso var Roch's preparat inne på samma, det var samma mekanismer, samma liksom.",
+          "timestamp": "26:48",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Men jag tycker ändå att hittills är det bara att gratta gubbarna här som fortfarande sitter kvar med väldigt stora delar av aktierna trots att de placeade ut en del nyligen.",
+          "timestamp": "27:04",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Men som vi sa när vi varnade för medivir, lokalike-händelsen, så är ju faktiskt BioArctic i ett bättre läge nu än de var innan, även om det såklart är helt avgörande också för vad Eli Lilly kommer presentera för resultat.",
+          "timestamp": "27:19",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Större ägare sitter kvar med aktier"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Roche failade sin Alzheimer-studie",
+          "BioArctic lyckades med fas 3-studien",
+          "Endast Eli Lilly kvar som konkurrent",
+          "Om Eli Lilly underpresterar blir det bortom guldläge",
+          "Större ägare har kvar sina aktier"
+        ],
+        "bear_case": [
+          "Om Eli Lillys studie lyckas blir det hård konkurrens",
+          "Investerare försiktiga efter tidigare fallskärmar",
+          "Risken är kall lus med liknande mekanismer"
+        ],
+        "catalysts": [
+          "Eli Lilly presenterar resultat för sin studie",
+          "Kapitalmarknadsdag presenterar studien mer utförligt"
+        ],
+        "risks": [
+          "Eli Lillys studie kan lyckas och skapa stark konkurrens",
+          "Teknisk risk att preparatet inte fungerar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Bull",
+      "ticker": "BULL",
+      "timestamp_start": "28:18",
+      "timestamp_end": "32:15",
+      "word_count": 900,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan är kritisk till Bulls Q3-rapport med svag topline orsakad av stark dollar och dyra komponenter. Bolaget saknar pricing power. Nyemission på 150 miljoner till 7.70 kr vs kurs runt 10 kr. Johan ifrågasätter fokus på People and Culture Manager i kris. John behåller sina aktier och hoppas Q3 var botten.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Svag, svag topline och det är ett resultat av att försäljningsvolymen påverkas negativt av den här starka dollarn och dessutom så pressas Bull i andra sidan av höga kostnader för komponenter. Och man har en slags retroaktiva tullavgifter också.",
+          "timestamp": "28:31",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det krävs nu en ganska reda krafttag för att vända den utvecklingen. Bull genomför ju då en nyemission just nu på 150 miljoner kronor och det här görs som en del av satsningen på den här nya produktportföljen som man håller på att utveckla.",
+          "timestamp": "28:44",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Aktien handlas väl kring 10 kronor någonstans. Emissionen görs på 7,70. Är man långsiktig så kan ju det här vara ett bra läge att komma in i bull.",
+          "timestamp": "29:00",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men jag hade ju gärna sett att gengänget och de övriga ägarna tog i lite mer med hårdhandskarna här. Dels så har vi ju de här besvikelserna sista året med svag resultatutveckling. Vi har haft lite synpunkter från FDA som inte ser så snyggt ut.",
+          "timestamp": "29:10",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Vd-byte tycker jag är någonting de borde fundera på. Det förstärks ju inte minst när man läser Q3 och vd-ordet och vd-en skriver, som en stor del av vd-ordet, att Bull har anställt en People and Culture Manager. Är det verkligen rätt fokus när det är någon slags krisläge?",
+          "timestamp": "29:23",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Sen bara en sista synpunkt här, det vet inte om du håller med men, ingår det inte på något sätt i ett bolagssormala forskningsbudget att ta fram nästa generationsprodukter? Sedan när behöver man genomföra en stor nyemission för att bekosta det?",
+          "timestamp": "30:11",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag håller med om att om man ser den här Jesper Söderqvist på en till presentation, där han är very optimistic, you know, så kommer man inte bli stoltl. Nu, han borde få kicken, det är nästan svårt att förstå hur man kan köra ner ett företag så här långt och sen ändå få fortsätta.",
+          "timestamp": "31:05",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Men jag tycker ändå att det är lite spännande att fundera på, jag har ju lite aktier här och kommer att behålla mina, nu när aktier ändå gått så pass dåligt här, så får vi se att det ändå känns som att Q3 är nästan van och typ av botten napp, får man hoppas i alla fall, och att det vänder upp.",
+          "timestamp": "31:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Det är såklart hög risk inom den här sektorn, men det brukar vara hyfsat bra att köpa på sig när aktier har crashat och de tar in nya pengar.",
+          "timestamp": "31:33",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Svag topline",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Emission: 150 miljoner kr",
+          "Emissionskurs: 7,70 kr",
+          "Aktiekurs: ca 10 kr",
+          "Ny produktportfölj rullas ut 2024"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Långsiktigt kan det vara bra läge att komma in",
+          "Q3 kan vara botten",
+          "Hög risk men bra att köpa när aktier crashat och tar in nya pengar",
+          "Nytt produktportfölj rullas ut 2024",
+          "Bra ägare: Svolder, Gränspecialisten, Keel Capital"
+        ],
+        "bear_case": [
+          "Svag topline pga stark dollar",
+          "Höga komponentkostnader",
+          "Retroaktiva tullavgifter",
+          "Saknar pricing power",
+          "FDA synpunkter",
+          "Vd borde få sparken",
+          "Fel fokus på People and Culture Manager i kris",
+          "Frågan hur historiska vinstnivåer var möjliga utan R&D"
+        ],
+        "catalysts": [
+          "Ny produktportfölj rullas ut 2024",
+          "Ägare kan sätta press"
+        ],
+        "risks": [
+          "Hög risk i sektorn",
+          "Fortsatt svaga resultat",
+          "Vd-beroende",
+          "Marknadskonjunktur kan påverka"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Securitas",
+      "ticker": "SECU-B",
+      "timestamp_start": "40:40",
+      "timestamp_end": "42:18",
+      "word_count": 600,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "John diskuterar Securitas Q3-rapport som var starkare än väntat. Oron kring Stanleys utveckling var överdriven. Tillväxt okej, marginaler rätt håll. Bolaget klarar stiga löner genom höjda priser. Bra lågrisk alternativ men ingen dundermöjlighet. Skuldsättning blev hög efter Stanley-förvärvet.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Securitas som vi ändå pratade en del om i samband med emissionen. De har kommit med hela Sincu3 nu som trots att det då redan hade två månader var lite starkare än väntat och den här oron kring Stanleys utveckling, den oro som sänkte aktien i somras, den verkar ha varit överdrivande.",
+          "timestamp": "40:40",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Tillväxten är okej, marginalutveckling går åt rätt håll. Securitas visar ju också att man klarar operera stigande löner genom höjda priser. Det skulle annars kunna vara ett potentiellt problem nu.",
+          "timestamp": "41:00",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Men i stort så känns den här aktien som ett bra lågrisk alternativ just nu. Tyvärr så uppenbarar sig inte riktigt den här dundermöjligheten som vi hoppades på i samband med motionen, även om det blev en helt okej affär att köpa aktien under den här perioden.",
+          "timestamp": "41:08",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Fortsätter Securitas leverera stabila rapporter så finns det, tror jag, en helt okej uppsida i den här aktien.",
+          "timestamp": "41:25",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Det man skulle kunna ha lite synpunkter på är ju skuldsättningen som blev lite väl hög efter Stanley-förvärvet, även justerat för emissionen som man precis avslutat.",
+          "timestamp": "41:28",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Också det här att Securitas i våras delar ut pengar trots att man gjorde ny emission är ju också ett sånt här sätt som man undrar om ledningen har lite hål i huvudet.",
+          "timestamp": "41:47",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Sen har jag också hört via VerySure här, att de är otroligt aggressiva på att sänka priserna. Så det är en konkurrensutsatt marknad.",
+          "timestamp": "41:54",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Okej",
+        "margin": "Rätt håll",
+        "debt_level": "Lite väl hög efter Stanley-förvärvet",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Q3 starkare än väntat",
+          "Oron kring Stanley var överdriven",
+          "Tillväxt okej",
+          "Marginalutveckling rätt håll",
+          "Klarar stiga löner genom höjda priser",
+          "Bra lågrisk alternativ",
+          "Okej uppsida om stabila rapporter fortsätter"
+        ],
+        "bear_case": [
+          "Ingen dundermöjlighet",
+          "Skuldsättning lite väl hög efter Stanley-förvärvet",
+          "Ledning delade ut pengar trots emission",
+          "Aggressiv prissättning på konkurrensutsatt marknad"
+        ],
+        "catalysts": [
+          "Stabila rapporter"
+        ],
+        "risks": [
+          "Skuldsättning",
+          "Konkurrens",
+          "Priskrig"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Creades Spackan",
+      "ticker": "CREA-PREF",
+      "timestamp_start": "42:21",
+      "timestamp_end": "44:15",
+      "word_count": 700,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "John är mycket positiv till Creades Spackan. Hög ränta gör att Spacken nu tjänar pengar istället för kostar. Handlas långt under riktigt värde. Nästan 10% uppsida utan risk plus option på bra förvärv. Räcker med att äga en av Spackarna. Förvärv kan hända i december innan bonusar ska betalas ut.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "För att den här höga räntenivån som vi har sett nu i sista tiden har gjort att Creades Spacken faktiskt tjänar pengar istället för Lora. Vilket är ju trevligt för alla aktieägare här.",
+          "timestamp": "42:26",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Att man nästan har blivit en kort räntefond med en option att faktiskt bli något om man hittar ett bra förvärv.",
+          "timestamp": "42:33",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag tycker att det är lite konstigt att de här aktierna, alltså Bure Spacken och Creades Spacken, handlas så långt under sitt riktiga värde, särskilt nu när väntetiden inte är negativ utan att Spacken faktiskt betalar sig själv här.",
+          "timestamp": "42:44",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Så vet man inte vad man ska göra av sina cash, tycker jag man kan köpa någon av Spackarna, för man bör i alla fall ha cirka 10% i uppsida här, nästan utan risk, även om det såklart inte finns något som heter det.",
+          "timestamp": "42:58",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Men då ska man faktiskt lägga till att de kan ju hitta något riktigt bra förvärv, så då är uppsidan betydligt större än så.",
+          "timestamp": "43:08",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag äger båda men jag tror egentligen att det räcker med att äga en av dem. För gör ett av bolagen något bra så kommer den andra åkas noll.",
+          "timestamp": "43:13",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Här kan man väl tänka sig att såna här processer brukar ju, det tar lite tid men innan sommaren och innan jul-nyår är väl typiska tidpunkter då man vill stänga affärer och korparna vill få ut sina bonusar och allt vad det är.",
+          "timestamp": "44:04",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men annars har man goda möjligheter att läsa in på hundra ändå om man inte vill vara med på förvärvet.",
+          "timestamp": "44:15",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "Positiv pga hög ränta",
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Handlas långt under riktiga värdet",
+          "Cirka 10% uppsida utan risk",
+          "Option på bra förvärv"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hög ränta gör att Spacken tjänar pengar",
+          "Handlas långt under riktigt värde",
+          "Nästan 10% uppsida utan risk",
+          "Option på bra förvärv med betydligt större uppsida",
+          "Bra att köpa när man inte vet vad man ska göra med cash",
+          "Förvärv kan hända i december innan bonusutbetalning"
+        ],
+        "bear_case": [
+          "Räcker med att äga en av Spackarna",
+          "Ingen säkerhet för förvärv"
+        ],
+        "catalysts": [
+          "Förvärv kan hända i december",
+          "Innan jul-nyår"
+        ],
+        "risks": [
+          "Ränteförändringar",
+          "Inet förvärv sker"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag hoppas verkligen att det här funkar både för aktieägarna och för världen i stort såklart. Så det är spännande att följa och vi håller tummarna för BioArctic-ligan. Ja, för det här skulle kunna bli ett av Sveriges riktigt stora nya läkemedelsbolag om det blir en hit.",
+      "summary": "BioArctic har potential att bli ett av Sveriges stora läkemedelsbolag om deras Alzheimer-medicin blir en framgång.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "27:57",
+      "confidence": "medium",
+      "tags": [
+        "BioArctic",
+        "Potential",
+        "Läkemedel"
+      ]
+    },
+    {
+      "quote": "Vi såg det väldigt nyligen redan under pandemin 2020 hur nästan alla bolag höll inne med utdelningen. Sen som du sa, Dustin och Castellum är de första ut av meddelar nu att det inte blir någon utdelning framöver. Jag tycker att den här typen av slaggighet från bolagen gör att den svenska börsen har en lägre värdering än till exempel den amerikanska.",
+      "summary": "Svenska bolags tendens att klippa utdelningar vid minsta motgång bidrar till lägre värdering jämfört med USA.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "07:05",
+      "confidence": "high",
+      "tags": [
+        "Utdelning",
+        "Sverige",
+        "USA",
+        "Värdering"
+      ]
+    },
+    {
+      "quote": "Amerikanska bolag har ju klarat av att höja eller behålla utdelningen genom världskrig, depressioner, recessioner, finanskriser och svenska bolag klarar inte ens av att räntan går från noll till 2-3 procent eller några månader av covid-oro.",
+      "summary": "Amerikanska bolag visar betydligt bättre utdelningsdisciplin genom historier än svenska bolag.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "07:25",
+      "confidence": "high",
+      "tags": [
+        "Utdelning",
+        "Sverige",
+        "USA"
+      ]
+    },
+    {
+      "quote": "Ja men generellt är det ganska dåliga styrelser i Sverige. Det är samma personer som svänger runt lite oengagerat i väldigt många bolag. Det är dags att få in lite nytt blod.",
+      "summary": "Svenska bolagsstyrelser domineras av samma oengagerade personer - det behövs nytt blod.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "09:20",
+      "confidence": "high",
+      "tags": [
+        "Styrelser",
+        "Sverige",
+        "Uppdatering"
+      ]
+    },
+    {
+      "quote": "Det här tycker jag är ett bra luck must test för att bedöma en styrelses kompetens och vi har många styrelser som får underkänt om att titta på de återköp som gjordes förra året.",
+      "summary": "Att köpa tillbaka aktier på dåliga nivåer är en bra indikator på styrelsens kompetens.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "09:11",
+      "confidence": "high",
+      "tags": [
+        "Återköp",
+        "Styrelsekompetens",
+        "Kapitalallokering"
+      ]
+    },
+    {
+      "quote": "Jag tycker att det är lite konstigt att man gick vidare med det här erbjudandet, för det blev ju förnedrande för alla parter. I övrigt var det en ganska fin rapport, Sint kom med nyligen här, och det här är ju ett mycket större bolag än man tror, ganska underuppmärksammat.",
+      "summary": "Att göra rabatterade placings är förnedrande för alla parter och skadar förtroendet.",
+      "category": "lesson",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "38:12",
+      "confidence": "medium",
+      "tags": [
+        "Placing",
+        "Förtroende",
+        "Sint"
+      ]
+    },
+    {
+      "quote": "Jag tycker ändå att det är härligt att vi har varnat väldigt mycket för den typen av bolag att förvärv oftast slutar i misär. Och att man får fasit när man tittar på midsommar här är ju ändå bra.",
+      "summary": "Förvärvstrategier slutar ofta i misär - bekräftat av Midsonas problem.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "34:08",
+      "confidence": "high",
+      "tags": [
+        "Förvärv",
+        "Misär",
+        "Midsona"
+      ]
+    },
+    {
+      "quote": "Så det man inte förstår ska man inte heller äga. Så jag skickade iväg mina. Tyvärr borde jag skicka iväg dem innan rapporten. Men det är lätt att vara efterklok.",
+      "summary": "Investeringsfilosofi: äg inte bolag du inte förstår.",
+      "category": "philosophy",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "37:23",
+      "confidence": "high",
+      "tags": [
+        "Filosofi",
+        "Investerande",
+        "Förståelse"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin/Krypto",
+      "sentiment": "bearish",
+      "speaker": "John",
+      "speaker_role": "host",
+      "quote": "Men det man kan vara säker på när det gäller krypto är ju att det kommer att vara volatilt.",
+      "context": "Volatilitet i kryptomarknaden",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "fortsättningen"
+    },
+    {
+      "asset_symbol": "FTX",
+      "asset_name": "FTX",
+      "sentiment": "bearish",
+      "speaker": "John",
+      "speaker_role": "host",
+      "quote": "Den här Sam Bankman Freed, SBF, verkar ju helt enkelt ta spekulativt bort inte bara sina egna utan även kundernas pengar och dessutom dragit med sig hela gräddan av Silicon Valleys VC-fonder i det här fallet. Det här skulle jag säga är den största motgången i kryptoindustrins historia.",
+      "context": "FTX-kollapsen",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": null
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Börspodden diskuterar börsens rally i ett makro-oro läge. De är skeptiska till utvecklingen och oroade över inflation och kommande lågkonjunktur. Flera bolag analyseras inklusive Bicco (sälj), BioArctic (positiv), Bull (kris), Midsona (titta på), Truecaller (Johan sålde), SynSAM (undvik), Securitas (lågrisk), och Spackarna (köp). De diskuterar även svenska bolags tendens att klippa utdelningar och dåliga styrelser.",
+  "key_takeaways": [
+    "Börsrallyt drivet av förhoppningar om snabbare lättning men risker kvarstår",
+    "Svenska bolag tenderar att klippa utdelningar snabbt - bidrar till lägre värdering",
+    "Svenska styrelser presterar dåligt på kapitalallokering (återköp på höga nivåer)",
+    "BioArctic gynnas av Roches misslyckande - potentiellt stort bolag om det lyckas",
+    "Spackarna (Creades/Bure pref) attraktiva när räntan är hög",
+    "FTX-kollapsen är den största motgången i kryptoindustrins historia"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2022-11-16-3aed.txt",
+  "transcript_word_count": 8256,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

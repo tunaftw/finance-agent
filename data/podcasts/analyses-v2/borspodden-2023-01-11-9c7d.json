@@ -1,0 +1,620 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2023-01-11-9c7d",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 490 - The Game",
+  "episode_number": 490,
+  "date": "2023-01-11",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [
+    "Catherine Young"
+  ],
+  "main_topics": [
+    "Stock market rally",
+    "Asian markets",
+    "Swedish stocks",
+    "China opening"
+  ],
+  "stocks_discussed": [
+    "Dustin",
+    "BioArctic",
+    "Itab",
+    "Catena Media",
+    "Kambi",
+    "New Wave",
+    "Gotlandsbolaget"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Dustin",
+      "ticker": "DUSTIN",
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "24:36",
+      "reasoning": "Haverirapport Q1 med kraftig prispress och minskad orderingång. EBITDA sjönk med 100 MSEK till 300 MSEK. Bruttomarginal 13,5% (ner från 15,4%). Negativt kassaflöde. Nettoskuld 4,3x EBITDA (mål 2-3x). Högre kostnader kombinerat med lägre bruttomarginal tvingar fram nyemission. Vänta på nyemission för potentiellt köpläge då börsen pressar aktien.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nej, det är nog bara att vänta in nyemissionen i Dustin, för då kan det faktiskt vara ett bra köpläge. Och det är nästan bra att komma med ett sånt persked så tidigt som möjligt, för börsen kommer pressaktien.",
+      "sector": "Technology/IT",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Nyttodn 4,3x EBITDA",
+      "catalyst_timing": "Nästa kvartalsutleveranser"
+    },
+    {
+      "stock_name": "BioArctic",
+      "ticker": "BIOA-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "20:56",
+      "reasoning": "Aktien gick upp 30% på förväntad FDA-nyhet. Värderad till 25 miljarder SEK med förväntad försäljning på 1 miljard 2025. Förväntande för högt givet osäkerhet. Biotek-bubbla. Bra blankningstrade. Småspararna hoppas på bud men troligen inte från Biogen eller Eli Lilly eftersom BioArctic bara äger 8-10% av intäkterna från den kommande försäljningen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här var en bra blankningstrade som jag gissar både du och jag gjorde. Man ska ju då komma ihåg att BioArctic är ju värt 25 miljarder ungefär och har 1 miljard i förväntad försäljning år 2025 på ett preparat som har nåt år kvar innan det är än så här, så det är inte så att det är jätte billigt det här.",
+      "sector": "Biotech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Övervärderad, 25x förväntad försäljning 2025",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Gotlandsbolaget",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "40:02",
+      "reasoning": "Döljer vinster genom extrema överavskrivningar på fartyg. Skriver av färjor på 10 år trots att de håller i 40 år (andra rederier skriver av på 30-40 år). Anses som ekonomisk brottslighet för att undvika skatt. Skattefinansierat via Trafikverket. Konsumenter ogillar monopol och överprissatta biljetter.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "I mina ögon är inte det här något smart, något man ska vara imponerad över, utan snarare någon form av ekonomisk brottslighet. Att man slipper skatta när man gör så här obegripligt, att Skatteverket inte tittar på det.",
+      "sector": "Transport/Shipping",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Avskrivning 10 år (bransch 30-40 år)",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Itab",
+      "ticker": "ITAB-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "26:46",
+      "reasoning": "Potentiell opportunitet inom självkassor och stöldprevention då butiker har rekordstölder via självskanning. Kanske passande för Ratos som är köptagen nu. Största ägare köpte mer aktier för 0,5 MSEK efter kvartal. Men för stor nettoskuld och intjäning måste bevisas. Behöver se ett kvartal till med tuffa förhållanden. Ej köpvärt än men potential om prognoser infrias.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag känner ändå att de skulle kunna ha något utan att jag vågat köpa aktier ur själva. Man skulle vilja se något kvartal till där det är tufft på för bolaget är absolut inte dyrt om de skulle infria prognoserna eller deras möjliga intjäningsförmåga.",
+      "sector": "Retail Technology",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "För stor nettoskuld",
+      "catalyst_timing": "Nästa kvartal"
+    },
+    {
+      "stock_name": "Catena Media",
+      "ticker": "CTM-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "32:39",
+      "reasoning": "Kommunicerar desperat om försäljning utan att ha konkreta bud. Sände PM i maj utan konkret plan, satte press på bolaget. Ask Gamblers-affären dåligt betald med villkor där köparen kan betala med kassaflödet. Nu PM om potientiella bud men inget på bordet. Skambud sannolikt om någon bjuder. Desperation sällan bra strategi för uppköp. John sålde, Börsboden sålde.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag är lite rädd att gårdagens pressmeddelande och möjliga bud på hela bolaget är lite samma sak. Det finns inga bud på bolaget eller på bordet just nu men Catena Media vill uppenbarligen gärna att någon ska buda.",
+      "sector": "Gaming/Affiliate",
+      "market": "other",
+      "position_context": "Sålt positionen",
+      "downside_note": "Skambud sannolikt om uppköp",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kambi",
+      "ticker": "KAMBI",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "32:39",
+      "reasoning": "Fnatic valde Amelco istället för Kambi för sin sportsbok. Aktien tappade 10% på beskedet. Trend med stora operatörer som svänger till inhouse-lösningar kvarstår. Men statliga operatörer i Europa upphandlar nya sportsbokslösningar och dessa troligen inte vill gå inhouse. Behöver nya kunder gärna större. Mindre avtal med mindre kund kom i veckan. Håll tummarna för stora statliga operatörer.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi förhoppats på det. Dessutom hörde jag faktiskt här i veckan att det är ett par stora statliga operatörer i Europa som just nu upphandlar nya sportsbokslösningar. Förhoppningsvis kan ju Cambi knippa någon av dem.",
+      "sector": "Gaming/Betting",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "New Wave",
+      "ticker": "NEW-WAVE-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "35:48",
+      "reasoning": "Aktie på all time high. Craft extremt starkt operativt - nästan alla längdskidåkare och svenska landslaget i handboll har Craft. Kan bli nytt Under Armour eller mini Nike. Torsten är ute efter förvärv och extremt bra på akvisitioner, speciellt nu när andra inte har pengar. Styrelseledamot cashade ut 4,000 av 10,000 aktier efter kvartalet. Olof Persson ordförande sedan 2016. Operativt hur bra som helst men marknaden negativ. Intressant att vore om Torsten lyckas bygga nytt sportsvarumärke.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det finns ju faktiskt en chans att vi ser ett nytt underarmor eller mini Nike på väg att byggas. Dessutom har Torsten sagt att han är ute efter förvärv nu. Han är ju ruggigt bra på sånt. Särskilt nu när andra inte har pengar så kan han köpa billigt.",
+      "sector": "Sportswear",
+      "market": "sweden",
+      "position_context": "Jätteliten position",
+      "downside_note": null,
+      "catalyst_timing": "Förvärv, Craft-modeller"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Dustin",
+      "ticker": "DUSTIN",
+      "timestamp_start": "22:02",
+      "timestamp_end": "24:36",
+      "word_count": 850,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Dustin Q1-rapport missade förväntningarna rejält med utbudsdriven prispress som sänkte bruttomarginalen till 13,5%. Högre kostnader kombinerat med lägre bruttomarginal ledde till att EBITDA-resultatet kom in 100 MSEK under föregående år. Kassaflödet var negativt och nettoskulden uppgår nu till 4,3 gånger EBITDA, långt från målet på 2-3 gånger. Organisk tillväxt avtog till 8,5% från 15%. Det utlovade vändande med kommande kvartalsutleveranser måste ske för att undvika nyemission, men efterfrågan kan fortsätta bromsa in. Johan rekommenderar att vänta in nyemission som potentiellt köpläge.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Dustin Q1 missar förväntningarna ganska rejält. Och om vi går tillbaka till förra året och den situation vi hade då, när det var brist på en hel del produkter, det har nu svängt till det motsatta. Vilket har lett till, som Dustin beskriver det, en utbudstriven prispress.",
+          "timestamp": "22:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Bruttomarginalen under kvartalet. 13,5 procent, det är inte särskilt bra bruttomarginal. Ner från 15,4 förra året. Och den här lägre bruttomarginalen kombinerat med högre kostnader generellt bidrog till att ebitarresultatet kom in faktiskt 100 miljoner under förra årets nivå på 300 miljoner.",
+          "timestamp": "22:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och det får man verkligen hoppas eftersom nettoskulden nu uppgår till 4,3 gånger ebitda. Det är väldigt högt. Det är långt ifrån deras egna mål på 2-3 gånger.",
+          "timestamp": "22:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tror inte att det är en alltför vågad gissning att det blir ännu tuffare kommande kvartal. Vilket, kombinerat med prispress, kan bli ganska jobbigt för Dustin.",
+          "timestamp": "22:12",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "En nyemission är tyvärr inte utesluten den här. De har satt sin härva med alldeles för hög skuldsättning efter det förvärvet de gjorde i fel läge helt enkelt.",
+          "timestamp": "22:12",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Nej, det är nog bara att vänta in nyemissionen i Dustin, för då kan det faktiskt vara ett bra köpläge.",
+          "timestamp": "24:36",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "4.3x",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "8.5% organiskt (ner från 15%)",
+        "margin": "13.5% bruttomarginal (ner från 15.4%)",
+        "debt_level": "4.3x EBITDA (mål 2-3x)",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Kommande kvartalsutleveransar kan vända trenden",
+          "Börsen kommer pressa aktien vilket kan skapa köpläge",
+          "Nyemission kan stärka balansräkningen"
+        ],
+        "bear_case": [
+          "Prispress fortsätter pressa marginaler",
+          "Efterfrågan fortsätter bromsa in",
+          "Hög skuldsättning och negativt kassaflöde"
+        ],
+        "catalysts": [
+          "Kommande kvartalsutleveransar",
+          "Rapporter för att visa trendvändning",
+          "Eventuell nyemission"
+        ],
+        "risks": [
+          "Lågkonjunktur drabbar IT-hårdvara",
+          "Prispress ökar",
+          "Kundfordringar på 3,2 miljarder i lågkonjunktur"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Catena Media",
+      "ticker": "CTM-B",
+      "timestamp_start": "29:49",
+      "timestamp_end": "32:39",
+      "word_count": 750,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Catena Media fortsätter turerna kring försäljning av delar eller hela bolaget. Carnegie anlitad som rådgivare men inga formella bud har mottagitts. Johan kritiserar kommunikationen som desperat - man gick ut i maj om försäljning utan konkret plan, vilket pressade priset på Ask Gamblers-affären som blev dåligt betald med villkor där köparen kan betala med kassaflödet. Nu PM om potientiella bud men inget konkret. desperation sällan bra strategi för uppköp - budgivare kommer pressa priset. Positiv PM om rekordstart i Ohio men känns som man vill få upp kursen. John sålde sina aktier.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Jag måste säga igen att jag är inte alls imponerad av hur man valt att kommunicera kring hela den här grejen. Att som man gjorde i maj gå ut och berätta att verksamheter ska säljas utan att ha något riktigt konkret",
+          "timestamp": "30:31",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det satte ju press på bolaget att få till en affär och den pressen syntes ju tydligt i prislappen och villkoren som den här Ask Gamblers affären gjordes på. Det var dåligt betalt får man säga och med villkor som i princip innebar att köparen kan betala en stor del av köperskilling med det kassaflöde som Ask Gamblers genererar.",
+          "timestamp": "31:14",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag är lite rädd att gårdagens pressmeddelande och möjliga bud på hela bolaget är lite samma sak. Det finns inga bud på bolaget eller på bordet just nu men Catena Media vill uppenbarligen gärna att någon ska buda.",
+          "timestamp": "32:05",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Om jag var en potentiell budgivare så skulle jag definitivt försöka stå till med ett skambud givet de signaler som Catena skickar ut.",
+          "timestamp": "32:05",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Men det är sagt ska man säga att jag har sålt mina aktier, KTM och börsboden har också sålt dem.",
+          "timestamp": "32:39",
+          "context": "position_disclosure"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Potentiell uppköpskandidat om bud kommer",
+          "Rekordstart i Ohio",
+          "Större ägare som kanske pressar för försäljning"
+        ],
+        "bear_case": [
+          "Desperat kommunikation pressar priset",
+          "Skambud sannolikt om uppköp sker",
+          "Inga konkreta bud på bordet trots PM"
+        ],
+        "catalysts": [
+          "Formellt bud på delar eller hela bolaget",
+          "Kommunikation om försäljningsprocess",
+          "Rekordstart i Ohio"
+        ],
+        "risks": [
+          "Ingen budgivare",
+          "Skambud pressar värdering",
+          "Marknadstrovda kommunikation påverkar förtroende"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "New Wave",
+      "ticker": "NEW-WAVE-B",
+      "timestamp_start": "35:48",
+      "timestamp_end": "38:42",
+      "word_count": 900,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "New Wave tog all time high igår. Operativt hur bra som helst med Craft - nästan alla längdskidåkare och svenska landslaget i handboll har Craft. Ny supersko på väg ut och tidigare modeller lyckas mycket bra. Kan bli nytt Under Armour eller mini Nike på väg att byggas. Torsten är ute efter förvärv och extremt bra på akvisitioner, speciellt nu när andra inte har pengar så kan han köpa billigt. Negativt att styrelseledamot cashade ut 4,000 av 10,000 aktier efter kvartalet. Olof Persson ordförande sedan 2016. Nästan alla negativa till aktien men operativt allt rätt. Imponerande att Torsten gör allt rätt inklusive att hitta Olof Persson när han var uträknad.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "New Wave har tagit sitt all time high igår. Jag antar att det har tagit nytt idag. Det är precis som vi sa när vi pratade om trender, tänk på det, ofta följer ett all time high på ett annat.",
+          "timestamp": "35:48",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Men lite undrar jag inte faktiskt om New Wave är på väg att erövra världen med craft. De har en ny supersko på väg ut och har ju lyckats väldigt bra med sina tidigare modeller.",
+          "timestamp": "36:18",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Operativt verkar det här bolaget gå hur bra som helst. Samtidigt som nästan alla är negativa till aktien. Det finns ju faktiskt en chans att vi ser ett nytt underarmor eller mini Nike på väg att byggas.",
+          "timestamp": "36:54",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Dessutom har Torsten sagt att han är ute efter förvärv nu. Han är ju ruggigt bra på sånt. Särskilt nu när andra inte har pengar så kan han köpa billigt.",
+          "timestamp": "36:54",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Lite negativt var ju att en styrelseledamot cashade ut för nästan en mille igår efter att kvartalet stängde. Särskilt eftersom han sålde 4 000 av 10 000 aktier.",
+          "timestamp": "37:13",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Ännu en sån här klassisk Torstengrej kan jag tycka att hitta Olof Persson när han var uträknad 2016 efter att ha fått gå från Volvo 2015 med Loserstämpel. Så imponerande av Torsten, han gör allt rätt.",
+          "timestamp": "37:32",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Craft extremt starkt operativt",
+          "Nya modeller och supersko på väg",
+          "Torsten är ute efter förvärv och kan köpa billigt",
+          "Kan bli nytt Under Armour/mini Nike",
+          "Olof Persson ordförande sedan 2016"
+        ],
+        "bear_case": [
+          "Styrelseledamot sålde 4,000 av 10,000 aktier",
+          "Marknaden negativ trots operativt styrka",
+          "Insäljning av styrelseledamot efter kvartalet"
+        ],
+        "catalysts": [
+          "Nya Craft-modeller och supersko",
+          "Förvärv som Torsten kan göra",
+          "Handbolls-VM och längdskidåkning exponering"
+        ],
+        "risks": [
+          "Valuation vid all time high",
+          "Insäljning av styrelseledamot",
+          "Marknadssentiment negativ"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Kambi",
+      "ticker": "KAMBI",
+      "timestamp_start": "32:56",
+      "timestamp_end": "34:55",
+      "word_count": 650,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Kambi tappade 10% på beskedet att Fnatic valt Amelco för sin sportsbok istället för Kambi. Precis som ryktats föll valet på kod från Amelco som Fnatic sedan anpassat och kompletterat med egna lösningar - liknar mer inhouse-lösning så kanske inte riktigt förlorat en upphandling. Trend med stora operatörer som svänger till inhouse-lösningar kvarstår och är problem för Kambi. Men John hörde att par stora statliga operatörer i Europa upphandlar nya sportsbokslösningar och dessa troligen inte vill gå inhouse. Mindre avtal med mindre kund kom. Behöver nya kunder gärna större. Håll tummarna för stora statliga operatörer.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Cambi och att det här beskedet kring vilken lösning Fnatic valt gällande sportbok, det kom här i veckan. Precis som ryktades om under förra åren, så föll valet på kod från Amelco.",
+          "timestamp": "32:56",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Det här verkar faktiskt vara ganska allmänt känt inom branschen, men eftersom Fnatic valt att vara tysta kring vilken lösning de valt fram tills nu så fanns det ändå förhoppningar i marknaden kring att det kanske kunde bli Cambi. Aktien tappar 10% på det här beskedet.",
+          "timestamp": "33:25",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Trenden med att de stora operatörerna svängt mot inhouse lösningar kvarstår. Och det är ett problem för Cambi.",
+          "timestamp": "34:00",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Dessutom hörde jag faktiskt här i veckan att det är ett par stora statliga operatörer i Europa som just nu upphandlar nya sportsbokslösningar. Förhoppningsvis kan ju Cambi knippa någon av dem.",
+          "timestamp": "34:43",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "För man vet ju hur det blir om staten sköter din house inte så bra. Så lika bra att låta Cambi sköta det.",
+          "timestamp": "34:55",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stora statliga operatörer i Europa upphandlar nya sportsbokslösningar",
+          "Stater troligen inte vill gå inhouse",
+          "Mindre avtal med mindre kund kom"
+        ],
+        "bear_case": [
+          "Fnatic valde Amelco istället för Kambi",
+          "Trend med stora operatörer mot inhouse-lösningar kvarstår",
+          "Beroende av få stora kunder"
+        ],
+        "catalysts": [
+          "Upphandlingar hos statliga operatörer i Europa",
+          "Nya kunder gärna större",
+          "Kommunikation om förvärvsrykten"
+        ],
+        "risks": [
+          "Förlora fler kunder till inhouse",
+          "Beroende av få storkunder",
+          "Fnatic besked påverkar marknadssentiment"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man kan väl till och med säga att vi var inne i en bubbla inom vissa delar av börsen. Nu har vi faktiskt ganska höga räntor som kanske inte riktigt slagit igenom helt. Vi har högre energikostnader och vi har en låg konja som vi vet kommer, men som inte riktigt tyckte upp heller i bolagens kvartalsrapporter.",
+      "summary": "Börsen är extremt positiv trots fundamentala risker som höga räntor, energikostnader och kommande lågkonjunktur som inte slagit igenom än.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "02:31",
+      "confidence": "high",
+      "tags": [
+        "marknadscykler",
+        "bubblor",
+        "lågkonjunktur"
+      ]
+    },
+    {
+      "quote": "Jag tycker man kanske underskattar den svenska konsumentens motståndskraft. Så jag tror faktiskt inte att den här lågkonjunkturen blir så stor, utan kanske snarare att det finns ett uppdämt köpsug därute som hållits tillbaka i snart ett år av all skrämselpropaganda från Rysslandskriget till höga elpriser, höjda räntor och så vidare.",
+      "summary": "Den svenska konsumentens motståndskraft kan vara underskattad. Uppämt köpsug har hållits tillbaka av skrämselpropaganda och kan frigöras när oron lättar.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "05:09",
+      "confidence": "medium",
+      "tags": [
+        "konsumentbeteende",
+        "lågkonjunktur",
+        "marknadssentiment"
+      ]
+    },
+    {
+      "quote": "Det kan nog vara läge att vänta ut lite svaga händer här så kan man få sig en liten krispig fjällstuga inte alltför dyrt inom de närmsta åren här. En spaning som bygger på det här är att det är många byggbolag som kommer få det väldigt tufft då de verkligen har haft en guldålder som ligger bakom dem.",
+      "summary": "Havererad byggboom i svenska fjällen kan skapa köpmöjligheter för den som väntar ut svaga händer. Byggbolag med guldålder bakom sig kan få det tufft.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "14:42",
+      "confidence": "high",
+      "tags": [
+        "fastigheter",
+        "bygg",
+        "värdering",
+        "kris"
+      ]
+    },
+    {
+      "quote": "Dels tror jag att det kan vara så att väldigt många vande sig någon slags lyxliv under de här nollränteåren. Man uppgraderar sin livsstil kanske till en nivå som egentligen är ohållbar. Den vill man kanske inte så gärna ge upp och klänger sig fast vid lite längre än vad man kanske kan. Jag har en sån känsla att många lever över sina tillgångar egentligen.",
+      "summary": "Många uppgraderade sin livsstil under nollränteåren till ohållbar nivå. Livsstil klamras fast vid trots att den inte matchar tillgångarna.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "15:39",
+      "confidence": "high",
+      "tags": [
+        "livsstil",
+        "konsumtion",
+        "räntor",
+        "betalningsförmåga"
+      ]
+    },
+    {
+      "quote": "Bårsen brukar ha rätt. I så fall kanske man ska titta på helt utbombad konsumtionsaktier. För där är det fortfarande ganska låga nivåer för att om det ska bli en mjuklandning och sådär då kan man väl lika gärna köpa det som har gått sämst.",
+      "summary": "Om mjuklandning sker, kan det vara läge att köpa utbombade konsumtionsaktier som fortfarande är på låga nivåer.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "04:20",
+      "confidence": "medium",
+      "tags": [
+        "konsumtionsaktier",
+        "mjuklandning",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "När man investerar i Asien generellt. Men vilka marknader tror ni har utvecklats mest i tillväxtmarknaderna? Australien skulle vara mest, som den västra marknaden. Men jag skulle säga att den kaviarna från ett väldigt låg bas är Kina, men de största ökadena har varit i Kina.",
+      "summary": "Asiens marknader har utvecklats på olika sätt. Australien som västlig marknad, men Kina har haft största ökningarna från låg bas.",
+      "category": "wisdom",
+      "speaker": "Catherine Young",
+      "speaker_role": "guest",
+      "timestamp": "01:00:37",
+      "confidence": "high",
+      "tags": [
+        "Asien",
+        "tillväxtmarknader",
+        "Kina",
+        "Australien"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "KRYPTO",
+      "asset_name": "Kryptovalutor",
+      "sentiment": "bullish",
+      "speaker": "John",
+      "speaker_role": "host",
+      "quote": "Jag har ju inte på något sätt släppt krypto. Och det här är ju lite skillnad mot till exempel Benson. Han njöt av och håna mig för mitt krypto-engagemang.",
+      "context": "Diskussion om att Avanza svängt till positiv kryptosyn",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "lång sikt"
+    },
+    {
+      "asset_symbol": "KRYPTO",
+      "asset_name": "Kryptovalutor",
+      "sentiment": "bullish",
+      "speaker": "Richard Josefsson (citat)",
+      "speaker_role": "host (citad)",
+      "quote": "Avanza ska vara med på reset när regleringar är på plats. Och jag tycker att han hade generellt en väldigt vettig och balanserad syn på krypto",
+      "context": "Avanzas vd Richard Josefsson uttrycker positiv kryptosyn",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "lång sikt"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Börspodden diskuterar en stark börsuppgång trots fundamentala risker som höga räntor, energikostnader och kommande lågkonjunktur. Möjligheter identifieras i utbombade konsumtionsaktier om mjuklandning sker. Flera svenska stocks analyseras: Dustin Q1-haveri med potentiellt köpläge efter nyemission, BioArctic övervärderad efter FDA-nyhet, Itab potentiell Ratos-kandidat, Catena Media desperat kommunikation om försäljning, Kambi förlorade Fnatic men statliga operatörer kan ge nya kunder, New Wave all time high med Craft-styrka och förvärvsmöjligheter, Gotlandsbolaget undviks på grund av aggressiva avskrivningar.",
+  "key_takeaways": [
+    "Dustin: Vänta på nyemission för potentiellt köpläge",
+    "BioArctic: Övervärderad, avoid",
+    "Itab: Watch för potentiell uppköp/Ratos",
+    "Catena Media: Sälj på desperat kommunikation",
+    "Kambi: Watch för statliga operatörer men inhouse-trend risk",
+    "New Wave: Hold på all time high men stark operativt",
+    "Gotlandsbolaget: Avoid på grund av aggressiva avskrivningar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2023-01-11-9c7d.txt",
+  "transcript_word_count": 11363,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

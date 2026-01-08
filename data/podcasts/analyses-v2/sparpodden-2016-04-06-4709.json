@@ -1,0 +1,386 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2016-04-06-4709",
+  "podcast_name": "Sparpodden",
+  "episode_title": "#sparpodden Ep 126 - Frågebonanza och Panama",
+  "episode_number": 126,
+  "date": "2016-04-06",
+  "hosts": [
+    "Jocke Bornaud",
+    "Eva Truin"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Tesla Model 3",
+    "Nordea och Panamadokumenten",
+    "SVD Börs Plus",
+    "IPOs och noteringar",
+    "Utdelningsaristokrater",
+    "Kvantitativ investering",
+    "MTG och e-sport",
+    "Startups",
+    "Bankbyte och bolån"
+  ],
+  "stocks_discussed": [
+    "Tesla",
+    "Nordea",
+    "MTG"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Nordea",
+      "ticker": "NDA-SEK",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "09:40",
+      "reasoning": "Köpte aktien en vecka tidigare med argumentet att det var den mest intressanta av storbankerna. Även efter Panamadokumenten som visar att banken hjälpt kunder skapa brevlådeföretag i Panama för skatteundandragande, tror Jocke att aktien påverkas ganska lite av skandalen då det är en begränsad del av verksamheten.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag var inte helt nöjd för jag köpte ju faktiskt Nordea. Med argumentet av att jag tyckte att det var den mest intressanta av Storbankerna för någon vecka sedan här.",
+      "sector": "Finans",
+      "market": "sweden",
+      "position_context": "Äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "MTG",
+      "ticker": "MTG-B",
+      "action": "watch",
+      "confidence": "speculative",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "31:13",
+      "reasoning": "MTGs satsning på e-sport upplevs som superintressant och växande med enorma intäkter. Känns som lågt värderad och stor potential men svårt att analysera då få jämförbara bolag finns. Folk inom branschen är superpositiva. Behöver läsa på mer.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det känns som det här är en del i MTG som är ganska lågt värderad... Jag tycker att den känns superintressant faktiskt. Och ska försöka läsa mig på mer kring det... Det är spännande och det finns en stor potential i det och det känns som att via MTGs aktiekurs kan man få den potentialen ganska billigt, spontant.",
+      "sector": "Media/E-sport",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "03:04",
+      "timestamp_end": "06:48",
+      "word_count": 800,
+      "speakers": [
+        "Jocke Bornaud",
+        "Eva Truin"
+      ],
+      "primary_speaker": "Jocke Bornaud",
+      "discussion_summary": "Diskussion om Tesla och Model 3-lanseringen som lockat 279 000 förbokningar med 10 000 kr i deposition, vilket ger 3 miljarder kronor på en helg. Jocke betonar att Tesla är mer än bara bilen men uttrycker skepticism om produktionskapaciteten - från 50 000 bilar 2015 till 250 000 bilar, vilket är ett enormt steg. Eva delar skepticismen men konstaterar att bilindustriprojektet är spännande att följa. De diskuterar även konkurrens från BMW och Audi.",
+      "quotes": [
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Jag skulle inte säga att Tesla har varit på djupvatten. Jag är ju också den som säger att Tesla är inte bara bilen. Det är så mycket runtomkring Tesla. Man måste lägga in värderingen av Tesla. Utmaningen tror jag är huruvida de kommer klara av den höga produktionen som det kommer bli.",
+          "timestamp": "03:22",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "För jag var inne och tittade nu i lördags var det 279 000 bilar som redan är förbokade. De planerar ju att de första bilen kommer komma slutet 2017.",
+          "timestamp": "03:47",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "För att boka bilen måste du betala 10 000 svenska kronor. Det är 279 000 personer som har bokat en sån bil, och därmed också betalat förskott.",
+          "timestamp": "05:28",
+          "context": "metric"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "Jag tror, jag är lite skeptisk till Tesla, och jag tror att du har mycket rätt i att ta steget från att producera 50 000 bilar till 250. Det är ett stort steg, eller vad det nu blir, hur mycket de ska leverera per år, jag vet inte det.",
+          "timestamp": "06:05",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "279 000 förbokningar",
+          "10 000 kr deposition",
+          "3 miljarder kr i förskott",
+          "Produktion 50 000 bilar 2015",
+          "Mål 250 000 bilar",
+          "Lansering slutet 2017"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Enorm hype med köer utanför butiker",
+          "279 000 förbokningar ger 3 miljarder i finansiering",
+          "Tesla är mer än bara bilproduktion - ett helt ekosystem",
+          "Lågt pris på Model 3 gör svårt för konkurrenter att matcha"
+        ],
+        "bear_case": [
+          "Produktionsutmaning från 50 000 till 250 000 bilar",
+          "Kvalitetsrisk vid så snabb uppskalning",
+          "Tesla har dåligt track record på leverera i tid",
+          "Konkurrens från BMW, Audi och andra etablerade biltillverkare"
+        ],
+        "catalysts": [
+          "Model 3 lansering slutet 2017",
+          "Efterlevnad av produktionsmål",
+          "Kvalitetsresultat på massproducerade bilar"
+        ],
+        "risks": [
+          "Klarar inte produktionsuppskalningen",
+          "Kvalitetsproblem vid volymproduktion",
+          "Fördröjningar av Model 3 leveranser",
+          "Konkurrens från etablerade biltillverkares elbilar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Nordea",
+      "ticker": "NDA-SEK",
+      "timestamp_start": "09:19",
+      "timestamp_end": "15:51",
+      "word_count": 1200,
+      "speakers": [
+        "Jocke Bornaud",
+        "Eva Truin"
+      ],
+      "primary_speaker": "Jocke Bornaud",
+      "discussion_summary": "Panamadokumenten avslöjar att Nordea varit aktiv med att hjälpa kunder skapa brevlådeföretag i Panama, sannolikt för skatteundandragande eller penningtvätt. Jocke som köpt aktien en vecka tidigare diskuterar etiska problem men tror påverkan på aktiekurs blir begränsad då det är en liten del av verksamheten. De diskuterar även det bredare problemet med skatteparadis och hur jakt på dessa har ökat sedan 2001.",
+      "quotes": [
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Jag var inte helt nöjd för jag köpte ju faktiskt Nordea. Med argumentet av att jag tyckte att det var den mest intressanta av Storbankerna för någon vecka sedan här.",
+          "timestamp": "09:40",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Jag tror inte det kommer påverka så mycket. Jag tror det kommer påverka de som har de här kontorna. Möjligtvis att de får söka sig en annan bank och få hjälp via. Jag tror man sträcker upp den verksamheten lite grann.",
+          "timestamp": "11:58",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Jag har svårt att se att det finns något annat syfte till att äga ett brevlådeföretag på Panama än att undanhålla skatt eller att tvätta pengar.",
+          "timestamp": "10:38",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Brevlådeföretag via Panama advokatfirma",
+          "Verksamhet i Luxembourg"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Begränsad del av verksamheten",
+          "Bolag har varit juridiskt korrekt enligt dem själva",
+          "Jocke ser Nordea som mest intressant av storbankerna"
+        ],
+        "bear_case": [
+          "Etiska och moraliska problem med skatteparadis-verksamhet",
+          "Reputationsrisk kan påverka kundbortfall",
+          "Eventuella regulatoriska åtgärder"
+        ],
+        "catalysts": [
+          "Utfall av Panamadokument-utredningen",
+          "Eventuella regulatoriska åtgärder"
+        ],
+        "risks": [
+          "Reputationsrisk",
+          "Kundbortfall",
+          "Regulatoriska åtgärder",
+          "Mediedrevet kan fortsätta"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "MTG",
+      "ticker": "MTG-B",
+      "timestamp_start": "28:55",
+      "timestamp_end": "31:32",
+      "word_count": 600,
+      "speakers": [
+        "Jocke Bornaud",
+        "Eva Truin"
+      ],
+      "primary_speaker": "Jocke Bornaud",
+      "discussion_summary": "Diskussion om MTGs satsning på e-sport som beskrivs som superintressant och växande med enorma intäkter. Jocke som är Telia-ägare men inte MTG-ägare ser potential att få exponering mot e-sport via MTG till ett billigt pris. Folk inom e-sport-branschen är superpositiva men bolaget är svåranalyserat med få jämförelseobjekt.",
+      "quotes": [
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Det känns som det här är en del i MTG som är ganska lågt värderad. Nu är jag faktiskt aktieägare i Telia. Men det är någonting som får mig... Ja, varför skulle det inte kunna vara det i MTG?",
+          "timestamp": "29:27",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Och jag tycker att den känns superintressant faktisk Och ska försöka läsa mig på mer kring det. Men det är någonting som växer enormt mycket. Intäkterna inom sporten växer.",
+          "timestamp": "29:40",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Jag tror att det är värt att hålla koll på det där. Men svårt att analysera, svårt att hitta bolag att jämföra med.",
+          "timestamp": "30:12",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Det är spännande och det finns en stor potential i det och det känns som att via MTGs aktiekurs kan man få den potentialen ganska billigt, spontant.",
+          "timestamp": "31:13",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Enorm intäktsökning",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "E-sport intäkter växer enormt",
+          "Låg värdering",
+          "Svårt att jämföra med andra bolag"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "E-sport växer enormt med stora intäkter",
+          "Känns lågt värderad",
+          "Folk inom branschen superpositiva",
+          "Köpa e-sport potential billigt via MTG aktiekurs"
+        ],
+        "bear_case": [
+          "Svårt att analysera",
+          "Få jämförbara bolag",
+          "MTG har press på traditionell TV-verksamhet",
+          "ViaPlay har tagit stryk mot Netflix"
+        ],
+        "catalysts": [
+          "E-sport tillväxt",
+          "Visa resultat från e-sport satsning"
+        ],
+        "risks": [
+          "Svåranalyserat segment",
+          "Kan misslyckas med e-sport satsning",
+          "Press på traditionell TV verksamhet"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Vad som är fördelen med den här typen av investeringar är att det blir inte känslostyrt. Utan du följer den här regeln. Då måste man för att lyckas följa den slaviskt. Annars kan du inte kombinera den med någon slags timingkänsla utan kör på.",
+      "summary": "Kvantitativa investeringsstrategier som Dual Momentum är framgångsrika för att de är känslolösa och regelbaserade.",
+      "category": "philosophy",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "27:53",
+      "confidence": "high",
+      "tags": [
+        "kvantitativ investering",
+        "feelings-free investing",
+        "disciplin"
+      ]
+    },
+    {
+      "quote": "Det som är positivt att det här kommer fram, det är för att man verkligen har börjat jaga den här typen av lösningar. Förut hade vi dem i hela Europa. Jag själv har jobbat med lösningar som varit av den här typen.",
+      "summary": "Jakt på skatteparadis har ökat avsevärt sedan 2001 vilket minskar möjligheterna för skatteundandragande.",
+      "category": "wisdom",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "13:25",
+      "confidence": "high",
+      "tags": [
+        "skatteparadis",
+        "transparens",
+        "finansiell reglering"
+      ]
+    },
+    {
+      "quote": "Men det är råd att återinvestera om, så det blir en riktigt bra strategi och det tar fart. Annars blir det ingen avkastning i den här strategin. Ibland glömmer man det och tycker att det är roligare att köpa något annat för pengarna.",
+      "summary": "För att utdelningsstrategier ska fungera måste återinvestering skötas slaviskt.",
+      "category": "philosophy",
+      "speaker": "Eva Truin",
+      "speaker_role": "host",
+      "timestamp": "23:49",
+      "confidence": "high",
+      "tags": [
+        "utdelning",
+        "återinvestering",
+        "ränta-på-ränta"
+      ]
+    },
+    {
+      "quote": "Ska man involvera sig i startups ska man nog vara beredd som vanligt att göra det i flera bolag. Inte bara ta risken i ett bolag förstås, utan här kanske ännu fler bolag.",
+      "summary": "Startup-investering kräver diversifiering över flera bolag eftersom risken för misslyckande är hög.",
+      "category": "wisdom",
+      "speaker": "Eva Truin",
+      "speaker_role": "host",
+      "timestamp": "33:25",
+      "confidence": "high",
+      "tags": [
+        "startups",
+        "diversifiering",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Oftast, det finns massa varianter, men de allra flesta är förstås att undvika skatt. Det kan ju vara så att man har verksamhet utomlands där man inte vill föra tillbaks pengarna in i Sverige och gömma undan dem och ändå ha tillgång till dem.",
+      "summary": "Huvudsyftet med brevlådeföretag i skatteparadis är skatteundandragande.",
+      "category": "wisdom",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "15:29",
+      "confidence": "high",
+      "tags": [
+        "skatteparadis",
+        "brevlådeföretag",
+        "skatteundandragande"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar främst Teslas Model 3-lansering med 279 000 förbokningar, Nordea-aktien och Panamadokumenten som avslöjar bankens inblandning i skatteparadis-verksamhet, samt MTGs satsning på e-sport. Lyssnarfrågor handlar om utdelnings-ETFer, kvantitativ investering, startups och bankbyte.",
+  "key_takeaways": [
+    "Tesla har enorma förbokningar men produktionsutmaningen är kritisk",
+    "Jocke köpte Nordea innan Panamadokumenten men tror påverkan på aktien blir begränsad",
+    "MTGs e-sport ses som intressant men svåranalyserad",
+    "Kvantitativa strategier som Dual Momentum är känslolösa",
+    "Utdelningsstrategier kräver återinvestering för att fungera"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2016-04-06-4709.txt",
+  "transcript_word_count": 6754,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

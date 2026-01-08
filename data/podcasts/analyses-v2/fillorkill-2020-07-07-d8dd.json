@@ -1,0 +1,271 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2020-07-07-d8dd",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 275 - Fooled by Randomness",
+  "episode_number": 275,
+  "date": "2020-07-07",
+  "hosts": [
+    "Host1",
+    "Host2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Hansa BioPharma",
+    "Momentum trading",
+    "Short sellers",
+    "Powercell",
+    "ETF-flöden"
+  ],
+  "stocks_discussed": [
+    "Hansa BioPharma",
+    "Onco Peptides",
+    "Powercell",
+    "Tesla",
+    "G5",
+    "MIPS",
+    "EQT",
+    "Evo",
+    "Catena Media",
+    "Ipco",
+    "SAS",
+    "Fingerprint Cards",
+    "Hoist",
+    "2BI",
+    "Meconomen",
+    "Recifarm"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Onco Peptides",
+      "ticker": null,
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "09:31",
+      "reasoning": "Talaren äger aktien och är lång på den trots att den är kortad av kvantfonden Voleon. Väljer att behålla positionen då han tror på bolagets fundamenta och att bolaget levererar på lång sikt.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "De är väl kortade fortfarande. De ligger 7 procent back där, så jag vet inte vem som har vunnit där ännu.",
+      "sector": "biotech",
+      "market": "sweden",
+      "position_context": "Äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Hansa BioPharma",
+      "ticker": "HANSA-B",
+      "timestamp_start": "03:28",
+      "timestamp_end": "09:04",
+      "word_count": 850,
+      "speakers": [
+        "Host1",
+        "Host2"
+      ],
+      "primary_speaker": "Host1",
+      "discussion_summary": "Diskussionen fokuserar på Hansa Biopharmas drastiska prisutveckling från 70 till 270 SEK efter avtal med Sarepta och EU-godkännande. Talarna diskuterar timing, finansieringsstrategi, och risken med blankare. Host1 delar sin strategi att köpa på 120 och sälja på 140 och beskriver detta som ett missat tillfälle. Båda hostarna är försiktiga att köpa efter sådan kursuppgång och menar att det krävs särskilda omständigheter för att komma billigare vid placering.",
+      "quotes": [
+        {
+          "speaker": "Host1",
+          "text": "Hansa. Jag var ju på semester förra veckan, så jag fick inte handla den här häftiga nyheten om att de tecknade ett avtal med Sarepta Therapeutics om en exklusiv global licens om att utveckla och marknadsföra förbehandling till genterapi.",
+          "timestamp": "03:28",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Jag blir inte så köpsugen här, jag hade ju mitt case att man skulle köpa på 120 och sälja på 140 innan EU-beskedet och nu är det 270. Så jag missade ju 100% med min strategi.",
+          "timestamp": "07:31",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Men det är ju svårt att köpa när den har gått så här. Speciellt när du har en placing eller ny emotionsrisk.",
+          "timestamp": "07:35",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Så jag kommer inte ha någon FOMO och komma in i Handstad innan, för att jag kanske inte får in den billigare, om de gör en finansieringslösning.",
+          "timestamp": "08:12",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "EU-godkännande för IdeS",
+          "Avtal med Sarepta Therapeutics visar plattformens potential",
+          "Potential för fler avtal med liknande bolag"
+        ],
+        "bear_case": [
+          "Kursen har gått från 70 till 270 SEK",
+          "Nyemission/placering kan utspäda aktieägare",
+          "Intäkter ligg långt fram i tiden",
+          "Biotech-risik"
+        ],
+        "catalysts": [
+          "Nya avtal med andra genterapibolag",
+          "EU-lansering av IdeS",
+          "Finansieringslösning"
+        ],
+        "risks": [
+          "Placeringsrisk",
+          "Biotech-utveckling kan misslyckas",
+          "Konkurrens"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Powercell",
+      "ticker": "PCELL",
+      "timestamp_start": "24:17",
+      "timestamp_end": "27:46",
+      "word_count": 600,
+      "speakers": [
+        "Host1",
+        "Host2"
+      ],
+      "primary_speaker": "Host2",
+      "discussion_summary": "Diskussionen kring Powercell fokuserar på den kraftiga värderingsuppgången från 5 till 370 SEK, drivet av tematiskt intresse för vätgas och tyska köpare via ETF-flöden. Host1 delar sin syn att man ska vänta på en återgång till mer rimliga nivåer, medan Host2 påpekar att det kan ta upp till två år innan en sådan möjlighet uppstår. De diskuterar riskerna med höga värderingar och liknande tendenser med andra vätgasbolag som Nel i Norge.",
+      "quotes": [
+        {
+          "speaker": "Host1",
+          "text": "Nu var det ju en ny sån här, stora ägarna säljer, Midrock och Finnebuss. Då sålde de kursen var 370, de sålde på 300.",
+          "timestamp": "24:17",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Man skulle ha tagit dem i coronakrisen, absolut. Då tror jag att vi kommer att få en bäst till inom typ två år där du kan få in den på bra nivåer.",
+          "timestamp": "25:47",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Det är lite som år 2000, alla skulle hålla på med vätgas, nu pratar jag inte bara om vätgas, jag pratar miljöaktien överlag. Det kommer inte vara så många lösningar som gör det, utan till slut kommer någon med en lösning som är bättre än alla andra.",
+          "timestamp": "27:06",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Vätgas är en växande marknad",
+          "Bosch-samarbete och order",
+          "Tyska köpare och ETF-flöden"
+        ],
+        "bear_case": [
+          "Värderingen från 5 till 370 SEK",
+          "Stora ägare säljer",
+          "Risk att lösningen inte vinner",
+          "Liknande tendenser med år 2000"
+        ],
+        "catalysts": [
+          "Fler vätgasstationer",
+          "Vätgasfordon i marknaden",
+          "Tyska miljöpaket"
+        ],
+        "risks": [
+          "Konkurrens från andra vätgaslösningar",
+          "Teknologisk risk",
+          "Marknadsrisk"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Ett av de dyraste misstagen i en bull market är att vara rädd för höga priser. Istället bör du vara rädd för låga priser och aktier som laggar i en stark marknad.",
+      "summary": "I en starkt uppåtgående marknad bör man vara försiktig med låga priser och aktier som hänger med, snarare än rädda för höga priser.",
+      "category": "wisdom",
+      "speaker": "Trade with Mr. P (citerad av Host1)",
+      "speaker_role": "unknown",
+      "timestamp": "16:20",
+      "confidence": "medium",
+      "tags": [
+        "momentum",
+        "bull market",
+        "prissättning"
+      ]
+    },
+    {
+      "quote": "Jag jämför mig mot förra året. Det är min målbild och så försöker jag få det att öka varje år.",
+      "summary": "Istället för att jämföra sig med index eller andra, bör man fokusera på att öka sin absoluta avkastning från föregående år.",
+      "category": "philosophy",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "33:27",
+      "confidence": "high",
+      "tags": [
+        "målsättning",
+        "absolut avkastning"
+      ]
+    },
+    {
+      "quote": "Det är tvärt emot momentum-strategi som vi pratade om innan. Det är att du sitter och väntar på aktier som laggar som har dolda värden och borde vara värda mer.",
+      "summary": "Value investing innebär att vänta på aktier som har dolda värden och borde värderas högre, vilket är motsatsen till momentum-trading.",
+      "category": "philosophy",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "34:57",
+      "confidence": "high",
+      "tags": [
+        "value investing",
+        "strategi"
+      ]
+    },
+    {
+      "quote": "När det finns en blankare i sin aktie, det är bra att veta vilken sorts blankare det är. Om det är en kvantfond som bara tittar på pris och volym, eller om det är fundamental research.",
+      "summary": "Viktigt att identifiera vilken sorts short seller som är kort en aktie - kvantfond eller fundamentalist.",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "10:42",
+      "confidence": "high",
+      "tags": [
+        "short sellers",
+        "analys"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "cautious",
+  "summary": "Avsnittet diskuterar Hansa Biopharmas kursuppgång efter avtal med Sarepta, Powercells höga värdering, och riskerna med momentum trading. Hostarna varnar för att köpa efter så kraftiga kursuppgångar och diskuterar hur man ska förhålla sig till höga värderingar och bull market. Marknadssentimentet är positivt men hostarna rekommenderar försiktighet.",
+  "key_takeaways": [
+    "Var försiktig med att köpa aktier efter kraftiga kursuppgångar",
+    "Förstå vilken sorts short seller som är kort din aktie",
+    "ETF-flöden och momentum kan driva aktier extremt högt",
+    "Vänta på korrigeringar istället för att jaga momentum",
+    "Jämför dig inte med index - fokusera på absolut avkastning"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2020-07-07-d8dd.txt",
+  "transcript_word_count": 7363,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

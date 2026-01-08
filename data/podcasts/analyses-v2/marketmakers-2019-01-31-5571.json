@@ -1,0 +1,315 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-01-31-5571",
+  "podcast_name": "Market Makers",
+  "episode_title": "#68 Loomis Och Fortnox",
+  "episode_number": 68,
+  "date": "2019-01-31",
+  "hosts": [
+    "Niklas",
+    "Fabian"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Loomis",
+    "Fortnox",
+    "portföljstrategi",
+    "värdering",
+    "multipelanalys"
+  ],
+  "stocks_discussed": [
+    "Loomis",
+    "Fortnox"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOMIS-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "31:37",
+      "reasoning": "Fabian anser att man bör bevaka Loomis men är mer konservativ angående värderingen. Han menar att med en EV/EBITDA på 6 istället för 7 får man en riktkurs på 240 kronor med 20% säkerhetsmarginal, vilket är 20% under dagens kurs. Både estimaten är konservativa och troligtvis ingen home run investering än. Han rekommenderar att avvakta tills rapporten kommit.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag anser att man bör bevaka, för det kommer troligtvis bli ett väldigt intressant bolag. Men det är sagt så tycker jag att man bör vara mer konservativ angående värderingen... Det här troligtvis ingen home run investering, i alla fall inte än. Det jag däremot skulle göra är att avvakta tills rapporten har kommit, och återkom efter det.",
+      "sector": "Finansiella tjänster",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Rapport 2019-01-30"
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FNOX",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "47:57",
+      "reasoning": "Niklas rekommenderar att ta in en bevakningspost i Fortnox eller öka vid lägre multiplar. Han menar att bolaget handlas till P67 vilket är övervärderat historiskt (intervall 30-60). Med risken för lågkonjunktur och multipelkontraktion ser han stor nedsidan. Han skulle vilja köpa vid P40 eller lägre.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Min slutsats av det är att man, jag har skrivit ner i alla fall i mina anteckna att man ska ta in en bevakningspost. Det är mest för att jag tycker att det här borret är så roligt. Och för att det har varit sådant case som man inte velat stå utanför... Jag tror att man kan locka in på en billigare nivå helt enkelt. Så jag tycker att man kan göra det så enkelt för sig själv att man håller koll på P-talet och försöker nyttja tillfället helt enkelt när det dippar.",
+      "sector": "Mjukvara/SaaS",
+      "market": "sweden",
+      "position_context": "bevakningspost",
+      "downside_note": "Multipelkontraktion från P67 till P30",
+      "catalyst_timing": "Q4 rapport februari 2019"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOMIS-B",
+      "timestamp_start": "05:31",
+      "timestamp_end": "37:39",
+      "word_count": 3200,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Loomis är ett kontrarian case som sysslar med kontanthantering, motsatsen till moderna digitala betallösningar. Bolaget handlas till rimlig värdering (PE ~13, EV/EBITDA ~12.8) med en direktavkastning på 3%. Största risken är löneinflation. Bolaget är en förvärvsmaskin med en av Stockholmsbörsens högsta andelar blankade aktier (4%). Båda är överens om att avvakta tills rapporten kommit och värderingen kan bli mer attraktiv.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Loomis handlas idag till ett PE runt 13 vilket är i linje med det historiska snittet. Loomis är i min bild ett bolag som sällan överraskar så man kan förlita sig relativt väl på siffrorna. Cases består alltså inte av en multipel expansion utan snarare för bättre marginaler och lite högre tillväxt än prognoserna samt förhoppningsvis ett utbrott ur konsolidering och därmed en short squeeze.",
+          "timestamp": "18:28",
+          "context": "valuation"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Ett bullcase, ett bästa scenario, eller bästa vet jag inte såklart, men ett rimligt bra scenario, det är att man kanske slår sina tillväxtprognoser, helt enkelt höjer sina marginaler lite grann, är lite bättre än vad marknaden har trott, och då får en liten fin uppvärdering.",
+          "timestamp": "29:47",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Bear case däremot, ett sämre scenario, och det är här som är lite intressant, för ett av de sämre scenarierna är att man står stilla och slår, men då fortsätter man att leverera utdelning. Så jag ser att risken är ganska låg i Loomis, däremot är det inte uppsidan jättestor.",
+          "timestamp": "30:06",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag anser att man bör bevaka, för det kommer troligtvis bli ett väldigt intressant bolag. Men det är sagt så tycker jag att man bör vara mer konservativ angående värderingen.",
+          "timestamp": "31:37",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "13",
+        "ev_ebitda": "12.8",
+        "ev_sales": "1.4",
+        "fcf_yield": null,
+        "dividend_yield": "3%",
+        "revenue_growth": "4-8% (förväntad)",
+        "margin": {
+          "operating": "över 10%",
+          "net": "knapp under 10%"
+        },
+        "debt_level": {
+          "solvency": "47%",
+          "net_debt_ebitda": "1.3"
+        },
+        "custom": [
+          "ROE: ~20%",
+          "ROTA: ~15%",
+          "Beta: 1.11"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Slår tillväxtprognoser",
+          "Höjer marginaler",
+          "Får multipel expansion",
+          "Förvärv driver tillväxt",
+          "Tillväxt i emerging markets",
+          "Short squeeze"
+        ],
+        "bear_case": [
+          "Står stilla/sideways",
+          "Löneinflation pressar marginaler",
+          "Kontanter försvinner snabbare än väntat",
+          "Multipelkontraktion"
+        ],
+        "catalysts": [
+          "Q4 rapport 2019-01-30",
+          "Förvärv",
+          "Short squeeze"
+        ],
+        "risks": [
+          "Löneinflation",
+          "Minskande kontantanvändning",
+          "Kostnadspress på nordamerikanska marknaden"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FNOX",
+      "timestamp_start": "37:43",
+      "timestamp_end": "51:41",
+      "word_count": 2600,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Fortnox är ett SaaS-bolag inom bokföringsmjukvara med stark tillväxt (vinstökning >50% sedan 2012) och högkvalitativa finansiella mått (ROE 46%, noll långfristig skuld). Men värderingen är extremt hög med P/E 67 och PEG på 2. Med risken för lågkonjunktur och multipelkontraktion rekommenderar båda att avvakta och eventuellt köpa vid lägre multiplar (P40 eller lägre).",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Om vi börjar med värderingen så kan vi säga att bolaget i oktober 2017 handlades till runt P50 och idag handlar aktien till P67... Håller det på så där fram och tillbaka. Det skulle då indikera att vi är i ett ganska övervärderat läge i dag historiskt sett.",
+          "timestamp": "39:25",
+          "context": "valuation"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Varför har bolaget en premievärdering? Jo, för man uppvisar en stark tillväxt kvartal efter kvartal, både när det kommer till vinst, omsättning, nya kunder och så vidare. Vinsten har faktiskt snittat över 50 % tillväxt sen 2012. Det är galet.",
+          "timestamp": "44:21",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Bearcase är såklart kundbortfall på grund av konkurrens, men framförallt lågkonjunktur, samt att man får den här multipelkontraktionen. Och det kan slå väldigt, väldigt hårt med den här typen av bolag. Ska vi ner från ett pgetal på 60-70, ner till typ 30, samtidigt som vinsten backar.",
+          "timestamp": "47:40",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Slutsats, det har alltid varit dyrt. Å andra sidan, det har alltid varit dyrt. Det är ett sjukt intressant bolag. Man ska avvakta tills nästa rapport kommer.",
+          "timestamp": "48:48",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "67",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "under 1%",
+        "revenue_growth": "över 50% (snitt sedan 2012)",
+        "margin": {
+          "net": "drygt 17%"
+        },
+        "debt_level": {
+          "solvency": "40%",
+          "net_debt": "negativ"
+        },
+        "custom": [
+          "ROE: 46%",
+          "ROTA: 18%",
+          "PEG: 2",
+          "noll långfristig skuld"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Premievdering håller",
+          "Fortsätter leverera stark tillväxt",
+          "Inlåsningseffekt via tilläggstjänster"
+        ],
+        "bear_case": [
+          "Lågkonjunktur slår hårt",
+          "Multipelkontraktion (från P67 till P30)",
+          "Kundbortfall till konkurrenter",
+          "Vinsten backar"
+        ],
+        "catalysts": [
+          "Q4 rapport februari 2019",
+          "Q1 och Q2 rapporter 2019"
+        ],
+        "risks": [
+          "Lågkonjunktur",
+          "Multipelkontraktion",
+          "Konkurrens från AI-baserade tjänster",
+          "Law of large numbers - svårare att växa"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man behöver inte ha många bra i det här företaget. Jag har alltid sagt att om man har en IQ av 160, ge 30 poäng till någon annan för att man inte behöver det i investeringar. Vad man behöver är emotionell utveckling.",
+      "summary": "Investering kräver emotionell mognad snarare än extrem intelligens.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "emotionell kontroll",
+        "investeringspsykologi"
+      ]
+    },
+    {
+      "quote": "Det vi vill undvika är att man kollar på ett bolag, tycker att det låter rimligt värderat och det har en stark framtid och så köper man det. Vi vill ju ha lite mer regelbaserat.",
+      "summary": "Vikten av att ha tydliga köp- och säljregler för att undvika impulsa köp.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "05:08",
+      "confidence": "high",
+      "tags": [
+        "köpregler",
+        "disciplin"
+      ]
+    },
+    {
+      "quote": "Det är väl det många tycker är det absolut svåraste. Det är självklart det vi tycker är svåraste också. Det är det alla tycker är svårast. Det är det vi själva vill bli bättre på.",
+      "summary": "Att sälja aktier är det svåraste inom investeringar, något de själva vill förbättra.",
+      "category": "lesson",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "03:29",
+      "confidence": "high",
+      "tags": [
+        "säljdisciplin",
+        "exit-strategi"
+      ]
+    },
+    {
+      "quote": "Tanken är att vi kommer gå lite långsamt framåt. Vi kommer presentera case löpande i podden och då slutar vi med att komma fram till att tycka att det här kan vara intressant att köpa eller inte.",
+      "summary": "Strategi för portföljbyggande: gå långsamt fram, presentera case och ta beslut baserat på analys.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "03:00",
+      "confidence": "high",
+      "tags": [
+        "portföljstrategi",
+        "scalesering"
+      ]
+    },
+    {
+      "quote": "Blankarna är ju generellt, eller man kanske inte brukar säga det, men jag tycker ju oftast är de lite smartare än långarna, för att de jobbar ju faktiskt mot en väldigt långsiktig trend och brukar ansträngas lite hårigare.",
+      "summary": "Short-sellers är ofta mer kunniga eftersom de jobbar mot långsiktiga trender.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "15:58",
+      "confidence": "medium",
+      "tags": [
+        "short-selling",
+        "marknadens aktörer"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "I detta avsnitt analyseras två finansiella bolag: Loomis (kontanthantering) och Fortnox (bokföringsmjukvara). Båda rekommenderas som \"watch\" - avvakta tills rapporter kommit och värderingar kan bli mer attraktiva. Loomis ses som ett lågrisk/låguppsida-case med rimlig värdering, medan Fortnox är högkvalitativ men extremt värderat med stor nedsidansrisk vid potentiell lågkonjunktur.",
+  "key_takeaways": [
+    "Loomis: PE 13, direktavkastning 3%, 4% blankat - avvakta",
+    "Fortnox: PE 67, extremt värderat - vänta på lägre multiplar (P40)",
+    "Viktigt att ha tydliga köp- och säljregler",
+    "Båda bolagen avvakta till nästa rapport"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-01-31-5571.txt",
+  "transcript_word_count": 5800,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

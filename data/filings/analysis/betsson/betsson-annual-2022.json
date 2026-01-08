@@ -1,0 +1,162 @@
+{
+  "filing_id": "betsson-annual-2022",
+  "company_id": "betsson",
+  "filing_type": "annual",
+  "fiscal_year": 2022,
+  "fiscal_quarter": null,
+  "analyzed_at": "2025-12-30T15:56:05.393038",
+  "model_used": "claude-opus-4-5-20251101",
+  "executive_summary": "Rekordår med intäkter +21% till 8,963 MSEK. Stark tillväxt i Latinamerika och övriga Europa. VM i fotboll Q4 drev rekordkvartal. Rörelseresultat +28% till 1,693 MSEK med förbättrad marginal.",
+  "key_highlights": [
+    "Intäkter +21% till 8,963 MSEK - nytt rekord",
+    "Rörelseresultat +28% till 1,693 MSEK, marginal 18.9%",
+    "VM i fotboll drev rekord-Q4",
+    "Stark tillväxt i Latinamerika",
+    "Aktiva kunder +15% till 1,280,000"
+  ],
+  "ceo_letter": {
+    "author": "Pontus Lindwall",
+    "title": "CEO",
+    "word_count": 0,
+    "tone": "optimistic",
+    "confidence_level": "high",
+    "promises": [
+      {
+        "statement": "Continue market expansion and M&A activity",
+        "metric": "growth",
+        "target": "Above-market growth",
+        "timeframe": "2023+",
+        "confidence_language": "committed"
+      }
+    ],
+    "themes": [
+      {
+        "topic": "geographic_expansion",
+        "emphasis": "high",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "sports_events",
+        "emphasis": "high",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "operational_efficiency",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      }
+    ],
+    "challenges": [
+      {
+        "challenge": "Inflation and cost pressures",
+        "attribution": "external",
+        "tone": "explanatory"
+      },
+      {
+        "challenge": "Swedish market continues to be challenging",
+        "attribution": "external",
+        "tone": "explanatory"
+      }
+    ],
+    "honesty_signals": [
+      "Transparent om makroekonomiska utmaningar",
+      "Erkänner fortsatta svenska regulatoriska utmaningar"
+    ],
+    "key_quotes": []
+  },
+  "mda_analysis": {
+    "key_narratives": [
+      "VM i fotboll drev exceptionellt Q4",
+      "Latinamerika växte kraftigt med Colbet och Suaposta",
+      "Nordiska marknader stabila trots restriktioner"
+    ],
+    "management_interpretation": "Betsson överträffar marknaden genom diversifierad geografisk närvaro och stark sportsbook.",
+    "segment_commentary": {
+      "Casino": {
+        "name": "Casino",
+        "performance": "strong",
+        "revenue_share": 0.68,
+        "outlook": "positive"
+      },
+      "Sportsbook": {
+        "name": "Sportsbook",
+        "performance": "very_strong",
+        "revenue_share": 0.31,
+        "outlook": "positive"
+      }
+    }
+  },
+  "risk_factors": {
+    "risks": [
+      {
+        "risk": "Regulatory fragmentation",
+        "severity": "high",
+        "category": "regulatory",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Macroeconomic uncertainty",
+        "severity": "medium",
+        "category": "market",
+        "change": "new",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Inflation impact on costs",
+        "severity": "medium",
+        "category": "financial",
+        "change": "new",
+        "is_boilerplate": false
+      }
+    ],
+    "new_risks_count": 2,
+    "escalated_risks_count": 0,
+    "boilerplate_ratio": 0.12,
+    "top_risk_categories": [
+      "regulatory",
+      "market",
+      "financial"
+    ]
+  },
+  "guidance": {
+    "targets": [],
+    "overall_direction": "maintained",
+    "commentary": "Fortsatt fokus på tillväxt snabbare än marknaden",
+    "management_confidence": "high"
+  },
+  "financial_metrics": {
+    "revenue": 8963000000,
+    "operating_income": 1693000000,
+    "net_income": 1420000000,
+    "operating_margin": 0.189,
+    "eps": 10.5,
+    "roe": 0.24,
+    "active_customers_avg": 1280000,
+    "employees": 2150
+  },
+  "piotroski_f_score": {
+    "total": 9,
+    "interpretation": "strong",
+    "signals": {
+      "positive_net_income": true,
+      "positive_ocf": true,
+      "roa_improving": true,
+      "ocf_greater_than_ni": true,
+      "leverage_declining": true,
+      "current_ratio_improving": true,
+      "no_dilution": true,
+      "margin_improving": true,
+      "turnover_improving": true
+    }
+  },
+  "earnings_quality": {
+    "accruals_ratio": 0.02,
+    "quality_grade": "high",
+    "ocf_to_ni_ratio": 1.18
+  },
+  "schilit_shenanigans": {
+    "overall_risk": "low",
+    "red_flags": []
+  }
+}

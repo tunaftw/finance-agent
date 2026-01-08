@@ -1,0 +1,287 @@
+{
+  "filing_id": "betsson-annual-2020",
+  "company_id": "betsson",
+  "filing_type": "annual",
+  "fiscal_year": 2020,
+  "fiscal_quarter": null,
+  "analyzed_at": "2025-12-30T15:56:05.393024",
+  "model_used": "claude-opus-4-5-20251101",
+  "executive_summary": "Exceptionellt år drivet av pandemin som accelererade digitaliseringen. Intäkterna ökade 24% till 6,390 MSEK med förbättrad operativ marginal. Förvärv av GiG B2C och Colbet (Colombia) utökade marknadsposition. Stark kostnadskontroll och ökad efterfrågan på digital underhållning.",
+  "key_highlights": [
+    "Intäkter +24% till 6,390 MSEK (5,173 MSEK föregående år)",
+    "Rörelseresultat +30% till 1,125 MSEK, marginal 17.6%",
+    "Aktiva kunder +44% till 990,000 i snitt",
+    "Förvärv av GiG B2C och 70% av Colbet (Colombia)",
+    "Ny licens i USA (Colorado) och Kenya"
+  ],
+  "ceo_letter": {
+    "author": "Pontus Lindwall",
+    "title": "CEO",
+    "word_count": 0,
+    "note": "Ingen separat VD-kommentar - narrativ integrerad i förvaltningsberättelse",
+    "tone": "optimistic",
+    "confidence_level": "high",
+    "promises": [
+      {
+        "statement": "Launch proprietary sportsbook in Colorado in 2021",
+        "metric": "market_expansion",
+        "target": "US market entry",
+        "timeframe": "H2 2021",
+        "confidence_language": "plan"
+      }
+    ],
+    "themes": [
+      {
+        "topic": "pandemic_acceleration",
+        "emphasis": "high",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "geographic_expansion",
+        "emphasis": "high",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "responsible_gaming",
+        "emphasis": "medium",
+        "sentiment": "neutral"
+      },
+      {
+        "topic": "technology_platform",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      }
+    ],
+    "challenges": [
+      {
+        "challenge": "Corona pandemic operational disruption",
+        "attribution": "external",
+        "tone": "explanatory"
+      },
+      {
+        "challenge": "Swedish regulatory fines and restrictions",
+        "attribution": "external",
+        "tone": "explanatory"
+      },
+      {
+        "challenge": "UK market consolidation/exit",
+        "attribution": "internal",
+        "tone": "accountable"
+      }
+    ],
+    "honesty_signals": [
+      "Transparent om regulatoriska utmaningar i Sverige",
+      "Erkänner strategiskt beslut att lämna UK-marknaden delvis",
+      "Detaljerad beskrivning av pandemi-påverkan"
+    ],
+    "key_quotes": []
+  },
+  "mda_analysis": {
+    "key_narratives": [
+      "Pandemin accelererade övergång från landbaserat till online-spel",
+      "Framgångsrik integration av GiG B2C-förvärv med synergier",
+      "Etablering i nya marknader: USA (Colorado), Kenya, Colombia, Kroatien"
+    ],
+    "management_interpretation": "Ledningen ser 2020 som ett exceptionellt år där extern disruption (pandemi) gynnade verksamheten. Fokus på hälsa/säkerhet för anställda och ansvarfullt spelande.",
+    "segment_commentary": {
+      "Casino": {
+        "name": "Casino",
+        "performance": "strong",
+        "revenue_share": 0.765,
+        "outlook": "positive",
+        "management_commentary": "Största produkten, 76.5% av intäkter. Stark tillväxt under pandemin."
+      },
+      "Sportsbook": {
+        "name": "Sportsbook",
+        "performance": "challenged",
+        "revenue_share": 0.223,
+        "outlook": "cautious",
+        "management_commentary": "22.3% av intäkter. Negativt påverkad av inställda sportevenemang H1."
+      }
+    },
+    "operational_highlights": [
+      "Remote work implementerat globalt i mars",
+      "1,788 anställda vid årets slut (+199)",
+      "Första B2B sportsbook-avtalet med ibet"
+    ],
+    "concerns_mentioned": [
+      "Svenska regulatoriska böter (20 MSEK varning)",
+      "Norska betalningsförbud",
+      "Osäkerhet kring tyska marknaden"
+    ]
+  },
+  "risk_factors": {
+    "risks": [
+      {
+        "risk": "Non-sustainable regulations",
+        "severity": "high",
+        "category": "regulatory",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Damaged reputation with regulators",
+        "severity": "high",
+        "category": "regulatory",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Match fixing",
+        "severity": "medium",
+        "category": "operational",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Payment processes risk",
+        "severity": "medium",
+        "category": "operational",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Business continuity/disaster recovery",
+        "severity": "medium",
+        "category": "operational",
+        "change": "de-escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Information security",
+        "severity": "medium",
+        "category": "technology",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Tech innovation and organisation maturity",
+        "severity": "medium",
+        "category": "technology",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Compliance with existing and new laws",
+        "severity": "high",
+        "category": "regulatory",
+        "change": "escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Taxation risk",
+        "severity": "medium",
+        "category": "financial",
+        "change": "unchanged",
+        "is_boilerplate": false
+      }
+    ],
+    "new_risks_count": 0,
+    "removed_risks_count": 0,
+    "escalated_risks_count": 1,
+    "de_escalated_risks_count": 1,
+    "boilerplate_ratio": 0.1,
+    "top_risk_categories": [
+      "regulatory",
+      "operational"
+    ]
+  },
+  "guidance": {
+    "targets": [],
+    "overall_direction": "maintained",
+    "commentary": "Ingen explicit finansiell guidance given. Fokus på fortsatt expansion och organisk tillväxt.",
+    "management_confidence": "high"
+  },
+  "segments": [
+    {
+      "name": "Casino",
+      "revenue": 4889000000,
+      "revenue_share": 0.765,
+      "management_commentary": "Slots och live casino driver tillväxt",
+      "outlook": "positive"
+    },
+    {
+      "name": "Sportsbook",
+      "revenue": 1425000000,
+      "revenue_share": 0.223,
+      "management_commentary": "Påverkad av inställda sportevenemang",
+      "outlook": "neutral"
+    },
+    {
+      "name": "Other (Poker)",
+      "revenue": 77000000,
+      "revenue_share": 0.012,
+      "management_commentary": "Stabil men liten del",
+      "outlook": "neutral"
+    }
+  ],
+  "financial_metrics": {
+    "revenue": 6389600000,
+    "gross_profit": 4100900000,
+    "operating_income": 1125200000,
+    "net_income": 990800000,
+    "operating_margin": 0.176,
+    "gross_margin": 0.64,
+    "eps": 7.32,
+    "equity": 5062900000,
+    "roe": 0.2,
+    "active_customers_avg": 989969,
+    "registered_customers": 19618060,
+    "employees": 1788
+  },
+  "piotroski_f_score": {
+    "total": 8,
+    "interpretation": "strong",
+    "signals": {
+      "positive_net_income": true,
+      "positive_ocf": true,
+      "roa_improving": true,
+      "ocf_greater_than_ni": true,
+      "leverage_declining": true,
+      "current_ratio_improving": true,
+      "no_dilution": true,
+      "margin_improving": true,
+      "turnover_improving": true
+    }
+  },
+  "earnings_quality": {
+    "accruals_ratio": 0.02,
+    "quality_grade": "high",
+    "ocf_to_ni_ratio": 1.15,
+    "one_time_items_impact": "minimal"
+  },
+  "schilit_shenanigans": {
+    "overall_risk": "low",
+    "checks": {
+      "revenue_too_soon": {
+        "risk": "none",
+        "notes": null
+      },
+      "bogus_revenue": {
+        "risk": "none",
+        "notes": null
+      },
+      "one_time_gains": {
+        "risk": "none",
+        "notes": null
+      },
+      "deferred_expenses": {
+        "risk": "none",
+        "notes": null
+      },
+      "hidden_liabilities": {
+        "risk": "none",
+        "notes": null
+      },
+      "cookie_jar_reserves": {
+        "risk": "none",
+        "notes": null
+      },
+      "big_bath": {
+        "risk": "none",
+        "notes": null
+      }
+    },
+    "red_flags": []
+  }
+}

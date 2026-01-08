@@ -1,0 +1,191 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2019-01-04-daf9",
+  "podcast_name": "Analyspodden",
+  "episode_title": "Skyll inte på Kina",
+  "episode_number": null,
+  "date": "2019-01-04",
+  "hosts": [
+    "Johan Wendel",
+    "Henrik Mittelman"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Makroöversikt 2019",
+    "Apple vinstvarning",
+    "Räntemarknaden",
+    "Flygbranschen"
+  ],
+  "stocks_discussed": [
+    "Apple",
+    "Bristol Myers Squibb",
+    "Celgene",
+    "ABB Power Grids",
+    "Volvo WCE",
+    "Delta Airways",
+    "SAS",
+    "Norwegian",
+    "Fast Retailing"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Henrik Mittelman",
+      "speaker_role": "host",
+      "timestamp": "[17:31]",
+      "reasoning": "Apple handlas till P/E 10-11 vilket är lågt värdering. Services-segmentet växer och kan bli intressant som ränteplacering. Men bolaget är för beroende av iPhone (60% av vinsten). Det grundproblemet är att iPhone är alldeles för framgångsrik. Analysdiskussion om hur Apple ska vända situationen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Apple handlas till ungefär P10, P11 ungefär. Så det är ju en ganska låg värdering. De har gjort det väldigt bra med det relativt nya segmentet services, där man samlar intäkter från App Store, iTunes, iCloud, sådana här grejer. Det är ju nu 14% av Apples intäkter. Men det grundproblemet de har är att iPhone är ju alldeles för framgångsrik egentligen.",
+      "sector": "Teknik",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "timestamp_start": "[09:56]",
+      "timestamp_end": "[19:53]",
+      "word_count": 800,
+      "speakers": [
+        "Johan Wendel",
+        "Henrik Mittelman"
+      ],
+      "primary_speaker": "Henrik Mittelman",
+      "discussion_summary": "Diskussion om Apples vinstvarning där intäkterna sänktes från 89-93 till 84 miljarder dollar, en miss på nästan 5% från det låga estimatet. Analytiker och värdar diskuterar om problemet är Apple-specifikt eller konjunkturbetonat. Diskussion om Apples beroende av iPhone, tjänstesegmentet som växer, monopolistisk prissättning på App Store, och potentiella förvärvsstrategier.",
+      "quotes": [
+        {
+          "speaker": "Henrik Mittelman",
+          "text": "Apple kom ut med på onsdagkvällen där man sänkte sin prognos för det första kvartalet i deras regnskapsåret. Man sa att vi kommer att ha intäkter på ungefär 84 miljarder dollar. Tidigare hade man sagt 89 till 93 miljarder dollar. Så det här är en miss på nästan 5% från det låga estimatet.",
+          "timestamp": "[09:56]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Henrik Mittelman",
+          "text": "Jag tror också att vad de har gjort är att de har höjt priset på sina telefoner. Något enormt. De stackarna som måste köpa sin Apple privat och inte få den via företaget. Då är det uppemot 10 000 nu man ska prisa för en sån här iPhone X. Det är ju extremt mycket.",
+          "timestamp": "[12:36]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Henrik Mittelman",
+          "text": "Services i det här räkenskapsåret som slutade det senaste räkenskapsåret då omsätter alltså services 37 miljarder dollar. Det är väl högre omsättning än något annat bolag har totalt på Stockholmsbörsen.",
+          "timestamp": "[18:14]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Henrik Mittelman",
+          "text": "App Store till exempel, när du gör ett köp i en app via din iPhone då tar ju Apple drygt 30% av pengarna vid det köpet. Är det en prenumeration du köper då tar den 15% av varje prenumrationsbetalning. Det är alltså utlast egentligen. Det är väldigt monopolistiska fasorer det här.",
+          "timestamp": "[14:52]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "Apple handlas till ungefär P10, P11 ungefär. Så det är ju en ganska låg värdering.",
+          "timestamp": "[20:39]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "10-11",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Services: 37 miljarder dollar omsättning",
+          "Services: 14% av intäkter",
+          "iPhone: 60% av vinsten"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Låg värdering P/E 10-11",
+          "Services-segmentet växer snabbt och växer intressant som ränteplacering",
+          "Ekosystemet låser in kunder (iCloud prenumerationer)",
+          "Massivt kassaflöde för förvärv"
+        ],
+        "bear_case": [
+          "Alltför beroende av iPhone (60% av vinsten)",
+          "Prisökningar på iPhone kan ha knäckt efterfrågan",
+          "Monopolistisk prissättning på App Store (30% avgift) kan utmana regulatoriskt",
+          "Intäktstillväxt från enheter har stått stilla"
+        ],
+        "catalysts": [
+          "Services-segmentet kan bli mer dominerande",
+          "Potentiella förvärv (Disney nämnt av analytiker)",
+          "Regulatorisk granskning av App Store-avgifter"
+        ],
+        "risks": [
+          "Fortsatta iPhone-säljsvårigheter",
+          "Regulatorisk påverkan på App Store intäkter",
+          "Konkurrens från egna plattformar (Epic Games bryt loss från Steam)"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag tror just så att vi har börjat prissätta en värld som är okyggligt dyster och minsta lilla tecken på att vi kanske inte blir riktigt så illa, tror jag kommer att applåderas av de finansiella marknaderna.",
+      "summary": "Marknaden har prisat in mycket negativa nyheter så små positiva överraskningar kan skapa uppgång.",
+      "category": "wisdom",
+      "speaker": "Henrik Mittelman",
+      "speaker_role": "host",
+      "timestamp": "[02:56]",
+      "confidence": "high",
+      "tags": [
+        "marknadssentiment",
+        "konträrinvestering"
+      ]
+    },
+    {
+      "quote": "Plötsligt så fort någonting börjar gå nedåt lite grann, så tänker man att nu är det en ny finanskris på gång. Och så försöker man hitta anledningar till det. Men det kanske är bara en liten lågkonjunktur vi nu ser, eller vi är på väg mot. Eller en lite sämre konjunktur snarare. Och inte the great recession.",
+      "summary": "Marknaden överdriver risker jämfört med finanskrisen 2008-2009 på grund av trauma.",
+      "category": "wisdom",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "[07:26]",
+      "confidence": "high",
+      "tags": [
+        "finanskris",
+        "marknadspsykologi",
+        "riskperception"
+      ]
+    },
+    {
+      "quote": "Det känns som att när vi pratar om att det kanske blir en lågkonjunktur. Det känns som att ändå de flesta som spår det scenariot, de letar tecken att det är 2007. Jag har sagt det tidigare i podden här, att det kanske inte behöver vara 2007, det kan nog vara något mer normalt.",
+      "summary": "Konjunkturen kan vara normal snarare än katastrofal, men marknaden är traumatisk.",
+      "category": "wisdom",
+      "speaker": "Henrik Mittelman",
+      "speaker_role": "host",
+      "timestamp": "[06:21]",
+      "confidence": "medium",
+      "tags": [
+        "konjunktur",
+        "marknadspsykologi"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Diskussion om makroläget inför 2019 där Henrik Mittelman menar att marknaden har prisat in mycket negativa nyheter och små positiva överraskningar kan tas emot väl. Analyserar Apples vinstvarning och om det är Apple-specifika problem eller konjunkturbetonat. Flygbranschen diskuteras med Delta som sänker trafikprognosen men uppgraderar vinstprognos på grund av lägre oljepris.",
+  "key_takeaways": [
+    "Marknaden har prisat in negativt, små positiva överraskningar kan ge uppgång",
+    "Apple handlas till P/E 10-11 men har iPhone-beroende som risk",
+    "Flygbolag får hjälp av lägre oljepriser men är försiktiga med kapacitet"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2019-01-04-daf9.txt",
+  "transcript_word_count": 4855,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

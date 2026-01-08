@@ -1,0 +1,518 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2025-11-25-6ddc",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 556 - Flygande bud",
+  "episode_number": 556,
+  "date": "2025-11-25",
+  "hosts": [
+    "Lomolf",
+    "Chris"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Fredsförhandlingar Ukraina-Ryssland",
+    "Novo Nordisk",
+    "AI (Nvidia/Google)",
+    "Krypto",
+    "Elpriser",
+    "Sprint Bioscience",
+    "Råvaror"
+  ],
+  "stocks_discussed": [
+    "Novo Nordisk",
+    "Sprint Bioscience",
+    "Saab",
+    "Finnair",
+    "Kiev Star",
+    "Skanska",
+    "BASF",
+    "Nvidia",
+    "Google",
+    "Kambi",
+    "Azitec",
+    "Eutelsat"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Lomolf",
+      "speaker_role": "host",
+      "timestamp": "05:07",
+      "reasoning": "Aktien handlas på PE 12 vilket värdemässigt känns attraktivt. Alzheimer's-nyheten misslyckades men den var inte inprisad i kursen. Positiva nyheter om diabetes 2 och fetma har kommit. Katalysator i slutet av december då aktien max får väga 15% i danska index och indexfonder kommer köpa upp till den nivån nu när den kraschat ner till runt 10%. Value trap-risken finns men om marknaden växer kan bolaget ta en smäll på marginalen men ökande volym kan kompensera.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag mår bra. Jag var ju lite lång. Vi pratade om det förra veckan också. Jag hade tagit en mindre position. Runt 300 och sen kom den här Alzheimer's-nyheten igår. [...] Så jag förstod inte varför den skulle vara ner 10% som den var igår. Så jag blev lång.",
+      "sector": "Healthcare",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Value trap risk om patenten går ut och earnings fortsätter falla",
+      "catalyst_timing": "Slutet på december (index rebalancing)"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "11:36",
+      "reasoning": "På fredsrykten sålde jag massa Saab. Aktien hade redan kommit ner 100 kronor på en-två veckor, vilket marknaden redan prisat in. Försvarssektorn tappar momentum på kortsiktig fred, även om långsiktiga behov av ökad europeisk försvarsbudget kvarstår.",
+      "price_target": null,
+      "time_horizon": "short",
+      "quote": "Jag sålde massa Saab på det här. Den gick knappt ner så det känns som att marknaden är lite luttrad åt alla håll.",
+      "sector": "Industrials",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Finnair",
+      "ticker": "FIA1S",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "14:27",
+      "reasoning": "Potentiell vinnare på fredsavtal om flyg kan överföra Ukraina och Ryssland igen. Det skulle vara en gamechanger för flygbolag med asiatiska linjer. Flygbolagssektorn har handlat starkt generellt. Position hålls på mycket kort sikt.",
+      "price_target": null,
+      "time_horizon": "short",
+      "quote": "Det är väl att man ska kunna flyga över både Ukraina och Ryssland, vilket skulle vara en gamechanger för många flygbolag i både... Jag köpte lite finär på det här.",
+      "sector": "Airlines",
+      "market": "other",
+      "position_context": "Liten position",
+      "downside_note": null,
+      "catalyst_timing": "Fred i Ukraina"
+    },
+    {
+      "stock_name": "Kiev Star",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "low",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "15:00",
+      "reasoning": "Köpte runt 11-12, sålde när fredskrejen kom runt 14. Marknaden gillar raka bets på fredsvinnare men positionen var kortlivad.",
+      "price_target": null,
+      "time_horizon": "short",
+      "quote": "Stod ju i 11-12, köpte lite av den som jag sålde ut här när i förra veckan kom den här fredskrejen.",
+      "sector": "Telecom",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "23:05",
+      "reasoning": "Bitcoin kraschade först av alla tillgångar från 120 till runt 81-88 och verkar vara en leading indicator för risksentiment. Om den vände upp mot 100 000 skulle det signalera att risk är på väg tillbaka. Föredrar att köpa mitt i krasch och fånga bottnen än jaga uppgång.",
+      "price_target": "100 000",
+      "time_horizon": "medellång sikt",
+      "quote": "Då var vi nere på 81,5 eller liknande. Marknaden har ju en tendens att dra sig ner till de här spikarna, neråt och nu studsade vi väl upp mot 87-88. [...] skulle den vända upp här mot 100 000 så känns det ju som att risk är på väg tillbaka.",
+      "sector": "Crypto",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Eutelsat",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "44:33",
+      "reasoning": "Emission på 1,35 euro för 600 miljoner (plus 828 miljoner på 4 euro från fasta händer) verkar felaktigt prissatt. Marknaden föll 11% men teoretiskt pris med fasta händer som franska staten och Storbritannien bör vara runt 1,50 med premie för europeisk statlig backning, återgång till skuldmarknaden och deltagande i Iris-programmet. Free Float ändras till fördel.",
+      "price_target": "1.50",
+      "time_horizon": "short",
+      "quote": "Försökte räkna fram det teoretiska priset med den här placingen kan vi kalla det på fyra euro och den här nyemissionen som görs på 1,35 och jag kommer fram till ett teoretiskt pris på 1,50.",
+      "sector": "Satellite/Telecom",
+      "market": "europe",
+      "position_context": "Köper på svaghet",
+      "downside_note": null,
+      "catalyst_timing": "Emission slutförd"
+    },
+    {
+      "stock_name": "Nasdaq",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "41:51",
+      "reasoning": "Gick lång Nasdaq fredags. Kortsiktig indexexponering.",
+      "price_target": null,
+      "time_horizon": "short",
+      "quote": "Ja, jag blev lång Nasdaq i fredags. Än så länge är jag lång.",
+      "sector": "Index",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "timestamp_start": "05:07",
+      "timestamp_end": "09:30",
+      "word_count": 800,
+      "speakers": [
+        "Lomolf",
+        "Chris"
+      ],
+      "primary_speaker": "Lomolf",
+      "discussion_summary": "Lomolf tog long-position i Novo efter att Alzheimer's-nyheten misslyckades och aktien föll 10%. Han anser att på PE 12 så var inte Alzheimer's inprisat och köpte mer. Han diskuterar value trap-riskerna med patent som går ut mot potentialen av växande marknad för fetma/diabetes. Chris påpekar indexrebalanceringskatalysatorn i slutet av december då aktien max får väga 15% i danska index. De diskuterar blankare som kortar stocken på trend.",
+      "quotes": [
+        {
+          "speaker": "Lomolf",
+          "text": "Jag mår bra. Jag var ju lite lång. Vi pratade om det förra veckan också. Jag hade tagit en mindre position. Runt 300 och sen kom den här Alzheimer's-nyheten igår.",
+          "timestamp": "05:07",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Så jag förstod inte varför den skulle vara ner 10% som den var igår. Så jag blev lång.",
+          "timestamp": "06:19",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Det skulle väl vara om Alzheimer's är en livsstil-sjukdom. Vilket det säkert är. Det kan det ju vara. Det är ju ingen som vet vad det beror på.",
+          "timestamp": "05:58",
+          "context": "other"
+        },
+        {
+          "speaker": "Chris",
+          "text": "Då har en liten trigger här i slutet på december, så den får max väga 15% i danska index. Nu har den kraschat så mycket, så nu kanske den väger 10. Så då kommer det komma en kol här där den ska vikta sig upp av alla indexfonder, upp till 15 igen.",
+          "timestamp": "08:07",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Jag har sett att det finns blankningar i den, och jag fattar att man bettar på en value trap, men av allt man kan välja att blanka på dagens börs, det finns mycket som är dyrt, allt möjligt, så väljer man att vara kort NOVO på PE 12.",
+          "timestamp": "08:24",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Kanske blir PE 25 när patenten går ut.",
+          "timestamp": "08:45",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "12",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Index weight: ~10% vs max 15%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Undervärderad på PE 12",
+          "Positiva nyheter om diabetes 2 och fetma",
+          "Indexrebalansering i december driver köptryck",
+          "Marknaden växer - kan kompensera för margintryck",
+          "Alla kommer äta fetma/diabetes-pillrar förr eller senare"
+        ],
+        "bear_case": [
+          "Patent går ut",
+          "Earnings kan fortsätta falla",
+          "Value trap-risk med trendande stock"
+        ],
+        "catalysts": [
+          "Indexrebalansering i december",
+          "Diabetes 2-nyheter",
+          "Fetma-marknadstillväxt",
+          "Piller-lanseringar"
+        ],
+        "risks": [
+          "Value trap",
+          "Patentutgång",
+          "Trendande aktie lockar blankare"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Google (Alphabet)",
+      "ticker": "GOOGL",
+      "timestamp_start": "28:11",
+      "timestamp_end": "35:14",
+      "word_count": 900,
+      "speakers": [
+        "Lomolf",
+        "Chris"
+      ],
+      "primary_speaker": "Lomolf",
+      "discussion_summary": "Efter Nvidias rapport kom nyheten om Googles Gemini 2.0 som körs på Googles egna chip, vilket utmanar Nvidias monopol. Google anses ha passerat ChatGPT i kvalitet. Buffet köpte i somras på lägre nivåer. Google har eget ekosystem med chip och modeller till skillnad från andra som är beroende av Nvidia. Google finansierar allting själv med världens bästa kassaflöde och leder kvantforskning. Lomolf anser att Google är ett defensivt AI-play.",
+      "quotes": [
+        {
+          "speaker": "Lomolf",
+          "text": "Framförallt så var det ju den här Google Gemini. Det var nya som kom. Då började folk titta på andra saker. Google Gemini, det här såg jag efterhand, Gemini, deras nya AI-agent eller modellversion av Gemini, den drivs på Googles egna chip.",
+          "timestamp": "28:23",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Chris",
+          "text": "Det är synd att Google är ett så stort företag.",
+          "timestamp": "29:09",
+          "context": "other"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Det blir Deep Seek Moment 2.0.",
+          "timestamp": "29:11",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Några jag läste var att den helt går på Googles egna chip. Då blir det inte samma story kring Nvidia längre. Monopolet kan ju bli ifrågasatt.",
+          "timestamp": "28:46",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Ja för Google, vi pratade om att Buffet gick ju in. Det var liksom för ett år sedan, åtta månader sedan, när mest hatade aktien. De var helt utslagna, ingen skulle googla något längre. Det var bara chat-klippet som gällde. Och nu ett år, åtta månader senare, så är det den hetaste aktien på hela marknaden kan man säga.",
+          "timestamp": "29:44",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Meta börjar nu tala med Google om att få använda chippen och NVIDIA har en monopolvärdering i det här spaceet. Och det är inte bra för NVIDIA, storyn.",
+          "timestamp": "30:06",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Och den här nya versionen av Gemini anses vara bättre än ChalkiBT senast, OpenAI senaste version. Så det är två stycken här på tappan som blev omsprungna.",
+          "timestamp": "30:22",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "De finansierar allting själva. De har ju världens bästa kassaflöde, storkassa och de liksom för skojskull är de också världens mest, de är längst fram i kvantforskningen i världen.",
+          "timestamp": "32:11",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "De har ju två gånger på raken kommit med kvantchip, som har revolutionerat och ändrat på vad vi tror att kvant klarar av.",
+          "timestamp": "32:27",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Och nu känner man bara, nu måste jag köpa Google, men den har ju typ redan gått 100%, så man är ju antingen precis bara i början.",
+          "timestamp": "33:20",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Tittar man på multiplar och sånt, och allting, de äger datan, de äger... Det är ju defensivt AI Play om du jämför med att investera i de andra grejerna.",
+          "timestamp": "33:26",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Det är lite roligt att Softbank sålde sina Nvidia för att stoppa in i OpenAI, Warren Buffett köpte Google.",
+          "timestamp": "33:51",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Lomolf",
+          "text": "Någon köpte förra veckans vinnare, och en annan köpte dagens vinnare.",
+          "timestamp": "33:56",
+          "context": "other"
+        },
+        {
+          "speaker": "Chris",
+          "text": "Softbank har ju kommit ner jättemycket nu.",
+          "timestamp": "33:53",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "Världens bästa",
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Gått 100% på 8 månader"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Gemini 2.0 anses bättre än ChatGPT",
+          "Körs på egna chip - inte beroende av Nvidia",
+          "Eget ekosystem med chip och modeller",
+          "Bäst kassaflöde - finansierar allting själv",
+          "Leder kvantforskningen globalt",
+          "Äger 15% av Anthropic",
+          "Meta vill använda deras chip",
+          "Defensivt AI-play jämfört med andra",
+          "Buffet köpte på lägre nivåer"
+        ],
+        "bear_case": [
+          "Redan gått 100% på 8 månader",
+          "Kan vara sent att köpa"
+        ],
+        "catalysts": [
+          "Mer adoption av egna chip",
+          "Kvantframsteg",
+          "AI-agenter"
+        ],
+        "risks": [
+          "Redan gått mycket",
+          "Konkurrens från andra AI-spelare"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Marknaden är framför allt alltid ett steg före. Saab har kommit ner 100 kronor på en-två veckor. Sen den här stora jazzuppgången. Det är något magiskt med börsen. Den vet alltid exakt vad som ska ske.",
+      "summary": "Marknaden prissätter ofta in händelser innan de sker, vilket märks på hur Saab redan tappat inför fredsrykten.",
+      "category": "wisdom",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "11:47",
+      "confidence": "high",
+      "tags": [
+        "marknadseffektivitet",
+        "pricing",
+        "insider"
+      ]
+    },
+    {
+      "quote": "Det är alltid där man tjänar sina första pengar på och smäller en del också. [...] första ska man få hur mycket finns det, man gör prover och då börjar det håsa sig upp och sen ska man få tillstånd till gruvan och så. Och sen när allt det här är klart och man har fått tillstånd då kommer det här, ja just det vi ska finansiera det här också. Och då går ju aktien alltid ner och sen är det en kräftgång ända fram tills man börjar producera.",
+      "summary": "Gruvbolag följer ett förutsägbart mönster: hype vid fynd, kräftgång under finansiering och byggande, sen potential vid produktion. Många säljer på vägen.",
+      "category": "wisdom",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "39:33",
+      "confidence": "high",
+      "tags": [
+        "gruvbolag",
+        "junior mining",
+        "finansiering",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Det är väldigt så där, när han skulle träffa Putin, det är väldigt mycket momentum, alla tror på någonting och sen bara dör ut. Och nu är vi tillbaka här.",
+      "summary": "Fredsförhandlingar har historiskt haft momentum som dör ut när inget händer, men nu pågår möten överallt med fler aktörer än någonsin.",
+      "category": "wisdom",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "17:58",
+      "confidence": "medium",
+      "tags": [
+        "fredsförhandlingar",
+        "momentum",
+        "Ukraina"
+      ]
+    },
+    {
+      "quote": "Krypto bröt ju ner först av tillgångarna för några veckor sedan. [...] Så den verkar vara en lite leading indicator på risksentiment.",
+      "summary": "Bitcoin tenderar att krascha först av alla tillgångar och kan fungera som en ledande indikator för riskaptit på marknaden.",
+      "category": "wisdom",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "22:19",
+      "confidence": "high",
+      "tags": [
+        "bitcoin",
+        "leading indicator",
+        "risksentiment",
+        "krypto"
+      ]
+    },
+    {
+      "quote": "Jag tycker att det är fortfarande en snåra skog och svårt. Det finns producerande bolag som inte är jättedyrt. Jag försöker bara tajma in var jag ska in i dem. Man vill ju köpa på svaghet där.",
+      "summary": "I råvarusektorn är det svårt med junior miners. Föredrar produerande bolag och försöker tajma köp på svaghet.",
+      "category": "wisdom",
+      "speaker": "Lomolf",
+      "speaker_role": "host",
+      "timestamp": "41:43",
+      "confidence": "medium",
+      "tags": [
+        "gruvbolag",
+        "råvaror",
+        "timing",
+        "produerande"
+      ]
+    },
+    {
+      "quote": "Och där vill du inte vara med för att bygga en gruva tar hur lång tid som helst och det händer grejer på vägen och [...] Sen så... Det finns ju många sådana fall där bolag faktiskt har... Det har gått riktigt åt helvete under den tiden.",
+      "summary": "Att investera i byggfas av gruvor är riskfyllt då det tar lång tid och många bolag går under. Föredrar vänta till produktion.",
+      "category": "lesson",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "timestamp": "40:36",
+      "confidence": "high",
+      "tags": [
+        "gruvbolag",
+        "risk",
+        "byggfas",
+        "produktion"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Chris",
+      "speaker_role": "host",
+      "quote": "Då var vi nere på 81,5 eller liknande. Marknaden har ju en tendens att dra sig ner till de här spikarna, neråt och nu studsade vi väl upp mot 87-88. [...] skulle den vända upp här mot 100 000 så känns det ju som att risk är på väg tillbaka.",
+      "context": "Diskussion om Bitcoin som leading indicator för risksentiment. Chris vill köpa på krashnivåer.",
+      "confidence": "high",
+      "price_levels": [
+        "81 500",
+        "87-88 000",
+        "100 000"
+      ],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet domineras av fredsförhandlingar mellan Ukraina och Ryssland med plötsliga flash-nyheter om avtal. Efter initial fredseufori med sektorrotation (försvar ner, flyg upp) visade marknaden sig luttrad. Novo Nordisk var långdiskussion efter dåligt Alzheimer's-resultat men Chris och Lomolf hittade value på PE 12. AI-sektorn fick ny dynamik när Googles Gemini 2.0 på egna chip utmanade Nvidias monopolposition. Bitcoin kraschade först av alla tillgångar och fungerar som leading indicator för risksentiment. Råvaror diskuterades med fokus på junior mining och US:s 100-miljardssatsning på kritiska metaller.",
+  "key_takeaways": [
+    "Fredsförhandlingar får stor påverkan på sektorrotation men marknaden kan vara inprisad",
+    "Novo Nordisk värderas attraktivt på PE 12 enligt Lomolf",
+    "Googles egen chip-utveckling utmanar Nvidias monopol",
+    "Bitcoin ledde nedgången i alla risktillgångar",
+    "Junior mining är svårt - föredrar producerande bolag",
+    "Eutelsat-emission kan vara köptillfälle",
+    "Buffet köpte Google, Softbank sålde Nvidia för OpenAI"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2025-11-25-6ddc.txt",
+  "transcript_word_count": 8401,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

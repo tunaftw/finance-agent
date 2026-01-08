@@ -1,0 +1,393 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2020-11-05-093f",
+  "podcast_name": "Marketmakers",
+  "episode_title": "#156 E-Hälsa (Teladoc, Livongo)",
+  "episode_number": 156,
+  "date": "2020-11-05",
+  "hosts": [
+    "unknown"
+  ],
+  "guests": [],
+  "main_topics": [
+    "e-hälsa",
+    "digital vård",
+    "Teladoc",
+    "Livongo",
+    "Patientsky",
+    "Caracent"
+  ],
+  "stocks_discussed": [
+    "Teladoc",
+    "Livongo",
+    "Patientsky",
+    "Caracent"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Teladoc",
+      "ticker": "TDOC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "host",
+      "speaker_role": "host",
+      "timestamp": "27:28",
+      "reasoning": "Aktien har fallit 22% sedan fusionen med Livongo i augusti. Båda bolagen fortsätter växa kraftigt: Teladoc växte 109% i omsättning YoY till nästan 300 miljoner dollar Q3 2020, medan besöken ökade 200% till 2,8 miljoner. Bruttomarginalen är 66%, men EBITDA är negativt (-6,8 miljoner dollar). Sammanslagning med Livongo ger synergier och ökad möjlighet att monetarisera kunder med kroniska sjukdomar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Är intresserad av det här så kan det vara ett fint läge att börja titta på den aktien. Med tanke på att det är betydligt billigare nu och då är ju bägge bolagen inräknade där nu också.",
+      "sector": "Healthcare",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Caracent",
+      "ticker": "CARA",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "host",
+      "speaker_role": "host",
+      "timestamp": "37:32",
+      "reasoning": "Norskt noterat bolag som äger svenska Evimeria (journalsystem för mindre privata kliniker). Net retention rate på 115%, kundchurn under 1%. Värderas till ca 1 miljard norska kronor med EV/EBITDA på 110x och EV/sales på 16x. Bolaget gick tidigare med vinst men har rapporterat förlust senaste två kvartalen. Risk: Om branschen konsolideras kan små kliniker tvingas in i stora koncerners system.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är också ett intressant bolag eftersom vi inte har tagit upp i podden. Det är ett jätteintressant bolag att hålla koll på.",
+      "sector": "Healthcare software",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Teladoc",
+      "ticker": "TDOC",
+      "timestamp_start": "06:02",
+      "timestamp_end": "13:20",
+      "word_count": 800,
+      "speakers": [
+        "host",
+        "host"
+      ],
+      "primary_speaker": "host",
+      "discussion_summary": "Teladoc är en e-doktor med över 50 miljoner betalande kunder och ett nätverk med 55 000 läkare. 75% av omsättningen kommer från B2B (arbetsgivare), resten är direct-to-consumer. Corona har öppnat upp marknaden: användandet har triplat från 10% till nästan 50% av befolkningen. Branschen växer med 38% årligen de kommande fem åren. Tekniken är en commodity utan stark valgrav, men nätverkseffekten skapar konkurrensfördelar. Teladoc har växt genom uppköp (Better Help, Best Doctors, Advanced Medical, Livongo).",
+      "quotes": [
+        {
+          "speaker": "host",
+          "text": "Teladoc är en e-doktor som har över 50 miljoner betalande kunder per Q2 2020. Nätverk med över 55 000 läkare, alla 50 delstater.",
+          "timestamp": "06:02",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host",
+          "text": "Enligt dem själva är 92 % av alla problem lösta efter första besöket eller första samtalet.",
+          "timestamp": "07:08",
+          "context": "metric"
+        },
+        {
+          "speaker": "host",
+          "text": "Kan det digitaliseras? Ja, de konfronterar att 40 % av alla akuta läkarbesök kan göras digitalt istället.",
+          "timestamp": "07:08",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host",
+          "text": "75% av deras omsättning kommer från B2B till arbetsgivaren. Men de har även en direct-to-consumer-kanal där man tar betalt per besök.",
+          "timestamp": "08:25",
+          "context": "metric"
+        },
+        {
+          "speaker": "host",
+          "text": "Mellan 2019 och april 2020 triplades användandet av de här teletjänsterna. Förut använde de typ 10 % av befolkningen, och nu är det nästan 50 % av befolkningen, ungefär 46 %. Och industrins bost växer med ett kagger på 38 % alltså nästan 40 % de kommande fem åren.",
+          "timestamp": "10:33",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "109% YoY (Q3 2020)",
+        "margin": "66% gross margin",
+        "debt_level": null,
+        "custom": [
+          "50M+ paying customers Q2 2020",
+          "55,000 doctor network",
+          "2.8M visits Q3 (up 200%)",
+          "$297M revenue Q3 2020"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Telemedicin växer snabbt: 38% CAGR de kommande 5 åren",
+          "Nätverkseffekt skalar bra - fler läkare = snabbare service = fler kunder",
+          "Corona permanentade förändrade regler (t.ex. läkare kan träffa patienter i andra delstater)",
+          "Synergier med Livongo: Teladoc kan slussa kunder till kronisk sjukdomshantering"
+        ],
+        "bear_case": [
+          "Låg priskraft: läkarbesök är en commodity, svårt att differentiera",
+          "Låga switching costs för kunder",
+          "Hård konkurrens från mindre spelare och traditionella vårdgivare"
+        ],
+        "catalysts": [
+          "Högre adoption av telemedicin permanent",
+          "Integration med Livongo ökar monetarisering",
+          "Ökande kostnader för traditionell sjukvård driver digital lösningar"
+        ],
+        "risks": [
+          "Teknisk barriär låg, konkurrenter kan snabbt kopiera",
+          "Regulatoriska förändringar kan återgå",
+          "Traditionella vårdgivare bygger egna lösningar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Livongo",
+      "ticker": "LVGO",
+      "timestamp_start": "14:20",
+      "timestamp_end": "22:34",
+      "word_count": 900,
+      "speakers": [
+        "host",
+        "host"
+      ],
+      "primary_speaker": "host",
+      "discussion_summary": "Livongo hanterar kroniska sjukdomar (diabetes, prediabetes, vikt, blodtryck) genom uppkopplade enheter och AI. 450,000 medlemmar i diabetesprogrammet (upp 100% YoY). Business model är SaaS med multiårskontrakt. 50% av amerikanska vuxna har en kronisk sjukdom, 90% av sjukvårdskostnaderna går till kroniska sjukdomar. Data är nyckeln: mer data = bättre AI = bättre produkter = högre switching costs. Teladoc köpte Livongo för $18.5B, 10% premie på redan uppvärderat aktiekurs.",
+      "quotes": [
+        {
+          "speaker": "host",
+          "text": "Livongo hjälper faktiskt människor att hantera sina kroniska sjukdomar genom en blandning av big data, AI, uppkopplade enheter, test och övervakning.",
+          "timestamp": "14:43",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host",
+          "text": "De har cirka 450 000 medlemmar i deras diabetesprogram. Vilket är upp över 100 % year on year.",
+          "timestamp": "28:38",
+          "context": "metric"
+        },
+        {
+          "speaker": "host",
+          "text": "I USA har cirka 50% av alla vuxna en kronisk sjukdom. Och 40% har två eller fler. Och då går cirka 90% av det 4 biljoner dollar i utgifter som sjukvården har varje år faktiskt till människor med kroniska elementala sjukdomar.",
+          "timestamp": "17:10",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host",
+          "text": "För det är ju så att mer data du har, desto bättre AI kan tränas, desto bättre datasätt, desto bättre slutsatser kan du dra.",
+          "timestamp": "19:25",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host",
+          "text": "Livongo köptes faktiskt ut för en väldigt liten premie, 10 %.",
+          "timestamp": "21:34",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "126% YoY (Q3 2020)",
+        "margin": "75% gross margin",
+        "debt_level": null,
+        "custom": [
+          "442,000 diabetes members",
+          "$101M revenue Q3 2020",
+          "$20M EBITDA Q3 2020",
+          "1,400 customers",
+          "71% growth in contract value"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Massiv marknad: 50% av US-vuxna har kronisk sjukdom",
+          "Data network effect: mer data = bättre AI = starkare produkt",
+          "Höga switching costs - kunderna investerar sin hälsodata i plattformen",
+          "SaaS med multiårskontrakt ger stabila intäkter"
+        ],
+        "bear_case": [
+          "Teknisk barriär låg, konkurrenter kan bygga liknande lösningar",
+          "Beroende av uppkopplade enheter och wearables",
+          "Uppköpt av Teladoc - framtida tillväxt nu som del av Teladoc"
+        ],
+        "catalysts": [
+          "Växande adoption av wearables och kontinuerlig övervakning",
+          "Ökande kostnader för sjukvård driver behov av prevention"
+        ],
+        "risks": [
+          "Konkurrens från hårdvarutillverkare (t.ex. Dexcom) och andra e-hälsa-bolag"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Patientsky",
+      "ticker": null,
+      "timestamp_start": "31:44",
+      "timestamp_end": "38:13",
+      "word_count": 750,
+      "speakers": [
+        "host",
+        "host"
+      ],
+      "primary_speaker": "host",
+      "discussion_summary": "Norskt e-hälsabolag noterat på Mercur den 23 oktober 2020 för 10 NOK, handlas nu ca 8.75 NOK (ner 15%). Levererar elektroniska journalsystem (SaaS + PaaS-plattform) med 90% återkommande intäkter. 25,000 användare, 5,000 kliniker, 5 miljoner patienter. Förlustjusterat men förväntas gå plus under året. Förväntad 40% CAGR 2018-2021. Grundat 2014. Signar ca 5 klienter per vecka.",
+      "quotes": [
+        {
+          "speaker": "host",
+          "text": "Patient sky är om man vill, patientsky hör man från att de hette någonting på när det var på norska. De satte sig i alla fall på börsen den 23 oktober, så det är inte så länge sen, för 10 norsk ungefär. Den har gått rätt dåligt, jag tror den var ner 15 % första dagen.",
+          "timestamp": "32:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "host",
+          "text": "De levererar mycket elektroniska journalsystem till sjukvården. Det är intressant att det är saas, det är mjukvaruprenumeration man säljer på olika sätt som erbjuder olika saker.",
+          "timestamp": "35:25",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host",
+          "text": "Man har över 90 % recurring revenue, så här har vi återkommande intäkter till stor del.",
+          "timestamp": "36:23",
+          "context": "metric"
+        },
+        {
+          "speaker": "host",
+          "text": "Man signar in i ett uppgift cirka fem klienter i veckan, det låter väldigt bra uppenbarligen, om det nu stämmer.",
+          "timestamp": "36:27",
+          "context": "metric"
+        },
+        {
+          "speaker": "host",
+          "text": "40 % CAG räknar man med för omsättningen mellan 2018 till 2021",
+          "timestamp": "36:31",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "40% CAGR 2018-2021",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "90% recurring revenue",
+          "25,000 users",
+          "5,000 clinics",
+          "5M patients",
+          "130 employees",
+          "~5 new clients/week"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "90% återkommande intäkter ger stabilitet",
+          "Plattform-möjlighet: andra kan bygga moduler på plattformen (revenue share)",
+          "Växande snabbt: 40% CAGR förväntas",
+          "Starkt investorstöd: Handelsbanken Fonder, Konsensus Liden, Alcur, etc"
+        ],
+        "bear_case": [
+          "Noterad på Mercur med lägre krav på governance",
+          "Går med förlust (men förväntas vända)",
+          "Svenska investerare har hittat hit (255 ägare på Avanza)",
+          "Mercur-noteringar har varit svaga generellt"
+        ],
+        "catalysts": [
+          "Ökad adoption av digital journalsystem",
+          "Plattformen växer genom tredjepartsutvecklare"
+        ],
+        "risks": [
+          "Mercur-notering med lägre governance-krav",
+          "Liten track record (grundat 2014)",
+          "Marknadsrisk i litet Norge"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Den risken faktiskt tillhör, de spenderar ju mer per kapita på sjukvård än vad vi till exempel gör i Sverige, men då har inte alla sjukvård ens. Men sen beror det också väldigt mycket på det här försäkringssystemet och lawsuits och just stämningsrisken och så vidare. Det är ju dyrare om man gör fel i amerikansk sjukvård.",
+      "summary": "Amerikansk sjukvård är extremt dyr på grund av komplexa försäkringssystem och stämningsrisker, vilket skapar möjligheter för digitala lösningar som kan sänka kostnaderna.",
+      "category": "wisdom",
+      "speaker": "host",
+      "speaker_role": "host",
+      "timestamp": "03:41",
+      "confidence": "medium",
+      "tags": [
+        "sjukvård",
+        "USA",
+        "digitalisering"
+      ]
+    },
+    {
+      "quote": "Allmänt har det historiskt sett varit en väldigt trög, rörlig marknad. Det har inte varit så mycket förändring som har hänt, och det är främst på grund av att det finns mycket biologi, mycket så kallad red tape. Men det vi har sett nu med corona, det är att det har i stort sett öppnat upp dörren för väldigt snabb förändring på den amerikanska marknaden.",
+      "summary": "Sjukvårdsindustrin har historiskt varit extremt långsam på att adoptera förändringar, men corona har öppnat upp för snabb digital transformation.",
+      "category": "wisdom",
+      "speaker": "host",
+      "speaker_role": "host",
+      "timestamp": "05:19",
+      "confidence": "medium",
+      "tags": [
+        "disruption",
+        "innovation",
+        "marknadsmöjligheter"
+      ]
+    },
+    {
+      "quote": "Det man ändå kan säga där är att det sättet man kan bevara eller försvara sin position på den marknaden är mycket konstruderande, det vill säga att förvärva sina motståndare. Det krävs uppköp av den här marknaden för att hålla bort konkurrenterna.",
+      "summary": "I marknader med svaga valgravar kan konsolidering genom uppköp vara det enda sättet att behålla marknadspositionen.",
+      "category": "wisdom",
+      "speaker": "host",
+      "speaker_role": "host",
+      "timestamp": "13:20",
+      "confidence": "medium",
+      "tags": [
+        "strategi",
+        "förvärv",
+        "marknadsposition"
+      ]
+    },
+    {
+      "quote": "För det är ju så att mer data du har, desto bättre AI kan tränas, desto bättre datasätt, desto bättre slutsatser kan du dra. Dessutom innebär det faktiskt att den här datainsamlingen du får på kund är väldigt hög switching cost för kunden.",
+      "summary": "Data skapar en dual moat: bättre AI/produkter och höga switching costs när kunderna investerar sin data i plattformen.",
+      "category": "philosophy",
+      "speaker": "host",
+      "speaker_role": "host",
+      "timestamp": "19:25",
+      "confidence": "high",
+      "tags": [
+        "data",
+        "AI",
+        "moat"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Det här avsnittet diskuterar e-hälsoboomet drivet av corona, med fokus på Teladoc och Livongos fusion samt norska aktier Patientsky och Caracent. Teladoc är en e-doktor med 50M+ kunder som växte 109% i omsättning men saknar lönsamhet. Livongo hanterar kroniska sjukdomar med AI och wearables, har 75% bruttomarginal och positive EBITDA. Fusionen skapar en komplett plattform men prislappen ($18.5B) var hög. Patientsky är ett norskt journalsystem noterat på Mercur med 90% återkommande intäkter. Caracent äger svenska Evimeria och värderas högt men har fina SaaS-metrics (115% net retention). Samtliga bolag ses som intressanta investeringsmöjligheter i en trög men föränderlig marknad.",
+  "key_takeaways": [
+    "E-hälsomarknaden växer snabbt: 38% CAGR de kommande 5 åren, 40% av akuta läkarbesök kan digitaliseras",
+    "Teladoc och Livongos fusion skapar en komplett plattform (akuta besök + kronisk sjukdomshantering) med starka synergier",
+    "Data är nyckeln till varaktig konkurrensfördel: mer data = bättre AI + höga switching costs",
+    "Caracent har exceptional customer retention (115% net retention, <1% churn) men värderas högt (EV/EBITDA 110x)",
+    "Mercur-noteringar kräver högre skepticism på grund av lägre governance-krav, men fyller en funktion i Norge"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2020-11-05-093f.txt",
+  "transcript_word_count": 7705,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

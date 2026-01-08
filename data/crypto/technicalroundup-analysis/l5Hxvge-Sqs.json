@@ -1,0 +1,126 @@
+{
+  "source_id": "l5Hxvge-Sqs",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-02-20",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Current market at 24-25k, top of consolidation range, waiting for breakout confirmation",
+      "quote": "currently at the top of the range at 24 25k and then the target for a lot of Traders as far as the breakout from this consolidation is 32k",
+      "price_levels": [
+        "$12,000",
+        "$14,000",
+        "$15,000",
+        "$24,000",
+        "$25,000",
+        "$30,000",
+        "$32,000",
+        "$45,000",
+        "$60,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "strongly_bullish",
+      "speaker": "Cred",
+      "context": "Outlier bullish scenario where FTX blowup was the deviation and market breaks out to reclaim 32k",
+      "quote": "this outlier bullish case essentially has that this this was the absolute bottom this consolidation is our kind of bear Market into bull market re-accumulation phase",
+      "price_levels": [
+        "$15,000",
+        "$32,000",
+        "$45,000",
+        "$60,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Outlier bearish scenario where market fails and retests yearly open at 12-14k",
+      "quote": "the market ultimately reach traces back to the yearly open having left the higher time frame support resistance level untested and fills that in",
+      "price_levels": [
+        "$12,000",
+        "$14,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH similar to BTC, closed through monthly range high at 1700, needs quick breakout",
+      "quote": "if we look on the daily time frame we had our first daily close through the monthly Range High at sort of 1700",
+      "price_levels": [
+        "$1,500",
+        "$1,600",
+        "$1,700"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$24,000",
+        "$25,000",
+        "$32,000",
+        "$12,000",
+        "$14,000"
+      ],
+      "ETH": [
+        "$1,500",
+        "$1,600",
+        "$1,700"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC is at critical juncture at 24-25k range high, needs to break out quickly",
+    "30-week consolidation suggests large impulse move once market decides direction",
+    "Outlier bullish: 32k reclaim could lead to 45k then 60k",
+    "Outlier bearish: Failure could bring retest of 12-14k yearly open",
+    "Time component critical - breakouts must be quick and aggressive to be valid"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$24,000-$25,000 breakout",
+      "target": "$32,000 then $45,000",
+      "stop": "below pre-impulse candles ~$23,000-$24,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "above $1,700",
+      "target": "breakout continuation",
+      "stop": "below $1,600 or $1,500",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC is at 24-25k range high after 30-week consolidation, with outlier bullish scenario targeting 32k reclaim then 45k-60k, while outlier bearish could retest 12-14k yearly open. Both BTC and ETH need quick, aggressive breakouts this week or risk looking distributiony. Time component is critical - slow moves reduce breakout probability.",
+  "transcript_word_count": 8420,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:26:03.500928"
+}

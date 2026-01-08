@@ -1,0 +1,468 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2015-11-11-8762",
+  "podcast_name": "Sparpodden",
+  "episode_title": "#sparpodden Ep 105 - Robotar på Börsen!",
+  "episode_number": 105,
+  "date": "2015-11-11",
+  "hosts": [
+    "Jocke Bornold",
+    "Peter Benson",
+    "Eva Troin"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Robotar på börsen",
+    "Högfrekvenshandel",
+    "Pensionsflytt",
+    "Algoritmhandel",
+    "MIFFID"
+  ],
+  "stocks_discussed": [
+    "Meda",
+    "Valiant",
+    "Kluetta",
+    "Candyking",
+    "Fingerprint",
+    "Virtu Financial"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Meda",
+      "ticker": "MEDA-A",
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "17:12",
+      "reasoning": "Peter varnar för Meda på grund av kopplingen till Valiant-skandalen. Meda är en dyr aktie med genomgående köpråd från analytiker, men skandalen kring Valiant kan påverka negativt. Aktien har redan fallit ca 10% men Peter tror det kan komma mer uppmärksamhet runt saken. Det finns risk för ytterligare nedgång givet den höga värderingen och kopplingen till den potentiella skandalen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker att de ska ha koll på det. Meda är en dyr aktie och analytikerna har genomgående köpråd nästan. Så det kan bara gå till ett håll som jag säger.",
+      "sector": "Healthcare",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Ytterligare nedgång möjlig om Valiant-skandalen växer",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kluetta",
+      "ticker": "KLUETTA-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "17:50",
+      "reasoning": "Peter rapporterar att Kluetta har bra tillväxt, tar marknadsandelar och förväntas lyfta lönsamheten. Han noterar att bolaget håller på att sänka konkurrenten Candyking ordentligt genom att vinna deras kontrakt. Hans son äger aktien i portföljen. Ingen ny köprekommendation men positiv syn på utvecklingen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det var ganska bra tillväxt och de tar marknadsandelar och det går ju rätt bra för Kluetta. De håller på att lyfta lönsamheten här ganska ordentligt eller förväntas göra det i varje fall.",
+      "sector": "Consumer",
+      "market": "sweden",
+      "position_context": "Sonens portfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Candyking",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "19:02",
+      "reasoning": "Candyking går extremt dåligt med förluster, krympande verksamhet och superhöga skulder. Bolaget har tappat stora kontrakt till Kluetta (Koop i Sverige och Norge, Bergendal). Obligationen handlas under 50% vilket indikerar klar konkursrisk. Peter tackar lyckan att bolaget inte är noterat på börsen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Konkurs vet man aldrig men de går med förlust, bolaget krymper, skulden är superhöga. Den här obligationen handlas som att det finns en klar konkursrisk, den handlas på under 50 procent vilket är riktigt illa.",
+      "sector": "Consumer",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Konkursrisk, obligation <50%",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Meda",
+      "ticker": "MEDA-A",
+      "timestamp_start": "15:03",
+      "timestamp_end": "17:32",
+      "word_count": 450,
+      "speakers": [
+        "Peter Benson",
+        "Jocke Bornold",
+        "Eva Troin"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Peter diskuterar kopplingen mellan svenska Meda och amerikanska Valiant, där Valiant är inblandat i en stor skandal om hemligt ägande av apoteksföretag som fuskat med recept. Medas aktie har fallit ca 10% men Peter är förvånad att det inte uppmärksammats mer, och varnar att Meda är en dyr aktie som kan komma att påverkas ytterligare om skandalen växer.",
+      "quotes": [
+        {
+          "speaker": "Peter Benson",
+          "text": "Det finns ganska många kopplingar. Dels sitter Anders Lundner som är Medas skapare. Han sitter i Valiant styrelse. Det verkar vara så att han är väldigt tight och gillar grundaren och huvudpersonen i Valiant",
+          "timestamp": "15:18",
+          "context": "background"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Meda har en massa viktiga preparat som säljs av Valiant i USA. Det finns jättemycket kopplingar och det ser man på Medas aktie att den har fallit när skandalen har börjat bli mer spridd",
+          "timestamp": "15:48",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Valiantaktien är ner 70 procent, så någon verkar tro på det i alla fall",
+          "timestamp": "17:07",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Jag är förvånad att det inte har uppmärksammats mer. Jag kan tänka mig att det kommer lite mer om det här framöver faktiskt. Jag tycker att de ska ha koll på det. Meda är en dyr aktie och analytikerna har genomgående köpråd nästan. Så det kan bara gå till ett håll som jag säger.",
+          "timestamp": "17:12",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktie ner ca 10%",
+          "Analytiker: köpråd"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Dyr värdering",
+          "Koppling till Valiant-skandalen",
+          "Potentiell ytterligare nedgång om skandalen växer",
+          "Analytiker har köpråd vilket kan innebära risk om det vänds"
+        ],
+        "catalysts": [
+          "Utveckling i Valiant-skandalen"
+        ],
+        "risks": [
+          "Skandalen kan drabba Meda via de gemensamma preparaten",
+          "Värdering kan vara för hög"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Kluetta",
+      "ticker": "KLUETTA-B",
+      "timestamp_start": "17:50",
+      "timestamp_end": "19:27",
+      "word_count": 350,
+      "speakers": [
+        "Peter Benson",
+        "Jocke Bornold",
+        "Eva Troin"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Peter rapporterar positivt om Kluetta som visar bra tillväxt, tar marknadsandelar och förväntas lyfta lönsamheten. Bolaget konkurrerar ut Candyking genom att vinna stora kontrakt som Koop i Sverige och Norge samt Bergendal. Peters son äger aktien baserat på teorin att lillebrorsan äter mycket godis.",
+      "quotes": [
+        {
+          "speaker": "Peter Benson",
+          "text": "Det var ganska bra tillväxt och de tar marknadsandelar och det går ju rätt bra för Kluetta. De håller på att lyfta lönsamheten här ganska ordentligt eller förväntas göra det i varje fall.",
+          "timestamp": "17:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "De håller på att sänka åtminstone en av sina konkurrenter ganska ordentligt. Vilka är det då? Det är de här kära gamla bolaget Candyking.",
+          "timestamp": "18:18",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Hela koop-kontraktet gick till Kluetta här för en tid sedan. Det var en jättesmäll för Candyking. Och nu i veckan eller förra veckan så kom det ut att de också tappade koop i Norge och Bergendal",
+          "timestamp": "18:34",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Bra tillväxt",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Tar marknadsandelar",
+          "Lönsamheten förväntas lyftas"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Bra tillväxt",
+          "Tar marknadsandelar",
+          "Vinner kontrakt från konkurrenter",
+          "Lönsamheten förväntas lyfta"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Rapportering av fortsatt tillväxt",
+          "Ytterligare kontraktvinster"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Candyking",
+      "ticker": null,
+      "timestamp_start": "18:21",
+      "timestamp_end": "19:27",
+      "word_count": 250,
+      "speakers": [
+        "Peter Benson",
+        "Jocke Bornold",
+        "Eva Troin"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Candyking befinner sig i svår kris med förluster, krympande verksamhet och extremt hög skuld. Bolaget har tappat viktiga kontrakt (Koop Sverige och Norge, Bergendal) till Kluetta. Obligationen handlas under 50% vilket indikerar klar konkursrisk. Peter uttrycker lättnad att bolaget inte är noterat på börsen.",
+      "quotes": [
+        {
+          "speaker": "Peter Benson",
+          "text": "Candyking går superdåligt. De har en obligation noterad, så de skickar ut delarsapporter och det är konkurslukt.",
+          "timestamp": "19:00",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Konkurs vet man aldrig men de går med förlust, bolaget krymper, skulden är superhöga. Den här obligationen handlas som att det finns en klar konkursrisk, den handlas på under 50 procent vilket är riktigt illa.",
+          "timestamp": "19:04",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Krympande",
+        "margin": "Förlust",
+        "debt_level": "Superhöga skulder",
+        "custom": [
+          "Obligation handlas under 50%",
+          "Konkursrisk"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Går med förlust",
+          "Bolaget krymper",
+          "Superhöga skulder",
+          "Tappat stora kontrakt till Kluetta",
+          "Obligation <50% indikerar konkursrisk"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Konkurs"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Virtu Financial",
+      "ticker": "VIRT",
+      "timestamp_start": "29:29",
+      "timestamp_end": "32:14",
+      "word_count": 400,
+      "speakers": [
+        "Joakim Bornaal",
+        "Jocke Bornold",
+        "Peter Benson",
+        "Eva Troin"
+      ],
+      "primary_speaker": "Joakim Bornaal",
+      "discussion_summary": "Joakim diskuterar Virtu, en noterad högfrekvenshandlare. Bolaget tjänar extremt lite per trade (ca 4 kronor eller 2 öre per aktie) men med extremt höga volymer. I Ford har de 6% av omsättningen och tjänar 300-400 dollar per dag. De har 30% marginal och kan göra ca 3 miljarder i vinst per år. De är verksamma på 230 marknader med 11 000 värdepapper och 150 anställda.",
+      "quotes": [
+        {
+          "speaker": "Joakim Bornaal",
+          "text": "Om man går in och kollar på prospektet på Virtue så kan man se att de gör ungefär 4 kronor per trade i vinst, eller intäkt.",
+          "timestamp": "31:04",
+          "context": "metric"
+        },
+        {
+          "speaker": "Joakim Bornaal",
+          "text": "Om de köper Ericsson-aktien för 100 kronor, då är de nöjda med att sälja den för 100 kronor och 2 öre. Det är den marginalerna vi pratar om.",
+          "timestamp": "31:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Joakim Bornaal",
+          "text": "De har en marginal på 30 procent. Men visst, då ska man komma ihåg. Det blir kanske 3 miljarder i vinst i år.",
+          "timestamp": "31:52",
+          "context": "metric"
+        },
+        {
+          "speaker": "Joakim Bornaal",
+          "text": "De finns på 230 marknader, tror jag, som medlemmar. De har 11 000 värdepapper som de säljer priser i som market maker. 150 anställda.",
+          "timestamp": "31:55",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "30%",
+        "debt_level": null,
+        "custom": [
+          "Ca 4 kr per trade",
+          "2 öre per aktie",
+          "Ca 3 miljarder kr vinst/år",
+          "6% av omsättningen i Ford",
+          "230 marknader",
+          "11 000 värdepapper"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Noterat HFT-bolag med insyn i branschen",
+          "Hög volym och 30% marginal",
+          "Global närvaro med 230 marknader"
+        ],
+        "bear_case": [
+          "Extremt tunna marginaler per aktie",
+          "Hård konkurrens i HFT-sektorn"
+        ],
+        "catalysts": [],
+        "risks": [
+          "MIFFID 2 kan påverka vissa typer av handel",
+          "Konkurrensen är hård"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Att byta? Ja, jag kommer absolut göra det. Jag tänker så här att om jag skulle flytta och lägga det i något bra och billigt hos Nordnet så kommer jag att tjäna in det här på kanske tre år. Om jag flyttar och förvaltar pengarna själv och tror på mig själv och har lyckats ganska bra historiskt då borde jag kunna dra in det här på kanske ett halvår eller nånting sånt där.",
+      "summary": "Att flytta dyra pensioner till billigare alternativ kan löna sig snabbt, särskilt om man förvaltar aktivt.",
+      "category": "wisdom",
+      "speaker": "Eva Troin",
+      "speaker_role": "host",
+      "timestamp": "01:31",
+      "confidence": "high",
+      "tags": [
+        "pension",
+        "avgifter",
+        "portföljförvaltning"
+      ]
+    },
+    {
+      "quote": "Men det är ju så man behåller kunder som inte får, när det inte finns någon kundnytt då, då får man låsa in kunden istället.",
+      "summary": "Bolag som inte kan konkurrera med kundnytta använder låsning som strategi för att behålla kunder.",
+      "category": "wisdom",
+      "speaker": "Jocke Bornold",
+      "speaker_role": "host",
+      "timestamp": "02:38",
+      "confidence": "high",
+      "tags": [
+        "kundservice",
+        "konkurrens",
+        "finansiella produkter"
+      ]
+    },
+    {
+      "quote": "För det som banker ogillar det är när det kommer överraskningar. Så att var väldigt tydlig med det. Att ha med banken på hela resan och förklara.",
+      "summary": "Banker gillar inte överraskningar - var alltid tydlig och involvera dem tidigt vid komplexa transaktioner.",
+      "category": "wisdom",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "10:51",
+      "confidence": "high",
+      "tags": [
+        "banker",
+        "lån",
+        "kommunikation"
+      ]
+    },
+    {
+      "quote": "Utan att bli för teknisk så tror jag att man ska undvika de här dagligt avräknade produkterna för långsiktigt sparande. De är inte bra helt enkelt. Kolla en kursgraf på någon av de här bull gånger två eller så på långsikt under en period när börsen har gått åt rätt håll så att säga. Den hänger inte med alls.",
+      "summary": "Dagligt avräknade hävstångsprodukter passar inte för långsiktigt sparande då de presterar dåligt över tid.",
+      "category": "lesson",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "14:17",
+      "confidence": "high",
+      "tags": [
+        "ETF",
+        "hävstång",
+        "långsiktigt sparande"
+      ]
+    },
+    {
+      "quote": "Det som är problemet är att de konkurrerar ut den traditionella tradingen, som förut fanns bland annat på svenska banker. Och den tradingen hade möjlighet på ett helt annat sätt att ha en åsikt. De här handlarna har ingen åsikt i marknaden. De är bara en risktagare. Men de har ingen åsikt om det är billigt eller dyrt.",
+      "summary": "Högfrekvenshandlarna saknar åsikter om värdering och har konkurrerat ut traditionella traders som kunde ta motståndspositioner i marknaden.",
+      "category": "wisdom",
+      "speaker": "Joakim Bornaal",
+      "speaker_role": "guest",
+      "timestamp": "26:27",
+      "confidence": "high",
+      "tags": [
+        "HFT",
+        "marknadsstruktur",
+        "handelsstrategier"
+      ]
+    },
+    {
+      "quote": "Det som skiljer och som gör att en människa, en mänsklig trader kan tjäna pengar, är att han kan jobba med sin åsikt på ett annat sätt. Att ha en känsla för saker och ting. Och egentligen innebär ju det att man tar en högre risk. De här tar nästan inga risk. De är alltid flat när dagen beslutas.",
+      "summary": "Mänskliga traders kan tjäna pengar genom att använda åsikter och känslor, vilket innebär högre risk men också potential. Algoritmer tar minimal risk och är alltid flat vid dagens slut.",
+      "category": "wisdom",
+      "speaker": "Joakim Bornaal",
+      "speaker_role": "guest",
+      "timestamp": "32:45",
+      "confidence": "high",
+      "tags": [
+        "trading",
+        "riskhantering",
+        "algoritmer"
+      ]
+    },
+    {
+      "quote": "Det finns ju vissa tillfällen där det skapar volatilitet, till exempel när de drar sig ur marknaden helt enkelt. Men det är ganska speciella tillfällen. Då kan man utnyttja robotarna, där har du en laglig chans att utnyttja dem.",
+      "summary": "När HFT-handlare lämnar marknaden kan det skapa volatilitet som skarpa investerare kan utnyttja.",
+      "category": "wisdom",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "35:10",
+      "confidence": "high",
+      "tags": [
+        "HFT",
+        "volatilitet",
+        "marknadsmöjligheter"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet handlar främst om robotar och högfrekvenshandel på börsen. Joakim Bornaal förklarar hur algoritmer och HFT fungerar, hur de påverkar marknaden, och varför de kan vara både positiva (tajta spreads) och negativa (saknar motståndspositioner). Ämnen som diskuteras inkluderar pensionsflyttar, brygglån, och korthuset Kluetta. Peter varnar för Meda på grund av kopplingen till Valiant-skandalen och diskuterar Candykings konkursrisk.",
+  "key_takeaways": [
+    "Högfrekvenshandlare skapar tajta spreads men saknar åsikter om värdering",
+    "Meda kan vara riskabelt kopplat till Valiant-skandalen",
+    "Kluetta går bra och vinner marknadsandelar från Candyking",
+    "Dagligt avräknade hävstångsprodukter passar inte för långsiktigt sparande",
+    "Var alltid tydlig med banker vid komplexa transaktioner för att undvika överraskningar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2015-11-11-8762.txt",
+  "transcript_word_count": 6209,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,272 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "analyspodden-2021-05-18-fb9b",
+  "podcast_name": "Penserpodden",
+  "episode_title": "Avsnitt 111: Günther Mårder - Den stora bolagsresan",
+  "episode_number": 111,
+  "date": "2021-05-18",
+  "hosts": [
+    "Daniel Ljungström"
+  ],
+  "guests": [
+    "Günther Mårder"
+  ],
+  "main_topics": [
+    "Onoterade bolag",
+    "Förvärv",
+    "Börsnoteringar",
+    "Investeringsfilosofi"
+  ],
+  "stocks_discussed": [
+    "Iricity",
+    "BTS",
+    "Microsystemation",
+    "Knowit",
+    "Iris City",
+    "Raysearch"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Iricity",
+      "ticker": "IRIC",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[54:32]",
+      "reasoning": "Günther säljer Iricity eftersom han anser att för mycket av den förväntade framtida framgången är inprisad i aktiekursen. Han började känna det vid 35 kr och sålde vid 71 kr när kursen stigit snabbt. Nu pendlar aktien mellan 50-70 kr, och han anser att det är ansträngt - de har inte råd att göra många misstag. Han är beredd att köpa tillbaka om kursen går under 35 kr.",
+      "price_target": 71,
+      "time_horizon": null,
+      "quote": "Ett bra exempel just nu är Iricity. Där jag ofta när jag säljer jobbar med halveringsmetoden. Halvera innehavet och sen om det fortsätter, nästa försäljning, halvera innehavet. Men där började jag känna redan när aktien kostade kring 35 kronor, att nu börjar väldigt mycket av den framgång som sannolikt väntar bolaget vara inprisad i aktien. Sen fortsätter resan upp till 70 kronor inom loppet av två och en halv månad. Då känns det så här att nu är det så mycket framgång inprisat i den här aktiekursen, att ingenting får gå fel.",
+      "sector": "Teknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Har inte råd att göra många misstag kommande kvartalen",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Iricity",
+      "ticker": "IRIC",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[56:06]",
+      "reasoning": "Günther är beredd att köpa tillbaka Iricity om kursen går under 35 kr, vilket han anser är en acceptabel nivå. Han har byggt upp mycket kunskap kring bolaget över lång tid och ser inte någon mening i att kasta den kunskapen. Han kan göra en ny entré om tillfälle uppstår vid börsfrossa.",
+      "price_target": null,
+      "time_horizon": "5 år",
+      "quote": "Det kan ju göra när det blir börsfrossa. På 35 kronor, då är det fortfarande acceptabelt. Är det under 35 kronor, då kanske jag gör en entré igen. Jag lämnar inte bolaget, utan jag har ju byggt upp så mycket kunskap kring det under så lång tid. Det vore idioti att kasta den kunskapen för att ge sig in i något helt nytt. Jag är redo att öka om tillfället uppstår.",
+      "sector": "Teknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Vid börsfrossa"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Iricity",
+      "ticker": "IRIC",
+      "timestamp_start": "[54:32]",
+      "timestamp_end": "[57:00]",
+      "word_count": 150,
+      "speakers": [
+        "Günther Mårder"
+      ],
+      "primary_speaker": "Günther Mårder",
+      "discussion_summary": "Günther beskriver sin exit-strategi för Iricity med halveringsmetoden. Han började känna att framtida framgång var inprisad vid 35 kr och sålde vid 71 kr när kursen stigit snabbt till 70 kr. Han anser nu att kursen är ansträngnd mellan 50-70 kr och att bolaget inte har råd att göra misstag. Han är beredd att köpa tillbaka under 35 kr.",
+      "quotes": [
+        {
+          "speaker": "Günther Mårder",
+          "text": "Ett bra exempel just nu är Iricity. Där jag ofta när jag säljer jobbar med halveringsmetoden. Halvera innehavet och sen om det fortsätter, nästa försäljning, halvera innehavet.",
+          "timestamp": "[54:32]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Günther Mårder",
+          "text": "Men där började jag känna redan när aktien kostade kring 35 kronor, att nu börjar väldigt mycket av den framgång som sannolikt väntar bolaget vara inprisad i aktien.",
+          "timestamp": "[54:44]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Günther Mårder",
+          "text": "De har inte råd att göra många misstag de kommande kvartalen, utan måste uppvisa att nästan allt går deras väg.",
+          "timestamp": "[55:15]",
+          "context": "risk"
+        },
+        {
+          "speaker": "Günther Mårder",
+          "text": "På 35 kronor, då är det fortfarande acceptabelt. Är det under 35 kronor, då kanske jag gör en entré igen.",
+          "timestamp": "[55:45]",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Bolaget har stor potential",
+          "Günther har byggt upp djup kunskap över lång tid"
+        ],
+        "bear_case": [
+          "För mycket framgång inprisad i kursen",
+          "Kursen ansträngnd mellan 50-70 kr",
+          "Inget utrymme för misstag"
+        ],
+        "catalysts": [
+          "Börsfrossa kan skapa köptillfälle under 35 kr"
+        ],
+        "risks": [
+          "Måste uppvisa att nästan allt går deras väg kommande kvartalen",
+          "Hög förväntan på aktiemarknaden"
+        ]
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det vanligaste är någon typ av screeningprocess där jag sorterar utifrån olika nyckeltal för att få fram intressanta bolag. Där kan jag titta på vilka bolag har lägst värdering i förhållande till sitt eget kapital, det man brukar kalla price to book. Och så kanske jag ställer det i kombination med att bolaget ska ha en försäljningstillväxt som överstiger minst 10 procent per år.",
+      "summary": "Screena efter bolag med låg P/B och minst 10% omsättningstillväxt",
+      "category": "wisdom",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[51:11]",
+      "confidence": "high",
+      "tags": [
+        "screening",
+        "värdering",
+        "tillväxt"
+      ]
+    },
+    {
+      "quote": "Jag går ju ofta in i bolag när de har ett börsvärde på det senaste förvärvet var ett bolag på strax över 200 miljoner, det är oerhört lite. Men vanligtvis kanske 400-500 miljoner för att få vara med om resan när de passerar miljarden och en bit norr om det, för då brukar de första institutionella investerarna komma och då brukar det automatiskt leda till att bolaget omvärderas.",
+      "summary": "Köp småbolag för att vara med när institutionella investerare kommer och omvärderar upp",
+      "category": "wisdom",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[52:10]",
+      "confidence": "high",
+      "tags": [
+        "småbolag",
+        "institutionella investerare",
+        "omvärdering"
+      ]
+    },
+    {
+      "quote": "Jag har ofta satt upp en målkurs och det kan vara två skäl. Antingen att den målkursen uppnås under den tidshorisont som jag satt. Vanligtvis är det fem år.",
+      "summary": "Använd 5-årig tidshorisont för investeringar",
+      "category": "philosophy",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[54:00]",
+      "confidence": "high",
+      "tags": [
+        "tidshorisont",
+        "långsiktighet"
+      ]
+    },
+    {
+      "quote": "Det är mäktigt när man ser vad tio års engagemang ett bolag kan ge rent avkastningsmässigt. Då börjar man inse att varför håller jag ens på med de här kortsiktiga affärerna som för mig kanske handlar om några veckor eller någon månad.",
+      "summary": "Långsiktigt ägande ger bättre avkastning än kortsiktiga trades",
+      "category": "philosophy",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[49:31]",
+      "confidence": "high",
+      "tags": [
+        "långsiktighet",
+        "avkastning"
+      ]
+    },
+    {
+      "quote": "Det är bättre att söka efter den man vill ha än att ta det man blir erbjuden. Och du blir ju en tagare av någon annans dröm och vision om du själv ska sitta och vänta på att någon ska komma och lägga ett bud på ditt bolag",
+      "summary": "Proaktiv sökande är bättre än att passivt vänta på bud",
+      "category": "wisdom",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[32:24]",
+      "confidence": "high",
+      "tags": [
+        "entreprenörskap",
+        "förvärv"
+      ]
+    },
+    {
+      "quote": "Vi skulle se att många av dem som rekommenderar att vi ska köpa rätt dyra finansiella produkter väldigt sällan äger de produkterna själva. Vi skulle också se att många av dem som ger de ekonomiska råden inte har någon avkastning som får dig att imponeras.",
+      "summary": "Många rådgivare har dålig egen avkastning och äger inte produkterna de rekommenderar",
+      "category": "lesson",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[01:04:38]",
+      "confidence": "high",
+      "tags": [
+        "rådgivning",
+        "transparens"
+      ]
+    },
+    {
+      "quote": "När jag börjar känna redan när aktien kostade kring 35 kronor, att nu börjar väldigt mycket av den framgång som sannolikt väntar bolaget vara inprisad i aktien... Då känns det så här att nu är det så mycket framgång inprisat i den här aktiekursen, att ingenting får gå fel.",
+      "summary": "När för mycket framgång är inprisad, är det dags att sälja",
+      "category": "wisdom",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[54:44]",
+      "confidence": "high",
+      "tags": [
+        "säljsignal",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Gör saker med människor som du gillar.",
+      "summary": "Investera och gör affärer med människor du gillar",
+      "category": "philosophy",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[40:54]",
+      "confidence": "high",
+      "tags": [
+        "relationer",
+        "entreprenörskap"
+      ]
+    },
+    {
+      "quote": "Det är absolut viktigt att sätta upp, vad har du för riskprofil, vad har du för sparhorisont, vad är det för typ av bolag du ska investera i, och vad har du för mål med investeringen?",
+      "summary": "Definiera alltid riskprofil, tidshorisont, bolagstyp och investeringsmål innan investering",
+      "category": "wisdom",
+      "speaker": "Günther Mårder",
+      "speaker_role": "guest",
+      "timestamp": "[01:03:50]",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "investeringsstrategi"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Günther Mårder delar sina insikter om onoterade bolag, förvärv och investeringsstrategi. Han förklarar hur han screener efter småbolag med låg P/B och minst 10% omsättningstillväxt, och hur han går in i bolag med 400-500 miljoner i börsvärde för att följa deras resa mot institutionell finansiering. Han diskuterar exit-strategier med halveringsmetoden och exemplifierar med Iricity.",
+  "key_takeaways": [
+    "Småbolag på 400-500 miljoner kan omvärderas när institutionella investerare kommer in",
+    "Använd screening med P/B och minst 10% omsättningstillväxt för att hitta intressanta bolag",
+    "Sälj när för mycket framgång är inprisad, som när Iricity gick från 35 till 71 kr på 2.5 månader",
+    "Långsiktigt ägande (5-10 år) ger bättre avkastning än kortsiktiga trades",
+    "Fånga tidsstämplar nära diskussioner: Iricity diskuteras vid [54:32]",
+    "Många rådgivare har dålig egen avkastning och äger inte produkterna de rekommenderar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/analyspodden/transcripts/analyspodden-2021-05-18-fb9b.txt",
+  "transcript_word_count": 11290,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

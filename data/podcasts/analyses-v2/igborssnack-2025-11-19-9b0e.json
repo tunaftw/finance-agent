@@ -1,0 +1,654 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "igborssnack-2025-11-19-9b0e",
+  "podcast_name": "igborssnack",
+  "episode_title": "Intellego-VD gripen & kan Nvidia rädda börsen?",
+  "episode_number": null,
+  "date": "2025-11-19",
+  "hosts": [
+    "Host 1",
+    "Patrik"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Intelligo skandal",
+    "Nvidia rapport",
+    "Marknadssentiment",
+    "Smarteye",
+    "Hållbarhetssektorn"
+  ],
+  "stocks_discussed": [
+    "Intelligo",
+    "Nvidia",
+    "Smarteye",
+    "Alphabet",
+    "D-Wave",
+    "IonQ",
+    "Oklo",
+    "NuScale"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Smarteye",
+      "ticker": "EYE",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "22:04",
+      "reasoning": "Rapporten visade tydliga tecken på att bolaget rör sig mot lönsamhet. Kassan verkar räcka för tillfället, minskar risken för utspädning. Aktien handlas betydligt lägre än tidigare toppnivåer och tekniskt intressant vid trendstöd. Regulatorisk våg från EU nästa år kan bli katalysator för lönsamhet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag blev ganska sugen på att ta en position. [...] Det jag har sett är väl att det har funnits en liten riktkurssänkning. Från 112 till 108 kronor, någon sådan ingen stor dramatik. Jag tyckte att det såg stabilt ut [...] så att ja, jag var i alla fall väldigt nöjd med den här rapporten.",
+      "sector": "Tech/Säkerhetssystem",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Regulatorisk krav för säkerhetssystem i nya bilar 2026"
+    },
+    {
+      "stock_name": "Alphabet",
+      "ticker": "GOOGL",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "15:44",
+      "reasoning": "Större och stabilare alternativ jämfört med spekulativa kvant- och kärnkraftsbolag. Berkshire Hathaway har köpt för 4 miljarder dollar, vilket indikerar starkt förtroende. Bolaget har stabila kassaflöden jämfört med mindre bolag som kräver mycket kapital.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man kan ju generellt säga att i ett sånt här marknadsklimat där man är lite orolig för krediter framåt och man har likviditetsproblem, då är det ju sån här bolag som ligger i ny teknik, som går väldigt mycket back och som kräver stora investeringar [...] Där ligger ju de här bolagen i skottluggan då. Och då har ju stället de här större bolagen som är inne i samma spår, som Alphabet till exempel [...] som kanske är ett bättre case.",
+      "sector": "Tech",
+      "market": "us",
+      "position_context": "Berkshire Hathaway köpte för 4 miljarder dollar",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "D-Wave",
+      "ticker": "QBTS",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "14:52",
+      "reasoning": "Insiders har sålt mycket de senaste sex månaderna. Bolag är spekulativa, går back, kräver stora investeringar och kommer troligen behöva ta in mer kapital. I skottluggan i nuvarande marknadsklimat med likviditetsproblem.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det brukar sällan vara ett särskilt gott tecken. [...] De senaste sex månaderna är det mest sälj, sälj, sälj i de här. Det är inte ett jättebra tecken helt enkelt.",
+      "sector": "Kvantteknik",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "IonQ",
+      "ticker": "IONQ",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "14:52",
+      "reasoning": "Insiders har sålt mycket de senaste sex månaderna. Bolag är spekulativa, går back, kräver stora investeringar. I skottluggan i nuvarande marknadsklimat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det brukar sällan vara ett särskilt gott tecken. [...] De senaste sex månaderna är det mest sälj, sälj, sälj i de här.",
+      "sector": "Kvantteknik",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Oklo",
+      "ticker": "OKLO",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "14:52",
+      "reasoning": "Insiders har sålt mycket de senaste sex månaderna. Spekulativt kärnkraftsbolag som går back och kräver stora investeringar. I skottluggan i nuvarande marknadsklimat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det brukar sällan vara ett särskilt gott tecken. [...] De senaste sex månaderna är det mest sälj, sälj, sälj i de här.",
+      "sector": "Kärnkraft",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "NuScale",
+      "ticker": "SMR",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "14:52",
+      "reasoning": "Insiders har sålt mycket de senaste sex månaderna. Spekulativt kärnkraftsbolag som går back och kräver stora investeringar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det brukar sällan vara ett särskilt gott tecken. [...] De senaste sex månaderna är det mest sälj, sälj, sälj i de här.",
+      "sector": "Kärnkraft",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "19:48",
+      "reasoning": "Bitcoin har fallit till 90 000 dollar med stora utflöden från ETFer. Svårt att värdera och hitta en naturlig botten. Rekommenderar att vänta på att marknaden stabiliserar sig innan man köper, undvik att försöka fånga fallande kniv.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man ska ju sällan fånga upp de här fallande knivarna. Utan ju längre nedgång har varit, och nu pratar vi i ett antal dagar och det kommer nog vara längre än så i den här nedgången. Då behöver man ju inte brottska att hitta precisavändningen. Utan då kan man gärna vänta in en graf eller två uppåt helt enkelt.",
+      "sector": "Krypto",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Försvarssektorn",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "31:02",
+      "reasoning": "Geopolitisk spänning mellan USA och Kina kan blossa upp igen. Ekonomin är svag vilket gör konflikter mer sannolika. Försvar kan tuffa på men har höga värderingar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Där tror jag att det är försvar. För att vi är i ett sånt en sådan cykel med geopolitisk tension. Där man ser att det kan blossa upp, nu vänder det sig hela. Det kan igen blossa upp mellan USA och Kina. [...] Så jag tror att det kan blossa upp igen. Konflikterna på olika håll. Det kan bli ansträngt och det blir ju mer ansträngt när ekonomin är kärvar också. Så det är väl en sektor som jag tror kommer tuffa på",
+      "sector": "Försvar",
+      "market": "other",
+      "position_context": null,
+      "downside_note": "Höga värderingar",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hållbarhetssektorn",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "26:54",
+      "reasoning": "Grön premie försvinner. Investerare och kunder vill inte betala extra för att rädda klimatet. Konkurser ökar inom hållbarhetssektorn. Bill Gates backar, AP-fonden köper oljekolbolag.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Enligt den här rapporten så märker man nu att investerare och kunder de vill längre inte betala extra för att rädda klimatet. Så att den här premien som har funnits den börjar försvinna. Det kan man ha med sig när man tittar på bolag som behöver tjäna lite mer på att det är en grön teknik.",
+      "sector": "Hållbarhet",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "timestamp_start": "05:09",
+      "timestamp_end": "09:08",
+      "word_count": 800,
+      "speakers": [
+        "Host 1",
+        "Patrik"
+      ],
+      "primary_speaker": "Patrik",
+      "discussion_summary": "Nvidia rapporterar den här veckan med skyhöga förväntningar. Bolaget har slagit estimaten i 90% av fallen men det viktiga är framåtblickande prognoser. Osäkerhetstecken finns: Softbank och Peter Thiel har sålt, Oracle fick kreditbetyg nedgraderat. Nvidia påverkar hela AI-segmentet och marknaden. Leveranskedjor är ansträngda med väntetid på ett år för Blackwell-chip. Marknaden kan redan prisa in skakigheter men rapporten är kritisk.",
+      "quotes": [
+        {
+          "speaker": "Patrik",
+          "text": "Men de har slagit estimaten i 90 procent av fallen de senaste åren och med mindre grad de senaste kvartalen. Det viktiga är inte bara att slå prognos på det här kvartalet utan att faktiskt bibehålla en bra prognos framåt.",
+          "timestamp": "05:09",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Även om man slår estimatet, vilket de ju ofta gör, så förväntar sig folk alltid lite mer. Och det som blir mest vedrhäftliga, det som får en stor effekt, det är ju hur de guidar framåt.",
+          "timestamp": "05:29",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Vi börjar väl se lite sådär sprickor i AI-fasaden. Vissa pratar om en AI-frossa, jag tror inte vi ska dra det så långt. Men att det ändå finns lite osäkerhetstecken.",
+          "timestamp": "05:55",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Oracle hade fått sitt kreditbetyg nedgraderat. Vi pratade också om att Softbank har sålt sina Nvidia-aktier. Även Peter Thiel har sålt sina Nvidia-aktier.",
+          "timestamp": "06:07",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Just enstaka personer som Softbank, de skulle in i OpenAI så de kör ändå fortsatt vidare på ett AI-play då. Peter Thiel kan ju gå in i någonting annat.",
+          "timestamp": "06:26",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Du har ju tre bolag, ASML, NVIDIA och TSMC, som står för merparten av den här AI och chiprevolutionen. [...] Redan idag finns det nyheter om att det finns nån väntetid på ett år för nya Blackwell-chip och så där. Så det är ju redan ansträngt i leveranskedjorna idag.",
+          "timestamp": "06:53",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Om man bara får höra att det blir förseningar eller att det tar lång tid med leverans och så där. Så när allt eftersom NVIDIA bara växer och volymerna ska då upp för att kunna motivera en ännu högre tillväxt framåt, då tror jag att det kan bli problem framåt.",
+          "timestamp": "07:25",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Slagit estimaten i 90% av fallen de senaste åren",
+          "Väntetid på ett år för Blackwell-chip"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Ledande inom AI och chiprevolution tillsammans med ASML och TSMC",
+          "Historiskt starkt med att slå estimaten",
+          "Fortgående expansion inom AI och datacenter driver tillväxt"
+        ],
+        "bear_case": [
+          "Osäkerhetstecken i AI-fasaden - Softbank och Peter Thiel har sålt",
+          "Oracle fick kreditbetyg nedgraderat",
+          "Ansträngda leveranskedjor med väntetider - risk för förseningar",
+          "Måste öka volymerna för att motivera fortsatt tillväxt"
+        ],
+        "catalysts": [
+          "Kommande rapport och guidning för framåt"
+        ],
+        "risks": [
+          "Förseningar i leveranskedjan",
+          "Om guidning inte möter höga förväntningar kan påverka hela marknaden negativt"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Smarteye",
+      "ticker": "EYE",
+      "timestamp_start": "20:39",
+      "timestamp_end": "25:06",
+      "word_count": 650,
+      "speakers": [
+        "Host 1",
+        "Patrik"
+      ],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "Smarteye rapporterade stabil enligt Host 1. Bolaget gör säkerhetssystem för bilar och får en regulatorisk våg från EU nästa år som kräver tekniken i alla nya modeller. Rapporten visade tecken på att bolaget rör sig mot lönsamhet, har varit olönsamt sedan 2016. Kassan verkar räcka, minskar risken för utspädning. Riktkurs sänktes marginellt från 112 till 108 kronor. Aktien gick upp på rapporten men har fallit tillbaka på allmän rädsla på börsen. Tekniskt intressant vid trendstödnivå.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Det här är ett bolag som gör säkerhetssystem för bilar. Det här är ett teknik som krävs i alla nya modeller, från och med nästa år, i alla fall i EU, där det kommer en sådan regel.",
+          "timestamp": "20:47",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Det som jag tittade efter i den här rapporten, det var ju att man vill se ett scenario utspela sig, där man rör sig mot lönsamhet sakta men säkert. [...] Men rapporten kom och jag tycker att man ser ganska tydliga tecken på att man rör sig faktiskt mot lönsamhet.",
+          "timestamp": "20:56",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Och det många tror är att nästa år ska bli en sorts katalysator för det här bolaget. Då ska man ta sig in i lönsamhet.",
+          "timestamp": "21:20",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Rapporten var ju stabil får man säga. Aktien gick 10 procent eller sånt där på en allmänt sur börs. Har nu trillat tillbaka rätt ordentligt. Så jag blev ganska sugen på att ta en position.",
+          "timestamp": "21:28",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Det jag har sett är väl att det har funnits en liten riktkurssänkning. Från 112 till 108 kronor, någon sådan ingen stor dramatik.",
+          "timestamp": "22:04",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Framför allt en ljuspunkt från rapporten tycker jag var, förutom då att man ändå verkar få in hyfsat med pengar och att man inte har skyhöga kostnader, det är att kassan verkar räcka.",
+          "timestamp": "22:26",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Att man skulle bränna mycket av kassan och att man skulle behöva ta in nya pengar. Och det vill man ju inte för då blir man såklart utspädd som aktieägare.",
+          "timestamp": "22:38",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men vd han hävdar i alla fall att de här pengarna ska räcka i dagsläget.",
+          "timestamp": "22:51",
+          "context": "metric"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "För att sen april i år, kikar jag nu, då finns det ju en tydlig trend. Både en trendkanal både på bottnarna och topparna. Som den har prickat av ganska fint.",
+          "timestamp": "24:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Så det blir intressant att följa, vi kan följa upp nästa vecka och se här. Om du har tagit en trade eller om du har gått in i den.",
+          "timestamp": "24:43",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Riktkurs: 108 kronor (sänkning från 112)",
+          "Trendkanal sedan april 2025",
+          "Kassan räcker för närvarande enligt VD"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Regulatorisk krav för säkerhetssystem i nya EU-bilar från 2026",
+          "Tydliga tecken på att bolaget rör sig mot lönsamhet",
+          "Kassan verkar räcka - minskar risken för utspädning",
+          "Tekniskt intressant vid trendstödnivå efter fall från toppnivåer"
+        ],
+        "bear_case": [
+          "Varit olönsamt sedan börsnoteringen 2016",
+          "Har fallit tillbaka efter initialt positivt reaktion på rapport",
+          "Potentiell nedgång om trendstöd bryts"
+        ],
+        "catalysts": [
+          "EU-regulatoriska krav för säkerhetssystem från 2026"
+        ],
+        "risks": [
+          "Trendstöd kan brytas med betydande nedsida",
+          "Allmän rädsla på börsen kan driva ner spekulativa teknikbolag"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Kärnkraft & Kvantbolag",
+      "ticker": null,
+      "timestamp_start": "13:44",
+      "timestamp_end": "16:04",
+      "word_count": 600,
+      "speakers": [
+        "Host 1",
+        "Patrik"
+      ],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "Host 1 har tittat på kvant- och kärnkraftsbolag inklusive D-Wave, IonQ, Oklo, NuScale. I ett marknadsklimat med oro för krediter och likviditetsproblem ligger dessa bolag i skottluggan. De är ny teknik, går back, kräver stora investeringar och kommer troligen behöva ta in mer kapital. Större bolag som Alphabet och IBM anses vara bättre alternativ. Viktigt negativt tecken: insiders har sålt mycket de senaste sex månaderna i dessa bolag. Dessa sektor är mycket spekulativa och drabbas först i nedgång.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Ja precis, jag kollade igenom lite bolag vi har pratat om. Det är inom de sektorerna, det är även inom den här här kancel-tekniken vi har pratat om.",
+          "timestamp": "13:44",
+          "context": "other"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Man kan ju generellt säga att i ett sånt här marknadsklimat där man är lite orolig för krediter framåt och man har likviditetsproblem, då är det ju sån här bolag som ligger i ny teknik, som går väldigt mycket back och som kräver stora investeringar och kommer troligtvis behöva ta in mer kapital framåt.",
+          "timestamp": "14:04",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "De kan ju då handlas ner ganska kraftigt i sådana här, just för att man kan ju faktiskt vara orolig kring framtid och finansiering, men också om man kan ta det hela vägen till lönsamhet utan att...",
+          "timestamp": "14:19",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Där ligger ju de här bolagen i skottluggan då.",
+          "timestamp": "14:27",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men sånt kan man kikar man lite på D-Wave, Brigetti, INQ inom kvantvärlden, Oklo, New Scale, Nano inom kärnkraft, så ser man att det är mycket insiders som säljer och har sålt de senaste sex månaderna.",
+          "timestamp": "14:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Det brukar sällan vara ett särskilt gott tecken.",
+          "timestamp": "14:52",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men allting som tilldelas från optioner och så vidare har de bara sålt direkt i marknaden. De senaste sex månaderna är det mest sälj, sälj, sälj i de här. Det är inte ett jättebra tecken helt enkelt.",
+          "timestamp": "14:55",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Man kan ju nästan klumpa ihop de här även om det är olika branscher. Men de är ju på något sätt relaterade. Det är liksom datacenter, det är mycket energi, de är volatila och de är spekulativa. Få av dem är lönsamma också.",
+          "timestamp": "15:19",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Och även kan man lägga in krypto i den världen. För det är ju liksom, om man tänker avkastningskurvan och vad som är mest spekulativt, då är ju de här längst ut där och det är väl de som drabbas först.",
+          "timestamp": "15:39",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Insiders har sålt mycket de senaste 6 månaderna",
+          "Få av dem är lönsamma",
+          "Kräver stora investeringar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Vissa ser potential i kvant- och kärnkraft som framtida teknik"
+        ],
+        "bear_case": [
+          "Marknadsklimat med oro för krediter och likviditetsproblem",
+          "Bolagen är olönsamma och kräver stora investeringar",
+          "Kommer troligen behöva ta in mer kapital framåt",
+          "Insiders har sålt mycket de senaste sex månaderna",
+          "Mycket spekulativa - drabbas först i nedgång"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Finansieringsrisk om kapitalmarknaden förblir stängd",
+          "Lönsamhet kan dröja eller utebli"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Vi har pratat om det förut, att det är ju väldigt svårt att pricka bottnar och toppar. Jag brukar i alla fall inte ens knappt försöka göra det. Jag har försökt många gånger, jag har misslyckats många gånger. Men att man kanske väntar och ser att vändningen faktiskt börjar innan man ens börjar skala in igen. Det är betydligt enklare tycker jag.",
+      "summary": "Det är svårt att tajma marknadsturningar. Bättre att vänta på tydliga signaler att vändningen har börjat istället för att försöka fånga exakt botten.",
+      "category": "wisdom",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "18:49",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "marknadstajming",
+        "tålamod"
+      ]
+    },
+    {
+      "quote": "För att när det går ner så här pass mycket, då gör ingenting heller om man missar den absoluta botten. För då har du god möjlighet att bara kliva in en candle senare helt enkelt.",
+      "summary": "Vid stora nedgångar spelar det liten roll om man missar exakt botten. Man kan fortfarande köpa en stund senare och få bra entry.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "19:40",
+      "confidence": "high",
+      "tags": [
+        "marknadstajming",
+        "nedgång",
+        "entry"
+      ]
+    },
+    {
+      "quote": "Och sen på andra änden har ju de med stabila kassaflöden och utilitybolagen, alltså allmännyttiga, som levererar el och så vidare. De roterar man ju ofta till och vill landa i när det är lite oroligheter.",
+      "summary": "Vid marknadsoro roterar investerare till stabila bolag med pålitliga kassaflöden som utilitybolag.",
+      "category": "philosophy",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "15:56",
+      "confidence": "medium",
+      "tags": [
+        "rotering",
+        "utility",
+        "defensiva aktier"
+      ]
+    },
+    {
+      "quote": "Det brukar sällan vara ett särskilt gott tecken. Men allting som tilldelas från optioner och så vidare har de bara sålt direkt i marknaden. De senaste sex månaderna är det mest sälj, sälj, sälj i de här.",
+      "summary": "Insider-försäljning, särskilt direkt vid optionstilldelning, är ofta ett negativt tecken för ett bolag.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "14:55",
+      "confidence": "high",
+      "tags": [
+        "insider",
+        "säljsignal"
+      ]
+    },
+    {
+      "quote": "Och även kan man lägga in krypto i den världen. För det är ju liksom, om man tänker avkastningskurvan och vad som är mest spekulativt, då är ju de här längst ut där och det är väl de som drabbas först.",
+      "summary": "De mest spekulativa tillgångarna längst ut på riskkurvan (krypto, kärnkraft, kvantteknik) drabbas först vid marknadsoro.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "15:39",
+      "confidence": "high",
+      "tags": [
+        "spekulation",
+        "risk",
+        "marknadsoro"
+      ]
+    },
+    {
+      "quote": "Jag tror att jag spekulerade bara lite kring anledningarna till det här om man ska försöka göra det. Att det kanske är att man går tillbaka till Maslovs gamla behovspyramid. Att ju bättre man har det, desto mer kan man jobba långsiktigt och tänka på det sättet. Då kan man gå in mer på nice to have, en need to have. Och ett klimatmål och att vi har en bra miljö att leva i, det är klart någonting vi måste göra och behöva. Men jag tänker att ju mer kärröst man får det i världen, och det blir lågkonjunktur, att man kanske springer på de korta bollarna helt plötsligt. Att man tänker att vi måste ha energi nu till de här sakerna, och då tar vi de här enkla lösningarna om man säger så.",
+      "summary": "I svåra ekonomiska tider prioriterar människor omedelbara behov (energy now) framför långsiktiga mål som hållbarhet.",
+      "category": "philosophy",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "28:57",
+      "confidence": "medium",
+      "tags": [
+        "hållbarhet",
+        "ekonomi",
+        "prioritering"
+      ]
+    },
+    {
+      "quote": "Dels är det inflödet av ETF'er som gör att man fördelar allokera mellan olika tillgångslag och då ökar och minskar man ju i sina allokeringar över hela brädet så att säga. Så det tror jag påverkar ganska mycket.",
+      "summary": "ETF-flöden ökar korrelationen mellan olika tillgångsklasser eftersom investerare allokar över hela portföljen.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "17:10",
+      "confidence": "medium",
+      "tags": [
+        "ETF",
+        "korrelation",
+        "allokering"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "quote": "Den har varit ner och touchat 90 000 dollar här. Vad säger du, är det köpläge nu då? Man ska ju sällan fånga upp de här fallande knivarna.",
+      "context": "Bitcoin har fallit till 90 000 dollar. Spekulativ tillgång, svår att värdera. Rekommenderar att vänta på att marknaden stabiliseras.",
+      "confidence": "medium",
+      "price_levels": [
+        "90 000 dollar"
+      ],
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "quote": "Dels är det inflödet av ETF'er som gör att man fördelar allokera mellan olika tillgångslag och då ökar och minskar man ju i sina allokeringar över hela brädet så att säga.",
+      "context": "Bitcoin har ökat korrelationen med aktiemarknaden. Stora utflöden från bitcoin-ETFer driver priset nedåt.",
+      "confidence": "medium",
+      "price_levels": null,
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "CRYPTO",
+      "asset_name": "Kryptovalutor",
+      "sentiment": "bearish",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "quote": "Jag skrev imorse i morgonbrevet om just utflödet från de här ETF-erna som finns, amerikanska ETF-er i bitcoin. Och det har ju varit ett jättestort utflöde därifrån. Så man ser ju att det är lite vinsthemtalning.",
+      "context": "Stora utflöden från bitcoin-ETFer indikerar vinsthemtagning.",
+      "confidence": "high",
+      "price_levels": null,
+      "timeframe": "kort sikt"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Igborssnack diskuterar Intelligo-skandalen där VD anhållits för svindleri, Nvidias kommande kritiska rapport som kan driva hela marknaden, och Smarteyes positiva rapport som visar tecken på lönsamhet. Marknaden visar likviditetsproblem och nedgång i hållbarhetssektorn medan försvarssektorn ses som potentiell vinnare. Investerares preferens skiftar från långsiktiga hållbarhetsmål till omedelbara energibehov.",
+  "key_takeaways": [
+    "Intelligo drabbades av allvarlig skandal med anhållen VD för svindleri",
+    "Smarteye visar tecken på lönsamhet inför EU:s regulatoriska krav 2026",
+    "Nvidias rapport är kritisk för hela AI-segmentet med osäkerheter kring leveranskedjor",
+    "Insiders säljer aktivt i kärnkrafts- och kvantbolag",
+    "Hållbarhetssektorn tappar mark när investerare slutar betala extra för gröna lösningar",
+    "Spekulativa tillgångar som krypto och ny teknik drabbas först vid marknadsoro"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/igborssnack/transcripts/igborssnack-2025-11-19-9b0e.txt",
+  "transcript_word_count": 5902,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

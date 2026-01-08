@@ -1,0 +1,670 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2023-05-16-ef9a",
+  "podcast_name": "Fill & Kill",
+  "episode_title": "Avsnitt 424 - Fritt fall",
+  "episode_number": 424,
+  "date": "2023-05-16",
+  "hosts": [
+    "host1",
+    "host2"
+  ],
+  "guests": [
+    "Alistair Williamson"
+  ],
+  "main_topics": [
+    "Rapporter",
+    "Skuldtak",
+    "Fastighetssektorn",
+    "Likviditet"
+  ],
+  "stocks_discussed": [
+    "Kalitas",
+    "Årön",
+    "EG7",
+    "Embracer",
+    "Storskogen",
+    "Truecaller",
+    "SBB",
+    "JM",
+    "Castellum",
+    "Kambi",
+    "Wild Networks"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Årön",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "12:27",
+      "reasoning": "Låg elpris har pressat aktien till orimligt låga nivåer. Historiskt normaliserat elpris med 10% premie ger starkt kassaflöde. Lundin-familjen är starkt engagerade långsiktigt. Byggnation pågår enligt plan, nya vinstkraftverk ska vara klara vid årsskiftet. ESG-stempel lockar institutioner på sikt. Köpsignal vid under 14 SEK.",
+      "price_target": null,
+      "time_horizon": "1-1.5 år",
+      "quote": "Jag hade väl där någonstans att när den var uppe runt 20, jag sa att jag under 15 började titta och under 14 kommer jag börja köpa. Nu står den i 10. Vad har jag gjort då?",
+      "sector": "Vindkraft",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Nya vinstverk klara vid årsskiftet 2023"
+    },
+    {
+      "stock_name": "SBB",
+      "ticker": "SBB-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "25:28",
+      "reasoning": "Kastade ut JM till börskurs i en fire sale när de var tvingade av finansieringsbehov. JM var 30% av SBB och var tänkt att dubblas på 2-3 år vid marknad återhämtning. SBB måste refamiliseras under kommande 12 månader. Fortsatt stök och otydligt vad som händer. Otydlig exit-strategi.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag kortade lite JM på det här för det var ju faktiskt 30% av bolaget. Och det var ingen ägare utan det var institutioner. Hade de varit i en bättre position, hade de ju behållit JM positionen så hade den dubblat sig på 2-3 år när bostadsmarknaden återhämtat sig.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": "Liten kortposition",
+      "downside_note": "Kan bli tidskval",
+      "catalyst_timing": "Refamilisering 12 månader"
+    },
+    {
+      "stock_name": "Castellum",
+      "ticker": "CAST-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "26:09",
+      "reasoning": "Nyemission till mycket låg kurs ger fantastiskt köpläge. Tekniskrätten handlar starkt och kursen kommer inte gå ner till emissionsnivån. Huvudägare Achelous vill köpa mer. Kommer framstå som säkraste kortet i sektorn när kapitaliserad. Stark ledning. Position för stabilitet när andra fastighetsbolag får problem.",
+      "price_target": null,
+      "time_horizon": "medellång",
+      "quote": "Sen tänkte jag tipsa om Castellums nyemission. Det känns som att det borde bli ett fantastiskt köpläge här. Det känns som att tekniskrätten handlar jättestarkt. Det är väldigt låg kurs, den kommer inte gå ner dit.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Wild Networks",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "35:44",
+      "reasoning": "Virtual satellit-operator för IoT som sänder data till 85% av jordens yta utan internet. Starliknande businessmodel: 40 dollar enhetskostnad + 5 dollar/månad i service. 230 000 moduler i orderbacklog ger 80 miljoner USD. Kan gå cashflow positivt vid deployment. Stora kunder som Chevron, Bayer. Scale-up fas nu.",
+      "price_target": null,
+      "time_horizon": "6-12 månader",
+      "quote": "Väldigt intressant. Det är satelliter och det är allt möjligt. Fina kunder.",
+      "sector": "Telekom/IoT",
+      "market": "unknown",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Volymdistribution efter sommar, 5G NBIoT implementation, Asia expansion"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Wild Networks",
+      "ticker": null,
+      "timestamp_start": "36:05",
+      "timestamp_end": "54:15",
+      "word_count": 2800,
+      "speakers": [
+        "host1",
+        "host2",
+        "Alistair Williamson"
+      ],
+      "primary_speaker": "Alistair Williamson",
+      "discussion_summary": "VD Alistair Williamson presenterar Wild Networks som en virtual satellit-operator för IoT som täcker 85% av jordens yta utan internet. Starlink liknande businessmodel men för saker istället för människor. Orderbacklog på 80 miljoner USD för 230 000 moduler ger cashflow potential. Expansion mot Asien och implementering av 5G NBIoT nästa steg.",
+      "quotes": [
+        {
+          "speaker": "Alistair Williamson",
+          "text": "Vi har utvecklat en satellit-IoT-solution där vi har lagt satelliter och som ni vet satelliter orbiterar jorden och när jorden roterar, satelliter ger 100% global rörelse.",
+          "timestamp": "37:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Alistair Williamson",
+          "text": "Vi löser våra kunder ungefär 40 dollar för ett par hårdvaror som hänger på ett IoT-medel och det här hårdvarorna sänder data till en satelit, och vi löser våra kunder ungefär 5 dollar per månad för att faktiskt använda service.",
+          "timestamp": "39:16",
+          "context": "metric"
+        },
+        {
+          "speaker": "Alistair Williamson",
+          "text": "Vi har faktiskt en tillräcklig orderbacklogg för att gå cashflow positivt. Och det här är en riktig milstål, en fantastisk milstål som Wild har använt.",
+          "timestamp": "50:11",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Alistair Williamson",
+          "text": "Jag brukar alltid gå tillbaka till dessa personer och säga ja vi är ett tekniskt företag, men vi är ett klimat-tekompanj.",
+          "timestamp": "53:58",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Alistair Williamson",
+          "text": "Vi har en order på hand för att faktiskt ta med företaget cashflow positivt när vi deployerar alla dessa modeller.",
+          "timestamp": "51:14",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Order backlog: 80 miljoner USD",
+          "Enhetskostnad: 40 dollar per modul",
+          "Recurring revenue: 5 dollar per månad per modul",
+          "230 000 moduler på order",
+          "1 miljon dollar per månad i recurring revenue vid deployment"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Först till marknaden med satellit-IoT",
+          "Starlink affärsmodell för saker istället för människor",
+          "Stora kunder Chevron, Bayer, BAT",
+          "ESG trend driver efterfrågan",
+          "Scale-up fas med global expansion",
+          "Orderbacklog räcker för cashflow positivt",
+          "Lägger till 5G NBIoT för 90% marknadstäckning"
+        ],
+        "bear_case": [
+          "Konkurrens från geostationära satelliter",
+          "Starlink kan expandera till IoT",
+          "Hög CAPEX för satelliter",
+          "Beroende av stora kunder"
+        ],
+        "catalysts": [
+          "Volymdistribution av moduler efter sommar",
+          "5G NBIoT implementation slutet av året",
+          "Expansion mot Asia-Pacific",
+          "Engagemang med AT&T, Verizon, T-Mobile, Vodafone"
+        ],
+        "risks": [
+          "Konsolidering i IoT-marknaden",
+          "Tekniska utmaningar med satellitnätverk",
+          "Kapitalbehov för expansion"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Årön",
+      "ticker": null,
+      "timestamp_start": "08:53",
+      "timestamp_end": "14:28",
+      "word_count": 1200,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "Diskussion om Årön som är blankad av SR Cohen men handlas orimligt billigt vid 10 SEK. Lågt elpris har pressat aktien men historiskt normaliserat elpris ger starkt kassaflöde. Köpsignal under 14 SEK från talaren själv. Lundin-familjens långsiktiga engagemang och ESG-stempel är positiva. Byggnation pågår enligt plan.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "När jag räknade på ett normalt elpris över tid, och jag gav lite premie på det historiska snittet, säg 10% eller något sånt där tror jag alla på. Då kommer jag ändå ha väldigt bra kassaflöden.",
+          "timestamp": "11:53",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Jag hade väl där någonstans att när den var uppe runt 20, jag sa att jag under 15 började titta och under 14 kommer jag börja köpa.",
+          "timestamp": "12:27",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Jag är mest förvånad över är att det är fortfarande kvar någonting sen Lundinpatronen, att den är så handlad.",
+          "timestamp": "12:36",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "host1",
+          "text": "Du måste ju ta ett historiskt snitt av vad elpriset är och sen kan man väl tvika er lite grann på hur ser det ut, hur mycket bygger vi, hur mycket kommer det att finnas, alltså supply.",
+          "timestamp": "13:14",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kurs: 10 SEK",
+          "Köpsignal under: 14 SEK",
+          "Tidigare hög: 20 SEK",
+          "Köpta på: 7 SEK",
+          "Sålda på: 17-19 SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Historiskt normaliserat elpris med 10% premie ger starkt kassaflöde",
+          "Lundin-familjen långsiktigt engagerade",
+          "Byggnation enligt plan, nya verk klara vid årsskiftet",
+          "ESG-stempel attraherar institutioner",
+          "Orimligt låg värdering vid 10 SEK"
+        ],
+        "bear_case": [
+          "Lågt elpris pressar intäkter nu",
+          "Blankade av SR Cohen",
+          "Inga nära nyheter förutom elpriset",
+          "Beroende av vind för produktion"
+        ],
+        "catalysts": [
+          "Nya vinstkraftverk klara vid årsskiftet",
+          "Normalisering av elpris",
+          "ESG institutioner köper in"
+        ],
+        "risks": [
+          "Elpriset fortsätter lågt",
+          "Förseningar i byggnation",
+          "Blankare täcker positioner"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Kalitas",
+      "ticker": null,
+      "timestamp_start": "03:01",
+      "timestamp_end": "08:48",
+      "word_count": 1800,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "Kalitas rapporterade lägre intäkter än väntat men antalet patienter var inline. Aktien gick ner 18% vilket var överdrivet. Guidance på 1,2 miljarder vs nuvarande 200 miljoner omsättning gör att folk tappar tron. Försäljningen av medicin laddas - intäkter kommer i april men syns inte än. Fas 3-data extremt positiv men bolaget har inte cashflow än.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Tror man på det bolaget säger så är det nog ett väldigt bra köpläge. Tror man att det är svårare än man tror att sälja det här preparatet trots att det just nu inte finns så många konkurrenter.",
+          "timestamp": "04:52",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Men så länge bolaget inte går positivt kassaflöde som de guida för att de ska göra senare i år, så är man fortfarande det här forskningsbolaget som säljer.",
+          "timestamp": "05:44",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "De har ju en guidance som är på typ 1,2 miljarder svenska kronor och nu omsättar de 200 miljoner det här kvartalet. Vilket gör att folk tappar tron på den guidance",
+          "timestamp": "04:34",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Blankningen gått upp ganska mycket på slutet",
+          "timestamp": "06:14",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Guidance: 1,2 miljarder SEK",
+          "Nuvarande omsättning: 200 miljoner SEK per kvartal",
+          "Fas 3-data: Extremt positiv",
+          "Kursfall på rapport: 18%",
+          "Ebit nästa år: 2-3 enligt analytiker"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Fas 3-data extremt positiv",
+          "Antalet patienter inline med förväntningar",
+          "Köpläge om man tror på guidance",
+          "Inga konkurrenter för närvarande",
+          "Travere lanserat men Kalitas fortfarande stark position"
+        ],
+        "bear_case": [
+          "Försäljning laddar - intäkter kommer senare",
+          "Guidance på 1,2 miljarder vs 200 miljoner nu - tappat förtroende",
+          "Ej cashflow positivt än",
+          "Blankning ökat",
+          "Högrisk biotech vs kommersiellt bolag osäkerhet"
+        ],
+        "catalysts": [
+          "Intäkter från april-försäljning",
+          "Fullt godkännande av fas 3-data",
+          "Cashflow positivt senare i år"
+        ],
+        "risks": [
+          "Blankare säljer mer vid nerrörelse",
+          "Marknaden inte tror på guidance",
+          "Försäljning tar längre tid än väntat"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "EG7",
+      "ticker": null,
+      "timestamp_start": "14:28",
+      "timestamp_end": "18:20",
+      "word_count": 1500,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "EG7 handlas extremt billigt till 4-5 gånger EBITDA. Sing Monsters presterar väl. Stort insiderkö gav positiv momentum men oklar ägarlista med ryska ägare vars lockup gått ut. Work for Hire-avtal på 100 miljoner med 30% marginal tecknat. Bolagets rykte påverkas av gammal skandalintervju men nytt management och starkt kassaflöde.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "De handlas till kanske fyra, fem gånger EBITDA vilket är ju väldigt lågt.",
+          "timestamp": "14:53",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Bolaget är värt 2,5 miljard, de sitter nästan på en halv miljard i kassan.",
+          "timestamp": "15:47",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Men det är ändå komiskt att jag har försökt byta från att köra några högriskbolag till bolag som handlas till väldigt lågt gång i vinsten här.",
+          "timestamp": "16:54",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "host1",
+          "text": "Det är ett helt nytt management, det är ett helt annat kassaflöde. Det här är en pengamaskin nu.",
+          "timestamp": "17:34",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "4-5x",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Marknadsvärde: 2,5 miljarder SEK",
+          "Kassa: nästan 0,5 miljarder SEK",
+          "Work for Hire-avtal: 100 miljoner SEK",
+          "Marginal på avtal: 30%",
+          "Insiderkö: stort"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Handlas till 4-5 gånger EBITDA - extremt billigt",
+          "Sing Monsters presterar väl",
+          "Hög kassa (0,5 miljarder)",
+          "Nytt management, starkt kassaflöde",
+          "Work for Hire-avtal 100 miljoner med 30% marginal"
+        ],
+        "bear_case": [
+          "Oklar ägarlista - ryska ägare kan sälja",
+          "Rykte från gammal skandalintervju",
+          "Inga återköp på First North",
+          "Marknaden tar dem inte på allvar",
+          "Black box fortfarande"
+        ],
+        "catalysts": [
+          "Ryska ägare säljer eller stannar",
+          "Work for Hire-avtal levereras",
+          "Sing Monsters fortsätter starkt",
+          "Återköp eller utdelning av kassa"
+        ],
+        "risks": [
+          "Ryska ägare säljer på volym",
+          "Marknaden förlorar tålamod",
+          "Ingen återköpsprogram på First North"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Embracer",
+      "ticker": "EMBRAC-B",
+      "timestamp_start": "18:21",
+      "timestamp_end": "22:29",
+      "word_count": 1400,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "Embracer tog bort guidance och kom med vinstvarning samma kväll. Amazon-avtal för Lord of the Rings-game men tar år att utveckla. Många studios gör det svårt att rapportera tidigt. Handlas extremt billigt men utan trovärdig guidance är det inte billigt. Roll-up strategi med höga värderingar kan vända.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "De tog ju bort sin guidance igår, och det känns som att de har snurrat in sig lite i de här avtalen.",
+          "timestamp": "18:31",
+          "context": "risk"
+        },
+        {
+          "speaker": "host1",
+          "text": "Man kan köpa billiga bolag på någon form av guidance, men stämmer inte den här guidanceen, då är ju inte bolagen billig.",
+          "timestamp": "18:57",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Jag tror att om man vill få lite mer klarhet ska man titta på kassaflödet.",
+          "timestamp": "22:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Jag tycker det är svårt att veta hur man ska värdera det här bolag helt enkelt, fast det handlas till deras egen guidance, då väldigt billiga multiplar.",
+          "timestamp": "22:25",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Handlas billigt enligt egen guidance",
+          "Varning på guidance borttagen",
+          "Amazon Lord of the Rings avtal",
+          "100 studios"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hög uppsida om bolaget kan komma tillbaka",
+          "Billigt om guidance trovärdig",
+          "IP-portfölj med gamla klassiker",
+          "Några AAA-spel kan göra stor skillnad"
+        ],
+        "bear_case": [
+          "Tog bort guidance - förtroende tappat",
+          "Vinstvarning samma kväll",
+          "Roll-up med höga värderingar",
+          "100 studios gör det svårt att kontrollera",
+          "Balansräkningen pressas av förvärv"
+        ],
+        "catalysts": [
+          "Väntande AAA-spel släpp",
+          "Kassaflödesanalys",
+          "Ny management-strategi"
+        ],
+        "risks": [
+          "Guidance inte trovärdig",
+          "Personalomsättning i studios",
+          "Fortsatta misslyckade spel"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Slutet på maj, juni är alltid starkt [i biotech]. Det kommer väldigt mycket ny data inom biotech. Så man kan titta på det. Nej det är ju fortfarande biotech men det tenderar att vara starkt, brukar vara det.",
+      "summary": "Biotech-sektorn har historisk styrka under maj-juni på grund av mycket nyutkommen data. Kan användas för säsongsmässig allokering.",
+      "category": "wisdom",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "34:41",
+      "confidence": "high",
+      "tags": [
+        "biotech",
+        "säsong",
+        "allokering",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Man kan köpa billiga bolag på någon form av guidance, men stämmer inte den här guidanceen, då är ju inte bolagen billig. Exakt! Och då blir det ju dubbeleffekt. Då tappar man både förtroende och då spelar det ingen roll vad man handlas till.",
+      "summary": "Guidance är kritiskt för värdering - bolag som missar förlorar både förtroende och värderingsargument. Dubbel negativ effekt.",
+      "category": "wisdom",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "18:57",
+      "confidence": "high",
+      "tags": [
+        "guidance",
+        "förtroende",
+        "värdering",
+        "analys"
+      ]
+    },
+    {
+      "quote": "Eftersom att regeringen i USA inte kan ställa ut nya statskursväxlar just nu, så måste de pengarna som man annars hade köpt måste ju ha en parkeringsplats. Där kommer vi då in varför börsen har varit stark.",
+      "summary": "Likviditet driver börsen. När USA inte kan emittera statspapper på grund av skuldtaksdebatt, måste pengarna hitta andra parkeringsplatser som börsen.",
+      "category": "wisdom",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "30:35",
+      "confidence": "high",
+      "tags": [
+        "likviditet",
+        "makro",
+        "börs",
+        "skuldtak"
+      ]
+    },
+    {
+      "quote": "Du måste ju ta ett historiskt snitt av vad elpriset är och sen kan man väl tvika er lite grann på hur ser det ut, hur mycket bygger vi, hur mycket kommer det att finnas, alltså supply.",
+      "summary": "Vid värdering av cykliska bolag måste man använda normaliserade historiska snitt, inte aktuella extrema nivåer. Titta på supply/demand på sikt.",
+      "category": "wisdom",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "13:14",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "cykliska",
+        "normalisering",
+        "historik"
+      ]
+    },
+    {
+      "quote": "Säg man EG7 så tänker alla på det intervju som gick åt skogen. Vilken säger en del om hur aktiemarknaden funkar. Man ska bygga sin story.",
+      "summary": "Storytelling är kritiskt i aktiemarknaden. Förra misslyckanden hänger kvar i kollektivt minne oavsett hur förändrat bolaget är.",
+      "category": "wisdom",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "17:38",
+      "confidence": "high",
+      "tags": [
+        "storytelling",
+        "varumärke",
+        "förtroende",
+        "marknad"
+      ]
+    },
+    {
+      "quote": "Men sen är det väl hela den här ramen-roll-up-grejen. Att man köper värderingar upp och samtidigt när man köper spel, studion... Slutar alla anställda så blir det väldigt jobbigt.",
+      "summary": "Roll-up-strategier med höga värderingar och personalomsättning är stora varningsflaggor. Det kan gå men det är en riskabel strategi.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "21:26",
+      "confidence": "high",
+      "tags": [
+        "roll-up",
+        "förvärv",
+        "risk",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Är det några man ska rygga i alla fall så är det Lundin-familjen. Långsiktigt.",
+      "summary": "Lundin-familjen har starkt långsiktigt rykte. Att investera när de är engagerade är historiskt sett en bra strategi.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "14:24",
+      "confidence": "high",
+      "tags": [
+        "Lundin",
+        "familj",
+        "långsiktighet",
+        "rykte"
+      ]
+    },
+    {
+      "quote": "Jag tror att man ska vara försiktig med de här som har varit tillväxtbolag som Storskogen som ska stära om till kassaflödesbolag. För deras ursprungliga strategi att göra förvärv och göra ett multipel arbitrage, det funkar inte längre. Jag vet inte om det någonsin fungerade, det var bara att börsen var jävligt korkad ett gång.",
+      "summary": "Tillväxtbolag som ska omvandlas till kassaflödesbolag är ofta svåra. Multipel-arbitrage fungerar inte i normalmarknad.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "23:38",
+      "confidence": "high",
+      "tags": [
+        "tillväxt",
+        "kassaflöde",
+        "multipel-arbitrage",
+        "marknad"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på rapporter och marknadsfenomen där förtroende är en central tema. Kalitas och Årön diskuteras som bolag där förtroendet varierar kraftigt. Årön ses som köpkandidat under 14 SEK medan SBB kortas efter JM-försäljningen. Likviditetseffekter från skuldtakdiskussion i USA förklarar stark börs men minskad likviditet väntar när deal klubbas. Castellums nyemission ses som köpläge.",
+  "key_takeaways": [
+    "Årön är köpkandidat under 14 SEK, historiskt elprisssnitt ger starkt kassaflöde",
+    "SBB kortades efter JM-försäljning till börskurs, trolig tidskval väntar",
+    "Embracer förlorade förtroende efter borttagen guidance och vinstvarning",
+    "Castellums nyemission ger fantastiskt köpläge, säkraste kortet i sektorn",
+    "Likviditet från USA:s skuldtak har drivit börsen men minskad likviditet väntar",
+    "Biotech-sektorn historiskt stark maj-juni, kan användas för säsongsallokering",
+    "Wild Networks intressant IoT-satellitbolag med Starlink-affärsmodell för saker"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2023-05-16-ef9a.txt",
+  "transcript_word_count": 9007,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

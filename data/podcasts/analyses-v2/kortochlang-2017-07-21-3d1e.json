@@ -1,0 +1,424 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2017-07-21-3d1e",
+  "podcast_name": "Analyspodden från Dagens Industri",
+  "episode_title": "Börsen har landat efter festen",
+  "episode_number": null,
+  "date": "2017-07-21",
+  "hosts": [
+    "Martin Blomgren",
+    "Richard Brose"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Rapportsäsong Q2 2017",
+    "Göteborgsbolag (SKF, Fingerprint)",
+    "Telekomsektorn (Tele2, Telia)",
+    "Marknadssentiment"
+  ],
+  "stocks_discussed": [
+    "SKF",
+    "Fingerprint Card",
+    "Tele2",
+    "Telia",
+    "Ericsson",
+    "ABB",
+    "Hexagon",
+    "H&M"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "SKF",
+      "ticker": "SKF-B",
+      "timestamp_start": "[01:13]",
+      "timestamp_end": "[07:05]",
+      "word_count": 800,
+      "speakers": [
+        "Martin Blomgren",
+        "Richard Brose"
+      ],
+      "primary_speaker": "Richard Brose",
+      "discussion_summary": "SKF rapporterade ungefär som väntat med fin organisk tillväxt på cirka 8%, men aktien föll 5% på rapportdagen. Fallet tros bero på att bolagen inte längre räcker med att infria förväntningar - de måste slå dem. Dessutom finns tveksamhet kring hur mycket prishöjningar SKF kan få igenom i en försäljar marknad för att förbättra marginalerna.",
+      "quotes": [
+        {
+          "speaker": "Richard Brose",
+          "text": "Det speglas ju inte riktigt tycker jag av hur rapporten ser ut där, för att den är ungefär som väntat på resultatet. Den fina order eller organiska tillväxt som de hade i första kvartalet på 8% fortsätter i nästan samma takt i andra kvartalet.",
+          "timestamp": "[02:22]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "Jag skulle säga att det är två faktorer. Det ena är det som vi har sett tidigare med rapportprojen också, speciellt för de cykliska bolagen, att det räcker inte att bara infria förväntningarna längre, utan slår man inte så jokkiga aktier ner.",
+          "timestamp": "[02:22]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "Sedan verkar det vara lite tveksamhet kring hur mycket prishöjningar de lyckas få igenom, att de i det som nu snart ska vara säljansmarknad ska få igenom prishöjningar som kan förbättra marginalen.",
+          "timestamp": "[02:22]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "8% organiskt",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Organisk tillväxt på 8% fortsätter från Q1 till Q2",
+          "Efterfrågan har fortsatt vara bra under andra kvartalet"
+        ],
+        "bear_case": [
+          "Prishöjningar i försäljar marknad osäkra",
+          "Cykliska bolag straffas om de inte slår förväntningar",
+          "Värderingar för cykliska bolag är höga efter stark kursresa"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Valutarisker med dollar",
+          "Tuffa jämförelsesiffror framöver",
+          "Minskad orderingång om konjunkturen vänder"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Fingerprint Cards",
+      "ticker": "FING-B",
+      "timestamp_start": "[03:41]",
+      "timestamp_end": "[09:34]",
+      "word_count": 1200,
+      "speakers": [
+        "Martin Blomgren",
+        "Richard Brose"
+      ],
+      "primary_speaker": "Richard Brose",
+      "discussion_summary": "Fingerprint rapporterade resultat hälften så högt som analytikerna väntat, men aktien gick upp. Anledningen är starkt kassaflöde (bästa någonsin), tillförsikt inför framtiden, och samarbete med Qualcomm. VD menar att brutal konkurrens mognat och att de stora volymleverantörerna nu etablerade positionen. Bruttomarginalen faller men förväntas hålla 40-45% över tid.",
+      "quotes": [
+        {
+          "speaker": "Richard Brose",
+          "text": "på något sätt är det här kassaflödesmässigt ett av de absolut bästa karta hållen som fingerprint har presterat någonsin",
+          "timestamp": "[03:41]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "han sa mer eller mindre att han tror att de som är volymleverantörer idag det är de som kommer att vara det, eventuellt de övre. När du har kraftigt fallande priser så har du en väldigt stor fördel om du sitter redan på stora volymer.",
+          "timestamp": "[05:27]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Men det var även ett samarbete med Qualcomm, så hur stor vikt ska man fästa vid det?",
+          "timestamp": "[07:05]",
+          "context": "other"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "De har väldigt stark ställning på sensorer mot mobiltelefoni. Och det hjälper ju också upp. Så jag skulle säga att du har dels då någon form av tillförsikt inför framtiden. Du har ett kassaflöde som är starkt och du har det här samarbete som man presenterar.",
+          "timestamp": "[07:53]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "var det inte så att de hade tatt upp lån under kvartalet? Så var det verkligen så bra som det kanske först ser ut?",
+          "timestamp": "[08:41]",
+          "context": "other"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "det är sköra upptagning av lån som det var över en halv miljard. Det är positivt. Sen lastade du in, jag tror att det var strax över en halv miljard. Det är också så att man har ju, det är fortfarande ett bolag, tack vare det starka operativa kassaflödet, så är det fortfarande ett bolag som har en nettokassa.",
+          "timestamp": "[08:51]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "36% rapporterat (justerat)",
+        "debt_level": "Nettokassa 400-500 MSEK",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Starkt kassaflöde, bästa någonsin",
+          "VD tillförsiktig om att konkurrensen mognat och volymleverantörerna etablerade",
+          "Samarbete med Qualcomm stärker position",
+          "Nettokassa trots förvärv av Delta ID"
+        ],
+        "bear_case": [
+          "Resultat hälften av väntat",
+          "Brutomarginalen faller, men förväntas hålla 40-45% långsiktigt",
+          "Prispress på marknaden med kraftigt fallande priser"
+        ],
+        "catalysts": [
+          "Integrering av Delta ID",
+          "Qualcomm-samarbete kan leda till nya kunder"
+        ],
+        "risks": [
+          "Konkurrensintensitet",
+          "Teknologiska risker",
+          "Marginalpress"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Tele2",
+      "ticker": "TEL2-B",
+      "timestamp_start": "[17:28]",
+      "timestamp_end": "[21:26]",
+      "word_count": 600,
+      "speakers": [
+        "Martin Blomgren",
+        "Richard Brose"
+      ],
+      "primary_speaker": "Richard Brose",
+      "discussion_summary": "Tele2 levererade exceptionellt stark rapport med 14% bättre EBITDA än väntat efter justering för KPN-avskrivning. Höjde EBITDA-prognos för helåret. Aktien varit en av OMX30:s bästa inklusive utdelningar. Ny prognos framstår som konservativ. Hade varit en good trade att gå in före rapporten.",
+      "quotes": [
+        {
+          "speaker": "Richard Brose",
+          "text": "Man kan konstatera att man skulle ha hoppat in i, gått till laget med Tele2 innan den här rapportsäsongen. Aktien hade gått väldigt starkt och satt upp justerade vinstförväntningar inför rapporten efter ett väldigt starkt första kvartal.",
+          "timestamp": "[17:28]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "Det var exceptionellt stark, det var 14 procent bättre än väntat på EBITDA-nivå om man justerade för de hade ett litet brak med KPN.",
+          "timestamp": "[17:48]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "I ljuset av det framstår den nya prognosen också som ganska konservativ.",
+          "timestamp": "[18:08]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "Efter Tele2 så var de faktiskt den bästa aktien, inklusive i utdelningar av OM30-bolagen, hittills i år.",
+          "timestamp": "[18:27]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "EBITDA 14% bättre än väntat"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Exceptionellt stark rapport, 14% bättre EBITDA än väntat",
+          "Höjde EBITDA-prognos för helåret",
+          "Prognosen framstår som konservativ",
+          "Var en av OMX30:s bästa aktier YTD"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Telia",
+      "ticker": "TELIA",
+      "timestamp_start": "[17:28]",
+      "timestamp_end": "[21:26]",
+      "word_count": 700,
+      "speakers": [
+        "Martin Blomgren",
+        "Richard Brose"
+      ],
+      "primary_speaker": "Richard Brose",
+      "discussion_summary": "Telia levererade inte alls, tvärtom Tele2. Problem i kärnverksamhet i Sverige där de uppenbarligen uppsnurrade på läktaren av tele och Tele2. Nedskrivningar i Östeuropa (Uzbekistan). Resultatavvikelse skylls på försenade fiberinstallationer, men Richard tror det kan vara mer konkurrensrelaterat. Svårt att bli exalterad över Telia.",
+      "quotes": [
+        {
+          "speaker": "Richard Brose",
+          "text": "Men när det var dags för att telea igår hade teleaktien hängt med lite grann upp på det där. Men det blev ingen anledning att fortsätta fira där för de gjorde helt tvärtom och levererade inte alls.",
+          "timestamp": "[18:43]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "I kärnomöjligheten i Sverige, där det har sämranmärknat, där blir de uppenbarligen uppsnurrade på läktaren av tele och till två resultatnäsigt.",
+          "timestamp": "[19:03]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "Att resultatavvikelsen på koncernnivå berodde på att Sverige var sämre, och att Sverige var sämre berodde på att man hade då fått, som man sa, uppskjutna de försenade fiberinstallationer. Men det låter i mina öron lite, lite, lite konstigt att det ska vara en myndighetskrång eller sånt där som ställer till det.",
+          "timestamp": "[19:49]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "Jag tror att det kanske det kan vara, men det kan nog också vara konkurrens och sådana saker som gör att det är en lite svårare situation för dem på det området.",
+          "timestamp": "[20:18]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "Sen var det mer tjänsteintäkterna på företagssidan och där är det ju uppenbart att TdC, efter förvärvet med TdC, då krigade de ganska hårt med vad de inte framgick redan av Td2s rapport.",
+          "timestamp": "[20:36]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Richard Brose",
+          "text": "Så det är svårt att bli exalterad över Telia, skulle jag säga.",
+          "timestamp": "[21:16]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Höjde kassaflödesprognos efter försäljning och utdelningar"
+        ],
+        "bear_case": [
+          "Missade förväntningar",
+          "Problem i kärnverksamhet Sverige",
+          "Konkurrens från Tele2 och TDC på företagssidan",
+          "Nedskrivningar i Uzbekistan",
+          "Svag utveckling på privatmarknaden"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Konkurrens i Sverige",
+          "Strukturella problem i Östeuropa"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det räcker inte att bara infria förväntningarna längre, utan slår man inte så jokkiga aktier ner.",
+      "summary": "Cykliska bolag straffas om de inte slår förväntningar, bara att infria räcker inte längre.",
+      "category": "wisdom",
+      "speaker": "Richard Brose",
+      "speaker_role": "host",
+      "timestamp": "[02:22]",
+      "confidence": "high",
+      "tags": [
+        "cykliska aktier",
+        "förväntningar",
+        "marknadspsykologi"
+      ]
+    },
+    {
+      "quote": "Det här var a good as it gets. Det tuffar på men det blir inte bättre.",
+      "summary": "Konjunkturen och vinstutvecklingen kan ha nått en toppnivå.",
+      "category": "wisdom",
+      "speaker": "Richard Brose",
+      "speaker_role": "host",
+      "timestamp": "[14:13]",
+      "confidence": "high",
+      "tags": [
+        "konjunktur",
+        "cykeltoppar",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Så är det naturligt att en del tackar för festen som har varit lång och fin i cykliskt och säljer på bra rapporter.",
+      "summary": "Investerare säljer cykliska bolag på bra rapporter eftersom det kan vara toppen av cykeln.",
+      "category": "wisdom",
+      "speaker": "Richard Brose",
+      "speaker_role": "host",
+      "timestamp": "[13:45]",
+      "confidence": "high",
+      "tags": [
+        "cykliska aktier",
+        "timing",
+        "vinsttagning"
+      ]
+    },
+    {
+      "quote": "Om inte analytikerna fortsätter skruva upp vinstprognoserna så är det svårt att säga att ett P1-tal på 20 ska upp till 22 av någon anledning.",
+      "summary": "Utan höjda vinstprognoser är det svårt att motivera högre värderingar från redan höga nivåer.",
+      "category": "wisdom",
+      "speaker": "Richard Brose",
+      "speaker_role": "host",
+      "timestamp": "[14:13]",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "P/E",
+        "vinstprognoser"
+      ]
+    },
+    {
+      "quote": "När du har kraftigt fallande priser så har du en väldigt stor fördel om du sitter redan på stora volymer. Det krävs väldigt mycket att du ska komma instövrande från ingenstans med en fönster som både kan slå dem ända på pris och kvalitet.",
+      "summary": "I priskrigsliknande marknader gynnas befintliga marknadsledare med stor volym.",
+      "category": "wisdom",
+      "speaker": "Richard Brose",
+      "speaker_role": "host",
+      "timestamp": "[05:27]",
+      "confidence": "high",
+      "tags": [
+        "konkurrensfördelar",
+        "skala",
+        "priskrig"
+      ]
+    },
+    {
+      "quote": "Jag tror att man ska vara lite försiktigare till börsen. Den här rapportperioden har varit bra, men den är inget som eldar på vinstprognoserna uppåt och då blir det svårt att motivera varför kurserna ska speciellt mycket upp.",
+      "summary": "Börsen kan vara på väg in i en mer försiktig period med begränsad uppsida.",
+      "category": "wisdom",
+      "speaker": "Richard Brose",
+      "speaker_role": "host",
+      "timestamp": "[25:27]",
+      "confidence": "medium",
+      "tags": [
+        "börsutveckling",
+        "risk",
+        "marknadssentiment"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Analyspodden summerar en intensiv rapportvecka där Göteborgsbolagen SKF och Fingerprint Card stod i fokus. SKF föll trots i linje-rapport medan Fingerprint steg på starkt kassaflöde. Rapportsäsongen generellt har varit bättre än väntat men marknaden reagerar negativt på oförändrade utsagor. Det finns en känsla av att konjunkturen och vinstutvecklingen kan ha nått en topp.",
+  "key_takeaways": [
+    "SKF straffas trots i linje-rapport, måste slå förväntningar för att klara sig",
+    "Fingerprint stiger på starkt kassaflöde och Qualcomm-samarbete",
+    "Tele2 levererar exceptionellt, Telia missar",
+    "Negativt tolkningsförträde på börsen",
+    "Valutarisker med dollar för industribolag",
+    "Marknaden kan vara på väg in i en mer försiktig period"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2017-07-21-3d1e.txt",
+  "transcript_word_count": 4562,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

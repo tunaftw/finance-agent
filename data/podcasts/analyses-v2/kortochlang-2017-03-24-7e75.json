@@ -1,0 +1,449 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2017-03-24-7e75",
+  "podcast_name": "Analyspodden från Dagens Industri",
+  "episode_title": "Rekylläge på börsen",
+  "episode_number": null,
+  "date": "2017-03-24",
+  "hosts": [
+    "Ulf Pettersson",
+    "Martin Blomgren"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Börsutveckling",
+    "Spelbolagsreglering",
+    "Fingerprint vinstvarning",
+    "Börsintroduktioner (MIPS, Ambea)"
+  ],
+  "stocks_discussed": [
+    "Fingerprint",
+    "MIPS",
+    "Ambea",
+    "Unibet",
+    "Betsson",
+    "LeoVegas",
+    "Netent",
+    "Evolution Gaming",
+    "Kindred",
+    "Scandic",
+    "Arcus",
+    "H&M",
+    "Investor"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Fingerprint",
+      "ticker": "FING-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "19:26",
+      "reasoning": "50% negativ försäljningstillväxt Q1, vinstvarning och övergivet årsmål. Lageruppbyggnad i flera led (bullwhip-effekt), utdelning dragen tillbaka. Osäkerhet om kundbeställningar är realistiska och huruvida lagret är inkurrant. Även på nereviderade prognoser är för stor risk för att rekommendera något annat än att stå utanför.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag håller med dig, jag vågar nog inte. Det är för stor risk även på det säkerhetsnivået tycker jag. För att rekommendera någonting annat än att vara utanför.",
+      "sector": "Teknologi",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ambea",
+      "ticker": "AMBEA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Martin Blomgren",
+      "speaker_role": "host",
+      "timestamp": "23:01",
+      "reasoning": "Välfärdsbolag med intressanta nischer (äldreboenden, boenden för funktionshindrade). Stabil bransch med demografisk drivkraft (ökande andel 85-åringar). 4-5% organisk tillväxt plus högre betalningar varje år. Värderas på ca 15x EV/EBITDA, dyrare än Humana (13x) men lägre än Attendo (16,5x). Inte lika fynd som tidigare IPOs. Förväntas gå ganska rakt kommande år med god pipeline.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag tror att man ska kanske teckna det här men inte räkna med de där 30 procent den första dagen utan kanske 5-7 procent. Sedan så har man ett bolag som bör gå ganska rakt kommande åren.",
+      "sector": "Hälso- och sjukvård",
+      "market": "sweden",
+      "position_context": "För ny lön (IPO-teckning)",
+      "downside_note": null,
+      "catalyst_timing": "IPO 2017-03-31"
+    },
+    {
+      "stock_name": "Spelbolag (Unibet, Betsson, LeoVegas)",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Martin Blomgren",
+      "speaker_role": "host",
+      "timestamp": "13:27",
+      "reasoning": "Kommande spelutredning presenteras fredag. Förväntad skattesats 15-20% (troligen 20%). Bolagen har positionerat sig för licenssystem men kan bli skakigt om vissa delar (t.ex. nätkasinon) exkluderas. Betsson indikerar sämre rörelsemarginal i reglerad miljö men högre tillväxt. Marknadsföringsmöjligheter ökar i licenssystem. Mycket insiderförsäljningar. Beroende på vad som exkluderas från licenssystemet.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Jag tror i huvudspåteningarna att det blir en skattesats som bolagen har räknat med upp mot 20 procent och de vill ju vara med i systemet. Men det handlar ju mycket om vilka delar som eventuellt utelämna står skulle delas med väldigt höglänsamma och bra tillväxt inte för att vara med i licenssystemet. Då kan det bli lite skakigt nästa fredag tror jag.",
+      "sector": "Spel och kasino",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Spelutredning 2017-03-31"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Fingerprint",
+      "ticker": "FING-B",
+      "timestamp_start": "14:51",
+      "timestamp_end": "19:26",
+      "word_count": 650,
+      "speakers": [
+        "Ulf Pettersson",
+        "Martin Blomgren"
+      ],
+      "primary_speaker": "Ulf Pettersson",
+      "discussion_summary": "Fingerprint utfärdade vinstvarning med mer än 50% lägre omsättning Q1 jämfört med föregående år. Bolaget övergav årsmålet för omsättning och hänvisade till lageruppbyggnad i hela värdekedjan. Diskuterades som ett klassiskt exempel på bullwhip-effekt där konsumentminskad efterfrågan ampliferas genom distributionskedjan.",
+      "quotes": [
+        {
+          "speaker": "Martin Blomgren",
+          "text": "En vinstvarning där de sa att omsättningen Q1 skulle bli mer än 50 procent, alltså att den skulle mer än halveras jämfört med för ett år sedan. Det indikerar någonstans en omsättning på 700 miljoner, kanske eller 750 i det här kvartalet. Och sen så övergav de sitt årsmål på omsättningen.",
+          "timestamp": "15:05",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "Och så sa de att det här kommer att ta tid innan det ordnar till sig. Och så skylde de på en lagerbyggnad i flera ledor där dels de själva har en del lager och sen så finns det lager hos distributörer och så finns det lager hos slutkunderna.",
+          "timestamp": "16:06",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "Så där finns ett par miljarder egentligen som borde komma in till bolaget även om de inte säljer i en enda sensor till. Men då kan man börja fundera på varför de inte är kallare när de här pengarna kommer. Det är något att de där pengarna kanske inte kommer så man tror att de här kundbordringarna kanske är osäkra eller att rörlagret är inkurrant eller någonting.",
+          "timestamp": "16:32",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Som du säger så handlar det om det som man brukar kalla för en bullwhip-effekt i lagerledet. Att när det ligger lager i flera lager så innebär det att om konsumenten slutar köpa längst ut så kommer butikslagorna att stiga och då kommer inte tillverkaren av telefonerna att sälja lika mycket till butikerna och då sist i ledet står det fingerprint som är en komponentleverantör och får noll beställningar under en period i princip.",
+          "timestamp": "17:32",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Det är klart att även på nereviderade prognoser så är den billig. Det är lägst värdering av alla storbolag.",
+          "timestamp": "18:37",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "Men som sagt var det en halverad omställning. 50 % negativ försäljningstillväxt. Det skojar man inte bort heller.",
+          "timestamp": "19:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "Fredrikson sa ju där att bruttomarginalen ändå skulle förbli bra. Men jag håller med dig, jag vågar nog inte. Det är för stor risk även på det säkerhetsnivået tycker jag. För att rekommendera någonting annat än att vara utanför.",
+          "timestamp": "19:26",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-50%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Lägsta värdering av alla storbolag på nereviderade prognoser",
+          "Utdelning dragen tillbaka"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Lägsta värdering av alla storbolag på nereviderade prognoser",
+          "Bruttomarginalen förväntas förbli bra enligt vd"
+        ],
+        "bear_case": [
+          "50% negativ försäljningstillväxt Q1",
+          "Lageruppbyggnad i hela värdekedjan (bullwhip-effekt)",
+          "Utdelning dragen tillbaka",
+          "Osäkerhet om kundbeställningar är realistiska",
+          "Risk att lagret är inkurrant",
+          "Blankare kan ha bättre koll på lagersituationen än bolaget självt"
+        ],
+        "catalysts": [
+          "Kommande kvartal kommer att visa bolagets riktiga situation"
+        ],
+        "risks": [
+          "Lagerproblem fortsätter",
+          "Kundbeställningar ställs in",
+          "Kassapåverkan från att beta av lager"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Spelbolag (Unibet, Betsson, LeoVegas)",
+      "ticker": null,
+      "timestamp_start": "07:59",
+      "timestamp_end": "14:16",
+      "word_count": 850,
+      "speakers": [
+        "Martin Blomgren",
+        "Ulf Pettersson"
+      ],
+      "primary_speaker": "Martin Blomgren",
+      "discussion_summary": "Kommande spelutredning kan förändra spelplanen för svenska spelbolag. Förväntat licenssystem med skattesats på 15-20%. Bolagen har positionerat sig för att bli stora, stabila aktörer men det finns risker om vissa delar exkluderas. Mycket insiderförsäljningar noterats.",
+      "quotes": [
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Nästa vecka så kan spelplanen börja förändras för dem i alla fall på den svenska marknaden, den här stora spelutredningen som har varit igång i ett och ett halvt år snart som ska presenteras nästa fredag.",
+          "timestamp": "07:59",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "15-20% är de flesta överens om att skatten kommer att hamna förmodligen upp mot 20% om man läser mellan raderna och tittar på hur det har sett ut i andra liknande länder. Det tror jag inte blir någon jätteskrell.",
+          "timestamp": "09:09",
+          "context": "metric"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Men en annan faktor är att det kommer pressavmarginalen. Det har bland annat Betsson varit tydliga med att i reglerade miljön så blev det sämre rörelsemarginal, men man har en bättre chans att växa när man kan marknadsföra sig som ett legitimt företag inom systemet och man kan marknadsföra sig på ett annat sätt. Så deras våpning är ju då att den här högre tillväxten kompenserar för lägre marginalen och vinsten i kronoräknarska stigen.",
+          "timestamp": "09:47",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Men det man ska hålla koll på från spelbolagen som aktieägare i spelbolagen, det är vad kommer man säga om kasinodelen. Kommer kasinor vara tillåtet inom licenssystemet? För att kasinospelandet är betraktat som högriskdelen men det vill man ju undvika att folk är för aktiva på.",
+          "timestamp": "11:18",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Jag tror i huvudspåteningarna att det blir en skattesats som bolagen har räknat med upp mot 20 procent och de vill ju vara med i systemet, de har köpt upp en massa mindre bolag och positionerat sig för att bli stora, stabila alternativ i ett licenssystem.",
+          "timestamp": "13:27",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Men det handlar ju mycket om vilka delar som eventuellt utelämna står skulle delas med väldigt höglänsamma och bra tillväxt inte för att vara med i licenssystemet. Då kan det bli lite skakigt nästa fredag tror jag.",
+          "timestamp": "13:39",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Det har varit mycket insiderförsäljningar i de här bolagen också, det kan ju bero på annat timingmässigt men det är en intressant faktor.",
+          "timestamp": "13:53",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Sämre rörelsemarginal i reglerad miljö (Betsson)",
+        "debt_level": null,
+        "custom": [
+          "Skattesats förväntas 15-20%",
+          "Kanaliseringsgrad kan bli 95% (Danmark-fall)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Licenssystem skapar stabilare marknad",
+          "Möjlighet till marknadsföra sig som legitimt företag",
+          "Högre tillväxt kan kompensera för lägre marginal",
+          "Bolagen har köpt upp mindre bolag och positionerat sig för licenssystem"
+        ],
+        "bear_case": [
+          "Risk att nätkasinor exkluderas från licenssystem",
+          "Sämre rörelsemarginal i reglerad miljö",
+          "Mycket insiderförsäljningar",
+          "Osäkerhet kring vad som utelämnas från systemet",
+          "Upptrappad jakt på bolag utanför systemet"
+        ],
+        "catalysts": [
+          "Spelutredning presenteras fredag 2017-03-31"
+        ],
+        "risks": [
+          "Nätkasinor förbjuds",
+          "Högre skatt än förväntat",
+          "Bolag utanför systemet förlorar marknadsandelar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Ambea",
+      "ticker": "AMBEA",
+      "timestamp_start": "22:09",
+      "timestamp_end": "25:11",
+      "word_count": 600,
+      "speakers": [
+        "Martin Blomgren",
+        "Ulf Pettersson"
+      ],
+      "primary_speaker": "Martin Blomgren",
+      "discussion_summary": "Ambea är ett välfärdsbolag på väg till börsintroduktion med fokus på äldreboenden och boenden för funktionshindrade. Värderas på ca 15x EV/EBITDA vilket är lägre än Attendo men högre än tidigare IPOs i sektorn. Stabila intäkter med demografisk drivkraft.",
+      "quotes": [
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Det är två delar. Det är äldreboenden. Det där är en tillväxtbransch kommande åren. Andelen 85-åringar kommer att explodera här i Sverige. Sen så har de även boenden för fruktionshindrad, barn och vuxna med autism och olika hjärnskador och sånt där.",
+          "timestamp": "23:01",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Det där är kanske inte nån tillväxt men det har i alla fall ökat ganska kraftigt. 4-5 procent organisk tillväxt plus att man får lite mer betalelse varje år.",
+          "timestamp": "23:17",
+          "context": "metric"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Jag tror att man ska kanske teckna det här men inte räkna med de där 30 procent den första dagen utan kanske 5-7 procent. Sedan så har man ett bolag som bör gå ganska rakt kommande åren.",
+          "timestamp": "23:45",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "De värderas, de kommer ut på om man räknar en sån här tjongliga nyckeltal som evigt EA, bussvärde plus netto skulle ge någon rörelseresultatet. Så hamnar de på 15 gånger ungefär. Attender ligger på 16,5, så det är lägre värderat än attender, men Humana ligger annars tidigare på 13, så det är lite högre värderat än Humana.",
+          "timestamp": "25:11",
+          "context": "metric"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Jag tror nog att den är teknisk värd, med tanke på att det är ändå en stabil bransch och de har på gång många nya boenden.",
+          "timestamp": "25:42",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "15x",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "4-5%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Jämförelse: Attendo 16,5x, Humana 13x",
+          "Tidigare IPOs kom in på 12-13x"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabil bransch med demografisk drivkraft (ökande andel 85-åringar)",
+          "4-5% organisk tillväxt",
+          "Högre betalningar varje år",
+          "Många nya boenden i pipeline",
+          "Lägre värdering än Attendo"
+        ],
+        "bear_case": [
+          "Dyrare än tidigare välfärdsbolags-IPOs",
+          "Högre värderad än Humana",
+          "Ej lika fynd som tidigare introduktioner",
+          "Förväntat bättre första dag än MIPS men sämre än tidigare IPOs"
+        ],
+        "catalysts": [
+          "IPO 2017-03-31"
+        ],
+        "risks": [
+          "Dyrare värdering än sektorsjämförelse",
+          "Begränsad uppsid på första börsdagen"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag väljer nog att behålla det mesta på sparkontot just nu. Jag är lite inne på Runys linje faktiskt och har gått likvid. Inte för att jag är jätteolig att det ska bli det stora, stora raset men värderingen är höga, riskappetiten är på topp, räntorna är på väg upp och då krävs det att vinsterna ska stiga vilket man visst eller ingen tror men jag tycker att det är ganska inbakat i kurserna.",
+      "summary": "När marknaden har höga värderingar, hög riskappetit och stigande räntor kan det vara klokt att stå på sidlinjen och vänta på en korrektion innan man investerar.",
+      "category": "philosophy",
+      "speaker": "Martin Blomgren",
+      "speaker_role": "host",
+      "timestamp": "01:52",
+      "confidence": "high",
+      "tags": [
+        "marknadstiming",
+        "värdering",
+        "likviditet"
+      ]
+    },
+    {
+      "quote": "Det man ska ha med sig idag i riskväg är att om en aktiella sektor handlas på en hög vinstmultipel samtidigt som det finns en hög förväntan på vinsten så blir det en dubbel effekt om det vänder åt det andra hållet. Att vinsten blir sämre än man trodde plus att man skruvar ner multipeln så blir det ganska stor fallhöjd.",
+      "summary": "Kombinationen av hög värdering och höga vinstförväntningar skapar en dubbel risk vid vändning i marknaden, vilket kan leda till stora kursfall.",
+      "category": "wisdom",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "05:05",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "risk",
+        "multipel"
+      ]
+    },
+    {
+      "quote": "Jag tror också att rekyläge är här. Rekylläge är 5% och sen får man se huruvida det stannar där då eller om det är tryggare igång någon slags allmän sell-off. Men det kan bli så. Jag kommer ihåg att 2016, det var i maj, nu är det bara april snart, så var det också en sådan här där det hade gått upp kraftigt och sen så ner och sen stannade det liksom inte utan det blev nästan 20% där på kort tid.",
+      "summary": "Små korrektioner kan snabbt eskalera till större säljtryck om marknadspsykologin vänder, såsom skedde i maj 2016.",
+      "category": "wisdom",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "05:41",
+      "confidence": "high",
+      "tags": [
+        "marknadspsykologi",
+        "korrektion",
+        "historik"
+      ]
+    },
+    {
+      "quote": "Och ska det bli kraftigt så krävs det ju någon mer katalysator än att, det räcker ju sällan att man bara säger att värderingen är höga för att dyrt kan bli ännu dyrare, det kan hålla på länge att makten är övervärderad eller väldigt högt värderad och bågen är spänd och allt vad man vill kalla det men det krävs ju någonting som får hela jorden att vända åt det andra hållet.",
+      "summary": "Höga värderingar ensamma sällan utlöser marknadsvändning - det krävs en konkret katalysator för att få marknadens flockbeteende att vända.",
+      "category": "wisdom",
+      "speaker": "Martin Blomgren",
+      "speaker_role": "host",
+      "timestamp": "06:34",
+      "confidence": "high",
+      "tags": [
+        "katalysator",
+        "marknadsvändning",
+        "flockbeteende"
+      ]
+    },
+    {
+      "quote": "Reglerna gäller tills de inte gäller längre. För då tycker man att här har alla någonting att vinna.",
+      "summary": "När alla parter har gemensamt intresse att bryta mot regler blir det accepterat, såsom när riskkapitalister säljer före lock-up-periodens utgång.",
+      "category": "wisdom",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "27:08",
+      "confidence": "medium",
+      "tags": [
+        "lock-up",
+        "regler",
+        "marknadspraxis"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar en potentiell marknadskorrektion efter en lång börsuppgång med höga värderingar. Spelbolagssektorn står inför regleringsförändringar med kommande spelutredning. Fingerprint utfärdade en kraftig vinstvarning med 50% lägre omsättning. Nykomlingar på börsen inklusive MIPS och Ambea diskuteras inför deras introduktioner.",
+  "key_takeaways": [
+    "Höga marknadsvärderingar och stigande räntor motiverar försiktig hållning med likviditet",
+    "Spelutredningen fredag kan skapa turbulens beroende på vad som inkluderas/exkluderas från licenssystemet",
+    "Fingerprint undviks pga 50% omsättningsras och lagerproblem i hela kedjan",
+    "Ambea IPO kan tecknas men med modesta förväntningar (5-7% uppgång första dagen)",
+    "Kombinationen av hög multipel och höga vinstförväntningar skapar dubbel risk vid vändning"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2017-03-24-7e75.txt",
+  "transcript_word_count": 8200,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

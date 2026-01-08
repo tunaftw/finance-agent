@@ -1,0 +1,366 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2016-07-01-dd9a",
+  "podcast_name": "Kort & Lång",
+  "episode_title": "Ha pengar redo",
+  "episode_number": null,
+  "date": "2016-07-01",
+  "hosts": [
+    "Victor Munkhammar"
+  ],
+  "guests": [
+    "Anders Hägerstrand"
+  ],
+  "main_topics": [
+    "Brexit",
+    "marknadsvolatilitet",
+    "börsstrategi",
+    "aktierekommendationer"
+  ],
+  "stocks_discussed": [
+    "Volvo",
+    "Autoliv",
+    "Betsson"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Volvo",
+      "ticker": "VOLV-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Anders Hägerstrand",
+      "speaker_role": "guest",
+      "timestamp": "[08:42]",
+      "reasoning": "Olof Persson städade upp i bolaget, Martin Lundstedt (Scania-skola) kommer in som ny vd, Carl-Henrik Svanberg har press på sig att leverera aktieägarvärde. P/E på 10-11 är lågt historiskt. USA-marknaden är hyfsad och kan vända upp. Aktien är undervärderad och bör handlas över 100 kr även med svag konjunktur. Kort tidshorisont: 90 kr i sommaren.",
+      "price_target": "100+ SEK (kort sikt 90 kr sommaren 2016)",
+      "time_horizon": "medellång sikt",
+      "quote": "Volvo är ett gyllene köpläge i Volvo just nu. Aktien som enligt mig ska ha värd 100 kronor, även med en sunkig konjunktur, den är så lågt värderad nu. P1011 är inte en högt i ett historiskt perspektiv.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Nye vd tillträde, USA-marknadsvändning"
+    },
+    {
+      "stock_name": "Autoliv",
+      "ticker": "ALIV SDB",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Anders Hägerstrand",
+      "speaker_role": "guest",
+      "timestamp": "[10:45]",
+      "reasoning": "Aktien rasade 12-13% på orättfärdig anledning (krockkuddar i parkerade bilar var överreaktion). Det var en typisk dip att köpa på. Upside potential är begränsad men aktien bör handlas över 1000 kr. Återhämtning sker snabbt.",
+      "price_target": "1000+ SEK (kommer nås i sommar)",
+      "time_horizon": "kort sikt",
+      "quote": "Det var ju också en typisk exempel på när man ska ha pengar på sidan och vara beredd att slå till. Jag ringde några samtal med några autoliv-experter och för mig blev det ju uppenbart rätt att det här överdrivits som bara den och aktien återhämtar ju sig. autoliv kommer att gå över 1000 kronor i sommar.",
+      "sector": "Fordonsindustri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Sommar 2016"
+    },
+    {
+      "stock_name": "Betsson",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Anders Hägerstrand",
+      "speaker_role": "guest",
+      "timestamp": "[12:20]",
+      "reasoning": "Aktien rasade från 103 till 63 kr efter vinstvarning. Historiskt har Pontus Lindvall levererat, men bolaget är inte transparent. Spelbranschen är tuff med regleringar och marginalpress. Svårt att veta om sagan är slut. Kräver mer transparens innan ställning tas.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "När det går bra kan man bara inte berätta så mycket, folk är nöjda att pengarna kommer in. Men nu kommer pengarna in på samma sätt, aktierna kollapsar och de är fortfarande transparenta. Nu känns det som att de måste bli mer transparenta med information, för att jag så vågar ta ställning.",
+      "sector": "Spel",
+      "market": "sweden",
+      "position_context": "Anders hade köpt i höstas - erkänner misstag",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Volvo",
+      "ticker": "VOLV-B",
+      "timestamp_start": "[08:10]",
+      "timestamp_end": "[10:06]",
+      "word_count": 350,
+      "speakers": [
+        "Victor Munkhammar",
+        "Anders Hägerstrand"
+      ],
+      "primary_speaker": "Anders Hägerstrand",
+      "discussion_summary": "Anders Hägerstrand presenterar Volvo som ett gyllene köpläge efter att aktien dippat till 77-78 kr. Han lyfter fram Olof Perssons uppstädningsjobb, att Martin Lundstedt (från Scania) blir ny vd, och press på Carl-Henrik Svanberg att leverera aktieägarvärde. P/E på 10-11 anses lågt historiskt och han tror aktien bör handlas över 100 kr oavsett konjunktur.",
+      "quotes": [
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Volvo är ett gyllene köpläge i Volvo just nu. För det är tre saker som gör det. Olof Persson städde upp i det här bolaget, lönsamheten började komma nu. Nu kommer en suveränt duktig vd in i Martin Lundstedt, som har gått till Leif Östlings skola på Scania och verkligen kan därmed att sälja lastbilar.",
+          "timestamp": "[08:42]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Och till på köpet, som kommer att tala för aktien, det är att Carl-Henrik Svanberg har eld i baken. För han har vetat att om inte han levererar aktieägarvärlden så kommer inte Fredrik Lundberg att låta hon vara kvar alltför många år som ordförande.",
+          "timestamp": "[09:08]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Volvo värderingen är också låg, P1011 är inte en högt i ett historiskt perspektiv.",
+          "timestamp": "[09:51]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "10-11",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Olof Persson städade upp bolaget",
+          "Martin Lundstedt (Scania-skola) blir ny vd - stark på lastbilar",
+          "Carl-Henrik Svanberg har press från ägare att leverera",
+          "Låg P/E på 10-11 historiskt",
+          "USA-marknaden hyfsad och kan vända upp",
+          "Under värderad - borde handlas över 100 kr"
+        ],
+        "bear_case": [
+          "USA-marknaden ganska svag",
+          "Sydamerika och Asien ussle",
+          "Europa oroligt efter brexit",
+          "Svag konjunktur kan påverka lastbilsmarknaden"
+        ],
+        "catalysts": [
+          "Nye vd tillträder",
+          "Carl-Henrik Svanberg press att leverera",
+          "USA-marknadsvändning"
+        ],
+        "risks": [
+          "Konjunkturavmattning",
+          "Svag lastbilsmarknad i Asien/Sydamerika",
+          "Brexit-effekter på Europa"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Autoliv",
+      "ticker": "ALIV SDB",
+      "timestamp_start": "[10:45]",
+      "timestamp_end": "[12:08]",
+      "word_count": 200,
+      "speakers": [
+        "Victor Munkhammar",
+        "Anders Hägerstrand"
+      ],
+      "primary_speaker": "Anders Hägerstrand",
+      "discussion_summary": "Autoliv rasade upp till 18% från 930 till 770 kr på grund av krockkuddsproblematik. Anders menar att detta var en överreaktion och ett typiskt tillfälle att ha pengar på sidan för. Aktien har redan återhämtat till över 900 kr och han tror den ska handlas över 1000 kr i sommar, men uppsidan är inte lika stor som Volvo.",
+      "quotes": [
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Det var helt, alltså när Schönke, den hade väl stängt på 930 på dagen förra... Den gick ner till 770 eller nåt liknande. Och så återhämtar, nu är det över 900 igen.",
+          "timestamp": "[11:01]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Det var ju också en typisk exempel på när man ska ha pengar på sidan och vara beredd att slå till. Jag ringde några samtal med några autoliv-experter och för mig blev det ju uppenbart rätt att det här överdrivits som bara den och aktien återhämtar ju sig.",
+          "timestamp": "[11:12]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "autoliv ska handlas över 1000 kronor även i ett ganska jobbigt börsläge. Det är min fasta övertygel.",
+          "timestamp": "[11:33]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Jag säger så här, autoliv kommer att gå över 1000 kronor i sommar.",
+          "timestamp": "[11:54]",
+          "context": "catalyst_timing"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Krockkuddsproblematik var överreaktion",
+          "Snabb återhämtning på gång",
+          "Aktien ska handlas över 1000 kr"
+        ],
+        "bear_case": [
+          "Upside potential inte lika stor som Volvo",
+          "Risk att marknaden förblir svag"
+        ],
+        "catalysts": [
+          "Återhämtning från överreaktion"
+        ],
+        "risks": [
+          "Börsen kan förbli svag"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Betsson",
+      "ticker": null,
+      "timestamp_start": "[12:20]",
+      "timestamp_end": "[14:51]",
+      "word_count": 400,
+      "speakers": [
+        "Victor Munkhammar",
+        "Anders Hägerstrand"
+      ],
+      "primary_speaker": "Anders Hägerstrand",
+      "discussion_summary": "Betsson har varit en fantastisk resa men fick en kalldusch denna vecka. Aktien föll från 103 till 93 kr på måndag och sedan till 63 kr efter vinstvarning på tisdag. Q1-rapporten var inte stark men aktien hölls för historiken. Nu ifrågasätts Pontus Lindvall som vd-ordförande och bolagets bristande transparens. Spelbranschen är tuff med regleringar och marginalpress.",
+      "quotes": [
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Den har växt och blivit ett large cap bolag. Nu i veckan så kommer ju den stora kallduschen då när aktien, när de vinstvarna i tisdags.",
+          "timestamp": "[12:30]",
+          "context": "other"
+        },
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Och sen kom vinstvarningen på tisdag morgon, och aktien dök som var det enda som lägst där i veckan är på 63 spänn. Nu har den återhämtat sig till 70.",
+          "timestamp": "[12:46]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "När det går bra kan man bara inte berätta så mycket, folk är nöjda att pengarna kommer in. Men nu kommer pengarna in på samma sätt, aktierna kollapsar och de är fortfarande transparenta. Då är frågan om man ska lita på att Lindvall fixar det här eller inte.",
+          "timestamp": "[13:37]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Historiken talar för att han borde ta sig ur den situationen, men samtidigt vet man å andra sidan att spelbranschen är i en tuff situation. Det sker mycket regleringar i Europa, och framförallt titta på den svenska marknaden, alla konkurrenter som kommer in hela tiden.",
+          "timestamp": "[13:50]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Jag tycker det är en väldigt svår fråga. Kan hända att sagan är slut, men man vill inte riktigt säga det med tanke på den historiken som ändå Pontus Lindvall har av att skapa aktier över.",
+          "timestamp": "[14:06]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Anders Hägerstrand",
+          "text": "Jag hade ju satt och köpt på dem i höstas, det skulle jag erkänna att det var ett misstag. Nu vågar jag inte.",
+          "timestamp": "[19:44]",
+          "context": "position_disclosure"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Pontus Lindvall har historiskt levererat",
+          "Stark historisk utveckling"
+        ],
+        "bear_case": [
+          "Vinstvarning",
+          "Bristande transparens från ledning",
+          "Spelbranschen tuff med regleringar i Europa",
+          "Svensk marknad pressas av konkurrenter",
+          "Marginalpress när kunder flyr till andra bolag"
+        ],
+        "catalysts": [
+          "Mer transparens från bolaget",
+          "Stabilisering av verksamheten"
+        ],
+        "risks": [
+          "Tuff regulatorisk miljö",
+          "Ökad konkurrens",
+          "Marginalpress",
+          "Förlorat förtroende för ledning"
+        ]
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Rekommendationen att ha pengar tillgängliga på sidan var inte fullt investerad. Tänk den som hade pengar på sidan i måndags, och hela tisdags förmiddag när det vände och kunde gå in. Det är ju bara den fantastiska lägenheten.",
+      "summary": "Ha alltid likviditet tillgänglig för att kunna agera på marknadskrascher när tillfället ges.",
+      "category": "wisdom",
+      "speaker": "Victor Munkhammar",
+      "speaker_role": "host",
+      "timestamp": "[07:53]",
+      "confidence": "high",
+      "tags": [
+        "likviditet",
+        "marknadstiming",
+        "krisinvestering"
+      ]
+    },
+    {
+      "quote": "Så länge det är så här att marknaden är sjuk, vi kan hantera sjukdomar. Vi kan hantera Greklands krisen, vi kan hantera Kinas krisen, vi kan hittills ställa ut och kunna hantera Brexit helt okej också. Vi har de här antibiotika som gör att vi sköter det.",
+      "summary": "Marknadskriser går att hantera så länge systemet fungerar och centralbanker finns som backstop.",
+      "category": "wisdom",
+      "speaker": "Anders Hägerstrand",
+      "speaker_role": "guest",
+      "timestamp": "[04:48]",
+      "confidence": "medium",
+      "tags": [
+        "kriser",
+        "centralbanker",
+        "marknadsstabilitet"
+      ]
+    },
+    {
+      "quote": "Det jag tycker inte om de där som går ut och skriker tillväxten, så låg tillväxten, men det är fortfarande också att växer det bara lite och kapital i ytterst billigt, så det är faktiskt ganska hyfsat också.",
+      "summary": "Låg tillväxt kan vara acceptabelt när kapitalkostnaden är mycket låg.",
+      "category": "philosophy",
+      "speaker": "Victor Munkhammar",
+      "speaker_role": "host",
+      "timestamp": "[18:12]",
+      "confidence": "medium",
+      "tags": [
+        "tillväxt",
+        "räntor",
+        "värdering"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet handlar om Brexit-veckan och dess påverkan på marknaderna. Börsen återhämtade sig snabbt från måndagens ras, men räntorna ligger kvar lågt. Centralbanker väntas agera. Volvo och Autoliv presenteras som köplägen efter dipparna, medan Betsson anses osäker efter vinstvarning. Generell rekommendation är att ha pengar tillgängliga för att kunna köpa på dippar under sommaren.",
+  "key_takeaways": [
+    "Ha pengar tillgängliga för att kunna köpa på marknadskrascher",
+    "Volvo är ett köpläge med ny vd Martin Lundstedt och låg P/E på 10-11",
+    "Autoliv var överreaktion på krockkuddsproblematik - köpläge upp till 1000 kr",
+    "Betsson osäker efter vinstvarning och bristande transparens - avvakta",
+    "Centralbanker väntas stödja marknaden med låga räntor"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2016-07-01-dd9a.txt",
+  "transcript_word_count": 3763,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

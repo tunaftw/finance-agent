@@ -1,0 +1,409 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "montrosepodden-2025-11-06-fde9",
+  "podcast_name": "Montrosepodden",
+  "episode_title": "#82 - Inverterad skräcktober bjöd på nytt börsrekord för OMXS30",
+  "episode_number": 82,
+  "date": "2025-11-06",
+  "hosts": ["Niklas", "Viktor"],
+  "guests": [],
+  "main_topics": ["börsmarknad", "Finland", "AI-trenden", "energi", "podcastbranschen"],
+  "stocks_discussed": ["Kone", "Nokia", "Nvidia", "Ericsson", "ABB", "Palantir", "Zaptec", "Acast"],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Kone",
+      "ticker": "KNEBV",
+      "timestamp_start": "05:25",
+      "timestamp_end": "07:15",
+      "word_count": 350,
+      "speakers": ["Niklas", "Viktor"],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Niklas presenterar Kone som ett exceptionellt långsiktigt case som utklassat OMXS30. Bolaget har levererat 19,94% årlig avkastning sedan 1997, vilket överträffar Berkshire Hathaway. Diskussionen fokuserar på Kones marknadsposition inom hiss- och rulltrappor samt eftermarknaden som ger en premiumvärdering. Kone omnämns som ett bolag som gjort många finnar förmögna.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Sedan dess så har den här aktien gett 19,94% skagger. Det vill säga lite, lite, lite bättre än Warren Buffett's Berkshire Hathaway som har gett 19,9% då från 1965.",
+          "timestamp": "05:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "100 000 euro eller svenska kronor har blivit 19 miljoner kronor.",
+          "timestamp": "06:03",
+          "context": "metric"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Vi kom fram till att det var den där eftermarknaden som Kone sitter på som var rättfärdiga med en premiumvärdering.",
+          "timestamp": "06:19",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["19.94% CAGR sedan 1997"]
+      },
+      "thesis": {
+        "bull_case": ["Exceptionellt långsiktig track record med 19,94% årlig avkastning", "Stark marknadsposition inom hiss- och rulltrappor", "Eftermarknad skapar återkommande intäkter och premiumvärdering"],
+        "bear_case": ["Beroende av Kina-ekonomin"],
+        "catalysts": ["Fokus på inhems konsumtion i Kina"],
+        "risks": ["Tiltat beroende av Kina"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Nokia",
+      "ticker": "NOKIA",
+      "timestamp_start": "07:25",
+      "timestamp_end": "15:37",
+      "word_count": 600,
+      "speakers": ["Niklas", "Viktor"],
+      "primary_speaker": "Viktor",
+      "discussion_summary": "Diskussion kring Nvidias strategiska investering på en miljard dollar i Nokia, vilket ger Nvidia en ägarandel på 2,9%. Partnerskapet fokuserar på AI-drivna radionät och optik/laserteknik för datacenter. Viktor analyserar potentialen i photonics-trenden och att Nvidias kompetens inom optik kan öppna för betydligt högre bandbredd över längre distanser. Avtalet är inte exklusivt vilket kan gynna även Ericsson.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Det för ju minnet tillbaka till fornstora dagar när Ericsson var nationalklenod i Sverige och Nokia i Finland.",
+          "timestamp": "07:33",
+          "context": "other"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Vilket ger Nvidia en ägarandel på ungefär 2,9% i Nokia. Där sker vi i en riktad emission. Och i samband med ett nytt strategiskt partnerskap. Vad handlar det här partnerskapet om då? Det är fokus på AI-drivna radionät och att stärka utvecklingen av nätverk för datacenter.",
+          "timestamp": "08:42",
+          "context": "metric"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Nvidia rallade på det här. Det blev tredje största uppgången någonsin i bolaget. Varför gör Nvidia det här? Jo, de vill låsa upp nästa nivå i datakommunikation. Idag använder de koppar i sina chipmiljöer. Det funkar fint men bara på kortare avstånd. Men Nokia sitter på kompetens genom optik och laserteknik. Vilket öppnar upp för betydligt högre bandbredd över längre distanser.",
+          "timestamp": "08:40",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Datacenter utgör 5% av Nokias omsättning idag",
+          "timestamp": "09:58",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Sedan ska man dock notera att avtalet är ju inte exklusivt. Och vi vet ju att Jensen har varit i Norrköping och tillsammans med Wallenbärerna och de äger Ericsson. Så på något sätt, det finns ju någon form av industriell strategi som är större än bara Nokia. Och det kanske spiller över på även Ericsson.",
+          "timestamp": "13:56",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["2.9% ägarandel för Nvidia", "Datacenter = 5% av omsättning"]
+      },
+      "thesis": {
+        "bull_case": ["Strategiskt partnerskap med Nvidia inom AI-radionät", "Kompetens inom optik och laserteknik för högre bandbredd", "Potential att växa inom datacenter med stöd från Nvidia", "Fördelar från 6G-utveckling"],
+        "bear_case": ["Ett miljard dollar är en liten investering för Nvidia", "Avtalet är inte exklusivt - Ericsson kan få liknande partnerskap", "Datacenter är idag en liten del (5%) av verksamheten"],
+        "catalysts": ["6G-utveckling", "AI-drivna radionät"],
+        "risks": ["Konkurrens från Ericsson", "Beroende av Nvidias strategi"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Palantir",
+      "ticker": "PLTR",
+      "timestamp_start": "17:23",
+      "timestamp_end": "35:20",
+      "word_count": 1800,
+      "speakers": ["Niklas", "Viktor"],
+      "primary_speaker": "Viktor",
+      "discussion_summary": "Diskussion om Palantir och marknadens reaktion på deras kvartalsrapport. Trots stark rapport föll aktien rejält. Viktor argumenterar för att det kan vara en vinstbubbla snarare än värderingsbubbla, och pekar på förlängd ekonomisk livslängd på AI-servrar, extrema återköpsnivåer, och commodity-risk inom chips. Viktor tror på AI-trendens långsiktiga potential men varnar för att inte ha hela portföljen i denna typ av papper.",
+      "quotes": [
+        {
+          "speaker": "Viktor",
+          "text": "Jag kan väl bara sista med Palantir, det är väl också att de kom med rapport här och det var ju då i samband med det här vi lyssnade nyss på. Men det här tycker jag också är ett typexemplar på att rapporten var ju faktiskt stark, igen på alla möjliga sätt, men den följde rätt rejält.",
+          "timestamp": "21:56",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Min ståndpunkt är att jag tycker att det är snarare en vinstbubbla mer än en värderingsbubbla.",
+          "timestamp": "22:59",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Big Tech förlänger ekonomiskt livslängd på AI-server från i snitt 4 år till nu cirka 6 år. Det är anmärksvärt, eftersom avskrivningarna fördelas på flera år innebär en minskad belastning på resultatet. Mycket bra. Vilket höjer vinsten under samma period.",
+          "timestamp": "23:04",
+          "context": "metric"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Dessutom vet vi att buybacks, återköp, är på extrema historiska nivåer, vilket också trycker upp vinst på aktier.",
+          "timestamp": "23:07",
+          "context": "metric"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Jag tycker inte alls att man ska ha hela portföljen i den här typen av papper. Ha sunt bondförnuft.",
+          "timestamp": "31:53",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["AI-server livslängd: 4-6 år", "Extrema buyback-nivåer"]
+      },
+      "thesis": {
+        "bull_case": ["Stark kvartalsrapport", "AI-trenden fortsätter", "Demokratisering av AI och chip-tillgång kan bredda marknaden"],
+        "bear_case": ["Vinstbubbla risk", "Extrem värdering", "Marknaden kräver absurda resultat för att vara nöjd"],
+        "catalysts": null,
+        "risks": ["Om vinsterna faller blir värderingarna ansträngda", "Commodity-risk inom chips kan pressa marginaler", "För lång avskrivningstid (6 år) på AI-servrar när tekniktakten är snabb"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Zaptec",
+      "ticker": "ZAP",
+      "timestamp_start": "37:23",
+      "timestamp_end": "41:02",
+      "word_count": 450,
+      "speakers": ["Niklas", "Viktor"],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Niklas berättar att han ska installera en Zaptec-laddare och diskuterar bolaget som tidigare var en favoritaktie men som kraschat 2021. Aktien har återhämtat sig kraftigt med 150% uppgång i år och 220% på ett år från botten på 8,45 NOK till 27,35 NOK. Viktor noterar att sektorns ogräs är borta och de lönsamma bolagen som överlevt kan vara mer attraktiva till värderingen.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "En av mina första favoritaktier. Jag skulle vara smart och jobba hackar och spadar för hela elbilstrenden men det blev inte så bra",
+          "timestamp": "37:52",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Zapp-täcken, från slutet 2024...bottnade de på 8,45 norska kronor och ligger på 27,35 idag, så de är alltså upp 220 procent på ett år.",
+          "timestamp": "39:43",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Men vi är långt ifrån fornstora dar när det toppade 2021.",
+          "timestamp": "40:02",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Det som på något sätt blir intressant med en sån sektor då är att mycket, får man säga, ogräser är borta. Och kanske de få bolagen som var återigen lönsamma och kanske de som hade en fungerande business, även om de haft det tufft så är de kvar och de kanske då är mer attraktiva till värderingen.",
+          "timestamp": "40:00",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Upp 150% i år", "Upp 220% på ett år från 8.45 NOK till 27.35 NOK"]
+      },
+      "thesis": {
+        "bull_case": ["Återhämtning efter kraschen 2021", "Trend med ökad elbilssälj och laddbox-installationer", "Sektorns ogräs är borta - de lönsamma bolagen är kvar", "Mer attraktiv värdering efter krasch"],
+        "bear_case": ["Långt från toppnivåerna 2021", "Hög konkurrens från Garo, ISE, Cetech"],
+        "catalysts": ["Ökad elbilssälj", "Grönt avdrag på 48,5% driver installationer"],
+        "risks": ["Hög konkurrens", "Finansieringskostnadernas påverkan på installationer"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Acast",
+      "ticker": "CAST",
+      "timestamp_start": "43:12",
+      "timestamp_end": "52:49",
+      "word_count": 700,
+      "speakers": ["Niklas", "Viktor"],
+      "primary_speaker": "Viktor",
+      "discussion_summary": "Viktor analyserar Acasts starka kvartalsrapport med 41% organisk tillväxt och nya marginalmål om 10% EBIT-marginal till 2028. Acast övergår från tillväxt till lönsamhet, vilket klassas som en inflection point. Diskussionen täcker Acasts marknadsandel (45-50% i Sverige, 60-65% i Storbritannien, 2-3% i USA) och potential att växa i USA. Genomsnittlig intäkt per lyssning ökade 33% men totala lyssningar är flat. Niklas erkänner att han pitchat Acast tidigare men inte köpte.",
+      "quotes": [
+        {
+          "speaker": "Viktor",
+          "text": "De slog förväntningarna över hela linjen och dessutom presenterade de nya långsiktiga marginalmål. Tidigare hade de som mål levererat en justerad EBITDA-marginal på 3-5%, men nu ändrades det till en EBITDA-marginal på 10% till 2028.",
+          "timestamp": "44:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Acast överlag är ju också skolboksexempel på ett bolag som har nått en inflection point. Man har växt kraftigt länge, och nu slår man över till lönsamhet.",
+          "timestamp": "45:16",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "De levererar i rapporten 41% organisk tillväxt. Nordamerika sticker ut nästan 58% tillväxt, year of year.",
+          "timestamp": "45:36",
+          "context": "metric"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Över en miljard lyssningar per kvartal och över 115 miljoner unika lyssningar per månad.",
+          "timestamp": "46:22",
+          "context": "metric"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "Däremot tycker jag ändå om man ska lyfta något så antalet lyssningar, det är faktiskt i princip flat, upp 1% year over year. Så det som driver omsättningen nu är ju det här average revenue per listen, alltså genomsnittlig intäkt per lysning som är upp 33%, vilket är jättestarkt, men problemet är att det kan ju mattas av långsiktigt.",
+          "timestamp": "48:11",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Viktor",
+          "text": "De säger att i Sverige har man en 45-50% marknadsandel, ungefär närmare halva marknaden. Men det är inte den största marknaden. För i Storbritannien säger man att man har 60-65%, och nu sa du ju här att USA pinnade på ganska snabbt. Då är det ju lite trevligt också att få en liten siffra på hur hur stor man bedömer att man då är på den amerikanska marknaden. Och den är faktiskt försvinnande liten. Så här vittnar det om att det förmodligen finns ganska många sektorkollegor.",
+          "timestamp": "51:06",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jättekort sa jag, ACAS. Har du kollat in det? Det borde man ha gjort.",
+          "timestamp": "51:54",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "41%",
+        "margin": "EBIT 2%, Adjusted EBITDA 6%",
+        "debt_level": null,
+        "custom": ["Mål: 10% EBIT-marginal till 2028", "1 miljard lyssningar per kvartal", "115 miljoner unika lyssningar per månad", "3,300 annonsörer", "140,000+ shows"]
+      },
+      "thesis": {
+        "bull_case": ["Inflection point - övergång från tillväxt till lönsamhet", "41% organisk tillväxt, Nordamerika 58%", "Nya marginalmål på 10% EBIT till 2028", "Låg marknadsandel i USA på 2-3% ger stort uppsida potential", "Genomsnittlig intäkt per lyssning upp 33%", "Kan lägga in reklam i gamla poddavsnitt", "Poddmarknaden anses undermonetiserad"],
+        "bear_case": ["Genomsnittlig intäkt per lyssning kan inte öka för evigt", "Ökad konkurrens om Acast blir för dyrt", "Totala lyssningar är flat (+1%)"],
+        "catalysts": ["Växt i USA-marknaden", "Fortsatt ökning av genomsnittlig intäkt per lyssning"],
+        "risks": ["Konkurrens", "Prispress på genomsnittlig intäkt per lyssning", "Kostnadseffektivitet kan bli svårare att upprätthålla"]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det som är intressant här, i och med att jag gillar det kuduosa, det är att Kone installerade 46 hissar och 64 rulltrappor. Gillar man siffror så 46. Om du bara vänder på det då blir det 64. Men om du inte har återinvesterat utdelningen, det vet du att man ska göra eller hur? Om man då inte har gjort det, då vart 19,4 miljoner 7,6 miljoner kronor i stället.",
+      "summary": "Långsiktig aktieinvestering med återinvesterade utdelningar kan skapa enorm förmögenhet. Kone gav 19,4 miljoner på 100 000 kronor med återinvestering, men bara 7,6 miljoner utan återinvestering.",
+      "category": "lesson",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "56:17",
+      "confidence": "high",
+      "tags": ["återinvestering", "långsiktighet", "udelning"]
+    },
+    {
+      "quote": "Stick inte i huvudet i sanden när det går sämre för bolaget. Då är det snarare så att man ska vara uten mer och kommunicera. Och är det så att man får media som man kanske inte gillar och artiklar som kanske inte är de mest smickrande, det hör ju till, det kommer också.",
+      "summary": "Bolag måste fortsätta kommunicera även i tuffa tider. Att vara tillgänglig och förklara läget när det går dåligt är viktigare än att hålla tyst.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "01:08:22",
+      "confidence": "high",
+      "tags": ["kommunikation", "IR", "kris"]
+    },
+    {
+      "quote": "Det som på något sätt blir intressant med en sån sektor då är att mycket, får man säga, ogräser är borta. Och kanske de få bolagen som var återigen lönsamma och kanske de som hade en fungerande business, även om de haft det tufft så är de kvar och de kanske då är mer attraktiva till värderingen.",
+      "summary": "Efter en sektorskrasch kvarstår ofta de lönsamma och välfungerande bolagen. Dessa kan bli attraktivt värderade när konkurrenterna rensats bort.",
+      "category": "wisdom",
+      "speaker": "Viktor",
+      "speaker_role": "host",
+      "timestamp": "40:00",
+      "confidence": "high",
+      "tags": ["sektorkrasch", "värdering", "urväljning"]
+    },
+    {
+      "quote": "Här kan man också se att just den här aktien då, Zapp-täcken, från slutet 2024, det vill säga egentligen det senaste året, så bottnade de på 8,45 norska kronor och ligger på 27,35 idag, så de är alltså upp 220 procent på ett år. Här jobbar man själv i branschen, där man har nära och kära bekanta som kanske jobbar som elektriker eller inom bilvärlden eller sådär. Fråga vilken leverantör av elbilsladdare som är bäst.",
+      "summary": "Circle of competence - investera i branscher du själv jobbar i eller har kunskap om. Att ha insikter om vilka leverantörer som faktiskt är bäst på marknaden kan ge en informationsfördel.",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "39:43",
+      "confidence": "high",
+      "tags": ["circle of competence", "bransch-kunskap", "informationsfördel"]
+    },
+    {
+      "quote": "Finanstvittrer är fantastiskt. Poddar är intressant. Poddar är väldigt tillgängligt också. Och sen behöver man fundera på sin storytelling. På Stockholmsbörsen finns det 408 aktier. På alla listor är 1300-1400 bolag i Sverige. Är du inte bland de största? Då får du kampera ganska mycket för att få attention.",
+      "summary": "Svenska börsbolag måste vara aktiva i sociala medier och poddar för att nå investerare. Speciellt viktigt för mindre bolag som inte får naturlig uppmärksamhet.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "01:01:20",
+      "confidence": "high",
+      "tags": ["sociala medier", "IR", "storytelling"]
+    },
+    {
+      "quote": "Kommer du till börsen, gud förbannat, glöm inte bort Retail i boken. Ju mindre bolag det är desto viktigare det är att ha Retail i ägarled, för de kommer att stå för en icke försumbar andel av handeln.",
+      "summary": "Små bolag måste värna om sina privatinvesterare (retail). De utgör en betydande del av handeln och är viktiga för likviditet.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "01:03:50",
+      "confidence": "high",
+      "tags": ["retail", "IR", "små bolag"]
+    },
+    {
+      "quote": "Jag tycker inte alls att man ska ha hela portföljen i den här typen av papper. Ha sunt bondförnuft. Men bortom värderingarna och bortom vad som händer på börsen, så tycker jag att det är väldigt spännande.",
+      "summary": "Diversifiering och sunt bondförnuft är viktigt även när det finns spännande investeringsmöjligheter. Lägg inte alla ägg i samma korg.",
+      "category": "philosophy",
+      "speaker": "Viktor",
+      "speaker_role": "host",
+      "timestamp": "31:53",
+      "confidence": "high",
+      "tags": ["diversifiering", "risk management"]
+    },
+    {
+      "quote": "Min ståndpunkt är att jag tycker att det är snarare en vinstbubbla mer än en värderingsbubbla. Ett argument för det är att Big Tech förlänger ekonomiskt livslängd på AI-server från i snitt 4 år till nu cirka 6 år. Det är anmärksvärt, eftersom avskrivningarna fördelas på flera år innebär en minskad belastning på resultatet.",
+      "summary": "AI-chipbolagens vinstnivåer kan vara uppblåsta genom förlängd avskrivningstid på AI-servrar (från 4 till 6 år) vilket ökar vinsterna men kan maskera den verkliga kapacitetsutnyttjandet.",
+      "category": "wisdom",
+      "speaker": "Viktor",
+      "speaker_role": "host",
+      "timestamp": "23:02",
+      "confidence": "medium",
+      "tags": ["vinstkvalitet", "redovisning", "AI"]
+    },
+    {
+      "quote": "Jag tror att det kommer att bli en demokratisering kring accessen till chipen, till att kunna bygga LLM-er med mera. Men exempelvis att den video de har, det är ju hela ekosystemet med hårdvara, mjukvara, man lär sig koda det här i universitetet för att kunna optimera chipen.",
+      "summary": "Demokratisering av AI och tillgång till chip kan sprea teknologin till fler sektorer och skapa produktivitetsvinster, inte bara för de stora tech-bolagen.",
+      "category": "wisdom",
+      "speaker": "Viktor",
+      "speaker_role": "host",
+      "timestamp": "29:30",
+      "confidence": "medium",
+      "tags": ["AI", "demokratisering", "produktivitet"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet inleds med att oktober blev den bästa månaden sedan 2022 och att OMXS30 föddes nuvarande tjurmarknad i oktober. Diskussionen fokuserar på Finlands börs (OMXH25) som stigit 32,5% hittills i år. Nvidia och Nokia presenterar ett strategiskt partnerskap inom AI-drivna radionät och photonics. Långsiktiga case som Kone (19,94% CAGR sedan 1997) diskuteras. Ämnet AI-värderingar och vinstbubbla debatteras, samt energi som en begränsande faktor för AI-datacenter. Acast levererar en stark rapport med nya marginalmål på 10% EBIT till 2028.",
+  "key_takeaways": ["Nokia och Nvidias samarbete inom AI-radionät och photonics är intressant för teknikutveckling", "Finländska börsen har utklassat OMXS30 med +32,5% år-till-datum", "Acast når inflection point med 41% organisk tillväxt och nya EBIT-mål på 10% till 2028", "AI-chipbolagens vinstnivåer kan vara uppblåsta genom förlängd avskrivningstid", "Zaptec har återhämtat sig kraftigt med 220% uppgång på ett år från botten", "Energi är en kritisk flaskhals för AI-datacenterutbyggnad"],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/montrosepodden/transcripts/montrosepodden-2025-11-06-fde9.txt",
+  "transcript_word_count": 11524,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

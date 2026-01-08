@@ -1,0 +1,541 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2022-06-14-de1b",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 376 - Mörka moln",
+  "episode_number": 376,
+  "date": "2022-06-14",
+  "hosts": [
+    "Host 1",
+    "Host 2"
+  ],
+  "guests": [
+    "Håkan Karlsson"
+  ],
+  "main_topics": [
+    "SBB crash",
+    "E-handelskrasch",
+    "Inflation",
+    "Kryptokrash",
+    "Fed beslut",
+    "Lösen"
+  ],
+  "stocks_discussed": [
+    "SBB",
+    "Decennio",
+    "Peers",
+    "Boost",
+    "Bygghemma",
+    "Embracer",
+    "Desenius",
+    "Billerud",
+    "Tingsvalvet"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "SBB",
+      "ticker": "SBB-B",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "02:16",
+      "reasoning": "Köpte eftersom ingen var intresserad av att köpa och alla pratade om negativt. Som trader är det ingen aktie som rör sig så mycket. Extremt volatil med enorma möjligheter både upp och ner. Very short-term trade - kan vara ur vid stängning.",
+      "price_target": null,
+      "time_horizon": "very short term",
+      "quote": "Jag är lång as we speak. Sen får vi se om jag kommer vara det när börsen stänger idag. Jag köpte bara för att jag tyckte att det var lite i marknaden. Ingen var intresserad av att köpa. Alla satt och pratade om var Iljas när han går på negativt ek. Då kände jag att jag hade hopp. Men som sagt, jag kan nog vara ur redan efter vid stängning.",
+      "sector": "Real Estate",
+      "market": "sweden",
+      "position_context": "Kortfristig trade",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Desenius",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "17:31",
+      "reasoning": "Ingen edge eller teknisk fördel. Hård konkurrens på att göra posters - inte rocket science. Höga marginaler men handlar om vem som vinner kunderna. Ser inte köp case.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag ser inte USPen. Jag ser inte deras Edge. Det är annat än om de får stor skal fördelar, men det är rätt hård konkurrens på att göra posters. Det är ingen rocket science.",
+      "sector": "E-commerce",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "29:31",
+      "reasoning": "Exit i november. Kommer komma fantastiskt köpläge men tror inte att detta är den riktiga kryptobotten. Måste hända mer. Fler smällar väntar.",
+      "price_target": null,
+      "time_horizon": "medium term",
+      "quote": "Jag är rätt nöjd med min exit här i november. Gör du någonting? Nej. Det känns som att de här kryptovinterna nu alla bolag drar ner. Många har varit överbelånade så det känns som att det här ska nog ridas ut. Det kommer att komma ett fantastiskt köpläge i krypto. Men jag tror inte att det här är den riktiga kryptobotten.",
+      "sector": "Crypto",
+      "market": "other",
+      "position_context": "Exited position",
+      "downside_note": "Kan gå ner till 10,000 eller lägre",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "SBB",
+      "ticker": "SBB-B",
+      "timestamp_start": "02:16",
+      "timestamp_end": "13:19",
+      "word_count": 1500,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "SBB har kraschat från 60 till 17 kr på grund av ränteuppgång. Bolaget är extremt skuldsatt med runt 100 miljarder i skuld, vilket gör det mycket riskfyllt. Ilya påstår långa bindningstider men räntorna på SBB-instrument skenar. Diskuterar risker med hög belåning, potentiell överbelåning, och positiv triggers som OMX30-inträde.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "En av de största grejerna är att bolaget är ett av de mest, eller det mest, skuldsatta på hela sakenbursen. Det var inte så många som pratade om när kursen bara gick upp. Men att t.ex. titta på börsvärdet och fastigheter och liknande, det blir ganska sekundärt när man har runt 100 miljarder i skuld.",
+          "timestamp": "05:20",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Det är väl nu man ser, folk sitter och tittar på driftresultat och liknande. Det viktigaste blir kassaflödet, om de kan betala sina lån.",
+          "timestamp": "06:14",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Det viktigaste blir nog att titta på skulderna och räntan och det. Och hur vägen, illa har för skulder och ränta.",
+          "timestamp": "07:38",
+          "context": "risk"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Det känns nästan som att nu försöker, ja, blankarna och folk blir rädda att han ska bli överlånad och vad händer med hans aktier. Utan SBBs say kanske inte mår för stunden så himla dåligt som kursen mår.",
+          "timestamp": "08:07",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men det känns som att det finns olika triggers här. Antingen så blir det någon form av överbelåning, vilket kändes väldigt osannolikt. Nu har man ingen aning. Det går ju väldigt mycket rykten i marknaden. Men det känns som att ingen utom Ilya själv har koll på det.",
+          "timestamp": "09:13",
+          "context": "risk"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men de ska ju in troligtvis i OMX30 här. Och ju mer den handlas, desto större chans blir det. Så det känns nästan klart. Och det blir någon form av positiv trigger. Och för en gångs skull får ju OMX30-ägarna inte köpa på 60-ägarna. Då får de ju köpa till någon jätte rabatt mot senaste kursen.",
+          "timestamp": "09:13",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Sen blir det lite så här att det blir svårt för hela den här sektorn att bli het om räntorna ska gå dit, trenda så som de gör nu, och inflationen gör det samma. Då blir det svårt för SBB och alla de som har köpt fastigheter på låga yields, alltså höga värderingar.",
+          "timestamp": "10:56",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "Hög direktavkastning (tidigare)",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "~100 miljarder SEK",
+        "custom": [
+          "10 miljarder lån förfaller detta år",
+          "Direktavkastning nämns som högt"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "OMX30-inträde troligt - köp på rabatt",
+          "Hyror kan fortfarande komma in",
+          "Business kanske inte mår så dåligt som kursen antyder",
+          "Extremt volatil = tradingmöjligheter"
+        ],
+        "bear_case": [
+          "Extremt skuldsatt - 100 miljarder",
+          "Ränteuppgång drabbar hårt",
+          "Risk för överbelåning",
+          "Hög belåning gör aktie volatil",
+          "Hela fastighetssektorn drabbad av räntor",
+          "Värderingen ändras med räntor"
+        ],
+        "catalysts": [
+          "OMX30-inträde",
+          "Eventuell försäljning av tillgångar av Ilya",
+          "Räntebana"
+        ],
+        "risks": [
+          "Oklar exakt belåning pga JVN-strukturer",
+          "Räntor på SBB-instrument skenar",
+          "Blankare pressar kursen",
+          "Risk för att Ilya tvingas sälja till dåligt pris"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Desenius",
+      "ticker": null,
+      "timestamp_start": "17:31",
+      "timestamp_end": "18:27",
+      "word_count": 400,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Desenius har varit väldigt dåliga på att guida och gjorde sin första förlust. Host 2 ser inte köpcaset - ingen edge, ingen teknisk fördel. Hård konkurrens på posters. Om de inte haft skulden hade emission varit superköp. Nu troligtvis emission med sämre villkor.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "Jag ser inte USPen. Jag ser inte deras Edge. Det är annat än om de får stor skal fördelar, men det är rätt hård konkurrens på att göra posters. Det är ingen rocket science.",
+          "timestamp": "17:31",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Skulle de inte haft den här skulden då hade det varit ett superköp i emissionen. Nu känns det som om det blir en emission på 50 år eller nånting. Vilket vore nån form av värdskår när kursen stod i 100.",
+          "timestamp": "17:46",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Och så betalar man av skulden eller så får vi skulden konverteras till aktier och sen har man ett bolag som fram till den senaste två månaderna tjänar pengar, även fast det inte går så bra.",
+          "timestamp": "18:01",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Höga marginaler (förr)",
+        "debt_level": "Skuldsatt",
+        "custom": [
+          "Gjorde första förlust",
+          "Tjänade pengar fram till 2 månader sedan"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Om emission löser skulden kan bolag vara intressant",
+          "Tjänade pengar fram till nyligen",
+          "Potential vid skalbarhet"
+        ],
+        "bear_case": [
+          "Ingen edge eller teknisk fördel",
+          "Hård konkurrens på posters",
+          "Hög skuld gör emission tuff",
+          "Gjorde första förlust"
+        ],
+        "catalysts": [
+          "Emission för att lösa skuld"
+        ],
+        "risks": [
+          "Konkurrens",
+          "Skulden",
+          "Förlustsutfall"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "E-handelssektorn",
+      "ticker": null,
+      "timestamp_start": "14:05",
+      "timestamp_end": "18:27",
+      "word_count": 1200,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Diskussion om e-handelskrasch. Decennio och Peers är skräckexempel. Decennio behöver emission men har inte gjort någon än. Peers fick göra emission 12 månader efter notering. Teori: för många e-handlare som inte gör resultat får svårt att få kapital. Stora vinnare blir direct-to-consumer med community. Konsumenter växlar till upplevelser.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "Och det är inte lika roligt att finansiera en liten e-handlare som har i princip negativt cash flow, torskar pengar och nu i år skralt med tillväxt. Så min tes är att det är alldeles för många e-handlare som inte gör tillräckligt resultat som man kommer ha svårt att få in kapital.",
+          "timestamp": "14:05",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Jag tror att de stora vinnarna framåt blir om du har en egen community eller direct-to-consumer. Det här med boost då att du ska gå in på en sajt och köpa massa replica, något som finns på alla andra sajter. Det blir inte samma känsla.",
+          "timestamp": "15:10",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Det var de stora spelarna som kommer vinna, och många medelstora slash små kommer slås ut. Och speciellt nu, kanske till exempel i sällan köpsvaror, tror jag är lite tuffare.",
+          "timestamp": "16:40",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Men jag tror att man ska bevaka den här sektorn och skilja ut direct-to-consumer och de bolagen som står pallar jämfört med vissa bolag som helt verkade kapacitet.",
+          "timestamp": "18:06",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Negativt cash flow",
+          "Tillväxt minskar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Direct-to-consumer med community vinner",
+          "Stora spelare vinner genom skalbarhet"
+        ],
+        "bear_case": [
+          "För många e-handlare utan resultat",
+          "Svårt att få kapital",
+          "Många medelstora/små slås ut",
+          "Konsumtion växlar till upplevelser inte produkter",
+          "Sällanköpsvaror tuffare"
+        ],
+        "catalysts": [
+          "Ränta upp"
+        ],
+        "risks": [
+          "Finansiering",
+          "Konkurrens",
+          "Konsumtionsmönster"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Tingsvalvet",
+      "ticker": null,
+      "timestamp_start": "18:49",
+      "timestamp_end": "44:27",
+      "word_count": 800,
+      "speakers": [
+        "Host 1",
+        "Host 2",
+        "Håkan Karlsson"
+      ],
+      "primary_speaker": "Håkan Karlsson",
+      "discussion_summary": "Intervju med Håkan Karlsson, VD. Tingsvalvet gör strategiskifte från enfastighet till att bygga portfölj av kommersiella fastigheter i mellan-Sverige. Kassaflödesdrivna med KPI-kopplade hyror. Unitemission med 8% direktavkastning på preferensaktie. Mål 5 miljarder portfölj 2024.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "Man börjar förvärva, utveckla och förvalta en portfölj av fastigheter istället.",
+          "timestamp": "18:57",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Tingsvalvet äger och förvältar kommersiella fastigheter mellan Sverige inom sektorerna lager, logistik, kontor, handel och industri. Och fokuserar på stabila, långa hyresavtal.",
+          "timestamp": "19:14",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Preferensaktien i det här fallet kommer att ge en månadlig utdelning på 2 kronor. Det motsvarar 24 kronor per år. Det är en direktavkastning på 8 procent.",
+          "timestamp": "20:06",
+          "context": "metric"
+        },
+        {
+          "speaker": "Håkan Karlsson",
+          "text": "Kassaflödesdrivna fastigheter är viktiga för oss. Kanske inte fastighetskategorin i första skedet, utan hyresgästen som är viktigt. Så vi fokuserar på hyresgäster, gärna trippelnäthyresavtal, vilket innebär att all drift ligger på hyresgästen, så det ska vara lättförvaltat.",
+          "timestamp": "40:27",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Håkan Karlsson",
+          "text": "Det är klart det påverkar alla fastighetsbolag, men alla våra hyresattal är kopplade till KPI, vilket innebär att när inflationen kommer så och KPI kanske blir 3-4-5 procent här till hösten, så är det bättre än kanske den 100 procentpunkterna som räntemarknaden ger. Så länge vi har KPI med oss och får högre omsättningar så är vi relativt trygga.",
+          "timestamp": "41:43",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Håkan Karlsson",
+          "text": "Målet är att komma upp i 5 miljarder inom två år.",
+          "timestamp": "42:11",
+          "context": "goal"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "8%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "1.4 miljarder idag (före emission)",
+          "Mål 5 miljarder 2024",
+          "45 hyresgäster",
+          "Unitemission 228 miljoner SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "KPI-kopplade hyresavtal skyddar mot inflation",
+          "Kassaflödesdrivna fastigheter",
+          "Lättförvaltat med trippelnäthyresavtal",
+          "Mellan-Sverige: mindre konkurrens",
+          "Mål 5 miljarder portfölj",
+          "Erfaret team grundade Maxfastigheter"
+        ],
+        "bear_case": [
+          "Små och okända bolag",
+          "Hög direktavkastning kan signalera risk",
+          "Fastighetssektor drabbad av räntor"
+        ],
+        "catalysts": [
+          "Tillväxt genom förvärv",
+          "Unitemission finansierar expansion"
+        ],
+        "risks": [
+          "Ränta upp",
+          "Fastighetsmarknad",
+          "Kapitalanskaffning som små bolag"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är väl det här man ska ta till sig det är att tillgångsklassen är inte så, är det hög leverage så är det hög leverage. Och det blir väldigt volatilt. Annars hade kursen inte kunnat gå upp så mycket innan.",
+      "summary": "Hög belåning skapar extrem volatilitet - både upp och ner.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "06:03",
+      "confidence": "high",
+      "tags": [
+        "leverage",
+        "volatility",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Jag tror att de stora vinnarna framåt blir om du har en egen community eller direct-to-consumer. Det här med boost då att du ska gå in på en sajt och köpa massa replica, något som finns på alla andra sajter. Det blir inte samma känsla.",
+      "summary": "E-handeln vinner med direct-to-consumer och community - generiska repliker dör.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "15:10",
+      "confidence": "medium",
+      "tags": [
+        "e-commerce",
+        "d2c",
+        "community"
+      ]
+    },
+    {
+      "quote": "Det var de stora spelarna som kommer vinna, och många medelstora slash små kommer slås ut.",
+      "summary": "I tuffa marknadsvillkor vinner stora spelare genom skalbarhet.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "16:40",
+      "confidence": "high",
+      "tags": [
+        "consolidation",
+        "market-cycles"
+      ]
+    },
+    {
+      "quote": "De sista tio åren så har de hållit väldigt lågt. Nu pratar vi liksom som om att det har haft låg ränta i tio år. Hade du tittat på räntenivåerna så hade du tänkt från 2010 till 2018-2019 så måste det ha varit, om du bara hade fått se den räntescharten och sen får du gissa hur ekonomin och börsen hade sett ut. Då hade du gissat på att det där var ett lost decade. Men det var det inte. Det var värsta högkonjunkturen.",
+      "summary": "Låga räntor skapade högkonjunktur och tillgångsinflation - kontrast till vad räntegrafen föreslog.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "25:54",
+      "confidence": "high",
+      "tags": [
+        "interest-rates",
+        "cycles",
+        "macro"
+      ]
+    },
+    {
+      "quote": "Det finns något som heter kreativ förstöring. Och det är att vissa dåliga bolag måste få gå i konkurs. Men här plötsligt har vi kört någon plan i ekonomi, alla ska räddas.",
+      "summary": "Kreativ förstöring är nödvändig - alla bolag ska inte räddas.",
+      "category": "philosophy",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "28:12",
+      "confidence": "high",
+      "tags": [
+        "creative-destruction",
+        "capitalism"
+      ]
+    },
+    {
+      "quote": "Jag äger några sådana [bolag med kapital] och då känns det bra mycket tryggare. Då får man ju titta vad företaget håller på med och inte vad marknaden håller på med.",
+      "summary": "Bolag med eget kapital är tryggare - fokusera på fundamentals inte marknad.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "34:52",
+      "confidence": "medium",
+      "tags": [
+        "capital-allocation",
+        "focus"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "quote": "Jag är rätt nöjd med min exit här i november. Det känns som att de här kryptovinterna nu alla bolag drar ner. Många har varit överbelånade så det känns som att det här ska nog ridas ut. Det kommer att komma ett fantastiskt köpläge i krypto. Men jag tror inte att det här är den riktiga kryptobotten.",
+      "context": "Diskussion om kryptokrasch och när det kan vara köpläge",
+      "confidence": "medium",
+      "price_levels": [
+        "10,000",
+        "5,000"
+      ],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Episode 376 tar upp mörka moln på marknaden: SBB kraschat från 60 till 17 pga räntor och skulder, e-handelskrasch med Decennio och Peers, rekordinflation, kryptokrash. Host 2 gjorde kort trade i SBB men anser det extremt volatilt. Veckans fil: studera bolagens kapital. Kill: den som säljer rätter sista dagen. Intervju med Tingsvalvets VD om strategiförändring.",
+  "key_takeaways": [
+    "SBB extremt skuldsatt och volatil - tradingmöjligheter men hög risk",
+    "E-handelssektorn konsolideras - stora vinnare, små slås ut",
+    "Räntor upp drabbar högt belånade sektorer som fastigheter",
+    "Focus på bolag med eget kapital i denna miljö",
+    "Bitcoin krasch men köpläge väntar - tror inte på botten än"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2022-06-14-de1b.txt",
+  "transcript_word_count": 8500,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

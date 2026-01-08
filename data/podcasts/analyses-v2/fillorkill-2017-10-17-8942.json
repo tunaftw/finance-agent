@@ -1,0 +1,607 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2017-10-17-8942",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 132 - Ett Muntert Avsnitt (20171017)",
+  "episode_number": 132,
+  "date": "2017-10-17",
+  "hosts": [
+    "Pucketrader",
+    "Long Wolf",
+    "Andersson"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Rapportperioden",
+    "Fingerprint-budryktet",
+    "Tradingpsykologi",
+    "Marknadssentiment"
+  ],
+  "stocks_discussed": [
+    "Fingerprint",
+    "Atlas Copco",
+    "Getinge",
+    "Nordax",
+    "Handelsbanken",
+    "H&M",
+    "Ericsson",
+    "Volvo"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "GLD (Gold ETF)",
+      "ticker": "GLD",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Long Wolf",
+      "speaker_role": "host",
+      "timestamp": "26:14",
+      "reasoning": "Long Wolf äger GLD och tror att guldet ska upp på sex månader. Guldet ses som en bra hedge, särskilt när det är i dollar eftersom dollar är en safe haven. När panik uppstår tenderar både dollar och guld att stärkas samtidigt, vilket ger en dubbeleffekt. Guldet brukar ofta ralla efter att marknadsvolatiliteten har lagt sig.",
+      "price_target": null,
+      "time_horizon": "6 månader",
+      "quote": "Jag tror det ska upp. Jag har ju lite GLD, den ena amerikanska ETFen. Men guldet är ju en bra hedge. Och framförallt är det ju bra när den är i dollar. Eftersom dollar är en safe haven. Så dollar tenderar ju att starkas samtidigt som att guldet går upp. Så du får ju en dubbeleffekt.",
+      "sector": "Råvaror/ETF",
+      "market": "us",
+      "position_context": "Äger positionen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nordax",
+      "ticker": "NAX-SDB",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Multiple hosts",
+      "speaker_role": "host",
+      "timestamp": "17:04",
+      "reasoning": "Sampo och Nordic Capital har gått in som ägare vilket anses vara en fantastisk ägarlista. Stocken har gått upp 20% och beskrivs som en klassiker. Ingen av värdarna äger men flera uttrycker att de skulle vilja äga. Eftersom den redan gått upp 20% är de dock tveksamma att köpa nu, varför klassas som watch snarare än buy.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag äger inga allt. Nej. Nej, jag äger inga heller men jag skulle nog... Ha velat äga in på. Ja, innanför. Det är en klassik. Det håller jag med om. Det hade jag också varit. Nu har den gått upp 20 procent.",
+      "sector": "Bank",
+      "market": "sweden",
+      "position_context": "Ingen position, önskar äga",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Stockholmsbörsen (Index)",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Multiple hosts",
+      "speaker_role": "host",
+      "timestamp": "30:40",
+      "reasoning": "Värdena är extremt låga, index har precis slutat en 13-dagars positiv streak, och marknaden känns oroligt låg volatilitet (fyra punkters range under dagen). Long Wolf har en kort grundposition i index och är orolig att få ta stoppen under rapportperioden. Det spekuleras om att rapportperioden kan avgöra om vi kan ta ett höj till. Värdarna rekommenderar att inte spekulera mot bu eller bär men positioneringen tyder på kort.",
+      "price_target": null,
+      "time_horizon": "Kort sikt",
+      "quote": "Min grundposition är fortfarande kort. Det är lite orolig för mig att man kanske får ta stoppen här under rapportperioden. För att nu när vi håller oss så nära high-nivåerna så krävs det inte så mycket. Men man ska väl vara försiktig, men jag tror inte man ska spekulera emot varken bu eller bär i den här marknaden.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": "Kort grundposition",
+      "downside_note": null,
+      "catalyst_timing": "Rapportperiod"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Fingerprint",
+      "ticker": "FING-B",
+      "timestamp_start": "02:05",
+      "timestamp_end": "07:07",
+      "word_count": 1200,
+      "speakers": [
+        "Pucketrader",
+        "Long Wolf",
+        "Andersson"
+      ],
+      "primary_speaker": "Andersson",
+      "discussion_summary": "Diskussion kring ett kortvarigt budrykte om Fingerprint som dementerades. Aktien gick först upp 6% men stängde oförändrad och föll 4% dagen efter. Detta tolkas som att marknaden inte tror på ryktena eller har lågt förtroende för bolaget. Värdarna diskuterar hur denna rörelse återspeglar marknadens syn på företagets potential och budpremier.",
+      "quotes": [
+        {
+          "speaker": "Andersson",
+          "text": "Det var lite oklart när det kom där, för det kom ju på Blomman, på Bloomberg. Sitter du med en sådan? Nej, och man förstod ingenting. Det bara hände massa grejer, den började flimra nästan kursen. Kom rakt upp sedan rakt ner.",
+          "timestamp": "02:26",
+          "context": "other"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Vad var det som skrev då? Det stod att nåt private equity-bolag hade approcherat storägaren. De hade approchert styrelsen som hade hänvisat till storägaren.",
+          "timestamp": "02:58",
+          "context": "other"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Och vad hände med aktien? Ja, den gick upp 6% och stängde i princip oförändrat och dagen efter går den ner 4%. Så det säger verkligen någonting om antingen hur mycket man tror på de här ryktena för det har varit budrykten innan fram och tillbaka eller hur lite tron är på det här bolaget.",
+          "timestamp": "03:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Jag handlade i ett bolag, det kanske vi pratade om förra veckan, men Subsea kom ju ur ett litet budrikte där, och då var den ju ner 5% och sen så kom budriktet, då var den ju upp nästan, den gick ut 10% på det här, och det är ju ett jättestort bolag det här.",
+          "timestamp": "05:00",
+          "context": "other"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Många har väl säkert hoppats på att bud kanske är det enda sättet att komma ur break even eller plus. Och sen när det faktiskt kanske då är en spelare som är intresserad så... nekar det. Och då visar sig bolaget eller storägaren inte i vilja heller.",
+          "timestamp": "05:25",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Ja, men framförallt så tänker jag att man ser... Jag tror väldigt många tänker att den är på väldigt nedpressade nivåer om det skulle komma att bud nu skulle komma högre. Och det känner man ju själv också. Att budet kommer att vara högre än nu varenda dagskursen.",
+          "timestamp": "03:59",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Om man hade lägat suttit i dränsitsen.",
+          "timestamp": "05:52",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Bolaget är på mycket nedpressade nivåer",
+          "Teknologivärde med extremt mycket patent",
+          "Potentiell budpremie om någon intressent skulle kliva in"
+        ],
+        "bear_case": [
+          "Lågt förtroende för bolaget baserat på kursreaktionen på ryktet",
+          "Många ägare kan ha köpt i högre priser och väntar på bud för att gå plus",
+          "Budryktet dementerades snabbt vilket visar att intresset svalnade",
+          "Blankare flaggar och kortar mer, vilket tyder på negativt sentiment"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Lågt förtroende för bolaget och dess ledning",
+          "Teknisk risk från Face ID som kan göra fingerprint-teknologi föråldrad",
+          "Fortsatta nedgångar om budrykten inte materialiserar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Atlas Copco",
+      "ticker": "ATCO-A",
+      "timestamp_start": "07:26",
+      "timestamp_end": "10:01",
+      "word_count": 900,
+      "speakers": [
+        "Pucketrader",
+        "Long Wolf",
+        "Andersson"
+      ],
+      "primary_speaker": "Multiple",
+      "discussion_summary": "Atlas ska rapportera imorgon. Det är en av favoritrapporterna men förväntningarna är extremt höga. Bolaget handlas på P30 för innevarande år, 25 för nästa, vilket anses väldigt dyrt. Förra rapporten var den bästa någonsin men aktien föll 7% ändå. För att rättfärdiga en uppgång krävs att de slår konsensus och höjer guidance. En potentiell spin-off kan ge bränsle till aktien.",
+      "quotes": [
+        {
+          "speaker": "Andersson",
+          "text": "Atlas är väl en av favoritrapporterna. Man kan handla Sandvik som spread emot och de sätter väl lite av hela verkstadssentimentet. Och den är väl några procent under sitt all time height, så man får säga att förväntningarna är lagom höga i alla fall.",
+          "timestamp": "07:26",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Sjuöga skulle jag säga. Extremt höga, med tanke på hur kronan har gått sen förra kvartalet. Man kan väl se att de handlas väl P30 innanvarande år, 25 eller något för nästa. Det är dyrt, väldigt dyrt.",
+          "timestamp": "07:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Man kan väl se att det är en ganska liknande lineup som inför förra rapporten. Då följde den 7 procents, trots att det var den bästa rapporten någonsin.",
+          "timestamp": "07:54",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Jag har läst en liten inför-kommentar som direktorn hade sammanställt. Då var det Royal Bank of Canada sa att de behöver både slå konsensusiffrorna och att utsikterna behöver nog höjas. Att den förra guidningen som var sidledes efterfrågan, den måste nog höjas för rättfärdiga en substansiell uppgång.",
+          "timestamp": "08:29",
+          "context": "metric"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Men för att vara positiv kan man se, två saker som jag skulle kunna vara trigger. Det är ju att de uppar guidance, alltså utsikterna höjs. Det skulle faktiskt kunna ske. Och sen så är det ju nummer två, det är den här delningen, spin-offen, att den skulle kunna ge något bränsle.",
+          "timestamp": "09:40",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Nilfisk och NKT delades ju under den här veckan sen vi spelade in senast. Och det blev ju ett plus ett blivit tre där. Så de har ju fått ännu lite mer bränsle på den här uppdelningspartiet som pågår på börsen.",
+          "timestamp": "09:48",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Förra rapporten var ju den bästa någonsin. Den höll inte måttet. Några kronan starkt, rätt mycket sen dess. Aktierna är på ungefär samma nivåer, nära Old Town High-nivåer och kommer det då räcka med en okej rapport som kanske inte är bättre än den förra som var den bästa någonsin? Det blir jättesvårt.",
+          "timestamp": "08:59",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "P30 innevarande år, 25 för nästa år",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Bästa rapporten någonsin senaste",
+          "Potentiell guidance-höjning",
+          "Spin-off kan ge uppgång",
+          "Marknadstrend för uppdelningar som driver värdeökning"
+        ],
+        "bear_case": [
+          "Extremt höga förväntningar (P30)",
+          "Förra bästa rapporten föll 7% ändå",
+          "Kursen på nära all-time high",
+          "Kronan har stärkts vilket kan påverka negativt",
+          "Förväntningarna är så höga att det blir svårt att överträffa"
+        ],
+        "catalysts": [
+          "Rapport imorgon",
+          "Guidance-höjning",
+          "Spin-off",
+          "Kronans utveckling"
+        ],
+        "risks": [
+          "Valutarisk",
+          "Höga förväntningar gör det svårt att överträffa",
+          "Marknadsreaktion på valutarörelser"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Getinge",
+      "ticker": "GETI-B",
+      "timestamp_start": "10:06",
+      "timestamp_end": "12:32",
+      "word_count": 900,
+      "speakers": [
+        "Pucketrader",
+        "Long Wolf",
+        "Andersson"
+      ],
+      "primary_speaker": "Multiple",
+      "discussion_summary": "Getinge är extremt nedtryckt och klassas som ett value case. Bennett är storägare och tecknade fullt i nyemissionen till samma kurs som aktien handlades före. Bolaget håller på med en uppdelning och har haft problem med FDA. Värdarna diskuterar potentialen i ett styckningscase men noterar stökigt med VD-byte och managementproblem. Kursen är mycket volatile på rapporter.",
+      "quotes": [
+        {
+          "speaker": "Andersson",
+          "text": "Getinge, och där har de ju samma case, Arjo, i det man ska kolla efter när jag har läst runt lite inför rapporten. Och det är ju deras nya uppdelning, som håller på med sjukhussängar, seksigt nog.",
+          "timestamp": "10:06",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Just den där har vi verkligen fått åka berg- och dalbana kursen också. Den känns jättesvår att säga om faktiskt, men samtidigt den är extremt nedtryckt, så minsta lilla positiva grej kan ju faktiskt gå.",
+          "timestamp": "10:53",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Det är väl ett vänlingscase, och Bennet var ju på något sätt ganska tight kurs, satte i nyemissionen mot kursen handlas innan, och han var ju beredd att teckna fullt på det priset.",
+          "timestamp": "11:08",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Han är ju storägare som innan, så jo jo, men han hade kunnat sätta kursen lägre om han ville få in massor av det. Han hade kunnat sälja också. Men det är rätt intressant nu när de spinnar av grejer, för Getinge har alltid pratat om mig som ett perfekt styckningscase för att jag har varit rätt oeffektivt. Nu gör de det själva istället, så det borde ju gynna kursen på sikt.",
+          "timestamp": "11:20",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "De har väl hållit på med en massa olika vd-are i min känsla, så det har ju verkligen varit stökigt, så det finns ju potential om de får ihop alla puss och bitar.",
+          "timestamp": "11:48",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Men det känns lite som att Bennett är lite patron, att han är the his way som gäller, och då är det nog svårt att hitta vd-ar som båda vågar... Antingen blir man guldkalv. Antingen blir det den här påläggskalven som har varit i Ola under Melker Körling, att de har bra personkemi och då håller det livet ut. Eller så blir det några vändor med lite olika för att hitta rätt. Det är väl där getingen är just nu.",
+          "timestamp": "11:55",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Man vet ju inte, om de får ordning på det där bygget så kan det ju faktiskt bli bra. Men tills dess har kursen visat att det ser lite mörkt ut. Och tenderar att vara jäkligt volatile på rapporterna.",
+          "timestamp": "12:18",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Extremt nedtryckt värdering (value case)",
+          "Bennett som storägare tecknade fullt i nyemission",
+          "Uppdelning/spin-off kan skapa värde",
+          "Bolaget har historiskt setts som perfekt styckningscase",
+          "Potential om de får ordning på verksamheten"
+        ],
+        "bear_case": [
+          "Stökigt med många VD-byten",
+          "Kursen har visat att det ser mörkt ut",
+          "Väldigt volatile på rapporter",
+          "Bennetts dominans kan göra det svårt att hitta rätt VD",
+          "Historiska problem med FDA"
+        ],
+        "catalysts": [
+          "Kommande rapport",
+          "Uppdelning av verksamheten",
+          "Ordning på management och struktur",
+          "Nytt VD-val"
+        ],
+        "risks": [
+          "Fortsatta managementproblem",
+          "FDA-relaterade problem",
+          "Negativa överraskningar i rapporter",
+          "Uppdelningen kanske inte levererar värde"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Marknaden generellt",
+      "ticker": null,
+      "timestamp_start": "27:51",
+      "timestamp_end": "32:25",
+      "word_count": 800,
+      "speakers": [
+        "Pucketrader",
+        "Long Wolf",
+        "Andersson"
+      ],
+      "primary_speaker": "Multiple",
+      "discussion_summary": "Diskussion kring marknadssentiment och strategi inför rapportperioden. Index har slutat en 13-dagars positiv streak och volatiliteten är historiskt låg. Det är både lösenvecka och rapportvecka. Värdarna rekommenderar optioner på grund av låga priser. Man ska inte spekulera mot bu eller bär i denna marknad.",
+      "quotes": [
+        {
+          "speaker": "Andersson",
+          "text": "Index har väl på något sätt slutat den här 13 dagar i rad-streaken. Man har ju på något sätt kommit in i en sån här vagga där vi satt på kontoret idag och index var ner 0,3 och man driver lite om att världen går under och kommer Stockholms bostadsmarknaden klara av när börsen är ner 0,3. Man har helt tappat förtroendet för att börsen kan gå ner i huvud taget.",
+          "timestamp": "27:51",
+          "context": "metric"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Det finns ingen volla. Idag var det fyra punkter range index peladana. För mig är det väl att HSE har lagt sig, nu kommer rapportperioden att avgöra om vi kan ta ett lägg till.",
+          "timestamp": "28:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Jag skulle säga att vi går ändå in i en väldigt stark kalenderperiod, så fram till nyårsskiftet har vi säkert tagit åt som high i den här kalendereffekten. Kalendereffekten är ju helt sinnessjuk från oktober till mars.",
+          "timestamp": "29:08",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Men man ska väl vara försiktig, men jag tror inte man ska spekulera emot varken bu eller bär i den här marknaden. Nej, om så är det ju att det är lösen vecka och rapportvecka, och vollan är historiskt låg. Så att bara där ska man spekulera, så ska man väl antagligen göra det med optioner eller nånting.",
+          "timestamp": "30:40",
+          "context": "other"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Ja, jag har köpt lite olika optioner. Sekt, redan nu? Ja, så jag hoppas att det ska hända åt slutet av veckan.",
+          "timestamp": "31:00",
+          "context": "other"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Men killen är väl att man kunde... Det var mycket lägre än dem, man missade dem. Men överlag så är optionerna billiga, det är lösen på fredag, en stor del av index rapporterar på fredag. Så det kan faktiskt bli rätt roligt. Eller så blir det skittrist, som det har varit någon gång innan för länge sen, att ingenting rör på sig knappt.",
+          "timestamp": "32:02",
+          "context": "other"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Ja, filen är definitivt efter fredag. Det kommer att vara hukesmäst. Med alla roliga som kan röra sig rejält också, med Eriksson som aldrig vinstvarnar. Och som har uppsida i att de kanske styckar skräpet. Så att vem vet.",
+          "timestamp": "32:38",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Long Wolf",
+          "text": "Sen killen är väl att vollaren är så låg. Det är sjukt tråkigt.",
+          "timestamp": "32:10",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "13-dagars positiv streak bruten",
+          "4 punkters range på index",
+          "Historiskt låg volatilitet"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark kalendereffekt oktober-mars",
+          "Många rapporter på fredag kan skapa rörelse",
+          "Banker handlas på lågt P/T (nära 10)",
+          "H&M och Ericsson kan vända",
+          "Optioner är billiga"
+        ],
+        "bear_case": [
+          "Historiskt låg volatilitet",
+          "Kurserna på höga nivåer",
+          "Många ligger snett i marknaden",
+          "Kan bli 'skittrist' om inget rör på sig"
+        ],
+        "catalysts": [
+          "Rapportperiod",
+          "Lösenvecka",
+          "Kalendereffekt",
+          "Potentiella styckningar"
+        ],
+        "risks": [
+          "Låg volatilitet kan göra optionsaffärer lönlösa",
+          "Höga värderingar",
+          "Rapporter kan missa förväntningar"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag läste någon studie där, jag kommer inte ihåg exakta siffror, men det var något om att när en förvaltare fick börja handla online, kontra att man ringde in ordrarna, så minskade årsavkastningen upp till 2% med den här studien. Det ligger någonting i det, man sitter och stirrar på någonting hela tiden, så påverkar det ens beteendemönster.",
+      "summary": "Konstant övervakning av positioner kan sänka avkastning genom emotionell påverkan och ökad aktivitet.",
+      "category": "lesson",
+      "speaker": "Long Wolf",
+      "speaker_role": "host",
+      "timestamp": "18:19",
+      "confidence": "high",
+      "tags": [
+        "psychology",
+        "overtrading",
+        "performance"
+      ]
+    },
+    {
+      "quote": "Det är klart att någon gång är man ju att man har fel, men det beror på vart man bestämmer sig för. Okej, där, då är jag helt fel ut det. Men man kan också nämna att Jesse Livermore skrev mycket det, att man ska... No when to trade skrev jag. Har man flytt i marknaden så är det väl för att marknaden passar dig. Och då ska man väl köra på. Men har man inte flytt i marknaden, man får fel och liknande, då kanske man ska ta ett steg tillbaka.",
+      "summary": "Om man inte presterar bra i marknaden bör man ta ett steg tillbaka snarare än att kämpa emot.",
+      "category": "wisdom",
+      "speaker": "Long Wolf",
+      "speaker_role": "host",
+      "timestamp": "21:31",
+      "confidence": "high",
+      "tags": [
+        "market_timing",
+        "discipline",
+        "knowing_when_to_stop"
+      ]
+    },
+    {
+      "quote": "Det handlar faktiskt bara om pengar. Det handlar bara om pengar. Vad du tjänar dem på är helt ointressant. Utan pengarna ska in bara. Det är väl det man måste... Det ska man ju egentligen skriva upp och ha framför sig. Det spelar ingen roll vad det är du har torskat dig eller vad det är du tjänar i. Om det är så i bitcoins eller något annat. Så länge det är pengar in.",
+      "summary": "Fokus ska ligga på att tjäna pengar, inte på att 'vinna tillbaka' förluster i specifika positioner.",
+      "category": "philosophy",
+      "speaker": "Long Wolf",
+      "speaker_role": "host",
+      "timestamp": "22:10",
+      "confidence": "high",
+      "tags": [
+        "capital_preservation",
+        "focus",
+        "trading_mindset"
+      ]
+    },
+    {
+      "quote": "Jag tror mer man ska isolera varje händelse i sig.",
+      "summary": "Varje trade bör bedömas separat, inte kopplas till tidigare resultat.",
+      "category": "philosophy",
+      "speaker": "Long Wolf",
+      "speaker_role": "host",
+      "timestamp": "23:10",
+      "confidence": "high",
+      "tags": [
+        "trade_management",
+        "psychology",
+        "independence"
+      ]
+    },
+    {
+      "quote": "Att ta tillbaka vägen måste du öka sizeen, och om du har fel engång så... Varför skulle du ha rätt mest? Ja, och det är ju det där som är problemet.",
+      "summary": "Att försöka ta igen förluster genom att öka positionsstorleken ökar risken dramatiskt.",
+      "category": "lesson",
+      "speaker": "Long Wolf",
+      "speaker_role": "host",
+      "timestamp": "19:37",
+      "confidence": "high",
+      "tags": [
+        "risk_management",
+        "position_sizing",
+        "psychology"
+      ]
+    },
+    {
+      "quote": "Guldet är ju en bra hedge. Och framförallt är det ju bra när den är i dollar. Eftersom dollar är en safe haven. Så dollar tenderar ju att starkas samtidigt som att guldet går upp. Så du får ju en dubbeleffekt.",
+      "summary": "Guld i dollar ger en dubbel hedge-effekt eftersom både guld och dollar tenderar att stärkas i oroliga tider.",
+      "category": "wisdom",
+      "speaker": "Long Wolf",
+      "speaker_role": "host",
+      "timestamp": "26:40",
+      "confidence": "medium",
+      "tags": [
+        "gold",
+        "hedging",
+        "safe_haven"
+      ]
+    },
+    {
+      "quote": "Om du tar någon av de största shortceller-guruserna i världen, när genererar de alpha? Det är visst att de kan generera alpha i uppfokonande trend också, då är de verkligen gurus, men det enklaste sättet att generera alpha, om du är kort, är ju om marknaden överlag faller skulle jag säga.",
+      "summary": "Det enklaste sättet för en shortare att generera alpha är när marknaden faller, men riktiga gurus kan generera alpha i alla marknadsmiljöer.",
+      "category": "wisdom",
+      "speaker": "Long Wolf",
+      "speaker_role": "host",
+      "timestamp": "24:32",
+      "confidence": "high",
+      "tags": [
+        "short_selling",
+        "alpha",
+        "market_conditions"
+      ]
+    },
+    {
+      "quote": "Så om man gillar att tjäna pengar i småbolag, då måste man ha en hos, småbolagshos. Alla tröder sig i olika, så det är klart att det finns en marknad som passar en själv. Det är det som är om man, till slut, ska bli snabbare och snabbare på att känna igen sin marknad och då utnyttja det. Helt enkelt.",
+      "summary": "Identifiera vilken marknad som passar din tradingstil och fokusera på den.",
+      "category": "wisdom",
+      "speaker": "Long Wolf",
+      "speaker_role": "host",
+      "timestamp": "24:58",
+      "confidence": "high",
+      "tags": [
+        "trading_style",
+        "market_selection",
+        "specialization"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet fokuserar på den kommande rapportperioden med Atlas och Getinge som huvudfokus. Det finns en diskussion kring Fingerprint-budryktet som snabbt dementerades. Marknaden beskrivs som extremt lugn med historiskt låg volatilitet men värdarna är positiva till optioner inför lösen- och rapportveckan. Det finns en rekommendation att köpa guld (GLD) som hedge och Nordax klassas som watch efter att Sampo och Nordic Capital gått in.",
+  "key_takeaways": [
+    "Atlas och Getinge rapporterar med extremt höga förväntningar",
+    "Fingerprint-budrykte dementerades men visade på lågt förtroende för bolaget",
+    "Marknadsvolatiliteten är historiskt låg",
+    "Optioner är billiga inför lösen- och rapportveckan",
+    "Guld ses som bra hedge och rekommenderas",
+    "Nordax får ny starkt ägare men kursen redan upp 20%",
+    "Kalendereffekten oktober-mars anses vara mycket positiv"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2017-10-17-8942.txt",
+  "transcript_word_count": 5421,
+  "has_timestamps": true,
+  "model_used": "claude-3.5-sonnet"
+}

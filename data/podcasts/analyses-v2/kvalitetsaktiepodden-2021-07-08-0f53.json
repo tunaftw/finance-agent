@@ -1,0 +1,606 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kvalitetsaktiepodden-2021-07-08-0f53",
+  "podcast_name": "Kvalitetsaktiepodden",
+  "episode_title": "Avsnitt 96 - 12 \"snabba\" frågor",
+  "episode_number": 96,
+  "date": "2021-07-08",
+  "hosts": [
+    "Ola",
+    "Claes"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Investeringsfilosofi",
+    "Utdelningar",
+    "Etik",
+    "Värdering av snabbväxande bolag",
+    "Rekommenderade böcker",
+    "Positionsstorlek"
+  ],
+  "stocks_discussed": [
+    "EVO",
+    "Fortnox",
+    "BTS",
+    "Systemair",
+    "NIBE",
+    "Adnode",
+    "Sectra",
+    "ICA"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "EVO (Evolution Gaming)",
+      "ticker": "EVO",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Ola & Claes",
+      "speaker_role": "host",
+      "timestamp": "32:20",
+      "reasoning": "Kritisk till bolag med extremt hög tillväxt och extremt hög värdering. Om EVO skulle ha 60% tillväxt i tio år skulle bolaget värderas högre än Microsoft och Apple - vilket är orimligt. Det är extremt osannolikt att ett bolag kan hålla denna tillväxtnivå över så lång tid. Vi vågar aldrig betta på att extrem tillväxt fortsätter tillräckligt länge.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Om vi var 100% säkra på att det skulle fortsätta 10 år med 60% tillväxt, ja, då skulle vi köpa EVO direkt idag. Däremot om man gör den kalkylen med EVO så var det ju ett börsvärde, om de nu ska fortsätta röra sig uppåt här så var det ett börsvärde som vida översteg Microsoft och Apple. Är det rimligt då? Det tror inte vi.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FOX",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Ola & Claes",
+      "speaker_role": "host",
+      "timestamp": "43:52",
+      "reasoning": "Fortnox är ett kvalitetsbolag med kontinuerlig hög tillväxt (omsättning växer 33%, vinst 49%). Men aktien handlas till PE mellan 100-150 vilket är extremt dyrt. Det är inte rimligt att växa så extremt snabbt över lång tid. Vi gillar inte P100-bolag i buy and hold-portföljer eftersom det är svårt att räkna hem investeringen över tid.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ska man kunna ta Buffett här? Varför försöka hoppa 10 meter i höjd? Jag säger världsrekord då. Ja det är över världsrekord i höjd i alla fall om det här ska gå hem. Mot att bara hoppa 20 cm många gånger.",
+      "sector": "SaaS",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "BTS (Beijer Ref)",
+      "ticker": "BEIJ-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "01:05:11",
+      "reasoning": "Ett kanonfint bolag med hög, snabb tillväxt och välskött. Mycket tillväxt kvar finns det. Men inget vi kan köpa idag på grund av för hög värdering. Gärna ägd om värderingen vore rimlig.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ett brukar vi alltid ha med nästan BTS, det brukar vi ha uppe. Hög, snabb tillväxt och välskött. Mycket tillväxt kvar tror vi. Inget vi kan köpa över huvud taget idag, sett till värdering, men kanonfina bolag.",
+      "sector": "Kyla",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Systemair",
+      "ticker": "SYSR",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "01:05:11",
+      "reasoning": "Kanonfint bolag som gillar väldigt mycket. Men inget vi kan köpa idag på grund av för hög värdering. Gärna ägd om värderingen vore rimlig.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Systemair gillar vi, kanonfint bolag. Inget vi kan köpa över huvud taget idag, sett till värdering, men kanonfina bolag.",
+      "sector": "Ventilation",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "NIBE",
+      "ticker": "NIBE-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "01:05:11",
+      "reasoning": "Jättefint bolag som gillar väldigt mycket. Men inget vi kan köpa idag på grund av för hög värdering. Gärna ägd om värderingen vore rimlig.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nibe gillar vi, jättefint bolag. Inget vi kan köpa över huvud taget idag, sett till värdering, men kanonfina bolag.",
+      "sector": "Värmepumpar",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Adnode",
+      "ticker": "ANOD-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "01:05:11",
+      "reasoning": "Kanonfint bolag med hög tillväxt. Men inget vi kan köpa idag på grund av för hög värdering. Gärna ägd om värderingen vore rimlig.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Adnode ska vi upp här, kanonfint bolag, hög tillväxt. Inget vi kan köpa över huvud taget idag, sett till värdering, men kanonfina bolag.",
+      "sector": "SaaS",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sectra",
+      "ticker": "SECT-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "01:05:11",
+      "reasoning": "Kanonfint bolag. Men inget vi kan köpa idag på grund av för hög värdering. Gärna ägd om värderingen vore rimlig.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Sectra fick bli mitt femte. Inget vi kan köpa över huvud taget idag, sett till värdering, men kanonfina bolag.",
+      "sector": "Sjukvårdsteknologi",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "ICA",
+      "ticker": "ICA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:06:08",
+      "reasoning": "Extremt stark position och stabilitet. Kan ta 3% direktavkastning. Nersidan är minimalt trolig. Men låg tillväxt och bedöms som övervärderad i nuläget.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men jag förstår det om du är oerhört riskavert. Nersidan känns att de skulle fallera totalt, det kan ju liksom, Adnode och BTS, det kan ju hända något, men Ica känns ju oerhört osannolikt.",
+      "sector": " detaljhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "EVO (Evolution Gaming)",
+      "ticker": "EVO",
+      "timestamp_start": "27:41",
+      "timestamp_end": "35:22",
+      "word_count": 800,
+      "speakers": [
+        "Ola",
+        "Claes"
+      ],
+      "primary_speaker": "Ola & Claes",
+      "discussion_summary": "Diskuterar huruvida ett bolag med extremt hög tillväxt och värdering kan vara ett bra köp. Använder EVO som exempel på bolag med 60% vinsttillväxt och PE på 35+. Slutsats är att det är orimligt att växa så extremt snabbt över 10 år, och att höga värderingar förutsätter att tillväxten ska fortsätta vilket är osannolikt.",
+      "quotes": [
+        {
+          "speaker": "Ola",
+          "text": "Om vi var 100% säkra på att det skulle fortsätta 10 år med 60% tillväxt, ja, då skulle vi köpa EVO direkt idag.",
+          "timestamp": "32:20",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Om de nu ska fortsätta röra sig uppåt här så var det ett börsvärde som vida översteg Microsoft och Apple. Är det rimligt då? Det tror inte vi.",
+          "timestamp": "32:23",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Desto högre tillväxt desto svårare tycker vi det är att upprätthålla det här över lång tid.",
+          "timestamp": "32:33",
+          "context": "risk"
+        },
+        {
+          "speaker": "Ola",
+          "text": "Vi vågar aldrig betta på att den här extrema tillväxten ska fortsätta tillräckligt länge, helt enkelt.",
+          "timestamp": "34:56",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "35+",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "60%",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Historiskt mycket stark tillväxt",
+          "Kanonfint bolag"
+        ],
+        "bear_case": [
+          "Omöjligt att växa 60% i tio år",
+          "Börsvärde skulle överstiga Microsoft och Apple om så",
+          "Marknadsstorlek sätter gränser"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Tillväxten kommer mattas av",
+          "Konkurrens uppstår"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FOX",
+      "timestamp_start": "43:04",
+      "timestamp_end": "47:13",
+      "word_count": 650,
+      "speakers": [
+        "Ola",
+        "Claes"
+      ],
+      "primary_speaker": "Ola & Claes",
+      "discussion_summary": "Lyssnare frågar om Fortnox som handlas till PE 100-150 trots stark vinst- och omsättningstillväxt. Hosts svarar att extremt högt värderade snabbväxande bolag med PE 100-150 inte passar i deras strategi eftersom det kräver orimlig tillväxt över lång tid.",
+      "quotes": [
+        {
+          "speaker": "Lyssnare (Fredrik)",
+          "text": "Jag köpte en aktie Fortnox för tio år sen för 251 kronor! Som nu handlas för 400 kronor!...Omsättningen växer 33 procent och vinsten 49 procent. Och den här aktien handlas nu till ett p-tal mellan 100 och 150.",
+          "timestamp": "43:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ola",
+          "text": "Det blir ju samma som frågan här om Evo lite. Vi gillar att betta på att bolagshistorik är en bra prognos för framtiden, men det gäller inte de här extremväxlarna.",
+          "timestamp": "43:52",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Ska man kunna ta Buffett här? Varför försöka hoppa 10 meter i höjd? Ja det är över världsrekord i höjd i alla fall om det här ska gå hem.",
+          "timestamp": "47:49",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "100-150",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "33%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Vinsttillväxt 49%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kvalitetsbolag med kontinuerlig hög tillväxt",
+          "Omsättningstillväxt 33%",
+          "Vinsttillväxt 49%"
+        ],
+        "bear_case": [
+          "PE 100-150 är extremt dyrt",
+          "Omöjligt att växa så extremt snabbt över lång tid",
+          "Marknaden förväntar sig 50-100% tillväxt"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Tillväxten mattas av",
+          "Konkurrens eller marknadsproblem"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Vi räknar ju fram en vinst per aktie utifrån antagande kommande år, men säkra på det är vi absolut inte, utan det är ju någon prognos. Sen så investerar vi med en margin of safety på minst 20% för att vi vet att vi måste ha täckning för de fall där vi har varit för optimistiska helt enkelt.",
+      "summary": "Använd alltid en margin of safety på minst 20% för att täcka prognosfel.",
+      "category": "philosophy",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "40:07",
+      "confidence": "high",
+      "tags": [
+        "margin of safety",
+        "risk management",
+        "valuation"
+      ]
+    },
+    {
+      "quote": "Snabbväxande bolag, det vill säga liksom över 20 procent tillväxt per år, kan ofta inte hålla den typen av tillväxt uthålligt. Men när du börjar komma upp på large cap och mid cap, då ska det mycket till för att hålla de här extrema tillväxttalen under många, många, många år.",
+      "summary": "Extremt snabbväxande bolag kan sällan hålla tillväxten över lång tid.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "30:48",
+      "confidence": "high",
+      "tags": [
+        "growth",
+        "large cap",
+        "sustainability"
+      ]
+    },
+    {
+      "quote": "Vi utgår från samma data som börsdata. I grund och botten handlar det egentligen om att följa omsättning och rörelsemarginal i bolag och sen så lägga en prognos för kommande fyra kvartal också.",
+      "summary": "Fokusera på omsättning och rörelsemarginal för att värdera bolag.",
+      "category": "philosophy",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "20:38",
+      "confidence": "high",
+      "tags": [
+        "valuation",
+        "fundamentals",
+        "analysis"
+      ]
+    },
+    {
+      "quote": "Omsättning och rörelsemarginal och så försöker vi få ner det till vinst per aktie. Då vill man ta hänsyn också till eventuella räntekostnader och skatt.",
+      "summary": "Använd omsättning och rörelsemarginal som grund, justera för ränta och skatt för att nå vinst per aktie.",
+      "category": "philosophy",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "20:47",
+      "confidence": "high",
+      "tags": [
+        "valuation",
+        "fundamentals"
+      ]
+    },
+    {
+      "quote": "Historik är en viktig faktor. Om vi kommer till tillväxt och värdering då så kan man ju säga att snabbväxande bolag, det vill säga liksom över 20 procent tillväxt per år, kan ofta inte hålla den typen av tillväxt uthålligt.",
+      "summary": "Förlita dig på historik men var skeptisk till extremt hög tillväxt.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "30:06",
+      "confidence": "high",
+      "tags": [
+        "growth",
+        "history",
+        "valuation"
+      ]
+    },
+    {
+      "quote": "Vi har absolut inga krav på utdelning. Vi har väl till och med sagt någon gång att vi gillar när bolag investerar. Det är ju ett styrketecken att ha avsättning för sina vinstmedel i bolaget.",
+      "summary": "Utdelning är inget krav - återinvestering i bolaget kan vara lika bra.",
+      "category": "philosophy",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "06:01",
+      "confidence": "high",
+      "tags": [
+        "dividends",
+        "capital allocation",
+        "reinvestment"
+      ]
+    },
+    {
+      "quote": "Vi har ju faktiskt 5% som han sa här. Som en nedre gräns när vi har bestämt oss för att investera. Men när vi väl har bestämt oss, vi har hittat case vi tror på, då är det ju 5% som är, annars tycker vi det blir...Ska man lägga ner ett massa tid och följa ett bolag när det oavsett utveckling blir en så oerhört liten påverkan på totala portföljen? Det känns inte meningsfullt faktiskt.",
+      "summary": "Ha minimum 5% positioner för att det ska vara värd tiden att följa bolaget.",
+      "category": "philosophy",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "37:10",
+      "confidence": "high",
+      "tags": [
+        "position sizing",
+        "portfolio management",
+        "efficiency"
+      ]
+    },
+    {
+      "quote": "Vore inte EV-EBIT eller EV-EBITDA ett bättre mått? Nej, vi är absolut inte tvärsäkra på E1 när vi analyserar. Det är därför vi använder oss av margin of safety...Vi tycker definitivt inte att PIA-talet är nån friseringsmått direkt, utan vi tycker snarare att EBITDA är där det friseras mest i bolagen.",
+      "summary": "Vinst per aktie är bättre än EBITDA eftersom det svårare att manipulera över tid.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "40:13",
+      "confidence": "high",
+      "tags": [
+        "EBITDA",
+        "EPS",
+        "manipulation",
+        "accounting"
+      ]
+    },
+    {
+      "quote": "Justerad EBITDA är det värsta vi tycker. Bullshit earnings. Vi gillar vinst per aktie över tid. Jag ber om ursäkt för att jag förvirrade det lite. Jag ville så gärna säga att det är nästan omöjligt att över tid manipulera vinst per aktie.",
+      "summary": "Agera EBITDA - det är lätt att manipulera. EPS visar sanningen över tid.",
+      "category": "wisdom",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "42:12",
+      "confidence": "high",
+      "tags": [
+        "EBITDA",
+        "EPS",
+        "earnings quality"
+      ]
+    },
+    {
+      "quote": "Jag tror vi måste införa någonting som istället för ränta på ränteffekten kallar tillväxt på tillväxteffekten. När du lägger orimliga tillväxtförväntningar på redan otroligt hög tillväxt, det blir helt omedelbart lika mycket som ränta på ränta är ett underverk. Så är tillväxt på tillväxt ofta helt orimliga.",
+      "summary": "Tillväxt på tillväxt kan bli orimlig raskt - var skeptisk till extrem tillväxtförväntning.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "45:36",
+      "confidence": "high",
+      "tags": [
+        "growth",
+        "expectations",
+        "valuation"
+      ]
+    },
+    {
+      "quote": "Det är därför vi sällan, vi tror att, som vi sa, vi lutar oss mycket på historiken, men det är bolag med rimlig tillväxt, det vill säga tillväxt som ungefär snittbolaget har över tid, ett moget bolag.",
+      "summary": "Föredra mogna bolag med rimlig tillväxt snarare än extremväxlare.",
+      "category": "philosophy",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "31:05",
+      "confidence": "high",
+      "tags": [
+        "mature companies",
+        "growth",
+        "value investing"
+      ]
+    },
+    {
+      "quote": "Vi har ju liksom ingen slutdestination om det är det man menar här att när vi har uppnått x antal pengar så ska vi gå i pension. Det har vi ju inget sådant slutmål utan vår tanke är väl att jobba med det här resten, eller så länge vi trivs med, och tycker det är roligt.",
+      "summary": "Investera för att det är kul, inte för att nå ett specifikt pengamål.",
+      "category": "philosophy",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "57:03",
+      "confidence": "high",
+      "tags": [
+        "purpose",
+        "enjoyment",
+        "long-term"
+      ]
+    },
+    {
+      "quote": "Många fonder utvärderar sig mot index och vill inte avvika negativt för mycket. Och då blir det ganska fort index för du vågar inte ta för sticka ut poster.",
+      "summary": "Fonder tenderar bli indexnära för att undvika negativ avvikelse.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:03:41",
+      "confidence": "high",
+      "tags": [
+        "funds",
+        "index tracking",
+        "risk aversion"
+      ]
+    },
+    {
+      "quote": "Vi mäter oss, eller åtminstone tanken är alltid att vi ska vara bäst på riskjusterad avkastning. Det är vår utgångspunkt när vi investerar. Inte avkastning ett enskilt år eller så utan riskjusterad avkastning över tid.",
+      "summary": "Fokusera på riskjusterad avkastning över tid, inte kortsiktig avkastning.",
+      "category": "philosophy",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:04:27",
+      "confidence": "high",
+      "tags": [
+        "risk-adjusted returns",
+        "long-term",
+        "risk management"
+      ]
+    },
+    {
+      "quote": "Det är klassiska kinesiska ortspråket. Det är bättre att fråga och verka dum än att inte fråga och förbli dum.",
+      "summary": "Fråga hellre och verka dum än att inte fråga och förbli dum.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:08:13",
+      "confidence": "high",
+      "tags": [
+        "learning",
+        "humility",
+        "questions"
+      ]
+    },
+    {
+      "quote": "När man gör en konservativ uppskattning. Sen så har vi margin of safety på det så att vi ska täcka upp om vi ändå har varit lite för optimistiska.",
+      "summary": "Var konservativa i prognoser och använd margin of safety.",
+      "category": "philosophy",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "40:33",
+      "confidence": "high",
+      "tags": [
+        "conservative",
+        "margin of safety",
+        "projections"
+      ]
+    },
+    {
+      "quote": "Och är det mer än 20% lägre än nuvarande värde? Då tycker vi att det kan vara tillräcklig margin of safety för att köpa det här bolaget då.",
+      "summary": "Köp när värdering är 20% under beräknat värde.",
+      "category": "philosophy",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "23:32",
+      "confidence": "high",
+      "tags": [
+        "margin of safety",
+        "valuation",
+        "buy criteria"
+      ]
+    },
+    {
+      "quote": "Det är därför vi sällan investerar i bolag med P50 som växer fort. Det är inte svårare än så.",
+      "summary": "Undvik bolag med PE 50 och snabb tillväxt.",
+      "category": "philosophy",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "35:13",
+      "confidence": "high",
+      "tags": [
+        "valuation",
+        "PE ratio",
+        "growth"
+      ]
+    },
+    {
+      "quote": "Vi brukar gilla sannolikheter och det normala är ju att tillväxten i ett moget bolag rör sig mot 10-15% så småningom.",
+      "summary": "Moget bolag tenderar hamna på 10-15% tillväxt.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "44:54",
+      "confidence": "high",
+      "tags": [
+        "growth",
+        "mature companies",
+        "normalization"
+      ]
+    },
+    {
+      "quote": "Om ni inte har någonsin i ett bolag ni analyserar skickat in en fråga till IR så prova det någon gång. Eller CFO eller CEO i mindre bolag. De brukar på sina rapporter berätta vilka som är beredda att svara på frågor. Det finns alltid kontaktperson. Var inte rädda för det? Nej, nej, nej. De svarar nästan alltid min känsla.",
+      "summary": "Kontakta företagets IR eller ledning om ni har frågor - de svarar ofta.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:08:35",
+      "confidence": "high",
+      "tags": [
+        "IR",
+        "questions",
+        "research"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Ett specialavsnitt med 12 lyssnarfrågor om värderingsfilosofi, utdelningar, etik, rekommenderade böcker och investeringsprinciper. Hosts Ola och Claes svarar konservativt och betonar vikten av margin of safety, att undvika extremt höga värderingar, och att investera i bolag med rimlig tillväxt över tid.",
+  "key_takeaways": [
+    "Använd alltid en margin of safety på minst 20%",
+    "Undvik bolag med extremt hög värdering (PE 50+)",
+    "Fokusera på omsättning och rörelsemarginal för värdering",
+    "Ha minimum 5% positioner för att det ska vara värd tiden",
+    "Var skeptisk till extremt snabbväxande bolag över lång tid"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kvalitetsaktiepodden/transcripts/kvalitetsaktiepodden-2021-07-08-0f53.txt",
+  "transcript_word_count": 12086,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

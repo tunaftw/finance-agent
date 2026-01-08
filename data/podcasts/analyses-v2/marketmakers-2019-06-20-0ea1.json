@@ -1,0 +1,238 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-06-20-0ea1",
+  "podcast_name": "Marketmakers",
+  "episode_title": "#88 Battle of the Banks",
+  "episode_number": 88,
+  "date": "2019-06-20",
+  "hosts": [
+    "Fabian",
+    "Host 2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Bankvärdering",
+    "Svenska storbanker",
+    "Penningtvättsskandaler",
+    "Risk och värdering"
+  ],
+  "stocks_discussed": [
+    "Danske Bank",
+    "Swedbank",
+    "Nordea",
+    "SEB",
+    "Handelsbanken"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Swedbank",
+      "ticker": "SWED-A",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "21:00",
+      "reasoning": "Swedbank har PE runt 7 och price to book på 1,2. Jämfört med Danske Bank har Swedbank högre kvalitet på tillgångarna (cirka dubbelt så hög ROE) vilket gör det till ett potentiellt bättre köp än Danske om man måste välja. Men bolaget är drabbat av penningtvättsskandal, har fallit mer än möjlig framtida bot, och det finns överhängande risk. Varning för att direktavkastning på 10% kan vara missvisande.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och måste man då välja de här två, ja då ser det faktiskt lite ut som att Swedbank, i alla fall på pappret då, skulle kanske vara lite bättre köp än danska.",
+      "sector": "Bank",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Penningtvättsskandaler kan påverka earnings power",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Danske Bank",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "23:18",
+      "reasoning": "Danske Bank har fallit 50% på ett år, price to book är 0,6 och PE är 7, vilket ser billigt ut. Men det finns fortsatt överhängande risk från penningtvättshärvan som kan påverka earnings power. Varning för att rusna in bara för hög direktavkastning och lågt price to book är mer riskfyllt än man tror.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Att rusen i Danske Bank till exempel bara för att direktavkastningen ser hög ut och price to book är lågt, det är nog mer riskfyllt än vad man först kan tro.",
+      "sector": "Bank",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": "Aktien fallit 50%, fortsatt risk från härvan",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Handelsbanken",
+      "ticker": "HAND-A",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "21:30",
+      "reasoning": "Handelsbanken handlas över bokvärdet (P/B > 1) vilket kan förklaras av fin tillväxt de senaste 10 åren, konservativ utdelning och hög kvalitet på tillgångarna. Direktavkastning på 6% är relativt låg jämfört med andra banker men ses som mer defensiv och konservativ. Om man ska köpa bank, välj det dyraste i sektorn för lägre risk.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man ska köpa det dyraste bolaget i den billigaste sektorn",
+      "sector": "Bank",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Svenska storbanker",
+      "ticker": null,
+      "timestamp_start": "16:13",
+      "timestamp_end": "23:39",
+      "word_count": 1200,
+      "speakers": [
+        "Host 1",
+        "Host 2",
+        "Fabian"
+      ],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "Diskuterar värdering av Danske Bank, Swedbank, Nordea, SEB och Handelsbanken. Jämför PE (7-10), Price to Book (0,6-1,2+), direktavkastning (6-10%) och ROE. Danske och Swedbank är billigast men har stora risker från penningtvättsskandaler. SEB och Handelsbanken handlas över bokvärdet med högre kvalitet. Nordea beskrivs som mellanmjölk med aggressiv utdelning. Varning för att utdelning kan vara ohållbar.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Om man bara tittar på de bitarna, vi försöker vara lite pedagogiska och förklara vad vi ser i alla fall. Men det sagt som sagt så innebär inte att något av bolagen kanske är ett bra köp ur en riskrewardingpunkt.",
+          "timestamp": "21:15",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host",
+          "text": "Danske och Swedbank som ni redan förstår är bottenskiktet. Nordea, de handlas under bokvärdet trots hög yield. SEB och Handelsbanken som sagt är ju toppskiktigt",
+          "timestamp": "21:35",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "7-10",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "6-10%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "ROE: Danske/Swedbank lägre, SEB/Handelsbanken högre",
+          "Aggregerad ROE: 11% Q1 2019"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Banker ser billiga ut (PE 7-10)",
+          "Direktavkastning 6-10%",
+          "SEB/Handelsbanken har hög tillväxt och kvalitet",
+          "Konservativa banker kan överleva sämre perioder"
+        ],
+        "bear_case": [
+          "Penningtvättsskandaler hos Danske/Swedbank",
+          "Kostnadsökningar för anti-money laundering",
+          "Hög direktavkastning kan vara ohållbar",
+          "Utdelning ökar mest i högkonjunktur, minskar i lågkonjunktur",
+          "Sent i konjunkturcykeln"
+        ],
+        "catalysts": [
+          "Nästa kvartal kan bli starkare på grund av laggprissättning",
+          "Kostnadsökningar för hela sektorn"
+        ],
+        "risks": [
+          "Penningtvättsrisker",
+          "Regeländringar",
+          "Konjunktur nedgång",
+          "Hög skuldsättning i Sverige"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Om man tycker att bankerna ser billiga ut just nu, då kan man ju föredra istället att välja det dyraste av bankerna. Då får du ändå något som är ganska billigt. Men marknaden värderar de antagligen lite högre just på grund av att man ser en lägre risk i bolaget.",
+      "summary": "I en billig sektor kan det vara klokare att köpa det dyraste bolaget med lägre risk än det billigaste med högst risk",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "22:50",
+      "confidence": "high",
+      "tags": [
+        "risk-reward",
+        "värdering",
+        "strategi"
+      ]
+    },
+    {
+      "quote": "Det kan finnas felprissättningar här och det mest uppenbara exempel så klart är de här mortgage-backed securities från 2008 med finanskrisen då. De tyckte man var värda jättemycket men det visade sig att de var inte värda någonting alls",
+      "summary": "Marknadsvärdering kan vara felaktig, som såg i finanskrisen 2008 med mortgage-backed securities",
+      "category": "lesson",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "09:10",
+      "confidence": "high",
+      "tags": [
+        "marknadseffektivitet",
+        "risk",
+        "historia"
+      ]
+    },
+    {
+      "quote": "Banker tenderar att ha långa perioder av vinster som har följt upp korta perioder med stora förluster. Det är stora med stora bokstäver.",
+      "summary": "Banker har en cyklisk lönsamhet med långa vinster men plötsliga stora förluster",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "10:58",
+      "confidence": "high",
+      "tags": [
+        "banker",
+        "cyklisk lönsamhet",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Konservativa banker gör att de kommer att lägga undan mer vinst än de aggressiva bankerna. Det gör att aggressiva banker ser mycket mer attraktiva ut i dag, medan de konservativa bankerna ser dåliga ut. Men egentligen är det så att de är mer defensiva och kanske blir bättre över en sämre period med lite tråkiga år.",
+      "summary": "Konservativa banker kan se sämre ut på pappret men vara bättre investeringar över en hel cykel",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "11:55",
+      "confidence": "high",
+      "tags": [
+        "konservativ vs aggressiv",
+        "banker",
+        "cyklisk"
+      ]
+    },
+    {
+      "quote": "Man ska inte räkna med utdelningen i banken på samma sätt. Man måste akta sig lite för det där för att gå på det.",
+      "summary": "Hög direktavkastning hos banker kan vara missvisande och inte hållbar",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "18:56",
+      "confidence": "high",
+      "tags": [
+        "utdelning",
+        "banker",
+        "fälla"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar svårigheten att värdera svenska storbanker och jämför Danske Bank, Swedbank, Nordea, SEB och Handelsbanken. Bankerna ser billiga ut med PE 7-10 men Danske och Swedbank har stora risker från penningtvättsskandaler. SEB och Handelsbanken handlas över bokvärdet med högre kvalitet. Programledarna varnar för att gå på hög direktavkastning och rekommenderar att välja det dyraste bolaget i en billig sektor för lägre risk.",
+  "key_takeaways": [
+    "Banker är svåra att värdera på grund av unik affärsmodell",
+    "Price to book är viktigare än PE för bankvärdering",
+    "Hög direktavkastning hos banker kan vara ohållbar",
+    "Konservativa banker kan vara bättre över lång sikt",
+    "I en billig sektor, välj det dyraste bolaget med lägst risk"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-06-20-0ea1.txt",
+  "transcript_word_count": 4690,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

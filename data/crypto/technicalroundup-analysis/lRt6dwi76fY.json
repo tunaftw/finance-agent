@@ -1,0 +1,104 @@
+{
+  "source_id": "lRt6dwi76fY",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-07-11",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "BTC is in a downtrend with 200-week moving average acting as resistance",
+      "quote": "we're at the extreme of previous Cycles levels around 20K and should that fail there is some way to go until we reach deeper Market cycle levels",
+      "price_levels": [
+        "$20K",
+        "$14K",
+        "$10K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Potential for mean reversion if 200-week moving average is reclaimed",
+      "quote": "I think flipping this 200 week moving average to resistance which it is right now to support would be a pretty good signal for a reversion",
+      "price_levels": [
+        "$30K+"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Same structural analysis as BTC, below 200-week moving average",
+      "quote": "the same view is applicable to ethusd structurally as BTC USD which is to say that you're getting consecutive tests of this range high when a week moving average uh area resistance it's still resistance",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "Alts",
+      "asset_name": "Altcoins",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Waiting for BTC/ETH resolution before getting interested",
+      "quote": "structurally there's not a lot going on here that I find interesting the majors surprise surprise still have my focus",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$20K",
+        "$14K",
+        "$30K"
+      ],
+      "ETH": null
+    }
+  },
+  "key_insights": [
+    "BTC is testing the 20K previous cycle all-time high level with 14K as next major support",
+    "The 200-week moving average has flipped from support to resistance, marking a significant shift in market structure",
+    "Bullish reversal requires either a weekly close above 200-week MA or a higher low formation at 19.6K-20.6K",
+    "Macro headwinds from CPI data and earnings could pressure markets further",
+    "Correlation with S&P 500 remains strong until proven otherwise"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Weekly close above 200-week moving average",
+      "target": "$30K+",
+      "stop": "below entry",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$19.6K-$20.6K cluster if higher low forms",
+      "target": "$30K+",
+      "stop": "below $19.6K",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC is in a downtrend testing the critical 20K support level with next support at 14K. The 200-week moving average has flipped from support to resistance, requiring either a weekly reclaim or a higher low formation at 19.6-20.6K for bullish reversal signals. Macro headwinds from inflation and earnings data pose additional risks. Altcoins remain uninteresting until BTC/ETH show higher time frame resolution.",
+  "transcript_word_count": 10413,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:26:46.507088"
+}

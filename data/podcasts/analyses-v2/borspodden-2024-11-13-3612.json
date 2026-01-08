@@ -1,0 +1,779 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2024-11-13-3612",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 586 - Bästa bordet",
+  "episode_number": 586,
+  "date": "2024-11-13",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [
+    "Erik Ranje"
+  ],
+  "main_topics": [
+    "Marknadssentiment",
+    "Bolagsrapporter",
+    "Fastigheter",
+    "Rekommendationer"
+  ],
+  "stocks_discussed": [
+    "Hexagon",
+    "Trocol",
+    "Firefly",
+    "Research",
+    "Under Armour",
+    "New Wave",
+    "Nordrest",
+    "Tesla",
+    "Hertz",
+    "Jobeco",
+    "Stendörren",
+    "Raysearch"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Trocol",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "22:06",
+      "reasoning": "Trocol rapporterade starkt i Q3 med 20% organisk tillväxt och 30% vinstökning. Grundarna lämnar operativa roller men det är välplanerat. Skattebesöket i Indien bedöms som brus, transfer pricing är standard. Värderingen ser bättre ut än på länge, trots att en placing kan komma. Underliggande utveckling är positiv med rekordhög användartillväxt och stigande annonsintäkter.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men sen visste jag att det kan komma en placing. Det kommer säkert komma... Ja exakt, snart. Jag tycker att det ser bättre ut än på väldigt länge.",
+      "sector": "Teknologi",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Firefly",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "25:33",
+      "reasoning": "Aktien har sprungit från verkligheten med aktiekurs över 200 kronor. Orderboken som byggdes upp under covid och kriget avvecklas nu utan att fyllas på i samma takt. Finns risk för överlönsamhet det senaste året som drivit upp kursen artificiellt. Värderingen är hyfsat hög och det finns bättre aktier att äga.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi pratade om det här i flera poddar och har tyckt att aktien över 200 kronor inte varit köpvärd utan nästan mer säljvärd här.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Under Armour",
+      "ticker": "UA",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "31:18",
+      "reasoning": "Under Armour har sparat hårt och kan överraska kring julhandeln. Aktien har rasat efter Trump-segern pga oron för tullar på Kina. Klar kast, men potential för återhämtning kring 8 dollars nivån. Riskfylld men kan finnas uppsida inför kommande kvartal innan tullar införs.",
+      "price_target": null,
+      "time_horizon": "kort till medellång sikt",
+      "quote": "Så därför är de så oroliga. Det kan vara 100 procent fel. Men eftersom jag har bra på att känna känslor som börsen känner så kände jag att det var det börsen fick för sig.",
+      "sector": "Kläder",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Julhandelskvartal, innan tullar införs"
+    },
+    {
+      "stock_name": "New Wave",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "32:47",
+      "reasoning": "VD var mycket negativ med alla områden som går dåligt. Rörelsemarginaler på 13,56% mot målet 20%. Aktien inte dyr om man tror på marginallyft, men kan vara döda pengar under en hyfsat lång period. Värderingen kan inkludera en Torstenpremi.",
+      "price_target": null,
+      "time_horizon": "1 år för marginallyft",
+      "quote": "Och rörelsemarginalerna är ju en bra bit ifrån det här nyuppsatta målet på 20%. De kom in på 13,56 tror jag.",
+      "sector": "Sportkläder",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": "Döda pengar",
+      "catalyst_timing": "Marginallyft om några kvartal"
+    },
+    {
+      "stock_name": "Nordrest",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "38:16",
+      "reasoning": "Kassrapport med 3% topline tapp, men 30% resultat tapp jämfört med förra året. Försvarsdelen, som stod för halva omsättningen förra Q3, havererar nu. Har växt extremt med marginaler långt över snittet. Bolaget påstår att det är säsongsvariationer, men dynamiken är oroväckande. Tappade 12% på rapporten.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag gillar inte att de har växt extremt extremt och gett i en högmarginal. Det känns något som är lite lurt.",
+      "sector": "Restaurang",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Tappade 12% på rapporten",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "39:17",
+      "reasoning": "Tesla har vunnit på Trump-segern men Hertz har praktiskt taget gått i konkurs på sin elbilsatsning med Tesla. Hertz skrev ner hela fordonsflottan med en miljard dollar, vilket är 100% av börsvärdet. Elbilar har mycket högre reparationskostnader än väntat. Hyrbilsföretag är kapitalintensiva med tillgångar som ständigt minskar i värde.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det känns spontant som en väldigt dålig idé med just elbilar när man hyr ut. I alla fall just nu. Det är ju liksom för tidigt.",
+      "sector": "Fordon",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Tung reparationskostnad",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Jobeco",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "42:19",
+      "reasoning": "Omsättningstillväxt 45%, orderingång >50%. Aktien handlas till P/E 60, ska falla till drygt 40 nästa år. Givet utvecklingen är det svårt att se att Jobeco blir mycket billigare. Bure har visat förmåga att odla tillväxtraketer och stod på sig med spackaffären. Fin rapport men blir mindre stark i ljuset av svag förraårsrapport.",
+      "price_target": "P/E 40 nästa år",
+      "time_horizon": "nästa år",
+      "quote": "Givet att de håller i den här utvecklingen. Och jag tycker att man får ge någon slags elårs till Bure. Som verkligen är bra på att odla fram den här typen av tillväxtraketer.",
+      "sector": "Teknologi",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Trocol",
+      "ticker": null,
+      "timestamp_start": "18:17",
+      "timestamp_end": "22:06",
+      "word_count": 800,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Diskuterar Trocols Q3-rapport, ledarskapsbyte och skattebesök i Indien. Johan ser positivt på utvecklingen med stark Q3-siffror, organisk tillväxt och rekordhög användartillväxt. Grundarna Alan och Nami lämnar operativa roller men det är välplanerat med Rishit Junionwala som ny vd. Skattebesöket i Indien bedöms som brus.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "I Q3-an så steg tillväxten till 20% organiskt och vinsten röka med 30%, vi har rekordhög användartillväxt. Till och med de här annonsintäkterna ökar, i och för sig bara de 8%, men det var väldigt länge sedan de steg.",
+          "timestamp": "20:33",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och vad jag förstår så har Alan under det senaste året också redan lämnat över mycket av det här dagliga arbetet till Rishit.",
+          "timestamp": "20:33",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tror att skattegrejen bara är brus och inget att brusera om.",
+          "timestamp": "21:48",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "20%",
+        "margin": "Vinstökning 30%",
+        "debt_level": null,
+        "custom": [
+          "Annonstillväxt 8%",
+          "Rekordhög användartillväxt"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "20% organisk tillväxt",
+          "Vinstökning 30%",
+          "Rekordhög användartillväxt",
+          "Stigande annonsintäkter",
+          "Välplanerat ledarskapsbyte",
+          "Skattegrejen är brus"
+        ],
+        "bear_case": [
+          "Grundarna säljer",
+          "Placing kan komma",
+          "Skatteutredning i Indien"
+        ],
+        "catalysts": [
+          "Q3-resultat visar vändning",
+          "Ny vd med lång erfarenhet i bolaget"
+        ],
+        "risks": [
+          "Placing",
+          "Skatteutredning"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Firefly",
+      "ticker": null,
+      "timestamp_start": "24:03",
+      "timestamp_end": "25:33",
+      "word_count": 400,
+      "speakers": [
+        "John"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Firefly rapporterade stabilt men aktiekursen har sprungit från verkligheten. Orderboken som byggdes upp under covid och kriget avvecklas nu utan att fyllas på i samma takt. Finns risk för överlönsamhet. John anser att aktien över 200 kronor inte varit köpvärd.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Tyvärr för aktieägarna har aktiekursen sprungit från verkligheten lite. Framförallt är det siffran som anger orderstocken som hela tiden byggdes upp under covid och sen blev det kriget och sen komponentbrist.",
+          "timestamp": "24:15",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Vi pratade om det här i flera poddar och har tyckt att aktien över 200 kronor inte varit köpvärd utan nästan mer säljvärd här.",
+          "timestamp": "25:10",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabil rapport"
+        ],
+        "bear_case": [
+          "Aktiekurs övervärderad",
+          "Orderboken avvecklas snabbt än den fylls på",
+          "Risk för överlönsamhet drivit upp kursen"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Orderboken växer inte",
+          "Övervärdering kvarstår"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Under Armour",
+      "ticker": "UA",
+      "timestamp_start": "28:24",
+      "timestamp_end": "31:18",
+      "word_count": 600,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Under Armour har gått på massor med nitar och fallit ihop på grund av bristande kostnadskontroll. Bolagets värde är under fyra miljarder dollar vilket är mycket mindre än New Wave. Aktien har rasat efter Trump-segern pga oron för tullar på Kina. John är intresserad vid 8 dollars nivån.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Så här, 200 spänn för aktien, målet är 20-26. Det är lång tid dit, mycket kan hända.",
+          "timestamp": "27:57",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Samtidigt Andrew Armour är ju rätt uträknat. Sparat hårt under många år nu.",
+          "timestamp": "30:32",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Och så har vi ett sådant jullhandelskvartal här innan några tuddlar är införda. Det kan överraska rätt ordentligt här kring 8 dollars nivån.",
+          "timestamp": "31:06",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Börsvärde under 4 miljarder dollar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Sparat hårt under många år",
+          "Jullhandelskvartal kan överraska",
+          "Potential vid 8 dollars"
+        ],
+        "bear_case": [
+          "Rasat pga Trump-tullar på Kina",
+          "Mardröm om handelskrig med Kina",
+          "Lågt börsvärde relativt konkurrenter"
+        ],
+        "catalysts": [
+          "Jullhandelskvartal",
+          "Tullar inte införs än"
+        ],
+        "risks": [
+          "Handelskrig med Kina",
+          "Ökade kostnader pga tullar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "New Wave",
+      "ticker": null,
+      "timestamp_start": "31:18",
+      "timestamp_end": "33:15",
+      "word_count": 500,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "New Wave rapporterade svagt med VD:n mycket negativ. Alla områden gick dåligt. Rörelsemarginaler på 13,56% mot målet 20%. Aktien inte dyr men kan vara döda pengar under en hyfsad lång period. Börsen gillar inte den här typen av bolag nu.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Torsten var ju väldigt negativ i vd-ordet. De knällde om att alla områden gick dåligt. Såg ingen riktigt ljus närmsta tiden.",
+          "timestamp": "31:49",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Och rörelsemarginalerna är ju en bra bit ifrån det här nyuppsatta målet på 20%. De kom in på 13,56 tror jag.",
+          "timestamp": "32:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Kanske ett år. Men det känns ändå som att det för tidigt får köpa. Det kan nog vara ganska döda pengar under en hyfsat lång period.",
+          "timestamp": "32:33",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "13,56%",
+        "debt_level": null,
+        "custom": [
+          "Mål på 20% rörelsemarginal"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Aktien inte dyr",
+          "Potential för marginallyft om några kvartal"
+        ],
+        "bear_case": [
+          "VD mycket negativ",
+          "Alla områden går dåligt",
+          "Långt från marginalmål",
+          "Börsen ogillar typen av bolag"
+        ],
+        "catalysts": [
+          "Marginallyft"
+        ],
+        "risks": [
+          "Döda pengar under lång period",
+          "Fortsatt svag utveckling"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Nordrest",
+      "ticker": null,
+      "timestamp_start": "35:18",
+      "timestamp_end": "38:16",
+      "word_count": 600,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Nordrest driver restauranger på skolor, sjukhus och försvaret. Q3-rapporten var kass med 3% topline tapp men exkluderat försvar 15% tillväxt. Försvarsdelen havererar med 30% resultat tapp jämfört med förra året. Har vuxit extremt med marginaler långt över snittet. Aktien tappade 12%.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Och den här dynamiken i Q3 bidrog till att ett omsättningstapp på 3% resulterar i ett resultat tapp på 30% jämfört med förra året.",
+          "timestamp": "36:47",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag gillar inte att de har växt extremt extremt och gett i en högmarginal. Det känns något som är lite lurt.",
+          "timestamp": "38:12",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-3% (totalt), 15% (exkl försvar)",
+        "margin": "Resultat tapp 30%",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Billig aktie om man litar på Nordrest",
+          "Försvarsdelen varierar mellan kvartalen"
+        ],
+        "bear_case": [
+          "Försvarsdelen havererar",
+          "Extrem tillväxt med höga marginaler verkar ohållbart",
+          "30% resultat tapp med bara 3% topline tapp",
+          "Oron på marknaden är befogad"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Försvarsdelen fortsätter haverera",
+          "Kostnadskontroll"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "38:16",
+      "timestamp_end": "41:23",
+      "word_count": 700,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Tesla har varit extrem vinnare efter Trump-segern. Aktien har gått från 250 till 330 dollar. Hertz har praktiskt taget gått i konkurs på sin elbilsatsning med Tesla. Elbilar har mycket högre reparationskostnader än väntat. Hyrbilsföretag har tillgångar som ständigt minskar i värde.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Aktien har gått från 250 dollar, intervallet som vi pratat mycket om. Där den har hållit sig i princip hela året och nu dragit iväg till 330 dollar",
+          "timestamp": "38:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Och det tycker jag i sin tur liksom stödjer Mekonomens påståenden om att elbilar har ungefär samma underhålls kostnad som en diesel och en bensinbil.",
+          "timestamp": "40:39",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Så ska man köpa kapitalintensiva branscher så ska man tänka på att den underliggande tillgången inte kraschar i värde hela tiden utan gärna hellre får stiga.",
+          "timestamp": "41:07",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktiekurs 250 -> 330 dollar",
+          "Börsvärde över 1 biljon dollar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Trump-segern gynnar Tesla",
+          "Billigare än kinesiska och europeiska bilar med tullar",
+          "Bästa kompis med Trump"
+        ],
+        "bear_case": [
+          "Elbilar har höga reparationskostnader",
+          "Hertz skrev ner fordonsflottan 1 miljard dollar",
+          "Hyrbilsföretag är kapitalintensiva med minskande tillgångsvärden"
+        ],
+        "catalysts": [
+          "Tullar på Kina och Europa"
+        ],
+        "risks": [
+          "Höga reparationskostnader",
+          "Hyrbilsföretag lämnar elbilar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Jobeco",
+      "ticker": null,
+      "timestamp_start": "41:25",
+      "timestamp_end": "44:47",
+      "word_count": 700,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Jobeco rapporterade fin men förra årets Q3 var usen så jämförelsen är svag. Omsättningstillväxt 45%, orderingång >50%. Aktien handlas till P/E 60, ska falla till drygt 40 nästa år. Bure har visat förmåga att odla tillväxtraketer.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Omsättningen är 45%, orderingången är en bit över 50. Det är svårt att vara missnöjd med det ändå.",
+          "timestamp": "42:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Och aktien handlas väl till ungefär P60. Ska falla till drygt 40 nästa år. Det är svårt att se att Jobeco kommer bli så mycket billigare än så här.",
+          "timestamp": "42:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Och jag tycker att man får ge någon slags elårs till Bure. Som verkligen är bra på att odla fram den här typen av tillväxtraketer.",
+          "timestamp": "42:55",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "60",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "45%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Orderingång >50%",
+          "P/E nästa år ~40"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Omsättningstillväxt 45%",
+          "Orderingång >50%",
+          "Bure har erfarenhet av tillväxtbolag",
+          "Spackaffären visade ledarskap"
+        ],
+        "bear_case": [
+          "Förra årets Q3 var usel",
+          "Jämförelsen är svag",
+          "P/E 60 kan vara dyrt"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Tillväxten avtar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Stendörren",
+      "ticker": null,
+      "timestamp_start": "44:56",
+      "timestamp_end": "01:09:03",
+      "word_count": 5000,
+      "speakers": [
+        "Johan",
+        "John",
+        "Erik Ranje"
+      ],
+      "primary_speaker": "Erik Ranje",
+      "discussion_summary": "VD Erik Ranje om Stendörrens utveckling de senaste två åren. Ökat driftnetto med 13% per år. Räntesäkringar 80-85% med tak på 1,6-2%. Hyrestillväxt driven av brist på kvadratmeter. Bygger på spekulation i lättindustri, pre-lett i logistik. Nyemission på 500 miljoner för förvärv. Goda förvärvmöjligheter.",
+      "quotes": [
+        {
+          "speaker": "Erik Ranje",
+          "text": "Vi har under de senaste fem åren faktiskt ökat vår driftnetto med 13 procent per år utan att ta in pengar från aktiemarknaden",
+          "timestamp": "47:01",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Ranje",
+          "text": "Det finns fortfarande villiga säljare till avkastningsnivåer som nu är betydligt högre. Men sen är konkurrensen inte alls lika stor.",
+          "timestamp": "01:00:56",
+          "context": "other"
+        },
+        {
+          "speaker": "Erik Ranje",
+          "text": "Om vi har lyckats leverera det i motvind och lite uppförsbacke så ska vi kunna accelerera ännu mer när marknaden blir lite mer gynnsam.",
+          "timestamp": "01:08:24",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "13% per år",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Räntetak 1,6-2%",
+          "Vakans 6,9%",
+          "Snitthyra 1300 kr/kvm",
+          "Yield ~7% på förvärv"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Ökat driftnetto 13% per år",
+          "Räntesäkringar skyddar",
+          "Hyrestillväxt pga brist på lokaler",
+          "Byggrättsportfölj 640 000 kvm",
+          "Bra förvärvmöjligheter nu",
+          "Kritisk massa i nya marknader"
+        ],
+        "bear_case": [
+          "Fastighetsvärden sjunkit",
+          "Räntan kan gå under taket",
+          "Konkurrens kan komma tillbaka"
+        ],
+        "catalysts": [
+          "Räntesänkningar",
+          "Pre-lett logistikprojekt",
+          "Förvärv med hög yield"
+        ],
+        "risks": [
+          "Räntan faller under taket",
+          "Fastighetsvärden fortsätter sjunka",
+          "Konkurrens ökar"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag tänker att en liten konjunkturnedgång här också. Tittar man på LinkedIn det är väldigt många som är open for work, alltså som har haft bra jobb tidigare som nu inte har något jobb och letar något.",
+      "summary": "Konjunktursvaghet kan ses genom LinkedIn-data med ökat antal \"open for work\"",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "04:08",
+      "confidence": "medium",
+      "tags": [
+        "konjunktur",
+        "arbetsmarknad"
+      ]
+    },
+    {
+      "quote": "Svaga bolag är svaga och rekommendationen är väl som alltid att kolla lite på balansräkningen så att du slipper hamna i just nyemissionscase som kommer förinta dig.",
+      "summary": "Viktig rekommendation att kolla balansräkning för att undvika nyemissionscase i svag konjunktur",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "05:21",
+      "confidence": "high",
+      "tags": [
+        "balansräkning",
+        "risk"
+      ]
+    },
+    {
+      "quote": "En tvärtom. Man ska också ha med sig att börs- vd-ar får ju sjukt bra betalt för att göra det de gör. Man måste vara beredd på någon typ av prestationskrav.",
+      "summary": "Börs-VD:ar får bra betalt och ska prestera, underprestation ska inte accepteras",
+      "category": "philosophy",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "08:14",
+      "confidence": "high",
+      "tags": [
+        "vd",
+        "prestation"
+      ]
+    },
+    {
+      "quote": "Det är en bra poäng. Ja, många bra poänger där. Det tycker du. Liksom sydde ihop allt.",
+      "summary": "Att sammanfoga flera insikter kan skapa starkare analyser",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "41:20",
+      "confidence": "low",
+      "tags": [
+        "analys"
+      ]
+    },
+    {
+      "quote": "Men på något sätt tänker jag också man ska dra sin lärdom från börsen av det här är ju att hyrbilsföretag och fastighetsbolag är lite liknande, men ändå helt tvärtom. Att båda är extremt kapitalintensiva och kräver hög belåning. Men med den enormt viktiga och stora skillnaden att medans fastighetsbolagen tillgångar hela tiden blir mer och mer värda över tid så blir hyrbilsföretagens tillgångar hela tiden mindre värda.",
+      "summary": "Kapitalintensiva branscher kan skilja sig åt genom hur tillgångarnas värde utvecklas över tid - fastigheter ökar, hyrbilar minskar",
+      "category": "lesson",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "40:55",
+      "confidence": "high",
+      "tags": [
+        "kapitalintensiv",
+        "tillgångsvärde"
+      ]
+    },
+    {
+      "quote": "Det är inte bra att komma med en sån rapport som sin första rapport som noterat bolag.",
+      "summary": "Viktigt att leverera starkt som nylistat bolag för att bygga förtroende",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "41:48",
+      "confidence": "medium",
+      "tags": [
+        "notering",
+        "rapport"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar svagt marknadssentiment med konjunkturnedgångsvarningar. Flertalet bolagsrapporter analyseras inklusive Trocol med positiv utveckling, Firefly som anses övervärderad, Under Armour med potential vid 8 dollars. Stendörren-VD ger omfattande intervju om fastighetsmarknaden. Insikter om vikten av balansräkningar och skillnaden mellan kapitalintensiva branscher.",
+  "key_takeaways": [
+    "Trocol ser positivt ut efter stark Q3-rapport och ledarskapsbyte",
+    "Firefly anses övervärderad över 200 SEK",
+    "Under Armour kan ha potential vid 8 dollars nivån",
+    "Viktig insikt om att kapitalintensiva branscher skiljer sig genom tillgångsvärdesutveckling",
+    "Konjunktursvaghet kan ses genom LinkedIn-data"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2024-11-13-3612.txt",
+  "transcript_word_count": 11302,
+  "has_timestamps": true,
+  "model_used": "manual"
+}

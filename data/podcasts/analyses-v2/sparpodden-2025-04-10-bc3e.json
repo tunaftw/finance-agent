@@ -1,0 +1,674 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2025-04-10-bc3e",
+  "podcast_name": "Sparpodden",
+  "episode_title": "557. GUIDE: Allt om AI-aktier på 100 min",
+  "episode_number": 557,
+  "date": "2025-04-10",
+  "hosts": [
+    "Nordnet"
+  ],
+  "guests": [
+    "Inge Heydorn",
+    "Awaar Mustafa"
+  ],
+  "main_topics": [
+    "AI-aktier",
+    "Halvledare",
+    "Nvidia",
+    "TSMC",
+    "ASML",
+    "AMD",
+    "Arm",
+    "Tullkrig"
+  ],
+  "stocks_discussed": [
+    "ASML",
+    "TSMC",
+    "Nvidia",
+    "AMD",
+    "Intel",
+    "Arm",
+    "SMIC"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "ASML",
+      "ticker": "ASML",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "01:22:14",
+      "reasoning": "Unik monopolställning som enda leverantör av EUV-litografi för de mest avancerade chippen (2-7nm). Marknaden förväntas dubblas till 2030 drivet av AI och alla elektriska fordon. Ett bolag som inte går att ersätta.",
+      "price_target": null,
+      "time_horizon": "långsiktig",
+      "quote": "Det är ett bolag vi verkligen gillar. Vi gillar ju bolag som inte går att ersätta. Och AISML är ett sånt bolag. Vad vi ser just nu så finns det ingen som kan konkurrera med dem.",
+      "sector": "Semiconductors",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "TSMC",
+      "ticker": "TSM",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "01:31:17",
+      "reasoning": "Om tvungen att välja ETT bolag skulle jag välja TSMC för att de tillverkar alla vinnande chip. Compute-behovet kommer bara att öka och oavsett vem som vinner (Nvidia, AMD, Apple) så vinner TSMC. Handlar på P/E 11 nästa år. Stark position inom 3nm och 5nm.",
+      "price_target": null,
+      "time_horizon": "5+ år",
+      "quote": "Då sitter jag på alla. Då vet jag vem som än vinner i framtiden. Jag tror att compute F2N kommer att vara där, och vem som än vinner så kommer jag att vara vinnare.",
+      "sector": "Semiconductors",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "01:04:21",
+      "reasoning": "Deepseek-rörelsen skapade köpläge eftersom det bara ökade efterfrågan på compute. Datacenter-trafiken exploderade efter Deepseek och GPU-priserna sköt i höjden. Stark position med CUDA-ekosystemet.",
+      "price_target": null,
+      "time_horizon": "1-5 år",
+      "quote": "Jag kan länka där nedan i kommentarerna... Men där så kommer jag ihåg att du sa att det här är köpläge för mig. Du passade på och nu har börsen gått ner på grund av Trump lite senare, men innan dess så var det ju ett köpläge.",
+      "sector": "Semiconductors",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Brute force tillvägagångssätt och stora chip ökar risken för defekter",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "AMD",
+      "ticker": "AMD",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Awaar Mustafa",
+      "speaker_role": "guest",
+      "timestamp": "01:34:45",
+      "reasoning": "Tog marknadsandelar från Intel på PC-sidan. Nya 3nm GPU (MI355) lanseras i april som kan konkurrera med Nvidias Blackwell på arkitektur. Förvärvet av ZT Systems stärker enterprise-position. P/E runt 12 nästa år.",
+      "price_target": null,
+      "time_horizon": "långsiktig",
+      "quote": "Om jag summerar då, du tror på TSMC. Det gör du också Avara, men du tar den politiska risken och vänder då istället till att satsa på AMD eller Nvidia. Men jag tvingar ju välja en av dem. Jag tror AMD.",
+      "sector": "Semiconductors",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "GPU MI355 lanseras april 2025"
+    },
+    {
+      "stock_name": "Arm",
+      "ticker": "ARM",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "01:29:05",
+      "reasoning": "Ett vinnande bolag men värderingen är för aggressiv. 25% av försäljningen i Kina där det är svårt att få betalt. Bättre case att köpa AMD på P/E 12 eller TSMC på 11 för exponering mot samma tema.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag gillar värderingen är för hög. Jag gillar inte börsintroduktioner med dålig likviditet. Det är en vinnare, men jag tycker värderingen är lite för aggressiv.",
+      "sector": "Semiconductors",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "25% Kina-exponering med betalningsrisk",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Intel",
+      "ticker": "INTC",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "01:43:46",
+      "reasoning": "Valde fel väg med att inte satsa på EUV. Satt fast på 10nm/14nm i flera år. Förlorar marknadsandelar till AMD i både PC- och server-marknaden. Har tappat monopolpositionen. Svårt att se hur de ska vända trenden.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Personligen tror jag att det kommer vara riktigt tufft för dem. Jag har svårt att se hur de ska greva sig ur det här. Det blir ju tuffare och tuffare också.",
+      "sector": "Semiconductors",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "ASML",
+      "ticker": "ASML",
+      "timestamp_start": "01:22:00",
+      "timestamp_end": "01:24:30",
+      "word_count": 1200,
+      "speakers": [
+        "Inge Heydorn",
+        "Awaar Mustafa"
+      ],
+      "primary_speaker": "Inge Heydorn",
+      "discussion_summary": "ASML har en unik monopolställning som enda leverantör av EUV-litografi för chip i 2-7nm-skala. Marknaden förväntas dubblas till 2030. Bolaget får inte sälja till Kina vilket begränsar deras kunder.",
+      "quotes": [
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Det är ju som du säger, och här lite grann i vår tanke är ju att vi tror att halvledamarknaden, efterfrågan på datakraft kommer bara att öka och öka. Det gör ju att vi tror att den här marknaden kommer att dubblas fram till 2030.",
+          "timestamp": "01:22:00",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Vi gillar ju bolag som inte går att ersätta. Och AISML är ett sånt bolag.",
+          "timestamp": "01:22:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Ja, och en sak jag ska säga här är väldigt viktigt här, det är ju att EUV, de här som gör då, 7, 5, 3, 2, de får inte säljas till Kina.",
+          "timestamp": "01:22:14",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Marknaden väntas dubblas till 2030",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "100% marknadsandel på EUV-litografi",
+          "Marknaden förväntas dubblas till 2030",
+          "Ej ersättningsbar teknologi"
+        ],
+        "bear_case": [
+          "Kan inte sälja till Kina",
+          "Konjunkturkänslig med stora fabrikstillverkningar"
+        ],
+        "catalysts": [
+          "Ökad AI-efterfrågan",
+          "Övergång till 2nm under hösten"
+        ],
+        "risks": [
+          "Kina-sanktioner",
+          "Konjunkturnedgång"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "TSMC",
+      "ticker": "TSM",
+      "timestamp_start": "01:23:40",
+      "timestamp_end": "01:35:10",
+      "word_count": 3500,
+      "speakers": [
+        "Inge Heydorn",
+        "Awaar Mustafa"
+      ],
+      "primary_speaker": "Inge Heydorn",
+      "discussion_summary": "TSMC är världens ledande chip-tillverkare med stark position inom 3nm och 5nm. Stora kunder inkluderar Apple, Nvidia och AMD. Kapaciteten är slut sålt vilket driver upp priser. Politisk risk med Taiwan är huvudorsaken till försiktighet.",
+      "quotes": [
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Då sitter jag på alla. Då vet jag vem som än vinner i framtiden. Jag tror att compute F2N kommer att vara där, och vem som än vinner så kommer jag att vara vinnare.",
+          "timestamp": "01:31:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Awaar Mustafa",
+          "text": "Jag tror AMD på P12 nästa år, TSMC på 11 nästa år, och få ungefär samma monet. Det finns bättre case tycker jag.",
+          "timestamp": "01:30:25",
+          "context": "metric"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Jag hade valt TSMC, men det som gör mig skeptisk är just vad som händer med handelskriget, och framförallt vad som händer med Taiwan i allt det här.",
+          "timestamp": "01:31:30",
+          "context": "risk"
+        },
+        {
+          "speaker": "Awaar Mustafa",
+          "text": "3nm är den som har ökat snabbast. Från att det överhuvudtaget inte ens fanns, till att det fanns, till att det vuxit, vuxit, vuxit. Och nu säljer de typ en tredjedel av varje senaste kvartalet.",
+          "timestamp": "01:23:42",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "11",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "3nm-segmentet växer snabbast",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Apple, Nvidia, AMD som största kunder",
+          "3nm står nu för 1/3 av försäljningen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Dominerande position inom avancerade chip",
+          "3nm växer snabbast",
+          "Får kapacitet från alla stora kunder",
+          "P/E 11 nästa år är lågt"
+        ],
+        "bear_case": [
+          "Politisk risk med Taiwan",
+          "Tullkrig kan påverka handeln",
+          "Kinesiska bolag kan utveckla egen tillverkning"
+        ],
+        "catalysts": [
+          "Övergång till 2nm under hösten",
+          "Fortsatt AI-tillväxt",
+          "Nya kunder går till 3nm"
+        ],
+        "risks": [
+          "Taiwan-konflikten",
+          "Tullkrig",
+          "Geopolitisk risk"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "timestamp_start": "01:50:00",
+      "timestamp_end": "01:09:50",
+      "word_count": 4500,
+      "speakers": [
+        "Awaar Mustafa",
+        "Inge Heydorn"
+      ],
+      "primary_speaker": "Awaar Mustafa",
+      "discussion_summary": "Nvidia är AI-posterboy med stark position driven av CUDA-ekosystemet. Brute force tillvägagångssätt men otroligt effektivt. Deepseek skapade köpläge. Stark efterfrågan på compute exploderar. Datacenter-trafiken och GPU-priserna sköt i höjden.",
+      "quotes": [
+        {
+          "speaker": "Awaar Mustafa",
+          "text": "Jag tror att Nvidia är ju ledande, de är brutalt duktiga som företag vad gäller att tjäna monetärvinning och så. Däremot så är de också väldigt mycket brute force.",
+          "timestamp": "01:08:39",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Awaar Mustafa",
+          "text": "Men det intressanta här är ju att, vad är för slutsatser vi drar här då? Det intressanta är att om man då går och tittar hos datacentren där exploderar ju bara trafiken. Så priset för att använda en GPU exploderade.",
+          "timestamp": "01:02:46",
+          "context": "metric"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Jag kommer ihåg att du sa att det här är köpläge för mig. Du passade på och nu har börsen gått ner på grund av Trump lite senare, men innan dess så var det ju ett köpläge.",
+          "timestamp": "01:04:21",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Awaar Mustafa",
+          "text": "Men det intressanta här, och det som är lite skrämmande, är att om du kollar på chat-GPT och ställer in en fråga, då använder du viss datakraft. Men om du då börjar tänka på Deep Six andra modell, den som vi egentligen reagerade på... Det är en reasoning-modell. Och att modellen tänker efter och resonerar, det är ju hundra gånger så mycket datakapacitet som behövs för det.",
+          "timestamp": "01:02:30",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "CoreWeave gjorde 8 miljarder dollar på Nvidia GPUer",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "CoreWeave en av Nvidias största kunder",
+          "Datacenter-vacancy i USA: 1.8%",
+          "GPU-priser exploderade efter Deepseek"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "CUDA-ekosystemet är omslutande",
+          "Dominerande position inom AI",
+          "Deepseek ökade efterfrågan på compute",
+          "Reasoning-modeller kräver 100x mer datakraft"
+        ],
+        "bear_case": [
+          "Brute force tillvägagångssätt kan nå tak",
+          "Stora chip ökar defektrisken",
+          "AMD kan konkurrera på arkitektur"
+        ],
+        "catalysts": [
+          "Fortsatt AI-tillväxt",
+          "Reasoning-modeller kräver mer compute",
+          "Näringskedjan för datacenter"
+        ],
+        "risks": [
+          "Kompetition från AMD och ARM",
+          "Brute force-metoden kan sluta fungera",
+          "Valuation risk"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "AMD",
+      "ticker": "AMD",
+      "timestamp_start": "01:14:51",
+      "timestamp_end": "01:35:10",
+      "word_count": 5000,
+      "speakers": [
+        "Inge Heydorn",
+        "Awaar Mustafa"
+      ],
+      "primary_speaker": "Inge Heydorn",
+      "discussion_summary": "AMD tar marknadsandelar från Intel på PC-sidan. Ny 3nm GPU (MI355) lanseras i april som kan konkurrera med Nvidias Blackwell. Förvärvet av ZT Systems stärker enterprise-position. Starka relationer med Dell, MCI, Sony. P/E runt 12 nästa år.",
+      "quotes": [
+        {
+          "speaker": "Inge Heydorn",
+          "text": "De släppte ju ett nytt grafikkort, de har ju gett upp high-end på datan. Har de gett upp det? Så de har ju släppt ett mellansegmentskort nu, det är det som är slut. Om ni går in på Inlet eller web-hallen så är det slut sålt. Så mars var faktiskt det bästa släppen nånsin i historien.",
+          "timestamp": "01:14:51",
+          "context": "metric"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Nu kommer ju den här 355-banden jag pratade om i april, när man fick den här stora åren från Oracle. Den kommer ju att vara ledande i termer av 3 nanometer istället för 5, som Nvidia är på. Den kommer att ha bättre minne än Nvidia har.",
+          "timestamp": "01:18:30",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "På PC-sidan tar man maxandelar från Intel, det såg vi i Q4 och fortsätter att ta det. På gaming-sidan och PC-sidan bygger man relationer, vi pratade om Dell, man kom in där.",
+          "timestamp": "01:18:20",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Awaar Mustafa",
+          "text": "Jag tror AMD på P12 nästa år, TSMC på 11 nästa år, och få ungefär samma monet. Det finns bättre case tycker jag.",
+          "timestamp": "01:30:25",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "12",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Net income grew by 26% while more than doubling its free cash flow 2023",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "MI355 GPU på 3nm lanseras april 2025",
+          "Förvärv av ZT Systems"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Tar marknadsandelar från Intel",
+          "Ny 3nm GPU (MI355) kan konkurrera med Nvidia",
+          "Förvärv av ZT Systems",
+          "Starka relationer med Dell, MCI, Sony",
+          "P/E 12 nästa år är attraktivt"
+        ],
+        "bear_case": [
+          "Inten lika bra mjukvara som Nvidia",
+          "Saknar CUDA-ekosystemet",
+          "Marknaden är skeptisk efter Trump"
+        ],
+        "catalysts": [
+          "MI355 lanseras april 2025",
+          "Clearwater produkter om 6-9 månader",
+          "ZT Systems integration"
+        ],
+        "risks": [
+          "Mjukvara-skillnad mot Nvidia",
+          "Marknadsreaktion på Trump-politik"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Arm",
+      "ticker": "ARM",
+      "timestamp_start": "01:27:00",
+      "timestamp_end": "01:35:10",
+      "word_count": 2000,
+      "speakers": [
+        "Awaar Mustafa",
+        "Inge Heydorn"
+      ],
+      "primary_speaker": "Awaar Mustafa",
+      "discussion_summary": "Arm har en stabil grund med energisnåla processorer som används i nästan alla mobiler. Awaar är mycket positiv och gick in vid börsintroduktionen, men tog ut vinsten för tidigt. Inge är skeptisk på grund av hög värdering och Kina-risik.",
+      "quotes": [
+        {
+          "speaker": "Awaar Mustafa",
+          "text": "Arm har det ju varit också jättepositivt till. Vad är det som gör att du är extra positiv nu? Du var positiv vid börsintroduktionen, nu är du väldigt positiv också.",
+          "timestamp": "01:27:19",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Awaar Mustafa",
+          "text": "Det har väl gått jättebra egentligen, ska man väl säga. Jag ångrar att jag inte gick på full fil. Jag tog ut mina pengar lite för tidigt kan jag säga. Jag gick över 120% plus på mina pengar men jag hade lätt kunna gå flera hundra procent för att du vet.",
+          "timestamp": "01:28:33",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Jag vill inte mer, jag tycker värderingen är för hög. Jag gillar inte börsintroduktioner med dålig likviditet. Det var lite grann, man släppte en väldigt free float, Softbank sålde inte så mycket.",
+          "timestamp": "01:29:05",
+          "context": "risk"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Arm är jättestarkt, men det finns också massor med risker i värderingen. 25% av försäljningen i Kina, där man har väldigt svårt att få pengarna, där man inte får betalt.",
+          "timestamp": "01:29:58",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Awaar gjorde 120%+ på sin investering",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "25% av försäljningen i Kina",
+          "Dålig free float vid IPO"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabil grund med energisnåla processorer",
+          "Utökar in i nya marknader",
+          "Stark position i mobil-marknaden"
+        ],
+        "bear_case": [
+          "Hög värdering",
+          "25% Kina-exponering med betalningsrisk",
+          "Konkurrens från x86"
+        ],
+        "catalysts": [
+          "Expansion till nya marknader",
+          "Ökad AI-användning i mobiler"
+        ],
+        "risks": [
+          "Hög värdering",
+          "Kina-exponering",
+          "Konkurrens"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Intel",
+      "ticker": "INTC",
+      "timestamp_start": "01:42:53",
+      "timestamp_end": "01:46:50",
+      "word_count": 1500,
+      "speakers": [
+        "Inge Heydorn",
+        "Awaar Mustafa"
+      ],
+      "primary_speaker": "Inge Heydorn",
+      "discussion_summary": "Intel har förlorat sin position på grund av fel beslut kring 10nm och 14nm. Satt fast i flera år medan AMD tog marknadsandelar. Förlorar nu både PC- och server-marknaden. Inge ser det mycket svårt för Intel att vända trenden.",
+      "quotes": [
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Personligen tror jag att det kommer vara riktigt tufft för dem.",
+          "timestamp": "01:43:46",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "De valde att inte gå med EUV. De satsar på att inte gå EUV-spårighet med ASML. Det visar sig också vara så bra.",
+          "timestamp": "01:40:14",
+          "context": "risk"
+        },
+        {
+          "speaker": "Awaar Mustafa",
+          "text": "Det är ju från 10 och en halv meter och ner, man valde ett fel beslut och man har ju suttit i monopolställning och bara mjölkat marknaden.",
+          "timestamp": "01:42:55",
+          "context": "risk"
+        },
+        {
+          "speaker": "Inge Heydorn",
+          "text": "Nu har du ju inte en produkt som är ledande någonstans genom hela företaget.",
+          "timestamp": "01:43:06",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Amerikansk regering kan investera för Made in USA"
+        ],
+        "bear_case": [
+          "Förlorar marknadsandelar till AMD",
+          "Ej ledande i något segment",
+          "Kan inte vända trenden"
+        ],
+        "catalysts": [
+          "Ny VD kan göra förändringar",
+          "USA-investeringar för inhouse produktion"
+        ],
+        "risks": [
+          "Konkurrens från AMD och ARM",
+          "Förlorat monopolposition",
+          "Teknologisk eftersläpning"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag skulle aldrig köpa ett bolag bara, för jag skulle ju alltid risksprida. Det skulle du säkert inte, men nu tvingar jag dig.",
+      "summary": "Viktigt att risksprida sina investeringar istället för att lägga alla ägg i samma korg.",
+      "category": "philosophy",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "01:31:08",
+      "confidence": "high",
+      "tags": [
+        "riskspridning",
+        "diversifiering"
+      ]
+    },
+    {
+      "quote": "Men för mig då som tittar mycket på den här sektorn, jag lägger ju pusseler på de här antal nanometer, men jag bygger också pusseler på relationer. Om vi tar till exempel Dell till exempel, de har aldrig sålt en AMD-processor till sina corporatekunder för tidigare.",
+      "summary": "Långsiktiga investeringar baseras på relationer och ekosystem, inte bara teknologi.",
+      "category": "philosophy",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "01:47:49",
+      "confidence": "high",
+      "tags": [
+        "relationer",
+        "ekosystem",
+        "långsiktighet"
+      ]
+    },
+    {
+      "quote": "Det intressanta här är ju att, vad är för slutsatser vi drar här då? Ett är att det går att förbättra allas modeller och ligga ytterligare i kraft och förbättra dem. Absolut, det är inget snack. Behöver vi se färre modeller för det i framtiden? Nej, egentligen inte.",
+      "summary": "Deepseek visade att AI-modeller kan förbättras, men det ökar efterfrågan på compute inte minskar den.",
+      "category": "wisdom",
+      "speaker": "Awaar Mustafa",
+      "speaker_role": "guest",
+      "timestamp": "01:02:26",
+      "confidence": "high",
+      "tags": [
+        "AI",
+        "Deepseek",
+        "efterfrågan"
+      ]
+    },
+    {
+      "quote": "Jag kan lova dig att vi inte vet vad vi inte vet än. Det är hela tiden nytt. Det är hela tiden olika typer av användningar som man kommer på.",
+      "summary": "Vi är väldigt tidiga i AI-utvecklingen och har inte ens upptäckt alla användningsområden än.",
+      "category": "wisdom",
+      "speaker": "Awaar Mustafa",
+      "speaker_role": "guest",
+      "timestamp": "01:07:50",
+      "confidence": "high",
+      "tags": [
+        "AI",
+        "innovation",
+        "tidigt skede"
+      ]
+    },
+    {
+      "quote": "Det som är intressant med leverantörer är att de flesta av de här leverantörerna är hundra procentiga marknadshållare eller otroligt dominanta i varje segment. Avkastningen på sysselsaltkapital i de här bolagen är 35-40 %.",
+      "summary": "Halvledarleverantörer har extremt hög avkastning på sysselsatt kapital (35-40%) och dominerar sina segment.",
+      "category": "wisdom",
+      "speaker": "Inge Heydorn",
+      "speaker_role": "guest",
+      "timestamp": "01:49:14",
+      "confidence": "high",
+      "tags": [
+        "avkastning",
+        "halvledare",
+        "ROIC"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Halvledarbranschen genomgår en massiv tillväxt driven av AI. De största vinnarna är bolag som ASML och TSMC som har monopol eller dominerande positioner. Nvidia är ledande men kan hotas av AMD på sikt. Intel har tappat sin position och har det svårt. Arm har stark grund men hög värdering. Compute-efterfrågan exploderar, särskilt för reasoning-modeller.",
+  "key_takeaways": [
+    "TSMC är bäst bolag att äga om man måste välja eftersom de tillverkar alla vinnande chip",
+    "Deepseek-rörelsen skapade köpläge genom att öka efterfrågan på compute, inte minska den",
+    "AMD är ett starkt köp på P/E 12 med ny 3nm GPU som kan konkurrera med Nvidia",
+    "ASML har unik monopolställning på EUV-litografi",
+    "Intel har det svårt efter att ha missat EUV-tekniken och tappat marknadsandelar",
+    "Datacenter-vacancy i USA är bara 1.8% och kapaciteten är slutsåld",
+    "Reasoning-modeller kräver 100x mer datakraft än vanliga chatbottar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2025-04-10-bc3e.txt",
+  "transcript_word_count": 17054,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

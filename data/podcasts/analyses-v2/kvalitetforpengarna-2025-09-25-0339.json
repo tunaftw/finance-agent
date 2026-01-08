@@ -1,0 +1,269 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kvalitetforpengarna-2025-09-25-0339",
+  "podcast_name": "Kvalitet för pengarna",
+  "episode_title": "Bubbelvarning",
+  "episode_number": null,
+  "date": "2025-09-25",
+  "hosts": [
+    "Fredrik"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Makroekonomi och värderingsmått",
+    "AI-bubbla och vendor financing",
+    "Rockwool-korrigering",
+    "NOTE-analys",
+    "Investeringsstrategi i övervärderad marknad"
+  ],
+  "stocks_discussed": [
+    "Rockwool",
+    "NOTE",
+    "Nvidia",
+    "Oracle"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Rockwool",
+      "ticker": "ROCK-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Korrektion av tidigare analys efter räknefel. Beräkning visar nu endast 8% margin of safety för både i år och nästa år. Detta är tydligt avvakta, nästan på gränsen till sälj. Behåller en mycket liten bevakningspost men säljer huvuddelen av positionen. Bolaget är stabilt och av hög kvalitet men för lite säkerhetsmarginal.",
+      "price_target": null,
+      "time_horizon": " lång sikt intressant men inte köpvärd nu",
+      "quote": "För mig är det ju ett tydligt avvakta, nästan på gränsen till sälj... Jag har några ynka aktier kvar fortfarande för att hålla koll på dem. Men min position, min bevakningspost är ännu nere på ett väldigt litet belopp. Fortfarande intressant på lång sikt... Men för lite margin of safety för att investera just nu.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": "Liten bevakningspost kvar, sålde huvuddel",
+      "downside_note": "8% margin of safety",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "NOTE",
+      "ticker": "NOTE",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Handlas till PE20 mot historiskt snitt på 16,7. PEG på 1,4 mot historiskt 1,1. Prognoser visar EPS på 10,0 kr för 2025 och 10,6 kr för 2026. Med P15 (motiverat utifrån historik) ger det negativ margin of safety. Med P18 får man liten mos men inte tillräckligt. Riktkurs 159 kr under nuvarande kurs 182 kr. Stärkt finansiell position och hög FCF-marginal på 12% men värdering för hög.",
+      "price_target": 159,
+      "time_horizon": "Lång sikt i buy-and-hold portfölj, men ej aktivt köp nu",
+      "quote": "För min del så blev det ett sälj på Note. Vad det innebär i verkligheten då, det är att de aktier som jag sålde i våras, de tänker jag inte köpa tillbaka. De aktierna jag har i min buy and hold portfölj, de tänker jag behålla eftersom caset att det här är ett bolag som över tid kommer att växa och skapa värde för mig som aktieägare.",
+      "sector": "Elektroniktillverkning",
+      "market": "sweden",
+      "position_context": "Behåller buy-and-hold, ej återköp av såld aktiv position",
+      "downside_note": "Nedgång till 159 kr (~13% ned)",
+      "catalyst_timing": "Konjunkturvändning behövs"
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "action": "avoid",
+      "confidence": "speculative",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Exempel på AI-bubbla med extremt höga värderingar. Ingår i en circular investment-loop med OpenAI och Oracle som kan vara ett tecken på vendor financing och potentiell bubbeltendens. Om tillväxten saktar in kan det leda till stora nedgångar. Används som exempel för att illustrera risker med övervärderade AI-bolag.",
+      "price_target": null,
+      "time_horizon": "Oklart, beror på AI-utveckling",
+      "quote": "Detta är en klassisk flywheel eller en självförstärkande feedback loop. En flywheel-modell är ju faktiskt världens bästa affärsmodell, så länge den fungerar... Men det är ju bara det att om det slutar fungera en dag, så är ju en FlyWilson att den fungerar också i motsatsriktning.",
+      "sector": "Semiconductors/AI",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Hög risk om AI-bubbla spricker",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "NOTE",
+      "ticker": "NOTE",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 1200,
+      "speakers": [
+        "Fredrik"
+      ],
+      "primary_speaker": "Fredrik",
+      "discussion_summary": "NOTE är en kontraktstillverkare inom elektronik som visat stark historisk tillväxt med 15% omsättningstillväxt och 22% vinsttillväxt över sju år. Bolaget har stark finansiell position med 0,5x net debt/EBITDA och hög free cash flow-marginal på 12%. Aktien har gått upp 65% på ett år men handlas nu till PE20 vilket är över historiskt snitt. Prognoser indikerar modest tillväxt framåt med EPS på 10,0 kr (2025) och 10,6 kr (2026). Med P15-18 värdering finns liten eller negativ margin of safety vid nuvarande kurs 182 kr. VD-varnar för svagt Q3 men det kan finnas positiv överraskning jämfört med förra årets kraftiga tapp.",
+      "quotes": [
+        {
+          "speaker": "Fredrik",
+          "text": "Vi har en omsättningstillväxt de senaste sju åren på 15 procent. En vinsttillväxt på 22. Så vi ser att det här är ett bolag som har presterat superbra. Netterskuld genom EBITDA är 0,5. Där vet jag att de har själva ett mål på soliditet på minst 30 procent när det gäller skuldsättning.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Fri kassaflödesmarginal 12 procent. Vilket är högt över snittet. Aktien handlas idag till 11 gånger fritt cash flow. Vilket är en billig siffra tycker jag.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Q3 2024, vilket är det kvartal de kommer upp emot nu, var ett riktigt svagt kvartal. De tappade 22% i omsättning det kvartalet och tappade även en del marginal under kvartalet på grund av det.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "För detta året så landar jag in på 4,0 [miljarder i omsättning], vilket är i linje med deras egna prognoser. Och en vinst per aktie som blir 10,0 kronor... för nästa år... landar de på en vinst per aktie på 10,60.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "För min del så blev det ett sälj på Note... De aktierna jag har i min buy and hold portfölj, de tänker jag behålla eftersom caset att det här är ett bolag som över tid kommer att växa och skapa värde för mig som aktieägare.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 20,
+        "ev_ebitda": 15,
+        "ev_sales": 1.4,
+        "fcf_yield": "3,9%",
+        "dividend_yield": null,
+        "revenue_growth": "15% (7 år)",
+        "margin": "7% (vinstmarginal)",
+        "debt_level": "0,5x Net Debt/EBITDA",
+        "custom": [
+          "Free cash flow margin: 12%",
+          "Soliditet: ~50%",
+          "ROE: ~17%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark historisk tillväxt 15-22%",
+          "Hög FCF-marginal på 12%",
+          "Stabil marginal även under lågkonjunktur",
+          "Bra ledning och finansiell position",
+          "Köpa mot svagt Q3 förra året ger potentiell positiv överraskning"
+        ],
+        "bear_case": [
+          "Värdering över historiskt snitt (PE20 vs 16,7)",
+          "Negativ margin of safety vid P15",
+          "Svag orderingång och negativ tillväxt i Q2 2024",
+          "Lågkonjunkturen fortsätter att driva negativt",
+          "Prognos för modest tillväxt framåt"
+        ],
+        "catalysts": [
+          "Konjunkturvändning i elektroniksektorn",
+          "Positiv Q3-rapport jämfört med förra årets kraftiga tapp",
+          "Lageruppbyggnad återupptas hos kunder"
+        ],
+        "risks": [
+          "Lågkonjunkturen förlängs",
+          "Försäljningen av aktive position i april visade att värdering var fullvärderad redan då",
+          "Orderingången vänder ej snabbt"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det jag gör egentligen allting precis som vanligt. Som jag sagt tidigare så tycker jag att det är bra att veta lite om makrosituationen omkring mig, men det är väldigt sällan som jag fattar mina investeringsbesut baserat på makrosituationen eller framförallt att det skulle vara det som driver besluten i högsta grad. Utan jag tittar istället på de enskilda bolagen och jag analyserar dem utifrån läget de har just nu.",
+      "summary": "Investerare bör fokusera på individbolagsanalys snarare än makroprognoser vid investeringsbeslut.",
+      "category": "philosophy",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "makro",
+        "individbolag",
+        "fokus"
+      ]
+    },
+    {
+      "quote": "Resultatet av det blir att jag faktiskt sitter på lite mer kassa än vanligt just nu. Jag brukar inte ha så mycket kassa... I dagsläget sitter jag kanske på 10 procent kassa som är lite mer än vad det brukar vara. Men det är inte för att jag sitter och väntar på ett ras, utan det är för att jag har svårt att hitta bolag som jag vill investera i helt enkelt.",
+      "summary": "Ha mer kassa när det är svårt att hitta köpvärda bolag, inte för att vänta på en krasch.",
+      "category": "philosophy",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "kassa",
+        "värdering",
+        "tålamod"
+      ]
+    },
+    {
+      "quote": "Dessutom vet jag ju att när den här stora karranschen kommer så kommer jag känna mig osäker. Jag kommer inte vara så trygg i mina beslut som jag har varit tidigare. De här logiska slutsatserna som jag drager under goda tider, de kommer oftast att kännas fel när det är deppigt på bussen och alla tror att världen ska gå under. Då är det jättevärdefullt att ha en strategi och ha en plan som hjälper en att vara lugn.",
+      "summary": "Under marknadskrascher känns logiska beslut felaktiga, därför är det kritiskt att ha en förutbestämd strategi.",
+      "category": "wisdom",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "krasch",
+        "psykologi",
+        "strategi"
+      ]
+    },
+    {
+      "quote": "Så det är ju en indikation på att det är väldigt mycket pengar in i de här aktierna va... Men det som händer allra mest händer i de största bolagen... I sådana tider kan det vara intressant att undersöka vad som gör att de här bolagen som ligger där allra högst upp i listan faktiskt växer.",
+      "summary": "När marknaden är övervärderad drivs det ofta av ett fåtal stora bolag, inte hela marknaden.",
+      "category": "wisdom",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": [
+        "övervärdering",
+        "index",
+        "storbolag"
+      ]
+    },
+    {
+      "quote": "Det finns också ett verktyg som jag gillar från Charlie Munger och det är att invertera. Han brukar ju citera en matematiker som säger invert, always invert. Och det han menar då, eller det man skulle kunna applicera det på i det här läget då är att fundera på vad som skulle kunna gå fel med de här bolagen i den här situationen.",
+      "summary": "Använd inversionstekniken: analysera vad som kan gå fel istället för bara vad som kan gå rätt.",
+      "category": "philosophy",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "inversion",
+        "risk",
+        "Charlie Munger"
+      ]
+    },
+    {
+      "quote": "Samma sak här, det kan ju också vara så att när det kommer ur kontroll så händer det dåliga saker. Och just här så kan jag tycka att det kan vara läge att göra sin invertering, att titta på det baklänges och fundera på vad som skulle kunna gå fel i det här läget då. Säljafundering var ju trots allt en av de stora anledningarna till att det gick utför så snabbt som det gjorde när telekombubblan sprack en gång i tiden.",
+      "summary": "Självförstärkande feedback loops som vendor financing kan bli farliga när de går ur kontroll, historiskt sett en riskfaktor vid bubblor.",
+      "category": "wisdom",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "vendor financing",
+        "feedback loop",
+        "bubbla"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet diskuterar övervärdering på USA-börsen med rekordhöga Schiller P/E på 40 och Buffett Indicator på 217%. Fredrik reder ut sitt misstag med Rockwool (8% margin of safety) och analyserar NOTE som är finansiellt stark men värderat för högt (PE20, riktkurs 159 kr). Han betonar vikten av att vara investerad trots potentiell bubbla men att ha ca 10% kassa då det är svårt att hitta köpvärda bolag. AI-sektorn exemplifieras med en circular investment-loop mellan Nvidia, OpenAI och Oracle som kan vara en bubbelfara. Strategin är att fokusera på kvalitetsbolag istället för makroprognos.",
+  "key_takeaways": [
+    "USA-börsen är starkt övervärderad med rekordhöga indikatorer",
+    "NOTE är ett kvalitetsbolag men värderat för högt för nyinvestering",
+    "Ha kassa när det är svårt att hitta köpvärda bolag, inte för att vänta på krasch",
+    "AI-sektorn uppvisar riskfyllda circular investments som kan vara bubbelfara",
+    "Fokusera på individbolagsanalys istället för makroprognos vid investeringsbeslut"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kvalitetforpengarna/transcripts/kvalitetforpengarna-2025-09-25-0339.txt",
+  "transcript_word_count": 10133,
+  "has_timestamps": true,
+  "model_used": "unknown"
+}

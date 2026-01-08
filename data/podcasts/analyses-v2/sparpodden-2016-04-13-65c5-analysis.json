@@ -1,0 +1,256 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2016-04-13-65c5",
+  "podcast_name": "Sparpodden",
+  "episode_title": "#sparpodden Ep 127 - Fasigheter och Panama eller Panamá?",
+  "episode_number": 127,
+  "date": "2016-04-13",
+  "hosts": ["Peter", "Jocke"],
+  "guests": [],
+  "main_topics": ["Panama Papers", "Skatteparadis", "SVD Börsplus", "Fastighetsbolag", "Avanza vs Nordnet"],
+  "stocks_discussed": ["Swedbank", "Spiltan", "Paradox", "Tele2", "Avanza", "Nordnet", "Sagax", "Balder", "Klövern", "Hufvudstaden", "Heba", "Wallenstam"],
+  "recommendations": [
+    {
+      "stock_name": "Spiltan",
+      "ticker": null,
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "19:54",
+      "reasoning": "Jocke diskuterar Spiltans värdering men ger ingen tydlig köp- eller säljrekommendation. Han kommenterar att det är svårt att veta hur bolaget ska värderas, särskilt med stort innehav i Paradox. Han nämner att Per-Håkan Persson följer Buffett-principerna: köpa bra bolag, ha bra entreprenörer med sig, och äga saker länge.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nej, det har jag inte. Det är svårt att veta hur det där ska värderas.",
+      "sector": "Investmentbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Avanza",
+      "ticker": "AZA",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "31:37",
+      "reasoning": "Jocke nämner att han är 'lång i en av aktierna' när frågan kommer om Avanza vs Nordnet. Han menar att det är rimligt att det finns en värderingsskillnad mellan bolagen, men rekommenderar generellt försiktighet med att korta kvalitetsbolag.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag är ju lång i en av aktierna kan jag säga.",
+      "sector": "Finans",
+      "market": "sweden",
+      "position_context": "Lång position",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Spiltan",
+      "ticker": null,
+      "timestamp_start": "15:23",
+      "timestamp_end": "20:00",
+      "word_count": 800,
+      "speakers": ["Jocke", "Peter"],
+      "primary_speaker": "Jocke",
+      "discussion_summary": "Diskuterar Spiltan som investmentbolag som handlas på alternativa marknaden med månadshandel. Jocke förklarar att Spiltan har ett stort innehav i Paradox (hälften eller mer av portföljen) och att bolaget följer Buffett-principerna att köpa bra bolag med bra entreprenörer och äga dem länge. De diskuterar utmaningen med att värdera bolaget givet koncentrationen i Paradox.",
+      "quotes": [
+        {
+          "speaker": "Jocke",
+          "text": "Spiltan är ju också ett investmentbolag som man kan bli aktieägare i och handlas via alternativa marknaden.",
+          "timestamp": "15:53",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Jag kollade på det i somras och då var det hälften och sen dess har det gått mycket bättre. Det är helt dominerande.",
+          "timestamp": "18:41",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "På sikt så är just bildtandet, han Per Håkan Purgessons förebild är Warren Buffett och det är lite pretentiöst kanske, men dom kör ganska mycket i de principerna. Vi ska köpa bra grejer, ha bra entreprenörer med oss som delägare och gärna äga saker riktigt länge.",
+          "timestamp": "19:03",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Hälften eller mer av portföljen i Paradox"]
+      },
+      "thesis": {
+        "bull_case": ["Följer Buffett-principerna", "Har bra entreprenörer som delägare", "Långsiktigt ägande", "Stort innehav i Paradox som presterat bra"],
+        "bear_case": ["Mycket koncentrerad portfölj med stort innehav i Paradox", "Många innehav som bara blir små bolag utan tillväxt", "Värderingen är svår att bedöma"],
+        "catalysts": ["Paradox fortsätter att prestera bra", "Nya exits från onoterade innehav"],
+        "risks": ["Koncentrationsrisk genom Paradox", "Värderingsosäkerhet", "Låg likviditet med månadshandel"]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Avanza",
+      "ticker": "AZA",
+      "timestamp_start": "27:57",
+      "timestamp_end": "31:45",
+      "word_count": 600,
+      "speakers": ["Jocke", "Peter"],
+      "primary_speaker": "Jocke",
+      "discussion_summary": "Diskuterar kort Avanza/lång Nordnet-strategin. Jocke avslöjar att han är lång i en av aktierna (antyder Avanza) och menar att det är rimligt med en värderingsskillnad. Han varnar för att korta kvalitetsbolag eftersom bra bolag med tiden tenderar att växa in i sin värdering.",
+      "quotes": [
+        {
+          "speaker": "Jocke",
+          "text": "Jag är ju lång i en av aktierna kan jag säga.",
+          "timestamp": "28:51",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Jag personligen skulle aldrig gå kort ett bra bolag. Även om det kan tidvis se övervärderat ut så har man ju tiden emot sig. För bra bolag kommer före det senare växer kapsinvärdering.",
+          "timestamp": "29:26",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Generellt skulle jag vara försiktig med kort kvalitetsbolag.",
+          "timestamp": "31:45",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Värderingsmässigt 10 P/E-talspunkter skillnad till Nordnet"]
+      },
+      "thesis": {
+        "bull_case": ["Kvalitetsbolag med stark historik", "Bättre utveckling än konkurrenter", "Marknadsledande position"],
+        "bear_case": ["Hög värdering jämfört med Nordnet", "Offentlig pajkastning kan skada varumärket"],
+        "catalysts": ["Fortsatt marknadstillväxt", "Nordnet utvecklas sämre"],
+        "risks": ["Värderingsrisk", "Konkurrens", "Negativ publicitet"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Fastighetsbolag (Sagax, Balder, Hufvudstaden, m.fl.)",
+      "ticker": null,
+      "timestamp_start": "32:00",
+      "timestamp_end": "38:38",
+      "word_count": 900,
+      "speakers": ["Jocke", "Peter"],
+      "primary_speaker": "Jocke",
+      "discussion_summary": "Detaljerad diskussion om hur man värderar fastighetsbolag. Jocke förklarar att bolagen delas i två grupper: de med lågt P/E (Sagax, Balder, Klövern) som handlas med premie till substansvärde men har hög avkastning, och de med högt P/E (Hufvudstaden, Heba, Wallenstam) som har finna fastigheter med låg direktavkastning men högt substansvärde.",
+      "quotes": [
+        {
+          "speaker": "Jocke",
+          "text": "Det är en levande debatt kan man säga. Hur man ska värdera de här fastighetsbolagen. Är det P-tal eller är det substansvärde? Då har börsen helt enkelt lagt sig lite i två olika läger.",
+          "timestamp": "32:16",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Om du tar Sagax så kanske de värderas med en premie på 50 eller kanske till och med ibland uppåt 100% mot substansvärdet. Vilket är för traditionella fastighetsinvesterare sinnessjukt högt.",
+          "timestamp": "32:16",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Sen kan jag, apropå skattemoral, tycka att det är sjukt provocerande, och det säger jag även fast jag själv har fastighetsaktier, att fastighetsbolag av alla jäkla bolag ska vara så oerhört skattegynnade.",
+          "timestamp": "36:43",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Sagax: Premie 50-100% mot substansvärde", "Hufvudstaden: P/E 20+ men låg direktavkastning"]
+      },
+      "thesis": {
+        "bull_case": ["Låga räntor gynnar fastighetsbolagen", "Stark inhemsk ekonomi", "Brist på hyreslägenheter", "Hög uthyrningsgrad för kommersiella fastigheter"],
+        "bear_case": ["Risk för högre räntor", "Hög värdering generellt", "Skatteregler kan ändras", "Fastighetsbolag har noll skatt som kan öka"],
+        "catalysts": ["Fortsatt låga räntor", "Fortsatt fastighetsbrist"],
+        "risks": ["Räntehöjningar", "Skatteförändringar", "Sättning på bostadsmarknaden", "Övervärdering"]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag personligen skulle aldrig gå kort ett bra bolag. Även om det kan tidvis se övervärderat ut så har man ju tiden emot sig. För bra bolag kommer före det senare växer kapsinvärdering.",
+      "summary": "Att korta kvalitetsbolag är riskabelt eftersom tidigt arbetar mot dig - bra bolag tenderar att växa in i sin värdering över tid.",
+      "category": "wisdom",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "29:26",
+      "confidence": "high",
+      "tags": ["short selling", "kvalitetsbolag", "värdering"]
+    },
+    {
+      "quote": "Avgifterna. Det är de som äter upp avkastningarna.",
+      "summary": "Höga avgifter äter upp en betydande del av den långsiktiga avkastningen, vilket illustrerades av David Camerons pappars Panama-fond som bara dubblerade på 40 år.",
+      "category": "wisdom",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "11:49",
+      "confidence": "high",
+      "tags": ["avgifter", "avkastning", "långsiktighet"]
+    },
+    {
+      "quote": "Första orsaken var oftast att slippa betala skatt. Dels summan, dels en ren filosofisk kanske, eller livsfilosofi, att jag vill inte betala skatt. Vet du vad som är nummer två? Orsaken till att ha ett sånt konto? Fåfänga.",
+      "summary": "Många som har konton i skatteparadis drivs av fåfänga och viljan att kunna skryta, inte bara av skattesparande.",
+      "category": "wisdom",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "09:59",
+      "confidence": "medium",
+      "tags": ["skatteparadis", "psykologi", "fåfänga"]
+    },
+    {
+      "quote": "Det är oftast dåligt. De flesta har ångrat det. Ångrat det bittert faktiskt. Så det kanske är det viktigaste lärdomen här.",
+      "summary": "Att låta andra förvalta sina pengar slutar ofta dåligt - de flesta som gjort det ångrar det bittert.",
+      "category": "lesson",
+      "speaker": "Peter",
+      "speaker_role": "host",
+      "timestamp": "23:57",
+      "confidence": "high",
+      "tags": ["förvaltning", "risk", "läxa"]
+    },
+    {
+      "quote": "Jag tycker inte att det är riktigt schysst. Utan varje tid måste dömas efter sin egna glasögon.",
+      "summary": "Historiska handlingar bör bedömas utifrån sin tids kontext och moral, inte med dagens standard.",
+      "category": "philosophy",
+      "speaker": "Peter",
+      "speaker_role": "host",
+      "timestamp": "09:47",
+      "confidence": "high",
+      "tags": ["historia", "moral", "perspektiv"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar Panama Papers-skandalen och dess koppling till svenskar och svenska banker, samt generellt om skatteparadis och huruvida det är kriminellt eller inte. Jocke presenterar den nya analystjänsten SVD Börsplus. flera lyssnarfrågor besvaras om Spiltan och onoterade bolag, hur man kan förvalta andras pengar lagligt, insynsregler för att köpa konkurrentens aktier, knockout-lån, jämförelsen mellan Avanza och Nordnet, samt hur man värderar fastighetsbolag. Avsnittet avslutas med en diskussion om tjänstepension och svårigheten att flytta pensionskapital.",
+  "key_takeaways": ["Spiltan har ett mycket koncentrerat innehav med Paradox som dominant position", "Att korta kvalitetsbolag är riskabelt - tiden arbetar mot dig", "Fastighetsbolag värderas antingen på P/E eller substansvärde, två olika läger på börsen", "Låt helst inte andra förvalta dina pengar - många ångrar det bittert", "Avgifter är den största fienden till långsiktig avkastning", "Fastighetsbolag är extremt skattegynnade men det är en latent risk att detta kan ändras"],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2016-04-13-65c5.txt",
+  "transcript_word_count": 7500,
+  "has_timestamps": true,
+  "model_used": "glm-4"
+}

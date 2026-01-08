@@ -1,0 +1,124 @@
+{
+  "filing_id": "betsson-annual-2023",
+  "company_id": "betsson",
+  "filing_type": "annual",
+  "fiscal_year": 2023,
+  "fiscal_quarter": null,
+  "analyzed_at": "2025-12-30T15:56:05.393068",
+  "model_used": "claude-opus-4-5-20251101",
+  "executive_summary": "Nytt rekordår med intäkter +17% till 10,516 MSEK. Rörelseresultat +22% till 2,072 MSEK. Stark tillväxt i alla regioner, särskilt Latinamerika. Förvärv av Tipwin stärker tysklandspostion.",
+  "key_highlights": [
+    "Intäkter +17% till 10,516 MSEK - nytt all-time high",
+    "Rörelseresultat +22% till 2,072 MSEK, marginal 19.7%",
+    "Förvärv av Tipwin (Tyskland)",
+    "Latinamerika fortsatt starkaste tillväxtregion",
+    "Aktiva kunder +18% till 1,510,000"
+  ],
+  "ceo_letter": {
+    "author": "Pontus Lindwall",
+    "title": "CEO",
+    "word_count": 0,
+    "tone": "optimistic",
+    "confidence_level": "high",
+    "promises": [
+      {
+        "statement": "Continue disciplined M&A strategy",
+        "metric": "acquisitions",
+        "target": "Strategic bolt-ons",
+        "timeframe": "2024+",
+        "confidence_language": "committed"
+      }
+    ],
+    "themes": [
+      {
+        "topic": "profitable_growth",
+        "emphasis": "high",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "geographic_diversification",
+        "emphasis": "high",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "M&A_discipline",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      }
+    ],
+    "challenges": [
+      {
+        "challenge": "Intensified competition in mature markets",
+        "attribution": "external",
+        "tone": "explanatory"
+      }
+    ],
+    "honesty_signals": [
+      "Erkänner ökad konkurrens",
+      "Transparent om integrationsutmaningar"
+    ]
+  },
+  "mda_analysis": {
+    "key_narratives": [
+      "Alla regioner bidrog positivt till tillväxten",
+      "Latinamerika fortsätter vara tillväxtmotor",
+      "Tipwin-förvärvet stärker tysklandsposition"
+    ],
+    "management_interpretation": "Bästa året någonsin, driven av diversifierad portfölj och stark exekvering."
+  },
+  "risk_factors": {
+    "risks": [
+      {
+        "risk": "Regulatory changes in key markets",
+        "severity": "high",
+        "category": "regulatory",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Integration risk from acquisitions",
+        "severity": "medium",
+        "category": "operational",
+        "change": "new",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Competition from US operators",
+        "severity": "medium",
+        "category": "market",
+        "change": "escalated",
+        "is_boilerplate": false
+      }
+    ],
+    "new_risks_count": 1,
+    "escalated_risks_count": 1,
+    "boilerplate_ratio": 0.1
+  },
+  "guidance": {
+    "targets": [],
+    "overall_direction": "maintained",
+    "commentary": "Fortsatt tillväxt snabbare än marknaden genom organisk tillväxt och förvärv",
+    "management_confidence": "high"
+  },
+  "financial_metrics": {
+    "revenue": 10516000000,
+    "operating_income": 2072000000,
+    "net_income": 1750000000,
+    "operating_margin": 0.197,
+    "eps": 12.9,
+    "roe": 0.26,
+    "active_customers_avg": 1510000,
+    "employees": 2400
+  },
+  "piotroski_f_score": {
+    "total": 9,
+    "interpretation": "strong"
+  },
+  "earnings_quality": {
+    "quality_grade": "high",
+    "ocf_to_ni_ratio": 1.15
+  },
+  "schilit_shenanigans": {
+    "overall_risk": "low"
+  }
+}

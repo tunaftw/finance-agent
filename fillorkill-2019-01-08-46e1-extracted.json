@@ -1,0 +1,169 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2019-01-08-46e1",
+  "podcast_name": "Fille eller Kill",
+  "episode_title": "Avsnitt 196 - Utblick och Avgång",
+  "episode_number": 196,
+  "date": "2019-01-08",
+  "hosts": ["Handelsson/Andersson", "Fille"],
+  "guests": [],
+  "main_topics": ["Apple profit warning", "Börsåret 2019", "Fed politik", "Handelskriget", "Sektorprognoser"],
+  "stocks_discussed": ["Apple", "Amazon", "Netflix", "SKF", "SSAB", "Ericsson", "Swedbank", "Loomis", "Starbreeze", "MTG", "Tesla"],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "timestamp_start": "07:12",
+      "timestamp_end": "15:06",
+      "word_count": 1200,
+      "speakers": ["Handelsson", "Fille"],
+      "primary_speaker": "Fille",
+      "discussion_summary": "Diskuterar Apples första vinstvarning på 15 år, de höga telefonpriserna, Kina-problematiken, och värdet av deras ekosystem och stora kassa. Ingen explicit rekommendation ges, bara analys av läget.",
+      "quotes": [
+        {
+          "speaker": "Fille",
+          "text": "Jag tycker att Apple har handlats väldigt lågt, låga multiplar än för mycket andra techbolag, väldigt länge. Det är väl egentligen få i marknaden som har på något sätt trott att de ska göra en ny iPhone eller någonting.",
+          "timestamp": "07:57",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Handelsson",
+          "text": "Min take är också att de nya telefonerna är extremt dyra. Alla andra elektronikprodukter faller tvärt i världen. Nya OLED-TV-apparater med ultraskarpa bilder har gått ner 70% på bara några år.",
+          "timestamp": "08:44",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fille",
+          "text": "Jag tror att jag bara har någon magkänsla att nu är alla så fruktansvärt besade av Apple och så illa det kanske inte är i och med att de har den här stora kassan.",
+          "timestamp": "14:37",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Starkt brand", "Gigantisk kassa för förvärv", "Ekosystem med App Store", "Historik av lyckade vertikaler"],
+        "bear_case": ["Extremt dyra telefoner minskar efterfrågan", "Kina-marknaden försämras", "Netflix lämnar App Store (30% marginal)", "Förlängd bytescykel från 24 till 36 månader"],
+        "catalysts": ["Stort förvärv med kassan", "Lösning av handelskriget", "Nästa produktgeneration"],
+        "risks": ["Fortsättning av att bolag lämnar App Store", "Kina-bortfall", "Priskänsliga konsumenter"]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man måste inte vara fullinvesterad. Det är den dumaste regeln jag har hört tycker jag. Cash är väl också en tillgång.",
+      "summary": "Det är inte nödvändigt att alltid vara helt investerad i aktier - kontanter är också en tillgångsklass som kan vara värdefull.",
+      "category": "philosophy",
+      "speaker": "Handelsson",
+      "speaker_role": "host",
+      "timestamp": "21:49",
+      "confidence": "high",
+      "tags": ["asset allocation", "cash", "position sizing"]
+    },
+    {
+      "quote": "Marknaden må ha fel ganska ofta och den är inte effektiv, men den har i alla fall inte fel på de stora tematiska grejerna. Om du ser på stora bolag, när du ser en stor vändning i aktien, det är samma sak som Ericsson som vände tidigare än vad man kunde se allt det här komma.",
+      "summary": "Marknaden är ofta före med att prisstora tematiska vändningar i stora bolag, även om den kan ha fel i detaljer.",
+      "category": "wisdom",
+      "speaker": "Fille",
+      "speaker_role": "host",
+      "timestamp": "13:55",
+      "confidence": "medium",
+      "tags": ["market efficiency", "large caps", "turnarounds"]
+    },
+    {
+      "quote": "Om ni drar en sån här, det är väldigt enkelt att googla, Clifford Asnet som är den här AQR, en jättestor för edgefond, som är value versus growth, så ser man klart och tydligt att value är underperforming. Growth har varit väldigt outperforming senaste åren.",
+      "summary": "Growth har kraftigt outperformat value de senaste åren, enligt AQRs värde vs tillväxt-analys.",
+      "category": "wisdom",
+      "speaker": "Fille",
+      "speaker_role": "host",
+      "timestamp": "18:28",
+      "confidence": "high",
+      "tags": ["value vs growth", "factor investing", "performance"]
+    },
+    {
+      "quote": "Det finns en teori som heter Yelly Don't, alltså det är att ingen lånar pengar medan Riksbanken sänker räntan eller ligger still på noll. Utan det är efter de första höjningarna ekonomin kommer igång, för då börjar folk bara vänta jag ska låna nu för det kommer bli dyrare i framtiden.",
+      "summary": "Ekonomin tar inte fart vid nollräntor utan först efter de första räntehöjningarna när folk inser att lån kommer bli dyrare.",
+      "category": "wisdom",
+      "speaker": "Handelsson",
+      "speaker_role": "host",
+      "timestamp": "25:39",
+      "confidence": "medium",
+      "tags": ["interest rates", "economic cycles", "monetary policy"]
+    },
+    {
+      "quote": "Det här är jättebra exempel SKF nu som kommer. Där någon jävligt trevlig kill häll på Twitter är en otroligt trevlig korrelation med tyska ISM-siffror. Där ser man ju klart och tydligt att det där handlar ju om expectation och det slår ju rakt på revenues.",
+      "summary": "Värdepappersmarknaden bygger på förväntningar som direkt påverkar intäkter, exempelvis SKF:s korrelation med tyska ISM-siffror.",
+      "category": "wisdom",
+      "speaker": "Fille",
+      "speaker_role": "host",
+      "timestamp": "34:48",
+      "confidence": "high",
+      "tags": ["expectations", "ISM", "cyclicals", "SKF"]
+    },
+    {
+      "quote": "För det här är ju det alla glömmer, att när du inte längre växer, då får du ingen marginalexpansion. För den bygger ju på att du har full kapacitet. När kapacitetens utnyttjande faller till låga nivåer, liksom som hänt i SSAB och liknande, då kollapsar marginalen och då har du en jättestor opex.",
+      "summary": "Operating leverage fungerar åt båda håll - utan tillväxt kollapsar marginalerna när kapacitetsutnyttjandet faller.",
+      "category": "wisdom",
+      "speaker": "Fille",
+      "speaker_role": "host",
+      "timestamp": "34:48",
+      "confidence": "high",
+      "tags": ["operating leverage", "margins", "capacity utilization", "SSAB"]
+    },
+    {
+      "quote": "Jag tycker att man ska vara väldigt, väldigt defensiv. Jag tror att defensiva sektorer kommer definitivt att outperforma. Se på value cases snarare än growth.",
+      "summary": "Inför 2019 rekommenderas defensiv allokering med fokus på defensiva sektorer och value-snarare än growth-aktier.",
+      "category": "philosophy",
+      "speaker": "Fille",
+      "speaker_role": "host",
+      "timestamp": "19:51",
+      "confidence": "high",
+      "tags": ["defensive investing", "2019 outlook", "value vs growth"]
+    },
+    {
+      "quote": "En stark marknad så skakar man av de dåliga nyheterna, man fortsätter uppåt. I en svag marknad så reagerar man inte ens uppåt på de goda nyheterna.",
+      "summary": "Marknadssentimentet avgör hur nyheter tolkas - starka marknader skakar av dåliga nyheter medan svaga marknader inte reagerar på goda nyheter.",
+      "category": "wisdom",
+      "speaker": "Fille",
+      "speaker_role": "host",
+      "timestamp": "19:05",
+      "confidence": "high",
+      "tags": ["market sentiment", "bull vs bear markets"]
+    },
+    {
+      "quote": "Om ni kollar på den här typen av bolag, sluta kolla p-tal, det är jättedåligt att kolla på i alla de här typen av bolag. Man får kolla om det är ett bolag som har stor revenue, dåliga marginaler men som satsar på margin expansion, då ska man kolla price sales. Kollar man på ett bolag som Apple eller Amazon, då måste man kolla ev-ebit.",
+      "summary": "Oljika värderingsmetoder krävs för olika bolagstyper - P/E, P/S och EV/EBIT används beroende på affärsmodell och marginaler.",
+      "category": "wisdom",
+      "speaker": "Handelsson",
+      "speaker_role": "host",
+      "timestamp": "15:06",
+      "confidence": "high",
+      "tags": ["valuation metrics", "P/E", "EV/EBIT", "P/S"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar Apples första vinstvarning på 15 år, ger en försiktig outlook för börsåret 2019 med förväntningar på defensiv investering, value-aktier och ökad volatilitet. Fed-tapering och handelskriget identifieras som viktiga risker.",
+  "key_takeaways": [
+    "Apple diskuteras utan explicit rekommendation - höga priser och Kina-bortfall menas vara problem",
+    "Inför 2019 rekommenderas defensiv allokering och fokus på value-snarare än growth",
+    "Defensiva sektorer som pharma förväntas outperforma",
+    "Kassa är en tillgång och man behöver inte alltid vara fullinvesterad",
+    "Centralbankernas balansräkning korrelerar starkt med börsutveckling"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2019-01-08-46e1.txt",
+  "transcript_word_count": 7196,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

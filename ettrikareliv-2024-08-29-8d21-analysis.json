@@ -1,0 +1,391 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "ettrikareliv-2024-08-29-8d21",
+  "podcast_name": "Ett rikare liv",
+  "episode_title": "Karin Haraldsson och Katarina Carlsson, ränteförvaltare, Lannebo",
+  "episode_number": null,
+  "date": "2024-08-29",
+  "hosts": ["Helene Rådstein"],
+  "guests": ["Karin Haraldsson", "Katarina Karlsson"],
+  "main_topics": ["räntefonder", "företagsobligationer", "kreditförvaltning", "high yield", "investment grade", "fastighetssektorn", "SBB", "Intrum", "Storskogen"],
+  "stocks_discussed": ["Castellum", "Intrum", "Storskogen", "SBB", "HK Foods", "Adapteo", "Volvo", "ABB", "Balder", "Electrolux", "Cramo", "LOS", "PVT", "Wessewek"],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Castellum",
+      "ticker": "CAST-B",
+      "timestamp_start": "05:45",
+      "timestamp_end": "06:47",
+      "word_count": 180,
+      "speakers": ["Karin Haraldsson", "Helene Rådstein"],
+      "primary_speaker": "Karin Haraldsson",
+      "discussion_summary": "Karin förklarar hur Castellum, ett historiskt investment grade-företag, började handlas på high yield-nivåer 2022 på grund av osäkerhet kring fastighetsbolagens finansieringskostnader. Lannebo kunde köpa Castellum-obligationer med 9% kupong jämfört med tidigare några procent, vilket utnyttjades i deras high yield fond.",
+      "quotes": [
+        {
+          "speaker": "Karin Haraldsson",
+          "text": "Och då började fler av de här bolagen som historiskt hade varit investmentguidedbolag, vi kan ta Castellum som exempel. De började handlas på nivåer som var som high yield-bolag. Så plötsligt kunde vi få 9% om vi köpte en obligation i Castellum från att vi kanske hade fått ett par procent. Så även om Castellum aldrig blev nerritat till high yield, så handlade det som om det var high yield. Vilket vi utnyttjade och köpte till vår high yield fond. Och det blev en jättebra investering.",
+          "timestamp": "05:45",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["9% obligationkupong (2022)"]
+      },
+      "thesis": {
+        "bull_case": ["Castellum är historiskt investment grade", "Marknadsprissättningen skapade felvärdering på 9% kupongnivå", "Lannebo utnyttjade marknadsosäkerheten"],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Intrum",
+      "ticker": "INTRUM-B",
+      "timestamp_start": "07:31",
+      "timestamp_end": "21:12",
+      "word_count": 650,
+      "speakers": ["Karin Haraldsson", "Katarina Karlsson", "Helene Rådstein"],
+      "primary_seller": "Karin Haraldsson",
+      "discussion_summary": "Lång diskussion om Intrums finansiella problem och deras skuldsättning. Lannebo sålde sina Intrum-obligationer från high yield fonden för att omstruktureringsförslaget var orättvist mot obligationsinnehavare gentemot aktieägare. Bolaget har dragit på sig för mycket skuld och har misslyckats med att uppfylla sina skuldmål.",
+      "quotes": [
+        {
+          "speaker": "Karin Haraldsson",
+          "text": "Ja, vi hade det tidigare i våran High Yields fond men vi tyckte inte att det förslaget som de har givit till obligationsinnehavarna är schysst mot oss obligationsinnehavare man ser till aktieägarna. För de behöver inte stoppa in något nytt kapital men däremot så vill de skriva ner våra obligationer och ge oss aktier istället. Så därför valde vi att sälja istället för att vara med på hela resan fullt ut. För vi tror inte att vi kommer att få tillbaka de pengar vi har investerat.",
+          "timestamp": "08:56",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Karin Haraldsson",
+          "text": "Intrum är ju ett stort bolag och har haft ganska mycket utestående. Så det gör ju att det har funnits i väldigt många portföljer för att det också har varit en relativt likvid obligation.",
+          "timestamp": "07:44",
+          "context": "other"
+        },
+        {
+          "speaker": "Katarina Karlsson",
+          "text": "Sen har ju Intrum haft, om man tittar på den fundamentala sidan, har ju Intrum dragit på sig för mycket skuld. Och det har ju funnits andra debt collectors som har varit lite snabbare med att anpassa sin balansräkning. Medan Intrum har gått all in och man har sagt att man har haft ett skuldmål men man har aldrig lyckats uppfylla det.",
+          "timestamp": "07:44",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Katarina Karlsson",
+          "text": "Ja, nej men de ger ju bort, är det 10% av aktierna i förhållande till hur mycket vi ska skriva ner obligationerna. Och då tycker vi att det är en ganska dyn obalans där. Man hade velat se att, och dessutom så är det kanske inte, jag känner mig inte övertygad om att de här åtgärderna räcker för att bolaget sen är på grön kvist. Vi hade velat se större, mer equity inne i bolaget.",
+          "timestamp": "20:36",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "för hög skuldsättning",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["För hög skuldsättning", "Misslyckats med att uppfylla skuldmål", "Deltagare i rekonstruktion tar för liten smäll", "Aktieägare tvingas inte stoppa in nytt kapital"],
+        "catalysts": [],
+        "risks": ["Rekonstruktionsförslaget är otillfredsställande för obligationsägare"]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Storskogen",
+      "ticker": "STORK-B",
+      "timestamp_start": "11:45",
+      "timestamp_end": "15:32",
+      "word_count": 350,
+      "speakers": ["Karin Haraldsson", "Katarina Karlsson", "Helene Rådstein"],
+      "primary_speaker": "Karin Haraldsson",
+      "discussion_summary": "Storskogen är ett förvärvsbolag med dubbel-B rating. Lannebo ser det som ett bra obligationscase. Bolaget har jobbat med sin balansräkning, tagit ner skuldsidan, sålt av bolag, och kan nu emittera obligationer till lägre ränta. De har goda kassaflöden. Aktiesidan har kritiserats för för mycket skuld och svag avkastning på eget kapital.",
+      "quotes": [
+        {
+          "speaker": "Karin Haraldsson",
+          "text": "Vi tycker att det är ett ganska bra obligationscase. Jag kanske inte skulle äga aktier, det är privat om man säger så, men i dag har de uppfattat sig mycket på börsen för de har rapporterat bra. Men de har jobbat mycket med sin balansräkning. De har erkännt att vi har lite för mycket skuld, så de har tagit ner skuldsidan och har bra kassaflöden. De har sålt av bolag. Det var något man inte gjorde i början, så nu har man börjat sälja av bolag som går med förlust. Så vi tycker att det ser bra ut. De kan också komma ut på obligationsmarknaden och emittera obligationer till mycket lägre ränta än vad de gjorde för bara ett-två år sedan. Så som obligationscase känner vi oss trygga med det bolaget.",
+          "timestamp": "12:09",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Katarina Karlsson",
+          "text": "För oss handlar det väldigt mycket om att begränsa risken på nedsidan. Det är också därför man brukar säga att vi ränteförvaltare är så bäsiga. Ja, men det är ju naturligt för att vi fokuserar ju på risken. Det spelar ingen roll om Storskogen ger jättebra vinst. Vi kommer inte att få mer betalt i våra obligationer då.",
+          "timestamp": "14:41",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "tidigare för hög skuldsättning, har tagit ner skuldsidan",
+        "custom": ["Dubbel-B rating", "Bra kassaflöden"]
+      },
+      "thesis": {
+        "bull_case": ["Jobbat med balansräkning och tagit ner skuldsidan", "Bättre kassaflöden", "Kan emittera obligationer till lägre ränta", "Har sålt av bolag"],
+        "bear_case": ["Aktiesidan har kritiserats för för mycket skuld", "Svag avkastning på eget kapital jämfört med andra serieförvärvare"],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "SBB",
+      "ticker": "SBB-B",
+      "timestamp_start": "21:13",
+      "timestamp_end": "23:56",
+      "word_count": 280,
+      "speakers": ["Karin Haraldsson", "Katarina Karlsson", "Helene Rådstein"],
+      "primary_speaker": "Katarina Karlsson",
+      "discussion_summary": "Svenskt fastighetsbolag med D-rating som har stora problem. Lannebo har aldrig ägt SBB-obligationer. Bolaget måste refinansiera kommande förfall i både euro och SEK, men marknaden är inte villig att låna ut pengar till rimliga nivåer. Obligationer som tidigare gav 0,25% skulle nu kosta över 10%.",
+      "quotes": [
+        {
+          "speaker": "Karin Haraldsson",
+          "text": "Obligationerna ligger där nere. Vi har faktiskt aldrig ägt SBB, vilket vi är väldigt glada över.",
+          "timestamp": "21:25",
+          "context": "other"
+        },
+        {
+          "speaker": "Katarina Karlsson",
+          "text": "Det är ju att de ska kunna refinansiera sina kommande förfall som kommer här, det finns både euro och det finns svenska kronor. De måste kunna lösa det på något sätt. Deras finansiering kommer att bli väldigt mycket dyrare än vad de haft tidigare. De har någon obligation i euro som ligger på bara 0,25% i ränta, vilket är fantastiskt för dem. Men skulle de göra en ny idag, vilket jag inte riktigt tror att de kan för marknaden är inte villig att låna ut pengar till SBB, då skulle räntan hamna på mycket högre nivåer så att de inte klarar av att betala kanske.",
+          "timestamp": "22:13",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Katarina Karlsson",
+          "text": "Då kommer räntan över 10% och det är väldigt tufft för ett fastighetsbolag som har yielder på fastigheterna som ligger på mycket lägre nivåer, till exempel om det ligger på 4% kanske. Det blir ett väldigt stort gap däremellan. Då finansierar man någonting väldigt dyrt som avkastar väldigt lite.",
+          "timestamp": "22:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Karin Haraldsson",
+          "text": "Men sen är det viktigt för marknaden i stort att det kanske löser sig med SBB för att det smittar över på de andra fastighetsbolagen som vi också har.",
+          "timestamp": "23:56",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["D-rating", "Historisk obligationränta 0,25%", "Nuvarande marknadsränta >10%", "Fastighetsyield ~4%"]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["Kan inte refinansiera kommande förfall", "Finansieringskostnaden ökar drastiskt från 0,25% till över 10%", "Stort gap mellan finansieringskostnad och fastighetsyield"],
+        "catalysts": [],
+        "risks": ["Konkurs om refinansiering misslyckas", "Påverkar förtroendet för andra svenska fastighetsbolag"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "HK Foods",
+      "ticker": null,
+      "timestamp_start": "13:53",
+      "timestamp_end": "14:24",
+      "word_count": 120,
+      "speakers": ["Karin Haraldsson", "Helene Rådstein"],
+      "primary_speaker": "Karin Haraldsson",
+      "discussion_summary": "Finskt livsmedelsbolag tidigare känt som HKScan. Bolaget har renodlat och fokuserat på kärnverksamheten genom att sälja både svensk och dansk verksamhet. Den finska verksamheten har setts bättre ut hela tiden och tack vare försäljningarna har skuldsättningen bantats.",
+      "quotes": [
+        {
+          "speaker": "Karin Haraldsson",
+          "text": "HK Foods som de numera heter. Det är ju också ett bolag som har haft lite problem. Men nu har de renodlat och fokuserat på kärnverksamheten, som har sålt både den svenska och den danska verksamheten, och har kvar den finska. Den finska har sett mycket bättre ut hela tiden. Vår tro är att de ska kunna bygga vidare på det här och få en in på bolaget. Tack vare att de har sålt så har de ju bantat skuldsättningen.",
+          "timestamp": "13:53",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "har bantat skuldsättningen genom försäljningar",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Fokuserat på kärnverksamhet", "Finsk verksamhet har sett bättre ut", "Bantat skuldsättning genom försäljning"],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Adapteo",
+      "ticker": null,
+      "timestamp_start": "47:05",
+      "timestamp_end": "47:52",
+      "word_count": 100,
+      "speakers": ["Karin Haraldsson", "Helene Rådstein"],
+      "primary_speaker": "Karin Haraldsson",
+      "discussion_summary": "Finskt bolag som tillhandahåller baracker för tillfälliga byggnader såsom skolor och dagis. Kunderna är ofta statliga bolag och skolor vilket ger stabila kunder. Ibland blir byggnaderna permanenta. Det är ett high yield innehav.",
+      "quotes": [
+        {
+          "speaker": "Karin Haraldsson",
+          "text": "Oj, ofta är de ju inte superballa kanske. Men vi har köpt ett Finns bolag som tillhandahåller barack. Om du ska bygga om en skola eller ett dagis, så tillhandahåller man tillfälliga baracker. På svenska visar det något som heter Cramo. Cramo precis, och de har ett knoppat av ett bolag som heter Adapteo. Så det är lite samma tanke. Men de här är ju lite finare då, för här ska ju faktiskt barnen gå i skola eller på dagis i flera år kanske. Och ibland blir de här också permanenta. Kunderna här är ju ofta statliga bolag, skolor och sådant, så det är stabila kunder. Men såklart så finns det ju ganska hög risk i den här businessen också. Så det är ett high yield innehav.",
+          "timestamp": "47:05",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Kunder är ofta statliga bolag och skolor", "Stabila kunder", "Ibland blir byggnaderna permanenta"],
+        "bear_case": ["Ganska hög risk i businessen", "High yield innehav"],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är väl mycket en historik från Lannebo, att Lannebo är kanske mest känd som aktiehus. Fokus på små och medelstora bolag och mycket fundamental analys. Så vi har ju egentligen samma angretssepp när vi tittar på kreditförvaltning. Att vi håller inte på att gissar var räntan ska. Utan vi tror att vi är bättre på att försöka bedöma bolagens kreditvärdighet och vad vi ska få betalt för att investera i dem.",
+      "summary": "Lannebo använder samma fundamental analysapproach för creditförvaltning som för aktieförvaltning. De gissar inte på räntan utan fokuserar på kreditvärderingar.",
+      "category": "philosophy",
+      "speaker": "Katarina Karlsson",
+      "speaker_role": "guest",
+      "timestamp": "01:20",
+      "confidence": "high",
+      "tags": ["kreditförvaltning", "fundamental analys", "Lannebo"]
+    },
+    {
+      "quote": "Som du sa tidigare, att vi kan ju aldrig få mer än den räntan som obligationen ger. För oss handlar det väldigt mycket om att begränsa risken på nedsidan. Det är också därför man brukar säga att vi ränteförvaltare är så bäsiga.",
+      "summary": "Ränteförvaltarens belöning är begränsad till obligationens kupong, så fokus ligger på att begränsa nedsidan snarare än jaga uppsidan.",
+      "category": "wisdom",
+      "speaker": "Katarina Karlsson",
+      "speaker_role": "guest",
+      "timestamp": "14:41",
+      "confidence": "high",
+      "tags": ["ränteförvaltning", "riskhantering", "asymmetric payoff"]
+    },
+    {
+      "quote": "Det bästa för oss och för fond- och andalsägare är ju att vi inte hamnar i de här situationerna alls. Det är ju på något sätt ett misslyckande. Men sen såklart, alla typer av investeringar kan ju gå fel och då får man ju inte göra det bästa av situationen.",
+      "summary": "Att hamna i rekonstruktionsförhandlingar är ett misslyckande för ränteförvaltare. Det bästa är att undvika dessa situationer helt.",
+      "category": "wisdom",
+      "speaker": "Karin Haraldsson",
+      "speaker_role": "guest",
+      "timestamp": "18:37",
+      "confidence": "high",
+      "tags": ["rekonstruktion", "riskhantering", "bonds"]
+    },
+    {
+      "quote": "Vi har nog ganska lika syn på bolagen i stort. Det är ingen som sticker ut riskmässigt så att Katarina skulle vilja ta mer risk än jag. Nej, tror jag inte. Men ibland så har vi olika syn. Om vi inte kommer överens och om inte jag kan övertala Katarina att det här är en jättebra investering, då investerar vi inte. Och det ligger ju någonting i det. Att vi alltid har fyra ögon på alla case. Och är det något som inte riktigt känns bra, då ska vi nog avstå.",
+      "summary": "Karin och Katarina använder en tvåögon-princip där de bara investerar om båda är övertygade. Om de inte kommer överens investerar de inte.",
+      "category": "wisdom",
+      "speaker": "Karin Haraldsson",
+      "speaker_role": "guest",
+      "timestamp": "29:44",
+      "confidence": "high",
+      "tags": ["teamwork", "riskhantering", "investeringsprocess"]
+    },
+    {
+      "quote": "Jag tänker att man måste fundera på vad man har för placeringshorisont. Är det här hundra tusen som du ska använda om ett år, då passar ju en kort räntefond bättre. Är det pengar som du säger att du ska spara till i 20 år, då är det ju bättre med aktier eller aktiefonder.",
+      "summary": "Valet av investering ska baseras på tidshorisonten för pengarna. Korta horisonter passar räntefonder, långa horisonter passar aktier.",
+      "category": "wisdom",
+      "speaker": "Katarina Karlsson",
+      "speaker_role": "guest",
+      "timestamp": "32:09",
+      "confidence": "high",
+      "tags": ["placeringshorisont", "rÄntefonder", "aktier"]
+    },
+    {
+      "quote": "Analysen och tänket kring Hild-bolag är ju egentligen ganska lik det på aktiesidan. Bara att det gäller att fokusera lite mer på riskerna och lite mindre på bluska i scenarierna. Så att man själva grundläggande analysen är ju densamma. Det gäller ju att titta på nyckeltalen och förstå bolaget och hur de skapar värde och vad som kan vara riskerna i deras affärsmodell.",
+      "summary": "Kreditanalys är väldigt lik aktieanalys men med mer fokus på risker och mindre på bullish-scenarier. Grundläggande analys av bolag och affärsmodeller är densamma.",
+      "category": "wisdom",
+      "speaker": "Karin Haraldsson",
+      "speaker_role": "guest",
+      "timestamp": "24:59",
+      "confidence": "high",
+      "tags": ["kreditanalys", "aktieanalys", "risk"]
+    },
+    {
+      "quote": "Men oftast är det ju så att bolagen liksom det går inte enligt plan. Och så växer skuldsättningen och vi brukar försöka vara ganska snabba med att rycka de här plåstrarna. När vi känner att det här blir inte riktigt bra, så brukar vi försöka sälja relativt snabbt.",
+      "summary": "När bolag inte går enligt plan och skuldsättningen växer, är det viktigt att vara snabb med att sälja. Ränteförvaltare reagerar snabbt på försämringar.",
+      "category": "wisdom",
+      "speaker": "Karin Haraldsson",
+      "speaker_role": "guest",
+      "timestamp": "28:06",
+      "confidence": "high",
+      "tags": ["sälj", "skuldsättning", "snabbhet"]
+    },
+    {
+      "quote": "Vi håller oss i det här BBB-segmentet, för vi tycker att det där får man faktiskt bäst betalt. Vi köper inte de fina statsobligationerna och sånt heller, med allra högst rating, för där får vi alldeles för lite betalt.",
+      "summary": "Lannebo gillar BBB-segmentet för att det ger bäst riskjusterad avkastning. De köper inte AAA-obligationer för att avkastningen är för låg.",
+      "category": "wisdom",
+      "speaker": "Karin Haraldsson",
+      "speaker_role": "guest",
+      "timestamp": "37:55",
+      "confidence": "high",
+      ["rating", "risk-reward", "BBB"]
+    },
+    {
+      "quote": "Nej men vi är lite långsamma, men vi tror ju på att långsiktigheten lönar sig. Sen ska man komma ihåg att en viktig aspekt som skiljer obligationsmarknaden lite från aktiemarknaden är att det är ganska dyrt för oss att handla. Om du byter en aktie, om du har en aktieportföljning som du tror att potentialen går upp 5% och så byter du till en aktie som du tror har potential 30%, då tjänar du jättemycket. Men för oss byter vi en obligation som har en ränta på 5% till någon som har 7%. Vi får inte riktigt samma positiva sving av att byta saker och dessutom köp säljspredden ofta lite större på obligationen.",
+      "summary": "Lannebo håller på långsiktigheten i obligationsmarknaden eftersom transaktionskostnaderna är höga. Att byta en obligation med 5% kupong mot 7% kupong ger inte samma payoff som att byta en aktie med 5% potential mot 30% potential.",
+      "category": "wisdom",
+      "speaker": "Karin Haraldsson",
+      "speaker_role": "guest",
+      "timestamp": "40:33",
+      "confidence": "high",
+      "tags": ["transaktionskostnader", "lÅngsiktighet", "obligationer vs aktier"]
+    },
+    {
+      "quote": "Det är jätteviktigt att titta på det man ska investera i en high yield fond. Man ska titta på vad de har för snittrating, men också var de ligger på den här skalan. Det är väldigt stor skillnad mot de finaste high yield-bolagen som är dubbel B+, som vi säger, Stena Metall till exempel, mot de bolagen som är nere på D.",
+      "summary": "Vid investering i high yield-fonder är det viktigt att titta på snittratingen men också var fonden ligger på skalan. Det är stor skillnad mellan BB+ och D.",
+      "category": "wisdom",
+      "speaker": "Karin Haraldsson",
+      "speaker_role": "guest",
+      "timestamp": "38:42",
+      "confidence": "high",
+      "tags": ["high yield", "rating", "fondanalys"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Lannebos ränteförvaltare Karin Haraldsson och Katarina Karlsson diskuterar företagsobligationsmarknaden och deras tre fonder med olika riskklasser. De förklarar hur de använder fundamental analys för att bedöma kreditvärdighet, hur de hanterade marknadsturbulensen 2022 genom att köpa investment grade-obligationer som handlades som high yield (t.ex. Castellum), och hur de sålde Intrum på grund av ett otillfredsställande omstruktureringsförslag. De pratar om SBBs stora problem, hur de hanterar förluster genom att sälja snabbt, och vikten av att ha fyra ögon på alla case.",
+  "key_takeaways": [
+    "Lannebo använder fundamental analys för kreditförvaltning, inte gissning på räntor",
+    "Under 2022 kunde man köpa investment grade-obligationer till high yield-avkastning (t.ex. Castellum med 9% kupong)",
+    "Lannebo sålde sina Intrum-obligationer eftersom omstruktureringsförslaget var orättvist mot obligationsägare",
+    "Ränteförvaltare har begränsad uppsida och fokuserar på att begränsa nedsidan",
+    "Viktigt att titta på snittrating när man investerar i high yield-fonder",
+    "Karin och Katarina använder tvåögon-principen och investerar bara om båda är övertygade",
+    "SBB har stora refinansieringsproblem med räntor som kan öka från 0,25% till över 10%"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/ettrikareliv/transcripts/ettrikareliv-2024-08-29-8d21.txt",
+  "transcript_word_count": 25600,
+  "has_timestamps": true,
+  "model_used": "gpt-4.7"
+}

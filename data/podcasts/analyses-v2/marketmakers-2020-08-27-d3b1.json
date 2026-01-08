@@ -1,0 +1,414 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2020-08-27-d3b1",
+  "podcast_name": "Market Makers",
+  "episode_title": "#146 Årets hetaste noteringar",
+  "episode_number": 146,
+  "date": "2020-08-27",
+  "hosts": [
+    "Niklas",
+    "Fredrik"
+  ],
+  "guests": [],
+  "main_topics": [
+    "IPOs",
+    "Snowflake",
+    "Unity",
+    "Tech-värderingar",
+    "Tillväxtbolag"
+  ],
+  "stocks_discussed": [
+    "Snowflake",
+    "Unity",
+    "ServiceNow",
+    "Alteryx",
+    "Shopify",
+    "BigCommerce"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Snowflake",
+      "ticker": "SNOW",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "04:05",
+      "reasoning": "Snowflake är ett data warehouse as a service-bolag med extremt snabb tillväxt (130% omsättningstillväxt H1 2019 till H1 2020). De har 158% net retention, över 3000 kunder inklusive Adobe och andra Fortune 500-bolag. Styrka: Agnostisk plattform (oberoende av Amazon/Google/Microsoft), skalbarhet, komplexa queries. Risker: Hög värdering förväntas vid IPO (EV/S 30+), negativ vinstmarginal (-60%), bruttomarginal bara 62%. Förlusten minskar dock vilket visar skalbarhet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är verkligen ett intressant bolag som växer extremt fort. Det ska man inte sticka under stol med.",
+      "sector": "Data & Analytics",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Hög värderingsrisk vid IPO",
+      "catalyst_timing": "IPO oktober/november 2020"
+    },
+    {
+      "stock_name": "Unity",
+      "ticker": "U",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "23:32",
+      "reasoning": "Spelmotor och utvecklarplattform med 53% av topp 1000 mobilspel och 80% bruttomarginal. Tvådelad business model: Create Solutions (29% av omsättning, växer 31%) och Operate Solutions (62% av omsättning, växer 60%). Dollar-based net expansion rate på 142% Q2 2020. Stora kunder: EA, Tencent, Ubisoft, Volvo, Skanska. Styrka: Crossplay-förmåga, real-time teknologi, starka ägare (Sequoia 24%, Silver Lake 18%). Risker: Förlustbringande (-10% vinstmarginal), några få kunder står för 74% av omsättningen (700+ kunder >100k USD), 16 år gammalt bolag utan lönsamhet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men det är ett otroligt intressant bolag. Jag antar att det är videoutvecklingar till det, men någonstans måste man börja tjäna pengar på produkten nu man ändå är så pass stor.",
+      "sector": "Gaming & Software",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Väntande IPO"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Snowflake",
+      "ticker": "SNOW",
+      "timestamp_start": "04:05",
+      "timestamp_end": "22:42",
+      "word_count": 1100,
+      "speakers": [
+        "Niklas",
+        "Fredrik"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Snowflake är ett data warehouse as a service-bolag med unik skalbarhet och agnostisk plattform som körs ovanpå AWS, Azure och Google Cloud. De visar extrem tillväxt med 130% omsättningstillväxt år till år och 158% net retention, men har fortfarande tunga förluster. Vd Frank Slootman och CFO Michael Scarpelli kommer från ServiceNow där de växte intäkterna från 17M till 1.5B dollar. Värderingen förväntas bli hög vid IPO med EV/S runt 30.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Snowflake som du säger, målbaserad lagring och analystjänst. Ett så kallat data warehouse as a service.",
+          "timestamp": "04:26",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "De har ju inte egentligen så mycket datavisualisering eller bi-tjänster för att visualisera den här datan. Oftast använder kunder någon typ av bi-tjänst kopplat till Snowflake.",
+          "timestamp": "08:24",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Så återigen är det de stora techjättarna. Om man vill dra nytta av den här grejen så kommer man inte vara lottlösa även om man äger dem",
+          "timestamp": "05:08",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Och han ser ju väldigt väldig stor uppsida i Snowflake och det är därför han tog sig an vd-rollen.",
+          "timestamp": "10:37",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jag premierar Agnostics, jag gillar det när jag investerar. Men där betyder det inte per definition att det är bättre eller så.",
+          "timestamp": "12:36",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Jag tror att vi kommer att se en liknande prissättning, en liknande värdering för det här bolaget när det är IPOAs. Nu vet jag inte när IPOAs men det kommer att ha tagit en hand om några veckor, oktober november någon gång. Och det är nog inte så otroligt att man ser ett EVS på 30 när det släpps om inte högre.",
+          "timestamp": "15:47",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Skulle man ha 30% vinstmarginal, det har man dock inte, man går ju med förlust, men skulle man ha det, och idag har de kanske runt 60% med ruttemarginal, då får man runt 150 miljoner vinst åt PE på 83 om man tittar på senaste värderingen nu i februari.",
+          "timestamp": "16:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Net Dollar Retention betyder alltså att om du säljer för en dollar förra månaden och du säljer en dollar för den här månaden, då är ju din Net Dollar Retention 100 %",
+          "timestamp": "21:57",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 83,
+        "ev_ebitda": null,
+        "ev_sales": 30,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "130%",
+        "margin": "-60%",
+        "debt_level": null,
+        "custom": [
+          "Net retention 158%",
+          "Bruttomarginal 62%",
+          "Rule of 40: 62"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Agnoistisk plattform (oberoende av Amazon/Google/Microsoft)",
+          "Extrem tillväxt 130% YoY",
+          "158% net dollar retention visar att kunder använder plattformen mer",
+          "Starkt management-team från ServiceNow som växte intäkter 100x",
+          "Skalbarhet med minskande förluster"
+        ],
+        "bear_case": [
+          "Hög värdering förväntas vid IPO (EV/S 30+)",
+          "Negativ vinstmarginal på -60%",
+          "Lägre bruttomarginal (62%) jämfört med andra SaaS-bolag",
+          "Risk för commoditization av marknaden",
+          "Extremt prissatta för perfektion - nedguidning kan slakta aktien"
+        ],
+        "catalysts": [
+          "IPO oktober/november 2020",
+          "Fortsatt hög tillväxt kan motivera värdering",
+          "Partnerskap med Salesforce och andra tech-bolag"
+        ],
+        "risks": [
+          "Prissättningsrisk vid IPO",
+          "Konkurrens från AWS Redshift, Google BigQuery, Azure Synapse",
+          "Teknisk förändring kan göra deras lösning mindre relevant",
+          "Förmågan att nå lönsamhet"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Unity",
+      "ticker": "U",
+      "timestamp_start": "23:32",
+      "timestamp_end": "45:35",
+      "word_count": 1300,
+      "speakers": [
+        "Niklas",
+        "Fredrik"
+      ],
+      "primary_speaker": "Fredrik",
+      "discussion_summary": "Unity är en av två stora spelmotorer tillsammans med Epics Unreal Engine, med över 50% av alla spel 2019 byggda med plattformen. De har tvådelad business model med Create Solutions (licensiering av motorn) och Operate Solutions (intäktsdelning från spel). Styrka är crossplay-förmåga och real-time teknologi. Bolaget har starka ägare inklusive Sequoia (24%) men har ännu inte uppnått lönsamhet efter 16 år. Apple vs Epic-bråket kan skapa möjligheter för Unity.",
+      "quotes": [
+        {
+          "speaker": "Fredrik",
+          "text": "Det är en av de stora spelmotorerna, tillsammans med till exempel Epic's Unreal Engine. Och spelmotorer används av spelutvecklare.",
+          "timestamp": "23:58",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det är faktiskt jätteintressant, det är också såpass enkelt att du kan bygga ett helt spel utan att ens kunna koda, för det finns så extremt mycket smarta moduler.",
+          "timestamp": "26:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "En väldigt intressant grej med Unity är att de har crossplay-förmåga. Det vill säga att om du utvecklar Unity kan du sedan porta spelen till Windows, Mac, iOS, Android, Playstation, Xbox.",
+          "timestamp": "27:22",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Appar slash spel som använder Unity som motor laddas ner över tre miljarder gånger per månad. 53% av topp 1000 mobilspel byggdes med Unity.",
+          "timestamp": "29:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Man säger att 60% i princip av allt AR och VR-content kommer från Unity, Unity-plattformen, men ungefär 90% på allting på emerging augmented reality platforms.",
+          "timestamp": "30:38",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Unity har två intäktskällor, de har en tvådelad business model som jag tycker är viktigt att man förstår sig på.",
+          "timestamp": "34:14",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det här är åter det svåra med att har man inte ett större ekosystem då måste de ta betalt för sin produkt.",
+          "timestamp": "35:35",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Unity tjänar pengar på hela spelets livscykel. Man drar in pengar under utvecklingen av spelinnehållet så länge de betalar såklart.",
+          "timestamp": "36:32",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "En sak som är extremt intressant med Unity är deras real-time-teknologi som innebär att utvecklare kan göra live-edits och ändringarna renderas i realtid.",
+          "timestamp": "38:07",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "De har Sequoia, som utan tvekan är världens bästa VC-firma. De har ju i stort sett... Finns det ett hett techbolag så kan det i stort sett garantera att Sequoia finns i bakgrunden.",
+          "timestamp": "40:36",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Men då är det väl återigen det här med att man ska skala för tillväxt. Jag kan samtidigt tycka att när det här bolaget ändå funnits ett år och gör någonting som borde vara lönsamt.",
+          "timestamp": "43:19",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "40%",
+        "margin": "-10%",
+        "debt_level": null,
+        "custom": [
+          "Bruttomarginal 80%",
+          "Dollar-based net expansion 142% Q2 2020",
+          "700+ kunder >100k USD/år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Marknadsledande inom spelmotorer med 53% av topp 1000 mobilspel",
+          "80% bruttomarginal visar stark mjukvaru-affär",
+          "Tvådelad business model ger intäkter genom hela spelets livscykel",
+          "Crossplay-förmåga ger stor fördel vs konkurrenter",
+          "Starka ägare: Sequoia (24%), Silver Lake (18%)",
+          "Real-time teknologi förbättrar kreativ process",
+          "Expanderar till AR/VR (90% av marknaden), bilindustri, arkitektur"
+        ],
+        "bear_case": [
+          "Förlustbringande efter 16 år (-10% vinstmarginal)",
+          "Några få kunder står för 74% av omsättningen",
+          "Konkurrens från Epics Unreal Engine som kan subventionera via Epic Games Store",
+          "Switching-kostnader för utvecklare kan begränsa kundväxling",
+          "Create Solutions står bara för 29% av omsättning med låga priser"
+        ],
+        "catalysts": [
+          "Väntande IPO",
+          "Apple vs Epic-bråket kan skapa möjligheter för Unity",
+          "Tillväxt inom AR/VR och andra industrier",
+          "Exploatering av crossplay-fördelar"
+        ],
+        "risks": [
+          "Konkurrens från Epics Unreal Engine",
+          "Beroende av få stora kunder",
+          "Oförmåga att nå lönsamhet trots storlek",
+          "Tekniska förändringar inom spelutveckling"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det som är lite synd att förstås alltid ner i amerikanska IPO's är att som svensk småsparare så har man ingen möjlighet att få vara med. Men å andra sidan är det lite mer rättvisa, för i Sverige är det ganska unikt på ett så sätt att privatsparare får vara med i börsnoteringar.",
+      "summary": "Amerikanska IPOs är stängda för privatsparare, endast institutionella investerare får delta, vilket skapar ojämlikhet men också minskar felprisättning första handelsdagen.",
+      "category": "wisdom",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": "02:09",
+      "confidence": "high",
+      "tags": [
+        "IPO",
+        "Marknadskommentar",
+        "USA vs Sverige"
+      ]
+    },
+    {
+      "quote": "Det finns ju många nya marknader som har kommit där, det är väldigt lätt att tro att det ska bli den här disruptive grejen, att någon ska komma in och svepa undan allt annat. Men inte så det funkar... Det är samma sak som att det finns inte bara en enda aktör som hyr ut fastigheter eller lager lokaler eller transporterar bud till exempel, utan det finns ju ett gäng för att det finns ett stort behov.",
+      "summary": "Nya tech-marknader är sällan winner-take-all. Det finns oftast rum för flera aktörer, precis som i andra industrier med stort behov.",
+      "category": "wisdom",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": "14:22",
+      "confidence": "high",
+      "tags": [
+        "Marknad",
+        "Konkurrens",
+        "Tillväxtbolag"
+      ]
+    },
+    {
+      "quote": "Vi såg att alla många av de här bolagen vi pratade om i våras är ju Price for Perfection, vilket vi har nämnt och varandrat för flera gånger. Allt i ryggsvaran som följer var 20-30 % någonting, just för att de guidade lite svagt framåt. Det säger rätt mycket att man en liten nedre justering av guidans gör att bolaget slaktas för att det är priset för extremt mycket tillväxt framåt.",
+      "summary": "Högvärdade tillväxtbolag är prissatta för perfektion. Även en liten nedguidning kan leda till stora kursfall på 20-30%.",
+      "category": "wisdom",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": "15:47",
+      "confidence": "high",
+      "tags": [
+        "Värdering",
+        "Tillväxtbolag",
+        "Risk"
+      ]
+    },
+    {
+      "quote": "Exakt, och så kan man tänka att alla de här tillväxtbolagen är extremt svåra att hålla kvar i över en längre tid. För du ser ofta att jawdowns på mellan 20-30 till och med 80 %. Det är bara att kolla på Amazon. De flesta tänker på jawdownen runt it-bubblan. Det var där det kanske var svårt att hålla i Amazon. Nej, för det var varannat var tredje år. Så såg det en 30-50 % jawdown i Amazon. Det är inte många som orkar hålla kvar det över i tid.",
+      "summary": "Tillväxtbolag har ofta stora kursfall på 20-80%. Det är extremt svårt psykologiskt att hålla kvar aktier genom dessa nedgångar.",
+      "category": "wisdom",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": "18:06",
+      "confidence": "high",
+      "tags": [
+        "Tillväxtbolag",
+        "Psykologi",
+        "Hold-strategi"
+      ]
+    },
+    {
+      "quote": "Det är därför jag gillar mer, har jag räknat fram att det känns billigt, då är det lättare att våga köpa det när det dippar, eller åtminstone sitta kvar.",
+      "summary": "Att investera i bolag som känns billiga gör det lättare att våga köpa mer vid nedgångar eller sitta kvar genom dippar.",
+      "category": "philosophy",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": "18:50",
+      "confidence": "high",
+      "tags": [
+        "Investeringsfilosofi",
+        "Värdering",
+        "Risk"
+      ]
+    },
+    {
+      "quote": "Exakt, så att ibland är det bara omsättning som gäller. Det är det jag alltid säger. Skit i allt annat är omsättning. Så fort du får profit, det är då du går neråt.",
+      "summary": "I vissa tillväxtbolag är omsättningstillväxt det enda som betydelse. Vinst kan vara en distraktion.",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "23:22",
+      "confidence": "medium",
+      "tags": [
+        "Tillväxt",
+        "Omsättning",
+        "Vinst"
+      ]
+    },
+    {
+      "quote": "Du vet vad de säger, investera aldrig en dansk jävel.",
+      "summary": "Sarkastisk kommentar om Unity som är danskt grundat och ännu inte lönsamt efter 16 år.",
+      "category": "wisdom",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": "44:52",
+      "confidence": "low",
+      "tags": [
+        "Humor",
+        "Unity"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet analyserar två stora kommande IPOs: Snowflake (data warehouse) och Unity (spelmotor). Båda bolagen visar extrem tillväxt men är fortfarande förlustbringande. Snowflake har 130% omsättningstillväxt men negativ vinstmarginal och förväntas värderas högt vid IPO. Unity har 40% omsättningstillväxt, 80% bruttomarginal och starka ägare men har ännu inte uppnått lönsamhet efter 16 år. Inga explicita köp-rekommendationer ges, men båda beskrivs som intressanta bolag att hålla koll på.",
+  "key_takeaways": [
+    "Snowflake och Unity är två heta IPOs med extrem tillväxt men inga vinster",
+    "Högvärderade tillväxtbolag är prissatta för perfektion och kan falla 20-30% på små nedguidningar",
+    "Det finns rum för flera aktörer på nya tech-marknader, inte bara en vinnare",
+    "Svenska småsparare kan inte delta i amerikanska IPOs vilket kan minska felprisättning första dagen",
+    "Apple vs Epic-bråket kan skapa möjligheter för Unity"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2020-08-27-d3b1.txt",
+  "transcript_word_count": 9046,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

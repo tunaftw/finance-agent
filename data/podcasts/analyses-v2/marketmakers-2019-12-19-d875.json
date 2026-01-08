@@ -1,0 +1,649 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-12-19-d875",
+  "podcast_name": "Market Makers",
+  "episode_title": "#113 Finansiella Julklappar",
+  "episode_number": 113,
+  "date": "2019-12-19",
+  "hosts": [
+    "Fabian",
+    "FABN"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Negativt materiellt bokvärde anomalin",
+    "Finansiella julklappar - aktiepitches"
+  ],
+  "stocks_discussed": [
+    "Elektra Gruppen",
+    "Byggmax",
+    "Millicom",
+    "Nilörngruppen",
+    "Evolution Gaming",
+    "Apple",
+    "Amazon",
+    "Uber",
+    "Airbnb"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Elektra Gruppen",
+      "ticker": "ELEC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[15:00]",
+      "reasoning": "Låg risk utdelningscase med 7% direktavkastning. P-tal på 13 och PS på extremt låga 0,14. Aktien har varit väldigt slagig år 2019, upp 24% i början, ner 25% senare, upp 26% igen. Liten uppsidapotential på 10-30% om utdelningsjägare driver upp kursen. Worst case är 7%-kupong.",
+      "price_target": null,
+      "time_horizon": "3-6 månader",
+      "quote": "Jag tycker med tanke på att nedsidan är så pass begränsad så tycker jag det är en ganska intressant aktie på kanske 6 månaders sikt... direktavkastning på nästan 7 procent... Price to sale ligger på extremt låga 0,14.",
+      "sector": "Electronics retail",
+      "market": "sweden",
+      "position_context": "Äger liten position",
+      "downside_note": "Begränsad nedsida, worst case 7% utdelning",
+      "catalyst_timing": "Utdelningsäsong våren 2020"
+    },
+    {
+      "stock_name": "Byggmax",
+      "ticker": "BMAX",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[18:52]",
+      "reasoning": "Bottenfiske i extremt nedtryckt aktie (-20% YTD, -37% från juni). PE 10 vs historiskt 15-20. PS 0,3, nästan prisat för konkurs. Värderingspotential 50-100% om återgår till branschkollegors nivåer. Triggar: vinstvändning och återinförd utdelning i Q4 2020. Utdelningspotential 5% direktavkastning vid 2,5-2,7 kr vinst/aktie.",
+      "price_target": null,
+      "time_horizon": "3-6 månader",
+      "quote": "Man har tryckt ner väldigt mycket på det här fiaskot med skånska byggvaror... Det som ligger närmast, förresten den konkurrensen är ju XXL... Så det är väldigt billigt och väldigt låga förväntningar.",
+      "sector": "Building materials retail",
+      "market": "sweden",
+      "position_context": "Äger liten position",
+      "downside_note": "Hög risk om vinsten ej vänder",
+      "catalyst_timing": "Q4 rapport 2020, utdelningsåterinförande"
+    },
+    {
+      "stock_name": "Millicom",
+      "ticker": "TIGO",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[23:20]",
+      "reasoning": "Ner 20% på ett år p.g.a. Kinneviks aktieutdelning och indexutträde (OMXS). 5% utdelning men negativt resultat. PS 1 vs Tele2 PS 4. Stora investeringar i infrastruktur kan bära frukt om 6-12 månader. Uppvärderingspotential 50-100% om allt går väl. Ökande intresse från förvaltare.",
+      "price_target": null,
+      "time_horizon": "6-12 månader",
+      "quote": "Man sysslar ibland med att leverera TV, mobiltelefoner i bredbanda och på tillväxtmarknader... Det är inget sexigt så men det är något som genererar starka kassaflöden, om det funkar.",
+      "sector": "Telecommunications",
+      "market": "sweden",
+      "position_context": "Äger liten position",
+      "downside_note": "Negativ vinst, negativt ROE/ROA, hög nettoskuld",
+      "catalyst_timing": "Nytt index inkludering våren 2020, kassaflöden inom 6-12 månader"
+    },
+    {
+      "stock_name": "Nilörngruppen",
+      "ticker": "NILG",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[28:37]",
+      "reasoning": "Kvalitetsbolag i cykliskt lågpunkt. Marginalerna på väg upp (historiskt 9-13%). PE 11, EV/EBITDA 12, ROE 36%, ROIC 15%, låg nettoskuld 20%. Tillverkar etiketter och kartonger - drar nytta av e-handelstrend. Amerikanska förvaltare visar intresse. Klockren buy and hold enligt historia.",
+      "price_target": null,
+      "time_horizon": "6 månader eller mer",
+      "quote": "Det här är ett riktigt kvalitetsbolag, men vi sa att vi inte var intresserade av köp just då för då hade man väldigt fina marginaler. Det här är ett bolag man ska försöka fånga in när de har ganska dåliga marginaler.",
+      "sector": "Label and packaging manufacturing",
+      "market": "sweden",
+      "position_context": "Äger liten position",
+      "downside_note": "Kortsiktigt negativt resultat men vändning på gång",
+      "catalyst_timing": "Marginalförbättring framgent, nästan enligt tidtabell"
+    },
+    {
+      "stock_name": "Energisektorn",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[13:49]",
+      "reasoning": "Energisektorn har diskonterats kraftigt på grund av att materiella tillgångar är impopulära. Det ger en option på räntehöjningar/inflation. Bolag med mycket materiella tillgångar handlas till betydande rabatt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ja, jag skulle hoppa tillbaka till förra veckans avsnitt och kolla in energisektorn, de bolag vi nämnde där, där du har ett typexempel på bolag med väldigt mycket materiella tillgångar, där man har diskonterat det väldigt kraftigt.",
+      "sector": "Energy",
+      "market": null,
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Räntehöjningar/inflation"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Elektra Gruppen",
+      "ticker": "ELEC",
+      "timestamp_start": "[14:41]",
+      "timestamp_end": "[18:17]",
+      "word_count": 800,
+      "speakers": [
+        "Fabian",
+        "FABN"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Fabian presenterar Elektra Gruppen som ett lågrisk utdelningscase med 7% direktavkastning. Aktien har varit extremt volatil 2019 med flera 20+%-rörelser. FABN ger betyg 3/5 (senare reviderat till 4/5) och påpekar att det inte är ett tillväxtcase men ett kassaflödescase med intressant P/TB på 1,4 givet diskussionen om materiella tillgångar.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Det är en intressant aktie för att det har varit extremt slagig handel den här aktien... Idag handlas aktier runt 50 lappen. Så det har varit väldigt väldigt slagigt upp ner, upp ner 25% hit och dit.",
+          "timestamp": "[15:23]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det här bolaget har en direktavkastning på nästan 7 procent... Price to sale ligger på extremt låga 0,14.",
+          "timestamp": "[16:20]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag tror att inför utdelningsäsongen så kan det här bolaget börja dyka upp på rätt många radar",
+          "timestamp": "[16:28]",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "FABN",
+          "text": "Rätt intressant nu med tanke på vad jag pratat om [om materiella tillgångar]",
+          "timestamp": "[17:54]",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 13,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "7%",
+        "revenue_growth": "ticking upp",
+        "margin": "låga marginaler",
+        "debt_level": "ökande nettoskuld",
+        "custom": [
+          "ROE ~10%",
+          "ROTC ~3%",
+          "P/TB 1,4 (sjunkande)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "7% direktavkastning ger floor",
+          "PS 0,14 extremt lågt",
+          "Utdelningsjägare kan köpa in sig inför våren",
+          "Kvalificerar för screeners med låg värdering"
+        ],
+        "bear_case": [
+          "Inget tillväxtcase",
+          "Lågmarginals business",
+          "Ökande nettoskuld",
+          "Små cap med låg omsättning"
+        ],
+        "catalysts": [
+          "Utdelningsäsong våren 2020",
+          "Screening av lågt värderade bolag"
+        ],
+        "risks": [
+          "Konjunkturpåverkan",
+          "Låg omsättning i aktien"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Byggmax",
+      "ticker": "BMAX",
+      "timestamp_start": "[18:49]",
+      "timestamp_end": "[23:15]",
+      "word_count": 1000,
+      "speakers": [
+        "Fabian",
+        "FABN"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Fabian presenterar Byggmax som ett bottenfiske-case i extremt nedtryckt aktie. PS 0,3 och PE 10 vs historiskt 15-20. Triggern är vinstvändning och återinförd utdelning i Q4. FABN ger betyg 3/5 men påpekar positivt nettoskuldutveckling. Case bygger på sentiment-skifte från 'rädda konkurs' till återställd utdelning.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Det här caset däremot är ett klassiskt bottenfiske, där det kan finnas en tydlig trigger. Man är ner närmare 20 % year to date, och minus 37 % om man mäter från år 6 till maj i år.",
+          "timestamp": "[19:03]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Vår bolag handlas väldigt billigt, PE 10. Historiskt har man värderats kring PE 15-20... PES-talet ännu mer, 0,3 ligger det på idag.",
+          "timestamp": "[19:20]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag tror nämligen att man har börjat vända den skutan... man får tillbaka utdelningen, vilket är ganska många som tror att jag är en av dem, som att man kommer få tillbaka den här under, presenterade igen under Q4 som kommer nästa år.",
+          "timestamp": "[21:06]",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Lek med tanken att vi kanske klockar in på en vinst per aktie, på 2,5-2,7 kronor, och att man får tillbaka utdelningen igen... skulle vi ha en utdelning på 1,25 kronor per aktie, vilket med dagens kurs på 26 spänn ger en direktavkastning på närmare 5 %.",
+          "timestamp": "[21:15]",
+          "context": "metric"
+        },
+        {
+          "speaker": "FABN",
+          "text": "bra nettoskuld som ligger över 40 % att kunna betala av den tror jag är väldigt bra, minska leverage så kan det bli relativt affektivt framöver.",
+          "timestamp": "[22:29]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 10,
+        "ev_ebitda": null,
+        "ev_sales": 0.3,
+        "fcf_yield": null,
+        "dividend_yield": "potentiellt ~5% efter återinförande",
+        "revenue_growth": "ticking på ganska bra",
+        "margin": "krossade marginaler",
+        "debt_level": "positiv nettoskuldutveckling",
+        "custom": [
+          "Historiskt PE 15-20",
+          "Branschkollegor PS 0,8-1,1",
+          "Utdelning slopad"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "PS 0,3 extremt lågt, nästan konkursprisad",
+          "PE 10 vs historiskt 15-20",
+          "Vinstvändning på gång",
+          "Utdelning kan återinföras Q4 2020",
+          "Kraftig sentiment-skifte-möjlighet"
+        ],
+        "bear_case": [
+          "Lönsamhet har kraschat rejält",
+          "Historisk bagage från Skånska Byggvaror",
+          "Lågmarginals business",
+          "Risk att vinstvändning ej sker"
+        ],
+        "catalysts": [
+          "Q4 rapport 2020 - vinst och utdelning",
+          "Vinstvändningsbevis"
+        ],
+        "risks": [
+          "Recession påverkar",
+          "Vinst ej vänder som förväntat",
+          "Konkursscenario (låg risk men finns)"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Millicom",
+      "ticker": "TIGO",
+      "timestamp_start": "[23:20]",
+      "timestamp_end": "[28:01]",
+      "word_count": 1100,
+      "speakers": [
+        "Fabian",
+        "FABN"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Fabian presenterar Millicom som en favorit bland de tre pitchar. Tryckt av Kinneviks aktieutdelning och OMXS-utträde. 5% utdelning men negativ vinst. PS 1 vs Tele2 PS 4. Stora infrastrukturinvesteringar kan ge kassaflöden om 6-12 månader. FABN ger betyg 3/5 på grund av negativa nyckeltal och bias.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Återigen ett intressant case på kanske 6-12 månader sikt... Även den här aktien är väldigt pressad, ner nästan 20 % på ett år.",
+          "timestamp": "[23:38]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Kinnevik man inte ville sälja ut sina aktier här... beslutade man att dela ut aktierna till alla våra aktieägarna. De har väl mer än mindre nu börjat dumpa ut dem på marknaden",
+          "timestamp": "[23:56]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "den andra december åkt ur OMXS benchmarkindex... så det sätter ytterligare press",
+          "timestamp": "[24:39]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Man är idag en direktavkastning på 5%... Man har också tagit stora investeringar nu senast tiden... så bör ju de bära frukt nu många år framöver.",
+          "timestamp": "[25:02]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det här är något de kommer kunna skörda under många år framöver... Kortfattar att man handlar sig till ett price to sales på 1. PE blir irrelevant när man inte går med i vinst. Det ska jämföras mot Tele2 som har PS på 4.",
+          "timestamp": "[26:12]",
+          "context": "metric"
+        },
+        {
+          "speaker": "FABN",
+          "text": "Jag tror att jag eventuellt kan vara väldigt biased här... Det har alltid varit en negativt snackbar... jag gillar heller inte det här starkt negativt vinst, negativt ROE, negativt ROA, låga och negativa marginaler",
+          "timestamp": "[27:54]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": 1,
+        "fcf_yield": null,
+        "dividend_yield": "5%",
+        "revenue_growth": null,
+        "margin": "låga och negativa marginaler",
+        "debt_level": "hög nettoskuld",
+        "custom": [
+          "Negativt ROE",
+          "Negativt ROA",
+          "Tele2 PS 4",
+          "Telia/TeleNor PS 2"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "PS 1 vs Tele2 PS 4 - stor uppvärderingspotential",
+          "Infrastrukturinvesteringar kan ge kassaflöden",
+          "5% utdelning under tiden",
+          "Index-inkludering våren 2020 kan ge köptryck",
+          "Ökat intresse från förvaltare"
+        ],
+        "bear_case": [
+          "Negativt resultat",
+          "Negativt ROE/ROA",
+          "Hög nettoskuld",
+          "Negativt sentiment (bias som snackistjänst)",
+          "Kinnevik-utdelning pressar kurs"
+        ],
+        "catalysts": [
+          "Nytt index inkludering våren 2020",
+          "Infrastrukturinvesteringar ger kassaflöden om 6-12 månader",
+          "Kassaflöden börjar synas"
+        ],
+        "risks": [
+          "Vinst ej vänder",
+          "Hög skuld",
+          "Negativt sentiment kvarstår",
+          "Tillväxtmarknader kan svikta"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Nilörngruppen",
+      "ticker": "NILG",
+      "timestamp_start": "[28:37]",
+      "timestamp_end": "[32:00]",
+      "word_count": 900,
+      "speakers": [
+        "Fabian",
+        "FABN"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Fabian presenterar Nilörngruppen som ett kvalitetsbolag i cyklisk lågpunkt, nämnd i avsnitt 69. Marginalerna på väg upp. Tillverkar etiketter och kartonger, gynnar e-handel. FABN ger klockren 5/5 och påpekar EV/EBITDA 12, ROE 36%, ROIC 15%, låg nettoskuld. Amerikanska förvaltare visar intresse. Klockren buy and hold enligt historia.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Vi konstaterade att det här var ett riktigt kvalitetsbolag... det här är ett bolag man ska försöka fånga in när de har ganska dåliga marginaler.",
+          "timestamp": "[28:50]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Nu såg vi redan senaste kvartalsrapporterna att marginalerna börjar man då, man pratar om att man ser marginalförbättringar framgent, att de börjar komma dessutom tidigare än vad man trodde.",
+          "timestamp": "[29:10]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "De har i alla fall historiskt alltid lyckats återämpa de här marginalerna och det sätter vi vår tro till att de kommer att lyckas med igen.",
+          "timestamp": "[29:21]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "P11, får det dessutom upp marginalerna, ja då blir det ännu billigare.",
+          "timestamp": "[29:37]",
+          "context": "metric"
+        },
+        {
+          "speaker": "FABN",
+          "text": "Nylöngruppen är ett fantastiskt bolag måste jag säga. För det första har du EVE på 12, du har avkastning på eget kapital på 36, avkastning på 12 kapital på 15, svinhöga marginaler för sådana här på bolag runt 10, relativt låg nettoskuld runt 20%",
+          "timestamp": "[29:51]",
+          "context": "metric"
+        },
+        {
+          "speaker": "FABN",
+          "text": "framförallt ser jag många, framförallt amerikanska, inte många, men några stycken amerikanska fondförvaltare som faktiskt har börjat spana in nylöngruppen som ett värdecase",
+          "timestamp": "[30:07]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Om vi tittar på rörelsemarginal så ligger vi där mellan 9-13% och har svänger fram och tillbaks. Nu har vi varit ner där vid 10 någonting kanske och någonstans borde vända och så ska man upp till 12% kanske ändå.",
+          "timestamp": "[31:00]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 11,
+        "ev_ebitda": 12,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "tickar på som vanligt",
+        "margin": "9-13% rörelsemarginal (historiskt), nu runt 10%",
+        "debt_level": "låg nettoskuld ~20%",
+        "custom": [
+          "ROE 36%",
+          "ROIC 15%",
+          "Svinhöga marginaler för typen av bolag"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kvalitetsbolag med historisk marginalcykel på väg upp",
+          "PE 11, EV/EBITDA 12 - billig",
+          "ROE 36%, ROIC 15% - extremt starkt",
+          "Amerikanska förvaltare visar intresse",
+          "E-handelstrend gynnar kartongverksamhet",
+          "Klockren buy and hold enligt historia"
+        ],
+        "bear_case": [
+          "Kortsiktigt negativt resultat",
+          "Konjunkturkänslig etikettbransch",
+          "Cyklisk verksamhet"
+        ],
+        "catalysts": [
+          "Marginalförbättring framgent",
+          "Amerikanska förvaltare köper in sig",
+          "E-handel drivar efterfrågan på kartonger"
+        ],
+        "risks": [
+          "Konjunkturpåverkan",
+          "Cykeln inte vänder som förväntat"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "timestamp_start": "[05:23]",
+      "timestamp_end": "[09:58]",
+      "word_count": 1000,
+      "speakers": [
+        "Fabian",
+        "FABN"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Diskussion om Amazon som exempel på immateriellt företag. Amazon har 1,5 miljoner $ market cap per anställd vs Macy's 50,000 $ - 30 gånger skillnad. Amazon är en immateriell mellanhand utan egna butiker eller lager, outsourcing till materiella tillgångar. Exempel på hur materiella tillgångar blivit irrelevant i värdering.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Köper du ett bolag som Apple, det är inte deras materiella tillgångar, det är inte deras stora kontor eller någon fabrik... Amazon är ett klockerient exempel måste jag säga.",
+          "timestamp": "[05:44]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Amazon i princip inte säljer någonting själva... Man har verkligen gått från en brandjämförelse med Walmart. Walmart har extremt mycket materiela tillgångar för de köper in stora lager, de har stora butiker... Amazon de har inga butiker",
+          "timestamp": "[08:16]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Amazon är alltså 30 gånger mer market cap än Macy's per anställd. Det är en otrolig skillnad.",
+          "timestamp": "[09:33]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Market cap per employee: $1,500,000",
+          "30x higher than Macy's"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Immaterialiell businessmodell med extremt hög marknadsvärde per anställd",
+          "Asset-light mellanhand",
+          "Outsourcing av materiella tillgångar"
+        ],
+        "bear_case": null,
+        "catalysts": null,
+        "risks": null
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Men sanningen är att du har i snitt slagit indexet med 24% senast 20 åren. Det här säger en hel del om amerikanska kapitalismen just nu.",
+      "summary": "Amerikanska bolag med negativt materiellt bokvärde har slagit index med 24% de senaste 20 åren, vilket indikerar ett strukturellt skifte i hur marknaden värderar bolag.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[03:11]",
+      "confidence": "high",
+      "tags": [
+        "value investing",
+        "market structure",
+        "book value"
+      ]
+    },
+    {
+      "quote": "Det här är som sagt, eftersom materiella tillgångar är värt väldigt lite när pengar är gratis, men det kan aldrig vara värt ingenting. Det blir alltså en option på om räntan, inflationen eller när hela tillväxten sutser upp.",
+      "summary": "Materiella tillgångar är extremt lågt värderade när pengar är gratis, men kan aldrig vara värda ingenting. Det ger en option på framtida räntehöjningar eller inflation.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[12:29]",
+      "confidence": "high",
+      "tags": [
+        "assets",
+        "interest rates",
+        "inflation",
+        "option theory"
+      ]
+    },
+    {
+      "quote": "Amazon är alltså 30 gånger mer market cap än Macy's per anställd. Det är en otrolig skillnad. Och här kan man ju ändå faktiskt prata om, även om det är lätt att snacka om det här, this time it's different och håna det, men det är faktiskt en skillnad på den gamla och den nya ekonomin.",
+      "summary": "Det finns en faktisk skillnad mellan den gamla och den nya ekonomin, inte bara 'this time it's different' retorik. Amazon har 30x högre marknadsvärde per anställd än Macy's.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[09:33]",
+      "confidence": "high",
+      "tags": [
+        "old vs new economy",
+        "technology",
+        "productivity"
+      ]
+    },
+    {
+      "quote": "Det är ganska intressant faktisk prata om att man äger med plattformen och tar en mycket mindre affärsmässig risk med tanke på att du inte behöver köpa in massa taxibilar i Ubers fall för att kunna driva din verksamheten, utan du lägger ut risken på de stackarna som måste investera i sin egen taxibilar och ansluta den här plattformen.",
+      "summary": "Plattformsföretag lägger ut risk på sina användare/leverantörer och behåller upp-sidan utan att investera i tunga tillgångar.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[10:57]",
+      "confidence": "high",
+      "tags": [
+        "platform economics",
+        "risk transfer",
+        "asset-light"
+      ]
+    },
+    {
+      "quote": "Det handlar alltså inte om att vi ska hitta ett nytt Google eller nånting, utan det handlar om nånting som är totalt utbombat som kan vända upp till ett vitsättligt styrkebesked. Kan vi få en siffra då Fabien?",
+      "summary": "Värdefullt bottenfiske handlar inte om att hitta nästa stora vinnare, utan att köpa extremt nedtryckta bolag som kan vända med enkla styrkebesked.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[22:54]",
+      "confidence": "high",
+      "tags": [
+        "value investing",
+        "turnaround",
+        "contrarian"
+      ]
+    },
+    {
+      "quote": "Framför allt för att veta om det är så man besluts att köpa då vill jag också veta varför jag skulle sälja. Det är mycket som kan ske längs vägen så gör caset inte längre håller och då måste man kunna vara medveten om varför man ska omvärdera sitt beslut.",
+      "summary": "När man köper en aktie måste man också veta varför man skulle sälja, så man kan omvärdera beslutet om caset inte längre håller.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[32:57]",
+      "confidence": "high",
+      "tags": [
+        "selling discipline",
+        "investment process",
+        "case validation"
+      ]
+    },
+    {
+      "quote": "För det är svårt om man bara ryggar någon som säger köp i en podcast till exempel. För det är inte alls säkert att det kommer att återkoppla och säga sälj när det är dags.",
+      "summary": "Att bara följa rekommendationer från podcasts är svårt eftersom det inte finns garanti att de kommer återkoppla med en säljsignal när det är dags.",
+      "category": "lesson",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[33:05]",
+      "confidence": "high",
+      "tags": [
+        "independent analysis",
+        "following advice",
+        "selling"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet börjar med en diskussion om 'negativa värdeanomalin' - hur amerikanska bolag med negativt materiellt bokvärde har slagit index med 24% på 20 år, vilket indikerar ett strukturellt skifte från materiella till immateriella tillgångar. Värderingar har fördubblats på fem år (P/TB från 5,7 till 11). Diskussionen illustreras med exempel som Amazon, Uber, Airbnb som immateriella plattformsföretag. Resten av avsnittet är 'finansiella julklappar' - tre aktiepitches med kortsiktig horisont: Elektra Gruppen (ELEC) som lågrisk utdelningscase, Byggmax (BMAX) som bottenfiske-case, och Millicom (TIGO) som favorit med stor uppvärderingspotential. Avslutas med Nilörngruppen (NILG) som ett kvalitetsbolag i cyklisk lågpunkt som kan vara en 'klockren buy and hold'.",
+  "key_takeaways": [
+    "Bolag med negativt materiellt bokvärde har slagit index med 24% de senaste 20 åren i USA",
+    "Materiella tillgångar är extremt lågt värderade och ger en option på framtida räntehöjningar",
+    "Amazon har 30x högre marknadsvärde per anställd än Macy's - visar skillnaden mellan gammal och ny ekonomi",
+    "Energisektorn kan vara köpvärd på grund av kraftigt diskonterade materiella tillgångar",
+    "Kortsiktig trading (3-12 månader) kan ge stor uppsida i extremt nedtryckta bolag med triggare"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-12-19-d875.txt",
+  "transcript_word_count": 7169,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

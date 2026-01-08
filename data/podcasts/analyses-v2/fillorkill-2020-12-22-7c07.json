@@ -1,0 +1,303 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2020-12-22-7c07",
+  "podcast_name": "Fill or Killpodden",
+  "episode_title": "Avsnitt 299 - iCar",
+  "episode_number": 299,
+  "date": "2020-12-22",
+  "hosts": [
+    "Host 1",
+    "Host 2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "MTG nyemission",
+    "Tesla S&P 500 inträde",
+    "Apples bilprojekt",
+    "Julhandeln",
+    "Årsskiftescase"
+  ],
+  "stocks_discussed": [
+    "MTG",
+    "Tesla",
+    "Hexagon Purus",
+    "OAC",
+    "Aurania",
+    "Root",
+    "QuantumScape",
+    "Scandic",
+    "Storytel"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[10:56]",
+      "reasoning": "Short-position runt $600 baserat på att aktien kommer ändra karaktär efter inträdet i S&P 500. Volatiliteten förväntas minska när indexfonder tar över, vilket gynnar den tidigare högvolatila handeln med köpoptioner. Aktien handlas runt $640 vid diskussionen, upp från $600 vid short-positionen.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Så jag tror att den kommer att ändra karaktär. Därför gick jag kort igår. [...] Jag tror att det kommer vara till en nackdel för aktieägarna. Som är vana vid ett helt annat djur. [...] när man kommer ner i S&P 500 så kommer volatiliteten gå ner i aktien. Vilket gör att det här spelet inte riktigt fungerar längre.",
+      "sector": "Bilar/Tech",
+      "market": "us",
+      "position_context": "100% position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hexagon Purus",
+      "ticker": "HPUR.OL",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[30:45]",
+      "reasoning": "Köpte vid norska särnoteringen från Hexagon Komposit. Aktien gick upp 10-20% vid listning och har fortsatt upp. Mönstret i Norge är att särnotera okända enheter som sedan blir väldigt högt värderade. Acre Solution är nämnt som framgångsrikt exempel.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det var en norsk särnotering, Hexagon Purus, som särnoterades från Hexagon Komposit här i måndags. Jag köpte lite, man fick någon tilldelning som jag missade att köpa, så jag köpte en massa aktier i måndags istället.",
+      "sector": "Industri",
+      "market": "norway",
+      "position_context": "Stor position",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "[09:06]",
+      "timestamp_end": "[11:44]",
+      "word_count": 850,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Diskuterar Teslas inträde i S&P 500 och hur det förväntas ändra aktiens karaktär. Enorm volym de sista 5 minuterna på fredagskvällen där aktien pendlade mellan $650-695. Aktien värderas högre än 94% av bolagen i indexet vilket ger den hög vikt. Volatiliteten förväntas minska med indexmedlemskapet vilket sänker intresset för optionsspekulation. Apple-car nyheter gav ytterligare press nedåt.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "Så jag tror att den kommer att ändra karaktär. Därför gick jag kort igår.",
+          "timestamp": "[10:56]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Det gick runt en teori på Twitter... att folk har köpt väldigt mycket köpoptioner, calls, out of the money, långt upp. Och det har gjort att aktien har pressats uppåt.",
+          "timestamp": "[11:16]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "men nu när man kommer ner i S&P 500 så kommer volatiliteten gå ner i aktien. Vilket gör att det här spelet inte riktigt fungerar längre.",
+          "timestamp": "[11:16]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Jag läste någonstans att den värderas högre än 94% av de andra bolagen som är med. Så den får ju rätt hög vikt också.",
+          "timestamp": "[09:58]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark volatilitet med optionsspekulation",
+          "Efterfrågan från indexfonder"
+        ],
+        "bear_case": [
+          "S&P 500 inträde minskar volatilitet",
+          "Apple-car projekt som konkurrent",
+          "Hög värdering gör den känslig för negativa nyheter"
+        ],
+        "catalysts": [
+          "Apple-car nyheter",
+          "S&P 500 inträde klart",
+          "Januari retail-trading med stimulanspengar"
+        ],
+        "risks": [
+          "Apple som bilkonkurrent",
+          "Minskad volatilitet efter indexinträde"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "MTG",
+      "ticker": "MTG-B",
+      "timestamp_start": "[05:13]",
+      "timestamp_end": "[09:05]",
+      "word_count": 750,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "MTG annonserar nyemission på 2,5 miljarder SEK i samband med förvärv av Hatch (racing-spel). Market cap runt 10 miljarder SEK. Till skillnad från andra gaming-bolag gör de en öppen emission, inte riktad. Villkor presenteras i januari. Speaker var lång men sålde på förvärvet och hoppas komma in billigare via emissionen.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "MTG verkar inte riktigt ha gått i den nya heta gamingskolan. De går ut och säger att man ska ta in jättemycket pengar... Och de har inga villkor.",
+          "timestamp": "[05:27]",
+          "context": "other"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Jag tror att den kommer gå superbra. E-sporten, nu kommer det vaccin, då kommer E-sporten öppna upp",
+          "timestamp": "[07:47]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Jag har ju varit långdagen, jag sålde den här på förvärvet och nu sitter jag och hoppas att jag ska komma in billigare.",
+          "timestamp": "[08:07]",
+          "context": "position_disclosure"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Jag tror att den kommer göra väldigt bra. De lär inte behöva några emissionsgaranter då?",
+          "timestamp": "[08:58]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Emission på 2,5 miljarder SEK",
+          "Market cap ~10 miljarder SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "E-sport växer med vaccination",
+          "Gaming-delen värderas lågt mot Embracer/EG7",
+          "Wall Street-ägare med David Marcus",
+          "Emission ger möjlighet att köpa billigare"
+        ],
+        "bear_case": [
+          "Öppen emission utan villkor kan pressa aktien",
+          "Stenbäckarna har lämnat bolaget"
+        ],
+        "catalysts": [
+          "Vaccination möjliggör live e-sport event",
+          "Villkor för emission i januari",
+          "Gaming-trend fortsätter"
+        ],
+        "risks": [
+          "Emission kan misslyckas",
+          "Gaming-värderingar kan komma ner"
+        ]
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "MTG verkar inte riktigt ha gått i den nya heta gamingskolan. De går ut och säger att man ska ta in jättemycket pengar... Och de har inga villkor. [...] men folk verkar väldigt taggade på den här gaming-delen och den värderas ju väldigt lågt om man jämför då med de andra serieförvärvarna på börsen.",
+      "summary": "MTG gör en öppen emission istället för riktad, vilket ger möjlighet för existerande ägare att snitta ner sig. Bolaget värderas lägre än peers men har stor gaming-exponering.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[05:27]",
+      "confidence": "medium",
+      "tags": [
+        "rights_issue",
+        "gaming",
+        "valuation"
+      ]
+    },
+    {
+      "quote": "I mitt case så är det ju att Tesla-aktien kommer att ha en annan karaktär när den är med i index. Vilket är rätt logiskt eftersom det är ju fler fonder och sådant som äger och kommer in mer algos och handlas mot index och så vidare.",
+      "summary": "Inträde i S&P 500 förväntas ändra Teslas karaktär genom ökad indexfonder-ägarskap och minskad volatilitet.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[09:58]",
+      "confidence": "high",
+      "tags": [
+        "index_inclusion",
+        "volatility",
+        "tesla"
+      ]
+    },
+    {
+      "quote": "Det man ska vara beredd på är att det blir sämre likviditet. Så att vi kommer säkert se några aktier som driftar åt både ner och upp. Men man ska nog ha lite mer, lite vidarestoppar och kanske vänta lite mer innan man tar någonting som går ner eller såna saker.",
+      "summary": "Under julhelgen minskar likviditeten på börsen, vilket kan leda till ovanliga kursrörelser. Investera med försiktighet under denna period.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[20:09]",
+      "confidence": "medium",
+      "tags": [
+        "liquidity",
+        "christmas",
+        "trading"
+      ]
+    },
+    {
+      "quote": "Och nu måste man ju komma ut med ägarlista här vid årsskiftet, så det kan ju vara många fonder som rensar ut det de inte riktigt vill skylta med. Och så köper de in det i första januari än.",
+      "summary": "Fonder rensar inför årsskiftet för att inte synas i ägarlistor, vilket skapar köpmöjligheter i januari. Klassisk årsskiftesstrategi.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[23:56]",
+      "confidence": "high",
+      "tags": [
+        "window_dressing",
+        "tax_loss_harvesting",
+        "january_effect"
+      ]
+    },
+    {
+      "quote": "Jag tror att konkurserna kommer gå upp i januari. För att det är många restauranger som inte kommer klara att julen blir så dålig.",
+      "summary": "Restaurangbranschen väntas drabbas hårt i januari efter uteblivna företagsjulbord under pandemin. Scandic och andra noterade bolag kan drabbas.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[28:28]",
+      "confidence": "medium",
+      "tags": [
+        "restaurants",
+        "pandemic",
+        "bankruptcy"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Diskuterar MTG:s nyemission, Teslas S&P 500 inträde och short-case, Apples bilprojekt, julhandeln på börsen och klassiska årsskiftescase. Speaker kortar Tesla och köper Hexagon Purus. Väntar sig volatilitet under julhelgen med lägre likviditet och möjligheter för tax loss harvesting i januari.",
+  "key_takeaways": [
+    "Tesla förväntas ändra karaktär med lägre volatilitet efter S&P 500 inträde",
+    "MTG:s öppna emission ger möjlighet att köpa billigare men gaming-delen är värdelösa mot peers",
+    "Julhelgen kan erbjuda möjligheter för de som handlar aktivt men låg likviditet kräver försiktighet",
+    "Årsskiftescase (tax loss harvesting) kan ge god avkastning",
+    "Restaurangbranschen väntas drabbas hårt i januari"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2020-12-22-7c07.txt",
+  "transcript_word_count": 8210,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

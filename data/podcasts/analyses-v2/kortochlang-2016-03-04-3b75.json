@@ -1,0 +1,184 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2016-03-04-3b75",
+  "podcast_name": "Analyspodden från Dagens Industri",
+  "episode_title": "Tre är en trend?",
+  "episode_number": null,
+  "date": "2016-03-04",
+  "hosts": [
+    "Ulf Pettersson",
+    "Nils Åkesson"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Börsutveckling",
+    "Råvarurally",
+    "Börsintroduktioner",
+    "Makropolitik"
+  ],
+  "stocks_discussed": [
+    "SSAB",
+    "Lundin Mining",
+    "Boliden",
+    "Loomis"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "SSAB",
+      "ticker": "SSAB-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "[01:11]",
+      "reasoning": "Efter en kursuppgång på 28% under veckan rekommenderar Ulf att plocka hem vinster. Aktien har kommit från kraftigt nedpressade nivåer och rallyt drivs av specifika faktorer som stigande kopparpriser, potentiella tullar mellan USA och stark dollarkurs. Positionen är så pass nedpressad att SSAB troligen överlever även om priserna stannar på nuvarande nivåer.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Hade jag haft sådana aktier de sista veckorna så kanske jag hade plockat hem lite vinster eller de här minimerade förlusterna som där inneburit det här kursrallyt.",
+      "sector": "Stål",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Gruv- och stålbolag",
+      "ticker": null,
+      "timestamp_start": "[01:11]",
+      "timestamp_end": "[04:06]",
+      "word_count": 350,
+      "speakers": [
+        "Ulf Pettersson",
+        "Nils Åkesson"
+      ],
+      "primary_speaker": "Ulf Pettersson",
+      "discussion_summary": "Diskussion om rally i gruv- och stålbolag där Lundin Mining steg 13%, Boliden 16% och SSAB 28%. Ulf förklarar att rallyt drivs av att bolagen kommit från kraftigt nedpressade nivåer, stigande koppar- och zinkpriser samt för SSAB:s del potentiella tullar mellan USA och stark dollarkurs.",
+      "quotes": [
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "De har ju rasat rejält det sista året, så man kan väl se det som en liten vändning för dem. Och det är sådana där bolag som brukar röra sig väldigt mycket mer än börsen.",
+          "timestamp": "[01:45]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "Vi har haft ett ganska kraftigt prisrally på Coppa och Sync här sista tiden, efter att jag har varit nerpressad. Det beror väl på att det har pågått ett tag nu att man har stängt gruvor och så där man kanske börjar närma sig någon slags balans.",
+          "timestamp": "[01:45]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "Och sen vad det gäller SSAB, som är den stora vinnaren som det sade, har ju det att göra, dels har den också nedtryckt, men sen har det att göra med de här tullarna som håller på att prata som mellan USA att det skulle kunna gynna SSAB. Och en stark dollarkurs och så där.",
+          "timestamp": "[01:45]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kopparpris upp",
+          "Zinkpris upp",
+          "SSAB +28% vecka"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Koppar- och zinkpriser har rallyt efter att ha varit nedpressade",
+          "Gruvor har stängts vilket kan skapa balans på marknaden",
+          "SSAB gynnas av potentiella tullar mellan USA och stark dollarkurs"
+        ],
+        "bear_case": [
+          "Rallyt har kommit snabbt med 10-20% på kort tid",
+          "Osäkert om råvarupriserna kommer stiga kraftigt historiska toppnivåer"
+        ],
+        "catalysts": [
+          "Koppar- och zinkpriser",
+          "Tullbeslut mellan USA",
+          "Dollarkurs"
+        ],
+        "risks": [
+          "Råvarupriser kan stabilisera på nuvarande nivåer",
+          "Ingen återgång till QE-effekter som drev upp priser tidigare"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det brukar vara det vanligaste skälet till att folk säljer. Det är inget de säger sådär när man ställer frågan till dem, men det brukar vara anledningen till att folk säljer.",
+      "summary": "När stora aktieägare säljer, handlar det ofta om att de anser att aktien är dyr, även om de officiellt ger andra skäl.",
+      "category": "wisdom",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "[05:08]",
+      "confidence": "high",
+      "tags": [
+        "insiderförsäljning",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Man ser väl att börsen är P16-17 och det är ingen tillväxt och det är oroligt på alla håll och kanter. Så jag förstår att de vill ta ner.",
+      "summary": "När börsen har hög värdering (P/E 16-17) utan tillväxt i oroliga tider, är det naturligt att investerare vill ta hem vinster.",
+      "category": "wisdom",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "[06:23]",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "marknadssentiment"
+      ]
+    },
+    {
+      "quote": "Går börsen upp lite grann så brukar de här gruvor och stålbolagen gå upp ännu mycket mer.",
+      "summary": "Gruv- och stålbolag har betydligt högre beta än börsen och rör sig mer i takt med marknaden.",
+      "category": "wisdom",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "[01:45]",
+      "confidence": "medium",
+      "tags": [
+        "beta",
+        "cykliska aktier"
+      ]
+    },
+    {
+      "quote": "När det är lite längre bort så tar finansmarknaden med jämn mod utan koncentrerar sig på veckan som kommer.",
+      "summary": "Finansmarknaden tenderar att fokusera på nära händelser snarare än händelser som ligger längre fram i tiden.",
+      "category": "wisdom",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "[14:00]",
+      "confidence": "medium",
+      "tags": [
+        "marknadsperspektiv",
+        "tidsaspekt"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Börsen har stigit tre veckor i rad med ett rally i gruv- och stålbolag som driven av stigande koppar- och zinkpriser. Ulf rekommenderar att plocka hem vinster i dessa cykliska bolag. Stora ägare som Gustav Douglas och Melker Schörling har sålt av betydande innehav vilket kan tyda på att de anser marknaden är dyr. Börsintroduktioner av Leo Vegas, Humana och Tradera väntas under våren.",
+  "key_takeaways": [
+    "Gruv- och stålbolag har rallyt med SSAB upp 28% på en vecka",
+    "Ulf rekommenderar att plocka hem vinster i rallyt",
+    "Gustav Douglas och Melker Schörling har sålt aktier för miljardbelopp",
+    "Leo Vegas, Humana och Tradera väntas börsnoteras under våren",
+    "Marknaden fokuserar på nära händelser snarare än politiska händelser på längre sikt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2016-03-04-3b75.txt",
+  "transcript_word_count": 1700,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

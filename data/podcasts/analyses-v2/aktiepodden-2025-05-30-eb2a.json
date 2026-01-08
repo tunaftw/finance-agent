@@ -1,0 +1,644 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2025-05-30-eb2a",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "222. Aktiepodden sneglar österut",
+  "episode_number": 222,
+  "date": "2025-05-30",
+  "hosts": [
+    "Aktiepodden Host 1",
+    "Aktiepodden Host 2"
+  ],
+  "guests": [
+    "Jinning Wang"
+  ],
+  "main_topics": [
+    "Kinesiska aktier",
+    "Kinesisk marknad",
+    "Konsumentekonomi i Kina",
+    "Hongkong som finanscenter",
+    "Elektriska fordon i Kina",
+    "Kinesisk fastighetsmarknad"
+  ],
+  "stocks_discussed": [
+    "Alibaba",
+    "Luckin Coffee",
+    "BYD",
+    "Geely",
+    "Meituan",
+    "Ctrip (Trip.com Group)"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Alibaba",
+      "ticker": "9988.HK",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "33:49",
+      "reasoning": "Kinas ledande e-handelsplattform med >50% marknadsandel i Kinas e-handel. Värderas till P/E 11 med 7-8% tillväxt i kärnverksamheten och 18% EBIT-marginal. Sum of the parts-värdering visar att kärnverksamheten handlas på mycket låg värdering eftersom molndelen endast värderas till 50 miljoner USD trots AI-kompetens jämförbar med OpenAI.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Om man bara kollar lite grann på Alibaba, och då ska man känna till att Alibaba när det noterades, så är det klart att Alibaba var världens största börsnotering... Alibaba är ett bolag som värderas till ungefär P11 i dagsläget... sum of the parts värdering för Alibaba så kan man faktiskt byta ut den här P11 och består det av en del kassa.",
+      "sector": "E-handel",
+      "market": "china",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Luckin Coffee",
+      "ticker": "LKNCY",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "37:41",
+      "reasoning": "Kinas Starbucks och ledande lokala kaffekedja med över 20 000 butiker. Expanderar med 1 700 nya butiker per kvartal. Självförsäljning har vänt positivt (8% i Q1) efter tuff konkurrens. Värderas till P/E 14 i år och P/E 11 nästa år. Kaffekonsumtion i Kina har dubblats på tre år men är fortfarande underpenetrerad (20 koppar per år vs västvärlden).",
+      "price_target": null,
+      "time_horizon": "medellång till lång sikt",
+      "quote": "Vad Lucky Coffee är, det är Kinas Starbucks. Den ledande lokala varumärket... över 20 000 antal försäljningspunkter... utökat antal nybutiksuppgifter till 1 700 per kvartal... samma butikförsäljning börjar vända positivt igen... Värderat ungefär P14 nu och för nästa år nästan P11.",
+      "sector": "Kaffe/Restaurang",
+      "market": "china",
+      "position_context": "Holding i portföljen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Geely",
+      "ticker": "0175.HK",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "51:08",
+      "reasoning": "Stor position i portföljen med förväntad tillväxt på 30-40% detta år och värdering på P/E 10. Har utvecklat elbilar som konkurrerar med Tesla Model 3 men till halva priset och med bättre interiör och elektronik. Exempel: E5-modell kostar 120 000 CNY (ca 175 000 SEK), 440 km räckvidd, 10 minuters snabbladdning till 130 km. Har skaffat konkurrensfördelar genom Kinas stora inhemska marknad.",
+      "price_target": null,
+      "time_horizon": "medellång till lång sikt",
+      "quote": "Vi pratar Gili för det här året, förväntas växa 30-40 %. Vart hittar du sådana här case? Gili har en värdering på P10, vart hittar du det?... Vi har bilar som ser ut som en Tesla Model 3 men till halva priset med bättre interiör, med bättre elektronik.",
+      "sector": "Elektriska fordon",
+      "market": "china",
+      "position_context": "Större position i portföljen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Meituan",
+      "ticker": "3690.HK",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "47:17",
+      "reasoning": "Kinas ledande plattform för tjänste-e-handel med >70% marknadsandel i matuthämtning. Dubbla vallgravar genom marknadsplatseffekt - både säljare och köpare vill vara på den största plattformen. Lönsam affärsmodell med låg kapitalbindning. Har 13 miljoner förare i leveransinfrastruktur. Lanserar 'instant shopping' för leverans inom en timme.",
+      "price_target": null,
+      "time_horizon": "medellång till lång sikt",
+      "quote": "Meituan är egentligen Alibaba av tjänster för Kina... mer än 70 % av all matuthämtning i Kina... För varje sensation som sker på Meituan så tar du dem i en komission. Man säljer också annonsplatser, vilket gör så att det är en väldigt lönsad affärsmodell med väldigt låg kapitalbindning... beställa varor på Meituan och få det levererat inom en timme.",
+      "sector": "Plattformstjänster/Matleverans",
+      "market": "china",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Trip.com Group (Ctrip)",
+      "ticker": "TCOM",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "29:22",
+      "reasoning": "Exponering mot tjänsteekonomi och resor. Via applikationen C-trip kan man boka alla hotell, flyg och tjänsteresor. Kineserna gillar resor och upplevelser, och penetrationen av tjänsteekonomi i Kina är fortfarande låg jämfört med mogna marknader där tjänster står för två tredjedelar av utgifterna.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "RGV, Kinas kvällen, till bookings.com som egentligen bokar på en applikation som heter C-trip. Där kan du boka alla hotell, alla flyg och alla tjänsteresor på applikationen.",
+      "sector": "Resor/Hotell",
+      "market": "china",
+      "position_context": "Holding i portföljen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "BYD",
+      "ticker": "1211.HK",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "40:37",
+      "reasoning": "Världens största elbilstillverkare med produktion på 4,3 miljoner elbilar per år (mer än dubbelt Tesla). Kinas marknad för elbilar växer 30-40% per år. Värderas till P/E 20 detta år, förväntat P/E 17 nästa år. 90% av försäljning i Kina, konkurrenskraftiga priser i massmarknadssegmentet (100-150 000 CNY). Lithium-batteripriser sjunkit vilket möjliggör lägre priser.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "BYD är ett bolag som producerar nästan 4,3 miljoner elbilar per år. Om man jämför det mot Tesla... så producerar Tesla ungefär 1,7 miljoner elbilar per år... BYD värderas till... närmare P20... 90 % av försäljning i Kina, endast 10 % utanför Kina.",
+      "sector": "Elektriska fordon",
+      "market": "china",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Alibaba",
+      "ticker": "9988.HK",
+      "timestamp_start": "30:48",
+      "timestamp_end": "36:07",
+      "word_count": 800,
+      "speakers": [
+        "Jinning Wang",
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Jinning Wang",
+      "discussion_summary": "Jinning Wang presenterar Alibaba som Kinas ledande e-handelsplattform med över 50% av Kinas e-handelsmarknad. Bolaget har en konservativ värdering på P/E 11 trots 7-8% tillväxt och 18% EBIT-marginal. Wang menar att molndelen, som har AI-kompetens liknande ChatGPT, endast värderas till 50 miljoner USD i en sum-of-the-parts-analys. Han jämför med OpenAI:s värdering för att visa hur undervärderad molndelen är.",
+      "quotes": [
+        {
+          "speaker": "Jinning Wang",
+          "text": "Alibaba är Kinas största e-handelsplattform, har över 50 % av Kinas e-handel. Och Kina som e-handelsland har över 50 % av globala e-handelsmarknader... I nuläget så är ju fortfarande Alibaba ett bolag med över 230-240 miljarder USD dollar i värdering.",
+          "timestamp": "30:48",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Om man tittar lite på Alibaba i dagsläget så är det så att Alibaba är ett bolag som värderas till ungefär P11 i dagsläget. Då ska man också komma ihåg att Alibaba frutom hela sin e-handelsdel så har man också inom Alibaba och Cloud tagit fram en kvalens som är lika bra som Deepseek, relativt lika bra som Chatt-GPT.",
+          "timestamp": "34:33",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Tittar man då på OpenAI, vad är OpenAI värd? Tittar man på sum of the parts värdering för Alibaba så kan man faktiskt byta ut den här P11 och består det av en del kassa. Mycket i sin kärnverk som heter e-handeln och sen är det Clouddell som endast har en medvidering på 50 miljoner USD dollar.",
+          "timestamp": "35:09",
+          "context": "valuation"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Man skulle kunna tro annars att de här stora affichnamnen... skulle bli någon sorts premievärdering på det, men tydligen inte alls.",
+          "timestamp": "35:34",
+          "context": "observation"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "11",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "7-8%",
+        "margin": "18%",
+        "debt_level": null,
+        "custom": [
+          "Kina e-handelsandel: >50%",
+          "Global e-handelsandel: >50%",
+          "Cloud-division värdering: 50 miljoner USD"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Dominant position i Kinas e-handel med >50% marknadsandel",
+          "Konservativ värdering P/E 11",
+          "Molndelen med AI-kapacitet värderas extremt lågt",
+          "Gynnas av ökad detaljhandelspenetration i Kina"
+        ],
+        "bear_case": [
+          "Regulatorisk risk i Kina",
+          "Konkurrens från andra plattformar",
+          "Beroende av kinesisk konsumtion"
+        ],
+        "catalysts": [
+          "Ökad konsumentpenetration i Kina",
+          "Värdering av molndelen kan komma upp mot nivåer liknande OpenAI",
+          "Domestisk konsumtionsstimulans"
+        ],
+        "risks": [
+          "Geopolitisk risk",
+          "Regulatoriska förändringar",
+          "Bostadsmarknadsnedgång påverkar konsumtion"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Luckin Coffee",
+      "ticker": "LKNCY",
+      "timestamp_start": "37:41",
+      "timestamp_end": "39:58",
+      "word_count": 600,
+      "speakers": [
+        "Jinning Wang",
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Jinning Wang",
+      "discussion_summary": "Wang presenterar Luckin Coffee som Kinas Starbucks och ledande lokala kaffekedja. Bolaget har över 20 000 butiker och expanderar aggressivt med 1 700 nya butiker per kvartal (7-8% av befintlig stock). Kaffekonsumtion i Kina har dubblats på tre år men är fortfarande låg på 20 koppar per år. Självförsäljning har vänt positivt till 8% i Q1 efter tuff konkurrens och pandemiföljder.",
+      "quotes": [
+        {
+          "speaker": "Jinning Wang",
+          "text": "Vad Lucky Coffee är, det är Kinas Starbucks. Den ledande lokala varumärket. Det är såklart att Lucky Coffee har i dagsläget över 20 000 antal försäljningspunkter, butiker.",
+          "timestamp": "37:41",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Under sista kvartalet här utökat antal nybutiksuppgifter till 1 700 per kvartal. På ett kvartal.",
+          "timestamp": "38:10",
+          "context": "expansion"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Nästan 10 procent, ja 7-8 procent av befintlig stock.",
+          "timestamp": "38:27",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Kaffemarknaden i Kina över tid kanske inte kommer att komma till nordiska nivåer och så. Men givetvis finns det väldigt mycket potential kvar i takt med urbanisering.",
+          "timestamp": "38:54",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "20 koppar på ett helt år. Då ska man komma ihåg att den siffran har dubblats på de senaste tre åren också.",
+          "timestamp": "39:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Samma butikförsäljning börjar vända positivt igen... Den var positiv 8 % under första kvartalet.",
+          "timestamp": "39:32",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Det bolaget värderat ungefär P14 nu och för nästa år nästan P11.",
+          "timestamp": "39:50",
+          "context": "valuation"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "14 (nu), 11 (nästa år)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Butiker: >20 000",
+          "Nybutiker per kvartal: 1 700",
+          "Självförsäljning Q1: 8%",
+          "Kaffekonsumtion per år: 20 koppar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Ledande position som Kinas Starbucks",
+          "Aggressiv expansion 1 700 nya butiker per kvartal",
+          "Underpenetrerad kaffemarknad med stor potential",
+          "Självförsäljning vänt positivt igen",
+          "Attractiv värdering P/E 11-14"
+        ],
+        "bear_case": [
+          "Tuff konkurrens",
+          "Kaffekulturen i Kina kan inte nå västvärldens nivåer",
+          "Urbaniseringstakt kan bromsa"
+        ],
+        "catalysts": [
+          "Urbanisering fortsätter",
+          "Växande medelklass",
+          "Konsumentstimulans"
+        ],
+        "risks": [
+          "Konkurrens från andra kaffekedjor",
+          "Bostadsmarknadsnedgång påverkar konsumtion"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Geely",
+      "ticker": "0175.HK",
+      "timestamp_start": "44:11",
+      "timestamp_end": "52:09",
+      "word_count": 900,
+      "speakers": [
+        "Jinning Wang",
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Jinning Wang",
+      "discussion_summary": "Wang presenterar Geely som en av portföljens stora positioner med förväntad tillväxt på 30-40% detta år och värdering på P/E 10. Bolaget har utvecklat elbilar som konkurrerar direkt med Tesla Model 3 men till halva priset och med bättre interiör och elektronik. E5-modellen kostar 120 000 CNY (ca 175 000 SEK), har 440 km räckvidd och 10 minuters snabbladdning till 130 km.",
+      "quotes": [
+        {
+          "speaker": "Jinning Wang",
+          "text": "Vi har bilar som ser ut som en Tesla Model 3 men till halva priset med bättre interiör, med bättre elektronik.",
+          "timestamp": "44:52",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Geely, en elbil som hette E5 av förra året, ungefär som en Tesla Model 3, men lite mer nyare, lite mer modernare. Den interiör och även perladdning, 440 km per fullladdning. 10 minuter så kan du få en snabbladdning upp till 130 km.",
+          "timestamp": "44:56",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Den bilen kostar 120 000 CNY. Tar du det i sek är det ungefär 170 000-180 000 SEK.",
+          "timestamp": "45:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Det är klart att Japanerna och så... Det finns nästan ingen utländsk varumärke i Kina som har en riktig fotfäste på elbilar, förutom Tesla.",
+          "timestamp": "46:09",
+          "context": "observation"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Geelys egna nya plattform, som heter Galaxy, den finns inte alls här i västfärden.",
+          "timestamp": "46:51",
+          "context": "other"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Vi pratar Gili för det här året, förväntas växa 30-40 %. Vart hittar du sådana här case? Gili har en värdering på P10, vart hittar du det?",
+          "timestamp": "51:08",
+          "context": "valuation"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "10",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "30-40%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "E5-modell pris: 120 000 CNY (~175 000 SEK)",
+          "Räckvidd: 440 km",
+          "Snabbladdning: 10 min till 130 km"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hög tillväxt 30-40% detta år",
+          "Attractiv värdering P/E 10",
+          "Konkurrerar med Tesla men till halva priset",
+          "Bättre interiör och elektronik än Tesla Model 3",
+          "Skala genom Kinas stora inhemska marknad",
+          "Lägre batteripriser möjliggör konkurrenskraftiga priser"
+        ],
+        "bear_case": [
+          "Tuff konkurrens i Kina",
+          "Beroende av inhemska marknaden",
+          "Teknologisk utveckling kräver stora investeringar"
+        ],
+        "catalysts": [
+          "Elbilsmarknaden växer 30-40% per år",
+          "Lägre batteripriser",
+          "Konsumentstimulans"
+        ],
+        "risks": [
+          "Konkurrens från andra kinesiska elbiltillverkare",
+          "Internationell expansion kan vara svår",
+          "Teknologisk utveckling"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Meituan",
+      "ticker": "3690.HK",
+      "timestamp_start": "47:17",
+      "timestamp_end": "50:23",
+      "word_count": 550,
+      "speakers": [
+        "Jinning Wang",
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Jinning Wang",
+      "discussion_summary": "Wang presenterar Meituan som Alibabas motsvarighet men för tjänstesektorn. Bolaget har >70% marknadsandel i Kinas matuthämtning. Plattformen erbjuder över 70 tjänster inklusive restaurangbokningar, frisör, bowling, spa. Meituan har byggt upp en infrastruktur med 13 miljoner förare som nu möjliggör 'instant shopping' där varor levereras inom en timme.",
+      "quotes": [
+        {
+          "speaker": "Jinning Wang",
+          "text": "Meituan är egentligen Alibaba av tjänster för Kina.",
+          "timestamp": "47:17",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Okej, är det typ så här, ungefär som hantverktjänster eller?",
+          "timestamp": "47:39",
+          "context": "question"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Det är en applikation där du har mer än 70 % av all matuthämtning i Kina.",
+          "timestamp": "47:52",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Förutom det så är det sett på Meituan applikationer ska du beställa alla dina andra tjänster. Frisörtjänster, bokar bord, bokar bowling, bokar spa.",
+          "timestamp": "48:05",
+          "context": "other"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "För varje sensation som sker på Meituan så tar du dem i en kommission. Man säljer också annonsplatser, vilket gör så att det är en väldigt lönsad affärsmodell med väldigt låg kapitalbindning.",
+          "timestamp": "48:23",
+          "context": "business_model"
+        },
+        {
+          "speaker": "Jinning Wang",
+          "text": "Meituan på grund av att man har en så stor fotfäste på matleveranser som har över 13 miljoner förare som levererar maten... beställa varor på Meituan och få det levererat inom en timme.",
+          "timestamp": "48:50",
+          "context": "expansion"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Man brukar säga att det som hämnet med marknadsplatser att man har dubbla vallgravar på något vis för att det är attraktivt för säljarna att vara på den största plattformen och så köpare vill man också vara på den största plattformen så att det är någon sorts dubbeldraghjälp där.",
+          "timestamp": "49:50",
+          "context": "moat"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Matuthämtningsandel: >70%",
+          "Förare: 13 miljoner",
+          "Tjänster: >70"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Dominant position i matuthämtning med >70% marknadsandel",
+          "Dubbla vallgravar genom nätverkseffekt",
+          "Lönsam affärsmodell med låg kapitalbindning",
+          "13 miljoner förare som infrastruktur",
+          "Instant shopping - leverans inom en timme"
+        ],
+        "bear_case": [
+          "Tuff konkurrens",
+          "Regulatorisk risk",
+          "Beroende av leveransflotta"
+        ],
+        "catalysts": [
+          "Konsumtionsökning i Kina",
+          "Urbanisering",
+          "Växande tjänstesektor"
+        ],
+        "risks": [
+          "Konkurrens från andra plattformar",
+          "Regulatoriska risker",
+          "Leveranskostnader"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Kina håller på och gör omvandling till en konsumentledd ekonomi. Det är absolut det största alldeles till varför man behöver ha en exponering mot en kinesmarknad. Man ska komma ihåg att Kina är ett land med 1,4 miljarder människor. 2035 ska man bli ett medieinkomstland per capita. 2049 ska man bli ett höginkomstland per capita.",
+      "summary": "Kina genomgår en strukturell omvandling från export- till konsumentledd ekonomi med målet att nå medel- och höginkomststatus per capita fram till 2049.",
+      "category": "wisdom",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "08:01",
+      "confidence": "high",
+      "tags": [
+        "Kina",
+        "Konsumtion",
+        "Strukturella trender",
+        "Makro"
+      ]
+    },
+    {
+      "quote": "Hongkong är en unik finanshubb eftersom det möjliggör utländsk kapital tillgång till kinesiska bolag via Hongkong Stock Connect. Kapitalet finns i Hongkong inte i fastlandskina. Hongkong använder Hongkongdollar som är peggad till USD-dollar, så det är frikopplat från CNY.",
+      "summary": "Hongkong är en brygga för utländska investerare att komma åt kinesiska tillgångar med valutaexponering mot USD.",
+      "category": "wisdom",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "03:34",
+      "confidence": "high",
+      "tags": [
+        "Hongkong",
+        "Kina",
+        "Finansmarknad",
+        "Valuta"
+      ]
+    },
+    {
+      "quote": "Det är väldigt tydligt för alla ekonomer som följer en ekonomi måste ju såklart titta på vad Riksbanken säger, vad är inflationsproblemet? Hur faller faktiskt data ut gentemot förväntat data? Vad säger regeringen för framtida forward guidance?",
+      "summary": "Investerare måste följa centralbanker och regeringspolitik oavsett marknad.",
+      "category": "philosophy",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "20:52",
+      "confidence": "high",
+      "tags": [
+        "Makro",
+        "Centralbank",
+        "Reglering"
+      ]
+    },
+    {
+      "quote": "Kina har en hög sparkvot på nästan 35 % av disponibel inkomst. Men det finns väldigt stora skillnader mellan i termer av konsumtionsmönster, om man pratar med kustdärderna, Shanghai Shenzhen, gentemot de som är inne i landet och även en åldersdemografi då. Äldre personer är mycket mer begränsade när det gäller konsumtion medan unga konsumerar nästan tre gånger mer.",
+      "summary": "Kinesiska hushåll har en hög sparkvot men konsumtionsmönstren skiljer sig markant mellan regioner och åldersgrupper.",
+      "category": "wisdom",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "10:34",
+      "confidence": "high",
+      "tags": [
+        "Konsumtion",
+        "Sparkvot",
+        "Demografi"
+      ]
+    },
+    {
+      "quote": "Tittar man där Kina befinner sig i termer av tjänstepension gentemot mer mogna marknader, så är tjänsterkonsumtion ungefär 50-50 gentemot varor. Men tittar man på mer mogna länder, då är kanske tjänstepensionen två tredjedelar av totala utgifter.",
+      "summary": "Kina har låg penetration av tjänsteekonomi jämfört med mogna marknader vilket skapar potential för tillväxt.",
+      "category": "wisdom",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "26:44",
+      "confidence": "high",
+      "tags": [
+        "Tjänstesektor",
+        "Konsumtion",
+        "Tillväxtpotential"
+      ]
+    },
+    {
+      "quote": "Om man kikar på hur sådant en skuldsättning som har andel av GDP... 60-70 % av det taget GDP. Om man jämför med Sverige så vet ni ju själva vilken det är. En heltalsmultipel.",
+      "summary": "Kinesiska hushåll har relativt låg skuldsättning jämfört med västvärlden.",
+      "category": "wisdom",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "18:03",
+      "confidence": "medium",
+      "tags": [
+        "Hushållsskulder",
+        "Gäv",
+        "Kina"
+      ]
+    },
+    {
+      "quote": "För att kunna lyckas i Kina, så måste du ha bra pris, bra förtjänning, bra produkt, och även några special features som är anpassade för specifika kundgrupper. För att den kinesiska konsumenten är väldigt kräsen i dagsläget.",
+      "summary": "Den kinesiska konsumenten är mycket kräsen vilket kräver hög kvalitet och konkurrenskraftiga priser.",
+      "category": "wisdom",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "44:40",
+      "confidence": "high",
+      "tags": [
+        "Kinesisk konsument",
+        "Konkurrens",
+        "Kvalitet"
+      ]
+    },
+    {
+      "quote": "Det som vi har sett under de senaste åren är att mycket fabriker har flyttats från kuststäderna in till fastlandskyddarna. Det har funnits stora regionala skillnader men produktion flyttas mer inåt och in i landet.",
+      "summary": "Kina ser en regional omfördelning där produktion flyttas från kuststäder till inlandet.",
+      "category": "wisdom",
+      "speaker": "Jinning Wang",
+      "speaker_role": "guest",
+      "timestamp": "14:48",
+      "confidence": "medium",
+      "tags": [
+        "Regional skillnad",
+        "Produktion",
+        "Urbanisering"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet fokuserar på investeringsmöjligheter på den kinesiska marknaden med gästen Jinning Wang från Asian Nordic. Huvudbudskapet är att Kina genomgår en strukturell omvandling till en konsumentledd ekonomi med massiv potential. Den kinesiska konsumentmarknaden är fortfarande underpenetrerad med en hög sparkvot på 35%, och regeringen stimulerar konsumtionen genom expansionär finanspolitik och sänkta bolåneräntor. Wang rekommenderar specifika bolag som exponering mot denna trend inklusive Alibaba (P/E 11), Luckin Coffee (P/E 11-14), Geely (P/E 10, 30-40% tillväxt), och Meituan (dominant tjänsteplattform). Kina växer bort från exportberoendet med en konsumentmarknad som är 10 gånger större än exporten.",
+  "key_takeaways": [
+    "Kina genomgår strukturell omvandling till konsumentledd ekonomi med mål att nå medel- och höginkomststatus per capita 2035-2049",
+    "Alibaba värderas lågt på P/E 11 trots dominerande position i Kinas e-handel och molndivision med AI-kompetens",
+    "Luckin Coffee (Kinas Starbucks) har 20 000 butiker, expanderar med 1 700 nya per kvartal, värderas P/E 11-14",
+    "Geely växer 30-40% med P/E 10, har elbilar som konkurrerar med Tesla Model 3 men till halva priset",
+    "Kinesiska konsumenten är kräsen vilket kräver hög kvalitet och konkurrenskraftiga priser",
+    "Tjänstesektor penetration i Kina är låg (50/50) jämfört med mogna marknader (2/3), vilket skapar tillväxtpotential",
+    "Meituan dominerar matuthämtning med >70% marknadsandel och har 13 miljoner förare i sin infrastruktur",
+    "Kinesiska hushåll har relativt låg skuldsättning jämfört med västvärlden"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2025-05-30-eb2a.txt",
+  "transcript_word_count": 8427,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

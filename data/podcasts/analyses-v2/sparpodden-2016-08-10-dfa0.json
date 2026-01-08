@@ -1,0 +1,192 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2016-08-10-dfa0",
+  "podcast_name": "Sparpodden",
+  "episode_title": "#Sparpodden ep. 144 - Köp billigt, sälj dyrt",
+  "episode_number": 144,
+  "date": "2016-08-10",
+  "hosts": [
+    "Jocke Borrnod"
+  ],
+  "guests": [
+    "Mattias Eriksson"
+  ],
+  "main_topics": [
+    "Sparfilosofi",
+    "Fundamental analys",
+    "Kassaflödesvärdering",
+    "Investeringspsykologi"
+  ],
+  "stocks_discussed": [
+    "Ericsson",
+    "H&M",
+    "SKF",
+    "Apple"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Mattias Eriksson",
+      "speaker_role": "guest",
+      "timestamp": "07:20",
+      "reasoning": "Mattias har byggt en kassaflödesmodell med konservativa antaganden (negativ omsättningstillväxt framgent, marginal i princip stillastående) och får ett motiverat värde på 70 kr. Han kallar detta 'försiktigt' antaganden. Aktien är intressant om positiva nyheter kommer, exempelvis ny vd och förändringar i restriktioner. Utan positivt nyhetsflöde kommer nog ingenting hända med kursen.",
+      "price_target": "70 SEK",
+      "time_horizon": null,
+      "quote": "Medan ny vd och kanske förändringar i restriker och sådant så kan det vara triggert som gör att aktiekursen tar fart.",
+      "sector": "Telecom",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Efter ny vd och förändringar i restriktioner"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "timestamp_start": "06:21",
+      "timestamp_end": "08:23",
+      "word_count": 350,
+      "speakers": [
+        "Jocke Borrnod",
+        "Mattias Eriksson"
+      ],
+      "primary_speaker": "Mattias Eriksson",
+      "discussion_summary": "Mattias använder Ericsson som praktiskt exempel på hur man gör en kassaflödesvärdering. Han räknar med negativ omsättningstillväxt framgent och en marginal som står stilla, vilket ger ett värde på 70 kr. Han anser dessa antaganden är försiktiga. Diskussionen kretsar kring hur avgörande positiva nyheter och ledningsförändringar kan vara för aktiens kursutveckling.",
+      "quotes": [
+        {
+          "speaker": "Mattias Eriksson",
+          "text": "Och får jag ett motvägvärde på 70 då. Det kan vara ett exempel. Och det tycker jag känns försiktigt.",
+          "timestamp": "07:08",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Mattias Eriksson",
+          "text": "Sen krävs då att man har ett positivt nyhetsflöde kring aktierna, annars kommer nog ingenting hända.",
+          "timestamp": "07:15",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "negativt (antaget)",
+        "margin": "stillastående (antaget)",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Positivt nyhetsflöde kan trigga kursen",
+          "Ny vd kan vara katalysator",
+          "Förändringar i restriktioner"
+        ],
+        "bear_case": [
+          "Negativ omsättningstillväxt framgent",
+          "Marginaler stillastående"
+        ],
+        "catalysts": [
+          "Ny vd",
+          "Förändringar i restriktioner",
+          "Positivt nyhetsflöde"
+        ],
+        "risks": [
+          "Utan positivt nyhetsflöde händer inget med kursen"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det tar tid att bli rik. Man ska låta det ta tid. Och låta ränta på ränta effekten jobba. Och utnyttja börsens svängningar.",
+      "summary": "Viktigheten av tålamod och att låta ränta-på-ränta verka, samt att utnyttja marknadens svängningar.",
+      "category": "wisdom",
+      "speaker": "Mattias Eriksson",
+      "speaker_role": "guest",
+      "timestamp": "16:25",
+      "confidence": "high",
+      "tags": [
+        "ränta på ränta",
+        "tålamod",
+        "marknadssvängningar"
+      ]
+    },
+    {
+      "quote": "Peter Lynch, en legendarisk investerare, har ju sagt know what you own and know why you own it. Du säger ju allt. Man ska veta vad man äger i det mån man kan.",
+      "summary": "Grundläggande investeringsprincip att förstå vad man äger och varför man äger det.",
+      "category": "philosophy",
+      "speaker": "Mattias Eriksson",
+      "speaker_role": "guest",
+      "timestamp": "17:06",
+      "confidence": "high",
+      "tags": [
+        "Peter Lynch",
+        "know what you own",
+        "kunskap om innehav"
+      ]
+    },
+    {
+      "quote": "Man vill ju tjäna pengar snabbt. Jag blir så himla irriterad på människor som tror att börsen är någon typ av spelhall.",
+      "summary": "Börsen är inte en spelhall utan en möjlighet att bli ägare i bolag som tjänar pengar.",
+      "category": "philosophy",
+      "speaker": "Mattias Eriksson",
+      "speaker_role": "guest",
+      "timestamp": "14:32",
+      "confidence": "high",
+      "tags": [
+        "börsen vs spelhall",
+        "ägare",
+        "girighet"
+      ]
+    },
+    {
+      "quote": "Det är mycket drivet av spekulation. Det är otroligt svårt att skilja aktier från bolag.",
+      "summary": "Aktiekursen drivs ofta av spekulation och skiljer sig från bolagets underliggande verksamhet.",
+      "category": "wisdom",
+      "speaker": "Mattias Eriksson",
+      "speaker_role": "guest",
+      "timestamp": "17:18",
+      "confidence": "high",
+      "tags": [
+        "spekulation",
+        "aktier vs bolag",
+        "kursdrivande faktorer"
+      ]
+    },
+    {
+      "quote": "Lyft blicken lite grann och köp bra bolag billigt. Då måste du veta vad är ett bra bolag och vad är billigt.",
+      "summary": "Kärnan i värdeinvestering: identifiera bra bolag och köpa dem till bra pris.",
+      "category": "philosophy",
+      "speaker": "Mattias Eriksson",
+      "speaker_role": "guest",
+      "timestamp": "25:36",
+      "confidence": "high",
+      "tags": [
+        "köp billigt sälj dyrt",
+        "värdeinvestering",
+        "bra bolag"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "I detta avsnitt av Sparpodden gästas Jocke av Mattias Eriksson som diskuterar sin bok 'Köp billigt, sälj dyrt'. Huvudfokus ligger på fundamentanalys, särskilt kassaflödesvärdering som det bästa sättet att värdera bolag. Mattias använder Ericsson som praktiskt exempel och betonar vikten av att förstå vad som är inprisat i kursen. Han varnar för att se börsen som en spelhall och uppmuntrar långsiktigt tänkande där man är ägare i bolag snarare än spekulant. Diskussionen kretsar även kring hur privatpersoner kan utnyttja marknadssvängningar och vikten av att titta på bolag man förstår.",
+  "key_takeaways": [
+    "Kassaflödesvärdering är det bästa sättet att värdera bolag",
+    "Förstå vad som är inprisat i aktiekursen genom konservativa antaganden",
+    "Börsen är inte en spelhall - var en långsiktig ägare",
+    "Utnyttja marknadens svängningar (som Brexit) när panik uppstår",
+    "Fokusera på bolag du förstår, börja med stora svenska bolag"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2016-08-10-dfa0.txt",
+  "transcript_word_count": 4377,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

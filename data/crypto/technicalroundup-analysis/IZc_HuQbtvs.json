@@ -1,0 +1,99 @@
+{
+  "source_id": "IZc_HuQbtvs",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-02-28",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "Cred analyzing BTC's market structure, noting range-bound behavior with support at 35-37k and key resistance at 43-47k. Mentions tentative signs of a higher low but cautious until resistance is broken.",
+      "quote": "The market still seems to be higher time frame range bound until proven otherwise... if the mid-range of 43 and 47 is broken I don't really think there's much in the way for a high time frame move towards 58.",
+      "price_levels": [
+        "$35,000",
+        "$37,000",
+        "$43,000",
+        "$47,000",
+        "$58,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Cred briefly mentions ETH has similar market structure resistance around 3k-3.3k, analogous to BTC's 43-47k level.",
+      "quote": "eth has a similar level at 3k or thereabouts... if you get candle you know a break of resistance at 32 3300 I don't think there's a lot in the way for a to resist a rally until at least 4000.",
+      "price_levels": [
+        "$3,000",
+        "$3,300",
+        "$4,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$35,000",
+        "$37,000",
+        "$43,000",
+        "$47,000"
+      ],
+      "ETH": [
+        "$3,000",
+        "$3,300"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC monthly close above 35-37k support, suggesting support held",
+    "43-47k is critical resistance confluence (monthly + weekly market structure)",
+    "First intraday higher high on 4H timeframe showing constructive price action",
+    "Cred cautious - not entering trades yet, waiting for clearer setups",
+    "If 43-47k broken, could see significant upside toward 58-60k",
+    "Potential higher low forming on weekly timeframe but needs confirmation"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$43,000-$47,000 (breakout)",
+      "target": "$58,000-$60,000",
+      "stop": "below $43,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$38,000-$39,000 (higher low)",
+      "target": "$43,000-$47,000",
+      "stop": "below range low",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$3,200-$3,300 (breakout)",
+      "target": "$4,000+",
+      "stop": "below $3,000",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes BTC's market structure noting it's range-bound between 35-37k support and 43-47k resistance. Monthly close above support is positive, but key test is breaking the 43-47k confluence area. First intraday higher high on 4H shows constructive price action. Cred remains cautious, not entering trades yet but outlines potential setups on resistance break or pullback to higher low. ETH has analogous resistance at 3k-3.3k.",
+  "transcript_word_count": 6865,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:56:04.780735"
+}

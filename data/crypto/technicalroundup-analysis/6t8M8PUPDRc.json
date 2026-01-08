@@ -1,0 +1,138 @@
+{
+  "source_id": "6t8M8PUPDRc",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-08-14",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Market stuck in narrow 3-4% range between 28.8-30k with extremely low volatility making short-term trading difficult",
+      "quote": "it's really really hard to just make money short-term trading in this market you need to be really precise and the opportunities are far and few between",
+      "price_levels": [
+        "$28,800",
+        "$29,800-$30,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Expects volatility to pick up approaching Q4, particularly around ETF deadlines",
+      "quote": "I think it'll be a decent time towards the last quarter of the year for volatility to pick up",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Even worse than BTC, no trading range available, all moves get faded immediately",
+      "quote": "it kind of looks even more pathetic to be honest I'm not going to bore you with the weekly and even the daily just really isn't doing much no you know no interest in Eve whatsoever",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Market in precarious area at 4500-4600, broke structure below 4500",
+      "quote": "this is the chart that I tweeted I think with sort of 45 to 4600 as being somewhat Troublesome the markets stopped there but it hasn't done anything too scary yet",
+      "price_levels": [
+        "$4,300-$4,400"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "PEPE",
+      "asset_name": "Pepe",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Had decent rally off lows but now at resistance area, watching but no trade yet",
+      "quote": "Pepe is one sort of decent rally off the lows it's better than nothing already reached a kind of short-term daily trouble area uh at 142s but nothing opportunity wise there at the moment",
+      "price_levels": [
+        "142s"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SHIB",
+      "asset_name": "Shiba Inu",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Riding shibarium narrative hype, expects sell-the-news dump on late participants",
+      "quote": "I'd be looking to take advantage of any inefficiencies there late buyers getting dumped on type of thing",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "XRP",
+      "asset_name": "XRP",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Weekly structure around 58-60 cents could be interesting if market shows risk-on signal",
+      "quote": "there is a weekly structure here that Don actually brought up on Casual Friday which is some version of 58 just under 60 cents depending on how exactly you want to Anchor it again if I get some sort of risk on signal from the bigger boys or if someone just trades at very peaceful prices around here that might be worth a punt",
+      "price_levels": [
+        "$0.58-$0.60"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$28,800",
+        "$29,800-$30,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "Volatility remains at miserable levels with BTC stuck in 3-4% range, making short-term trading very difficult",
+    "ETH market structure is even weaker than BTC with no meaningful trading range",
+    "Legacy markets (SPX) present headwind for crypto but not yet at scary levels",
+    "Expect volatility to increase in Q4 approaching ETF deadlines",
+    "Best strategy is to wait for outlier daily/weekly moves and trade continuation rather than fading the initial impulse"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "SHIB",
+      "direction": "short",
+      "entry": "narrative/launch event",
+      "target": "dump on late participants",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "XRP",
+      "direction": "long",
+      "entry": "$0.58-$0.60 with risk-on signal",
+      "target": null,
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Market remains in extremely low volatility environment with BTC stuck between 28.8-30k. Cred recommends waiting for range break or large outlier moves before positioning. ETH showing even weaker structure than BTC. Expecting volatility pickup in Q4 around ETF deadlines. Watching SHIB for potential sell-the-news short and XRP around 58-60 cents on risk-on signal.",
+  "transcript_word_count": 9883,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:50:29.970216"
+}

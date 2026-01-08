@@ -1,0 +1,453 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2023-03-15-7895",
+  "podcast_name": "Sparpodden",
+  "episode_title": "485. Så investerar vi nu - Anna Svahn och Christian Granquist",
+  "episode_number": 485,
+  "date": "2023-03-15",
+  "hosts": [
+    "Host"
+  ],
+  "guests": [
+    "Anna Svahn",
+    "Christian Granquist"
+  ],
+  "main_topics": [
+    "Silicon Valley Bank krisen",
+    "Räntor och inflation",
+    "Dollar vs svenska kronan",
+    "Kommadititer och guld",
+    "Investeringsstrategi"
+  ],
+  "stocks_discussed": [
+    "Cameco",
+    "Guld",
+    "US T-bills",
+    "Naturgas",
+    "Sprott Uranium ETF",
+    "Svenska exportbolag"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Guld",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "34:19",
+      "reasoning": "Guld används som safe haven med låg korrelation till aktier. Fungerar som krockkudde för att kunna köpa mer producerande tillgångar när de blivit billigare. Steg över 2% igår samtidigt som allt annat föll, vilket visade på dess signalvärde.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Så ja, köp guld. [...] jag brukar säga det som att du ska använda guld för att guld har också låg korrelation till aktier. Så du ska använda guldet som ett verktyg för att kunna köpa mer producerande tillgångar när de har blivit billigare.",
+      "sector": "Råvaror/Precious metals",
+      "market": "global",
+      "position_context": "har guld i portföljen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Cameco",
+      "ticker": "CCJ",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "25:17",
+      "reasoning": "Största noterade uranbolaget med största finligheterna och äger hela produktionskedjan. Kandenskt bolag. Del av en positiv sektor på 10-års sikt. Uran är en sektor som förväntas växa.",
+      "price_target": null,
+      "time_horizon": "10 år",
+      "quote": "Du kan till exempel köpa Sprott ETFen om du vill ha fysisk ram, men där kanske är det enda exemplet där jag faktiskt köper bolag, och det tittar jag framförallt på Cameco, men det är det största noterade Iranbolaget med de största finligheterna och också äger hela produktionskedjan av Iran, ett kanadenskt båda.",
+      "sector": "Energi/Uran",
+      "market": "canada",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "US T-bills (Dollar cash)",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "26:14",
+      "reasoning": "Ger 5% avkastning på dollarcash utan hedge-a-valutan. Attraktivt nu medan vi väntar på att Fed ska sänka räntan. Ger bra cash management-position mellan nu och Fed pivot.",
+      "price_target": null,
+      "time_horizon": "kort till medellång sikt tills Fed sänker",
+      "quote": "Då kan man ju ligga med en jättehärlig avkast på dollarcash på 5 procent. Det är väl inte så illa? Du kan köpa T-bills och inte hedge-a-valutan. Amerikanska T-bills utan hedge-a-valutan.",
+      "sector": "Räntor/Statspapper",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "När Fed börjar sänka"
+    },
+    {
+      "stock_name": "Naturgas",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "25:09",
+      "reasoning": "Handlar på ett par månaders naturgas. Energisektorn beskrivs som jättespännande.",
+      "price_target": null,
+      "time_horizon": "några månader",
+      "quote": "men handlar också på ett par månadersikt naturgas just nu",
+      "sector": "Energi/Råvaror",
+      "market": "global",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Svenska kronan (att undvika)",
+      "ticker": "SEK",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "20:18",
+      "reasoning": "Kronan beskrivs som en one way trade. Ingen anledning att ha tillgångar i kronor. Sjuk ekonomi, hög skuldsättning, högre inflation än USA, och Riksbanken reagerar långsammare än Fed.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Man ska ju inte ha några tillgångar i kronor. [...] Det finns ingen anledning till att man någonstans kan räkna hemma.",
+      "sector": "Valutor",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Fortfarande svag mot dollarn",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Obligationer (vs Aktier)",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "31:02",
+      "reasoning": "På pappret bättre risk reward än aktier just nu. Om vi går in i recession eller om Fed sänker räntan, kommer räntorna ner. Men så fort räntorna sänks, växlas till aktier.",
+      "price_target": null,
+      "time_horizon": "medellång sikt tills räntor sänks",
+      "quote": "Obligationer är i mycket bättre risk reward idag än vad aktier är, så på pappret. [...] men så fort som sagt man börjar sänka räntorna, ja då skulle det ju växla till aktier",
+      "sector": "Räntor",
+      "market": "global",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "När Fed börjar sänka räntan"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Guld",
+      "ticker": null,
+      "timestamp_start": "34:04",
+      "timestamp_end": "35:23",
+      "word_count": 180,
+      "speakers": [
+        "Host",
+        "Christian Granquist"
+      ],
+      "primary_speaker": "Christian Granquist",
+      "discussion_summary": "Christian rekommenderar guld som en säker hamn i portföljen. Den viktigaste anledningen är inte kortsiktiga geopolitiska effekter, utan att mycket pengar har tryckts vilket gör att guld tenderar att behålla sitt värde över tid. Guld har låg korrelation till aktier och ska användas som ett verktyg för att kunna köpa mer producerande tillgångar när de blivit billigare.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Du har ju faktiskt gått in på en annan safe haven, vi pratar ju om tolvlar mycket och så, men guld, är den fortsatt en intressant safe haven för dig?",
+          "timestamp": "34:04",
+          "context": "other"
+        },
+        {
+          "speaker": "Christian Granquist",
+          "text": "Ja absolut och det är så, det såg man väl, alltså signalvärdet. Nu brukar jag ju säga att det viktigaste anledningen till att köpa guld är inte för de här kortsiktiga effekterna som vi ser av geopolitik eller andra saker som du, när det blev liksom en bankrun, utan det har att göra med att man har tyckt så mycket pengar guld tenderar att behålla sitt värde över tid.",
+          "timestamp": "34:19",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Christian Granquist",
+          "text": "Däremot så var det ett viktigt signalvärde när guldet steg över 2% igår, samtidigt som allt annat full. Så att, ja absolut, jag tycker att guld har en plats i en portfölj och jag brukar säga det som att du ska använda guld för att guld har också låg korrelation till aktier. Så du ska använda guldet som ett verktyg för att kunna köpa mer producerande tillgångar när de har blivit billigare. Så ja, köp guld.",
+          "timestamp": "34:36",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host",
+          "text": "Så ditt tips är att använda guldet lite som krockgulden så när andra tillgångarna går ner som aktier och så, sälj av lite guld, pumpa i dem i aktier och när det visar värsta så flyttar man tillbaka till guld.",
+          "timestamp": "35:10",
+          "context": "other"
+        },
+        {
+          "speaker": "Christian Granquist",
+          "text": "Precis.",
+          "timestamp": "35:22",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": [
+          "Behåller värde när mycket pengar tryckts",
+          "Låg korrelation till aktier",
+          "Fungerar som krockkudde",
+          "Gick upp 2% när allt annat föll vid bankrun"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Geopolitisk oro",
+          "Bankkriseffekter",
+          "Stigande inflation"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Svenska exportbolag",
+      "ticker": null,
+      "timestamp_start": "28:52",
+      "timestamp_end": "30:44",
+      "word_count": 300,
+      "speakers": [
+        "Host",
+        "Christian Granquist"
+      ],
+      "primary_speaker": "Christian Granquist",
+      "discussion_summary": "Christian diskuterar svenska exportbolag och menar att många svenska företag har intäkter i andra valutor men producerar inte allt i Sverige längre. Han menar att bara investera i ett företag för att de har en svag valuta är inte lönt. Svenska företag tenderar att vara relativt cykliska där volymer minst lika mycket spelar in som valutan. Han ser potential bland små och medelstora företag men tror inte att stora verkstadsbolag kommer växa strukturellt.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Samtidigt så när man kikar på det man kan investera i här i Sverige så finns det ju många exportbolag. Och då tänker jag ju utsökt på att de har intäkter i andra valutor, de är här i Sverige, du investerar mycket i aktier, är det någonting du kikar på svenska bolagen?",
+          "timestamp": "28:52",
+          "context": "other"
+        },
+        {
+          "speaker": "Christian Granquist",
+          "text": "Definitivt, eller jag menar inte så... Jag investerar ju globalt och normalt sett börjar jag fundera på snarare, börjar från andra hållet, att tänka så, vad är det i samhället som ska växa? Vad är det som kommer att generera en bra avkastning och försöka hitta marknadsledare inom den typen av segment som jag tror kommer att växa inom de närmaste fem till tio åren? Och vad är det så det är uran eller något annat?",
+          "timestamp": "29:11",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Christian Granquist",
+          "text": "Men att bara investera i ett företag för att de har en svag valuta, det tror jag liksom inte är lönt. Det kan ju vara en kudde så att säga, men generellt sett tenderar svenska företag att vara relativt cykliska och då betyder volymerna minst lika mycket som valutan.",
+          "timestamp": "29:46",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Christian Granquist",
+          "text": "Dessutom är det så att många av de här svenska företagen är ju diversifierade i sin produktion. De producerar ju inte allt i Sverige längre.",
+          "timestamp": "30:01",
+          "context": "metric"
+        },
+        {
+          "speaker": "Christian Granquist",
+          "text": "Sverige har ju förstås lyckats producera ett antal företag av världsklass. Det är ju en intressant marknad att leta i, framförallt tror jag bland små mindre företag. De stora företagen är ju mer stabila verkstadsbolag. Det är ju ingen fel idé så att säga, men det kanske inte är det som kommer att växa strukturellt de närmaste fem till tio åren.",
+          "timestamp": "30:10",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host",
+          "text": "Och du kikar inte på...",
+          "timestamp": "30:39",
+          "context": "other"
+        },
+        {
+          "speaker": "Christian Granquist",
+          "text": "Jag tittar inte på Sverige överhuvudtag.",
+          "timestamp": "30:41",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": [
+          "Sverige har producerat företag av världsklass",
+          "Intressant marknad bland små och medelstora företag",
+          "Exportbolag har intäkter i utländsk valuta"
+        ],
+        "bear_case": [
+          "Svenska företag tenderar att vara cykliska",
+          "Volymer minst lika viktiga som valuta",
+          "Många diversifierad produktion utanför Sverige",
+          "Stora verkstadsbolag växer inte strukturellt"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Cyklisk bransch",
+          "Svag valuta kan vara risk om exportvolymer faller"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det som ändrade det här och det som gjorde var ju sen när man lade på den finanspolitiska stimulansen innan pandemin med Trumps skattesänkningar, men sen förstås den enorma finanspolitiska stimulansen som skedde globalt under pandemin. Då fick du en double whammy på det här och då sade det smack.",
+      "summary": "Kombinationen av penningpolitisk stimulans (gratis pengar) och enorm finanspolitisk stimulans skapade den nuvarande inflationen.",
+      "category": "wisdom",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "16:09",
+      "confidence": "high",
+      "tags": [
+        "inflation",
+        "penningpolitik",
+        "finanspolitik"
+      ]
+    },
+    {
+      "quote": "Jag tror att det är också en viktig poäng, för Powells jobb är inte att försöka förutspå vad som kommer att hända, utan han måste helt enkelt bara reagera på de siffror som de har. [...] Det är ett väldigt reaktivt yrke.",
+      "summary": "Federal Reserves chef Jerome Powell jobbar reaktivt, inte prognostiskt. Han reagerar på data snarare än förutser framtida händelser.",
+      "category": "wisdom",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "13:14",
+      "confidence": "high",
+      "tags": [
+        "Federal Reserve",
+        "centralbank",
+        "penningpolitik"
+      ]
+    },
+    {
+      "quote": "Om man bortser från Argentina, så finns det ingen inflation som är evig. Utan all inflation är transitory, om man talar om lite högre inflation.",
+      "summary": "All inflation är tillfällig, förutom extremfall som Argentina. Strukturellt oro för inflation är inte berättigad på lång sikt.",
+      "category": "philosophy",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "23:19",
+      "confidence": "high",
+      "tags": [
+        "inflation",
+        "makroekonomi",
+        "investeringsfilosofi"
+      ]
+    },
+    {
+      "quote": "Jag tycker ju hela det här, inflation is transitory, är jätteroligt att hjälpa. [...] En 3-4 % inflation eller 2 % eller vad det nu är vi kommer att landa på, det tror jag bara är nyttigt.",
+      "summary": "En moderat inflation på 2-4% är nyttigare än deflation och sundare än extrem inflation. Strukturellt inte bekymrad över inflationen.",
+      "category": "philosophy",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "23:24",
+      "confidence": "high",
+      "tags": [
+        "inflation",
+        "makroekonomi"
+      ]
+    },
+    {
+      "quote": "Jag tror att om du ska gå, jag tror att vi köpte Levan för ett bageri för 125 kronor i helgen, alltså limpa, det är ju helt... [...] Jag pratar om det som privilege misconception har vi kunnat leva i då. För att inflationen har varit så låg, och pengar har varit gratis, det har ju varit otroligt för svenskar fram tills för ett år sen ungefär.",
+      "summary": "Svenskar har levt i en privilegierad missuppfattning med låg inflation och gratis pengar. Nu vaknar man upp till stigande priser och kräver att räntorna inte höjs.",
+      "category": "wisdom",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "21:57",
+      "confidence": "high",
+      "tags": [
+        "inflation",
+        "svensk ekonomi",
+        "privilege"
+      ]
+    },
+    {
+      "quote": "Det vanligaste sättet att det skapas pengar är den så kallade bankmultiplikatorn. Det vill säga att den likviditeten som centralbankerna ökar eller stimulerar med den ska sen multipliceras med att bankerna lånar ut för fulla muggar och är riskpositiva.",
+      "summary": "Pengar skapas genom bankmultiplikatorn - centralbankens stimulans multipliceras när bankerna lånar ut pengar.",
+      "category": "lesson",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "17:02",
+      "confidence": "high",
+      "tags": [
+        "bankmultiplikatorn",
+        "pengaskapande",
+        "makroekonomi"
+      ]
+    },
+    {
+      "quote": "Jag tror att man ska köpa aktier när Fed vänder på cuttingen och börjar sänka. Så det tror jag är nån slags steg, eller jag menar, mitt första. Vänta, vänta. Och när de väl är där, eller när man känner sig väldigt säker på att de ska göra detta, då är det dags att ta på sig risktillgångar.",
+      "summary": "Tidpunkten att köpa aktier är när Fed vänder från räntehöjningar till räntesänkningar. Det är signalen att ta på sig risktillgångar.",
+      "category": "wisdom",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "25:26",
+      "confidence": "high",
+      "tags": [
+        "aktier",
+        "Fed",
+        "räntor",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Vi har en positiv lutning idag, är den ju inverterad, det är generellt sett dåligt för risktillgångar, det är dåligt för banker, det är därför vi får den här situationen. Bankerna vågar inte låna det ut, så det påverkar ju risksentimentet och det svänger ju då när Fed har ju den nyckeln i handarna att kunna skapa ett mer riskpositivt.",
+      "summary": "Inverterad yield-kurva är dåligt för risktillgångar och banker. När Fed skapar en positivt stigande yield-kurva skapas ett mer riskpositivt klimat.",
+      "category": "wisdom",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "26:43",
+      "confidence": "high",
+      "tags": [
+        "yield-kurva",
+        "räntor",
+        "risktillgångar"
+      ]
+    },
+    {
+      "quote": "Det är därför, en av anledningarna till varför kronan är svag. Så absolut. Men det är ju vad det är så att säga. Vi får hoppas att bankerna har tagit höjd för detta och att finansinspektionen och Riksbanken har sett till att de har reserver så att de klarar förluster på den.",
+      "summary": "Sverige har en av de mest uppenbara riskerna för en fastighetskrasch globalt (tillsammans med Kanada och Australien), vilket är en anledning till den svaga kronan.",
+      "category": "wisdom",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "32:57",
+      "confidence": "high",
+      "tags": [
+        "kronan",
+        "fastighetsmarknad",
+        "svensk ekonomi"
+      ]
+    },
+    {
+      "quote": "Deflation är ju det farligaste vi har i världen, om du heter Paul.",
+      "summary": "För en centralbankschef är deflation det farligaste som kan hända, vilket förklarar deras motvilja mot att låta ekonomin krascha.",
+      "category": "wisdom",
+      "speaker": "Christian Granquist",
+      "speaker_role": "guest",
+      "timestamp": "14:25",
+      "confidence": "high",
+      "tags": [
+        "deflation",
+        "centralbank",
+        "makroekonomi"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Guest",
+      "speaker_role": "guest",
+      "quote": "Och köper massa guld verkar det som det går.",
+      "context": "Gäst nämner att folk köper guld under bankrunkrisen. Uttrycket är en allmän kommentar om säkra hamnar.",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": "null"
+    }
+  ],
+  "market_sentiment": "cautious",
+  "summary": "Avsnittet diskuterar Silicon Valley Bank-krisen, räntor, inflation och investeringsstrategier. Christian Granquist rekommenderar att investera i guld som safe haven, undvika svenska kronor, och vänta på att Fed ska sänka räntan innan man köper aktier. Han ser potential i uran (Cameco) och naturgas. Anna Svahn diskuterar makroekonomisk utveckling. Båda gäster är negativa till svensk ekonomi och ser USA som mer attraktivt.",
+  "key_takeaways": [
+    "Guld rekommenderas som krockkudde med låg korrelation till aktier",
+    "Vänta på Fed pivot innan man köper aktier - då är det dags att ta risk",
+    "Undvik svenska kronor - det är en one way trade",
+    "Obligationer har bättre risk reward än aktier just nu",
+    "Sverige har högst risk för fastighetskrasch globalt",
+    "Cameco och uran är intressant på 10-års sikt",
+    "Deflation är det farligaste för centralbanker",
+    "Inflation är tillfällig (transitory) - ingen inflation är evig"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2023-03-15-7895.txt",
+  "transcript_word_count": 7154,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

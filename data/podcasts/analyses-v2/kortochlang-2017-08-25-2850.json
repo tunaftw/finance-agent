@@ -1,0 +1,149 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2017-08-25-2850",
+  "podcast_name": "Analysepodden från Dagens Industri",
+  "episode_title": null,
+  "episode_number": null,
+  "date": "2017-08-25",
+  "hosts": [
+    "Johanna Jansson",
+    "Magnus Dagell"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Räntor och centralbankspolitik",
+    "Elbilar och elektrifiering",
+    "Preferensaktier",
+    "Housingmarknaden"
+  ],
+  "stocks_discussed": [
+    "Tesla",
+    "Preferensaktier"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Magnus Dagell",
+      "speaker_role": "host",
+      "timestamp": "18:14",
+      "reasoning": "Tesla är extremt högt värderad med värdering på 2 500 miljarder för 100 000 levererade bilar. Det tar en väldigt stor risk att investera i Tesla, även om det är ett fantastiskt bolag. Högt värderat = för stor risk.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Inget köpläge i Tesla i alla fall. Nej det tycker jag inte. Det är för högt värderat helt enkelt. Man tar en för stor risk där.",
+      "sector": "Automotive",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Preferensaktier (kategorirekommendation)",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Magnus Dagell",
+      "speaker_role": "host",
+      "timestamp": "09:11",
+      "reasoning": "I en lågräntemiljö ger preferensaktier runt 6-7% i direktavkastning. Rekommenderar 10-15% av portföljen som komplement för att höja direktavkastningen. Fokusera på högkvalitativa fastighetsbolag - undvik mindre bolag med för höga risker. Exempel: SAS-preferensaktier (litet komplement), Balder-pref, Hemfosa-pref, Gloven-pref.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det finns ett flertal fastighetsbolag, jag tycker man ska fokusera på de högkvalitativa fastighetsbolagen som har prefar ut. Det finns mängder med mindre bolag och de tycker att man ska skala sig bortifrån. Det är riskerna alldeles för höga. Jag tycker man ska ha 10-15% i en välsprid prefportfölj.",
+      "sector": "Real Estate",
+      "market": "sweden",
+      "position_context": "10-15% av portföljen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Brittiska placeringar (kategorirekommendation)",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Magnus Dagell",
+      "speaker_role": "host",
+      "timestamp": "24:32",
+      "reasoning": "Storbritannien har väldigt svag tillväxt, pundet är svagt och tappar värde under brexitförhandlingar. Konsumentkrediten är svagast på länge. Räkna med fortsatt osäkerhet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man ska nog vara lite försiktig med exponering mot brittiska placeringar och pundet tills man vet mer om de här, hur de faktiskt ska ta sig igenom det här.",
+      "sector": null,
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [],
+  "insights": [
+    {
+      "quote": "Det ska gå långsamt, då tror jag att det kan funka. Och det är centralbankernas uppgift, de ska vara tråkiga, det är någon annan som får vara rolig istället.",
+      "summary": "Centralbanker ska genomföra policyförändringar långsamt och förutsägbart för att undvika marknadskocker.",
+      "category": "wisdom",
+      "speaker": "Magnus Dagell",
+      "speaker_role": "host",
+      "timestamp": "05:56",
+      "confidence": "high",
+      "tags": [
+        "centralbankspolitik",
+        "marknadskonsekvenser"
+      ]
+    },
+    {
+      "quote": "Jag är nog ändå inne på att vi är någonstans i början på slutet och en viktig anledning till det är att arbetsmarknaden nu faktiskt tar fart och det är den långsammaste, det är den laggande indikatorn i konjunkturen.",
+      "summary": "När arbetsmarknaden börjar ta fart är det en sen konjunkturindikator som signalerar att vi närmar oss slutet av en konjunkturuppgång.",
+      "category": "wisdom",
+      "speaker": "Magnus Dagell",
+      "speaker_role": "host",
+      "timestamp": "21:21",
+      "confidence": "medium",
+      "tags": [
+        "konjunkturcykler",
+        "arbetsmarknad"
+      ]
+    },
+    {
+      "quote": "Det kan verka väldigt basalt, att man byter en vanlig bil mot en elbil, men det får enorma konsekvenser tror jag för samhället, för många olika delar. Dels elnäten, oljepriset, det får säkerhetspolitiska och geopolitiska konsekvenser med tanke på oljepriset som väntas gå ner då.",
+      "summary": "Elektrifieringen får enorma samhällella konsekvenser bortom bilindustrin - elnät, oljepris, geopolitik.",
+      "category": "wisdom",
+      "speaker": "Magnus Dagell",
+      "speaker_role": "host",
+      "timestamp": "12:20",
+      "confidence": "high",
+      "tags": [
+        "elbilar",
+        "geopolitik",
+        "samhällspåverkan"
+      ]
+    },
+    {
+      "quote": "Studier i England har faktiskt gjort på det att 99% av alla resor görs mindre än 16 mil. Redan nu så bedömer många forskare att man klarar sig på elbilarna som finns.",
+      "summary": "Forskning visar att nuvarande elbilar täcker nästan alla dagliga transportbehov, range anxiety är överdriven.",
+      "category": "wisdom",
+      "speaker": "Johanna Jansson",
+      "speaker_role": "host",
+      "timestamp": "14:02",
+      "confidence": "medium",
+      "tags": [
+        "elbilar",
+        "transportbehov"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar makrotrender med fokus på centralbankernas balansräkningsavveckling, låga räntor och elektrifiering. Magnus rekommenderar preferensaktier (10-15% av portföljen) för direktavkastning, avråder från Tesla på grund av hög värdering, och föreslår försiktighet mot brittiska placeringar. Bostadsmarknaden uppvisar toppsignaler men en krasch är inte oundviklig. Marknadssentimentet är neutralt med försiktig optimism.",
+  "key_takeaways": [
+    "Preferensaktier ger 6-7% direktavkastning och bör utgöra 10-15% av portföljen i lågräntemiljö",
+    "Tesla är för högt värderad - avvakta med köp",
+    "Brittiska placeringar - avvakta tills brexit-läget är klarare",
+    "Elektrifieringen får enorma konsekvenser för samhället bortom bilindustrin",
+    "Bostadsmarknaden visar toppsignaler men en krasch är inte garanterad"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2017-08-25-2850.txt",
+  "transcript_word_count": 4584,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

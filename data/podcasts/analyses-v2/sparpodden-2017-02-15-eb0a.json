@@ -1,0 +1,418 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2017-02-15-eb0a",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Sparpodden ep. 171 - Nordnet Live och Allra",
+  "episode_number": 171,
+  "date": "2017-02-15",
+  "hosts": [
+    "Jocke Bornold"
+  ],
+  "guests": [
+    "Peter Benson"
+  ],
+  "main_topics": [
+    "Nordnet Live",
+    "Allra",
+    "Aktier"
+  ],
+  "stocks_discussed": [
+    "Telia",
+    "Hexagon",
+    "Paradox",
+    "ASSA ABLOY",
+    "KP Carema"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Telia",
+      "ticker": "TELIA-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Peter Benson",
+      "speaker_role": "guest",
+      "timestamp": "16:30",
+      "reasoning": "Byter från neutral till köp på 35 SEK. Motivering: fortsatt säker utdelning på 2 kr/aktie (ca 5.7% direktavkastning), givet att bolaget tjänar ~250 kr per aktie. Potentiella återbäringar från östeuropeiska tillgångar och Turkiet kan ge upp till 10 kr per aktie som extra uppsida. Skuldsättningen bedöms som hanterbar givet intäkterna från Norden.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi byter fot här nu faktiskt från någon slags neutral till köp på 35 spänn. Jag tror på det. Det är ingen dubbla det men som en liksom lite schyst.",
+      "sector": "Telekom",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Telia",
+      "ticker": "TELIA-B",
+      "timestamp_start": "16:09",
+      "timestamp_end": "17:57",
+      "word_count": 250,
+      "speakers": [
+        "Peter Benson",
+        "Jocke Bornold"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Peter Benson ändrar rekommendation från neutral till köp på Telia vid 35 kr. Han ser den säkra utdelningen på 2 kr som attraktiv och ser potentiella återbäringar från östeuropeiska tillgångar som extra uppsida.",
+      "quotes": [
+        {
+          "speaker": "Peter Benson",
+          "text": "Vi byter fot här nu faktiskt från någon slags neutral till köp på 35 spänn. Jag tror på det.",
+          "timestamp": "16:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Och allt man kan få hem från den här östeuropa eländet och Turkiet och allt det är bara plus. Så det är extra pengar. Och det kan vara så mycket som 10 kronor per aktie.",
+          "timestamp": "16:40",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Och fortsatt en direktavkastning som man kan fortsätta leverera framåt. Ja, även om man är ganska negativt i mycket så kommer de tjäna en 250 kanske per aktie. Och givet att du behöver investera sådär super mycket så kan du dela ut två spänn. Så den två kronan är ganska säker.",
+          "timestamp": "17:12",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "5.7%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Säker utdelning på 2 kr per aktie",
+          "Potentiella återbäringar från Östeuropa/Turket på upp till 10 kr",
+          "Hanterbar skuldsättning"
+        ],
+        "bear_case": [
+          "Tidigare halvnegativ inställning"
+        ],
+        "catalysts": [
+          "Återbäringar från östeuropeiska tillgångar"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Hexagon",
+      "ticker": "HEXA-B",
+      "timestamp_start": "13:01",
+      "timestamp_end": "14:37",
+      "word_count": 280,
+      "speakers": [
+        "Peter Benson",
+        "Jocke Bornold"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Peter Benson diskuterar Hexagon som han analyserade i somras. Då var slutsatsen att det är dyrt med utmaningar men ett fint bolag. Nu är han mer negativ eftersom Melker Schörling blivit sjuk och Ola Rollén har fokusproblem pga åtalet.",
+      "quotes": [
+        {
+          "speaker": "Peter Benson",
+          "text": "Jag skrev en analys på Hexagon i somras. Då vände vi på det där och så kom vi fram till att det är dyrt, de har massa utmaningar men det är ett fint bolag.",
+          "timestamp": "13:36",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Det som vält övergjorde att vi inte satte sälj på det var att det finns ju ändå Ola Rolén och Melker Sjörling som satsar järnet på det här bolaget.",
+          "timestamp": "13:48",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Och Ola, han är ju samma människa som förut, men han är ju superupptagen med annat. Dels sina privata investeringar som man kan ha åsikter om. Vad det gäller fokus och sånt. Och sen det här åtalet som också kommer ta jäkligt mycket tid och kraft från honom.",
+          "timestamp": "14:10",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Och värderingen är ungefär densamma. Så vi tycker nog att det ser lite svajigt ut kort sagt.",
+          "timestamp": "14:25",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Fint bolag med starka ägare"
+        ],
+        "bear_case": [
+          "Hög värdering",
+          "Ola Rollén har fokusproblem pga åtalet",
+          "Melker Schörling lämnar pga sjukdom"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Ola Rollén minskade fokus"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Paradox Interactive",
+      "ticker": "PDX",
+      "timestamp_start": "18:02",
+      "timestamp_end": "20:52",
+      "word_count": 350,
+      "speakers": [
+        "Peter Benson",
+        "Jocke Bornold"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Paradox har ett fint kvartal med makalös tillväxt och lönsamhet. Peter äger aktier indirekt via Spiltan men tycker att bolaget är jättedyrt jämfört med andra spelutvecklare.",
+      "quotes": [
+        {
+          "speaker": "Jocke Bornold",
+          "text": "Men det var ett väldigt fint kvartal och de har ju en makalös tillväxttakt och lönsamhet. Stor kassa, vi får se, de kommer säkert köpa bolag, skulle jag tro.",
+          "timestamp": "18:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Jag äger faktiskt lite Paradox aktier indirekt via Spiltan. Det är helt och hållet mot alla mina investeringsprinciper att köpa på känslor och vad jag tycker om människor.",
+          "timestamp": "19:45",
+          "context": "other"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Vi är fulla av lovord men oj vad dyrt det är. Jämfört med andra spelbolag så är det jättedyrt.",
+          "timestamp": "20:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Så som det står och går idag så ser det dyrt ut. Man behöver en ny kanin i hatten.",
+          "timestamp": "20:42",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Makalös tillväxttakt och lönsamhet",
+          "Stor kassa - potentiella förvärv"
+        ],
+        "bear_case": [
+          "Jättedyrt jämfört med andra spelbolag",
+          "Notoriskt svårt att värdera",
+          "Behöver nytt spännande innehåll"
+        ],
+        "catalysts": [
+          "Nya spel/uppdateringar",
+          "Förvärv"
+        ],
+        "risks": [
+          "Hög värdering"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "ASSA ABLOY",
+      "ticker": "ASSA-B",
+      "timestamp_start": "21:09",
+      "timestamp_end": "24:29",
+      "word_count": 380,
+      "speakers": [
+        "Peter Benson",
+        "Jocke Bornold"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Discussion om ASSA ABLOY och Johan Molin. Peter tycker bolaget är superkvalitet med fantastisk tillväxt men kanske dyrt. Ser potentiella hot från digitala låslösningar.",
+      "quotes": [
+        {
+          "speaker": "Jocke Bornold",
+          "text": "Assa-låset är jättestark i Sverige, Abloy-låsen är superstark i Finland. Och så har du massa andra varumärken som har köpt ihop, som är superstarka.",
+          "timestamp": "22:08",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Det är lite lustigt att man har ett snarlikt börsvärde och byggt upp det från väldigt lite på de 15-20-åren. Vi är väl också lite vackra mellan det neutralt eller sälj på de där.",
+          "timestamp": "22:49",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Jag tror kanske det är lite dyrt. Det är hög värdering.",
+          "timestamp": "23:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Vem litar vi på om tio år? För det är där betalningsviljan kommer sitta.",
+          "timestamp": "24:37",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Superkvalitet",
+          "Fantastisk tillväxt över 15-20 år",
+          "Starka varumärkespositioner"
+        ],
+        "bear_case": [
+          "Hög värdering",
+          "Konkurrens från digitala lås (Apple/Google)",
+          "Hot från fingeravtryck och app-lösningar"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Digitalisering av lås kan minska betalningsvilja"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "KP Carema",
+      "ticker": "KPIF",
+      "timestamp_start": "26:20",
+      "timestamp_end": "29:20",
+      "word_count": 350,
+      "speakers": [
+        "Peter Benson",
+        "Jocke Bornold"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Peter Benson diskuterar KP Carema i välfärdssektorn. De driver komplex sjukhusvård med lägre marginaler (3-4%) jämfört med Attendo som tjänar 10% på äldreboenden.",
+      "quotes": [
+        {
+          "speaker": "Peter Benson",
+          "text": "vi blir alltid sjuka och det är lite synd om KP jag tycker jag att de driver om vi tar ett tjänt exempel, St Görans sjukhus till exempel, i Stockholm här som är superavancerat och det är akut och det är komplext.",
+          "timestamp": "26:34",
+          "context": "other"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Det tjänar de sketna 3-4 procent på. Medan Attendo, inget ont över dem och jag och Axel där, de tjänar 10 procent på att ta hand om äldre.",
+          "timestamp": "26:54",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Det som är svårt att göra känner man lite pengar på, det som är lite lättare att göra känner man mer pengar på.",
+          "timestamp": "27:15",
+          "context": "other"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Jag vill tro på kopio men jag är inte så säker.",
+          "timestamp": "28:44",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "3-4%",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Köper demografisk trend"
+        ],
+        "bear_case": [
+          "Låga marginaler (3-4%) på sjukhus",
+          "Beställare pressar priser",
+          "Svårt att ha samma marginaler på komplex sjukhusvård"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Pressade marginaler",
+          "Hårdare prisförhandlingar"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Att de här pengarna, de har skrapats ihop och samlats ihop genom blod, svett och tårar. Det är människor som har jobbat ihop de här pengarna. Det ska man ha en jäkligt stor respekt för.",
+      "summary": "Pensionspengar är resultatet av människors hårda arbete och ska förvaltas med stor respekt.",
+      "category": "wisdom",
+      "speaker": "Peter Benson",
+      "speaker_role": "guest",
+      "timestamp": "07:40",
+      "confidence": "high",
+      "tags": [
+        "pension",
+        "respekt",
+        "ansvar"
+      ]
+    },
+    {
+      "quote": "Det som är svårt att göra känner man lite pengar på, det som är lite lättare att göra känner man mer pengar på.",
+      "summary": "Marknaden premierar ofta enklare verksamheter med högre marginaler än komplexa, kritiska tjänster.",
+      "category": "wisdom",
+      "speaker": "Peter Benson",
+      "speaker_role": "guest",
+      "timestamp": "27:15",
+      "confidence": "high",
+      "tags": [
+        "marginaler",
+        "komplexitet",
+        "marknad"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på Nordnet Live-evenemanget och Allra-skandalen. Telia uppgraderas till köp på 35 SEK på grund av säker utdelning. Hexagon ses som svajigt pga Ola Rollén. Paradox har makalös tillväxt men är dyrt. ASSA ABLOY är superkvalitet men potentiellt hotat av digitala lås. KP Carema pressas på marginaler.",
+  "key_takeaways": [
+    "Telia uppgraderas till köp på 35 SEK",
+    "Allra-kritik för bristande respekt för kunders pengar",
+    "Hexagon anses svajigt pga Ola Rollén situation",
+    "Paradox har makalös tillväxt men är dyrt",
+    "KP Carema har låga marginaler på sjukhusvård"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2017-02-15-eb0a.txt",
+  "transcript_word_count": 5285,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

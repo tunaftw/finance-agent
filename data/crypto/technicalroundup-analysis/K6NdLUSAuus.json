@@ -1,0 +1,106 @@
+{
+  "source_id": "K6NdLUSAuus",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-10-16",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "BTC experienced massive volatility due to fake ETF news, spiking to 30k then crashing. The key level is 28k on both weekly and daily timeframes.",
+      "quote": "bullish if it can hold this strength and you know reclaim these high time frame levels in spite of it being fake news and it's bearish if it loses the high time frame level",
+      "price_levels": [
+        "$28,000",
+        "$29,000-$30,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH underperformed BTC, came close to but didn't reclaim key weekly level at 1514. Structurally weak compared to BTC.",
+      "quote": "structurally hasn't really doesn't really matter or hasn't made as much progress as BTC I would have preferred if it hit this either this well yes this range low at 1514 that would have been nice",
+      "price_levels": [
+        "$1,514"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum to Bitcoin ratio",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH/BTC ratio got murdered on the fake ETF news move, still looks weak, at range low at 0.057.",
+      "quote": "ebtc still looks weak especially if the weekly close is absent above uh that range low",
+      "price_levels": [
+        "0.057"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ALT",
+      "asset_name": "Altcoins",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Altcoins not in an interesting spot after the price dislocation. Trading conditions are choppy and unfavorable.",
+      "quote": "I don't think altcoins are in a particularly interesting spot again there's always like a churn chop period after these sorts of dislocations and distortions in price",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$28,000",
+        "$29,000-$30,000"
+      ],
+      "ETH": [
+        "$1,514"
+      ]
+    }
+  },
+  "key_insights": [
+    "Fake ETF news caused massive BTC volatility with open interest dropping 15% in 15-20 minutes from $6.4B to $5.4B",
+    "28k is the critical bull/bear line on both weekly and daily timeframes for BTC",
+    "ETH underperformed BTC significantly, with ETH/BTC ratio remaining weak",
+    "BTC dominance continues as narrative strength remains with Bitcoin over altcoins",
+    "Trading conditions are unfavorable due to empty order books and thin liquidity"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$28,000 (on daily close)",
+      "target": "$29,000-$30,000",
+      "stop": "below $28,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "$29,000-$30,000 (if market backfills the wick into daily resistance)",
+      "target": "$28,000 and below",
+      "stop": "above recent highs",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "This episode analyzes the aftermath of a fake Bitcoin ETF news event that caused massive volatility in BTC, spiking to 30k before crashing. The key takeaway is that 28k is the critical level to watch on both weekly and daily timeframes - holding above it would be bullish while losing it would signal a bearish scenario. ETH underperformed significantly with ETH/BTC remaining weak. Overall, the market is choppy with thin liquidity making trading conditions unfavorable. The hosts recommend waiting for high timeframe candle closes and not extrapolating too much from the fake news reaction.",
+  "transcript_word_count": 7468,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T23:03:36.508042"
+}

@@ -1,0 +1,335 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2021-08-25-98e7",
+  "podcast_name": "Sparpodden",
+  "episode_title": "\"Depån är inte pengar, det är poäng\" - Petter Hedborg - Sparpodden 407",
+  "episode_number": 407,
+  "date": "2021-08-25",
+  "hosts": [
+    "Interviewer"
+  ],
+  "guests": [
+    "Petter Hedborg"
+  ],
+  "main_topics": [
+    "Koncentrerad portfölj",
+    "Investeringsstrategi",
+    "Ägardataanalys",
+    "Värdeinvestering",
+    "Söder Sportfiske IPO"
+  ],
+  "stocks_discussed": [
+    "Fortnox",
+    "Söder Sportfiske"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FORN-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[22:22]",
+      "reasoning": "Historiskt köp efter misslyckat Wismar-uppköpsbud. Aktien sjönk 30-40% när fonder tvingades sälja pga budkursen. Hedborg rekommenderade aggressivt köp vid denna forced selling-situation baserat på grundläggande bolagsförståelse. Katalysator: Forced selling av fonder, missat uppköpsbud skapar köpläge. Risk: Fortsatt negativt sentiment.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Där har du ett utmärkt läge att kunna det bolaget i grunden. Där återigen vet du att nu är det bara att köpa för allt vad tygen håller.",
+      "sector": "Software/SaaS",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "30-40% downside från budkurs",
+      "catalyst_timing": "Efter Wismar-budets förfall"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FORN-B",
+      "timestamp_start": "[22:22]",
+      "timestamp_end": "[23:42]",
+      "word_count": 200,
+      "speakers": [
+        "Petter Hedborg",
+        "Interviewer"
+      ],
+      "primary_speaker": "Petter Hedborg",
+      "discussion_summary": "Hedborg beskriver ett historiskt investeringscase i Fortnox där han köpte aggressivt efter att Wismar-uppköpsbudet föll. Aktien sjönk 30-40% när fonder tvingades sälja eftersom kursen stod under budkursen och de var bundna av sina mandat. Detta skapade ett utmärkt köpläge för en investerare som förstod bolaget i grunden.",
+      "quotes": [
+        {
+          "speaker": "Petter Hedborg",
+          "text": "En investering som jag gjorde för många år sedan som jag kan prata om, det var typiskt sådant där, att det är bra att ha grundkoll med Fortnox. När det var ett bud på Fortnox, Wismar försökte köpa upp budet föl, och då hade massa sådana arbfonder som ägde för att kursen stod ett par spänn under budkursen.",
+          "timestamp": "[22:22]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Petter Hedborg",
+          "text": "Där har du ett utmärkt läge att kunna det bolaget i grunden. Där återigen vet du att nu är det bara att köpa för allt vad tygen håller.",
+          "timestamp": "[22:22]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Bolagsförståelse",
+          "Forced selling skapar köpläge",
+          "Missat uppköpsbud"
+        ],
+        "bear_case": [
+          "Negativt sentiment",
+          "Fortsatta utflöden från fonder"
+        ],
+        "catalysts": [
+          "Forced selling från fonder slutförs"
+        ],
+        "risks": [
+          "Marknadssentiment",
+          "Upplösningsavtal"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Söder Sportfiske",
+      "ticker": null,
+      "timestamp_start": "[01:02:57]",
+      "timestamp_end": "[01:07:09]",
+      "word_count": 800,
+      "speakers": [
+        "Petter Hedborg",
+        "Interviewer"
+      ],
+      "primary_speaker": "Petter Hedborg",
+      "discussion_summary": "Hedborg är storägare och styrelseledamot i Söder Sportfiske, ett e-handelsbolag för sportfiske som han tog till börsen. Han investerade för drygt tre år sedan tillsammans med Right Ventures. E-handeln utgör 83% av omsättningen 2020, med låga returgrader på 1,5% jämfört med retail 40-50%. Bolaget är renodlat fiske och växer internationellt. Hedborg säljer inte i IPO och har lock-up i ett år.",
+      "quotes": [
+        {
+          "speaker": "Petter Hedborg",
+          "text": "Där får jag faktiskt ett publikt innehav på börsen som man kommer att veta att jag äger, annars så pratar jag som sagt inte så mycket om portföljer.",
+          "timestamp": "[01:02:57]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Petter Hedborg",
+          "text": "E-handeln är 83 procent av omsättningen 2020.",
+          "timestamp": "[01:04:30]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Petter Hedborg",
+          "text": "Det är extremt nysdrivet, extremt sortimentstyrt och södde sportfiske är liksom ett varumärke i sig.",
+          "timestamp": "[01:04:35]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Petter Hedborg",
+          "text": "väldigt attraktivt med returgrader på 1,5 procent versus retail som har 40-50 i vissa fall.",
+          "timestamp": "[01:04:47]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Petter Hedborg",
+          "text": "Jag säljer inga aktier i IPO och har lockat i ett år. Och vi har ganska stora ambitioner för det här bolaget.",
+          "timestamp": "[01:06:50]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Returgrad: 1,5%",
+          "E-handel: 83% av omsättning 2020",
+          "Egna produkter: 6% av omsättning",
+          "35 000 artiklar i lager"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Specialistkunskap krävs i nischad e-handel",
+          "Låga returgrader 1,5% vs retail 40-50%",
+          "Stort sortiment 35 000 artiklar",
+          "Varumärkesbygge via YouTube och influencer-nätverk",
+          "Internationell expansion"
+        ],
+        "bear_case": [
+          "Nischad marknad",
+          "Konkurrens risk"
+        ],
+        "catalysts": [
+          "IPO",
+          "Internationell expansion",
+          "Digital tillväxt"
+        ],
+        "risks": [
+          "Marknadsmognad",
+          "Konkurrens"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Min strategi är att ha en väldigt koncentrerad portfölj. Det är så jag väljer att ta risk. Jag har mellan fyra och åtta innehav, ofta fem, sex innehav som jag lägger fruktansvärt mycket tid på.",
+      "summary": "Koncentrerad portfölj på 4-8 innehav med djup analys.",
+      "category": "philosophy",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[15:22]",
+      "confidence": "high",
+      "tags": [
+        "koncentrerad portfölj",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Depån är inte pengar, det är poäng",
+      "summary": "Investerande som spelet att förstå bolag och förbättra.",
+      "category": "philosophy",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[01:00:18]",
+      "confidence": "high",
+      "tags": [
+        "investeringsfilosofi",
+        "learning"
+      ]
+    },
+    {
+      "quote": "Vad en aktie kostar spelar egentligen bara roll den dagen du ska sälja.",
+      "summary": "Fokusera på bolagsprestation inte aktiens prestation.",
+      "category": "wisdom",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[47:30]",
+      "confidence": "high",
+      "tags": [
+        "tidsintervall",
+        "fokus"
+      ]
+    },
+    {
+      "quote": "Börsen är cyklisk. Det kommer att gå upp och det kommer att gå ner.",
+      "summary": "Acceptera marknadscykeln och fluktuationer.",
+      "category": "wisdom",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[47:30]",
+      "confidence": "high",
+      "tags": [
+        "marknadscykel",
+        "psykologi"
+      ]
+    },
+    {
+      "quote": "Hade jag köpt den här aktien idag? Det spelar ingen roll vad det står att du har för genomsnittligt anskaffningsvärde.",
+      "summary": "Bedöm investeringen utifrån nuvarande kurs och framtid, inte historik.",
+      "category": "wisdom",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[20:50]",
+      "confidence": "high",
+      "tags": [
+        "beslutsfattande",
+        "historik"
+      ]
+    },
+    {
+      "quote": "En nyckelgrej som jag tycker är förvånansvärt få och ändå kanske verkar ha förstått, är spreaden mellan bruttomarginal och ebitmarginal.",
+      "summary": "Leta efter bolag med hög bruttomarginal men låg rörelsemarginal för marginalexpansion.",
+      "category": "wisdom",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[27:10]",
+      "confidence": "high",
+      "tags": [
+        "marginalexpansion",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Historiskt har jag ofta suttit med kanske 10-20% kassa för jag gillar att vara opportunistisk när det dyker upp möjligheter.",
+      "summary": "Behåll 10-20% kassa för opportunistiska köp.",
+      "category": "wisdom",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[54:41]",
+      "confidence": "high",
+      "tags": [
+        "kassa",
+        "timing"
+      ]
+    },
+    {
+      "quote": "En av de mest intressanta grejerna är när du har en aktie som har gått brutalt starkt. Och så har du en företagsledning eller en styrelse som äger massa aktier och så har ingen sålt.",
+      "summary": "Ledning som inte säljer trots kursuppgång är stark signal.",
+      "category": "wisdom",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[45:18]",
+      "confidence": "high",
+      "tags": [
+        "insyn",
+        "signal"
+      ]
+    },
+    {
+      "quote": "Det bästa investeringarna är inte alltid de casen som står med högst procentavkastning, utan det är de innehaven där du klarar av att syna en så stor del av den här resan som möjligt.",
+      "summary": "Välj case där du har conviction att hålla genom volatilitet.",
+      "category": "philosophy",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[18:24]",
+      "confidence": "high",
+      "tags": [
+        "conviction",
+        "hållning"
+      ]
+    },
+    {
+      "quote": "Små bolag, lönsamma bolag, under 5 miljarder i börsvärde.",
+      "summary": "Fokusera på små, lönsamma bolag för underanalyserade möjligheter.",
+      "category": "philosophy",
+      "speaker": "Petter Hedborg",
+      "speaker_role": "guest",
+      "timestamp": "[25:14]",
+      "confidence": "high",
+      "tags": [
+        "small caps",
+        "värdering"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Petter Hedborg delar sin investeringsfilosofi som baseras på koncentrerad portfölj (4-8 innehav), djup analys och conviction. Han fokuserar på små, lönsamma bolag under 5 miljoner SEK med potential för marginalexpansion. Han diskuterar historiska case som Fortnox där han köpte efter forced selling, och sitt nuvarande innehav i Söder Sportfiske som han tar till börsen. Han betonar vikten av att förstå affärsmodeller, titta på ägardata och hålla kassa för opportunistiska köp.",
+  "key_takeaways": [
+    "Koncentrerad portfölj på 4-8 innehav med djup analys",
+    "Fokusera på små, lönsamma bolag under 5 miljoner SEK",
+    "Leta efter marginalexpansion genom hög bruttomarginal men låg rörelsemarginal",
+    "Använd ägardata för att identifiera forced selling och insynsignaler",
+    "Behåll 10-20% kassa för opportunistiska köp",
+    "Conviction är nyckeln - köp bara case du förstår och kan hålla genom volatilitet"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2021-08-25-98e7.txt",
+  "transcript_word_count": 19600,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

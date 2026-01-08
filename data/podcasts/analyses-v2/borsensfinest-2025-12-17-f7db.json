@@ -1,0 +1,845 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borsensfinest-2025-12-17-f7db",
+  "podcast_name": "Börsens Finest",
+  "episode_title": "Avsnitt 31 - Noll dubblare",
+  "episode_number": 31,
+  "date": "2025-12-17",
+  "hosts": [
+    "John",
+    "Jack"
+  ],
+  "guests": [
+    "Peter Hedlund"
+  ],
+  "main_topics": [
+    "Poker och aktier",
+    "Banker",
+    "Truecaller",
+    "Gamingbolag (Coffee Stain, Embracer)",
+    "Lågprisvaruhus",
+    "Investmentbolag"
+  ],
+  "stocks_discussed": [
+    "Firefly",
+    "Investor",
+    "Novo Nordisk",
+    "Truecaller",
+    "Hemnet",
+    "Coffee Stain",
+    "Ashmodi",
+    "Embracer",
+    "Duni",
+    "Europris",
+    "Överskottsbolaget",
+    "Tokmanni",
+    "Lundbergs",
+    "Sectra",
+    "John Mattsson",
+    "Loomis",
+    "Kambi",
+    "Evolution"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Firefly",
+      "ticker": "FIRE",
+      "action": "sell",
+      "confidence": "low",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "02:33",
+      "reasoning": "Cykliskt bolag, ganska dyrt. Vid EV/EBIT 20. Sista rapporten var ingen kioskvältare. Aktien är nu 50% bättre än index sedan säljrekommendationen 2023.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är ju cykliskt bolag. Ganska dyrt. Sen går man in här vid tuffare tider, så nu är det väl ev-20. Sista rapporten var ingen kioskvältare direkt.",
+      "sector": "Teknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Investor",
+      "ticker": "INVE-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "09:22",
+      "reasoning": "Om han bara fick köpa en enda aktie så skulle han välja Investor. Anges utan detaljerad motivering.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Investor.",
+      "sector": "Investmentbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "17:36",
+      "reasoning": "Pressad kurs men enorm marknad för viktnedgång och diabetes. Nya applikationsområden som hjärt- och kärlsjukdomar. Marknaden kan växa enormt. Värdering 10x. Står den still härifrån så är det okej.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nu tycker jag att mer köp än sälj. Den här marknaden kommer ju växa enormt, och det är väl tio gånger värderingen på Novo nu, så att står det still härifrån så är det okej faktiskt.",
+      "sector": "Läkemedel",
+      "market": "sweden",
+      "position_context": "Har fått i knäet",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Truecaller",
+      "ticker": "TRUE",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "27:41",
+      "reasoning": "Förtroendeproblem med ledning, marknad i Indien med värdering som affiliate-marknaden. Fair value på nuvarande nivåer, kan gå ner lite till. Möjlig turnaround likt Sinch då mycket dåligt redan hänt. Stock har fallit från 80 till 18 SEK.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ur gruppens förtroende, en marknad som ligger i Indien, och att man kanske ska ha värderingar som affiliate marknaden har. Och då är det ju typ fair value här, om till och med att det kan ner lite till.",
+      "sector": "Teknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Nedsidan väldigt stor fortfarande",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hemnet",
+      "ticker": "HMNET",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "30:21",
+      "reasoning": "Förtroendeproblem för ledningen som säljer ut aktier, bolaget återköper dyra aktier, kursen ner 50%. Bolag lever på varumärke som eroderas. Höjda priser gör kunder mindre aktiva. AI-hot på lång sikt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag är fortfarande negativ på Hemnet. Det är så att Bolig har ju ett större utbud. Hemnet lever egentligen bara på sitt varumärke och det eroderas egentligen dag för dag.",
+      "sector": "Fastighet",
+      "market": "sweden",
+      "position_context": "Sade sälj på 150 SEK, upprepade på 350 SEK",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Coffee Stain",
+      "ticker": "COFF",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "40:42",
+      "reasoning": "Avknoppad från Embracer. Handlas 21.50-22 SEK mot förväntat 25 SEK. Kommande kvartal blir tufft pga valutaförluster (dollar ner 15%) och inget stort spelsläpp. EV/EBIT 20. Fair value kan finnas lägre, men säljflöden från fonder kan skapa köpläge kort sikt.",
+      "price_target": "25 (initial expectation)",
+      "time_horizon": "Kort sikt för trade",
+      "quote": "När den kom på 25 där, för de har ju nu ett kvartal som kommer att vara ruggigt tufft. Och jag tror att de var nästan ev-ebit 20 i värderingen när jag fakturade in den här dåliga nästa kvartal.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Valutarisk",
+      "catalyst_timing": "Rapport nästa kvartal"
+    },
+    {
+      "stock_name": "Ashmodi",
+      "ticker": "AMO-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "46:31",
+      "reasoning": "Brädspel, sällskapsspel. Handlas runt 100-105 SEK. Värdering EV/EBIT 12. Växer 3-5% (mest prishöjningar). Stabilt cash flow.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vad är det för värdering på Ashmodi? 12 gånger är det webbet ungefär. Den har vuxit 3-5 procent tidigare, väntas växa ungefär i samma takt framöver.",
+      "sector": "Spel/Leksaker",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Embracer",
+      "ticker": "EMBRAC-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "47:18",
+      "reasoning": "Too hard pile. Svårt att analysera med stora AAA-spel, rättigheter som Sagan om Ringen, stora budgetar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Too hard pile, det måste ju vara oerhört svårt att vara enligt mig.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Duni",
+      "ticker": "DUNI",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "52:00",
+      "reasoning": "Tråkigt och stabilt. Växer 3% organiskt. Har utdelning på 5 SEK, kan höjas i år. P/E ca 11. Rörelsemarginal 7,5%. Låg dollar och lägre massapriser hjälper. Tyskland sänker restaurangmoms. Inga kursdubblare men stabilt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är ett tråkbolag, det ska vara tråkigt stabilt. De har vuxit 3% organiskt, och på och med att man växer som ekonomin. Det här är ingen kursdubblare, utan det ska bara vara stabilt.",
+      "sector": "Konsumtionsvaror",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Kommer inte växa jättemycket",
+      "catalyst_timing": "Tyskland sänker restaurangmoms"
+    },
+    {
+      "stock_name": "Europris",
+      "ticker": "EPR",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "52:58",
+      "reasoning": "Norskt lågprisvaruhus. Växte tvåsiffrigt sista kvartalet. Köper 30% i dollar. Svagare dollar höjer marginalen framåt. Växt 6% like-for-like tio års tid. EV/EBIT 11-12. ÖB-belastning på ca 100 MSEK. Mål 110 SEK, handlas 90-92 SEK.",
+      "price_target": "110",
+      "time_horizon": null,
+      "quote": "Europris är ju stabilt på egna grunder. ÖB, ja, kanske inte jättebra. De vill ju få upp marginalen till 5%. Jag tror att kanske de når halvvägs eller någonting. Säg att den ger 8 spänn per aktie och europris på egna meriter ska väl upp till 100 lappar ungefär.",
+      "sector": "Detaljhandel",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": "Låg nedsida",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tokmanni",
+      "ticker": "TOKMNV",
+      "action": "avoid",
+      "confidence": "low",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "57:06",
+      "reasoning": "Ingen bevakning längre. Tufft i Finland, köpte Dollar Store dyrt. Expansion till Danmark blev fiasco. Risk för vinstvarning. Har guidat ner tidigare och slopat utdelningen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ingen bevakning på Tokmannis numera, men jag hade köpt förut på Börsveckan och sen klev jag av den när de köpte dollar store. Jag tror att man kanske ska vara försiktig för vinstvarni i Tokmannis nu.",
+      "sector": "Detaljhandel",
+      "market": "finland",
+      "position_context": "Köpte tidigare, sade av efter Dollar Store-förvärv",
+      "downside_note": "Risk för vinstvarning",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Lundbergs",
+      "ticker": "LUND-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "57:23",
+      "reasoning": "Dubbelsök rabatt. Rabatt på 30% av fastighetsvärdet (20% av substansen pga belåning). Innehav: Industrivärden, Hufvudstaden, Husqvarna, Holmen, Handelsbanken. Stabil, låg risk. Inte en dubblare men solid case.",
+      "price_target": null,
+      "time_horizon": "7 år för dubbling",
+      "quote": "Det är helt enkelt dubbelsök rabatt i Lundbergs. Det är det största caset där. Rabatten är alltid substansen, det är ju på det egna kapitalet.",
+      "sector": "Investmentbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sectra",
+      "ticker": "SECT-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "01:00:23",
+      "reasoning": "Från 330 ner till 260 SEK. P/E 100. Bildbehandling och IT-lösningar för sjukhus, litet cybersäkerhetsben. Ställer om från licensförsäljning till SaaS. 6-7% återkommande intäkter nu. Skeptisk på nuvarande P/E men om man tror på tesen om högre betalt per undersökning i molnet kan det bli bra. Dollarmotvinn påverkar negativt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så därför är jag lite skeptisk. Men jag har också haft lite kontakt med några ägare i bolaget som har förklarat caset. Om man tror på deras tes så kan jag ändå se att det här kan bli bra.",
+      "sector": "IT/Healthcare",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "P/E 100 är dyrt",
+      "catalyst_timing": "Ökad molnmigration"
+    },
+    {
+      "stock_name": "John Mattsson",
+      "ticker": "JOMA",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "01:04:45",
+      "reasoning": "Högkvalitativa bostadsfastigheter i Stockholm. Rabatt på drygt 30% mot substans. Låg vakansgrad på 1,5%. Vid avflyttning kan renovering ge 30-50% hyreshöjning. Avkastning 3,5% på beståndet, 5% med rabatt. Bör göra återköp.",
+      "price_target": "68 (nuvarande)",
+      "time_horizon": null,
+      "quote": "Så är det ju, men de värderas redan på en rabatt på drygt 30 procent. Så att du avkastar ju 3,5 procent ungefär beståndet men tar du med rabatten får du ju 5 procent.",
+      "sector": "Fastighet",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Högkvalitativa bostäder ger låg nedsida",
+      "catalyst_timing": "Naturlig avflyttning vid renovering"
+    },
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOM-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "01:06:18",
+      "reasoning": "Billigt, tråkigt. Överdriven tro på kontantdöden. Peter äger bolaget.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Loomis, ytterligare samma grej, billigt, tråkigt, kanske lite överdriven tro på den här kontantdöden.",
+      "sector": "Finansiella tjänster",
+      "market": "sweden",
+      "position_context": "Äger",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kambi",
+      "ticker": "KAMBI",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "01:06:18",
+      "reasoning": "Peter äger men traderar runt den. Bra produkt, har börjat sälja moduler i budet. Förlorat stora kunder tidigare men inte på sista tiden. Teknik, nya kunder, ljusare utsikter. Orolig om det är plus eller minus pga trading.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men det fina är också att ingen bryr sig om jag är plus eller minus på en aktie. Det har ingenting att göra med hur den kommer att gå.",
+      "sector": "Gaming/Betting",
+      "market": "sweden",
+      "position_context": "Äger men traderar",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Evolution",
+      "ticker": "EVO",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "01:09:02",
+      "reasoning": "Peter ägde den länge. Fantastisk investering under pandemin. Anges utan detaljerad analys.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag hade Evolution länge. Det har varit en fantastisk investering, de svenska bettingbolagen.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": "Ägde länge",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Truecaller",
+      "ticker": "TRUE",
+      "timestamp_start": "23:29",
+      "timestamp_end": "29:50",
+      "word_count": 800,
+      "speakers": [
+        "John",
+        "Jack",
+        "Peter Hedlund"
+      ],
+      "primary_speaker": "Peter Hedlund",
+      "discussion_summary": "Truecaller har haft en vinstvarning efter en usel period, med kursfall från 80 till 18 SEK. Ledningen har varit fientlig mot blankare och gjort återköp på dyra nivåer. Carnegie sänkte riktkursen från 60 till 40 men har haft fel hela tiden. Diskussionen handlar om om det är köpläge på dessa nivåer eller om förtroendeproblem gör det för riskabelt.",
+      "quotes": [
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Så vad gäller Truecaller. Ett, hur de jagat och hetsat kring blankarna. Och liksom känt sig kränkta kring det när blankarna har haft helt rätt.",
+          "timestamp": "24:05",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jack",
+          "text": "När bolagsledningen börjar hetsa mot blankarna och leta rapporter och försöka kommentera, då är ju blankarna alltid rätt.",
+          "timestamp": "24:09",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Ur gruppens förtroende, en marknad som ligger i Indien, och att man kanske ska ha värderingar som affiliate marknaden har. Och då är det ju typ fair value här, om till och med att det kan ner lite till.",
+          "timestamp": "27:41",
+          "context": "valuation"
+        },
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Men jag tycker ändå att det som talar för att man ska göra ett köp, det är ju det här att det kan bli lite som sinch. Nu har så mycket sjukt dåligt hänt för dem, att man får på något sätt göra om en ny start, och att det går nästan bara att överraska på uppsidan.",
+          "timestamp": "28:18",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Market cap: 5 miljarder SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Möjlighet till turnaround likt Sinch",
+          "Mycket dåligt redan hänt - kan bara överraska på uppsidan",
+          "Affiliate-marknadsvärdering redan inprisat"
+        ],
+        "bear_case": [
+          "Förtroendeproblem med ledning",
+          "Aggressiva återköp på dyra nivåer",
+          "Marknad i Indien med osäkerhet",
+          "Fondägare kan tappa förtroende och sälja"
+        ],
+        "catalysts": [
+          "Ny ledning/strategi",
+          "Förbättrat förtroende",
+          "Överraskande positiv rapport"
+        ],
+        "risks": [
+          "Fortsatt förtroendefall",
+          "Fondutflöden",
+          "Marknadssvaghet i Indien"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Coffee Stain",
+      "ticker": "COFF",
+      "timestamp_start": "38:11",
+      "timestamp_end": "43:52",
+      "word_count": 900,
+      "speakers": [
+        "John",
+        "Jack",
+        "Peter Hedlund"
+      ],
+      "primary_speaker": "Peter Hedlund",
+      "discussion_summary": "Coffee Stain är avknoppad från Embracer och handlas på 21.50-22 SEK mot förväntat 25 SEK. Bolaget har starka spel som Goat Simulator, Valheim och Satisfactory. Kommande kvartal blir tufft pga valutaförluster (dollar ner 15%) och brist på stora spelsläpp. Diskussionen handlar om värdering, valutaexponering och om det finns köpläge när fonder kan sälja pga First North-listning.",
+      "quotes": [
+        {
+          "speaker": "Peter Hedlund",
+          "text": "När den kom på 25 där, för de har ju nu ett kvartal som kommer att vara ruggigt tufft. De är egentligen en fördämlig redovisning.",
+          "timestamp": "40:42",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Sen har de i dollarn också, för de säljer ju dollarn på de här plattformarna. Och de har typ 90% bruttomarginal. Kostnaderna för utvecklingen är ju svenska kronor, för lönar och hyror och så vidare. Så om de nu sålde för sig, men ta ett exempel, de sålde för 100 miljoner dollar, då blir det i stället 15% mindre nu i kronor.",
+          "timestamp": "41:47",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Ja, någonstans där skulle jag verkligen säga. För många hamnar ju sånt här bolaget i too hard piles.",
+          "timestamp": "43:37",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "20",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "90%",
+        "debt_level": "500 MSEK netto kassa",
+        "custom": [
+          "Valutaexponering: Säljer i dollar, kostnader i SEK/DKK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Säljflöden från fonder kan skapa köpläge kort sikt",
+          "Kvalitativa spelstudier",
+          "Kostnadsmedvetna utvecklare",
+          "Kan nå 25 SEK initial förväntning"
+        ],
+        "bear_case": [
+          "Kommande kvartal ruggigt tufft",
+          "Valutarisk (dollar)",
+          "Inget stort spelsläpp nästa kvartal",
+          "EV/EBIT 20 kan vara dyrt"
+        ],
+        "catalysts": [
+          "Nytt spelsläpp",
+          "Starkare dollar",
+          "Rapporten när den är prissatt"
+        ],
+        "risks": [
+          "Valutaförluster",
+          "Brist på nya hits",
+          "Spelbranschens hit-beroende"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Lundbergs",
+      "ticker": "LUND-B",
+      "timestamp_start": "57:12",
+      "timestamp_end": "59:44",
+      "word_count": 650,
+      "speakers": [
+        "John",
+        "Jack",
+        "Peter Hedlund"
+      ],
+      "primary_speaker": "Peter Hedlund",
+      "discussion_summary": "Lundbergs är ett investmentbolag med dubbelsök rabatt. Äger fastigheter (30 miljarder med rabatt), Industrivärden, Hufvudstaden, Husqvarna, Holmen och Handelsbanken. Rabatten är ca 10% på total substans. Diskussionen handlar om rabattens storlek, exponering mot surdegar, och om det är en bra case trots att det inte är en dubblare.",
+      "quotes": [
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Det är helt enkelt dubbelsök rabatt i Lundbergs. Det är det största caset där.",
+          "timestamp": "57:23",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Peter Hedlund",
+          "text": "De har 30 miljarder fastigheter. Men man måste också tänka på vad är belåningsvärdet här? De har ju typ 5-6 miljarder i belåning där. Så det är ju 20 procent. Så rabatten är alltid substansen, det är ju på det egna kapitalet.",
+          "timestamp": "57:49",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Sju år. Ja men vad är det? 8% per år eller vad säger man? Har du en dubbling med ränta på ränta på 8-10 år?",
+          "timestamp": "59:42",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "Låg",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "5-6 miljarder SEK",
+        "custom": [
+          "Fastigheter: 30 miljarder",
+          "Rabatt: ~10% på substans"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Dubbelsök rabatt",
+          "Stabila innehav",
+          "Låg risk",
+          "Låg belåning"
+        ],
+        "bear_case": [
+          "Inga dubblare",
+          "Surdegar som Handelsbanken och Husqvarna drar",
+          "Fastighetsrabatt är normal"
+        ],
+        "catalysts": [
+          "Fastighetsmarknaden återhämtar sig",
+          "Återköp"
+        ],
+        "risks": [
+          "Fastighetsmarknadssvaghet",
+          "Handelsbanken presterar dåligt"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Sectra",
+      "ticker": "SECT-B",
+      "timestamp_start": "01:00:08",
+      "timestamp_end": "01:03:35",
+      "word_count": 750,
+      "speakers": [
+        "John",
+        "Jack",
+        "Peter Hedlund"
+      ],
+      "primary_speaker": "Peter Hedlund",
+      "discussion_summary": "Sectra har fallit från 330 till 260 SEK. Bolaget gör bildbehandling och IT-lösningar för sjukhus, med litet cybersäkerhetsben. Ställer om från licensförsäljning till SaaS. Diskussionen handlar om P/E på 100, transaktionsrisker mot sjukhus, AI-hot, och om den höga värderingen är motiverad givet potentialen.",
+      "quotes": [
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Man pratar en del om det här cybersäkerhetsbenet men det är ganska litet, det är väl 10% av omsättning eller någonting. Utan det är ju bildbehandling och IT-lösningar för sjukhus egentligen.",
+          "timestamp": "01:00:15",
+          "context": "business"
+        },
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Det är ju P100. Om man håller på att ställa om nu så ser det ju sämre ut än vad det är. För man går ju från säljlicenserna då du får betalt en stor klumpsumma direkt tillgång till SAS-lösningar.",
+          "timestamp": "01:00:23",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Så därför är jag lite skeptisk. Men jag har också haft lite kontakt med några ägare i bolaget som har förklarat caset. Om man tror på deras tes så kan jag ändå se att det här kan bli bra.",
+          "timestamp": "01:00:23",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jack",
+          "text": "Jag tänker att sådana här bilder är inte ett jättehot med AI. Att AI mycket bättre kan läsa av sådana här bilder än vad en människa kan.",
+          "timestamp": "01:01:50",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "100",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Återkommande intäkter: 6-7%",
+          "Valutaexponering: Dollar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Högre betalt per undersökning i molnet",
+          "Inkorporerar AI",
+          "Stor databas för AI-träning"
+        ],
+        "bear_case": [
+          "P/E 100 är dyrt",
+          "SaaS-transition minskar kassaflöde kort sikt",
+          "AI kan utkonkurrera",
+          "Jobbigt sälja till sjukhus"
+        ],
+        "catalysts": [
+          "Molnmigration",
+          "Nya kontrakt"
+        ],
+        "risks": [
+          "AI-hot",
+          "Valutamotvinn",
+          "Sjukhusförsäljning tar tid"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "John Mattsson",
+      "ticker": "JOMA",
+      "timestamp_start": "01:03:38",
+      "timestamp_end": "01:06:12",
+      "word_count": 700,
+      "speakers": [
+        "John",
+        "Jack",
+        "Peter Hedlund"
+      ],
+      "primary_speaker": "Peter Hedlund",
+      "discussion_summary": "John Mattsson äger högkvalitativa bostadsfastigheter i Stockholm med 30% rabatt mot substans. Låg vakansgrad på 1,5%. Diskussionen handlar om möjligheten att realisera värden genom renoveringar vid avflyttning, svårigheten att få folk att flytta, och varför bolag inte gör mer återköp.",
+      "quotes": [
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Dock har du också den här rullande roten. Så när någon flyttar ut kan du renovera lägenheten och höja hyran 30-50%. Samtidigt som du kanske tar ner energi för brukningen. Då får du ganska bra kalkyl på det.",
+          "timestamp": "01:03:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Peter Hedlund",
+          "text": "Så är det ju, men de värderas redan på en rabatt på drygt 30 procent. Så att du avkastar ju 3,5 procent ungefär beståndet men tar du med rabatten får du ju 5 procent.",
+          "timestamp": "01:05:03",
+          "context": "valuation"
+        },
+        {
+          "speaker": "John",
+          "text": "Varför tar då inte huvudstaden, men de kanske inte är så brydda för Lundberg är lite konstig, men typ John Mattsson, att man kränger av en bostad och så gör man återköp, direkt så skulle man ju liksom höja aktier värdet massor.",
+          "timestamp": "01:05:43",
+          "context": "catalyst"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "3,5%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Rabatt mot substans: 30%",
+          "Vakansgrad: 1,5%",
+          "Avkastning med rabatt: 5%",
+          "Kurs: 68 SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "30% rabatt mot substans",
+          "Högkvalitativa bostäder",
+          "Låg vakansgrad",
+          "Möjlighet till hyreshöjning vid renovering",
+          "Bör göra återköp"
+        ],
+        "bear_case": [
+          "Svårt att få folk att flytta från bra kontrakt",
+          "Hyrestak begränsar höjningar",
+          "Tar lång tid att realisera värden"
+        ],
+        "catalysts": [
+          "Naturlig avflyttning vid renovering",
+          "Stambyte",
+          "Återköp"
+        ],
+        "risks": [
+          "Låg omsättning i beståndet",
+          "Marknadssvaghet för fastigheter"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Att vara på poker-bordet handlar om att investera i extremt hög risk egentligen. Det är sannolikheten du räknar på och samma på aktiemarknaden. Det är bara det det handlar om. Hitta någonting som har ett positivt väntevärde och sätta pengarna där.",
+      "summary": "Poker och aktier handlar om samma princip - hitta positiva väntevärden och balansera risk mot uppsida.",
+      "category": "philosophy",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "05:04",
+      "confidence": "high",
+      "tags": [
+        "poker",
+        "risk",
+        "expected_value"
+      ]
+    },
+    {
+      "quote": "Det värsta du kan göra är ta ett bra spel men du satsar för mycket och förlorar all pengarna så att du inte kan satsa någonting imorgon i ett ännu bättre spel.",
+      "summary": "Position sizing är kritiskt - även bra investeringar kan bli katastrof om du satsar för mycket.",
+      "category": "wisdom",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "05:58",
+      "confidence": "high",
+      "tags": [
+        "position_sizing",
+        "risk_management"
+      ]
+    },
+    {
+      "quote": "När blankningspositionen börjar komma upp mot 5-10% då är det ingen pairtrade, utan då är det ofta ett aggressivt bett av folk som är väldigt, väldigt pålösta.",
+      "summary": "Höga blankningspositioner (>5%) indikerar aggressivt betting att korta bolaget.",
+      "category": "wisdom",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "25:39",
+      "confidence": "high",
+      "tags": [
+        "shorts",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Läkemedelsbolagen är ungefär som gruvor. För en gruva tar ju malmen slut förr eller senare. Och för ett läkemedelsbolag så går ju patentet ut någon gång.",
+      "summary": "Läkemedelsbolag är som gruvor - patent utgår precis som malmen tar slut.",
+      "category": "wisdom",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "16:10",
+      "confidence": "high",
+      "tags": [
+        "pharma",
+        "patents",
+        "business_model"
+      ]
+    },
+    {
+      "quote": "Om jag var allan, kicka vdn och återinsätta mig själv och försöka styra upp det här och lägga alla kort på bordet. Det tror jag är en möjlig räddning.",
+      "summary": "För rädda ett bolag i kris kan det krävas att ledningen byts ut och allt läggs på bordet.",
+      "category": "lesson",
+      "speaker": "Jack",
+      "speaker_role": "host",
+      "timestamp": "29:17",
+      "confidence": "medium",
+      "tags": [
+        "turnaround",
+        "management"
+      ]
+    },
+    {
+      "quote": "Är det ett bolag som utan anledning bara verkar gå ner, så är det en stor sannolikhet att det finns en större säljare som vill ur helt enkelt.",
+      "summary": "Omotiverade kursfall kan bero på stor säljare som måste avyttra position.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "15:36",
+      "confidence": "high",
+      "tags": [
+        "market",
+        "selling_pressure"
+      ]
+    },
+    {
+      "quote": "Jag skiftar om istället där jag ser det högst uppsida egentligen, eller best risk reward om man säger så.",
+      "summary": "Peter säljer positioner som gått upp 70% för att flytta kapital till bättre uppsida.",
+      "category": "philosophy",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "01:06:42",
+      "confidence": "high",
+      "tags": [
+        "portfolio_management",
+        "rebalancing"
+      ]
+    },
+    {
+      "quote": "Det är lätt att påverkas. Du orkar inte logga in och se att du har backt 30-40% till fyra innehav. Att aktien är ner 30% när jag har köpt den har ingenting att göra.",
+      "summary": "Kursutveckling sedan köp påverkar inte bolagets framtida potential - separera känslor från analys.",
+      "category": "wisdom",
+      "speaker": "Peter Hedlund",
+      "speaker_role": "guest",
+      "timestamp": "01:07:54",
+      "confidence": "high",
+      "tags": [
+        "psychology",
+        "loss_aversion"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet med gästen Peter Hedlund, analytiker på EFN, handlar om aktier, poker och investeringsfilosofi. Stora delar ägnas åt analys av Truecaller som haft kraftiga kursfall och förtroendeproblem. Peter delar också tankar om gamingbolagen Coffee Stain och Ashmodi som avknoppats från Embracer. Vidare diskuteras investmentbolaget Lundbergs med dess dubbla rabatt, fastighetsbolaget John Mattsson, och medicinteknikbolaget Sectra som fallit till P/E 100. Peter delar sin filosofi om att sälja positioner som gått upp för att flytta kapital till bättre uppsida, och jämför investeringar med poker.",
+  "key_takeaways": [
+    "Poker och aktier handlar om samma principer - hitta positiva väntevärden och hantera position storlek",
+    "Truecaller kan vara en turnaround-kandidat men förtroendeproblem gör det riskabelt",
+    "Coffee Stain handlas under förväntat men kommande kvartal blir tufft pga valutaförluster",
+    "Lundbergs erbjuder dubbel rabatt men innehåller surdegar som Handelsbanken och Husqvarna",
+    "Sektorsanalys: Läkemedelsbolag är som gruvor, patent utgår precis som malmen tar slut"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borsensfinest/transcripts/borsensfinest-2025-12-17-f7db.txt",
+  "transcript_word_count": 13350,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

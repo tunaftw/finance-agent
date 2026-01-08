@@ -1,0 +1,424 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2018-01-05-5c84",
+  "podcast_name": "Analyspodden från Dagens Industri",
+  "episode_title": "Vi är inne på sluttampen",
+  "episode_number": null,
+  "date": "2018-01-05",
+  "hosts": [
+    "Martin Blomgren",
+    "Magnus Dahl"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Stockholmsbörsen",
+    "H&M",
+    "Disney",
+    "Greenblatt-modellen"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "JM",
+    "Oscar Properties",
+    "Sernecke",
+    "Disney"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Disney",
+      "ticker": "DIS",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Magnus Dahl",
+      "speaker_role": "host",
+      "timestamp": "14:11",
+      "reasoning": "Disney gör mycket rätt strategiskt: köpte 21st Century Fox för 66 miljarder dollar, får majoritetsägarandel i Hulu (Netflix-utmanare), bygger tre streamingtjänster och drar in 1 miljard dollar på Star Wars-film på tre veckor. Men betalar mycket för köpet och har strukturell motvind från minskande kabel-tv tittare. Bedömning: lyckas etablera sin plats men inget jättekliv uppåt vinstmässigt.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag skulle nog vara försiktig med att köpa aktien ändå, trots att de gör så mycket rätt. De betalar väldigt mycket för det här bolaget de köper och de har den här strukturella motvinden i kabel emot sig ett tag till. Så att även om de gör allt rätt så tror jag mer att det är de lyckas etablera sin plats än att de kanske kan ta ett jättekliv uppåt vinstmässigt. Håll ögonen på Disney, men man ska nog inte kasta sig in i aktien.",
+      "sector": "Media & Underhållning",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Strukturell motvind från kavel-tv, hög köpeskilling för 21st Century Fox",
+      "catalyst_timing": "Lansering av streamingtjänster de kommande åren"
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Martin Blomgren",
+      "speaker_role": "host",
+      "timestamp": "01:56",
+      "reasoning": "Morgan Stanley sänkte riktkurs till 120 SEK (lägst bland analytiker). Vinsten per butiksyta har halverats på 10 år och Morgan Stanley räknar med fortsatta vinstfall till 2020. P/E ca 16 vid 160 SEK men bygger på vinstuppgång som är osäker. Direktavkastning 6% om utdelningen 9,5 SEK behålls. Morgan Stanley ser betydande risk för sänkningar redan i detta bokslut.",
+      "price_target": "120 SEK (Morgan Stanley)",
+      "time_horizon": "kort till medellång sikt",
+      "quote": "Men det här jätteskiftet till e-handel som som accelererar under 2017 som vi har pratat om i varenda podd nästan visar ju tydligt hur tufft det här kan bli om man inte kan fortsätta rulla ut nya butiker.",
+      "sector": "Detaljhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Vinstfall kan fortsätta till 2020, utdelning kan sänkas",
+      "catalyst_timing": "Rapport sista januari 2018, Kapitalmarknadsdag mitten februari 2018"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "01:29",
+      "timestamp_end": "06:15",
+      "word_count": 1200,
+      "speakers": [
+        "Martin Blomgren",
+        "Magnus Dahl"
+      ],
+      "primary_speaker": "Martin Blomgren",
+      "discussion_summary": "Morgan Stanley sänkte riktkursen till 120 SEK som den lägsta bland analytiker. De påpekar att vinsten per butiksyta har halverats på 10 år och räknar med fortsatta vinstfall till 2020. Diskussionen kretsar kring H&Ms strukturproblem med e-handelsomställning, marginalpress (från 12% till potentiellt 10-8%), och risken för utdelningssänkning från 9,5 SEK. Trots direktavkastning på 6% ses det som en investering med signifikant osäkerhet.",
+      "quotes": [
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Jag kommer ihåg att jag läste Morgan Stanleys analys då i mars 2016 när de chockade och sänkte till 160 kronor som den är faktiskt precis nu. Och då tyckte jag, jag läste den faktiskt två gånger den analysen, jag tyckte att det inte var så himla bra. Men såhär i efterhand så hade de faktiskt helt rätt.",
+          "timestamp": "01:56",
+          "context": "metric"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Men nu är det betydligt svårt att göra det då. Och nu går de ett steg till och lägger sig längst ner med en rikurs på 120.",
+          "timestamp": "02:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Och det är inte bara Morgan Stanley som har sänkt i veckan, även Santander och Spanska Banken kommer en sänkning till 144 kronor tror jag att värderas.",
+          "timestamp": "03:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "De räknar ju med att vinsten fortsätter falla ner till 2020 då. De gör ju 10 kronor per aktie om färre år. Kursen 160 så är det p-talet på runt 16 då.",
+          "timestamp": "03:59",
+          "context": "metric"
+        },
+        {
+          "speaker": "Martin Blomgren",
+          "text": "Morgan Stanley räknar med att det finns en betydande risk för sänkningar redan i det här bokslutet. Kanske för att spara pengar och investeringar i e-handel helt enkelt. Men det skulle vara en väldigt negativ effekt tycker jag.",
+          "timestamp": "05:03",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "16",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "6%",
+        "revenue_growth": null,
+        "margin": "12%",
+        "debt_level": null,
+        "custom": [
+          "Vinst per butiksyta halverad på 10 år",
+          "Riktkurs 120 SEK (Morgan Stanley)",
+          "Riktkurs 144 SEK (Santander)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Direktavkastning 6% vid 160 SEK om utdelningen behålls",
+          "Hög avkastning på kapitalet 25% enligt Greenblatt-modellen"
+        ],
+        "bear_case": [
+          "Vinsten per butiksyta har halverats på 10 år",
+          "Strukturellt skifte till e-handel accelererar",
+          "Morgan Stanley räknar med fortsatta vinstfall till 2020",
+          "Risk för utdelningssänkning från 9,5 SEK",
+          "Marginalpress från 12% till potentiellt 10-8%"
+        ],
+        "catalysts": [
+          "Rapport sista januari 2018",
+          "Kapitalmarknadsdag mitten februari 2018"
+        ],
+        "risks": [
+          "Strukturellt skifte till e-handel",
+          "Oförmåga att rulla ut nya butiker",
+          "Utdelningssänkning skulle vara ett tydligt negativt skifte"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Disney",
+      "ticker": "DIS",
+      "timestamp_start": "10:06",
+      "timestamp_end": "14:25",
+      "word_count": 900,
+      "speakers": [
+        "Martin Blomgren",
+        "Magnus Dahl"
+      ],
+      "primary_speaker": "Magnus Dahl",
+      "discussion_summary": "Disney gjorde en stor förvärv samma dag som Star Wars-film premiär: köpte 21st Century Fox för 66 miljarder dollar, vilket ger tillgång till jättelik rättighetskatalog och majoritetsägarandel i Hulu (Netflix-utmanare). Star Wars-filmen drog in 1 miljard dollar på tre veckor. Disney planerar att bygga tre streamingtjänster (sport, familj, vuxen) och dra in material från Netflix. Trots strategiskt kloka drag bedöms aktien som en 'watch' på grund av hög köpeskilling och strukturell motvind från minskande kabel-tv tittare.",
+      "quotes": [
+        {
+          "speaker": "Magnus Dahl",
+          "text": "Och det är jag inte ensam om att tycka det är, eftersom den drog in drygt en miljard dollar på bara lite över två veckor.",
+          "timestamp": "10:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Magnus Dahl",
+          "text": "Då betalade de lite över fyra miljarder dollar. Det tyckte man var jättedyrt att komma ihåg.",
+          "timestamp": "11:21",
+          "context": "metric"
+        },
+        {
+          "speaker": "Magnus Dahl",
+          "text": "Men mest intressant tycker jag att de blir dominerande ägare i det som heter Hulu, som är en Netflix-utmana kan man säga. För att Disney material har ju tidigare kunnat gå ut via olika distributionskanaler, nu vill man bygga en egen streamingtjänst",
+          "timestamp": "12:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Dahl",
+          "text": "Jag skulle nog vara försiktig med att köpa aktien ändå, trots att de gör så mycket rätt. De betalar väldigt mycket för det här bolaget de köper och de har den här strukturella motvinden i kabel emot sig ett tag till.",
+          "timestamp": "14:11",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Star Wars-film: 1 miljard dollar på 3 veckor",
+          "Lucasförvärv: 4+ miljarder dollar",
+          "21st Century Fox förvärv: 66 miljarder dollar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Enorm rättighetsskatt (Disney, Star Wars, Marvel, Pixar, 21st Century Fox)",
+          "Majoritetsägarandel i Hulu (Netflix-utmanare)",
+          "Bygger tre streamingtjänster för att täcka alla segment",
+          "Star Wars-film drog in 1 miljard dollar på 3 veckor",
+          "Strategiskt positionerad för streaming-kriget"
+        ],
+        "bear_case": [
+          "Hög köpeskilling för 21st Century Fox (66 miljarder dollar)",
+          "Strukturell motvind: kavel-tv tittare minskar",
+          "Måste investera tungt i streaming för att konkurrera med Netflix och Amazon",
+          "Osäkerhet om de kan ta ett jättekliv uppåt vinstmässigt"
+        ],
+        "catalysts": [
+          "Lansering av tre streamingtjänster de kommande åren",
+          "Dra material från Netflix"
+        ],
+        "risks": [
+          "Kavel-tv-segmentet fortsätter minska",
+          "Höga investeringsbehov i streaming",
+          "Integration av 21st Century Fox kan bli problematisk"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "JM",
+      "ticker": "JM",
+      "timestamp_start": "16:17",
+      "timestamp_end": "18:40",
+      "word_count": 600,
+      "speakers": [
+        "Martin Blomgren",
+        "Magnus Dahl"
+      ],
+      "primary_speaker": "Magnus Dahl",
+      "discussion_summary": "JM rankas som #1 i Greenblatt-modellen med låg P/E på 6,7 och hög avkastning på kapitalet. Byggbolag har generellt låga marginaler men avkastar kapitalet väldigt bra eftersom de binder upp lite kapital i verksamheten tack vare förskott från kunder och fakturor. Trots stark konjunktur har byggbolagen haft det tufft under året på grund av bostadsoron och företagsspecifika problem.",
+      "quotes": [
+        {
+          "speaker": "Magnus Dahl",
+          "text": "JM och Oscar. Båda har väldigt låga p1-tal. JM har 6,7 p1-tal och Oscar Properties 2,9.",
+          "timestamp": "16:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Magnus Dahl",
+          "text": "Men det är rätt typiskt också för byggbolagen. De har generellt väldigt låga marginaler men de avkastar ofta kapitalet väldigt bra för de binder upp lite kapital i sin verksamhet.",
+          "timestamp": "17:56",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "6,7",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "låga marginaler",
+        "debt_level": null,
+        "custom": [
+          "Rank #1 i Greenblatt-modellen",
+          "Hög avkastning på kapitalet"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Låg P/E på 6,7",
+          "Hög avkastning på kapitalet",
+          "Binder upp lite kapital tack vare förskott och fakturor"
+        ],
+        "bear_case": [
+          "Byggbolag haft det tufft under året trots stark konjunktur",
+          "Bostadsoron pressat sektorn"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Bostadsmarknaden fortsatt pressad"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Oscar Properties",
+      "ticker": "OSCAR B",
+      "timestamp_start": "16:17",
+      "timestamp_end": "18:40",
+      "word_count": 600,
+      "speakers": [
+        "Martin Blomgren",
+        "Magnus Dahl"
+      ],
+      "primary_speaker": "Magnus Dahl",
+      "discussion_summary": "Oscar Properties rankas som #2 i Greenblatt-modellen med mycket låg P/E på 2,9, vilket gör den till en av de mest undervärderade aktierna enligt modellen. Tillsammans med JM och Sernecke (P/E 6,9 på plats 4) representerar fastighets- och byggsektorn en stor del av topplistan.",
+      "quotes": [
+        {
+          "speaker": "Magnus Dahl",
+          "text": "JM och Oscar. Båda har väldigt låga p1-tal. JM har 6,7 p1-tal och Oscar Properties 2,9.",
+          "timestamp": "16:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Magnus Dahl",
+          "text": "Sernecke som kommer på fjärde plats har p1-tal på 6,9 också. Så det är generellt lågt värderat och det är ganska typiskt för byggbolagen egentligen.",
+          "timestamp": "16:56",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "2,9",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Rank #2 i Greenblatt-modellen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Mycket låg P/E på 2,9",
+          "Hög avkastning på kapitalet"
+        ],
+        "bear_case": [
+          "Bostadsoron pressat fastighets- och byggsektorn"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Fastighetsutvecklare beroende av antalet projekt som räknas av"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag brukar skriva i mina krönningar att det är meningslöst att hålla på och förutsäga börsen. Bättre att lägga tiden på att analysera bolag.",
+      "summary": "Det är mer givande att analysera bolag än att försöka förutsäga börsens rörelser.",
+      "category": "philosophy",
+      "speaker": "Magnus Dahl",
+      "speaker_role": "host",
+      "timestamp": "06:44",
+      "confidence": "high",
+      "tags": [
+        "börsprognos",
+        "bolagsanalys",
+        "investeringsstrategi"
+      ]
+    },
+    {
+      "quote": "Tittar man tillbaka historiskt så var det på 40-60-talet ett par långa uppgångar också på sex till sju år. Den längsta nio åren var 1991-1999 där börsen gick upp 250% och avslutades med eufori.",
+      "summary": "Historiska uppgångsperioder har varat i 6-9 år och ofta avslutats med eufori.",
+      "category": "wisdom",
+      "speaker": "Magnus Dahl",
+      "speaker_role": "host",
+      "timestamp": "07:19",
+      "confidence": "high",
+      "tags": [
+        "börshistoria",
+        "marknadscykler",
+        "eufori"
+      ]
+    },
+    {
+      "quote": "Det missar man ju lite när man bara tittar på rörelsemarginalen för att kunna jämföra bolag på det, man ser inte hela bilden.",
+      "summary": "Rörelsemarginal ensam ger inte hela bilden - avkastning på kapitalet är viktigare.",
+      "category": "wisdom",
+      "speaker": "Magnus Dahl",
+      "speaker_role": "host",
+      "timestamp": "19:05",
+      "confidence": "high",
+      "tags": [
+        "avkastning på kapitalet",
+        "rörelsemarginal",
+        "nyckeltal"
+      ]
+    },
+    {
+      "quote": "En viss vaksamhet kan man väl rekommendera, speciellt om man har varit med på hela uppgången här, att inte ha alla eg i börskåren kanske.",
+      "summary": "Vaksamhet rekommenderas efter en lång uppgångsperiod - inte ha alla ägg i börskorgen.",
+      "category": "wisdom",
+      "speaker": "Martin Blomgren",
+      "speaker_role": "host",
+      "timestamp": "09:37",
+      "confidence": "high",
+      "tags": [
+        "riskspridning",
+        "portföljstrategi",
+        "vaksamhet"
+      ]
+    },
+    {
+      "quote": "Mitt huvudscenario är att det börjar bra som vanligt och fortsätter så fram till sommaren kanske. Men sen så börjar nog oerhört för att vi är i slutet, vi är på slutet på efterfesten till och med.",
+      "summary": "Efterfestens slut kan närma sig - börsen kan gå bra fram till sommaren men sedan vända ner.",
+      "category": "wisdom",
+      "speaker": "Magnus Dahl",
+      "speaker_role": "host",
+      "timestamp": "07:54",
+      "confidence": "medium",
+      "tags": [
+        "marknadscykel",
+        "timing",
+        "konjunkturen"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Analyspodden diskuterar inledningen av 2018 med fokus på H&Ms fortsatta problem med fallande vinst per butiksyta och sänkta riktkurser från Morgan Stanley (120 SEK) och Santander (144 SEK). Disney ses som strategiskt intressant med förvärv av 21st Century Fox och streaming-planer, men rekommenderas som 'watch' på grund av hög köpeskilling och strukturell motvind. Greenblatt-modellen visar lågt värderade byggbolag som JM (P/E 6,7) och Oscar Properties (P/E 2,9). Magnus Dahl spekulerar om att börsuppgången är på sluttampen med potentiell nedgång 2019.",
+  "key_takeaways": [
+    "H&M: Morgan Stanley sänker till 120 SEK, vinst per butiksyta halverad på 10 år, risk för utdelningssänkning",
+    "Disney: 'Watch' rekommendation - gör mycket rätt strategiskt men betalar mycket och har kabel-tv motvind",
+    "Greenblatt-modellen: JM (P/E 6,7) och Oscar Properties (P/E 2,9) toppar listan",
+    "Marknadssentiment: Vi kan vara på sluttampen av en lång börsuppgång, 2019 kan bli problematiskt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2018-01-05-5c84.txt",
+  "transcript_word_count": 4014,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

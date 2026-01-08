@@ -1,0 +1,392 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2020-02-26-2859",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 340 - Intervju med Per Agerman",
+  "episode_number": 340,
+  "date": "2020-02-26",
+  "hosts": [
+    "Johan",
+    "Anna"
+  ],
+  "guests": [
+    "Per Agerman"
+  ],
+  "main_topics": [
+    "Finansbrott",
+    "Insiderhandel",
+    "Allra-skandalen",
+    "Swedbank penningtvätt",
+    "QuickBit",
+    "Fingerprint",
+    "Alexander Richards"
+  ],
+  "stocks_discussed": [
+    "Tesla",
+    "QuickBit",
+    "Fingerprint",
+    "Allra"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "sell",
+      "confidence": "speculative",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "00:45",
+      "reasoning": "Host har blankat aktien via IG som en trading-position. Inget djupare fundamentalt argument presenterat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Hos IG har jag till exempel blankat lite Tesla på slutet. Det är ju en tradingvänlig aktie",
+      "sector": "Automotive",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "QuickBit",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Per Agerman",
+      "speaker_role": "guest",
+      "timestamp": "40:56",
+      "reasoning": "Ser frågetecken kring affärsmodellen, kundbas och transparens. Varför skulle någon använda deras kryptovalutaväxlingssystem för vanlig e-handel? Osäker kring var pengarna kommer ifrån. Risker kring potentiell användning för olaglig verksamhet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Om jag var aktieperson hade jag på att säga, jag brukar aldrig säga köpare eller säljare, men jag skulle nog kanske akta mig för det. Däremot så är jag fascinerad av, för det har ju aktiemarknaden lärt sig att det behöver ju inte vara fel att köpa en bluffaktie.",
+      "sector": "Fintech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "QuickBit",
+      "ticker": null,
+      "timestamp_start": "35:49",
+      "timestamp_end": "42:38",
+      "word_count": 1200,
+      "speakers": [
+        "Per Agerman",
+        "Johan"
+      ],
+      "primary_speaker": "Per Agerman",
+      "discussion_summary": "Diskussion kring QuickBit, ett kryptobolag som noterades på NGM och nådde miljardvärdering. Per Agerman gjorde ett reportage i Affärsvärlden som avslöjade brister i prospektet och personkopplingar till tidigare finansiella härvar. Bolagets affärsmodell kritiseras för att vara oklar - varför skulle någon använda deras lösning för vanlig e-handel?",
+      "quotes": [
+        {
+          "speaker": "Per Agerman",
+          "text": "Det var spännande. Mitt i sommaren förra året kom det ett nytt bolag in på minibörsen NGM, som hette Quickbit, och de gick ju som en raket där mitt i sommartorkaren. Det var ju en enorm uppgång. Och de nådde ju till och med miljardvärdering efter bara några veckor där.",
+          "timestamp": "35:49",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Per Agerman",
+          "text": "Jag tror de hävdar själva att man skulle minska risken för bedräddgrier och så där. Jag vet inte riktigt, det kändes lite krystat, tyckte jag. Jag har aldrig hört talas om någon som har använt det heller.",
+          "timestamp": "37:20",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Per Agerman",
+          "text": "De har ju en miljardomsättning tror jag nu sista kvartalet, om jag inte läste fel. Frågan är vilken typ av kund det är som gör den här typen av växling i sån ögonfattning.",
+          "timestamp": "37:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Per Agerman",
+          "text": "Vi spekulerar lite i då tror jag att det kanske kan användas till till exempel att spela på spelsajter för amerikanska medborgare till exempel. Eller göra saker som man kanske inte riktigt får eller kan göra så lätt annars.",
+          "timestamp": "37:48",
+          "context": "other"
+        },
+        {
+          "speaker": "Per Agerman",
+          "text": "Om jag var aktieperson hade jag på att säga, jag brukar aldrig säga köpare eller säljare, men jag skulle nog kanske akta mig för det.",
+          "timestamp": "40:56",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Miljardomsättning senaste kvartalet",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Miljardvärdering efter notering"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hög omsättningstillväxt vid notering",
+          "Teamet har erfarenhet av betallösningar"
+        ],
+        "bear_case": [
+          "Oklar affärsmodell - varför använda för vanlig e-handel?",
+          "Oklar kundbas och var pengarna kommer ifrån",
+          "Personkopplingar till tidigare finansiella härvar",
+          "Kan användas för olaglig verksamhet (spelsajter, etc.)",
+          "Tunt prospekt vid notering"
+        ],
+        "catalysts": null,
+        "risks": [
+          "Regulatoriska risker kring krypto",
+          "Potentiell koppling till olaglig verksamhet",
+          "Bristande transparens"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Fingerprint",
+      "ticker": "FING-B",
+      "timestamp_start": "42:38",
+      "timestamp_end": "48:56",
+      "word_count": 1000,
+      "speakers": [
+        "Per Agerman",
+        "Johan"
+      ],
+      "primary_speaker": "Per Agerman",
+      "discussion_summary": "Per Agerman följde Fingerprints uppgång och fall nära och skrev en bok om bolaget. Bolaget gick från att vara ett knackigt bolag till Europas mest handlade aktie med enorm omsättningstillväxt. Efter toppen har intäkterna fallit och bolaget har förvaltat pengar genom återköpsprogram och dyra uppköp.",
+      "quotes": [
+        {
+          "speaker": "Per Agerman",
+          "text": "Det man kan se är ju att de har stoppat det här värsta blodflödet. De har ju lite mer balans i kassaflöde och att det inte är botten ut totalt när det gäller förluster. Sen har man inte vänt det här intäktsproblemet. Du har ju fortfarande en fallande intäkt.",
+          "timestamp": "44:06",
+          "context": "metric"
+        },
+        {
+          "speaker": "Per Agerman",
+          "text": "Man går ju och väntar på att när ska det smälla till med de här nya häftiga korten eller någon biltjänst eller någonting som kan få fart på det här igen för att man känner väl att den här sensorbusinessen för mobiltelefoner känns ju lite utedöande på sikt.",
+          "timestamp": "44:40",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Per Agerman",
+          "text": "Fingerprint hade sen nästan 20 år tillbaka en väldigt redikerad ägarskala som hade följt det här lågt, som var etablerade på alla chattar och alla forum. De kunde bara haka på den här positiva strömmen och verkligen få till att det blev en...",
+          "timestamp": "45:37",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Per Agerman",
+          "text": "Alla de pengar som fanns i kassan efter det här, hur har man förvaltat dem egentligen? Det tycker jag är en intressant fråga. Det har än så länge inte gett så mycket utdelning för aktieägarna.",
+          "timestamp": "46:35",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Fallande",
+        "margin": "Stoppat värsta förlustflödet, bättre balans i kassaflöde",
+        "debt_level": null,
+        "custom": [
+          "Europas mest handlade aktie under period",
+          "Miljardvärde vid toppen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stoppat värsta förlustflödet",
+          "Bättre balans i kassaflöde",
+          "Söker nya tillväxtområden (kort, bilar, etc.)"
+        ],
+        "bear_case": [
+          "Fallande intäkter",
+          "Mobiltelefonsensorer kan vara utedöande på sikt",
+          "Dålig förvaltning av kassan",
+          "Har köpt bolag för jättehöga pengar (iriskanning i USA)"
+        ],
+        "catalysts": [
+          "Nya produkter (kort, biltjänst)",
+          "Samsung som kund"
+        ],
+        "risks": [
+          "Fortsatt fallande intäkter",
+          "Misslyckas med att hitta nästa holy grail"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Allra",
+      "ticker": null,
+      "timestamp_start": "10:36",
+      "timestamp_end": "21:51",
+      "word_count": 1800,
+      "speakers": [
+        "Per Agerman",
+        "Johan",
+        "Anna"
+      ],
+      "primary_speaker": "Per Agerman",
+      "discussion_summary": "Detaljerad diskussion om Allra-härvan där bolaget anklagas för att ha gjort riggade transaktioner med onormalt höga avgifter. Fonder gick upp 25% men frågan är om vinsterna fördelades rätt. Tingsrätten friade Allra i första brottmålet eftersom åklagarens expertutlåtande var mycket tunt jämfört med försvaret.",
+      "quotes": [
+        {
+          "speaker": "Per Agerman",
+          "text": "I det här fallet specifikt så var det så att de här två valenterna gick upp med drygt 25 procent på sju månader. Så att man fick en ganska bra avkastning efter avgifter. Det är ett problem för, om man då vill stämma någon i domstol och säga att du har tagit våra pengar.",
+          "timestamp": "16:29",
+          "context": "metric"
+        },
+        {
+          "speaker": "Per Agerman",
+          "text": "Det kom in ett expertutlåtande från Försvaret förra sommaren, ungefär tre månader förr i ett gången, på drygt hundra sidor med ytterligare flera hundra sidor bilagor, där man bara sa att nu har vi gått igenom en massa av den här typen av affärer på den svenska marknaden 2012 och det här är liksom lägre spannet av avgiftsuttaget på den här marknaden vid den här tidpunkten.",
+          "timestamp": "13:35",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Per Agerman",
+          "text": "Enligt mig har du en myndighet och pensionsmyndigheten som säger att en miljard kronor har gått bort i övriga arvorden. Och så har du då försvaret som säger att vi har bara varit ett växande företag som vill göra bra affärer.",
+          "timestamp": "19:53",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "+25% på två valenter under 7 månader",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Miljard kronor i påstådda felaktiga arvoden",
+          "Pensionsmyndigheten kräver drygt 200 miljoner i skadestånd"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Fonder gick upp 25% på 7 månader",
+          "Kunden fick bra avkastning efter avgifter"
+        ],
+        "bear_case": [
+          "Onormalt höga avgifter (40% enligt åklagaren)",
+          "Pengar kan ha gått till mellanhand och grunda",
+          "Systematiskt problem enligt myndigheter",
+          "Hårt drabbat av statens ingripande"
+        ],
+        "catalysts": [
+          "Rättegångar",
+          "Fortsatta myndighetsutredningar"
+        ],
+        "risks": [
+          "Kriminell verksamhet",
+          "Skadeståndskrav",
+          "Företaget kan förstöras"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Köper man innan uppgången, eller köper man när kursen går upp, så kan du fortfarande ta hem en vinst, även om det är det värsta skiten, det värsta kriminella upplägget. Och det har ju en del personer lärt sig på marknaden att skitsamma ifall det här är skit, jag köper ändå för det kommer att gå upp. Och sen så säljer. Det är ju frågan, där tycker jag en större, mer moralisk etisk debatt om hur man ska agera på börsen. Ska man verkligen, du stöd ju den här typen av då kanske konstiga upplägget, vad det går in där. Men just idag så verkar den rådande trenden vara att kan jag tjäna pengar, då är det helt okej.",
+      "summary": "Marknaden tolererar bluffbolag om de ger kursuppgång, vilket skapar en etisk debatt om att stödja kriminella upplägg för vinst.",
+      "category": "wisdom",
+      "speaker": "Per Agerman",
+      "speaker_role": "guest",
+      "timestamp": "41:25",
+      "confidence": "high",
+      "tags": [
+        "marknadspsykologi",
+        "etik",
+        "short-termism"
+      ]
+    },
+    {
+      "quote": "Man måste försöka förstå bolaget. Om man kanske lyssnar på en sån här vd-dragning, man får någon sån här teaser-material, så är man wow det här verkar spännande. Men sen måste man på något sätt, även som enskild individ, ge det lite mer tid, försöka förstå varifrån, vad är det här för affärsidé, hur funkar pengarflödena, vad har de intäkterna alls just nu.",
+      "summary": "Investera bara i bolag du förstår och ta tid att granska affärsidén och pengaflödena istället för att falla för marknadsföring.",
+      "category": "philosophy",
+      "speaker": "Per Agerman",
+      "speaker_role": "guest",
+      "timestamp": "55:15",
+      "confidence": "high",
+      "tags": [
+        "due diligence",
+        "förståelse",
+        "research"
+      ]
+    },
+    {
+      "quote": "Som jag alltid säger till mina journaliststudenter, makten i bolaget, vem är det som bestämmer. För det är inte jättesvårt, det är ju kanske tre, fyra, upp till tio personer som är den här inre tjänan, och kolla vilka är de här personerna, vad har de gjort tidigare, har de sagt samma sak i massa andra bolag under årenslopp.",
+      "summary": "Kolla makthavarna i bolaget - vilka 3-10 personer som faktiskt bestämmer och deras track record.",
+      "category": "philosophy",
+      "speaker": "Per Agerman",
+      "speaker_role": "guest",
+      "timestamp": "55:35",
+      "confidence": "high",
+      "tags": [
+        "ledning",
+        "governance",
+        "track record"
+      ]
+    },
+    {
+      "quote": "Det är en intressant fråga, hur ska börsen sortera bort de här typen av bolag? En del menar ju att vi måste ha den här typen av bolag för att om vi inte har den typen av öppenhet mot nya idéer så kommer vi att titta på den här nya häftiga bolaget som kanske är dyrt.",
+      "summary": "Konflikt mellan öppenhet för nya idéer och skydd mot scam-bolag på börsen.",
+      "category": "wisdom",
+      "speaker": "Per Agerman",
+      "speaker_role": "guest",
+      "timestamp": "52:50",
+      "confidence": "medium",
+      "tags": [
+        "börsregler",
+        "innovation",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "När man sitter nära den här pengarpotten, kanske lite mindre beloppen som det handlar om i det här fallet, när det gäller de åthållade insiderbrotten, så har man valt att skita den här långsiktigheten och verkligen nu ska jag se till att köpa det här nu.",
+      "summary": "Insiders väljer ofta kortsiktig vinst framför långsiktig potential när de har tillgång till insiderinformation.",
+      "category": "lesson",
+      "speaker": "Per Agerman",
+      "speaker_role": "guest",
+      "timestamp": "47:46",
+      "confidence": "high",
+      "tags": [
+        "insiderhandel",
+        "kortsiktighet",
+        "psykologi"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": null,
+      "asset_name": "Kryptovaluta",
+      "sentiment": "neutral",
+      "speaker": "Per Agerman",
+      "speaker_role": "guest",
+      "quote": "Vad är det här för pengar? Så det var inte en del som jag började titta på. Lite fördjupad prospektgränsning kan man väl säga.",
+      "context": "QuickBits kryptovalutaväxlingssystem",
+      "confidence": "medium",
+      "price_levels": null,
+      "timeframe": null
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet med grävande journalisten Per Agerman fokuserar på finansiella härvar, insiderbrott och scams på den svenska marknaden. Huvudämnen är Allra-skandalen med omdiskuterade avgifter, Swedbanks penningtvätt i Baltikum, QuickBits oklara affärsmodell, Fingerprints upp och ner, och Alexander Richards misslyckade sandutvinningsbolag. Agerman delar insikter om hur man identifierar scams och vikten av att förstå bolag och makthavare innan man investerar.",
+  "key_takeaways": [
+    "Var kritisk till bolag med oklara affärsmodeller och transaktionsflöden",
+    "Kolla makthavarna och deras track record innan du investerar",
+    "Marknaden kan stödja bluffbolag om kursen går upp - en etisk fråga",
+    "Allra-friade i första rättegången på grund av svagt åklagarunderlag",
+    "Swedbank har intern rapport som visar volymer nära Danske Banks"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2020-02-26-2859.txt",
+  "transcript_word_count": 10591,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

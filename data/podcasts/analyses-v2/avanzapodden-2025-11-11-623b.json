@@ -1,0 +1,581 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "avanzapodden-2025-11-11-623b",
+  "podcast_name": "Avanzapodden",
+  "episode_title": "#422 – Michael Burry, AI-hajp och spelar kvartalsrapporter roll?",
+  "episode_number": 422,
+  "date": "2025-11-11",
+  "hosts": [
+    "Alex",
+    "Douglas",
+    "Filip"
+  ],
+  "guests": [
+    "Anton Ingves"
+  ],
+  "main_topics": [
+    "Marknadssentiment",
+    "Michael Burrys korta positioner",
+    "Kvartalsrapporter",
+    "Fear & Greed index",
+    "Buffett-indikatorn",
+    "Placera-analyser"
+  ],
+  "stocks_discussed": [
+    "Industrivärden",
+    "4C Group",
+    "Berner Industries",
+    "Volvo Cars",
+    "Powercell",
+    "AcuNear",
+    "Palantir",
+    "Nvidia",
+    "Lifco"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Industrivärden",
+      "ticker": "INDU-C",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Anton Ingves",
+      "speaker_role": "guest",
+      "timestamp": "[49:23]",
+      "reasoning": "Investmentbolag med 72% av portföljbolagen med köpråd. Portföljen värderas till 14x 2026-rörelsevinsten med fokus på storbolag som Sandvik, Volvo, Handelsbanken och Essity. Substansvärdet har vuxit 13% per år under 10 år. Handlas till 5% rabatt mot substansvärde, något dyrare än historiskt snitt på 8% men rimligt givet köp-atmosfären i underliggande innehav.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi har aktiva köporåd på 72% av industrivärdens portföljbolag. Det är väl ganska högt i alla fall när vi tittar på, jämfört med flera andra investmentbolag som vi har tittat på senaste tiden. Tittar man på industrivärden över tid så är det ett bolag som har skapat bra med värde... så vi valde att lämna ett köperåd på Industrivärlden.",
+      "sector": "Investmentbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "4C Group",
+      "ticker": "FOURC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Anton Ingves",
+      "speaker_role": "guest",
+      "timestamp": "[55:37]",
+      "reasoning": "Mjukvarubolag inom försvarssektorn som gjorde en strategisk omsvängning att fokusera enbart på försvar (75% av försäljning). Q3-rapporten var svag med 23% försäljningstapp och 30% kursras samma dag. Balansräkningen är ansträngd pga rörelsekapitalbindning. Värdering till 1,4x omsättning och 11x 2027 EV/EBITDA är attraktivt för mjukvarubolag men kortsikt osäkerhet med slagig affärsmodell. Väntar på bevis på återhämtning.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Kortsiktigt är det väldigt stor osäkerhet. Det är en ganska slagig affärsmodell. Balansräkningen är lite ansträngd nu. Så om man gillar mindre bolag så tror vi det här är ett intressant aktie att följa. Men just nu så väljer vi att stå på sidlinjen och göra ett neutralt råd på aktien.",
+      "sector": "Teknik/Mjukvara",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Balansräkningsrisk pga rörelsekapitalbindning",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Berner Industries",
+      "ticker": "BBER",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Anton Ingves",
+      "speaker_role": "guest",
+      "timestamp": "[01:00:31]",
+      "reasoning": "Teknikhandelskoncern med stark lönsamhetsförbättring. Rörelsemarginal steg till 12,6% i Q3 från 7% föregående år. Aktien har gått 120% i år. Värdering nu 16x EV/EBITDA jämfört med jämförbara bolag (Addtech, Indutrade, Lagerkrans) som handlas 20-26x. Stark balansräkningen med 0,6x nettoskuld/EBITDA och förvärvsutrymme kvar men värdering kommit upp.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Aktien har gått riktigt starkt i år, upp ungefär 120% sen årsskiftet... Men värderingen har kommit upp en hel del nu då. Den är ungefär 16 gånger ev i bita på prognoser för nästa år... så vi valde att ta ner Berner till ett neutralt råd.",
+      "sector": "Teknikhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Palantir",
+      "ticker": "PLTR",
+      "action": "avoid",
+      "confidence": "low",
+      "speaker": "Michael Burry",
+      "speaker_role": "unknown",
+      "timestamp": "[11:15]",
+      "reasoning": "Michael Burry tog en kort position på 912 miljoner dollar via säljoptioner. Värdering anses extremt hög med tre-siffriga P/E-tal framåtblickande. AI-investeringar förväntas kosta mer än vad marknaden förväntar sig i payoff-tid.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Michael Burry tar ju andra sidan uppenbarligen. Han tycker att utbyggnaden av AI kommer att kosta för mycket pengar. Och sen är det klart, Palantir anser att han är väldigt högt värderad.",
+      "sector": "Teknik/AI",
+      "market": "us",
+      "position_context": "912 miljoner dollar kort position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "action": "avoid",
+      "confidence": "low",
+      "speaker": "Michael Burry",
+      "speaker_role": "unknown",
+      "timestamp": "[11:15]",
+      "reasoning": "Michael Burry tog en kort position på 187 miljoner dollar via säljoptioner. Relaterat till bekymmer över AI-hypen och när payback kommer på de enorma investeringarna hyperscalers gjort.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Han tog två enorma korta positioner via säljoptioner... Och i Nvidia 187 miljoner dollar.",
+      "sector": "Teknik/Semiconductors",
+      "market": "us",
+      "position_context": "187 miljoner dollar kort position",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "4C Group",
+      "ticker": "FOURC",
+      "timestamp_start": "[49:32]",
+      "timestamp_end": "[55:37]",
+      "word_count": 800,
+      "speakers": [
+        "Anton Ingves",
+        "Alex",
+        "Douglas",
+        "Filip"
+      ],
+      "primary_speaker": "Anton Ingves",
+      "discussion_summary": "4C är ett mjukvarubolag inom försvarssektorn med börsvärde 400 miljoner. Efter svag Q3-rapport med 23% försäljningstapp och 30% kursras har bolaget beslutat fokusera helt på försvar (75% av försäljning). Balansräkningen är ansträngd pga rörelsekapitalbindning och timingeffekter i licensförsäljning. Trots attraktiv värdering (1,4x omsättning, 11x EV/EBITDA 2027) väljer Placera ett neutralt råd pga kortsiktig osäkerhet och slagig affärsmodell men ser långsikt potential i upprustningscykeln.",
+      "quotes": [
+        {
+          "speaker": "Anton Ingves",
+          "text": "4C har ett börsvärde på ungefär 400 miljoner. 4C är ett mjukvarubolag, det största del som är inriktat mot försvarssektorn. De levererar olika typer av mjukvarulösningar och rådgivning för krisberedskap.",
+          "timestamp": "[49:32]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "I samband med rapporten för det tredje kvartalet, och då tappade aktien, ja aktien föll 30% på rapportdagen där, så ganska rejäl rapportreaktion.",
+          "timestamp": "[49:47]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "När man noterade sig i början på 2021, så var det offentlig och privat sektor, det var det som skulle vara den stora tillväxtdrivaren över tid här då. Och nu drar man helt ner tillväxtsatsningarna i det här.",
+          "timestamp": "[50:20]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "I USA som står för typ 35% av koncerners intäkter, där är det väldigt tufft just nu. Det är en del budgetproblem. Statsapparaten är ju nästan nedstängt på vissa ställen där.",
+          "timestamp": "[51:10]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Bolaget tog in lite pengar, ungefär 55 miljoner i en riktad nyemission under i mars i år. Men som said utvecklingen har varit lite svagare nu. Det bundits en del rörelse i kapital.",
+          "timestamp": "[51:45]",
+          "context": "other"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Långsiktigt, vi tror ändå att att fokusera på försvarssektorn är nog rätt för bolaget. Det här är bolagets starkst om man tittar i någon av tre delarna. Man ligger ju helt rätt i tiden med en upprustningscykel som kommer.",
+          "timestamp": "[52:25]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Tittar vi på värderingen så är det ungefär 1,4 gånger omsättningen. I våra prognoser så blir värderingen ungefär 11 gånger rörelseresultatet på 2027 års estimat. Det är ganska billigt för ett mjukvarubolag.",
+          "timestamp": "[53:20]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Om bolaget kan fortsätta öka försäljningen, då 15-20 procents rörelsemarginal tror vi egentligen inte är så konstigt för ett sånt här bolag.",
+          "timestamp": "[53:50]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Kortsiktigt är det väldigt stor osäkerhet. Det är en ganska slagig affärsmodell. Balansräkningen är lite ansträngd nu. Så om man gillar mindre bolag så tror vi det här är ett intressant aktie att följa. Men just nu så väljer vi att stå på sidlinjen och göra ett neutralt råd på aktien.",
+          "timestamp": "[54:45]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "1,4",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-1% (2025), 10-12% (kommande år)",
+        "margin": "-16% (Q3), 15-20% (långsikt)",
+        "debt_level": "0,6x Nettoskuld/EBITDA",
+        "custom": [
+          "400 miljoner SEK börsvärde",
+          "350 miljoner SEK omsättning",
+          "75% försvarsförsäljning"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Helt rätt i tiden med upprustningscykeln i försvar",
+          "Redan etablerad hos försvarsmakter som är svårt att vinna som kund (konkurrensfördel)",
+          "Attraktiv värdering på 1,4x omsättning och 11x EV/EBITDA för mjukvarubolag",
+          "Långsikt potential till 15-20% rörelsemarginal"
+        ],
+        "bear_case": [
+          "Kortsiktig osäkerhet och mycket volatilitet",
+          "Slagig affärsmodell med timingeffekter i licensförsäljning",
+          "Balansräkningen ansträngd pga rörelsekapitalbindning",
+          "USA-marknaden tuff med budgetproblem"
+        ],
+        "catalysts": [
+          "Upprustningscykeln inom försvar",
+          "Förbättrad budgetsituation i USA"
+        ],
+        "risks": [
+          "Kontinuerligt svaga kvartal kan pressa aktien",
+          "Rörelsekapitalbindning kan kräva ny kapital",
+          "Strategisk omsvängning kan ta tid"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Industrivärden",
+      "ticker": "INDU-C",
+      "action": "buy",
+      "confidence": "medium",
+      "timestamp_start": "[45:07]",
+      "timestamp_end": "[49:23]",
+      "word_count": 600,
+      "speakers": [
+        "Anton Ingves",
+        "Alex",
+        "Douglas",
+        "Filip"
+      ],
+      "primary_speaker": "Anton Ingves",
+      "discussion_summary": "Industrivärden är Stockholmsbörsens näst största investmentbolag med börsvärde 170 miljoner. Portföljen består av klassisk svensk basindustri med Sandvik (29%), Volvo (28%), Handelsbanken (16%) och Essity (11%). 72% av portföljbolagen har köpråd från Placera. Substansvärdet har vuxit 13% per år på 10 år. Bolaget handlas till 5% rabatt mot substansvärde, något över det 15-åriga snittet på 8% men rimligt givet köpatmosfären. Placera lämnar köpråd.",
+      "quotes": [
+        {
+          "speaker": "Anton Ingves",
+          "text": "Det här är ju Stockholmsbörsens nästa staj investmentbolag efter Investor faktiskt. Börsvärde på ungefär 170 miljarder. Så det är ju en bjässe.",
+          "timestamp": "[45:07]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Industrivärlden är ju ett investmentbolag som bara har noterat in av. Och om man ska säga något generellt så är det här klassisk svensk basindustri kan man säga. Sandvik är ungefär 29% av portföljen. Volvo är 28%.",
+          "timestamp": "[45:30]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Vi tittade lite på det här i analysen och en datapunkt vi tittade på var just hur värderingen ser ut. Då kan man säga att ungefär värderas portföljbolagen till 14 gånger rörelsevinsten på 2026 på prognoser för nästa år.",
+          "timestamp": "[46:20]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Då kom vi fram till att vi har aktiva köporod på 72% av industrivärdens portföljbolag. Det är väl ganska högt i alla fall när vi tittar på, jämfört med flera andra investmentbolag som vi har tittat på senaste tiden.",
+          "timestamp": "[46:45]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "I industrivärdens fall så handlas man idag till ungefär 5% rabatt mot sitt substansvärde. Det är ungefär i linje med snittet de senaste 15 åren som har varit 8%. Så den är marginellt dyrare än det långa snittet.",
+          "timestamp": "[47:20]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Tittar man på substansvärde så har det växt ungefär 13% per år de senaste tio åren jämfört med storbolagsindex, OMXS30.",
+          "timestamp": "[47:45]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Vi tycker vi gillar många innehav här. Vi har aktiva köperåd på nästan tre fjärdedelar av portföljen. Borde ju, tycker vi i alla fall, göra att det är en ganska bra möjlighet för att substansvärdet växer en hel del här av kommande år.",
+          "timestamp": "[48:00]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Om man gillar investmentbolag, vill ha en bred exponering i portföljen, så vi har valt att lämna ett köperåd på Industrivärlden.",
+          "timestamp": "[48:15]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "14 (2026 portfölj)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "13% NAV tillväxt 10 år",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "170 miljarder SEK börsvärde",
+          "5% rabatt till NAV",
+          "11% totalavkastning 10 år (inkl utdelning)",
+          "9,5 miljarder utdelningar hittills i år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "72% av portföljbolagen har köpråd från Placera",
+          "Substansvärde har vuxit 13% per år under 10 år",
+          "Bred exponering mot svensk basindustri",
+          "Fokuserade på långsiktigt värdeskapande"
+        ],
+        "bear_case": [
+          "Rabatt mot NAV är mindre än historiskt (5% vs 8%)",
+          "Koncentration till få stora innehav (Sandvik, Volvo)"
+        ],
+        "catalysts": [
+          "Utdelningar från portföljbolag kan återinvesteras",
+          "Ägande i portföljbolagen växer organiskt"
+        ],
+        "risks": [
+          "Koncentrerad portfölj med få stora innehav",
+          "Aktiva förvaltningsbeslut kan misslyckas"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Berner Industries",
+      "ticker": "BBER",
+      "action": "watch",
+      "confidence": "medium",
+      "timestamp_start": "[56:11]",
+      "timestamp_end": "[01:00:31]",
+      "word_count": 700,
+      "speakers": [
+        "Anton Ingves",
+        "Alex",
+        "Douglas",
+        "Filip"
+      ],
+      "primary_speaker": "Anton Ingves",
+      "discussion_summary": "Berner Industries är en teknikhandelskoncern med 1,4 miljarder i börsvärde och 1 miljard i omsättning. Bolaget har gjort en stark lönsamhetsförbättring under Q3 med rörelseresultat upp 95% till marginal 12,6% (från 7%). Aktien har rusat 120% i år och värderingen är nu 16x EV/EBITDA. Jämförbara bolag handlas 20-26x. Stark balansräkning med 0,6x nettoskuld/EBITDA och förvärvsutrymme kvar. Placera tar ner till neutralt råd på grund av värdering men ser positivt på utveckling.",
+      "quotes": [
+        {
+          "speaker": "Anton Ingves",
+          "text": "Det här är en teknikhandelskoncern som består av nio bolag idag... De omsätter runt 1 miljard i årstakt. Med en rörelsemarginal på ungefär 9 procent.",
+          "timestamp": "[56:11]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Affärsmodellen här liknar de betydligt större och utpräglade teknikhandelskonscernen. Som Addtech och Lagerkrans och Indutrade. Det är liksom en decentraliserad affärsmodell.",
+          "timestamp": "[56:25]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Caroline Reutersjöld som är vd idag kom in i bolaget under 2022. Hon har just en bakgrund på Lagerkrans som affärsområdechef.",
+          "timestamp": "[56:45]",
+          "context": "other"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Det steg ungefär 95% jämfört med Q3-rapporten 2024. Det motsvarade en marginal på 12,6% jämfört med knappt 7% året innan. Så väldigt stora lönsamhetsförbättringar här.",
+          "timestamp": "[57:30]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "På helårsbasis har bolaget en marginal på ungefär 8,7% nu. Då har man kommit upp mot målet här på 9%. Så har det inte riktigt sett ut de senaste åren. Då har bolaget haft en marginal runt 6-7%.",
+          "timestamp": "[57:45]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Aktien har gått riktigt starkt i år, upp ungefär 120% sen årsskiftet. Vi har faktiskt haft ett köpråd här på aktien hela vägen sedan dess.",
+          "timestamp": "[58:10]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Värderingen har kommit upp en hel del nu då. Den är ungefär 16 gånger ev i bita på prognoser för nästa år. Adtech och Indutrade och Lagerkran som vi pratade om tidigare, de handlas till ungefär 20-26 gånger rörelsevinsten.",
+          "timestamp": "[58:20]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Netto-skulden i relation till rörelseresultatet för avskrivningar är ungefär 0,6 gånger. Det finns fortfarande förvärvsutrymme tror vi här.",
+          "timestamp": "[58:45]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anton Ingves",
+          "text": "Men som sagt, aktien har gått väldigt starkt, värderingen har kommit upp en del, så vi valde att ta ner Berner till ett neutralt råd i samband med analysen.",
+          "timestamp": "[58:55]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "16",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "2% organiskt (Q3)",
+        "margin": "8,7% (helår), 12,6% (Q3)",
+        "debt_level": "0,6x Nettoskuld/EBITDA",
+        "custom": [
+          "1,4 miljarder SEK börsvärde",
+          "1 miljard SEK omsättning",
+          "120% kursuppgång i år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark lönsamhetsförbättring - 95% ökning av rörelseresultatet i Q3",
+          "Nytt ledarskap med erfarenhet från Lagerkrans",
+          "Decentraliserad affärsmodell liknar framgångsrika teknikhandlare",
+          "Stark balansräkning med förvärvsutrymme kvar"
+        ],
+        "bear_case": [
+          "Värdering har kommit upp till 16x EV/EBITDA",
+          "Jämförbara bolag handlas 20-26x men är betydligt större"
+        ],
+        "catalysts": [
+          "Framtida förvärv kan driva tillväxt",
+          "Lönsamhetsförbättring kan fortsätta"
+        ],
+        "risks": [
+          "Värdering kan ha räknat in mycket av den positiva utvecklingen",
+          "Mindre bolag än jämförbara teknikhandlare"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Vi är i det långa spelet... Allt hänger på vilket fokus vi har. Men vi har haft lite techfrossa de senaste veckorna. Med ganska stora drawdowns i vissa specifika stormolag.",
+      "summary": "Marknaden går i cykler och korrektioner är normala. Fokus bör ligga på långsikt perspektiv snarare än kortsvängiga rörelser.",
+      "category": "wisdom",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "[01:00]",
+      "confidence": "medium",
+      "tags": [
+        "marknadscykler",
+        "långsiktighet"
+      ]
+    },
+    {
+      "quote": "Jag gillar ju också transparensinformation och det är ju det vi lever för någonstans. Att försöka bemästra det här att val långsiktiga investerare som inte håller på och hattar i portföljen för mycket. Utan vi fattar kloka besluten, vi köper första gången och sen så fortsätter vi fylla på regelbundet och sen håller vi inte på för att vi får en kvartalsrapport och kanske säljer.",
+      "summary": "Kvartalsrapporter är viktiga för transparens men investerare bör undvika att reagera på kortsiktiga nyheter och istället fokusera på långsiktigt värdeskapande.",
+      "category": "philosophy",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "[06:05]",
+      "confidence": "high",
+      "tags": [
+        "kvartalsrapporter",
+        "långsiktighet",
+        "transparens"
+      ]
+    },
+    {
+      "quote": "Jag berättade det för dig, på Lifco, som Dongens Industri hade gjort kort efter deras IPO, det här är ju typ tio år sedan. Och där rådet då var att sälja, för att den här aktien hade gått väldigt kraftigt då efter IPO'n och P1-talet var då 20-21, och då blev man livrädd. Och så kan man titta på, vad tittar vi för P1-tal idag på den här typen av compounders då, så är det någonting helt annat.",
+      "summary": "Hög P/E-tal är inte alltid en varningssignal. Bolag med stark tillväxt kan handlas till höga värderingar men ändå vara bra långsiktiga investeringar om grundaffären håller.",
+      "category": "wisdom",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "[06:45]",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "P/E-tal",
+        "långsiktig avkastning"
+      ]
+    },
+    {
+      "quote": "Jag tycker det är sjukt provocerande att ni inte säger doktor Michael Burr, men det är bara jag kanske. Ja men ja, han är... men vi kommer in på det, AI-investeringar.",
+      "summary": "Famous investors like Michael Burry shouldn't be blindly followed. It's important to look at their actual performance and track record, not just their reputation from one big trade.",
+      "category": "wisdom",
+      "speaker": "Filip",
+      "speaker_role": "host",
+      "timestamp": "[13:27]",
+      "confidence": "medium",
+      "tags": [
+        "investering",
+        "reputation",
+        "performance"
+      ]
+    },
+    {
+      "quote": "Michael Burrys hälsfond. Så Michael Burry versus Dr. Bennet. Svaret är ganska tydligt. Det är ett rungande ja till Carl Bennet. Så man får vara lite försiktig med vem man lyssnar på. Michael Burry har ju ett varumärke och är känd för det som hände 2008, men vad har det hänt sen dess?",
+      "summary": "En investerares förflutna framgång garanterar inte framtida resultat. Det är viktigt att utvärdera aktuell performance snarare än att lita på gamla meriter.",
+      "category": "lesson",
+      "speaker": "Filip",
+      "speaker_role": "host",
+      "timestamp": "[18:34]",
+      "confidence": "high",
+      "tags": [
+        "performance",
+        "investeringsreputation",
+        "historisk avkastning"
+      ]
+    },
+    {
+      "quote": "När det är extreme fear, det är då man ska köpa. Och när det är extreme greed, då kanske man ska vara lite försiktig. För egentligen kanske man känner att det borde väl vara tvärtom. Det är väl läskigt att köpa när det är jobbigt på marknaden.",
+      "summary": "Contrarian investing - when the market shows extreme fear it's often a buying opportunity, and when it shows extreme greed one should be cautious. Emotional reactions should be avoided.",
+      "category": "wisdom",
+      "speaker": "Douglas",
+      "speaker_role": "host",
+      "timestamp": "[22:00]",
+      "confidence": "high",
+      "tags": [
+        "Fear & Greed",
+        "konträr investering",
+        "marknadssentiment"
+      ]
+    },
+    {
+      "quote": "Tiderna förändras också. Jag tänker att det som, när de kollade på Lifco för tio år senår, när man sitter och pratar med de här P-talen då, att oj 20 låter ju helt fruktansvärda. Och så känner man nu att, nej men P-20 kan man ju käka.",
+      "summary": "Värderingsnivåer och vad som anses dyrt eller billigt förändras över tid. Historiska normer kanske inte längre är relevanta i en förändrad marknad med andra förutsättningar.",
+      "category": "wisdom",
+      "speaker": "Douglas",
+      "speaker_role": "host",
+      "timestamp": "[33:11]",
+      "confidence": "medium",
+      "tags": [
+        "värdering",
+        "marknadens förändring",
+        "P/E-tal"
+      ]
+    },
+    {
+      "quote": "När man frågar om det bara är att sälja aktien, nej, bara för att du säljer en aktie så har du ju inte blankat. Utan du måste till det här som du är inne på, att du måste ha en negativ position.",
+      "summary": "Blankning (shorting) är inte samma sak som att sälja en aktie. Det innebär att man lånar aktier för att sälja dem med förhoppning att kunna köpa tillbaka billigare.",
+      "category": "wisdom",
+      "speaker": "Filip",
+      "speaker_role": "host",
+      "timestamp": "[41:04]",
+      "confidence": "high",
+      "tags": [
+        "blankning",
+        "shorting",
+        "investeringsmekanismer"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet diskuterar aktuellt marknadssentiment som är på väg mot extrem rädsla, Michael Burrys korta positioner i AI-bolagen Palantir och Nvidia samt debatter kring kvartalsrapporteringskrav. Fear & Greed-index visar extrem rädsla medan Buffett-indikatorn indikerar att börsen är övervärderad. Placera presenterar analyser av Industrivärden (köp), 4C Group (neutral) och Berner Industries (neutral).",
+  "key_takeaways": [
+    "Fear & Greed-index visar extrem rädsla - potentiellt köpläge enligt konträr investeringsfilosofi",
+    "Industrivärden får köpråd från Placera med 72% av portföljbolagen med köpråd",
+    "4C Group fokuserar helt på försvarssektorn men har kortsiktig osäkerhet och ansträngd balansräkning",
+    "Michael Burrys performance de senaste 3 åren är -13% vilket är sämre än index",
+    "Buffett-indikatorn visar att USA-börsen är på sin högsta nivå på 40 år (220% av BNP)",
+    "November är historiskt en stark börs månad med 11 av 15 positiva år i Sverige",
+    "Berner Industries har stark lönsamhetsförbättring men värderingen kommit upp"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/avanzapodden/transcripts/avanzapodden-2025-11-11-623b.txt",
+  "transcript_word_count": 9935,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

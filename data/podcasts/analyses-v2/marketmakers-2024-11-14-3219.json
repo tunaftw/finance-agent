@@ -1,0 +1,726 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2024-11-14-3219",
+  "podcast_name": "Marketmakers",
+  "episode_title": "#355 Haverikommissionen",
+  "episode_number": 355,
+  "date": "2024-11-14",
+  "hosts": [
+    "Fabian",
+    "Mange",
+    "Niklas"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Sociala medier och FOMO",
+    "Borr Drilling och offshore-marknaden",
+    "Oljepris och Trump-effekten",
+    "Kurdistan-oljebolag",
+    "Opter - SaaS mjukvara",
+    "Nordrest - försvarsmateriel",
+    "Kryptovalutor"
+  ],
+  "stocks_discussed": [
+    "Borr Drilling",
+    "Noble",
+    "Valaris",
+    "Transocean",
+    "DNO",
+    "Genel Energy",
+    "Charan",
+    "Opter",
+    "Nordrest",
+    "Tesla"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Borr Drilling",
+      "ticker": "BORR",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "19:06",
+      "reasoning": "Marknaden har överreagerat på nedgången i offshore-riggningssektorn. Borr är ner 40% i år men fundamentalt ser 2025 bra ut med 78% kontraktering, snittrater om 148 000 dollar/dag och 120-130 miljoner i fritt kassaflöde (13% yield). Marknaden priser in för pessimistiskt scenario med halverade rater. Få starka kassaflöden och insidare köper. Position: 'största innehav', köpte mer på nedsidan.",
+      "price_target": null,
+      "time_horizon": "1-3 år",
+      "quote": "Jag tror att i dagsläget är det lite överdrivet att marknaden är skottskadad från senaste årtionde och tar ut lite väl mycket. Vi får såklart se. Det kan ju bli så. Jag har haft fel hittills i år på utvecklingen. Men om hela Borrs rigflotta handlas till 135 000 per dag så sitter man ändå och trycker samma fria kassaflöden 2026 som man kommer göra 2025 och det är inte totalt katastrof heller. Det är det jag utgår från just nu att marknaden har överreagerat lite mycket på vad som hänt. Jag passer på att köpa lite mer.",
+      "sector": "Olja & Gas - Offshore",
+      "market": "norway",
+      "position_context": "Största innehav",
+      "downside_note": "Redan ner 40% i år, ytterligare fall möjligt om marknaden fortsätter svag",
+      "catalyst_timing": "Avlistning från Norge 31 december 2024, rapport Q1 2025"
+    },
+    {
+      "stock_name": "DNO",
+      "ticker": "DNO",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "35:00",
+      "reasoning": "Iraks regering verkar inte hedra kontrakten och vill eventuellt ta över produktionen. DNO management uttryckte stor missnöjdhet med relationen till Irak och vill inte borra mer i landet. Riskerna överväger möjligheterna.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och för det första i DNO-callet så fick management en fråga om de här 16 dollar som erbjudits från Irak. Och om det handlades just om produktionsersättning eller en flat rate för all olja. Och man fick inte riktigt någon svar på det. Management sa that the questions you have are the questions we have. Och det gav inte så bra... Jag fick inte bra maktkänsla av det.",
+      "sector": "Olja & Gas",
+      "market": "other",
+      "position_context": "Sålt",
+      "downside_note": "Regleringsrisk i Kurdistan/Irak",
+      "catalyst_timing": "Pipeline-öppning osäkert"
+    },
+    {
+      "stock_name": "Genel Energy",
+      "ticker": "GKP",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "37:53",
+      "reasoning": "Iraks oljedepartement har överklagat domstolsbeslut som ogiltigförklarade kontrakten. Irak och KRG planerar att dra ned oljeproduktionen. För hög risk att inte få önskat utfall. Nordsjön är säkrare än Mellanöstern.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och jag får ju intrycket här att man har kommit fram till att kontrakten ska hedras i Irak, men att man inte riktigt är nöjd över det man kommit fram till och att Irak nödvändigtvis inte är på... Oljedepartementet vill köra över rätten helt enkelt.",
+      "sector": "Olja & Gas",
+      "market": "other",
+      "position_context": "Sålt sista aktier",
+      "downside_note": "Kontraktvaliditet riskeras av Irak",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Charan Resources",
+      "ticker": "CHAR",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "33:20",
+      "reasoning": "Sålt positionen p.g.a. ökande risker i Kurdistan. Aktien har gått upp 20% efter försäljningen men riskerna är för höga.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi sålde i alla fall av våra Charan kan jag ju nämna för disclaimer skuld.",
+      "sector": "Olja & Gas",
+      "market": "other",
+      "position_context": "Sålt",
+      "downside_note": "Hög regional risk",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Opter",
+      "ticker": "OPTER",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "45:44",
+      "reasoning": "Fantastiskt bolag med 20+ års historik, 20-25% årlig tillväxt, 92% återkommande intäkter, 33% EBIT-marginal. Handlas till P/E ~35 för 2024, förväntas P/E 25-30 för 2025. Buy and hold case men skulle vilja köpa på nedsida. Klocka som tickar på.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Det här är definitivt ett bolag jag bevakar. Jag skulle väldigt gärna vilja köpa det här på ett rejält nedställ. Det hade varit kul. Men annars finns det risk att det här nedstället beror på något. Kanske något att lägga i tjänstepensioner eller liknande. Jag äger dock fortfarande aktier, men det känns som ett klockrent buy and hold case.",
+      "sector": "Mjukvara - SaaS",
+      "market": "sweden",
+      "position_context": "Äger",
+      "downside_note": "Värdering i högen men inte snordyr",
+      "catalyst_timing": "Nästa rapport sista februari"
+    },
+    {
+      "stock_name": "Nordrest",
+      "ticker": "NDR",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "46:33",
+      "reasoning": "EV/EBITDA 9 även på svagt Q3. NATO-delen har överlägset bäst marginaler men är lagringskänslig. Trump-seger bör vara nettopositivt för försvar. Andra delar växer 15% med ökad lönsamhet. Köpte på nedsidan efter dålig rapportreaktion.",
+      "price_target": null,
+      "time_horizon": "2025",
+      "quote": "Det skulle jag inte säga med tanke på att jag köpte aktier efter rapporten. Gånga det med fyra så har vi EV/EBITDA 9 nu. Även på det ganska svaga kvartalet så är det inte jättedyrt.",
+      "sector": "Försvar & Flyg",
+      "market": "sweden",
+      "position_context": "Köpte efter rapport",
+      "downside_note": "Q4 kan vara svagt igen",
+      "catalyst_timing": "Q4 rapport 2025"
+    },
+    {
+      "stock_name": "Noble Corporation",
+      "ticker": "NE",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "08:20",
+      "reasoning": "Ner 30% i år, del av sektorsnedgången. Management återköper aktier för 250 miljoner (4% yield). Som jämförelse för Borr.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Inte bara Borr. Borr är ner minus 40 procent i år. Men Nobel minus 30 procent. Valaris minus 26 procent. Transocean minus 32 procent.",
+      "sector": "Olja & Gas - Offshore",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Valaris",
+      "ticker": "VAL",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "08:20",
+      "reasoning": "Ner 26% i år, jämförelseobjekt för Borr. Management återköper för 100 miljoner (3% yield). Rater faller till 155 000.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Inte bara Borr. Borr är ner minus 40 procent i år. Men Nobel minus 30 procent. Valaris minus 26 procent. Transocean minus 32 procent.",
+      "sector": "Olja & Gas - Offshore",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Transocean",
+      "ticker": "RIG",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "08:20",
+      "reasoning": "Ner 32% i år, jämförelseobjekt för Borr. Del av bred sektorsnedgång.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Inte bara Borr. Borr är ner minus 40 procent i år. Men Nobel minus 30 procent. Valaris minus 26 procent. Transocean minus 32 procent.",
+      "sector": "Olja & Gas - Offshore",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Borr Drilling",
+      "ticker": "BORR",
+      "timestamp_start": "07:27",
+      "timestamp_end": "20:44",
+      "word_count": 1500,
+      "speakers": [
+        "Fabian",
+        "Mange",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Fabian diskuterar Borr Drilling i detalj - hans största position som är ner 40% i år och 50% från toppen. Han förklarar att hela offshore-sektorn är ned, inte bara Borr, med rater som fallit från ledande 180 000 till 135-155 000 dollar/dag. Trots nedgången är 2025 fundamentalt starkt med 78% kontraktering och starka kassaflöden. Han köpte mer när aktien föll ytterligare de senaste veckorna och tror att marknaden överreagerat. Andra talare delar erfarenheter av att förlora pengar på Borr.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Medan alla andra som man ser på sociala medier har haft 2021 redux. Så gick jag själv in i 2024 med den här surdegen som största innehav. Borr är minus 40 procent i år. Minus 50 procent sen toppen 2023. Summa summarum, gutt mos.",
+          "timestamp": "07:27",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Borr är ner minus 40 procent i år. Men Nobel minus 30 procent. Valaris minus 26 procent. Transocean minus 32 procent. Så det är inte bara så att skuldsatta Borr sprängt sig utan det är verkligen att hela marknaden har vänt.",
+          "timestamp": "08:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Utilisation för Jackups är fortfarande hög 93 procent. Det vill säga att majoriteten av de här riggarna är kontrakterade. Men såklart är marknaden rädd att det här ska sjunka och man har ju sett rater falla från toppen. Shell satte nyligen en rigg för 135 000 per dag. Valaris för 155 000.",
+          "timestamp": "08:46",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Bård är 78 procent kontrakterad redan nu. För sina 22 nuvarande riggar, snittrater om 148 000 om dag. Det här innebär väl cirka 930 miljoner i omsättning, 600 miljoner i EVTA och 120 till 130 miljoner i fritt kassaflöde. Efter amortering och räntebetalningar. Eller cirka 13 procent i yield.",
+          "timestamp": "12:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag tror väl att givet det senaste årtionde om de trodde det skulle vara längre period av svaghet. Att man skulle hålla sig från att dela ut för mycket pengar och försöka vara lite mer konservativ.",
+          "timestamp": "13:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "För Borr har man även sett insiderköp från styrelseordförande Trojm på 6 miljoner dollar eller 60 miljoner sek. Och det är ju också såklart ett positiv tecken att insider köper.",
+          "timestamp": "14:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Aro Drilling, ett joint venture mellan Saudiaram och Valaris, köpte en rig för 300 miljoner dollar. Men det som är intressant är väl att det ger en liten fingervisning vad Borrs 24 moderna riggar från 2025 har för värde. Och bolaget handlas till halva nybyggnadskostnaden exklusive kassaflöde.",
+          "timestamp": "15:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Bård var väl ner 20% de senaste månaden? Det är rätt extremt. Ja, den var ner under fyra förra veckan. Då tyckte jag att det blev lite för extremt så jag passade på att köpa lite mer.",
+          "timestamp": "19:02",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag tror att i dagsläget är det lite överdrivet att marknaden är skottskadad från senaste årtionde och tar ut lite väl mycket. Vi får såklart se. Det kan ju bli så. Jag har haft fel hittills i år på utvecklingen. Men om hela Borrs rigflotta handlas till 135 000 per dag så sitter man ändå och trycker samma fria kassaflöden 2026 som man kommer göra 2025 och det är inte totalt katastrof heller.",
+          "timestamp": "19:30",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jag gick ner 25% på en månad efter mitt köp. Shit, jag träffade intramånad-toppen där och sen gick det bara ett streck ner i en och en halv månad. Men när jag köpte sa jag att det är utbudssituationen som är det intressanta med aktien. Det är det här med att man inte har byggt några nya riggar på tio år och man behöver scrappa dem efter ett tag successivt.",
+          "timestamp": "20:37",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Men sen gjorde jag inte till en stor position som jag sa när jag pratade om det. Det är på grund av att man är helt beroende av oljepriset som man inte kan styra över och man har väldigt mycket skuld. Den kombinationen är ju ganska farlig.",
+          "timestamp": "21:15",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "13%",
+        "dividend_yield": "2%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Hög",
+        "custom": [
+          "Kontrakteringsgrad: 78% (2025), 24% (2026)",
+          "Snittrater: 148 000 dollar/dag",
+          "Utilisation jackups: 93%",
+          "22 riggar i flottan",
+          "Buyback 80%, utdelning 20%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Marknaden har överreagerat på nedgången",
+          "Få utdelning och buybacks med 13% FCF yield",
+          "2025 fundamentalt starkt med starka kassaflöden",
+          "Insidare köper (6 miljoner dollar)",
+          "Handlas till halva nybyggnadskostnaden",
+          "Aro Drilling köpte ny rigg för 300 miljoner dollar - fingeravtryck på värdering"
+        ],
+        "bear_case": [
+          "Oljepriset kan sjunka under Trump (drill baby drill)",
+          "Rater har fallit från 180 000 till 135-155 000",
+          "Hög skuld",
+          "Beroende av oljepris man inte kan styra",
+          "Marknaden skottskadad från senaste decenniet",
+          "Avlistning från Norge skapar säljtryck"
+        ],
+        "catalysts": [
+          "Rapport Q1 2025",
+          "Kontraktförlängningar 2025",
+          "Avlistning från Norge 31 december 2024",
+          "Potentiell raterecovering"
+        ],
+        "risks": [
+          "Oljeprisnedgång",
+          "Fortsatta ratersänkningar",
+          "Hög skuldsättning",
+          "Negativ teknisk feedback loop från fonder som säljer"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Opter",
+      "ticker": "OPTER",
+      "timestamp_start": "39:27",
+      "timestamp_end": "46:33",
+      "word_count": 800,
+      "speakers": [
+        "Niklas"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Niklas ger en uppdatering om Opter, SaaS-bolag för logistikmjukvara till små och medelstora transportfirmor. Bolaget tickar på enligt plan med 20% ARR-tillväxt och 33% EBIT-marginal i Q3. Återkommande intäkter nu 92% av omsättningen. Handlas till P/E 35 för 2024 men väntas falla till P/E 25-30 för 2025. Niklas äger aktier och ser det som ett buy and hold case men skulle vilja köpa på nedsida.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Opter hade vi uppe i avsnitt 346 och det vi sa då i pitchen var väl att det här är ett fantastiskt bolag som tickar alla boxar men värderingen är i ett ög. De har 20 plus års historik. De har växt typ 20-25% per år.",
+          "timestamp": "39:27",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Totalt äger vd och CTO närmare 30% av bolaget. 12% ägs av styrelseordförande. Så ett fantastiskt fint bolag med mycket återkommande intäkter, bra visibilitet och så vidare.",
+          "timestamp": "40:05",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Q1 sa man att det var en avvaktande marknad. Q2 sa man exakt samma sak, avvaktande marknad, men vi ser inga konkurser eller problem bland kunderna än. Och Q3 säger man återigen samma sak.",
+          "timestamp": "40:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Återkommande intäkter är nu uppe till 92% av omsättningen. Vilket är upp 4% i enheter från föregående kvartal. ARR växer 20% till Q3, och det kan man jämföra med totala omsättningar så växer det 15% för kvartalet.",
+          "timestamp": "42:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Och nu är ebitmarginalen uppe på hela 33%, vilket är en bra tillväxt. Men Q3 alltid varit högst när det gäller ebitmarginal. Och som lägst för Q4.",
+          "timestamp": "42:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Man räknar 15% tillväxt till Q4. Jag räknar 25% ebitmarginal där, så den är alltså lägre än vad man låg på i Q3. Och då får man ut att vi har P35 typ på hela år 2024. Det är mycket, peggtalet, i rock under ett. Eftersom bolaget växer kraftigt.",
+          "timestamp": "43:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det här är definitivt ett bolag jag bevakar. Jag skulle väldigt gärna vilja köpa det här på ett rejält nedställ. Det hade varit kul. Men annars finns det risk att det här nedstället beror på något.",
+          "timestamp": "45:44",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "35 (2024), 25-30 (2025)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "15% (total), 20% (ARR)",
+        "margin": "33% (EBIT Q3)",
+        "debt_level": null,
+        "custom": [
+          "Återkommande intäkter: 92%",
+          "Tio största kunder: 15% av omsättning",
+          "2% direktavkastning",
+          "Växthistorik: 20-25%/år i 20+ år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Fantastiskt bolag med lång historik",
+          "Hög tillväxt (20-25% historiskt)",
+          "Ökande andel återkommande intäkter (92%)",
+          "Hög EBIT-marginal (33%)",
+          "Starkt ägarskap (VD+CTO 30%)",
+          "Buy and hold case"
+        ],
+        "bear_case": [
+          "Värdering inte snorbillig",
+          "Konjunkturkänsligt (kunder är budbolag)",
+          "Konsultintäkter backar"
+        ],
+        "catalysts": [
+          "Nästa rapport sista februari",
+          "Potentiell konjunkturåterhämtning"
+        ],
+        "risks": [
+          "Konjunktursvaghet drabbar kunder",
+          "Värderingsrisk om tillväxt saktar ner"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Nordrest",
+      "ticker": "NDR",
+      "timestamp_start": "46:33",
+      "timestamp_end": "51:00",
+      "word_count": 450,
+      "speakers": [
+        "Fabian",
+        "Mange"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Fabian diskuterar Nordrest som fick en dålig rapportreaktion på över 10% efter Q3 där EBITDA föll från 52 till 37 miljoner. Han köpte aktier efter rapporten och menar att EV/EBITDA på 9 även på svagt kvartal inte är dyrt. NATO-delen har bäst marginaler men är lagringskänslig. Trump-seger bör vara positivt för försvarsmarknaden. Q4 kan återigen vara svagt men ser positivt på 2025.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Det skulle jag inte säga med tanke på att jag köpte aktier efter rapporten. Men tänkte dra lite bakgrund först till rapporten och förväntningarna inför där.",
+          "timestamp": "46:33",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Ebita gick från 52 till 37 miljoner kronor nu i kvartalet. Som du var inne på Niklas så sjönk ju aktien med över 10 procent på rapportdagen.",
+          "timestamp": "47:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Anledningen till att det går dåligt är ju att man har den här NATO-delen som har överlägset bäst marginaler i verksamheten. Där är det ju att länder bygger lite lager under vissa kvartal och under vissa kvartal så gör de inte det.",
+          "timestamp": "47:20",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Trump-seger som vi pratade om, det borde ändå vara lite nettopositivt. Nu behöver Europa ta hand om sig själva lite mer även om det skulle bli fred i Ukraina. Det här är en trend som kommer växa under många år.",
+          "timestamp": "47:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Man fick en ny kund, ett tionde land nu under året som ska börja köpa av en. Kollar man på de andra delarna utöver NATO-delen så växer de med 15% under ökad lönsamhet enligt bolaget.",
+          "timestamp": "48:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Gånga det med fyra så har vi EV/EBITDA 9 nu. Även på det ganska svaga kvartalet så är det inte jättedyrt.",
+          "timestamp": "48:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Q4 tror jag dock kan vara lite vinstminskning igen om den här lageruppbyggnaden inte kommer då heller. Jag köpte lite aktier efter rapporten men tänkte att jag avvaktade något större köp till man sett Q4.",
+          "timestamp": "48:45",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Så länge inte bolaget helt pallerar på det de har sagt och lite halvt lovat i rapporterna nu. Så jag tycker ändå att som en resa inför 2025 så tror jag att aktien kan gå ganska bra då.",
+          "timestamp": "49:15",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "9",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "15% (andra delar)",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "EBITA: 37 MSEK (Q3), 52 MSEK (Q2)",
+          "Ny kund: tionde land",
+          "NATO-delen: överlägset bäst marginaler"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "EV/EBITDA 9 även på svagt kvartal",
+          "Trump-seger nettopositivt för försvar",
+          "Andra delar växer 15% med ökad lönsamhet",
+          "Nya kunder (tio land)",
+          "Positivt för 2025"
+        ],
+        "bear_case": [
+          "NATO-delen är lagringskänslig",
+          "Q4 kan återigen vara svagt",
+          "Rapportreaktion på över 10% visar svaghet"
+        ],
+        "catalysts": [
+          "Q4 rapport",
+          "Försvarstrend i Europa",
+          "Potentiell fred i Ukraina"
+        ],
+        "risks": [
+          "Lagercykler i NATO-delen",
+          "Q4 kan återigen missa förväntningar"
+        ]
+      },
+      "position_disclosure": "bought"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det finns en intressant effekt man ser på till exempel Twitter där man ser folk lägga upp grafer från bolag eller aktier som går väldigt bra som man äger. Och så tittar man i sin egen depå och även om man har saker som går bra så känns det alltid som att det går inte lika bra som för alla andra.",
+      "summary": "Sociala medier skapar FOMO genom att visa bara framgångsrika investeringar, inte misslyckanden.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "02:00",
+      "confidence": "high",
+      "tags": [
+        "sociala medier",
+        "FOMO",
+        "psykologi"
+      ]
+    },
+    {
+      "quote": "Från september 2019 till september 2024 börsen gick upp 85% och hur många av börsens bolag gick upp 100% eller mer? Så ungefär så som börsen gick. Det är 16% av bolagen och kollar man på de mindre listerna typ Spotlight och liknande så är det bara 10% av bolagen som dubblats på fem år, så alltså en av tio.",
+      "summary": "Marknadsbredd är låg - bara 16% av bolagen har dubblerat på fem år trots att index gått upp 85%.",
+      "category": "wisdom",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "timestamp": "03:53",
+      "confidence": "high",
+      "tags": [
+        "marknadsbredd",
+        "statistik",
+        "börs"
+      ]
+    },
+    {
+      "quote": "Det är därför det görs jävla mycket att hitta någon av de riktigt sjuka vinnarna, typ ett bolag som går 1000% på ett år som Bonex eller liknande. Det är ju dom som driver mycket av indexuppgången tillsammans med storbolagen.",
+      "summary": "Indexuppgång drivs av få stora vinnare - svårt att hitta dem.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "05:08",
+      "confidence": "medium",
+      "tags": [
+        "index",
+        "vinnare",
+        "avkastning"
+      ]
+    },
+    {
+      "quote": "Man behöver inte stressa att varenda aktie man äger ska vara en 10-bagger. Det är ju inte så det kommer att funka över tid. Man kan få ganska bra avkastning ändå.",
+      "summary": "Behöver inte att alla investeringar är 10-baggers - bra avkastning kan nås ändå.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "05:08",
+      "confidence": "medium",
+      "tags": [
+        "tålamod",
+        "avkastning",
+        "förväntningar"
+      ]
+    },
+    {
+      "quote": "Sociala medier är ju liksom roten till FOMO verkligen. Så tänk på det när ni kollar sociala medier. Sociala medier är väldigt bra. Man får väldigt mycket intressanta tips och bolag man kan kolla på. Men tänk på att det liksom är ju en glädjebild oftast som visas upp utåt. Det går inte att äga allting och man behöver inte känna FOMO.",
+      "summary": "Sociala medier visar glädjebilder, inte hela verkligheten - orsakar FOMO.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "06:38",
+      "confidence": "high",
+      "tags": [
+        "sociala medier",
+        "FOMO",
+        "glädjebilder"
+      ]
+    },
+    {
+      "quote": "Oftast blir det tvärtom att då rusar man kanske in i någonting som någon aktie som har rusat och precis då vänder den ju istället. Och så sitter man bara och jagar vinnare och får förlorare.",
+      "summary": "Att jaga vinnare leder ofta till att man köper på toppen.",
+      "category": "lesson",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "06:38",
+      "confidence": "high",
+      "tags": [
+        "jaga vinnare",
+        "timing",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Jag menar för dem, att det ska gå in lite på sen, de tycker bara att det är nice att det går ner. För då kan de ju köpa tillbaka aktien billigare och få långsiktiga kassaflöden. Som de tror på i alla fall.",
+      "summary": "Bolagsledning gillar låga aktiekurser - kan köpa tillbaka billigare.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "11:54",
+      "confidence": "medium",
+      "tags": [
+        "insidare",
+        "aktieåterköp",
+        "perspektiv"
+      ]
+    },
+    {
+      "quote": "Druckenmiller är ju en av de absolut bästa investerarna genom tiderna. Och liksom kunna gratis ta del av hans tankar, det är rätt mycket värd ändå.",
+      "summary": "Att lyssna på toppinvesterare är värdefullt.",
+      "category": "wisdom",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "timestamp": "32:25",
+      "confidence": "medium",
+      "tags": [
+        "Druckenmiller",
+        "lärdom",
+        "investering"
+      ]
+    },
+    {
+      "quote": "Det finns en intressant person som klassiskt säger nio som bloddragit flera gånger med att man kan springa över motorvägen? Det är det snabbaste vägen att springa rakt över den. Men riskmässigt är det inte så smart. Även om man kommer över till annan sidan så kunde man lika dött.",
+      "summary": "Att ta enorma risker kan ge bra resultat men kan också leda till katastrof.",
+      "category": "wisdom",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "timestamp": "33:37",
+      "confidence": "high",
+      "tags": [
+        "risk",
+        "motorväg",
+        "metafor"
+      ]
+    },
+    {
+      "quote": "Men man måste ju tänka att över tid så rätter det väl ut sig. Men i alla fall de här Kurdistan-bolagen har rapporterat. Det var väl egentligen det som folk bryr sig om här. Kvartalen för både Charan och DNO de rullar på.",
+      "summary": "Rättar sig ut över tid men kort sikt kan vara volatilt.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "33:30",
+      "confidence": "low",
+      "tags": [
+        "tidshorisont",
+        "Kurdistan",
+        "volatilitet"
+      ]
+    },
+    {
+      "quote": "Sen kan det såklart vara så att allting faller ut rätt och Irak är jättesköna. Man bara återupptar allting som varit förut och det bara pumpar in cashflow till de här bolagen. De får tillbaka alla sina pengar från Kurdistan som de i Kurdistan inte har betalat. Det är nice men då kan jag antagligen plocka upp det senare också. Jag kommer att missa en del av resan men jag kommer att inte värdera sig upp på en gång.",
+      "summary": "Bättre att missa en del av uppgången än ta för stora risker.",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "39:15",
+      "confidence": "medium",
+      "tags": [
+        "risk",
+        "timing",
+        "FOMO"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "DOGE",
+      "asset_name": "Dogecoin",
+      "sentiment": "bullish",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "quote": "Den är upp 120% på sju dagar nu och är större, eller Market Cap är större än Ford. Musk har ju skämtat mycket om Dogecoin, det är ju liksom en meme, kryptovaluta. Och det är ju lite sjukt ändå att det här är liksom ändå, de har mest makt i princip i hela världen, den amerikanska staten. Och de liksom drar en meme-skämt eller ett skämt när de skartar en ny departement.",
+      "context": "Trump skapar Department of Government Efficiency (DOGE) med Musk, Dogecoin rally",
+      "confidence": "high",
+      "price_levels": null,
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "quote": "Bitcoin är upp 28% på sju dagar och Tesla är upp 31%. Det har ju varit snack om att Trump ska göra USA till bitcoinstaten nummer ett.",
+      "context": "Trump-vinst och spekulationer om pro-krypto politik",
+      "confidence": "high",
+      "price_levels": null,
+      "timeframe": "kort sikt"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet fokuserar på sociala medier och FOMO, samt detaljerad analys av Borr Drilling (Fabian köper mer trots 40% nedgång), Opter (fantastiskt bolag men ej snorbilligt), och Nordrest (köpte på nedsida, positivt för 2025). De diskuterar även oljeprisets negativa påverkan från Trump, samt exit från Kurdistan-oljebolag (DNO, GKP, Charan) på grund av ökande politiska risker. Kryptovalutor Dogecoin och Bitcoin gick upp kraftigt efter Trumps seger.",
+  "key_takeaways": [
+    "Sociala medier skapar FOMO genom att bara visa vinnare - inte köpa allt",
+    "Borr Drilling: Fabian köper mer, tror marknaden överreagerat på nedgången",
+    "Kurdistan-bolag: Exit på grund av politiska risker med Irak",
+    "Opter: Buy and hold case men skulle vilja köpa på nedsida",
+    "Nordrest: Köpte på nedsida, positivt för 2025",
+    "Trump negativt för oljepris men positivt för försvar och krypto",
+    "Marknaden har låg bredd - bara 16% av bolagen dubblerade på 5 år"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2024-11-14-3219.txt",
+  "transcript_word_count": 9176,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

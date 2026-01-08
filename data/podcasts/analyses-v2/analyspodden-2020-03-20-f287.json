@@ -1,0 +1,223 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "analyspodden-2020-03-20-f287",
+  "podcast_name": "Analyspodden",
+  "episode_title": "Avsnitt 34 - Vad är nytt i coronakrisen?",
+  "episode_number": 34,
+  "date": "2020-03-20",
+  "hosts": [
+    "Daniel Ljungström"
+  ],
+  "guests": [
+    "Robert Tove",
+    "Jonas Thulin"
+  ],
+  "main_topics": [
+    "Coronakrisen",
+    "Marknadsläge",
+    "Centralbankspaket",
+    "Kinesisk ekonomi"
+  ],
+  "stocks_discussed": [
+    "Instalco",
+    "Loomis",
+    "Volvo",
+    "H&M",
+    "Mekonomen",
+    "Zeta Display",
+    "BTS",
+    "ITAB",
+    "Axfood",
+    "Ica",
+    "Getinge"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Instalco",
+      "ticker": "INST",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Robert Tove",
+      "speaker_role": "guest",
+      "timestamp": "25:50",
+      "reasoning": "Aktien har tappat nästan 50% från toppen men bolaget ser inga problem i verksamheten än. De har en stor orderbok att beta av och PE-värdering under 10 för 2021. Nedgången känns överdriven givet att de inte påverkats än av pandemin.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här är en aktie som har tappat i princip 50% sen toppen och som nu har kommit ner på en PE-värdering under 10 på 2021. Så det känns lite överdrivet.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOM-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Robert Tove",
+      "speaker_role": "guest",
+      "timestamp": "27:50",
+      "reasoning": "Aktien har tappat över 60% och handlas runt 150 kr från nivåer runt 400 kr. Som bolag med historiskt stabilt kassaflöde känns nedgången väldigt överdriven, men osäkerhet kring kontantflöden i samhället pga stängda restauranger och event.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Loomis är ner 60 procent, om inte mer. De toppade väl någonstans på 400 och är nere på 150 kronor nu. [...] 60 procent ner i en aktie som över tid har ett väldigt stabilt och fint kassaflöde känns väldigt väldigt överdrivet.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Volvo",
+      "ticker": "VOLV-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Robert Tove",
+      "speaker_role": "guest",
+      "timestamp": "18:30",
+      "reasoning": "Volvo har inte officiellt vinstvarnat men måste stänga fabriker i Frankrike vilket kommer slå hårt på Q2. Aktien börjar närma sig finanskrisnivåer i värdering så en del är redan diskonterat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nu har ju Volvo kommit ner, inte riktigt, men börjar närma sig finanskrisnivåer i värderingen. Så här börjar ju en del vara diskonterat i alla fall.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Instalco",
+      "ticker": "INST",
+      "timestamp_start": "24:25",
+      "timestamp_end": "26:10",
+      "word_count": 150,
+      "speakers": [
+        "Robert Tove",
+        "Daniel Ljungström"
+      ],
+      "primary_speaker": "Robert Tove",
+      "discussion_summary": "Robert Tove diskuterar Instalco som ett casebolag som inte påverkats av pandemin än. De ser inga problem på sjukfrånvaro eller minskad aktivitet och har en stor orderbok. Aktien har tappat 50% och handlas på PE under 10 för 2021, vilket Robert anser känns överdrivet.",
+      "quotes": [
+        {
+          "speaker": "Robert Tove",
+          "text": "Det tydligaste tecknet tycker jag som vi har fått på någonting som inte verkar drabbas så här långt. Det är ett av våra casebolag, tillika ett uppdragsbolag, Instalco, som är verksam inom installationer, inom rör, VVS, ventilation och så vidare.",
+          "timestamp": "24:25",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Robert Tove",
+          "text": "De ser så här långt ingenting, vare sig på sjukfrånvaro eller minskad aktivitet ut hos kunderna. De har en stor orderbok att beta av.",
+          "timestamp": "24:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Robert Tove",
+          "text": "Det här är en aktie som har tappat i princip 50% sen toppen och som nu har kommit ner på en PE-värdering under 10 på 2021. Så det känns lite överdrivet.",
+          "timestamp": "25:50",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "<10 (2021)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stor orderbok att beta av",
+          "Ingen påverkan än på verksamheten",
+          "PE under 10 för 2021"
+        ],
+        "bear_case": [
+          "Om epidemin blir uthållig kan orderingången minska"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Långvarig pandemi kan drabba orderingång"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det finns ju väldigt spridskur av performance här men den stora marknaden är ju klart bäst i Kina. Och skulle man knorra Kinas strategi, dessutom att säga att vi bara köper biotechbolag i Kina, eller är det techbolag av taget, som de flesta verkar nu, det är ju värt vad det är värt att vara överens om att det är där vi kommer att få se studsen snabbast och närmare kommer.",
+      "summary": "Kinesiska marknaden presterar bättre än väst, särskilt biotech och tech-sektorerna där studsen kan komma snabbast.",
+      "category": "wisdom",
+      "speaker": "Jonas Thulin",
+      "speaker_role": "guest",
+      "timestamp": "21:00",
+      "confidence": "medium",
+      "tags": [
+        "Kina",
+        "sektorval",
+        "studs"
+      ]
+    },
+    {
+      "quote": "Jag tror att ett bra angreppssätt kanske är att utgå ifrån 2018 eller 2019 års intjäning för kanske inte de cykliska bolagen, men många andra bolag. Och använda det som utgångspunkt i det långsiktiga prognosläggandet som man gör för 2021 och 2022. Och utifrån de nivåerna räkna sig fram till vad man tycker att aktien eller bolaget är värt.",
+      "summary": "Vid värdering av bolag i kris bör man utgå från intjäning från tidigare stabila år (2018-2019) och extrapolera därifrån.",
+      "category": "wisdom",
+      "speaker": "Robert Tove",
+      "speaker_role": "guest",
+      "timestamp": "42:55",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "longsiktighet",
+        "intjäning"
+      ]
+    },
+    {
+      "quote": "Jag tror att man ska vara ytterst försiktig med att gissa. [...] Vårt svar på den frågan är ju att ta det lugnt och analysera frågan och självkortadla aktiviteter i portföljerna så att man helt enkelt sitter med det typ av strategier.",
+      "summary": "Var försiktig med att spekulera i extrema scenario. Ta det lugnt, analysera och ha strategier för din portfölj.",
+      "category": "philosophy",
+      "speaker": "Jonas Thulin",
+      "speaker_role": "guest",
+      "timestamp": "42:20",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "spekulation",
+        "disciplin"
+      ]
+    },
+    {
+      "quote": "Don't fight the fedd, lite slörvigt liksom. När de väl skjuter till saker, då måste man tänka till att ska jag gissa på ett extremt negativt scenario, eller ska jag gissa att programmen biter?",
+      "summary": "När centralbanker skjuter till stöd bör man inte satsa på extremt negativa scenario utan att programmen kommer ha effekt.",
+      "category": "wisdom",
+      "speaker": "Jonas Thulin",
+      "speaker_role": "guest",
+      "timestamp": "42:12",
+      "confidence": "medium",
+      "tags": [
+        "centralbanker",
+        "stimulanser",
+        "marknadstajming"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar coronakrisens påverkan på finansiella marknader, med fokus på de enorma stimulanspaket från centralbanker och regeringar. Gästerna observerar att marknaden prissatt in mycket negativt (2% BNP-fall i USA), men att det också finns överdrivna nedgångar i bolag som Instalco och Loomis. Kinesiska marknaden visar tecken på återhämtning.",
+  "key_takeaways": [
+    "Marknaden prissatt in ca 2% BNP-fall i USA per kvartal",
+    "27 centralbanker har sänkt räntan på fyra dagar",
+    "Kinesiska marknaden visar tecken på återhämtning, upp ca 5-20% från botten",
+    "Instalco och Loomis kan vara övervärderade på nedsidan",
+    "Värderingsutgångspunkt bör vara 2018-2019 års intjäning för långsiktig analys"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/analyspodden/transcripts/analyspodden-2020-03-20-f287.txt",
+  "transcript_word_count": 7473,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

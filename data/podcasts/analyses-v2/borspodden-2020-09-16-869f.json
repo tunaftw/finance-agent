@@ -1,0 +1,588 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2020-09-16-869f",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 369 - Jobbintroduktionen",
+  "episode_number": 369,
+  "date": "2020-09-16",
+  "hosts": [
+    "Johan",
+    "Jon"
+  ],
+  "guests": [
+    "Henrik Milton",
+    "Andreas Brock"
+  ],
+  "main_topics": [
+    "Loomis Pay",
+    "HCA Healthcare",
+    "Global fondförvaltning",
+    "Coeli Global"
+  ],
+  "stocks_discussed": [
+    "Sats",
+    "Loomis",
+    "Kraft Heinz",
+    "Catena Media",
+    "H&M",
+    "Gravity",
+    "HCA Healthcare",
+    "Intercontinental Exchange",
+    "JM",
+    "John Deere"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Sats",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "07:08",
+      "reasoning": "Gymkedja med potential post-COVID. Hälsouppvaknande hos folk efter corona, konkurrenter slagits ut. Ej såld idag vid 19kr, EPS-estimat 1.70 2022. Ej extremt billigt men defensiv verksamhet som rullar på år efter år.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "För att lusten att starta ett gym nu är nog inte enorm, samtidigt som en del mindre konkurrenter nog har slagits ut här. Så affärsvärlden såg jag hade köpräk på sats och de räknade om att de ska tjäna 1,70 per aktie 2022. Aktien står i 19 nu så det är inte jättebilligt. Möjligtvis då, jag kan ändå köpa.",
+      "sector": "Health/Fitness",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOM-B",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "11:15",
+      "reasoning": "Värderingscase med Loomis Pay-lansering. Billig aktie (ett av börsens billigaste bolag på omsättning-multipel). Nya betalningsplattform med mål: 3 miljarder omsättning, 20% marginal inom 5 år. Kostnad 100 MSEK/år fram till 2022. Enorm kundbas att sälja mot. Uppside vid framgång, sentiment på bottennivå.",
+      "price_target": null,
+      "time_horizon": "5 år för Loomis Pay-mål",
+      "quote": "Aktien är riktigt billig och om man inte tror på någon slags totalt kontantdöd så ser det väl bra ut och då får man också den här pay-optionen egentligen på köpet som jag ser det. Så jag är faktiskt positiv till det här. Ge tummen upp ägda aktier sen innan och äger fortfarande.",
+      "sector": "Financial Services/Security",
+      "market": "sweden",
+      "position_context": "Äger aktier sen innan",
+      "downside_note": null,
+      "catalyst_timing": "Lansering Danmark hösten 2020, Sverige tidigt 2021"
+    },
+    {
+      "stock_name": "Kraft Heinz",
+      "ticker": "KHC",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "13:24",
+      "reasoning": "Kvalitetsbolag som kommit på motgående. P/E 12-13 för nästa år, 5% direktavkastning. Säljer tillgångar för att reducera skuldsättning. Aktien ner från 90 till 30. Buffett storägare (ca 25%). Nästa utdelning 27 september. Utdelning ger utrymme vid oförändrad kurs.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag blev faktiskt lite köpsugen här efter flera år av motgångar. Aktien har ju inte gått bra heller, utan gått ner från 90 till 30... trots att de har sänkt sin utdelning så betalar de fortfarande 5 procent i direktavkastning med ett relativt lågt p-tal om man tittar på nästa år här, 12-13... Jag är sugen på långa, lite Kraft Heinz, KHC kort namnet.",
+      "sector": "Consumer Staples",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Nästa utdelning 27 september"
+    },
+    {
+      "stock_name": "Catena Media",
+      "ticker": "CTM-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "13:35",
+      "reasoning": "Sålde på morgonen. Rykte om att Better Collective skulle köpa Catena Media bedöms osannolikt efter storägare-försäljning i Betco. Rabatt som gavs i Better Collective gör orolig. USA-marknaden stekhet men osäkerhet kring potentiellt köp.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så i grund och botten blev jag faktiskt snöig till både Betco och Catena här i och med den här affären. Så jag sålde mina Catena Media här nu på morgonen. Får jag säga om det var rätt? Jag tycker rabatten som man fick ge i Better Collective också gör en lite orolig.",
+      "sector": "Gaming/Betting",
+      "market": "sweden",
+      "position_context": "Sålde positionen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "HCA Healthcare",
+      "ticker": "HCA",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Henrik Milton",
+      "speaker_role": "guest",
+      "timestamp": "46:40",
+      "reasoning": "USAs ledande sjukhusoperatör, 200 sjukhus. Bäst kvalitet enligt utvärderingar, väljer personal. Affär växer 5%, köper dåligt presterande sjukhus och förbättrar. P/E 12, förväntas upp till 16-17 (multiplar-värdering). Corona: Q2 vinst högre än någonsin, stöddrag. Enorm backlog av operationer ska göras 2021. Återköp av aktier.",
+      "price_target": "16-17 vinstmultiplar",
+      "time_horizon": "12-18 månader",
+      "quote": "Det som är roligt med den aktien då, det är att den är på 12 gånger vinsten. Vi tror att den aktien ska värderas till multipel investering. Vi tror att den ska upp till en multipel runt 16-17. Med tanke på att du har en typ noll i ränta och har en business affärsmedel som är som en annuit. Så vi tror att det kommer vara ett uppvärderingscase där... Så jag sticker ut hakan och säger att vi tror att vi har 50% på den, på den här starten med honom, på en P12-aktie.",
+      "sector": "Healthcare",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "2021: Enorm operation-backlog ska genomföras"
+    },
+    {
+      "stock_name": "Intercontinental Exchange",
+      "ticker": "ICE",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Andreas Brock",
+      "speaker_role": "guest",
+      "timestamp": "49:02",
+      "reasoning": "Äger New York Stock Exchange, energi-derivat och LME. Digitaliserar bolånemarknaden i USA via förvärv. Fantastisk grundare/byggare, dynamisk. P/E 23 för nästa år. Förutsägbara intäkter från aktiehandel, data, IPO-listings (NYSE fördel). Tillväxt genom förvärv. Återköper 4-5% av aktier årligen.",
+      "price_target": null,
+      "time_horizon": "Långsiktig champion",
+      "quote": "Det här bolaget driver New York Stock Exchange. De äger även bränt massor av energi och derivat... Det de ska göra nu är att de ska digitalisera hela bolånemarknaden i USA... Det här är ett bolag som handlas till 23 gånger vinsten för nästa år. Relativt till vad de pysslar med så tycker jag att det här är spännande... Återköper aktier 4-5% varje år vilket gör underverk på aktiekusten.",
+      "sector": "Financial Services/Exchanges",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Digitalisering av bolånemarknaden"
+    },
+    {
+      "stock_name": "JM",
+      "ticker": "JM-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Henrik Milton",
+      "speaker_role": "guest",
+      "timestamp": "52:28",
+      "reasoning": "Bostadsmäklare i Sverige sa att priser går uppåt, inte nedåt, kontra Gästebankens prognos på -15%. Köptes cirka maj. Positionerades som special situation, ej långsiktig champion.",
+      "price_target": null,
+      "time_horizon": "8 veckor",
+      "quote": "Så vi träffade bostadsmärklar över Sverige, de sa att priserna kom förmodligen stabiliserare, till och med upp. Så vi köpte JM, vi gjorde 50% på åtta veckor och sen så sålde vi av dem. Det är för oss en special situation.",
+      "sector": "Real Estate/Construction",
+      "market": "sweden",
+      "position_context": "Special situation",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "John Deere",
+      "ticker": "DE",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Andreas Brock",
+      "speaker_role": "guest",
+      "timestamp": "51:58",
+      "reasoning": "Rolls Royce av traktorer, marknadsledare i USA. Jordbrukscykel på botten efter 8 års fallande volymer (peakade 2012). Bolag höjt priser och skurit kostnader. Case 1: Försämrade marknadsförhållanden fortsätter men högre priser och mjukvara ger margin expansion - 15% EBIT ökning. Case 2: Ny investeringscykl startar p.g.a. gammal flotta. 25-30% uppsida om volymer flat men mjukvaruskiftet görs. 60-70% uppsida om full cykel. AI och självkörande traktor kommer. 10-15% downside om det inte fungerar.",
+      "price_target": null,
+      "time_horizon": "12-18 månader (25-30% uppsida)",
+      "quote": "Vårt case är egentligen att det fortsätter vara jättedåligt. Men att John Deere kan höja priserna och förbättra sin kostnadsbar, framförallt införa mer mjukvara... John Deere menar då att de kommer att lyfta sin magnat i 15% ebit. Och det ser ut som att de kommer att göra det också. Och då ser vi en uppsida på den här aktien på ungefär 25-30% på 12-18 månader... Får vi en jordbrukscykel som kommer igång igen efter åtta år av fallande volymer. Då gör vi 60-70.",
+      "sector": "Industrial/Agriculture Equipment",
+      "market": "us",
+      "position_context": "Special situation (ej långsiktig champion)",
+      "downside_note": "10-15% downside om mjukvaruskiftet ej fungerar",
+      "catalyst_timing": "Självkörande traktor lansering inom överskådlig tid; Potentiell jordbrukscykel-vändning"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOM-B",
+      "timestamp_start": "08:45",
+      "timestamp_end": "11:55",
+      "word_count": 750,
+      "speakers": [
+        "Johan",
+        "Jon"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan presenterar Loomis Pay som ett nytt betalningsinitiativ för att klättra i värdekedjan. Nyheten har splittrat analytiker - vissa ser panik och kontantdöd, andra ser stora tillväxtmöjligheter. Johan menar att aktien är billig, har en enorm kundbas, och får en growth-option på köpet med Loomis Pay.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Det kom en ganska stor nyhet här i veckan från Loomis, nämligen att de ska lansera Loomis Pay som ett sätt att försöka klättra i värdekedjan. Det här är alltså en komplett betalningsplattform för detaljhandeln som ska hantera alla former av betalningar, kontanter, kort och digitalt och allting.",
+          "timestamp": "08:45",
+          "context": "introduction"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Målsättningen inom fem år för det här är att nå en omsättning över tre miljarder med en rörelsemarginal över 20 %. Loomis räknar med att det här kommer att kosta ungefär 100 miljoner per år fram till 2022.",
+          "timestamp": "09:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "En del hävdar till och med att det luktar panik och att det är ett bevis på att kontanterna verkligen är på väg att försvinna.",
+          "timestamp": "09:22",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Kan säkert också effektivisera lite grand och spara in mycket av de här extra kostnaderna som kommer att komma. Och jag tror att om man kommer att kunna se tidiga tecken på framgång för Loomis Pay under nästa år här, så finns det ju en enorm multipelpotential i det här bolaget som är ett av börsens billigaste bolag, omsätt till multiplar.",
+          "timestamp": "10:25",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Om man lyckas med den här målsättningen, tre miljarder i omsättning och 20 procentiga marginaler, vad är det då värt? Tittar man på de kollegor som finns inom TEX så blir potentialen svindlande.",
+          "timestamp": "10:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Aktien är riktigt billig och om man inte tror på någon slags totalt kontantdöd så ser det väl bra ut och då får man också den här pay-optionen egentligen på köpet som jag ser det. Så jag är faktiskt positiv till det här. Ge tummen upp ägda aktier sen innan och äger fortfarande.",
+          "timestamp": "11:00",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "billig på omsättning-multipel",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Mål: 3 miljarder omsättning",
+          "Mål: 20% marginal",
+          "Investeringskostnad: 100 MSEK/år till 2022"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Enorm kundbas att sälja mot",
+          "Loomis Pay skapar tillväxtmöjligheter",
+          "Erbjuder billigare och enklare lösning än 4-5 avtal",
+          "Unik fysisk närvaro jämfört med molnbaserade konkurrenter",
+          "Billig aktie med multipel-uppsida vid framgång"
+        ],
+        "bear_case": [
+          "Mycket konkurrens i betalningssegmentet",
+          "Kostar massa pengar att bygga",
+          "Vissa ser panik och kontantdöd",
+          "Kommentarer att det inte är därför man äger aktien"
+        ],
+        "catalysts": [
+          "Tidiga tecken på framgång för Loomis Pay under 2021",
+          "Lansering i Danmark hösten 2020",
+          "Lansering i Sverige tidigt 2021"
+        ],
+        "risks": [
+          "Misslyckad lansering av Loomis Pay",
+          "Kontanter dör snabbare än väntat"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "HCA Healthcare",
+      "ticker": "HCA",
+      "timestamp_start": "45:09",
+      "timestamp_end": "48:14",
+      "word_count": 900,
+      "speakers": [
+        "Henrik Milton",
+        "Jon"
+      ],
+      "primary_speaker": "Henrik Milton",
+      "discussion_summary": "HCA är USAs ledande sjukhusoperatör med 200 sjukhus. Bolaget har stark kvalitet, växer 5% årligen, och köper dåliga sjukhus och förbättrar dem. Prisad P12 men borde värderas P16-17 p.g.a. stabila intäkter och nollränta. Corona: Q2 överraskade positivt, 2021 väntas operation-backlog ge kraftigt uppsving. 50% uppsida på 12-18 månader.",
+      "quotes": [
+        {
+          "speaker": "Henrik Milton",
+          "text": "HCA är USAs ledande operatör av sjukhus. 200 sjukhus som de driver i USA. De är bäst i familjen på hela världen på att driva sina sjukhus.",
+          "timestamp": "45:09",
+          "context": "introduction"
+        },
+        {
+          "speaker": "Henrik Milton",
+          "text": "Businessen växer ungefär 5 procent. Det är ingen jättesnabb växande business, men de köper också upp sjukhus som går dåligt, inkorporerar dem och sen så mycket aktier återköp.",
+          "timestamp": "45:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Henrik Milton",
+          "text": "Det som är roligt med den aktien då, det är att den är på 12 gånger vinsten. Vi tror att den aktien ska värderas till multipel investering. Vi tror att den ska upp till en multipel runt 16-17.",
+          "timestamp": "46:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Henrik Milton",
+          "text": "Istället i det andra kvartalet så kom ju vinsten in högre än någonsin. De fick lite stadsstöd och så vidare, men de hade ju lyckats ställa om sin business för att sköta både corona och pågåendeoperationer.",
+          "timestamp": "47:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Henrik Milton",
+          "text": "Vad som kommer att hända i nästa år är att operationerna, nu har vi ju en enorm backlog av operationer i hela västvärlden, så kommer det att ske i 2021.",
+          "timestamp": "47:30",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Henrik Milton",
+          "text": "Så jag sticker ut hakan och säger att vi tror att vi har 50% på den, på den här starten med honom, på en P12-aktie.",
+          "timestamp": "48:00",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "12 nu, förväntat 16-17",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "5%",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Bästa kvalitet på sjukhusdrift",
+          "Återköp av aktier",
+          "Uppvärderingscase från P12 till P16-17",
+          "Nollränta gynnar stabila kassaflöden",
+          "Enorm operation-backlog för 2021"
+        ],
+        "bear_case": null,
+        "catalysts": [
+          "2021: Enorm backlog av operationer ska genomföras"
+        ],
+        "risks": null
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "John Deere",
+      "ticker": "DE",
+      "timestamp_start": "51:58",
+      "timestamp_end": "57:40",
+      "word_count": 1200,
+      "speakers": [
+        "Andreas Brock",
+        "Jon",
+        "Johan"
+      ],
+      "primary_speaker": "Andreas Brock",
+      "discussion_summary": "John Deere är marknadsledande traktortillverkare i USA. Jordbrukscykel på botten efter 8 års fallande volymer. Bolaget har anpassat genom att höja priser och sänka kostnader. Special situation - positionen hålls ca 2 år, ej långsiktig champion. Case 1: Försämrade marknad men högre priser + mjukvara ger margin expansion. Case 2: Ny investeringscykl p.g.a. gammal flotta. AI och självkörande traktor nära lansering. 25-30% uppsida vid flat volym, 60-70% vid ny cykel. 10-15% downside.",
+      "quotes": [
+        {
+          "speaker": "Andreas Brock",
+          "text": "John Deere, Rolls Roysen av traktorer, framförallt i USA. Green, det gröna är ju i en landbrukare blod.",
+          "timestamp": "51:58",
+          "context": "introduction"
+        },
+        {
+          "speaker": "Andreas Brock",
+          "text": "Jordbrukscykeln i USA peakade 2012. Så vi har varit i en, vi har varit lite tics uppåt med nästan ett fall i åtta år.",
+          "timestamp": "52:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Andreas Brock",
+          "text": "Företaget har lyckats att höja priserna och skära kostnader och köpa tillbaka lite aktier.",
+          "timestamp": "52:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Andreas Brock",
+          "text": "Vårt case är egentligen att det fortsätter vara jättedåligt. Men att John Deere kan höja priserna och förbättra sin kostnadsbar, framförallt införa mer mjukvara.",
+          "timestamp": "53:05",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Andreas Brock",
+          "text": "En traktor, när jag körde traktorer på 90-talet på min förbrorsgård, då var de inte uppkopplade till det globala molnet och hade artificiell intelligens. Men det är bara en traktor att ha idag.",
+          "timestamp": "53:25",
+          "context": "context"
+        },
+        {
+          "speaker": "Andreas Brock",
+          "text": "John Deere kommer inom överskådlig tid när han släpper sin första, helt AI och helt självkörande traktor... John Deere menar då att de kommer att lyfta sin magnat i 15% ebit.",
+          "timestamp": "53:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Andreas Brock",
+          "text": "Och då ser vi en uppsida på den här aktien på ungefär 25-30% på 12-18 månader. Bara genom att volymerna är flat men att de gör det här skiftet.",
+          "timestamp": "53:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Andreas Brock",
+          "text": "Får vi en jordbrukscykel som kommer igång igen efter åtta år av fallande volymer. Då gör vi 60-70.",
+          "timestamp": "57:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Det ena är att dels är traktorförare i USA kanske ett av de lägst betalda jobben av alla. Det är ingen megabesparing... Att spara 10 dollar i timmen för att köpa en ny traktor för en miljon dollar. Är det rimligt?",
+          "timestamp": "56:50",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Andreas Brock",
+          "text": "Om det bär exakt självkörande eller sämre, de är ledande och driver sina marginaler uppåt. Vi tror att det kommer att hända, vi litar på John Deere. Om det inte händer så har vi en 10-15 procents nedsida.",
+          "timestamp": "57:15",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Målet 15% EBIT-ökning från mjukvara",
+        "debt_level": "Bra balansräkning (svar på skeptisk fråga)",
+        "custom": [
+          "Jordbrukscykeln peakade 2012",
+          "8 år av fallande volymer",
+          "Återköper aktier"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Marknadsledande 'Rolls Royce of tractors'",
+          "Mjukvara och AI integreras",
+          "Självkörande traktor lanseras inom överskådlig tid",
+          "Höjer priser och sänker kostnader",
+          "Potentiell ny investeringscykl p.g.a. gammal flotta",
+          "15% EBIT-ökning från mjukvaruskiftet"
+        ],
+        "bear_case": [
+          "Självkörande sparar inte mycket pengar - traktorförare lågavlönad",
+          "Tekniken kanske inte fungerar som tänkt"
+        ],
+        "catalysts": [
+          "Lansering av helt AI och självkörande traktor",
+          "Jordbruksflottan så gammal att ny investeringscykl startar"
+        ],
+        "risks": [
+          "10-15% downside om mjukvaruskiftet ej fungerar"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "När du jobbar som analytiker och du ska sätta din riktkurs på Atlas Copcos eller Assa Bloj, i nio fall av tio så är det sättet du jobbar, att du tittar bakåt de senaste fyra åren och så säger du, okej vinst per aktie blir så här om två år och då är multiplen gången det här. Den där processen att analysera vinst per aktie, som jag beskriver i boken, det är nästan inte helt meningslöst, men det är ju väldigt lite värde som kan adderas, men det har ju däremot att förstå multiplen. Så hela caset i Microsoft var, ja vinst per aktie kommer öka, men multiplen kommer ju också öka. Och där är det liksom, ja då går vi emot 28-åringarna på Wall Street.",
+      "summary": "Förstå multiplar är viktigare än att prognostisera vinst per aktie. Microsoft-caset visade att multiplar kan expandera dramatiskt när marknaden omvärderar ett bolag från hårdvara till mjukvara.",
+      "category": "wisdom",
+      "speaker": "Henrik Milton",
+      "speaker_role": "guest",
+      "timestamp": "27:55",
+      "confidence": "high",
+      "tags": [
+        "multiplar",
+        "värdering",
+        "analytiker",
+        "Microsoft"
+      ]
+    },
+    {
+      "quote": "När vi tittar på våra företag så letar vi efter de som kan skapa aktieägarvärde och har ESG-fokus och då faller vissa geografier bort. Rent allmänt så skapas aktieägarvärde ofta i demokratier där det är fast, det här är ett regelverk, det finns lag och ordning och så vidare. Och de länderna finns i Sverige, Schweiz, USA, Australien, Kanada och så vidare. Ryssland har vi aldrig investerat i, jag tror aldrig att vi kommer att investera i.",
+      "summary": "Aktieägarvärde skapas oftast i stabila demokratier med starkt regelverk. Coeli undviker Ryssland och är skeptiska till Japan och Kina.",
+      "category": "philosophy",
+      "speaker": "Andreas Brock",
+      "speaker_role": "guest",
+      "timestamp": "30:50",
+      "confidence": "high",
+      "tags": [
+        "geografi",
+        "aktieägarvärde",
+        "demokrati",
+        "ESG",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Det viktigaste är att våra andra ägar blir rika genom att köpa världens finaste företag. Vi har själva investerat allt tillgängligt eget kapital i fonden. Så vi är ju med här. Vi kommer inte att tappa någon sömn om vi ligger på en halv procent bakom index eller en procent in i index.",
+      "summary": "Fokus på att skapa långsiktig rikedom för andelsägare genom att äga världens bästa bolag, inte att slå index varje år. Egna pengar investerade i fonden.",
+      "category": "philosophy",
+      "speaker": "Henrik Milton",
+      "speaker_role": "guest",
+      "timestamp": "59:40",
+      "confidence": "high",
+      "tags": [
+        "långsiktighet",
+        "aktieägarvärde",
+        "fokus",
+        "alignment"
+      ]
+    },
+    {
+      "quote": "Man behöver prata om att man har snabbt spolat digitaliseringen, det vill säga att det har accelererat, ungefär som vi har haft ett krig, vissa teknikutveckling bara springer iväg för att man måste göra det. Samma sak här, det vill säga att användet av digitala tjänster har accelererat. Det ska jag säga att alla de företagen som är på det, gör det och gör det rätt, de kommer att få med att göra. Och de som inte har gjort det, släppa efter.",
+      "summary": "Corona har accelererat digitaliseringen permanent. Företag som digitaliserar snabbt och korrekt kommer vinna, de som släpar efter kommer tappa.",
+      "category": "wisdom",
+      "speaker": "Henrik Milton",
+      "speaker_role": "guest",
+      "timestamp": "42:03",
+      "confidence": "high",
+      "tags": [
+        "digitalisering",
+        "corona",
+        "acceleration",
+        "teknikutveckling"
+      ]
+    },
+    {
+      "quote": "Den andra tendensen är ju då, i den här världen som vi går mot, är ju en ökad nivå konflikt. Vi ser ju den militära uppbyggnaden, Ryssland bygger upp, Europa bygger upp, Kina bygger upp och världen håller på att delas upp i ett västerländskt system, mot ett kinesiskt system. Och den konflikten accelererar nu... Och så att capex, alltså investeringar i ekonomin, har kommit att öka igen, för att globaliseringen backar och vi förbereder just för en kommande konflikt.",
+      "summary": "Världen delas upp i västerländskt och kinesiskt system med ökad konflikt. Detta driver upp investeringar i infrastruktur och fabriker när globaliseringen backar.",
+      "category": "wisdom",
+      "speaker": "Henrik Milton",
+      "speaker_role": "guest",
+      "timestamp": "42:27",
+      "confidence": "medium",
+      "tags": [
+        "geopolitik",
+        "globalisering",
+        "konflikt",
+        "investeringar",
+        "Kina",
+        "USA"
+      ]
+    },
+    {
+      "quote": "Vi lever i värde noll nu. Noll inflation, noll tillväxt och noll ränta. Och där finns möjligheter i den här nollräntan. Och det är ju fastigheter som vi har pratat om.",
+      "summary": "Nollränta-miljön skapar möjligheter, framförallt i fastigheter.",
+      "category": "wisdom",
+      "speaker": "Andreas Brock",
+      "speaker_role": "guest",
+      "timestamp": "44:20",
+      "confidence": "high",
+      "tags": [
+        "ränta",
+        "inflation",
+        "fastigheter",
+        "nollränta"
+      ]
+    },
+    {
+      "quote": "Det är ändå lite uppseendeväckande att de stora investmentbankerna i Sverige håller på med den här typen av fullspel får man säga. Med motivation som att corona hade sänkt värderingen och man skulle vara glad om man fick det där priset och så vidare. Det är ju så, ringer någon och vill köpa det du har, så är det oftast mer värt än vad du tror. Så sälj inte bort dig direkt.",
+      "summary": "Varning för oreglerad marknad för onoterade techbolag. Om någon vill köpa dina aktier, är de oftast mer värda än vad du tror.",
+      "category": "lesson",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "04:38",
+      "confidence": "high",
+      "tags": [
+        "onoterade bolag",
+        "investmentbank",
+        "värdering",
+        "Klarna",
+        "varning"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet inleds med diskussion om börsens styrka (index över 1800) och FOMO. Huvudintervjun med Coeli Global ger detaljerade case på HCA Healthcare, Intercontinental Exchange och John Deere. Johan delar syn på Sats, Loomis (positiv), Kraft Heinz (köpintresserad) och Catena Media (såld). Marknadssentimentet är optimistiskt men med oroväckande signaler när alla känner att börsen inte kan gå ner.",
+  "key_takeaways": [
+    "Coeli Global har ett fantastiskt år, 11-12% bättre än index",
+    "HCA Healthcare: USAs ledande sjukhusoperatör, P12 men borde värderas P16-17, 50% uppsida",
+    "Loomis Pay kan skapa stor uppsida för en redan billig aktie",
+    "John Deere: Special situation med 25-30% uppsida på 12-18 månader, upp till 60-70% vid ny jordbrukscykl",
+    "Varning för onoterade techbolagsmarknad - om någon vill köpa dina aktier, är de oftast mer värda än du tror"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2020-09-16-869f.txt",
+  "transcript_word_count": 10533,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

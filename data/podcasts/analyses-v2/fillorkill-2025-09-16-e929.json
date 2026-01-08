@@ -1,0 +1,586 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2025-09-16-e929",
+  "podcast_name": "Fil or Kill",
+  "episode_title": "Avsnitt 546 - Storm bland småbolagen",
+  "episode_number": 546,
+  "date": "2025-09-16",
+  "hosts": [
+    "Fil",
+    "Kill"
+  ],
+  "guests": [
+    "Christopher Cook (Virtune)",
+    "Daniel Arendt-Trupp (Saver)"
+  ],
+  "main_topics": [
+    "Småbolag och midcaps",
+    "Tech-bolag",
+    "Kärnkraft och uran",
+    "Guld",
+    "Krypto-ETP",
+    "Federal Reserve"
+  ],
+  "stocks_discussed": [
+    "Intelgo",
+    "Grum/Integrum",
+    "Klarna",
+    "Oracle",
+    "Tesla",
+    "Nvidia",
+    "Oklo",
+    "H&M SPAC (Honda)",
+    "Lundin Gold",
+    "Telgo"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Oracle",
+      "ticker": "ORCL",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Kill",
+      "speaker_role": "host",
+      "timestamp": "25:55",
+      "reasoning": "Host gick kort på Oracle efter att aktien rusat 40% på en dag baserat på en post med estimerade prestationsbaserade intäkter på 400 miljarder dollar fram till 2030. Ser det som toppigt och svagt fundamentalt att man kan rusa så mycket på en estimering.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag blev kort av Oracle där. Den har börjat bra. Idag tittar den väl upp, idag har den upp rätt 5 procent igen, men jag förstår inte varför, så man får väl banka på igen.",
+      "sector": "Teknik",
+      "market": "us",
+      "position_context": "Kort position",
+      "downside_note": null,
+      "catalyst_timing": "Rapport"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "sell",
+      "confidence": "low",
+      "speaker": "Kill",
+      "speaker_role": "host",
+      "timestamp": "19:01",
+      "reasoning": "Host är kort Tesla, men erkänner att han misstagade sig när aktien gick upp 14% på två dagar efter Elon Musks insiderköp på 1 miljard dollar. Ser koppling till fundamenta som svag.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Jag satt ju och bäsade Tesla förra veckan, sen garvade jag åt mig själv att den går upp 14 procent på två dagar. Den här har ju uppenbarligen ingen koppling till Fundamenta.",
+      "sector": "Bilar",
+      "market": "us",
+      "position_context": "Kort position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Kill",
+      "speaker_role": "host",
+      "timestamp": "19:06",
+      "reasoning": "Host är kort Nvidia som del av en bred strategi att vara kort tech-bolag som rusat kraftigt.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Nvidia är kort nu, Oracle är kort, Tesla väntar på att komma in nu.",
+      "sector": "Halvledare",
+      "market": "us",
+      "position_context": "Kort position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Klarna",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "17:23",
+      "reasoning": "Köpte vid 50 SEK under IPO-dagen men sålde vid 47 SEK när aktien rasade snabbt. Försökte köpa vid 40.25 men fick inte allocation. Ser intresse för att köpa vid 40 igen om det sker. Just nu ingen position, väntar på rapport.",
+      "price_target": "40 SEK",
+      "time_horizon": "kort sikt",
+      "quote": "Men kommer den ner mot 40 så kanske man får ta där igen. Det blir väl intressant när nästa rapport kommer och det blir det. Nu är det ju mer ett IPO-case, ingen riktigt vet var den ska handlas.",
+      "sector": "Fintech",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Nästa rapport"
+    },
+    {
+      "stock_name": "Oklo",
+      "ticker": "OKLO",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "26:22",
+      "reasoning": "Köpte när aktien stod mellan 10-15 dollar, nu över 90 dollar. Trumps uttalande om uran som strategisk råvara driver sektorn. Fortfarande innehav.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag såg en graf på Oklo, jag som drog det här med kärnkraft i höstas, och köpte väl någon gång med red jättekort. Den stod över 90 dollar nu och den stod väl mellan 10 och 15. Det hade man ju särmålt, det var ju alla ingredienser.",
+      "sector": "Kärnkraft",
+      "market": "us",
+      "position_context": "Lång position sedan hösten",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "H&M SPAC (Terrestrial Energy)",
+      "ticker": "HNDMF",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "26:53",
+      "reasoning": "Kärnkraft-SPAC med fokus på molten salt-reaktorer. Handlas runt 12 dollar (10 i kassan). Köpt i februari. Väntar på att den ska få loss, men tror på kärnkraft-sektorn efter Trumps uran-utspel.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "De håller på med såhär... Malted salt. Och hade de valt ett bolag? Ja, de har valt ett som heter Terrestrial Energy. Ett amerikanskt bolag. De ska ju merje röstningsdatum intressant. Jag har ägt den här sedan februari någon gång, tror jag jag köpte den.",
+      "sector": "Kärnkraft",
+      "market": "us",
+      "position_context": "Lång position sedan februari",
+      "downside_note": null,
+      "catalyst_timing": "Röstningsdatum"
+    },
+    {
+      "stock_name": "Lundin Gold",
+      "ticker": "LUG.TO",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "27:54",
+      "reasoning": "VD som byggde bolaget från 20-30 till 600 kronor slutade. Aktien har fallit från 650 till 575 kronor. Guldet på rekordpris, ser potential för studs om guldet håller sig uppe. Inget position just nu men överväger.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Och guldet är ju på rekordpris, och nu har Lundin Gold kommit ner från 650 till 575 sen han avgick. Så den här aktien har tidigare kanske varit lite frånkopplad på uppsidan, handlats till premie, och nu känns det väl som att det borde komma, så länge guldet håller sig uppe borde det ju komma en studs.",
+      "sector": "Gruvor",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Telgo",
+      "ticker": null,
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "01:26",
+      "reasoning": "Innehar Telgo, men detaljerade resonemang saknas i transkriptet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ja, jag har handlat lite in Telgo, tittat lite på det här inte-grumbudet som jag pratat om innan.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": "Lång position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Intelgo",
+      "ticker": "INGO-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "08:29",
+      "reasoning": "Efter kritisk artikel av Sven Nordenstam föll aktien 20-30%. Har extrema rörelser (ner 5%, upp 10%). Möjlighet till trading men svårt att ta lång position på grund av bristande tilltro till bolagets kommunikation.",
+      "price_target": null,
+      "time_horizon": "kort sikt (trading)",
+      "quote": "Jag har svårt att ta en lång position när man inte riktigt vet vad som är på bordet, men känner man att man har det, man har kanske kontaktat kunder eller gjort jobbet, då är det ju ett superläge här. Så det är ju superläge åt båda håll.",
+      "sector": "Teknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Grum/Integrum",
+      "ticker": "GRUM-B",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "15:18",
+      "reasoning": "Köpte en pytteliten position när aktien var ner 45% dagen transkriptet spelades in. Bud på 120% premie föll efter att endast 69% accepterat, mycket lägre än väntat. Väldigt ovanligt fall med juridiska frågetecken.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Men det är en pytteliten lottseder. Jag tog den när jag var ner 45 procent idag.",
+      "sector": "Teknik",
+      "market": "sweden",
+      "position_context": "Liten position (när ner 45%)",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Intelgo",
+      "ticker": "INGO-B",
+      "timestamp_start": "03:04",
+      "timestamp_end": "10:04",
+      "word_count": 800,
+      "speakers": [
+        "Fil",
+        "Kill"
+      ],
+      "primary_speaker": "Fil",
+      "discussion_summary": "Diskuterar Intelgo som har rört sig enormt efter en kritisk artikel av Sven Nordenstam som ledde till 20-30% kursfall. Bolaget värderas mellan 3-5 miljarder men har dålig kommunikation, ingen IR-person, och frågetecken runt kassaflöden och två chefer som fått gå utan förklaring. VD köper aktier men volatiliteten är extrem.",
+      "quotes": [
+        {
+          "speaker": "Fil",
+          "text": "Vad vill du göra? Vi vill vara fria. Vi vill vara fria för att göra vad vi vill göra.",
+          "timestamp": "03:04",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fil",
+          "text": "Det först går runt ett rykte, sen kommer en D-artikel och sen går kursen ner 30% och bolaget är värt 5 miljarder. Det är inte det normala.",
+          "timestamp": "03:50",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Kill",
+          "text": "Jag säger bara såhär, två chefer får gå, Nordamerika-chefen fick gå, såg inte ut som att den personen hade gjort något dåligt jobb. Så att ingen kommunikation kring det. Aktien går ner 30%, vdn köper, man sätter upp mål, man når dem efter två veckor.",
+          "timestamp": "05:55",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fil",
+          "text": "Jag har svårt att ta en lång position när man inte riktigt vet vad som är på bordet, men känner man att man har det, man har kanske kontaktat kunder eller gjort jobbet, då är det ju ett superläge här.",
+          "timestamp": "08:29",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "EBIT mål: 400 miljoner kronor",
+          "Värdering: 3-5 miljarder SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Fantastiska siffror på pappret",
+          "Ökar omsättning och EBIT mycket",
+          "Kassaflödet kom med i senaste rapporten",
+          "VD köper aktier"
+        ],
+        "bear_case": [
+          "Dålig kommunikation och ingen IR-person",
+          "Chefer får gå utan förklaring",
+          "Extrem volatilitet och ryktesdriven",
+          "Frågetecken runt kassaflöden och bokföring",
+          "Kritisk artikel från Sven Nordenstam"
+        ],
+        "catalysts": [
+          "Klarhet runt bokföring",
+          "Ny rapport",
+          "Insiderköp"
+        ],
+        "risks": [
+          "Kokade böcker/channel stuffing",
+          "Kommunikationsproblem kvarstår",
+          "Insiderköp är små relativt marknadsvärde"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Grum/Integrum",
+      "ticker": "GRUM-B",
+      "timestamp_start": "13:17",
+      "timestamp_end": "16:59",
+      "word_count": 600,
+      "speakers": [
+        "Fil",
+        "Kill"
+      ],
+      "primary_speaker": "Fil",
+      "discussion_summary": "Bud på Grum med över 100% premie föll efter att endast 69% accepterat, mycket lägre än väntat. Grundaren verkar ha accepterat men hans aktier kom inte in. Väldigt ovanligt fall med juridiska frågetecken. Aktieägare som körde arbitrage förlorade stora pengar.",
+      "quotes": [
+        {
+          "speaker": "Fil",
+          "text": "Och ändå då fick man in så lite. Och då måste man spekulera här i också, i och med att vi inte har någon fakta. Det matematiken tyder på är ju att grundaren då som har tackat ja, och jag har nog aldrig sett det tidigare, att någon tackar ja, man har signat ett avtal och säger att jag kommer att lämna in mina aktier.",
+          "timestamp": "13:36",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fil",
+          "text": "Men det är själva filosofin i murder-arbitrage.",
+          "timestamp": "14:04",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fil",
+          "text": "Men som att ställa ut optioner, till slut kommer en jättesmäll.",
+          "timestamp": "14:25",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Budpremie: 120%",
+          "Accepterade: 69%",
+          "Kursförlust för arbitrage: ~20 kronor"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Bolaget har potentiella värden i teknik",
+          "Aktien handlas högre än innan budet"
+        ],
+        "bear_case": [
+          "Budet föll",
+          "Grundarens aktier kom inte in enligt avtalet",
+          "Dålig rapport under budperioden",
+          "Kassa inte fantastiskt stor"
+        ],
+        "catalysts": [
+          "Nytt bud?",
+          "Kommunikation från bolaget"
+        ],
+        "risks": [
+          "Juridiska frågetecken",
+          "Grundaren bröt avtalet eller administrativa problem"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Oracle",
+      "ticker": "ORCL",
+      "timestamp_start": "20:55",
+      "timestamp_end": "26:18",
+      "word_count": 700,
+      "speakers": [
+        "Fil",
+        "Kill"
+      ],
+      "primary_speaker": "Kill",
+      "discussion_summary": "Oracle rusade 40% på en dag efter att man presenterade en post med estimerade prestationsbaserade intäkter på 400 miljarder dollar fram till 2030. Host är skeptisk till att man kan rusa så mycket på en estimering och gick kort. Ser det som toppigt.",
+      "quotes": [
+        {
+          "speaker": "Kill",
+          "text": "De trollar fram en post, hur benämner de det? Det är inte intäkter om, kommande order så det är det. Kommande prestationsbaserade intäkter som de uppskattar fram till 2030 var 400 miljarder dollar och så där.",
+          "timestamp": "21:01",
+          "context": "metric"
+        },
+        {
+          "speaker": "Kill",
+          "text": "Om man är aktiekritiker måste man recensera bra här under 30 procent.",
+          "timestamp": "22:45",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Kill",
+          "text": "Jag blev kort av Oracle där. Den har börjat bra.",
+          "timestamp": "25:55",
+          "context": "action"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Estimerade intäkter 2030: 400 miljarder USD",
+          "Kursuppgång: 40% på en dag",
+          "Prestationsbaserade intäkter"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Huge order från OpenAI",
+          "AI-hype driver intäkter"
+        ],
+        "bear_case": [
+          "Post är estimerad inte garanterad",
+          "Prestationsbaserade intäkter är riskfyllda",
+          "Kursuppgång på 40% på en dag är extremt",
+          "Larry Ellisons historia med redovisningsmanipulation"
+        ],
+        "catalysts": [
+          "Nästa rapport"
+        ],
+        "risks": [
+          "AI-bubbla kan spricka",
+          "Estimerade intäkter realiseras inte"
+        ]
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det här är ingen att hålla på på börsen, ingen lagsport. Det är me, myself and fucking I. Så häng inte med i några trådar, häng inte med i någonting, att det är vi mot domkänslan. Bolaget har en uppgift och det är att motbevisa kritikerna.",
+      "summary": "Investerande är en individuell sport, inte en lagsport. Undvik att känna lojalitet mot bolag och delta i 'vi mot dom'-mentalitet.",
+      "category": "philosophy",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "09:36",
+      "confidence": "high",
+      "tags": [
+        "investeringsfilosofi",
+        "beteendefinance",
+        "grupptänk"
+      ]
+    },
+    {
+      "quote": "Tricket där är väl att man gör många. Många och diversifierat bland murder i många murderers liksom. Och inte... Så är det väl. Men som att ställa ut optioner, till slut kommer en jättesmäll.",
+      "summary": "Merger arbitrage kräver diversifiering över många bolag, annars är risken för en stor förlust när ett bud faller.",
+      "category": "wisdom",
+      "speaker": "Kill",
+      "speaker_role": "host",
+      "timestamp": "14:14",
+      "confidence": "medium",
+      "tags": [
+        "merger arbitrage",
+        "riskhantering",
+        "diversifiering"
+      ]
+    },
+    {
+      "quote": "Finns det frågetecken så är det ett bolagsuppgift att räta ut dem.",
+      "summary": "När kritik uppstår mot ett börsbolag är det bolagets ansvar att kommunicera och räta ut frågetecknen, inte aktieägarnas.",
+      "category": "lesson",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "12:04",
+      "confidence": "high",
+      "tags": [
+        "kommunikation",
+        "IR",
+        "kritik"
+      ]
+    },
+    {
+      "quote": "Jag har svårt att ta en lång position när man inte riktigt vet vad som är på bordet, men känner man att man har det, man har kanske kontaktat kunder eller gjort jobbet, då är det ju ett superläge här. Så det är ju superläge åt båda håll.",
+      "summary": "Hög volatilitet skapar möjligheter för både lång och kort, men bara om man gjort sin due diligence och förstår vad som pågår.",
+      "category": "wisdom",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "08:29",
+      "confidence": "medium",
+      "tags": [
+        "volatilitet",
+        "trading",
+        "due diligence"
+      ]
+    },
+    {
+      "quote": "Fyll eller dö, jag fick väl säga att Fille, det är väl att jag inte har springt bort mig i IntelliGo. Det är sjukt lätt att handla för stort, handla för mycket, aktiekursen rör sig 10 procent upp och ner.",
+      "summary": "Varning för att handla för stort i volatila aktier - risken är stor att man springer bort sig.",
+      "category": "lesson",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "32:44",
+      "confidence": "high",
+      "tags": [
+        "position sizing",
+        "riskhantering",
+        "volatilitet"
+      ]
+    },
+    {
+      "quote": "Det är lösen på fredag också. Jag tror att jag kommer öka den här veckan.",
+      "summary": "Överväger att öka korta positioner i index inför optionslördag (lösen).",
+      "category": "wisdom",
+      "speaker": "Fil",
+      "speaker_role": "host",
+      "timestamp": "33:42",
+      "confidence": "low",
+      "tags": [
+        "options",
+        "index",
+        "timing"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Christopher Cook",
+      "speaker_role": "guest",
+      "quote": "Bitcoin är fortsatt väldigt dominans och representerar ungefär 57-58% av totaltmarknadens värde. Men å andra sidan skulle jag säga att det finns ett väldigt stort intresse för så kallade altcoins.",
+      "context": "Krypto ETP och marknadstrender",
+      "confidence": "high",
+      "price_levels": null,
+      "timeframe": "lång sikt"
+    },
+    {
+      "asset_symbol": "XRP",
+      "asset_name": "XRP",
+      "sentiment": "bullish",
+      "speaker": "Christopher Cook",
+      "speaker_role": "guest",
+      "quote": "Men å andra sidan skulle jag säga att det finns ett väldigt stort intresse för så kallade altcoins, som exempelvis XRP, Solana med mera.",
+      "context": "Altcoin intresse och ETF-utveckling",
+      "confidence": "high",
+      "price_levels": null,
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Christopher Cook",
+      "speaker_role": "guest",
+      "quote": "Men å andra sidan skulle jag säga att det finns ett väldigt stort intresse för så kallade altcoins, som exempelvis XRP, Solana med mera.",
+      "context": "Altcoin intresse och ETF-utveckling",
+      "confidence": "high",
+      "price_levels": null,
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Christopher Cook",
+      "speaker_role": "guest",
+      "quote": "Så att man vill investera bortom bitcoin och Ethereum som är de största, så krävs det ju ofta så att man gör väldigt mycket research med mera.",
+      "context": "Beyond BTC and ETH",
+      "confidence": "medium",
+      "price_levels": null,
+      "timeframe": "lång sikt"
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet handlar om turbulent vecka för småbolag och midcaps. Intelgo faller kraftigt efter kritisk artikel, Grums bud faller, och Klarna har volatil IPO. Hosts är skeptiska till amerikanska tech-bolag efter Oracles 40% rusning på estimerade intäkter, och har kort positioner i Oracle, Tesla och Nvidia. Intresse för kärnkraft/uran (Oklo, H&M SPAC) och Lundin Gold. Krypto ETP diskuteras med Virtune och Saver.",
+  "key_takeaways": [
+    "Intelgo extrem volatil men svårt att bedöma på grund av dålig kommunikation",
+    "Oracle gick kort på 40% kursuppgång på estimerade intäkter",
+    "Tech-bolag (Tesla, Nvidia, Oracle) ses som toppigt",
+    "Kärnkraft och uran sektor drivs av Trumps uran-utspel",
+    "Krypto ETP växer med Virtune som partner till Saver",
+    "Hosts är kort tech och index men likvida"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2025-09-16-e929.txt",
+  "transcript_word_count": 8406,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,209 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2016-08-17-f33d",
+  "podcast_name": "Sparpodden",
+  "episode_title": "#Sparpodden ep. 145 - Tillbaka i börsfabriken",
+  "episode_number": 145,
+  "date": "2016-08-17",
+  "hosts": [
+    "Bård Nold",
+    "Peter Benson"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Brexit",
+    "Investeringsrådgivning",
+    "Handelsbankens vd-byte",
+    "Räntemarknad",
+    "Hexagon"
+  ],
+  "stocks_discussed": [
+    "Mavshack",
+    "Handelsbanken",
+    "Hexagon",
+    "Ericsson"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Mavshack",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "08:44",
+      "reasoning": "Förhoppningsbolag med superhög risk. Ett bolag som handlar om förhoppningar om framtidsprojekt snarare än nuvarande värde. Kombinationen att vara nybörjare och investera i detta bolag får nackhåren att resa sig. Om man vill experimentera ska man tänka stryktipsmässigt - några hundralappar max.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag skulle klassa det här som ett förhoppningsbolag. Kombinationen när han skriver att han är nybörjare och att det skulle vara ett guldläge och ett sånt här bolag, det får mig lite att... Nackhåren reser sig lite faktiskt. Jag tycker att man ska vara väldigt försiktig.",
+      "sector": null,
+      "market": "unknown",
+      "position_context": null,
+      "downside_note": "Superhög risk, kan torra allt",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hexagon",
+      "ticker": "HEXA-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "33:39",
+      "reasoning": "Melker Schörling är en superduktig ägare och Ola Rollén en duktig vd som gjort kanonjobb i 15 år. Men värderingen är mycket hög: 17x EV/EBIT (25x P/E). Marginalerna har gått från 8-9% till 25%, balansräkningen trimmad men skuldsättningen är nu ganska hög. Hänger mycket på investeringar i världsekonomin som inte tar fart. Rollén har över en miljard investerat i andra bolag (fingerprint, biometri) mer än i Hexagon.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Värderingen är p25 eller rättare sagt 17 gånger rörelsesresultatet, det är väldigt högt tycker jag. Han kommer ju sluta någon gång... men det brukar inte sällan vara startpunkten för några trista år för såna här bolag.",
+      "sector": "Teknik/Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Hexagon",
+      "ticker": "HEXA-B",
+      "timestamp_start": "33:39",
+      "timestamp_end": "35:57",
+      "word_count": 350,
+      "speakers": [
+        "Peter Benson",
+        "Bård Nold"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Peter Benson diskuterar Hexagon och landar i en neutral hållning. Bolaget har starkt ägande och kompetent ledning men högst värdering. Oron gäller investeringar som inte tar fart och vd:s framtida avgång samt personliga investeringar i andra bolag.",
+      "quotes": [
+        {
+          "speaker": "Peter Benson",
+          "text": "Melker Sjörling är en superduktig ägare och Ola Rolén är en duktig vd, och de har gjort ett kanonjobb i 15 års tid. Och det ska man inte så att säga betta emot.",
+          "timestamp": "33:39",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Du har gått från kanske 8-9% marginal till nu uppåt 25% marginal, vilket är väldigt högt.",
+          "timestamp": "34:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Värderingen är p25 eller rättare sagt 17 gånger rörelsesresultatet, det är väldigt högt tycker jag.",
+          "timestamp": "34:52",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Han har väl över en miljard investerat i fingerprint och är det NEXT eller jag glömmer bort nu, något annat sånt här biometribolag. Han har mer pengar investerat i de där bolagen än vad han har i Hexagon.",
+          "timestamp": "34:58",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "25",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "25%",
+        "debt_level": "ganska hög",
+        "custom": [
+          "Kapitalbindning minskat från 33% till 9%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Melker Schörling är en superduktig ägare",
+          "Ola Rollén har gjort ett kanonjobb i 15 år",
+          "Starkt förbättrad marginalstruktur från 8-9% till 25%",
+          "Effektivt trimmad balansräkning"
+        ],
+        "bear_case": [
+          "Värdering är mycket hög: 25x P/E, 17x EV/EBIT",
+          "Skuldsättningen är ganska hög efter förvärv",
+          "Investeringar i världsekonomin tar inte fart",
+          "Kinesiska ekonomin ställer om till tjänster"
+        ],
+        "catalysts": [
+          "Ökade investeringar i världsekonomin"
+        ],
+        "risks": [
+          "CEO succession risk när Rollén slutar",
+          "Rollén har mer pengar i andra biometribolag än i Hexagon",
+          "Digitalisering kan minska behovet av fysiska investeringar"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Vill man börja där, och det kan jag ha respekt för att man kan vilja, även om jag själv aldrig skulle göra det, då tycker jag att man ska tänka mer stryktipset mässigt. Hur mycket skulle man lägga på en lottorad? Eller en stryktipsrad eller vad det nu heter.",
+      "summary": "Behandla högriskinvesteringar som underhållning, inte som seriösa investeringar. Satsa bara små summor motsvarande en lottorad.",
+      "category": "wisdom",
+      "speaker": "Bård Nold",
+      "speaker_role": "host",
+      "timestamp": "12:22",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "begynnerinvestering"
+      ]
+    },
+    {
+      "quote": "Det är klart att han har ju en miljon som han kan amortera ner ännu mer. Han kommer ju till en låg nivå, det kanske känns tryggt. Men det är ju det man ska känna sig bekväm med. Det spelar ingen roll om man går runt nu och är orolig. Man är orolig för sin aktieportfölj eller sin belåning på huset. Det är inte värt det någonstans.",
+      "summary": "Investerande ska inte vara en källa till stress. Välj den risknivå du känner dig bekväm med.",
+      "category": "philosophy",
+      "speaker": "Bård Nold",
+      "speaker_role": "host",
+      "timestamp": "23:36",
+      "confidence": "high",
+      "tags": [
+        "risktolerans",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Och man ska bara försäkra saker som man vet med sig att man skulle tycka väldigt illa om och förlora om ni förstår vad jag menar. Eller enklare formulerat, har man råd att vara utan försäkringar så spar man ju pengar genom att inte teckna den.",
+      "summary": "Försäkra bara vad du inte har råd att förlora. Bindandet av ränta är en försäkring som kostar pengar.",
+      "category": "philosophy",
+      "speaker": "Bård Nold",
+      "speaker_role": "host",
+      "timestamp": "28:23",
+      "confidence": "high",
+      "tags": [
+        "försäkring",
+        "räntebindning"
+      ]
+    },
+    {
+      "quote": "Där kommer jag gå ut och säga till de som tycker att tioåringen ser väldigt lockande ut. Jag förstår det därför att SBAB gick ut igår och sänkte räntan. De har ett listpris på 3,08 % på tio år... Det kan kännas väldigt lågt, men tio år är alldeles för lång tid att binda ränta på. Du har ingen aning om hur ditt liv ser ut om tio år.",
+      "summary": "Tio år är för lång tid att binda ränta. Livet förändras på oförutsägbara sätt.",
+      "category": "wisdom",
+      "speaker": "Bård Nold",
+      "speaker_role": "host",
+      "timestamp": "27:47",
+      "confidence": "high",
+      "tags": [
+        "räntebindning",
+        "bolån",
+        "långsiktighet"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet handlar om återkomsten efter sommaren med diskussioner om Brexit, OS och ekonomiska frågor. Lyssnarfrågorna handlar om Mavshack (varning för högriskbolag), avgångsvederlag och skatteoptimering, samt balans mellan lån och investeringar. Peter Benson delar analys av Hexagon med neutral hållning på grund av hög värdering.",
+  "key_takeaways": [
+    "Var mycket försiktig med högriskbolag som Mavshack, särskilt som nybörjare",
+    "Hexagon har stark ledning men hög värdering och succession risk",
+    "Tio års räntebindning är alldeles för lång tid",
+    "Investerande ska inte vara en stressfaktor"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2016-08-17-f33d.txt",
+  "transcript_word_count": 6273,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

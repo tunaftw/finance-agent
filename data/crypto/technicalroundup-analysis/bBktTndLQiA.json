@@ -1,0 +1,139 @@
+{
+  "source_id": "bBktTndLQiA",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-05-15",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Analyzing weekly breakdown and spike/reverse setup into resistance at 27.6K",
+      "quote": "the easy portion of the spike setup has likely played out and the relative risk reward of chasing it into 27.6 28k and Beyond to me is slightly less attractive",
+      "price_levels": [
+        "$27.6K",
+        "$27.3-27.4K",
+        "$28.3-28.4K",
+        "$29.5K",
+        "$24-20K"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Bigger picture weekly breakdown view, expecting pullback to support",
+      "quote": "I think the clearer trades are more likely to come on a larger pullback to support from basically 24 to 20ish sort of this pre-breakout cluster is a clear weekly area",
+      "price_levels": [
+        "$24-20K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Weekly failed breakout, no breakdown yet but bearish bias until proven otherwise",
+      "quote": "I still think it's the most useful time frame that until proven otherwise this is our failed breakout if the market wants to invalidate it it has to do so above 2000",
+      "price_levels": [
+        "$2000",
+        "$1.4-1.9K",
+        "$1.9K",
+        "$1900",
+        "$1800-1950",
+        "$1910"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "Market hasn't dumped despite opportunities, could be strength",
+      "quote": "I am getting a bit um jumpy about this given it's had every opportunity to dump hasn't done so yet but it's not entirely clear whether that's strength or an absence of patience from my end",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LDO",
+      "asset_name": "Lido DAO",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Outlier altcoin showing strength while others weak",
+      "quote": "memes and some one-off names like ldo have been very strong",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$27.6K",
+        "$27.3-27.4K",
+        "$28.3-28.4K",
+        "$29.5K",
+        "$24-20K"
+      ],
+      "ETH": [
+        "$2000",
+        "$1.4-1.9K",
+        "$1900-1910",
+        "$1800-1950"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC in spike and reverse setup on weekly, testing resistance at 27.6K with easy portion played out",
+    "Daily BTC cluster at 27.4-26.9K is key; close above 27.3-27.4K needed for bullish continuation",
+    "ETH showing resilience without breaking down but still in failed breakout pattern below 2000",
+    "Altcoin market not everything bid - concentration of capital in few names, LDO showing strength",
+    "S&P choppiness influencing mean-reverting crypto flows"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "current resistance at 27.6K or on daily close below 27.3-27.4K cluster",
+      "target": "24-20K zone",
+      "stop": "daily close above 27.3-27.4K",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "daily close above 27.3-27.4K",
+      "target": "28.3-28.4K (midpoint) or 29.5K (range high)",
+      "stop": "below cluster bottom",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "below 1800 or on failed break below cluster",
+      "target": "1.4-1.5K range",
+      "stop": "above 2000 or 1910",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC in weekly spike and reverse setup testing 27.6K resistance with easy portion played out. Key daily cluster at 27.3-27.4K; close above needed for bullish continuation to target 28.3-28.4K and 29.5K. ETH in failed breakout pattern below 2000, showing resilience but needs break above 1910-2000 to invalidate bearish view. Altcoin market selective with capital concentration in few names like LDO.",
+  "transcript_word_count": 7586,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:37:22.370109"
+}

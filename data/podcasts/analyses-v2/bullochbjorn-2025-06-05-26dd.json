@@ -1,0 +1,378 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "bullochbjorn-2025-06-05-26dd",
+  "podcast_name": "Bull & Björn",
+  "episode_title": "4. Nvidia, Budkalabalik & Sensorsystem",
+  "episode_number": null,
+  "date": "2025-06-05",
+  "hosts": [
+    "Victor",
+    "Björn"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Fortnox bud",
+    "Nvidia Q1 rapport",
+    "Windowmaster case"
+  ],
+  "stocks_discussed": [
+    "Fortnox",
+    "Nvidia",
+    "Windowmaster"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "15:45",
+      "reasoning": "Bullisk fallande kniv: Nvidia har visibility på tiotals gigawatt AI-infrastruktur = potentiellt 1 triljon dollar i pipeline. Handlas på EV/EBIT 26,7 på 2026-estimat med förväntad 30% tillväxt. CUDA-moat och ekosystem skapar extremt höga switching costs. Fortfarande bäst positionerade bolaget i AI-spacet med högsta marginaler i leverantorkedjan.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Det är förstås en sjukt bullersprognos, men... det visar ändå på att efterfrågan av tillväxten verkar finnas där... det är ju inte snor billigt, men det är ju inte heller säkert dyrt för ett bolag som mättas växa 30 procent kommande tre år. Då med vad jag bedömer som en ganska stor möjlighet att överraska på uppsidan.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Windowmaster",
+      "ticker": "WINMA",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "40:42",
+      "reasoning": "Vinstvändning: Från -7 till +17 MSEK EBIT 2024. Växer 24% med volymskalning av marginaler (6,5% EBIT-marginal). EV/EBIT 10 (2025) och 8,5 (2026) på konservativa prognoser. Låg värdering (0,6x sales) med potential för multipel-expansion om mjukvaru-andel ökar. USA är stora tillväxtdrivaren. Ledningen har starkt ägarincitament med optionsprogram.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag har faktiskt köpt lite aktier här... i och med att jag tror att de kan förbättra marginalerna så tycker jag ändå att det ser bra ut och ganska billigt ut... jag kommer ändå att ge dem ett-två år att visa.",
+      "sector": "Industrials",
+      "market": "other",
+      "position_context": "Liten position",
+      "downside_note": null,
+      "catalyst_timing": "Halvårsrapport augusti-september 2025"
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FNOX",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "07:18",
+      "reasoning": "Extrem värdering: Budpremie på 38% men handlas ändå på 26x sales och 57x EBIT. Ombudet är så pass rejäl att det inte finns bra alternativ för återinvestering. Nedsidan: om budet inte går igenom faller kursen tillbaka. Att fonder tackar nej är oförståeligt.",
+      "price_target": "Budpris",
+      "time_horizon": "kort sikt",
+      "quote": "Hade jag varit aktieägare i det här så hade man tackat ja direkt och stuckit med pengarna... det är så konstigt också att de inte kan hitta något bättre investeringsalternativ för de här pengarna.",
+      "sector": "Technology",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Nedsida om budet faller",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "timestamp_start": "10:48",
+      "timestamp_end": "26:38",
+      "word_count": 1200,
+      "speakers": [
+        "Björn",
+        "Victor"
+      ],
+      "primary_speaker": "Björn",
+      "discussion_summary": "Björn driver en djupanalys av Nvidias Q1-rapport och framtidsutsikter. Bolaget överträffade konsensus men tog en engångskostnad på Kina-export. Nyckeln är visibility på tiotals gigawatt AI-infrastruktur, motsvarande potentiellt 1 triljon dollar i pipeline. CUDA-moatet och ekosystemet dominans diskuteras.",
+      "quotes": [
+        {
+          "speaker": "Björn",
+          "text": "De har visibilitet på projekt för AI-infrastruktur motsvarande tiotals gigavatts... potentiell omsättning från den här pipelinen kan uppgå till minst en triljard eller tusen miljarder dollar.",
+          "timestamp": "13:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn",
+          "text": "CUDA är mer än bara mjukvara. Det är liksom ett helt ekosystem som har dominerat AI-beräkningar i säkert över tio år.",
+          "timestamp": "21:38",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Björn",
+          "text": "Det är deras mjukvarustack av applikationer som de utvecklat ihop med chippen under många år. Kärnan i den är CUDA.",
+          "timestamp": "19:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Jag blev lite sugen på att ta in dig i någon form av lång väska efter din casedragning här.",
+          "timestamp": "46:38",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "26,7",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "30%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Datacenter intäkter: 115 av 130 miljarder USD 2025",
+          "Blackwell chip pris: 20 000 USD/st",
+          "Pipeline: 20+ gigawatt"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Visibility på tiotals gigawatt AI-infrastruktur",
+          "CUDA-moat och ekosystem-dominans",
+          "Högst marginaler i leverantorkedjan",
+          "Växande datacenter-segment"
+        ],
+        "bear_case": [
+          "Kinesiska exportrestriktioner på H20-chip",
+          "Högt värderad (26,7x EV/EBIT)",
+          "Konkurrens från AMD/Google"
+        ],
+        "catalysts": [
+          "AI-infrastruktur pipeline rollout (2-3 år)",
+          "Datacenter-tillväxt fortsätter"
+        ],
+        "risks": [
+          "Politiska exportrestriktioner till Kina",
+          "Ny teknologi som minskar CUDA-beroende",
+          "Valutafluktuationer"
+        ]
+      },
+      "position_disclosure": "bought"
+    },
+    {
+      "stock_name": "Windowmaster",
+      "ticker": "WINMA",
+      "timestamp_start": "29:04",
+      "timestamp_end": "45:38",
+      "word_count": 1600,
+      "speakers": [
+        "Victor",
+        "Björn"
+      ],
+      "primary_speaker": "Victor",
+      "discussion_summary": "Victor presenterar Windowmaster, ett danskt cleantech-bolag som gjort vinstvändning 2024. Bolaget säljer automatiserade fönsterreglage och ventilationslösningar med fokus på energieffektivitet. Största tillväxtchansen är USA. Victor har köpt aktier och ser billig värdering med marginal-expansionsmöjligheter.",
+      "quotes": [
+        {
+          "speaker": "Victor",
+          "text": "Bolaget växer väl 24% under 2024... Man har precis vänt till att bli ett lönsamt bolag från minus 7 miljoner till 17 miljoner i ebit under 2024.",
+          "timestamp": "29:38",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Räknar med full utspädning och räknar med samtliga aktier från optionsprogrammet... det är en ganska väsentlig utspädning, ungefär 10 procent.",
+          "timestamp": "33:13",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Victor",
+          "text": "EV/EBIT 14,5, EV/EBITDA 7,3... det är inte egentligen superbilligt här, men för ett bolag som precis vänd till lönsamhet, växer väldigt stabilt... jag tycker ändå att det ser bra ut och ganska billigt ut.",
+          "timestamp": "36:42",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Jag har faktiskt köpt lite aktier här... Jag kommer ändå att ge dem ett-två år att visa.",
+          "timestamp": "39:50",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "7,3",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "24%",
+        "margin": "6,5%",
+        "debt_level": "Nettoskuld 40 MSEK",
+        "custom": [
+          "EBIT-marginal 2024: 6,5% (från negativt)",
+          "Omsättning 2024: 294 MDKK",
+          "EV: 240 MDKK",
+          "Börsvärde: 189-200 MDKK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Vinstvändning 2024 med volymskalning",
+          "USA som stora tillväxtmarknad",
+          "Låg värdering (EV/EBIT 8,5-10)",
+          "Ska shifte till mer återkommande intäkter"
+        ],
+        "bear_case": [
+          "Dansk bolag med skepsis",
+          "Bara halvårsrapporter (låg visibility)",
+          "Litet market cap med låg volym"
+        ],
+        "catalysts": [
+          "Halvårsrapport augusti-september",
+          "USA-tillväxt acceleration",
+          "Mjukvaru-andel ökar"
+        ],
+        "risks": [
+          "Låg visibility med halvårsrapporter",
+          "Option-utspädning ~10%",
+          "Konjunkturkänslighet i byggnadssektorn"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FNOX",
+      "timestamp_start": "06:31",
+      "timestamp_end": "10:13",
+      "word_count": 400,
+      "speakers": [
+        "Björn",
+        "Victor"
+      ],
+      "primary_speaker": "Björn",
+      "discussion_summary": "Diskussion om Fortnox-budet från EQT med 38% premium. Båda hosts tycker det är märkligt att Lannebo och AMF tackat nej till budet när bolaget är så högt värderat (26x sales, 57x EBIT). Budet kan inte höjas då Olof Hallrup bundit sig.",
+      "quotes": [
+        {
+          "speaker": "Björn",
+          "text": "Hade jag varit aktieägare i det här så hade man tackat ja direkt och stuckit med pengarna... Det är så konstigt också att de inte kan hitta något bättre investeringsalternativ.",
+          "timestamp": "07:18",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Victor",
+          "text": "De inte vill ha så mycket onoterat och idén är väl ändå av VQT att ta bort det från börsen. Så varför tacka nej?",
+          "timestamp": "07:47",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "57",
+        "ev_sales": "26",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Budpremie: 38%",
+          "EQT vill ta bolaget privat"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Extrem värdering även efter budpremie",
+          "Lannebo och AMF tackar nej"
+        ],
+        "catalysts": [
+          "Beslut om budet går igenom"
+        ],
+        "risks": [
+          "Kurs faller om budet avvisas"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Söker i de här nischade marknaderna där det liksom inte finns så stor konkurrens... att ha en ganska halvosexy produkt, för då är det inte så många som springer efter samma boll.",
+      "summary": "Värde finns i nischade marknader med låg konkurrens där produkter är mindre attraktiva för andra aktörer.",
+      "category": "wisdom",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "43:24",
+      "confidence": "high",
+      "tags": [
+        "nischade marknader",
+        "konkurrens",
+        "värdeinvestering"
+      ]
+    },
+    {
+      "quote": "Du får ju både möjlighet till multipel expansion i och med att bolaget är ganska lågt värderat. Du får marginal expansion och att bolaget växer ganska fint då.",
+      "summary": "Tre viktiga triggers för bra avkastning: multipel-expansion, marginal-expansion och tillväxt.",
+      "category": "wisdom",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "41:06",
+      "confidence": "high",
+      "tags": [
+        "multipel expansion",
+        "marginal expansion",
+        "tillväxt"
+      ]
+    },
+    {
+      "quote": "Det finns ingen lönsam historik här att hänga upp det på. Så jag tror att många kanske screenar bort det här som vill att bolaget ska ha gått med vinst i flera år... så faller det under raden för många screeners.",
+      "summary": "Bolag som precis vänd till vinst screenas bort av kvantitativa screener vilket skapar möjligheter för grundläggande analys.",
+      "category": "wisdom",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "30:47",
+      "confidence": "high",
+      "tags": [
+        "screening",
+        "vinstvändning",
+        "värde"
+      ]
+    },
+    {
+      "quote": "Jag kommer ändå att ge dem ett-två år att visa. Kan de leverera ungefär det de förväntas göra över en konjunkturcykel, så tror jag att det här blir bra.",
+      "summary": "Låt investment theses spela ut över tid, inte basera beslut på kvartalsvis volatilitet.",
+      "category": "philosophy",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "45:14",
+      "confidence": "high",
+      "tags": [
+        "tidshorisont",
+        "konjunkturcykel",
+        "tålamod"
+      ]
+    },
+    {
+      "quote": "Det har varit lite balder resa i aktien i år hittills som har kunnat tradea den ganska bra från perrongen.",
+      "summary": "Fördelar med att kunna tradea från utsidan utan position - kan hoppa in och ut med mindre emotionell koppling.",
+      "category": "wisdom",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "47:08",
+      "confidence": "medium",
+      "tags": [
+        "trading",
+        "perrong",
+        "position"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet fokuserar på tre stocks: Nvidia där Björn driver en bullish tes baserad på visibility på tiotals gigawatt AI-infrastruktur och CUDA-moat, Windowmaster som Victor köpt efter deras vinstvändning och låg värdering, samt Fortnox där båda hosts kritiserar att fonder tackar nej till EQT:s bud trots 38% premium.",
+  "key_takeaways": [
+    "Nvidia har visibility på 1 triljon dollar i AI-infrastruktur-pipeline",
+    "Windowmaster gjort vinstvändning med volymskalning av marginaler",
+    "Fortnox-budet märkligt avvisat av Lannebo/AMF",
+    "Nischade marknader med halvosexy produkter har mindre konkurrens",
+    "Tre viktiga triggers: multipel-expansion, marginal-expansion, tillväxt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/bullochbjorn/transcripts/bullochbjorn-2025-06-05-26dd.txt",
+  "transcript_word_count": 7346,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

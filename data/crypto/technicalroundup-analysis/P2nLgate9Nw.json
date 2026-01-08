@@ -1,0 +1,119 @@
+{
+  "source_id": "P2nLgate9Nw",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2021-04-02",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Sam",
+      "context": "Sam discusses long-term exposure to crypto space and Alameda positioning, mentions BTC crash to $5k during March 2020 liquidation cascade",
+      "quote": "there are a lot of bullish signs for crypto...we want to have exposure to the space and so that means not being fully hedged",
+      "price_levels": [
+        "$5,000"
+      ],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Sam",
+      "context": "Sam cites Multicoin's investment in Solana as example of compelling VC thesis with deep ecosystem knowledge",
+      "quote": "when you look at their theses for why and they're pretty compelling",
+      "price_levels": null,
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "FTT",
+      "asset_name": "FTX Token",
+      "sentiment": "strongly_bullish",
+      "speaker": "Sam",
+      "context": "Sam confirms majority of his net worth is in FTT and FTX equity, building long-term value in ecosystem",
+      "quote": "that that then it probably is [majority of net worth]...build as big and impressive and valuable of a company and ecosystem as we can",
+      "price_levels": null,
+      "timeframe": "long-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "USD",
+      "asset_name": "US Dollar",
+      "sentiment": "bullish",
+      "speaker": "Sam",
+      "context": "Sam mentions lending USD on FTX yields 30-100% annualized as straightforward arbitrage opportunity",
+      "quote": "right now you can make 30 to 100 annualized just lending usd on ftx",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Sam",
+      "context": "Mentioned alongside BTC as market indicator being tracked",
+      "quote": "what's bitcoin done what's ethereum done",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BCH",
+      "asset_name": "Bitcoin Cash",
+      "sentiment": "neutral",
+      "speaker": "Sam",
+      "context": "Used as technical example of inverse futures problems during fork events with BSV",
+      "quote": "most hilariously inept futures x-ray I've ever seen",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "yes",
+    "key_levels": {
+      "BTC": [
+        "$5,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "Liquidation cascades create dangerous feedback loops in markets, as seen in March 2020 when billions were liquidated and BTC dropped 50%",
+    "Linear futures are replacing inverse futures as stablecoins become omnipresent, making markets more similar to traditional finance",
+    "BTC-denominated trading pairs are declining in market share as traders prefer USD/stablecoin pairs for P/L tracking",
+    "Arbitrage opportunities are becoming more compressed but still exist (USD lending 30-100% annualized, crypto vs future spreads)",
+    "Market is evolving toward institutional patterns with more electronic market making firms entering crypto investment space"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "USD",
+      "direction": "long",
+      "entry": "lend on FTX",
+      "target": "30-100% annualized return",
+      "stop": null,
+      "speaker": "Sam"
+    },
+    {
+      "asset": "crypto vs futures",
+      "direction": "arbitrage",
+      "entry": "identify spread",
+      "target": "manage spread profit",
+      "stop": null,
+      "speaker": "Sam"
+    }
+  ],
+  "summary": "Sam Bankman-Fried discusses the evolution of crypto market structure, from inverse futures to linear futures denominated in stablecoins, and explains liquidation cascade mechanics that caused the March 2020 crash. He expresses bullish long-term sentiment for crypto while noting arbitrage opportunities remain (USD lending yields 30-100%). Sam confirms FTT and FTX equity comprise majority of his net worth as he builds long-term value in the ecosystem.",
+  "transcript_word_count": 32821,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T23:32:04.187779"
+}

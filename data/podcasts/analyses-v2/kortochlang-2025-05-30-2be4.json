@@ -1,0 +1,447 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2025-05-30-2be4",
+  "podcast_name": "Kort och lång",
+  "episode_title": "Vi är i ett aktieparadis",
+  "episode_number": null,
+  "date": "2025-05-30",
+  "hosts": [
+    "Anna Ekerlund",
+    "Agneta Jönsson",
+    "Johan Wendel"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Tullar och handelskonflikter",
+    "Saab kapitalmarknadsdag",
+    "Novo Nordisk",
+    "Klarna IPO",
+    "Bud på Biotage och Fortnox"
+  ],
+  "stocks_discussed": [
+    "Saab",
+    "Ovzon",
+    "NVIDIA",
+    "Novo Nordisk",
+    "Fortnox",
+    "Biotage"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Agneta Jönsson",
+      "speaker_role": "host",
+      "timestamp": "24:13",
+      "reasoning": "Aktien har halverats från toppnoteringen över 1000 DKK till nu 450-460 DKK. Den 22 maj förbjöds compounded varianter av Vegovi i USA, vilket öppnar en enorm volymmöjlighet för Novo Nordisk. Agneta tror de är i botten nu och att aktien ser prisvärd ut. Hon ser potential för 10-tals miljoner patienter på sikt jämfört med strax under en miljon idag.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag tror att vi är i botten nu. Det är krisen som är nu. Det är högsta feber nu och så kommer vi bara bli bättre. Då är det bara att köpa då. Jag tycker att den ser prisvärd ut här.",
+      "sector": "Healthcare",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FNOX",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "32:23",
+      "reasoning": "Budet på 90 SEK ger 3% uppsid jämfört med nuvarande kurs (med 0.25 i utdelning avräknat). Det finns risk att budet faller om EQT inte får in tillräckligt många aktier, vilket skulle leda till att kursen faller kraftigt. Tradeoff är 3% vinst mot potentiellt 30% nedgång.",
+      "price_target": "90 SEK",
+      "time_horizon": "kort sikt",
+      "quote": "Och jag menar då har du din tradeoff är kan du få 3 procent till eller kan du få att den faller 30 procent liksom. Så då vet ju jag vad jag hade gjort i det där läget.",
+      "sector": "Technology",
+      "market": "sweden",
+      "position_context": "Bud pågår",
+      "downside_note": "Om budet faller kan kursen gå ner 30%",
+      "catalyst_timing": "2025-06-10"
+    },
+    {
+      "stock_name": "Biotage",
+      "ticker": "BIOT",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "34:08",
+      "reasoning": "Budet har lagts i botten av aktiekursen. KKR äger 18% och har köpt sina aktier betydligt dyrare, vilket talar emot att de är beredda att höja budet. Det finns stor risk för att man blir sittande med en aktie som handlas långt under inköpspris om man väntar på höjning.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Och där har du ett amerikanskt biotechbolag som ägs ut av den amerikanska rikskapitalbolagen KKR. De äger ungefär 18 procent. Och de har ju köpt sina aktier betydligt dyrare. Så det talar inte heller för att de är beredda att gå upp en massa för att få igenom er.",
+      "sector": "Healthcare",
+      "market": "sweden",
+      "position_context": "Bud pågår",
+      "downside_note": "Risk för att sitta med stor förlust om budet inte höjs",
+      "catalyst_timing": "2025-06-11"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "timestamp_start": "18:36",
+      "timestamp_end": "24:22",
+      "word_count": 800,
+      "speakers": [
+        "Agneta Jönsson",
+        "Johan Wendel",
+        "Anna Ekerlund"
+      ],
+      "primary_speaker": "Agneta Jönsson",
+      "discussion_summary": "Novo Nordisk har tappat kraftigt i värde, från över 1000 DKK till 450-460 DKK. Agneta ser en köp möjlighet nu när compounded varianter av Vegovi förbjudits i USA från 22 maj. Hon räknar med att Novo kan gå från strax under en miljon patienter till 10-tals miljoner på sikt.",
+      "quotes": [
+        {
+          "speaker": "Agneta Jönsson",
+          "text": "De har åkt på en förkylning eller till och med en rejäl influensa skulle jag säga. I alla fall om man kollar på aktiekursen. Kom ihåg att de här toppade på över 1000 danska kronor för nästan ett år sedan nu. Aktien står väl nu i 450-460 danska kronor ungefär.",
+          "timestamp": "18:36",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Agneta Jönsson",
+          "text": "Baserat på det jag kan se i offentliga rapporter från Nov Nordisk, så räknar jag med att strax under en miljoner amerikaner tar VEGOVI i nuläget, i det här fettmedlekemedlet. Jag tror att det finns jättemycket utrymme att växa. Kom ihåg att i USA finns det över 170 miljoner vuxna människor som är överviktiga eller feta.",
+          "timestamp": "19:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Agneta Jönsson",
+          "text": "Och det är jättesvårt att uppskatta hur stor den marknaden är på de här compounded varianterna, men det brukar snackas om att de har kanske en miljon kunder som tar.",
+          "timestamp": "20:54",
+          "context": "metric"
+        },
+        {
+          "speaker": "Agneta Jönsson",
+          "text": "Så de patienterna måste ju antagligen kanske ha någon nytt. Alla kanske inte kommer att ha råd med Novonordisk, men det finns ändå en enorm möjlighet här för Novonordisk att scoopa upp de här.",
+          "timestamp": "21:16",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Agneta Jönsson",
+          "text": "Jag tror att vi är i botten nu. Det är krisen som är nu. Det är högsta feber nu och så kommer vi bara bli bättre.",
+          "timestamp": "23:50",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Patientantal nu: <1 miljon",
+          "Potentiell marknad: 170 miljoner överviktiga/ feta i USA",
+          "Aktiekurs fall: Från >1000 DKK till 450-460 DKK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Compounded varianter av Vegovi förbjudet i USA från 22 maj",
+          "Enorm marknad med 170 miljoner överviktiga/ feta amerikaner",
+          "Novo kan scoopa upp patienter från compounded-marknaden",
+          "Aktien har halverats från toppnoteringen"
+        ],
+        "bear_case": [
+          "Trump kan införa prispress på läkemedel",
+          "Ersättningssystemet i USA är komplicerat med många mellanhänder"
+        ],
+        "catalysts": [
+          "Compounded-varianter förbjöds 22 maj",
+          "Patienter behöver hitta nya leverantörer"
+        ],
+        "risks": [
+          "Prispress från Trump administrationen",
+          "Komplex ersättningskedja i USA sjukvårdssystemet"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FNOX",
+      "timestamp_start": "29:56",
+      "timestamp_end": "33:00",
+      "word_count": 600,
+      "speakers": [
+        "Johan Wendel",
+        "Agneta Jönsson",
+        "Anna Ekerlund"
+      ],
+      "primary_speaker": "Johan Wendel",
+      "discussion_summary": "Fortnox har fått ett bud på 90 SEK från EQT och Olof Hallre. Budet har 38% premie men vissa som AMF tycker det är för lite givet Fortnox tillväxt. Johan rekommenderar att sälja med 3% vinst snarare än att riskera att budet faller och kursen går ner 30%.",
+      "quotes": [
+        {
+          "speaker": "Johan Wendel",
+          "text": "Jag förespråkar att sälja i marknaden, ta sina pengar, gå vidare och investera. Men det värsta man kan göra är att inte ha koll på vad som händer och hamna kvar i aktien och bolaget få in över 90% så de blir tvångslösa för då sitter man och äger en aktie som inte handlas på börsen.",
+          "timestamp": "29:56",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "Det är en premie på 38 procent. Det är väl den de tycker är lite låg med tanke på vilken tillväxt du har i Fortnox.",
+          "timestamp": "30:41",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "Och jag menar då har du din tradeoff är kan du få 3 procent till eller kan du få att den faller 30 procent liksom. Så då vet ju jag vad jag hade gjort i det där läget.",
+          "timestamp": "32:23",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Budpris: 90 SEK",
+          "Premie: 38%",
+          "Uppdelning: 0.25 SEK",
+          "Uppsid till bud: 3%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Bud ger 38% premie",
+          "EQT vill göra investeringar och åternotera senare till högre värdering"
+        ],
+        "bear_case": [
+          "Bud kan falla om inte tillräckligt många lämnar in",
+          "Kurs kan falla 30% om budet dras tillbaka"
+        ],
+        "catalysts": [
+          "Deadline för att lämna in aktier: 10 juni"
+        ],
+        "risks": [
+          "Budet kan falla om EQT inte får tillräcklig acceptans"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Biotage",
+      "ticker": "BIOT",
+      "timestamp_start": "33:42",
+      "timestamp_end": "34:26",
+      "word_count": 400,
+      "speakers": [
+        "Johan Wendel",
+        "Agneta Jönsson",
+        "Anna Ekerlund"
+      ],
+      "primary_speaker": "Johan Wendel",
+      "discussion_summary": "Biotage har fått ett bud med 60% premie men ändå handlas aktien under årsskiftets nivå. KKR äger 18% och har köpt sina aktier betydligt dyrare, vilket talar emot att de kommer höja budet. Det finns stor risk för förlängning men inte nödvändigtvis höjning.",
+      "quotes": [
+        {
+          "speaker": "Johan Wendel",
+          "text": "Och där har du ett amerikanskt biotechbolag som ägs ut av den amerikanska rikskapitalbolagen KKR. De äger ungefär 18 procent. Och de har ju köpt sina aktier betydligt dyrare. Så det talar inte heller för att de är beredda att gå upp en massa för att få igenom er.",
+          "timestamp": "34:08",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "Då kan jag hellre tänka mig att det blir som med Sobi som du har skrivit om Johan, när de hade bud på sig och det inte blev något så följde. Så jag förstår ju att folk inte vill sälja för här är nästan alla förlust på dem här. Och där tror jag också att det är stor sannolikhet att det blir en förlängning på det budet.",
+          "timestamp": "34:14",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Budpremie: 60%",
+          "KKR ägande: 18%",
+          "Aktien handlas under årsskiftets nivå trots budet"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Budet kan komma att förlängas"
+        ],
+        "bear_case": [
+          "KKR har köpt aktier betydligt dyrare - mindre benägna att höja",
+          "Aktien handlas under årsskiftets nivå trots budet - många sitter med förlust"
+        ],
+        "catalysts": [
+          "Deadline för att lämna in aktier: 11 juni"
+        ],
+        "risks": [
+          "Budet kan inte komma att höjas",
+          "Man kan bli sittande med stor förlust om man väntar"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "timestamp_start": "10:00",
+      "timestamp_end": "13:37",
+      "word_count": 700,
+      "speakers": [
+        "Johan Wendel",
+        "Anna Ekerlund",
+        "Agneta Jönsson"
+      ],
+      "primary_speaker": "Johan Wendel",
+      "discussion_summary": "Efter Saabs kapitalmarknadsdag tog Johan med sig att marknaden inte tvivlar på tillväxt utan på marginaler och kassaflöde. Saab har mål om 60% kassaflödeskonvertering i år. Johan tror det är större sannolikhet att Saab kan överraska på tillväxtsidan givet de ökande försvarsutgifterna i Europa.",
+      "quotes": [
+        {
+          "speaker": "Johan Wendel",
+          "text": "Och vad jag menar med det var att det var väldigt tajt tidsschema. De hade verkligen sprängt in väldigt mycket på kort tid.",
+          "timestamp": "10:13",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "Då är det väl att marknaden tydlar inte på att tillväxten kommer för Saab. Och varför ska man göra det egentligen när försvarsupprustningen pågår? Däremot, det man undrar över är vilken marginalexpansion kan Saab ha framöver? Alltså pressar staterna priserna nu i upphandlingarna, det är nummer ett. Nummer två, vad har man för kassaflödeskonvertering?",
+          "timestamp": "10:29",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "De har ju sina finansiella mål, bland annat en kassaflödeskonverteringsmål i år på 60 procent. Och där var de confidenta att det når dem.",
+          "timestamp": "11:18",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "När det gäller tillväxtprognosen, tror du de kommer att överträffa den då? Där tror jag kanske det är större sannolikhet att de kan överraska faktiskt.",
+          "timestamp": "11:55",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "Men det är en gissning från min sida faktiskt. Och bara när man ser hur mycket utgifterna nu ska öka. Vi snackar om tusentals miljarder kronor per år som europeiska länder ska öka sina utgifter. Och då, jag menar Saab ligger ju bra till då. Det är ju ingen snack om Saab.",
+          "timestamp": "12:05",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anna Ekerlund",
+          "text": "Det är väl också politiskt att man vill välja europeiska leverantörer. Och då är ju Saab väldigt bra till om man säger så.",
+          "timestamp": "12:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "Ja men precis, de tickar boxarna så att säga.",
+          "timestamp": "12:22",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kassaflödeskonverteringsmål: 60%",
+          "Europeiska länder ska öka försvarsutgifterna med tusentals miljarder kronor per år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Försvarsupprustning pågår i Europa",
+          "Europeiska länder vill välja europeiska leverantörer",
+          "Saab 'tickar boxarna'",
+          "Större sannolikhet att överraska på tillväxtsidan"
+        ],
+        "bear_case": [
+          "Stater pressar priserna i upphandlingar",
+          "Kassaflödet har historiskt sackat efter",
+          "Oklarhet om marginalerna kan expandera"
+        ],
+        "catalysts": [
+          "Ökande försvarsutgifter i Europa"
+        ],
+        "risks": [
+          "Prispress från stater i upphandlingar",
+          "Historiskt problem med kassaflödeskonvertering"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "När VD beskriver det som osäkert, oroligt och oförutsägbar, det är ju i en sådan miljö man kan hitta felprissättningar i marknaden och tjäna pengar och gå bättre än index.",
+      "summary": "Vid marknadsovisshet finns större möjligheter att hitta felprissättningar och slå index",
+      "category": "wisdom",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "38:31",
+      "confidence": "high",
+      "tags": [
+        "marknadstajming",
+        "volatilitet",
+        "felprissättningar"
+      ]
+    },
+    {
+      "quote": "Jag förespråkar att sälja i marknaden, ta sina pengar, gå vidare och investera. Men det värsta man kan göra är att inte ha koll på vad som händer och hamna kvar i aktien och bolaget få in över 90% så de blir tvångslösa för då sitter man och äger en aktie som inte handlas på börsen.",
+      "summary": "Vid bud ska man vara aktiv och sälja innan deadline för att undvika att bli tvångsavlust med en olistrad aktie",
+      "category": "wisdom",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "29:56",
+      "confidence": "high",
+      "tags": [
+        "bud",
+        "tvångsavveckling",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Jag köper inte den åsikten faktiskt. Om det är ett bra... Kolla Amazon, hur länge tog det innan de gjorde vinst? Ett av en av de bästa aktierna i världen de senaste 20 åren. Börsen hade tålamod.",
+      "summary": "Börsen har tålamod med bra bolag som investerar för tillväxt, exemplet Amazon visar att långsiktig investering lönar sig",
+      "category": "lesson",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "35:06",
+      "confidence": "high",
+      "tags": [
+        "tålamod",
+        "tillväxtinvestering",
+        "Amazon"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar allt från tullar och handelskonflikter till Saabs kapitalmarknadsdag, Ovzons stororder och Novo Nordisks nedgång. Stora fokus ligger på pågående bud på Fortnox och Biotage samt Klarnas kommande IPO. Slutsatsen är att det råder osäkerhet på marknaden men att detta skapar möjligheter att hitta felprissättningar.",
+  "key_takeaways": [
+    "Novo Nordisk ses som köpvärda efter att compounded varianter förbjöds i USA",
+    "Sälj Fortnox med 3% vinst för att undvika risken att budet faller",
+    "Sälj Biotage då det är osannolikt att KKR höjer budet",
+    "Saab har goda utsikter på tillväxt men marknaden oroar sig för marginaler och kassaflöde",
+    "Ovzon fick en stor order på en miljard kronor från FMV"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2025-05-30-2be4.txt",
+  "transcript_word_count": 7185,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

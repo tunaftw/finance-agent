@@ -1,0 +1,282 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2020-07-28-da55",
+  "podcast_name": "Fill och Kill",
+  "episode_title": "Avsnitt 278 - Frågeavsnitt Del 2 (Tradingfokus)",
+  "episode_number": 278,
+  "date": "2020-07-28",
+  "hosts": [
+    "Lone Bull",
+    "Anders"
+  ],
+  "guests": [],
+  "main_topics": [
+    "trading",
+    "riskhantering",
+    "position sizing",
+    "belåning",
+    "portföljstrategi",
+    "nyhetsbaserad trading"
+  ],
+  "stocks_discussed": [
+    "Neonode",
+    "Fingerprint",
+    "Baktegard",
+    "H&M",
+    "Ericsson",
+    "Investor",
+    "Amazon",
+    "Nvidia"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Investor",
+      "ticker": "INVE-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[26:53]",
+      "reasoning": "Investmentbolag som handlas till rabatt rekommenderas som en del av en långsiktig portfölj. Uppfattas som \"alltid bra på lång sikt\" när det är till rabatt. Passar som bas i en diversifierad portfölj tillsammans med index och tillväxtbolag.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Man tar något investmentbolag, typ Investor som handlas till rabatt. Det är väl alltid bra på lång sikt.",
+      "sector": "investmentbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[26:53]",
+      "reasoning": "Rekommenderas som tillväxtbolag i en diversifierad långsiktig portfölj. Ingår i strategin att blanda olika sektorer för marknadsexponering. Passar tillsammans med tech, industri och index.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Sen kryddar man med lite tillväxtbolag. Ta Amazon och lite allt möjligt sånt.",
+      "sector": "teknologi",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[26:53]",
+      "reasoning": "Framhålls som en bra tillägg i en portfölj som tech-exponering. Ingår i rekommendationen att köpa \"lite tech\" som del av diversifiering för marknadsexponering på lång sikt.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Nvidia kan vara en bra grej. Man kör lite tech, man kör lite industri och allt möjligt.",
+      "sector": "teknologi",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Neonode",
+      "ticker": "NEON",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[08:53]",
+      "reasoning": "Host äger aktien och gör trades i sina innehav, men inte på Neonode på grund av valutavexlingsproblem på ISK-konton i USA. Detta är en position disclosure, inte en rekommendation.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Just i Neonodes fall så gör jag det typ inte så, eftersom det är i USA och det är valutavexlingar på ISK.",
+      "sector": "teknologi",
+      "market": "us",
+      "position_context": "Äger aktien men gör inga trades",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [],
+  "insights": [
+    {
+      "quote": "Ja, men det viktigaste är ju size. För size kommer ju att göra att du känner för mycket. Har du för stor size så blir du bara rädd, och när man är rädd så trumfar det alla andra känslor, magkänsla, intuition, allting. Så när du är rädd är du bara en idiot.",
+      "summary": "Position size är avgörande för emotionell kontroll i trading - för stor storlek skapar rädsla som hindrar rationella beslut.",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[04:28]",
+      "confidence": "high",
+      "tags": [
+        "position sizing",
+        "psykologi",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Så oftast ska man lyssna på sin intuition. Och sen kommer jag ihåg att det finns tusentals affärer du ska göra. Hur viktig är den här? Och hur mycket ska du kämpa för att vara kvar?",
+      "summary": "Lita på din intuition i trading men kom ihåg att det finns tusentals möjligheter - slös inte energi på att kämpa mot dåliga positioner.",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[04:28]",
+      "confidence": "high",
+      "tags": [
+        "intuition",
+        "cutting losses"
+      ]
+    },
+    {
+      "quote": "När det kommer till börsen så koncentrerar du på det du är bra på och försöker skala ner på allt du är dålig på. Det finns inte jättemycket uppsida att verkligen jobba på det du kast på.",
+      "summary": "Fokusera på dina styrkor inom trading istället för att försöka förbättra svagheter - maximera det du är bekväm med.",
+      "category": "philosophy",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[06:21]",
+      "confidence": "high",
+      "tags": [
+        "specialisering",
+        "styrkor"
+      ]
+    },
+    {
+      "quote": "Men du vill i alla fall ha 2-300 och börja med. Och så vill du ha låga kostnader i vardagen. Det viktiga är att man inte känner sig stressad i livet i övrigt så att man kan fokusera på det och man inte sitter och handlar för att jag måste betala hyran nästa vecka.",
+      "summary": "Startkapital på 200-300,000 kr och låga löpande kostnader gör det möjligt att fokusera på trading utan press att leverera pengar varje dag.",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[17:02]",
+      "confidence": "medium",
+      "tags": [
+        "startkapital",
+        "livssituation",
+        "stress"
+      ]
+    },
+    {
+      "quote": "Jag kör aldrig belåning över natten.",
+      "summary": "Belåning över natten undviks helt på grund av risken för bud och oförutsedda händelser när marknaden är stängd.",
+      "category": "lesson",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[17:46]",
+      "confidence": "high",
+      "tags": [
+        "belåning",
+        "riskhantering",
+        "övernatt"
+      ]
+    },
+    {
+      "quote": "Så handlar det ju mer om att du ska värdera vad alla andra tycker om nyheten än vad du tycker om nyheten. Ja, det är det. Kommer den här nyheten generera flöden, det är det viktiga.",
+      "summary": "Vid nyhetsbaserad trading handlar det om att bedöma vad andra tror om nyheten och om den kommer generera flöden, inte din egen åsikt om nyhetens substans.",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[21:22]",
+      "confidence": "high",
+      "tags": [
+        "nyhetsbaserad trading",
+        "marknadspsykologi"
+      ]
+    },
+    {
+      "quote": "Om man är långsiktig och de ska ligga där, då hade jag inte köpt allt på en gång. Så att man inte prickar toppen helt enkelt. Och köpa när börsen är på minus. Föråret eller? Föråret eller vad det nu är. Absolut inte köpa när det blåser till.",
+      "summary": "För långsiktig investering: köp inte allt på en gång för att undvika att pricka toppen. Köp när börsen är ner, aldrig när den rusar uppåt.",
+      "category": "philosophy",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[26:53]",
+      "confidence": "high",
+      "tags": [
+        "long-term investing",
+        "timing",
+        "dollar-cost averaging"
+      ]
+    },
+    {
+      "quote": "Problemet är att marknaden inte koordinerar när du har kapital att stoppa in och när det finns tillfällen. Så cash är också en position att ha så att man kan vänta.",
+      "summary": "Ha alltid cash tillgängligt för att kunna utnyttja köptillfällen när marknaden går ner - kontanter är också en position.",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[28:19]",
+      "confidence": "high",
+      "tags": [
+        "cash position",
+        "timing",
+        "patience"
+      ]
+    },
+    {
+      "quote": "Jag vet inte, men aktiemarknaden tenderar att prestera bättre än guld även i kristider och allt möjligt.",
+      "summary": "Aktiemarknaden tenderar att överträffa guld även under kristider, baserat på historisk prestanda.",
+      "category": "philosophy",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[28:45]",
+      "confidence": "medium",
+      "tags": [
+        "aktier vs guld",
+        "prestanda"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Host (sponsor-read)",
+      "speaker_role": "host",
+      "quote": "Där tänkte vi passa på och tipsa om produkter som man inte kan handla hos andra märkare. Till exempel guld och silver är ju glödätt just nu och där kan man ju handla både lång och kortsida. Och sen har jag även krypton vakna till liv och där kan man ju handla bitcoin och etrum och litecoin.",
+      "context": "Sponsor-meddelande för IG - inget investeringsråd",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": null
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Host (sponsor-read)",
+      "speaker_role": "host",
+      "quote": "Och sen har jag även krypton vakna till liv och där kan man ju handla bitcoin och etrum och litecoin.",
+      "context": "Sponsor-meddelande för IG",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": null
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "neutral",
+      "speaker": "Host (sponsor-read)",
+      "speaker_role": "host",
+      "quote": "Och sen har jag även krypton vakna till liv och där kan man ju handla bitcoin och etrum och litecoin.",
+      "context": "Sponsor-meddelande för IG",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": null
+    }
+  ],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet fokuserar på trading-strategier och riskhantering. Hosts diskuterar vikten av korrekt position sizing, emotionell kontroll, och att fokusera på sina styrkor. De rekommenderar att undvika övernattbelåning, vara flexibel i marknaden, och för långsiktig investering köpa in gradvis när marknaden är ner. Aktiemarknaden ses som bättre än guld på lång sikt.",
+  "key_takeaways": [
+    "Position size är kritiskt för att undvika fear-beslut",
+    "Fokusera på dina styrkor i trading istället för att försöka fixa svagheter",
+    "Undvik övernattbelåning - håll positioner minsta möjliga tid",
+    "Långsiktig investering: köp när börsen är ner, aldrig allt på en gång",
+    "Vid nyhetsbaserad trading bedöm flöden inte din egen åsikt om nyheten",
+    "Ha alltid cash som position för att kunna utnyttja köptillfällen"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2020-07-28-da55.txt",
+  "transcript_word_count": 5720,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

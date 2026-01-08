@@ -1,0 +1,217 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borsmaklarna-2021-03-30-3849",
+  "podcast_name": "Börsmäklarna",
+  "episode_title": "38. Tjäna pengar på investmentbolag med systematisk strategi",
+  "episode_number": 38,
+  "date": "2021-03-30",
+  "hosts": [
+    "Unknown"
+  ],
+  "guests": [
+    "Torbjörn Olofsson"
+  ],
+  "main_topics": [
+    "Investmentbolag",
+    "Substansrabatter",
+    "Datadriven kapitalförvaltning",
+    "Kvantitativa modeller"
+  ],
+  "stocks_discussed": [
+    "Investmentbolag generellt",
+    "Investor",
+    "Kinnevik",
+    "Industrivärden"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Investmentbolag generellt",
+      "ticker": null,
+      "timestamp_start": "18:21",
+      "timestamp_end": "43:22",
+      "word_count": 2000,
+      "speakers": [
+        "Host",
+        "Torbjörn Olofsson"
+      ],
+      "primary_speaker": "Torbjörn Olofsson",
+      "discussion_summary": "Diskussionen handlar om hur investmentbolag på Stockholmsbörsen uppvisar stora skillnader i avkastning, där sämsta bolaget minus 75% och bästa plus 2000% över tio år. Torbjörn förklarar Kvartils strategi baserad på att substansrabatter/premier är mean-reverting - bolag med stor rabatt har högre sannolikhet att återgå mot medelvärdet. Han nämner att de har många positioner där de sålt investmentbolag med hög premie och köpt underliggande tillgångar istället. Han diskuterar också trender som ökad andel onoterade innehav och spack-strukturer.",
+      "quotes": [
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Om man tittar tillbaka, jag råder med mig att titta sista tio åren, det sämsta investmentbolaget avkastar i storleksordningen minus 75 procent eller något sånt. Och det bästa bolaget avkastar är plus 2000 procent.",
+          "timestamp": "18:21",
+          "context": "metric"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Tanken är någonstans att de här investmentbolagen, rabatterna är mean reverting. På statistik språk kallas det för att de är stationära.",
+          "timestamp": "20:16",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Och vi har kört statistiska test på det. Och det säger inte något fancy heller. Det säger bara att antagat substansvärdet är 100. Om bolaget i fråga hamnar på 110, då är sannolikheten lite högre att nästa dag går den till 109, snarare till 111.",
+          "timestamp": "20:16",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Vi tar i princip alla som finns på Stockholmsbörsen. Som ingår i den här grundportföljen.",
+          "timestamp": "20:02",
+          "context": "other"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Den ena delen. Och den andra delen är att vi säljer, om ett investmentbolag är högt värderat, så säljer vi det och köper dess underliggande tillgångar istället. De noterade tillgångarna de har.",
+          "timestamp": "31:06",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "Och om man tittar på hur bolagen värderas nu så kan man ju bara se att de bolag som har större andel onoterat tenderar att vara de också som har högre premie.",
+          "timestamp": "36:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Torbjörn Olofsson",
+          "text": "De har en femårig option som räcker i fem år, så de får nytäckna på 130% av täckningsbörsen.",
+          "timestamp": "39:50",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Substansrabatter/premier",
+          "Onoterad andel",
+          "Management options (130% av täckningsbörsen)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Substansrabatter är mean-reverting",
+          "Marknadens osynliga hand korrigerar priser",
+          "Bolag med stor andel onoterat har högre premie"
+        ],
+        "bear_case": [
+          "Höga förvaltningskostnader minskar värdet",
+          "Värdering av onoterade bolag är osäker",
+          "Utvecklingsefterfrågan kan skapa avvikelser från substansvärde"
+        ],
+        "catalysts": [
+          "Uppvärdering av onoterade innehav",
+          "Governance-trend",
+          "Ökad efterfrågan på professionell bolagsstyrning"
+        ],
+        "risks": [
+          "Sponsor kan ta för mycket betalt i spack-strukturer",
+          "Okunskaper om underliggande bolag i spackar",
+          "Substansvärde kan skifta vid omvärderingar"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag har haft rätt stor respekt för att slå marknaden. Men det är inte så himla enkelt.",
+      "summary": "Att konsekvent slå marknaden är mycket svårt och kräver ödmjukhet",
+      "category": "wisdom",
+      "speaker": "Torbjörn Olofsson",
+      "speaker_role": "guest",
+      "timestamp": "02:00",
+      "confidence": "high",
+      "tags": [
+        "marknadseffektivitet",
+        "humilitet"
+      ]
+    },
+    {
+      "quote": "Datakraft var ju mycket mindre. Själva metodiken var inte så utvecklad. Generellt sett tror jag att den var det. Så i den meningen tror jag att marknader är bättre prissattat nu. Så att det finns mindre av lågt hängande frukt i form av felprissättningar.",
+      "summary": "Marknader är idag bättre prissatta med mindre felprissättningar än förr",
+      "category": "wisdom",
+      "speaker": "Torbjörn Olofsson",
+      "speaker_role": "guest",
+      "timestamp": "03:25",
+      "confidence": "high",
+      "tags": [
+        "marknadseffektivitet",
+        "teknik"
+      ]
+    },
+    {
+      "quote": "För det första att man extrapolerar att bara för att det har hänt förut så ska det hända igen.",
+      "summary": "Att anta att historien upprepar sig är en farlig fälla",
+      "category": "lesson",
+      "speaker": "Torbjörn Olofsson",
+      "speaker_role": "guest",
+      "timestamp": "14:30",
+      "confidence": "high",
+      "tags": [
+        "historik",
+        "förutsägelser"
+      ]
+    },
+    {
+      "quote": "Alltså allt annat lika så borde 100 kronor vara värt 100 kronor. Det är en rätt rimlig hypotes. Och jag tror att marknadens osynliga hand kommer in någonstans, både om det blir för dyrt och om det blir för billigt och hjälpa till att få tillbaka det där priset.",
+      "summary": "Marknaden tenderar att korrigera priser mot substansvärde",
+      "category": "philosophy",
+      "speaker": "Torbjörn Olofsson",
+      "speaker_role": "guest",
+      "timestamp": "22:59",
+      "confidence": "high",
+      "tags": [
+        "marknadseffektivitet",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Men det är ju alltid en superfar att man, för det första att man extrapolerar att bara för att det har hänt förut så ska det hända igen.",
+      "summary": "Att lita för mycket på historiska mönster är en risk",
+      "category": "lesson",
+      "speaker": "Torbjörn Olofsson",
+      "speaker_role": "guest",
+      "timestamp": "14:30",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "historik"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "quote": "Vi har minusräntor, vi har bitcoin, det är spackar, det är techbolag, hela S&P består av fem bolag i princip. Det känns som att allting är så himla nytt.",
+      "context": "Diskussion om hur marknaden förändrats och nya fenomen",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": null
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet handlar om Kvartils datadrivna strategi för att investera i investmentbolag på Stockholmsbörsen. Torbjörn Olofsson förklarar hur substansrabatter och premier tenderar att vara mean-reverting, vilket skapar möjligheter för systematisk handel. Strategin involverar att köpa investmentbolag med stor rabatt och sälja de med höga premier för att istället köpa underliggande tillgångar.",
+  "key_takeaways": [
+    "Substansrabatter i investmentbolag tenderar att återgå till sitt historiska medelvärde",
+    "Det finns stora skillnader i avkastning mellan olika investmentbolag (från -75% till +2000% över tio år)",
+    "Bolag med stor andel onoterade innehav tenderar att handlas med premie",
+    "SPAC-strukturer ger management optioner värd ca 3% av spackens värde"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borsmaklarna/transcripts/borsmaklarna-2021-03-30-3849.txt",
+  "transcript_word_count": 5608,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

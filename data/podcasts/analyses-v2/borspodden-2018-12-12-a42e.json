@@ -1,0 +1,612 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2018-12-12-a42e",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 277 - Barnportföljen",
+  "episode_number": 277,
+  "date": "2018-12-12",
+  "hosts": [
+    "John",
+    "Johan"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Barnportfölj",
+    "Kärnkraft",
+    "Budaffärer",
+    "Börsutveckling"
+  ],
+  "stocks_discussed": [
+    "Elekta",
+    "ÅF",
+    "Pöyry",
+    "Ragn-Sells",
+    "Ericsson",
+    "Sectra",
+    "Immunicum",
+    "Ayudya",
+    "Unimed",
+    "Apatem",
+    "Aselio",
+    "Netmoms",
+    "SkiStar",
+    "Skechers",
+    "BlackRock",
+    "Mekanomen"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Elekta",
+      "ticker": "EKTAB",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "12:23",
+      "reasoning": "Elekta rapporterade svaga siffror med 2% orderingångstillväxt jämfört med konkurrenten Varians 14%. FDA-godkännande för Unity var väntat och markör för slutet på drömperioden. Värderingen är hög, ingen marginal för missar. Johan: 'Jag skulle nog tacka för kaffet om jag ägde den här aktien.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tror att marknaden hoppas för mycket här helt enkelt. [...] Det markerar slutet för den här drömperioden och början på leveransperioden för Elekta. Jag tror att det kommer bli tufft. Aktienvärderingen är hög. Det finns absolut inga utrymme för nedsteg nu och jag skulle nog tacka för kaffet om jag ägde den här aktien.",
+      "sector": "Medicinteknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ragn-Sells",
+      "ticker": "RAGNB",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "16:30",
+      "reasoning": "ÅF:s bud på Pöyry värderar Pöyrys omsättning till det dubbla jämfört med Ragn-Sells, vilket indikerar potential. Ragn-Sells vd fördubblade sitt innehav nyligen. IT-konsulter och teknikkonsulter generellt känns billiga efter nedgångar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det jag däremot gillar är att det synliggör potentialen i Ragn-Sells. Varje omsättningskrona värderas till ungefär hälften av vad ÅF:s bud värderar Pyrrhus omsättning till. Och det verkar ju också, den här potentialen verkar också Ragn-Sells vd Victor Schwendsson se, eftersom han dubblas sitt innehav för någon vecka sedan i bolaget.",
+      "sector": "Teknikkonsult",
+      "market": "sweden",
+      "position_context": "Äger",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "ÅF",
+      "ticker": "AF-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "16:30",
+      "reasoning": "ÅF la bud på Pöyry med 46% premie, värdering på EV/EBIT 13-14, priset är inte ett fynd direkt och i linje med ÅFs egen värdering. Kräver stor nyemission. 'Känns inte som något uppenbart köpläge just nu i ÅF kan jag tycka.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är ju inte något fynd direkt och är mer eller mindre i linje med ÅFs värdering som man hade innan förvärvet. [...] Men för ÅF-ägarna så känns det väl lite halvdjummet och det känns inte som något uppenbart köpläge just nu i ÅF kan jag tycka.",
+      "sector": "Teknikkonsult",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "18:45",
+      "reasoning": "Ericsson klarat sig bra genom börsras, värderas till P/E 25 för nästa år och 19 för 2020. Om produkterna får stort uppsving kan både vinsten och P/E-talet öka ordentligt. Cricket Gardell köpte på botten. 'Det verkar ju som att Ericsson kommer ha några strålande år framför sig.'",
+      "price_target": null,
+      "time_horizon": "Lång sikt",
+      "quote": "Men om det blir en stor hype kring Ericssons produkter så kan nog både vinsten och P-talet dra iväg ordentligt. För det verkar ju som att Ericsson kommer ha några strålande år framför sig.",
+      "sector": "Telekomutrustning",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sectra",
+      "ticker": "SECT-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "20:15",
+      "reasoning": "Sectra rapporterade riktigt svagt med halvknackig tillväxt, sjunkande orderingång och vinst. Aktien gick från 270 till 200 kronor, P/E 40. 'Jag har väldigt svårt att se det fantastiska i det här bolaget helt enkelt.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Detta bygger kan man få fynda på P40, nu efter att aktien har gått från 270 till 200 kronor. Jag har väldigt svårt att se det fantastiska i det här bolaget helt enkelt.",
+      "sector": "Medicinteknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Immunicum",
+      "ticker": "IMMU",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "22:30",
+      "reasoning": "Farhågor om stor härva kring emissionsgaranter med kombinationen av sämre line-up av forskningsbolag, nya våghalsiga aktörer. Garanter kan tvingas sälja ut aktier snabbt. 'Det här är några aktier jag skulle hålla mig långt borta ifrån och teckna eller äga.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här är några aktier jag skulle hålla mig långt borta ifrån och teckna eller äga.",
+      "sector": "Bioteknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ayudya",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "22:30",
+      "reasoning": "Samma farhågor som Immunicum kring emissionsgarantihärva. 'Det här är några aktier jag skulle hålla mig långt borta ifrån och teckna eller äga.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här är några aktier jag skulle hålla mig långt borta ifrån och teckna eller äga.",
+      "sector": "Bioteknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Unimed",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "22:30",
+      "reasoning": "Samma farhågor kring emissionsgarantihärva. 'Det här är några aktier jag skulle hålla mig långt borta ifrån och teckna eller äga.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här är några aktier jag skulle hålla mig långt borta ifrån och teckna eller äga.",
+      "sector": "Bioteknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Apatem",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "22:30",
+      "reasoning": "Samma farhågor kring emissionsgarantihärva. 'Det här är några aktier jag skulle hålla mig långt borta ifrån och teckna eller äga.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här är några aktier jag skulle hålla mig långt borta ifrån och teckna eller äga.",
+      "sector": "Bioteknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Aselio",
+      "ticker": "ASELIO",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "23:45",
+      "reasoning": "Nynoterat solenergibolag med enorm burnrate över 300 miljoner kronor/år. Noterat på runt 1 miljard, kraschat till 600 miljoner. Jordanfonden och Jonas Eklind bakom. 'Håll er långt borta från Aselio tycker jag.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Håll er långt borta från Aselio tycker jag.",
+      "sector": "Energilagring",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Netmoms",
+      "ticker": "NETM-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "26:45",
+      "reasoning": "Barnrelaterat bolag för barnportfölj. 'Ditt barn lär ju använda nätet resten av hennes liv och de gör det förmodligen redan. Netmoms är ett bra bolag och det är väl hyfsat rimligt värderat på riktigt lång sikt.'",
+      "price_target": null,
+      "time_horizon": "Riktigt lång sikt",
+      "quote": "Ditt barn lär ju använda nätet resten av hennes liv och de gör det förmodligen redan. Netmoms är ett bra bolag och det är väl hyfsat rimligt värderat på riktigt lång sikt.",
+      "sector": "Internet",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "SkiStar",
+      "ticker": "SKI-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "27:01",
+      "reasoning": "Barnrelaterat bolag för barnportfölj. Familjeaktivitet på fjället. 'Man ska göra saker med sin familj, sägs det. Och åka till fjälls kommer ju alltid vara en hit.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man ska göra saker med sin familj, sägs det. Och åka till fjälls kommer ju alltid vara en hit.",
+      "sector": "Skidanläggningar",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Skechers",
+      "ticker": "SKX",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "27:24",
+      "reasoning": "Amerikanskt skoföretag, stora på barnskor. Starkt varumärke, bra produkt, ganska billigt. 'Starkt varumärke och bra produkt, det är ganska billigt också.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Starkt varumärke och bra produkt, det är ganska billigt också.",
+      "sector": "Skor",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "BlackRock",
+      "ticker": "BLK",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "27:45",
+      "reasoning": "Indexfonder och ETF-er växer. Liten del av jordens befolkning investerar fortfarande. Direktavkastning över 3%. Aktien har fallit på oron. 'Tänker man stort så är det fortfarande en försvinnande liten del av jordens befolkning som investerar i aktier och fonder och då kan ju BlackRock med tickern BLK vara helt rätt.'",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Tänker man stort så är det fortfarande en försvinnande liten del av jordens befolkning som investerar i aktier och fonder och då kan ju BlackRock med tickern BLK vara helt rätt. Det ger dessutom över 3 procent i direktavkastning och har fallit en hel del på den senaste oron.",
+      "sector": "Finansiella tjänster",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Mekanomen",
+      "ticker": "MEKO-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "28:32",
+      "reasoning": "Relativt enkel business med laga bilar och sälja bildelar. Aktien gick från 135 till 90 kronor i bilbäsan, nu under P/E 10. Värderas efter två förvärv som ökar vinsten. Hybridbilar bra - två system att serva. Börsplusportföljens största innehav. Båda värdarna äger.",
+      "price_target": null,
+      "time_horizon": "Längre sikt",
+      "quote": "Det jag gillar med mekonomen eller jag gör är att det är en relativt enkel business. Laga bilar och sälja bildelar. Hur svårt kan det vara egentligen? [...] Det man gillar med mekonomen eller jag gör är att det är en relativt enkel business. Laga bilar och sälja bildelar. Hur svårt kan det vara egentligen?",
+      "sector": "Bilreservdelar",
+      "market": "sweden",
+      "position_context": "Äger",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Elekta",
+      "ticker": "EKTAB",
+      "timestamp_start": "12:19",
+      "timestamp_end": "14:03",
+      "word_count": 450,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan beskriver Elekta som en av hans största förlorare på raporthandel. Q2-rapporten var besvikande med 2% orderingångstillväxt jämfört med Varians 14%, vilket indikerar att Elekta tappar marknadsandelar. Hoppet ställs till den nya produkten Unity som fick FDA-godkännande. Johan anser att godkännandet var väntat och markerar slutet på drömperioden. Värderingen är hög och det finns ingen marginal för misslyckanden.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Elekta är nog en av de bolag jag har förlorat mest pengar i på rapporthandel och jag har lyckats förlora en hel del pengar även på den rapporten.",
+          "timestamp": "12:23",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Variant växte sin ordning om med 14 procent i kvartalet jämfört med Elekta 2 procent och då är det svårt att dra andra slutsatser att man helt enkelt tappar magnitasondelar och att allt hopp egentligen då står till Unity",
+          "timestamp": "12:23",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Aktienvärderingen är hög. Det finns absolut inga utrymme för nedsteg nu och jag skulle nog tacka för kaffet om jag ägde den här aktien.",
+          "timestamp": "12:23",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tycker också att det markerar slutet för den här drömperioden och början på leveransperioden för Elekta. Jag tror att det kommer bli tufft.",
+          "timestamp": "12:23",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "2%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Orderingångstillväxt 2% vs Variant 14%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Unity ny produkt med FDA-godkännande"
+        ],
+        "bear_case": [
+          "Tappar marknadsandelar till Variant",
+          "Hög värdering",
+          "Ingen marginal för missar",
+          "Drömperioden är över, leverans nu"
+        ],
+        "catalysts": [
+          "FDA-godkännande för Unity (slut på drömperioden)"
+        ],
+        "risks": [
+          "Vinsttillväxt kan utebli",
+          "Höga förväntningar på Unity"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Ragn-Sells",
+      "ticker": "RAGNB",
+      "timestamp_start": "16:26",
+      "timestamp_end": "18:26",
+      "word_count": 380,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan diskuterar ÅF:s bud på finska Pöyry, vilket visar potential i Ragn-Sells. Pöyry värderas på P/S 1,1 och EV/EBIT 13-14, vilket är i linje med ÅFs värdering. Ragn-Sells omsättning värderas till ungefär hälften av Pöyrys omsättning, vilket indikerar undervärdering. Ragn-Sells vd Victor Schwendsson fördubblade sitt innehav nyligen.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Pöyry har i likhet då med Railers haft ett antal tuffa år men på slutet har man lyckats vända verksamheten och väntas leverera en ebit-marginal kring 7,5% i år",
+          "timestamp": "16:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "ÅF la ett bud, premie på nästan 46%, vilket värderar Pöyry till 611 miljoner euro eller price sales 1,1. EVB är runt 13-14 på innevarande år.",
+          "timestamp": "16:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det jag däremot gillar är att det synliggör potentialen i Railers. Varje omsättningskrona värderas till ungefär hälften av vad ÅF:s bud värderar Pyrrhus omsättning till.",
+          "timestamp": "16:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och det verkar ju också, den här potentialen verkar också Railers vd Victor Schwendsson se, eftersom han dubblas sitt innehav för någon vecka sedan i bolaget.",
+          "timestamp": "16:30",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "13-14",
+        "ev_sales": "1.1 (Pöyry)",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "7.5% (Pöyry)",
+        "debt_level": null,
+        "custom": [
+          "Ragn-Sells omsättning värderas till ~50% av Pöyrys"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Undervärderad jämfört med Pöyry",
+          "Vd ökar innehav",
+          "Väntas leverera positivt"
+        ],
+        "bear_case": [
+          "Tuffa år historiskt",
+          "Sektorpressad"
+        ],
+        "catalysts": [
+          "ÅF-budet på Pöyry visar potential"
+        ],
+        "risks": [
+          "Fortfarande tuff marknad"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Mekanomen",
+      "ticker": "MEKO-B",
+      "timestamp_start": "28:32",
+      "timestamp_end": "32:42",
+      "word_count": 800,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "John presenterar Mekanomen som en case-aktie som kan bli årsskiftescase men även fungera på längre sikt. Gillar inte bolaget eller ledningen men gillar nivån på aktien. Mekanomen hade fin Q2 och handlades på 135 kronor efter rapporten men har nu fallit till 90 kronor i bilbäsan. Två stora förvärv gjorts som ökar vinsten. P/E under 10. Relativt enkel business - laga bilar och sälja bildelar. Hybrider bra då två system att serva. Båda värdarna har köpt aktier.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Mekanomen hade ju en fin Q2 som visade att man var på väg att komma tillbaka till alla fall gammal hyfsat god form då man var en fin kassakå. Här bara vid halvårsskiftet handlades aktien i ungefär 135 kronor efter den rapporten.",
+          "timestamp": "28:32",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Sen gjorde de två stora förvärv som kommer öka vinsten ganska mycket. Men även en ny immersion för att hålla ner skuldsättningen. Det har de gjort rakt i den här bilslakten vi har sett på börsen.",
+          "timestamp": "28:32",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Det man gillar med mekonomen eller jag gör är att det är en relativt enkel business. Laga bilar och sälja bildelar. Hur svårt kan det vara egentligen?",
+          "timestamp": "28:32",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Dessutom tror jag att den här boomen med hybridbilar är väldigt bra för ekonomen, eftersom det då blir två system som man behöver serva.",
+          "timestamp": "28:32",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Värdering, kanske undrar om? Nej? Ja, men det är en bit under P10.",
+          "timestamp": "28:32",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Det är dessutom Börsplusportföljens största innehav, så tror man inte på mig, kanske man kan tro lite på Benson.",
+          "timestamp": "28:32",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag köper väl det mesta av det du säger, och du har ju faktiskt lyckats övertala mig, så vi har också köpt lite aktier i ekonomen nu på slutet.",
+          "timestamp": "31:18",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det som jag också kanske tycker är intressant, som du inte tog upp, är väl att aktierna säkert har åkt på i samband med bilbäsen och hur bilförsäljningen har sjunkit ner väldigt drastiskt på slutet. Men det borde ju också innebära att, för det var någon som sa att det är en väldigt bra korrelation med den genomsnittliga eller den totala bilparkens antal mil så att säga.",
+          "timestamp": "31:18",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "Under 10",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Ganska stor skuld",
+        "custom": [
+          "Kurs 135 kr vid halvårsskiftet",
+          "Nu 90 kr"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Enkel business - laga bilar och sälja bildelar",
+          "Två förvärv som ökar vinsten",
+          "P/E under 10",
+          "Hybridbilar bra - två system att serva",
+          "Börsplusportföljens största innehav",
+          "Båda värdarna äger",
+          "Bilbäsan pressade aktien olämpligt"
+        ],
+        "bear_case": [
+          "Gillar inte ledningen (Kenny Breck suttit 10 år utan att köpa)",
+          "Hybridbilar kan minska behovet"
+        ],
+        "catalysts": [
+          "Bilbäsan kan vända",
+          "Försäljningsnedgång kan ge mer reparationer"
+        ],
+        "risks": [
+          "Skuldsättning",
+          "Ledningens engagemang"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det här är något av det viktigaste man kan lära sig i livet, även om man blir lite bittrare och lite mer cynisk av det, att det inte bjuds på någonting egentligen.",
+      "summary": "Det finns ingen gratis lunch på börsen - när något ser för bra ut för att vara sant är det oftast det.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "18:45",
+      "confidence": "high",
+      "tags": [
+        "marknadspsykologi",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Det kommer aldrig att komma en uppdragsanalys med en säljrek, Johan, och det ska man ha i minnet. Det här är bara ytterligare ett intäktsben för storbankerna och småspararna som får betala.",
+      "summary": "Uppdragsanalyser från banker är sällan objektiva och säljrekommendationer praktiskt taget obefintliga.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "15:54",
+      "confidence": "high",
+      "tags": [
+        "uppdragsanalyser",
+        "banker",
+        "objektivitet"
+      ]
+    },
+    {
+      "quote": "Många hatar dem just nu och man ska ju oftast köpa när aktierna har gått ner. För det är ju faktiskt då potentialen finns.",
+      "summary": "När en sektor är utomälskad kan det vara köptillfälle - köp när det blöder.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "07:53",
+      "confidence": "high",
+      "tags": [
+        "konträr",
+        "timing"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet fokuserar på att hitta värde i en nedåtgående marknad. Börsen har kastat drastiskt från ATH i augusti. Rekommendationer inkluderar att sälja Elekta (övervärderad), köpa Mekanomen (enkel business, låg P/E), undvika forskningsbolag med emissionsgarantiproblem, undvika Aselio (nytt Jordanfonden-projekt). Dessutom barnportföljförslag: Netmoms, SkiStar, Skechers, BlackRock. Diskuterar kärnkraftens renässans och ÅF:s bud på Pöyry.",
+  "key_takeaways": [
+    "Elekta övervärderad - sälj",
+    "Mekanomen köpläge - P/E under 10",
+    "Undvik forskningsbolag med emissionsgarantiproblem",
+    "Aselio undvik - Jordanfonden bakom",
+    "ÅF-budet på Pöyry visar potential i Ragn-Sells",
+    "Netmoms, SkiStar, Skechers, BlackRock som barnportfölj",
+    "Inga gratis lunchar på börsen",
+    "Uppdragsanalyser sällan säljrek"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2018-12-12-a42e.txt",
+  "transcript_word_count": 5754,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,372 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2019-08-21-cc12",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Sparpodden 302 - Inverterad Räntekurva, eller?",
+  "episode_number": 302,
+  "date": "2019-08-21",
+  "hosts": ["Unknown Host 1", "Unknown Host 2", "Frida"],
+  "guests": [],
+  "main_topics": ["Inverterad räntekurva", "Recession risker", "Centralbankspolitik", "Handelskrig", "Brexit", "Norwegian", "Defensiva aktier"],
+  "stocks_discussed": ["Norwegian", "Axfood", "ICA", "Volvo", "Ericsson"],
+  "recommendations": [
+    {
+      "stock_name": "Norwegian",
+      "ticker": "NAS",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Unknown Host 1",
+      "speaker_role": "host",
+      "timestamp": "16:39",
+      "reasoning": "Bolaget har extremt allvarliga finansiella problem med brännande pengar, nära konkurs, måste sälja värdefulla tillgångar (Norwegian Bank) för att överleva. Orderingången minskar kraftigt. Detta är inte bottenfiskning i en lönsam bank som Swedbank, utan ett bolag med fundamentala lönsamhetsproblem.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är en sån här aktie som tycks falla, men de norska sparare i Norge, de köper Norwegian aktier... Ett år är ju nästan 80% av börsvärdet borta. Det är intressant och intressant att följa om det här nu är... Ger ytterligare lite lyft under vingarna.",
+      "sector": "Flygbolag",
+      "market": "other",
+      "position_context": null,
+      "downside_note": "Potentiell konkurs",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Axfood",
+      "ticker": "AXFO",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Unknown Host 1",
+      "speaker_role": "host",
+      "timestamp": "25:00",
+      "reasoning": "Axfood är en defensiv aktie med bra direktavkastning och stark positionering inom e-handel via mat.se. Trots hög värdering och analytiker som varnat länge, fortsätter aktien upp. Mat online är bara 3% av marknaden, vilket ger stor tillväxtpotential. Passar bra för konjunkturoskära perioder.",
+      "price_target": null,
+      "time_horizon": " lång sikt",
+      "quote": "Jag tycker, jag gillar ju Axfood, ja, det är en hög, ja, hur man nu ska säga om det är en hög värdering eller om den har stigit mycket. Men där har det dels en helt okej direktavkastning och dessutom så har den exponerat, alltså de ligger ganska bra till också i sin positionering inom e-handeln. Alltså de har mat.se.",
+      "sector": "Livsmedel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "ICA",
+      "ticker": "ICA",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Unknown Host 2",
+      "speaker_role": "host",
+      "timestamp": "23:43",
+      "reasoning": "ICA, livsmedels-jätten, handlas vid all time high och tros stå emot konjunkturavmattning. Defensiv sektor med inhemsk exponering.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "ICA, livsmedels-jätten, handlas ju nu kring all time high. Även Axfood handlas väl.",
+      "sector": "Livsmedel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Unknown Host 2",
+      "speaker_role": "host",
+      "timestamp": "23:11",
+      "reasoning": "Ericsson har strukturell tillväxt genom 5G-utrullning, vilket kan ge skydd mot lågkonjunktur. Bolag med strukturella trender istället för beroende av fortsatt konjunkturväxt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ta ett bolag som Ericsson, alltså sådär, om marknaden kraschar då faller ju i princip allting. Men ett bolag som Ericsson exempelvis har liksom någonting annat att hänga upp sin tillväxt på. I det här fallet 5G-reiset.",
+      "sector": "Telekom",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Norwegian",
+      "ticker": "NAS",
+      "timestamp_start": "16:39",
+      "timestamp_end": "21:27",
+      "word_count": 450,
+      "speakers": ["Unknown Host 1", "Unknown Host 2"],
+      "primary_speaker": "Unknown Host 1",
+      "discussion_summary": "Detaljerad diskussion om Norwegians finansiella kris och säljet av Norwegian Bank-aktier för att skaffa likviditet. Trots 80% kursfall i ett år fortsätter norska sparare att köpa aktien som "bottenfiske", men till skillnad från Swedbank har Norwegian fundamentala lönsamhetsproblem med brännande pengar och nära konkurs.",
+      "quotes": [
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Norwegian är ett spännande bolag att följa, det är lite som Norges motsvarighet i Swedbank. Ja, i termer av bottenfiska precis.",
+          "timestamp": "16:39",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "De köper Norwegian aktier, så det heter Duga. Och har gjort det under ganska lång tid, trots denna ganska kraftiga nedgång som aktierna gjort. Ett år är ju nästan 80% av börsvärdet borta.",
+          "timestamp": "17:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Unknown Host 2",
+          "text": "Det är ju lönsamhetsproblemen som... Man har vuxit alldeles för mycket för fort.",
+          "timestamp": "17:35",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Unknown Host 2",
+          "text": "Exakt i skillnad då, om man bottenfiskar Swedbank så gör man kanske det för att det är en lönsam bank.",
+          "timestamp": "17:40",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Unknown Host 2",
+          "text": "Det var nära, hur nära konkursen, det vet jag inte, men det spekulerades ju hur långt ifrån det var konkurs.",
+          "timestamp": "18:08",
+          "context": "risk"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Strax innan årskiftet eller däromkring efter årskiftet kanske.",
+          "timestamp": "18:13",
+          "context": "other"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Precis och därför är det ju så nu, den ekonomiska saneringen som man håller på med för att vända, det måste ju bara funka.",
+          "timestamp": "18:15",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Unknown Host 2",
+          "text": "Ja, och det var egentligen, ni har börjat kolla närmare på det, det känns som att de har sålt en riktig kassa koh.",
+          "timestamp": "18:29",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Så det här är en quick fix, som gör att Norwegian Flygbolaget kan få in lite kapital, täcka lönerna, kanske stänga det obligationslånet som de tar upp på kort sikt.",
+          "timestamp": "18:36",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Just det, det går ut i december så de behöver omfinansiera det, precis.",
+          "timestamp": "18:49",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Men det är ju en riktig kassa koh i affären som de gör sig av med.",
+          "timestamp": "18:52",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Det var riktigt fascinerande när man kollar. Det är ett börsnoterat bolag som handlas på norska börsen. De gjorde 1,8 miljarder i vinst förra året.",
+          "timestamp": "19:33",
+          "context": "metric"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Det är väldigt mycket för en liten nischbank som säljer blankolån. Det är det de gör, blankolån och sen har de det här Norwegian-kortet.",
+          "timestamp": "19:44",
+          "context": "other"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Om det här är ett sätt då att marknaden, ja man har aktien steg på det här så att på kort sikt så är det här en mer mjukare, liksom, sak att göra om man tittar i sett till aktiekursen.",
+          "timestamp": "20:20",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Det är intressant och intressant att följa om det här nu är... Ger ytterligare lite lyft under vingarna.",
+          "timestamp": "20:30",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["80% kursfall på ett år", "Norwegian Bank vinst: 1,8 miljarder förra året"]
+      },
+      "thesis": {
+        "bull_case": ["Bottenfiske efter 80% kursfall", "Norska sparare fortsätter köpa"],
+        "bear_case": ["Allvarliga lönsamhetsproblem", "Brännande pengar", "Nära konkurs vid årsskiftet", "Måste sälja värdefulla tillgångar (Norwegian Bank)"],
+        "catalysts": ["Obligationslån utgår december 2019"],
+        "risks": ["Likviditetsbrist", "Konkursrisk", "Misslyckad ekonomisk sanering"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Axfood",
+      "ticker": "AXFO",
+      "timestamp_start": "24:07",
+      "timestamp_end": "25:24",
+      "word_count": 250,
+      "speakers": ["Unknown Host 1", "Unknown Host 2"],
+      "primary_speaker": "Unknown Host 1",
+      "discussion_summary": "Positiv diskussion om Axfood som defensiv aktie med all time high. Trots att analytiker länge varnat för hög värdering, fortsätter aktien upp. Talaren gillar bolaget för dess bra direktavkastning och starka position inom e-handel via mat.se.",
+      "quotes": [
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Jag märker att många investerare blir alltid lite passiva och restriktiva med all time high. Oj det känns som att det är väldigt dyrt nu. Om vi bara liksom plockar bolaget från sidan och bara kollar aktien, all time high.",
+          "timestamp": "24:07",
+          "context": "other"
+        },
+        {
+          "speaker": "Unknown Host 2",
+          "text": "Visst det känns kanske som dyrt, men det finns ju en anledning till varför. De här är ju bolag som tycks stå emot en konjunktursavmattning.",
+          "timestamp": "24:12",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Sen är det en stretchad värdering, absolut, men all time high kan ju fortsatt betyda att det går bra för dem.",
+          "timestamp": "24:16",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Ja men precis, och Axfood, det har ju varit en sån här, analytiker har ju inte tyckt om Axfood. Det har ju varit många år som det liksom, det är ingen köprek på Axfood för att den är, man tycker att den är för dyr.",
+          "timestamp": "24:24",
+          "context": "other"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Och ändå så fortsätter den uppåt och där har vi ju många saker. Jag tycker, jag gillar ju Axfood, ja, det är en hög, ja, hur man nu ska säga om det är en hög värdering eller om den har stigit mycket.",
+          "timestamp": "24:32",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Men där har det dels en helt okej direktavkastning och dessutom så har den exponerat, alltså de ligger ganska bra till också i sin positionering inom e-handeln. Alltså de har mat.se.",
+          "timestamp": "24:47",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Unknown Host 2",
+          "text": "Ja, men precis, mat är ju ännu ganska lite online-handel.",
+          "timestamp": "25:06",
+          "context": "other"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Ja, är det typ 3% av all mat handlas online. Alltså det finns ju mycket att växa i där.",
+          "timestamp": "25:09",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Unknown Host 1",
+          "text": "Så därför är det inte konstigt, tycker jag, att de handlar som de gör.",
+          "timestamp": "25:14",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "helt okej",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Online-mathandel: 3% av marknaden", "All time high"]
+      },
+      "thesis": {
+        "bull_case": ["Defensiv sektor - står emot konjunkturavmattning", "Helt okej direktavkastning", "Stark position inom e-handel (mat.se)", "Potentiell tillväxt: online-mathandel bara 3%"],
+        "bear_case": ["Stretchad värdering", "Handlas på all time high"],
+        "catalysts": ["Ökad online-handel av mat"],
+        "risks": []
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Lågkonjunktur är ju också någonting som, det är ju så här att ekonomin går i cykler, vi har haft en högkonjunktur... Det är ju så att det är lågkonjunktur, det finns en poäng tänker jag med att företag som inte klarar det här slås ut, ger liv till andra företag, alltså det är sådant som händer också i en lågkonjunktur. Det rensas ut lite.",
+      "summary": "Ekonomiska cykler och lågkonjunkturer fyller en viktig funktion genom att rensa ut ineffektiva företag och skapa utrymme för nya aktörer.",
+      "category": "philosophy",
+      "speaker": "Unknown Host 1",
+      "speaker_role": "host",
+      "timestamp": "07:55",
+      "confidence": "high",
+      "tags": ["ekonomiska cykler", "lågkonjunktur", "företagssanering"]
+    },
+    {
+      "quote": "Nu när man har konstant stimulerat även i en högkonjunktur, så tappar man lite förtroendet, eller det är det minst om den marknaden upplever nu, att man börjar tappa ett visst förtroende för styrkan hos centralbankerna. Vapnen blir ju mindre kraftfulla ju mer man använder dem.",
+      "summary": "Konstant stimulanspolitik minskar centralbankernas effektivitet och marknadens förtroende.",
+      "category": "wisdom",
+      "speaker": "Unknown Host 2",
+      "speaker_role": "host",
+      "timestamp": "08:59",
+      "confidence": "high",
+      "tags": ["centralbanker", "monetär politik", "stimulans"]
+    },
+    {
+      "quote": "Historiskt har vi ofta ett lyft innan den här recensionen faktiskt sker. Sen har vi pratat om den länge, men det är ju här nu sen 2019-2020 som avmattningarna tycks börja komma in.",
+      "summary": "Historiskt sett brukar börsen stiga i 17 månader efter inverterad räntekurva innan recessionen slår till.",
+      "category": "wisdom",
+      "speaker": "Unknown Host 2",
+      "speaker_role": "host",
+      "timestamp": "15:52",
+      "confidence": "high",
+      "tags": ["räntekurva", "recession", "börsens utveckling"]
+    },
+    {
+      "quote": "All time high kan ju fortsatt betyda att det går bra för dem.",
+      "summary": "En aktie vid all time high är inte nödvändigtvis dyr - det kan betyda att bolaget presterar väl.",
+      "category": "wisdom",
+      "speaker": "Unknown Host 2",
+      "speaker_role": "host",
+      "timestamp": "24:16",
+      "confidence": "medium",
+      "tags": ["all time high", "aktieanalys", "värdering"]
+    },
+    {
+      "quote": "Jobba in sig successivt om det blir lite lägre.",
+      "summary": "Fortsätt att investera löpande och använda nedgångar som tillfälle att bygga upp positioner.",
+      "category": "philosophy",
+      "speaker": "Unknown Host 1",
+      "speaker_role": "host",
+      "timestamp": "26:51",
+      "confidence": "high",
+      "tags": [" långsiktighet", "successivt köp", "tidsmarknad"]
+    },
+    {
+      "quote": "Jag ser ingen börskrash framför mig.",
+      "summary": "Trots osäkerheter bedöms risken för en krasch som låg på grund av centralbankernas och politikernas stöd.",
+      "category": "wisdom",
+      "speaker": "Unknown Host 1",
+      "speaker_role": "host",
+      "timestamp": "25:51",
+      "confidence": "medium",
+      "tags": ["börskrash", "marknadssyn", "riskbedömning"]
+    },
+    {
+      "quote": "Precis som att en all time low, typ sweatbag då, behöver inte heller, man kan inte dra slutsatsen heller att här ligger golvet.",
+      "summary": "Varken all time high eller all time low ger någon garanti för framtida kursutveckling.",
+      "category": "wisdom",
+      "speaker": "Unknown Host 2",
+      "speaker_role": "host",
+      "timestamp": "24:20",
+      "confidence": "medium",
+      "tags": ["all time high", "all time low", "aktiepriser"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "cautiously optimistic",
+  "summary": "Avsnittet diskuterar den inverterade räntekurvan som signalerade recession risk, men betonar att denna indikator kan vara mindre relevant nu p.g.a. centralbankernas agerande. Norwegian analyseras som ett extremt riskabelt bolag nära konkurs, medan defensiva aktier som Axfood lyfts fram som spännande alternativ med bra direktavkastning och e-handelspotential. Trots många oroshärdar rekommenderas långsiktigt sparande med successivt inandrande av positioner.",
+  "key_takeaways": ["Inverterad räntekurva har historiskt förutsagt recessioner men kan vara mindre relevant nu", "Norwegian är extremt riskabelt och bör undvikas", "Defensiva aktier med strukturella tillväxttrender (som Axfood och Ericsson) är intressanta", "Fortsätt att spara löpande och använda nedgångar som köptillfällen", "Centralbankernas vapen blir mindre effektiva ju mer de används"],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2019-08-21-cc12.txt",
+  "transcript_word_count": 4856,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

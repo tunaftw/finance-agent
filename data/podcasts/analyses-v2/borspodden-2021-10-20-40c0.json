@@ -1,0 +1,913 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2021-10-20-40c0",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 426 - Kendall Andersson",
+  "episode_number": 426,
+  "date": "2021-10-20",
+  "hosts": [
+    "Johan Dokterbäst-Isaaksson",
+    "Jon"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Rapportperioden",
+    "Volvo Cars notering",
+    "IPO-marknaden",
+    "Rollups",
+    "Hållbarhet"
+  ],
+  "stocks_discussed": [
+    "Volvo Cars",
+    "Ambea",
+    "Sandvik",
+    "Ericsson",
+    "Scandic",
+    "Pandox",
+    "IAR",
+    "Husqvarna",
+    "Note",
+    "Saab",
+    "Nelly",
+    "H&M",
+    "Byggmax",
+    "Olofs vind",
+    "Pears",
+    "Westum",
+    "Ratos"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Volvo Cars",
+      "ticker": "VOLCAR-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "08:22",
+      "reasoning": "Jon är negativ till noteringen med tanke på det höga prisintervallet på 160-200 miljarder, mycket ägande som blir kvar på gamla händer, samt osäkerheten kring Polestar som står för hälften av värderingen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Volvo skulle jag nog säga att man ska undvika för att det är lite trat om läger där. Det är för mycket ägande som blir kvar på de gamla händerna.",
+      "sector": "Automotive",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ambea",
+      "ticker": "AMBEA-B",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "09:56",
+      "reasoning": "Jon har köpt Ambea för att det ser billigt ut, men erkänner att det strider mot Buffets princip att undvika bolag reglerade av staten. Vårdbolag är svåra sektorer.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "men med det sagt så har jag ändå köpt vårdbolet Ambea för att det ser billigt ut. Det är just det som är problemet, att det alltid ser billigt ut.",
+      "sector": "Vård",
+      "market": "sweden",
+      "position_context": "Liten post",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sandvik",
+      "ticker": "SAND",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "14:48",
+      "reasoning": "Sandvisk levererade ett stabilt kvartal, har klarat av att kompensera för höjda råvarupriser genom prishöjningar, och är billigast i sektorn jämfört med Epiroc. Avknoppningen av SMT hägrar nästa år.",
+      "price_target": null,
+      "time_horizon": "2022",
+      "quote": "Så jag tycker Sandvik ser helt okej ut. Det är ett bra val i sektorn om vi blickar in i 2022 med en relativt låg värdering.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Avknoppning av SMT Q2-Q3 2022"
+    },
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "16:59",
+      "reasoning": "Marknaden överreagerade på supply chain-kommentarerna. Rapporten var bättre än väntat resultatmässigt, bruttomarginalen var superstark.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag har köpt lite aktier.",
+      "sector": "Telekom",
+      "market": "sweden",
+      "position_context": "Köpte lite",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Pandox",
+      "ticker": "PNDX-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "17:34",
+      "reasoning": "Pandox handlas till 150 kronor mot över 200 innan krisen. Andra fastighetsbolag har gått över nivåerna innan corona. Börsvärde 27 miljarder gör det till ett perfekt budbolag.",
+      "price_target": ">200",
+      "time_horizon": null,
+      "quote": "Pandox-aktien handlades i över 200 innan krisen... Nu står aktien i 150. På 150 kronor borde Pandox. Nedsida var ganska begränsad och ett huvudsatt köp tycker jag.",
+      "sector": "Fastigheter/Hotell",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Begränsad",
+      "catalyst_timing": "Hotellsektorns återhämtning"
+    },
+    {
+      "stock_name": "IAR Systems",
+      "ticker": "IAR-B",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "20:47",
+      "reasoning": "Vd fick sparken innan katastrof-rapport, men börsen värderar upp bolaget ändå. Bolaget har underpresterat länge men gör nu förändringar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "minns säger mig att man nog inte ska panikera ut sina aktier här utan snarare börja akumulera.",
+      "sector": "IT",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Nya vd och omställning"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "24:47",
+      "reasoning": "Saab går in i sin starkaste period ordningsmässigt efter tunga investeringar. Finland ska välja stridsflyg i slutet av året. Aktien kring 250.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "det här kombinerat med att aktien fortfarande harvar kring 250 gör att jag då har gett mig på det här rövcaset igen.",
+      "sector": "Försvar",
+      "market": "sweden",
+      "position_context": "Köpte lite",
+      "downside_note": null,
+      "catalyst_timing": "Finlands besked om stridsflyg slutet av 2021"
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "27:22",
+      "reasoning": "Utländska analytiker sänker rekommendationer för att H&M inte nått 2019-försäljning, men exkluderar man Kina så finns tillväxt mot 2019. Jon tar rygg på svenska analytiker som har bättre insyn.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så jag tycker att man ska passa på i den här kurs-svackan. Och jag köper mycket hellre H&M än Nelly.",
+      "sector": "Mode",
+      "market": "sweden",
+      "position_context": "Äger i portföljen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Byggmax",
+      "ticker": "BMAX-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "29:28",
+      "reasoning": "Jämförbar omsättningstillväxt börjar avta. Jon förväntar sig negativa siffror nästa år och tror att baksmällan blir rejäl. Aktien är billig men svåra jämförelsetal.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag avstår den här aktien. Jag tror att dynamiken på nedsidan när det gäller hävstång och lönsamhet och så där kan kan överraska negativt.",
+      "sector": "Byggvaror",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Olofs vind",
+      "ticker": "OLOV",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "29:53",
+      "reasoning": "Ett byggprojektbolag som felaktigt marknadsförts som miljöbolag. Kunde kollaps när kund drog tillbaka order på 800 miljoner. 27 000 ägare bara på Avanza, överhettat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Olofs vind inte är ett miljöbolag utan det är ett byggprojektbolag och ska värderas därefter.",
+      "sector": "Förnybar energi/Bygg",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Westum",
+      "ticker": "WESTUM-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "32:39",
+      "reasoning": "Börsvärde 14 miljarder, gått från noll till 14 miljarder på ett år. Rollup-hypen är oroande, svårt att tro alla förvärv kommer leverera.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag är väldigt orolig för serieförvärvar, hypen och främst Westum.",
+      "sector": "Investeringar/Rollups",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Volvo Cars",
+      "ticker": "VOLCAR-B",
+      "timestamp_start": "06:52",
+      "timestamp_end": "08:34",
+      "word_count": 250,
+      "speakers": [
+        "Johan",
+        "Jon"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Diskussion om Volvo Cars kommande notering efter 20 år från börsen. Intervall 160-200 miljarder anses för högt. Värderingen delas mellan lågt värderad bil-tillverkning och högt värderad Polestar. Höger noteringsaktivitet historiskt kopplat till toppar.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Det är väl ett intervall på 160-200 miljarder. För en biltillverkare känns inte det riktigt rimligt.",
+          "timestamp": "07:07",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tror att man kommer sätta kursen i den lägre delen av det här intervallet för att få med tillräckligt med institutioner och liknande.",
+          "timestamp": "07:26",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Volvo skulle jag nog säga att man ska undvika för att det är lite trat om läger där. Det är för mycket ägande som blir kvar på de gamla händerna.",
+          "timestamp": "08:22",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Prisintervallet 160-200 miljarder för högt",
+          "Mycket ägande kvar på gamla händer",
+          "Polestar står för hälften av värderingen men är osäker"
+        ],
+        "catalysts": [
+          "Noteringen"
+        ],
+        "risks": [
+          "Övervärderad",
+          "Risk med Polestar-notering"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Sandvik",
+      "ticker": "SAND",
+      "timestamp_start": "14:43",
+      "timestamp_end": "16:26",
+      "word_count": 300,
+      "speakers": [
+        "Johan",
+        "Jon"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Sandvik levererade stabilt kvartal. Miningdelen stark men automotive bromsas av komponentbrist. Orderingång stärkt. Fyllt ut höjda råvarupriser med prishöjningar. Billigast i sektorn jämfört med Epiroc. Avknoppning av SMT hägrar nästa år.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Sandvik som vanligt först ut i sektorn och man får säga att det var ett stabilt kvartal som Sandvik presterade.",
+          "timestamp": "14:48",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det var lite intressanta kommentarer, sa att efterfrågan stegtes under september och att den sen fortsatt stärkas in i oktober.",
+          "timestamp": "15:01",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tycker också att det här känns som ett bra val i sektorn om vi blickar in i 2022 med en relativt låg värdering.",
+          "timestamp": "15:45",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Sandvik är billigast i sektorn.",
+          "timestamp": "16:04",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Stark",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabilt kvartal",
+          "Miningdelen stark",
+          "Orderingång stärkt",
+          "Låg värdering i sektorn",
+          "Avknoppning av SMT"
+        ],
+        "bear_case": [
+          "Automotive bromsas av komponentbrist"
+        ],
+        "catalysts": [
+          "Avknoppning av SMT Q2-Q3 2022"
+        ],
+        "risks": [
+          "Komponentbrist"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "timestamp_start": "16:26",
+      "timestamp_end": "17:30",
+      "word_count": 200,
+      "speakers": [
+        "Jon",
+        "Johan"
+      ],
+      "primary_speaker": "Jon",
+      "discussion_summary": "Ericsson kom in bättre än väntat resultatmässigt. Omsättning sämre pga Kina. Bruttomarginalen superstark. Supply chain-risk fortsatt Q4 men inte mer än Q3. Marknaden överreagerade. Jon köpte aktier.",
+      "quotes": [
+        {
+          "speaker": "Jon",
+          "text": "Även här så kommer rapporten in bättre än väntat resultatmässigt betydligt bättre.",
+          "timestamp": "16:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Jag tror att marknaden övertolkade budskapet lite och jag tycker också att kommentarer som ledningen sa efter rapporten släpptes var pekade åt det hållet.",
+          "timestamp": "16:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Jag har köpt lite aktier.",
+          "timestamp": "16:59",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Det är också lite konfundersam om det här svenska semi-handelskriget mot Kina som vi verkar ha själv.",
+          "timestamp": "17:08",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Superstark bruttomarginal",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Bättre än väntat resultat",
+          "Superstark bruttomarginal",
+          "Marknaden överreagerade"
+        ],
+        "bear_case": [
+          "Sämre omsättning pga Kina",
+          "Supply chain-risk",
+          "Svenskt 'handelskrig' mot Kina"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Kina-utveckling",
+          "Supply chain"
+        ]
+      },
+      "position_disclosure": "bought"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "timestamp_start": "23:22",
+      "timestamp_end": "25:50",
+      "word_count": 400,
+      "speakers": [
+        "Jon",
+        "Johan"
+      ],
+      "primary_speaker": "Jon",
+      "discussion_summary": "Saab är ett röv case. Svajigt att köpa innan rapport pga komponentpriser men bolaget går in i sin starkaste period. Finland ska välja stridsflyg i slutet av året. Aktie kring 250. Jon och Johan köpte.",
+      "quotes": [
+        {
+          "speaker": "Jon",
+          "text": "Det är ju Saab såklart. Ja, det är ju en röv case ens mamma.",
+          "timestamp": "23:26",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Jag tror också att Saab är ett lite större perspektiv på väg in igen. En skördeperiod efter att ha gått igenom en lång period av tunga investeringar.",
+          "timestamp": "23:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Beskedet ska komma i slutet av året och de senaste åren så har det svensk-finska försvarssamarbetet faktiskt fördjupats.",
+          "timestamp": "24:10",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Jon",
+          "text": "det här kombinerat med att aktien fortfarande harvar kring 250 gör att jag då har gett mig på det här rövcaset igen.",
+          "timestamp": "24:47",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Ja, jag har tagit lite rygg på det där faktiskt.",
+          "timestamp": "24:47",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Starkaste perioden ordningsmässigt",
+          "Skördeperiod efter tunga investeringar",
+          "Finlands besked om stridsflyg",
+          "Svenskt-finskt försvarssamarbete fördjupats",
+          "Aktie kring 250"
+        ],
+        "bear_case": [
+          "Svajigt att köpa innan rapport",
+          "Komponentprisproblem",
+          "Intäkter regleras mycket från staten"
+        ],
+        "catalysts": [
+          "Finlands besked om stridsflyg slutet av 2021"
+        ],
+        "risks": [
+          "Komponentproblem",
+          "Reglerade intäkter"
+        ]
+      },
+      "position_disclosure": "bought"
+    },
+    {
+      "stock_name": "Nelly",
+      "ticker": "NELLY-B",
+      "timestamp_start": "25:53",
+      "timestamp_end": "27:48",
+      "word_count": 300,
+      "speakers": [
+        "Jon"
+      ],
+      "primary_speaker": "Jon",
+      "discussion_summary": "Nelly följde i spåret av e-handlare som tappat stort. Aktie ner 15%. Returgraden 37% är extremt hög. Bolagsvärde 600 miljoner. Jon tror de har fel typ av kunder som använder tjänsten som provrum.",
+      "quotes": [
+        {
+          "speaker": "Jon",
+          "text": "Nelly rapporterade idag och följer ju faktiskt i spåret av många andra e-handlare som tappat stort sista tiden.",
+          "timestamp": "25:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Det som sticker ut är ju att returgraden är 37 procent. Alltså nästan 40 procent av allt det som Nelly skickar ut kommer tillbaka.",
+          "timestamp": "26:06",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Jag tror det största faktiskt är att de har fel typ av kunder. Det är unga tjejer som använder Nelly som någon typ av provrum.",
+          "timestamp": "26:14",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Returgrad: 37%",
+          "Bolagsvärde: 600 miljoner"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Extremt hög returgrad på 37%",
+          "Fel typ av kunder",
+          "Bolagsvärde bara 600 miljoner",
+          "Förlorar pengar varje kvartal"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Höga returer",
+          "Dålig lönsamhet"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "27:10",
+      "timestamp_end": "27:48",
+      "word_count": 200,
+      "speakers": [
+        "Jon"
+      ],
+      "primary_speaker": "Jon",
+      "discussion_summary": "H&M fick sänkt rek av Mary Lynch. Två läger - svenska analytiker höjer, utländska sänker. Utländska anser att H&M inte nått 2019-försäljning men exkluderar man Kina så finns tillväxt. Jon köper i kurs-svackan.",
+      "quotes": [
+        {
+          "speaker": "Jon",
+          "text": "Jag tycker att det uppstått två läger. Det är svenska analytiker som höjer sina rekare efter rapporten och de utländska som sänker sina.",
+          "timestamp": "27:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Men grejen är, bryter man ut kina ur det här så visar faktiskt H&M tillväxt mot 2019.",
+          "timestamp": "27:33",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Så jag tycker att man ska passa på i den här kurs-svackan. Och jag köper mycket hellre H&M än Nelly.",
+          "timestamp": "27:38",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Tillväxt mot 2019 exkl. Kina",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Tillväxt mot 2019 exkluderat Kina",
+          "Svenska analytiker har bättre insikt"
+        ],
+        "bear_case": [
+          "Utländska analytiker sänker rek"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Kina-utveckling"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Byggmax",
+      "ticker": "BMAX-B",
+      "timestamp_start": "27:56",
+      "timestamp_end": "29:42",
+      "word_count": 350,
+      "speakers": [
+        "Jon",
+        "Johan"
+      ],
+      "primary_speaker": "Jon",
+      "discussion_summary": "Byggmax kom med stark rapport men styrkan börjar avta. Jämförbar omsättningstillväxt i Q3 bara 2%. Helåret drygt under 8%. Jon förväntar negativa siffror nästa år. Aktien billig men svåra jämförelsetal.",
+      "quotes": [
+        {
+          "speaker": "Jon",
+          "text": "Ämnebyggmax har också rapporterat, kommer ännu en stark rapport får man säga, men styrkan börjar ändå avta.",
+          "timestamp": "28:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "i konstant valuta så steg den med drygt 2% här i kvartalet.",
+          "timestamp": "28:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Under nästa år kommer vi att få se negaterade siffror, det är jag ganska övertygad om.",
+          "timestamp": "28:35",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Jag avstår den här aktien. Jag tror att dynamiken på nedsidan när det gäller hävstång och lönsamhet och så där kan kan överraska negativt.",
+          "timestamp": "29:28",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "2% Q3, 8% helår",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark historisk utveckling",
+          "Aktien billig"
+        ],
+        "bear_case": [
+          "Styrken avtar",
+          "Negativa siffror nästa year",
+          "Svåra jämförelsetal",
+          "Risk för negativ överraskning på hävstång och lönsamhet"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Marknadssvacka",
+          "Låg tillväxt"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Olofs vind",
+      "ticker": "OLOV",
+      "timestamp_start": "29:53",
+      "timestamp_end": "31:00",
+      "word_count": 300,
+      "speakers": [
+        "Jon",
+        "Johan"
+      ],
+      "primary_speaker": "Jon",
+      "discussion_summary": "Olofs vind kollapsade när kund drog tillbaka order på 800 miljoner. Ett byggprojektbolag som felaktigt marknadsförts som miljöbolag. 27 000 ägare bara på Avanza. Överhettat.",
+      "quotes": [
+        {
+          "speaker": "Jon",
+          "text": "Olofs vind inte är ett miljöbolag utan det är ett byggprojektbolag och ska värderas därefter.",
+          "timestamp": "29:58",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Det tragiska är ju att Olofs vind ägs utav 27 000 personer bara på Avanza. Vilket, det får väl säga, är brutalt överäkt med tanke på vilket bolag det är.",
+          "timestamp": "30:10",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Det här är ju sparekonomernas fel som har pratat om att man ska spara hållbart.",
+          "timestamp": "30:20",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Orderdragning: 800 miljoner",
+          "Ägare på Avanza: 27 000"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Byggprojektbolag inte miljöbolag",
+          "Kund drog tillbaka order på 800 miljoner",
+          "Överhettad med 27 000 ägare bara på Avanza",
+          "Marknadsförts som 'hållbart' av sparekonomer"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Ytterligare orderdragningar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Westum",
+      "ticker": "WESTUM-B",
+      "timestamp_start": "32:39",
+      "timestamp_end": "34:20",
+      "word_count": 350,
+      "speakers": [
+        "Johan",
+        "Jon"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Westum har börsvärde 14 miljarder, gått från noll till 14 miljarder på ett år. Rollup-hypen är oroande. Jämförs med Ratos som funnits sedan 1988 och har 17 miljarder. Svårt att tro alla förvärv levererar.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Westum har ju ett börsvärde nu på 14 miljarder kronor vilket nästan är omöjligt att ta in när man har gått från noll till 14 miljarder på ett år.",
+          "timestamp": "32:44",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Titta istället på Ratos som är ett bolag, ett klassiskt börsbolag som har ett börsvärde på 17 miljarder kronor men varit börsnoterade sedan 1988.",
+          "timestamp": "32:50",
+          "context": "comparison"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men det är bara obeskrivligt svårt att tro att alla de här förvärven kommer att leverera.",
+          "timestamp": "33:46",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Så jag är väldigt orolig för serieförvärvar, hypen och främst Westum.",
+          "timestamp": "34:00",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Börsvärde: 14 miljarder",
+          "Gått från noll till 14 miljarder på ett år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Från noll till 14 miljarder på ett år",
+          "Svårt att tro alla förvärvr levererar",
+          "Rollup-hypen oroande"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Förvärven inte levererar",
+          "Hypen spricker"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Som någon smart sa, det är idiotiskt att lära sig av sina egna misstag utan det är mycket bättre att lära sig av andras.",
+      "summary": "Man bör lära sig av andras misstag istället för att behöva göra dem själv.",
+      "category": "wisdom",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "09:43",
+      "confidence": "high",
+      "tags": [
+        "lärande",
+        "misstag"
+      ]
+    },
+    {
+      "quote": "En av Buffets regler vad gäller investering är att inte köpa bolag som regleras av staten. Ju mer tid man lägger på börsen, desto mer inser man vilken suverän idé det är för att slippa problem.",
+      "summary": "Buffets princip att undvika bolag reglerade av staten för att undvika problem.",
+      "category": "philosophy",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "09:27",
+      "confidence": "high",
+      "tags": [
+        "buffett",
+        "reglerade bolag",
+        "philosophy"
+      ]
+    },
+    {
+      "quote": "Att den förmodligen bästa av alla tider att leva i för en vanlig människa är just nu. Och då menar jag precis just nu. Inte 2000-talet eller typ ens för tre år sedan.",
+      "summary": "Vi lever i den bästa tiden i världshistorien just nu med fler subventioner än någonsin.",
+      "category": "wisdom",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "10:52",
+      "confidence": "high",
+      "tags": [
+        "ekonomi",
+        "tidsperiod"
+      ]
+    },
+    {
+      "quote": "Det finns så mycket man inte vet om nynoterade bolag, så först blir klart efter några rapporter. Särskilt som att rådgivarna gör sitt yttersta för att skarva och ljuga för att kunna ta så bra betalt som möjligt från de nya aktieägarna.",
+      "summary": "Nynoterade bolag har okända risker och rådgivare överdriver för att kunna ta höga avgifter.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "05:06",
+      "confidence": "high",
+      "tags": [
+        "noteringar",
+        "nybörsnotering"
+      ]
+    },
+    {
+      "quote": "Historiskt sett så har ju sådana här aktiviteter sammanfallit med toppar på börsen men på andra sidan så är det väldigt många gamla sanningar som inte har funkat på börsen de sista åren.",
+      "summary": "Hög noteringsaktivitet har historiskt sammanfallit med börs-toppar, men gamla sanningar har inte funkat de sista åren.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "07:40",
+      "confidence": "medium",
+      "tags": [
+        "marknadstopp",
+        "noteringar"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Börspodden diskuterar rapportperiodens start med mestadels positiva besked trots komponentbrist och höga råvarupriser. Volvo Cars kommande notering ses skeptiskt med ett för högt prisintervall. Diskussion om IPO-marknaden och risker med nynoterade bolag samt rollup-hypen.",
+  "key_takeaways": [
+    "Rapportperioden ger lugnande besked, problemen väntas lätta efter Q3-Q4",
+    "Volvo Cars notering anses övervärderad",
+    "Sandvik och Ericsson ses positivt",
+    "H&M köps i kurs-svackan",
+    "Nynoterade bolag och rollups ses som riskfyllda",
+    "Olofs vind varnas för som överhettat"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2021-10-20-40c0.txt",
+  "transcript_word_count": 5993,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

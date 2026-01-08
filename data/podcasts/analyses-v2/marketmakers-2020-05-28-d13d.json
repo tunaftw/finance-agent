@@ -1,0 +1,275 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2020-05-28-d13d",
+  "podcast_name": "Market Makers",
+  "episode_title": "#134 Yo Datadawg",
+  "episode_number": 134,
+  "date": "2020-05-28",
+  "hosts": [
+    "unknown"
+  ],
+  "guests": [],
+  "main_topics": [
+    "API-ekonomin",
+    "Software stacks",
+    "Datadog-analys",
+    "Marknadssentiment"
+  ],
+  "stocks_discussed": [
+    "Datadog",
+    "Elastic",
+    "Splunk",
+    "New Relic",
+    "Dynatrace",
+    "Consolidator"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Datadog",
+      "ticker": "DDOG",
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Talare 2",
+      "speaker_role": "host",
+      "timestamp": "27:45",
+      "reasoning": "SaaS-plattform för applikationsövervakning med 87% omsättningstillväxt Q1. Rule of 40 på 92% (87% tillväxt + 5,1% FCF marginal). 80% bruttomarginal. 30% dollar-based net expansion. EV/Sales ~40 för 2020. Stärkt teknisk management. Ersätter hemmagjorda och open source-lösningar. Corona-vinstvind då digitala företag ökar användning. Risker: Konkurrenter som Elastic (60% tillväxt), New Relic (23%), Dynatrace (25%) förbättras snabbt. Premiumvärdering.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det som är superintressant också med Datadog är deras kunder. De har ju kunder som Airbnb, Evernote, BuzzFeed, DraftKings, Coinbase, Wayfair, Salesforce, Zendesk, Twilio. Alla de hetaste internetbolagen.",
+      "sector": "Software",
+      "market": "us",
+      "position_context": "Äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Elastic",
+      "ticker": "ESTC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Talare 2",
+      "speaker_role": "host",
+      "timestamp": "34:23",
+      "reasoning": "Övergick från sökfunktioner till log-analysprodukter. 60% omsättningstillväxt, bäst av alla konkurrenter. Open source-baserat ekosystem ger utvecklare frihet att bygga egna tjänster. Används av 30% av Global 2000-företag. Börsnoterad på amerikanska börsen. Ej fullblodig felsökningsplattform från början.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Elastic tycker jag är väldigt intressant men av en annan anledning.",
+      "sector": "Software",
+      "market": "us",
+      "position_context": "Äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Datadog",
+      "ticker": "DDOG",
+      "timestamp_start": "27:45",
+      "timestamp_end": "43:22",
+      "word_count": 1200,
+      "speakers": [
+        "Talare 1",
+        "Talare 2"
+      ],
+      "primary_speaker": "Talare 2",
+      "discussion_summary": "Datadog är en SaaS-plattform för felsökning och övervakning av applikationer som växer snabbast av alla konkurrenter med 87% omsättningstillväxt. Företaget erbjuder en helhetslösning för observability som ersätter fristående verktyg för logganalys och tracing. Corona har ökat behovet av övervakning när digitala företag expanderar. Risker är att konkurrenter som Elastic, Splunk och New Relic förbättrar sina erbjudanden.",
+      "quotes": [
+        {
+          "speaker": "Talare 1",
+          "text": "Okej, det här är en tjänst som gör exakt det här. Så öppnar man upp den för omvärlden via ett API och så kan folk använda tjänsten. Det här är lite samma sak i stället för att bygga ett stort analysverktyg som kan göra allting, så bygger man något väldigt nischat.",
+          "timestamp": "27:45",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Talare 2",
+          "text": "Med deras logganalystjänst så släppte de till exempel något som kallas för logging without limits, som innebär att Datadog loggade allt och sparade kunden för framtida analys. Det här var väldigt stort, det var som konkurrenter på den tiden tog betalt för den totala volymen data som loggades, oavsett om man annonserade det eller inte.",
+          "timestamp": "30:00",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Talare 2",
+          "text": "Q1 använde också 63% för kunder, två eller fler produkter, upp från 58% kvartalet innan. Det här dollar-based net expansion rate, alltså hur mycket ökningen av användandet är, ligger på 30% över year on year.",
+          "timestamp": "40:28",
+          "context": "metric"
+        },
+        {
+          "speaker": "Talare 2",
+          "text": "Jag väljer att kolla på deras fria kassaflödesmarginal i stället som ligger på 5,1%, och det ger en rule of 40 på 92%, vilket är långt över 40.",
+          "timestamp": "41:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Talare 2",
+          "text": "Snabbt belyser lite risker då. En risk tycker jag är att konkurrenterna ser bra mycket bättre ut nu än vad de gjort på flera år. Så det kan bli kompetativt framöver.",
+          "timestamp": "43:00",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "40 (2020 est.)",
+        "fcf_yield": "5.1%",
+        "dividend_yield": null,
+        "revenue_growth": "87%",
+        "margin": "80% (brutto)",
+        "debt_level": null,
+        "custom": [
+          "Rule of 40: 92%",
+          "Dollar-based net expansion: 30%",
+          "RPO growth: 82% YoY",
+          "Multiple products adoption: 63%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "87% omsättningstillväxt snabbast i sektorn",
+          "Rule of 40 på 92% indikerar exceptionell kvalitet",
+          "Teknisk management med co-founders som driver produkten",
+          "Ersätter hemmagjorda/open-source lösningar",
+          "Corona-vinstvind via ökad digitalisering",
+          "Integrerar med 400 tredjepartstjänster",
+          "80% bruttomarginal ger utrymme för R&D och S&M"
+        ],
+        "bear_case": [
+          "Premiumvärdering EV/Sales 40",
+          "Konkurrenter förbättras snabbt - Elastic 60% tillväxt",
+          "När marknaden mognar kan tillväxt saktas ner",
+          "Teknikrisk om nya lösningar disrupter"
+        ],
+        "catalysts": [
+          "Fortgående digitalisering",
+          "Corona-accelererad cloud adoption",
+          "Nya produktlanseringar",
+          "Ökat behov av observability i komplexa miljöer"
+        ],
+        "risks": [
+          "Konkurrens från Elastic, Splunk, New Relic, Dynatrace",
+          "Premiumvärdering kräver fortsatt hög tillväxt",
+          "Teknologisk disruption",
+          "Makro-svängningar som påverkar IT-budgetar"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Garth Mann säger att det är mycket viktigare att förstå masspsykologi än en ekonomi. Det är väldigt sant just nu för jag tror att den som förstår macro just nu, den sliter sig bara i håret i princip.",
+      "summary": "Förståelse för masspsykologi är viktigare än ekonomisk analys i nuvarande marknadsmiljö.",
+      "category": "wisdom",
+      "speaker": "Talare 1",
+      "speaker_role": "host",
+      "timestamp": "01:52",
+      "confidence": "high",
+      "tags": [
+        "psychology",
+        "market sentiment",
+        "macro"
+      ]
+    },
+    {
+      "quote": "The public buys the most at the top and the least at the bottom.",
+      "summary": "Allmänheten köper mest vid marknadstoppar och minst vid bottnar - klassisk Bob Farrell-regel.",
+      "category": "wisdom",
+      "speaker": "Talare 1",
+      "speaker_role": "host",
+      "timestamp": "05:52",
+      "confidence": "high",
+      "tags": [
+        "retail investing",
+        "market timing",
+        "crowd behavior"
+      ]
+    },
+    {
+      "quote": "Jag tycker att ett bolag ska minst ta 20% omsättningstillväxt och gärna högre, ska vara marknadsledare i sin nisch. Det är alltid lättare att följa med och vara i ett marknadsledare.",
+      "summary": "Investeringskriterier för tech/API-bolag: minst 20% tillväxt och marknadsledande position.",
+      "category": "philosophy",
+      "speaker": "Talare 2",
+      "speaker_role": "host",
+      "timestamp": "17:31",
+      "confidence": "high",
+      "tags": [
+        "growth investing",
+        "market leadership",
+        "SaaS"
+      ]
+    },
+    {
+      "quote": "När det kommer till vinst, då finns det i grund och botten två anledningar till varför man vill att ett bolag ska gå med vinst. Du har utdelning eller återköp till aktieägare. Eller också att bolaget ska kunna investera tillbaka i sig själv, så kallad retain earnings. Det här är någonting som alla kända investerare premierar, eftersom det är ett tecken på framtida tillväxt.",
+      "summary": "Buffett-filosofi: retain earnings är viktigare än utdelning för tillväxtbolag då det möjliggör ränta på ränta-effekt.",
+      "category": "philosophy",
+      "speaker": "Talare 1",
+      "speaker_role": "host",
+      "timestamp": "20:32",
+      "confidence": "high",
+      "tags": [
+        "Buffett",
+        "retain earnings",
+        "growth",
+        "dividends"
+      ]
+    },
+    {
+      "quote": "Rule of 40 är stort sett att du kollar på omsättningstillväxt plus vinstmarginal eller kassaflödesmarginalen. Är det här över 40 då är det ett väldigt bra tecken för det visar att förluster inte växer exponentiellt med tillväxten.",
+      "summary": "Rule of 40 är ett kritiskt nyckeltal för SaaS-investeringar: tillväxt + marginal bör överstiga 40.",
+      "category": "philosophy",
+      "speaker": "Talare 1",
+      "speaker_role": "host",
+      "timestamp": "24:25",
+      "confidence": "high",
+      "tags": [
+        "Rule of 40",
+        "SaaS",
+        "metrics",
+        "growth"
+      ]
+    },
+    {
+      "quote": "Det som kan vara svårt, som sagt, om man inte är helt insatt i det där, det är ju en viss teknikhöjden som krävs för att förstå det.",
+      "summary": "Tech-bolag kräver teknisk förståelse för att korrekt bedöma investeringsmöjligheter.",
+      "category": "wisdom",
+      "speaker": "Talare 1",
+      "speaker_role": "host",
+      "timestamp": "17:00",
+      "confidence": "medium",
+      "tags": [
+        "tech investing",
+        "knowledge",
+        "due diligence"
+      ]
+    },
+    {
+      "quote": "Man ser hur det här buy the dip-mentaliteten har påverkat retail-investeraren. The public buys the most at the top and the least at the bottom.",
+      "summary": "Robinhood-traders visar faran med buy the dip-mentalitet när aktier faller på grund av fundamentala problem.",
+      "category": "lesson",
+      "speaker": "Talare 1",
+      "speaker_role": "host",
+      "timestamp": "05:41",
+      "confidence": "high",
+      "tags": [
+        "retail",
+        "buy the dip",
+        "value traps",
+        "Hertz"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet fokuserar på API-ekonomin och djupanalys av Datadog, en SaaS-plattform för applikationsövervakning med 87% tillväxt och Rule of 40 på 92%. Diskussionen inkluderar konkurrenter som Elastic (60% tillväxt), Splunk, New Relic och Dynatrace. Marknaden beskrivs som extremt blandad - hatad bullmarknad men med stort FOMO. Potentiellt 2 biljoner dollar kan flöda in från sidlinjen via återgången till normal allokering, återköp och CTA-trendföljare.",
+  "key_takeaways": [
+    "Datadog har exceptionella metrics med 87% tillväxt och 92% Rule of 40",
+    "Rule of 40 (tillväxt + marginal > 40) är kritiskt för SaaS-bolag",
+    "API-ekonomi accelererar genom digitalisering och Corona",
+    "Konkurrenter som Elastic snabbar upp med 60% tillväxt",
+    "Robinhood-traders visar extrem buy the dip-mentalitet",
+    "Masspsykologi viktigare än macro i nuvarande marknad"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2020-05-28-d13d.txt",
+  "transcript_word_count": 8330,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

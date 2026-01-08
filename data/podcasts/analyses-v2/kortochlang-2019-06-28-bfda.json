@@ -1,0 +1,277 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2019-06-28-bfda",
+  "podcast_name": "kortochlang",
+  "episode_title": "Jubel i skogen",
+  "episode_number": null,
+  "date": "2019-06-28",
+  "hosts": [
+    "Victor Monkhammar",
+    "Magnus Dagerl"
+  ],
+  "guests": [],
+  "main_topics": [
+    "H&M-rapport",
+    "Detaljhandelsomställning",
+    "Räntor och fastigheter",
+    "Skogstransaktion (AMF)",
+    "Makroindikatorer"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "Zalando",
+    "Kapal",
+    "R&B",
+    "Atrium-Jungberg",
+    "Huvudstaden",
+    "SCA",
+    "Holmen",
+    "Fastpartner",
+    "Fabegé",
+    "Dejö",
+    "Industrivärden"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Magnus Dagerl",
+      "speaker_role": "host",
+      "timestamp": "[02:20]",
+      "reasoning": "Magnus tror att H&M kan bli en vinnare på sikt eftersom de äger sitt varumärke och kan kombinera e-handel med fysiska butiker. Företaget har starkt varumärke och lång erfarenhet av detaljhandeln. Aktien har haft problem men visar bättre momentum med e-handelstillväxt på ca 20%. P/E-tal på ca 20 är högt men betydligt lägre än vissa e-handlare.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag tror ändå att de som kan komma ut bra, det är de som äger sina varumärken, kan kombinera e-handel med fysiska butiker. Det tror jag kommer lyckas och H&M har ett väldigt starkt varumärke och lång erfarenhet av detaljhandeln.",
+      "sector": "Detaljhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Zalando",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Magnus Dagerl",
+      "speaker_role": "host",
+      "timestamp": "[03:07]",
+      "reasoning": "Zalando handlas till extremt höga värderingar med P/E-tal på ca 100. Nuvarande marginal är runt 2% men marknaden räknar med ca 8% i mognadsscenario. Det är svårt att förstå värderingen och bolaget har inget eget varumärke vilket gör det sårbart.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är lite svårt att förstå den värderingen. Hur den kan anlas till P, betal på 100. Marginalen är nu runt 2% och marknaden räknar med runt 8% kanske i någon slags mognad scenario kommande åren. Och dit måste man då för att kunna räkna hem aktien.",
+      "sector": "E-handel",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "[01:17]",
+      "timestamp_end": "[02:51]",
+      "word_count": 450,
+      "speakers": [
+        "Victor Monkhammar",
+        "Magnus Dagerl"
+      ],
+      "primary_speaker": "Magnus Dagerl",
+      "discussion_summary": "Diskussion kring H&M:s rapport som fick aktien att stiga 13% trots att den var i linje med förväntningarna. Positiv överraskning i juni-försäljningen på 12-13% gav momentum. Magnus argumenterar för att bolag med starka varumärken som kan kombinera e-handel med fysiska butiker kommer att vinna på sikt. H&M har 20% e-handelstillväxt men handlas till P/E 20.",
+      "quotes": [
+        {
+          "speaker": "Victor Monkhammar",
+          "text": "Du tänker på H&M ja. Ja, det var ju en enorm kursreaktion där. Ja, vad blev det till slut? 13 procent uppe.",
+          "timestamp": "[01:17-01:22]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Magnus Dagerl",
+          "text": "Handeln växer bra för dem nu, 20% tyckte jag det är det meste. Men jag tror att de kan nog bli någon slags vinnare på sikt tror jag.",
+          "timestamp": "[02:18-02:21]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Dagerl",
+          "text": "Jag tror ändå att de som kan komma ut bra, det är de som äger sina varumärken, kan kombinera e-handel med fysiska butiker. Det tror jag kommer lyckas och H&M har ett väldigt starkt varumärke och lång erfarenhet av detaljhandeln.",
+          "timestamp": "[02:21-02:27]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Dagerl",
+          "text": "H&M har också högt värderat, kan man ju nämna också P-tal på runt 20, men inte alls som Zalando.",
+          "timestamp": "[03:27-03:30]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "ca 20",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "ca 20% (e-handel)",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "E-handelsandel: 20%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Starkt varumärke",
+          "Kan kombinera e-handel med fysiska butiker",
+          "20% e-handelstillväxt",
+          "Lång erfarenhet av detaljhandel"
+        ],
+        "bear_case": [
+          "Har haft problem under många år",
+          "Hög P/E på 20"
+        ],
+        "catalysts": [
+          "E-handelsmomentum"
+        ],
+        "risks": [
+          "Konkurrens från rena e-handlare",
+          "Butiksdöd i mindre städer"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "SCA och Holmen",
+      "ticker": "SCA-B, HOLM-B",
+      "timestamp_start": "[14:25]",
+      "timestamp_end": "[15:45]",
+      "word_count": 350,
+      "speakers": [
+        "Victor Monkhammar",
+        "Magnus Dagerl"
+      ],
+      "primary_speaker": "Magnus Dagerl",
+      "discussion_summary": "AMF köpte skog vilket fick kursreaktion på SCA och Holmen. Magnus menar att marknaden använt för höga avkastningskrav vid värdering av skog och fastigheter. Små förändringar i avkastningskrav ger stora värdeförändringar för avkastande tillgångar. Skogen är värd betydligt mer än bokförda värden.",
+      "quotes": [
+        {
+          "speaker": "Victor Monkhammar",
+          "text": "Det var en saftig uppgång, var SCA upp 8% eller nåt sånt där?",
+          "timestamp": "[15:18-15:20]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Magnus Dagerl",
+          "text": "De har använt för höga avkastningskrav i sin värdering. Det har jag i alla fall sett innan alla de här gjort det. De har varit för försiktiga och de har inte sänkt avkastningskraven i linje med långa räntorna.",
+          "timestamp": "[14:47-14:52]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Dagerl",
+          "text": "Så att skogen är värd betydligt mer än vad de har i böckerna.",
+          "timestamp": "[15:16-15:17]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Dagerl",
+          "text": "Bara små förändringar med avkastningskraven i såna här avkastade tillgångar som skog och fastigheter gör väldigt stora förändringar på värdena.",
+          "timestamp": "[15:24-15:27]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kursuppgång: ca 8% (SCA)",
+          "Värderingsskillnad mot marknad: betydligt högre marknadsvärde än bokfört värde"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Skogen värderad betydligt högre av externa investerare",
+          "Marknad har använt för höga avkastningskrav",
+          "Långa räntor pressar upp fastighets- och skogsvärden"
+        ],
+        "bear_case": [
+          "Små förändringar i avkastningskrav skapar stora värdeförändringar (volatilitet)"
+        ],
+        "catalysts": [
+          "Långa räntor under press"
+        ],
+        "risks": [
+          "Volatilitet i värderingar vid avkastningskravsändringar"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det som får tufft är de som inte äger sina varumärken. De är ett slags transaktionssobbarna som jag ser det.",
+      "summary": "I detaljhandelns omställning till e-handel vinner bolag med starka varumärken som kan kombinera kanaler, medan rena transaktionsplatser har det svårare.",
+      "category": "wisdom",
+      "speaker": "Magnus Dagerl",
+      "speaker_role": "host",
+      "timestamp": "[02:40-02:46]",
+      "confidence": "high",
+      "tags": [
+        "detaljhandel",
+        "varumärke",
+        "e-handel"
+      ]
+    },
+    {
+      "quote": "De har använt för höga avkastningskrav i sin värdering. De har varit för försiktiga och de har inte sänkt avkastningskraven i linje med långa räntorna.",
+      "summary": "Marknaden har inte anpassat sina värderingsmodeller för avkastande tillgångar (skog, fastigheter) till den nya räntemiljön med mycket låga räntor.",
+      "category": "wisdom",
+      "speaker": "Magnus Dagerl",
+      "speaker_role": "host",
+      "timestamp": "[14:47-14:52]",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "räntor",
+        "fastigheter",
+        "skog",
+        "avkastningskrav"
+      ]
+    },
+    {
+      "quote": "Bara små förändringar med avkastningskraven i såna här avkastade tillgångar som skog och fastigheter gör väldigt stora förändringar på värdena.",
+      "summary": "Värderingen av avkastande tillgångar som fastigheter och skog är mycket känslig för förändringar i avkastningskravet.",
+      "category": "wisdom",
+      "speaker": "Magnus Dagerl",
+      "speaker_role": "host",
+      "timestamp": "[15:24-15:27]",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "avkastningskrav",
+        "fastigheter",
+        "skog"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på H&M:s positiva kursreaktion efter rapporten och detaljhandelens omställning där bolag med starka varumärken kan kombinera e-handel med fysiska butiker. Diskuterar också fastighetssektorns gynnsamma läge med sjunkande räntor och hur AMF:s skogsköp påverkade SCA och Holmen. Makrofrågor inkluderar svag detaljhandelsstatistik, PMI-indikatorer och potentiell räntesänkning av Fed.",
+  "key_takeaways": [
+    "H&M kan bli vinnare genom att kombinera e-handel med starkt varumärke",
+    "Bolag som inte äger sina varumärken får det tufft i detaljhandeln",
+    "Fastigheter och skogsvärden ökar när långa räntor faller",
+    "Marknaden har haft för höga avkastningskrav för avkastande tillgångar",
+    "Kvalitetsbolag med strukturell tillväxt handlas till höga P/E-tal"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2019-06-28-bfda.txt",
+  "transcript_word_count": 4324,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

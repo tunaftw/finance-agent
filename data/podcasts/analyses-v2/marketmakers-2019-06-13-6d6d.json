@@ -1,0 +1,216 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-06-13-6d6d",
+  "podcast_name": "Marketmakers",
+  "episode_title": "#87 Alibaba Group och de 40 rövarna",
+  "episode_number": 87,
+  "date": "2019-06-13",
+  "hosts": [],
+  "guests": [],
+  "main_topics": [
+    "Alibaba Group risker och ifrågasatta siffror",
+    "Marknadssentiment och yield-kurva",
+    "Risker med kinesiska bolag på USA-börsen"
+  ],
+  "stocks_discussed": [
+    "Alibaba Group",
+    "MenuPay"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Alibaba Group",
+      "ticker": "BABA",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Podcastvärdarna",
+      "speaker_role": "host",
+      "timestamp": "[10:41]",
+      "reasoning": "Värdarna diskuterar omfattande risker och frågetecken kring Alibaba: extremt höga GMV-siffror som verkar osannolika (20x högre GMV per anställd än Amazon), stora tillgångsuppvärderingar som utgör merparten av vinsten, dotterbolag som försvinner och återkommer utan förklaring, oklara fastighetsköp, och generös aktiepolicy till anställda på 10% av omsättningen. De rekommenderar specifikt att INTE korta aktien ('Det ska man inte göra') men lyfter riskerna.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det ska man inte göra. Nej, det tror jag nog kan vara väldigt farligt, men däremot kan det vara väldigt intressant och bra att vara medveten om riskerna.",
+      "sector": "E-commerce/Tech",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "MenuPay (Menyoo)",
+      "ticker": "MENYOO",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Podcastvärdarna",
+      "speaker_role": "host",
+      "timestamp": "[09:05]",
+      "reasoning": "Sponsor-notering: MenuPay är en betalningsrabatt- och lojalitetsapp för företag med 56 000 användare som ökar med 100+ per dag, 450 anslutna restauranger, 15% genomsnittlig rabatt. Bolaget gör en ny emission på drygt 20 MSEK där närmare 70% är tecknat. Förbereder internationell expansion. Noterat på Spotlight.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man har idag över 56 000 användare. Man ökar med över 100 nya användare per dag och 15 nya företag per månad. 450 restauranger som är anslutna och i genomsnitt får användarna hela 15 procent rabatt på de här bokningarna.",
+      "sector": "Fintech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Internationell expansion, emission avslutas 17 juni 2019"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Alibaba Group",
+      "ticker": "BABA",
+      "timestamp_start": "[09:50]",
+      "timestamp_end": "[30:03]",
+      "word_count": 2000,
+      "speakers": [],
+      "primary_speaker": "Podcastvärdarna",
+      "discussion_summary": "Värdarna presenterar en detaljerad granskning av Alibaba som ifrågasätter bolagets rapporterade siffror och transparens. De diskuterar extremt höga GMV-siffror, stora tillgångsuppvärderingar som driver vinsten, försvinnande dotterbolag, oklara fastighetsköp, generös aktiepolicy till anställda, och strukturfrågor kring ägarbasen. De menar att majoriteten av Alibabas vinst kommer från bokföringsvinster snarare än den faktiska verksamheten.",
+      "quotes": [
+        {
+          "speaker": "Podcastvärd",
+          "text": "Alibabas GNB per anställder 8 336 000. Alltså cirka 20 gånger högre än Amazon.",
+          "timestamp": "[13:09]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Podcastvärd",
+          "text": "Alibaba har uppvärderat sina egna tillgångar och den här uppvärderingen är ungefär lika stor som vinsten. Alltså, exkluderar man den här uppvärderingen då skulle inte Alibaba ha ens en vinst förra kvartalet.",
+          "timestamp": "[14:30]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Podcastvärd",
+          "text": "Den totala uppvärderingen eller bokföringsvinsten, den beror inte på någon riktig affär som skett för hela året är 7 miljarder dollar. Det här inkluderas i deras vinst på nästan 12 miljarder dollar. Dvs majoriteten av Alibabas vinst kommer faktiskt från tillgångsuppvärdering snarare än den faktiska verksamheten.",
+          "timestamp": "[15:43]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Podcastvärd",
+          "text": "De gav förra året ut aktier och kickbacks till anställda, vänner och familj, för cirka 5,6 miljarder dollar, det vill säga 10 procent av omsättningen.",
+          "timestamp": "[23:49]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "51%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "GMV: $853 miljarder (19% ökning)",
+          "GMV per anställd: $8,336,000",
+          "Tillgångsuppvärdering: ~$7 miljarder",
+          "Aktieutdelning till anställda: 10% av omsättningen",
+          "Antal dotterbolag: 920 separata verksamheter"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Extremt höga GMV-siffror som verkar osannolika (20x Amazon per anställd)",
+          "Vinst drivs av bokföringsvinster från tillgångsuppvärderingar snarare än operativ verksamhet",
+          "Oklar förvaltning av tillgångar och fastigheter ($5,3 miljarder i P&E utan förklaring)",
+          "Dotterbolag försvinner och återkommer utan transparens",
+          "Generös aktiepolicy till anställda, vänner och familj (10% av omsättningen)",
+          "Komplex ägarstruktur med många offshorebolag i Cayman"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Rapporterade GMV-siffror kan vara överdrivna eller manipulerade",
+          "Tillgångsuppvärderingar kan vara overifierade",
+          "Låg transparens kring dotterbolag och investeringar",
+          "Strukturfrågor kring ägarbasen och noteringsstruktur"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är väldigt lätt att falla in i en positiv bias när man analyserar bolag. Man slår helt enkelt bort all negativ kritik och information som går emot en bild man redan har bildat kring bolaget.",
+      "summary": "Varning för bekräftelsebias vid investeringsanalys - man tenderar att ignorera negativ information som motsäger en existerande bild.",
+      "category": "wisdom",
+      "speaker": "Podcastvärd",
+      "speaker_role": "host",
+      "timestamp": "[01:42]",
+      "confidence": "high",
+      "tags": [
+        "bias",
+        "psychology",
+        "analysis"
+      ]
+    },
+    {
+      "quote": "Gör allt i din egen analys för guds skull. Lyssna inte på oss blindt hur som helst.",
+      "summary": "Viktigt att göra egen due diligence och inte följa rekommendationer slaviskt.",
+      "category": "philosophy",
+      "speaker": "Podcastvärd",
+      "speaker_role": "host",
+      "timestamp": "[03:05]",
+      "confidence": "high",
+      "tags": [
+        "due diligence",
+        "independent research"
+      ]
+    },
+    {
+      "quote": "Lagerutbyggnaden har stått för mer än tre procentenheter av BNP-tillväxten totalt. Samtliga nio gånger det här har skett under de senaste 40 åren har det resulterat i en rejält bakslag kommande kvartal.",
+      "summary": "Historiskt mönster: när lagerutbyggnad driver BNP-tillväxt följer recession nästan alltid.",
+      "category": "wisdom",
+      "speaker": "Podcastvärd",
+      "speaker_role": "host",
+      "timestamp": "[04:06]",
+      "confidence": "high",
+      "tags": [
+        "macro",
+        "recession indicators",
+        "inventory"
+      ]
+    },
+    {
+      "quote": "Just nu prisar man faktiskt in tre räntesänkningar fram till år 2020... Marknaden har redan diskonterat in de här räntesänkningarna och får vi inte dem nu, då kan det bli riktigt tufft.",
+      "summary": "Risk när marknaden prissätter framtida händelser - om de inte inträffar kan det bli stora negativa överraskningar.",
+      "category": "wisdom",
+      "speaker": "Podcastvärd",
+      "speaker_role": "host",
+      "timestamp": "[06:12]",
+      "confidence": "high",
+      "tags": [
+        "market pricing",
+        "Fed",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Recessioner och avmatningar påbörjas alltid med psykologi. Folk blir oroliga för vad som händer i världen. Då börjar man på olika sätt sajsa ner eller försöka dämpa sina utgifter.",
+      "summary": "Recessioner startar med psykologi och rädsla, inte med ekonomiska data.",
+      "category": "wisdom",
+      "speaker": "Podcastvärd",
+      "speaker_role": "host",
+      "timestamp": "[04:31]",
+      "confidence": "high",
+      "tags": [
+        "psychology",
+        "recession",
+        "market cycles"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Värdarna diskuterar ökande recessionrisker med inverterad yield-kurva, svagare BNP-tal, och lagerutbyggnad som historiskt förebåder recession. De granskar kritiskt Alibaba och lyfter omfattande frågetecken kring bolagets rapporterade siffror och transparens.",
+  "key_takeaways": [
+    "Yield-kurvan är inverterad och historiskt har detta förebådat recession",
+    "Lagerutbyggnad på 3%+ av BNP-tillväxt har följts av bakslag 9/9 gånger på 40 år",
+    "Alibabas rapporterade GMV-siffror verkar extremt höga (20x Amazon per anställd)",
+    "Majoriteten av Alibabas vinst kommer från bokföringsvinster snarare än operativ verksamhet",
+    "Bolaget har omfattande transparensproblem kring dotterbolag och tillgångar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-06-13-6d6d.txt",
+  "transcript_word_count": 5721,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

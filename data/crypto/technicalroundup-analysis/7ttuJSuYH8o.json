@@ -1,0 +1,146 @@
+{
+  "source_id": "7ttuJSuYH8o",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-05-01",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Discussing BTC struggling at 30k resistance with bearish price action, failed attempts to break higher",
+      "quote": "at the moment 30k Ish is still resistance and it's acting like it and I think the next clear weekly support is at 24K ish there's nothing on the weekly that I quite like in the mid to high 20s",
+      "price_levels": [
+        "$30,000",
+        "$27,000",
+        "$24,000",
+        "$35,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Monthly timeframe analysis showing BTC equidistant from support and resistance",
+      "quote": "at the moment we're just in the middle and stuck between those two levels the push to resistance from current prices is about 20 30 away and the push to support is similar sort of you know 20 25 away so the monthly is far away from relevant monthly levels",
+      "price_levels": [
+        "$35,000",
+        "$24,000",
+        "$21,000"
+      ],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "ETH showing failed breakout pattern on weekly timeframe",
+      "quote": "the weekly bias on this is going to be bearish uh if it does break above 1900 then I think there's a very decent argument to be made to fill in a lot of this kind of sloppy selling back into the nearest level of structure or the breakdown Point close to 2500",
+      "price_levels": [
+        "$1,900",
+        "$2,500",
+        "$1,400"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Describing ETH range structure and potential downside levels",
+      "quote": "take failed breakouts seriously in crypto and the available evidence suggests that we have one on the on the weekly time frame so I'm not gonna rush to ignore or counter trade that",
+      "price_levels": [
+        "$1,900",
+        "$1,600",
+        "$1,400",
+        "$1,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "Discussing potential bounce areas in daily consolidation",
+      "quote": "I think the first reasonable candidate for a bounce would be some version of this range low under 27k whether that's just an outright reaction or a deep Spike to sort of probe who's hanging out below these lows",
+      "price_levels": [
+        "$27,000",
+        "$28,500"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$30,000",
+        "$27,000",
+        "$24,000",
+        "$35,000"
+      ],
+      "ETH": [
+        "$1,900",
+        "$1,600",
+        "$1,400",
+        "$2,500"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC is stuck in a cluster around 30k with poor risk reward for long positions due to nearby resistance at 35k",
+    "ETH shows a clear failed breakout pattern on the weekly timeframe at 1900, which is a significant bearish signal",
+    "The market lacks compelling bullish arguments on higher timeframes with choppy price action",
+    "Best trading opportunities are likely at market extremities rather than middle areas",
+    "Failed breakouts should be taken seriously in crypto markets as they often lead to significant moves",
+    "Monthly timeframes for both BTC and ETH are not at inflection points and offer limited signals",
+    "Upcoming FOMC and macro events could provide volatility catalysts though impact has been reduced recently"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$27,000 or below",
+      "target": "$28,500",
+      "stop": "not specified",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$20,000-$23,000",
+      "target": "$30,000+",
+      "stop": "not specified",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "$1,900 resistance",
+      "target": "$1,600-$1,400",
+      "stop": "above $1,900",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "The TechnicalRoundup podcast features Cred analyzing BTC and ETH technical levels. BTC is trading in a cluster around 30k with poor risk reward for longs due to nearby resistance at 35k, while the next clear support is at 24k. ETH shows a concerning failed breakout pattern on the weekly timeframe at 1900 with bearish implications targeting 1400-1600. Both assets lack compelling bullish setups on higher timeframes with choppy price action, suggesting caution and swing trading at market extremities is warranted.",
+  "transcript_word_count": 14396,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:54:56.319757"
+}

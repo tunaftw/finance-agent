@@ -1,0 +1,297 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2018-02-28-997b",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Sparpodden 225 - Lyssnartävling",
+  "episode_number": 225,
+  "date": "2018-02-28",
+  "hosts": [
+    "Jocke",
+    "Alex"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Volvo Cars IPO",
+    "Spotify direktlistning",
+    "Italienska valet",
+    "Utdelning och snöbollseffekten",
+    "Fondemissioner",
+    "Räntemarknaden"
+  ],
+  "stocks_discussed": [
+    "Volvo Cars",
+    "Spotify",
+    "Daimler",
+    "Lundbergs",
+    "SAS"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Spotify",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "16:53",
+      "reasoning": "Varken Jocke eller Alex planerar att köpa eller blanka Spotify-aktien vid den kommande direktlistningen på NYSE. De förhåller sig neutrala och är inte intresserade av att delta.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Kommer du att köpa? Nej. Nej, kommer du blanka? Nej. Kommer du? Nej, varken eller.",
+      "sector": "Technology/Streaming",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Lundbergs",
+      "ticker": "LUND-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "28:55",
+      "reasoning": "Lundbergs genomför en fondemission för att stärka balansräkningen, troligtvis som en försiktigighetsåtgärd inför sämre börsklimat. För existerande aktieägare innebär detta att man får fler aktier men lägre pris per aktie - ingen åtgärd krävs.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Konsekvensen för dig som aktieägar är att du behöver inte göra någonting. Det är bara att sitta still så kommer du få lite fler aktier. Men priset kommer att minskas per aktie. Det blir som en split.",
+      "sector": "Investmentbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Fondemission med avstämningsdag 2018-05-15"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Volvo Cars",
+      "ticker": null,
+      "timestamp_start": "01:11",
+      "timestamp_end": "08:27",
+      "word_count": 950,
+      "speakers": [
+        "Jocke",
+        "Alex"
+      ],
+      "primary_speaker": "Jocke",
+      "discussion_summary": "Diskussion kring Geely-ägaren Li Shufu som köpt nästan 10% av Daimler, vilket komplicerar planerna på Volvo Cars börsnotering. AP-fonderna äger 5 miljarder i preferensaktier. Oron kring konflikten mellan Daimler och Volvo Cars gör en börsnotering osannolik på kort sikt.",
+      "quotes": [
+        {
+          "speaker": "Jocke",
+          "text": "Lee Choo-Foo har ett investmentföretag som nu har gått in och köpt nästan 10% av Daimler. Alltså Mercedes-Benz plus lastvagnar och lite till. Jättekoncernen. Det här stökar ju till det ganska rejält.",
+          "timestamp": "02:50",
+          "context": "other"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Så det här stökar ju till det rätt rejält. Man vill inte ha en storägare som insyn i värsta konkurrenten.",
+          "timestamp": "04:16",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "AP1, AMF, Folksam och nånting. Det är totalt fem miljarder i preferensaktier som de har. De var nog tanken att man skulle börsnotera det här bolaget och helt enkelt vandla om och om till aktier. Nu är det ingen fara.",
+          "timestamp": "06:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Jag tror inte man är så pigg att gå in som minoritetsägare. Jag slår inte med den här ägaren som också har en större... I alla fall en stor post i Daimler som är en stor konkurrent.",
+          "timestamp": "06:05",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "AP-fonderna äger 5 miljarder SEK i preferensaktier",
+          "Geely: 10% av Daimler"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Konflikten mellan storägare som äger konkurrerande biltillverkare",
+          "AP-fonderna får inte konvertera preferensaktier till vanliga aktier",
+          "Litet intresse från minoritetsinvesterare"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Kinesisk ägande av två konkurrerande biltillverkare (Volvo och Daimler)",
+          "Politisk påverkan på kinesiska bolag"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Spotify",
+      "ticker": null,
+      "timestamp_start": "08:29",
+      "timestamp_end": "17:09",
+      "word_count": 1100,
+      "speakers": [
+        "Jocke",
+        "Alex"
+      ],
+      "primary_speaker": "Alex",
+      "discussion_summary": "Spotify planerar direktlistning (DPO) på NYSE istället för traditionell IPO. De har redan ägarspridning och behöver inte ta in nytt kapital. Det är ett ovanligt men kostnadseffektivt tillvägagångssätt. Värderingen väntas bli högre i USA än Sverige.",
+      "quotes": [
+        {
+          "speaker": "Alex",
+          "text": "Det som är lite speciellt och det är det som jag tycker kan vara lite kul att diskutera här, det är ju att Spotify, de tänker ju inte göra en IPO. Utan de tänker göra en DPO. Nu blir det kanske en del lulligt att fundera på vad det är.",
+          "timestamp": "08:43",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Det finns ju massa skäl till att göra det. Det finns många skäl till att gå in på börsen och ett skäl kan ju helt enkelt vara bara för att likviditet i aktien, att ägare ska kunna gå in och ur på ett vettigt sätt.",
+          "timestamp": "09:29",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Det är otroligt ovanligt att man går den här vägen. Om vi tar och jämför med de andra stora tech-IPO'erna, Twitter, Snapchat, Facebook för några år sedan. De har ju alla varit classic IPO.",
+          "timestamp": "10:08",
+          "context": "other"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Men det här är nog rätt smart, för du skajer ner på kostnaderna. Det är ju mindre bonus för investmentbanker.",
+          "timestamp": "10:37",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Då är det en värderingsfråga. Alla som lyssnar känner till hur amerikanska tech-bolag värderas. Du har inget Amazon för 300 i PE i Sverige.",
+          "timestamp": "13:43",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Jag är ju en av dem som inte lyssnar på Spotify. Okej, spännande. Ja, fattar du hur mycket pengar jag sparar på det? Jag sparar enormt mycket pengar på Spotify, därför att jag köper inga skivor.",
+          "timestamp": "17:03",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Högre värdering i USA jämfört med svenska tech-bolag",
+          "Kostnadseffektivt - slipper dyra investmentbanker",
+          "Redan etablerat varumärke och bred ägarbas"
+        ],
+        "bear_case": [
+          "Ingen prissättning via bokbygge - risk för volatilitet",
+          "Inga nya pengar till bolaget"
+        ],
+        "catalysts": [
+          "Direktlistning på NYSE planerad mars-april 2018"
+        ],
+        "risks": [
+          "Prisvolatilitet vid direktlistning utan bokbygge"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Direkta avkastningen och det här är ju högst aktuellt nu för nu är det utdelningssäsong. Då är det många som börjar jaga de här utdelningsaktierna. Om vi koller börsen och tar hela Stockholmsbörsen exklusive och inklusive utdelning då har du i princip dubbla avkastningen om du tar inklusive utdelning återinvesterad.",
+      "summary": "Utdelning med återinvestering ger dubbelt så hög totalavkastning över 20 år på Stockholmsbörsen jämfört med att bara ta kursutvecklingen.",
+      "category": "wisdom",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "25:01",
+      "confidence": "high",
+      "tags": [
+        "utdelning",
+        "snöbollseffekt",
+        "återinvestering"
+      ]
+    },
+    {
+      "quote": "Klassiska snöbollen handlar ju om att du låter avkastningen vara kvar i depån eller i ditt sparande hela tiden. Om avkastningen kommer från kursutveckling eller från direkt avkastning, alltså i form av utdelning, det spelar ingen roll. Det är inte det viktiga. Det viktiga är att du hela tiden har kvar där du har satt pengarna.",
+      "summary": "Snöbollseffekten handlar om att hålla avkastningen i portföljen oavsett om den kommer från kursuppgång eller utdelning - nyckeln är att inte ta ut pengarna.",
+      "category": "philosophy",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "25:54",
+      "confidence": "high",
+      "tags": [
+        "snöbollseffekt",
+        "långsiktighet"
+      ]
+    },
+    {
+      "quote": "Det som är så lurigt med direktavkastningen är att det är ganska lätt att nalla på den där. Och att man använder den till någonting. Men det gäller att hålla den kvar och att återinvesterar den. Det är då du kan få snöbollseffekt även med utdelningspengar.",
+      "summary": "Risken med utdelningsaktier är frestelsen att ta ut pengarna istället för att återinvestera dem, vilket förstör snöbollseffekten.",
+      "category": "wisdom",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "26:23",
+      "confidence": "high",
+      "tags": [
+        "utdelning",
+        "snöbollseffekt",
+        "disciplin"
+      ]
+    },
+    {
+      "quote": "De då som har ambitionen att helt eller delvis leva på sitt kapital i framtiden, då är det inte, det kanske inte är det viktigaste att leta aktier som har högst direktavkastning idag. För det kan bero på så många anledningar. Ta nu, under den här utdelningssäsongen, det är en del bolag som har väldigt höga för att de har extrautdelningar. Högst temporärt det här året, inte säkert att det kommer extrautdelningar nästa år.",
+      "summary": "Jaga inte efter högsta direkta avkastningen eftersom det kan vara temporärt (t.ex. extrautdelningar) - snöbollseffekten bygger på långsiktighet, inte högsta årliga avkastning.",
+      "category": "lesson",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "26:42",
+      "confidence": "medium",
+      "tags": [
+        "utdelning",
+        "extrautdelning",
+        "long-term"
+      ]
+    },
+    {
+      "quote": "Högfrekvens handlare som Alnar köper väldigt mycket men sedan lyckas sälja av. Slutkvoten landar på Netto noll. De stänger alltid. De går alltid ut flat eller noll. De stänger positionen innan dagen.",
+      "summary": "Högfrekvenshandlare (HFT) har ofta nollnetto-positioner vid dagsslut då de stänger alla positioner - hög volym betyder inte långsiktigt ägande.",
+      "category": "wisdom",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "30:59",
+      "confidence": "high",
+      "tags": [
+        "högfrekvenshandel",
+        "HFT",
+        "handelsvolym"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar flera stora marknadshändelser: Volvo Cars osäkra börsnotering på grund av Geely-ägarens köp av Daimler, Spotifys kommande direktlistning på NYSE, Italienska valet och dess betydelse för eurozonen. Dessutom tas lyssnarfrågor upp om utdelningens roll i snöbollseffekten, vad en fondemission är, hur högfrekvenshandel fungerar, och introduktion till räntemarknaden.",
+  "key_takeaways": [
+    "Spotify gör direktlistning på NYSE istället för traditionell IPO för att spara kostnader",
+    "Volvo Cars börsnotering osannolik på grund av konflikt mellan Geely/Daimler-ägande",
+    "Utdelning med återinvestering har gett dubbelt så hög avkastning på 20 år på Stockholmsbörsen",
+    "Högfrekvenshandlare har nollnetto-positioner vid dagsslut",
+    "Italiens valet väntas inte leda till stora marknadskaos trots oron"
+  ],
+  "model_used": "glm-4.7"
+}

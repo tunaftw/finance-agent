@@ -1,0 +1,91 @@
+{
+  "episode_id": "veckanstrade-2025-06-11-2aae",
+  "podcast_name": "Veckans Trade",
+  "episode_title": "2. Övertaget med ett litet konto på börsen",
+  "episode_number": 2,
+  "date": "2025-06-11",
+
+  "hosts": ["Programledare", "Gäst (algoritmhandel-expert)"],
+  "guests": [],
+
+  "main_topics": [
+    "Algoritmhandel och trading-robotar",
+    "Backtesting och marknadsföringsbluff",
+    "Market makers och likviditet",
+    "Warren Buffett-strategi och AI",
+    "Medallion Fund och Jim Simons",
+    "Tesla kursnedgång och Twitter"
+  ],
+
+  "stocks_discussed": [
+    "Tesla",
+    "Nordea",
+    "Coca Cola"
+  ],
+
+  "recommendations": [
+    {
+      "stock_name": "Algoritmehandel-robotar",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Gäst",
+      "speaker_role": "host",
+      "timestamp": "00:23:27",
+      "reasoning": "De flesta algoritmehandel-robotar som säljs på sociala medier är baserade på backtesting där parametrarna kan manipuleras för att visa vilken graf som helst. Det saknas framtidsgaranti att de kommer avkasta likadant. De smartaste i världen håller på med algoritmhandel och det är inte lätt att knäcka marknaden med ProRealtime och några indikatorer.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det man ser, det de visar, det är egentligen bara ett backtest. Du kan ju egentligen ändra parametrarna exakt hur du vill till att få det ut vad du vill. Det har ingen framtidsgaranti på att de kommer avkasta likadant eller vad som helst.",
+      "sector": "finans",
+      "market": "unknown"
+    },
+    {
+      "stock_name": "Fonder vs algoritmehandel",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Gäst",
+      "speaker_role": "host",
+      "timestamp": "00:35:12",
+      "reasoning": "Istället för att köpa algoritmehandel-robotar som är orölja är det bättre att köpa fonder. Att spara i indexfonder är att föredra framför att försöka knäcka marknaden med enkla algoritmer.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag tror att pro real time är ormolja. Jag tror att det är bättre att börja köpa avansas fondrobot.",
+      "sector": null,
+      "market": "sweden"
+    },
+    {
+      "stock_name": "Certifikat och turbovaranter",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Gäst",
+      "speaker_role": "host",
+      "timestamp": "00:28:34",
+      "reasoning": "Certifikat och turbovaranter kan vara bra för aktiva traders som förstår riskerna, men det är inte produkter för långsiktig investering. De kräver kunskap och förståelse för hävstång, volatilitet och hur marknadsneutralitet fungerar.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Det är inget man sitter och långsiktigt investerar i. Men jag menar folk som handlar aktivt, de är ju rätt bra nu för tiden.",
+      "sector": "finans",
+      "market": "sweden"
+    }
+  ],
+
+  "market_sentiment": "neutral",
+
+  "summary": "Veckans Trade avsnitt 2 diskuterar algoritmhandel och trading-robotar. Gästen förklarar att de flesta robotar som säljs på sociala medier är baserade på manipulerad backtesting och är en bluff. Jim Simons Medallion Fund lyfts fram som ett exempel på riktig algoritmhandel, men den är stängd för investerare. Trump-tweetar kopplas till Teslas nedgång.",
+  
+  "key_takeaways": [
+    "Algoritmehandel-robotar på sociala medier är oftast baserade på manipulerad backtesting",
+    "De smartaste i världen använder algoritmhandel men det är inte lätt att replikera",
+    "Market makers tjänar pengar på likviditet och spreaden, inte på att slå marknaden",
+    "Fonder är bättre än att försöka knäcka marknaden med enkla algoritmer",
+    "Certifikat och turbovaranter kräver kunskap och är för aktiva traders"
+  ],
+
+  "transcript_file": "data/transcripts/veckanstrade/veckanstrade-2025-06-11-2aae.txt",
+  "transcript_word_count": 7890,
+  "has_timestamps": true,
+  "processed_at": "2025-12-25T00:00:00",
+  "model_used": "glm-4.7"
+}

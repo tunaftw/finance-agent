@@ -1,0 +1,750 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2019-10-16-c6b9",
+  "podcast_name": "Börsboden",
+  "episode_title": "Avsnitt 321 - Skogmans nyheter i korthet",
+  "episode_number": 321,
+  "date": "2019-10-16",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [
+    "Esbjörn Lundevall",
+    "Benjamin Svedberg"
+  ],
+  "main_topics": [
+    "ESG investing",
+    "Q3 rapporter",
+    "Svenska aktier",
+    "Singapore ekonomi"
+  ],
+  "stocks_discussed": [
+    "Kindred",
+    "NetEnt",
+    "Swedish Match",
+    "Saab",
+    "H&M",
+    "Cellu Company",
+    "Telia",
+    "Arion Bank",
+    "Ålandsbanken"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Kindred",
+      "ticker": "KIND-SDB",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "22:54",
+      "reasoning": "Ändrade åsikt från intresserad till skeptisk efter september-siffror som var usla. Tappade 12,5% sekventiellt i Sverige trots att sport drog igång. Den svenska marknaden verkar inte ha bottnat. Även Leo Vegas rapporterade dåliga september-siffror. Aktien kan ha köpt på dåliga nyheter men risken kvarstår.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag var sugen men nu tror jag inte på dem alls längre. September var den sämsta månaden i år för Kindred i Sverige. Trots att all sport har dragit igång igen så var siffrorna usla.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "NetEnt",
+      "ticker": "NET-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "23:12",
+      "reasoning": "Stiger på köprekommendation men jag tror 'gammelnettan' kan vara riktigt illa i Q3. Ser en dold vinstvarning i samband med Confco. Red Tiger kan leverera men den gamla verksamheten ser svag ut.",
+      "price_target": null,
+      "time_horizon": "short term",
+      "quote": "Jag skulle vara lite försiktig med till exempel Netten som stiger mycket idag på en köprekommendation. Red Tiger kommer säkert att leverera, men jag tror att gammelnettan kan vara riktigt illa i Q3.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Q3 rapport"
+    },
+    {
+      "stock_name": "Swedish Match",
+      "ticker": "SWMA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "24:00",
+      "reasoning": "Syn är en monster-succé men risk är FDAs beslut om smaksatta cigarrer i USA. Cigarren står fortfarande för stor del av vinsten. Avvaktar med köp tills beslutet är klart. Efter det kan det vara ett intressant köp om riskerna är inprisade.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag avvaktar med att köpa aktien, men med det här cigarrbeslutet ur vägen och inprisat så tror jag att Swedish Match är ett intressant bet.",
+      "sector": "Tobacco",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "FDA beslut om smaksatta cigarrer"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "25:28",
+      "reasoning": "Hårt blankad aktie med svagt kassaflöde men bolaget säger Q3 blir sista svaga kvartalet. Q4 ska bli starkt med massor av beställningar som vanligt. Short squeeze kan inträffa om blankarna måste täcka positioner. Gäller om man inte tror på total katastrof.",
+      "price_target": null,
+      "time_horizon": "short-medium term",
+      "quote": "Q4 ska bli starkt och markera en avstamp mot bättre tider. Blankarna borde täcka och Q3 vet man att den ska vara halvkast men sen så kommer det se bättre ut.",
+      "sector": "Defense",
+      "market": "sweden",
+      "position_context": "kort position (blankad)",
+      "downside_note": null,
+      "catalyst_timing": "Q4 order"
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "sell",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "28:16",
+      "reasoning": "Aktien tar flera års högsta men Stefan Persson har inte köpt en enda aktie sen rapporten. Tolkar som ett tecken på tillfällig övervärdering. Fonder har bränt på att legat underviktade.",
+      "price_target": null,
+      "time_horizon": "short term",
+      "quote": "Det intressanta är att Stefan Persson inte köpt en endaste aktie sen rapporten. Det tar jag som ett tecken på tillfällig övervärdering.",
+      "sector": "Retail",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Cellu Company",
+      "ticker": "CLAS-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "29:46",
+      "reasoning": "Försäljningsökning på bara 0,6% i september vilket är under prognoser. Online-tillväxt 46% ser bra ut men är från mycket låg bas, bara 6% av omsättningen. Svårt att nå estimaten eftersom oktober fjol var mycket starkt. Aktien upp ett par procent på dåliga siffror.",
+      "price_target": null,
+      "time_horizon": "short term",
+      "quote": "Försäljningsökning 0,6% i september, vilket bör vara under prognoser. Online-tillväxt 46% är bra men de växer från en så enormt låg bas. Ligger kvar på dryga 6% av omsättningen online.",
+      "sector": "Retail",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Q3 rapport"
+    },
+    {
+      "stock_name": "Telia",
+      "ticker": "TELIA-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "31:51",
+      "reasoning": "Affären med Bonnier för TV4 och C-More ser bättre ut ju mer jag tänker. Telia får en bra maktposition. Tittar man tillbaka några år kan det här vara en avgörande affär. Några nedskrivningar kommer men med börsvärde på nästan 190 miljarder så spelar det inte jättestor roll.",
+      "price_target": null,
+      "time_horizon": "long term",
+      "quote": "Jag tycker att den här affären blir bättre och bättre ju mer jag tänker på det och Telia skaffar sig en bra maktposition. Tummen upp för Telia och Bonnier.",
+      "sector": "Telecom",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Arion Bank",
+      "ticker": "ARION",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "32:54",
+      "reasoning": "Vinstvarning på grund av sjunkande silikonpriser och dåligt investerat resebolag. Isländska banken blir en black box ingen vet vad den innehåller. Islänkarna har haft enorma problem med sina banker sedan finanskrisen. Håll er borta.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Arian börjar bli mer och mer en black box som ingen riktigt vet vad den innehåller. Sen vet man sen finanskrisen att isländningarna har ju haft enorma problem med sina banker så att man ska hålla sig borta.",
+      "sector": "Banking",
+      "market": "iceland",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ålandsbanken",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "33:47",
+      "reasoning": "Välskött bank med fin direktavkastning. Kom en omvänd vinstvarning vilket man gillar som aktieägare. Göran Persson satt i styrelsen vilket tyder på bra governance. Bättre alternativ än isländska banker om man vill ha en liten bank.",
+      "price_target": null,
+      "time_horizon": "medium term",
+      "quote": "Om man däremot vill ha en liten bank så tycker jag man ska köpa Ålandsbanken som verkar vara extremt välskött och har fin direktakastning. Dessutom kom ju dem en omvänd vinstvarning.",
+      "sector": "Banking",
+      "market": "finland",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Kindred",
+      "ticker": "KIND-SDB",
+      "timestamp_start": "19:50",
+      "timestamp_end": "22:54",
+      "word_count": 450,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan förklarar hur han ändrade åsikt om Kindred från intresserad till skeptisk. Bolaget rapporterade bra Q2 men säljflöden från storägare pressade kursen. Han trodde botten var nådd men september-siffror var usla med 12,5% sekventiellt tapp i Sverige. Även Leo Vegas rapporterade svagt. John är inte lika negativ och påpekar att man kan sälja på botten.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Jag ändrade mig i morse från att jag var sugen till att jag inte tror på dem alls längre.",
+          "timestamp": "19:39",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "September var den sämsta månaden i år för Kindred i Sverige. Trots att all sport har dragit igång igen och det borde vara mer fart än så här.",
+          "timestamp": "21:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Tappade 12,5% sekventiellt mot Q2. Och det är faktiskt riktigt usvult.",
+          "timestamp": "21:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Det är lite möjligt att man säljer på yesterdays news där, att man säljer på botten för att de här siffrorna kan redan vara lite grann sådär inräknade.",
+          "timestamp": "22:02",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag hade nog nästan varit inställd på att vi skulle börjat se en liten uppsving och lite positivism i september och så blev det helt tvärtom.",
+          "timestamp": "22:42",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-12.5% (seq Sverige Q3)",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Q2 var bra och pressade ner kursen",
+          "Sportår 2020 kan vara positivt",
+          "Botten kan vara nådd för reglerings-tuff period"
+        ],
+        "bear_case": [
+          "September-siffror var usla i Sverige",
+          "Svensk marknad har inte bottnat",
+          "Leo Vegas också svagt vilket indikerar sektorproblem"
+        ],
+        "catalysts": [
+          "Oktober trading update",
+          "Q3 rapport",
+          "Sportevent under 2020"
+        ],
+        "risks": [
+          "Svenska marknaden fortsätter svagt",
+          "Regleringsrisker kvarstår",
+          "Säsongsvariationer"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Swedish Match",
+      "ticker": "SWMA",
+      "timestamp_start": "23:29",
+      "timestamp_end": "25:14",
+      "word_count": 380,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Diskussion om Swedish Match där Johan menar att syn är en monster-succé men det största hotet är FDAs beslut om smaksatta cigarrer i USA. Han avvaktar med köp tills beslutet är klart. John är mer skeptisk till långsiktigheten i syn eftersom produkterna är smaksatta och riktade mot barn.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Vi har olika syn där, John, men det här är en aktie som gått knackigt. Men det absolut viktigaste här framöver är ju syn. Och det är ju i den här frågan som jag tror att du har fel, John. Det är en monster succé.",
+          "timestamp": "23:29",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men man får väga det mot lite olika motvindar där då den eventuella bännen eller förbudet mot smaksatta cigarrer i USA väljer det största hotet.",
+          "timestamp": "24:05",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag avvaktar med att köpa aktien, men med det här cigarrbeslutet ur vägen och inprisat så tror jag att Swedish Match är ett intressant bet.",
+          "timestamp": "24:28",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Det jag däremot tycker är lite läskigt med just den här smaksatta cigarrgrejen är ju att syn spelar lite grann på samma saker. Det är väldigt mycket smaksatta, inriktar sig nästan mot barn får man säga.",
+          "timestamp": "24:51",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Syn är en monster-succé",
+          "Risker kan vara inprisade efter FDA-beslut"
+        ],
+        "bear_case": [
+          "FDA beslut om smaksatta cigarrer kan vara negativt",
+          "Cigarren står fortfarande för stor del av vinsten",
+          "Syn kan ha långsiktiga problem med smaksat fokus"
+        ],
+        "catalysts": [
+          "FDA beslut om smaksatta cigarrer i USA"
+        ],
+        "risks": [
+          "Negativt FDA-beslut",
+          "Regleringsrisker i USA",
+          "Syn-långsiktighet"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "timestamp_start": "25:28",
+      "timestamp_end": "26:55",
+      "word_count": 340,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan ser en potential för short squeeze i Saab eftersom aktien är hårt blankad men bolaget lovar att Q3 blir sista svaga kvartalet. Q4 ska bli starkt med många beställningar. Blankarna kan behöva täcka. John är skeptisk till att det ska bli bättre.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Saab är ju faktiskt relativt hårt blankad. Stor del av freefloaten är blankad. Och det svaga kassaflödet är en punkt som många har kört upp sig på.",
+          "timestamp": "25:28",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men tittar man på vad bolaget själva säger så säger de att Q3 blir det sista svaga kvartalet och sen så har vi Q4 som kommer att bli starkt.",
+          "timestamp": "25:40",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Så det här innebär ju att om man är kort den här aktien och inte tror på total katastrof så börjar det ändå bli läge att täcka nu.",
+          "timestamp": "26:00",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Q4 är dessutom alltid en period på året när Saab tar massor av orderar och det är inte alls omöjligt att man klipper in någon av lite större kaliber.",
+          "timestamp": "26:09",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "John",
+          "text": "Du har ju helt rätt i att du brukar täcka in mycket Q4-order för Saab. Däremot har man ju hört den här förut att det ska bli bättre framöver. Inte lika säker på det.",
+          "timestamp": "26:33",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Hårt blankad"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Q3 sista svarta kvartalet enligt bolaget",
+          "Q4 alltid starkt med många beställningar",
+          "Short squeeze potential när blankarna täcker"
+        ],
+        "bear_case": [
+          "Har hört det förut att det ska bli bättre",
+          "Svagt kassaflöde kvarstår"
+        ],
+        "catalysts": [
+          "Q4 order",
+          "Blankare täcker positioner",
+          "Finland Gripen order"
+        ],
+        "risks": [
+          "Q3 kan bli sämre än lovat",
+          "Kassaflödet fortsätter svagt",
+          "Historiskt positiva utsikter har inte infriats"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Telia",
+      "ticker": "TELIA-B",
+      "timestamp_start": "31:27",
+      "timestamp_end": "32:23",
+      "word_count": 280,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "John är positiv till Telias affär med Bonnier för TV4 och C-More. Han tycker affären blir bättre ju mer han tänker och att Telia får en bra maktposition. Tittar man tillbaka kan det vara en avgörande affär. Några nedskrivningar kommer men med börsvärde på nästan 190 miljarder så spelar det inte jättestor roll.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Telia skaffar sig en bra maktposition som man kanske inte ska skratta åt. Det blir spännande att se vem den här nya vdn kommer vara och tittar man tillbaka några år från nu så kan det här nog kanske vara att man ser det här som ett en liten avgörande affär.",
+          "timestamp": "31:51",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Det kommer säkert lite nedskrivningar här och där som det brukar göra när man lappar ihop två företag. Men med ett börsvärde på nästan 190 miljarder som Telia har så spelar det inte jättestor roll.",
+          "timestamp": "32:08",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Tummen upp för Telia och Bonnier.",
+          "timestamp": "32:18",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Börsvärde nästan 190 miljarder"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Får en bra maktposition med TV4/C-More",
+          "Kan vara en avgörande affär långsiktigt",
+          "Nedskrivningar blir små i förhållande till börsvärde"
+        ],
+        "bear_case": [
+          "Några nedskrivningar väntas"
+        ],
+        "catalysts": [
+          "Integrationen av TV4 och C-More"
+        ],
+        "risks": [
+          "Integrationen kan bli svårare än väntat"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Arion Bank",
+      "ticker": "ARION",
+      "timestamp_start": "32:32",
+      "timestamp_end": "34:06",
+      "word_count": 420,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan varnar för Arion Bank som nyligen fått köprekommendation. Vinstvarning på grund av sjunkande silikonpriser och dåligt investerat resebolag. Banken blir en black box ingen vet vad den innehåller. Isländska bankhistoria är fylld av problem. Han föreslår istället Ålandsbanken om man vill ha en liten bank.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Det är ju Arian Bank. De isländska scamartisterna är på gång igen. Affärsvärlden köprekade aktien bara för några veckor sedan för att den såg billig ut.",
+          "timestamp": "32:32",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Vinstvarningen idag är ju på grund av att silikonpriset sjunkit globalt. Det är inte direkt man tror man ska behöva oroa sig för om en bank här.",
+          "timestamp": "33:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Arian börjar bli mer och mer en black box som ingen riktigt vet vad den innehåller. Blir konjunkturen sämre härifrån så kan ju vad som helst hända.",
+          "timestamp": "33:18",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Sen vet man sen finanskrisen att isländingarna har ju haft enorma problem med sina banker så att man ska hålla sig borta från dem.",
+          "timestamp": "33:27",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Om man däremot vill ha en liten bank så tycker jag man ska köpa Ålandsbanken som verkar vara extremt välskött och har fin direktakastning.",
+          "timestamp": "33:47",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "fin direktakastning",
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": null,
+        "bear_case": [
+          "Vinstvarning på grund av silikonpris",
+          "Investerat i dåligt resebolag",
+          "Black box - ingen vet vad den innehåller",
+          "Isländsk bankhistoria med stora problem"
+        ],
+        "catalysts": null,
+        "risks": [
+          "Konjunkturnedgång",
+          "Mer exponering mot okända tillgångar",
+          "Isländsk banksektor risk"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Cellu Company",
+      "ticker": "CLAS-B",
+      "timestamp_start": "28:43",
+      "timestamp_end": "30:26",
+      "word_count": 380,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "John föreslår att Claes Olsson köper Cellu Company men Johan påpekar stora överlapp på butiker. Johan analyserar försäljningssiffror för september som visar bara 0,6% tillväxt vilket är under prognoser. Online-tillväxt 46% ser bra ut men är från mycket låg bas, bara 6% av omsättningen. Svårt att nå estimaten.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Klaus Olsson, det stod i det att Cello Company nu är till salu och om Lotte Lyra är lite på alerten så tycker jag att hon ska snappa upp det här.",
+          "timestamp": "28:43",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag måste ändå inflika, det kom ju försäljningssiffror idag från Claes Olsson. De lyckades växa med 0,6% om man ska vara korrekt men avrundat blir det ju 1%.",
+          "timestamp": "29:22",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "När jag tittar på de prognoser som ligger utifrån hela kvartalet så bör det här vara i underkant.",
+          "timestamp": "29:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Oktober 18 var ett försäljningsmässigt väldigt starkt kvartal och det gör det ännu tuffare att nå upp då.",
+          "timestamp": "29:34",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Tillväxten online på 46% är bra men jag tror man lurar sig själv lite här eftersom man växer från en så enormt låg bas.",
+          "timestamp": "30:02",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Ligger kvar på dryga 6% av omsättningen online och det är väldigt lågt ändå får man säga.",
+          "timestamp": "30:12",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "0.6% (september)",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Online tillväxt 46%",
+          "Online 6% av omsättning"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Online-tillväxt 46%",
+          "Köpa Cellu Company kan ge tillväxt"
+        ],
+        "bear_case": [
+          "Försäljningstillväxt bara 0,6% i september",
+          "Svårt att nå prognoser",
+          "Online bas mycket låg",
+          "Stora överlapp på butiker"
+        ],
+        "catalysts": [
+          "Q3 rapport"
+        ],
+        "risks": [
+          "Svag tillväxt",
+          "Hög jämförelse med föregående år",
+          "Online tillväxt från låg bas"
+        ]
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man får nästan känna lite grann att börsen har antagit en ny sorts skepnad, att man mer eller mindre nu kapitulerat för nollräntorna på ett sätt som vi kanske inte riktigt sett tidigare. Det blir allt färre som överhuvudtaget orkar bry sig om värderingar och risker på börsen.",
+      "summary": "Marknaden verkar ha slutat bry sig om värderingar på grund av nollräntor och centralbankstimuli.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "02:43",
+      "confidence": "high",
+      "tags": [
+        "börspsykologi",
+        "värdering",
+        "centralbanker"
+      ]
+    },
+    {
+      "quote": "Sektorer som blir ESG godkända får inflöden och värderas upp enormt, i alla fall tillfälligt. Och det motsatta är såklart för de som exkluderas. Problemet som jag ser här är att det inte riktigt verkar finnas någon standard för det här urvalet. De olika urvalskriterierna för att bli ESG-klassad som finns är ändå extremt gotyckliga och trubbiga.",
+      "summary": "ESG-investeringar driver kapitalflöden men kriterierna är otydliga och subjektiva.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "10:24",
+      "confidence": "high",
+      "tags": [
+        "ESG",
+        "värdering",
+        "kapitalflöden"
+      ]
+    },
+    {
+      "quote": "Men det jag vill komma med med hela det här resonemanget är att jag tror att de här flödena ändå skapar möjligheter. De branscher och bolag som nu står utanför jobbar också mot att bli bättre bolag inom situationsstekenden, om man ska säga så. Och bolag som idag ses som liksom icke-investerbara kan ju om några år vara helt okej. Så jag tycker ändå att man ska utnyttja det här lite grann.",
+      "summary": "Bolag som exkluderas från ESG kan bli intressanta köpmöjligheter när de förbättrar sig.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "12:37",
+      "confidence": "medium",
+      "tags": [
+        "ESG",
+        "konträrinvestering",
+        "value"
+      ]
+    },
+    {
+      "quote": "Väldigt många privata investerare går ju i fällan att fokusera alldeles för mycket på potentialen och så glömmer man bort riskbilden. Men lite lustigt nog, så under det senaste året har det blivit nästan tvärtom. Det vill säga att nu är ju alla helt besatta av den operationella risken och den konjunkturella risken i sina investeringar.",
+      "summary": "Investerare tenderar att svänga mellan att bara fokusera på potential och att bara fokusera på risk.",
+      "category": "wisdom",
+      "speaker": "Esbjörn Lundevall",
+      "speaker_role": "guest",
+      "timestamp": "17:27",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "investerarpsykologi",
+        "potential vs risk"
+      ]
+    },
+    {
+      "quote": "Samhället står ju inför den största ekonomiska omvandlingsprocessen vi har sett sedan industrirevolutionen under de kommande decennierna när vi ska göra ekonomin mer ekologiskt hållbar. Det här kommer att kräva gigantiska investeringar för samhället, vilket naturligtvis också innebär gigantiska affärsmöjligheter för företag och givetvis då också massor med investeringsmöjligheter för aktieinvesterare.",
+      "summary": "Hållbarhetsomställningen kommer skapa enorma investeringsmöjligheter under de kommande decennierna.",
+      "category": "wisdom",
+      "speaker": "Esbjörn Lundevall",
+      "speaker_role": "guest",
+      "timestamp": "18:18",
+      "confidence": "high",
+      "tags": [
+        "hållbarhet",
+        "investering",
+        "tillväxt"
+      ]
+    },
+    {
+      "quote": "Om vi pratar nu F1-race, om man får göra det här som är nu till helgen, så är det faktiskt så att Asien är i pole position. För det här växer, ekonomin växer, befolkningen växer. Här behövs investeringar.",
+      "summary": "Asien är en tillväxtregion där både ekonomi och befolkning ökar snabbt.",
+      "category": "wisdom",
+      "speaker": "Benjamin Svedberg",
+      "speaker_role": "guest",
+      "timestamp": "40:56",
+      "confidence": "high",
+      "tags": [
+        "Asien",
+        "tillväxt",
+        "globala marknader"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på ESG-investeringar, Q3-rapporter och analys av flera svenska aktier. Johan har ändrat åsikt om Kindred från intresserad till skeptisk efter svaga september-siffror. Han ser potential för short squeeze i Saab men är försiktig med NetEnt. John är positiv till Telias TV4-affär. Det diskuteras också Postens problem, svenska sparekonomer och en intervju från Singapore om Asiens tillväxtpotential.",
+  "key_takeaways": [
+    "Kindred: September-siffror usla, nu undvika",
+    "Saab: Potentiell short squeeze med Q4 som katalysator",
+    "Swedish Match: Vänta på FDA-beslut om smaksatta cigarrer",
+    "Telia: Positiv till TV4/C-More-affären",
+    "Arion Bank: Undvik isländsk bank, välj Ålandsbanken istället",
+    "Asien: Enorm tillväxtregion men med handelskrig och fastighetsrisk"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2019-10-16-c6b9.txt",
+  "transcript_word_count": 9031,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

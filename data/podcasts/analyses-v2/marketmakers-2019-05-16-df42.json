@@ -1,0 +1,404 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-05-16-df42",
+  "podcast_name": "Market Makers",
+  "episode_title": "Megatrender del 2",
+  "episode_number": null,
+  "date": "2019-05-16",
+  "hosts": [
+    "Niklas",
+    "Gustav"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Marknadstrender",
+    "Tech-IPOer",
+    "Mikrobiom",
+    "Kvantdata",
+    "Robotar"
+  ],
+  "stocks_discussed": [
+    "Uber",
+    "Illumina",
+    "Synlogic",
+    "Svenska Probi",
+    "Intuitive Surgical",
+    "ABB",
+    "Google/Alphabet",
+    "IBM",
+    "Lyft",
+    "Beyond Meat",
+    "Zoom",
+    "WeWork",
+    "Palantir",
+    "Robinhood",
+    "Pinterest"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Uber",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "speculative",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[03:34]",
+      "reasoning": "Uber har gått katastrofalt efter IPO, ner närmare 8% på noteringsdagen och ytterligare ner till 10% på måndagen. Lyft, konkurrenten, är ner över 40% på sex veckor. Värderingen på 100 miljarder dollar var sannolöst, nu har den halverats till 60 miljarder. Företag som går ut på börsen med förlust matchar peak från dotcom-bubblan, där man inte ens tittar på PE utan handlar på omsättningsmultiplar som PS20-60. Risk/reward är negativ.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi hade Lyft som har gått katastrofalt... Sen förra veckan såg vi Uber som kom till börsen. Det har slutat katastrofalt också... Alla som har investerat i Uber sedan december 2015... de ligger nu faktiskt i back i Uber",
+      "sector": "Ride-sharing/Tech",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Ner 60% från IPO på två veckor",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Svenska Probi",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[12:51]",
+      "reasoning": "PE på 50 men med nedåtgående trend (vinst upp, pris ner). Kanske intressant om PE når 20. Stabil omsättningstillväxt på ~5%. Vinsten har börjat trenda uppåt efter tapp 2016-2017. PEG på 0,21 är intressant för bolaget. Mikrobiom-marknaden växer med 20% årligen, från 250 miljoner dollar idag till nära 1 miljard på 5 år.",
+      "price_target": "PE 20",
+      "time_horizon": "medellång sikt",
+      "quote": "Ett svenskt bolag man kan kolla på däremot som är väldigt populärt är ju Svenska Probi... De har ju också ett fantastiskt lågt PE på endast 50... Så att det är väl trevligt över tid kanske man kan köpa in det till ett P20 eller någonting",
+      "sector": "Livsmedel/Hälsa/Probiotika",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "ABB",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Gustav",
+      "speaker_role": "host",
+      "timestamp": "[23:51]",
+      "reasoning": "Gustav pratade om ABB som ett intressant bolag men explicit INTE en intressant aktie. Fokus på robotar/autonoma system. Inga finansiella nyckeltal nämnda. Revidering av tidigare uttalande.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag sa att ABB var ett intressant bolag, men, och det här är väldigt viktigt, jag rekade inte aktien. Jag sa att aktien nödvändigtvis inte var särskilt intressant fastän bolaget var det",
+      "sector": "Industri/Robotar",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Illumina",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[09:30]",
+      "reasoning": "Marknadsledande inom sekvensering och analys av mikrobiomet. PE 54.8. Omsättningstillväxt 12% snitt 3 år, vinsttillväxt 23% snitt. PEG 2.9. Spadeverksamhet som säljer verktyg till andra. Inom sektorn fokuseras på mag- och tarmflora, metaboliska sjukdomar, depression, ångest.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ett bolag som satsar väldigt hårt och ligger väldigt långt fram inom sekvensering och analys av mikrobiomet är Illumina... PE 54,8... omsättningstilväxt på 12 % i snitt de senaste tre åren. Och snittvinsttillväxt de senaste tre åren ligger på 23 %. Vilket ger ett PEG på 2,9",
+      "sector": "Healthcare Tech/Sekvensering",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Intuitive Surgical",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Gustav",
+      "speaker_role": "host",
+      "timestamp": "[27:22]",
+      "reasoning": "Marknadsledare för servicerobotar i vården, installerat över 4000 robotsystem. PE nästan 52. Omsättningstillväxt ~13%, vinsttillväxt 15% per år. Dyraste servicerobots, upp till 2.5 miljoner dollar per system. 25% av alla amerikanska sjukhus har robotsystem, 10% globalt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Intuitive Surgical, och de är marknadsledare för servicerobotar och har installerat över 4 000 robotsystem i sjukhus... P är nästan 52... växer omsättningen med ungefär 13 % i snitt de senaste åren och vinsttillväxten har legat på 15 % per år",
+      "sector": "Healthcare/Robotar",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Google/Alphabet",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Gustav",
+      "speaker_role": "host",
+      "timestamp": "[21:49]",
+      "reasoning": "Ett av företagen som leder inom kvantdatorer. Har köpt upp ett bolag som jobbar med kvantdatorer. Håller lägre profil än IBM men experimenterar med kvantdatorer.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi har nämnt några som nyttjar på olika sätt men de som faktiskt har igång datorer. Som vi har nämnt förut är Google eller Alphabet... Google testar kvantdatorer, de har ju köpt upp ett bolag som jobbar med det här",
+      "sector": "Tech/Kvantdata",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "IBM",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Gustav",
+      "speaker_role": "host",
+      "timestamp": "[22:03]",
+      "reasoning": "IBM blir mer intressant, satsar på hybridcloud marknaden (biljonmarknad). Har Watson AI-program. Har varit aktiva inom kvantdatorer i 30 år, först med patent. Lanserat open source kvantplattform. Men ser ut som värdecase för många år och har gått dåligt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "IBM var först med patent på just det här området och de har varit aktiva generellt inom kvantdatorer i över 30 år... De lanserade den 26 juni med en open source kvantplattform... Men det verkar inte så intressant att investera i",
+      "sector": "Tech/Kvantdata/Cloud",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Svenska Probi",
+      "ticker": null,
+      "timestamp_start": "[12:51]",
+      "timestamp_end": "[13:39]",
+      "word_count": 300,
+      "speakers": [
+        "Niklas",
+        "Gustav"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Diskussion om Svenska Probi som ett svenskt mikrobiombolag inom probiotika. Bolaget har hög PE på 50 men trenden är nedåtgående. Potentiellt köp om når PE 20. PEG på 0,21 bedöms som intressant. Marknaden för mikrobiom växer 20% årligen.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Ett svenskt bolag man kan kolla på däremot som är väldigt populärt är ju Svenska Probi. De forskar och utvecklar probiotika till företag inom livsmedel, hälsa och läkemedelsbranschen",
+          "timestamp": "[12:51]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "De har ju också ett fantastiskt lågt PE på endast 50. Dessutom har ju det här PE ett nedåtgående trend. Vad betyder det? Jo att deras vinst går upp och deras pris går ner",
+          "timestamp": "[13:02]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "De har stabil omsättningstillväxt på cirka 5% i snitt de senaste tre åren och vinsten har sakta börjat trenda uppåt efter ett stort tapp mellan 2016 och 2017. Och de har ett PEG på 0,21, vilket är intressant för det här typen av bolag",
+          "timestamp": "[13:10]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Gustav",
+          "text": "Ja, kan de hålla den typen av tillväxt av det här historiska siffror såklart, men ett PEG på 0,2 är ju otroligt intressant",
+          "timestamp": "[13:24]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "50",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "5%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "PEG: 0,21"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "PEG på 0,21 är mycket lågt för bolaget",
+          "Nedåtgående PE-trend (vinst upp, pris ner)",
+          "Mikrobiom-marknaden växer 20% årligen"
+        ],
+        "bear_case": [
+          "PE på 50 är fortfarande högt",
+          "Vinsttapp 2016-2017",
+          "Håller de historiska tillväxtsiffror?"
+        ],
+        "catalysts": [
+          "Marknadstillväxt 20% årligen",
+          "Potentiellt köp om PE når 20"
+        ],
+        "risks": [
+          "PE på 50",
+          "Finns i het sektor - många kikar"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Uber",
+      "ticker": null,
+      "timestamp_start": "[03:34]",
+      "timestamp_end": "[05:29]",
+      "word_count": 400,
+      "speakers": [
+        "Niklas",
+        "Gustav"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Kritisk diskussion om Ubers IPO-prestation och värdering. Lyft har gått katastrofalt (-40%), Uber ner ~10% på några dagar. Värdering från 100 till 60 miljarder dollar. Techbolag med förlust handlas på astronomiska PS (20-60), liknande dotcom-bubblan.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Vi har haft Lyft som har gått katastrofalt. Vi hade Beyond Meat som har gått totalt tvärtom... Sen förra veckan såg vi Uber som kom till börsen. Det har slutat katastrofalt också",
+          "timestamp": "[03:34]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "När börsen stängde på noteringsdagen var Uber ner närmare 8 %... Uber är ner ungefär 10 % i dag bara... Alla som har investerat i Uber sedan december 2015... de ligger nu faktiskt i back i Uber",
+          "timestamp": "[03:46]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det var bara för några veckor sen vi hade ett avsnitt där vi tog upp Uber som exempel och pratade om hur ganska sannolöst värderingen var på 100 miljarder dollar. Nu är de ner på 60 miljarder dollar",
+          "timestamp": "[04:28]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Generellt ser vi att de företag som letar sig ut på börsen med förlust matchar peaken under.com-bubblan... Man tittar inte ens på vinsten, för de har ingen vinst, utan man tittar på price to sales",
+          "timestamp": "[04:42]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Gustav",
+          "text": "Vi har ju sett Pinterest IPO-adress på PS20. För några veckor sedan snackade vi om foodtech-bolaget Beyond Meat. De IPO-adress på Astronomiska, PS50... Sen är det nog segare än Zoom som IPO-adress på PS60",
+          "timestamp": "[04:58]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "PS60+ (vid IPO)",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Värdering 100B → 60B på 2 veckor",
+          "Ner ~10% på 3 dagar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "PS på 60+ är extremt högt",
+          "Förlustbolag med negativt kassaflöde",
+          "Matchar dotcom-bubblans värderingar",
+          "Lyft konkurrent ner 40%",
+          "Investerare sedan 2015 i back"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Extreme valuation",
+          "Earnings recession kommande",
+          "Marknadskrasch sannolik"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det finns en gammal dödkille som heter John Templeton. Han är ju känd som en av världens tidigare bästa stockpicker, om inte den bästa stockpikern. Han sa ju under it-bubblan, alltså under dotcom-bubblan, att han tyckte det var helt sjukt att det fanns techbolag som hade ett PE på 100 och price to sales på 20. Nu ser vi ju de här techbolagen som har ett ens vinst och price to sales som är lika hög som price to earnings var för honom",
+      "summary": "Värderingar spelar roll i slutändan. Dagens tech-IPOer har värderingar likt eller värre än dotcom-bubblan.",
+      "category": "wisdom",
+      "speaker": "Gustav",
+      "speaker_role": "host",
+      "timestamp": "[06:10]",
+      "confidence": "high",
+      "tags": [
+        "väldering",
+        "bubblor",
+        "tech-IPOer",
+        "John Templeton"
+      ]
+    },
+    {
+      "quote": "I slutändan brukar värderingarna faktiskt spela roll och jag vågar sätta ganska mycket på att de kommer att göra det framgent också",
+      "summary": "Värderingar påverkar alltid prisutvecklingen på lång sikt",
+      "category": "wisdom",
+      "speaker": "Gustav",
+      "speaker_role": "host",
+      "timestamp": "[06:58]",
+      "confidence": "high",
+      "tags": [
+        "väldering",
+        "marknadseffektivitet"
+      ]
+    },
+    {
+      "quote": "Många kloka investerare brukar ju prata om att det man ska titta på är inte de faktiska siffrorna, inte det som kan se på rate of change, det vill säga derivatan blir det egentligen. Eller snarare den andra derivatan. Hur snabbt ändras förändringstakten?",
+      "summary": "Titta på förändringstakten (andra derivatan), inte bara absoluta siffror",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[02:23]",
+      "confidence": "high",
+      "tags": [
+        "analys",
+        "derivator",
+        "förändringstakt",
+        "vinsttillväxt"
+      ]
+    },
+    {
+      "quote": "På ett år brukar man överskatta vad som kan hända men på tio år brukar man underskatta vad som händer",
+      "summary": "Kortsikt överskattar vi förändring, långsikt underskattar vi",
+      "category": "wisdom",
+      "speaker": "Gustav",
+      "speaker_role": "host",
+      "timestamp": "[29:06]",
+      "confidence": "medium",
+      "tags": [
+        "Bill Gates",
+        "tidsperspektiv",
+        "teknikutveckling"
+      ]
+    },
+    {
+      "quote": "Kollar man på majoriteten av forskning inom området så är det på just mag- och tarmflora, man har fokuserat mycket, och även de metabola sjukdomar. Forskningen har gjort framsteg inom depression, har gjort inom ångest och stress, man har sett kopplingar mellan patienter som är deprimerade och vad de har för bakterier i kultur",
+      "summary": "Mikrobiomet kopplat till depression, ångest, stress och metaboliska sjukdomar",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[10:36]",
+      "confidence": "medium",
+      "tags": [
+        "mikrobiom",
+        "hälsa",
+        "depression",
+        "ångest"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet diskuterar tre megatrender: mikrobiom, kvantdatorer och robotar. Macro-bilden visar vikande vinsttillväxt i USA från 24% till 5%, vilket tyder på kommande earnings recession. Tech-IPOer (Uber, Lyft, Beyond Meat) har astronomiska värderingar och går dåligt, vilket påminner om dotcom-bubblan. Samtliga diskuterade bolag har höga PE eller PS-multiplicer, vilket speglar en överhettad marknad.",
+  "key_takeaways": [
+    "Earnings recession sannolik med vinsttillväxt fallande från 24% till 5%",
+    "Tech-IPOer har extremt höga PS-multiplicer (20-100)",
+    "Mikrobiom-marknaden växer 20% årligen mot 1 miljard dollar på 5 år",
+    "Kvantdatorer når kommersiell nivå inom 5 år",
+    "Robotmarknaden förväntas sexdubblas för professionella och fyrdubblas för personliga robotar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-05-16-df42.txt",
+  "transcript_word_count": 5616,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

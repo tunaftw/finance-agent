@@ -1,0 +1,421 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kvalitetsaktiepodden-2018-12-27-ea39",
+  "podcast_name": "Kvalitetsaktiepodden",
+  "episode_title": "Avsnitt 32 - Lynchöping",
+  "episode_number": 32,
+  "date": "2018-12-27",
+  "hosts": [
+    "Ola",
+    "Claes"
+  ],
+  "guests": [
+    "Niklas",
+    "Fabian"
+  ],
+  "main_topics": [
+    "Linköpingsbolagen",
+    "Cloetta",
+    "Sectra",
+    "Saab",
+    "Börsåret 2018"
+  ],
+  "stocks_discussed": [
+    "Cloetta",
+    "Sectra",
+    "Saab"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Cloetta",
+      "ticker": "CLO-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "34:13",
+      "reasoning": "Kvalitetsbolag med starka varumärken och stabila marginaler, men för högt värderat. Handlas till P22 rullande, förväntas P15 nästa år men med nettoskuld. Direktavkastning 4-5%. Skulle vara intressant vid P10.",
+      "price_target": null,
+      "time_horizon": "long",
+      "quote": "P närmare 10 kanske är superintressant. Det där är ju min erfarenhet att allt säljs ju ner såklart och då ska man plocka upp sånt som inte borde göra såklart.",
+      "sector": "Food & Beverages",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Risk att bara växer med inflationen",
+      "catalyst_timing": "Börsnedgång kan skapa köptillfälle"
+    },
+    {
+      "stock_name": "Sectra",
+      "ticker": "SECT-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:18:36",
+      "reasoning": "Kvalitetsbolag inom medicinteknik med starka trender (AI, cancer, demografi). Lönsamhet 15-20%, bruttomarginal 85-90%. Men för dyrt med PE35 och EV/EBIT 30. Aktien har fallit 20-30% från topp.",
+      "price_target": null,
+      "time_horizon": "long",
+      "quote": "Sektor är väl ett sånt här bolag. Fortfarande lite för dyrt, men skulle det av någon outgrundlig anledning komma ner lite till så skulle jag börja följa det.",
+      "sector": "Healthcare Technology",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Kraftigare börsnedgång eller missförstånd kan skapa köptillfälle"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:16:47",
+      "reasoning": "Stor order från USA men högt värderat (PE42, PS1.25) med nyemission på gång. Lägre marginaler (5%) och hög utdelningsandel (70%). Handlas till premium jämfört med Kongsberg.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Saab känns inte som något jag heller vill kasta in pengarna i",
+      "sector": "Defense",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Hög nettoskuld med nyemission",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Cloetta",
+      "ticker": "CLO-B",
+      "timestamp_start": "14:15",
+      "timestamp_end": "34:59",
+      "word_count": 2000,
+      "speakers": [
+        "Ola",
+        "Claes",
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Claes",
+      "discussion_summary": "Diskuterade Cloetta som ett stabilt bolag med starka varumärken. Bolaget har låg tillväxt men god marginalstabilitet. Värderingen ansågs för hög vid P22 men intressant vid lägre nivåer. Prisförändringar i råvaror påverkar marginaler.",
+      "quotes": [
+        {
+          "speaker": "Claes",
+          "text": "Jag tycker det känns intressant och kvalitet, självklart. Och många av varumärkena här hörde på Niklas Anderssons podd här. Investeraren går ju tillbaks 80-90-100 år tillbaks i tiden och en väldigt stor del av omsättningen är fortfarande baserad på de här gamla varumärkena, vilket innebär att det här måste vara ett vallgravsbolag så att säga.",
+          "timestamp": "16:00",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Cloetta pratar själva om 1-2% marknadstillväxt över tid.",
+          "timestamp": "20:16",
+          "context": "metric"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Rullande 12 månader får man ju P22. Det är ju rätt kraftiga tillväxtökningar som räknas in.",
+          "timestamp": "28:31",
+          "context": "metric"
+        },
+        {
+          "speaker": "Claes",
+          "text": "P närmare 10 kanske är superintressant. Det där är ju min erfarenhet att allt säljs ju ner såklart och då ska man plocka upp sånt som inte borde göra såklart.",
+          "timestamp": "34:13",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "22 (rullande), 15 (prognos 2019)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "4-5%",
+        "revenue_growth": "1-2%",
+        "margin": "10-12%",
+        "debt_level": "Nettoskuld",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Starka varumärken med lång historik",
+          "Vallgravseffekt - svårt för konkurrenter",
+          "Stabila marginaler över tid",
+          "Utdelningsportfölj med direktavkastning 4-5%"
+        ],
+        "bear_case": [
+          "Låg organisk tillväxt 1-2%",
+          "Hög värdering jämfört med historik",
+          "Socker- och hälso-trend",
+          "Befolkningsminskning i Europa"
+        ],
+        "catalysts": [
+          "Börsnedgång kan ge köptillfälle",
+          "Lägre råvarupriser"
+        ],
+        "risks": [
+          "Hälsotrender minskar godiskonsumtion",
+          "Råvarupriser påverkar marginaler"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Sectra",
+      "ticker": "SECT-B",
+      "timestamp_start": "35:15",
+      "timestamp_end": "52:09",
+      "word_count": 2500,
+      "speakers": [
+        "Ola",
+        "Claes",
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Sectra är ett tekniskt intressant medicinteknikbolag med stark position inom bildanalys och radiologi. Företaget drar nytta av trender som AI, machine learning och ökande cancerfall. Värderingen ansågs för hög men bolaget erkändes som ett kvalitetsbolag.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Det grundades då 1978 här i Linköping. Med kustfullt verksamhet. Det firades alltså 40 år i år. Och det var alltså ett team av forskare från Linköpings universitet som skulle skapa säkerhetslösning för banker.",
+          "timestamp": "35:48",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Just machine learning är extremt extremt bra just för bildanalys. Man har ju redan nått så långt att machine learning är bättre än doktorer på att upptäcka cancerfall, just på olika former radiologi och den typen av bilder.",
+          "timestamp": "44:11",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Vi ligger ju där idag ungefär och lite bättre ska det väl gå. Nej men så det är väldigt högt värderat är det.",
+          "timestamp": "47:39",
+          "context": "metric"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Sektor är väl ett sånt här bolag. Fortfarande lite för dyrt, men skulle det av någon outgrundlig anledning komma ner lite till så skulle jag börja följa det.",
+          "timestamp": "01:18:36",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "35",
+        "ev_ebitda": "30",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "2%",
+        "revenue_growth": "Ensiffrig",
+        "margin": "15-20%",
+        "debt_level": "Nettokassa",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark position inom medicinsk bildanalys",
+          "AI och machine learning förbättrar cancerdetektion",
+          "Demografiska trender med ökande cancerfall",
+          "Hög bruttomarginal 85-90%",
+          "Finansierar egen R&D"
+        ],
+        "bear_case": [
+          "Hög värdering med PE35 och EV/EBIT 30",
+          "Svagare de senaste två rapporterna",
+          "Lägre omsättningstillväxt än förväntat"
+        ],
+        "catalysts": [
+          "USA-satsningen växer bra",
+          "Kvantforskning för krypteringslösningar"
+        ],
+        "risks": [
+          "Värderingssänkning",
+          "Konkurrens från AI-bolag"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "timestamp_start": "52:17",
+      "timestamp_end": "01:18:34",
+      "word_count": 3000,
+      "speakers": [
+        "Ola",
+        "Claes",
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Saab är ett komplext försvarsindustriföretag med stor orderbok men svåra värderingsparametrar. Företaget har nyligen fått stor order från USA men planerar nyemission. Högt värderat jämfört med konkurrenter.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Här har vi ett helt annat bolag och dignitet också. Investor, huvudägare, Markus Wallenberg, ordförande. Bara det säger en del tycker jag.",
+          "timestamp": "52:51",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Claes",
+          "text": "PI 42 i år. Så en extremt vindtillväxtrom här på nästa år.",
+          "timestamp": "01:11:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Jämför man med Kongsberggruppen, de landas till PE 22, innevarande året alltså, så det är hälften så billigt helt enkelt som Saab.",
+          "timestamp": "01:12:32",
+          "context": "metric"
+        },
+        {
+          "speaker": "Claes",
+          "text": "Saab känns inte som något jag heller vill kasta in pengarna i, men det är som sagt tre väldigt unika bolag här.",
+          "timestamp": "01:16:47",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "42",
+        "ev_ebitda": null,
+        "ev_sales": "1.25",
+        "fcf_yield": null,
+        "dividend_yield": "1.6-1.9%",
+        "revenue_growth": null,
+        "margin": "5%",
+        "debt_level": "Hög nettoskuld, nyemission på gång",
+        "custom": [
+          "Utdelningsandel nära 70%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stor orderbok från USA",
+          "Ökade försvarsbudgetar globalt",
+          "Unik position i Sverige",
+          "Tung ingenjörskompetens"
+        ],
+        "bear_case": [
+          "Hög värdering jämfört med konkurrenter",
+          "Nyemission utspädar ägarna",
+          "Låg vinstmarginal 5%",
+          "Projektstyrd verksamhet med hög risk"
+        ],
+        "catalysts": [
+          "Försvarsupprustning",
+          "Nya flygplanorder"
+        ],
+        "risks": [
+          "Korruption i affärer",
+          "Geopolitisk risk",
+          "Högt värderingsantal"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Men likviditet är ju bra såklart om det faller och har lite krigskassa, 10-15%, 20% kanske. Men lån, det måste bort. Det ska ju bara, det ska ju inte finnas såklart aktielån då.",
+      "summary": "Håll investeringar obelånade och ha en krigskassa på 10-20%.",
+      "category": "philosophy",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "08:17",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "likviditet"
+      ]
+    },
+    {
+      "quote": "Det är det enkla testet. Om jag inte låg på aktien idag, skulle jag köpa den nu? Nej, skulle aldrig göra.",
+      "summary": "Om du inte skulle köpa aktien idag om du inte ägde den, bör du sälja den.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:26:47",
+      "confidence": "high",
+      "tags": [
+        "portföljhantering",
+        "utvärdering"
+      ]
+    },
+    {
+      "quote": "När de sviker dig, gå inte från ett värdecase till ett förväntanscase. Leta inte reda på något i framtiden som kan göra den här aktien attraktiv.",
+      "summary": "Ett misstag är att förvandla ett fundamentalt case till ett case baserat på framtida förväntningar.",
+      "category": "lesson",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:26:00",
+      "confidence": "high",
+      "tags": [
+        "beteendefinansiering",
+        "misstag"
+      ]
+    },
+    {
+      "quote": "Det är det enkla testet. Om jag inte låg på aktien idag, skulle jag köpa den nu? Nej, skulle aldrig göra.",
+      "summary": "Använd testet: om du inte skulle köpa aktien idag om du inte ägde den, bör du sälja den.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:26:47",
+      "confidence": "high",
+      "tags": [
+        "portföljhantering",
+        "beslutsfattande"
+      ]
+    },
+    {
+      "quote": "När man köper kvalitetsbolag kan man strunta lite i PE under lågkonjunktur för vinsten kan gå upp väldigt många procent när konjunkturen vänder.",
+      "summary": "Köpa cykliska kvalitetsbolag under lågkonjunktur kan ge bra avkastning.",
+      "category": "wisdom",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "06:23",
+      "confidence": "medium",
+      "tags": [
+        "värdeinvestering",
+        "konjunktur"
+      ]
+    },
+    {
+      "quote": "Att hela tiden utvärdera sig själv tycker jag. Och lära sig av de misstag man gör. Och försöka bli en bättre investerare framåt.",
+      "summary": "Viktigt att utvärdera sig själv och lära av misstag.",
+      "category": "lesson",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": "01:25:04",
+      "confidence": "high",
+      "tags": [
+        "självreflektion",
+        "inlärning"
+      ]
+    },
+    {
+      "quote": "Som värdeinvesterare måste man försöka försöka utnyttja det i bra bolag. Att köpa när någon har gjort ett misstag.",
+      "summary": "Värdeinvesterare bör utnyttja kvalitetsbolag som drabbats av tillfälliga kriser.",
+      "category": "philosophy",
+      "speaker": "Claes",
+      "speaker_role": "host",
+      "timestamp": "01:24:56",
+      "confidence": "high",
+      "tags": [
+        "värdeinvestering",
+        "kriser"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Specialavsnitt om tre Linköpingsbolag: Cloetta, Sectra och Saab. Alla tre intressanta bolag men alla ansågs för dyrt för att köpa vid tillfället. Avslutades med citat från Ingvar Kamprad om att problem är möjligheter.",
+  "key_takeaways": [
+    "Cloetta är stabilt men värderat för högt",
+    "Sectra är ett kvalitetsbolag med starka trender men för dyrt",
+    "Saab har stor orderbok men komplex värdering och nyemission",
+    "Viktigt att undvika lån i investeringar",
+    "Använd testet: skulle du köpa aktien om du inte ägde den?"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kvalitetsaktiepodden/transcripts/kvalitetsaktiepodden-2018-12-27-ea39.txt",
+  "transcript_word_count": 17140,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

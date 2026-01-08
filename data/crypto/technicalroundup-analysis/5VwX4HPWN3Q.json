@@ -1,0 +1,113 @@
+{
+  "source_id": "5VwX4HPWN3Q",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-09-26",
+  "hosts": [
+    "Cred"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "BTC is hovering near 18-19k support range, weekly close creeping lower, multiple tests of support level",
+      "quote": "so that's BTC uh still kind of just flirting with death to be honest with you",
+      "price_levels": [
+        "$19,000",
+        "$19,300",
+        "$19,500",
+        "$20,700",
+        "$21,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH holding at 1200 support level, narrow trading range between 1200-1300",
+      "quote": "holding up decently well all things considered at this 1200 level",
+      "price_levels": [
+        "$1,200",
+        "$1,300",
+        "$1,400",
+        "$1,500"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum/Bitcoin pair",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Trading at range midpoint, stagnant action, waiting for clearer signals",
+      "quote": "stagnant since we talked about it... kind of finding some support at this range midpoint at 0.6 or close to 0.7",
+      "price_levels": [
+        "0.06",
+        "0.07",
+        "0.08"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$19,000",
+        "$19,500",
+        "$21,000"
+      ],
+      "ETH": [
+        "$1,200",
+        "$1,300",
+        "$1,400"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin is at critical support with multiple tests (4-6 tests at 19k), making the level less reliable",
+    "SPX double bottom structure at 3700 is the key catalyst for crypto - failure would lead to downside, success could trigger relief rally",
+    "Relative strength of crypto vs equities is not a bullish signal - typically just lagging before catching down",
+    "Macro environment remains negative with Fed focused on fighting inflation at cost of asset prices",
+    "Weekly close below 19.3k on BTC is lowest weekly close in consolidation range"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$19,500-19,600 weekly close or above",
+      "target": "$20,700-21,000",
+      "stop": "Breakdown below $19,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1,200-1,300",
+      "target": "$1,300-1,400",
+      "stop": "Breakdown below $1,200",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "SPX",
+      "direction": "long",
+      "entry": "Spike below lows with absorption and reclaim of $3,700 support",
+      "target": "$3,900-4,000",
+      "stop": "Breakdown below support",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin continues to hover near 18-19k support with multiple tests creating concern. The key catalyst for crypto this week is the SPX double bottom at 3700 - a failed breakdown and reclaim could trigger relief rallies across markets. ETH is holding at 1200 support with narrow trading ranges. Macro environment remains negative with Fed staying hawkish.",
+  "transcript_word_count": 10070,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:44:21.670958"
+}

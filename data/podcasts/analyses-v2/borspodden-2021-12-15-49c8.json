@@ -1,0 +1,571 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2021-12-15-49c8",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 434 - Den stora oron",
+  "episode_number": 434,
+  "date": "2021-12-15",
+  "hosts": [
+    "Jon",
+    "Johan"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Marknadsoro och inflationsoro",
+    "Noteringscykeln och IPO-kvalitet",
+    "Investeringscase och uppföljningar"
+  ],
+  "stocks_discussed": [
+    "Kambi",
+    "Securitas",
+    "Care",
+    "Haldex",
+    "Kempower",
+    "Note",
+    "Norva 24",
+    "CoinShares",
+    "Viva Wine Group"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Care",
+      "ticker": "CARE",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "20:22",
+      "reasoning": "Care säljer tjänsten åldringslarm och verkar vara i en het sektor. Avknoppningen från Doro indikerar att sektorn är intressant. Aktien är inte billig men Jon vågar ta en liten position. Negativa faktorer inkluderar att avknoppningsprocesser kan ta tid från ledningen och vara kostnadskrävande, så det kan ta 1-2 kvartal innan det syns på resultaten.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Care är långt ifrån billigt men jag tycker ändå att det är för intressant för att inte våga ta ett litet bet. Så om aktien fortsätter ner får man väl snitta ner sig. Det är möjligt också att det är många som rensar ut sina poster i sådana här pyttebolag inför nyår som man kanske ska snappa upp.",
+      "sector": "Hälsa/Omsorgsteknologi",
+      "market": "sweden",
+      "position_context": "Liten position",
+      "downside_note": null,
+      "catalyst_timing": "1-2 kvartal"
+    },
+    {
+      "stock_name": "Securitas",
+      "ticker": "SECU-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "18:50",
+      "reasoning": "Securitas står inför en stor företrädesemission som garanterat kommer sätta press på kursen, och kommer sedan ha EU-poster efter förvärvet av Stanley Security. Jon väntar på att aktien ska droppa ordentligt för att bli köpvärderad. Förvärvet av Stanley Security beskrivs som överhåtat och Securitas kvarstår som en lågtillväxtbransch med låga marginaler.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Själv kan jag inte riktigt förstå hur man kan sätta en köpräg på ett bolag som står inför en stor företrädesemission som garanterat kommer sätta press på kursen och sedan lär det komma en massa EU-poster i och med det här förvärvet också. Att annonsera en företrädesemission för någon gång i framtiden är ju bland det sämsta man kan göra för en aktiekurs.",
+      "sector": "Säkerhet",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Företrädesemission och förväravsslut 2022"
+    },
+    {
+      "stock_name": "Kempower",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "26:29",
+      "reasoning": "Kempower är ett finskt C-tech-bolag som nyligen noterats till 550 euro och nu står över 8 euro. Bolaget verkar spännande enligt hemsidan. Hade en brown shoe istället för green shoe för att hantera överhettningen. Hade 36 000 retail-konton som tecknade sig. Finns risk att sektorn är överhypad.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker man ska hålla koll på bolaget Kempower för alla finlandsälskare därute som du är med nu inte är då Johan. Men också att se att techägarena borde ta en titt på det här för att se att det finns konkurrens.",
+      "sector": "Laddningsinfrastruktur",
+      "market": "finland",
+      "position_context": null,
+      "downside_note": "Överhypad sektor",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Note",
+      "ticker": "NOTE",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "27:04",
+      "reasoning": "Note har kommunicerat omvänd vinstvarning - växer nu 60% istället för 50% i Q4 med rörelsemarginal över 9,4%. Aktien är upp 250-360% i år och har börsvärde 6,2 miljarder för 240 miljoner i rörelseresultat. Aktien rusade 20% på vinstvarningen men Jon anser den är mer än fullvärderad (nosebleed levels). Jämförelsetalen blir tuffare nästa år.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men här och nu så tycker jag i alla fall att aktien är mer än fullvärderad. Det är en väldigt hög multipel, kan jag tycka, för en typ av verksamhet. Aktien rusar nästan 20 procent på måndagens nyhet. Det har jag ganska svårt att förstå.",
+      "sector": "Elektroniktillverkning",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Fullvärderad på höga multiplar",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Norva 24",
+      "ticker": "NOVA",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "29:08",
+      "reasoning": "Norva 24 noterades på 36 kronor och handlas nu 31. Carnegie gav retailkunderna 30% i tilldelning men institutionerna under 10%, vilket känns som ett medvetet val att lura småspararna. IPO beskrivs som pump and dump på småsparare. Säljtrycket kommer antagligen från grundare som fick aktier som betalning och cashar ut, eller att Carnegie hittade svaga tagare.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag förstår faktiskt inte den här taktiken med att man försöker krämma ut absolut sista kronan i IPO'er och sen bli fiascoostämplig istället för att köra lite mer den här per-h-taktiken att sälja mindre aktier billigare. Men för att en sån här investment bank kör lite pump and dump på småsparare tycker jag är fult.",
+      "sector": "Avloppsteknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "IPO pump and dump",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "CoinShares",
+      "ticker": "CS",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "31:33",
+      "reasoning": "CoinShares är bolaget bakom börshandlade kryptoprodukter som BitcoinXPT och EthereumXPT. Q1-Q3 gjorde 15 kronor i vinst per aktie, Q4 förväntas komma in i linje så totalt runt 20 kronor för hela året. Aktien står i 75 kronor, vilket verkar billigt. Marknaden oroar sig för utflöden pga höga avgifter, men antalet ägare har ökat från 24 000 till 72 000. Bolaget ska presentera framtidsplaner innan Q4 och göra listbyte nästa år.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är svårt att inte tycka att det här är billigt. Jag tycker att den här aktien är fortsatt intressant här, förutom den här förvaltningsdelen så får man också en portfölj med en del intressanta investeringar i andra kryptorelaterade bolag på köpet.",
+      "sector": "Finansiella tjänster/Krypto",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Framtidsplaner innan Q4, listbyte nästa år"
+    },
+    {
+      "stock_name": "Viva Wine Group",
+      "ticker": "VIVA",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "36:12",
+      "reasoning": "Viva Wine Group är en vinimportör till nordiska systembolag, redan 24% av allt vin på Systembolaget. Att vara beroende av en kund är dåligt, och Systembolaget inte vill bli för beroende. Pandemin har dopat siffrorna. Jon jämför med norska Arcus som noterades för några år sedan och blev nästan ett fiasco innan sammanslagning med finskt bolag.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Viva Wine Group gick in på börsen i tisdags. Ett av alla bolag som har gått in på börsen här och fick en liten lätt uppgång. Det här är ett bolag jag verkligen tror man ska sälja och fly ifrån så fort man kan.",
+      "sector": "Vin/Drycker",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Viva Wine Group",
+      "ticker": "VIVA",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "38:03",
+      "reasoning": "Johan håller inte med Jon om att sälja. Han tycker e-handelsdelen är väldigt spännande och det är där bolaget satsar. Han tror på den typen av vinförsäljning direkt till dörren och tror den kommer växa under många år. Om Systembolaget faller är det en intressant position att ha.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag tycker att det här är ett spännande bolag faktiskt som kan växa utan att det nödvändigtvis behöver ske på systemets hyllor.",
+      "sector": "Vin/Drycker",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Kambi",
+      "ticker": "KAMBI",
+      "timestamp_start": "15:19",
+      "timestamp_end": "18:05",
+      "word_count": 450,
+      "speakers": [
+        "Johan",
+        "Jon"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Kambi har genomfört återköpsprogram och Anders Ström gjorde stora insynsköp på nästan 150 miljoner kronor, vilket fick aktien att gå från låga 200 till 270 kronor i november. Aktien har nu tappat tillbaka till 220 kronor sammanfallande med EVO-härvan och omikronoron. Q4 startade svagt på sportboksmarginaler men har sett bättre ut senare. Ohio röstade för att öppna upp för sportspel nästa år. Jon tror signalvärdet i Ströms köp underskattas.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Det som har hänt efter rapporten så har Kambi genomfört ett återköpsprogram vilket kombinerat med att Anders Ström gjorde stora insynsköp. Jag tror att det handlar om aktier för nästan 150 miljoner kronor.",
+          "timestamp": "15:19",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag personligen tycker att signalvärdet i Ströms stora köp här i aktien under förra månaden underskattas ganska rejält. Ström vet nog exakt vad som krävs att vända på det här och han ägde redan mer än tillräckligt innan de är köpen men valde ändå att gå in tungt på nivåer en bit över där vi står idag.",
+          "timestamp": "16:39",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Jag tror det kommer vara mer fokus på att göra saker effektivt och börja tjäna pengar mer än på att växa. Och Cambi har ju en effektiv sportsbok så jag hoppas på Cambi och äger mycket aktier där faktiskt.",
+          "timestamp": "17:37",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktiekurs: 220 kr (från 270 kr)",
+          "Insynsköp: 150 MSEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Anders Ström signalvärdet via stora insynsköp på nivåer över nuvarande kurs",
+          "Effektiv sportsbok när marknaden fokuserar mer på lönsamhet än tillväxt",
+          "Aktiviteten i USA är stark, Ohio öppnar upp för sportspel"
+        ],
+        "bear_case": [
+          "Nedgång kopplad till EVO-härvan och smittat sig på Kambi",
+          "Omikronoron skapar osäkerhet kring flyttade matcher",
+          "Marknaden tvivlar på outsourcad sportbok som alternativ för stora operatörer"
+        ],
+        "catalysts": [
+          "Tecken på att stora operatörer börjar svänga till outsourcade lösningar",
+          "Nya kunder",
+          "Marknaden börjar tro på storyn igen"
+        ],
+        "risks": [
+          "Virusoro påverkar sportmatcher",
+          "Marknaden fortsätter tvivla på affärsmodellen"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Note",
+      "ticker": "NOTE",
+      "timestamp_start": "27:04",
+      "timestamp_end": "28:59",
+      "word_count": 350,
+      "speakers": [
+        "Jon",
+        "Johan"
+      ],
+      "primary_speaker": "Jon",
+      "discussion_summary": "Note kom med en omvänd vinstvarning i måndags, den första på länge. Växer nu 60% i Q4 istället för 50%, med rörelsemarginal överstigande Q3s rekord på 9,4%. Aktien är upp 250-360% i år och har börsvärde 6,2 miljarder för 240 miljoner i rörelseresultat. Jon anser aktien är mer än fullvärderad (nosebleed levels) och att det krävs något extra nästa år när jämförelsetalen blir tuffare. Creades sålde sig väldigt tidigt i bolaget.",
+      "quotes": [
+        {
+          "speaker": "Jon",
+          "text": "Note hade i alla fall tidigare graviditet för att man ska växa runt 50 procent i Q4 och säger då nu att utvecklingen har varit starkare än väntat och nu räknar man med 60 procent minst i tillväxt och samtidigt ska rörelsemarginalen överstiga Q3s rekordmarginal på 9,4 procent.",
+          "timestamp": "27:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Börsvärdet är uppe på 6,2 miljarder. Samtidigt ser då årets rörelsesultat ut att landa runt 240 miljoner. Det är en väldigt hög multipel, kan jag tycka, för en typ av verksamhet.",
+          "timestamp": "27:39",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Aktien rusar nästan 20 procent på måndagens nyhet. Det har jag ganska svårt att förstå. Det kan inte varit en så enorm överraskning för marknaden det här.",
+          "timestamp": "27:46",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Tittar man en bit in i nästa år så kommer ju jämförelsetalen bli betydligt tuffare. Och för att inte marknaden ska bli sviken så tror jag ändå att det kommer krävas någonting extra. Kanske att man accelererar det här förvärvstemat som på något sätt också finns i Note numera. Men här och nu så tycker jag i alla fall att aktien är mer än fullvärderad.",
+          "timestamp": "28:00",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Ja det är inte Mona Salino och Håkan Djuholdt jämförelsetal där inte nästa år. Och sen är det ju här faktiskt en av få genom ÖSLA affärer Creades har gjort genom att sälja bort sig väldigt tidigt i Note.",
+          "timestamp": "28:36",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "Hög (6,2 MSEK/240 MSEK)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "60% i Q4",
+        "margin": "Rörelsemarginal > 9,4%",
+        "debt_level": null,
+        "custom": [
+          "Börsvärde: 6,2 miljarder",
+          "Rörelseresultat: 240 miljoner",
+          "Aktieuppgång: 250-360% i år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Imponerande utveckling med ökad tillväxt och marginaler",
+          "Stark Q4-utveckling",
+          "Johan Hagberg har gjort jobbet"
+        ],
+        "bear_case": [
+          "Mycket hög multipel för verksamhetstypen",
+          "Jämförelsetalen blir tuffare nästa år",
+          "Aktien redan upp 250-360% i år",
+          "Creades sålde sig väldigt tidigt (något negativt?)"
+        ],
+        "catalysts": [
+          "Accelererat förvärvstema"
+        ],
+        "risks": [
+          "Marknaden kan bli sviken när jämförelsetalen blir tuffare",
+          "Fullvärderad på höga multiplar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "CoinShares",
+      "ticker": "CS",
+      "timestamp_start": "31:33",
+      "timestamp_end": "35:51",
+      "word_count": 450,
+      "speakers": [
+        "Jon",
+        "Johan"
+      ],
+      "primary_speaker": "Jon",
+      "discussion_summary": "CoinShares är storspelare inom börshandlade kryptoprodukter (BitcoinXPT, EthereumXPT) med 5 miljarder dollar i förvaltat kapital. Q1-Q3 gjorde 15 kronor i vinst per aktie, Q4 förväntas komma in i linje. Aktiepris 75 kronor för 20 kronor vinst verkar billigt. Marknaden oroar sig för utflöden pga höga avgifter men antalet ägare ökat från 24k till 72k. Jon tror utflöden kommer från tidiga investerare med stora vinster. Bolaget ska presentera framtidsplaner innan Q4 och göra listbyte. Johan varnar för att det är volatilt.",
+      "quotes": [
+        {
+          "speaker": "Jon",
+          "text": "Bolaget har under årets första tre kvartal gjort drygt 15 kronor i vinst per aktie. Jag ser ingenting som pekar på att Q4 inte skulle kunna komma in i linje med övriga kvartal eller i alla fall med Q3.",
+          "timestamp": "32:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Så runt 20 kronor i vinstpraktice tror jag absolut att man kommer att landa på för hela året. Aktien efter en svag utveckling på slutet är tillbaks på 75 spänn.",
+          "timestamp": "32:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Även om det har varit ett ganska stort utflöde i pengar räknat under året så har antalet ägare av de här produkterna ökat från 24 000 personer till 72 000 personer under samma period. Det talar för att det fortfarande är attraktiva produkter som attraherar nya investerare.",
+          "timestamp": "33:33",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Jag tycker att den här aktien är fortsatt intressant här, förutom den här förvaltningsdelen så får man också en portfölj med en del intressanta investeringar i andra kryptorelaterade bolag på köpet.",
+          "timestamp": "34:27",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag är inte säker på att det är hängslen och livröm. Man får lite ov-bunkerkänsla av bolag som tradar krypto som verksamhet.",
+          "timestamp": "34:56",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Går krypto ner jättemycket så är det inte särskilt bra för Conchairs.",
+          "timestamp": "35:35",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "75/20 = 3,75x",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Förvaltat kapital: 5 miljarder USD",
+          "Vinst/aktie: 20 kr för hela året",
+          "Antalet ägare: ökat från 24k till 72k",
+          "Avgifter på produkter: ca 2,5%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Billig värdering: 75 kr för 20 kr i vinst",
+          "Antalet ägare ökar trots utflöden",
+          "Portfölj med intressanta kryptoinvesteringar ingår",
+          "Bolaget ska presentera framtidsplaner och göra listbyte"
+        ],
+        "bear_case": [
+          "Höga avgifter skapar utflöden till billigare alternativ",
+          "Kryptomarknaden är mycket volatil",
+          "Marknaden tar höjd för kryptovolatilitet i värderingen"
+        ],
+        "catalysts": [
+          "Framtidsplaner presenteras innan Q4",
+          "Listbyte nästa år"
+        ],
+        "risks": [
+          "Stor utflöden från ETF-produkter",
+          "Kryptomarknaden kraschar",
+          "Avgifter på 2,5% för höga"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Viva Wine Group",
+      "ticker": "VIVA",
+      "timestamp_start": "36:12",
+      "timestamp_end": "39:07",
+      "word_count": 380,
+      "speakers": [
+        "Jon",
+        "Johan"
+      ],
+      "primary_speaker": "Jon",
+      "discussion_summary": "Viva Wine Group noterades på börsen och Jon rekommenderar att sälja. Argument: är en vinimportör beroende av Systembolaget som redan står för 24% av allt vin där, vilket gör det omöjligt att öka försäljningen. Pandemin har dopat siffrorna. Jon jämför med norska Arcus som blev nästan fiasco. Johan håller inte med och tycker e-handelsdelen är spännande och tror på vinförsäljning direkt till dörren, vilket kan växa under många år. Om Systembolaget faller är det en bra position.",
+      "quotes": [
+        {
+          "speaker": "Jon",
+          "text": "Viva Wine Group gick in på börsen i tisdags. Ett av alla bolag som har gått in på börsen här och fick en liten lätt uppgång. Det här är ett bolag jag verkligen tror man ska sälja och fly ifrån så fort man kan.",
+          "timestamp": "36:12",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Det är dels för att det alltid är så dåligt att vara beroende av en kund. Sen står man redan för 24% av allt vin på systembolaget så att det kommer att vara omöjligt att öka den delen av försäljningen för att systembolaget själva inte vill bli för beroende av en importör.",
+          "timestamp": "36:37",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Med tanke att nästan alla bolag som sätts på börsen nu har varit vinnare just innan de kommer in så tror jag att det också gäller här. För man kan väl lugnt säga, för alla vet ju det, att systembolagsförsäljningen har ju gått väldigt bra under pandemin.",
+          "timestamp": "36:54",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Och sen slutligen så tycker jag man redan har faset på ett sånt här bolag om man tittar på norska Arcus som noterades för några år sedan och lyfte väl aldrig riktigt och nästan blev ett fiasco innan det gick ihop med ett finsk bolag.",
+          "timestamp": "37:24",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Nej men den här systembolags grejen är ju inget sak men sen så har de ju den här delen, e-handelsdelen som jag tycker är väldigt spännande och det är väl det de satsar på.",
+          "timestamp": "38:04",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tror också att det kommer att komma och växa under ganska många år framöver, tror jag i alla fall. Och också någonting som om och när systemet möjligtvis faller så är ju det en väldigt intressant position att ha.",
+          "timestamp": "38:31",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Står för 24% av allt vin på Systembolaget"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "E-handelsdelen är spännande och det är där de satsar",
+          "Vinförsäljning direkt till dörren väntas växa under många år",
+          "Om Systembolaget faller är det en intressant position"
+        ],
+        "bear_case": [
+          "Beroende av en kund (Systembolaget) är dåligt",
+          "Står redan för 24% av allt vin på Systembolaget, omöjligt att öka",
+          "Pandemi har dopat siffrorna",
+          "Jämförelse med norska Arcus som blev fiasco"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Systembolaget vill inte bli för beroende av en importör",
+          "Pandemieförsäljningen kan normaliseras"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det största faran för sin karriär är att man blir lurad att trivas för bra på ett jobb för man tror att arbetsgivaren bryr sig om en. Om ditt företag ofta har after work eller att ni går ut på middag, så är det lätt att tro att det är för att chefen tycker att man är ett skönt gäng, men istället är det oändligt mycket billigare att bjuda på en middag en gång i månaden för några ynka tusen lappar istället för att behöva betala en marknadsmässig lön.",
+      "summary": "Arbetsgivarens sociala aktiviteter (AW, middagar) kan vara en billigare ersättning för marknadsmässig lön, inte tecken på omtanke.",
+      "category": "lesson",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "09:59",
+      "confidence": "high",
+      "tags": [
+        "karriär",
+        "lön",
+        "arbetsgivare"
+      ]
+    },
+    {
+      "quote": "För den som orkar göra jobbet så kommer det antagligen att gå att göra fynd när många som köpt för att snabbt göra ett klipp dumpar ut sina aktier.",
+      "summary": "När marknaden kyler ner och de som köpt för snabba klipp säljer, finns det möjligheter för den som orkar göra analysjobbet.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "05:03",
+      "confidence": "high",
+      "tags": [
+        "marknad",
+        "timing",
+        "analys"
+      ]
+    },
+    {
+      "quote": "När man är i början av noteringscykler så brukar det ju oftast bli bättre noteringar på något sätt och så blir de sämre och sämre tills det inte än går i praktiken.",
+      "summary": "IPO-kvaliteten försämras över tid i en noteringscykel - tidiga noteringar är ofta bättre än sena.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "31:26",
+      "confidence": "medium",
+      "tags": [
+        "IPO",
+        "noteringar",
+        "cykler"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "quote": "När det gäller bitcoin som inte riktigt har något underliggande värde, vad man vet, så gäller det att kunna hantera sina känslor. Att vara trygg i sin position, inte kanske ha för stor, inte vara för rädd om den heller.",
+      "context": "Diskussion om kryptohandel i samband med sponsor",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": null
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar en del oro kring marknadsläget med inflationsoro och kyligare klimat för risktillgångar. Jon delar karriärtips och de båda värdarna ger rekommendationer på flera bolag: Jon är positiv till Care och CoinShares, väntar på Securitas, och avråder från Note, Norva 24 och Viva Wine Group. Johan är mer positiv till Viva Wine Group på grund av e-handel. Kambi får uppföljning där Jon är hoppfull men Jon och Johan är överens om att kvaliteten på IPO-bolag har försämrats.",
+  "key_takeaways": [
+    "Marknaden har kylts ner vilket kan skapa fynd för den som orkar göra analysjobbet",
+    "IPO-kvaliteten har försämrats senare i noteringscykeln",
+    "Care, CoinShares och Kempower är aktier att hålla koll på enligt Jon",
+    "Note och Viva Wine Group är övervärderade enligt Jon",
+    "Viktig karriärinsikt: Sociala aktiviteter på jobbet är inte tecken på omtanke utan kan vara billigare än marknadsmässig lön"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2021-12-15-49c8.txt",
+  "transcript_word_count": 6970,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

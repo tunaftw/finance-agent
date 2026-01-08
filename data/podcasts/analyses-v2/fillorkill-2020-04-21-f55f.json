@@ -1,0 +1,953 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2020-04-21-f55f",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 264 - WTI goes WTF",
+  "episode_number": 264,
+  "date": "2020-04-21",
+  "hosts": [
+    "Lommulf",
+    "Simon Blecher"
+  ],
+  "guests": [
+    "Erik Lindén"
+  ],
+  "main_topics": [
+    "Oljekrasch",
+    "Rapportperioden",
+    "Rekommendationer vid öppnande",
+    "Biotech",
+    "Infrastructure stimulus"
+  ],
+  "stocks_discussed": [
+    "Sandvik",
+    "Catena Media",
+    "Nokia",
+    "Hansa Biopharma",
+    "Skanska",
+    "Phoenix Outdoor",
+    "Lundin Energy",
+    "Voi (via Vostok)",
+    "Novavax"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Sandvik",
+      "ticker": "SAND",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "06:28",
+      "reasoning": "Sandvik rapporterade -13% rörelseresultat trots att bara två veckor påverkats av corona. Q2 förväntas bli mycket värre men bolaget gav ingen guidance. Aktien handlades runt 140-144 SEK, vilket inte är superbilligt. Host köpte kort sida då bolaget var starkt men följde sedan med marknaden ner 3-5%. Risk för långsamt nedåtgående trend framöver.",
+      "price_target": null,
+      "time_horizon": "short_term",
+      "quote": "Jag tror att man gör rätt i att inte köpa. Nu ser du ju att vissa länder ska öppna upp här, men det verkar ju inte hända någonting. Frankrike till exempel, UK sköt upp också långt in i maj. Det kommer ju bli en lång boll. Så jag tror inte någon fear of missing out, det behöver man nog inte känna allvar.",
+      "sector": "Industrials",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Q2 förväntas bli horribelt med risk för lång kräftgång",
+      "catalyst_timing": "Q2-rapport aug 2020"
+    },
+    {
+      "stock_name": "Catena Media",
+      "ticker": "CTM-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "16:12",
+      "reasoning": "Köpte aktien vid +10% när finansieringslösningen med hybridobligationer och teckningsoptioner presenterades (som undviker utspädning jämfört med nyemission). Sålde samma dag när aktien ramlade 20% totalt och börsen gick ner 3%. Minskar risken i långinnehåll. Aktien handlas runt 15-20 SEK men analytiker har riktkurs 46-65 SEK. Bolaget har stor skuldbörda men Öresund garanterade finansieringen.",
+      "price_target": null,
+      "time_horizon": "short_term",
+      "quote": "Jag köpte ju aktier här men sålde dem i dag. Börsen går ner så mycket så jag drar ner på risken i alla långinnehåll. Och sen är det ju om börsen skulle komma ner igen och då är det ju liksom bolag som håller på med finansiering och sånt kanske inte det fräschaste att ha.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": "Långa positioner",
+      "downside_note": "Kreditmarknaden skakig om börsen faller vidare",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nokia",
+      "ticker": "NOKIA",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "17:55",
+      "reasoning": "Rykten om uppköp av TMT Media med Citi som advisor. Nokia har extremt stor patentportfölj som värderas mycket lägre i aktiekursen än vad industrin ser. Budcase. USA-stat och PE-firmar (KKR, Blackstone) diskuterades som potentiella köpare. Alternativet är köpa långsiktiga call-options som krydda. Patentportföljen är nyckelattraktionen.",
+      "price_target": null,
+      "time_horizon": "medium_term",
+      "quote": "Jag tror framförallt att det finns ett bra budcase. Nu är det säkert optionerna dyra. Men låta det här svalna lite och köpa lite Autonomoney Calls. Det här är en väldigt bra krydd.",
+      "sector": "Telekom",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hansa Biopharma",
+      "ticker": "HANSA-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "21:41",
+      "reasoning": "Aktien rusade 30% utan nyheter på förväntningar om EMA-besked om IdeS. Många blankar positioner, vilket gör risk för uppgång om godkänt. Host äger inga då rusningen kändes konstig. Aktien har gått från 60 till 140 SEK. Rådgivande rådsmöte väntas snart, besked kan komma fredagar. Farligt att gå emot trend utan nyheter.",
+      "price_target": null,
+      "time_horizon": "short_term",
+      "quote": "Jag äger inga, jag tyckte rusningen var lite konstig, men det är farligt, så det känns som i biotechbolag när de går upp väldigt mycket. Det känns ändå farligt att gå emot då, när det inte finns någon information över huvud taget.",
+      "sector": "Biotech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Q2 2020 (juni-augusti), potentiellt fredagsbesked"
+    },
+    {
+      "stock_name": "Skanska",
+      "ticker": "SKA-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "27:37",
+      "reasoning": "Simon Blecher från BlackRock (via kontakt) bullish på entreprenadsbolag och infrastruktur. Snabbaste sättet för stater att stimulera ekonomin är bygga vägar och infrastruktur (särskilt i USA med Trumps infrastrukturplan). Skanska fick sin största order någonsin förra veckan. Mycket 'red tape' försvinner nu, godkännanden går snabbare. Även svenska staten kan stimulera via infrastrukturprojekt.",
+      "price_target": null,
+      "time_horizon": "medium_term",
+      "quote": "Jag har köpt Skanska. Det är ju det snabbaste sättet för staterna att börja stimulera ekonomin. Det är att bygga motorvägar och titta på USA. Man har ju pratat om de dåliga vägnätverken länge. Och det är ju en snabb puck att fixa om du vill ha ut pengar i ekonomin.",
+      "sector": "Construction",
+      "market": "sweden",
+      "position_context": "Köpte aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Phoenix Outdoor",
+      "ticker": "PXOUT",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "29:36",
+      "reasoning": "Drabbas av retail-döden men kan gynnas av trenden att folk hänger mer utomhus (friskluft, skogsmulle) istället för tätt. Har näthandel. Aktien illikvid men gick bra fram till 2 år sedan med logistikproblem. Kan bli intressant på lägre nivåer. Säljer allt från Fjällräven till liggunderlag.",
+      "price_target": null,
+      "time_horizon": "medium_term",
+      "quote": "Men det skulle kunna bli en trend om att man hänger mer utomhus. Man hänger inte lika tight. Utan nu ska alla bli mulle... Mullemäck tänkte jag säga men... Skogsmulle. Då köper man ju Phoenix grejer, det är väl allt från Konken väskan till Liggunderlag och liknande. Och de har ju även näthandel. Så det tror jag faktiskt är ett... Det beror på hur... Den här aktien har ju ganska illikvid och har ju gått väldigt bra fram till typ två år sedan när de har lite logistiska problem och lite problem med Tyskland och liknande. Men skulle den komma ner på bra nivåer tror jag, den är väldigt intressant.",
+      "sector": "Consumer Goods",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Lundin Energy",
+      "ticker": "LUNE-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "44:04",
+      "reasoning": "Host kortade Lundin (som döpt om sig) då aktien handlades i 200 SEK och såg jättestark ut. Börskraschen drev ner till 140. Bra oljebolag med upptagningskostnad 2-3 USD i Nordsjön. Supply-sidan kan krascha snabbt om efterfrågan återkommer. Short på oljepriset.",
+      "price_target": null,
+      "time_horizon": "short_term",
+      "quote": "Tittar man på Lupe eller Lundin Energy som man har döpt om sig till, den handlas ju 200 idag, jag kortade den lite och tyckte den var jättestark. De handlade ju 140 när hela börsen kraschade och oljan kraschade med det här OPEC-bråtget. Så det säger en del om hela sentimentet att de bra oljebolagen, man tar inte ut att oljan ska stå här i 20 dollar i två år framöver.",
+      "sector": "Energy",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Oljepris kraschat till minusvärden",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Voi (via Vostok)",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "24:37",
+      "reasoning": "Vostok har Voi som största innehav. När länder öppnar upp kan folk åka sparkcykel istället för bussen. Voi tagit in mycket kapital men kan slå ut konkurrenter med dålig likviditet. Temat är att starka bolag slår ut svaga. Voi är drabbat av lockdown men kan rebounda när folk rör sig igen.",
+      "price_target": null,
+      "time_horizon": "medium_term",
+      "quote": "Det känns ju som att när vi är i Stockholm så står de ju kvar. Det är väl den enda staden i hela världen tror jag som har kvar de här sparkcyklarna. Alla andra företag kommer ju säkert konka då i och med att man inte kan göra någonting. Voi har ju tagit in hur mycket pengar som helst, men istället för att folk ska stå och trängas på bussen så kommer nog väldigt många åka sparkcykel till exempel.",
+      "sector": "Mobility",
+      "market": "unknown",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Novavax",
+      "ticker": "NVAX",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "32:50",
+      "reasoning": "Host sålde sin position på 15 USD efter att ha köpt på 8 USD. Aktien stod i 23 USD efter covid-samarbete. Bolaget pumpade 100 miljoner USD i aktier, vilket blev en våt filt men nu verkar ha lossnat. Bill Gates Foundation samarbetar med Novavax. Bolag tenderar att gå upp i epidemier men sedan pyser ihop.",
+      "price_target": null,
+      "time_horizon": "short_term",
+      "quote": "Ja, det blev ju ett bra case vi bjöd på. Jag sålde ju på 15 typ. Resten lämnade jag åt lyssnarna.",
+      "sector": "Biotech",
+      "market": "us",
+      "position_context": "Sålde på 15 USD",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Sandvik",
+      "ticker": "SAND",
+      "timestamp_start": "06:28",
+      "timestamp_end": "12:03",
+      "word_count": 500,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "Sandvik startade rapportperioden med -13% rörelseresultat trots att bara två veckor påverkades av corona. Bolaget gav ingen guidance för Q2 som väntas bli 'horribelt'. Aktien var stark kring 140-144 SEV med mycket köpintresse, men host beslutade gå kort då Q2 förväntas bli betydligt värre och bolagets utsikter var oklara.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Jag fick för mig att handla Sandvik bara på kort sida, jag tyckte att aktien har gått ganska bra. De har väl klarat sig väldigt bra skulle jag säga. Ja, jag tror att det var 13% ner på rörelsesresultatet och liknande, trots att det bara var två veckor. Hur ska det då bli Q2, när ska det vända tänkte jag.",
+          "timestamp": "06:58",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Jag kunde inte heller förmå mig att långa den. Det kändes ju bara som att, eftersom att de inte ville ge någon guidance och såna här grejer, och man vet att det är natt svart, Q2, så blir det ju köparna igår. Vad är det för staying power i den? De vet att det kommer ett kvartal som kommer att vara horribelt.",
+          "timestamp": "07:42",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Jag tror att man gör rätt i att inte köpa. Nu ser du ju att vissa länder ska öppna upp här, men det verkar ju inte hända någonting. Frankrike till exempel, UK sköt upp också långt in i maj. Det kommer ju bli en lång boll. Så jag tror inte någon fear of missing out, det behöver man nog inte känna allvar.",
+          "timestamp": "08:44",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Det är helt ointressant. Så det enda det handlar om är, på vilka nivåer vill jag äga Sandvik långsiktigt? När du själv känner det, då kan du ge dig in och tradea. Och på 144 eller vad den var, jag vet inte. Det är ett fint bolag men jag skulle inte säga att det är superbilligt.",
+          "timestamp": "09:38",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Jag tittade på vd-ordet och då försökte jag läsa lite där vad han hade för utsikter. Och sen så läste jag någon mening med likviditetsbufferten att de hade likviditet och kreditlina på 30 miljarder. Så många tittade på Sandvik 2008 men då var det ju ett skitbolag med dålig finansiering och ekonomi och liknande.",
+          "timestamp": "09:56",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-13% rörelseresultat",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Likviditetsbuffert 30 miljarder SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Storbolag klarar sig bäst i kriser",
+          "Kina har kommit tillbaka very strong",
+          "Alla bolag kommer att spara",
+          "Positiva kassaflödesförbättringar"
+        ],
+        "bear_case": [
+          "Q2 förväntas bli horriblt",
+          "Ingen guidance från ledningen",
+          "Aktien inte superbillig på 144 SEK",
+          "Långsam nedåtgående kräftgång möjlig",
+          "Länder öppnar upp långsamt (Frankrike, UK till maj)"
+        ],
+        "catalysts": [
+          "Q2-rapport (augusti)",
+          "Öppnande av länder",
+          "Kina återhämtning"
+        ],
+        "risks": [
+          "Q2-resultat kan bli mycket sämre",
+          "Pandemin dröjer längre än väntat",
+          "Aktie har gått bra trots dåliga utsikter"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Catena Media",
+      "ticker": "CTM-B",
+      "timestamp_start": "12:05",
+      "timestamp_end": "16:45",
+      "word_count": 450,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "Catena Media, som haft ett skakigt år med storägaren Bodenholm likviderande fonden som pressade kursen från 100 ner till 8 SEK, löste finansieringsknuten genom hybridobligationer och teckningsoptioner som betalar av en tredjedel av stor bond och förlänger resten. Host köpte aktien men sålde samma dag när börsen gick ner 3%.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Catena Media. De har haft ett skakigt år. Bodenholm, största ägare, har likviderat fonden, pressade ner kursen, den var uppe i 100 för 2-3 år sen, massa förvärv, nu var den ner i 8 när han tryckte ut de sista kändelsen om. Nu har den stigit upp till 15-20 någonting och nu har det varit lite nyemissionsrisk.",
+          "timestamp": "12:05",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Nu kom det att de ger ut hybridobligationer tillsammans med teckningsoptioner och betalar av den här bonden en tredjedel och sen förlänger de resten. Så det är positivt för de bondägarena. Jag tyckte och trodde att det här skulle vara positivt för aktiekursen.",
+          "timestamp": "12:26",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Så jag köpte aktien där i början när den var 10% upp att det inte blev en nyemission i aktier och massa utspädningar och liknande. Marketcap var 800-900 miljoner och att de hade skuld på 1,5 miljarder. De har ju stora skulder och det stör ju alltid ett bolag.",
+          "timestamp": "12:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men så när jag i min förvirring tittade igen då var det ner 10%. Så det var 20% snabba rakt ner. Jag tror att jag köpte dem på en rapport innan, då gick det ner 20% också. Så det verkar vara min hataktie här.",
+          "timestamp": "12:55",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Öresund har gjort det här innan i maxfastigheter. Jag tycker väl att det är väl bra att de löser finansieringen och nu om börsen skulle gå ner då känns kreditmarknaden väldigt skakig. Den här var fullt garanterad med Öresund och de andra stora ägarna. Så det är väl bra att lösa den här finansieringsknuten.",
+          "timestamp": "13:28",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Det är väl utspädning också, om det är hybrid och konvertering och hitt och hitt. Ja, i alla fall de här teckningsoptionerna att det blir någon form av tak. Det hade ju blivit en enorm utspädning om man gjort en aktieemission på 10 kronor istället.",
+          "timestamp": "14:01",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Kepler och Swedbank kom ut med någon analys idag, sänkt riktkursrummen hade 46 och den handlas i 18. Så analytiken har legat fel hela vägen ner, Nordea hade typ 65 innan. Så det blir alltid så svårt att ta på allvar här när de har så höga riktkursrummen har legat fel hela vägen.",
+          "timestamp": "15:53",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Jag köpte ju aktier här men sålde dem i dag. Börsen går ner så mycket så jag drar ner på risken i alla långinnehåll. Och sen är det ju om börsen skulle komma ner igen och då är det ju liksom bolag som håller på med finansiering och sånt kanske inte det fräschaste att ha.",
+          "timestamp": "16:12",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "1,5 miljarder SEK",
+        "custom": [
+          "Marketcap 800-900 miljoner SEK",
+          "Riktkurs Kepler/Swedbank 46 SEK",
+          "Aktiepris 18 SEV",
+          "Tidigare topp 100 SEV",
+          "Lägsta nivå 8 SEV"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hybridobligationer + teckningsoptioner löser finansiering",
+          "Undviker utspädning från nyemission",
+          "Öresund och stora ägare garanterar finansieringen",
+          "Poker och casino kan ha revival"
+        ],
+        "bear_case": [
+          "Stora skulder på 1,5 miljarder",
+          "USA-satsning på paus (casino inte lagligt online)",
+          "Kreditmarknaden skakig om börsen faller vidare",
+          "Analytiker har legat fel hela vägen ner",
+          "Börsen kan fortsätta ner"
+        ],
+        "catalysts": [
+          "Säsongal spel och poker ökar under lockdown",
+          "Finansieringen löst",
+          "Börsens utveckling"
+        ],
+        "risks": [
+          "Fortsatt nedgång på aktiemarknaden",
+          "Kreditmarknadens försvagning",
+          "Utspädning från teckningsoptioner"
+        ]
+      },
+      "position_disclosure": "bought"
+    },
+    {
+      "stock_name": "Nokia",
+      "ticker": "NOKIA",
+      "timestamp_start": "16:45",
+      "timestamp_end": "20:30",
+      "word_count": 400,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Nokia rykten om uppköp återkom: TMT Media och Citi arbetar med stor affär i TMT-sektorn, Nokia har anlitat investmentbank för att skydda sig. Nokia har extremt stor patentportfölj värderad mycket lägre i aktien. Budcase via uppköp av patentportfölj eller hela bolaget (Apple, KKR, Blackstone). USA-stat kan köpa Ericsson/Nokia för nationell säkerhet.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Budryckte i Nokia. Det var väl snack för typ 2-3 månader sen om att det var någon hostile på gång här och styrelsen försökte skydda sig. Och nu var det ännu mer specificerat. Det var en sån här telekomtjänst, TMT Media eller liknande, som var ut och sa att City Group jobbar med en jättestor affär i TMT-sektorn och att Nokia hade anlitat någon investmentbank för att skydda sig mot uppköp.",
+          "timestamp": "16:45",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Rykten som var för några månader sen som vi nämnde i podden redan då, var ju att de hade anlitat en M&A-firma för att, för de har ju en extremt stor patentportfölj, som värderas väldigt väldigt lågt i aktiekursen. Och där hävdar många att det finns stora värden att ge.",
+          "timestamp": "17:17",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Att få ut, så att de skulle kunna sälja lite delar av sin portfölj och sånt. Så jag tror att det finns ett bra case i Nokia på ett litet sikt. Jag tror framförallt att det finns ett bra budcase. Nu är det säkert optionerna dyra. Men låta det här svalna lite och köpa lite Autonomoney Calls. Det här är en väldigt bra krydda.",
+          "timestamp": "17:45",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Jag vet att jag satt och tittade på December Calls då i Nokia. Och sen har det utspelats börskrash och grejer emellan. Så de ska man nog spana in. Det har inte kommit några bud här sedan bäsen började. Det blir intressant med budpremierna. Var lägger man dem? Där kursen stod innan eller nu?",
+          "timestamp": "18:04",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Sen USA var ju snacka om att de både staten, det trodde inte vi på men att privata bolag, med hjälp av staten skulle köpa in sig i Ericsson och Nokia. Och det skulle kunna bli någon sådan lösning. Här snackades väl om PE-firmer som KKR och Blackstone och liknande.",
+          "timestamp": "18:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men framförallt så är ju 5G, jag vet inte hur mycket on hold man sätter 5G på grund av coronakrisen. Vissa tror att 5G är coronakrisen. I så fall är det dåligt. Ja i så fall är det i kast. Men jag tror att det är ändå sådana investeringar som staterna kan göra för att stimulera ekonomin.",
+          "timestamp": "19:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Krister Gardell sa väl också att absolut jänkarna kan få köpa det, men då är det absolut inte på de här löjliga priserna eller vad han sa.",
+          "timestamp": "20:29",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Patentportfölj värderas väldigt lågt i aktien"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Extremt stor patentportfölj värderad lågt",
+          "Budcase via uppköp av patentportfölj eller hela bolaget",
+          "Apple, KKR, Blackstone kan köpa",
+          "USA-stat kan köpa för nationell säkerhet",
+          "5G investeringar kan stimulera ekonomin",
+          "Ericsson klarat sig bra med datanvändning i lockdown"
+        ],
+        "bear_case": [
+          "Några bud kommit sedan börsrasen",
+          "5G kan sättas on hold i coronakrisen",
+          "Kursnivå för uppköp oklar - före eller efter krasch?"
+        ],
+        "catalysts": [
+          "M&A-nyheter",
+          "5G utbyggnad",
+          "Statliga stimulanspaket",
+          "Corona-låsning förändrar kommunikationsbehov"
+        ],
+        "risks": [
+          "Uppköp sker inte på förväntade priser",
+          "Budrykten kan vara rök utan eld",
+          "5G investeringar fördröjs"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Hansa Biopharma",
+      "ticker": "HANSA-B",
+      "timestamp_start": "21:41",
+      "timestamp_end": "24:35",
+      "word_count": 380,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "Hansa Medical (biopharma) rusade 30% utan nyheter på förväntningar om EMA-besked om njurtransplantationspreparatet IdeS. Bolaget hade tidigare problem med FDA som ville ha ytterligare studie, skjut upp projektet 2 år. I Europa hoppas man på positivt beslut, liknande vad Asmén fick. Många blankar positionen men EMA-besked kan komma fredagar.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Hansa Medical Biopharma, vad vi nu ska kalla dem, som håller på med njurtransplantationer. De var ju jätteupphypade. Sedan visade det sig att de hade inte riktigt planerat så bra med sina studier, för de tänkte att de skulle få godkänt efter fas 2, läx onko. Men sedan visade jag att FDA, de var inte riktigt övertygande det här och ville ha en till studie, vilket sköt hela projektet två år framåt.",
+          "timestamp": "20:41",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men i Europa, enligt bolaget, så har de inte samma syn. Och nu väntas ett sådant här EMA besked, som OASME har fått godkännande tidigare. Och man väntade ju på Active Biotech i början där, när jag satt och tradade. Och det var en väldigt het aktie. Och alla trodde på ja och det blev nej. Och så blev det ner 70 procent och liknande.",
+          "timestamp": "21:01",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Och då sitter man ju och väntar på en sån här, först en agenda, som man ser att bolaget, att preparatet ska tas upp. Om nu jag fattar det rätt så skulle mötet, folk pratar om möten den här veckan. Jag har försökt gå in på EMAs hemsida och då skulle mötet vara nästa vecka. Och sen på fredagen ofta så kommer själva beskedet från den här gruppen då.",
+          "timestamp": "21:25",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men då gick Hansa upp 30% utan nyheter. Den är blankad en del. Och jag har fortfarande inte förstått riktigt varför den gick upp mer än att folk kanske insåg att det kan komma ett besked där. Bolaget har sagt i Q2, det är juni till augusti. Eller nej, Q2 är april till... Q2 är april till juni. Så det ska ju vara nu, ja det kan komma när som helst.",
+          "timestamp": "21:47",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Men vet du vad det är, rådgivande rådet, nej det kommer på en fredag eller hur? Ja exakt. Så, för så var det ju Asméns fall. Och det tittade jag ju på till exempel. Det var ju långt innan jag ägde Asmén, men det var ju då jag tyckte det började bli lite intressant och sen kom ägarbrocket. Så det ska man ju absolut hålla ögonkjuk, hålla utkik efter på fredagar.",
+          "timestamp": "22:30",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Jag äger inga, jag tyckte rusningen var lite konstig, men det är farligt, så det känns som i biotechbolag när de går upp väldigt mycket. Det känns ändå farligt att gå emot då, när det inte finns någon information över huvud taget.",
+          "timestamp": "22:53",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Och som blankarna, det är inte jättekul att vara kort ett bolag som får godkännande EU som kommer att gå upp på det. Det är väl rätt safe att säga att den kommer nog att gå upp. Om de nu får godkänt?",
+          "timestamp": "23:11",
+          "context": "risk"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Och så är det EMA och inte motrådgivande rådet, jag tror de aldrig har gjort det. Men vi pratade lite om det här innan, den rusade ju på någon studie som kom som jag inte riktigt räknade med att skulle publiceras eller skapa en sådan rörelse.",
+          "timestamp": "23:41",
+          "context": "risk"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Jag har kollat lite på X-Bray, som jag tycker är ett intressant bolag. De fick någon höjning av Redeye här nu. Och då har den plötsligt gått 30 procent. De känns väldigt ordföret sägbara, de här biotechbolagen. Ovsett om det är mitt i nedgång eller bäsel eller liknande, så är det svårt att förstå när de ska gå upp.",
+          "timestamp": "24:08",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktie gått från 60 till 140 SEV",
+          "Uppe 30% på en dag utan nyheter"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "EMA kan ge godkännande för IdeS i Europa (Q2)",
+          "Liknande tillvägagångssätt som Asmén som fick godkännande",
+          "Många blankare kan täcka korta positioner om positivt besked"
+        ],
+        "bear_case": [
+          "FDA ville ha ytterligare studie, projekt skjutits 2 år framåt",
+          "Rusning utan nyheter kan vara spekulation",
+          "Active Biotech-risk: alla trodde ja men blev nej (-70%)",
+          "Biotech oförutsägbara rörelser"
+        ],
+        "catalysts": [
+          "EMA-besked Q2 2020 (april-juni)",
+          "Rådgivande rådsmöte fredagar",
+          "Godkännandebesked kan komma när som helst"
+        ],
+        "risks": [
+          "Negativt besked från EMA",
+          "Projektet försenas ytterligare",
+          "Blankarna täcker inte positioner",
+          "Kursen kan falla drastiskt vid negativt besked"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Skanska",
+      "ticker": "SKA-B",
+      "timestamp_start": "27:37",
+      "timestamp_end": "29:36",
+      "word_count": 300,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Host köpte Skanska baserat på input från en som känner BlackRock Europa-chef på infrastruktur som är bullish på entreprenadsbolag. Snabbaste sättet för stater att stimulera ekonomin är bygga vägar och infrastruktur, särskilt i USA med Trumps infrastrukturplan. Skanska fick sin största order någonsin förra veckan. Mycket 'red tape' försvinner nu.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "Jag har köpt Skanska. Ja men typ. Jag känner någon som känner någon som känner Black Rocks Europa-chef på infrastruktursidan. Där var det ju att de var bullish på de här entreprenadsbolagen. Och Skanska är väl ett av, jag vet inte om de är världens största. Och det är ju det snabbaste sättet för staterna att börja stimulera ekonomin.",
+          "timestamp": "27:37",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Det är att bygga motorvägar och titta på USA. Man har ju pratat om de dåliga vägnätverken länge. Och det är ju en snabb puck att fixa om du vill ha ut pengar i ekonomin.",
+          "timestamp": "28:08",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Han snackar väl om någon jätteinfrastructure-bilder Trump. Precis, och han pratade om det redan när han skulle gå till val. Så nu är det väl rätt enkelt att få igenom den.",
+          "timestamp": "28:17",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Sen så hör jag bara folk som jobbar mot svenska staten med alla upphandlingar och tunnlar och allting. Och det är godkäns och det händer grejer. Så ja, de där verkar inte synas så mycket. Så jag tänker då, nu har jag bara köpt Skanska, men PIA, BNCC, nu är de mycket mindre och kanske lite mer lokala. Men jag tror även att den svenska staten kommer att stimulera på det sättet.",
+          "timestamp": "28:41",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Och jag menar Skanska, det var bara förra veckan de fick typ den största orden någonsin.",
+          "timestamp": "29:09",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men det är de här stora projekten de har haft väldigt problem med så det låter bättre att bygga väg, där kan man ju inte misslyckas så mycket.",
+          "timestamp": "29:09",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Nej exakt, men så jag tror att där är mycket red tape som försvinner nu. Och de liksom bara godkänner saker och sen är det bara att sätta igång. Så det stämmer liksom med hur du nationalekonomi ska stimulera samhället.",
+          "timestamp": "29:14",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Exakt, då ligger de här bolagen faktiskt rätt bra och det är ju välskötta bolag.",
+          "timestamp": "29:30",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Största ordern någonsin förra veckan"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "BlackRock bullish på entreprenadsbolag",
+          "Snabbaste sättet för stater att stimulera ekonomin är infrastruktur",
+          "Trump har infrastrukturplan för USA",
+          "Svenska staten kan stimulera via infrastrukturprojekt",
+          "Mycket 'red tape' försvinner, godkännanden snabbare",
+          "Stor ordern förra veckan"
+        ],
+        "bear_case": [
+          "Stora projekt kan ha problem",
+          "Risk att stimulanspaket inte genomförs"
+        ],
+        "catalysts": [
+          "Trump infrastrukturstimulans",
+          "Svenska statens infrastrukturprojekt",
+          "Stora upphandlingar i tunnel och väg"
+        ],
+        "risks": [
+          "Stora projekt kan bli kostsamma fördröjningar",
+          "Politiska förändringar kan påverka stimulans"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "WTI Olja",
+      "ticker": "WTI",
+      "timestamp_start": "33:49",
+      "timestamp_end": "46:05",
+      "word_count": 850,
+      "speakers": [
+        "Host 1",
+        "Host 2"
+      ],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "WTI olja gick från 50-60 dollar i början av året till minus 38 dollar, första gången någonsin negativt. Bakgrunden är fysisk leverans och att alla lager är fulla. ETF USO ägde 30% av kontrakten och var tvungen att sälja. Detta skapade en reverse short squeeze. Supply-sidan kan krascha snabbt då brunnar stängs och capex försvinner. Longsikt kan supply återhämta sig men det tar tid.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "WTI. Den gick ju från, vad var den stått här? 50 dollar i början på året kanske, 50-60. Ja, 50-60 eller sånt där. Ja, nu var det minus 38. Första gången någonsin. Man fick alltså 38 dollar per fat med 159 liter och jag vet, tänk direkt. För den som producerade det här var tvungen att betala pengar för att bli av med skit.",
+          "timestamp": "33:49",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Det känns ju som att det här är en trend över alla tillgångar nu. Bonds var först, gilda negativt och nu har vi oljan och sen kanske det händer med aktier också, att man får betala någon för att ta dem ifrån.",
+          "timestamp": "34:21",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Bakgrunden till det här är ju sättet i terminerna är konstruerad på, och det är att det är fysisk leverans. Om du säljer så förbinder du att leverera ett visst antal barrels och om du köper så ska du ta emot dem.",
+          "timestamp": "34:46",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Problemet med VTI är att den har blivit så värdepapiriserad så att det sitter jättemånga aktörer som inte har någon intention att leverera eller ta emot olja. Och en väldigt stor del av handeln i VTI är så.",
+          "timestamp": "35:28",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "I vanliga fall så finns det massa fysiska aktörer alltså som handlar fysiska olja som är villiga att ta emot olja eller leverera olja och de då nättar ut de som bara har handlat kontrakt på spekulation. Och i vanliga fall är inte det så stora volymer, till exempel förra lösen, jag vet inte vad det var om det var någon ett par tusen kontrakt eller något sådant där.",
+          "timestamp": "36:28",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Och månaden innan här i tidigt 2020 så var det 500. Igår var det 109 000 kontrakt som var osättlade. Vilket innebär att om du inte kan ta emot olja så måste du ju sälja dem. Och du måste sälja dem och då blir det att du bara ska sälja till vilket pris som helst.",
+          "timestamp": "36:39",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Och den som du vill då sälja till ska ju då kunna ta emot den här oljan och lagra den. Problemet är att oljan nu på de senaste månaderna har alla de som har lager, lagren är fulla. Så de kan inte riktigt ta emot.",
+          "timestamp": "36:52",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Och då läste även att det finns en ETF, den största oljetf som heter USO. De ägde 30% av alla de här kontrakten. Och en ETF kan ju såklart inte ta emot olja och lagra. Så de var tvungna att sälja alla de här för att köpa månaden efter.",
+          "timestamp": "37:23",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Men det som är intressant är att det är en short squeeze fast åt andra hållet. I guldmarknaden var det brist på fysiskt guld. Här är exakta motsatsen.",
+          "timestamp": "38:02",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Framförallt alla de som plockade upp majkontraktet igår på minus. Om du vill hedgea det så säljer du junikontraktet och så tar du mellanskillnaden. Om du har fysisk olja så är det lugnt. För du kan alltid leverera oljan på 19 eller 18 dollar. Den gick ner till 14, till och med på 14. Om du äger olja då kan du leverera på 14 men du har ju också fått leverans på minus. Minus 30 eller 40 eller vad som värst. Så det är att man låser in vinsten där.",
+          "timestamp": "39:05",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "De som var väldigt iskalla där och hade lagerlokal eller lagerplats för olja måste ha gjort, de blev set for lifter. Det är mycket möjligt. Sånt här är ju typ gummensaxor, de hyr tankebåtar så att de kan ta emot och förvara det. Sen så säljer de nästa future för att låsa in en profit på det.",
+          "timestamp": "39:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Om man kollar på 2016, jag tror man stängde ner 80% av alla riggar. Nu har man stängt ner 20 och fått samma, vad heter det? Ja men framförallt samma outputnedgång på shale. Och det visar ju att de här brunnarna då som var, de sämre brunnarna, TR2-brunnar och sånt 2016, de har ju gått upp och blivit rätt stora, så att produktionen faller ju alltså mycket, mycket mer som en sten just nu.",
+          "timestamp": "40:25",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "På lång sikt blir ju helt... Kommer bli, alltså nu pratar jag ju om oljepriset, säger om ett år, ett till två år. Då kommer ju supply, för det här tar ju tid att få igång igen. Och då nu stänger de ner överallt, de capex försvinner, man köper inte en ny maskin, ingenting. Alltså supply-sidan kan också krympa väldigt fort om världen öppnar upp och går back to normal, så kommer ju liksom supply-sidan försvinna väldigt fort.",
+          "timestamp": "40:47",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Om det ser ut som det gör att shale boomen är över och att brunnarna inte börjar leverera så som man trodde att de skulle göra, då kan det bli ännu mer short squeeze och USA kanske tappar sin roll som monsterproducent.",
+          "timestamp": "41:59",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Trump var ju där och sa att han skulle rädda, det jag tyckte var lite negativt för själva oljepriset var att han sa att han skulle rädda oljeindustrin, det är väl alla hans väljare där. Och det blir ju indirekt negativt för oljepriset. För då håller man ju igång massa bolag som egentligen skulle gå omkull och har massa output.",
+          "timestamp": "41:59",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Jag menar det du vill gärna ha nu, innan har ju alltid Lundinbolag varit rätt dyra och sådana här grejer förutom deras vissa spin-offs och sånt men why not? Där finns det ju muskler att hämta och de har varit med för en nya Wildcat-variante.",
+          "timestamp": "45:00",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "WTI: -38 USD (negativt för första gången)",
+          "USO ETF ägde 30% av kontrakten",
+          "109 000 osättlade kontrakt vs 500 vanligtvis",
+          "Lundin Energy upptagningskostnad 2-3 USD i Nordsjön",
+          "Shale: 20% riggar stängda (vs 80% 2016)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "De med lagerplats kunde köpa på minus och sälja framåt",
+          "Supply kan krascha snabbt då brunnar stängs",
+          "Shale-brunnar levererar inte som förväntat, USA kan tappa producentroll",
+          "Lundinbolag har muskler att hämta",
+          "Reverse short squeeze kan ske"
+        ],
+        "bear_case": [
+          "Alla lager är fulla, ingen kan ta emot fysisk olja",
+          "ETF USO måste sälja och pressar priset nedåt",
+          "Trump vill rädda oljeindustrin (negativt för pris)",
+          "Värdepapirisering av WTI skapar osäkerhet",
+          "Oligarkiska länder (Tyskland, Europa) kanske inte bygger lager"
+        ],
+        "catalysts": [
+          "Öppnande av ekonomier kan öka efterfrågan",
+          "Supply-krasch om världen återgår till normal",
+          "OPEC-beslut",
+          "USA:s infrastrukturstimulans"
+        ],
+        "risks": [
+          "Långa lock-downs fördröjer efterfrågeåterhämtning",
+          "Shale kan återhämta sig snabbare än väntat",
+          "Negativa priser kan upprepa sig"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "När man signar och är soldat i USA så signar man också att man ska ta tabletter utan att fråga. Mediciner utan att fråga. Så under Desertstorm testade man massor mot sådana här olika viruser som fanns i Mellanöstern. Soldaterna bara tog och de var så som vi gör idag så klassas de som att det var obeprövat. Men sånt där pushar fram gränserna väldigt långt för vad man kommer på. Så forskningen går väldigt fort i sådana här tider.",
+      "summary": "Kriser och krig driver snabb forskning och medicinsk utveckling då normala testprotokoll sätts åt sidan.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "31:58",
+      "confidence": "high",
+      "tags": [
+        "biotech",
+        "kris",
+        "forskning",
+        "innovation"
+      ]
+    },
+    {
+      "quote": "Så det enda det handlar om är, på vilka nivåer vill jag äga Sandvik långsiktigt? När du själv känner det, då kan du ge dig in och tradea.",
+      "summary": "Fokusera på dina egna prisnivåer för långsiktigt ägande istället för att följa marknadens kortsiktiga rörelser.",
+      "category": "philosophy",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "09:38",
+      "confidence": "high",
+      "tags": [
+        "investeringsfilosofi",
+        "longterm",
+        "priser"
+      ]
+    },
+    {
+      "quote": "Jag har också dragit ner på risken här och sålt lite spekulativa poster. För det känns bra att ladda på krutet. Jag skulle inte förlåta mig själva om vi får en sådan här, ja det kraschar 20% på en vecka här och så går man på samma nid som man gjorde i februari.",
+      "summary": "Minska risken i spekulativa positioner när marknaden verkar instabil för att undvika att upprepa misstag från tidigare krascher.",
+      "category": "lesson",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "48:42",
+      "confidence": "medium",
+      "tags": [
+        "riskhantering",
+        "positionering",
+        "marknadskrasch"
+      ]
+    },
+    {
+      "quote": "Det var ju det hon sa innan Trump gick ut. Så hon var ju helt rätt på bollen där. Att marknaden behöver nånting, ett datum, ett mål att sikta mot. För annars finns det ingenting att hålla i.",
+      "summary": "Marknaden behöver konkreta mål och tidsplaner för att kunna fokusera, annars finns det inget att hoppas på.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "48:15",
+      "confidence": "medium",
+      "tags": [
+        "marknad",
+        "hopp",
+        " mål"
+      ]
+    },
+    {
+      "quote": "Och sen är det ju nu jag ser inte tendenserna än att det liksom är back on track. I Europa eller någonstans egentligen. Det är väl bara Kina som står och hoppar jämfota och vill att alla ska öppna.",
+      "summary": "Europa har inte visat tendenser till återgång till normalt, bara Kina verkar ivriga att öppna upp.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "11:22",
+      "confidence": "medium",
+      "tags": [
+        "corona",
+        "öppnande",
+        "Kina",
+        "Europa"
+      ]
+    },
+    {
+      "quote": "Men för de finansiella marknaderna så är det tiden som är problemet. Tar det för lång tid kommer det att uppstå problem och skador.",
+      "summary": "Tidshorisonten är kritisk för finansiella marknader - för lång lockdown leder till problem.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "46:29",
+      "confidence": "high",
+      "tags": [
+        "lockdown",
+        "finansiella marknader",
+        "tid"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "I detta avsnitt diskuterar Fill or Kill podden WTI-oljekraschen som gick till negativa priser för första gången, rapportperioden med Sandvik som ingen ville guida för Q2, och Catena Medias finansieringslösning. Hosts rekommenderar att undvika Sandvik på kort sikt, köpa Skanska på infrastrukturstimulans, och hålla ögonen på Nokias uppköpsrykten. Oljepriset analyseras ingående med supply-krasch risk men långsiktig återhämtning.",
+  "key_takeaways": [
+    "Undvik köp av aktier som inte ger guidance (som Sandvik)",
+    "Köp infrastrukturbolag som Skanska för statsstimulans",
+    "WTI negativa priser var unikt pga fysisk leverans och fulla lager",
+    "Nokia har intressant budcase men är riskabel",
+    "Minska risken i spekulativa poster när marknaden är instabil",
+    "Tid är den största risken för finansiella marknader i lockdown"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2020-04-21-f55f.txt",
+  "transcript_word_count": 9622,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

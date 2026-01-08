@@ -1,0 +1,279 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2021-03-29-5ac3",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "Avsnitt 119: Havsdimma i tillväxtbolaget",
+  "episode_number": 119,
+  "date": "2021-03-29",
+  "hosts": [
+    "Christoffer Arne Marko",
+    "Dag Rolander"
+  ],
+  "guests": [
+    "Anders Månsson"
+  ],
+  "main_topics": [
+    "Aktieanalyser",
+    "Halvledarbrist",
+    "Makroekonomi",
+    "Bioteknik"
+  ],
+  "stocks_discussed": [
+    "Clas Ohlson",
+    "Bull Diagnostics",
+    "Volvo",
+    "Atlas Copco",
+    "Sandvik"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Clas Ohlson",
+      "ticker": "CLAS-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Dag Rolander",
+      "speaker_role": "host",
+      "timestamp": "04:48",
+      "reasoning": "Aktien är undervärderad till 95 SEK med direktavkastning över 6%, EV/EBIT ca 10x. Fokuserar åter på Norden efter misslyckad internationell expansion. Starkt varumärke, växande e-handel, ökande antal butiker mot butiksdöds-trend. Företaget är finansiellt starkt med solid lönsamhet.",
+      "price_target": "under 20 kronor (120 SEK)",
+      "time_horizon": "medellång sikt",
+      "quote": "Min slutsats var att aktien ska tillbaka upp till nivån under 20 kronor där den handlades tidigare. Bolaget är finansiellt väldigt starka och jättestark varumärke. Direktavkastningen över 6 procent som det är nu. Det är en låg risk papper.",
+      "sector": "Detaljhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Låg risk",
+      "catalyst_timing": "Utdelning september 2021"
+    },
+    {
+      "stock_name": "Bull Diagnostics",
+      "ticker": "BULL",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Christoffer Arne Marko",
+      "speaker_role": "host",
+      "timestamp": "12:12",
+      "reasoning": "2020 var pandemi-påverkat med nedskrivningar men 2022 ser ut som normalår. P/E ca 18x för 2022, EV/Revenue ca 2x. Globalt bolag med stark affärsmodell och återkommande intäkter. Starkt ägarskap (Svolder, Grenspecialisten, Tomas Eklund, Peter Erlendzen). Nyckeln är tålamod.",
+      "price_target": "80 kronor",
+      "time_horizon": "1-2 år",
+      "quote": "Jag tror att det finns ganska mycket spännande i bol. Vi har Svolder, Grenspecialisten, Tomas Eklund i ägarlistan. Nyckeln i det här caset är sannolikt tålamod och vänta in att marknaden normaliseras. Kursen ska tillbaka till 80 kronor.",
+      "sector": "Medicinteknik",
+      "market": "sweden",
+      "position_context": "I korta portföljen sedan december",
+      "downside_note": "20% uppsida, låg risk i relation till kalkyl",
+      "catalyst_timing": "Efter halvår 2021 när testningen återupptas"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Clas Ohlson",
+      "ticker": "CLAS-B",
+      "timestamp_start": "04:48",
+      "timestamp_end": "11:20",
+      "word_count": 450,
+      "speakers": [
+        "Dag Rolander",
+        "Christoffer Arne Marko"
+      ],
+      "primary_speaker": "Dag Rolander",
+      "discussion_summary": "Clas Ohlson har återhämtat sig efter misslyckad internationalisering genom att fokusera på Norden. Bolaget har effektiviserat verksamheten och visar stark finansiering med växande e-handel. Menad oro för butiksdöd och Amazon-risk menar Dag är överdriven - bolaget ökar antalet butiker och har starkt varumärke. Ägandet i Mathem kan ge synergier. Aktien är fundamentalt billig med EV/EBIT ca 10x.",
+      "quotes": [
+        {
+          "speaker": "Dag Rolander",
+          "text": "Det som har hänt under de senaste åren är egentligen två saker. Dels att den internationella expansionen... det där blev inte tillräckligt bra. De har avvecklat det och fokuserar på Norden.",
+          "timestamp": "04:48",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Dag Rolander",
+          "text": "De har ett intressant e-handelskoncept. De har en väldigt snabb ökning av e-handeln. Det är inte så att de inte är med där alltså.",
+          "timestamp": "06:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Dag Rolander",
+          "text": "P-talet om vi tittar på nästa år ligger också ungefär där. Det är väldigt billigt.",
+          "timestamp": "09:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Christoffer Arne Marko",
+          "text": "Aktien är fundamentalt billig också om man blickar ut några år.",
+          "timestamp": "08:38",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "~10x (nästa år)",
+        "ev_ebitda": "~10x",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "över 6%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Direktavkastning 6.25 SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Fokus på Norden efter avveckling av internationell expansion",
+          "Växande e-handel och kombination med fysiska butiker",
+          "Starkt varumärke och finansiell stabilitet",
+          "Ökar antalet butiker mot butiksdöds-trend",
+          "EV/EBIT ca 10x är väldigt billigt",
+          "Äger del av Mathem - potentiella synergier"
+        ],
+        "bear_case": [
+          "Amazon-intåg i Sverige kan öka konkurrensen",
+          "Butiksdöds-risk om konsumentbeteendet ändras permanent",
+          "Kostnader för avveckling av internationell satsning"
+        ],
+        "catalysts": [
+          "Utdelning september 2021",
+          "Fortsatt tillväxt i e-handel",
+          "Ytterligare butiköppningar"
+        ],
+        "risks": [
+          "Amazon-konkurrens",
+          "Butiksdöd",
+          "Minskad konsumenttrohet"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Bull Diagnostics",
+      "ticker": "BULL",
+      "timestamp_start": "12:02",
+      "timestamp_end": "16:14",
+      "word_count": 400,
+      "speakers": [
+        "Christoffer Arne Marko",
+        "Dag Rolander"
+      ],
+      "primary_speaker": "Christoffer Arne Marko",
+      "discussion_summary": "Bull Diagnostics är ett blodcellsräkningsbolag som drabbades hårt av pandemin 2020 med nedskrivningar och tappat år. Men affärsmodellen är stark med återkommande intäkter och global närvaro. Första halvåret 2021 är fortfarande pandemi-påverkat men andra halvåret förväntas normaliseras. Bolaget är väldigt billigt med P/E ca 18x för 2022 och EV/Revenue ca 2x. Starkt ägarskap med stabila aktörer.",
+      "quotes": [
+        {
+          "speaker": "Christoffer Arne Marko",
+          "text": "2021 är nu bolaget går in i en lite mer spännande fas. Tittar man andra halvåret framförallt, så tror jag att volymerna kommer att komma tillbaka.",
+          "timestamp": "12:12",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Dag Rolander",
+          "text": "Om vi tittar på 2022 som blir mer av ett normalår... p-talet runt 18 beroende på hur man räknar.",
+          "timestamp": "13:29",
+          "context": "metric"
+        },
+        {
+          "speaker": "Christoffer Arne Marko",
+          "text": "Jämför man med många andra medicinteknikbolag med en väldigt stabil affär, så ligger de väsentligt högre också. Vi har Svolder, Grenspecialisten, Tomas Eklund i ägarlistan.",
+          "timestamp": "14:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Dag Rolander",
+          "text": "Affärsmodellen är väldigt stark, man har i grunden en lönsam affär. Och man har ju återkommande intäkter också.",
+          "timestamp": "15:02",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "~18x (2022)",
+        "ev_ebitda": null,
+        "ev_sales": "~2x",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Principiellt skuldfritt",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Normalisering efter pandemi 2022",
+          "Stark affärsmodell med återkommande intäkter",
+          "Global närvaro som litet bolag",
+          "Väldigt billig värdering: P/E ca 18x, EV/Revenue ca 2x",
+          "Starkt ägarskap med långsiktiga ägare (Svolder, Grenspecialisten, Tomas Eklund)",
+          "Skuldfritt"
+        ],
+        "bear_case": [
+          "Pandemi-effekt kan fortsätta",
+          "Hög konjunkturkänslighet för medicinteknik",
+          "Specifikt beroende av sjukhustraffik"
+        ],
+        "catalysts": [
+          "Normalisering av sjukhustraffik under H2 2021",
+          "Potential för vårdskuld-uppgraderingar"
+        ],
+        "risks": [
+          "Prolongerad pandemi-effekt",
+          "Kostnader för nedskrivningar fortsätter"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Att man inte köper grisen i säcken så måste man skicka tillbaka det. Det är inte riktigt hela returproblematiken och inte heller miljövänlig om vi ska skicka fram och tillbaka saker hela tiden. Framtiden ligger kanske någonstans mitt emellan när det är omni-kanal.",
+      "summary": "Fysiska butiker har ett värde genom möjligheten att se och känna på produkter, vilket minskar returer och är mer miljövänligt än ren e-handel.",
+      "category": "philosophy",
+      "speaker": "Christoffer Arne Marko",
+      "speaker_role": "host",
+      "timestamp": "09:34",
+      "confidence": "high",
+      "tags": [
+        "omni-channel",
+        "retail",
+        "sustainability"
+      ]
+    },
+    {
+      "quote": "Är det yta risk? Vi kan se lugnt framåt, tolv månader, absolut ingenting kommer att hända på den fronten. Och sen om två år, ja, kanske lite grann, vem vet.",
+      "summary": "Kortfristigt låg risk för räntehöjningar från centralbankerna, men på längre sikt kan det hända.",
+      "category": "wisdom",
+      "speaker": "Dag Rolander",
+      "speaker_role": "host",
+      "timestamp": "18:46",
+      "confidence": "medium",
+      "tags": [
+        "räntor",
+        "centralbanker",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Vidare förväntar jag mig en catch-up-effekt när marknaden normaliseras och det finns potential för uppvärdering. Som investerare ska man ju vara framåtblickande såklart.",
+      "summary": "Investeringar bör göras med framtidsblick och förväntan på catch-up-effekter efter kriser.",
+      "category": "philosophy",
+      "speaker": "Dag Rolander",
+      "speaker_role": "host",
+      "timestamp": "15:46",
+      "confidence": "high",
+      "tags": [
+        "investering",
+        "framtid",
+        "catch-up"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "I detta avsnitt diskuterar Christoffer och Dag flera aktier och marknadstrender. Clas Ohlson presenteras som ett köp med stark fundamenta och låg risk, medan Bull Diagnostics ses som en möjlighet för tåliga investerare som väntar på normalisering efter pandemin. Man diskuterar även halvledarbristens påverkan på Volvo, höga värderingar på verkstadsbolag, och makroekonomiska faktorer som räntor och inflation. Rovacs intervju sponsrar avsnittet.",
+  "key_takeaways": [
+    "Clas Ohlson är ett köp med direktavkastning över 6% och EV/EBIT ca 10x",
+    "Bull Diagnostics är billig med P/E ca 18x för 2022 och starkt ägarskap",
+    "Halvledarbrist är övergående men påverkar Volvo kortsiktigt",
+    "Verkstadsbolag är högt värderade men konjunkturen ser positiv ut",
+    "Kortfristigt låg risk för räntehöjningar",
+    "Omnichannel-modellen är framtiden för detaljhandel"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2021-03-29-5ac3.txt",
+  "transcript_word_count": 4844,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

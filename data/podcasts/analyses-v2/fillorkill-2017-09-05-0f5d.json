@@ -1,0 +1,339 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2017-09-05-0f5d",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 126 - Det är traders fel!",
+  "episode_number": 126,
+  "date": "2017-09-05",
+  "hosts": [
+    "Lone Wolf",
+    "Andersson"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Nets budrykten och krasch",
+    "Mykronic rekordorder vs blankare",
+    "Nordea potentiell flytt",
+    "Marknadsmanipulation och traders"
+  ],
+  "stocks_discussed": [
+    "Nets",
+    "Mykronic",
+    "Nordea",
+    "Fingerprint",
+    "Starbreeze",
+    "Ericsson",
+    "Swedbank"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Nets",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Andersson",
+      "speaker_role": "host",
+      "timestamp": "06:24",
+      "reasoning": "Uppköpsrykten antas bli prisade in för högt med en PE-bolag som enda budgivare. Potentiellt bud på 160 DKK, ca 10% över nivån vid diskussionstillfället. Bedöms inte värt risk/balans för långsiktiga innehav. Blankare/short-sidan var kort under dagen men inte på natten. Inget alfa-potential från nuvarande nivåer.",
+      "price_target": null,
+      "time_horizon": "Kortsikt kring budprocessen",
+      "quote": "Om man ska vara lång på den här aktien så ser jag inte riktigt var du ska få din alfa ifrån. Varför ska den gå upp 20% härifrån?",
+      "sector": "Betalningstjänster",
+      "market": "denmark",
+      "position_context": null,
+      "downside_note": "Signifikant nedgång om budet inte realiseras",
+      "catalyst_timing": "Budbesked inom kort"
+    },
+    {
+      "stock_name": "Mykronic",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Lone Wolf",
+      "speaker_role": "host",
+      "timestamp": "10:54",
+      "reasoning": "Stor order (90-100 miljoner dollar) bekräftar att årsprognos kan nås. Blankarens tes om kommande marginaler och orderbok missas potentiellt. Aktien är den mest blankade på Stockholmsbörsen efter Fingerprint. Låg likviditet kan skapa kort squeeze om blankare täcker.",
+      "price_target": null,
+      "time_horizon": "Kortsikt",
+      "quote": "Den här orden var ju en ersättningsorder för precis exakt det här, så framförallt visar det att ledningens prognos för hela året kommer att uppnås.",
+      "sector": "Industriell utrustning",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "20-30 SEK enligt blankarens tes",
+      "catalyst_timing": "Bekräftelse av order/rapport"
+    },
+    {
+      "stock_name": "Nordea",
+      "ticker": "NDA-SE",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Okänd deltagare",
+      "speaker_role": "host",
+      "timestamp": "20:46",
+      "reasoning": "Flytt av huvudkontor potentiell men marknaden bedöms ha inprisat mycket av detta. 5% uppdrag nämns men osäkerhet runt beslutsprocess. Svenska kapitaltäckningskrav är höga men banker kan kringgå dem.",
+      "price_target": null,
+      "time_horizon": "Kortsikt kring styrelsemöte",
+      "quote": "Jag tycker också att det känns som att det är rätt inprisat.",
+      "sector": "Bank",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Styrelsemöte 2017-09-06"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Nets",
+      "ticker": null,
+      "timestamp_start": "02:56",
+      "timestamp_end": "06:36",
+      "word_count": 650,
+      "speakers": [
+        "Lone Wolf",
+        "Andersson",
+        "Okänd deltagare"
+      ],
+      "primary_speaker": "Andersson",
+      "discussion_summary": "Nets, ett danskt betalningsföretag noterat runt 150 DKK, handlades ner 67% intradag på uppköpsrykten. Financial Times rapporterade bud på minst 30,5 miljarder DKK. Spekulationen kring PE- eller industriella budgivare skapade volatilitet. IR-bolagets hantering kritiseras för oprofessionalitet.",
+      "quotes": [
+        {
+          "speaker": "Lone Wolf",
+          "text": "Så jag köpte in en liten chunk-axe där. Sen så tryckte de på anonymen mer och mer och mer. Till slut var det ner 15 procent ner.",
+          "timestamp": "04:23",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Om man ska vara lång på den här aktien så ser jag inte riktigt var du ska få din alfa ifrån. Varför ska den gå upp 20% härifrån?",
+          "timestamp": "06:24",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Okänd deltagare",
+          "text": "Uppenbarligen så har de ju totalt fallerat. Så att nej, jag tycker det har varit dåligt.",
+          "timestamp": "08:05",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "PE-bolag som enda budgivare kan ge moderat premium",
+          "Bud rykten skapar intresse"
+        ],
+        "bear_case": [
+          "Uppköpspremie överdriven",
+          "Inget alfa från nuvarande nivåer",
+          "IR hanterar situationen oprofessionellt"
+        ],
+        "catalysts": [
+          "Budbesked",
+          "Potentiell industriell budgivare"
+        ],
+        "risks": [
+          "Budet kan skiter sig",
+          "Exklusivitet med PE-bolag kan ge låg premie"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Mykronic",
+      "ticker": null,
+      "timestamp_start": "09:27",
+      "timestamp_end": "13:12",
+      "word_count": 780,
+      "speakers": [
+        "Lone Wolf",
+        "Andersson"
+      ],
+      "primary_speaker": "Lone Wolf",
+      "discussion_summary": "Mykronic, mest blankade bolag efter Fingerprint, fick rekordorder på 90-100 miljoner dollar. Blankarens tes är att nästa generations maskritare inte byts ut snabbt nog. Ordern bekräftar att årsprognos kan nås, vilket kan leda till kort squeeze.",
+      "quotes": [
+        {
+          "speaker": "Lone Wolf",
+          "text": "Den här orden var ju en ersättningsorder för precis exakt det här, så framförallt visar det att ledningens prognos för hela året kommer att uppnås.",
+          "timestamp": "10:54",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Okänd deltagare",
+          "text": "För så mycket likviditet finns inte i den aktien, så det kommer att ta några dagar för dem att täcka om de ska täcka.",
+          "timestamp": "12:35",
+          "context": "catalysts"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Rekordorder 90-100 miljoner USD"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Ordern bekräftar prognos för helåret",
+          "Låg likviditet kan skapa kort squeeze",
+          "Blankarens tes kan vara fel"
+        ],
+        "bear_case": [
+          "Produkt har lång livstid, begränsar återkommande intäkter",
+          "Premiumprodukt, kunder kan välja billigare alternativ"
+        ],
+        "catalysts": [
+          "Bekräftelse av order/rapport",
+          "Blankare täcker positioner"
+        ],
+        "risks": [
+          "Marginaler kan kollapsa nästa år",
+          "Produktcyklusteorin kan stämma"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Nordea",
+      "ticker": "NDA-SE",
+      "timestamp_start": "19:06",
+      "timestamp_end": "24:18",
+      "word_count": 920,
+      "speakers": [
+        "Lone Wolf",
+        "Andersson",
+        "Okänd deltagare"
+      ],
+      "primary_speaker": "Okänd deltagare",
+      "discussion_summary": "Nordea överväger att flytta huvudkontoret från Sverige till Danmark eller Finland på grund av svenska resolutionfonder. Styrelsemöte nästa dag ska ta beslut. Marknaden har delvis inprisat detta. Sverige kan fortfarande behöva rädda banken vid kris.",
+      "quotes": [
+        {
+          "speaker": "Okänd deltagare",
+          "text": "Jag tycker också att det känns som att det är rätt inprisat.",
+          "timestamp": "20:46",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Okänd deltagare",
+          "text": "Sverige kommer få vara med och betala om det skulle bli problem för Nordea likviditetmässigt. Det är jag helt övertygad om.",
+          "timestamp": "22:35",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kapitaltäckningskrav höga i Sverige"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Flytt ger högre kurs (5% uppdrag)",
+          "Slipper svenska resolutionfonder"
+        ],
+        "bear_case": [
+          "Marknaden redan inprisat flytt",
+          "Sverige kan fortfarande behöva rädda vid kris",
+          "Nordea kan vara den starkaste banken"
+        ],
+        "catalysts": [
+          "Styrelsemöte 2017-09-06",
+          "Flyktbesked"
+        ],
+        "risks": [
+          "Negativ opinion från svenska regeringen",
+          "Andra banker drabbas hårdare"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Om man ska vara kort på rykten så måste man vara medveten om att det ligger någon form av luftpremie.",
+      "summary": "Kortsiktig handel på rykten innebär risk att kursen faller om ryktet inte besannas.",
+      "category": "wisdom",
+      "speaker": "Okänd deltagare",
+      "speaker_role": "host",
+      "timestamp": "05:31",
+      "confidence": "medium",
+      "tags": [
+        "riskhantering",
+        "rykteshandel"
+      ]
+    },
+    {
+      "quote": "Om alla bara har byggt aktier med varandra, då ofta så går det ju inte ner 20 procent.",
+      "summary": "Marknadsrörelser kräver verklig köp-/säljaktivitet, inte bara intern handel.",
+      "category": "wisdom",
+      "speaker": "Lone Wolf",
+      "speaker_role": "host",
+      "timestamp": "24:49",
+      "confidence": "medium",
+      "tags": [
+        "marknadsmekanismer",
+        "likviditet"
+      ]
+    },
+    {
+      "quote": "Det är som med optionsmarknaden - 9 av 10 trades förfaller värdelösa men den 10:e kosta alla 9.",
+      "summary": "Utfärdande av optioner är extremt riskfyllt, vinsterna i regelbunden handel kan utraderas av en enda förlust.",
+      "category": "wisdom",
+      "speaker": "Okänd deltagare",
+      "speaker_role": "host",
+      "timestamp": "18:10",
+      "confidence": "high",
+      "tags": [
+        "options",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Om man ska hålla på med sånt [utfärda optioner] så måste utgångspunkten vara att du ställer antingen på nivåer där du själv vill bli lång.",
+      "summary": "Utfärdade säljoptioner bör riktas mot nivåer där du själv vill äga aktien.",
+      "category": "philosophy",
+      "speaker": "Okänd deltagare",
+      "speaker_role": "host",
+      "timestamp": "13:51",
+      "confidence": "high",
+      "tags": [
+        "options",
+        "investeringsstrategi"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar Nets krasch på uppköpsrykten, Mykronics rekordorder som utmanar blankarens tes, Nordeas potentiella flytt från Sverige, och marknadsmanipulation/roll av traders. Ingen tydlig köp- eller sälj-signal, mest bevaka-läge för nämnda bolag.",
+  "key_takeaways": [
+    "Nets uppköpspremie kan vara övervärderad med enda budgivare (PE-bolag)",
+    "Mykronic kan få kort squeeze om blankare täcker positioner",
+    "Nordea-flytt kan vara inprisad men marknadsvolatilitet kring beslut",
+    "Traders skapar likviditet och begränsar volatilitet på sikt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2017-09-05-0f5d.txt",
+  "transcript_word_count": 6706,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

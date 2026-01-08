@@ -1,0 +1,147 @@
+{
+  "source_id": "9vIB6-6FdS0",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-07-24",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "BTC breaking down from 4-week range at 30k resistance, bearish as long as below 30k",
+      "quote": "as long as the market is below the point of breakdown which is 29 30k it's worth treating this as a bearish breakdown because that's essentially what it is",
+      "price_levels": [
+        "$30,000",
+        "$29,000",
+        "$28,000",
+        "$24,000",
+        "$20,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH capped at 1900 resistance, looking for first support at 1800",
+      "quote": "the weekly only becomes bullish above 1900 has been helpful because that's been the resistance that's been capping the market for some time",
+      "price_levels": [
+        "$1,900",
+        "$1,800",
+        "$1,700",
+        "$1,400"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "altcoins",
+      "asset_name": "Altcoins",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Altcoins getting murdered as BTC breaks down from range",
+      "quote": "and how the market settles and altcoins getting murdered right now",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "USD",
+      "asset_name": "US Dollar",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Dollar strength creating headwind for crypto after failed breakdown through 100 level",
+      "quote": "dollar is on a bit of a tear uh after this what looks like a failed breakdown through the hundred level you know if this keeps pushing that's just more headwind",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SP",
+      "asset_name": "S&P 500",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "SP having big green day while crypto breaks down, correlation not helping bulls",
+      "quote": "quite unfortunate that we're breaking down on a day that the s p looks like this you know Big Green Day quite impulsive sort of move higher",
+      "price_levels": [
+        "$4,500",
+        "$4,600"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$30,000",
+        "$29,000",
+        "$28,000",
+        "$24,000",
+        "$20,000"
+      ],
+      "ETH": [
+        "$1,900",
+        "$1,800",
+        "$1,700",
+        "$1,400"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC has broken down from 4-week consolidation at 30k resistance after failing to close above April's high",
+    "Market shifting from balanced environment to imbalanced one, indicating potential regime change",
+    "Bullish news during range resulted in bearish price action - suspicious and bearish signal",
+    "SP having impulsive green day while BTC breaks down shows correlation not working in crypto's favor",
+    "Dollar strength after failed breakdown through 100 creates additional headwinds",
+    "Catch-up trades between SP at 4500 and BTC at 30k have historically been bad trades"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$29,000-$29,300",
+      "target": "reclaim above $30,000",
+      "stop": "breakdown below $29k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$28,000",
+      "target": "$30,000+",
+      "stop": "below $28k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$24,000-$20,000",
+      "target": "higher",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1,800",
+      "target": "$1,900+",
+      "stop": "below $1,800",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC breaking down from 4-week range at 30k resistance, shifting from balanced to imbalanced market environment. Bearish as long as below 30k, either need reclaim above 30k for bullish setup or wait for deeper levels around 28k, 24k or 20k. Altcoins getting murdered, dollar strength and SP performance not providing macro support for crypto.",
+  "transcript_word_count": 12464,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:04:09.475329"
+}

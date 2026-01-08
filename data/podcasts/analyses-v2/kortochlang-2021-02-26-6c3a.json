@@ -1,0 +1,237 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2021-02-26-6c3a",
+  "podcast_name": "Analyspodden",
+  "episode_title": "Techjättarna blir värdebolag",
+  "episode_number": null,
+  "date": "2021-02-26",
+  "hosts": [
+    "Victor Munkhammar",
+    "Magnus Dahl"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Prinsessportfölj",
+    "Techbolag vs värdebolag",
+    "Ränteuppgång",
+    "Amerikanska stimulanser",
+    "Fastighetsbolag"
+  ],
+  "stocks_discussed": [
+    "Teletwo",
+    "AstraZeneca",
+    "Securitas",
+    "Huvudstaden",
+    "Castellum",
+    "Fabege",
+    "Kungsleden",
+    "Apple",
+    "Microsoft",
+    "Facebook",
+    "SSAB"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Teletwo",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Magnus Dahl",
+      "speaker_role": "host",
+      "timestamp": "02:38",
+      "reasoning": "Företaget beskrivs som väldigt billigt och portföljen ökade sin exponering. Verkar vara ett värdebolag med låg riskprofil. Passar portföljstrategin med fokus på värdebolag man förstår.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi viktade upp bland annat Teletwo som ser väldigt billigt ut.",
+      "sector": "telecom",
+      "market": "sweden",
+      "position_context": "Ökade positionen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "AstraZeneca",
+      "ticker": "AZN",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Magnus Dahl",
+      "speaker_role": "host",
+      "timestamp": "02:36",
+      "reasoning": "Lades till i prinsessportföljen. Passar strategin med stabila värdebolag och låg risk. Fokus på bolag man förstår och som inte förlorar pengar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi plockade in bland annat AstraZeneca",
+      "sector": "healthcare",
+      "market": "sweden",
+      "position_context": "Ny position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Securitas",
+      "ticker": "SECU-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Magnus Dahl",
+      "speaker_role": "host",
+      "timestamp": "02:36",
+      "reasoning": "Togs bort från prinsessportföljen som del av omviktning. Ingen specifik orsak anges men ingår i portföljstrategisk justering.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "tog ut Securitas",
+      "sector": "security_services",
+      "market": "sweden",
+      "position_context": "Såldes",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Huvudstaden",
+      "ticker": "HUFST-B",
+      "timestamp_start": "02:48",
+      "timestamp_end": "05:07",
+      "word_count": 350,
+      "speakers": [
+        "Victor Munkhammar",
+        "Magnus Dahl"
+      ],
+      "primary_speaker": "Magnus Dahl",
+      "discussion_summary": "Diskuterar varför Huvudstaden bröt sin långa trend av utdelningshöjningar trots låg belåningsgrad och stabila förvaltningsresultat. Jämför med andra fastighetsbolag som Fabege och Kungsleden som höjde utdelningarna trots större kontorsexponering.",
+      "quotes": [
+        {
+          "speaker": "Victor Munkhammar",
+          "text": "Du är ett annat sådär stabilt bolag som du i alla fall har varit skrivit om här i veckan i huvudstaden som ju bröt en väldigt lång trend av att hela tiden höja utdelningen lite grann.",
+          "timestamp": "02:48",
+          "context": "other"
+        },
+        {
+          "speaker": "Magnus Dahl",
+          "text": "Men de säger själva att de gör det på grund av investeringar, aktieåtersköp och en svagare resultatutveckling. Men med tanke på att de har en belåningsgrad på 19% och inständ i förvaltningen bara gick ner drygt 12% så hade det inte varit något problem att ha kvar utdelningen eller till och med höja den, i min bedömning.",
+          "timestamp": "03:08",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Magnus Dahl",
+          "text": "Men nu bröt man alltså den här sviten och man blir alltså ingen utdelningsaristokrat.",
+          "timestamp": "03:26",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Victor Munkhammar",
+          "text": "Just det, vi får vänta 25 år på huvudstaden. Men annars, jag tycker det är lite intressant med de huvudstaden man tänker på den inriktning de har på sitt bestånd. Det är de finaste kvarteren, kontor och lite snajdiga butiker.",
+          "timestamp": "03:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Dahl",
+          "text": "Bland annat Fabege som har mest kontor. Samma sak med Kungsleden till exempel, liknande där, att de höjer utdelningen.",
+          "timestamp": "04:30",
+          "context": "comparison"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "19%",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Finaste kvarteren med snajdiga kontor och butiker",
+          "Låg belåningsgrad på 19%",
+          "Stabilt förvaltningsresultat"
+        ],
+        "bear_case": [
+          "Bröt trend av utdelningshöjningar utan nödvändighet",
+          "Kontorsexponering kan vara riskabelt post-pandemi",
+          "Signalerar svagare resultatutveckling"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Pandemins effekt på kontorsmarknaden",
+          "Utebliven utdelningsökning kan skada investerarförtroende"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag tycker man kan säga. Det har mest varit fokus på värdebolag, bolag som man förstår sig på, vad de gör, låg risk generellt. Förlora aldrig pengar har varit en viktig drivkraft, tycker jag.",
+      "summary": "Investeringsfilosofi baserad på värdebolag man förstår, med fokus på kapitalbevarande och låg risk.",
+      "category": "philosophy",
+      "speaker": "Magnus Dahl",
+      "speaker_role": "host",
+      "timestamp": "02:22",
+      "confidence": "high",
+      "tags": [
+        "värdeinvestering",
+        "riskhantering",
+        "kapitalbevarande"
+      ]
+    },
+    {
+      "quote": "Det var alltså den lägsta nivån på 50 år. Det skulle kunna tala för att det finns resurser i ekonomin som kan sugas in ifall bara efterfrågan blir tillräckligt stark.",
+      "summary": "Låg arbetslöshet utan inflation tyder på att ekonomin har outnyttjade resurser som kan aktiveras med ökad efterfrågan.",
+      "category": "wisdom",
+      "speaker": "Victor Munkhammar",
+      "speaker_role": "host",
+      "timestamp": "20:05",
+      "confidence": "high",
+      "tags": [
+        "arbetsmarknad",
+        "inflation",
+        "produktionskapacitet"
+      ]
+    },
+    {
+      "quote": "Den klassiska riskerna är att det bara uppstår massa inflation. Det är ju Milton Friedmans klassiska kommentar om att inflation alltid och överallt är en funktion av pendlingmängden.",
+      "summary": "Klassisk monetär teori om att ökad penningmängd historiskt leder till inflation.",
+      "category": "wisdom",
+      "speaker": "Victor Munkhammar",
+      "speaker_role": "host",
+      "timestamp": "25:20",
+      "confidence": "high",
+      "tags": [
+        "inflation",
+        "penningmängd",
+        "monetär teori"
+      ]
+    },
+    {
+      "quote": "Jag köper inte riktigt det där för jag tror att det kommer att ta alldeles för lång tid. Det kommer att ta minst 10-15 år innan det händer någonting om inflationen är så här låg på 1,5% eller 2%.",
+      "summary": "Skeptisk till finanspolitiska lösningar baserade på låg inflation eftersom det tar för lång tid att göra skillnad.",
+      "category": "wisdom",
+      "speaker": "Magnus Dahl",
+      "speaker_role": "host",
+      "timestamp": "31:38",
+      "confidence": "high",
+      "tags": [
+        "inflation",
+        "statsskuld",
+        "politik"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar en turbulent vecka på börsen med ränteuppgång som drivande faktor. Prinsessportföljen justerades med Teletwo och AstraZeneca som nya innehav. Fastighetssektorn analyseras med fokus på Huvudstadens oväntade utdelningssänkning. Stora techbolag börjar likna värdebolag enligt gästerna. Det enorma amerikanska stimulanspaketet på 1900 miljarder dollar analyseras som ett stort ekonomiskt experiment som kan testa gränserna för hur stor stimulans ekonomin kan hantera utan inflation.",
+  "key_takeaways": [
+    "Teletwo bedöms som mycket billigt och ökades i prinsessportföljen",
+    "Huvudstaden bröt sin långa utdelningstrend utan ekonomiskt behov",
+    "Räntorna stiger kraftigt vilket skapar nervositet på marknaderna",
+    "Techjättarna börjar likna värdebolag mer än tillväxtbolag",
+    "USA:s stimulanspaket kan vara ett historiskt stort ekonomiskt experiment"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2021-02-26-6c3a.txt",
+  "transcript_word_count": 5974,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

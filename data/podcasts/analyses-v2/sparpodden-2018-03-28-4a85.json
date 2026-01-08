@@ -1,0 +1,315 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2018-03-28-4a85",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Sparpodden 229 - In med det nya",
+  "episode_number": 229,
+  "date": "2018-03-28",
+  "hosts": [
+    "Eva Troin",
+    "Alex",
+    "Jocke"
+  ],
+  "guests": [],
+  "main_topics": [
+    "H&M kvartalsrapport",
+    "Spotify notering",
+    "Alternativa investeringar",
+    "Enkla bolån",
+    "Peer-to-peer lending"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "Spotify"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "11:22",
+      "reasoning": "H&M handlas nu till P/E 13 jämfört med historiskt 25-30, vilket ger potentiell uppsida. Aktien har tagit en ordentlig nedgång och bagaget är borta. Men problemen med lagerhållning kvarstår, det är viktigt att vänta på tydlig positivitet innan man köper.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag kan också köpa när det är så här låga multiplar jämfört med vad det varit historiskt. Men det är så enkelt att vara avvakt och vänta tills vi har en pågående positivitet.",
+      "sector": "Retail",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Resultat ner nästan 60%, lager växer snabbare än försäljningen",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Spotify",
+      "ticker": "SPOT",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "19:06",
+      "reasoning": "Spotify noteras på NYSE 3 april med intäkter på 50 miljarder och förlust på 3 miljarder. Intressant bolag med produkten man gillar och använder dagligen. Väntar dock på att se var aktien tar vägen innan första köp. Direktlistning utan IPO-process.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det finns väl lite utrymme för Spotify kanske. Jag har inte bestämt mig. Jag tror inte att jag kommer att gå in första dagen sådär, utan jag vill nog se var det tar vägen.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Notering 2018-04-03"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "05:54",
+      "timestamp_end": "11:59",
+      "word_count": 650,
+      "speakers": [
+        "Eva Troin",
+        "Alex",
+        "Jocke"
+      ],
+      "primary_speaker": "Eva Troin",
+      "discussion_summary": "H&M släppte svag rapport med resultat ner nästan 60%. Lagerhållningen växer snabbare än försäljningen vilket kräver rea och drar marginalerna. Aktien handlas nu till P/E 13 ner från historiskt 25-30. H&M behåller sina mål för 2018 trots det svaga kvartalet. Marknaden är skeptisk och aktien faller. Det finns potentiell uppsida eftersom bagaget är prisat in, men det gäller att vänta på tydlig positivitet.",
+      "quotes": [
+        {
+          "speaker": "Eva Troin",
+          "text": "Resultatmässigt så är ju resultatet ner nästan 60% tror jag. Jämfört med samma period förra året. Så det blir någonstans 1,2 miljarder kanske.",
+          "timestamp": "07:24",
+          "context": "metric"
+        },
+        {
+          "speaker": "Eva Troin",
+          "text": "H&M's lager ska ju växa. Det glömmer man bort ibland. Det här är ju inte lager av osålda varor som har returerats från butik. Det här är ju liksom lagret som det ska tas av att säljas av.",
+          "timestamp": "06:38",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Eva Troin",
+          "text": "Men problemet är att det redan är här ganska stort och att det växer lite för fort. Fortare än vad H&M växer.",
+          "timestamp": "06:54",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Det handlas fortfarande till P-tal 13, jag tycker det känns ansträngt. Nyss tyckte vi att P-tal 25 var ingenting.",
+          "timestamp": "09:01",
+          "context": "metric"
+        },
+        {
+          "speaker": "Eva Troin",
+          "text": "H&M-aktien skulle inte handlas kring P12-30. Den tiden var förbi. Nu har vi tagit den smällen, den är ju borta nu. Nu börjar vi om från början någonstans på en nivå som är mer rimlig.",
+          "timestamp": "10:14",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Jag kan också köpa när det är så här låga multiplar jämfört med vad det varit historiskt. Men det är så enkelt att vara avvakt och vänta tills vi har en pågående positivitet.",
+          "timestamp": "11:22",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "13",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Ska öka lite i år",
+        "margin": "Ner nästan 60%",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Lagernivåer kan normaliseras",
+          "Valuation är rimlig med P/E 13 vs historiskt 25-30",
+          "Bagaget med förväntningar är borta"
+        ],
+        "bear_case": [
+          "Lager växer snabbare än försäljning",
+          "Rea drar marginaler",
+          "Hög risk att missa 2018-målen"
+        ],
+        "catalysts": [
+          "Kommande kvartalsrapporter",
+          "E-handelstillväxt"
+        ],
+        "risks": [
+          "Fortsatt lagerproblem",
+          "Sänkt utdelning om resultaten inte vänder"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Spotify",
+      "ticker": "SPOT",
+      "timestamp_start": "12:08",
+      "timestamp_end": "20:37",
+      "word_count": 720,
+      "speakers": [
+        "Eva Troin",
+        "Alex",
+        "Jocke"
+      ],
+      "primary_speaker": "Jocke",
+      "discussion_summary": "Spotify noteras på NYSE 3 april via direktlistning utan traditionell IPO. Forecast för 2018: intäkter 50 miljarder, växt 30%, förlust 3 miljarder. VD Daniel Ek och grundarna visar inte entusiasm för börsnotering och är kvar som ägare. Kulturell utmaning att gå från hemligt till publikt bolag. Nordnet kör kortagefri handel första veckan. Jocke överväger men väntar se kursutveckling, Eva kommer sannolikt köpa liten position.",
+      "quotes": [
+        {
+          "speaker": "Jocke",
+          "text": "De ska ändå växa 30 procent, det är ganska kraftigt. Förlust kanske 3 miljarder, någonstans låter det mycket. Men de har ändå intäkter på 50 miljarder.",
+          "timestamp": "12:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Eva Troin",
+          "text": "Att de ska göra vinst verkar de totalt ointresserade av. Det är lite som läcker från dem.",
+          "timestamp": "13:17",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Eva Troin",
+          "text": "Jag tror fortsatt på det här spåret. Det är det som känns som hetast att Lörensson och Ek hade nåt sluppigt där. Och det är inget bra om man ska gå till börsen.",
+          "timestamp": "13:38",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Eva Troin",
+          "text": "Samtidigt är det kanske betryggande att de inte vill sälja förmodligen.",
+          "timestamp": "13:54",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Eva Troin",
+          "text": "Det kommer bli en förändring hur bolaget sköts i en publikmiljö. Den är solklar och det kommer finns några som vill sälja.",
+          "timestamp": "14:26",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Alex",
+          "text": "Jag har alltid velat läsa in en ljudbok. Om någon därute har det så här, jag skulle behöva en inläsare till en ljudbok.",
+          "timestamp": "21:18",
+          "context": "other"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Det finns väl lite utrymme för Spotify kanske. Jag har inte bestämt mig. Jag tror inte att jag kommer att gå in första dagen sådär, utan jag vill nog se var det tar vägen.",
+          "timestamp": "19:06",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Jag köper ju alla mina bolag med hjärta, inte bara med en hel del smärta, men inte alltid med hjärna. Spotify är ett sådant bolag som tilltalar mig.",
+          "timestamp": "19:47",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "30%",
+        "margin": "Förlust 3 miljarder",
+        "debt_level": null,
+        "custom": [
+          "Intäkter 50 miljarder"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Intäkter 50 miljarder och 30% tillväxt",
+          "Produkt man gillar och använder dagligen",
+          "Grundarna stannar kvar som ägare"
+        ],
+        "bear_case": [
+          "Förlust på 3 miljarder",
+          "VD inte intresserad av börsnotering",
+          "Kulturell utmaning från hemligt till publikt"
+        ],
+        "catalysts": [
+          "Notering 3 april 2018"
+        ],
+        "risks": [
+          "Höga förluster fortsätter",
+          "Investerarkommunikation ifrågasatt"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är så här att det lyfter ju bort säkerhetsmomenten. Så man måste förstå att risken blir oändligt mycket högre att låna ut pengar till en bank med insättningsgaranti än att låna ut den så här. Du ska ha väldigt bra betalt för att göra det.",
+      "summary": "Peer-to-peer lending tar bort säkerheten och skapar betydligt högre risk än traditionella banklån.",
+      "category": "wisdom",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "30:58",
+      "confidence": "high",
+      "tags": [
+        "risk",
+        "p2p",
+        "bank"
+      ]
+    },
+    {
+      "quote": "Det är liksom vad det här handlar om. Och det tycker jag, om jag ska vara ärlig, så tycker jag inte att man riktigt tydlig med det är. Många av de här är inte nog tydliga med vad det handlar om. Varför får jag bättre betalt? Vad är det som gör att jag får en högre ränta?",
+      "summary": "Fintech-bolag är ofta otydliga med att högre ränta speglar högre risk.",
+      "category": "wisdom",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "31:02",
+      "confidence": "high",
+      "tags": [
+        "transparency",
+        "risk",
+        "fintech"
+      ]
+    },
+    {
+      "quote": "Det är inte så att man tjänar pengar på att ta bort ett mellanled. Du tjänar pengar på att ingen behöver ta din risk.",
+      "summary": "Att ta bort mellanled i finansiella tjänster innebär oftast att kunden tar risken själv.",
+      "category": "philosophy",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "31:14",
+      "confidence": "high",
+      "tags": [
+        "risk",
+        "disintermediation"
+      ]
+    },
+    {
+      "quote": "Det är inte så lätt att hantera bolånen. Det är ett stort ansvar att låna ut pengar till människors hem. Det är liksom de två största åtaganden du kan göra. Och då kan man inte ta för lätt på det.",
+      "summary": "Bolån är ett av de största finansiella åtaganden och kräver stort ansvar.",
+      "category": "philosophy",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "36:58",
+      "confidence": "high",
+      "tags": [
+        "mortgages",
+        "responsibility"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar H&M:s svaga kvartalsrapport med lagerproblem och fallande marginaler. Aktien handlas nu till P/E 13 vilket ger potentiell uppsida men gäller att vänta på positivitet. Spotify noteras snart på NYSE med direktlistning, intressanta intäkter men stora förluster. Fintech-innovationer som Enkla och peer-to-peer lending diskuteras med fokus på risker och transparens.",
+  "key_takeaways": [
+    "H&M: potentiell uppsida men vänta på positivt momentum",
+    "Spotify noterar 3 april med direktlistning utan IPO",
+    "Peer-to-peer lending har hög risk, förstå varför räntan är högre",
+    "Enkla bolån på 0,95% har regulatoriska risker"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2018-03-28-4a85.txt",
+  "transcript_word_count": 7100,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

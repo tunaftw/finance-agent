@@ -1,0 +1,648 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "bullochbjorn-2025-09-11-431f",
+  "podcast_name": "Bullenbjörn",
+  "episode_title": "18. Djävulens Spreadsheet",
+  "episode_number": 18,
+  "date": "2025-09-11",
+  "hosts": [
+    "Björn",
+    "Victor"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Salaris Q2-rapport",
+    "Värderingsanalys",
+    "Stock valuation test"
+  ],
+  "stocks_discussed": [
+    "Salaris",
+    "Microsoft",
+    "Betsson",
+    "Paxman",
+    "Evolution",
+    "Norbit",
+    "Novo Nordisk",
+    "Opera",
+    "Lifco",
+    "Mastercard",
+    "HelloFresh",
+    "Peers",
+    "Nordnet",
+    "Nvidia",
+    "Spotify",
+    "Fortnox"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Salaris",
+      "ticker": "SALARIS",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "16:51",
+      "reasoning": "Bolaget handlas på historiskt låg EV/EBIT 12,7 mot snitt på 30+ historiskt. Stark Q2-rapport med 12% omsättningstillväxt (9% organiskt), EBIT-marginal 12,1% (upp från 8,8% förra året), starkt operativt kassaflöde ca 60 miljoner NOK och fritt kassaflöde ca 50 miljoner. 85% återkommande intäkter ger hög visibilitet. Bolaget väntas förbättra marginalen till 12% nästa år och har långsiktigt mål 13-15%. Refinansiering av obligationslån under hösten kan sänka räntan från 8-9% till 6-7% vilket lätar på finansiella kostnader. EV/EBIT väntas falla till 8,8 slutet nästa år.",
+      "price_target": null,
+      "time_horizon": "medellång till lång sikt",
+      "quote": "Det är om salaris. Snyggt. Det är om salaris. Snyggt. Och det finns mer att hämta. Och det finns mer att hämta. Det är om salaris. Det skulle väl kunna vara om 15-20 någonstans. De växer ändå och som det ser ut just nu så förbättrar de också marginalen och kommer att göra det kommande kvartal också.",
+      "sector": "IT Services/Software",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Refinansiering under hösten 2025"
+    },
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "29:37",
+      "reasoning": "Efter vinstvarning och nedgång på 5-6% i förhandeln ser köptillfälle. Bolaget sänkte vinstprognosen ytterligare och ska göra sig av med 10% av personalen. Aktien har återhämtat sig till +3-4% på förmiddagen efter den negativa reaktionen. Historiskt starkt kvalitetsbolag som nu handlas lägre på grund av tillfälliga problem.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag ökade faktiskt lite här i förrgår.",
+      "sector": "Healthcare/Pharma",
+      "market": "sweden",
+      "position_context": "Ökade positionen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "HelloFresh",
+      "ticker": "HFG",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "32:06",
+      "reasoning": "Bolaget handlas på 5x EV/EBIT mot långsiktig fair value på 10x, vilket indikerar 100% uppsida. Marginalen kan potentiellt fördubblas från nuvarande nivåer. Om marginalen dubblas till 2,5x och värderingen normaliseras till 10x finns potential för 4x uppsida.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "De handlas på fem och marginalen bör kunna fördubblas åtminstone. I såna fall ska det vara 2,5 och då ska den ju 4 dubblas. Så det är ju fortfarande ett jävligt spännande aktiecase.",
+      "sector": "Consumer Services",
+      "market": "germany",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nordnet",
+      "ticker": "NORD-SDB",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "33:02",
+      "reasoning": "Bolaget värderas på 21x vilket anses vara fair value. Tillväxt är begränsad men Tysklandsexpansion finns som katalysator. Banksektorn får inte högre multiplar än 20 enligt talaren. Begränsad uppsida kvar vid nuvarande värdering.",
+      "price_target": null,
+      "time_horizon": "kort till medellång sikt",
+      "quote": "Jag skulle aldrig köpa aktien på 21 så det är bra att jag får den. Vi har ju sagt det förut, att den är väldigt fair value här. Det finns inte så mycket uppsida kvar, givet att den inte växer så starkt.",
+      "sector": "Financial Services",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Tysklandsexpansion"
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "24:40",
+      "reasoning": "Bolaget bör värderas på en multipel mellan 20-25x kassaflöde på lång sikt. Placerades i kvartil 2 med värdering 24x. Stabilt, moget bolag med stark affärsmodell men inte längre hyper-tillväxt.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag vill nog lägga dem i tvåan om inte ettan. Du får den för det är 25 har jag satt på dem.",
+      "sector": "Technology/Software",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Evolution",
+      "ticker": "EVO",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "26:54",
+      "reasoning": "Business to business-modell med bra tillväxt och stark konkurrensposition. Värderas på 15x kassaflöde i kvartil 3. Starkare än Betsson pga B2B-focus. Cyklisk men med bra tillväxt.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Det är rätt. Yes. På 15, här satt de.",
+      "sector": "Technology/Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Norbit",
+      "ticker": "NORBIT",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "27:37",
+      "reasoning": "Business to business med god tillväxt kopplat till försvarstrender. Värderas på 21x vilket gränsar till kvartil 2. Cyklisk men med högre förväntningar än genomsnittliga industribolag.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag satte den faktiskt på 21. Men det här är ju inte väldigt svårt. Den skulle lika gärna kunna vara 15.",
+      "sector": "Industrial Technology",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Salaris",
+      "ticker": "SALARIS",
+      "timestamp_start": "01:21",
+      "timestamp_end": "17:15",
+      "word_count": 2800,
+      "speakers": [
+        "Björn",
+        "Victor"
+      ],
+      "primary_speaker": "Victor",
+      "discussion_summary": "Omfattande analys av Salaris Q2-rapport som visade stark operativ utveckling men komplex finansiell struktur. Omsättningstillväxt på 12% (9% organiskt), EBIT-marginal upp till 12,1% från 8,8%, och starkt kassaflöde på ca 60 miljoner NOK. Bolaget har dock paradoxalt låg nettoskuld på 217 miljoner NOK (0,8x EBITDA) men höga finansiella kostnader som utgör 40% av EBIT på rullande 12 månader. Detta beror på bruttoskuld på ca 500 miljoner NOK med hög ränta (Uribor +5,25% ≈ 8-9%) samt valutaförluster. Refinansiering under hösten kan sänka räntan till 6-7%. EV/EBIT på 12,7 är historiskt lågt mot snitt på 30+. 85% återkommande intäkter och stark visibilitet genom kontrakt till 2026. Värdering verkar attraktiv med förväntat EV/EBIT på 8,8 slutet nästa år.",
+      "quotes": [
+        {
+          "speaker": "Victor",
+          "text": "De fortsätter växa bra här, omsättningen kom in på 12%, dock endast 9% organiskt. Det är en viss inbromsning från tidigare kvartal, till exempel i Q1 så växte man 15%.",
+          "timestamp": "01:36",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Ebit kom in på 43,9 miljoner, det var 55% upp från föregående år, och marginalen är nu 12,1% i Q2 jämfört med 8,8% förra året.",
+          "timestamp": "02:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Operativa var dryga 60 miljoner, fritt kassaflöde var ungefär strax över ebit, runt 50 miljoner.",
+          "timestamp": "02:38",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "På rullande 12 utgör faktiskt finansiella kostnader 40% av ebit, så det äter ju helt klart upp mycket av vinsten här.",
+          "timestamp": "02:54",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "De har ett obligationslån som är på drygt 40 miljoner euro, och räntebärande skulder som uppgår till ungefär 500 miljoner norska.",
+          "timestamp": "05:44",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "De betalar just nu Uribor plus 5,25 procent. De har väl betalat ungefär 8-9 procent i ränta på det här lånet.",
+          "timestamp": "05:54",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Just nu så käkar kostnaderna för lånet ungefär 30 procent av ebit, vilket är väldigt mycket såklart.",
+          "timestamp": "06:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "EV-ebit efter den här starka rapporten är just nu 12,7 och snittet på både 3- och 5-års sikt har varit över 30.",
+          "timestamp": "10:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Om man kollar på sales-multiplen istället så har den varit i ett snitt på både 3- och 5-årssikt 1,4 och den är just nu 1,3.",
+          "timestamp": "11:03",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Men ja, du förstår den poängen att de har en skuld i euro, men när man omvandlar den från euro till nok så blir den större.",
+          "timestamp": "07:47",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Sammanfattningsvis operativt mycket starkt, något inbromsad tillväxt men samtidigt rekordmarginaler, stark kassaflöde och framåt ser det ut som att den bördan bör lätta något i och med att räntorna sjunker och man har förhoppningsvis möjlighet att refinansiera lånet här under hösten.",
+          "timestamp": "09:47",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Victor",
+          "text": "De väntar sig ju i sin tur öka ARR då med 75 miljoner NOK.",
+          "timestamp": "12:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Och det gör ju att bruttomarginalen ser något sämre ut just nu men eftersom att den licensavgiften verkar vara hyfsat fast som jag tolkade så bör bruttomarginalen kunna förbättras så länge man fortsätter växa den delen av verksamheten.",
+          "timestamp": "13:23",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn",
+          "text": "Det är om salaris. Det skulle väl kunna vara om 15-20 någonstans. De växer ändå och som det ser ut just nu så förbättrar de också marginalen och kommer att göra det kommande kvartal också.",
+          "timestamp": "16:51",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "1,3",
+        "ev_ebit": "12,7",
+        "fcf_yield": "~50M NOK per kvartal",
+        "dividend_yield": null,
+        "revenue_growth": "12%",
+        "organic_revenue_growth": "9%",
+        "margin": {
+          "ebit": "12,1% (Q2), 10% (2025E), 12% (2026E)",
+          "historical_ebit": "8,8% (Q2 förra året)"
+        },
+        "debt_level": {
+          "net_debt": "217M NOK (0,8x EBITDA)",
+          "gross_debt": "~500M NOK",
+          "interest_rate": "Uribor + 5,25% (8-9%)"
+        },
+        "custom": [
+          "Operativt kassaflöde: dryga 60M NOK",
+          "Fritt kassaflöde: ca 50M NOK",
+          "Finansiella kostnader: 40% av EBIT på rullande 12",
+          "Valutaförlust Q2: 9,5M NOK",
+          "Operativ leasing: 32M NOK",
+          "Återkommande intäkter: 85%",
+          "ARR ökning förväntad: 75M NOK",
+          "Nytt kontrakt: 30M NOK",
+          "Visibilitet: till 2026"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Historiskt låg värdering med EV/EBIT på 12,7 mot snitt på 30+",
+          "Stark EBIT-marginal upp till 12,1% från 8,8% med ytterligare potential till 13-15%",
+          "85% återkommande intäkter ger hög förutsägbarhet",
+          "Starkt operativt kassaflöde på dryga 60M NOK",
+          "Refinansiering under hösten kan sänka räntan från 8-9% till 6-7%",
+          "Visibilitet genom kontrakt till 2026 med förväntad ARR-ökning på 75M NOK",
+          "Fått avvisade uppköpserbjudanden vilket indikerar att marknad värderar bolaget högre",
+          "Competitive advantage via SAP-integration för compliance"
+        ],
+        "bear_case": [
+          "Hög bruttoskuld på ~500M NOK med dyr ränta på 8-9%",
+          "Finansiella kostnader utgör 40% av EBIT",
+          "Valutarisk pga lån i euro men tillgångar i NOK",
+          "Organisk tillväxt inbromsade till 9% från 15%",
+          "Konsultdelen växer bara 2% och drar ner tillväxten",
+          "Låg bruttomarginal jämfört med renodlade SaaS-bolag",
+          "Operativ leasing på 32M NOK måste justeras för vid värdering",
+          "Hybrid-modell (konsult/SaaS) ger lägre multiplar än renodlat SaaS"
+        ],
+        "catalysts": [
+          "Refinansiering av obligationslån under hösten 2025",
+          "Marginalförbättringar fortsätter de kommande kvartalen",
+          "Kontraktsimplementering och ARR-tillväxt",
+          "EV/EBIT väntas falla till 8,8 slutet nästa år",
+          "Kostnadsbesparingar fortsätter att få effekt"
+        ],
+        "risks": [
+          "Räntor förblir höga och refinansiering misslyckas",
+          "Valutakursrisk mellan NOK och EUR",
+          "Organisk tillväxt fortsätter att bromsa in",
+          "Marknad värderar bolaget som konsultföretag inte SaaS-hybrid",
+          "Konkurrens intensifieras",
+          "Recession påverkar kunders B2D-budgetar"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "timestamp_start": "28:20",
+      "timestamp_end": "29:48",
+      "word_count": 400,
+      "speakers": [
+        "Björn",
+        "Victor"
+      ],
+      "primary_speaker": "Björn",
+      "discussion_summary": "Novo Nordisk diskuterades efter ytterligare en vinstvarning där bolaget sänkte vinstprognosen och meddelade uppsägningar av 10% av personalen. Aktien var ner 5-6% i förhandeln men återhämtade sig till +3-4% på förmiddagen. Björn tog position i förrgår (vilket Victor gjorde inför en kräftskiva med FOMO). Placerades i kvartil 1 med värdering 25x i Björns matris.",
+      "quotes": [
+        {
+          "speaker": "Victor",
+          "text": "Men på tal om Novo läste du nyheterna på morgonen att de vinstvarnade ytterligare en gång här, sänkte vinstprognosen ytterligare och sa upp ungefär 10% av personalen.",
+          "timestamp": "29:13",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Jag såg att den var ner ungefär 5-6% i förhandeln, men nu är det ju upp 3-4% här på förmiddagen.",
+          "timestamp": "29:28",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn",
+          "text": "Jag ökade faktiskt lite här i förrgår.",
+          "timestamp": "29:37",
+          "context": "position_disclosure"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Jag har också tagit position, det var ju bilen för kräftskivan som fick lite FOMO.",
+          "timestamp": "29:41",
+          "context": "position_disclosure"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Vinstvarning: ytterligare sänkning av vinstprognos",
+          "Uppsägningar: 10% av personalen",
+          "Aktierörelse: -5-6% i förhandeln, +3-4% på förmiddagen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kvalitetsbolag med historiskt stark position",
+          "Köptillfälle efter vinstvarning och nedgång",
+          "Marknad återhämtar sig snabbt efter negativa nyheter"
+        ],
+        "bear_case": [
+          "Upprepade vinstvarningar indikerar strukturella problem",
+          "Stora kostnadsbesparingsprogram kan drabba verksamheten negativt"
+        ],
+        "catalysts": [
+          "Effekt av kostnadsbesparingar",
+          "Marknad återhämtar sig efter vinstvarning"
+        ],
+        "risks": [
+          "Strukturella problem i verksamheten",
+          "Kompetensförlust pga uppsägningar",
+          "Marknad fortsätter att pressa aktien"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "HelloFresh",
+      "ticker": "HFG",
+      "timestamp_start": "32:01",
+      "timestamp_end": "32:37",
+      "word_count": 350,
+      "speakers": [
+        "Björn",
+        "Victor"
+      ],
+      "primary_speaker": "Björn",
+      "discussion_summary": "HelloFresh diskuterades i värderingskontext där Björn placerade den i kvartil 4 med en långsiktig värdering på 10x kassaflöde. Bolaget handlas på 5x idag vilket ger uppsida. Marginalen kan potentiellt fördubblas. Om marginalen dubblas till 2,5x och värderingen normaliseras till 10x finns potential för 4x uppsida.",
+      "quotes": [
+        {
+          "speaker": "Victor",
+          "text": "Den här då, HelloFresh.",
+          "timestamp": "32:01",
+          "context": "other"
+        },
+        {
+          "speaker": "Björn",
+          "text": "Det här är kvartal ett.",
+          "timestamp": "32:03",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Kvartal fyra medel du då?",
+          "timestamp": "32:04",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn",
+          "text": "Ja, kvartal fyra.",
+          "timestamp": "32:06",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Det stämmer faktiskt. Jag har satt att en långsiktig multipel borde vara tio på HelloFresh. Men det här betyder ju inte att bolaget är...",
+          "timestamp": "32:09",
+          "context": "metric"
+        },
+        {
+          "speaker": "Victor",
+          "text": "De handlas ju på fem. Så uppsidan borde ju då vara hundra procent ungefär.",
+          "timestamp": "32:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn",
+          "text": "De handlas på fem och marginalen bör kunna fördubblas åtminstone. I såna fall ska det vara 2,5 och då ska den ju 4 dubblas. Så det är ju fortfarande ett jävligt spännande aktiecase.",
+          "timestamp": "32:18",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Victor",
+          "text": "Men långsiktiga multipeln ska nog inte vara högre än 10.",
+          "timestamp": "32:37",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Nuvarande värdering: 5x",
+          "Långsiktig fair value: 10x",
+          "Upsida potential: 100%",
+          "Marginal potential: kan fördubblas till 2,5x",
+          "Total uppsida om marginal + värdering: 4x"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Handlas på 5x mot fair value på 10x (100% uppsida)",
+          "Marginal kan fördubblas",
+          "Kombination av marginalökning + värderingsnormalisering ger 4x potential"
+        ],
+        "bear_case": [
+          "Strukturella problem i verksamheten",
+          "Kompetition intensifieras",
+          "Marknad värderar bolaget lågt av anledning"
+        ],
+        "catalysts": [
+          "Marginalförbättringar",
+          "Värderingsnormalisering"
+        ],
+        "risks": [
+          "Marknad förblir skeptisk till bolaget",
+          "Marginalförbättringar uteblir"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Ett värde på ett bolag är som bekant ett bolags alla framtida kassaflöden diskonterade till nu värde. Det är i sin tur en funktion av risk, alltså diskonteringsränta och tillväxt i kassaflödet.",
+      "summary": "Värdering baseras på framtida kassaflöden, diskonterade med en riskjusterad ränta, där tillväxt är nyckelvariabeln.",
+      "category": "philosophy",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "18:10",
+      "confidence": "high",
+      "tags": [
+        "valuation",
+        "DCF",
+        "kassaflöde",
+        "diskontering",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Jag har gjort en matris som visar vilken rimlig multipel ett bolag kan ha genom att sätta risk på y-axeln och tillväxt på x-axeln. Då kan jag snabbt se vad som är en rimlig multipel på own earnings eller kassaflödet tillgängligt för ägarna.",
+      "summary": "Strukturerad matris med risk på y-axeln och tillväxt på x-axeln ger snabb överblick på rimliga värderingsmultiplar.",
+      "category": "philosophy",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "18:25",
+      "confidence": "high",
+      "tags": [
+        "valuation",
+        "matris",
+        "risk",
+        "tillväxt",
+        "multipel"
+      ]
+    },
+    {
+      "quote": "Då får man tänka att det här är en långsiktig stabil multipel med normaliserad tillväxt och en normaliserad marginal eller någon form av målmarginal.",
+      "summary": "Fokusera på normaliserade långsiktiga nivåer för tillväxt och marginaler, inte tillfälliga toppar eller dalar.",
+      "category": "philosophy",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "18:58",
+      "confidence": "high",
+      "tags": [
+        "normalisering",
+        "långsiktig",
+        "marginal",
+        "tillväxt"
+      ]
+    },
+    {
+      "quote": "Om vi kollar på värderingen ur ett historiskt perspektiv är att visst, EV-ebit-multiplen har varit över 30, men det kommer ju från att bolaget har haft väldigt låga marginaler så någonstans har väl marknaden handlat den här aktien på vad vinsten kan bli ifall man lyckas skala upp marginalen.",
+      "summary": "Historiska multiplar kan vara missvisande om marginalerna förändrats drastiskt - marknaden kan handla på framtida potential.",
+      "category": "wisdom",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "10:38",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "multipel",
+        "marginal",
+        "historisk",
+        "marknad"
+      ]
+    },
+    {
+      "quote": "Majoriteten av alla bolag ska ju handlas kring 15, så det blir någon bell curve.",
+      "summary": "De flesta bolag tenderar att handlas kring medelvärdet - det finns en naturlig fördelning av värderingar.",
+      "category": "wisdom",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "31:15",
+      "confidence": "medium",
+      "tags": [
+        "värdering",
+        "bell curve",
+        "normalfördelning"
+      ]
+    },
+    {
+      "quote": "Om man bara vill förstå hur affären går rent operativt så kan man kolla där uppe. Samtidigt så har de ju en stor bruttoskuld här och den tar mycket pengar innan sista raden. Man kanske vill ha koll på den delen också.",
+      "summary": "Operativt kassaflöde visar affärens verkliga prestation, men räntekostnader på hög skuld kan äta upp vinsten - titta på båda.",
+      "category": "wisdom",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "07:13",
+      "confidence": "high",
+      "tags": [
+        "kassaflöde",
+        "skuld",
+        "operativt",
+        "räntekostnad"
+      ]
+    },
+    {
+      "quote": "Optiskt så ser det kanske lite billigare ut än vad det egentligen är då. Men det är inte drastiskt. Så som vi har gjort i alla andra bolag som vi tittar på. Så det här är ju precis samma som i Peers och i HelloFresh.",
+      "summary": "Var konsekvent med värderingsmetoder över bolag - justera för leasing på samma sätt för alla.",
+      "category": "philosophy",
+      "speaker": "Björn",
+      "speaker_role": "host",
+      "timestamp": "15:41",
+      "confidence": "medium",
+      "tags": [
+        "konsistens",
+        "värdering",
+        "leasing",
+        "metod"
+      ]
+    },
+    {
+      "quote": "Jag tror att vi kommer att fortsätta se ganska bra marginaler framåt också.",
+      "summary": "När bolag når mål för marginaler tenderar de att upprätthålla dessa nivåer.",
+      "category": "wisdom",
+      "speaker": "Victor",
+      "speaker_role": "host",
+      "timestamp": "02:57",
+      "confidence": "medium",
+      "tags": [
+        "marginal",
+        "lönsamhet",
+        "mål"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet inleds med en djupgående analys av Salaris Q2-rapport som visade stark operativ utveckling men komplex finansiell struktur. Bolaget handlas på historiskt låg EV/EBIT på 12,7 mot snitt på 30+, med förbättrade marginaler upp till 12,1% men höga finansiella kostnader pga dyr skuld. Refinansiering under hösten kan sänka räntan. 85% återkommande intäkter och visibilitet till 2026. Andra segmentet är ett värderingstest där Björn delat 120 bolag i 4 kvartiler baserat på risk och tillväxt. Björn köpte position i Novo Nordisk efter vinstvarning och nedgång. HelloFresh beskrevs som ett spännande case som handlas på 5x mot fair value 10x med potential för 4x uppsida.",
+  "key_takeaways": [
+    "Salaris handlas på historiskt låg EV/EBIT 12,7 med stark operativ prestation, men hög finansiell kostnad pga skuld kan lätta med refinansiering",
+    "Novo Nordisk köps efter vinstvarning och nedgång - köpa i rädsla kan vara lönsamt",
+    "HelloFresh handlas på 5x mot fair value 10x med potential för 4x uppsida om marginaler fördubblas",
+    "Värderingsmatris med risk på y-axeln och tillväxt på x-axeln ger snabb överblick på rimliga multiplar",
+    "Fokusera på normaliserade nivåer för tillväxt och marginaler, inte tillfälliga toppar eller dalar",
+    "Titta både på operativt kassaflöde och räntekostnader - de kan skilja sig åt markant",
+    "Var konsekvent med värderingsmetoder (justera för leasing på samma sätt för alla bolag)"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/bullochbjorn/transcripts/bullochbjorn-2025-09-11-431f.txt",
+  "transcript_word_count": 5860,
+  "has_timestamps": true,
+  "model_used": "manual"
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marknaden-2020-08-17-344b",
+  "podcast_name": "Affärsvärlden-magasin",
+  "episode_title": "81: Alibaba, Tencent och en schweizisk alpstuga",
+  "episode_number": null,
+  "date": "2020-08-17",
+  "hosts": [
+    "Helene Rådstein"
+  ],
+  "guests": [
+    "Mikael Sens"
+  ],
+  "main_topics": [
+    "Kinesiska teknikbolag",
+    "Tencent",
+    "Alibaba",
+    "TSMC",
+    "Handelskriget USA-Kina"
+  ],
+  "stocks_discussed": [
+    "Tencent",
+    "Alibaba",
+    "TSMC",
+    "Microsoft",
+    "JD.com",
+    "Pinduoduo",
+    "Hongkongbörsen",
+    "Hans Laser"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Mikael Sens",
+      "speaker_role": "guest",
+      "timestamp": "24:56",
+      "reasoning": "Diskussion kring potentiellt köp av TikTok. Det är ett bra bolag på många sätt. Gick upp initialt på förväntningen att de skulle få köpa TikTok till undermarknadspris, men backade sedan när osäkerheten ökade. Deadline för affären är mitten av september. Svårt att veta utfallet.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Det kanske man kan göra på lång sikt i alla fall. Oavsett. Den gick ju först upp på det här för man tänkte wow. Då kommer de in och lägger beslag på en av världens mest attraktiva appar till undermarknadspris. Sen backade den igen när man insåg att det kanske inte blir... Det svänger ju fram och tillbaka hela tiden. Jag vet faktiskt inte vad som kommer att hända.",
+      "sector": "Teknologi",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Mitten av september (TikTok deadline)"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Tencent",
+      "ticker": "0700.HK",
+      "timestamp_start": "08:08",
+      "timestamp_end": "18:58",
+      "word_count": 850,
+      "speakers": [
+        "Helene Rådstein",
+        "Mikael Sens"
+      ],
+      "primary_speaker": "Mikael Sens",
+      "discussion_summary": "Tencent är ett av världens största teknologibolag med ett omfattande ekosystem av digitala tjänster inklusive spel (världsledande), WeChat-kommunikationsplattform, fintech, cloud och media. Q2-rapporten visade vinstökning på 27% och tillväxt på 29% med mobilspelen som växte 62%. Amerikanska förbud mot WeChat och TikTok diskuterades men bedömdes ha begränsad finansiell påverkan.",
+      "quotes": [
+        {
+          "speaker": "Mikael Sens",
+          "text": "De har ett otroligt stort och effektivt ekosystem in vad gäller digitala tjänster rent generellt. Men som exempel, du nämnde själv spelgeten, de är klart störst i världen på online games, mobilspel och även online games totalt sett.",
+          "timestamp": "08:32",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Sens",
+          "text": "De levererade en vinstökning, year over year på 27 %. Även topline-tillväxten var högre på 29 %. 2 % hette bättre. Men det var just mobilspelsdelen som gick bättre. De ökade intäkterna med 62 % jämfört med samma kvartal förra året.",
+          "timestamp": "10:34",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Sens",
+          "text": "WeChat som har 1,2 miljarder användare totalt sett i världen, men de flesta av dem här finns ju i Kina, har några miljoner användare i USA. Så det är en ganska liten marknad. Om man tittar på annonsintäkter som har med WeChat USA att göra så uppgör det till mindre än 1% av de totala intäkterna för Tencentgruppen.",
+          "timestamp": "16:29",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "29%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "1.2 miljarder WeChat-användare",
+          "<1% av intäkterna från USA"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Världsledande på onlinespel och mobilspel",
+          "WeChat-ekosystem med 1.2 miljarder användare",
+          "Ledande på mobila betalningar tillsammans med Alipay",
+          "Vinstökning på 27% och tillväxt på 29% i Q2",
+          "Amerikanska förbud har minimal finansiell påverkan (<1% intäkter)"
+        ],
+        "bear_case": [
+          "US-sanktioner mot WeChat och spel",
+          "Konflikt mellan USA och Kina pågår",
+          "Kompetition från andra kinesiska teknikbolag"
+        ],
+        "catalysts": [
+          "Continued growth in mobile gaming",
+          "Expansion of fintech and cloud services",
+          "Chinese companies listing on Hong Kong exchange"
+        ],
+        "risks": [
+          "US regulatory actions",
+          "Geopolitical tensions",
+          "Increased competition"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "TSMC",
+      "ticker": "2330.TW",
+      "timestamp_start": "44:20",
+      "timestamp_end": "49:13",
+      "word_count": 700,
+      "speakers": [
+        "Helene Rådstein",
+        "Mikael Sens"
+      ],
+      "primary_speaker": "Mikael Sens",
+      "discussion_summary": "TSMC är världsledande på tillverkning av halvledare och chipsets. Företaget har dragit ifrån konkurrenterna rent tekniskt och Intel har erkänt att de har svårt att hänga med i utvecklingen. Detta kan leda till att antingen Intel tappar marknadsandelar eller att de outsourcar produktionen till TSMC. Båda scenario är positivt för TSMC.",
+      "quotes": [
+        {
+          "speaker": "Mikael Sens",
+          "text": "TSMC är i största världen på tillverkningen av de här prylarna. Och det har varit under många år så har ju Qualcomm, som är kanske fortfarande världsledare inom att designa chipsets, lagt ut sin produktion av det här som de har designat till TSMC.",
+          "timestamp": "46:01",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Sens",
+          "text": "Och nu, det senaste året, har det blivit allt tydligare att de här fortsätter ta marknadsleda för de är överlägsen av sina konkurrenter. Rent tekniskt. Så de som är nummer två är väl Samsung tror jag. Men även de ligger en bra bit efter.",
+          "timestamp": "46:32",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mikael Sens",
+          "text": "För de var ju uten i samband med sin Q2-rapport och indikerade att de kommer, det blir en utmaning för dem att kunna producera de här framtidens avancerade produkterna själva.",
+          "timestamp": "47:36",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mikael Sens",
+          "text": "Alternativ två är att Intel kastar in handduken och säger till TCMC att ni får producera det här åt oss.",
+          "timestamp": "48:58",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "9.9% position i fonden"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Världsledande på halvledartillverkning",
+          "Teknologiskt överlägsen mot konkurrenter",
+          "Intel har svårt att hänga med vilket kan leda till outsourcing",
+          "Kunder kan ta marknadsandelar från Intel",
+          "Elektrifiering och IoT driver efterfrågan"
+        ],
+        "bear_case": [
+          "Geopolitiska spänningar Kina-USA",
+          "Taiwan-konflikten är en riskfaktor"
+        ],
+        "catalysts": [
+          "Intels outsourcing beslut",
+          "Ökad efterfrågan på avancerade chipsets",
+          "5G och IoT expansion"
+        ],
+        "risks": [
+          "Geopolitical conflict over Taiwan",
+          "US-China trade tensions",
+          "Competition from Samsung and Intel"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Alibaba",
+      "ticker": "BABA",
+      "timestamp_start": "33:42",
+      "timestamp_end": "43:41",
+      "word_count": 1200,
+      "speakers": [
+        "Helene Rådstein",
+        "Mikael Sens"
+      ],
+      "primary_speaker": "Mikael Sens",
+      "discussion_summary": "Alibaba är en kinesisk e-handelsjätte med en kapitallett affärsmodell som förmedlar köpare och säljare utan egna lager. Bolaget är också ledande på molntjänster och fintech via Alipay. Faced competition from JD.com (Amazon-like model with own logistics) and Pinduoduo (social commerce with group buying). The Singles Day shopping festival is a major event. Position maintained at 9.4% despite competition.",
+      "quotes": [
+        {
+          "speaker": "Mikael Sens",
+          "text": "Det är fortfarande stort. Vi har legat på 9,9 % under rätt lång tid men nu är det väl på 9,4 någonting så det är fortfarande mycket.",
+          "timestamp": "33:56",
+          "context": "position_disclosure"
+        },
+        {
+          "speaker": "Mikael Sens",
+          "text": "Alibabamodellen är, Alibabamodellen är ett som du säger, inte har så mycket grejer i eget lager, utan man förmedlar mest affärerna, mellan köpare och säljare. Men system har man, så det räcker till. Så det blir egentligen en lite kapitallettare affärsmodell.",
+          "timestamp": "34:22",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Sens",
+          "text": "Men Alibabam är också klart störst i Kina på molntjänster, och de är väldigt duktiga inom fintech kan man säga.",
+          "timestamp": "35:11",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mikael Sens",
+          "text": "De har satt mycket pengar på det [JD.coms lager och logistik]. Vilket faktiskt gjorde att de klarade sig bäst i början på coronakrisen i Kina. För att då skulle folk e-handla... Jingdong eller JD hade rätt välfyllda egna lager med grejer. De kunde under de första veckorna leverera ganska mycket, så då tog de klart marknadsandelar.",
+          "timestamp": "40:02",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "9.4% position i fonden",
+          "Alibaba äger 30% av Ant Financial/Alipay"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Ledande på e-handel i Kina med kapitallett modell",
+          "Störst på molntjänster i Kina",
+          "Dominant på fintech/betalningar via Alipay (ägande 30%)",
+          "Kapitallett affärsmodell jämfört med Amazon/JD.com",
+          "Singles Day festival driver försäljning"
+        ],
+        "bear_case": [
+          "Tuff konkurrens från JD.com med bättre logistik",
+          "Pinduoduo växer snabbt med sociala features och låga priser",
+          "Pinduoduo närmar sig lönsamhet"
+        ],
+        "catalysts": [
+          "Continued growth in cloud computing",
+          "Expansion of mobile payments",
+          " Singles Day shopping events"
+        ],
+        "risks": [
+          "Increased competition from JD.com and Pinduoduo",
+          "Regulatory risks in China",
+          "Trade tensions with US"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det finns faktiskt vissa förutsättningar att det kan ske [lugna ner sig] efter det amerikanska presidentvalet. Varför? Varför inte nu? Behövs det här för amerikanska presidentvalet? Det är populärt i USA att det inte gillar Kina just nu i alla fall. Trump kör stennor på den linjen för att få så många röster som möjligt.",
+      "summary": "Kina-kritiken är populär inför amerikanska presidentvalet men kan lugna ner sig efter valet.",
+      "category": "wisdom",
+      "speaker": "Mikael Sens",
+      "speaker_role": "guest",
+      "timestamp": "28:13",
+      "confidence": "high",
+      "tags": [
+        "geopolitics",
+        "China",
+        "elections",
+        "market timing"
+      ]
+    },
+    {
+      "quote": "Vi är allra orättmedvetna om den här risken, men självklart har vi inte prisat in ett worst case scenario. Det har vi inte gjort.",
+      "summary": "Investerare är medvetna om konflikt-risken men har inte prissatt worst case scenario.",
+      "category": "wisdom",
+      "speaker": "Mikael Sens",
+      "speaker_role": "guest",
+      "timestamp": "29:41",
+      "confidence": "medium",
+      "tags": [
+        "risk",
+        "geopolitics",
+        "pricing",
+        "market sentiment"
+      ]
+    },
+    {
+      "quote": "Min bedömning till att början med är att ByteDance är nog de stora teknologibolagen i Kina som faktiskt står längst ifrån regeringen i Kina. De har varit lite rebelliska i Kina och de har fått många anmärkningar på sig från kinesiska myndigheter, att de kanske har tagit sig lite väldigt stora friheter här och där.",
+      "summary": "ByteDance (TikTok) har varit rebelliska mot kinesiska myndigheter och står långt ifrån regimen.",
+      "category": "wisdom",
+      "speaker": "Mikael Sens",
+      "speaker_role": "guest",
+      "timestamp": "19:51",
+      "confidence": "medium",
+      "tags": [
+        "China",
+        "tech",
+        "regulation",
+        "ByteDance"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på kinesiska teknikjätten Tencent och dess Q2-rapport som visade stark tillväxt, samt Alibaba och den intensiva konkurrensen från uppstickare som JD.com och Pinduoduo. TSMC lyfts fram som fondens största innehav och världsledare inom halvledartillverkning, stärkt av Intels problem. Konflikten mellan USA och Kina, inklusive TikTok-förbudet, diskuteras men bedöms ha begränsad finansiell påverkan på de kinesiska teknikbolagen.",
+  "key_takeaways": [
+    "Tencent levererade 27% vinstökning och 29% tillväxt med mobilspelen som växte 62%",
+    "TSMC är fondens största innehav (9.9%) och världsledande på halvledartillverkning, positionen stärks av Intels teknologiska problem",
+    "Alibaba behålls som stort innehav (9.4%) trots konkurrens från JD.com och Pinduoduo",
+    "US-Kina konflikten påverkar prissättningen men worst case scenario är inte prissatt",
+    "Hongkongbörsen gynnas av att kinesiska bolag dubbelnoterar sig"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marknaden/transcripts/marknaden-2020-08-17-344b.txt",
+  "transcript_word_count": 7079,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

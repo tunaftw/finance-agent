@@ -1,0 +1,216 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2016-02-17-3b90",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Ep 119 - Räntesänkning och jakten på den riskfria räntan",
+  "episode_number": 119,
+  "date": "2016-02-17",
+  "hosts": [
+    "Jocke Bornold",
+    "Peter Benson"
+  ],
+  "guests": [],
+  "main_topics": [
+    "preferensaktier",
+    "räntesänkning",
+    "Meda-budet",
+    "Swedbank"
+  ],
+  "stocks_discussed": [
+    "Meda",
+    "Akelius Residential Preference",
+    "Ginger Oil",
+    "Ferro Nordic"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Meda",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "24:52",
+      "reasoning": "Arbitrage-spel på budet. Aktien handlas runt 142-144 SEK, budnivån är 158 SEK. Ger ca 10% avkastning på ett halvår, motsvarar ca 20% på årsbasis. Marknaden kommer täppa till gapet så fort det ser ut att gå igenom. Detta är en spekulation i att gapet ska krympa ihop från ca 10% till 1-2%, inte en långsiktig investering i Meda.",
+      "price_target": "158 SEK (budnivå)",
+      "time_horizon": "0.5 år (tills budet går igenom)",
+      "quote": "Men vi köpte faktiskt aktien nu, efter budet. Men då är det inte längre medaktien som man investerar i. Man investerar i sannolikheten att budet går igenom. Det här är en spekulation i att det här gapet ska krympa ihop och bli helt vanligt lågt, en eller två procent. Och nu är det typ tio då.",
+      "sector": "Pharma",
+      "market": "sweden",
+      "position_context": "Nyligen köpt",
+      "downside_note": "Budet kan falla",
+      "catalyst_timing": "Budet går igenom (inom 6 månader)"
+    },
+    {
+      "stock_name": "Akelius Residential Preference",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "06:35",
+      "reasoning": "Lågt förtroende för Roger Arkelius. Han trycker ut jättemycket nya aktier på höga nivåer. Intresserad av sig själv snarare än preferensaktieägarna. Skatteplanering maxad. Preferensaktien har inget slutdatum, löper för evigt. Det är inte en person jag skulle ta rygg på.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag har inte så stort förtroende för honom. Det är mycket super hit och dit och det är skatteplaneringen maxat och så. Det är inte en person jag skulle ta rygg på bara sådär.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Evig preferensaktie, ingen inlösenmekanism",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Meda",
+      "ticker": null,
+      "timestamp_start": "24:24",
+      "timestamp_end": "26:18",
+      "word_count": 250,
+      "speakers": [
+        "Jocke Bornold",
+        "Peter Benson"
+      ],
+      "primary_speaker": "Peter Benson",
+      "discussion_summary": "Diskussion om Meda-budet som kom strax innan inspelningen. Peter förklarar varför de köpte aktien efter budet som en ren arbitrage-spel, inte en investering i bolaget. Analys av budspread och risker med att budet kan falla.",
+      "quotes": [
+        {
+          "speaker": "Jocke Bornold",
+          "text": "Har du varit inne i den aktien? Nej, jag har alltid varit lite njugg. Men aldrig haft nån stark åsikt upp eller ner egentligen.",
+          "timestamp": "24:26",
+          "context": "other"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Men vi köpte faktiskt aktien nu, efter budet. Men då är det inte längre medaktien som man investerar i. Man investerar i sannolikheten att budet går igenom.",
+          "timestamp": "24:52",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Ja, en ganska stor rabatt. Runt 142-144 spänn, någonting sånt där handlas den i. Och budnivån är värd 158 ungefär. På ett halvår så blir det ungefär 10% på ett halvår, så det är ungefär 20% på årsbasis.",
+          "timestamp": "24:53",
+          "context": "metric"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Men det finns ju risk att det faller också, att budet faller. Och det är ju väldigt speciella personer som kör det här. Milan som la budet. Milan-ägarna hatade det.",
+          "timestamp": "25:33",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Peter Benson",
+          "text": "Det här är en spekulation i att det här gapet ska krympa ihop och bli helt vanligt lågt, en eller två procent. Och nu är det typ tio då.",
+          "timestamp": "26:00",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktiekurs: 142-144 SEK",
+          "Budnivå: 158 SEK",
+          "Spread: ~14 SEK (~10%)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Arbitrage-spread på ca 10%",
+          "20% årlig avkastning om budet går igenom",
+          "Marknaden kommer täppa till gapet så fort det ser ut att gå igenom"
+        ],
+        "bear_case": [
+          "Budet kan falla",
+          "Milan-ägarna hatade budet",
+          "Väldigt speciella personer bakom budet"
+        ],
+        "catalysts": [
+          "Budet godkänns"
+        ],
+        "risks": [
+          "Budet faller",
+          "Tidshorisont kan förlängas"
+        ]
+      },
+      "position_disclosure": "bought"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag är inget stort fan faktiskt. Jag har inga egna i min egen portfölj. Många av de här är så att säga eviga. Det finns inga normala scenarier där de kommer att lösas in. Det är eviga pengar och då är det evig risk och då ska man ha rätt mycket betalt.",
+      "summary": "Preferensaktier utan inlösenmekanismsär riskfyllda eftersom de är eviga investeringar",
+      "category": "philosophy",
+      "speaker": "Jocke Bornold",
+      "speaker_role": "host",
+      "timestamp": "01:40",
+      "confidence": "high",
+      "tags": [
+        "preferensaktier",
+        "riskhantering",
+        "evig investering"
+      ]
+    },
+    {
+      "quote": "Det är ett utmärkt tillfälle att bygga upp en buffert, räkna ut, räkna på 4% ränta och det är inte mellanskillnaden mot den räntan du faktiskt betalar nu i bolån. Lägg undan det, stoppa in det på, och bygg upp en buffert, en långsiktigt sparande eller utmärkta tider för det.",
+      "summary": "Utnyttja låg räntemiljö för att bygga upp buffert genom att räkna med högre ränta",
+      "category": "wisdom",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "22:48",
+      "confidence": "high",
+      "tags": [
+        "buffert",
+        "ränta",
+        "långsiktigt sparande"
+      ]
+    },
+    {
+      "quote": "Det känns löjligt att betala tillbaka ett bolån som inte kostar någonting. Då kan jag förstå folk som i stället känner att jag har okej med lån och i stället ska jag bygga upp ett sparande och satsa i aktier eller fonder eller någonting sånt där.",
+      "summary": "Negativ ränta gör amortering mindre attraktivt jämfört med att investera",
+      "category": "wisdom",
+      "speaker": "Jocke Bornold",
+      "speaker_role": "host",
+      "timestamp": "22:53",
+      "confidence": "high",
+      "tags": [
+        "bolån",
+        "amortering",
+        "negativ ränta"
+      ]
+    },
+    {
+      "quote": "Det är klart trevligt med utdelning. Men är det bra vets inte? Jag vet inte heller. Man får nog säga som ett ganska tydligt tecken på att det är låga investeringsnivåer i bolagen. Någonstans är det negativt för en framtida avkastning.",
+      "summary": "Hög utdelning kan vara tecken på att bolagen inte investerar tillräckligt",
+      "category": "philosophy",
+      "speaker": "Peter Benson",
+      "speaker_role": "host",
+      "timestamp": "14:59",
+      "confidence": "medium",
+      "tags": [
+        "utdelning",
+        "investering",
+        "tillväxt"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar preferensaktier och riskerna med eviga preferensaktier utan inlösenmekanismer. Jocke och Peter är skeptiska till preferensaktier generellt. De pratar om räntesänkning till negativ nivå och effekterna på privatpersoner och banker. Meda-budet diskuteras och Peter förklarar varför de köpte aktien som en arbitrage-spel. Swedbanks ledarskapsbyte och Mikael Wolfs insiderhandel diskuteras.",
+  "key_takeaways": [
+    "Preferensaktier utan inlösenmekanisms är riskfyllda",
+    "Utbygg buffert i låg räntemiljö",
+    "Meda kan ge arbitrage-vinst på budspread",
+    "Negativ ränta gör amortering mindre attraktivt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2016-02-17-3b90.txt",
+  "transcript_word_count": 5826,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

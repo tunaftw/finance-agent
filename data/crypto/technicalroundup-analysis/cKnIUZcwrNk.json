@@ -1,0 +1,118 @@
+{
+  "source_id": "cKnIUZcwrNk",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-07-18",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "BTC at resistance around 22-23k, still under 10-week moving average but showing signs of a bounce materializing",
+      "quote": "Btc is currently at the top of its range at around 22 to 23k... unfortunately for the time being but I think it's going to change during the course of this week",
+      "price_levels": [
+        "$22,000-$23,000",
+        "$28,000",
+        "$30,000"
+      ],
+      "timeframe": "short-term to medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "ETH has already broken out of resistance around 1.2-1.3k with a daily breakout achieved",
+      "quote": "It's not worth being bearish or shorting this thing until it either gets to resistance or the breakout fails... This is the first higher time frame meaningful market structure shift we've seen",
+      "price_levels": [
+        "$1,200-$1,300",
+        "$1,700-$1,800",
+        "$2,000"
+      ],
+      "timeframe": "short-term to medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum/Bitcoin Pair",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Failed breakdown at range low with strong momentum, now at resistance around 0.07",
+      "quote": "Essentially what printed on eth btc was a form of failed breakdown... there's just been a lot of momentum in that direction",
+      "price_levels": [
+        "0.07"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETC",
+      "asset_name": "Ethereum Classic",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETC outperforming ETH, noted as part of altcoin-led rally",
+      "quote": "You have ethereum classic outperforming ethereum and it's a kind of weekend altcoin-led rally as opposed to bitcoin rallying",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "decreasing",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$22,000-$23,000",
+        "$28,000"
+      ],
+      "ETH": [
+        "$1,200-$1,300",
+        "$1,700-$1,800"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin needs to catch up to Ethereum for healthy market continuation",
+    "Altcoins leading the rally is historically a cause for caution",
+    "Both majors (BTC and ETH) need to break above 200-week moving averages for more meaningful reversion",
+    "Failed breakdown structures often lead to range high tests",
+    "If BTC doesn't play ball and breaks out, the market may struggle"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$22,000-$23,000 (on breakout above resistance)",
+      "target": "$28,000-$30,000",
+      "stop": "Below $22,000 if breakout fails",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1,200-$1,300 (breakout confirmed)",
+      "target": "$1,700-$1,800 (or $2,000+ on overshoot)",
+      "stop": "Below $1,200-$1,300",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH/BTC",
+      "direction": "long",
+      "entry": "If pullback holds above 0.07",
+      "target": "Range high",
+      "stop": "Below 0.07 support",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin is struggling at resistance around 22-23k while Ethereum has already broken out above 1.2-1.3k. The speaker warns that altcoins leading the rally is concerning and needs Bitcoin to catch up for healthy market continuation. If both majors break above their 200-week moving averages, a more meaningful reversion becomes likely.",
+  "transcript_word_count": 5678,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:43:49.797839"
+}

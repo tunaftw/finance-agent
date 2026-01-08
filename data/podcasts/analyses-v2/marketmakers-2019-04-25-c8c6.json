@@ -1,0 +1,686 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-04-25-c8c6",
+  "podcast_name": "MarketMakers",
+  "episode_title": "#80 Det Enkelt Att Slå Index",
+  "episode_number": 80,
+  "date": "2019-04-25",
+  "hosts": [
+    "Fabian",
+    "Niklas"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Index investing strategies",
+    "Equal-weighted vs market-cap weighted indexes",
+    "Magic Formula",
+    "Value investing metrics",
+    "Dunning-Kruger effect in investing"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "Ericsson",
+    "Tesla",
+    "BMW",
+    "Uber",
+    "Lyft",
+    "Pandora",
+    "GFM",
+    "Fingerprint",
+    "Coca-Cola"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Equal-weighted indexfonder",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[05:11]",
+      "reasoning": "Stockholmsbörsen gav 7,7% årlig avkastning marknadsviktat 2001-2016. Likaviktat gav 14,9%, nästan dubblad avkastning. Börslabbet visar att likaviktat slog marknadsviktat i 8 av 10 fall. På OMXS30 har likaviktat gett nästan dubbel avkastning på 5-årsperiod.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Hade du köpt ett index som är lika viktigt, då har du dubblat din avkastning på 14,9 %.",
+      "sector": "Indexfonder",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Magic Formula strategin",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[11:49]",
+      "reasoning": "Magic Formula använder return on capital (EBIT/investerat kapital) och earnings yield (EBIT/EV). Historiskt 20% årlig avkastning enligt boken, tester visar 20-30%. På Stockholmsbörsen 2009-2018: de 30 bästa bolagen gav 25% per år vs OMXS30 9% (12-13% med utdelningar). Totalavkastning 860% vs 200%.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Då tittar man på en tioårsperiod bakåt av 2009 och tittar på large cap och mid cap, Stockholmsbörsen, tar de 30 bästa bolaget, åter nyss i utdelningen, då har man fått 25% per år jämfört med OMXS30 som bara har levit 9%.",
+      "sector": "Investeringsstrategi",
+      "market": "sweden",
+      "position_context": "30-30 bolag i portföljen",
+      "downside_note": "Kan underprestera periodvis (t.ex. 2018), innehåller value traps",
+      "catalyst_timing": "Årlig eller kvartalsvis rebalansering"
+    },
+    {
+      "stock_name": "High yield aktier (hög direktavkastning)",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[07:59]",
+      "reasoning": "Direktavkastning gav 16,2% årlig avkastning på Stockholmsbörsen 2001-2018 jämfört med marknadsviktat under 8%. Shareholders yield (direktavkastning + återköp) gav 16,1%. Enkelt nyckeltal som signalerar välmående företag och utnyttjar felprissättningar.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Nu hittar du direktavkastning, 16,2%. Sen har du till exempel aktieägaravkastningen eller shareholders yield. Det är direktavkastning plus återköp... då får du 16,1% aktieavkastning på Stockholmsbörsen.",
+      "sector": "Value",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "EV/EBIT strategin (The Acquirer's Multiple)",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[17:04]",
+      "reasoning": "Tobias Carlssons The Acquirer's Multiple anser att EV/EBIT är enskilt bästa nyckeltalet för att maximera avkastning. Jämfört med Magic Formula: Magic Formula gjorde 7,6 miljoner dollar på 10 000 dollar investering, men EV/EBIT gjorde 18,7 miljoner - dubbelt så bra.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Men det acquires multiped, det vill säga bara ev-ebit, du kapar halva magic formen, har gjort 18,7 miljoner, så den är ett dubbla från magic formen.",
+      "sector": "Value",
+      "market": "global",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Storbolag (Large cap)",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[35:00]",
+      "reasoning": "På large cap (största listan) är nästan 90% av bolagen lönsamma. På mid cap 80%. På small cap 60-70%. På mindre listor (First North, Spotlight, NG) faller det till 30-20%. Enkla hygienkrav som lönsamhet ger bättre odds på större listor.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "På large cap, det vill säga största listan på Stockholmsbörsen, då är det nästan 90 % av bolagen som går med vinst... så vad man kan dra före slutsatser är, ska du kasta pil, ska du bara köpa helt random på någonting, köp på de stora listorna",
+      "sector": null,
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Coca-Cola",
+      "ticker": "KO",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[25:49]",
+      "reasoning": "Används som exempel på hur priset kan svänga (52-veckors högsta $299.88, lägsta $128.08 - skillnad 134%) medan vinsten inte ändrats lika mycket. Poängen: om man köper vid rätt tidpunkt (när det ser billigt ut) kan man göra bra affär genom att vänta på att marknaden ska korrigera.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Om du plockade upp den på den här tiden när den kostade 128 dollar, då gjorde du antagligen en ganska bra affär. För att de senare kommer att komma tillbaka så att säga.",
+      "sector": "Consumer staples",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Magic Formula strategin",
+      "ticker": null,
+      "timestamp_start": "[11:49]",
+      "timestamp_end": "[14:55]",
+      "word_count": 1200,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Diskuterar Joel Greenblatts Magic Formula-strategi som kombinerar return on capital och earnings yield. Historiskt har strategin gett 20-30% årlig avkastning. På Stockholmsbörsen 2009-2018 gav de 30 bästa bolagen 25% per år mot OMXS30 9%. Utmärker att 2018 underpresterade strategin, vilket kan få folk att tappa tron.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Joel Greenblatt's bok som kom 2006, The Little Book That Beats the Market. Där presenterar han en så kallad magisk formula, som ska hjälpa en att slå börsen.",
+          "timestamp": "[09:16]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det första är return on capital. Nu är det så att det finns lite olika sätt att beräkna en del av avkastningstalen... Då använder man för return on capital alltså EBIT, det vill säga rörelseresultatet... Så delar man det på investerat kapital.",
+          "timestamp": "[10:23]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Ja exakt och sen det andra man kollar på det är earnings yielden som beräknas som EBIT genom EV. Och EV är ju ett mått som återkommer gång på gång i podden och det är ju enterprise value.",
+          "timestamp": "[11:01]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Man sorterar dem då, desto högre procent desto bättre, sen plockar man ut kanske de 30 bästa bolagen efter de här två enkla nyckeltalen. Köper dem och så kanske årsvis eller kvartalsvis så fördelar man om det här då.",
+          "timestamp": "[11:54]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Då tittar man på en tioårsperiod bakåt av 2009 och tittar på large cap och mid cap, Stockholmsbörsen, tar de 30 bästa bolaget, åter nyss i utdelningen, då har man fått 25% per år jämfört med OMXS30 som bara har levit 9%.",
+          "timestamp": "[11:54]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det största problemet folk kommer att ha är att många kanske inte kommer att förstå varför det funkar och det kommer att betyda att de viker av från det här för det finns ju perioder det kan finnas tvåårsperioder där underavkastar har det gjort historiskt",
+          "timestamp": "[13:49]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Men 2018 gick det inte så jävla bra för Magic Formula till exempel. Då är det väldigt lätt att avvika från det.",
+          "timestamp": "[14:08]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Joel Greenblatt. Han drev ju faktiskt en hedgefond som hette Gotham Capital. De hade en årlig avkastning på 40% under en 20-årsperiod.",
+          "timestamp": "[14:16]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Return on capital (ROC)",
+          "Earnings yield (EBIT/EV)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "20-30% årlig avkastning historiskt",
+          "Enkel att implementera - kräver bara en timme om året",
+          "Joel Greenblatts hedgefond hade 40% årlig avkastning med liknande strategi"
+        ],
+        "bear_case": [
+          "Kan underprestera i perioder (t.ex. 2018)",
+          "Många förstår inte varför det funkar och lämnar strategin",
+          "Value traps kan dras med i portföljen"
+        ],
+        "catalysts": [
+          "Årlig eller kvartalsvis rebalansering till de 30 bästa bolagen"
+        ],
+        "risks": [
+          "Perioder med underavkastning kan få investerare att tappa tålamodet",
+          "Strategin kräver tålamod och tro på metoden"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Equal-weighted vs Market-cap weighted",
+      "ticker": null,
+      "timestamp_start": "[03:57]",
+      "timestamp_end": "[07:42]",
+      "word_count": 900,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Diskuterar hur marknadsviktade index köper mer av det som är dyrt och mindre av det som är billigt. Likaviktade index dubblade avkastningen på Stockholmsbörsen 2001-2016. Extremt exempel: Ericsson stod för 48% av OMXS30 år 2000 på it-bubblans topp.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Det vanliga indexet som man brukar köra via Avanza Zero, det är ju marknadsviktat... Det lyfts ju oftast upp som en fantastisk idé helt enkelt. Det är helt enkelt att du drar nytta av så kallad survivorship bias.",
+          "timestamp": "[03:57]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Om vinnarna blir kvar, då kommer de att bli ännu mer vinnare desto mer man köper indexet. För det blir liksom att indexet, vi ser att H&M är ett jättebra exempel.",
+          "timestamp": "[04:07]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Man kan också vända på det och säga att det som är övervärderat kommer ju bli mer övervärderat, för det växer ju och växer. Det som är billigt kommer du få mindre av, så att du köper alltid det dyraste.",
+          "timestamp": "[04:41]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Hade du köpt ett index som är lika viktigt, då har du dubblat din avkastning på 14,9 %.",
+          "timestamp": "[05:11]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Tar man OMXS30, Stockholmsbörsen, år 2000, alltså på peaken av it-bubblan, då stod Ericsson för hela 48% av OMXS30.",
+          "timestamp": "[05:40]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "med Faber, den här kända kvantinvesteraren, han la ut något om att i åtta av tio årtiennesperioder, han har testat en massa olika historiska perioder, åtta av tio fall så kommer lika viktat att slå marknadsviktat.",
+          "timestamp": "[05:19]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "7,7% årlig avkastning marknadsviktat 2001-2016",
+          "14,9% årlig avkastning likaviktat 2001-2016",
+          "Ericsson 48% av OMXS30 år 2000"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Likaviktat slår marknadsviktat i 8 av 10 historiska perioder",
+          "Dubblad avkastning på Stockholmsbörsen 2001-2016",
+          "Undviker att köpa mer av övervärderade bolag"
+        ],
+        "bear_case": [
+          "Marknadsviktade index är standard och lättillgängliga",
+          "Få privatekonomer använder likaviktade index"
+        ],
+        "catalysts": [
+          "Ingen specifik katalysator - strukturell fördel"
+        ],
+        "risks": [
+          "Kräver aktiv rebalansering"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "BMW vs Uber",
+      "ticker": null,
+      "timestamp_start": "[30:17]",
+      "timestamp_end": "[32:55]",
+      "word_count": 700,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Jämför BMW (100-årigt lönsamt bolag) med Uber (10-årigt start-up). BMW har 10x omsättning, positivt kassaflöde 7 miljarder USD, värderas till 50 miljarder USD. Uber har 10 miljarder USD i omsättning, negativt kassaflöde -4 miljarder USD, värderas till 100 miljarder USD. Exempel på övervärdering av tillväxt.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Vi har en rätt fin bild i sliden om det här. Det är också något vi tog upp i höstas. Det är en liten jämförelse mellan BMW och Uber och den här start-up-bubblan som är väldigt tätt.",
+          "timestamp": "[30:17]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Men det är ju faktiskt så att BMW har omsättning på 100 miljarder dollar, Uber har omsättning på cirka 10 miljarder dollar. Det är alltså en tiondel av vad BMW har.",
+          "timestamp": "[31:07]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jämför också kassaflödet. BMW har ett positivt kassaflöde på 7 miljarder dollar om året och Uber har ett negativt kassaflöde på 4 miljarder dollar.",
+          "timestamp": "[31:31]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Speciellt när det ena företaget bränner pengar hela tiden. Varje körning de gör går de ju alltså back på.",
+          "timestamp": "[32:10]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "BMW värderades, eller avvärderas till market cap på cirka 50 miljarder dollar, och Uber värderas till ungefär det dubbla 100 miljarder dollar nu när det kanske ska gå till börsen.",
+          "timestamp": "[32:17]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Rimligt är att ett 100 år gammalt lönsamt bolag som säljer för tio gånger mer än vad det andra bolaget gör, bör ju rimligtvis bara ha en högre värdering.",
+          "timestamp": "[32:05]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det som är intressant är att det vi kommer tillbaka till är just hur pressat man betalar för tillväxten och hur det driver upp en helt sinnessjuk värdering egentligen.",
+          "timestamp": "[32:55]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "BMW omsättning: 100 miljarder USD",
+          "Uber omsättning: 10 miljarder USD",
+          "BMW kassaflöde: +7 miljarder USD",
+          "Uber kassaflöde: -4 miljarder USD",
+          "BMW market cap: 50 miljarder USD",
+          "Uber market cap: 100 miljarder USD"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "BMW är 100-årigt lönsamt bolag med stark kassaflöde",
+          "BMW har 10x högre omsättning än Uber",
+          "Lönsamma företag bör värderas högre än pengabrande bolag"
+        ],
+        "bear_case": [
+          "Uber är hypergrowth-bolag som marknaden värderar på tillväxt",
+          "Start-up-bubbla pressar upp värderingar"
+        ],
+        "catalysts": [
+          "Uber IPO som eventuell katalysator"
+        ],
+        "risks": [
+          "Marknaden kan fortsätta värdera tillväxt högt"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "It's not supposed to be easy, anyone who finds it easy is stupid.",
+      "summary": "Att tro att investering är enkelt tyder på bristande insikt om svårigheten.",
+      "category": "wisdom",
+      "speaker": "Charlie Munger (citerad)",
+      "speaker_role": "guest",
+      "timestamp": "[02:52]",
+      "confidence": "high",
+      "tags": [
+        "investering",
+        "insikt",
+        "värdeinvestering"
+      ]
+    },
+    {
+      "quote": "När man träffar någon som går i termin ett eller två på läkarlinjen så kan de bota alla sjukdomar i världen och de har stenkoll på varenda grej... Sen såg man för varje termin som gick så visste de mindre och mindre och går det att fråga en överläkare så vet de absolut ingenting.",
+      "summary": "Dunning-Kruger-effekten i praktiken: nybörjare tror de vet allt medan experter inser hur lite de faktiskt kan.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[21:19]",
+      "confidence": "high",
+      "tags": [
+        "dunning-kruger",
+        "insikt",
+        "kunskap"
+      ]
+    },
+    {
+      "quote": "Desto mer du lär dig nånting, desto mer förstår du att du inte vet.",
+      "summary": "Ju mer man lär sig, desto mer inser man hur lite man faktiskt kan.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[22:39]",
+      "confidence": "high",
+      "tags": [
+        "insikt",
+        "kunskap",
+        "investering"
+      ]
+    },
+    {
+      "quote": "När vi började investera, gjorde vi rätt enkla modeller. Det var ju mycket att kolla på PE-talet och kolla lite vinstmultiplar och liknande. Och sen, desto mer man lärde sig, desto bättre man tyckte man var, desto mer komplicerade modeller gjorde man.",
+      "summary": "Investerare tenderar att göra sina modeller onödigt komplicerade när de lär sig mer, trots att enkla metoder ofta fungerar bättre.",
+      "category": "lesson",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[22:59]",
+      "confidence": "high",
+      "tags": [
+        "enkelhet",
+        "investeringsmetoder",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Titta på vad gör bolagen för någonting. Det håller sig till ganska enkla multiplar, det räcker ganska långt.",
+      "summary": "Enkla värderingsmultiplar räcker ofta långt om man förstår vad bolagen gör.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[24:32]",
+      "confidence": "high",
+      "tags": [
+        "enkelhet",
+        "värdering",
+        "filosofi"
+      ]
+    },
+    {
+      "quote": "Köper du något billigt så kommer du att få bättre avkastning än om du köper något dyrt. Speciellt riskrelaterat.",
+      "summary": "Värdering är avgörande - köpa billigt ger bättre avkastning än köpa dyrt.",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[18:50]",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "värdeinvestering",
+        "avkastning"
+      ]
+    },
+    {
+      "quote": "Värde är vad du får, pris är vad du betalar.",
+      "summary": "Grundläggande värdeinvesteringsprincip - skillnaden mellan värde och pris.",
+      "category": "philosophy",
+      "speaker": "Niklas (citerar Munger/Graham)",
+      "speaker_role": "host",
+      "timestamp": "[19:26]",
+      "confidence": "high",
+      "tags": [
+        "värde",
+        "pris",
+        "värdeinvestering"
+      ]
+    },
+    {
+      "quote": "Om du tar 30 bolag så kanske det är 3-4-5 som är value traps, med value fellor. Men resten kommer ju att vara billiga bolag, som är helt prisade av olika andra. Då räcker det bara att det är 3-4-5 som överpresterar tillräckligt mycket för att ta ut de andra också.",
+      "summary": "Viktig insikt om diversifiering: vissa bolag blir value traps men majoriteten kompensera för dem.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[20:15]",
+      "confidence": "high",
+      "tags": [
+        "value traps",
+        "diversifiering",
+        "portfölj"
+      ]
+    },
+    {
+      "quote": "You can't predict, you can't prepare.",
+      "summary": "Man kan inte förutspå marknaden men man kan förbereda sig för olika utfall.",
+      "category": "wisdom",
+      "speaker": "Fabian (citerar Howard Marks)",
+      "speaker_role": "host",
+      "timestamp": "[28:53]",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "preparation",
+        "marknad"
+      ]
+    },
+    {
+      "quote": "Det finns en recession, man kan alltid tjata om att det är en recession, men den ligger ju långt bort, den ligger sex månader bort. Problemet är att du inte kommer att kunna sälja av precis innan den sker.",
+      "summary": "Man kan inte tajma marknadstoppar - när recessionen är tydlig är det för sent att sälja.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[30:00]",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "recession",
+        "marknadscykel"
+      ]
+    },
+    {
+      "quote": "Du kan inte tajma marknaden.",
+      "summary": "Det är nästan omöjligt att tajma marknaden perfekt.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[30:08]",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "marknad",
+        "investering"
+      ]
+    },
+    {
+      "quote": "Börsen är inte ett nollsummerspel. Om bolaget gör 30 procent mer vinst nästa år då ska priset upp, allt annat lika.",
+      "summary": "Börsen skapar värde genom företagens vinster - det är inte ett nollsummespel där någon måste förlora.",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[40:43]",
+      "confidence": "high",
+      "tags": [
+        "nollsummespel",
+        "värdeskapande",
+        "börs"
+      ]
+    },
+    {
+      "quote": "Om du köper någonting och jag säljer någonting så måste någon av oss förlora. Det är inte så enkelt. Det är inte ett nollsummespel.",
+      "summary": "Att sälja en aktie betyder inte att man förlorar - båda parter kan tjäna på olika tidshorisonter.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[40:50]",
+      "confidence": "high",
+      "tags": [
+        "nollsummespel",
+        "investering",
+        "börs"
+      ]
+    },
+    {
+      "quote": "Analysis paralysis - att du tar fram för mycket information och du vet inte vad du ska göra av den här informationen så du slutar med att du inte agerar på någonting.",
+      "summary": "För mycket analys leder till handlingsförlamning - viktigt att agera.",
+      "category": "lesson",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[41:59]",
+      "confidence": "high",
+      "tags": [
+        "analysis paralysis",
+        "beslutsfattande",
+        "investering"
+      ]
+    },
+    {
+      "quote": "Institutionella investerare har karriärrisk. Om du gör något väldigt annorlunda så måste du försvara det för kolleger, konkurrenter, din chef... Tar du nåt riktigt konstligt bet, säger H&M att H&M kommer inte att gå bra, tror du. För några år sedan, du fick ju sparken i princip om du trodde nåt så dumt.",
+      "summary": "Institutionella investerare begränsas av karriärrisk och grupptryck - det skapar möjligheter för privata investerare.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[36:44]",
+      "confidence": "high",
+      "tags": [
+        "institutionella investerare",
+        "karriärrisk",
+        "edge"
+      ]
+    },
+    {
+      "quote": "Ska du avvika från börsen generellt eller avvika från indexet, då måste du också avvika från de andra placeringarna... Du kommer att behöva försvara dem för kolleger, för branschkonkurrenter och kolleger, du kommer behöva försvara dem för din chef.",
+      "summary": "Fondförvaltare avviker sällan från indexet på grund av karriärrisk och press från kolleger.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[37:26]",
+      "confidence": "high",
+      "tags": [
+        "fondförvaltare",
+        "index",
+        "karriärrisk"
+      ]
+    },
+    {
+      "quote": "Det tar väldigt lång tid innan saker spelar ut, men det gör ju också då att har man tålamodet med sig, så kan väldigt enkla indikatorer funka.",
+      "summary": "Marknaden reagerar långsamt på fundamentala förändringar - tålamod är avgörande.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[26:26]",
+      "confidence": "high",
+      "tags": [
+        "tålamod",
+        "fundamentala",
+        "marknad"
+      ]
+    },
+    {
+      "quote": "I grund och botten är det fundamentalt på det. Om bolaget gör 30 procent mer vinst nästa år då ska priset upp, allt annat lika.",
+      "summary": "Vinsttillväxt driver aktiepriser över tid.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[40:97]",
+      "confidence": "high",
+      "tags": [
+        "vinsttillväxt",
+        "aktiepris",
+        "fundamentala"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet presenterar flera enkla kvantitativa strategier för att slå index, inklusive Magic Formula (ROC + earnings yield) som historiskt gett 25% årlig avkastning på Stockholmsbörsen. Likaviktade index gav 14,9% mot marknadsviktade 7,7% 2001-2016. Diskuterar vikten av värdering, Dunning-Kruger-effekten, och hur institutionella investerare begränsas av karriärrisk vilket skapar möjligheter för privata investerare.",
+  "key_takeaways": [
+    "Likaviktade index slog marknadsviktade index på nästan alla historiska perioder",
+    "Magic Formula (ROC + earnings yield) gav 25% årlig avkastning på Stockholmsbörsen 2009-2018",
+    "Enkla nyckeltal som P/E, EV/EBIT, direktavkastning ger över dubblad avkastning jämfört med marknadsviktat index",
+    "90% av large cap-bolag är lönsamma jämfört med bara 20-30% på mindre listor",
+    "Institutionella investerare har edge-hämmande begränsningar (storlek, karriärrisk) som privata investerare kan utnyttja"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-04-25-c8c6.txt",
+  "transcript_word_count": 9901,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

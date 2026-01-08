@@ -1,0 +1,382 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2023-06-22-aa9c",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "159. Nedtryckta aktier inför sommaren",
+  "episode_number": 159,
+  "date": "2023-06-22",
+  "hosts": ["host1", "host2"],
+  "guests": [],
+  "main_topics": ["Portföljsummering", "Börsutveckling", "Sommarens rapportperiod", "Hexatronic", "Embracer", "Handelsbanken", "Evo"],
+  "stocks_discussed": ["Embracer", "Hexatronic", "Core", "Handelsbanken", "V5", "Oddfjell Technology", "Storskogen", "Evolution", "Essity", "Assa Abloy", "ENKON"],
+  "recommendations": [
+    {
+      "stock_name": "Handelsbanken",
+      "ticker": "SHB-A",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "17:47",
+      "reasoning": "Aktien har flera gånger nedemot 86 kronor vilket känns jättebilligt. Det är ett perfekt tillfälle som gett nya chanser lite hela tiden. Handlade fram och tillbaka men gav totalt ca 25% inkludera utdelning.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är Handelsbanken som vi pratar om, ett perfekt tillfälle som har varit nedemot 86 kronor flera gånger. Som känns jättebilligt egentligen, men man får lite nyare chanser lite hela tiden.",
+      "sector": "Finansiella tjänster",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hexatronic",
+      "ticker": "HEXA-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "08:16",
+      "reasoning": "Kommer med rapport 15 augusti. Råder otrolig skillnad i vad marknaden tror - antingen business as usual eller total cut straw. Aktien föll från 140 till 68 SEK efter tweets från Viceroy. VDN är optimistisk men ing dålig data kommit från bolaget.",
+      "price_target": null,
+      "time_horizon": "short",
+      "quote": "Hexatronic kommer med rapport 15 augusti va? Om jag inte missbilder mig. Så att den kommer att komma lagom till återstarten... Det råder som otrolig skillnad i vad man tror. Antingen så är det business as usual eller så är det total cut straw.",
+      "sector": "Teknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Rapport 2023-08-15"
+    },
+    {
+      "stock_name": "Storskogen",
+      "ticker": "STOR-B",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "13:51",
+      "reasoning": "Köpte när bolaget började se undervärderat ut i januari-februari. Köpte upp ca 40-45% vinst på halva positionen efter stark rapport. Jättehatat bolag med 80% av aktieägarståndet bakom kursen. Lönsamma bolag som borde värderas på e-tidiga.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det tycker jag är lite kul för det är ju ett jättehatat bolag som nästan hela aktieägarstånden ligger bakom 80 %. Men vi såg väl här någonstans i januari, februari att detta börjar se ganska undervärderat ut. Det är trots allt lönsamma bolag som tjänar pengar.",
+      "sector": "Konglomerat",
+      "market": "sweden",
+      "position_context": "Sålde halva positionen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Assa Abloy",
+      "ticker": "ASSA-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "18:01",
+      "reasoning": "Kan växa sina vinster framöver för att priserna på insatsvaror kommer ner nu när konjunkturen ser sämre ut. Potentiell doparmarginal 2.0 om företag kan behålla sina priser medan kostnadstrycket försvinner.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tänker om Assa Bloj, som jag brukar gilla att prata om ibland, är ju typ ett sånt bolag... Nu kanske då insatspriserna faller men man behåller priset.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Essity",
+      "ticker": "ESSITY-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "18:32",
+      "reasoning": "Tråkig stabil aktie som kan väga sina vinster bra framöver tack vare fallande priser på insatsvaror. Många bolag kan driva doparmarginal 2.0 genom att behålla priser medan kostnaderna sjunker.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Essit är en annan tråkig stabil aktie, men som skulle kunna väga sina vinster ganska bra framöver för att priserna på de insatsvarorna faktiskt kommer ner nu för att det ser sämre konjunktur.",
+      "sector": "Konsumentvaror",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Evolution",
+      "ticker": "EVO",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "14:37",
+      "reasoning": "Portföljens bästa handel med 70% uppgång. Köpte på 8.40 SEK. Aktien var väldigt nedtryckt med otroligt låga multiplar. Klarat av att vända trenden. Har skalat lite men ligger kvar. Oro kring ESG och gråa marknader.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vad köpte vi på 8,40? 8,40 prick, snyggt. Ja det var det. Vi har fått ligga kvar i portföljen men vi har skalat lite. Vi är upp 70 % där. Det är en lite allmän känsla av ESG och RO. Om det här med lite svarta marknader eller grå marknader. Vad kommer att hända med det?",
+      "sector": "Spel",
+      "market": "sweden",
+      "position_context": "Skalat positionen men behåller",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Hexatronic",
+      "ticker": "HEXA-B",
+      "timestamp_start": "07:10",
+      "timestamp_end": "08:45",
+      "word_count": 250,
+      "speakers": ["host1", "host2"],
+      "primary_speaker": "host1",
+      "discussion_summary": "Hexatronic blev en av portföljens största förlorare. Köpt för tidigt på 140 SEK när det kändes spännande, men aktien föll till 68 SEK. Oro kring konkurrentvarning och Financial Times-artikel om UK fibermarknad. Viceroy-tweets påverkade kursen negativt. VDN är optimistisk och bolaget rapporterar 15 augusti, vilket blir avgörande för affären.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "De största, sämsta investeringarna är kanske då Hexatronic till exempel. Som vi var in alldeles för tidigt och tyckte väldigt att det inte har kommit någon dålig data. Det var lite oro kring en konkurrent som varna för en tuffare marknad.",
+          "timestamp": "07:10",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host1",
+          "text": "Och förlåt, och då var det som tog aktien från 140 till 110 kanske? Någ sånt där. Och då köpte vi. Då tyckte vi att det här kändes spännande. Men idag hamnaste vi på 68 kronor.",
+          "timestamp": "07:44",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Och där var det några tweets bland annat från de här Viceroy som förvisso är väldigt svåra att förutse. Men vi är ju uppenbarligen så var vi lite för tidiga.",
+          "timestamp": "08:00",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Hexatronic kommer med rapport 15 augusti va? Om jag inte missbilder mig. Så att den kommer att komma lagom till återstarten.",
+          "timestamp": "08:16",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "host1",
+          "text": "Det råder som otrolig skillnad i vad man tror. Antingen så är det business as usual eller så är det total cut straw.",
+          "timestamp": "08:30",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["VDN är optimistisk", "Ingen dålig data kommit från bolaget", "Affärsverksamheten kan vara business as usual"],
+        "bear_case": ["Konkurrent varnade för tuffare marknad", "Financial Times-artikel om fibermarknad UK", "Viceroy-tweets påverkade kursen negativt", "Kan vara total cut straw"],
+        "catalysts": ["Rapport 15 augusti"],
+        "risks": ["Fibermarknaden kan vara tuffare än väntat", "Marknadens förtroende kan vara skadat"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Embracer",
+      "ticker": "EMBRAC-B",
+      "timestamp_start": "09:02",
+      "timestamp_end": "10:11",
+      "word_count": 220,
+      "speakers": ["host1", "host2"],
+      "primary_speaker": "host1",
+      "discussion_summary": "Embracer köptes i oktober när det såg billigt ut på EV/EBIT 10-11. Bolaget har jättemånga stora IP:er men inget kassaflöde då allt investerats i tillväxt. Marknaden har fokuserat på obefintligt kassaflöde. Bolaget bombade både guidningarna för verksamhetsåret som slutade och kommande år, vilket ledde till totalt förlorat förtroende.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Det såg billigt ut. Typ ev-ebit, justerat ev-ebit, 10-11. Känns billigt. Har varit jättehög tillväxt i många år.",
+          "timestamp": "09:04",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Men marknaden har väl mer fokuserat på ett nästan obefintligt kassaflöde för att man har plöjt ner allt i nya investeringar.",
+          "timestamp": "09:25",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Men när aktien är ner så mycket så kanske man behöver ställa om verksamheten för att bevisa för aktiemarknaden att vi kan faktiskt leverera kassaflöde om vi vill.",
+          "timestamp": "09:40",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host1",
+          "text": "Man guidade för ett tydligt resultat både på det verksamhetsåret som precis stod slut och för kommande. Om man tokbomar båda de guidningarna... då tappar man allt förtroende.",
+          "timestamp": "09:53",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["EV/EBIT 10-11 (justerat)"]
+      },
+      "thesis": {
+        "bull_case": ["Billigt på EV/EBIT 10-11", "Jättemånga stora IP:er", "Hög tillväxt historiskt"],
+        "bear_case": ["Obefintligt kassaflöde", "Allt investerat i tillväxt", "Bombade båda guidningarna", "Tappat allt förtroende"],
+        "catalysts": ["Kassaflödesomställning"],
+        "risks": ["Marknadsförtroende försvunnet", "Tillväxtfokus utan kassaflöde"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Handelsbanken",
+      "ticker": "SHB-A",
+      "timestamp_start": "11:12",
+      "timestamp_end": "18:01",
+      "word_count": 400,
+      "speakers": ["host1", "host2"],
+      "primary_speaker": "host2",
+      "discussion_summary": "Handelsbanken var en av portföljens bästa affärer med ca 25% uppgång inklusive utdelning. Sizeades aggressivt på 10% och var topp tre innehav länge. Handlades fram och tillbaka men flera gånger ned mot 86 kronor vilket känns jättebilligt och gett nya chanser. Ett perfekt exempel på att hitta tillfälle i underdelen av handelsintervallet.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Handelsbanken var väldigt hett. Den har vi också handlat fram och tillbaka.",
+          "timestamp": "11:12",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host1",
+          "text": "Men totalt, om vi aggregerar det här och vi sätter tillbaks i utdelningen, har det varit en av portföljningsbästa affärer. Första gången var vi upp, jag tror att totalt har vi säkert varit 25 %.",
+          "timestamp": "11:17",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Och den sizeade vi ganska aggressivt. Den var 10 %. Den var väl topp tre innehav i portföljen länge.",
+          "timestamp": "11:31",
+          "context": "other"
+        },
+        {
+          "speaker": "host2",
+          "text": "Det är Handelsbanken som vi pratar om, ett perfekt tillfälle som har varit nedemot 86 kronor flera gånger. Som känns jättebilligt egentligen, men man får lite nyare chanser lite hela tiden.",
+          "timestamp": "17:47",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Kursnivå ca 86 SEK"]
+      },
+      "thesis": {
+        "bull_case": ["Ca 25% avkastning inklusive utdelning", "Flera gånger ned mot 86 kronor vilket känns billigt", "Ger återkommande köptillfällen"],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "traded"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det känns som att marknaden har verkligen fokuserat på de här kvalitetsbolagen och det har varit helt rätt att äga. Samtidigt är frågan när det slutar att vara ett så tydligt fokus. För jag vågar inte sitta och rygga och säga att köpa dem. Här bolagen spränger av vad de kostar, det kommer att lösa sig.",
+      "summary": "Kvalitetsbolag har presterat exceptionellt bra men kan vara övervärderade nu. Våga inte köpa på toppen även om trenden varit stark.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "05:14",
+      "confidence": "high",
+      "tags": ["kvalitet", "värdering", "marknadssentiment"]
+    },
+    {
+      "quote": "Äga storbolag generellt har varit vägen att gå senaste tiden. Men det som har hänt de sista månaderna är att det har sprödat extremt. Vad är din generella börsårsumering?",
+      "summary": "Storbolag har outperformat medan småbolag lidit. Marknaden har sprödat extremt mellan stor och liten.",
+      "category": "wisdom",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "01:13",
+      "confidence": "high",
+      "tags": ["storbolag", "småbolag", "marknadsspridning"]
+    },
+    {
+      "quote": "Försök komma in i underdelen av det. För även den typen av pengar spelar roll i en sån här börs. De där bolagen som bara går där det bara handlar om att hoppa på någon gång längs tåget, de är inte alls lika många längre.",
+      "summary": "I nuvarande marknad är det viktigt att köpa på rätt nivå. Försök komma in i underdelen av handelsintervallet.",
+      "category": "philosophy",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "16:58",
+      "confidence": "high",
+      "tags": ["timing", "värdering", "köpstrategi"]
+    },
+    {
+      "quote": "Det som är bra med den här marknaden, det är att det kommer hela tiden nya timing-möjligheter. Du behöver inte jaga en springande börs alltför mycket.",
+      "summary": "Marknaden erbjuder ständigt nya timing-möjligheter. Det är onödigt att jaga en springande börs.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "17:18",
+      "confidence": "high",
+      "tags": ["timing", "tålamod", "marknadsmöjligheter"]
+    },
+    {
+      "quote": "Och fortsatt så tror jag att värderingen är jätteviktig i de här miljöerna. Hitta in på nivåer som... Och här jag är ju lite i stöd av motsåndesteorier och sånt, men i den här typen av börs handlas en aktie i ett litet intervall.",
+      "summary": "Värdering är extremt viktig i nuvarande miljö. Använd supportteori och köp i underdelen av handelsintervallet.",
+      "category": "philosophy",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "16:58",
+      "confidence": "high",
+      "tags": ["värdering", "supportteori", "köpstrategi"]
+    },
+    {
+      "quote": "Det känns som om 1.0 var att priserna på insatsvaror höjdes 10 % och man ökar priserna med 15 % ökar marginalen. Nu kanske då insatspriserna faller men man behåller priset.",
+      "summary": "Doparmarginal 2.0 kan uppstå när insatspriserna faller men företag behåller sina priser. Detta kan driva vinsttillväxt.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "18:32",
+      "confidence": "high",
+      "tags": ["marginal", "insatsvaror", "vinsttillväxt"]
+    },
+    {
+      "quote": "Men det som ändå är lite konstigt är att sen där februari någonstans när den här spröden började på riktigt, så är räntorna ner. Inflationen ändå fortsätter att falla. Sen kan man alltid hoppas att det ska gå ännu snabbare. Så någonstans känns det som att det är lite märkligt.",
+      "summary": "Marknaden har sprödat mellan storbolag och småbolag trots fallande räntor och inflation. Marknadsbeteendet känns märkligt.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "03:49",
+      "confidence": "high",
+      "tags": ["räntor", "inflation", "marknadsspridning"]
+    },
+    {
+      "quote": "Men det är precis vad som har hänt. Det har väl rabatt på utföljningen ganska hårt får vi säga. Uppenbarligen så har marknaden fortsatt premiera sådana här egenskaper som inte transparans, pricing power, bevisad affärsmodell eller bevisad, men en lång historik över flera konduktivcykler att man kan leverera.",
+      "summary": "Marknaden premierar transparens, pricing power och bevisade affärsmodeller. Småbolag med kort historik straffas hårt.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "04:48",
+      "confidence": "high",
+      "tags": ["kvalitet", "pricing power", "transparens"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Aktiepodden summerar ett händelserikt börsår från september till juni. Index är upp 14,8% medan portföljen är upp 9,3%, vilket beskrivs som ett dåligt resultat med förklaring. Storbolag har outperfatat medan småbolag lidit. Värst i portföljen var Hexatronic och Embracer. Bästa affärerna var Handelsbanken, V5 och Evo. Inför sommaren ses osäkerhet men även möjligheter i företag som kan leverera trots sämre konjunktur.",
+  "key_takeaways": ["Storbolag har överpresterat medan småbolag straffats", "Värdering och timing är avgörande i nuvarande miljö", "Kvalitetsbolag kan vara övervärderade nu", "Fallande insatsvaror kan skapa doparmarginal 2.0", "Marknaden erbjuder ständigt nya timing-möjligheter"],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2023-06-22-aa9c.txt",
+  "transcript_word_count": 3517,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,788 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "analyspodden-2021-05-06-f673",
+  "podcast_name": "Analyspodden",
+  "episode_title": "Avsnitt 109: checkin.com och en massa andra bolag",
+  "episode_number": 109,
+  "date": "2021-05-06",
+  "hosts": [
+    "Daniel Ljungström",
+    "Robert Tove",
+    "Rickard",
+    "Oskar",
+    "Magnus",
+    "Alexander"
+  ],
+  "guests": [
+    "Kristoffer Kassel"
+  ],
+  "main_topics": [
+    "Checkin.com IPO",
+    "Q1-rapporter",
+    "Aktieanalyser",
+    "Energimarknaden",
+    "Fordonssäkerhet"
+  ],
+  "stocks_discussed": [
+    "Checkin.com",
+    "Excitec",
+    "SBB",
+    "East9",
+    "Mentis",
+    "BTS",
+    "Bergs Timber",
+    "Redsense",
+    "Arise",
+    "Smart Eye"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "SBB",
+      "ticker": "SBB-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Rickard",
+      "speaker_role": "host",
+      "timestamp": "38:20",
+      "reasoning": "Stark värdeutveckling med justerat substansvärde på 28.97 kr, aggressiv guidance på EPS 5.15 kr, NAV-driven värdeökning från gildkontraktion (samhällsfastigheter bör värderas som bostadsfastigheter), stark nettokassa för förvärv. Estimat på FFO strax över 4 kr för stamaktieägare.",
+      "price_target": "47-48 kr",
+      "time_horizon": "medellång sikt",
+      "quote": "Samhällsfastigheter tycker jag ska röra sig mot samma värderingsmultiplar som bostadsfastigheter. Det var gildkontraktion som drev värdeökningen. Det var utveckling i befintliga projekt, hyreshöjningar samt oljindexering av hyror. Och även transaktioner.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": "Jag äger aktier",
+      "downside_note": null,
+      "catalyst_timing": "Förvärv, NAV-utveckling"
+    },
+    {
+      "stock_name": "Mentis",
+      "ticker": "MENT-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Rickard",
+      "speaker_role": "host",
+      "reasoning": "Orderbok +115% YoY till 72.9 Mkr, starkt Q1 med 23% tillväxt, recovery trend inom medicinteknik och APAC. Strategisk samverkan med Siemens inom robotkirurgi (Covindus-förvärv), historisk parallell till Intuitive Surgical (500 till 1 miljon ingrepp). SaaS-konvertering pågår.",
+      "price_target": "115-120 kr",
+      "time_horizon": "lång sikt",
+      "quote": "Siemens har köpt ett bolag som heter Covindus som gör medicinska robotar för kirurgi. Mentis samarbetar med Siemens i försäljningsarbetet. Intuitive gjorde 500 ingrepp vid börsnotering, 2021 räknar man med nästan över en miljon. Mentis kan vara början på en resa från 500 till över en miljon.",
+      "sector": "Medicinteknik",
+      "market": "sweden",
+      "position_context": "Jag har en del aktier",
+      "downside_note": null,
+      "catalyst_timing": "Robotkirurgi-samarbete, orderbok realisering"
+    },
+    {
+      "stock_name": "Smart Eye",
+      "ticker": "SEYE-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Magnus",
+      "speaker_role": "host",
+      "reasoning": "Trading case med långsiktiga case. EU lagkrav på förarövervakning från 2026, Kina har infört tekniken, USA-förslag finns. Vunnit 60% av upphandlingarna, garanterade intäkter de kommande åren. EV-EBIT 9 i 2025 enligt prognos. 50% av upphandlingar kvar. Seeing Machines peer gått bättre på grund av amerikanska fonder.",
+      "price_target": "310 kr",
+      "time_horizon": "kort till medellång sikt",
+      "quote": "Smart Eye har vunnit 60% av de upphandlingarna som varit hittills. Redan idag så kommer de få EV-EBIT 9 enligt våra prognoser 2025. Det är drygt 50% av de här upphandlingarna som är kvar att göra de närmaste två åren. Seeing Machines har gått betydligt bättre på sistone.",
+      "sector": "Teknik",
+      "market": "sweden",
+      "position_context": "Jag äger aktier",
+      "downside_note": null,
+      "catalyst_timing": "Upphandlingar 2021-2023, EU-krav 2026, amerikanska fonder"
+    },
+    {
+      "stock_name": "East9",
+      "ticker": "EAST-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Rickard",
+      "speaker_role": "host",
+      "reasoning": "Nytt förvärv i Riga och Vilnius höjer intjäningsförmågan med ~5% på innevarande år och 10% nästa år. Fastigheter i CBD i Baltikum, stark värdeutveckling. Uthyrningsmarknaden går långsammare än beräknat.",
+      "price_target": "158-160 kr",
+      "time_horizon": "medellång sikt",
+      "quote": "Man gjorde ett nytt förvärv, köpte två fastigheter, en i Riga och en i Vilnius. Det höjer intjäningsförmågan med cirka 5% på innevarande år och 10% på nästa år. NAV-estimat behåller vi konstanta med anledning av stark värdeutveckling.",
+      "sector": "Fastigheter",
+      "market": "other",
+      "position_context": "Jag äger aktier",
+      "downside_note": null,
+      "catalyst_timing": "Uthyrning i Baltikum"
+    },
+    {
+      "stock_name": "BTS",
+      "ticker": "BTS-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Rickard",
+      "speaker_role": "host",
+      "reasoning": "Omvänd vinstvarning, lönsamhetsträning kan fortsätta och tillväxttakten accelerera. Har inte dragit ner på personal, redo att slå till när efterfrågan återkommer. Tjänsteindex i USA nästan all time high.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "BTS hade inte dragit ner på personal, de var superredo att slå till när efterfrågan var återkomma. Tjänsteindex i USA var nästan på all time high och BTS brukar följa det. Om lönsamhetsträningen fortsätter och tillväxttakten accelererar ser det väldigt spännande ut.",
+      "sector": "Konsult",
+      "market": "sweden",
+      "position_context": "Jag äger aktier",
+      "downside_note": null,
+      "catalyst_timing": "Q1 rapport efter Kristi Himmelfärd"
+    },
+    {
+      "stock_name": "Bergs Timber",
+      "ticker": "BERG-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "reasoning": "Stark balansräkning möjliggör värdering upp till 7 kr om förvärv görs lyckat. Jättebra rapport, stark lönsamhetsutveckling, visibilitet in i Q3. Värderingen har delvis kommit kapp efter kursuppgång.",
+      "price_target": "5.50-7.00 kr",
+      "time_horizon": "kort sikt",
+      "quote": "Givet att de har finansiella mål som inkluderar att de inte vill belåna sig högre än eget kapital. Tar de en sådan belåning för att finansiera förvärv och gör lyckade förvärv, då tycker vi att man kan diskutera en värdering upp mot sju kronor.",
+      "sector": "Skog och trä",
+      "market": "sweden",
+      "position_context": "Inget innehav",
+      "downside_note": null,
+      "catalyst_timing": "Förvärv"
+    },
+    {
+      "stock_name": "Redsense",
+      "ticker": "RED-B",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "reasoning": "Långsiktigt positivt case, fundamenta intakt för långsiktig tillväxt. Covid-19 har påverkat nyförsäljning men restriktioner lättar. Svårt att se närtidstriggers. Odinswell spin-off snart.",
+      "price_target": "65-67 kr",
+      "time_horizon": "lång sikt",
+      "quote": "All fundamenta är intakt för långsiktig tillväxt. När vi väl kommer igenom det här och ser att restriktionen lättar osv. Det är ett långsiktigt positivt case men det är svårt att se några triggers i närtid på uppsidan.",
+      "sector": "Medicinteknik",
+      "market": "sweden",
+      "position_context": "Jag har eget innehav",
+      "downside_note": "Inga närtidstriggers",
+      "catalyst_timing": "Restriktioner lättar, Odinswell spin-off"
+    },
+    {
+      "stock_name": "Excitec",
+      "ticker": "EXC-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Oskar",
+      "speaker_role": "host",
+      "reasoning": "Stark Q1-rapport med väldigt hög marginal, två förvärv genomförda och planerat. God beläggning på konsulter, programvaruförsäljning med hög marginal. Smarta förvärv utan konkurrens.",
+      "price_target": "161-163 kr",
+      "time_horizon": "medellång sikt",
+      "quote": "Rapporten var väldigt stark. Man visade väldigt stark tillväxt och framförallt ett väldigt högt marginal. Han gjort förvärv som han genomfört och integrerat. Smarta grejer, köpt bolag som varit i kontakt under lång tid utan konkurrens.",
+      "sector": "IT-konsult",
+      "market": "sweden",
+      "position_context": "Jag äger inte aktier",
+      "downside_note": null,
+      "catalyst_timing": "Nya förvärv, rekryteringssatsning"
+    },
+    {
+      "stock_name": "Arise",
+      "ticker": "ARISE-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Magnus",
+      "speaker_role": "host",
+      "reasoning": "Negativ kort sikt med minskad lönsamhet i två stora projekt på grund av kapacitetsbrist i elnätet. Elpriserna lägre i Norrland på grund av överföringsproblem. Många parker i norra Sverige framöver.",
+      "price_target": "44-46 kr",
+      "time_horizon": "kort sikt",
+      "quote": "Elpriserna är lägre i Norrland och då får man också sämre betalt för att tillverka elparker där. De sa att de skulle få marginellt betalt för ena parkerna, knappt någonting. Den andra skulle man få mindre än vad man trodde.",
+      "sector": "Förnybar energi",
+      "market": "sweden",
+      "position_context": "Jag äger inte aktier",
+      "downside_note": "Kapacitetsbrist i elnätet",
+      "catalyst_timing": "Solkraftsatsning, expansion Polen/Storbritannien"
+    },
+    {
+      "stock_name": "Checkin.com",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Rickard",
+      "speaker_role": "host",
+      "reasoning": "Fantastiskt bolag med tillväxt på befintliga kunder, hög avkastning på investeringar, tydligt värde, strukturell tillväxt i branscherna. Grundare som äger mycket, kompetent styrelse med Anders Borg, intressanta ägare. IPO på First North.",
+      "price_target": null,
+      "time_horizon": "IPO tillväxt",
+      "quote": "Jag tycker att det är ett fantastiskt bolag. Typen av försäljning man gör, både på befintlig kund och ny försäljning. Hög avkastning på investeringarna och slutkund. Man visar på ett tydligt värde. Grundare som äger mycket. Kompetent och bra styrelse.",
+      "sector": "Fintech",
+      "market": "sweden",
+      "position_context": "Pensor hjälper till med IPO",
+      "downside_note": "Risk att inte nå mål",
+      "catalyst_timing": "IPO 20 maj, sälj skalas upp"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "SBB",
+      "ticker": "SBB-B",
+      "timestamp_start": "38:20",
+      "timestamp_end": "42:13",
+      "word_count": 450,
+      "speakers": [
+        "Rickard",
+        "Daniel"
+      ],
+      "primary_speaker": "Rickard",
+      "discussion_summary": "SBB levererade en Q1-rapport i linje med förväntningar men med stark värdeutveckling där justerat substansvärde nådde 28.97 kr. Rickard höjer motiverat värde till 47-48 kr baserat på gildkontraktion (samhällsfastigheter bör värderas som bostadsfastigheter), utveckling i befintliga projekt, hyreshöjningar och transaktioner. Aggressiv guidance på EPS 5.15 kr och stark nettokassa för förvärv.",
+      "quotes": [
+        {
+          "speaker": "Rickard",
+          "text": "Samhällsfastigheter tycker jag ska röra sig mot samma värderingsmultiplar som bostadsfastigheter. Det var gildkontraktion som drev värdeökningen. Det var utveckling i befintliga projekt som drev. Man har förhandlat om hyror samt oljindexering av hyror. Och även transaktioner.",
+          "timestamp": "38:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Rickard",
+          "text": "Man lämnade en tämligen aggressiv guidance där man såg att EPS till stammaktieägare kommer att uppgå till fem kronor och femton öre i slutet av året. Då ska man ha i åtanke att aktien handlar just nu vid 32 kronor och 75 öre.",
+          "timestamp": "41:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Rickard",
+          "text": "Baserat på de här två parametrarna, guidance och stark NAV-utveckling, så höjer vi motiverat värde till 47-48 kronor.",
+          "timestamp": "41:55",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "NAV 28.97 kr",
+          "EPS guidance 5.15 kr",
+          "Aktiekurs 32.75 kr",
+          "FFO >4 kr stamaktieägare"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Gildkontraktion av samhällsfastigheter till bostadsfastighets-nivåer",
+          "Aggressiv EPS guidance 5.15 kr",
+          "Stark nettokassa för förvärv",
+          "Hyreshöjningar och oljindexering"
+        ],
+        "bear_case": [
+          "Risk att inte nå aggressiv guidance",
+          "Transaktioner kan ta tid"
+        ],
+        "catalysts": [
+          "Förvärv",
+          "Vidare NAV-utveckling"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Mentis",
+      "ticker": "MENT-B",
+      "timestamp_start": "45:03",
+      "timestamp_end": "52:34",
+      "word_count": 800,
+      "speakers": [
+        "Rickard",
+        "Daniel",
+        "Alexander"
+      ],
+      "primary_speaker": "Rickard",
+      "discussion_summary": "Mentis levererade ett starkt Q1 med 23% orderingång till 7.9 Mkr och orderbok på 72.9 Mkr (+115% YoY). Recovery trend drivs av medicinteknisk industri och APAC. Rickard besökte bolaget och identifierade att Siemens köpt Covindus (robotkirurgi), där Mentis samarbetar. Han drar paralleller till Intuitive Surgical som gick från 500 till 1 miljon ingrepp på 20 år. Värderingen anses ej motiverat lägre än SUS.",
+      "quotes": [
+        {
+          "speaker": "Rickard",
+          "text": "Orderingången i kvartalet uppgick till 7,9 miljoner kronor. Det var en tillväxt om 23 procent. Ge ner och ett av de starkaste första kvartalen i bolagens historia. Tittar man på orderboken nu efter första Q1, så uppgick den till 72,9 miljoner kronor. Det är en ökning med 115 procent year on year.",
+          "timestamp": "45:42",
+          "context": "metric"
+        },
+        {
+          "speaker": "Rickard",
+          "text": "Det som driver den här trenden är segmentet medicinsktekniska industri och IPAC-regionen som är drivande. Regionen som har kommit längst i recovery från covid.",
+          "timestamp": "46:25",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Rickard",
+          "text": "Siemens har köpt ett bolag som heter Covindus som gör medicinska robotar då för kirurgi. Mentis som samarbetar med Siemens och är med i försäljningsarbetet av det här nya robotsystemet.",
+          "timestamp": "48:15",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Rickard",
+          "text": "Intuitive, jag tror det var 500 ingrepp, precis när vi var i tidig kommersiell serien stadium. Tittar man på vad man gör nu 2021, så räknas man med att man gör nästan över en miljon ingrepp. Mentis kan vara början på en resa från 500 till över en miljon.",
+          "timestamp": "48:42",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Rickard",
+          "text": "Jag tycker faktiskt inte att värderingsskillnaden är motiverad. Den analyserbara marknaden hos de medicinsktekniska bolagen är betydligt större än vad den är i akademin. Mentis har en mycket högre andel försäljning som är åt medicinsktekniska bolagen.",
+          "timestamp": "50:49",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Rickard",
+          "text": "Fokusera inte på att orderingången kom in 2% under dina estimat, utan fokusera på de stora trenderna.",
+          "timestamp": "49:38",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "23% Q1",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Orderbok 72.9 Mkr",
+          "Orderbok +115% YoY",
+          "Orderingång 7.9 Mkr Q1"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Recovery trend medicinteknik",
+          "Samarbete med Siemens inom robotkirurgi (Covindus)",
+          "Historisk parallell till Intuitive Surgical (500->1M ingrepp)",
+          "Hög andel mot medicinteknik vs akademi",
+          "SaaS-konvertering pågår"
+        ],
+        "bear_case": [
+          "Värderingsdiskrepans vs SUS",
+          "Leveransflytt till 2022",
+          "Konservativa estimat på sälj"
+        ],
+        "catalysts": [
+          "Robotkirurgi-samarbete med Siemens",
+          "Orderbok realisering",
+          "Recovery medicinteknik"
+        ],
+        "risks": [
+          "Leveransflytt till 2022",
+          "Värderingspremie vs SUS"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Smart Eye",
+      "ticker": "SEYE-B",
+      "timestamp_start": "01:08:30",
+      "timestamp_end": "01:11:23",
+      "word_count": 350,
+      "speakers": [
+        "Magnus",
+        "Daniel"
+      ],
+      "primary_speaker": "Magnus",
+      "discussion_summary": "Smart Eye är ett långsiktigt case (+300% sedan slutet 2018) som lyfts som trading case. Bolaget utvecklar förarövervakningsteknik som kan minska olyckor med 40%. EU kräver tekniken från 2026, Kina har infört den, USA-förslag finns. Smart Eye vunnit 60% av upphandlingarna med garanterade intäkter. Peer Seeing Machines gått bättre på sistone på grund av amerikanska fonder. Höjer motiverat värde till 310 kr.",
+      "quotes": [
+        {
+          "speaker": "Magnus",
+          "text": "Smart Eye utvecklar förareövervakningsteknik i bilar så att man ska upptäcka när förare är påverkade, trötta, opmärksamma och därigenom minskar antalet bilolyckor. Smart Eye räknar med detta kan leda till ungefär 40% mindre olyckor.",
+          "timestamp": "01:08:44",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "EU så är det lag krav från 2026 att man måste ha den här tekniken i bilar. Kina har infört tekniken. Och det har kommit fram förslag i USA på att införa den här tekniken.",
+          "timestamp": "01:09:12",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "Smart Eye har vunnit 60% av de upphandlingarna som varit hittills. Det är i princip garanterade intäkter som kommer om några år. Det gör att det blir ganska lätt att räkna på det här caset.",
+          "timestamp": "01:09:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "Redan idag så kommer de få EV-EBIT 9 enligt våra prognoser 2025. Och då är det dessutom drygt 50% av de här upphandlingarna som är kvar att göra de närmaste två åren.",
+          "timestamp": "01:09:48",
+          "context": "metric"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "De har ju en peer som heter Seeing Machines från Australien. De har gått betydligt bättre än Smart Eye på sistone. Det har mycket att göra med att det är stora amerikanska fonder som har fått upp ögonen för Seeing Machines.",
+          "timestamp": "01:10:13",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "Vi höjer vår motiverade värde för Smart Eye till 310 kronor från 240.",
+          "timestamp": "01:11:02",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "EV-EBIT 9 2025",
+          "Vunnit 60% av upphandlingar",
+          "50% av upphandlingar kvar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "EU-krav på förarövervakning från 2026",
+          "Kina har infört tekniken",
+          "USA-förslag",
+          "Vunnit 60% av upphandlingar",
+          "Garanterade intäkter de kommande åren",
+          "Amerikanska fonder kan titta på Smart Eye ( Seeing Machines peer)"
+        ],
+        "bear_case": [
+          "Ny teknik på börsen fått pisk (kurs ned sen topp)"
+        ],
+        "catalysts": [
+          "Upphandlingar de kommande åren",
+          "EU-krav 2026",
+          "Amerikanska fonder",
+          "Teknologi sektor återhämtning"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "East9",
+      "ticker": "EAST-B",
+      "timestamp_start": "43:17",
+      "timestamp_end": "45:02",
+      "word_count": 250,
+      "speakers": [
+        "Rickard",
+        "Daniel"
+      ],
+      "primary_speaker": "Rickard",
+      "discussion_summary": "East9 förvaltar fastigheter i CBD i de baltiska huvudstäderna (Riga, Vilnius). Q1-rapporten visade hyresintäkter under estimat på grund av planerade vakanser och långsammare uthyrningsmarknad i Baltikum. Ett nytt förvärv av två fastigheter (Riga och Vilnius) höjer intjäningsförmågan med ~5% i år och 10% nästa år. NAV behålls konstant tack vare stark värdeutveckling. Motiverat värde 158-160 kr.",
+      "quotes": [
+        {
+          "speaker": "Rickard",
+          "text": "Husintäkterna in lite under våra estimat på grund av planerade vakanser i beståndet samt att uthyrningsmarknaden i de baltska länderna går lite långsammare än vad vi hade räknat med.",
+          "timestamp": "43:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Rickard",
+          "text": "Man gjorde ett nytt förvärv. Man köpte två fastigheter, en i Riga och en i Vilnius. Det höjer estimaten för intjäningsförmågan med cirka 5% på innevarande år och 10% på nästa år.",
+          "timestamp": "44:20",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Rickard",
+          "text": "NAV-estimat behåller vi konstanta med anledning av stark värdeutveckling i bolaget och vi behåller även vårt motiverade värde på 158-160 kronor.",
+          "timestamp": "44:52",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Intjäningsförmåga +5% 2021",
+          "Intjäningsförmåga +10% 2022"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Nytt förvärv höjer intjäningsförmåga",
+          "Stark värdeutveckling i bolaget"
+        ],
+        "bear_case": [
+          "Långsammare uthyrningsmarknad i Baltikum",
+          "Planerade vakanser i beståndet"
+        ],
+        "catalysts": [
+          "Nytt förvärv integreras",
+          "Uthyrning i Baltikum återhämtar sig"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Bergs Timber",
+      "ticker": "BERG-B",
+      "timestamp_start": "54:15",
+      "timestamp_end": "59:40",
+      "word_count": 450,
+      "speakers": [
+        "Daniel",
+        "Alexander"
+      ],
+      "primary_speaker": "Alexander",
+      "discussion_summary": "Bergs Timber genomfört en omstöpning genom försäljning av Svenska Sågverksrörelsen, snabbare än turnaround. Jättebra rapport med stark lönsamhetsutveckling inom alla produktområden och visibilitet in i Q3. Inga tecken på avmattning. Värderingen har kommit kapp efter kursuppgång. Uppside till 7 kr möjlig om förvärv görs med belåning upp till eget kapital.",
+      "quotes": [
+        {
+          "speaker": "Alexander",
+          "text": "Bergs har gjort en omstöpning där man sålde Svenska Sågverksrörelsen. Det kan ju vara en lång förberedelseprocess men det går sen på ett bredd när man väl säljer den. Då är man i ett nytt läge, så på så sätt går det väldigt fort snarare än att försöka vända en verksamhet.",
+          "timestamp": "56:35",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "Rapporten var jättebra. De har stark lönsamhetsutveckling. Det ser bra ut inom samtliga produktområden. De har fina utsikter framöver. De har väl en visibilitet som sträcker sig in i Q3. De ser inte några tecken av avmattning.",
+          "timestamp": "57:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "Värderingen har ju till stor del kommit kapp här. Så vi ser väl inte samma stora potential för uppvärdering i framöver som vi såg för några månader sedan.",
+          "timestamp": "57:35",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "Givet att de har finansiella mål som inkluderar att de inte vill belåna sig högre än eget kapital. Tar de en sådan belåning för att finansiera förvärv och gör lyckade förvärv, då tycker vi att man kan diskutera en värdering upp mot sju kronor.",
+          "timestamp": "58:43",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "De har en finansiell målsättning att de inte vill belåna sig till en nivå som överstiger eget kapital.",
+          "timestamp": "58:53",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Max 100% av eget kapital",
+        "custom": [
+          "Motiverat värde 5.50-5.60 kr",
+          "Värdering upp till 7 kr med förvärv",
+          "Aktiekurs 6.44 kr"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark lönsamhetsutveckling",
+          "Fina utsikter framöver",
+          "Visibilitet in i Q3",
+          "Stark balansräkning möjliggör förvärv",
+          "Uppside till 7 kr med lyckade förvärv"
+        ],
+        "bear_case": [
+          "Värderingen har kommit kapp",
+          "Mindre potential för uppvärdering jämfört med tidigare"
+        ],
+        "catalysts": [
+          "Förvärv finansierade upp till eget kapital",
+          "Cykeln kan fortsätta överraska positivt"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Arise",
+      "ticker": "ARISE-B",
+      "timestamp_start": "01:02:03",
+      "timestamp_end": "01:08:30",
+      "word_count": 600,
+      "speakers": [
+        "Magnus",
+        "Daniel"
+      ],
+      "primary_speaker": "Magnus",
+      "discussion_summary": "Arise Q1-rapport blev bra resultatmässigt men minskad lönsamhet i två stora projekt på grund av kapacitetsbrist i elnätet. Elpriserna lägre i Norrland eftersom elen inte kan överföras till södra Sverige där priserna är högre. Många parker i norra Sverige framöver. Negativt närtid men långsiktigt positivt med ny strategi (solkraftsparker, expansion Polen/Storbritannien). Strukturellt problem med kraftnätskapacitet i Sverige.",
+      "quotes": [
+        {
+          "speaker": "Magnus",
+          "text": "Q1-rapporten blev bra resultatmässigt. Det blåste relativt mycket trots att det var väldigt kallt väder. Däremot var det en negativ nyhet och det är minskad lönsamhet i två stora projekt.",
+          "timestamp": "01:02:18",
+          "context": "metric"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "Det beror på att elen stängs inne i norra Sverige på grund av att man inte har kapacitet att överföra den till södra Sverige där elpriserna är högre. Det gör ju att elpriserna är lägre i Norrland och då får man också sämre betalt.",
+          "timestamp": "01:02:45",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "De sa att de skulle få marginellt betalt för ena parkerna, knappt någonting. Den andra skulle man få mindre än vad man trodde. De har relativt mycket parker i norra Sverige framöver.",
+          "timestamp": "01:03:15",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "Sen har de å andra sidan inlett en ny strategi där de ska börja med solkraftsparker och expandera geografiskt i Polen och Storbritannien. Så att det diversifierar ju risken och tar bort lite av den här norrlandsproblematiken.",
+          "timestamp": "01:03:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "Kraftindustrin har ett långsiktigt problem i Sverige via att kraftnätkapaciteten är alldeles för underdimensionerad. Än så länge finns ingen lösning. Det behövs rätt dramatiska investeringar.",
+          "timestamp": "01:06:14",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Jag tycker det är lite konstigt agerat av politikerna egentligen, för att man lägger ner kärnkraft och hade man då byggt ut kapaciteten så att vattenkraften kan nedsätta ner till södra Sverige, det hade varit en grej.",
+          "timestamp": "01:06:33",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Minskad lönsamhet i två projekt",
+        "debt_level": null,
+        "custom": [
+          "Aktiekurs 51 kr",
+          "Motiverat värde 44-46 kr"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Ny strategi med solkraftsparker",
+          "Expansion Polen och Storbritannien diversifierar risken",
+          "Bra Q1-resultat"
+        ],
+        "bear_case": [
+          "Kapacitetsbrist i elnätet",
+          "Elpriserna lägre i Norrland",
+          "Många parker i norra Sverige framöver",
+          "Marginellt betalt för vissa parker"
+        ],
+        "catalysts": [
+          "Solkraftsparker",
+          "Expansion Polen/Storbritannien",
+          "Elnätsutbyggnad långsiktig"
+        ],
+        "risks": [
+          "Kapacitetsbrist i elnätet strukturellt",
+          "Politisk osäkerhet kring kärnkraft"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det mest intressanta som kom fram på det här bolagsbesöket, och det är liksom varför man vill göra bolagsbesök och det som bygger egentligen en equity story. Fokusera inte på att orderingången kom in 2% under dina estimat, utan fokusera på de stora trenderna.",
+      "summary": "Bolagsbesök hjälper identifiera långsiktiga trender och equity stories istället för att fastna i kvartalssiffror.",
+      "category": "wisdom",
+      "speaker": "Rickard",
+      "speaker_role": "host",
+      "timestamp": "49:38",
+      "confidence": "high",
+      "tags": [
+        "bolagsbesök",
+        "långsiktighet",
+        "trender"
+      ]
+    },
+    {
+      "quote": "En turnaround tar ju snarare längre tid än vad man förväntar sig och tar några år. En omstöpning är när man tar en befintlig verksamhet och styr om den, kapa kostnader och så vidare. Bergs Timber är en omstöpning, inte turnaround.",
+      "summary": "Skillnad mellan turnaround (knaprar, tar flera år) och omstöpning (strategisk omfördelning, kan gå fort).",
+      "category": "philosophy",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "timestamp": "55:21",
+      "confidence": "medium",
+      "tags": [
+        "turnaround",
+        "omstöpning",
+        "strategi"
+      ]
+    },
+    {
+      "quote": "Givna finansiella mål som inkluderar att de inte vill belåna sig till en nivå som överstiger eget kapital. Tar de en sådan belåning för att finansiera förvärv och gör lyckade förvärv, då tycker vi att man kan diskutera en högre värdering.",
+      "summary": "Konservativ skuldsättning max 100% av eget kapital är positivt för värdering om förvärv lyckas.",
+      "category": "philosophy",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "timestamp": "58:43",
+      "confidence": "medium",
+      "tags": [
+        "belåning",
+        "förvärv",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Samhällsfastigheter ska röra sig mot samma värderingsmultiplar som bostadsfastigheter. Lägst direktavkastning har svenska bostadsfastigheter eftersom vakansrisken är låg och risken för att man inte får in hyrorna är låg. Samhällsfastigheter tycker jag har säkra kassaflöden, motparten är svenska staten, norska staten, danska staten, finska staten. Kontrakten är väldigt långa, vilket gör risken låg.",
+      "summary": "Samhällsfastigheter borde värderas som bostadsfastigheter på grund av låg risk (stat som hyresgäst, långa kontrakt, låg vakansrisk).",
+      "category": "philosophy",
+      "speaker": "Rickard",
+      "speaker_role": "host",
+      "timestamp": "38:50",
+      "confidence": "high",
+      "tags": [
+        "fastigheter",
+        "värdering",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Jag tycker att det är ett fantastiskt bolag. Typen av försäljning man gör, både på befintlig kund och ny försäljning. Hög avkastning på investeringarna och slutkund. Man visar på ett tydligt värde. I branscher där vi ser en kraftig strukturell tillväxt. Grundare som äger mycket. Kompetent och bra styrelse.",
+      "summary": "Checklista för bra bolag: tillväxt på befintliga och nya kunder, hög avkastning, tydligt värde, strukturell tillväxt, grundare äger mycket, kompetent styrelse.",
+      "category": "philosophy",
+      "speaker": "Rickard",
+      "speaker_role": "host",
+      "timestamp": "37:08",
+      "confidence": "high",
+      "tags": [
+        "bolagsanalys",
+        "checklista",
+        "tillväxt"
+      ]
+    },
+    {
+      "quote": "Kraftindustrin har ett långsiktigt problem i Sverige via att kraftnätkapaciteten är alldeles för underdimensionerad. Det behövs rätt dramatiska investeringar. Jag tycker det är lite konstigt agerat av politikerna egentligen, för att man lägger ner kärnkraft och hade man då byggt ut kapaciteten så att vattenkraften kan nedsätta ner till södra Sverige, det hade varit en grej.",
+      "summary": "Strukturellt problem med kraftnätskapacitet i Sverige där politik lägger ner kärnkraft utan att bygga ut överföringskapacitet.",
+      "category": "wisdom",
+      "speaker": "Magnus",
+      "speaker_role": "host",
+      "timestamp": "01:06:14",
+      "confidence": "high",
+      "tags": [
+        "energi",
+        "politik",
+        "infrastruktur"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på Checkin.com IPO men innehåller analyser av flera andra bolag. SBB höjs till 47-48 kr på gildkontraktion av samhällsfastigheter. Mentis visas ha stark orderbok och potential inom robotkirurgi via Siemens-samarbete. Smart Eye lyfts som trading case med EU-krav från 2026 och amerikanska fonder som potentiell driver. Arise varnas för på kort sikt på grund av kapacitetsbrist i elnätet. Bergs Timber genomfört lyckad omstöpning men värderingen kommit kapp.",
+  "key_takeaways": [
+    "SBB: Gildkontraktion av samhällsfastigheter, NAV 28.97 kr, mål 47-48 kr",
+    "Mentis: Orderbok +115% YoY, Siemens-samarbete robotkirurgi, jämförelse Intuitive Surgical",
+    "Smart Eye: Trading case, EU-krav 2026, vunnit 60% av upphandlingar, mål 310 kr",
+    "Arise: Kapacitetsbrist i elnätet pressar lönsamhet, men ny strategi med solkraft och Polen/Storbritannien",
+    "Bergs Timber: Starkt efter omstöpning, värderingsuppsida till 7 kr vid lyckade förvärv"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/analyspodden/transcripts/analyspodden-2021-05-06-f673.txt",
+  "transcript_word_count": 11833,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,588 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2023-01-18-1eaf",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 491 - Bud-Otto",
+  "episode_number": 491,
+  "date": "2023-01-18",
+  "hosts": [
+    "John",
+    "Johan"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Rapportsäsong",
+    "Small-cap problem",
+    "Gamingbolagens vinstvarningar",
+    "Teslas prissänkning",
+    "Elbilsladdare",
+    "Luxury-aktier"
+  ],
+  "stocks_discussed": [
+    "Rolling Optics",
+    "Tesla",
+    "Volvo Cars",
+    "Garo",
+    "Campower",
+    "Zetech",
+    "Malmbergs",
+    "Embracer",
+    "Paradox",
+    "Mag Interactive",
+    "Kindred",
+    "LVMH",
+    "Dessino",
+    "Aselio",
+    "Morgan Stanley",
+    "Goldman Sachs",
+    "Boost",
+    "Handelsbanken",
+    "Kambi"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Malmbergs",
+      "ticker": "MMGB B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[15:20]",
+      "reasoning": "Elbilsladdare och underleverantörer kan gynnas av Teslas prissänkning som driver på elbilsadoptionen. Malmbergs är 0% hypad vilket kan indikera undervärdering.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Själv är jag mest sugen på den gamla surdegen Malmbergs. Den aktien är ju 0% hypad.",
+      "sector": "Elbilsladdare/Infrastruktur",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "LVMH",
+      "ticker": "MC.PA",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[31:23]",
+      "reasoning": "Aktien har rusat från 300 euro till 800 euro sedan pandemibotten. Högt värderad och exponerad mot Kina-återöppning. Lönerbjudande nu när alla ger upp tanken på lågkonjunktur. Värderingen baseras på att även de med lägre köpkraft köper lyxvaror, vilket kommer synas i lågkonjunkturen.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Jag tycker att det är ett ypperligt säljtillfälle i LVMO nu. Faktiskt, kommer inte bli bättre.",
+      "sector": "Lyxvaror",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": "Högt värderad, exponerad mot Kina, osäker konsument efterfrågan i lågkonjunktur",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Aselio",
+      "ticker": "ASEL",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[35:16]",
+      "reasoning": "Bolaget har aldrig levererat på någon målsättning någonsin. Tekniken kanske funkar men ingen vill köpa produkten. Om det inte lossnat under energikrisen så kommer det aldrig att lossna. Kapitalanskaffningen ska inte deltagas i.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag skulle inte stoppa in en enda liten kronor i den här kapitalanskaffningen som nu ska genomföras. Aldrig, säger jag.",
+      "sector": "Solceller",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Boost",
+      "ticker": "BOOST",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[40:21]",
+      "reasoning": "Aktien har mer än dubblats på ett halvår och ser riktigt dyrt ut igen. Överträffade sin egen guidance med minimal marginal men gick ut med omvänd vinstvarning. Kurstappet på 16% efter vinstvarningen drivs av blankare som tagit in positioner. Detta är ett sälj.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Det här är ett sälj i min bok här. Jag förstår inte riktigt vad den gör här uppe.",
+      "sector": "E-handel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Ser riktigt dyrt ut efter att ha mer än dubblats",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Handelsbanken",
+      "ticker": "HANDA/B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[40:53]",
+      "reasoning": "A/B-spreaden är på hela 22 kronor. 21 000 personer äger B-aktien på Avanza och kan byta till A-aktien för att göra nästan 20% vinst. A-aktien är dessutom röststarkare. Spreaden brukar gå ihop när man närmar sig utdelning.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Så mitt råd är verkligen att byta nu.",
+      "sector": "Bank",
+      "market": "sweden",
+      "position_context": "Arbitrage möjlighet mellan A och B aktier",
+      "downside_note": null,
+      "catalyst_timing": "Närmare utdelning"
+    },
+    {
+      "stock_name": "Kindred",
+      "ticker": "KIND SDB",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[42:32]",
+      "reasoning": "Köpt efter vinstvarning och stora kursfall. Potential att tjäna mycket pengar på USA-marknaden om ett par år.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag har köpt lite Kindred faktiskt.",
+      "sector": "Gaming/Betting",
+      "market": "sweden",
+      "position_context": "Liten position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kindred",
+      "ticker": "KIND SDB",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[30:43]",
+      "reasoning": "Katastrofal utveckling i USA med 15 miljoner pund i förlust på ett kvartal. Regulatoriska problem i Norge och Belgien. Vinstvarningen skyller på fotbolls-VM men det är svepskäl. Svag guidance för helåret med EBITDA på minst 200 pund, 10% under förväntningarna.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag är inte intresserad av den här aktien trots förra veckans stora kurstapp.",
+      "sector": "Gaming/Betting",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Katastrofal utveckling i USA, regulatoriska problem",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "LVMH",
+      "ticker": "MC.PA",
+      "timestamp_start": "[31:23]",
+      "timestamp_end": "[33:29]",
+      "word_count": 280,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "LVMH-aktien har rusat från 300 euro till 800 euro sedan pandemibotten och är nu ett av världens största företag med ett börsvärde på 400 miljarder euro. Framförallt driver rallit på Kina-återöppningen. Johan är orolig för förlusten av ryska konsumenter och anser att nu är ett ypperligt säljtillfälle.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Lågt värderat på de här nivåerna. Jag är inte intresserad av den här aktien trots förra veckans stora kurstapp.",
+          "timestamp": "[32:20]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tror att det är ett ypperligt säljtillfälle i LVMO nu. Faktiskt, kommer inte bli bättre.",
+          "timestamp": "[33:02]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktiekurs: 800 euro (från 300 euro sedan pandemibotten)",
+          "Marknadsvärde: 400 miljarder euro"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kina-återöppning kan driva lyxkonsumtion",
+          "Stark historisk utveckling"
+        ],
+        "bear_case": [
+          "Hög värdering",
+          "Förlust av ryska konsumenter",
+          "Lågkonjunktur kommer påverka köpkraften även för M&M",
+          "Inga träd växer till himlen"
+        ],
+        "catalysts": [
+          "Kina-återöppning"
+        ],
+        "risks": [
+          "Lågkonjunktur",
+          "Dämpad lyxkonsumtion",
+          "Hög värdering"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Kindred",
+      "ticker": "KIND SDB",
+      "timestamp_start": "[25:47]",
+      "timestamp_end": "[31:04]",
+      "word_count": 800,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Kindred kom med vinstvarning och skyllade på fotbolls-VM. Johan menar att detta är ett svepskäl och de egentliga problemen är katastrofal utveckling i USA och regulatoriska problem i Europa. Vinstvarningen pekar på underliggande problem och bolaget behöver åtgärder för att komma till rätta med lönsamheten.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Men det jag vill komma till är att det här med VM det tycker jag ändå känns som ett svepskäl.",
+          "timestamp": "[26:35]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Utan det är framförallt utvecklingen i USA som är katastrofal. Kindred har förlorat 15 miljoner pund där under kvartalet.",
+          "timestamp": "[28:27]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag är inte intresserad av den här aktien trots förra veckans stora kurstapp.",
+          "timestamp": "[30:43]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Förlust USA: 15 miljoner pund Q4",
+          "Sportboksmarginal: 8,9%",
+          "Historiskt snitt marginal: 9,4%",
+          "EBITDA guidance: minst 200 pund (10% under förväntningar)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "USA-marknaden kan ge stora inkomster om några år",
+          "Sportkalendern ser bra ut 2023 med utskjutna matcher"
+        ],
+        "bear_case": [
+          "Katastrofal utveckling i USA",
+          "Regulatoriska problem i Norge och Belgien",
+          "Underliggande lönsamhetsproblem",
+          "Misslyckad strategi med att smyga sig in i USA"
+        ],
+        "catalysts": [
+          "USA-marknadens utveckling"
+        ],
+        "risks": [
+          "Regulatorisk risk",
+          "Fortsatta förluster i USA",
+          "Svag sportboksmarginal"
+        ]
+      },
+      "position_disclosure": "bought"
+    },
+    {
+      "stock_name": "Aselio",
+      "ticker": "ASEL",
+      "timestamp_start": "[35:16]",
+      "timestamp_end": "[36:42]",
+      "word_count": 360,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Aselio har tidigare klassats som rövbolag i podden och rasade nästan 40% på beskedet att leveransmålet för 2023 inte nås och nytt kapital måste tas in. Bolaget har aldrig levererat på någon målsättning någonsin. Johan rekommenderar kategoriskt att inte delta i kapitalanskaffningen.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Här tycker jag, Aselio fungerar som ett perfekt exempel. Fick tidigt rövbolagsstämpeln i podden och där är de fast.",
+          "timestamp": "[35:19]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och om det inte har lossnat under det senaste året energikrisens monsterår, när ska det då lossna? Aldrig, säger jag, och jag skulle inte stoppa in en enda liten kronor i den här kapitalanskaffningen som nu ska genomföras.",
+          "timestamp": "[36:06]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kursras: nästan 40%",
+          "Marknadsvärde: 300 miljoner kronor",
+          "Leveransmål 2023: missas",
+          "Kapitalbehov: nytt kapital ska tas in"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Aldrig levererat på någon målsättning",
+          "Tekniken kanske funkar men ingen vill köpa den",
+          "Fast i rövbolagskasten",
+          "Ej lossnat under energikrisens monsterår"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Ingen efterfrågan på produkten",
+          "Kontinuerliga kapitaltillskott krävs"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Mag Interactive",
+      "ticker": "MAGI",
+      "timestamp_start": "[23:25]",
+      "timestamp_end": "[25:36]",
+      "word_count": 420,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Mag Interactive kom med en väldigt ohärlig rapport enligt John. Omsättningen steg men kostnaden för user acquisition ökade drastiskt från 14,5 miljoner till 51 miljoner samtidigt som antalet spelare gick ner 30%. Resultatet var mycket svagt och aktien föll 15%.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Men det är ju en sån här Twitterfavorit också som har blivit lite pinsamt nu när den har visat sig vara så dålig.",
+          "timestamp": "[23:40]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Den kostnaden går från 14,5 miljoner till 51 miljoner och det är ju samtidigt som antalet spelare går ned massor. På månadsbasis 30 procent jämfört med förra året.",
+          "timestamp": "[24:07]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det här känns inte som att man behöver kasta sig in just nu.",
+          "timestamp": "[25:30]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "User acquisition kostnad: 14,5M -> 51M",
+          "Antalet spelare: ner 30% jämfört med förra året",
+          "Kursfall: cirka 15%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Spelarna kan generera pengar framöver (diskuterades men Johan ifrågasätter det)"
+        ],
+        "bear_case": [
+          "Drastiskt ökade user acquisition kostnader",
+          "Minskat antal spelare",
+          "Mycket dåligt resultat",
+          "Affärsmodellen ifrågasatt - man byter pengar med kunder"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Höga marknadsföringskostnader",
+          "Sjunkande spelarbas"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "[13:29]",
+      "timestamp_end": "[15:45]",
+      "word_count": 450,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Teslas oväntade prissänkning beskrivs som ett enormt svaghetstecken av John som menar att det skapar missnöjda kunder som gått miste om 100 000 kronor. Johan däremot tycker det var ganska bra gjort och förstår inte varför folk försöker sälja. Diskuterar också konsekvenser för Volvo Cars och elbilsladdare.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Men det är svårt att komma ifrån att det är ett enormt svaghetstecken för Tesla.",
+          "timestamp": "[13:33]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Mängder av förbannade bilköpare som gått miste om 100 000 kronor i rabatt och en begagnad marknad som nu har värderat över en natt.",
+          "timestamp": "[13:34]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag förstår ju inte att folk försöker ta en fulig och sälja Tesla till kanske, och för samma pengar kunna köpa en ny.",
+          "timestamp": "[14:21]",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Prissänkning: 100 000 kronor"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Långsiktigt bra för elbilarnas framtid att de blir billigare",
+          "Elon kan trycka ut lite extra volym med hjälp av prissänkningen"
+        ],
+        "bear_case": [
+          "Enormt svaghetstecken",
+          "Mängder av förbannade bilköpare",
+          "Begagnad marknad värderats över en natt",
+          "Strategiskt jättemistak"
+        ],
+        "catalysts": [
+          "Elbilar blir billigare driver adoption"
+        ],
+        "risks": [
+          "Missnöjda kunder",
+          "Press på konkurrenter som Volvo Cars"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Ingenting är inprisat. Det säger nåt om det vi brukar prata om, att det som man tror är diskonterat i kurserna nästan aldrig är det, när det är dåliga nyheter.",
+      "summary": "Marknaden diskonterar sällan dåliga nyheter, så när de kommer är det ofta en överraskning för aktiemarknaden.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[38:46]",
+      "confidence": "high",
+      "tags": [
+        "marknadseffektivitet",
+        "diskontering"
+      ]
+    },
+    {
+      "quote": "Man verkligen, verkligen inte ska lita på bolagsmål långt fram i tiden för att de uppfylls nästan aldrig. Framförallt inte föröppningsbolag.",
+      "summary": "Företags målsättningar långt fram i tiden uppfylls nästan aldrig, särskilt inte för bolag i föröppningsfas.",
+      "category": "lesson",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[36:39]",
+      "confidence": "high",
+      "tags": [
+        "bolagsmål",
+        "tillväxtbolag"
+      ]
+    },
+    {
+      "quote": "Att följa börsen ger en enorm allmänbildning av ekonomin och hur världen och samhället fungerar som är extremt nyttigt jämfört med att ha en hobby som förstör pengar.",
+      "summary": "Börsintresse ger värdefull allmänbildning om ekonomi och samhälle jämfört med många andra hobbys som bara kostar pengar.",
+      "category": "philosophy",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[11:43]",
+      "confidence": "high",
+      "tags": [
+        "investeringsfilosofi",
+        "kunskap"
+      ]
+    },
+    {
+      "quote": "Många småbolag, alltså mikrobolag då, som är noterade, inte har kraft till att både utföra sin verksamhet och att växa samtidigt, man klarar bara ett av dem.",
+      "summary": "Många mikrobolag saknar kapacitet att både driva sin verksamhet och växa, de klarar bara ett av målen.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[06:29]",
+      "confidence": "medium",
+      "tags": [
+        "small-cap",
+        "tillväxt"
+      ]
+    },
+    {
+      "quote": "Jag gillar inte det här. Affärsmodellen där man liksom växlar pengar med kunderna i princip. Aldrig riktigt, ja.",
+      "summary": "Ifrågasätter affärsmodellen i spelbolag där man lägger stora pengar på att skaffa kunder, känner det osäkert.",
+      "category": "lesson",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[25:14]",
+      "confidence": "medium",
+      "tags": [
+        "gamingbolag",
+        "affärsmodell"
+      ]
+    },
+    {
+      "quote": "Inga träd växer till himlen, känns ju ganska befogat här och jag tycker att man nog skulle kunna ta hem lite vinst faktiskt.",
+      "summary": "Inga aktier stiger för evigt, det är viktigt att ta hem vinster när värderingen blir hög.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[32:52]",
+      "confidence": "high",
+      "tags": [
+        "vinsthemtagning",
+        "värdering"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet fokuserar på rapportperioden, kritik mot mikrobolag som inte skapar aktieägarvärde, vinstvarningar från gamingbolagen Mag Interactive och Kindred, Teslas prissänkning som strategisk misstag, samt rekommendationer att sälja LVMH och undvika Aselio. Diskussionen lyfter också Handelsbankens A/B-spread som arbitrage-möjlighet.",
+  "key_takeaways": [
+    "Mikrobolag under 500 Mkr i börsvärde skapar sällan värde",
+    "Kindreds vinstvarning avslöjar underliggande problem, inte VM-effekt",
+    "Teslas prissänkning är svaghetstecken enligt John",
+    "LVMH bör säljas enligt Johan på nuvarande nivåer",
+    "Handelsbanken A/B-spread på 22 kr ger arbitrage-möjlighet",
+    "Aselio klassas som rövbolag och bör undvikas"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2023-01-18-1eaf.txt",
+  "transcript_word_count": 7507,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

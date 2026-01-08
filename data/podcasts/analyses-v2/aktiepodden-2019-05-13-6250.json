@@ -1,0 +1,335 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2019-05-13-6250",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "Avsnitt 76 - Senioranalytikerns genidrag",
+  "episode_number": 76,
+  "date": "2019-05-13",
+  "hosts": [
+    "Carl-Henrik Söderberg",
+    "Kristoffer Anermark"
+  ],
+  "guests": [
+    "Dag Ölander"
+  ],
+  "main_topics": [
+    "Hållbarhet",
+    "Klimatangest",
+    "Solceller",
+    "Bränsleceller",
+    "Swedbank",
+    "Handelskrig",
+    "Ränteläge",
+    "Marknadskonjunktur"
+  ],
+  "stocks_discussed": [
+    "E-tion",
+    "Powercell",
+    "Swedbank",
+    "Minesto"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Swedbank",
+      "ticker": "SWED-A",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Dag Ölander",
+      "speaker_role": "guest",
+      "timestamp": "09:45",
+      "reasoning": "Göran Persson som ordförande är positivt för Swedbank i det knepiga läget med myndighetsförhandlingar kring penningtvätt. Han är politiskt och socialt kunnig vilket är viktigt i förhandlingar med EU och amerikanska myndigheter. Banken saknar dock fortfarande vd och hela sektorn känns trött med svaga rapporter från Nordia och Danske Bank.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker att valet att Göran Persson som ordförande och att han accepterade det här är naturligtvis jättebra för Swedbank i det här knepiga läget som de befinner sig i eftersom det är förhandlingar på väldigt hög nivå med myndigheter.",
+      "sector": "Banks",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Svenska indexfond",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Dag Ölander",
+      "speaker_role": "guest",
+      "timestamp": "15:20",
+      "reasoning": "Föredrar svensk indexfond framför amerikansk på grund av svag krona. Kronan är undervärderad och borde stå högre, vilket gör att köpa amerikanska aktier innebär valutarisk om kronan stärks. Den dopade kronan gör att svenska exportbolag tjänar mycket.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag skulle nog köpa en svensk i alla fall alltså. Grejen är väl ändå det att vi har en dopad valuta. Det är så att kronan är för svag. Den borde stå högre än vad den gör.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "E-tion",
+      "ticker": null,
+      "timestamp_start": "05:38",
+      "timestamp_end": "08:30",
+      "word_count": 300,
+      "speakers": [
+        "Dag Ölander",
+        "Carl-Henrik Söderberg",
+        "Kristoffer Anermark"
+      ],
+      "primary_speaker": "Dag Ölander",
+      "discussion_summary": "E-tion utvecklar solcellsparker globalt med fokus på Japan, men har haft problem med subventioner i Italien där staten strök bidrag. Bolaget väntas göra minusresultat 2019-2020 med ökad nettoskuld. Dag Ölander tycker inte att caset som aktie är särskilt intressant.",
+      "quotes": [
+        {
+          "speaker": "Dag Ölander",
+          "text": "Jag tycker inte att caset som aktie är speciellt intressant egentligen.",
+          "timestamp": "05:52",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Dag Ölander",
+          "text": "Om E-tion behöver ytterligare kapital så kommer de säkert att göra nån riktad emission till 5% rabatt. Så det blir inte någon företrädesemission.",
+          "timestamp": "08:19",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Ökad nettoskuld",
+        "custom": [
+          "Minusresultat 2019-2020"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Subventioner försvinner i Italien",
+          "Minusresultat väntas 2019-2020",
+          "Ökad nettoskuld"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Statsfinansiella problem i länder där de verkar",
+          "Subventioner dras in retroaktivt"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Powercell",
+      "ticker": "PCELL",
+      "timestamp_start": "08:30",
+      "timestamp_end": "09:33",
+      "word_count": 200,
+      "speakers": [
+        "Dag Ölander",
+        "Carl-Henrik Söderberg",
+        "Kristoffer Anermark"
+      ],
+      "primary_speaker": "Dag Ölander",
+      "discussion_summary": "Powercell är ett Göteborgsbolag från Volvo som håller på med bränsleceller. Aktien har gått fantastiskt efter att de tackade nej till en amerikansk affär med för hårda villkor men sen gjorde en stor affär med Borsch, världens ledande underleverantör till bilindustrin.",
+      "quotes": [
+        {
+          "speaker": "Dag Ölander",
+          "text": "De tackade nej till en affär i Amerika eftersom de ställde för hårda villkor och var äldre ensamrätter och sånt där. Och sen, några veckor senare så fick de ett... gjorde en stor affär med Borsch, som ju är världens ledande underleverantör till bilindustrin.",
+          "timestamp": "08:45",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktien fördubblades på ett par veckor"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Bränsleceller kan vara bättre än batterier i bilar",
+          "Stor affär med Borsch - världens ledande underleverantör till bilindustrin"
+        ],
+        "bear_case": [
+          "Tveksamt om bränsleceller är bättre än batterier"
+        ],
+        "catalysts": [
+          "Affär med Borsch"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Swedbank",
+      "ticker": "SWED-A",
+      "timestamp_start": "09:45",
+      "timestamp_end": "11:54",
+      "word_count": 400,
+      "speakers": [
+        "Dag Ölander",
+        "Carl-Henrik Söderberg",
+        "Kristoffer Anermark"
+      ],
+      "primary_speaker": "Dag Ölander",
+      "discussion_summary": "Swedbank har utsett Göran Persson som ordförande vilket är positivt för hanteringen av penningtvättskandalen och myndighetsförhandlingar. Persson är politiskt kunnig men banken saknar fortfarande vd. Hela banksektorn känns trött med svaga rapporter.",
+      "quotes": [
+        {
+          "speaker": "Dag Ölander",
+          "text": "Jag tycker att valet att Göran Persson som ordförande och att han accepterade det här är naturligtvis jättebra för Swedbank i det här knepiga läget som de befinner sig i eftersom det är förhandlingar på väldigt hög nivå med myndigheter.",
+          "timestamp": "09:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Dag Ölander",
+          "text": "Men banken saknar fortfarande vd och hela sektorn känns lite trött. Omräckliga rapporterna som kom nu, både Nordia och Danske Bank var väldigt svaga.",
+          "timestamp": "10:48",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Göran Persson som ordförande - politiskt och socialt kunnig",
+          "Kompetent för myndighetsförhandlingar kring penningtvätt"
+        ],
+        "bear_case": [
+          "Banken saknar vd",
+          "Hela banksektorn känns trött",
+          "Svaga rapporter från konkurrenter (Nordia, Danske Bank)"
+        ],
+        "catalysts": [
+          "Lösning av penningtvättskandalen"
+        ],
+        "risks": [
+          "Försämrade kreditförluster",
+          "Konkurrens från fintech och bolånsspecialister",
+          "Ökade IT-krav och regulatoriska kostnader"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är ofta så med patent och liknande sånt att patenten håller inte där att de går och går runt och att produkten inte är tillräckligt unik för att det funkar kommersiellt. Sen är det ju obehörda kostnader naturligtvis att lansera nya produkter.",
+      "summary": "Patentbaserade investeringar i tekniksektorn har risker - patent kan inte skydda för evigt och kommersialisering är dyrt.",
+      "category": "wisdom",
+      "speaker": "Dag Ölander",
+      "speaker_role": "guest",
+      "timestamp": "04:10",
+      "confidence": "high",
+      "tags": [
+        "patent",
+        "teknik",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Det finns de som pekar ut traditionella banker som dinosaurier. Fintech kommer starkt och Europakonjunkturen vänder ner och kreditförlusterna ser lite...",
+      "summary": "Traditionella banker hotas av fintech och kan ses som utdöende dinosaurier.",
+      "category": "wisdom",
+      "speaker": "Dag Ölander",
+      "speaker_role": "guest",
+      "timestamp": "11:12",
+      "confidence": "medium",
+      "tags": [
+        "banker",
+        "fintech",
+        "disruption"
+      ]
+    },
+    {
+      "quote": "Hela världsekonomin är ju dopad av det här ränteläget. Så vi har liksom 2,5 procent i tio år i amerikansk ränta. Och det är ju, realtid är ju en halv procent, inflationen är ju två procent. Så det är nästan ingen realränta alls liksom. Och i Europa kör vi negativa realräntor.",
+      "summary": "Världsekonomin är artificiellt upprätthållen av extremt låga räntor med nästan ingen realränta.",
+      "category": "wisdom",
+      "speaker": "Dag Ölander",
+      "speaker_role": "guest",
+      "timestamp": "12:39",
+      "confidence": "high",
+      "tags": [
+        "räntor",
+        "ekonomi",
+        "realränta"
+      ]
+    },
+    {
+      "quote": "Kronförsvagningen talar omräkligen för börsen. Att börsen inte har gått ännu bättre i år än nästan 20% upp inklusive i utdelningarna beror ju på att bankerna har gått så dåligt.",
+      "summary": "Svag krona är positivt för börsen men bankernas svaga utveckling bromsar indexet.",
+      "category": "wisdom",
+      "speaker": "Dag Ölander",
+      "speaker_role": "guest",
+      "timestamp": "13:45",
+      "confidence": "high",
+      "tags": [
+        "valuta",
+        "krona",
+        "börs"
+      ]
+    },
+    {
+      "quote": "Jag tycker framåt att man kan vara hyfsat försiktig och att börsen har tagit ut ganska mycket förskott nu.",
+      "summary": "Var försiktig nu eftersom börsen redan har tagit ut mycket av framtida förväntningar.",
+      "category": "wisdom",
+      "speaker": "Dag Ölander",
+      "speaker_role": "guest",
+      "timestamp": "14:03",
+      "confidence": "high",
+      "tags": [
+        "marknadstiming",
+        "försiktighet"
+      ]
+    },
+    {
+      "quote": "Tittar du på 4-5 årsskikt så har ju kronan tappat 50% mot dollarn. Alltså det är klart att en halvering i växelkursen, det är ju en flerårig trend också. Det är ingenting som har hänt här senast.",
+      "summary": "Kronans försvagning mot dollarn är en långsiktig sekulärtrend, inte bara ett kortsiktigt fenomen.",
+      "category": "wisdom",
+      "speaker": "Dag Ölander",
+      "speaker_role": "guest",
+      "timestamp": "16:01",
+      "confidence": "high",
+      "tags": [
+        "valuta",
+        "krona",
+        "dollarn",
+        "trend"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på hållbarhetssektorn med diskussioner om solcellsbolaget E-tion (negativt), bränslecellsbolaget Powercell (positivt efter Borsch-affär), och Swedbank där Göran Persson som ordförande ses som positivt men sektorn känns trött. Marknaden bedöms vara hyfsad men börsen har tagit ut mycket förskott.",
+  "key_takeaways": [
+    "Hållbarhetstrenden är stark i Stockholm men sektorn innehåller risker och fallgropar",
+    "Powercell gjorde ett genombrott med affär med Borsch efter att ha tackat nej till amerikanskt erbjudande",
+    "Göran Persson som Swedbank-ordförande är positivt för penningtvättshanteringen",
+    "Världsekonomin är dopad av extremt låga räntor med nästan ingen realränta",
+    "Var försiktig med börsen nu då den tagit ut mycket förskott",
+    "Svenska indexfonder föredras framför amerikanska på grund av svag krona"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2019-05-13-6250.txt",
+  "transcript_word_count": 3026,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,330 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2016-04-06-4709",
+  "podcast_name": "Sparpodden",
+  "episode_title": "#sparpodden Ep 126 - Frågebonanza och Panama",
+  "episode_number": 126,
+  "date": "2016-04-06",
+  "hosts": ["Jocke Bornaud", "Eva Truin"],
+  "guests": [],
+  "main_topics": ["Tesla Model 3", "Nordea Panama Papers", "Utdelnings ETFs", "MTG e-sport", "Kvantitativa investeringar", "Startups", "Bankbyte"],
+  "stocks_discussed": ["Tesla", "Nordea", "MTG"],
+  "recommendations": [
+    {
+      "stock_name": "Tesla",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "03:22",
+      "reasoning": "Jocke uttrycker skepsis men stort intresse. Tesla har 279 000 förbokningar för Model 3 med 10 000 kr i deposition var, vilket ger nästan 3 miljarder kronor i finansiering. Utmaningen är att öka produktionen från 50 000 till 250 000 bilar samtidigt som kvaliteten måste upprätthållas. Bilar levereras slutet 2017 men i Europa först 2018. Konkurrens från BMW/Audi osäker.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag är lite skeptisk till Tesla, och jag tror att du har mycket rätt i att ta steget från att producera 50 000 bilar till 250 000. Det är ett stort step. Spännande att se, lyckas de med det, och lyckas de göra det med kvalitet.",
+      "sector": "Automotive",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Modell 3 leverans slutet 2017 (2018 i Europa)"
+    },
+    {
+      "stock_name": "Nordea",
+      "ticker": null,
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Eva Truin",
+      "speaker_role": "host",
+      "timestamp": "09:40",
+      "reasoning": "Eva äger aktien med argumentet att Nordea var mest intressant av storbankerna. Nordea är inblandad i Panamadokumenten genom brevlådeföretag men bolaget menar att inget varit juridiskt felaktigt sedan 2009. Verksamheten är en begränsad del av banken och väntas inte påverka aktien markant.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag var inte helt nöjd för jag köpte ju faktiskt Nordea. Med argumentet av att jag tyckte att det var den mest intressanta av Storbankerna för någon vecka sedan här.",
+      "sector": "Bank",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "MTG",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Eva Truin",
+      "speaker_role": "host",
+      "timestamp": "29:43",
+      "reasoning": "MTG investerar i e-sport som ses som mycket attraktivt och växande affärsområde. Gamla satsningar på TV/kabel-TV har hårt tryck och ViaPlay tar stryk mot Netflix. E-sport växer enormt mycket i intäkter. Branschfolk är positiva till MTG:s satsning och tror det kan bli riktigt bra. Upplevs som lågt värderad med stor potential men svåranalyserat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det känns som det här är en del i MTG som är ganska lågt värderad. Och jag tycker att den känns superintressant faktisk. Intäkterna inom e-sporten växer. Och det där är en riktig smygare kanske. Jag tror att det är värt att hålla koll på det där.",
+      "sector": "Media",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Tesla",
+      "ticker": null,
+      "timestamp_start": "03:04",
+      "timestamp_end": "07:10",
+      "word_count": 350,
+      "speakers": ["Jocke Bornaud", "Eva Truin"],
+      "primary_speaker": "Jocke Bornaud",
+      "discussion_summary": "Tesla presenterade Model 3 med enormt intresse - 279 000 förbokningar på en helg med 10 000 kr deposition var, vilket ger nästan 3 miljarder i kapital. Utmaningen är att skala produktion från 50 000 till massproduktion samtidigt som kvalitetssäkring. Bilar levereras slutet 2017 (Europa 2018). Konkurrens från etablerade biltillverkare osäker men Tesla har starkt varumärke och nätverkseffekter.",
+      "quotes": [
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Jag skulle inte säga att Tesla har varit på djupvatten. Jag är ju också den som säger att Tesla är inte bara bilen. Det är så mycket runtomkring Tesla. Man måste lägga in värderingen av Tesla.",
+          "timestamp": "03:22",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "Jag var inne och tittade nu i lördags var det 279 000 bilar som redan är förbokade. De planerar ju att de första bilen kommer komma slutet 2017.",
+          "timestamp": "03:42",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Jag tror, jag är lite skeptisk till Tesla, och jag tror att du har mycket rätt i att ta steget från att producera 50 000 bilar till 250 000. Det är ett stort step.",
+          "timestamp": "05:48",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "Det är bra vitamininjektion i den firman, 3 miljarders spänn rakt in sådär. På en helg.",
+          "timestamp": "05:41",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "BMW kan jag tycka ligger ju ganska långt fram, eller alla håller väl på att titta på det här, men det som det pratas om nu är ju helt andra märken.",
+          "timestamp": "06:35",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["279 000 förbokningar", "10 000 kr deposition per bil", "Produktion 50 000 bilar förra året"]
+      },
+      "thesis": {
+        "bull_case": ["Enorm efterfrågan med 279 000 förbokningar", "3 miljarder kronor i finansiering via depositioner", "Tesla är mer än bilar - ekosystem kring bolaget", "Lågt prissegment där etablerade biltillverkare är svaga"],
+        "bear_case": ["Massiv utmaning att skala produktion från 50 000 till massproduktion", "Kvalitetsrisker vid snabb uppskalning", "Konkurrens från BMW, Audi och andra etablerade märken", "Elans track record för tidsleveranser är inte perfekt"],
+        "catalysts": ["Modell 3 leverans slutet 2017", "Marknadslansering i Europa 2018"],
+        "risks": ["Produktionsproblem", "Kvalitetsproblem vid uppskalning", "Konkurrens från etablerade biltillverkare"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Nordea",
+      "ticker": null,
+      "timestamp_start": "09:40",
+      "timestamp_end": "15:52",
+      "word_count": 500,
+      "speakers": ["Jocke Bornaud", "Eva Truin"],
+      "primary_speaker": "Eva Truin",
+      "discussion_summary": "Panamadokumenten avslöjar att Nordea hjälpt kunder skapa brevlådeföretag i Panama för att undvika skatt. Banken menar att inget varit juridiskt felaktigt sedan 2009 men det är etiskt och moraliskt felaktigt. Verksamheten utgör en begränsad del av banken. Väntat begränsad aktiepåverkan men potentiellt positivt att sådant avslöjas.",
+      "quotes": [
+        {
+          "speaker": "Eva Truin",
+          "text": "Jag var inte helt nöjd för jag köpte ju faktiskt Nordea. Med argumentet av att jag tyckte att det var den mest intressanta av Storbankerna för någon vecka sedan här.",
+          "timestamp": "09:40",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Ska vi helt ärlig, jag tror ganska lite kanske. Jag tror inte det kommer påverka så mycket.",
+          "timestamp": "11:58",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "Jag har svårt att se att det finns något annat syfte till att äga ett brevlådeföretag på Panama än att undanhålla skatt eller att tvätta pengar.",
+          "timestamp": "10:47",
+          "context": "other"
+        },
+        {
+          "speaker": "Jocke Bornaud",
+          "text": "Det som är positivt att det här kommer fram, det är för att man verkligen har börjat jaga den här typen av lösningar.",
+          "timestamp": "12:30",
+          "context": "other"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "Jag tror de gladas just nu. Det är nog Swedbank. Jag tror de är supernöjda. Fokus försvann. Helt plötsligt kan man andas i sumpan igen och slippa drevet.",
+          "timestamp": "13:31",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Eva köpte aktien som mest intressant av storbankerna", "Begränsad del av verksamheten påverkad", "Positivt att skatteflykt avslöjas och jagas"],
+        "bear_case": ["Panamadokumenten skadar ryktet", "Etiska och moraliska problem med brevlådeföretag", "Regulatorisk risk och potentiella straffavgifter"],
+        "catalysts": [],
+        "risks": ["Ryktesskada", "Regulatoriska åtgärder", "Kundflykt från drabbade konton"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "MTG",
+      "ticker": null,
+      "timestamp_start": "28:55",
+      "timestamp_end": "31:32",
+      "word_count": 300,
+      "speakers": ["Jocke Bornaud", "Eva Truin"],
+      "primary_speaker": "Eva Truin",
+      "discussion_summary": "MTG satsar på e-sport som ses som mycket intressant och växande affärsområde. Gamla TV/kabel-TV verksamhet har hårt tryck. ViaPlay tar stryk mot Netflix. E-sport växer enormt mycket i intäkter. Branschfolk är positiva till MTG:s satsning och tror det kan bli riktigt bra. Upplevs som lågt värderad med stor potential men svåranalyserat.",
+      "quotes": [
+        {
+          "speaker": "Eva Truin",
+          "text": "Gamla satsningarna på TV, kabel-TV, ganska hård press. Man satsar mycket på ViaPlay som ska konkurrera med Netflix. Och tagit en hel del stryk på det.",
+          "timestamp": "30:16",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "Det känns som det här är en del i MTG som är ganska lågt värderad. Och jag tycker att den känns superintressant faktisk.",
+          "timestamp": "29:43",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "Intäkterna inom e-sporten växer. Och det där är en riktig smygare kanske.",
+          "timestamp": "30:36",
+          "context": "metric"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "De jag har pratat med i alla fall har trott att det kan bli någonting riktigt, riktigt bra. Det är spännande och det finns en stor potential i det och det känns som att via MTGs aktiekurs kan man få den potentialen ganska billigt, spontant.",
+          "timestamp": "30:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Eva Truin",
+          "text": "Men svårt att analysera, svårt att hitta bolag att jämföra med.",
+          "timestamp": "29:43",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Hög tillväxt i e-sport intäkter",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["E-sport växer enormt i intäkter", "Branschfolk positiva till MTG:s satsning", "Stor potential som fångas billigt via aktiekursen", "Smygare som kan ge överraskande uppvärdering"],
+        "bear_case": ["Gamla TV/kabel-TV har hårt tryck", "ViaPlay tar stryk mot Netflix", "Svårt att analysera", "Få jämförbara bolag"],
+        "catalysts": ["Vidare tillväxt i e-sport marknaden"],
+        "risks": ["Analyskomplexitet", "Konkurrens i streaming", "Traditionell mediaverksamhet pressad"]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Sen är det jätteviktigt att komma ihåg att återinvestera i utdelningen. Annars blir det ingen avkastning i den här strategin.",
+      "summary": "Återinvestering av utdelningar är kritiskt för långsiktig avkastning i utdelningsstrategier.",
+      "category": "lesson",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "23:49",
+      "confidence": "high",
+      "tags": ["utdelning", "återinvestering", "långsiktighet"]
+    },
+    {
+      "quote": "Vad som är fördelen med den här typen av investeringar är att det blir inte känslostyrt. Utan du följer den här regeln. Då måste man för att lyckas följa den slaviskt.",
+      "summary": "Kvantitativa strategier minskar emotionella beslut men kräver strikt regelföljelse.",
+      "category": "wisdom",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "27:26",
+      "confidence": "high",
+      "tags": ["kvantitativ investering", "disciplin", "känslor"]
+    },
+    {
+      "quote": "Och en annan del är väl, tänker jag också, att man ser till vilka fler som är där, om det finns personer som är erfarna av att investera i startups.",
+      "summary": "Viktigt att investera tillsammans med erfarna investerare i startups.",
+      "category": "wisdom",
+      "speaker": "Eva Truin",
+      "speaker_role": "host",
+      "timestamp": "33:47",
+      "confidence": "high",
+      "tags": ["startups", "medinvestorer", "erfarenhet"]
+    },
+    {
+      "quote": "Det krävs lite mer engagemang i en start-up än vad det gör i [andra investeringar]. Och man får vara beredd precis som allt, men sannolikheten att det misslyckas är faktiskt högre bland start-ups än [andra bolag]. Och annars blir det lätt ett lotteri.",
+      "summary": "Startups kräver mer engagemang och har högre misslyckandeprobabilitet än traditionella investeringar.",
+      "category": "wisdom",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "34:15",
+      "confidence": "high",
+      "tags": ["startups", "risk", "engagemang", "lotteri"]
+    },
+    {
+      "quote": "Det är väl den strategiska fördelningen som genererar mest avkastning i portfölj över tid. Kontra den taktiska.",
+      "summary": "Strategisk asset allocation (långsiktig) ger mer avkastning än taktisk tajming.",
+      "category": "philosophy",
+      "speaker": "Eva Truin",
+      "speaker_role": "host",
+      "timestamp": "28:16",
+      "confidence": "high",
+      "tags": ["asset allocation", "strategisk vs taktisk", "avkastning"]
+    },
+    {
+      "quote": "Det innebär ju då att om börsen går ner så skickar man in sitt månadsparande i aktier, så då får man större aktiedel.",
+      "summary": "70-30 strategin ger naturlig köp när marknaden går ner genom automatisk rebalansering.",
+      "category": "philosophy",
+      "speaker": "Jocke Bornaud",
+      "speaker_role": "host",
+      "timestamp": "27:35",
+      "confidence": "high",
+      "tags": ["70-30", "rebalansering", "köpa på nedgång"]
+    },
+    {
+      "quote": "Om man ska involvera sig i startups ska man nog vara beredd som vanligt att göra det i flera bolag. Inte bara ta risken i ett bolag förstås, utan här kanske ännu fler bolag.",
+      "summary": "Diversifiering är extra viktigt i startups - investera i flera bolag, inte bara ett.",
+      "category": "wisdom",
+      "speaker": "Eva Truin",
+      "speaker_role": "host",
+      "timestamp": "33:47",
+      "confidence": "high",
+      "tags": ["startups", "diversifiering", "riskhantering"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar Tesla Model 3:s enorma förbokningar men produktionsutmaningar, Nordea och Panamadokumenten med begränsad väntad aktiepåverkan, och MTG:s intressanta e-sport-satsning som upplevs som lågt värderad. Vidare diskuteras utdelningsstrategier, kvantitativa investeringar som Dual Momentum och 70-30-metoden, samt investering i startups.",
+  "key_takeaways": ["Tesla har 279 000 förbokningar för Model 3 men stora produktionsutmaningar", "Eva äger Nordea men Panamadokumenten förväntas inte påverka aktien mycket", "MTG:s e-sport satsning ses som lågt värderad med stor potential men svåranalyserad", "Återinvestering av utdelningar är kritiskt för långsiktig avkastning", "70-30 metoden ger naturlig rebalansering och köp vid nedgångar", "Diversifiering är extra viktigt vid investering i startups"],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2016-04-06-4709.txt",
+  "transcript_word_count": 6754,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,562 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2024-10-03-8d24",
+  "podcast_name": "Market Makers",
+  "episode_title": "#349 Håsen i Gåsen",
+  "episode_number": 349,
+  "date": "2024-10-03",
+  "hosts": [
+    "Fabian",
+    "Niklas",
+    "Mange"
+  ],
+  "guests": [
+    "Chris Steele"
+  ],
+  "main_topics": [
+    "Gaming companies reporting",
+    "Redeye/Neonode controversy",
+    "Guillemot H1 report",
+    "Digital Bros report",
+    "Necker insider sale",
+    "Playtech H1 report"
+  ],
+  "stocks_discussed": [
+    "Guillemot",
+    "Digital Bros",
+    "Necker",
+    "Playtech",
+    "Neonode",
+    "Tangiamo"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Guillemot",
+      "ticker": "GUI",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "18:33",
+      "reasoning": "Guillemot delivered a strong H1 report with revenue up 16% YoY and significant margin recovery. Gross margin improved to 56% from 45%, EBIT margin turned positive to 6.5% from -8%. Strategic partnership with jd.com opens Chinese market where F1 has become the 3rd most popular sport. H2 is seasonally stronger. Current valuation at EV/EBIT 6 rolling 12, expected to shrink to 3-4 for full year. Company buying back shares and reducing debt with strong free cash flow.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "Just nu handlas Guillemot till ev-ebit 6 på rullande 12 och jag antar att den här multipeln kommer krympa rätt rejält under 2024... Jag backtrider lite här och säger att jag började köpa runt 5 euro och ökade rätt rejält efter rapporten eftersom jag tyckte att den visade att Guillemot var på rätt väg.",
+      "sector": "Gaming/Racing equipment",
+      "market": "sweden",
+      "position_context": "Ökade positionen",
+      "downside_note": null,
+      "catalyst_timing": "Singles Day 11 november, julförsäljning, Kina-expansion via jd.com"
+    },
+    {
+      "stock_name": "Guillemot",
+      "ticker": "GUI",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "timestamp": "18:33",
+      "reasoning": "Agrees with Fabian that the H1 report was excellent, especially the gross margin which was the best in 20 years. Shows pricing power not reflected in current valuation. Expects EV/EBIT around 4 for full year. H2 seasonally strong for gifting. Also increased position after report.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "Jag håller med, det var jäkligt fin rapport och framförallt bruttomarginalen där, den var ju den bästa nu i H1 någonsin om man jämför med helår tidigare... Runt ewebit 4 räknar jag med nu och jag tycker fortfarande att det ser jäkligt bildet ut och jag ökade lite lite också efter rapporten faktiskt.",
+      "sector": "Gaming/Racing equipment",
+      "market": "sweden",
+      "position_context": "Ökade positionen",
+      "downside_note": null,
+      "catalyst_timing": "Singles Day, julförsäljning"
+    },
+    {
+      "stock_name": "Digital Bros",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "reasoning": "Digital Bros showing strong cash flow generation and reduced debt from 40M to 25M EUR. Assetto Corsa franchise generates stable EBIT of 23M EUR on 28M EUR revenue (EV/EBIT ~6). However, Assetto Corsa Evo delayed to 2025 early access, and guidance was weaker than expected (guiding lower revenue despite new game launch). Fabian sold some to buy more Guillemot but plans to return when valuation looks even more attractive. Current EV/FCF around 7.",
+      "price_target": null,
+      "time_horizon": "long",
+      "quote": "Jag var tvungen att hitta pengar till att öka min gullimott. Så jag fick sälja med några digitala bros. Men man kommer att ta den och leta sig tillbaka hit förr eller senare. För jag tycker att det ser billigt ut... EV FCF 7 rullande 12 typ. Så det är ju inte dyrt oavsett vad som händer med EVO.",
+      "sector": "Gaming",
+      "market": "other",
+      "position_context": "Säljde del av positionen, planerar återinvestera",
+      "downside_note": null,
+      "catalyst_timing": "Assetto Corsa Evo lansering 2025"
+    },
+    {
+      "stock_name": "Digital Bros",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "reasoning": "Very attractive valuation at EV/EBIT 6 on Assetto Corsa alone. Strong cash flow generation and debt reduction. However, guidance was confusing and weaker than expected - guiding lower revenue despite new flagship game. Mange thinks it's a good long-term buy but waiting for weakness in coming quarters given weak sentiment on gaming releases and Evo delay to Q3 2025.",
+      "price_target": null,
+      "time_horizon": "long",
+      "quote": "Jag tror ändå det skulle kunna vara ett bra läge. Jag tror det är ett ganska bra långsiktigt köp härifrån. Men jag väntar med att öka upp det till en större position i nuläget i alla fall... Det är nog ingen jättestress. Och sen kommer antagligen aktien gå typ 50% direkt efter vi har släppt det här.",
+      "sector": "Gaming",
+      "market": "other",
+      "position_context": "Liten position, väntar med att öka",
+      "downside_note": null,
+      "catalyst_timing": "Assetto Corsa Evo tidig access 2025"
+    },
+    {
+      "stock_name": "Necker",
+      "ticker": "NKSB",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "reasoning": "Major insider sale where Rasmusgruppen representative sold 10% of company at 25% discount. Sale appears related to inheritance dispute, suggesting need for liquidity rather than negative fundamental view. However, Mange concerned about weak Q2 for Synkro lift and uncertain H2. Needed liquidity to buy Playtech, so set sell order at 9.60 which triggered. Plans to potentially re-enter if Q3 weak or strong winter order emerges.",
+      "price_target": null,
+      "time_horizon": "short",
+      "quote": "Jag lade in en säljård på 9.60. När den här nyheten kom och aktiekursen letades upp där igår. Så jag sålde mitt innehav då. Men det är mest för att jag behöver likvider. Inte för att jag tycker att det här insidersäljet var någon megakatastrof... Jag kommer förmodligen att komma in i necka någon gång i framtiden.",
+      "sector": "Industrial technology",
+      "market": "sweden",
+      "position_context": "Säljde hela positionen",
+      "downside_note": null,
+      "catalyst_timing": "Q3 rapport"
+    },
+    {
+      "stock_name": "Necker",
+      "ticker": "NKSB",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "reasoning": "Niklas bought the dip after insider sale news. Bottom around 8.8, bought around 9.1. Views insider sale as driven by inheritance dispute rather than fundamental issues. Believes Necker is a good company at attractive price after panic selling.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "Själv satt man ju där och dipsjöpte skiten. Man var ju in lite sent. För det bottnade väl på 8,8 någonting... Jag lyckades väl hova in lite på 9,1 ungefär och sitta kvar på dem.",
+      "sector": "Industrial technology",
+      "market": "sweden",
+      "position_context": "Dipköp",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Playtech",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "timestamp": "35:27",
+      "reasoning": "Strong B2B performance with revenue up 48M EUR, FCF up 117% YoY. Potential for margin expansion - currently at 10% while sector peers much higher. After operator division sale, 80% of market cap will be cash, providing strong downside protection. Valuation around 5.5x FCF for remaining business. US operations growing 200% QoQ from low base. The Caliente deal slightly worse than expected (40M EUR less FCF) but H1 so strong that FCF estimates still raised. Antitrust approval needed for sale but no major risks seen. Distribution expected early 2025.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "Nettoomsättningen för business to business... ökade med 48 miljoner euro och free cash flow med 38 miljoner euro... Efter försäljningen så är 80 procent av market cap. Cash... det gör ju att om kursen går upp 20 procent. Så går evo free cash flow från 6 till 10... Jag tyckte sammantaget att rapporten var bra. Jag är bull på det här caset. Köpte mer efter rapporten.",
+      "sector": "Gaming/iGaming supplier",
+      "market": "other",
+      "position_context": "Köpte mer efter rapporten",
+      "downside_note": "Begränsad nedsida tack vare stor kassaposition",
+      "catalyst_timing": "Operator division closing early 2025, utdelning av kassa"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Guillemot",
+      "ticker": "GUI",
+      "timestamp_start": "13:57",
+      "timestamp_end": "21:22",
+      "word_count": 800,
+      "speakers": [
+        "Fabian",
+        "Mange",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Guillemot delivered a very strong H1 report with revenue up 16% YoY and significant margin recovery. Gross margin at 56% (best in 20 years), EBIT margin improved from -8% to 6.5%. Strategic partnership with jd.com opens Chinese market where F1 popularity is surging (3rd most popular sport after basketball and football, 15-20% of households watch). Both hosts increased positions after report. Valuation currently at EV/EBIT 6 rolling 12, expected to shrink to 3-4 for full year as H2 is seasonally stronger. Company is buying back shares and reducing debt with strong free cash flow.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "H2-rapporten kom förra torsdagen den 26 november. Det var första gången vi fick se ebit den senaste kvartalen... Omsättningen steg 16% year on year och man började se en riktig fin återhämtning i marginalerna. Bruttomarginalen landade på 56% jämfört med 45% förra året. Ebitmarginalen 6,5% jämfört med minus 8% förra året",
+          "timestamp": "15:17",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Cirka 15-20% av alla hushåll kollar F1 eller har kollat F1... För 2021 såg jag siffror på att cirka 15% av unika tittare kom från Kina. Det är en väldigt stor marknad och det gör att det blir väldigt intressant nu att Guillemot har en möjlighet att ta sig in i Kina via den största e-handlaren",
+          "timestamp": "16:49",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Just nu handlas Guillemot till ev-ebit 6 på rullande 12 och jag antar att den här multipeln kommer krympa rätt rejält under 2024. För jag ansar att vi kommer se en liknande multipel-exkommission i andra halvåret som vi har sett i första halvåret... Jag skulle inte bli förvånad om vi skulle se att bolaget handlas till ev-ebit 3-4 för det hela året",
+          "timestamp": "17:57",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mange",
+          "text": "framförallt bruttomarginalen där, den var ju den bästa nu i H1 någonsin om man jämför med helår tidigare... H2 blir ju starkare, speciellt för det här som liksom är hyfsat stora köp och lämpar sig väldigt väl på kanske en Black Friday eller en julaftons present",
+          "timestamp": "18:33",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "16%",
+        "margin": {
+          "gross_margin": "56%",
+          "ebit_margin": "6.5%"
+        },
+        "debt_level": "Nettokassan fortsätter att växa",
+        "custom": [
+          "Bruttomarginal bäst på 20 år",
+          "Nettoomsättning +16% YoY"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "H1 rapport visar stark återhämtning",
+          "Bruttomarginal 56% (bäst på 20 år)",
+          "Strategiskt partnerskap med jd.com öppnar Kina-marknad",
+          "F1 har blivit extremt populärt i Kina (3:e mest populär sport)",
+          "EV/EBIT 6 rullande 12, förväntas falla till 3-4",
+          "H2 historiskt starkare period",
+          "Bolaget köper tillbaka aktier och minskar skuld"
+        ],
+        "bear_case": [
+          "Gamingbolag drabbade av Covid-pull forward"
+        ],
+        "catalysts": [
+          "Kina-expansion via jd.com",
+          "Singles Day 11 november",
+          "Julförsäljning",
+          "F1-popularitet i Kina"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Digital Bros",
+      "ticker": null,
+      "timestamp_start": "20:47",
+      "timestamp_end": "31:03",
+      "word_count": 1200,
+      "speakers": [
+        "Fabian",
+        "Mange",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Digital Bros reported but market reacted negatively due to red accounting numbers. Actual cash flow generation is strong. Major positive: Debt reduced from 40M to 25M EUR, continuing aggressive reduction. Assetto Corsa franchise generates stable 23M EUR EBIT on 28M EUR revenue (EV/EBIT ~6). However, flagship game Assetto Corsa Evo delayed again - now early access in 2025 instead of full release. Guidance confusing and weaker than expected - guiding lower revenue despite new game launch. Trailer showed promising features, game trending top 20 gaming on YouTube. Both hosts think valuation attractive (EV/FCF 7, EV/EBIT 6 on Assetto Corsa alone) but Fabian sold some to buy Guillemot while Mange waiting for weakness given weak gaming sentiment.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Den stora grejen här var egentligen att man har pumpat ned sin skuld från 40 miljoner euro till 25 miljoner euro. Och man fortsatte att aggressivt plöja ner den här",
+          "timestamp": "21:23",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Men den större grejen med det här är att det ska vara early access. Alltså inte en full release som jag tidigare tolkat det som... en större grej med det här är att det ska vara early access",
+          "timestamp": "22:09",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Jag har sätter korsa omsatt till 28 miljoner euro i de senaste tolv månaderna. Man har typ kostnaderna på 5 miljoner euro. Det gör en ebit på 23 miljoner mot ett market cap... Så man har typ ev-ebit 6 bara på det spelet. Det är det som jag tycker gör det här caset så intressant",
+          "timestamp": "27:19",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "EV FCF 7 rullande 12 typ. Så det är ju inte dyrt oavsett vad som händer med EVO... Jag var tvungen att hitta pengar till att öka min gullimott. Så jag fick sälja med några digitala bros. Men man kommer att ta den och leta sig tillbaka hit förr eller senare",
+          "timestamp": "28:24",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Jag tror ändå det skulle kunna vara ett bra läge. Jag tror det är ett ganska bra långsiktigt köp härifrån. Men jag väntar med att öka upp det till en större position i nuläget i alla fall",
+          "timestamp": "30:11",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "EV FCF 7",
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Nettoskuld minskad från 40M till 25M EUR",
+        "custom": [
+          "Assetto Corsa EBIT: 23M EUR",
+          "Assetto Corsa omsättning: 28M EUR",
+          "EV/EBIT 6 på Assetto Corsa",
+          "Nettoskuld: 22M EUR"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Starkt kassaflöde",
+          "Aggressiv skuldminskning (40M→25M EUR)",
+          "Assetto Corsa ger stabil 23M EUR EBIT på 28M EUR omsättning",
+          "EV/EBIT 6 på Assetto Corsa ensam",
+          "EV/FCF 7 rullande 12",
+          "Assetto Corsa Evo trailer visade bra features, trendande på YouTube"
+        ],
+        "bear_case": [
+          "Assetto Corsa Evo försenad till 2025 early access",
+          "Guidance svagare än väntat - guidar lägre intäkter trots nytt spel",
+          "Dåligt sentiment för gaming-releaser"
+        ],
+        "catalysts": [
+          "Assetto Corsa Evo early access 2025"
+        ],
+        "risks": [
+          "Svagt gaming-sentiment kan sänka aktien om EVO inte levererar",
+          "Guidance osäker och svag"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Necker",
+      "ticker": "NKSB",
+      "timestamp_start": "31:22",
+      "timestamp_end": "35:22",
+      "word_count": 700,
+      "speakers": [
+        "Mange",
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Mange",
+      "discussion_summary": "Major insider sale where Rasmusgruppen representative sold 10% of Necker at 25% discount. Sale appears driven by inheritance dispute - son inherited 9B SEK in assets, gave 400M to sisters, needed liquidity. However, choosing to sell Necker is negative signal despite rational reasons. Mange also concerned about weak Q2 for Synkro lift and uncertain H2. Set sell order at 9.60 which triggered to get liquidity for Playtech purchase. Plans to potentially re-enter if Q3 weak or strong winter order appears. Niklas bought the dip around 9.1.",
+      "quotes": [
+        {
+          "speaker": "Mange",
+          "text": "Det var en ganska rejäl insiderförsäljning i Neckar om man säger så. Det var en representant för Rasmusgruppen som har suttit i styrelsen sedan 2015. Som sålde 10% av bolaget med 25% rabatt. Det är en av de sjukaste rabatter man någonsin sett i ett insidersälj",
+          "timestamp": "31:27",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Jag läste någon artikel där det verkar ha varit en arvstvist i den här Rasmusgruppen... en av sönerna där fick öva typ allt från mamman. Det vill säga 9 miljarder värda tillgångar i Nok. När han hade rätt mycket systrar. Fan, omskolen då... Men han vill ju vara lite schysst med systrarna... Så han ska ge 400 miljoner till dem för att vara snäll",
+          "timestamp": "31:56",
+          "context": "other"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Men att han väljer att sälja neckar är ju såklart ingen jättebra signal... Sen ska man också ha med sig att han som satt i styrelsen som var representant för dem. Han var 70 år gammal. Han var tydligen inte jätteaktiv i styrelsen. Så det är väl ändå rätt rimligt att tänka att de vill kanske skala ner antalet innehav",
+          "timestamp": "32:16",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Jag behövde lite likvider för att köpa med i Playtex... Så jag lade in en säljård på 9.60. När den här nyheten kom och aktiekursen letades upp där igår. Så jag sålde mitt innehav då... Jag kommer förmodligen att komma in i necka någon gång i framtiden... Hoppas på lite svag Q3",
+          "timestamp": "33:42",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Själv satt man ju där och dipsjöpte skiten. Man var ju in lite sent. För det bottnade väl på 8,8 någonting... Jag lyckades väl hova in lite på 9,1 ungefär och sitta kvar på dem",
+          "timestamp": "34:37",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Insiderförsäljning: 10% av bolaget",
+          "Rabatt: 25%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Insiderförsäljning driven av arvstvist snarare än fundamentala problem",
+          "Äldre ägare vill skala ner antalet innehav",
+          "Necker är en bra bolag",
+          "Q3 kan bli svagt vilket skapar köpläge"
+        ],
+        "bear_case": [
+          "Väljer att sälja Necker bland 9 miljarder i tillgångar - negativ signal",
+          "Synkro lift-del har inte jättestarkt H2",
+          "Q2 var inte jättestarkt"
+        ],
+        "catalysts": [
+          "Q3 rapport",
+          "Vinterorder"
+        ],
+        "risks": [
+          "H2 kan vara svagt för Synkro lift",
+          "Negativ signal från insiderförsäljning"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Playtech",
+      "ticker": null,
+      "timestamp_start": "35:27",
+      "timestamp_end": "42:26",
+      "word_count": 1000,
+      "speakers": [
+        "Mange",
+        "Fabian"
+      ],
+      "primary_speaker": "Mange",
+      "discussion_summary": "Playtech delivered very strong H1 report. B2B business revenue up 48M EUR, FCF up 117% YoY (38M EUR increase). Significant margin expansion potential - currently at 10% while sector peers much higher. B2B division EBITDA target of 200-250M EUR moved up - now achieving this year instead of next year. After operator division sale, 80% of market cap will be cash, providing exceptional downside protection. Valuation around 5.5x FCF for remaining business. US operations growing 200% QoQ from low base, structural growth in Americas. Caliente deal revised - 40M EUR less FCF but H1 so strong that estimates still raised from 68M to 110M FCF. Antitrust approval needed for sale but no major risks. Distribution expected early 2025. Management bonus tied to dividend distribution - unusual but apparently standard in UK. Mange bought more after report.",
+      "quotes": [
+        {
+          "speaker": "Mange",
+          "text": "Nettoomsättningen för business to business... Den ökade med 48 miljoner euro och free cash flow med 38 miljoner euro. Och det motsvar då en ökning i free cash flow med 117 procent year on year",
+          "timestamp": "35:27",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Efter försäljningen så är 80 procent av market cap. Cash. Det gör ju att om kursen går upp 20 procent. Så går evo free cash flow från 6 till 10. Och motsvarande skulle kursen gå ner 20 procent. Så är evo free cash flow 1... jag tror att det är väldigt liten risk. Att bolaget kommer krascha eller gå ner mer än 20 procent. För då handlas man liksom till negativt EV",
+          "timestamp": "36:53",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Men det verkar nu som att man kommer få 40 miljoner euro mindre i free cash flow... Men sen samtidigt h1 var så extremt bra. Så jag har höjt min estimat i free cash flow ändå. Även om jag räknar med det här. Och tror att man kommer gå från 68 till ungefär 110 miljoner i free cash flow... Då är det 5,5 i free cash flow",
+          "timestamp": "36:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mange",
+          "text": "Jag tyckte sammantaget att rapporten var bra. Jag är bull på det här caset. Köpte mer efter rapporten... Tesen som jag lägger fram EWF och Cashflow 5,5 bygger ju på att de här grejerna går igenom... Men man ska ha med sig det. Det är en del lösa delar men det tror jag också är en grej som kan göra att det är lite rabatt i det här caset",
+          "timestamp": "40:46",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "5.5x FCF",
+        "dividend_yield": null,
+        "revenue_growth": "+48M EUR B2B, +117% YoY FCF",
+        "margin": "Operationell marginal 10%",
+        "debt_level": null,
+        "custom": [
+          "B2B EBITDA-mål: 200-250M EUR (uppnås i år)",
+          "Kassaposition: 80% av market cap efter försäljning",
+          "US-tillväxt: 200% QoQ",
+          "FCF uppskattning: 68→110M EUR"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark B2B tillväxt (+48M EUR omsättning)",
+          "FCF upp 117% YoY",
+          "Signifikant marginalpotential - nu 10%, sektorn mycket högre",
+          "EBITDA-mål flyttat fram - uppnås nu i år",
+          "80% av market cap i kassa = extremt starkt nedsideskydd",
+          "FCF 5.5x för kvarvarande verksamhet",
+          "USA-verksamhet växer 200% QoQ",
+          "Strukturell tillväxt i Americas"
+        ],
+        "bear_case": [
+          "Caliente-deal 40M EUR sämre än väntat",
+          "Försäljning av operatörsdelen ej stängd ännu - kräver antitrust-godkännande",
+          "Management incitamentsprogram kopplat till utdelning"
+        ],
+        "catalysts": [
+          "Operator division stängning förväntas tidigt 2025",
+          "Utdelning av stor kassaposition",
+          "USA-expansion",
+          "Antitrust godkännande"
+        ],
+        "risks": [
+          "Försäljning ej stängd - antitrust risk",
+          "Caliente-deal sämre än väntat"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag skulle vilja ge analytikern här lite cred. Han vågar ha skin in the game, faktiskt sätta en price target som sticker ut till skillnad mot alla andra analytiker i gamet som sitter och skruvar upp 1-2 procentenheter i kvartalet eller höjer och sänker i efterhand",
+      "summary": "Analytiker bör ha skin in the game och våga sticka ut med unika åsikter, istället för att bara göra marginala justeringar av estimat i efterhand",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "05:05",
+      "confidence": "high",
+      "tags": [
+        "analytiker",
+        "skin in the game",
+        "price targets"
+      ]
+    },
+    {
+      "quote": "Det kanske man borde fånga upp. Men Red har ju en tydlig policy kring handel i aktier för de som är anställda och jag antar att analytikerna har följt det här... Jag tycker att det är rätt orimligt att anställda, oavsett vad du jobbar med... att du ska försöka tolka det här själv och ska behöva göra dina egna bedömningar",
+      "summary": "Företagsledningar bör ta ansvar för att godkänna analyser och ta itu med bristande riktlinjer istället för att kasta enskilda anställda under bussen",
+      "category": "lesson",
+      "speaker": "Mange",
+      "speaker_role": "host",
+      "timestamp": "07:16",
+      "confidence": "high",
+      "tags": [
+        "ledarskap",
+        "ansvar",
+        "policy",
+        "governance"
+      ]
+    },
+    {
+      "quote": "När vd då Björn Fallén går ut i dej slänger en av sina anställda under bussen så ligger det här på honom. På vdn. Det är liksom uppenbart att den här killen har ju noll kohones. Det är ju helt ofattbart att någon anställd på Redeye någonsin kan ha förtroende för den här killen igen. En bra vd hade gått ut och sagt det är bristande riktlinjer internt. Vi ska reda ut det här. Ta på sig kritiken och sen förbättra bolaget",
+      "summary": "Ledning bör ta ansvar för brister i organisation och riktlinjer istället för att skylla på enskilda anställda när problem uppstår",
+      "category": "lesson",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "11:22",
+      "confidence": "high",
+      "tags": [
+        "ledarskap",
+        "ansvar",
+        "vd",
+        "governance"
+      ]
+    },
+    {
+      "quote": "Jag som har kämpat mot sentimentet i flera av mina bolag senaste åren vet hur jobbigt det kan vara. Även när ett bolag levererar fundamentalt. Men börsen bryr sig inte nödvändigtvis om inte den här headline-grejen också presterar",
+      "summary": "Marknadssentiment kan driva aktiekurser mer än fundamentala resultat - även bolag som levererar starkt kan falla om headline-händelser inte uppfyller förväntningar",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "26:16",
+      "confidence": "high",
+      "tags": [
+        "sentiment",
+        "marknad",
+        "fundamental",
+        "timing"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Market Makers diskuterar gamingbolagsrapporter där Guillemot och Digital Bros levererade starkt men marknaden reagerade olika. Guillemot backade med marginalförbättring och Kina-partnerskap, båda hosts köpte mer. Digital Bros visade starkt kassaflöde men Assetto Corsa Evo försenad och svag guidance, Fabian sålde delar men båda ser billigt värde. Necker drabbades av stor insiderförsäljning vid arvstvist - Mange sålde för att köpa Playtech, Niklas dipköpte. Playtech levererade mycket starkt med FCF upp 117% och efter försäljning kommer 80% av market cap vara kassa, vilket ger extremt nedsideskydd. Mange köpte mer.",
+  "key_takeaways": [
+    "Guillemot H1 mycket stark med bruttomarginal bäst på 20 år, Kina-expansion via jd.com, båda hosts ökade",
+    "Digital Bros billigt (EV/EBIT 6 på Assetto Corsa, EV/FCF 7) men EVO försenad och svag guidance - Fabian sålde men planerar återinvestera",
+    "Necker insiderförsäljning (10% vid 25% rabatt) driven av arvstvist, Mange sålde för Playtech-likviditet, Niklas dipköpte",
+    "Playtech B2B FCF upp 117%, 80% av market cap blir kassa efter försäljning = extremt starkt nedsideskydd, Mange köpte mer",
+    "Redeye-skandal där organisation bör ta ansvar för bristande riktlinjer istället för att kasta analytiker under bussen"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2024-10-03-8d24.txt",
+  "transcript_word_count": 8647,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

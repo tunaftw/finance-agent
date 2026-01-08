@@ -1,0 +1,87 @@
+{
+  "source_id": "eSKJrN07RmQ",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-02-07",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Market bounced from monthly support at range low and is now approaching resistance at the range midpoint around 47-50k",
+      "quote": "the tldr of what's happened is that the market has bounced from support in the form of this monthly range low and has now bounced and is bouncing towards resistance in the form of this high time frame range midpoint",
+      "price_levels": [
+        "$35k",
+        "$47-50k",
+        "$58k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Warning against buying at resistance levels (47-50k) despite recent upward momentum",
+      "quote": "just like 30k is a short i think blindly into 30k is a short i think blindly into 47 and 50k is a shitlong just in my opinion",
+      "price_levels": [
+        "$47-50k"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Monthly support at 35k held and provided a bounce as expected",
+      "quote": "35k is monthly support so it's likely to hold or at least offer a bounce as we've argued on numerous occasions",
+      "price_levels": [
+        "$35k"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$30k",
+        "$35k",
+        "$47-50k",
+        "$58k"
+      ]
+    }
+  },
+  "key_insights": [
+    "Market bounced from monthly support at range low and is approaching resistance at range midpoint (47-50k)",
+    "Multiple timeframes (monthly, weekly) and moving averages converge at 47-50k resistance zone",
+    "Best setups will emerge after market congests at high time frame inflection point rather than chasing into resistance",
+    "Resistance at 47-50k is 'stacked' with multiple confluences making it a poor entry point for longs",
+    "Market needs to show how it reacts at this inflection point before better setups develop"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Better setup after congestion at 47-50k",
+      "target": "$50-58k range high",
+      "stop": "Not specified - waiting for clearer setup",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin bounced from monthly support around 35k and is now approaching significant resistance at the 47-50k range midpoint. Cred advises against FOMO buying at these resistance levels, noting multiple confluences including monthly/weekly clusters and moving averages stack at this area. He suggests waiting for the market to congest at this high time frame inflection point where better defined setups may emerge, either for continuation toward the 58k range high or a pullback.",
+  "transcript_word_count": 5524,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:57:33.495454"
+}

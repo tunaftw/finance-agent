@@ -1,0 +1,206 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "analyspodden-2019-08-16-7a2b",
+  "podcast_name": "Analyspodden",
+  "episode_title": "Pengar från himlen",
+  "episode_number": null,
+  "date": "2019-08-16",
+  "hosts": [
+    "Victor Munkramar",
+    "Johan Wendel"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Börsoro",
+    "Inverterad räntekurva",
+    "Rapporter",
+    "ICA",
+    "Spelbolag",
+    "Makro"
+  ],
+  "stocks_discussed": [
+    "ICA Gruppen",
+    "Axfood",
+    "ABB",
+    "Sandvik",
+    "Telia",
+    "Leo Vegas",
+    "TOQ",
+    "Paradox Interactive",
+    "Elekta"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "ICA Gruppen",
+      "ticker": "ICA-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "12:31",
+      "reasoning": "Defensiv aktie med låg risk, jämförs med obligationer. Direktavkastning på 2,5%. Lämplig i oroliga tider då konsumenter måste köpa mjölk och smör oavsett konjunktur. Analytikerna är skeptiska, men aktien slog kursrekord efter senaste rapporten.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ica-Axfood exempel på några sådana där aktier som man gillar i de här roliga tiderna, alltså låg risk. Man behöver köpa mjölk och smör. Man ser dem lite som sådana här obligationer.",
+      "sector": "Handel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Axfood",
+      "ticker": "AXFO",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "12:31",
+      "reasoning": "Defensiv aktie med låg risk, i likhet med konkurrenten ICA. Lämplig i oroliga marknadsmiljö. Analytikerna är skeptiska.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ica-Axfood exempel på några sådana där aktier som man gillar i de här roliga tiderna, alltså låg risk. Man behöver köpa mjölk och smör.",
+      "sector": "Handel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "TOQ (Embracer Group)",
+      "ticker": "EMBRAC-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "19:51",
+      "reasoning": "Varning för förvärvsrisker. Bolaget har gjort många förvärv och investerare vill nu se utfall snarare än nya förvärv. Högre värdering kan vara motiverad för Paradox som har mindre förvärvsrisker.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker man ska ha en lite lägre värdering på TOQ kontra kanske Paradox som har en, det är ju inte lika mycket förvärvsrisker i Paradox som det är i TOQ. Det har blivit ganska många rörliga delar i TOQ och det har ökat risken liksom faktiskt.",
+      "sector": "Spel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Förvärvsintegrationer kan misslyckas",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "ICA Gruppen",
+      "ticker": "ICA-B",
+      "timestamp_start": "10:54",
+      "timestamp_end": "12:52",
+      "word_count": 250,
+      "speakers": [
+        "Johan Wendel",
+        "Victor Munkramar"
+      ],
+      "primary_speaker": "Johan Wendel",
+      "discussion_summary": "ICA levererade en jättefin rapport som orsakade en short squeeze då aktien slog kursrekord. Trots att analytikerna varit skeptiska och majoriteten har säljråden, samt att blankare finns i aktien, så ser man ICA som en defensiv obligation-liknande investering med direktavkastning på 2,5%. I oroliga tider är det typer av aktier man gillar.",
+      "quotes": [
+        {
+          "speaker": "Johan Wendel",
+          "text": "Var det många blankare som fick täcka sina positioner där? ICA slog verkligen de blankarna på fingrarna.",
+          "timestamp": "11:01",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "Ica-Axfood exempel på några sådana där aktier som man gillar i de här roliga tiderna, alltså låg risk. Man behöver köpa mjölk och smör.",
+          "timestamp": "12:31",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Victor Munkramar",
+          "text": "Man ser dem lite som sådana här obligationer. För om vi ser Icas direktavkastning, den har ju gått som obligationerna i stort. Den är ner på 2,5 procent nu.",
+          "timestamp": "12:42",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "2,5%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Defensiv aktie i oroliga tider",
+          "Direktavkastning på 2,5% likt obligationer",
+          "Slog kursrekord efter stark rapport"
+        ],
+        "bear_case": [
+          "Analytiker skeptiska - ingen köprek",
+          "Blankare positioner",
+          "Direct yield sjunkande"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Konjunkturavmattning påverkar konsumenter"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Oroligt och stökigt läge i alla fall, får man säga. Också lite oroligt i vissa bolag på Stockholmsbörsen. Nu har vi alltså Sandvik, det är Telia som ska rekrytera en ny vd. Svedbank, Nordea, det är stora, det är stort börsvärde på de här aktörerna.",
+      "summary": "Flertalet svenska storbolag saknar vd, vilket skapar osäkerhet.",
+      "category": "wisdom",
+      "speaker": "Victor Munkramar",
+      "speaker_role": "host",
+      "timestamp": "09:59",
+      "confidence": "medium",
+      "tags": [
+        "ledarskap",
+        "storbolag"
+      ]
+    },
+    {
+      "quote": "Man ska ju köpa när alla andra är oroliga sägs det, men det är lättare sagt än gjort eller hur?",
+      "summary": "Det är psykologiskt svårt att köpa aktier när marknaden är orolig.",
+      "category": "wisdom",
+      "speaker": "Victor Munkramar",
+      "speaker_role": "host",
+      "timestamp": "03:43",
+      "confidence": "high",
+      "tags": [
+        "marknadstiming",
+        "psykologi"
+      ]
+    },
+    {
+      "quote": "Jag hoppas att vi ska slippa helikopterpengar. Men visst, det är ju en möjlighet som har diskuterats det senaste decenniet egentligen.",
+      "summary": "Helikopterpengar är en extrem men möjlig åtgärd för centralbanker.",
+      "category": "wisdom",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "15:50",
+      "confidence": "medium",
+      "tags": [
+        "penningpolitik",
+        "centralbanker"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Veckan har varit orolig med inverterad räntekurva i USA som recessionssignal, handelskrig mellan USA och Kina, och politisk oro globalt. Trots detta är Stockholmsbörsen upp 11% i år. ICA levererade en stark rapport som fick blankare att täcka positioner. Spelbolag som TOQ, Paradox och Stillfront växer starkt, men TOQ har förvärvsintegrationer som nu måste leverera. Riksbanken står inför svåra beslut med sjunkande inflationsförväntningar medan ECB förbereder åtgärder.",
+  "key_takeaways": [
+    "Inverterad räntekurva i USA signalerar recession",
+    "ICA och Axfood är defensiva aktier för oroliga tider",
+    "Spelbolagen växer trots stökig börs",
+    "Många svenska storbolag saknar vd",
+    "Riksbankens räntehöjning ser osannolik ut"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/analyspodden/transcripts/analyspodden-2019-08-16-7a2b.txt",
+  "transcript_word_count": 4039,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,228 @@
+{
+  "source_id": "b1dznYafbMQ",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-02-29",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Bitcoin is near all-time highs and expected to break through, leading to altcoin season",
+      "quote": "Bitcoin is currently at around $60,000. I could have bought it at $15,000, but altcoins like Dogecoin are still near their lows",
+      "price_levels": [
+        "$60,000",
+        "$70-90,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "ETH ETF narrative expected to drive price higher, though it hasn't outperformed BTC yet",
+      "quote": "The ETH ETF story is just so logical. Bitcoin ETF got price to go up, ETF will probably get price to go up too",
+      "price_levels": [
+        "0.055 vs BTC"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "mixed",
+      "speaker": "Duck",
+      "context": "Solana has been the hottest coin but may be cooling off while ETH could take over",
+      "quote": "Solana has been the hottest coin on the market for a while, and it's starting to cool down. Meanwhile, everything wants to trade ETH",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "DOGE",
+      "asset_name": "Dogecoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Dogecoin seen as having strong upside potential, with $1 target mentioned",
+      "quote": "I can see Dogecoin going to a dollar. When Bitcoin is near $100,000, new buyers will look for familiar names they know like Doge",
+      "price_levels": [
+        "$0.10-0.12",
+        "$1 target"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "PEPE",
+      "asset_name": "Pepe",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Pepe is performing well and preferred over other meme coins like Bonk",
+      "quote": "I actually like Pepe better than Bonk. It's one of the better buys for me. Downside is zero",
+      "price_levels": [
+        "0.0019-0.0016"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "INJ",
+      "asset_name": "Injective Protocol",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Strong performer holding near all-time highs after consolidation",
+      "quote": "It's actually broken out already. It's been consolidating for like two and a half months around its all-time high, so that's interesting",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BONK",
+      "asset_name": "Bonk",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Meme coin up ~100% but speaker not personally interested despite performance",
+      "quote": "I'm not the biggest fan. I actually like Pepe better than Bonk, and then Bonk people were mad at me",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Labeled as 'Boomer coin' but showing strength, potential ETF narrative",
+      "quote": "Litecoin is the Boomer coin. Honestly, there's probably many other ETFs before Litecoin ETFs",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "UNI",
+      "asset_name": "Uniswap",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "DeFi play that could benefit if ETH performs well",
+      "quote": "I like the narrative and the kind of potential it has. Could pick up the whole DeFi space if ETH does well",
+      "price_levels": [
+        "$12 resistance",
+        "$8 support"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "RNDR",
+      "asset_name": "Render",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Strong performer, breakout level mentioned",
+      "quote": "Render and WLD, what do you want to start with? Looking great even against Bitcoin",
+      "price_levels": [
+        "$4.7-5.3"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "WLD",
+      "asset_name": "Worldcoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Mentioned with Render as performing well, breakout play",
+      "quote": "Render and WLD are interesting to watch",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "FIL",
+      "asset_name": "Filecoin",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Described as having no signs of potential upside, just rising because everything is rising",
+      "quote": "This is one of those coins where you think 'Cool, everything is going up, so Filecoin goes up too.' But this is terrible",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "yes",
+    "key_levels": {
+      "BTC": [
+        "$60,000",
+        "$70-90,000"
+      ],
+      "ETH": [
+        "0.055 vs BTC"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin near all-time highs expected to break through and trigger altcoin season",
+    "Funding rates on altcoins are extremely high at 60-80% indicating strong speculative interest",
+    "Altcoins have been outperforming BTC recently in some cases",
+    "Risk of Bitcoin pullback causing altcoin liquidation but also opportunity to buy dips",
+    "High leverage near record highs is dangerous, better to use spot positions",
+    "ETF narrative for ETH is driving bullish sentiment",
+    "Meme coins and AI-themed coins are seeing significant interest and price action"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Current levels or pullback",
+      "target": "New highs vs BTC if ETF approved",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "DOGE",
+      "direction": "long",
+      "entry": "Current or pullback to $0.10 area",
+      "target": "$1",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "PEPE",
+      "direction": "long",
+      "entry": "Pullback to $0.0016-0.0019 range on flash crash",
+      "target": "New highs",
+      "stop": null,
+      "speaker": "Duck"
+    },
+    {
+      "asset": "INJ",
+      "direction": "long",
+      "entry": "Hold or on breakout",
+      "target": "New highs",
+      "stop": "Weekly invalidation level",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "UNI",
+      "direction": "long",
+      "entry": "Pullback to $8 or on breakout",
+      "target": "$12+",
+      "stop": null,
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "This episode discusses a cryptocurrency market that is extremely bullish with Bitcoin near all-time highs around $60,000. Both hosts expect BTC to break through and potentially reach $70-90,000, which would likely trigger an altcoin season. Funding rates on altcoins are extremely high (60-80%) showing massive speculative interest. Key themes include ETH ETF narrative, meme coins like DOGE and PEPE showing strong performance, and AI-themed coins gaining attention. The speakers warn against using high leverage near market tops and recommend spot positions or very careful leverage management. They identify several coins they find interesting including ETH, DOGE, PEPE, INJ, UNI, and RNDR.",
+  "transcript_word_count": 53191,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:36:15.600349"
+}

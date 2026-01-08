@@ -1,0 +1,940 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2021-09-21-1b39",
+  "podcast_name": "Filo eller Kille?",
+  "episode_title": "Avsnitt 338 - Kinaoro",
+  "episode_number": 338,
+  "date": "2021-09-21",
+  "hosts": [
+    "host1",
+    "host2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Evergrande-krisen",
+    "Gamingsektorn och M&A",
+    "AgirBio/Dynamic Code fusion",
+    "Fraktorater",
+    "Akademedia",
+    "Tether-krypto",
+    "Tesla"
+  ],
+  "stocks_discussed": [
+    "Sagax",
+    "Tesla",
+    "Betsson",
+    "Kindred",
+    "LeoVegas",
+    "AgirBio",
+    "Dynamic Code",
+    "Maersk",
+    "Academedia",
+    "Atlas Copco",
+    "Hexagon",
+    "Kone",
+    "B-Group",
+    "Scout Gaming",
+    "Neonode",
+    "Avcellar"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "14:54",
+      "reasoning": "Tesla har stor exponering mot Kina som är deras viktigaste tillväxtmarknad. ARK Investment Management (Cathie Woods) har sålt av ordentligt förra veckan. Trots Evergrande-krisen har Tesla inte fallit lika mycket som resten av marknaden, vilket tyder på att marknaden fortfarande har mycket förtroende eller att det var short covering. Kinesiska konkurrenter växer fram och Tesla tappar marknadsandelar. Värdering är extremt hög - Tesla är världens 7:e största företag.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag kortade Tesla igår, den var ner kanske 1,5 procent när hela världen stod i brand vilket jag tyckte var väldigt orimligt... Jag kortade det där, jag skrev det på Twitter, jag kortade det runt 400 i morse, och sen gjorde jag en trade och sen blev jag kort igen på 388.",
+      "sector": "Automotive",
+      "market": "us",
+      "position_context": "Kort position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "20:56",
+      "reasoning": "Pontus Lindvall (VD) tvingades sluta plötsligt vilket är negativt då han är \"Mr. Betsson\" och har lyckats väldigt bra historiskt. Budrykten på Rush Street av Fanatics och DraftKings bud på Entain visar att gamingsektorn är i konsolidering. Det kan hända något med Betsson men situationen är otydlig.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Pontus Lindvall, som är Mr. Betsson, fick sluta... det kändes extremt märkligt... jag försökte ju blanka aktien... Det känns som att det är någonting lut här, jag vet inte vad det är. Antingen att de är ovänner eller att de är ovänner om budet, eller det är något man inte förstår här.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": "Försökte korta",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kindred",
+      "ticker": "KIND-SDB",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "25:20",
+      "reasoning": "Gamingsektorn genomgår konsolidering. Rush Street har gått väldigt bra och det känns som att det kommer komma en affär på något sätt där - om de köper Kindred, går ihop med Kindred eller blir uppköpta själva.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det känns ju som att det kommer komma en affär på något sätt där. Om det är att de köper Kindred, går ihop med Kindred eller om de blir uppköpta själva eller vad som helst.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "LeoVegas",
+      "ticker": "LEO",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "24:58",
+      "reasoning": "Handlade LeoVegas på norska DNS-blockeringsnyheten men historiskt har aktien gått dåligt i 5 år efter dåliga förvärv i England. Nu gäller det att vara på rätt vid rätt tillfälle i gamingsektorn.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag handlade lite Leo Vegas idag på den här Norgegrejen och tittar man på deras långa chart så var aktiekursen uppe i 100. De gjorde massa förvärv i England och andra delar och de följde inte väl ut och då blev, har kursen stått still här, gått dåligt i fem år.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Scout Gaming",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "25:52",
+      "reasoning": "Känns som att det kan hända något i denna sektor som är värd att hålla koll på.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nej, jag äger lite scout gaming. Det kan hända någonting där också. Det känns som att det är en sektor som är värd att hålla koll på.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": "Äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Maersk",
+      "ticker": "MAERSK-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "30:38",
+      "reasoning": "Köpte på vinstvarning vid 7000, kurs gick till 20000, sålde på toppen. Sen kom ny dansk vinstvarning och kurs handlas fortfarande runt 20000 vilket känns väldigt dyrt. Om det inte går upp någonsin såldes på rätt pris.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag handlade märsk, kom med någon vinstvarning. Den har gått från 7 000, vart ett ganska hata bolag, upp till 20 000. Sen var det en dansk vinstvarning så jag köpte och sen gick det rakt upp och så sålde jag... Så om märsk inte går upp någonsin så kan jag sålda på högsta priset.",
+      "sector": "Shipping",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Academedia",
+      "ticker": "ACAD",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "34:03",
+      "reasoning": "Kursen gick ner 17% efter att Socialdemokraterna upprepade val löfte om vinstförbud i välfärden. Detta kändes som en överreaktion eftersom Centerpartiet står i januaravtalet mot förbudet. Bolaget har stora utländska tillgångar (dagis i Tyskland, Norge och fastighetsvärden) som uppgår till nästan hela marknadsvärdet. Köpte när kursen var ner 10% från toppen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Akademedia... så gick kursen ner 17 procent efter. Och då började jag köpa när den var ner 10 procent eller någonting. För jag tyckte det fortfarande inte var så konstigt... Men jag har bara svårt att se att en kurs ska gå ner 17 procent på deras förra val efter att de upprepar det. Det kan inte vara en chock det här.",
+      "sector": "Education",
+      "market": "sweden",
+      "position_context": "Äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kone",
+      "ticker": "KONEBV",
+      "action": "avoid",
+      "confidence": "low",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "33:01",
+      "reasoning": "Levererar hissar till nybyggen i Kina. Om Evergrande-krisen leder till mindre byggande i Kina kommer Kone drabbas negativt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ett exempel på ett bolag som gått dåligt innan det här... Det är Kone som levererar hissar till hela nybyggen. Nu kanske inte så mycket nybyggen blir, och då blir det inte så många hissar och rulltrappar.",
+      "sector": "Industrial",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Neonode",
+      "ticker": "NEON",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "15:20",
+      "reasoning": "Har haft länge och nämnt i podden. Trots nedgången igår blev ingenting billigt men detta är bolag han vill ha kvar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Annars än de bolagen jag kanske har haft länge och nämnt här i podden också som Neonode och Avcellar och sådana grejer.",
+      "sector": "Technology",
+      "market": "sweden",
+      "position_context": "Äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "S&P 500",
+      "ticker": "^GSPC",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "41:50",
+      "reasoning": "Kort S&P just nu avvaktande",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ja exakt, jag har i och för sig kort S&P just nu i alla fall, men så får vi se.",
+      "sector": "Index",
+      "market": "us",
+      "position_context": "Kort position",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "14:54",
+      "timestamp_end": "19:29",
+      "word_count": 400,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "Tesla kortades igår på grund av Kina-exponering och hög värdering. Trots Evergrande-krisen faller inte Tesla lika mycket som resten av marknaden. Cathie Woods/ARK har sålt av ordentligt. Tesla är världens 7:e största företag men Kina är en kritisk marknad där kinesiska konkurrenter växer fram. Trots att Tesla skall bygga gigafactory i Kina och sälja bilar till den stora medelklassen, känns strategin fel. Short covering kan ha hållit uppe kursen.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Jag kortade Tesla en hel del, tillsammans med dig.",
+          "timestamp": "14:54",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "host1",
+          "text": "Jag får ju far med att de är ganska exponerade och man ska ha stor tillväxt av nya bilar måste man ju sälja i Kina. Tesla har väl haft både framgångar och problem.",
+          "timestamp": "16:17",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host1",
+          "text": "Jag läste på sociala medier att man har baktalat Kina och de ska ju bygga en gigafactory där och stora bilfabriker och så. Så jag kortade Tesla igår, den var ner kanske 1,5 procent när hela världen stod i brand vilket jag tyckte var väldigt orimligt.",
+          "timestamp": "16:23",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host1",
+          "text": "Det kom en ny lista på de topp 10 största företagen. Det var första gången ett kinesiskt inte var med där när Tencent har åkt ut. Då var ju Tesla nummer sju där, högt värderade företaget i världen.",
+          "timestamp": "16:48",
+          "context": "metric"
+        },
+        {
+          "speaker": "host2",
+          "text": "Där har de ju gått från att vara nummer ett i elbistillverkare, jag vet inte var de är på för plats nu men tre, fyra, för det kommer väldigt mycket konkurrens från kinesiska inhemskap.",
+          "timestamp": "17:21",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Tesla har ju sagt att de ska tillverka bilar i Kina för export, det kan man ju göra men när man har världens största medelklass i landet man tillverkar, jag tycker det rimmar fel, det går inte ihop.",
+          "timestamp": "17:28",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Och sen har ju hon, Katie Woods, börjat sälja Tesla också. Inte lite heller, de kringde ordentligt förra veckan.",
+          "timestamp": "17:42",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Den är ner väldigt lite på det här Kina-raset, så marknaden, om det är någon safe haven, eller att man har väldigt stort förtroende för alla maskat, det här ska inte drabba dem i alla fall.",
+          "timestamp": "18:14",
+          "context": "other"
+        },
+        {
+          "speaker": "host2",
+          "text": "Jag tror att du har väldigt många shorts som täckte igår. Ja, det där sista ralligt uppe igår kväll, jag tyckte inte att det var på några särskilt stora volymer. Jag tror det var short covering.",
+          "timestamp": "18:20",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "Jag kortade det där, jag skrev det på Twitter, jag kortade det runt 400 i morse, och sen gjorde jag en trade och sen blev jag kort igen på 388.",
+          "timestamp": "18:56",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Världens 7:e största företag"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Safe haven i kris",
+          "Stort förtroende på marknaden"
+        ],
+        "bear_case": [
+          "Stor Kina-exponering som är riskfylld",
+          "Hög värdering - världens 7:e största företag",
+          "Kinesiska konkurrenter tar marknadsandelar",
+          "ARK Investment/Cathie Woods säljer av ordentligt",
+          "Strategisk konflikt: vill bygga i Kina för export men missar världens största medelklass"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Kina-kris",
+          "Regeländringar",
+          "Konkurrens"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS-B",
+      "timestamp_start": "19:29",
+      "timestamp_end": "23:26",
+      "word_count": 350,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "Betsson fick budrykte om att Fanatics ville köpa Rush Street. Samtidigt lämnade VD Pontus Lindvall plötsligt, vilket är väldigt märkligt då han är \"Mr. Betsson\" och grunden till framgång. Host1 försökte korta men kursen gick upp på kvarvarande M&A-rykten. Norge införde DNS-blockering av betting-sajter. DraftKings ryktades köpa Entain för 20 miljarder dollar. Gamingsektorn är i kraftig konsolidering men situationen kring Betsson är otydlig.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Pontus Lindvall, som är Mr. Betsson, fick sluta. Det kändes väldigt, det är väl hans familj som har grundat Betsson. Han har kommit fram tillbaka, de har inte riktigt hittat någon bra ersättare.",
+          "timestamp": "20:30",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "Nu känns det extremt märkligt, nu har jag inte hans mycket aktier kvar... men att han får sluta på dagen. Det lyckades ju faktiskt snyggt att få tag i honom, men han sa att han var helt oförstående och att han kunde inte säga så mycket.",
+          "timestamp": "20:35",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "Men jag försökte ju blanka aktien. Den kom ner och sen kom den rakt upp, som att de här budrykterna låg kvar i marknaden och liknande.",
+          "timestamp": "21:15",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "host1",
+          "text": "Det känns som att det är någonting lut här, jag vet inte vad det är. Antingen att de är ovänner eller att de är ovänner om budet, eller det är något man inte förstår här.",
+          "timestamp": "21:35",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Det gjorde jag också.",
+          "timestamp": "21:24",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "host2",
+          "text": "Ja jag håller helt med och oavsett vad så är det ju inte positivt.",
+          "timestamp": "21:41",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Norge har kommit med ett nytt förslag. Det är ett av få monopoländer kvar att man skulle DNS blockera, att man inte ens kan gå in på betting sidorna längre.",
+          "timestamp": "21:59",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Draftkings handlas med enorm premie jämfört med alla andra bolag om att de ska bli den största aktören i hela USA.",
+          "timestamp": "22:37",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "De europeiska bolagen handlar ju extremt lågt jämfört med de amerikanska. Så det känns som att det kommer ju bara spruta runt affärer. Det gäller ju bara att hitta rätt ben. Vem som köper vem.",
+          "timestamp": "22:47",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "M&A-rykten kvarstår",
+          "Gamingsektorn i konsolidering",
+          "Europeiska bolag handlas lågt jämfört med amerikanska"
+        ],
+        "bear_case": [
+          "VD plötsligt sparkad - negativt signal",
+          "Otydlig kring budprocessen",
+          "Norge inför DNS-blockering"
+        ],
+        "catalysts": [
+          "M&A-aktivitet i sektorn"
+        ],
+        "risks": [
+          "Regeländringar",
+          "Nyckelpersoner lämnar"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Academedia",
+      "ticker": "ACAD",
+      "timestamp_start": "33:50",
+      "timestamp_end": "36:18",
+      "word_count": 250,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "Socialdemokraterna upprepade val löfte om vinstförbud i välfärden. Host1 kortade direkt men ingenting hände på 20 minuter så stängde short. Kursen gick ner 17% efteråt och då började han köpa vid 10% nedgång. Överreaktion enligt host1. Centerpartiet står i januaravtalet mot förbudet. Akademedia har stora utländska tillgångar (dagis i Tyskland, Norge och fastighetsvärden) som nästan matchar marknadsvärdet. Det krävs röd-grön majoritet för förbud.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Sen hade vi Akademedia, där kom ju sossarna ut. Och jag tyckte inte det här lät så nytt, om att de ville förbjuda vinster i välfärden. Då kortade jag Akademedia.",
+          "timestamp": "33:50",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "Sen gick kursen ner 17 procent efter. Och då började jag köpa när den var ner 10 procent eller någonting. För jag tyckte det fortfarande inte var så konstigt.",
+          "timestamp": "34:16",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "host1",
+          "text": "Center är ju super emot det här, där stod januaravtalet och så har de bryt i det. Att det inte skulle bli stopp, det var en av Center skrivit i januaravtalet.",
+          "timestamp": "34:28",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Men jag har bara svårt att se att en kurs ska gå ner 17 procent på deras förra val efter att de upprepar det. Det kan inte vara en chock det här.",
+          "timestamp": "34:36",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host2",
+          "text": "Det var mycket dagisverksamheter både i Tyskland, Norge och sen ett fastighetsvärde att de äger fastigheterna där de har sin verksamhet.",
+          "timestamp": "35:13",
+          "context": "metric"
+        },
+        {
+          "speaker": "host2",
+          "text": "Det uppgick väl till nästan vad Market Cap var på Lowe's idag.",
+          "timestamp": "35:23",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Jag kallar den 9-10 och det ska väl vara billigt om det är någon stor politisk oro här.",
+          "timestamp": "35:26",
+          "context": "metric"
+        },
+        {
+          "speaker": "host2",
+          "text": "Då måste de ju få majoritet. Det är ju matematik. Då tror man i så fall att MP, V och SOS-arna ska få majoritet.",
+          "timestamp": "36:01",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Jag tror att det var en överreaktion och jag äger lite aktier här.",
+          "timestamp": "36:10",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kurs: 9-10 SEK",
+          "Fastighetsvärden + utländska tillgångar ≈ marknadsvärdet"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "17% nedgång var överreaktion",
+          "Centerpartiet står emot förbud (januaravtalet)",
+          "Utomlandsverksamhet skyddar mot svenska regleringar",
+          "Fastighetsvärden och dagis i Tyskland/Norge ger stöd"
+        ],
+        "bear_case": [
+          "Röd-grön majoritet skulle kunna ge vinstförbud",
+          "Politisk osäkerhet"
+        ],
+        "catalysts": [
+          "Valresultat",
+          "Politiska förhandlingar"
+        ],
+        "risks": [
+          "Vinstförbud i välfärden",
+          "Politisering av sektorn"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Tether",
+      "ticker": "USDT",
+      "timestamp_start": "36:18",
+      "timestamp_end": "41:35",
+      "word_count": 450,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "Tether är en stablecoin som ska handla 1:1 mot dollarn men nya uppgifter visar att de inte har 100% cash-backing. Senaste uppgiften är 50% commercial papers/bonds. Host1 kortar Tether. Om Tether är \"fake\" och faller, kommer hela kryptomarknaden krascha vilket gör det till en perfekt hedge. Tethers moderbolag är registrerat i Hongkong - kan vara backdoor financing för kinesiska fastighetsbolag. De har tagit in 30 miljarder dollar men inget seriöst bolag skulle låna av dem.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Det har ju pratats mycket om att Teter är en... Det är en stablecoin. Den ska handlas ett i ett, peggad mot dollarn.",
+          "timestamp": "36:22",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "Sen har det kommit fram att de inte har ett till ett cash mot dollarn.",
+          "timestamp": "36:28",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Nu är det väl det senaste budet att de har 50% commercial papers, som bonds och sånt som har bra rating och sådana grejer. Jag tycker att det är sinnessjukt att den handlas fortfarande runt en dollar om de har 50% commercial paper.",
+          "timestamp": "36:36",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Evergrande eller om de inte har Evergrande så kan de ju ha en hel del andra, det finns mycket andra bonds i Kina att äga, men som inte heller går särskilt bra.",
+          "timestamp": "37:13",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "När man pratar med folk då, när jag kortade den till exempel så diskuterade jag med några, så sa att om den är fake då går hela ekosystemet för krypto ner. Då tyckte jag att då är det ju en super hedge. För att den kommer inte gå över ett, det vet vi. Och är den fake så går den ner 100 procent.",
+          "timestamp": "37:36",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Jag var svårt och de åkte ut från New York State och de betalade fines. De gjorde en settlement och erkände inte att de hade... Så det jag menar är att de opererar som en bank men ändå inte. Och de disclose inte sina innehav.",
+          "timestamp": "38:26",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Din nedsida här är egentligen bara räntan då? För att den borde inte gå över igen.",
+          "timestamp": "39:29",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "Ja exakt, det är ju inte så jätte billigt. Jag tror att den kostar väl 20% om året.",
+          "timestamp": "39:33",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Men nu tänker jag mest på när det blåser i Kina och visar sig att det ligger en hund i graven här och Teters moderbolag är registrerat i Hongkong. Det känns som att det kan ju vara en backdoor financing för många skumma fastighetsbolag i Kina.",
+          "timestamp": "39:49",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Sedan årsskiftet har de väl tagit in 30 miljarder i Tete eller har de ju tryckt eller minnat. Och 30 miljarder dollar i bondmarknaden det syns ändå.",
+          "timestamp": "40:22",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Vilket bolag hade då tagit in pengar från Teter? Det är inte Apple liksom. Och det är inget seriöst bolag som gör det.",
+          "timestamp": "40:31",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Och de gjorde då en settlement så att de slapp disklosa någonting. Och det enda de var tvungna att börja göra var att disklosa sina innehav. Och när de gör det så disklosar de ju inte vilka innehav de har, utan de disklosar ratio mellan hur mycket de har i olika tillgångar.",
+          "timestamp": "41:14",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "50% commercial papers/bonds",
+          "30 miljarder dollar outstanding",
+          "Peg: 1 USD",
+          "Short kostnad: ~20%/år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Super hedge mot krypto-krasch - om Tether faller faller hela kryptomarknaden",
+          "Kan ej gå över 1 USD - begränsad uppsida"
+        ],
+        "bear_case": [
+          "Inte 100% cash-backing",
+          "50% i commercial papers/bonds (möjligt Evergrande exponering)",
+          "Registrerad i Hongkong - möjlig backdoor för kinesiska fastighetsbolag",
+          "Kickades från NY state",
+          "Avslöjar inte exakta innehav, bara ratio",
+          "Seriösa bolag lånar inte från Tether"
+        ],
+        "catalysts": [
+          "Kina-kris/Evergrande",
+          "Regulatorisk granskning",
+          "Transparenskrav"
+        ],
+        "risks": [
+          "Systemisk risk i krypto",
+          "Kostnad för short (20%/år)"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "AgirBio / Dynamic Code",
+      "ticker": "AGIR / DYNC",
+      "timestamp_start": "26:01",
+      "timestamp_end": "29:49",
+      "word_count": 280,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host1",
+      "discussion_summary": "AgirBio lade bud på Dynamic Code. AgirBio har gått upp mycket på corona-tester, Dynamic Code har gjort tester för Folkhälsomyndigheten och omsatt enormt med 300 miljoner i kassan. Uppror på båda sidor - Agir-ägare tycker det är för dyrt, Dynamic Code-ägare tycker det är för billigt. Peppins (plattform) tackade ja men ägarna upprörda. Smart av AgirBio att betala med dyra aktier + lite cash och ta över Dynamic Codes kassa. Risk: nya ägare kanske vill sälja.",
+      "quotes": [
+        {
+          "speaker": "host1",
+          "text": "Agirbio som vi pratade om innan. Den har salivtest för corona. Den har haft en fantastisk utveckling på börsen.",
+          "timestamp": "26:01",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "Dynamic Code som har genomfört alla tester för folkhälsomyndigheten, eller många av dem... De har haft en enorm omsättning... De har till och med skrapat ihop 300 miljoner i kassan.",
+          "timestamp": "26:09",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Agirägarna tycker att det var alldeles för dyrt, och i Dynamic Code, ägarna tycker att det var alldeles för billigt. Det är första gången en affär har två förlorare.",
+          "timestamp": "26:53",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Och där tycker jag det är spännande här med Peppins, för då har Peppins tackat ja för alla de här ägarna som har köpt på deras börs. Det kan man väl göra, men det känns ju konstigt om man inte har ägarna med sig.",
+          "timestamp": "27:17",
+          "context": "other"
+        },
+        {
+          "speaker": "host2",
+          "text": "Nu var det någon ombandning på gång in så att man skulle få vanliga Dynamic Code aktier.",
+          "timestamp": "28:20",
+          "context": "other"
+        },
+        {
+          "speaker": "host1",
+          "text": "Det är ju skitsmart att köpa någonting med pengar och sen resten av aktier och få tillgång till den stora kassan.",
+          "timestamp": "28:27",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Det som jag skulle kunna se så negativt för gbio är att du får in massa ägare nu på kort sikt som kanske inte vill äga aktien och då kan det bli lite press på aktien.",
+          "timestamp": "28:31",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Annars tror jag det är jättesmart att slå ihop de här två. Om man har två bolag som har boostad omsättning, man klokar hjärnor på varsin sida och så kan man utöka de här benen och förstå vad man ska göra sen när coronatesterna inte är lika heta längre.",
+          "timestamp": "28:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Och sen så för Agir så handlar det om att visa att de här Asien-ordrarna hittills har inte de hamnat i balansräkningen så det är ju det man vill se.",
+          "timestamp": "28:54",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host1",
+          "text": "Agir aktien har ju handlas ner, Dynamic Code finns ju ingen aktie att handla för den på Peppins har ju varit stoppad.",
+          "timestamp": "29:08",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Dynamic Code kassa: 300 miljoner SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Slå ihop två bolag med boostad coronatest-omsättning",
+          "Kombinera kompetens",
+          "Ta över Dynamic Codes kassa på smart sätt",
+          "Förbereda för när coronatester inte är lika heta"
+        ],
+        "bear_case": [
+          "Agir-ägare tycker för dyrt",
+          "Dynamic Code-ägare tycker för billigt - uppror",
+          "Nya ägare kan sälja trycka kursen",
+          "Asien-order har inte hamnat i balansräkningen än"
+        ],
+        "catalysts": [
+          "När Dynamic Code-aktier kommer ut på marknaden"
+        ],
+        "risks": [
+          "Ägaruppror",
+          "Press på kursen när nya ägare kommer in"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag tycker att man ska ta fasta på att sen kan man säga så här, i Kinas fall så är det ju det är bara positivt om fastighetsmarknaden pyser ihop. Jag förstår ju fortfarande inte vad det positiva är med en het fastighetsmarknad. Annat än att det ska vara att man är en hubb dit alla vill flytta och bo. Fine, kanske. Men det brukar oftast vara liksom en efterhandskonstruktion när man säger varför priserna har gått upp. Just för en ekonomi och ett land så tror jag att det är bättre om du har en rimlig prisnivå på boende. Så att de pengarna som annars skulle då investerats i en fastighetsbubbla går till annat, mer produktiva saker än bara smälla upp massa hus.",
+      "summary": "Fastighetsbubblor drar kapital från produktiva investeringar - lägre bostadspriser är positivt för ekonomin.",
+      "category": "philosophy",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "15:36",
+      "confidence": "high",
+      "tags": [
+        "fastigheter",
+        "bubblor",
+        "kapitalallokering"
+      ]
+    },
+    {
+      "quote": "Jag tycker att man ska ta fasta på att det här hände. Enough is enough. Och jag är ju fortfarande, jag tror ju på kriser. Alla andra vill ju lyckas förinta dem, jag anser att de har sitt syfte och är bra på lång sikt.",
+      "summary": "Kriser har ett syfte och är bra på lång sikt - creative destruction rensar systemet.",
+      "category": "philosophy",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "42:58",
+      "confidence": "high",
+      "tags": [
+        "kriser",
+        "creative destruction",
+        "marknadscykler"
+      ]
+    },
+    {
+      "quote": "Men det känns ju som att det, till exempel Rush Street där den har ju gått väldigt bra, jag tror kanske inte man ska köpa nu men det känns ju som att det kommer komma en affär på något sätt där. Om det är att de köper Kindred, går ihop med Kindred eller om de blir uppköpta själva eller vad som helst. Det känns som att där kommer det ju hända någonting. Betsson likadant. Det är ju verkligen en marknad i konsolidering. Sen kommer ju inte alla bli uppköpta för då skulle man bara köpa allihopa. Det blir jättebra. Så blir det ju inte.",
+      "summary": "I konsoliderande sektorer sker M&A men inte alla bolag blir uppköpta - måste välja rätt.",
+      "category": "wisdom",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "25:20",
+      "confidence": "medium",
+      "tags": [
+        "M&A",
+        "konsolidering",
+        "gaming"
+      ]
+    },
+    {
+      "quote": "Det får man med Mila in med lite tips till oss... Det finns verkligen dolda value case, om man verkligen läser på lite.",
+      "summary": "Det finns dolt värde i bolag om man verkligen läser på och förstår kassaflödet.",
+      "category": "wisdom",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "timestamp": "32:18",
+      "confidence": "medium",
+      "tags": [
+        "dolt värde",
+        "värdering",
+        "kassaflöde"
+      ]
+    },
+    {
+      "quote": "Och jag tror i alla fall att du har en enorm ärdur lite påläst i den här sektorn. Så går det ju ofta att följa datan, hur mycket det omsats varje månad i olika stater i Sverige och liknande. Så det gäller ju bara att förstå vilken bolag man ska ha i olika perioder. Det är stora mästerskap i fotboll, då ska man äga de aktierna kanske. Sen är casino het då, det var corona, då skulle man ha casino.",
+      "summary": "Timing är kritiskt i gaming - äga rätt bolag vid rätt period (fotbolls-VM, casino under corona).",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "24:15",
+      "confidence": "medium",
+      "tags": [
+        "timing",
+        "gaming",
+        "säsongsbetonad"
+      ]
+    },
+    {
+      "quote": "Det är mest intressanta här tycker jag är hur marknaden ignorerar, ignorerar, ignorerar och sen så blir det total panik här plötsligt. Så jag sa att kursen, om jag tittade på rätt aktiekurs, var uppe i 70-80 någonting. Och nu var den nere i 2 dollar och det här var i april i år. Och det känns som att man ju pratat om det här i 2-3 år.",
+      "summary": "Marknaden ignorerar risker länge och får plötslig panik - Evergrande föll från 70-80 till 2 USD.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "05:09",
+      "confidence": "medium",
+      "tags": [
+        "marknadskänslighet",
+        "panik",
+        "ignorera risker"
+      ]
+    },
+    {
+      "quote": "Det var första nedgången över 5-6% över ett år. Vilket är extremt ovanligt. Det brukar alltid gå ner 10%. En nedgång på 10% från Old Town High en gång per år. Dels är det många nya på börsen, dels är det lite kämpigt innan i många småspararfavoriter och sen så kommer det en sån här grej som gör att det märkte man i går. I början var de små innehav som jag äger inte ner så mycket. Men sen i slutavdagen, folk bara springer mot säljknappen.",
+      "summary": "Marknad hade inte haft 10% nedgång på länge - många nya investerare inte vana vid nedgångar.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "14:01",
+      "confidence": "medium",
+      "tags": [
+        "marknadscykler",
+        "nya investerare",
+        "panik"
+      ]
+    },
+    {
+      "quote": "Sen tror jag att det har varit som FOMO i typ ett år. Att jaga efter börsen, jag måste vara med, jag måste in. Sen kommer en sån här. Det gör att folk tappar orken. Jag tror många, framförallt i USA när vi var nere runt 300% där kände nog många att kommer upp igen så ska jag sälja av.",
+      "summary": "Ett års FOMO följt av kris gör att folk tappar orken - planerar sälja vid återhämtning.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "14:46",
+      "confidence": "medium",
+      "tags": [
+        "FOMO",
+        "panik",
+        "investerarpsykologi"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "USDT",
+      "asset_name": "Tether",
+      "sentiment": "bearish",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "quote": "Nu är det väl det senaste budet att de har 50% commercial papers, som bonds och sånt som har bra rating och sådana grejer. Jag tycker att det är sinnessjukt att den handlas fortfarande runt en dollar om de har 50% commercial paper.",
+      "context": "Risk att Tether saknar full cash-backing och kan ha exponering mot kinesiska fastighetsbolag",
+      "confidence": "high",
+      "price_levels": null,
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "USDT",
+      "asset_name": "Tether",
+      "sentiment": "bearish",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "quote": "När jag kortade den till exempel så diskuterade jag med några, så sa att om den är fake då går hela ekosystemet för krypto ner. Då tyckte jag att då är det ju en super hedge.",
+      "context": "Short Tether som hedge mot krypto-krasch",
+      "confidence": "high",
+      "price_levels": [
+        "1 USD (peggad)"
+      ],
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "USDT",
+      "asset_name": "Tether",
+      "sentiment": "bearish",
+      "speaker": "host1",
+      "speaker_role": "host",
+      "quote": "Men nu tänker jag mest på när det blåser i Kina och visar sig att det ligger en hund i graven här och Teters moderbolag är registrerat i Hongkong. Det känns som att det kan ju vara en backdoor financing för många skumma fastighetsbolag i Kina.",
+      "context": "Tether som backdoor financing för kinesiska fastighetsbolag via Hongkong",
+      "confidence": "medium",
+      "price_levels": null,
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Evergrande-krisen i Kina skapade marknadsturbulens men inte fullt systemhot. Gamingsektorn genomför M&A men Betssons plötsliga VD-byte är märkligt. AgirBios bud på Dynamic Code skapar uppror hos båda ägargrupper men fusionen kan vara smart. Academedia föll 17% på politiskt vinstförbud men överreaktion enligt host1. Tether kortas på grund av bristande transparens och möjlig Kina-exponering.",
+  "key_takeaways": [
+    "Evergrande-krisen påverkar svenska bolag med Kina-exponering men inte fullt systemhot",
+    "Gamingsektorn är i konsolidering - M&A-aktivitet men måste välja rätt bolag",
+    "Tether har risker (50% commercial papers, Kina-exponering) - kortas som hedge mot krypto",
+    "Akademedia köps på politisk överreaktion - stora utländska tillgångar ger stöd",
+    "Marknad har inte haft 10% nedgång på länge - många nya investerare inte vana vid kris"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2021-09-21-1b39.txt",
+  "transcript_word_count": 5274,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,374 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2022-05-24-3151",
+  "podcast_name": "Phil & Kill",
+  "episode_title": "Avsnitt 373 - Klarna, färdiga, gå!",
+  "episode_number": 373,
+  "date": "2022-05-24",
+  "hosts": ["Host 1", "Host 2"],
+  "guests": ["Christopher Cook (Carbiotix)"],
+  "main_topics": ["Retail slakten", "Tech-värderingen", "Bavarian Nordic", "Klarna", "Biotech-lanseringar"],
+  "stocks_discussed": ["Truecaller", "H&M", "KALIT", "Nordic Unmanned", "Snapchat", "LVMH"],
+  "recommendations": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "59:46",
+      "reasoning": "Host owns H&M shares. Discussion suggests H&M may be more resilient than smaller retail competitors like Abercrombie & Fitch due to better market position and ability to raise prices. Compared to Inditex, H&M is positioned as cheaper alternative which could help maintain market share during inflation.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag äger H&M. Jag tror inte vi nämnde något annat.",
+      "sector": "Retail",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "KALIT",
+      "ticker": "KALIT",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "31:45",
+      "reasoning": "Host owns shares and describes it as one of the more interesting biotech companies. Recently received EU approval and first sales figures of 18 million SEK. Over 100 doctors have prescribed the expensive medicine. A bank estimated 30 SEK per share profit in 2024 vs current 80 SEK price, indicating significant potential upside.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men jag äger kvar här, får vi se hur kursen rör sig, men det känns väl som ett av de mer intressanta biotechbolagen när man har i en sådan här lansering, när intäkterna kommer.",
+      "sector": "Biotech",
+      "market": "sweden",
+      "position_context": "Säljde några aktier uppe på 100",
+      "downside_note": null,
+      "catalyst_timing": "Nästa rapport"
+    },
+    {
+      "stock_name": "Nordic Unmanned",
+      "ticker": "NOM",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "32:11",
+      "reasoning": "Host owns shares. Company won 12 million euro order from German defense, is part of NATO. Targets 300 million SEK revenue for the year. Drone technology seen as part of future for deliveries and emissions monitoring. May  revenue already equaled entire Q1, showing momentum.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och är man intresserad av drönare, tror jag att det är en del av framtiden, med allt från leveranser till att kolla utsläpp på sjön och så, i havet, då har de ju EU som kund, så kan det vara värt att spana in.",
+      "sector": "Technology/Defense",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Kommande kvartal"
+    },
+    {
+      "stock_name": "Truecaller",
+      "ticker": "TRUE",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "14:49",
+      "reasoning": "Host expresses skepticism about companies in large India. Recent 30-35% drop on news about Indian telecom creating similar app shows market doesn't understand the business. High margins and regulatory challenges in India considered risky. Placing at 61 SEK, now down to 37 SEK shows volatility.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag är skeptisk till allt som är i stora Indien. Det är väl lite som B-kändisar som är go big in Japan.",
+      "sector": "Technology",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Ner från 61 till 37 SEK",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Truecaller",
+      "ticker": "TRUE",
+      "timestamp_start": "14:27",
+      "timestamp_end": "16:36",
+      "word_count": 350,
+      "speakers": ["Host 1", "Host 2"],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Truecaller dropped 30-35% on news about Indian telecom creating a competing app. Host 2 is skeptical about the business in India due to high margins and regulatory challenges. Host 1 traded it successfully during the drop but closed position. The stock experienced significant volatility due to large shareholder selling and recent placing.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Där märker man ju verkligen, folk vet inte vad de äger. Det är väldigt lätt att sparka bort och säga indien. Att de bedriver sin verksamhet i långt bort i stan. Det är alldeles för höga marginaler. Du är väl skeptisk till det här bolaget, kändes det som, innan vi gick in?",
+          "timestamp": "14:49",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Jag är skeptisk till allt som är i stora Indien. Det är väl lite som B-kändisar som är go big in Japan.",
+          "timestamp": "14:49",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Om staten ska komma med en... Om det nu är en kopia då? Har du provat den här skolplattformen? När man kör dagis? Hur det går när staterna ska börja göra egna appar och sånt? Det brukar bli sådär, absolut. Succé.",
+          "timestamp": "15:10",
+          "context": "risk"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Man ska absolut inte dipköpa 10% ner. Man måste verkligen förstå vad man äger. Det blir väldigt jobbigt att äga. Du kommer inte få ner 30% intradag i H&M.",
+          "timestamp": "15:43",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Höga marginaler",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["Skeptisk till Indien-marknaden", "Staten gör konkurrerande app", "Höga marginaler riskabla", "Regulatoriska utmaningar"],
+        "catalysts": [],
+        "risks": ["Konkurrens från indiska staten", "Placings skadar förtroende", "Volatilitet på icke-OMX aktier"]
+      },
+      "position_disclosure": "traded"
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "08:06",
+      "timestamp_end": "13:53",
+      "word_count": 450,
+      "speakers": ["Host 1", "Host 2"],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "H&M is down alongside Walmart, Target, and Abercrombie & Fitch which had severe drops. Retail sector faces margin pressure due to rising costs and inflation. H&M appears more aggressive on price increases than competitors. Compared to Inditex, H&M is positioned as cheaper alternative. May be more resilient than smaller retail players.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Först fick vi Walmart som var den stora, hade sin största nedgång på väldigt länge, 10 procent och sikte ner mycket dagen efter. Sen kom Target, som är någon liknande blandning mellan O-Lens kan man säga, de säljer det mesta.",
+          "timestamp": "08:06",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Och jag tror alla de tre, många har ju liksom suttit på perrongen och inte varit tillräckligt aggressiva i sina prishöjningar.",
+          "timestamp": "09:08",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "I alla fall i H&M fall så tycker jag de ser ut att vara rätt aggressiva på prishöjningarna.",
+          "timestamp": "09:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Men mot Inditex är de ju billigare. Så man får väl se där, det återstår väl att se.",
+          "timestamp": "11:44",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Där tror jag att Midbet är rätt självklart.",
+          "timestamp": "10:44",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Marginalpress pågår",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Aggressiva på prishöjningar", "Billigare än Inditex", "Större än mindre retail-konkurrenter", "Bättre position för att hantera shipping-kostnader"],
+        "bear_case": ["Retail-sektor under press", "Konsumenter kan dra in på köp", "Marginalpress från inflation"],
+        "catalysts": [],
+        "risks": ["Kunder kan skrämmas bort av prishöjningar", "Konjunkturförsämring drabbar retail"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "KALIT",
+      "ticker": "KALIT",
+      "timestamp_start": "29:58",
+      "timestamp_end": "31:45",
+      "word_count": 300,
+      "speakers": ["Host 1", "Host 2"],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "KALIT had a great week with EU approval and first sales of 18 million SEK. Stock went from 70 to 100 on news but has since pulled back to 86 SEK due to broader market decline and biotech index correlation. Over 100 doctors have prescribed the expensive medicine. Bank estimates 30 SEK per share profit in 2024. Host owns shares and believes it's one of the more interesting biotech companies.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Kalidit som hade en pangvecka. De fick både EU-godkännande efter en liten försening. Sedan släppte de sina första försäljningssiffror. De sålde för 18 miljoner kronor.",
+          "timestamp": "30:01",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Jag såg att någon bank hade räknat att de skulle tjäna 30 kronor per aktie i 2024, och aktien står 80 kronor. Gör de det är det bara att springa varv runt Sveriges Torg.",
+          "timestamp": "30:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Den gick från 70 till 100 på både godkännandet och påra portret. Nu när börsen gick ner sig, 86.",
+          "timestamp": "30:38",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Men jag äger kvar här, får vi se hur kursen rör sig, men det känns väl som ett av de mer intressanta biotechbolagen när man har i en sådan här lansering, när intäkterna kommer.",
+          "timestamp": "31:45",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "18 miljoner SEK första försäljning",
+        "margin": "Dyr medicin",
+        "debt_level": null,
+        "custom": ["30 SEK/aktie vinst 2024 uppskattat", "100 läkare skrivit ut preparat"]
+      },
+      "thesis": {
+        "bull_case": ["EU-godkännande på plats", "Första försäljning 18 MSEK", "100+ läkare skrivit ut", "Bank bedömer 30 SEK vinst/aktie 2024", "Dyr medicin för ovanlig sjukdom", "Ensam på marknaden"],
+        "bear_case": ["Risiko att någon konkurrent kommer in", "Korrelerar med biotech-index i USA", "Folk säljer efter nyheter"],
+        "catalysts": ["Nästa rapport med försäljningssiffror"],
+        "risks": ["Konkurrenter kan komma in på marknaden", "Teknisk korellation med Nasdaq/biotech"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Nordic Unmanned",
+      "ticker": "NOM",
+      "timestamp_start": "32:11",
+      "timestamp_end": "33:16",
+      "word_count": 200,
+      "speakers": ["Host 1", "Host 2"],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "Nordic Unmanned won a 12 million euro order from German defense and is part of NATO. Company targets 300 million SEK revenue for the year. May revenue already equaled entire Q1. Drone technology seen as future for deliveries and environmental monitoring. Host owns shares and believes it's worth watching.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Nordic Unmanned och de vann en order från, och de gör drönare då, vann en stor upphandling, 12 miljoner euro från tyska försvaret. De är med i NATO.",
+          "timestamp": "32:11",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Och är man intresserad av drönare, tror jag att det är en del av framtiden, med allt från leveranser till att kolla utsläpp på sjön och så, i havet, då har de ju EU som kund, så kan det vara värt att spana in.",
+          "timestamp": "32:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "De hade omsatt i maj redan lika mycket som hela Q1. Så ja, det verkar rulla på.",
+          "timestamp": "32:40",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "300 miljoner SEK målet för året",
+        "margin": null,
+        "debt_level": null,
+        "custom": ["12 miljoner euro order från tyska försvaret", "Maj omsättning lika med hela Q1"]
+      },
+      "thesis": {
+        "bull_case": ["Stor order från tyska försvaret", "NATO-medlem", "Drönarteknologi framtiden", "EU som kund", "Tidiga intäktsmässiga framgångar"],
+        "bear_case": ["Måste visa lönsamhet", "Kan inte springa på för många bollar samtidigt"],
+        "catalysts": ["Kommande kvartal för fortsatta intäkter"],
+        "risks": ["Behöver visa att det finns lönsamhet", "Räcker det med sales?"]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man ska absolut inte dipköpa 10% ner. Man måste verkligen förstå vad man äger. Det blir väldigt jobbigt att äga. Du kommer inte få ner 30% intradag i H&M.",
+      "summary": "Don't try to catch falling knives. Understand what you own before buying during downturns, as outside OMX stocks can be extremely volatile.",
+      "category": "lesson",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "15:43",
+      "confidence": "high",
+      "tags": ["volatilitet", "riskhantering", "dipköp"]
+    },
+    {
+      "quote": "Någonstans när det här är över så kommer det ju att finnas de nästa Amazon och Google. De är ju här någonstans. Så det är bara att börja vända på stenarna sen. Så något som är viktigt är väl att tänka på att man ska ha torrt krut.",
+      "summary": "When the market correction is over, the next Amazon and Google will emerge. Important to keep dry powder to invest when opportunities arise.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "37:29",
+      "confidence": "high",
+      "tags": ["torrt krut", "marknadskorrigering", "långa investeringshorisonter"]
+    },
+    {
+      "quote": "Jag förväntade mig inte att den gick inte bara tio äggs, utan den gick, jag vet inte vad det slutade på som värst, men nu är det ner igen och det finns sådana vaccintillverkare som alltid någon gång per tionde år ballar fullständigt ur.",
+      "summary": "Vaccine makers can experience massive gains during outbreaks but eventually decline. These cycles happen approximately every decade.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "07:50",
+      "confidence": "medium",
+      "tags": ["vaccinbolag", "cykliska", "utbrott"]
+    },
+    {
+      "quote": "Det är bättre att vänta tills man ser någon form av studs än att försöka fånga när någonting är 10 ner, 15 ner, 20 ner. Det är bara som upplagt för att förlora pengar.",
+      "summary": "Better to wait for confirmed bounce rather than trying to catch falling knives at various down levels. Trying to time bottoms is a recipe for losing money.",
+      "category": "lesson",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "36:54",
+      "confidence": "high",
+      "tags": ["timing", "studs", "fallande knivar"]
+    },
+    {
+      "quote": "Någonstans tror jag att det här som marknaden går igenom nu är jävligt nyttigt på lång sikt. Just för att när man bara sprutar ut pengar som riksdagscentralbankerna har gjort, så är det mycket pengar som hamnar där de inte gör någon nytta och inte skapar produktivitet.",
+      "summary": "The current market correction is healthy in the long run. The excessive money printing by central banks has sent money to unproductive areas that don't create value.",
+      "category": "philosophy",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "36:54",
+      "confidence": "high",
+      "tags": ["marknadskorrigering", "penningpolitik", "produktivitet"]
+    },
+    {
+      "quote": "Plötsligt sitter du där och har ett bolag som bränner pengar, har multiplar, 20-30 gånger sales. Och så börjar andra bolag helt plötsligt se jävligt attraktiva ut. Ingen tittar på ett bolag som har 20-30 gånger sales eller handlas på hudlösa p-tal.",
+      "summary": "In bear markets, companies burning cash with high multiples suddenly look unattractive. Investors shift focus to companies with reasonable valuations and actual earnings.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "27:31",
+      "confidence": "high",
+      "tags": ["multipler", "kassaflöden", "björnmarknad"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Episode discusses broad market weakness with retail slakten affecting Walmart, Target, Abercrombie & Fitch and H&M. Tech sector including Snapchat and Truecaller experiencing severe volatility. Klarna and unlisted tech companies facing valuation corrections. Biotech KALIT had successful EU approval and sales launch, while Nordic Unmanned won significant defense order. Hosts recommend waiting for bear market rally before deploying capital.",
+  "key_takeaways": ["Retail sector facing margin pressure from inflation and supply chain costs", "Companies outside OMX experiencing 30-40% daily drops possible", "KALIT showing strong potential with EU approval and initial sales", "Nordic Unmanned emerging in drone technology with NATO/defense contracts", "Bear market creating opportunities for patient investors with dry powder"],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2022-05-24-3151.txt",
+  "transcript_word_count": 9919,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

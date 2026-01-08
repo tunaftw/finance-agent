@@ -1,0 +1,114 @@
+{
+  "source_id": "35K2Z8M0XIQ",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-09-15",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Duck took a small long position after a fake breakdown around 25-26k, with very tight invalidation and low conviction",
+      "quote": "I actually don't have too much conviction in my trade... that said the longer this takes to move up the more bearish I become again",
+      "price_levels": [
+        "$25.6k",
+        "$26.7k",
+        "$27-28k",
+        "$30k",
+        "$36k"
+      ],
+      "timeframe": "short-term",
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "strongly_bearish",
+      "speaker": "Duck",
+      "context": "ETH has been in a downtrend since August 2022, hasn't reclaimed recent breakdown levels",
+      "quote": "I just see a downtrend ever since basically August of 2022... until that changes you will not see me buy ETH and in general I just don't see a good reason to be buying altcoins",
+      "price_levels": [
+        "$1700"
+      ],
+      "timeframe": null,
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "AVAX",
+      "asset_name": "Avalanche",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "Used as an example of a 'quality' coin that was heavily praised but then price went down and people called it not quality anymore",
+      "quote": "I would say people would have said like 10 12 months ago that avax was the most quality you'd get right and now people are like oh yeah no you should have known that avax is bad right but the only thing that really changed is that price went down",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as one of the best performers with +2%, but overall altcoin market is weak",
+      "quote": "large cap daily price changes at the top is Litecoin with two percent and at the bottom is Ada with minus one point four percent",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "ADA",
+      "asset_name": "Cardano",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "At the bottom of high-cap performance with -1.4%",
+      "quote": "at the bottom is Ada with minus one point four percent and the rest around the median between like zero point well yeah you know like one or two percent either way in terms of price changes so there's really not much going on",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$25.6k",
+        "$26.7k",
+        "$27-28k",
+        "$30k"
+      ],
+      "ETH": [
+        "$1700"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin failed a breakdown at 26k and reclaimed the level, showing some resilience",
+    "Monthly timeframe remains uninteresting, stuck in the middle with no clear direction",
+    "ETF anticipation is the primary factor supporting Bitcoin currently, without it market would likely be much lower",
+    "Altcoin market is in very poor state with minimal volume, retail participation, and most assets declining for 8-12 weeks",
+    "ETH has been in clear downtrend since August 2022 and is weaker than BTC technically",
+    "Only ETF-related flows are bullish for Bitcoin, not necessarily for altcoins",
+    "Current altcoin trading is dominated by manipulation strategies with spot supply cornering creating fake short squeeze setups"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$25-26k (already entered)",
+      "target": "$36k",
+      "stop": "Below $25k",
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "Bitcoin experienced a fake breakdown below 26k and reclaimed the level, with Duck taking a small long position with tight invalidation. Resistance at 27-28k is the key hurdle, with potential to 30k and 36k if broken. ETF flows are supporting BTC. Altcoin market is in poor state with ETH in downtrend since August 2022, minimal retail participation, and most assets declining for multiple weeks. Duck sees no compelling reason to buy altcoins currently.",
+  "transcript_word_count": 52090,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:30:13.831353"
+}

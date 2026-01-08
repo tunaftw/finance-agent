@@ -1,0 +1,178 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "igborssnack-2025-04-02-0258",
+  "podcast_name": "IG Börssnack",
+  "episode_title": "Trumps stora dag",
+  "episode_number": null,
+  "date": "2025-04-02",
+  "hosts": [
+    "IG Host 1",
+    "IG Host 2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Atlas Copco teknisk analys",
+    "H&M rapport",
+    "Trump tullar",
+    "Neonode patenttvist"
+  ],
+  "stocks_discussed": [
+    "Atlas Copco",
+    "H&M",
+    "Neonode"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Atlas Copco",
+      "ticker": "ATCO-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Mikrit",
+      "speaker_role": "guest",
+      "timestamp": "01:22",
+      "reasoning": "Teknisk köpsignal: Aktien har hamnat i intressant stödnivå runt 162 SEK där den konsoliderat tidigare. Risk/reward-spel mot 50 dagars glidande medelvärde på 185 SEK. Stop loss bör placeras strax under 160 SEK för att begränsa nedsidrisken.",
+      "price_target": "185 SEK",
+      "time_horizon": "Kort sikt (teknisk trade)",
+      "quote": "Det är vid nivå ungefär 162 kronor. Och sen menar ju han att när den är där nere så är det en bra risk reward att vänta till en uppgång mot 50 dagars glidande medelvärde som ligger på 185 kronor.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Stopploss under 160 SEK",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "S&P 500",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "IG Host 2",
+      "speaker_role": "host",
+      "timestamp": "09:50",
+      "reasoning": "Partrade mot DAX: Får vänta sig att USA kommer prestera bättre än Europa och Tyskland under närmaste veckan på grund av Trumps tullar som kan komma som en överraskning för många.",
+      "price_target": null,
+      "time_horizon": "En vecka",
+      "quote": "Jag kommer idag sätta in en trade här som är DAX och S&P 500. Där jag helt enkelt går kort DAX och köper S&P 500... Jag tror att den närmaste veckan så kommer USA att prestera bättre än vad Europa och Tyskland kommer göra.",
+      "sector": null,
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Nästa vecka"
+    },
+    {
+      "stock_name": "DAX",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "IG Host 2",
+      "speaker_role": "host",
+      "timestamp": "09:50",
+      "reasoning": "Partrade mot S&P 500: Får vänta sig att Europa och Tyskland kommer prestera sämre än USA under närmaste veckan på grund av Trumps tullar.",
+      "price_target": null,
+      "time_horizon": "En vecka",
+      "quote": "Jag kommer idag sätta in en trade här som är DAX och S&P 500. Där jag helt enkelt går kort DAX och köper S&P 500.",
+      "sector": null,
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Nästa vecka"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Neonode",
+      "ticker": "NEON",
+      "timestamp_start": "11:02",
+      "timestamp_end": "22:13",
+      "word_count": 2000,
+      "speakers": [
+        "IG Host 1",
+        "IG Host 2",
+        "Padik"
+      ],
+      "primary_speaker": "Padik",
+      "discussion_summary": "Omväntande analys av Neonodes patenttvist mot Apple och Samsung gällande touch-teknik (patent 8,7,9). Patentet har bekräftats hålla och rättegång mot Samsung planeras till oktober. Det är ett binärt case med stor uppsida vid vinst men betydande nedsida. Kärnverksamheten värd ca 0.5-1 dollar medan aktien handlas runt 8 dollar på patentspekulationer.",
+      "quotes": [
+        {
+          "speaker": "IG Host 1",
+          "text": "Ett litet svenskt bolag var först med touch-tekniken som vi använder i alla våra mobiltelefoner och tablets. I alla fall om man ska tro Neonode.",
+          "timestamp": "11:02",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Padik",
+          "text": "De har goda chanser i det här läget och det ser potentiellt väldigt bra ut så det ska vi avhandla idag.",
+          "timestamp": "11:26",
+          "context": "thesis"
+        },
+        {
+          "speaker": "IG Host 2",
+          "text": "Just det, för det kan väl göra att ett potentiellt skadestånd blir högre, tre gånger högre till och med.",
+          "timestamp": "14:43",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "IG Host 2",
+          "text": "Betydligt mindre än dagens kurs. Så finns stor fallhöjd, det ska vi vara tydliga med.",
+          "timestamp": "20:27",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kärnverksamhetsvärde: 0.5-1 USD per aktie"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Patent 8,7,9 bekräftat hålla i IPR-process",
+          "Rättegång mot Samsung i oktober",
+          "Miljarder enheter retroaktivt kan skapa stora skadestånd",
+          "Treble damage om vetenskapligt intrång kan bevisas",
+          "Equitas driver processen utan ekonomisk risk för Neonode"
+        ],
+        "bear_case": [
+          "Paten kan falla eller begränsas i rättegång",
+          "Svårt att bevisa ekonomisk skada",
+          "Kärnverksamhet ej lönsam, värd ca 0.5-1 USD",
+          "Aktien handlas på 8 USD nästan helt på patentspekulation",
+          "Binär utgång: antingen litet eller stort utfall"
+        ],
+        "catalysts": [
+          "Rättegång mot Samsung i oktober",
+          "Eventuell förlikning innan rättegång",
+          "Eventuell stämning mot Apple efter Samsung",
+          "Eventuell stämning mot Google/Alphabet"
+        ],
+        "risks": [
+          "Paten ogiltigförklaras",
+          "Ingen ekonomisk skada kan bevisas",
+          "Låga eller inga skadestånd",
+          "Kärnverksamheten fortsätter förlust"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "IG Börssnack diskuterar Atlas Copco som teknisk köpcase vid 162 SEK med målet 185 SEK. H&Ms rapport visar svag tillväxt på 2-3% vilket kan indikera konjunkturella problem. Trumps annonserade tullar kan ge USA förhandlingsstyrka men drabba handelspartners hårdare. Neonodes patenttvist mot Apple/Samsung är ett binärt case med stor uppsida men också betydande nedsida.",
+  "key_takeaways": [
+    "Atlas Copco teknisk köpsignal vid 162 SEK",
+    "H&M svag tillväxt indikerar konsumentproblem",
+    "USA kan gynnas relativt av Trumps tullar",
+    "Neonode är ett binärt patentspekulationscase"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/igborssnack/transcripts/igborssnack-2025-04-02-0258.txt",
+  "transcript_word_count": 4055,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

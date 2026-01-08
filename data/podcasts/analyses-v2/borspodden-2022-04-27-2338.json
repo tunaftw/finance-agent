@@ -1,0 +1,789 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2022-04-27-2338",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 453 - Ett jättelitet monster",
+  "episode_number": 453,
+  "date": "2022-04-27",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Räntehöjningar",
+    "Lageruppbyggnad",
+    "Rapportflod",
+    "Bostadsmarknad"
+  ],
+  "stocks_discussed": [
+    "Sandvik",
+    "SKF",
+    "ABB",
+    "Atlas Copco",
+    "Volvo",
+    "Vostok New Ventures",
+    "Firefly",
+    "SBB",
+    "Desenio",
+    "Scandi Standard",
+    "Byggmax",
+    "Tecnochilab",
+    "Stillfront",
+    "Saab",
+    "IAR",
+    "Kambi",
+    "Cloetta",
+    "Africa Oil"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Firefly",
+      "ticker": null,
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[32:03]",
+      "reasoning": "Johan äger en stor position och säger han inte kommer sälja aktien här. Q1 var en \"monsterrapport\" med 10 miljoner i rörelseresultat. Bolaget har inga aktiveringar, inga skulder, rejäl nettokassa och 70 miljoner i varulager. Orderstocken fortsätter växa och det var en utdelning på 250 kronor.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Firefly är inte en aktie som jag kommer sälja här utan jag tycker att det är kul att de fortsätter leverera så bra.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": "Stor position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "SBB",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[33:41]",
+      "reasoning": "Aktien har halverat från toppen och känner sig för nedpressad. Ilja har bundit räntorna i 3,7 år i snitt och vd-ordet säger SBB kan fortsätta utdelning även om räntan går upp till 10%. Om man tror på Ilja är SBB ett solklart köp.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men jag tror på honom och tycker faktiskt att SBB börjar kännas för nedpressat. [...] Om man tror på det här så är ju SBB ett solklart köp.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Desenio",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[34:47]",
+      "reasoning": "Haverirapport med nettoskuld på 1 miljard, negativt kassaflöde på 50 miljoner och bara 100 miljoner i kassan. Produkten är otroligt lätt att kopiera och har ingen vallgraf. Vd-bbyte, nyemission och förlåt krävs innan det kan vara intressant.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men jag kommer inte röra det här bolaget förrän de har gjort en nyimmision.",
+      "sector": "E-handel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Byggmax",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[38:32]",
+      "reasoning": "Det här är bara sprattel innan efterfrågan viker ner mer på allvar. Hemmafix-marknaden kommer inte fortsätta som om inget hänt när konsumenternas plånbok blir tunnare. Återköpsprogrammet kommer gå till historien som ett av de sämsta.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Trallen är liksom laggit, altanerna färdigspikade, Byggmax återköpsprogram kommer att gå åt historien som ett av de sämsta.",
+      "sector": "Byggvaror",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tecnochilab",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[40:16]",
+      "reasoning": "P-tal under 20 på rullande 12. Stene är en ledare man vill vara i samma båt som. Aktien studsar ofta snabbt tillbaka efter dippar. Värd att hålla koll på vid en eventuell dip.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och ja, skulle det bli en stor dip på börsen så kommer det i alla fall jag att hålla koll på Technion-aktien här. För den studsar ofta snabbt tillbaka.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "IAR",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[42:31]",
+      "reasoning": "Bolaget håller på att styras upp. Gick från att aktivera arbete på 20 miljoner till bara 12 i kvartalet vilket ger motvind kortsiktigt. Tar tid att förändra ett bolag men man verkligen har något på gång. Värd att bevakas för en entry point.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag kommer faktiskt att inleda lite bevakning på IAR nu för en entry point. Jag tror att de verkligen har något på gång.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kambi",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[45:21]",
+      "reasoning": "Rapporten var okej och underliggande aktivitet ganska stark. Operator turnover index upp 25%. Aktien tappat pga rykten om att kunder går in house men bolaget behöver ta tag i storyn. Köpte aktier idag.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag har köpt lite aktier idag. [...] Alternativt, gör mig ingenting nu om de skramlar fram ett litet bud.",
+      "sector": "Betting",
+      "market": "sweden",
+      "position_context": "Köpte aktier",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Cloetta",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[46:11]",
+      "reasoning": "Cloetta framstår som en fin inflation-hedge och ett defensivt bolag. Vd-ordet visar ljus och enkel framtid. Ger utdelning och är bättre än cash i portföljen. Aktien föll på svaga börsklimatet men bedöms som köpläge.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tror det är köpläge för Cluetta och att de har en ganska ljus och enkel framtid här. [...] Så jag har köpt lite aktier här och vi får se vad som händer.",
+      "sector": "Livsmedel",
+      "market": "sweden",
+      "position_context": "Köpte aktier",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Firefly",
+      "ticker": null,
+      "timestamp_start": "[29:41]",
+      "timestamp_end": "[32:11]",
+      "word_count": 450,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Firefly levererade en stark Q1-rapport med 10 miljoner i rörelseresultat i annars svagt kvartal. Bolaget har inga aktiveringar, inga skulder, rejäl nettokassa och 70 miljoner i varulager. Orderstocken växer vilket ger fortsatt intäktsmöjligheter. Utdelning på 250 kronor utbetaldes. Johan som äger aktien är mycket positiv och säger han inte kommer sälja.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Rörelseresultatet var 10 miljoner kronor i ett kvartal som annars brukar vara ganska svagt och då ska man ju lägga till att Firefly inte aktiverar en endaste krona utan det här är hard earned cash.",
+          "timestamp": "[30:55]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Firefly har ju inte någon skuld heller utan har ett rejäl nettokassa och massa andra tillgångar som varulager på 70 millar. Orderstocken fortsätter att växa vilket innebär att man kommer att fortsätta tjäna pengar när den levereras ut.",
+          "timestamp": "[30:55]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Firefly är inte en aktie som jag kommer sälja här utan jag tycker att det är kul att de fortsätter leverera så bra.",
+          "timestamp": "[32:03]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "250 kr utdelning",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Ingen skuld, nettokassa",
+        "custom": [
+          "10 miljoner i rörelseresultat Q1",
+          "70 miljoner i varulager",
+          "Inga aktiveringar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Strongt Q1-resultat",
+          "Inga skulder",
+          "Växande orderstock",
+          "Utdelning på 250 kr",
+          "Hårt intjänade pengar"
+        ],
+        "bear_case": [
+          "Hög värdering historiskt",
+          "Få småsparare med på tåget"
+        ],
+        "catalysts": [
+          "Leverans av orderstock"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "SBB",
+      "ticker": null,
+      "timestamp_start": "[32:39]",
+      "timestamp_end": "[34:20]",
+      "word_count": 380,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "SBB har halverat från toppen men Johan tror på vd Ilija Savitsky. Rapporten visar att räntorna är bundna i 3,7 år i snitt vilket minimerar risk kortsiktigt. Högre räntor kan också öka hyrorna. Vd-ordet säger SBB kan fortsätta utdelning även med 10% ränta. Om man tror på Ilija är SBB ett solklart köp.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Ilja är ju extremt hos i den här rapporten och slår ett slag för att han har bundit räntorna på 3,7 år i snittiden. Det låter inte så långt men det är alltså snittet så att det är inget bullshit att högre räntor inte är något jätte hot mot SBB kortsiktigt i alla fall.",
+          "timestamp": "[33:01]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Öka räntan så har man också bättre möjligheter att höja hyrorna för att kostnaden för att äga fastigheter blir högre.",
+          "timestamp": "[33:08]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Om man tror på det här så är ju SBB ett solklart köp, så är det ju bara.",
+          "timestamp": "[33:41]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Räntor bundna 3,7 år i snitt"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Räntor bundna på 3,7 år",
+          "Högre räntor kan öka hyrorna",
+          "Kan fortsätta utdelning vid 10% ränta",
+          "Aktien halverad från topp"
+        ],
+        "bear_case": [
+          "Många tror inte på Ilija",
+          "Mycket brus kring aktien med blanka rapporter"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Högre räntor långsiktigt"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Desenio",
+      "ticker": null,
+      "timestamp_start": "[34:21]",
+      "timestamp_end": "[35:37]",
+      "word_count": 350,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Desenio levererade en haverirapport med nettoskuld på 1 miljard, negativt kassaflöde på 50 miljoner och bara 100 miljoner i kassan. Produkten har över 80% bruttomarginal men är otroligt lätt att kopiera och har ingen vallgraf. Johan kräver vd-bbyte, nyemission och förlåt innan han kan röra bolaget.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Decenio har ju en nettoskuld på 1 miljard. Man har nu ett negativt kassaflöde på 50 miljoner och så har man bara 100 miljoner i kassan.",
+          "timestamp": "[34:49]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "En planch med tryck på som kostar 399 för en kund men 8 kronor att tillverka, det är ju inte någon brutal moat eller vallgraf som Buffett skulle sagt",
+          "timestamp": "[35:03]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men jag kommer inte röra det här bolaget förrän de har gjort en nyimmision.",
+          "timestamp": "[35:12]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Bruttomarginal över 80%",
+        "debt_level": "Nettoskuld 1 miljard",
+        "custom": [
+          "Negativt kassaflöde 50 miljoner",
+          "Kassa 100 miljoner"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hög bruttomarginal"
+        ],
+        "bear_case": [
+          "1 miljard i nettoskuld",
+          "Negativt kassaflöde",
+          "Produkt lätt att kopiera",
+          "Ingen vallgraf"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Kapitalbehov",
+          "Konkurrens"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Byggmax",
+      "ticker": null,
+      "timestamp_start": "[37:38]",
+      "timestamp_end": "[39:40]",
+      "word_count": 380,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Byggmax kom in bättre än väntat med försäljning och bruttomarginal men Johan besviken. Jämförelbar försäljning steg 1% medan marknad minskade 2-4%, men bedöms som sprattel innan efterfrågan viker. Johan förväntar sig en stor nedgång i hemmafix-marknaden när konsumenternas plånbok tunnas ut. Aktien värderas lågt på P6-7.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Jag tror ändå att det här bara är lite sprattel innan efterfrågan viker ner mer på allvar.",
+          "timestamp": "[37:50]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Trallen är liksom laggit, altanerna färdigspikade, Byggmax återköpsprogram kommer att gå åt historien som ett av de sämsta",
+          "timestamp": "[37:52]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "För mig är det helt orimligt att tro att den här hemmafixande marknaden ska fortsätta helt som om inget har hänt när det var en av de stora vinnarna på pandemin.",
+          "timestamp": "[38:57]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "6-7",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "1% (jämförelbart)",
+        "margin": "Bruttomarginal positiv överraskning",
+        "debt_level": null,
+        "custom": [
+          "Marknad minskade 2-4%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Bättre än väntat Q1",
+          "Jämförelbar försäljning +1%",
+          "Låg värdering P6-7"
+        ],
+        "bear_case": [
+          "Pandemivinnare som tappar",
+          "Konsumenter har mindre pengar",
+          "Plank slut i Sverige"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Dipp i efterfrågan",
+          "Hemmafix-boom över"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Kambi",
+      "ticker": null,
+      "timestamp_start": "[43:24]",
+      "timestamp_end": "[45:52]",
+      "word_count": 550,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Kambi har haft en svag period på börsen utlöst av rykten att Phonetics skulle bygga sportbok in house (senare dementerat). Q1-rapporten missade estimaten med några procent men underliggande aktivitet stark. Operator turnover index upp 25%. Bolaget måste ta tag i storyn och narrativet. John köpte aktier idag och hoppas på nyheter eller bud.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Deras operator turnover index är upp 25 procent, exklusive DraftGangs här i Q1.",
+          "timestamp": "[44:02]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Bolaget måste på något sätt nu ta tag i storyn och narrativet kring bolaget och deras möjligheter.",
+          "timestamp": "[44:21]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag har köpt lite aktier idag. [...] Alternativt, gör mig ingenting nu om de skramlar fram ett litet bud.",
+          "timestamp": "[45:21]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Operator turnover index +25%",
+          "Missade estimaten med några procent"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark underliggande aktivitet",
+          "Operator turnover index +25%",
+          "Potentiellt modellbaserat erbjudande",
+          "Eventuellt bud"
+        ],
+        "bear_case": [
+          "Rykte att kunder går in house",
+          "Storyn bedöms som död av marknaden",
+          "Aktie tappat rejält"
+        ],
+        "catalysts": [
+          "Nya kunder",
+          "Modellbaserat erbjudande",
+          "Insynsköp",
+          "Bud"
+        ],
+        "risks": [
+          "Kunder bygger egen lösning"
+        ]
+      },
+      "position_disclosure": "bought"
+    },
+    {
+      "stock_name": "Cloetta",
+      "ticker": null,
+      "timestamp_start": "[45:59]",
+      "timestamp_end": "[47:29]",
+      "word_count": 380,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Cloetta föll på rapport trots att vd-ordet visade bolaget som en fin inflation-hedge och defensivt. Johan bedömer det som köpläge. Bolaget är på väg att slå tillbaka från pandemin med löstgodis. Ger utdelning och är bättre än cash i portföljen. Prishöjningar slår inte igenom helt Q2 vilket gjorde att aktien föll.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Läser man vd-ordet så framstår ju Cloetta som en fin inflations-hedge och ett bolag som är på väg att slutsa tillbaka från pandemin här med löstgodis och så vidare.",
+          "timestamp": "[46:25]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tror det är köpläge för Cluetta och att de har en ganska ljus och enkel framtid här.",
+          "timestamp": "[46:37]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Cluetta är ju verkligen ett sånt [defensivt] bolag. [...] Så jag har köpt lite aktier här och vi får se vad som händer.",
+          "timestamp": "[46:47]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "Ger utdelning",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Inflation-hedge"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Inflation-hedge",
+          "Defensivt bolag",
+          "Ger utdelning",
+          "Slår tillbaka från pandemin",
+          "Aktuell prisnivå attraktiv"
+        ],
+        "bear_case": [
+          "Prishöjningar slår inte igenom helt Q2"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "bought"
+    },
+    {
+      "stock_name": "Africa Oil",
+      "ticker": null,
+      "timestamp_start": "[47:31]",
+      "timestamp_end": "[49:39]",
+      "word_count": 480,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Africa Oil meddelade stor upptäckt av potentiellt 13 miljarder fat oljeekvivalenter utanför Namibias kust. För jämförelse: Johan Svedrupfältet var 2,8 miljarder fat. Africa Oil äger indirekt 6% av fältet via Impact (30%). Andra delägare är Qatar och Total. Borrning på 3000 meters djup. Mycket spännande om det stämmer.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Nu har man varit på ett adventure där man kanske hittat 13 miljarder fat oljeekvivalenter utanför Namibias kust.",
+          "timestamp": "[48:05]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det var 2,8 miljarder fat. Så det här i Namibia är ju fullständigt abnormt.",
+          "timestamp": "[48:15]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Så Africa Oil skulle då ha 6 procent av själva fältet. Andra delägare är Qatar och franska energibolag Total.",
+          "timestamp": "[48:25]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "13 miljarder fat potentiella resurser",
+          "6% ägande i fältet",
+          "Borrade på 3000 m djup"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Massiv potentiell upptäckt 13 miljarder fat",
+          "Goda partners Qatar och Total",
+          "Om bekräftat enormt värde"
+        ],
+        "bear_case": [
+          "Svajiga djuphavsborrningar",
+          "Farliga vågor vid Namibia",
+          "Inte bekräftat än"
+        ],
+        "catalysts": [
+          "Bekräftelse på fyndet",
+          "Produktionsplaner"
+        ],
+        "risks": [
+          "Tekniska risker djuphavsborrning",
+          "Politiska risker"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Omgångar man under sista åren är vant sig vid att jobba med belåning så ska man sluta med det direkt. För hävstången är superhärlig när allt går upp, men den är katastrofal när det går åt andra hållet.",
+      "summary": "Avsluta all belåning innan en potentiell nedgång då hävstången multiplicerar förluster.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[10:13]",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "belåning"
+      ]
+    },
+    {
+      "quote": "Rensa ut sådant som du innerst inne vet var lite felköp. Kanske något techbolag som har köpt under pandemin som gått ner massor nu då och som du hoppas ska komma tillbaks. Det kommer inte komma tillbaks, pandemi i hosen, den var fel. Riv plåstrött och sälj.",
+      "summary": "Sälj av felköp snabbt istället för att hoppas på återhämtning.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[10:46]",
+      "confidence": "high",
+      "tags": [
+        "portföljhantering"
+      ]
+    },
+    {
+      "quote": "När du väl tagit stoppen i en sån här svajig marknad hoppa inte in eller panikera om aktien ska gå upp en krona eller två och ge det in igen. För det är grundrecept också till att hamna fel hela hela tiden.",
+      "summary": "Undvik att köpa tillbaka en aktie du precis sålt i en svajig marknad.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[11:37]",
+      "confidence": "high",
+      "tags": [
+        "psykologi",
+        "tradning"
+      ]
+    },
+    {
+      "quote": "Sen då när man har gjort sig av med sin belåning, då tycker jag man ska fortsätta och se till att man också har en krigskassa. Och sen ska man vänta lite längre än vad man tror med att sätta den här krigskassan i arbete.",
+      "summary": "Bygg en krigskassa innan en nedgång och var tålamodig med att investera den.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[12:31]",
+      "confidence": "high",
+      "tags": [
+        "kassahantering",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Under en riktig bäs då dör intresset för börsen bland småsparare. Och det innebär framför allt att småbolag kan vara döda i flera år innan intresset vaknar till liv igen.",
+      "summary": "Småbolag kan ligga döda i år efter en stor börskrasch då intresset försvinner.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[13:02]",
+      "confidence": "high",
+      "tags": [
+        "småbolag",
+        "marknadscykel"
+      ]
+    },
+    {
+      "quote": "Så fokusera därför på större bolag när det brakar ner på riktigt.",
+      "summary": "Fokusera på storbolag i en kraftig nedgång då småbolag kan ligga nere länge.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[13:31]",
+      "confidence": "high",
+      "tags": [
+        "portföljstrategi"
+      ]
+    },
+    {
+      "quote": "när det blir best period så är det många bolag som kommer behöva göra nyemissioner. Det kan vara bra att spara pengar till sådana också för då kan kurserna bli rejält rejält nedtryckta.",
+      "summary": "Spara pengar till nyemissionsmöjligheter i en lågkonjunktur då kurser pressas kraftigt.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[13:50]",
+      "confidence": "high",
+      "tags": [
+        "nyemission",
+        "uppköp"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin/Crypto",
+      "sentiment": "neutral",
+      "speaker": "John",
+      "speaker_role": "host",
+      "quote": "Ja, det har varit två väldigt starka år för krypto och nu har vi sett den här svackan som många har varnat för och frågan är då hur man ska navigera sig genom den.",
+      "context": "Marknadskommentar om krypto-svacka",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "CRYPTO",
+      "asset_name": "Kryptovalutor",
+      "sentiment": "bearish",
+      "speaker": "John",
+      "speaker_role": "host",
+      "quote": "Men det man ska tänka på när man handlar krypto är ju att volatiliteten är extremt hög, vilket innebär att man ska vara lite mer försiktig och inte ta lika stora positioner.",
+      "context": "Varning om volatilitet och risk",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "alla"
+    },
+    {
+      "asset_symbol": "CRYPTO",
+      "asset_name": "Kryptovalutor",
+      "sentiment": "bullish",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "quote": "Jag tycker också, John, att man ska passa på att förkovra sig lite grann inom krypto. Passa på nu när vi har en liten svacka att lära sig om hela det här spacet.",
+      "context": "Uppmuntran att lära sig under svacka",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Börspodden diskuterar en oroväckande marknad med 2008-känsla, risk för lågkonjunktur och lageruppbyggnad som kan leda till tvärstopp. Rapportfloden visar starka siffror men Johan oroas för att det är lagerdrivet. Flera aktier rekommenderas som köp (SBB, Kambi, Cloetta) medan andra varnas för (Desenio, Byggmax). I övrigt diskuteras riskhantering, vikten av krigskassa och att fokusera på storbolag i nedgång.",
+  "key_takeaways": [
+    "Avsluta all belåning innan nedgång",
+    "Bygg krigskassa och vänta med att investera",
+    "Fokusera på storbolag i nedgång - småbolag kan ligga döda i år",
+    "Spara pengar till nyemissionsmöjligheter i lågkonjunktur",
+    "Sälj felköp snabbt istället för att vänta på återhämtning",
+    "SBB bedöms som köpläge om man tror på vd Ilja",
+    "Desenio anses vara ett haveri som behöver nyemission",
+    "Cloetta ses som defensivt och inflations-hedge"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2022-04-27-2338.txt",
+  "transcript_word_count": 8779,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

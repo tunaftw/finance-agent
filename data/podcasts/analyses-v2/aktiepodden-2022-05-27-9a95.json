@@ -1,0 +1,253 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2022-05-27-9a95",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "137: Säsongsavslutning",
+  "episode_number": 137,
+  "date": "2022-05-27",
+  "hosts": [
+    "Dobban",
+    "Kalle"
+  ],
+  "guests": [
+    "Sverige Linton",
+    "Ida Bå"
+  ],
+  "main_topics": [
+    "Börsläget",
+    "Truecaller",
+    "Kinnevik/Tele2",
+    "Klarna",
+    "Bolagsstämmor",
+    "Läkare utan gränser"
+  ],
+  "stocks_discussed": [
+    "Truecaller",
+    "Kinnevik",
+    "Tele2",
+    "Klarna",
+    "JP Morgan",
+    "Walmart",
+    "Target",
+    "Home Depot",
+    "Erikssons",
+    "Swedbank",
+    "Fasadgruppen"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Truecaller",
+      "ticker": "TRUE",
+      "timestamp_start": "[06:06]",
+      "timestamp_end": "[10:29]",
+      "word_count": 700,
+      "speakers": [
+        "Dobban",
+        "Kalle"
+      ],
+      "primary_speaker": "Kalle",
+      "discussion_summary": "Truecaller tappade 30% på ryktet att den indiska regeringen utvecklar en konkurrerande app. Indien står för 75% av omsättningen. Diskuterades som ett potentiellt \"bottom fishing\"-case med väntad organisk tillväxt på 50%, men nyheten skapar osäkerhet. Storägare sålde aktier veckan innan.",
+      "quotes": [
+        {
+          "speaker": "Kalle",
+          "text": "Det som hände var egentligen att den indiska regeringen var väl ut och sa att de jobbar för att ta fram en statlig app som då skulle konkurrera med True Colors app.",
+          "timestamp": "[06:06]",
+          "context": "other"
+        },
+        {
+          "speaker": "Kalle",
+          "text": "När det dampnade, när nyhetsflödet, när det fick nys om det här och aktien, aktien var ju ner 30%, det gick fort. Sedan lugnade det ner sig lite, stängde minus 15%.",
+          "timestamp": "[06:30]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Dobban",
+          "text": "Jag har pratat om den förut som ett intressant case att botten fiskar just för att det är en enorm tillväxt som väntas framöver. Det är verkligen konsensusynen därutom att de kommer att växa så det knakar organiskt 50% per år har det pratats om.",
+          "timestamp": "[09:17]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Kalle",
+          "text": "Storägaren sålde ut aktier förra veckan, det var ju en fin timing.",
+          "timestamp": "[09:51]",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "50%",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Enorm tillväxt väntas framöver (50% organisk tillväxt per år)",
+          "Superlönsam affärsmodell med stark vinsttillväxt"
+        ],
+        "bear_case": [
+          "Hög geografisk koncentration - 75% av omsättningen från Indien",
+          "Politisk och regulatorisk risk från indisk regeringens statliga app"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Statlig konkurrens från indiska regeringen",
+          "Geografisk koncentration",
+          "Insynsförsäljning signalerar potentiell dålig timing"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Klarna",
+      "ticker": null,
+      "timestamp_start": "[11:33]",
+      "timestamp_end": "[13:40]",
+      "word_count": 500,
+      "speakers": [
+        "Dobban",
+        "Kalle"
+      ],
+      "primary_speaker": "Kalle",
+      "discussion_summary": "Diskuterade Klarnas problem med att hitta kapital till 30% lägre värdering än vid årsskiftet. Bolaget sparkar 10% av personalen (700 personer) för att implementera sparpaket. Kalle kallar det ett \"jätteolönsamt bolag\" med administrativa kostnader på 25% av intäkterna.",
+      "quotes": [
+        {
+          "speaker": "Kalle",
+          "text": "Det ryktas om att de försöker hitta kapital at the moment och det är till en värdering som är typ 30% lägre än vid årsskiftet. Och nu sparkar de 10% av sin personal, 700 personer för att dra ett sparpaket.",
+          "timestamp": "[11:33]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Kalle",
+          "text": "Jätteolönsamt bolag. De har ju administrativa kostnader som är 25% för de intäkterna.",
+          "timestamp": "[12:41]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Kalle",
+          "text": "När det är sparpaket då är det ju inte de här heta techbolagsstämpen längre utan nu handlar det om att tjäna pengar.",
+          "timestamp": "[12:07]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Administrativa kostnader: 25% av intäkter"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Kapitalbrist",
+          "Värdering ned 30% på kort tid",
+          "Höga administrativa kostnader (25% av intäkter)",
+          "Marknaden kräver nu lönsamhet inte bara tillväxt"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Kapitalbrist",
+          "Oförmåga att generera vinst",
+          "Nödvändiga personalnedskärningar"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det finns en extremt bra fingertoppkänsla hos många bolag när det vankas dåliga nyheter, eller bra nyheter för en del. Att vara insynsperson, det känns som att det, man kan göra lite som man vill, det är väl känslan.",
+      "summary": "Insynspersoner verkar ofta ha god timing på köp och försäljningar kring viktiga nyheter.",
+      "category": "wisdom",
+      "speaker": "Kalle",
+      "speaker_role": "host",
+      "timestamp": "[10:13]",
+      "confidence": "medium",
+      "tags": [
+        "insyn",
+        "timing",
+        "marknaden"
+      ]
+    },
+    {
+      "quote": "Centralbankerna vill låta väldigt aggressiva, för att på så sätt kanske få ner inflationsförväntningarna hos hushållen exempelvis.",
+      "summary": "Centralbankernas aggressiva retorik är delvis en strategi för att påverka inflationsförväntningarna.",
+      "category": "wisdom",
+      "speaker": "Dobban",
+      "speaker_role": "host",
+      "timestamp": "[04:19]",
+      "confidence": "high",
+      "tags": [
+        "centralbanker",
+        "inflation",
+        "politik"
+      ]
+    },
+    {
+      "quote": "När det är sparpaket då är det ju inte de här heta techbolagsstämpen längre utan nu handlar det om att tjäna pengar. Det är det det går ut på.",
+      "summary": "Marknadens fokus har skiftat från tillväxt till lönsamhet för techbolag.",
+      "category": "wisdom",
+      "speaker": "Kalle",
+      "speaker_role": "host",
+      "timestamp": "[12:07]",
+      "confidence": "high",
+      "tags": [
+        "tech",
+        "marknadsskifte",
+        "lönsamhet"
+      ]
+    },
+    {
+      "quote": "Det är jätteolönsamt bolag. De har ju administrativa kostnader som är 25% för de intäkterna. Hur ska de lösa det här?",
+      "summary": "Företag med 25% av intäkterna i administrativa kostnader har svårt att bli lönsamma.",
+      "category": "lesson",
+      "speaker": "Kalle",
+      "speaker_role": "host",
+      "timestamp": "[12:41]",
+      "confidence": "medium",
+      "tags": [
+        "kostnader",
+        "lönsamhet"
+      ]
+    },
+    {
+      "quote": "Man ska ju komma ihåg det i sin analys, det här med att man egentligen vill man se bolag som har en bred geografisk spridning och av en anledning just för att man inte ska vara känslig för sånt här och politiska och regulatoriska risker.",
+      "summary": "Bred geografisk spridning är viktigt för att reducera politisk och regulatorisk risk.",
+      "category": "philosophy",
+      "speaker": "Kalle",
+      "speaker_role": "host",
+      "timestamp": "[07:12]",
+      "confidence": "high",
+      "tags": [
+        "geografisk diversifiering",
+        "riskhantering"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar det volatila börsläget med fokus på Truecaller som tappade 30% på nyheter om indisk statlig konkurrens. Kinnevik sålde av Tele2-aktier, och Klarna rapporteras ha kapitalproblem vid sänkt värdering samtidigt som de gör stora personalnedskärningar. Gästen från Aktiespararna diskuterar viktigheten av bolagsstämmor och organisationens roll för småsparare. Aktiepodden tar sommaruppehåll men återkommer i höst med nytt format och ökad handelsfrekvens i Körportföljen.",
+  "key_takeaways": [
+    "Truecaller utsätts för politisk risk i Indien med 75% av omsättningen därifrån",
+    "Klarna kämpar med kapitalbrist och måste nu visa lönsamhet inte bara tillväxt",
+    "Marknadens krav på lönsamhet har förändrats snabbt för techbolag",
+    "Inflationsförväntningarna har sjunkit från 3.1% till 2.6% på en månad",
+    "Aktiepodden tar sommarpaus men återkommer i höst med nytt, mer aktivt format"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2022-05-27-9a95.txt",
+  "transcript_word_count": 8091,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

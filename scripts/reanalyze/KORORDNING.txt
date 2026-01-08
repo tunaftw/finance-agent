@@ -1,0 +1,35 @@
+# =============================================================================
+# KVAR ATT KÖRA - Uppdaterad 2025-12-30 (97% klart!)
+# =============================================================================
+# Status: 3,729 / 3,807 analyserade (~78 kvar)
+# =============================================================================
+
+# === NÄSTAN KLARA (1 kvar) ===
+
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_sparpodden_chunk7.py        # 1 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_sparpodden_chunk8.py        # 1 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_marketmakers_chunk7.py      # 1 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_fillorkill_chunk8.py        # 1 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_fillorkill_chunk7.py        # 1 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_marknaden_chunk6.py         # 1 kvar
+
+# === FÅ KVAR (3-10 kvar) ===
+
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_marketmakers_chunk1.py      # 3 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_montrosepodden_chunk1.py    # 4 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_sparpodden_chunk2.py        # 7 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_kvalitetsaktiepodden_chunk3.py  # 8 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_kortochlang_chunk2.py       # 9 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_kvalitetsaktiepodden_chunk2.py  # 10 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_montrosepodden_chunk2.py    # 10 kvar
+
+# === LITE MER (12-20 kvar) ===
+
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_fillorkill_chunk1.py        # 12 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_marknaden_chunk7.py         # 12 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_marketmakers_chunk2.py      # 18 kvar
+cd ~/Developer/podcast-transcriber && python3 scripts/reanalyze/podcasts/run_marknaden_chunk3.py         # 20 kvar
+
+# =============================================================================
+# TOTALT: 17 scripts = ~78 transkript kvar
+# =============================================================================

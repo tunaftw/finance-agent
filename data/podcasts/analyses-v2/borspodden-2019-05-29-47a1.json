@@ -1,0 +1,459 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2019-05-29-47a1",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 301 - Tedd & Chuck",
+  "episode_number": 301,
+  "date": "2019-05-29",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [
+    "Jonas Dahlström"
+  ],
+  "main_topics": [
+    "Halvledare",
+    "Oriflame-bud",
+    "Skuldtunga bolag",
+    "Spelmarknaden",
+    "SAS-rapport",
+    "Slitewind-intervju"
+  ],
+  "stocks_discussed": [
+    "Atlas Copco",
+    "Oriflame",
+    "EnQuest",
+    "Dometic",
+    "Engelska Skolan",
+    "Kopparbergs",
+    "Balko",
+    "Kindred",
+    "SAS",
+    "Sectra",
+    "Slitewind"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Engelska Skolan",
+      "ticker": "EWB",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "13:13-14:47",
+      "reasoning": "EWB under 10 på prognosen för kommande år, rapporten var bättre än väntat. Bolaget har kö på ca 200,000 elever med 26,000 platser. Expansion i Spanien pågår. Branschens trender svänger fram och tillbaka, på några års sikt kan det bli en okej investering. Väntetid kan dock bli kort.",
+      "price_target": null,
+      "time_horizon": "1-3 år",
+      "quote": "EWB är baserat på prognosen för kommande år, ligger under 10 nu och för den som orkar så känns det ändå som ett helt okej läge att gå in, även om man antagligen får vänta ett tag.",
+      "sector": "Utbildning",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kopparbergs",
+      "ticker": "KOP-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "14:56-16:19",
+      "reasoning": "Handlas till P17, gör ca 10 SEK i vinst. Utdelning nyss gick. Kvartalsrapporten beskrivs som tunt och innehållslös. Nya produkten (alkoholhaltig ramlösa) är oklar marknadsmässigt. Den globala trenden är att det dricks mindre alkohol.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "P17, det handlas 170, det gör 10 i vinst. Ja, utdelningen har just gått. Jag är inte köpare på den här nivån.",
+      "sector": "Drycker",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kindred",
+      "ticker": "KIND",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "19:55-21:41",
+      "reasoning": "Värderingen börjar bli ganska låg nu. Marknaden stabiliseras. Vd Henrik Kjernström köper aktier aggressivt (beskrivs som 'som en dåre'). Möjlig mellanår med sämre tillväxt och fallande vinst. Kan acceptera det för långsiktig återhämtning.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "jag har faktiskt börjat köpa lite Kindred på slutet. Jag tycker att, förutom att värderingen börjar bli ganska låg nu, om man kan acceptera någon slags mellanår här, lite sämre tillväxt ett tag och fallande vinst, så tror jag att på någonsin kommer Kindred att ta igen det här och mer det till.",
+      "sector": "Spel/Gambling",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Oriflame",
+      "ticker": "ORI-SDB",
+      "timestamp_start": "08:10",
+      "timestamp_end": "10:32",
+      "word_count": 450,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Familjen Jokhnick lade bud på hela Oriflame till 227 SEK, ca 35% över senaste betalt. Budet värderar bolaget under EV/EBIT 10. Aktien handlas under budnivån. Många anser budet är för lågt, och en stor blankare dök upp. Familjen har meddelat att de inte kan höja budet.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Många har också klagat på den här låga budnivån, 227 kronor, som värderar Oriflame under ev-ebit 10 på årets prognoser. Aktien handlas nu några kronor under budnivån och det finns ju ett par olika scenarion.",
+          "timestamp": "08:10",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Såg till och med att någon gick in och blankade här, någon stor blankare dök upp efter budet, vilket är lite kaxigt kan jag ändå tycka.",
+          "timestamp": "09:10",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "under 10",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Bud på 227 SEK",
+          "Värdering under EV/EBIT 10"
+        ],
+        "bear_case": [
+          "Budet ses som för lågt",
+          "Aktien ner 30% på ett år trots budet",
+          "Blankare har gått in"
+        ],
+        "catalysts": [
+          "Beslut om budet går igenom"
+        ],
+        "risks": [
+          "Familjen kan inte höja budet"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Kindred",
+      "ticker": "KIND",
+      "timestamp_start": "19:55",
+      "timestamp_end": "21:41",
+      "word_count": 380,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Spelmarknaden stabiliseras enligt skattesiffror. Nästa fas kan bli utslagning av mindre operatörer. Kindred tolkar spelskatteregler mest konservativt och betalar kanske mer skatt än nödvändigt. Vd Henrik Kjernström köper aktier aggressivt. John har börjat köpa Kindred pga låg värdering.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "men jag var inne på Kindred, de verkar ha varit mest försiktiga av alla",
+          "timestamp": "19:55",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "jag har faktiskt börjat köpa lite Kindred på slutet. Jag tycker att, förutom att värderingen börjar bli ganska låg nu, om man kan acceptera någon slags mellanår här, lite sämre tillväxt ett tag och fallande vinst, så tror jag att på någonsin kommer Kindred att ta igen det här och mer det till.",
+          "timestamp": "20:15",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Sen gillar jag också att vd Henrik Kjernström köper aktier som en dåre.",
+          "timestamp": "20:33",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Värdering låg",
+          "Vd köper aktier aggressivt",
+          "Marknad stabiliseras"
+        ],
+        "bear_case": [
+          "Möjligt mellanår",
+          "Fallande vinst",
+          "Inget fotbolls-VM i år (Q2 kan vara svagt)"
+        ],
+        "catalysts": [
+          "Utslagning av mindre operatörer",
+          "Regelverk tolkas enhetligt"
+        ],
+        "risks": [
+          "Q2-åren kan bli svaga"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "SAS",
+      "ticker": "SAS",
+      "timestamp_start": "21:56",
+      "timestamp_end": "24:30",
+      "word_count": 420,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "SAS har allt emot dem: högre oljepris, minskad efterfrågan (Greta-effekt), dyrare dollar. Intäkter i kronor men kostnader i dollar. Från P-tal 4-5 till potentiellt negativt på några månader. Aktien tappat från 20 till 14.50 före rapporten, ner ytterligare till 13.50 efter.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "De kan gå från att ha ett p-tal på 4-5 och sen på några månader så blir det här p-talet negativt istället.",
+          "timestamp": "22:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "SAS, man får ändå säga att det kommer inte som någon jätteshock här. Då har aktien redan tappat från 20 nivån till 14,50 inför rapporten och idag gick det ner kanske 7-8 procent till 13,50 här.",
+          "timestamp": "23:50",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "negativ",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Kursen har redan kollapsat från 20 till 13.50"
+        ],
+        "bear_case": [
+          "Högre oljepris",
+          "Minskad efterfrågan (Greta-effekt)",
+          "Dyrare dollar - intäkter i SEK, kostnader i USD",
+          "P-tal kan gå negativt"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Räntor",
+          "Oljepris",
+          "Valutarisker"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Slitewind",
+      "ticker": "WIND",
+      "timestamp_start": "25:38",
+      "timestamp_end": "38:31",
+      "word_count": 2500,
+      "speakers": [
+        "Johan",
+        "John",
+        "Jonas Dahlström"
+      ],
+      "primary_speaker": "Jonas Dahlström",
+      "discussion_summary": "Slitewind listas på First North (listbyte från Peppins). Bolaget är en renodlad vindkraftsproducent, till skillnad från Eolus och Arise som är projektutvecklare. Q1 omsättning 30 MSEK, resultat 7.6 MSEK. Vinstmål helår klart bättre än förra årets 4.3 MSEK. VD Jonas Dahlström äger 6.5% via bolag med tekniske chefen. Struktur: tillväxt 5-10% med utdelning 25-50% av vinsten efter skatt.",
+      "quotes": [
+        {
+          "speaker": "Jonas Dahlström",
+          "text": "Så vi har vecklat alla utvecklingsprojekt och är helt inriktade på att driva egna vindkraftverk och sälja el. Så pysslar vi en del med förvaltning av andras anläggningar.",
+          "timestamp": "26:25",
+          "context": "other"
+        },
+        {
+          "speaker": "Jonas Dahlström",
+          "text": "Jo, kvartal ett så omsatte vi lite drygt 30 miljoner med ett resultat, när vi pratar före i skatt och på 7,6. Och när vi då ser före oss att vi på helår ska ha ett resultat som är klart bättre än föregående års 4,3 så är jag väldigt trygg med det.",
+          "timestamp": "33:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jonas Dahlström",
+          "text": "Vi vill försöka kombinera tillväxt på 5-10 procent ska vi kunna klara av, det vill säga produktionstillväxt på 5-10 procent. Med att dela ut 25-50 procent av vinsten efter skatt.",
+          "timestamp": "37:06",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jonas Dahlström",
+          "text": "Tillsammans med Göran Byllen, min kompanjon sen ganska många år som är teknisk chef. Vi har ett bolag tillsammans som har 6,5 procent ungefär av bolaget.",
+          "timestamp": "36:24",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "25-50% av vinsten efter skatt",
+        "revenue_growth": "5-10% produktionstillväxt",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Pris på el 37 öre brutto",
+          "Kassa 300 MSEK",
+          "Börsvärde 11 MSEK",
+          "Tillgångar 600 MSEK",
+          "Amortering 30 MSEK 2019"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Renodlad vindkraftsproducent",
+          "Värderas försiktigt enligt VD",
+          "Q1 var exceptionellt bra",
+          "Lista på First North ger bättre tillgång till kapital",
+          "Ägarstruktur: VD och teknisk chef äger 6.5% tillsammans",
+          "Kassaflöde starkt"
+        ],
+        "bear_case": [
+          "Beroende av elpris",
+          "Vindförhållanden påverkar",
+          "Litet bolag på First North"
+        ],
+        "catalysts": [
+          "Listning på First North",
+          "Elpriser"
+        ],
+        "risks": [
+          "Elprisfall",
+          "Dåliga vindar"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "En Quest börjar ju ha någon typ av eniroaura över sig, då nettoskulden är fyra-fem gånger i börsvärdet, ditt favoritmått va? Ja, och det gör ju också att aktien svänger hejvilt. Och det visar ju hur fel det kan bli när man satsar på ett skuldtönt bolag, oavsett om vdn köper eller inte.",
+      "summary": "Skuldtunga bolag med hög nettoskuld relativt börsvärd kan vara extremt riskabla, oavsett om vd:n köper aktier. Aktien kan svänga dramatiskt.",
+      "category": "lesson",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "11:06-12:00",
+      "confidence": "high",
+      "tags": [
+        "skuldsättning",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Det där är ju ofta, det tycker jag ofta går igen, att när man ska satsa på säkra kort så kan det ofta inte bli som man har tänkt sig.",
+      "summary": "Investeringar som marknadsförs som 'säkra kort' går ofta fel. Saker sällan blir som man planerat.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "12:00-12:10",
+      "confidence": "medium",
+      "tags": [
+        "investeringsfilosofi",
+        "risk"
+      ]
+    },
+    {
+      "quote": "De kan gå från att ha ett p-tal på 4-5 och sen på några månader så blir det här p-talet negativt istället. Det är den här gamla kluschan att man alltid hör att om du vill bli miljonär så ska man börja som miljardär och investera i flygbolag.",
+      "summary": "Flygbolag är extremt volatila. P/E kan gå från 4-5 till negativt på några månader. Buffett har varnat mot flygbolag.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "22:30-22:50",
+      "confidence": "high",
+      "tags": [
+        "flygbolag",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Men fallande knivar är ju egentligen bara för de galna eller de bästa.",
+      "summary": "Att köpa när saker har kollapsat kräver antingen galenskap eller expertis.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "24:10-24:15",
+      "confidence": "high",
+      "tags": [
+        "marknadstiming",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Där kan man ändå säga att de enkla pengarna är tagna nu.",
+      "summary": "När en aktie har gått mycket snabbt upp kan de enkla vinsterna vara över. Vidare uppgång kräver mer.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "17:12-17:16",
+      "confidence": "medium",
+      "tags": [
+        "marknadstiming",
+        "investeringsfilosofi"
+      ]
+    },
+    {
+      "quote": "Den typen av argument tror jag inte riktigt. Då kommer det redan att vara för sent om det nu vänder, annars så kanske det fortsätter ner. Men det är lite för uppenbart på något sätt.",
+      "summary": "Att vänta på 'tydliga' köpsignaler (t.ex. efter VM eller händelser) är ofta för sent. Uppenbara strategier fungerar sällan.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "20:53-21:10",
+      "confidence": "medium",
+      "tags": [
+        "marknadstiming",
+        "investeringsfilosofi"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Kryptovaluta",
+      "sentiment": "neutral",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "quote": "eller så kanske när på nytt födda kryptomarknaden kan blåsa liv i sektorn igen",
+      "context": "Kommentar om kryptomarknaden kan påverka halvledarsektorn",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": null
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar flera bolag och sektorer. Halvledarsektorn har oklar framtid. Oriflame-budet på 227 SEK kritiseras som lågt men kan visa sig bra. Engelska Skolan är en köpkandidat (EWB under 10). Kopparbergs bör undvikas på nuvarande nivåer. Kindred är en köpkandidat pga låg värdering och vd-insiderköp. SAS pressas av höga oljepriser och dyrare dollar. Slitewind listar på First North som ren vindkraftsproducent med bra kassaflöde.",
+  "key_takeaways": [
+    "Engelska Skolan köpkandidat (EWB under 10)",
+    "Kindred köpkandidat pga låg värdering och insiderköp",
+    "Kopparbergs undvik på P17",
+    "Flygbolag extremt riskabla",
+    "Fastighetssektorn kan vara på topp",
+    "Slitewind listas på First North med bra kassaflöde"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2019-05-29-47a1.txt",
+  "transcript_word_count": 6314,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

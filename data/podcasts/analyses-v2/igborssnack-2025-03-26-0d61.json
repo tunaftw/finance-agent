@@ -1,0 +1,701 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "igborssnack-2025-03-26-0d61",
+  "podcast_name": "IG Börssnack",
+  "episode_title": "Duelen | IG Börssnack",
+  "episode_number": null,
+  "date": "2025-03-26",
+  "hosts": [
+    "Patrik",
+    "Host"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Rapporter",
+    "Klarna IPO",
+    "Fed räntebesked",
+    "Duell"
+  ],
+  "stocks_discussed": [
+    "Kinnevik",
+    "Tesla",
+    "BYD",
+    "Klarna",
+    "H&M",
+    "Nike",
+    "FedEx",
+    "Palantir",
+    "ASML",
+    "Microsoft",
+    "Rusta",
+    "Fortum",
+    "TGS",
+    "Investor"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Kinnevik",
+      "ticker": "KINV-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Ekkalundin (refererad)",
+      "speaker_role": "guest",
+      "timestamp": "01:30",
+      "reasoning": "Ekkalundin vill köpa Kinnevik runt 70-72 kronor där det tidigare har bottnat och skapat stöd. Aktien har handlats ner något men ligger fortfarande inom det intressanta spannet. Stödnivån runt 70 kronor har fungerat som bottn runt den 12 mars. Tidshorisonten är kortsiktig, väntar på att aktien ska nå köpnivån.",
+      "price_target": null,
+      "time_horizon": "kortsiktig",
+      "quote": "Ekkalundin, han vill ju plocka upp den här aktien, köpa den på en nivå runt 70 till 72 kronor. Där vi såg tidigare bottnar som skapar rätt stöd helt enkelt.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Lone Wolf (refererad)",
+      "speaker_role": "guest",
+      "timestamp": "02:36",
+      "reasoning": "Tesla har handlats upp nästan 12 procent och ingår i Nasdaq 100. Lone Wolf menar att många storbolag har handlats upp mycket i studs och att investerare kommer vilja ta hem vinster på dessa positioner, vilket skapar utflöden och kan driva ner indexet.",
+      "price_target": null,
+      "time_horizon": "kortsiktig",
+      "quote": "I måndag såg vi ju Tesla upp nästan 12 procent och så där, så det är många som har handlats upp och då vill många kanske hämta en lite vinster på den aktien helt enkelt och då får vi ett utflöde.",
+      "sector": "Consumer Discretionary",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nasdaq 100",
+      "ticker": "QQQ",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Lone Wolf (refererad)",
+      "speaker_role": "guest",
+      "timestamp": "01:57",
+      "reasoning": "Lone Wolf tror att Nasdaq 100 kommer att handlas ner kortsiktigt och vill ta en kort position. Strategin är att skala in sig i positionen över några dagar och stänga veckan efter. Många storbolag har handlats upp mycket och investerare kan komma att ta hem vinster.",
+      "price_target": null,
+      "time_horizon": "kortsiktig",
+      "quote": "han är lite contrary den här och vill ta en kort position. Alltså han tror att Nasdaq 100, det stora techindexet i USA, kommer att handlas ner. Och det är inte i morgonen, det är inte i morgonen, han känner att han vill skala in sig i den här positionen",
+      "sector": null,
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nike",
+      "ticker": "NKE",
+      "action": "avoid",
+      "confidence": "low",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "03:18",
+      "reasoning": "Nike rapporterade bättre vinst och försäljning för kvartalet men guider lägre för året. Detta är negativt och signalerar potentiella problem framåt. Guidningen väger tyngre än det förflutna.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nike till exempel kom ut med bättre vinst och försäljning för kvartalet, men man guider lite lägre för året. Båda de här kan man ju lite hänföra till konsumenter, att det är väl där skon klämmer.",
+      "sector": "Consumer Discretionary",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "FedEx",
+      "ticker": "FDX",
+      "action": "avoid",
+      "confidence": "low",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "03:18",
+      "reasoning": "FedEx har en guidning på ungefär noll tillväxt för året, vilket är svagt och indikerar utmaningar. Den svaga guidningen väger mer än historiska resultat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "FedEx samma sak. Där har man en guidning på ungefär noll tillväxt för året.",
+      "sector": "Industrials",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "04:25",
+      "reasoning": "H&M kommer med rapport på torsdag. Efter de svaga guidningarna från Nike och FedEx i retailsektorn blir det intressant att se hur H&M presterar. Resultatet kan ge vägledning om konsumentläget.",
+      "price_target": null,
+      "time_horizon": "kortsiktig",
+      "quote": "H&M kan man ju titta på, kommer med rapport på torsdag, blir väldigt spännande också i det här retailsegmentet.",
+      "sector": "Consumer Discretionary",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Rapport 2025-03-27"
+    },
+    {
+      "stock_name": "BYD",
+      "ticker": "1211.HK",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "04:43",
+      "reasoning": "BYD rapporterade ett starkt kvartal och gick om Tesla i försäljningssiffror. Marknadsvärdet är cirka 157 miljarder dollar jämfört med Teslas 850-890 miljarder, trots liknande elbilsförsäljning. Denna värderingsskillnad kan vara värd att beakta.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "den kom ju måndags och ett starkt kvartal egentligen. Nu går de om Tesla i försäljningssiffror... Tesla har ju en bättre vinst där men de handlas ju på helt olika nivåer. Så jag för mig att BYD om inte minnet strålar med fel är någonstans 157 miljarder dollar och Tesla även någonstans kan det vara 850-890 miljarder.",
+      "sector": "Consumer Discretionary",
+      "market": "hongkong",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Palantir",
+      "ticker": "PLTR",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "14:31",
+      "reasoning": "Palantir har fallit mycket efter att Trump sa att han skulle skära i försvarsbudgeten med 8 procent per år. En stor del av PalantiRrs försäljning är kontrakt mot Pentagon. Patrik tror att marknaden har överreagerat och att effekterna av budgetnedskärningar inte än synts. Förväntar sig fortsatt bra tillväxt inför den kommande kvartalsrapporten. Konträr position.",
+      "price_target": null,
+      "time_horizon": "kortsiktig",
+      "quote": "De fick ju en riktig knäpp när Trump sa att han skulle skära i budget, försvarsbudget är liksom 8 procent om året från honom och sånt där. Och stor del av deras försäljning är ju kontrakt mot Pentagon. Och jag tror helt enkelt att vi har inte sett någonting av det här än. Så den har handlats ner väldigt mycket. Och nu närmar vi oss kvartalsrapport igen.",
+      "sector": "Information Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Risk för försvarsbudgetnedskärningar",
+      "catalyst_timing": "Kvartalsrapport"
+    },
+    {
+      "stock_name": "Rusta",
+      "ticker": "RUSTA",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "12:58",
+      "reasoning": "Rusta är ett svenskt bolag på den svenska marknaden. Patrik har valt det som en del av sin portfölj i duellen. Inga specifika argument nämnas.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": null,
+      "sector": "Consumer Discretionary",
+      "market": "sweden",
+      "position_context": "Del av tävlingsportfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Fortum",
+      "ticker": "FORTUM",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "12:58",
+      "reasoning": "Fortum är ett finskt bolag. Patrik har valt det som en del av sin portfölj i duellen. Inga specifika argument nämnas.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": null,
+      "sector": "Utilities",
+      "market": "finland",
+      "position_context": "Del av tävlingsportfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "ASML",
+      "ticker": "ASML",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "15:57",
+      "reasoning": "ASML är ett nederländskt bolag som gör viktiga komponenter för chip, inklusive maskiner för grafikkip till AI-bolagen. De är en underleverantör till AI-industrin med nästan monopol. Aktien har tagit törn i samband med AI-frossa men kan finnas en studs på medellång sikt. Infrastruktur-spel för AI.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "ASML är ju ett nederländskt bolag som gör viktiga komponenter för grafikkip till exempel. De är ju en underleverantör till AI-bolagen. De har ju en form av jättemaskin, om man ska förenkla det, som gör vissa komponenter till chip, som i stort sett bara de kan göra i världen... Jag har tänkt att de här har tagit sig en ganska ordentlig törn när det har varit lite halv AI-frossa. Jag tror att det kan finnas en studs på medellång sikt.",
+      "sector": "Information Technology",
+      "market": "netherlands",
+      "position_context": "Del av tävlingsportfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "16:38",
+      "reasoning": "Microsoft är favoriten bland Mag 7-techbolagen. Har exponering mot AI och kvantdatorer. Anses ligga bra till i dessa racen. Ger USA-tech-exponering. Har ägt flera gånger tidigare.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Microsoft är kanske min favorit bland de amerikanska techbolagen, har också ägt flera gånger i omgångar. Då tänker jag att jag får en exponering mot USA tech, förstås. AI, kvantdatorer kommer ju, även om det inte på något sätt är en kommersiell produkt än, känns det som att Microsoft ligger alltid bra till i det här racet. Om det är någon av de här Mag 7-bolagen jag vill ha, så är det nog faktiskt Microsoft.",
+      "sector": "Information Technology",
+      "market": "us",
+      "position_context": "Del av tävlingsportfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Investor",
+      "ticker": "INVE-B",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "15:30",
+      "reasoning": "Investor är en svensk basföda i portföljen. Beskrivs som \"gubbig\" och inte mycket rock'n'roll. Har ägt länge.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Den är väl lite gubbi tänkte jag säga, men inte så mycket rock'n'roll över den. Men jag tänkte väl lite svenskt, Investor, basfödan i min egen portfölj i stort sett sen jag började med aktier.",
+      "sector": "Financials",
+      "market": "sweden",
+      "position_context": "Basföda i portfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "17:11",
+      "reasoning": "Bitcoin är en tydlig proxy på riskvilja. Om marknaden börjar dra tror Host att bitcoin kan med och kanske till och med leda. Korrelerar med global likviditet och M2-penningtillväxt. Vill ha kryptoexponering.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Sen avslutar jag med lite bitcoin, för att någon exponering mot krypto vill jag ändå ha. För jag tänker att det är en så tydligt proxy på riskvilja också. Och ska marknaden börja dra, då tror jag att bitcoin ska med där, och kanske till och med leda det locket.",
+      "sector": null,
+      "market": "crypto",
+      "position_context": "Liten position för kryptoexponering",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "USD/JPY",
+      "ticker": "USD/JPY",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "17:54",
+      "reasoning": "Patrik tror att PCE-inflationen på fredag kommer högre än väntat. Detta gör att han tror att den amerikanska tioårsräntan kommer upp. Om USD-tioåringen klättrar kan dollarn stärkas mot den japanska enen. Japansk tioåring har redan klättrat mycket men om USD-tioåringen klättrar mer vinner dollarn. Carry Trade-dynamik.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag har ju kört ganska tungt in på ett räntespår, där jag tror att PCE-siffran som vi pratade om på fredag kommer lite högre än förväntat. Det här kommer att göra att jag tror att räntan tioåringen kommer att komma upp lite grann på det här. Därav har jag ett valutaparet, dollarn mot den japanska enen... Men kan i stället den amerikanska tioåringen klättra så tror jag att dollarn kan stärkas i det här läget.",
+      "sector": null,
+      "market": "forex",
+      "position_context": "Del av tävlingsportfölj",
+      "downside_note": null,
+      "catalyst_timing": "PCE-inflation 2025-03-28"
+    },
+    {
+      "stock_name": "Olja",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "18:40",
+      "reasoning": "Patrik tror att den amerikanska tioårsräntan kommer gå upp. När investerare ser statspapper tappa i värde (räntan upp) brukar man se en tendens att man handlar råvaror och olja. Har oljetillgången i portföljen. Kan vara lite tidig men är positionerad.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag har med oljan även ett trade på att den amerikanska tioåringen går upp. Jag tror att den är lite för tidig här, men det är väl lite så att när investerare, när statspapprarna tappar i värde, alltså räntan går upp, så brukar man se en tendens av att man handlar råvaror och olja framförallt.",
+      "sector": "Energy",
+      "market": "commodity",
+      "position_context": "Del av tävlingsportfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "TGS",
+      "ticker": "TGS.OL",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "13:26",
+      "reasoning": "TGS är ett norskt bolag som levererar geodata och seismisk data till olje- och gasindustrin. Är ett trade på att oljan går upp (då olje- och gasbolag ökar utforskning och behöver mer data). Energifokus i portföljen.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "TGS som jag kan prata lite mer om... Vad gör de? De levererar geodata till olje- och gasindustrin kan man säga. Vad heter det? Seismisk data och geodata som de levererar internationellt.",
+      "sector": "Energy",
+      "market": "norway",
+      "position_context": "Del av tävlingsportfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Palantir",
+      "ticker": "PLTR",
+      "timestamp_start": "14:09",
+      "timestamp_end": "15:08",
+      "word_count": 250,
+      "speakers": [
+        "Host",
+        "Patrik"
+      ],
+      "primary_speaker": "Patrik",
+      "discussion_summary": "Patrik förklarar sin position i Palantir. Bolaget är Peter Thiels företag som samlar in data och jobbar med försvarsindustrin. Aktie har fallit mycket sedan Trump sa att han vill skära i försvarsbudgeten med 8 procent per år. Eftersom en stor del av PalantiRrs försäljning är kontrakt mot Pentagon, är oron att dessa kan minska. Patrik tror dock att marknaden överreagerat och att effekterna av budgetnedskärningar inte än syntes. Han väntar sig fortsatt bra tillväxt inför den kommande kvartalsrapporten.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Sen har du ju Palantir där också. Det är ju Peter Thiels bolag som samlar in data, jobbar mycket med försvarsindustrin. Han är väl en del av den här kända PayPal-maffian som man brukar säga, tillsammans med Elon Musk och flera andra techmiljardärer.",
+          "timestamp": "14:09",
+          "context": "other"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Det är ju nedgången. De fick ju en riktig knäpp när Trump sa att han skulle skära i budget, försvarsbudget är liksom 8 procent om året från honom och sånt där. Och stor del av deras försäljning är ju kontrakt mot Pentagon. Och jag tror helt enkelt att vi har inte sett någonting av det här än.",
+          "timestamp": "14:31",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Så den har handlats ner väldigt mycket. Och nu närmar vi oss kvartalsrapport igen. Och vi har liksom inte sett effekterna av det här. Så jag tror att de kommer in med fortsatt bra tillväxt och så där. Så det är väl lite den traden här kortsiktigt.",
+          "timestamp": "14:48",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Marknaden har överreagerat på Trumps budgetkommentarer",
+          "Försvarsbudgetnedskärningarnas effekt är ännu inte synlig",
+          "Fortfarande bra tillväxt förväntas i kvartalsrapport",
+          "Kortsiktig konträr opportunity"
+        ],
+        "bear_case": [
+          "Trump vill skära i försvarsbudgeten med 8 procent per år",
+          "Stor del av försäljningen är kontrakt mot Pentagon som kan minska",
+          "Politisk risk i USA"
+        ],
+        "catalysts": [
+          "Kommande kvartalsrapport",
+          "Klarhet kring försvarsbudget"
+        ],
+        "risks": [
+          "Försvarsbudgetnedskärningar",
+          "Politisk risk",
+          "Beroende av Pentagon-kontrakt"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "ASML",
+      "ticker": "ASML",
+      "timestamp_start": "15:51",
+      "timestamp_end": "16:32",
+      "word_count": 150,
+      "speakers": [
+        "Host",
+        "Patrik"
+      ],
+      "primary_speaker": "Host",
+      "discussion_summary": "Host förklarar varför han valde ASML istället för Kinnevik. ASML är ett nederländskt bolag som gör viktiga komponenter för chip till AI-bolagen. De har nästan monopol på sina maskiner för att tillverka vissa chip-komponenter. Aktien har tagit törn i samband med AI-frossan men Host tror det kan finnas en studs på medellång sikt. Han ser det som ett infrastrukturspel för AI.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Jag tog bort Kinnevik. Jag fick bara inte feeling när jag satt och satte ihop den här. Och bytte utemot ASML.",
+          "timestamp": "15:51",
+          "context": "other"
+        },
+        {
+          "speaker": "Host",
+          "text": "ASML är ju ett nederländskt bolag som gör viktiga komponenter för grafikkip till exempel. De är ju en underleverantör till AI-bolagen. De har ju en form av jättemaskin, om man ska förenkla det, som gör vissa komponenter till chip, som i stort sett bara de kan göra i världen, eller det är bara de.",
+          "timestamp": "15:57",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host",
+          "text": "Jag har tänkt att de här har tagit sig en ganska ordentlig törn när det har varit lite halv AI-frossa. Jag tror att det kan finnas en studs på medellång sikt. Så där vill jag vara med.",
+          "timestamp": "16:20",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Nästan monopol på kritiska chip-maskiner för AI",
+          "Underleverantör till AI-bolagen med stark position",
+          "Aktien har tagit törn i AI-frossan och kan studsa på medellång sikt",
+          "Infrastruktur-spel för AI"
+        ],
+        "bear_case": [
+          "Tog törn i AI-frossa",
+          "Teknisk risk i investeringsklimatet"
+        ],
+        "catalysts": [
+          "AI-utveckling fortsätter",
+          "Efterfrågan på chip-maskiner ökar"
+        ],
+        "risks": [
+          "Teknologisk risk",
+          "Beroende av AI-bolagens efterfrågan"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "timestamp_start": "16:32",
+      "timestamp_end": "17:11",
+      "word_count": 200,
+      "speakers": [
+        "Patrik",
+        "Host"
+      ],
+      "primary_speaker": "Host",
+      "discussion_summary": "Host förklarar varför Microsoft är hans favorit bland Mag 7-bolagen. Han gillar exponeringen mot USA tech, AI och kvantdatorer. Han tror Microsoft ligger bra till i dessa racen även om kvantdatorer än inte är en kommersiell produkt. Har ägt Microsoft flera gånger tidigare. Det är den Mag 7-aktie han helst vill ha för USA-tech exponering.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Microsoft är kanske min favorit bland de amerikanska techbolagen, har också ägt flera gånger i omgångar.",
+          "timestamp": "16:38",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host",
+          "text": "Då tänker jag att jag får en exponering mot USA tech, förstås. AI, kvantdatorer kommer ju, även om det inte på något sätt är en kommersiell produkt än, känns det som att Microsoft ligger alltid bra till i det här racet.",
+          "timestamp": "16:41",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host",
+          "text": "Om det är någon av de här Mag 7-bolagen jag vill ha, så är det nog faktiskt Microsoft.",
+          "timestamp": "16:52",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Favorit bland Mag 7-bolagen",
+          "Exponering mot USA tech",
+          "Ligger bra till i AI och kvantdator-racet",
+          "Har ägt flera gånger tidigare - bevisad historik"
+        ],
+        "bear_case": [
+          "Mag 7-bolagen generellt kan vara dyra"
+        ],
+        "catalysts": [
+          "AI-utveckling",
+          "Kvantdator-teknologi"
+        ],
+        "risks": [
+          "Mag 7-valuation risk"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "USD/JPY",
+      "ticker": "USD/JPY",
+      "timestamp_start": "17:19",
+      "timestamp_end": "18:40",
+      "word_count": 300,
+      "speakers": [
+        "Host",
+        "Patrik"
+      ],
+      "primary_speaker": "Patrik",
+      "discussion_summary": "Host noterar att Bitcoin korrelerar med global likviditet och M2-penningtillväxt. Patrik förklarar sin USD/JPY position. Han tror PCE-inflationen kommer högre än väntat vilket driver upp den amerikanska tioårsräntan. Japanska tioåringen har redan klättrat mycket på inflationsbekämpning. Om USD-tioåringen klättrar mer kan dollarn stärkas mot yen. Detta handlar om Carry Trade-dynamik och räntedifferenser.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Ja men precis, och bitcoin korrelerar med global likviditet. Vi får M2-penningtillväxt i USA idag, så det kan ju bli intressant för den.",
+          "timestamp": "17:19",
+          "context": "other"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Jag har ju kört ganska tungt in på ett räntespår, där jag tror att PCE-siffran som vi pratade om på fredag kommer lite högre än förväntat. Det här kommer att göra att jag tror att räntan tioåringen kommer att komma upp lite grann på det här.",
+          "timestamp": "17:23",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "De här sindsemellan har alltid lite fightats och man brukar prata om JN Carry Trade. Det är helt enkelt ett sådant fenomen att man kan låna upp i Japan för att de har haft ganska stabil räntepolicy och tillväxt och investerare utomlands.",
+          "timestamp": "17:57",
+          "context": "other"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Men kan i stället den amerikanska tioåringen klättra så tror jag att dollarn kan stärkas i det här läget.",
+          "timestamp": "18:20",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "PCE-inflation kommer högre än väntat",
+          "USD-tioårsräntan stiger",
+          "Dollarn stärks mot yen",
+          "Carry Trade-dynamik"
+        ],
+        "bear_case": [
+          "Japansk ränta kan fortsätta upp",
+          "PCE kan komma in som väntat eller lägre"
+        ],
+        "catalysts": [
+          "PCE-inflation på fredag",
+          "Japansk räntebesked",
+          "Framtida räntedifferenser"
+        ],
+        "risks": [
+          "Räntor rör sig oväntat",
+          "Carry Trade förändras"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Han får onödigt mycket. Jag tycker att centralbankerna i världen får onödigt mycket ris för deras, att man ligger snett och de ligger lite snett kan jag väl tycka också med deras räntor just nu. Men de hanterar läget otroligt bra genom deras andra verktyg. Där har man repomarknaden, man kan köpa tillbaka olika papper, man har den omvända repomarknaden som man hanterar överflöd av likviditet i marknaden. Det där gör man på ett jättesnyggt sätt.",
+      "summary": "Centralbankerna hanterar likviditeten i marknaden genom balansräkningsverktyg som repomarknaden, snarare än bara räntepolicy.",
+      "category": "philosophy",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "10:57",
+      "confidence": "high",
+      "tags": [
+        "centralbanker",
+        "likviditet",
+        "balansräkning",
+        "repomarknad"
+      ]
+    },
+    {
+      "quote": "För om jag får gissa själv, min spaning är att Centralbankerna världen har flyttat deras fokus lite grann på att hantera upp- och nedgångar i konjunkturen med de andra verktygen, med balansräkningen, med likviditet, snarare än just räntepolicy. Räntepolicy har ju lite ett dilemma just nu, för man ska komma ihåg att en lite högre ränta som de har just nu än vad vi har sett de senaste åren. Det ger likviditet genom att finanspolitiken i USA är väldigt stimulerande.",
+      "summary": "Centralbanker fokuserar mer på balansräkning och likviditet för att hantera konjunkturcykler, snarare än bara räntepolicy.",
+      "category": "philosophy",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "11:46",
+      "confidence": "high",
+      "tags": [
+        "centralbanker",
+        "balansräkning",
+        "likviditet",
+        "räntepolicy",
+        "finanspolitik"
+      ]
+    },
+    {
+      "quote": "Jag tror att vi har inte sett någonting av det här än. Så den har handlats ner väldigt mycket. Och nu närmar vi oss kvartalsrapport igen.",
+      "summary": "När marknaden överreagerar på negativa nyheter kan det finnas köpmöjligheter innan effekterna är synliga.",
+      "category": "wisdom",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "14:48",
+      "confidence": "medium",
+      "tags": [
+        "överreaktion",
+        "marknadssentiment",
+        "contrarian"
+      ]
+    },
+    {
+      "quote": "Så det är återstående att se. Jag håller med, superkul att se ett svenskt framgångsrikt techbolag gå till börsen.",
+      "summary": "Spotify har gjort en riktig resa sen de kom in.",
+      "category": "wisdom",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "07:08",
+      "confidence": "low",
+      "tags": [
+        "IPO",
+        "techbolag",
+        "Spotify"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "quote": "Sen avslutar jag med lite bitcoin, för att någon exponering mot krypto vill jag ändå ha. För jag tänker att det är en så tydligt proxy på riskvilja också. Och ska marknaden börja dra, då tror jag att bitcoin ska med där, och kanske till och med leda det locket.",
+      "context": "Bitcoin som riskvilja-proxy och investeringsval i tävlingsportfölj",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "I detta avsnitt diskuteras rapporter från Nike och FedEx som båda guider lägre, vilket indikerar utmaningar för konsumentsektorn. BYD rapporterar starkt och går om Tesla i försäljning men värderas betydligt lägre. Klarna ska noteras på NYSE. Fed lämnar räntan oförändrad men minskar balansräkningen långsammare. Patrik och en duellant presenterar sina portföljer där Patrik har fokus på energi och råvaror (Rusta, Fortum, TGS, olja, USD/JPY) medan duellanten har mer fokus på tech (ASML, Microsoft, Palantir). Bitcoin ingår som riskvilja-proxy.",
+  "key_takeaways": [
+    "Nike och FedEx guider lägre, konsumentsektorn visar svaghet",
+    "BYD går om Tesla i försäljning men handlas till bråkdelen av värderingen",
+    "Klarna noteras på NYSE",
+    "Fed lämnar ränta oförändrad men hanterar likviditet genom balansräkning",
+    "Patrik satsar på energi och råvaror, duellanten på tech",
+    "Bitcoin ses som riskvilja-proxy"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/igborssnack/transcripts/igborssnack-2025-03-26-0d61.txt",
+  "transcript_word_count": 3392,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

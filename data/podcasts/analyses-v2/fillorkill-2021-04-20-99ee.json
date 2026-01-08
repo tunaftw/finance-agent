@@ -1,0 +1,239 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2021-04-20-99ee",
+  "podcast_name": "Fill or Killpodden",
+  "episode_title": "Avsnitt 316 - Alle man över bord",
+  "episode_number": 316,
+  "date": "2021-04-20",
+  "hosts": [
+    "Filler",
+    "Kill"
+  ],
+  "guests": [
+    "Milo Wolf",
+    "Nas Taki"
+  ],
+  "main_topics": [
+    "Marknadsnedgång",
+    "Rapportsäsong",
+    "Kryptomarknad",
+    "Coinbase-notering",
+    "Arbete hemifrån-trend"
+  ],
+  "stocks_discussed": [
+    "Sandvik",
+    "Getinge",
+    "Avanza",
+    "E-tron",
+    "Nordnet",
+    "Coinbase"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Coinbase",
+      "ticker": "COIN",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Gäst (Milo)",
+      "speaker_role": "guest",
+      "timestamp": "23:25",
+      "reasoning": "Gästen menar att Coinbase är en centraliserad börs vilket strider mot grundidén med krypto (decentralisering). Coinbase anses vara en lätt måltavla för regulatorer som kommer att påverka tillväxttakten negativt. Väntade på en dip inför kommande regulationer i USA kopplat till skattehöjningar.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "Så som jag har förstått grundidén med krypto och så som jag tror på den så är inte Coinbase jättelångsiktig. [...] De måste ha information om alla individer, samla in data och sådana grejer. Då tappar du ju lite idén bakom att äga och köpa klippdom.",
+      "sector": "Technology/Financial Services",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Nedsida pga kommande regulationer",
+      "catalyst_timing": "Vid USA:s skatteförslag och crypto-regulation"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Coinbase",
+      "ticker": "COIN",
+      "timestamp_start": "21:56",
+      "timestamp_end": "28:15",
+      "word_count": 800,
+      "speakers": [
+        "Filler",
+        "Kill",
+        "Gäst (Milo)"
+      ],
+      "primary_speaker": "Gäst (Milo)",
+      "discussion_summary": "Diskussionen kring Coinbase noteringen väger för- och nackdelar med en centraliserad kryptobörs. Gästen argumenterar för att Coinbase strider mot kryptons decentraliseringsideal och är sårbar för kommande regulatoriska insatser. Det noteras att insiders sålde stora mängder direkt vid noteringen och kursen föll hela dagen efter initial uppgång.",
+      "quotes": [
+        {
+          "speaker": "Gäst (Milo)",
+          "text": "Så som jag har förstått grundidén med krypto och så som jag tror på den så är inte Coinbase jättelångsiktig.",
+          "timestamp": "23:25",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Filler",
+          "text": "Jag satt ändå kvar och verkligen höll mig till svensk stängning och hoppade att vi skulle öppna. Den enkla traden var väl att köpa första sekunderna av minuten och sen sälja inom fem minuter",
+          "timestamp": "22:02",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Gäst (Milo)",
+          "text": "De måste ha information om alla individer, samla in data och sådana grejer. Då tappar du ju lite idén bakom att äga och köpa klippdom.",
+          "timestamp": "24:58",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Kill",
+          "text": "Om det blir värsta kryptohypen och Bitcoin går upp till 300 000, då är ju Coinbase en supervinnare.",
+          "timestamp": "26:00",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": [
+          "Om krypto-hypen fortsätter och Bitcoin når $300k kan Coinbase bli en supervinnare",
+          "Starka Q1-siffror visar potential"
+        ],
+        "bear_case": [
+          "Centraliserad börs strider mot kryptons grundidé (decentralisering)",
+          "Målsättning för regulatorer - lätt att reglera jämfört med decentraliserade alternativ",
+          "Insiders sålde direkt vid notering",
+          "Kommande US-regulationer kopplat till skattehöjningar"
+        ],
+        "catalysts": [
+          "Crypto-hypens varaktighet",
+          "Kryptoregulationer i USA",
+          "Q1-resultat var starka"
+        ],
+        "risks": [
+          "Kommande regleringsinsatser",
+          "Decentraliserade alternativ (som Uniswap) kan överta marknadsandelar",
+          "Insider-försäljning påverkar sentiment"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag skulle nog inte säga att det är köpläge efter en dag. Marknaden är väldigt dyr och jag skulle säga att man har prisat in extremt mycket. Och inte bara hur bolagen ska gå utan också man har prisat in stimulanser och allt möjligt.",
+      "summary": "Marknaden var övervärderad i april 2021 med extremt prissatta förväntningar på både bolag och stimulanser.",
+      "category": "wisdom",
+      "speaker": "Gäst (Milo)",
+      "speaker_role": "guest",
+      "timestamp": "03:25",
+      "confidence": "high",
+      "tags": [
+        "marknadsvärdering",
+        "eupori-signal"
+      ]
+    },
+    {
+      "quote": "Det är ju ett lyxproblem [...] Det vi kommer göra är att vi kommer skapa lite prisinflation. Det kan skrämma börsen om man då tar det för att det blir riktig inflation.",
+      "summary": "Halvledarkrisen kan skapa prisinflation som skrämma börsen men är egentligen ett lyxproblem.",
+      "category": "wisdom",
+      "speaker": "Kill",
+      "speaker_role": "host",
+      "timestamp": "09:35",
+      "confidence": "medium",
+      "tags": [
+        "halvledarkris",
+        "inflation"
+      ]
+    },
+    {
+      "quote": "En bra lärdom är att oavsett vad man släpper för siffror, aktier och siffrorna, det hör inte ihop. Allt handlar om marknadens förväntningar, inte analytikernas förväntningar kan man säga.",
+      "summary": "Marknadens förväntningar är viktigare än analytikernas förväntningar.",
+      "category": "lesson",
+      "speaker": "Kill",
+      "speaker_role": "host",
+      "timestamp": "13:36",
+      "confidence": "high",
+      "tags": [
+        "rapportsäsong",
+        "förväntningar"
+      ]
+    },
+    {
+      "quote": "Rent instinkt, jag drar alltid öronen åt mig här i början på maj, det är det här kända uttrycket, sälj mig en go away. Det är ju statistiskt säkerställt att börsen under sommarhalvåret är mer volatil till lägre avkastning än på vinterhalvåret.",
+      "summary": "\"Sell in May and go away\" är statistiskt säkerställt - sommarhalvåret har lägre avkastning och högre volatilitet.",
+      "category": "wisdom",
+      "speaker": "Kill",
+      "speaker_role": "host",
+      "timestamp": "30:25",
+      "confidence": "high",
+      "tags": [
+        "säsongs-mönster",
+        "sommar-börsen"
+      ]
+    },
+    {
+      "quote": "Jag tror att du har fått med dig väldigt många och många har kanske blivit väldigt complacent. För att om du sitter på uppgången vi har haft så är den här 2,5 procenten ner idag. Det är ju nada, det syns ju inte ens på slutet.",
+      "summary": "När marknaden gått starkt länge blir investerare complacent och små nedgångar känns som katastrofala.",
+      "category": "wisdom",
+      "speaker": "Gäst (Milo)",
+      "speaker_role": "guest",
+      "timestamp": "33:54",
+      "confidence": "high",
+      "tags": [
+        "complacency",
+        "marknads-psykologi"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "ADA",
+      "asset_name": "Cardano",
+      "sentiment": "bullish",
+      "speaker": "Gäst (Milo)",
+      "speaker_role": "guest",
+      "quote": "Jag börjar bli riktigt bullish. Jag vågar inte säga vad jag tror att den kommer stå i det här till sommaren eller strax efter sommaren. Jag tror ju på 3-4 dollar.",
+      "context": "Krypto-dip i helgen, köpt under veckan",
+      "confidence": "high",
+      "price_levels": [
+        "3-4 dollar"
+      ],
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Gäst (Milo)",
+      "speaker_role": "guest",
+      "quote": "Jag är imponerad av det i helgen när Bitcoin är ner 20%, det likvideras 7 miljarder dollar och att den ändå inte tappar, den trillar inte genom golvet.",
+      "context": "Krypto-dip i helgen, 20% ner men återhämtad",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Kill",
+      "speaker_role": "host",
+      "quote": "Om det blir värsta kryptohypen och Bitcoin går upp till 300 000, då är ju Coinbase en supervinnare.",
+      "context": "Diskussion om Coinbase potentiell uppsida",
+      "confidence": "low",
+      "price_levels": [
+        "300 000 dollar"
+      ],
+      "timeframe": "lång sikt"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet diskuterar börskorrigeringen i april 2021 efter stark uppgång, med fokus på rapport-säsong, krypto-dip och Coinbase-notering. Gästen är kort på index och tror på nedgång kommande månader. Marknaden bedöms vara övervärderad med extremt prissatta förväntningar.",
+  "key_takeaways": [
+    "Marknaden var extremt övervärderad april 2021 med prissatta förväntningar på stimulanser och bolag",
+    "Coinbase bedöms inte vara långsiktig på grund av centraliserad struktur och kommande regulationer",
+    "\"Sell in May\"-mönstret noterades med historiskt sämre avkastning under sommarhalvåret",
+    "Krypto-dip på 20% men Bitcoin visade styrka med återhämtning trots stora likvideringar",
+    "Håll dig beredd på orderboken för att fånga snabba dippar i krypto"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2021-04-20-99ee.txt",
+  "transcript_word_count": 7073,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,375 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2019-04-18-c1fc",
+  "podcast_name": "Kort och lång",
+  "episode_title": "Lundberg stärker sin egen makt",
+  "episode_number": null,
+  "date": "2019-04-18",
+  "hosts": ["Johan", "Uffe", "Richard"],
+  "guests": [],
+  "main_topics": ["Sandvik Q1 rapport", "ABB vd-byte", "Ericsson Q1 rapport", "Handelsbanken Octogonen", "Billerud Korsnäs rapport", "Spelsektorn omreglering", "Avanza rapport"],
+  "stocks_discussed": ["Sandvik", "ABB", "Ericsson", "Handelsbanken", "Billerud Korsnäs", "Global Gaming", "Leo Vegas", "Kindred", "Betsson", "Avanza"],
+  "recommendations": [
+    {
+      "stock_name": "Billerud Korsnäs",
+      "ticker": "BILL-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "17:49",
+      "reasoning": "Billerud Korsnäs är en av de mest blankade aktierna på Stockholmsbörsen. Rapporten visade att de inte kan höja priserna mer mot kunder trots ökande råvarukostnader, vilket pressar marginalerna. En jätteinvestering ska börja takta igång men rapporten skapade ingen känsla av att man ska köpa. Företaget är tungt exponerat mot priskänsliga marknader med begränsad möjlighet till prishöjningar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men det var väl ingen rapport som gör att man känner att man ska liksom in och köpa massor av bilder ut nu här i vår.",
+      "sector": "Skog",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Avanza",
+      "ticker": "AZA",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Richard",
+      "speaker_role": "host",
+      "timestamp": "26:37",
+      "reasoning": "Kostnaderna ökar med 8% medan intäkterna är i princip stillastående, vilket är ett negativt mönster. Swedbank har infört gratis aktiehandel upp till 100 000 vilket skapar fortsatt prispress. Bolaget handlas till P/E 27 för 2019 trots krympande eller stillastående vinst de senaste åren, vilket framstår som dyrt. Trots god tjänst och app pressas intjäningstillväxten av ökande konkurrens.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker det är konstigt när de hade, jag kollade i Blomman, Bloomberg-terminalen då här nu, precis innan vi gick in, PE27 för 2019. Med ett bolag som liksom har en krympande eller stillastående vinst de senaste åren.",
+      "sector": "Finans",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Sandvik",
+      "ticker": "SAND",
+      "timestamp_start": "02:36",
+      "timestamp_end": "05:47",
+      "word_count": 550,
+      "speakers": ["Johan", "Uffe"],
+      "primary_speaker": "Uffe",
+      "discussion_summary": "Sandvik rapporterade resultat som var 5% bättre än förra året men lägre än väntat, med omsättningstillväxt men lägre än konsensus. Orderingången var dock bättre än väntat. Aktien vände från att falla till att stiga efter vd Björn Rosengrens optimistiska kommentarer i DIs tv-sändning. Affärsområdet SMS visade försämrad lönsamhet med rörelsemarginal fallande från 25,9% till 24,9%, drivet av negativ utveckling i Asien och fordonssektorn, särskilt Kina.",
+      "quotes": [
+        {
+          "speaker": "Uffe",
+          "text": "Klockan är nu halv tolv, rapporten släpptes elva så börsen har varit igång en halv timme och noteras faktiskt i detta just nu till all time high. Det gäller både Sandvik-aktien och hela börsen faktiskt.",
+          "timestamp": "02:38",
+          "context": "metric"
+        },
+        {
+          "speaker": "Uffe",
+          "text": "Resultatet förbättrades, men 5 procent, men det var lite lägre än väntat. Omsättningen förbättrades också men lite lägre än väntat. Däremot så var orderingången bättre än väntat.",
+          "timestamp": "02:38",
+          "context": "metric"
+        },
+        {
+          "speaker": "Uffe",
+          "text": "Han ser en fortsatt stark efterfrågan. Han var speciellt nöjd med Japan och Indien. Det enda som är negativt egentligen är bilsektorn, framförallt Kina men även Europa.",
+          "timestamp": "04:07",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "I Asien minskade intäkterna med 7% och det här var främst iföl av att verkstadssektorn utvecklades negativt i Kina, men också att fordonssegmentet som vi vet går rätt dåligt. Rörelsemarginalen föll från 25,9 till 24,9% så då var procentenheten backade med rörelsemarginalen.",
+          "timestamp": "04:59",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "+5% YoY",
+        "margin": "24.9% (SMS-affärsområde)",
+        "debt_level": null,
+        "custom": ["Orderingång bättre än väntat", "Rörelsemarginal SMS 25,9% -> 24,9%"]
+      },
+      "thesis": {
+        "bull_case": ["Stark efterfrågan i Japan och Indien", "Orderingång bättre än väntat", "Vd optimistisk om framtiden", "Industrikonjunkturen fortsatt god"],
+        "bear_case": ["Negativ utveckling i Kinas fordonsindustri", "Pressad lönsamhet i SMS-affärsområdet", "Bilsektorn ett problem i både Kina och Europa", "Resultat och omsättning lägre än väntat"],
+        "catalysts": ["Telefonkonferens kl 12", "Kinesisk bilindustri utveckling", "PMI-siffror"],
+        "risks": ["Lågkonjunktur kan dröja", "Valutaeffekter", "Fordonssektorns nedgång"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "ABB",
+      "ticker": "ABB-B",
+      "timestamp_start": "06:17",
+      "timestamp_end": "08:36",
+      "word_count": 480,
+      "speakers": ["Johan", "Uffe"],
+      "primary_speaker": "Johan",
+      "discussion_summary": "ABB kom med en rapport där resultatet var 5% sämre än väntat, men aktien steg 5% på beskedet att vd Ulrich Spishoffer lämnar med omedelbar verkan. Han har varit underpresterare sedan 2013 då aktien underpreformat både Stockholmsbörsen och konkurrenter som Honeywell. Marknaden handlade upp aktien med 30-40 miljarder på vd-hoppet då man förväntar sig avknoppningar och försäljningar. Cevian och nya vd:n är överens om inriktningen.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "ABB-aktien har gått rätt dåligt under hans ledning, trots att det varit en börsuppgång och en synkroniserad global uppgång som har dragit upp Sandvik och Atlas.",
+          "timestamp": "06:17",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Sedan 2013 har aktien underperformat mot Stockholmsbörsen och skulle du jämföra med Honeywell och sådana här ABB-konkurrenter så är de ju en riktig dogg.",
+          "timestamp": "06:44",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Hade det inte varit för vd-hoppet så skulle jag säga att då hade nog kanske aktien backat ett par procent, och nu steg den i stälj fem procent. Så sju procenten heter spishoffereffekten.",
+          "timestamp": "07:22",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Man kan nog anta att inriktningen också är, att ABB fortsätter delas upp efter den försäljning av Power Grid, står till Hitachi.",
+          "timestamp": "07:22",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Resultat 5% sämre än väntat", "Aktien +5% på vd-hoppet"]
+      },
+      "thesis": {
+        "bull_case": ["Vd-hoppet med Ulrich Spishoffer", "Förväntade avknoppningar och försäljningar", "Cevian och ny vd överens om inriktningen", "Uppdelning av Power Grid till Hitachi"],
+        "bear_case": ["Aktien underpreformat mot Stockholmsbörsen sedan 2013", "Underprestant mot konkurrenter som Honeywell", "Resultat sämre än väntat"],
+        "catalysts": ["Ny vd utses", "Besked om avknoppningar och försäljningar"],
+        "risks": ["Ny vd kan inte leverera", "Strukturåtgärder kan dröja"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "timestamp_start": "08:54",
+      "timestamp_end": "12:07",
+      "word_count": 620,
+      "speakers": ["Johan", "Uffe"],
+      "primary_speaker": "Uffe",
+      "discussion_summary": "Ericsson slog förväntningar på sin rapport med en rörelsemarginal på 10%, vilket innebär att de nått sitt koncernmål för 2020 tidigt. Aktien är nu uppe på 94-95 kronor, den högsta nivån sedan sommaren 2015. Omsättningen ökade med 7% organiskt, vilket är en förbättring från Q4:s 1% organisk tillväxt. Network-affärsområdet har redan nått målet om 15-17% rörelsemarginal. För att aktien ska fortsätta upp krävs att vd:n höjer marginalmålen efter halvårsskiftet eller Q3.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Ericsson har nu en rörelsemarginal på 10%. Bruttomarginalen steg lika väl. Ericsson-aktien är upp 94-95 spänn nu. Och det är ju högsta nivån sen sommaren 2015. Det går ju kanonbra för dem.",
+          "timestamp": "08:54",
+          "context": "metric"
+        },
+        {
+          "speaker": "Uffe",
+          "text": "Absolut en fantastisk vändning de har gjort där. De ska ha beröm på den här rapporten för omsättningen ökade med 7 procent organiskt.",
+          "timestamp": "09:19",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Uffe",
+          "text": "2020 har de sagt att de ska ha en marginal på minst 10 procent. Nu är de uppe där. De har sagt att Network, som är det stora affärsområdet, radiosystemområdet, ska ha en rörelsemarginal på 15-17 procent 2020. Och de är redan där också.",
+          "timestamp": "09:19",
+          "context": "metric"
+        },
+        {
+          "speaker": "Uffe",
+          "text": "Nu, för att aktien ska trampa vidare här, så får nog Börje gå ut och ge oss ett nytt mål för antingen 2020 eller 2022 eller något sånt där. Kanske efter halvårsskiftet, eller åtminstone efter Q3-an, så kan man nog räkna med att det kommer ett nytt marginalmål.",
+          "timestamp": "09:19",
+          "context": "catalysts"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "+7% organiskt",
+        "margin": "10% (koncern), 15-17% (Network)",
+        "debt_level": null,
+        "custom": ["Börsvärde 315 miljarder kronor", "Högsta nivån sedan sommaren 2015", "Utländska ägare har köpt"]
+      },
+      "thesis": {
+        "bull_case": ["Rörelsemarginal 10% nått 2020-mål tidigt", "Network redan vid 15-17% marginalmål", "Organisk omsättningstillväxt 7%", "Fantastisk vändning i bolaget", "Utländska institutionella ägare"],
+        "bear_case": ["Struktur kvar att göra i förlusthärdar", "Q2-förväntningar tonade ner av vd"],
+        "catalysts": ["Nytt marginalmål efter halvårsskiftet eller Q3", "Q3-rapport"],
+        "risks": ["Kostnadsstruktur kan behöva mer arbete", "Marknadsutsikter kan förändras"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Handelsbanken",
+      "ticker": "SHB-A",
+      "timestamp_start": "12:07",
+      "timestamp_end": "17:21",
+      "word_count": 950,
+      "speakers": ["Johan", "Uffe", "Richard"],
+      "primary_speaker": "Uffe",
+      "discussion_summary": "Handelsbankens nya vd Karin Åkerström kom med sin första rapport men fokus låg på beslutet att återta 827 miljoner kronor som reserverats för personalbonus till Octogonen-pensionsstiftelsen. Aktien föll 2-3% på nyheten. Detta sker efter fyra liknande händelser tidigare, senast 2016 då Frank Wang Jensen fick gå snart efter. Beslutet stärker Fredrik Lundbergs position i bolaget då Octogonen inte får pengar att köpa aktier för, vilket ökar hans relativa ägande. Det är en stridsförklaring mot personalen om kostnadsreduktioner.",
+      "quotes": [
+        {
+          "speaker": "Uffe",
+          "text": "Det som överskuggade allting annat var den här nyheten att de här 827 miljoner kronor som de hade reserverat för personalbonus in till Octogonen, pensionsstiftelsen Octogonen, att man återtog dem. Aktien var ju ner 2-3 procent.",
+          "timestamp": "12:37",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Den som gjorde det sist var ju då 2016, det var ju Frank Wang Jensen. Han fick ju inte gå kort efter det. Och innan dess, då var det 2009 var det. Det var ju en liten finanskris då.",
+          "timestamp": "13:16",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Uffe",
+          "text": "Det som händer nu är ju att man tar pengar från personalen till bolaget och i sista hand aktieägarna. Det som Handelsbanken har att göra... är att personalkostnaderna har ökat. Det är ju lite av en stridsförklaring som nya vdn kan ge mot sin personal.",
+          "timestamp": "13:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Uffe",
+          "text": "Handelsbanken är de som har fortfarande absolut flest kontor och har ett arbete att effektivisera kontorsnätet. Det är det som har gjort att kostnaderna ökar bland annat.",
+          "timestamp": "13:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Fredrik Lundberg är ju en mycket försiktig herre. Han ogillar ju skuld, framför allt annat. Och han är ju rutinerad.",
+          "timestamp": "16:13",
+          "context": "other"
+        },
+        {
+          "speaker": "Uffe",
+          "text": "Det som händer nu är ju att oktogonen inte får några pengar att köpa handelsbanksaktier för, vilket kommer att stärka Lundbergs ägande, relativt personalstiftelserna. Ju mindre pengar oktogonen får, desto mer stärks Lundbergs roll över det här.",
+          "timestamp": "16:26",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Låga kapitalteckningskrav",
+        "custom": ["827 miljoner kr återtagna från Octogonen", "Personalkostnader ökande", "Aktien ner 2-3%"]
+      },
+      "thesis": {
+        "bull_case": ["Fredrik Lundberg stärker sin position", "Vd:ns stridsförklaring mot personalen kan leda till kostnadsreduktioner"],
+        "bear_case": ["Bonussystemet Octogonen återtar pengar för fjärde gången", "När en vd gjort detta tidigare har den fått gå", "Kostnader ökar", "Kontorsnätet behöver effektiviseras", "Personalomsättning bara 3-4% mot 10% i andra banker"],
+        "catalysts": ["Nästa års bonusbeslut", "Kostnadsreduktionsprogram"],
+        "risks": ["Personalkonflikter", "Låg personalomsättning ger åldrande personalstyrka"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Avanza",
+      "ticker": "AZA",
+      "timestamp_start": "24:04",
+      "timestamp_end": "27:19",
+      "word_count": 520,
+      "speakers": ["Richard", "Uffe", "Johan"],
+      "primary_speaker": "Richard",
+      "discussion_summary": "Avanza rapporterade intäkter på 268 miljoner kronor, en ökning med bara en miljon från motsvarande kvartal förra året. Det bekymrande är att kostnaderna ökar med 8% medan intäkterna står stilla. Swedbank har infört gratis aktiehandel upp till 100 000 vilket skapar prispress. Trots att Avanza har en bättre tjänst och app än storbankerna handlas bolaget till P/E 27 för 2019 trots krympande eller stillastående vinst, vilket anses dyrt.",
+      "quotes": [
+        {
+          "speaker": "Richard",
+          "text": "De kommer ju in med intäkter på 268 miljoner kronor. Det är en ökning med en miljon krona från motsvarande kvartal i fjol. Problemet är ju att deras kostnader ökar väldigt mycket, så de ökar med åtta procent.",
+          "timestamp": "24:04",
+          "context": "metric"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Det som har varit temat i det här bolaget senast tiderna. Det har gått helt okej på intäktssidan, men kostnaderna har ökat innan allt högre takt.",
+          "timestamp": "24:04",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Uffe",
+          "text": "Jag håller med dig att kostnaderna ökar mer än intäkten, och det är inte roligt. Nu kom ju här att Swedbank erbjuder gratis aktiehandel, upp till 100 000, så jag tror att de här intäkterna ska vi räkna per affär så är det nog fortsatt prispress för Avanza.",
+          "timestamp": "24:48",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Fördelen de har är att de är så otroligt mycket bättre tjänst, än de här storbankerna. Alltså använd Avanza's app och jämför med Nordea till exempel, det är ju som att sätta sig i en Ferrari jämfört med en Volvo 240 som rostar.",
+          "timestamp": "25:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Richard",
+          "text": "PE27 för 2019. Med ett bolag som liksom har en krympande eller stillastående vinst de senaste åren.",
+          "timestamp": "26:37",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "27 (2019)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "+1 miljon kr (begränsad)",
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Intäkter 268 miljoner kr", "Kostnader +8%", "Swedbank gratis aktiehandel upp till 100 000 kr"]
+      },
+      "thesis": {
+        "bull_case": ["Bäst tjänst och app jämfört med storbanker", "Strukturellt case att ta marknadsandelar från 20-åringar"],
+        "bear_case": ["Kostnaderna ökar 8% medan intäkterna står stilla", "Swedbank inför gratis aktiehandel", "P/E 27 trots krympande/stillastående vinst", "Prispress på kortageavgifter"],
+        "catalysts": ["Bolåneaffären ska kompensera kortagepressen"],
+        "risks": ["Ökande konkurrens från storbanker", "Kostnadstillväxt fortsätter"]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det gör ju att det är ingen som slutar på handelsbanken. Det är ett fantastiskt system det här oktogonet. Så jag tror de har en personalomsättning på 3-4% mot 10% till de övra bankerna. Och det är klart att det gör ju att demografin i handelsbanken blir kinesisk kan man väl säga. Och det kanske inte är så roligt i förlängningen.",
+      "summary": "Extremt lojal personal skapar åldrande personalstyrka med potentiella problem för långsiktig förnyelse och innovation.",
+      "category": "lesson",
+      "speaker": "Uffe",
+      "speaker_role": "host",
+      "timestamp": "15:27",
+      "confidence": "high",
+      "tags": ["personalstyrning", "bonussystem", "åldrande personal", "innovationsförmåga"]
+    },
+    {
+      "quote": "I spelbranschen så spelar man ju alltid mot spelbolaget. Så om du förlorar pengar så vinner spelbolaget. Det finns ju liksom inga andra pengar.",
+      "summary": "Spelbranschen har en unik affärsmodell där bolagens vinst är spelarnas förlust, vilket gör den olika vanlig ekonomi där alla kan vinna.",
+      "category": "wisdom",
+      "speaker": "Uffe",
+      "speaker_role": "host",
+      "timestamp": "21:42",
+      "confidence": "high",
+      "tags": ["spelbranschen", "affärsmodell", "risk"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Veckans rapportperiod visade blandade resultat. Sandvik och Ericsson levererade starkt med Ericsson som nådde sitt marginalmål tidigt och aktien på högsta nivån sedan 2015. ABB steg 5% på vd-hoppet men rapporten var svagare än väntat. Handelsbanken drabbades av negativt sentiment efter beslutet att återta 827 miljoner kronor från Octogonen, en händelse som historiskt föregått vd-byten. Spelsektorn pressades av omreglering med Global Gamings vinstvarning och Leo Vegas undersökning. Avanza visade svaga siffror med stigande kostnader och prispress från Swedbank.",
+  "key_takeaways": [
+    "Ericsson når marginalmål tidigt med 10% koncernmarginal och 15-17% i Network",
+    "Handelsbankens återtagande av Octogonen-pengar kan förebåda vd-byte och är en stridsförklaring mot personalen",
+    "Spelsektorn drabbas av svensk omreglering med 1,5 miljarder kronor i förlorad vinst från problemspelare som stängt av sig",
+    "Avanza pressas av ökande kostnader och Swedbanks gratis aktiehandel, handlas till P/E 27 trots stillastående vinst"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2019-04-18-c1fc.txt",
+  "transcript_word_count": 5010,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

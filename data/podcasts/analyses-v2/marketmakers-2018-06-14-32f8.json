@@ -1,0 +1,414 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2018-06-14-32f8",
+  "podcast_name": "Market Makers",
+  "episode_title": "#37 Vinnarna Inom AI",
+  "episode_number": 37,
+  "date": "2018-06-14",
+  "hosts": [
+    "Fabian",
+    "Niklas"
+  ],
+  "guests": [
+    "Jens Lauritsson"
+  ],
+  "main_topics": [
+    "AI",
+    "Machine Learning",
+    "Tech IPOs",
+    "Cloud Computing",
+    "Hårdvara för AI",
+    "Svenska aktier"
+  ],
+  "stocks_discussed": [
+    "Twitter",
+    "ZTE",
+    "Electronic Arts",
+    "Contemporary Amperex Technology",
+    "Tesla",
+    "Flexion",
+    "Alphabet",
+    "Microsoft",
+    "Amazon",
+    "AMD",
+    "Intel",
+    "Nvidia",
+    "Xilinx",
+    "Samsung Electronics",
+    "Micron",
+    "Western Digital",
+    "Salesforce",
+    "HubSpot",
+    "Yelp",
+    "Veoneer",
+    "PayPal",
+    "Netflix",
+    "Alibaba"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "ZTE",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "04:26",
+      "reasoning": "Hosts remain cautiously optimistic about Chinese tech stocks despite acknowledging significant risks related to state control and governance. They note Chinese stocks trade at cheaper valuations due to these risks and mention even value investors like Warren Buffett have begun buying Chinese companies like BYD.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi har ju pratat mycket om Kina och har varit ganska mycket hosade för kinesiska techbolag. Det är vi fortfarande. Men man måste förstå ändå den dynamiken mellan staten som finns, kommunistiska partiet och de här bolagen... Men det är därför de också handlas mycket till billigare värderingar.",
+      "sector": "Telecommunications",
+      "market": "china",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Electronic Arts",
+      "ticker": "EA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "04:26",
+      "reasoning": "Hosts praise EA's new subscription service as a smart strategic direction and believe streaming is inevitable for gaming. They anticipate we're one console generation away from full gaming streaming adoption.",
+      "price_target": null,
+      "time_horizon": "Medium to long term",
+      "quote": "Enligt mig känns det här som en helt rätt väg att gå och nästa steg är med största sannolikhet att vi börjar streama spel istället för att behöva äga hårdbara en själva. Vi är inte riktigt där än men många tror att vi kanske har en generation av spelkonsoler till innan vi helt går över till streaming.",
+      "sector": "Gaming",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "25:26",
+      "reasoning": "Nvidia identified as dominant player with 100% market share in AI training servers and strong partnerships with cloud giants. Three key competitive advantages mentioned: dominant market share, higher R&D spend ($1.8B vs AMD's $1.2B), and CUDA platform moat since 2007.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nvidia som företag är väldigt intressant. De har tre starka konkurrensfördelar inom GPU-området jämfört med deras huvudkonkurrent AMD och till viss del Intel.",
+      "sector": "Semiconductors",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Xilinx",
+      "ticker": "XLNX",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "28:58",
+      "reasoning": "Xilinx highlighted as interesting smaller player with 60% market share in FPGA market, expected to grow further. Hardware used by Amazon, Microsoft, and Baidu with AI/ML partnerships underway.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Zilinq är intressanta. De är ett relativt litet bolag men de har cirka 60% market share i FPGA marknaden och den andelen förväntas ju växa ännu mer.",
+      "sector": "Semiconductors",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Samsung Electronics",
+      "ticker": "005930.KS",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "30:08",
+      "reasoning": "Mentioned as key player in DRAM market where AI-related revenue expected to grow from $4B to $20B by 2025.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ja, och i DRAM-gamet är det ett bolag som Samsung Electronics som kan handlas via Dejiro, en stor spelare.",
+      "sector": "Semiconductors",
+      "market": "korea",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Western Digital",
+      "ticker": "WDC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "30:27",
+      "reasoning": "Identified as key storage player with AI-related storage revenue expected to grow from $4B to over $30B by 2025.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ja, Western Digital är en gigant, det känner nog de flesta igen om man har köpt en hårddisk i sina dagar.",
+      "sector": "Storage",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Veoneer",
+      "ticker": "VNE",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "32:44",
+      "reasoning": "Mentioned as impressive Swedish example working indirectly with machine learning, specifically in self-driving cars and active automotive safety after being spun off from Autoliv.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och på svenska börsen har vi faktiskt också flera bolag som indirekt jobbar med machine learning. Ett jätteintryllt exempel är Veoneer som kopplats av nu från Autoliv.",
+      "sector": "Automotive",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "timestamp_start": "25:09",
+      "timestamp_end": "26:30",
+      "word_count": 350,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Nvidia presented as dominant GPU player with 100% market share in AI training servers. Discussion highlights three competitive advantages: dominant market share with partnerships to cloud giants, superior R&D investment focused on GPU, and CUDA platform moat established since 2007. GPU market expected to grow from 6% of servers to 50% by 2025.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Nvidia som företag är väldigt intressant. De har tre starka konkurrensfördelar inom GPU-området jämfört med deras huvudkonkurrent AMD och till viss del Intel.",
+          "timestamp": "25:26",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det första är att de har dominerade marknadsandel på nämligen 100 procent av träningsserver och flertal partnerships med cloudföretagen som Facebook, Amazon, Microsoft, Google och Battliga.",
+          "timestamp": "25:26",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det andra är att de har en högre R&D. Nvidia, som de lag 2017, har 1,8 miljoner dollar på forskning och utveckling. Nästan helt fokuserat på GPU. Medan deras största konkurrent, AMD som nämnde, de har en R&D budget på runt 1,2 miljarder dollar.",
+          "timestamp": "25:53",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Och det tredje är det vi snackade om tidigare, det här med valggrav. Nvidia har investerat i sin GPU computing platform, CUDA, sedan 2007. Den var alltså tidigt ute, andra företag har börjat använda den och det här kan ge en viss valgrav till att man fortsätter att använda den.",
+          "timestamp": "26:13",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "GPU servers: 6% to 50% by 2025",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "R&D $1.8B (2017)",
+          "100% of AI training server market",
+          "70% of discrete GPU market"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "100% market share in AI training servers",
+          "Partnerships with all major cloud companies",
+          "Superior R&D investment focused on GPU ($1.8B)",
+          "CUDA platform moat since 2007"
+        ],
+        "bear_case": [
+          "AMD as competitor",
+          "Tech companies developing in-house chips"
+        ],
+        "catalysts": [
+          "AI workload growth 40% annually",
+          "GPU share of servers growing from 6% to 50% by 2025"
+        ],
+        "risks": [
+          "Big tech companies developing custom chips",
+          "AMD competition"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Xilinx",
+      "ticker": "XLNX",
+      "timestamp_start": "28:05",
+      "timestamp_end": "29:32",
+      "word_count": 280,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Xilinx highlighted as interesting smaller FPGA player with 60% market share expected to grow. FPGA market value projected to grow from $80M to over $12B by 2025. Company has AI/ML partnerships with Amazon, Microsoft, and Baidu.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "FPGA tycker jag är det svåraste chippet att förstå. Men om vi fokuserar på marknaden, den förväntas ju primärt användas för inferens som vi nämnde tidigare, där marknadsandel förväntas växa från cirka 10% av alla inferenser över 2017 till 18% sen 2025",
+          "timestamp": "28:18",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "betänkta att marknadsvärdet för det här förväntas ju växa från runt 80 miljoner dollar till över 12 miljarder dollar 2025.",
+          "timestamp": "28:18",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Ja Zilinq är intressanta. De är ett relativt litet bolag men de har cirka 60% market share i FPGA marknaden och den andelen förväntas ju växa ännu mer. Det ska nämligen market cap på cirka 17 miljarder dollar.",
+          "timestamp": "28:58",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Och deras hårdvara används av Amazon, Microsoft och den här Battliga. Och de har även påbörjat AI och ML relaterade partnerships med de här bolagen vilket är intressant för ett så pass litet bolag.",
+          "timestamp": "29:32",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "FPGA market: $80M to $12B by 2025",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Market cap ~$17B",
+          "60% FPGA market share",
+          "Inference market share: 10% to 18% by 2025"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "60% market share in FPGA",
+          "Market cap $17B - small by US standards",
+          "AI/ML partnerships with Amazon, Microsoft, Baidu",
+          "FPGA market growing from $80M to $12B by 2025"
+        ],
+        "bear_case": [
+          "FPGAs more expensive than ASICs and GPUs"
+        ],
+        "catalysts": [
+          "AI inference market growth",
+          "Partnerships with major cloud companies"
+        ],
+        "risks": [
+          "Higher cost compared to ASICs and GPUs"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man behöver inte ha många bra i det här företaget. Jag har alltid sagt att om man har en IQ av 160, ge 30 poäng till någon annan för att man inte behöver det i investeringar. Vad man behöver är emotionella utvecklingar.",
+      "summary": "Emotional intelligence is more important for investing than high IQ.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "emotional intelligence",
+        "investing psychology",
+        "IQ"
+      ]
+    },
+    {
+      "quote": "När internet kom så prisades det för att det gav värde möjlighet till större decentralisering. Men det vi har sett är snarare tvärtom. Några få företag har tagit en väldigt stor bit av kakan, tack för nätverkseffekter och möjligheten till expansionstakt, som rent utsäkt är omöjlig i den fysiska världen.",
+      "summary": "Internet promised decentralization but led to concentration of power among few tech giants due to network effects.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "14:40",
+      "confidence": "high",
+      "tags": [
+        "internet",
+        "network effects",
+        "market concentration",
+        "tech giants"
+      ]
+    },
+    {
+      "quote": "Detta innebär att i dagens värld med dagens regleringar, så är det troligt att de allra största vinnarna i AI-bracelet är de största företagen som har resurserna för snabbt utveckling och uppköp.",
+      "summary": "Large tech companies with resources for development and acquisitions will likely dominate AI.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "15:15",
+      "confidence": "high",
+      "tags": [
+        "AI",
+        "market dominance",
+        "acquisitions",
+        "resources"
+      ]
+    },
+    {
+      "quote": "Och en undersökning från Forester angav att 51% av de tillfrågade företagen i den här undersökningen använde eller utökade sin användning av AI under 2017. Poängen med det här är att machine learning verkligen är något som kryper in överallt och i takt med att det blir både lättare och billigare att implementera så kommer det också bara att bli större.",
+      "summary": "AI and machine learning are becoming ubiquitous across all industries as implementation becomes easier and cheaper.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "34:22",
+      "confidence": "high",
+      "tags": [
+        "AI adoption",
+        "machine learning",
+        "industry trends"
+      ]
+    },
+    {
+      "quote": "Hårdvarutillverkare kan möjligtvis vara de här företag som säljer spadarna i guldrushen.",
+      "summary": "Hardware manufacturers are the shovel sellers in the AI gold rush.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "21:45",
+      "confidence": "high",
+      "tags": [
+        "hardware",
+        "AI",
+        "gold rush analogy"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "AI och machine learning special med fokus på tre trender: ramverk/cloud computing, virtuell data, och hårdvara. Stora techbolag (Alphabet, Microsoft, Amazon) identifieras som sannolika vinnare tack vare resurser och nätverkseffekter. Hårdvarubolag som Nvidia och Xilinx lyfts fram som intressanta med starka positioner. Varning för kinesiska bolag gällande statlig kontroll men noterade lägre värderingar.",
+  "key_takeaways": [
+    "Stora techbolag sannolikt största vinnarna i AI tack vare resurser för uppköp",
+    "Hårdvara för AI (Nvidia, Xilinx, Samsung) förväntas växa kraftigt de kommande åren",
+    "Kinesiska techbolag har risker men handlas till lägre värderingar",
+    "Virtuell data och simulering möjliggör snabbare AI-träning",
+    "51% av företag ökade AI-användningen 2017, trenden växer"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2018-06-14-32f8.txt",
+  "transcript_word_count": 6913,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

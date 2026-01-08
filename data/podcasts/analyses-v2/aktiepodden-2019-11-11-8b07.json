@@ -1,0 +1,751 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2019-11-11-8b07",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "Avsnitt 91 - Godbitar och minor på svajig börs",
+  "episode_number": 91,
+  "date": "2019-11-11",
+  "hosts": [
+    "Carl-Henrik Söderberg",
+    "Kristoffer Anermark"
+  ],
+  "guests": [
+    "Sebastian Harung"
+  ],
+  "main_topics": [
+    "Norska flygbolag",
+    "Norska banker",
+    "Energisektorn",
+    "Norska konsumtionsvaror"
+  ],
+  "stocks_discussed": [
+    "Norwegian",
+    "DNB",
+    "Backefrost",
+    "Equinor",
+    "Lundin Petroleum",
+    "Orkla",
+    "Arcus",
+    "Mowi"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Norwegian",
+      "ticker": "NAS",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "05:33",
+      "reasoning": "Flygbolaget har tappat 70% under 2019, gjort ny emission och bytt ledning. Svårt att tjäna pengar i konkurrens med Ryanair och EasyJet, särskilt på USA- och Asien-rutter. Höga skulder och problem med Boeing Max 737. Trots bra kundupplevelse är affärsmodellen utmanande.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag vill vara lite försiktig. Även om det är ett fantastiskt bra flygbolag tycker jag också. Så är det svårt i den konkurrens situationen, så mycket skulder. Så inte fånga den fallande kniven helt enkelt.",
+      "sector": "Flygbolag",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": "Ner 70% 2019",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "DNB",
+      "ticker": "DNB",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "06:46",
+      "reasoning": "Största banken i Norden med tredjedel av den norska marknaden. Price-to-book 1,2-1,3 (vs Danske Bank på 0,5). 7,9 miljoner aktier i återköpsprogram. Bra kupong på 3-3,5%. Positiva räntor i Norge hjälper. Stark portfölj inom shipping, fastigheter, lax och energi. Norska staten som delägare ger stabilitet. Satsat hårt i Sverige med expansion från ett litet kontor till 100+ personer. Fantastisk kostnadseffektivitet och skalfördelar.",
+      "price_target": null,
+      "time_horizon": "Långsiktigt",
+      "quote": "Det är en trygg hamn med bra kupong. Man har återköpsprogram också som man köper tillbaka. Jag tror att 7,9 miljoner aktier ska man köpa tillbaka under 2019. Och så har man ju fantastisk kostnadseffektivitet också.",
+      "sector": "Bank",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Backefrost",
+      "ticker": "BAK",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "08:53",
+      "reasoning": "Verksamma på Färöarna med mycket fint vatten. Mer proaktiva än konkurrenter när det gäller fiskvälfärd - fiskarna får tillräckligt med utrymme och rätt bassänger. Mycket mindre sjukdomar och högre kvalitet på fisken. Säljs till lyxkrogar i New York och Tokyo. Högre omega-3 innehåll jämfört med andra laxproducenter.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det finns ju bra bolag i sektorn också. Jag gillar Backefrost. De är färöiska eller? Ja, de är verksamma på färöarna. De har ju väldigt fint vatten och som du säger så har de varit mer proaktiva. Att fiskarna ska få tillräckligt med utrymme, rätt bassänger.",
+      "sector": "Fiske/Lax",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Equinor",
+      "ticker": "EQNR",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "10:23",
+      "reasoning": "En av världens största gasproducenter. Gas anses mer miljövänligt än olja. Johan Sverdrup-fältet är en game changer med 200,000 fat/dag, kommer stå för 25% av Norges hålliga produktion. Plattformen drivs med el från fastlandet vilket gör det till den mest miljövänliga oljeproduktionen någonsin. 70% utvinningsgrad av reservoaren. Behöver energin men kan göra det miljövänligt i Norge.",
+      "price_target": null,
+      "time_horizon": "Långsiktigt",
+      "quote": "Men den har gått lite ner i år men jag tror fortfarande att jag menar att det är jättebra aktier att äga i långsiktigt. Så det som är kul med det projektet är att det kommer el från fast landet. Så de driver den plattformen mycket mer energieffektivt. Det är liksom den mest miljövänliga oljeproduktionen någonsin.",
+      "sector": "Energi",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Produktionsstart September 2019"
+    },
+    {
+      "stock_name": "Orkla",
+      "ticker": "ORK",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "21:27",
+      "reasoning": "Stort livsmedelskonglomerat med starka varumärken som Abba Seafood, Felix, Grandiosa. Klassisk defensiv aktie med stabila kassaflöden och kupong på 3-3,5%. Multipel expansion i år, kursen upp ca 30%. Handlas runt P22-25. Utmaning med trenden mot private labels hos Ica och Axfood som kapar priser. Konsoliderar varumärken genom förvärv. Svänger inte lika mycket som resten av den norska börsen.",
+      "price_target": null,
+      "time_horizon": "Långsiktigt",
+      "quote": "Den aktien är ju, om man tittar på det, en klassisk defensiv pjäse egentligen för någon som vill ha stabila kassaflöden, stabil kupong, ge 3-3,5 procent. Men äger man hellre dem än Ica och Axful? Det är ju det som är frågan.",
+      "sector": "Livsmedel",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Arcus",
+      "ticker": "ARCUS",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "27:42",
+      "reasoning": "Handlas runt all time low på 33 NOK, mot tidigare bud på 45 NOK från största ägaren Canica/Stein Erik Hagen som betalade 47,40 NOK 2016. Ger ca 5,5% kupong. Utmaningar med tillväxt och nedåtgående volymer på nordiska spritmarknader. Försöker internationalisera Aquavit men med begränsad framgång. FX-exponering genom försäljning i SEK och inköp i andra valutor. Största ägare är strategisk, kan komma nytt bud. Q4 är viktigaste kvartalet (julförsäljning). IFRS-strul syns på balansräkningen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Om man tittar senaste rapporten så vill man inte slänga sig på köpknappen. Det tycker jag även syns i kursen. Det är väldigt avvaktande, man vill vänta. Samtidigt Q4, deras viktigaste kvartal. Det är där huvuddelen av intäkterna och resultatet genereras.",
+      "sector": "Sprit/Vin",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": "Handlas på ATL, tidigare bud 45 NOK vs nu 33 NOK",
+      "catalyst_timing": "Q4 rapport (viktigaste kvartalet)"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Norwegian",
+      "ticker": "NAS",
+      "timestamp_start": "02:47",
+      "timestamp_end": "05:54",
+      "word_count": 580,
+      "speakers": [
+        "Carl-Henrik Söderberg",
+        "Kristoffer Anermark",
+        "Sebastian Harung"
+      ],
+      "primary_speaker": "Sebastian Harung",
+      "discussion_summary": "Diskuterade Norwegian som har tappat 70% under 2019 och genomfört en ny emission. Flygbolaget har stora utmaningar med ultra low cost-modell mot USA och Asien, samt problem med Boeing Max 737. Trots bra kundupplevelse är det svårt att konkurrera med Ryanair och EasyJet. Sebastian rekommenderar försiktighet på grund av höga skulder och tuff marknad. Jämförelser med isländska Wow Air som gick i konkurs. Flygbranschen har konstanta motgångar med bränslepriser och strejker.",
+      "quotes": [
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Ja, jag är stor fan av Norwegian som kund. Fantastiskt flygbolag, man kan ändra smidiga billetter och allt det där. Men aktien har inte varit en jättesuccé.",
+          "timestamp": "02:47",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Men nej, de har stora utmaningar med att de har tagit lite hårt i. De ska flyga ultra low cost till USA, till Asien, och så har de haft problem med Boeing Max 737.",
+          "timestamp": "03:16",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Jo men exakt, det minner väldigt mycket om den norska chippningen, som går som en cykluser, och när det går bra så köper alla båtar, och så blir det oversupply och så får man sälja.",
+          "timestamp": "03:53",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Jag tror att Norwegian Action är ska man vara lite försiktig med. Så inte fånga den fallande kniven helt enkelt. Jag vill vara lite försiktig.",
+          "timestamp": "05:32",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Höga skulder",
+        "custom": [
+          "Ner 70% 2019",
+          "Ny emission",
+          "Bytt ledeln"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Fantastiskt flygbolag som kund",
+          "Smidiga biljettering"
+        ],
+        "bear_case": [
+          "Svårt att tjäna pengar i konkurrens med Ryanair/EasyJet",
+          "Ultra low cost till USA/Asien utmanande",
+          "Problem med Boeing Max 737",
+          "Höga skulder",
+          "Konstanta utmaningar med bränslepriser och strejker"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Konkurs som Wow Air",
+          "Marknadsandel till konkurrenter"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "DNB",
+      "ticker": "DNB",
+      "timestamp_start": "05:54",
+      "timestamp_end": "10:23",
+      "word_count": 850,
+      "speakers": [
+        "Carl-Henrik Söderberg",
+        "Kristoffer Anermark",
+        "Sebastian Harung"
+      ],
+      "primary_speaker": "Sebastian Harung",
+      "discussion_summary": "DNB beskrevs som största banken i Norden med tredjedel av den norska marknaden. Banken har satsat hårt i Sverige och expanderat från ett litet kontor till 100+ personer. Stödd av positiva räntor i Norge och norska staten som delägare. Price-to-book på 1,2-1,3 jämfört med Danske Bank på 0,5. Återköpsprogram på 7,9 miljoner aktier. Fantastisk kostnadseffektivitet och portfölj inom shipping, fastigheter, lax och energi. En trygg hamn med bra kupong på 3-3,5%. Oslobörsen är en energibörs och DNBs portfölj reflekterar det.",
+      "quotes": [
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Yes, och en bagg som går jättebra. Bäst i Norden till och med. Störst, störst, störst. Jag tror det är större än Nordea nu.",
+          "timestamp": "05:59",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Kristoffer Anermark",
+          "text": "Hur mycket hjälper det att ni har en ränta på 1,5 % i Norge jämfört med här i Sverige?",
+          "timestamp": "06:06",
+          "context": "metric"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Ja, plus ja. Jag vet inte, men de har ju en tredjedel av marknaden i Norge, och så har de satsat stenhårt i Sverige.",
+          "timestamp": "06:11",
+          "context": "metric"
+        },
+        {
+          "speaker": "Kristoffer Anermark",
+          "text": "Det är lite intressant om man tittar på värderingsskillarna just på DNB-aktien och på Danske Bank. För Danske Bank handlas ju till halva boken ungefär, alltså price book, 0,5 tror jag att det är. Och DNB är ju 1,2-1,3.",
+          "timestamp": "06:58",
+          "context": "metric"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Det är en trygg hamn med bra kupong. Man har återköpsprogram också som man köper tillbaka. Jag tror att 7,9 miljoner aktier ska man köpa tillbaka under 2019. Vilket också ger lite stöd till kursen.",
+          "timestamp": "07:09",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Och så har man ju fantastisk kostnadseffektivitet också. För det är ju det bank i allt och samtliga handlar om att skala. Att man vill ju gärna ha en plattform som man kan bygga vidare på.",
+          "timestamp": "07:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Och en jättebra portoföl. Stor på shipping, stor i fastigheter i Norge. Men stor på lax, stor energi. Alltså de har en jättebra portoföl av kunder. Och de följer de norska bolagen ut i världen.",
+          "timestamp": "07:46",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Jag tror ju att Oslobörsen har ungefär 60 procent energi. Det är en super stor del alltså. Ja, det är en energibörs. Och jag tror att DNBs portfölj reflekterar lite det.",
+          "timestamp": "10:01",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "3-3,5%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Price-to-book 1,2-1,3",
+          "7,9 miljoner aktier i återköp",
+          "Tredjedel av norska marknaden",
+          "Positiva räntor (ca 1,5%)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Största banken i Norden",
+          "Tredjedel av den norska marknaden",
+          "Positiva räntor i Norge",
+          "Norska staten som delägare",
+          "Återköpsprogram på 7,9M aktier",
+          "Fantastisk kostnadseffektivitet och skalfördelar",
+          "Stark portfölj: shipping, fastigheter, lax, energi",
+          "Utan penningtvättsskandal",
+          "Bra kupong på 3-3,5%"
+        ],
+        "bear_case": [
+          "Hög koncentration till norsk energi (Oslobörsen 60% energi)",
+          "Högre värdering än Danske Bank (1,2-1,3 vs 0,5 P/B)"
+        ],
+        "catalysts": [
+          "Expansion i Sverige fortsätter",
+          "Återköpsprogram stödjer kurs"
+        ],
+        "risks": [
+          "Koncentration till energi",
+          "Norska räntor kan sjunka"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Orkla",
+      "ticker": "ORK",
+      "timestamp_start": "21:12",
+      "timestamp_end": "23:44",
+      "word_count": 620,
+      "speakers": [
+        "Carl-Henrik Söderberg",
+        "Kristoffer Anermark",
+        "Sebastian Harung"
+      ],
+      "primary_speaker": "Sebastian Harung",
+      "discussion_summary": "Orkla beskrevs som ett stort livsmedelskonglomerat med starka varumärken som Abba Seafood, Felix, Grandiosa, och Ekströms. Klassisk defensiv aktie för stabil kupong på 3-3,5%. Har gått upp ca 30% i år med multipel expansion, handlas nu runt P22-25. Utmaning med trenden mot private labels hos Ica och Axfood som kapar priser 10-15%. Konsumenter blir mindre lojala till varumärken. Orkla tillverkar ofta private labels också. Svänger inte lika mycket som resten av norska börsen. Diversifierat med små akquisitioner och konsolidering. Kan vara en tillflyktsort när marknaden är volatil.",
+      "quotes": [
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Orkla, som är det här stora livsmedelskonglomeratet. Jag var lite tidig på pucken där, men...",
+          "timestamp": "21:20",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Ja, det var den. Och det finns ju många sådana household brands som vi känner till i Sverige. Abbasil, vi har Felix, vi har... Har de mer Ekströms, Blåbärchoppa och annat. Det finns ju otroligt många fina varumärken i den här portföljen.",
+          "timestamp": "21:27",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Den aktien är ju, om man tittar på det, en klassisk defensiv pjäse egentligen för någon som vill ha stabila kassaflöden, stabil kupong, ge 3-3,5 procent.",
+          "timestamp": "21:42",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Och så mycket annat så har vi sett en multipel expansion i det här nu. Som sagt, jag var lite tidig i det. Det gick sidledes snett neråt, men nu har ju i år har kursen gått väldigt bra, upp 30 procent någonting. Nu handlas det i spannen så många av de här defensiva bolagen. P22, 25 någonting.",
+          "timestamp": "21:51",
+          "context": "metric"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Men det som är problemet här är att en trend som vi ser i Sverige framförallt, det är det här med private labels. Ica och Axful väljer att sätta sina egna brands på det och kapar prislappen 10-15 %. Konsumenten ser att de vill ha ketchup och det spelar ingen roll vilket brand de vill ha.",
+          "timestamp": "22:52",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Ofta är det ju orklar som tillverkar de här också. Man får samma produkt fast det är ett annat brand. Kanske ligger det i någon annan fabrik och så.",
+          "timestamp": "23:13",
+          "context": "metric"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Orklar brukar ju inte svänga så mycket som de har resten av börsen. Så det är väl det som är tillflyktsorten kanske. När alla springer i lämmeltåget fram och tillbaka.",
+          "timestamp": "23:32",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "P22-25",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "3-3,5%",
+        "revenue_growth": "Upp ca 30% 2019 (multipel expansion)",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Multipel expansion",
+          "Stabila kassaflöden",
+          "Varumärkesportfölj: Abba, Felix, Grandiosa, Ekströms, Blåbärssoppa"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Starka varumärken: Abba, Felix, Grandiosa",
+          "Klassisk defensiv aktie",
+          "Stabil kupong 3-3,5%",
+          "Upp ca 30% 2019 med multipel expansion",
+          "Svänger inte lika mycket som norska börsen",
+          "Tillflyktsort i volatila marknader",
+          "Konsolidering och förvärv av varumärken"
+        ],
+        "bear_case": [
+          "Trend mot private labels hos Ica och Axfood",
+          "Prispress 10-15% från private labels",
+          "Minskande varumärkeslojalitet",
+          "Ibland tillverkar Orkla private labels (kanibaliserar eget)"
+        ],
+        "catalysts": [
+          "Fortfarande konsolideringspotential i varumärkesportföljen"
+        ],
+        "risks": [
+          "Private labels pressar marginaler",
+          "Minskande varumärkeslojalitet"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Arcus",
+      "ticker": "ARCUS",
+      "timestamp_start": "23:44",
+      "timestamp_end": "28:31",
+      "word_count": 920,
+      "speakers": [
+        "Carl-Henrik Söderberg",
+        "Kristoffer Anermark",
+        "Sebastian Harung"
+      ],
+      "primary_speaker": "Sebastian Harung",
+      "discussion_summary": "Arcus beskrevs som en besvikelse sedan noteringen. Handlas på all time low runt 33 NOK. Största ägare Canica/Stein Erik Hagen (även störst i Orkla) lade ett bud på 45 NOK i juni 2018 som ansågs snålt. Hagen betalade 47,40 NOK när han köpte från Ratos 2016. Ger ca 5,5% kupong. Utmaningar med tillväxt och nedåtgående volymer på nordiska spritmarknader. Ungdomar dricker mindre, röker mer cannabis, och använder Tinder. Försöker internationalisera Aquavit men med begränsad framgång. FX-exponering: säljer i SEK, köper i andra valutor som pressat marginalerna. Q4 är viktigaste kvartalet (julförsäljning). IFRS-strul: leasingåtaganden syns nu som räntebärande skulder vilket ser konstigt ut. Kanica har betalat betydligt mer än nuvarande kurs, finns budpotential. Altsia i Finland nämnad som bättre alternativ.",
+      "quotes": [
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Jag har skrivit om det. Särskilt i backspegeln ska man se att noteringen inte alls blev den succé som många hade skissat på, inklusive jag.",
+          "timestamp": "23:48",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "När jag tittar på det här bolaget först så tänker man att sprit är en väldigt osykliskt business, till och med kontracyklisk. Kanske det går ännu mer i sämre tider när det går åt pipan. När det går bra så festar vi ännu mer.",
+          "timestamp": "24:05",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Den handlas ju nu runt all time low, runt 33 norska.",
+          "timestamp": "24:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Störst ägaren är ju Kanicka eller Sten-Erik Hagen, som är en miljardär, som även är störst ägare i Orkla. Så vi tänkte att det var därför det var lite kul att hoppa med i båda casen. Då lade han bud, eller han gjorde ju rättare sagt en ökning som var lite tufflig, så han triggade budplikt.",
+          "timestamp": "24:48",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Man kan nästan tro det. Så han lade ett bud på 45 norska i juni 2018. Det var inte så stor premie just då. Nej, det var bara 5-10 % och många tyckte att det var snålt.",
+          "timestamp": "25:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Ser vi nu så när kursen står i 33 så kanske man skulle acceptera det där budet.",
+          "timestamp": "25:18",
+          "context": "metric"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "De har haft lite problem med att tillväxten har varit lite skral. De har allmänna hälsotrender. Tittar vi faktiskt på nordiska spritmarknader så har den gått ner. Det är inte jättestora tal men den har ändå varit en volymvikande marknad.",
+          "timestamp": "25:34",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Och långsiktigt, man läser ju om ungdomar idag i Norden, de dricker mycket mindre än vad vi gjorde. Då röker i gräs istället. Och har Tinder, de behöver inte bli fulla för att snacka med en tjej.",
+          "timestamp": "26:05",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Men tittar vi ändå på bolaget idag, så man får 5,5 % någonting i kupong, titta på estimaten. Och så har man haft lite FX mot vind. Man säljer mycket i svenska kronor och köper in i andra valutor. Det har självklart pressat marginalen med den svaga svenska kronan.",
+          "timestamp": "26:34",
+          "context": "metric"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Och sen så har man, man försöker den här internationaliseringen av Aquavit, men det går ju lite sådär.",
+          "timestamp": "26:52",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Det ska tilläggas att Canica, som är Sten-Erik Hagens stora bolag, han betalade faktiskt 47 kronor och 40 ören. Han köpte posten från Ratos när de gick till börsen 2017. Det var egentligen sent 2016. Så han har betalat väldigt mycket mer än vad kursen är just nu.",
+          "timestamp": "27:21",
+          "context": "metric"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Det är ett gammalt ratosbolag som ska tilläggas i Arcus.",
+          "timestamp": "25:32",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Men om man tittar senaste rapporten så vill man inte slänga sig på köpknappen. Det tycker jag även syns i kursen. Det är väldigt avvaktande, man vill vänta.",
+          "timestamp": "27:42",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Samtidigt Q4, deras viktigaste kvartal. Det är där huvuddelen av intäkterna och resultatet genereras. Så kan vi få till en bra julsäsong här, så kan det bli bra.",
+          "timestamp": "27:47",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Men jag gillar egentligen mer Altsia i Finland, som är en peer, och har helt andra produkter i sin portfölj. Mer Cognac, mer Vodka, Koskenkåra och Vodka, och så har man i Blossa också.",
+          "timestamp": "28:02",
+          "context": "other"
+        },
+        {
+          "speaker": "Sebastian Harung",
+          "text": "Det är en sån här aktie som är ganska tråkig. Lite IFRS-strul också. De lysar mycket av sina lokaler och annat. När man lyfter in det i balansräkningen så ser det lite konstigt ut. Räntebärande skulden ser ut att ha exploderat, men det är ju leasing-åtaganden som nu syns på ett helt annat sätt.",
+          "timestamp": "27:35",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "ca 5,5%",
+        "revenue_growth": "Skral tillväxt",
+        "margin": null,
+        "debt_level": "Hög synlig räntebärande skuld (IFRS leasing)",
+        "custom": [
+          "ATL: 33 NOK",
+          "Tidigare bud: 45 NOK (2018)",
+          "Kanica köpte: 47,40 NOK (2016)",
+          "Nedgående volymer på nordiska spritmarknaden",
+          "FX-exponering: säljer i SEK, köper i andra valutor"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kupong på 5,5%",
+          "Kanica/Stein Erik Hagen största ägare med betydligt högre inköpspris (47,40 vs 33)",
+          "Budpotential från Kanica",
+          "Q4 viktigaste kvartalet (julförsäljning)",
+          "Kontracykliskt (alkohol säljs mer i dåliga tider)",
+          "Osyklisk sektor"
+        ],
+        "bear_case": [
+          "Tillväxtproblem och nedåtgående volymer på nordiska spritmarknader",
+          "Ungdomar dricker mindre, använder cannabis och Tinder",
+          "FX-exponering pressar marginaler",
+          "Internationalisering av Aquavit går sådär",
+          "IFRS-strul: leasing syns som räntebärande skuld",
+          "All time low på 33 NOK",
+          "Tidigare bud på 45 NOK ansågs snålt"
+        ],
+        "catalysts": [
+          "Nytt bud från Kanica",
+          "Bra julsäsong (Q4)"
+        ],
+        "risks": [
+          "Strukturell nedgång i alkoholkonsumption",
+          "FX-risk",
+          "Någorlunda tråkig verksamhet med begränsad tillväxt"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det handlar så mycket om att få de minsta centimeterna, men de tjänar inte mycket pengar.",
+      "summary": "Flygbranschen är extremt kostnadskänslig och lönsamheten är låg trots optimera på detaljnivå.",
+      "category": "wisdom",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "05:05",
+      "confidence": "high",
+      "tags": [
+        "flygbranschen",
+        "kostnadsoptimering",
+        "låg lönsamhet"
+      ]
+    },
+    {
+      "quote": "Det blir inte så att pengar automatiskt kanske flyttas till en bank om man känner att det här finns en ganska lätt graderoben.",
+      "summary": "Penningtvättsskandaler skapar förtroendeproblem men inte automatiska kundflytt.",
+      "category": "wisdom",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "07:04",
+      "confidence": "medium",
+      "tags": [
+        "banker",
+        "penningtvätt",
+        "kundförtroende"
+      ]
+    },
+    {
+      "quote": "Det handlar så mycket om att få de minsta centimeterna, men de tjänar inte mycket pengar.",
+      "summary": "I kostnadsintensiva branscher med låg marginal måste man optimera på detaljnivå.",
+      "category": "wisdom",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "05:05",
+      "confidence": "high",
+      "tags": [
+        "kostnadseffektivitet",
+        "lågmarginalbranscher",
+        "skalfördelar"
+      ]
+    },
+    {
+      "quote": "Det som alltid handlar om diversifiering. Som är den enda fria lunchen på kapitalmarknaden. Man ska ha lite olika tillgångsslag.",
+      "summary": "Diversifiering är enda gratis strategin på kapitalmarknaden för att minska risk.",
+      "category": "philosophy",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "19:30",
+      "confidence": "high",
+      "tags": [
+        "diversifiering",
+        "riskhantering",
+        "portföljstrategi"
+      ]
+    },
+    {
+      "quote": "Jag har många på listan, men dessvärre så blir man ju väldigt besviken i Norge. Det känns som att det är besvikelse i regel snarare än undantaget.",
+      "summary": "Norska aktier tenderar att besvikna investerare oftare än de lyckas.",
+      "category": "wisdom",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "21:12",
+      "confidence": "medium",
+      "tags": [
+        "Norge",
+        "aktier",
+        "besvikelse"
+      ]
+    },
+    {
+      "quote": "Jag har skrivit om många norska bolag senast. Jag var lite tidig på pucken där, men...",
+      "summary": "Det kan löna sig att tidig in men svårt att tajma rätt.",
+      "category": "lesson",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "21:20",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "tidig in",
+        "tålamod"
+      ]
+    },
+    {
+      "quote": "När alla springer i lämmeltåget fram och tillbaka.",
+      "summary": "Marknaden svänger drastiskt och investerare flockas i riktningar.",
+      "category": "wisdom",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "23:40",
+      "confidence": "high",
+      "tags": [
+        "marknadsvolatilitet",
+        "lämmeltåg",
+        "crowd behavior"
+      ]
+    },
+    {
+      "quote": "Det finns ingen marknad utanför de stora städerna. Det är fortfarande en tydlig urbanisering. Man ser att folk vill in till storsädena och Stockholm.",
+      "summary": "Urbaniseringstrend fortsätter, folk flyttar till storstäder som Stockholm.",
+      "category": "wisdom",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "18:35",
+      "confidence": "high",
+      "tags": [
+        "urbanisering",
+        "fastigheter",
+        "bostadsmarknad"
+      ]
+    },
+    {
+      "quote": "Men bankerna kräver fortfarande att sälja allt på ritning. Men det finns ingen marknad. Så vi finansierar projekter fram till banken kommer, när man har sålt allt på ritning.",
+      "summary": "Bostadsmarknaden har strukturella problem då banker kräver förskottsförsäljning som inte finns.",
+      "category": "wisdom",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "17:33",
+      "confidence": "high",
+      "tags": [
+        "bostadsmarknad",
+        "banker",
+        "projektering",
+        "finansiering"
+      ]
+    },
+    {
+      "quote": "Stockholm och Göteborg. Göteborg ska väl doblas i storlek.",
+      "summary": "Göteborg förväntas växa kraftigt i framtiden.",
+      "category": "wisdom",
+      "speaker": "Kristoffer Anermark",
+      "speaker_role": "host",
+      "timestamp": "18:42",
+      "confidence": "medium",
+      "tags": [
+        "Göteborg",
+        "urbanisering",
+        "tillväxt"
+      ]
+    },
+    {
+      "quote": "Svenskar behöver se att bo, men ingen vill köpa för de vet inte helt hur marknaden går om ett år eller två.",
+      "summary": "Osäkerhet på bostadsmarknaden gör att ingen vill köpa.",
+      "category": "wisdom",
+      "speaker": "Sebastian Harung",
+      "speaker_role": "guest",
+      "timestamp": "18:00",
+      "confidence": "high",
+      "tags": [
+        "bostadsmarknad",
+        "osäkerhet",
+        "marknadssentiment"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterade norska aktier med gäst Sebastian Harung. Norwegian beskrevs som undvikande på grund av höga skulder och tuff konkurrens. DNB rekommenderades som köp på grund av stark marknadsposition, återköpsprogram och stabil kupong. Orkla och Arcus diskuterades som defensiva alternativ med utmaningar. Equinor och Backefrost nämndes som intressanta. Fastighetsmarknaden jämfördes mellan Sverige och Norge. Sebastian delade insikter om diversifiering, urbanisering och norska marknadens besvikelsefaktor.",
+  "key_takeaways": [
+    "DNB rekommenderas som köp med stark marknadsposition och återköpsprogram",
+    "Norwegian bör undvikas på grund av höga skulder och tuff bransch",
+    "Orkla är defensiv men utmanas av private labels",
+    "Arcus handlas på ATL med kupong men tillväxtproblem",
+    "Diversifiering är den enda gratis strategin på kapitalmarknaden",
+    "Urbanisering fortsätter till storstäder som Stockholm och Göteborg"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2019-11-11-8b07.txt",
+  "transcript_word_count": 3500,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

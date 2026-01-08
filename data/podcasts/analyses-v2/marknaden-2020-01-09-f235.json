@@ -1,0 +1,100 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marknaden-2020-01-09-f235",
+  "podcast_name": "Affärsvärlden - Marknaden",
+  "episode_title": "49: Börsövervakaren Gustav Liljekvist",
+  "episode_number": 49,
+  "date": "2020-01-09",
+  "hosts": [
+    "Helene Rådstein",
+    "Elin Hanspers"
+  ],
+  "guests": [
+    "Gustav Liljekvist"
+  ],
+  "main_topics": [
+    "Börsövervakning",
+    "Marknadsmanipulation",
+    "Insiderhandel",
+    "Dark pools",
+    "AI i övervakning"
+  ],
+  "stocks_discussed": [],
+  "recommendations": [],
+  "stock_segments": [],
+  "insights": [
+    {
+      "quote": "Det kan vara vilken kund som helst som har använt sig av en av de här större bankerna, till exempel för att handla aktier. Det är inte alls en robot som står bakom. Det kan vara en algoritm eller någonting som bankerna utvecklat och använder för sina kunder.",
+      "summary": "Det som ofta uppfattas som robothandel är ofta algoritmer utvecklade av banker för deras kunder, inte autonoma robothandlare som lurar retail-investerare",
+      "category": "wisdom",
+      "speaker": "Gustav Liljekvist",
+      "speaker_role": "guest",
+      "timestamp": "[15:59]",
+      "confidence": "high",
+      "tags": [
+        "robothandel",
+        "algoritmer",
+        "banker",
+        "retail"
+      ]
+    },
+    {
+      "quote": "Det är betydligt lättare att manipulera mindre likvida orderböcker. Till exempel de här sanktionerna vi sett från FI om en petarkase som det kallas. Kortfattat kan man väl säga att det är när man otillbörligen flyttar ett aktiepris med en mindre volym när syftet egentligen är hos annat.",
+      "summary": "Manipulation är enklare i mindre likvida orderböcker där mindre volymer kan flytta priset",
+      "category": "wisdom",
+      "speaker": "Gustav Liljekvist",
+      "speaker_role": "guest",
+      "timestamp": "[08:20]",
+      "confidence": "high",
+      "tags": [
+        "manipulation",
+        "likviditet",
+        "orderbok",
+        "petarkase"
+      ]
+    },
+    {
+      "quote": "Det som var lite större för oss var egentligen MiFID 1 när det kom, när hela spelplanen kastades som kull och det var nya förutsättningar... Det har blivit billigare för slutkunder att handla aktier till exempel, så det finns ju många fördelar med det. Nackdelen är naturligtvis att du sprider ut handeln på x antal marknadsplatser, så det blir en större fragmentering och svårare att hitta volym.",
+      "summary": "Ökad konkurrens via MiFID-regleringen sänkte kostnader men fragmenterade marknaden och gjorde det svårare att hitta volym",
+      "category": "wisdom",
+      "speaker": "Gustav Liljekvist",
+      "speaker_role": "guest",
+      "timestamp": "[17:47]",
+      "confidence": "medium",
+      "tags": [
+        "MiFID",
+        "fragmentering",
+        "konkurrens",
+        "transaktionskostnader"
+      ]
+    },
+    {
+      "quote": "Vi har faktiskt en version av machine learning eller AI, artificiell intelligens, implementerad redan i produktion här i vår övervakning i Norden... Den är väldigt smart i det enda målet den används för, men den tar inte bort några alarm och den ersätter ingenting, utan det är ytterligare information till analytikerna för att fatta välgrund och beslut.",
+      "summary": "AI används som stödverktyg för övervakning, ersätter inte mänsklig analys utan ger extra information för beslutsfattande",
+      "category": "wisdom",
+      "speaker": "Gustav Liljekvist",
+      "speaker_role": "guest",
+      "timestamp": "[33:52]",
+      "confidence": "high",
+      "tags": [
+        "AI",
+        "machine learning",
+        "övervakning",
+        "beslutsstöd"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Intervju med Gustav Liljekvist, chef för handelsövervakningen på Stockholmsbörsen, om hur Nasdaq övervakar marknaden för att identifiera manipulation och insiderhandel. Diskuterar Smartsh-systemet, skillnaden mellan robothandel och retailhandel, dark pools, och framtida användning av AI i övervakningen.",
+  "key_takeaways": [
+    "Nasdaq använder Smarts-övervakningssystem som genererar ca 1000 larm per dag, där 5% kräver djupare analys",
+    "Manipulation är vanligare hos retail-kunder än robothandlare, delvis pga större antal retailkunder och att mindre likvida orderböcker är lättare att manipulera",
+    "MiFID-regleringen sänkte kostnader men fragmenterade marknaden och flyttade volymer till dark pools",
+    "AI och machine learning används redan i övervakningen som beslutsstöd, men ersätter inte mänsklig analys"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marknaden/transcripts/marknaden-2020-01-09-f235.txt",
+  "transcript_word_count": 4750,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,634 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-04-11-0e58",
+  "podcast_name": "Market Makers",
+  "episode_title": "#78 Små Teknikbolag",
+  "episode_number": 78,
+  "date": "2019-04-11",
+  "hosts": [
+    "Niklas",
+    "Fabian"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Små svenska teknikbolag",
+    "SaaS-bolag",
+    "CRM-system",
+    "IPO-analys",
+    "247 Office",
+    "AppSales",
+    "Formpipe Software"
+  ],
+  "stocks_discussed": [
+    "247 Office",
+    "AppSales",
+    "Formpipe Software",
+    "Fortnox",
+    "Lime Technologies"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "247 Office",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[18:33]",
+      "reasoning": "SaaS ERP-bolag med 95% återkommande intäkter och stark kundtillväxt (~40% 2017-2018). Har historiskt aldrig tappat kunder sedan 2007. LTV/CAC på 17,2 vilket indikerar att varje investerad krona genererar 17,2 kronor i intäkter. Värderas till EV/EBIT ~25-50 beroende på marginalantagande. Har intressant AI-motor för redovisning. Nackdelar: kort börshistorik, inte lönsamt ännu, låg likviditet. Potentiell värdeplay tack vare tråkigt namn.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker faktiskt att det är ett intressant case som man kan kika på. Jag är lite sur på det själv, men vi får se hur det blir med det. Det är en rätt intressant case som man kan titta på.",
+      "sector": "Enterprise Software",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "AppSales",
+      "ticker": "UPSALES",
+      "action": "avoid",
+      "confidence": "low",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[22:37]",
+      "reasoning": "CRM-bolag med mycket osäkerheter. Värderat till 337 MSEK, PE på 5789 men EV/EBIT på 153 (om 17,7 MSEK vinst antages). Har visat ROE på ~100% 2012-2016 och stabil vinstmarginal på ~28-29%. Men tillväxt osäker: 10-60% CAGR beroende på mätperiod. Konkurrensutsatt mot jättar som Microsoft, Salesforce, SAP. Positivt: har partnerskap med Fortnox, satsning på tysk marknad. För låg synlighet på historik och osäker tillväxt för rekommendation.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Varför skulle man någonsin köpa ett bolag med så fruktansvärt vidriga nyckeltal? Det är väldigt enkelt, i det här bolaget målar man upp en väldigt negativ bild om man vill, men det är precis lika rätt att måla upp en positiv bild. Det handlar verkligen om vilka siffror man lyfter fram.",
+      "sector": "Enterprise Software",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Börsnotering 2019-04-24"
+    },
+    {
+      "stock_name": "Formpipe Software",
+      "ticker": "FPIP",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[44:45]",
+      "reasoning": "Enterprise Content Management bolag med börsvärde ~1,2 MSEK, P/S på 3. Starka finansiella nyckeltal: 47% bruttomarginal, 13% rörelsemarginal, 10% ROE, 18% ROC. Vinstökade 60% 2018, men osäkert om det är permanent eller one-off. Värderat till PE ~32, EV/EBIT ~30. Utdelning 2,5%, betalar 80% av vinsten. Positivt: starkt samarbete med Microsoft, produkter integrerade med Azure/SharePoint, 65% repetitiva intäkter. Risken: använder aktiveringar av utvecklingskostnader i stor skala vilket ökar EBIT med 3x jämfört med riktiga siffror.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är ett rätt trevligt bolag. Aningen dyrt skulle jag tycka och speciellt om den här explosiva vinstutvecklingen var en one-off. Tycker nog man ska avvakt lite med bolaget, se om det håller i sig den här utvecklingen... Men innan vi hoppar vidare så vill vi dock höra ett litet varningensfinger för något man sysslar med i Formpipe. Det är nämligen aktiveringar.",
+      "sector": "Enterprise Software",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Aktiveringar ökar EBIT 3x - leverage på nedsidan om intäkter uteblir",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FNOX",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[12:27]",
+      "reasoning": "Ägs av värdarna i både gemensam och privat portfölj. Används som jämförelsebolag i avsnittet. Handlas till EV/EBIT 58 med stark tillväxt och vinst.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi har sen tidigare fått Nox i vår gemensam portfölj och även i min privata. Och det här är mångt och mycket samma typ av verksamhet egentligen.",
+      "sector": "Enterprise Software",
+      "market": "sweden",
+      "position_context": "Ägs av värdarna",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "247 Office",
+      "ticker": null,
+      "timestamp_start": "[04:40]",
+      "timestamp_end": "[18:52]",
+      "word_count": 1400,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "247 Office är ett norskt SaaS ERP-bolag noterat på Spotlight sedan december 2017 med 95% återkommande intäkter. Bolaget har visat imponerande kundtillväxt på nära 40% och omsättningstillväxt på 30-34% de senaste åren, med en historik av att aldrig tappa kunder sedan 2007. Värdarna diskuterar bolagets unit economics med LTV/CAC på 17,2 (17,2 kr intäkt per kr förvärvskostnad) och återhämtningstid på ca 6 månader. De värderar bolaget med EV/EBIT multiplar på 25-50 beroende på marginalantagande (10-20% jämfört med peers). Bolaget har precis lanserat en AI-motor för redovisning baserad på 20 års historisk data. Även om bolaget inte är lönsamt ännu med negativt rörelseresultat, ser värdarna potential i den skalbara tillväxtmodellen när man expanderar till den dubbelt så stora svenska marknaden.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Det är en balansgång som privata investerare. Då tycker vi att det är intressant att kolla på mindre bolag, speciellt om man hittar sådana som har lågt institutionellt ägande... För det tyder på att få hittat bolaget och därför kanske man har hunnit före många andra. Det är det man vill som retail-investerare.",
+          "timestamp": "[02:06]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Man har hela 95 % återkommande intäkter. Tack vare den här korta börshistoriken dock så tror vi att många avskräcks från att investera eftersom informationen om hur de gick när de var onoterade är inte i alla fall lika lättillgänglig.",
+          "timestamp": "[05:04]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "24-7 Office används idag av 38 600 företag i Norge och Sverige, men man har nästan utstrunna kunder i Norge idag, medan man då expanderar kraftigt i Sverige. Tillväxtskurvan för kunder, extremt imponerande, man har närmare 40 % kundtillväxt både 2017 och 2018. Omsättningen ökar under de här åren med 30 respektive 34 %. Och tittar man tillbaks hela vägen till 2007, så har man faktiskt inte ett enda år där man har tappat kunder.",
+          "timestamp": "[07:59]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "LTV Genom CAC ligger för 2018 på 17,2 och har varit relativt stabil de senaste fem åren. Och för att vara superövertydlig här nu, om en kund kostar en krona att förvärva, så beräknas den kunden sena generera 17 kronor och 20 öre intäkt. Och genererar man 17 gånger mer än vad det kostar så är det en bra affär. Då har man sedelpress.",
+          "timestamp": "[11:19]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Vi har sen tidigare fått Nox i vår gemensam portfölj och även i min privata. Och det här är mångt och mycket samma typ av verksamhet egentligen. Det är ett bevisat SaaS-bolag med stark tillväxt och det är spännande. Dessutom har man en tillväxtmodell som fungerar och som är skalbar, som blir väldigt attraktiv nu när man börjar expandera utanför sin tidigare huvudmarknad Norge.",
+          "timestamp": "[12:27]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Summa summarum så känns det som ett rätt trevligt case. Vi tror att det kan vara ett rätt bra värde här, då man förbiser bolaget tack vare det tråkiga namnet. Det låter som ett bolag som kanske säljer papper i kompostlandskapet. Jag tror att många missar det.",
+          "timestamp": "[15:28]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Största risken ligger troligtvis i konkurrens och att man lägger stora kostnader på att värva kunder, men inte får in dem. Alltså skulle man satsa ett antal miljoner på att försöka driva kunder och sen får man inte tillbaka de här 17 gånger pengarna. Då har man ju gjort en jättekostnad.",
+          "timestamp": "[16:12]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Vi har faktiskt inte ens nämnt att de har lanserat en av marknadens första AI-motorer för redovisningsbranschen. Man har ju faktiskt data på de här transaktionerna och verifikationerna som har skett från 2002 hela vägen tillbaks. Det här kan man faktiskt nu använda till att träna de olika AI-algoritmer och machine learning och så vidare som ska underrätta för kunderna.",
+          "timestamp": "[16:56]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "24-7 Office å andra sidan sitter ju på som sagt 20-års kunddata som man kan träna på och det här gör det väldigt intressant och dessutom får man möjlighet att kunna expandera det till fler områden än bara bokföring. Det ger en sjuk edge.",
+          "timestamp": "[17:56]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jag tycker faktiskt att det är ett intressant case som man kan kika på. Jag är lite sur på det själv, men vi får se hur det blir med det.",
+          "timestamp": "[18:33]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "5x",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "30-34% (2017-2018)",
+        "margin": {
+          "operating": "negative (estimated 10-20% normalized)",
+          "gross": "85%"
+        },
+        "debt_level": "nettokasse",
+        "custom": [
+          "LTV/CAC: 17,2",
+          "CAC payback: 67 månader",
+          "Kunder: 38 600 företag (Norge och Sverige)",
+          "Kundtillväxt: ~40% (2017-2018)",
+          "Återkommande intäkter: 95%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark unit economics med LTV/CAC på 17,2",
+          "Imponerande historik utan kundtapp sedan 2007",
+          "Skalbar SaaS-modell med 95% återkommande intäkter",
+          "Expandering till dubbelt så stora svenska marknaden",
+          "AI-motor baserad på 20 års unik kunddata",
+          "Potentiell undervärdering tack vare tråkigt namn och kort börshistorik",
+          "Attraktiv värdering relativt Fortnox (EV/EBIT ~25-50 vs 58)"
+        ],
+        "bear_case": [
+          "Inte lönsamt ännu med negativt rörelsesesultat",
+          "Kort börshistorik (noterat december 2017)",
+          "Risk att stora förvärvskostnader inte ger 17x avkastning",
+          "Tunnhandel och låg likviditet",
+          "Konkurrens i ERP-marknaden",
+          "Oklart om AI-motorn levererar faktiskt värde"
+        ],
+        "catalysts": [
+          "Vidare expansion till resten av Norden",
+          "Rullout av AI-motor till löpande kunder",
+          "Ökad lönsamhet när skala nås i Sverige",
+          "Potentiell att växa in i nuvarande värdering"
+        ],
+        "risks": [
+          "Att stora kundförvärvskostnader inte ger avkastning",
+          "Konkurrens från andra ERP-aktörer",
+          "Låg likviditet gör svårt att komma in/ut",
+          "AI-motorn kanske inte fungerar som förväntat"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "AppSales",
+      "ticker": "UPSALES",
+      "timestamp_start": "[18:53]",
+      "timestamp_end": "[33:20]",
+      "word_count": 1600,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "AppSales är ett svenskt CRM-bolag som planerar notering med värdering på 337 MSEK och teckningskurs på 22 kr. Bolaget har nyligen ingått samarbete med Fortnox som byter ut sitt eget CRM mot AppSales system. Värdarna påpekar att nyckeltalen ser mycket olika ut beroende på hur man tittar: officiellt PE på 5789 men om man räknar med dotterbolagets historik (Upsales Nordic AB) får man PE på 19 och EV/EBIT på 21. Bolaget har visat ROE på ~100% 2012-2016 och stabil vinstmarginal på ~28-29%. Tillväxt är dock osäker med siffror som varierar från 10% till 60% CAGR beroende på mätperiod och redovisningsprinciper. Marknaden är mycket konkurrensutsatt med Microsoft, Salesforce och SAP som dominerande aktörer. Värdarna betonar osäkerhet kring bolagets framtida prestationer och att det går att måla både en positiv och negativ bild.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "AppSales värderas i 337 miljoner kronor enligt prospektet. Man anger en kurs på 22 kronor per aktie. Man tar då in runt 25 miljoner kronor till bolaget och har dessutom i december haft en pre-IPO placement där man tog in ytterligare 47 miljoner kronor från bransch till webbanker.",
+          "timestamp": "[19:16]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Anledningen till att många tror på den här aktien är att konkurrenten Lime Technologies, också svensk noterat, noterades i december förra året och den aktien har stigit sedan dess med närmare 60 procent, värderas till över 1,2 miljarder kronor idag.",
+          "timestamp": "[21:08]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jo, enligt börsdata har man ett PE-tal på 5 789. Ja, kära lyssnare, du hörde rätt. PES, däremot, ligger ungefär i samma linje som för Lime, ligger runt 6. Vi har ev-ebit-EA på 153. PEG ligger på fantastiska, minus 57,7 och en vinstmarginal på 0,10 %. Dessutom har man faktiskt en negativ soliditet.",
+          "timestamp": "[21:56]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Varför skulle man någonsin köpa ett bolag med så fruktansvärt vidriga nyckeltal? Själva säger jag att man ska investera för att de verkar i en bransch med hög tillväxt, för att man har en skadbar plattform utan krav på stora konsultinsatser och en affärsmodell med extremt mycket återkommande licensintäkter som betalar årsvis.",
+          "timestamp": "[22:37]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Mellan 2012-2016 på datan på dotterbördaget har ROE, Return on Equity, legat på runt 100% per år. Det är galet bra måste jag säga. Man har även haft en relativt stadig vinstmarginal på 28-29% ungefär, vilket ger oss möjlighet att kunna räkna ut en vinstmultipel på det här.",
+          "timestamp": "[24:24]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Snitttillväxten för omsättning de senaste tio åren ligger på 10% per år. Det är helt okej, men det är inte riktigt så att man jublar med tanke på den kraftiga värderingen. Man kan dock hålla i detta och samtidigt leverera en stabil marginal. Då har vi ett PEG på 2 ungefär.",
+          "timestamp": "[25:13]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Man har faktiskt vuxet de här löpande abonnemangseintäkterna med just 20% per år de senaste tre åren. Samtidigt som man har minskat kundtappet, eller CERN som det är så fint heter, med 50% från 10% till 5%.",
+          "timestamp": "[26:52]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Man inledde under 2018 en satsning på en tyska marknad som givetvis är jättetestor jämfört med den svenska. Man har också haft en högre takt på antal nya kunder under senaste kvartalet och början på 2019 indikerar faktiskt samma starka tillväxttakt. Så man tangerar upp mot 40% ökningar på årsbasis, men har som ett eget mål ligger det runt 30%.",
+          "timestamp": "[27:41]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Vi har också hört många olika siffror i det här avsnittet som pekar åt olika håll. Det är väldigt enkelt, i det här bolaget målar man upp en väldigt negativ bild om man vill, men det är precis lika rätt att måla upp en positiv bild. Det handlar verkligen om vilka siffror man lyfter fram. Summa summarum är det rätt mycket osäkerheter kan man säga.",
+          "timestamp": "[27:59]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det är lite svårt att avgöra utan att ha tillräckligt gott insikte hur konkurrensen ser ut och hur de olika plattformarna skiljer sig från varandra. Det är inget unikt i att ha ett CRM-system.",
+          "timestamp": "[28:10]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Kikar vi på sajten Kaptera, det är en slags sökmotor kan man säga för mjukvara. Söker man där på CRM-system då hittar vi 546 alternativ på marknaden.",
+          "timestamp": "[28:45]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Tittar man på hur marknaden ser ut i Norden så finns det i stort sett tre bolag som dominerar. Microsoft med 20% av marknadsandelarna, Salesforce med 17% och tyska SAP med 12%.",
+          "timestamp": "[29:13]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jag tycker att seriömarknaden är lite för hårt konkurrensutsatt.",
+          "timestamp": "[32:01]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "19 (uppskattat baserat på dotterbolag) / 5789 (officiellt)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": {
+          "recurring": "20% de senaste 3 åren",
+          "10y_cagr": "10%",
+          "estimated_2019": "30-40%"
+        },
+        "margin": {
+          "operating": "samma som vinstmarginal",
+          "net": "28-29% (historisk)",
+          "current": "0,10%"
+        },
+        "debt_level": "Negativt eget kapital",
+        "custom": [
+          "ROE 2012-2016: ~100%",
+          "Återkommande intäkter: 90%",
+          "Kundtapp (churn): reducerad från 10% till 5%",
+          "PEG: 2 (med stabil marginal)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Partnerskap med Fortnox som integrerar CRM med Fortnox",
+          "Historiskt stark ROE på ~100% (2012-2016)",
+          "Stabil vinstmarginal på ~28-29%",
+          "Minskad churn från 10% till 5%",
+          "Satsning på tyska marknaden",
+          "Indikerad tillväxt på 30-40% för 2019",
+          "Jämförelse med Lime Technologies som stigit 60% sedan notering"
+        ],
+        "bear_case": [
+          "Officiellt fruktansvärda nyckeltal (PE 5789, PEG -57,7)",
+          "Mycket låg synlighet på historik",
+          "Otydlig redovisning och ändrade principer",
+          "Extremt konkurrensutsatt mot Microsoft, Salesforce, SAP",
+          "546 olika CRM-alternativ på marknaden",
+          "Negativt eget kapital",
+          "Osäkerhet kring om tillväxten håller i sig",
+          "Marknaden för CRM-system kräver ingen lokal anpassning vilket gynnar globala aktörer"
+        ],
+        "catalysts": [
+          "Tyska marknadsexpansion",
+          "Fortsatt integration med Fortnox",
+          "Börsnotering och ökad synlighet"
+        ],
+        "risks": [
+          "Stark konkurrens från globala aktörer",
+          "Otydlig historik och redovisning",
+          "Hög värdering med osäker tillväxt",
+          "CRM-marknaden kräver ingen lokal fördel",
+          "Negativt eget kapital och osäker finansiering"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Formpipe Software",
+      "ticker": "FPIP",
+      "timestamp_start": "[33:20]",
+      "timestamp_end": "[47:19]",
+      "word_count": 1200,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Formpipe Software är ett Enterprise Content Management (ECM) bolag handlat på Small Cap-listan med börsvärde på ~1,2 miljarder kr och P/S på 3. Bolaget fokuserar på dokumenthantering, GDPR-relaterade initiativ och ärendehantering, med kunder inom offentlig sektor (Stockholms läns landsting, Göteborgs stad, Vinnova) samt privat sektor. Vinsten ökade 60% 2018 vilket gav PEG på 0,5, men omsättningstillväxten var bara 4%. Bolaget har 65% repetitiva intäkter och ett betydande samarbete med Microsoft där produkter som LaserNet är integrerade med Azure Marketplace och AppSource. Microsofts team i Danmark har genererat många leads och förkortat säljcykeln från 3-6 månader till 1 månad. Formpipe har starka finansiella nyckeltal (13% rörelsemarginal, 10% ROE, 18% ROC) men värderas till PE ~32 och EV/EBIT ~30. Värdarna varnar för att bolaget använder aktiveringar av utvecklingskostnader i stor skala, vilket ökar EBIT tre gånger jämfört med de faktiska siffrorna.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Formpipe då då, handlas under teken FPIP, eller F-P-I-P, på small cap listan, och har ett börsvärde på dryga 1,2 miljarder. Man sysslar med något så sexigt som enterprise content management, vilket innebär hantering av företagsinformation. Framförallt handlar det för Formpipe iallafall, om dokumenthantering och, det här är ju extra hett, med GDPR och liknande satsningar och initiativ.",
+          "timestamp": "[34:05]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Cirka 230 medarbetare enligt Q4 2018 och en omsättning på 406 miljoner kronor. Vilket då, Fabian, för den som inte är snabb på matte, ger ett price to sales på tre.",
+          "timestamp": "[34:46]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Man har hög andel repetitiva intäkter vilket ger förutsättningar för att investera i nya marknader och utveckla nya erbjudanden. Skulle man bara byta ut ECM mot ERP har du i princip samma text och situation som för 247office. Då kan man säga att Formpipe ligger en eller två steg längre fram i sin bolagsutveckling.",
+          "timestamp": "[35:20]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Tyvärr visar också denna historik på relativt stagnant företag med några procent snitttillväxt i vinst och rörelsesresultat. Omsättningstillväxten ligger aningen högre men landade 2018 enbart på fyra procent. Något annat intressant hände dock 2018 för vinsten steg hela 60 procent vilket gör att man med ett p-tal på runt 30 får då pegg på 0,5.",
+          "timestamp": "[36:14]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Mest intressant idag är dock den privata sektorn, som i alla fall tycks växa på väldigt bra. Den var inte riktigt lika stor för några år sedan. Vi tjatade mycket om Microsoft i vårt avseende om cybersäkerhet... hur Microsoft och Formpipe har ett win-win samarbete.",
+          "timestamp": "[40:16]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "LaserNet det är en CCM-produkt. Just LaserNet används i dag av över 2000 företag i världen över. Produkten förenklar och effektiviserar hantering av både utgående och inkommande affärsdokument. CCM-marknaden förväntas ha en årlig tillväxt på drygt 13 procent av kommande året.",
+          "timestamp": "[41:14]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Microsoft byggde ju ett nytt team i Danmark under 2017. De fick upp ögonen för LaserNet. Man började då med att knyta till det AppSource som det heter. Det öppnade egentligen upp hela världen som försäljningsplats. Microsoft började själva använda produkten som demo för kunder och partners.",
+          "timestamp": "[42:04]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "De har gått ner från 3-6 månader till en enda månad. Det lyfter man verkligen som ett positivt. Tack vare alla de affärerna de har genererat så har man gått så långt man satsar på att bygga ett specifikt Microsoft team hos Formpipe. Man ser alltså väldigt stor potential i det här.",
+          "timestamp": "[42:28]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "4Pipe växer ganska långsamt historiskt men man har haft en explosiv vinstutveckling de senaste åren. Tyvärr har även multipel expansioner tränat uppåt de senaste åren och man handlas idag till ett PE på närmare 32. Och tack vare nettoskuld ligger EVE aningen lägre på 30.",
+          "timestamp": "[42:47]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Man levererar en direktavkastning på 2,5% och delar ut ungefär 80% av vinsten, men bara 40% av kassaflödet. Sen har vi 47% brutto-marginal, 13% rörelsemarginal och 10% vinstmarginal. Vilket är mycket trevligt. Sen har vi även 10% return on equity och drygt 18% return on capital.",
+          "timestamp": "[43:18]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det är ett rätt trevligt bolag. Aningen dyrt skulle jag tycka och speciellt om den här explosiva vinstutvecklingen var en one-off. Tycker nog man ska avvakt lite med bolaget, se om det håller i sig den här utvecklingen.",
+          "timestamp": "[44:45]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Men innan vi hoppar vidare så vill vi dock höra ett litet varningensfinger för något man sysslar med i Formpipe. Det är nämligen aktiveringar. Man aktiverar utvecklingskostnader, vilket gör att man skriver in kostnader för utveckling som en intäkt, eftersom de här över tid beräknas ge just intäkter.",
+          "timestamp": "[45:11]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det här kan bli lite trist om man inte får motsvarande intäkter som täcker upp de här aktiveringarna, för då har man helt plötsligt en väldigt stor skuld av intervjuationstäcker och inga intäkter istället. Så man får en double whammy, man får lite leverage på nedsidan.",
+          "timestamp": "[45:22]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Sådana aktiveringen ger att rörelseresultatet blir tre gånger så högt som det egentligen på riktigt är. Det betyder inte att det är någonting negativt egentligen men något att ha koll på och se upp för.",
+          "timestamp": "[46:15]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "~32",
+        "ev_ebitda": null,
+        "ev_sales": "3x",
+        "fcf_yield": null,
+        "dividend_yield": "2,5%",
+        "revenue_growth": "4% (2018)",
+        "margin": {
+          "operating": "13%",
+          "net": "10%",
+          "gross": "47%"
+        },
+        "debt_level": null,
+        "custom": [
+          "PEG: 0,5 (med 60% vinstökning 2018)",
+          "ROE: 10%",
+          "ROIC: 18%",
+          "Utdelningsandel: 80% av vinsten, 40% av kassaflödet",
+          "Repetitiva intäkter: 65%",
+          "LaserNet: >2000 kunder"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Starkt samarbete med Microsoft (Azure Marketplace, AppSource)",
+          "Säljcykel reducerad från 3-6 månader till 1 månad",
+          "Explosiv vinstutveckling (60% 2018)",
+          "Goda finansiella nyckeltal (13% rörelsemarginal, 10% ROE)",
+          "65% repetitiva intäkter ger stabil bas",
+          "CCM-marknaden väntas växa 13% per år",
+          "GDPR- och cybersäkerhetstrend gynnar dokumenthantering",
+          "LaserNet har >2000 kunder globalt"
+        ],
+        "bear_case": [
+          "Hög värdering (PE ~32, EV/EBIT ~30)",
+          "Låg omsättningstillväxt (4% 2018)",
+          "Osäker om vinstökningen 60% är one-off eller hållbar",
+          "Stor användning av aktiveringar av utvecklingskostnader",
+          "EBIT är 3x högre tack vare aktiveringar (leverage på nedsidan)",
+          "Historiskt långsamt växande företag"
+        ],
+        "catalysts": [
+          "Vidare expansion av Microsoft-samarbete",
+          "Fortsatt tillväxt i privat sektor",
+          "CCM-marknadens tillväxt på 13% per år",
+          "GDREG-relaterade efterfrågan"
+        ],
+        "risks": [
+          "Stor aktivering av utvecklingskostnader ger leverage på nedsidan",
+          "Hög värdering kan vara unjustifierad om vinstökning inte håller",
+          "Låg omsättningstillväxt kan begränsa långsiktig potential",
+          "Konkurrens i ECM-marknaden"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man behöver inte ha många bra i det här företaget. Jag har alltid sagt att om man har en IQ av 160, ge 30 poäng till någon annan för att man inte behöver det i investeringar. Men man behöver också emotionella utvecklingar.",
+      "summary": "Investeringsframgång handlar mer om emotionell mognad än hög IQ. Att kunna kontrollera sina känslor är viktigare än ren intelligens.",
+      "category": "wisdom",
+      "speaker": "Unknown",
+      "speaker_role": "unknown",
+      "timestamp": "[00:01]",
+      "confidence": "high",
+      "tags": [
+        "investeringspsykologi",
+        "emotionell kontroll"
+      ]
+    },
+    {
+      "quote": "En krasch kommer. Om det är 6 månader från nu, 12 månader, 36 månader, no one knows.",
+      "summary": "Marknadskrascher är oundvikliga men omöjliga att tajma korrekt.",
+      "category": "wisdom",
+      "speaker": "Unknown",
+      "speaker_role": "unknown",
+      "timestamp": "[00:08]",
+      "confidence": "high",
+      "tags": [
+        "marknadstajming",
+        "krasch"
+      ]
+    },
+    {
+      "quote": "Det är en balansgång som privata investerare. Då tycker vi att det är intressant att kolla på mindre bolag, speciellt om man hittar sådana som har lågt institutionellt ägande. För det tyder på att få hittat bolaget och därför kanske man har hunnit före många andra. Det är det man vill som retail-investerare.",
+      "summary": "Privata investerare kan få en fördel genom att hitta småbolag med lågt institutionellt ägande där man kan vara tidig.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[02:06]",
+      "confidence": "high",
+      "tags": [
+        "small caps",
+        "institutionellt ägande",
+        "edge"
+      ]
+    },
+    {
+      "quote": "När man började analysera bolag då använde man väldigt enkla modeller och enkla sätt att kolla på bolag. Och desto mer man lärde sig, desto mer komplexa blev de här modellerna tills man nådde någon peak. Och sen blev de bara mindre och mindre komplexa och var väldigt lätta. Och nu är man nästan tillbaka på samma ställe som där man började.",
+      "summary": "Investeringsanalys går en cykel från enkla modeller till komplexa och tillbaka till enkla igen när man vinner erfarenhet.",
+      "category": "lesson",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[43:37]",
+      "confidence": "high",
+      "tags": [
+        "analysering",
+        "investeringsprocess",
+        "erfarenhet"
+      ]
+    },
+    {
+      "quote": "Det är mycket trevligt bolag. Aningen dyrt skulle jag tycka och speciellt om den här explosiva vinstutvecklingen var en one-off. Tycker nog man ska avvakt lite med bolaget, se om det håller i sig den här utvecklingen.",
+      "summary": "När explosiv vinstökning är osäker bör man vara avvaktande och vänta på bevis att utvecklingen håller.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[44:45]",
+      "confidence": "medium",
+      "tags": [
+        "värdering",
+        "avvakta",
+        "vinstökning"
+      ]
+    },
+    {
+      "quote": "Vi fokuserar bara på att leverera information som kan underlöta för egen analys. Och jag tycker att det var kul att titta på det bolaget som nu faktiskt är väldigt nära en stundande börsnotering. Men någon bolag som ska noteras.",
+      "summary": "Värdarna betonar att de bara levererar information för egen analys, inte rådgivning.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[32:54]",
+      "confidence": "high",
+      "tags": [
+        "egen analys",
+        "ingen rådgivning"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "I detta avsnitt diskuterar värdarna tre små svenska teknikbolag: 247 Office (SaaS ERP med stark tillväxt men inte lönsamt), AppSales (kommande CRM-notering med mycket osäkerheter) och Formpipe Software (etablerat ECM-bolag med Microsoft-samarbete men högt värderat). Värdarna betonar vikten av att göra egen analys och varnar för aktiveringar av utvecklingskostnader som kan ge en falskt hög EBIT. Avsnittet fokuserar på att hitta värde i bortglömda bolag men också på riskerna med osäker historik och hög värdering.",
+  "key_takeaways": [
+    "Small caps med lågt institutionellt ägande kan ge en edge för privata investerare",
+    "LTV/CAC-metricen (17,2 för 247 Office) är kritisk för att utvärdera SaaS-bolag",
+    "AppSales IPO har mycket osäkerheter med motsägelsefulla nyckeltal",
+    "Formpipe har intressant Microsoft-samarbete men använder aktiveringar som ökar EBIT 3x",
+    "Investeringsanalys går från enkla modeller till komplexa och tillbaka till enkla igen"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-04-11-0e58.txt",
+  "transcript_word_count": 9293,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

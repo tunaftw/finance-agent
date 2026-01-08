@@ -1,0 +1,634 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2022-08-11-01b3",
+  "podcast_name": "Marketsmakers",
+  "episode_title": "#241 Fabian Talar Ut Om Risk",
+  "episode_number": 241,
+  "date": "2022-08-11",
+  "hosts": [
+    "Fabian",
+    "Niklas"
+  ],
+  "guests": [],
+  "main_topics": [
+    "risk management",
+    "positionering",
+    "Intel-analys",
+    "marknadscyklar",
+    "bullwhip-effekten"
+  ],
+  "stocks_discussed": [
+    "Intel",
+    "Microsoft",
+    "NVIDIA",
+    "Vertex",
+    "Uran/Sprott",
+    "Borr Drilling"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Intel",
+      "ticker": "INTC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[08:05]",
+      "reasoning": "Katastrofal kvartalsrapport med missade siffror i samtliga kategorier och brutalt guidade helårsförväntningar. Tappar marknadsandelar i datacenter. P/E 10-12x men EPS på $2.30 matchar inte nuvarande aktiekurs på $35. Inget FCF för DCF-värdering. Stora operationella risker och egenutvecklade chips från Apple och andra utgör hot mot 50% av intäkterna (PC). Kärnverksamheten verkar ha imploderat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Oj oj oj, vilket katastrofal kvartalsrapport de kom ut med då för någon vecka sedan. Man missade grovt i nästan samtliga kategorier, från omsättning till vinst och man guidade ner rätt brutalt för helåret. Intel har ju senaste åren handlats mellan 10-12 gånger earnings. Och de själva förväntar sig nu 2,30 dollar earnings per share för året. Och då kan man ju rätt lätt räkna ut här att har du 10 gånger 2,30, eller 12 gånger 2,30, det rimmar ju inte med den nuvarande aktiekursen som står i 35 dollar.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Stor nedsida om verksamheten inte förbättras",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[16:00]",
+      "reasoning": "Omsättning upp 12% för kvartalet, 16% FX-justerat. Starkare än konkurrenter tack vare mer B2B-fokus och klistriga affärsmodeller. Resilient mot konsumentsvaghet. Jämförs positivt mot Intel och andra teknologibolag som drabbats hårdare av marknadscykeln.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Microsoft... de släppte rapport slutet på juli, där istället omsättningen var upp 12% för kvartalet, 16% om man justerar för valuta. Generellt, även deras CPS var upp, det var mycket svagare än vad de brukar ha vanlig tillväxt än, men det var fortfarande tillväxt där. Det tror jag är för att det här business to business är mycket mer sticky.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Vertex",
+      "ticker": "VTX",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[57:27]",
+      "reasoning": "Katastrofal kvartalsrapport med 40% nedgång. Operationella missar i hedging. Raffinaderiövertagande mångdubblade komplexiteten och operationella risken underskattades. Lågconviction case under 5% av portfölj, ned 50% sedan diskussion 19 maj. Tänker använda 'when in doubt get the hell out'-princip.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag släppte en kvartalsrapport igår. Katastrofalt resultat. Framförallt på grund av operationella missar. Man var jävligt dålig på att hedgea sig helt enkelt. Men i det här caset så lutar jag mot en when in doubt get out, just eftersom det tar lite tid att utvärdera här den operationella risken kommer det här att fortsätta.",
+      "sector": "Energy",
+      "market": "sweden",
+      "position_context": "Under 5% av portföljen",
+      "downside_note": "Ned 50% sedan maj 2022",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Uran/Sprott",
+      "ticker": null,
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[57:52]",
+      "reasoning": "Lågconviction case 5-10% av portföljen. Tes på supply/demand constraints har inte spelat ut som väntat. Plus/minus noll sedan december 2021. Risken för flera års 'skvalpande' med opportunity cost. Situationen påminner om tidigare uranium-cyklar där bulls fått vänta länge.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Tesen spelar på en liknande supply demand constraint som till exempel olja, men som sagt inte alls spelat ut sig på den tidsram som jag trodde det skulle göra. Även om jag inte ser så stor nedsida i caset, så är det en stor risk att caset ligger och skvallpar i flera år.",
+      "sector": "Commodities",
+      "market": "other",
+      "position_context": "5-10% av portföljen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Borr Drilling",
+      "ticker": "BORR",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[58:59]",
+      "reasoning": "Högkonviktion case över 10% av portföljen. Upp 90% sedan diskussion 30 januari, var som mest upp 240%. Tes på tight olje- och riggmarknad med potential till historiska rater. Payback if case. Felhantering av nyemission kostade pengar men thesis kvarstår.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här är ett högkonviktion, stor positionscase, det är över 10% av min portfölj. Tesen spelar på tight oljemarknad, tight reale marknad, och om rates återgår till historiska nivåer, finns det en fin uppsida här. En typisk payback if case som vi pratade om tidigare.",
+      "sector": "Energy",
+      "market": "other",
+      "position_context": "Över 10% av portföljen",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Intel",
+      "ticker": "INTC",
+      "timestamp_start": "[08:05]",
+      "timestamp_end": "[10:55]",
+      "word_count": 600,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Intel diskuteras som ett value case som misslyckats katastrofalt. Kvartalsrapporten var svag med missade siffror i alla kategorier. Bolaget tappar marknadsandelar i datacenter till konkurrenter som utvecklar egna chips. PC-segmentet (50% av intäkter) väntas falla 10%. P/E på 10-12x verkar attraktivt men EPS på $2.30 matchar inte aktiekurs på $35. Inget FCF för DCF-analys. Bullwhip-effekten från pandemin skapar överhäng och risk.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Oj oj oj, vilket katastrofal kvartalsrapport de kom ut med då för någon vecka sedan. Man missade grovt i nästan samtliga kategorier, från omsättning till vinst och man guidade ner rätt brutalt för helåret.",
+          "timestamp": "[08:25]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Framförallt så säger man de själva att de tappar andelar i till exempel avdelningen datacenter. Man förväntar sig att växa långsammare än marknaden som helhet.",
+          "timestamp": "[08:25]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "För PC-kategorin som är typ 50% av Intels intäkter, det var inte heller strålande resultat där. Man förväntar sig att PC ska vara ner 10% kommande kvartal.",
+          "timestamp": "[09:57]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Intel har ju senaste åren handlats mellan 10-12 gånger earnings. Och de själva förväntar sig nu 2,30 dollar earnings per share för året. Och då kan man ju rätt lätt räkna ut här att har du 10 gånger 2,30, eller 12 gånger 2,30, det rimmar ju inte med den nuvarande aktiekursen som står i 35 dollar.",
+          "timestamp": "[10:55]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Framförallt så sitter de inte och forkastar något FCF, för det finns inget där. Så du kan inte göra en DCF på det här bolaget heller.",
+          "timestamp": "[10:55]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "10-12x",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "Inget FCF",
+        "dividend_yield": null,
+        "revenue_growth": "Väntas växa långsammare än marknaden",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "EPS $2.30 för helåret",
+          "PC intäkter 50% av totalt",
+          "PC väntas ner 10% nästa kvartal"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Värderingsmultipel 10-12x ser attraktiv ut utifrån",
+          "Stor marknadsandel kvar",
+          "Turnaround-potential",
+          "Intressant i pipen för kärnverksamheten"
+        ],
+        "bear_case": [
+          "Katastrofal kvartalsrapport",
+          "Tappar marknadsandelar i datacenter till egenutvecklade chips",
+          "PC-segmentet väntas falla 10%",
+          "Egenutvecklade chips från Apple och andra är stor risk",
+          "Inget FCF för DCF-värdering",
+          "EPS $2.30 matchar inte aktiekurs $35",
+          "Bullwhip-effekt från pandemin skapar överhang",
+          "Operationella risker"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Tappar marknadsandelar till konkurrenter",
+          "Fortsatt svag PC-marknad",
+          "Misslyckad turnaround",
+          "Bullwhip-effekt skapar överkapacitet"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "timestamp_start": "[16:00]",
+      "timestamp_end": "[16:40]",
+      "word_count": 250,
+      "speakers": [
+        "Fabian"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Microsoft jämförs positivt med Intel och andra teknologibolag som drabbats hårdare av pandemins efterverkningar. Rapport visar omsättningsökning på 12% (16% FX-justerat) vilket är mycket svagare än normalt men fortfarande tillväxt. Styrkan ligger i B2B-fokus och klistriga affärsmodeller som är mer resilient mot konsumentsvaghet. Visar på fördelar av att välja rätt typ av bolag i cyklisk miljö.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Microsoft... de jobbar mycket mindre mot retail än vad många av de här bolagen vi nämner nu gör ändå. De släppte rapport slutet på juli, där istället omsättningen var upp 12% för kvartalet, 16% om man justerar för valuta.",
+          "timestamp": "[16:00]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det tror jag är för att det här business to business är mycket mer sticky, och så har ju de också mycket sas.",
+          "timestamp": "[16:00]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "12% (16% FX-justerat)",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark omsättningstillväxt 12% (16% FX)",
+          "B2B-fokus ger mer klistriga kundrelationer",
+          "Mer resilient mot konsumentsvaghet",
+          "SaaS-modell med återkommande intäkter"
+        ],
+        "bear_case": [
+          "Tillväxt mycket svagare än normalt",
+          "Påverkas av makrosvaghet i företagssektorn"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Makrosvaghet minskar företags IT-budgetar",
+          "Valutarisker"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Vertex",
+      "ticker": "VTX",
+      "timestamp_start": "[56:21]",
+      "timestamp_end": "[57:27]",
+      "word_count": 350,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Vertex var ett lågkonviktionscase under 5% av portföljen med tes på undervärderade tillgångar och höga crackspreads som skulle hålla i sig. Bolaget har fallit 50% sedan diskussion 19 maj. Katastrofal kvartalsrapport med operationella missar i hedging. Raffinaderiövertagande mångdubblade komplexiteten och operationella risken underskattades. Fabian lutar mot att sälja enligt 'when in doubt get the hell out'-princip.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "När jag tog in det här var det en liten lågconviction, låg positionsprid, var under 5% av portföljen. Snackade om bolaget 19 maj. Sedan dess är det ner cirka 50%.",
+          "timestamp": "[56:21]",
+          "context": "position_disclosure"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag släppte en kvartalsrapport igår. Katastrofalt resultat. Framförallt på grund av operationella missar. Man var jävligt dålig på att hedgea sig helt enkelt.",
+          "timestamp": "[56:33]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Tesen i det här case var att de hade undervärderade tillgångar, det var höga crackspread som skulle hålla i sig. Vilket jag fortfarande tror på. Men missen här var att de tog över ett raffinaderi som mångdubblade komplexiteten av deras business. Det var alltså att jag underskattade den operationella risken i bolagen.",
+          "timestamp": "[56:33]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Men i det här caset så lutar jag mot en when in doubt get out, just eftersom det tar lite tid att utvärdera här den operationella risken kommer det här att fortsätta.",
+          "timestamp": "[57:27]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Föll 40% på senaste rapporten",
+          "Ned 50% sedan maj 2022"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Undervärderade tillgångar",
+          "Höga crackspreads som håller i sig"
+        ],
+        "bear_case": [
+          "Operationella missar i hedging",
+          "Raffinaderiövertagande mångdubblade komplexiteten",
+          "Operationell risk underskattades",
+          "Katastrofal kvartalsrapport",
+          "Ned 50% sedan maj"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Fortsatta operationella problem",
+          "Marknadsmässiga risker i raffinaderisektorn"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Borr Drilling",
+      "ticker": "BORR",
+      "timestamp_start": "[58:59]",
+      "timestamp_end": "[59:53]",
+      "word_count": 300,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Borr Drilling är ett högkonviktionscase över 10% av portföljen med uppgång på 90% sedan diskussion 30 januari. Var som mest upp 240%. Tes baseras på tight olje- och riggmarknad med potential att rater återgår till historiska nivåer. Payback if case. Fabian gjorde fel i hanteringen av nyemission med emotionella beslut som kostade pengar. Trots bakgång fortsätter utvärdering av case men thesis kvarstår.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Det här gick jag in i slutet av förra året. Det här är ett högkonviktion, stor positionscase, det är över 10% av min portfölj.",
+          "timestamp": "[58:59]",
+          "context": "position_disclosure"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Pratar först om det här bolaget i podden 30 januari, sen dess är upp cirka 90%. Tesen spelar på tight oljemarknad, tight reale marknad, och om rates återgår till historiska nivåer, finns det en fin uppsida här. En typisk payback if case som vi pratade om tidigare.",
+          "timestamp": "[59:19]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Som mest var det upp 240%. Missen här var inte att jag skulle försöka tajma det på något sätt, det är att jag inte hanterade en potentiell nyemission på det sätt jag hade planerat. Det ledde till emotionellt hantering av nyemissionen, och framförallt var kommunikationen från management väldigt oklar.",
+          "timestamp": "[59:53]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Upp 90% sedan januari 2022",
+          "Var som mest upp 240%",
+          "Över 10% av portföljen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Tight oljemarknad",
+          "Tight riggmarknad",
+          "Rater kan återgå till historiska nivåer",
+          "Stor uppsida potential",
+          "Högkonviktionscase"
+        ],
+        "bear_case": [
+          "Felhantering av nyemission kostade pengar",
+          "Otydlig kommunikation från management",
+          "Emotionella beslut",
+          "Fallit från 240% till 90% uppgång"
+        ],
+        "catalysts": [
+          "Oljepriser återhämtar sig",
+          "Riggrater stiger mot historiska nivåer"
+        ],
+        "risks": [
+          "Oljepriset faller",
+          "Riggrater inte återgår till historiska nivåer",
+          "Nya riggar byggs"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Processen är viktigare än utfallet. Gör du någonting om och om igen så ska du över tid ge positivt resultat. Man kan inte utvärdera efter varje enskilt utfall för det kan vara tur.",
+      "summary": "Fokusera på process snarare än enskilda utfall eftersom tur kan påverka kortsiktiga resultat. En god process ger positivt resultat över tid.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[41:39]",
+      "confidence": "high",
+      "tags": [
+        "process",
+        "utfall",
+        "tur",
+        "investeringsfilosofi"
+      ]
+    },
+    {
+      "quote": "En stor del, för att bli långsiktigt framgångsrik, handlar det väldigt mycket om att överleva för att få med i morgon igen. Det är en av alla till exempel att man ska undvika stor hävstång, eftersom det är lätt att bli wippa kontot på en ganska liten rörelse.",
+      "summary": "Överlevnad är avgörande för långsiktig framgång. Undvik stor hävstång för att minska risken att förlora hela kontot på en liten marknadsrörelse.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[03:06]",
+      "confidence": "high",
+      "tags": [
+        "överlevnad",
+        "riskhantering",
+        "hävstång",
+        "risk of ruin"
+      ]
+    },
+    {
+      "quote": "Bättre var att då använda ett suboptimal träningsskema rent teoretiskt sett, men med god effort och på där vis få ett bättre resultat. Optimal träningsskema, halvdagen effort, ger sämre avkastning, än ett suboptimal träningsskema med väldigt god effort.",
+      "summary": "Ett suboptimalt system med god ansträngning ger bättre resultat än ett optimalt system med låg ansträngning. Anpassa strategi till din personlighet för att upprätthålla motivation.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[26:27]",
+      "confidence": "high",
+      "tags": [
+        "ansträngning",
+        "personlighet",
+        "strategi",
+        "motivation"
+      ]
+    },
+    {
+      "quote": "I skillnad från baseball så behöver en investerare inte slå på varje ball. I baseball måste du försöka slå varje ball, hur dålig den är. Men i investeringar så kan du faktiskt också bara sitta på händerna. Och det är tyvärr också det svåraste.",
+      "summary": "Investeringar kräver inte att du agerar på varje möjlighet, till skillnad från baseball. Att sitta på händerna och vänta på rätt läge är svårt men kritiskt.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[45:32]",
+      "confidence": "high",
+      "tags": [
+        "tålamod",
+        "selectivitet",
+        "passivitet",
+        "Warren Buffett"
+      ]
+    },
+    {
+      "quote": "Satsa stort på bra bett, annars är det väldigt svårt att avkasta långsiktigt, och släpp förlorare snabbt.",
+      "summary": "Positionera stort i högkonviktionscase och sälj snabbt när tesen inte håller. Detta är avgörande för långsiktig avkastning.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[46:09]",
+      "confidence": "high",
+      "tags": [
+        "positionering",
+        "konviktionscase",
+        "cut losses",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Kill your darlings som man säger. Jag har fått kritik på Twitter att jag agerar väldigt ängsligt. Att jag till exempel en månad kan ha några cas och några månader senare inte har kvar några av dem caset. Och det är för att jag ser en väldigt stor anledning att kunna sälja direkt med en handvändning.",
+      "summary": "Var villig att sälja snabbt när tesen inte håller, även om det innebär att byta ut positioner ofta. Det är viktigare att skydda kapitalet än att hålla fast vid favoriter.",
+      "category": "lesson",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[48:55]",
+      "confidence": "high",
+      "tags": [
+        "cut losses",
+        "kill darlings",
+        "emotionsfrihet",
+        "positionering"
+      ]
+    },
+    {
+      "quote": "When in doubt, get the hell out. Och det här hjälper mig verkligen att ta beslut i lugn och ro. Och undvika emotionella beslut.",
+      "summary": "Vid osäkerhet, sälj positionen. Detta enkla mantra hjälper till att undvika emotionella beslut och fatta rationella val.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[49:23]",
+      "confidence": "high",
+      "tags": [
+        "when in doubt",
+        "get out",
+        "emotions",
+        "beslutsfattande"
+      ]
+    },
+    {
+      "quote": "Att man ska tänka varje dag om sin portfölj skulle jag köpa de här sakerna idag. För det är väldigt stor skillnad. När man ser att man har det på en så är det ganska kort att sälja det. Men om man hade sålt det och verkligen gör det skulle jag ha köpt tillbaka det.",
+      "summary": "Fråga dig varje dag om du skulle köpa dina innehav till dagens pris om du inte ägde dem. Detta avlägsnar emotionell bias och hjälper till att fatta rationella beslut.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[50:12]",
+      "confidence": "high",
+      "tags": [
+        "portföljutvärdering",
+        "rationella beslut",
+        "emotionsfrihet",
+        "perspektivbyte"
+      ]
+    },
+    {
+      "quote": "Det finns en opportunity cost i varje case du äger. För när du spelar poker har du ju en begränsad mängd chip. Du kan inte satsa på varje hand då är du ju ute väldigt väldigt snabbt. Och samma gäller i ditt kapital på börsen. Du kan inte binda upp dig en obegränsad tid i alla alla case och hoppas på att din case ska spela ut sig.",
+      "summary": "Varje position har en alternativkostnad. Liksom pokermarker är kapital begränsat och kan inte bindas i obegränsat många case för lång tid.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[51:01]",
+      "confidence": "high",
+      "tags": [
+        "opportunity cost",
+        "kapitalallokering",
+        "tidsaspekt",
+        "positionering"
+      ]
+    },
+    {
+      "quote": "Det finns alltid en point of no return för alla. Det är rätt stor skillnad att spränga dig när du har 100 000 och om du har 100 miljoner.",
+      "summary": "Alla har en nivå där förlusten blir oåterkallelig. Spränga kontot när du har lite pengar är mycket värre än när du har mycket.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[55:56]",
+      "confidence": "high",
+      "tags": [
+        "risk of ruin",
+        "point of no return",
+        "riskhantering",
+        "kapitalskydd"
+      ]
+    },
+    {
+      "quote": "Det är inte ovanligt att du ser investerare, och inte nödvändigtvis traders, utan långsiktiga investerare som har ett sätt att handla och utvärdera bolag under en viss marknadsregi eller en viss tid. Och sen fungerar det inte längre de kommande tio åren, och det är ödestiget för det långsiktiga avkastning.",
+      "summary": "En strategi som fungerat i en marknadscykel kan misslyckas i nästa. Att vara dogmatisk och hålla fast vid en strategi som inte längre fungerar är ödesdigert för långsiktig avkastning.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[33:14]",
+      "confidence": "high",
+      "tags": [
+        "strategianpassning",
+        "marknadsregimer",
+        "dogmatism",
+        "agilitet"
+      ]
+    },
+    {
+      "quote": "Investera inte emotionellt, det är katastrofalt, brukar leda till väldigt stora förluster. Undvik 'when in trouble, double' som handlar om att irrationellt snitta ner sig när ens case går ner på börsen.",
+      "summary": "Undvik emotionella investeringsbeslut eftersom de leder till stora förluster. Dubbla inte irrationellt på fallande positioner.",
+      "category": "lesson",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[51:01]",
+      "confidence": "high",
+      "tags": [
+        "emotions",
+        "when in trouble double",
+        "förluster",
+        "riskhantering"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "quote": "Det här är ju en mix av till exempel krypto som helt har crashat.",
+      "timestamp": "[14:32]",
+      "context": "Krypto crash påverkar Nvidias gaming-segment",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": null,
+      "asset_name": "Krypto (general)",
+      "sentiment": "bearish",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "quote": "Men grafikkorten används ju sen till att mina krypto. Det är ju en av det som gjort att det varit så svårt att få tag på grafikkort de senaste åren.",
+      "timestamp": "[15:05]",
+      "context": "Krypto mining skapade efterfrågan på grafikkort som nu försvinner",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet fokuserar på risk management, positionering och hur man hanterar bakslag. Intel diskuteras som ett value case som misslyckats katastrofalt med svag rapport och tappande marknadsandelar. NVIDIA nämns med negativ pre-annonsering. Microsoft lyfts fram som positivt exempel med resilient B2B-modell. Fabian delar erfarenheter från sina positioner: Vertex (sälj-kandidat med katastrofal rapport), Uran/Sprott (hold men orolig för opportunity cost), och Borr Drilling (hold med stark uppgång men felhanterad nyemission. Viktiga insikter om process över utfall, avoid risk of ruin, och när man ska sälja (when in doubt get the hell out).",
+  "key_takeaways": [
+    "Process är viktigare än utfall - en god process ger positivt resultat över tid",
+    "Avoid risk of ruin - överlevnad är avgörande för långsiktig framgång",
+    "Satsa stort på högkonviktionscase, släpp förlorare snabbt",
+    "When in doubt get the hell out - vid osäkerhet, sälj positionen",
+    "Intel misslyckas med katastrofal rapport, operationella risker och tappande marknadsandelar",
+    "Microsoft visar styrka med B2B-fokus och klistriga affärsmodeller",
+    "Positionering ska baseras på conviction och tidsaspekt",
+    "Opportunity cost i varje position - kapital är begränsat som pokermarker"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2022-08-11-01b3.txt",
+  "transcript_word_count": 99,
+  "has_timestamps": true,
+  "model_used": "glm-4"
+}

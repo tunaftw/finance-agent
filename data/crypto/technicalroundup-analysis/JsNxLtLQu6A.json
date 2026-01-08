@@ -1,0 +1,163 @@
+{
+  "source_id": "JsNxLtLQu6A",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-05-16",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "BTC traded through summer lows and bounced. Monthly range between 30-60k. Waiting for evidence of strength before getting bullish.",
+      "quote": "unless you're getting very good entries as far as what would shift this... the monthly chart generate a signal well as discussed the market was slash is in a monthly range between 30 and 60k",
+      "price_levels": [
+        "$30k",
+        "$60k",
+        "$35-37k",
+        "$14k",
+        "$20k",
+        "mid-40s"
+      ],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "ETH closed above its range low at 1900, structurally looks slightly better than BTC. Range between 2k-3k with weekly support at 2k.",
+      "quote": "structurally looks in slightly better shape than btc... the double bottom that we've kind of left in is somewhat concerning but generally speaking... if the markets are going to bounce and if we get equities not eating i think around 2k is your range support",
+      "price_levels": [
+        "$1900",
+        "$2000",
+        "$2500",
+        "$2200",
+        "$3000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "SOL hit its first cycle low structure at $47. Clear range with support in mid-40s and resistance near 80.",
+      "quote": "solana... made its way to its first kind of cycle low structure all the way back at 47... your short-term range in seoul is probably between mid-40s and closer to 80",
+      "price_levels": [
+        "$47",
+        "mid-40s",
+        "$80",
+        "$60s"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "AVAX",
+      "asset_name": "Avalanche",
+      "sentiment": "neutral",
+      "speaker": "Duck",
+      "context": "Clear trading range with support at 24 and resistance at 40. Good for level-to-level trading.",
+      "quote": "as far as avax goes that's also got like a decently tradable range... range high coming in at 40 and the range low coming in at 24",
+      "price_levels": [
+        "$24",
+        "$40"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LUNA",
+      "asset_name": "Terra",
+      "sentiment": "strongly_bearish",
+      "speaker": "Duck",
+      "context": "LUNA experienced major implosion/collapse. Brief mention as part of market fear context.",
+      "quote": "big puke through the lows lunar implosion",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$30k",
+        "$60k",
+        "$35-37k",
+        "$14k",
+        "$20k",
+        "mid-40s"
+      ],
+      "ETH": [
+        "$1900",
+        "$2000",
+        "$2500",
+        "$2200",
+        "$3000"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC is in a 30-60k monthly range that needs 35-37k to become support for bullish setup",
+    "If BTC breaks down, next support is between 14k (monthly support) and 20k (200-week MA)",
+    "ETH structurally looks better than BTC as it closed above its range low at 1900",
+    "SOL and AVAX offer clear trading ranges with well-defined support/resistance levels",
+    "Correlations with equities remain intact; crypto likely to benefit from any equity bounce"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Reclaim $32-35k range / failed breakdown",
+      "target": "mid-40s to $58-60k",
+      "stop": "below $32k",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Failed breakdown at $1900 support",
+      "target": "$2200 (day trade) to $2500 (higher timeframe)",
+      "stop": "below recent lows",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Around $2000 support",
+      "target": "$2500 (range midpoint)",
+      "stop": "below support",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "SOL",
+      "direction": "long",
+      "entry": "mid-40s support",
+      "target": "$60s (first resistance) to $80",
+      "stop": "below support",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "AVAX",
+      "direction": "long",
+      "entry": "$24 support",
+      "target": "$40 resistance",
+      "stop": "below support",
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "The market experienced a major breakdown through summer lows with a mechanical bounce. BTC is in a 30-60k monthly range that needs 35-37k to become support for a bullish setup. ETH looks structurally better than BTC, closing above its range low at 1900 with support at 2k. SOL and AVAX offer clear trading ranges for level-to-level trading. Correlations with equities remain intact, with crypto likely to benefit from any equity bounce.",
+  "transcript_word_count": 13363,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:59:53.337510"
+}

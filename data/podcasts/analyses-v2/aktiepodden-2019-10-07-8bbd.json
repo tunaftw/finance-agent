@@ -1,0 +1,228 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2019-10-07-8bbd",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "Avsnitt 87 - Glassiga råd i kylig tid",
+  "episode_number": 87,
+  "date": "2019-10-07",
+  "hosts": [
+    "Jonte",
+    "Christoffer",
+    "Calle"
+  ],
+  "guests": [
+    "Analysguiden"
+  ],
+  "main_topics": [
+    "Q3-rapporter",
+    "Marknadssentiment",
+    "Bahnhof/Banhoff",
+    "Makroanalys"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "Bahnhof"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Bahnhof",
+      "ticker": "BAHN-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Christoffer",
+      "speaker_role": "host",
+      "timestamp": "[07:11]",
+      "reasoning": "Bahnhof är inplockad i portföljen. Aktien har fallit från toppen 37 SEK till nu drygt 21 SEK på grund av pressade marginaler. Banhoff har nu höjt priserna mot kunderna för att kompensera för nätägarnas prishöjningar, och marginalerna förväntas stötta under andra halvåret. Bolaget ser ut att vara billigt värderat nu med direktavkastning på nästan 3% och mycket stark balansräkning med nettokassa. Position i konsumentsektorn och integritetsfokus är konkurrensfördelar mot globala aktörer som Amazon.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "En aktie som har varit älskad och som sen blev hatad, men som nu kanske förhoppningsvis kommer att bli älskad igen, och är inplockad i portföljen, det är ju då Banhoff.",
+      "sector": "Teknologi/Bredband",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Andra halvåret 2019"
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Jonte",
+      "speaker_role": "host",
+      "timestamp": "[04:26]",
+      "reasoning": "H&M har levererat en bra rapport och studsat till nära 200 SEK för första gången sedan 2017. Bruttomarginalen var bättre än förväntat och organisk tillväxt börjar se bättre ut. Värderingen har dock kommit tillbaka till P/E 22 vilket fortfarande anses dyrt. Aktien har haft en stark trend 2019 och många blankare har bränt sig.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det har varit ett svår aktie förutskåv faktiskt. För det har ju varit ganska tvära kast. Familien, Persson har ju fortsatt stödköpa aktier.",
+      "sector": "Kläder/Detailhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Bahnhof",
+      "ticker": "BAHN-B",
+      "timestamp_start": "[07:11]",
+      "timestamp_end": "[13:11]",
+      "word_count": 700,
+      "speakers": [
+        "Christoffer",
+        "Jonte",
+        "Calle"
+      ],
+      "primary_speaker": "Christoffer",
+      "discussion_summary": "Bahnhof diskuteras utförligt som en position i portföljen som föll från toppen 37 SEK till nu drygt 21 SEK. Orsaken till fallet var pressade marginaler när nätägarna höjde priserna men Banhoff inte tog ut detta mot kunder. Nu har priserna höjts och marginalerna förväntas stötta under andra halvåret. Bolaget har stark balansräkning med nettokassa och ger nästan 3% direktavkastning. Integritetsfokus och konservativ finansiering nämns som styrkor. Risker inkluderar Amazons etablering i Sverige men lagskiftningar i USA kan gynna Bahnhof på grund av dataskydd. Bolagets avknoppning med spillvärme till fjärrvärmen nämns också.",
+      "quotes": [
+        {
+          "speaker": "Christoffer",
+          "text": "En aktie som har varit älskad och som sen blev hatad, men som nu kanske förhoppningsvis kommer att bli älskad igen, och är inplockad i portföljen, det är ju då Banhoff.",
+          "timestamp": "[07:11]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jonte",
+          "text": "Vad är det som ligger bakom det här, pressade marginaler bland annat?",
+          "timestamp": "[08:02]",
+          "context": "other"
+        },
+        {
+          "speaker": "Christoffer",
+          "text": "Det finns lite olika förklaringar. Det är alltså, Banhoff äger inte själva nät än, utan man bedriver sin verksamhet i öppna stadsnät som det heter. Så nätägarena, Telia, IP only med flera, de har höjt priserna.",
+          "timestamp": "[08:05]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Christoffer",
+          "text": "Men om vi kommer tillbaka till aktien så ser det faktiskt ganska billigt ut nu.",
+          "timestamp": "[09:58]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Calle",
+          "text": "En ruggigt starkt, ja. De har alltid haft en fin balansräkning.",
+          "timestamp": "[10:18]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Christoffer",
+          "text": "Och det är ju alltid bra att ha.",
+          "timestamp": "[10:41]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "ca. 3%",
+        "dividend_yield": "ca. 3%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Nettokassa",
+        "custom": [
+          "Direktavkastning"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Prishöjningar mot kunder nu genomförda",
+          "Marginalerna förväntas stötta under andra halvåret",
+          "Mycket stark balansräkning med nettokassa",
+          "Nästan 3% direktavkastning för ett tillväxtbolag",
+          "Integritetsfokus gynnar konsumenter som värderar privatliv",
+          "Svensk lagstiftning gynnar lokala aktörer jämfört med Amazon"
+        ],
+        "bear_case": [
+          "Amazon Web Services etablering i Sverige",
+          "Tidigare pressade marginaler när nätägarna höjde priser",
+          "Amazons närvaro kan skapa konkurrens på många marknader"
+        ],
+        "catalysts": [
+          "Prishöjningar mot kunder",
+          "Marginalstöd under andra halvåret",
+          "Eventuell geografisk expansion till Norden/Europa"
+        ],
+        "risks": [
+          "Amazons etablering i Sverige",
+          "Kundernas reaktion på prishöjningar"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag tror att det ändå en gång kommer att bli deras uttalanden som blir det viktiga. Om de fortsätter guida ner och säga att det är tufft klimat därute, så finns inte så jättemycket uppsida att se den närmaste tiden.",
+      "summary": "I Q3-rapporterna är framåtblickande uttalanden viktigare än själva siffrorna för att bedöma marknadsutsikterna.",
+      "category": "wisdom",
+      "speaker": "Jonte",
+      "speaker_role": "host",
+      "timestamp": "[01:14]",
+      "confidence": "high",
+      "tags": [
+        "Q3-rapporter",
+        "Marknadsutsikter",
+        "Guidning"
+      ]
+    },
+    {
+      "quote": "12 centralbanker sänkte räntan i september och allt fler politiker pratade om olika stimulanspaket hit och dit. Man ska dra upp budgetunderskotten och allt vad man ska göra så att det kommer ju också ge en skjuts.",
+      "summary": "Centralbankers räntesänkningar och politiska stimulanspaket kan ge en positiv skjuts till marknaden.",
+      "category": "wisdom",
+      "speaker": "Calle",
+      "speaker_role": "host",
+      "timestamp": "[16:21]",
+      "confidence": "high",
+      "tags": [
+        "Centralbanker",
+        "Räntor",
+        "Stimulanspaket"
+      ]
+    },
+    {
+      "quote": "Om man redan tycker att det vet vi redan och så kanske man vågar tro att alla de här stimulanserna kommer att rinna igenom systemet och vi får ett starkt 2020.",
+      "summary": "Om marknaden redan diskonterat dåliga siffror kan stimulanser ge ett starkt 2020.",
+      "category": "wisdom",
+      "speaker": "Calle",
+      "speaker_role": "host",
+      "timestamp": "[16:21]",
+      "confidence": "medium",
+      "tags": [
+        "Diskontering",
+        "Stimulanser",
+        "Marknadstid"
+      ]
+    },
+    {
+      "quote": "Jag tänker att när Fed drar igång sitt QE4, då får vi rally, men tills dess blir det väldigt stökigt på nedsidan faktiskt.",
+      "summary": "Qe4 från Fed kan ge rally men tills dess blir det volatilt på nedsidan.",
+      "category": "wisdom",
+      "speaker": "Calle",
+      "speaker_role": "host",
+      "timestamp": "[15:22]",
+      "confidence": "high",
+      "tags": [
+        "QE4",
+        "Fed",
+        "Rally"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar den kommande Q3-rapportperioden där gästerna uttrycker pessimism kring makrobilden och att vinstvarningar kan komma. Framåtblickande uttalanden och orderingång anses viktigare än själva siffrorna. Bahnhof diskuteras som en position i portföljen som nu ser billig ut med stark balansräkning och direktavkastning på nästan 3%. H&M nämns som ha haft en stark kursutveckling men fortfarande dyr värdering. Gästerna rekommenderar defensiva sektorer som hälsovård, fastigheter och guldaktier medan man är orolig för konsumentbeteende och potentiell varselvåg.",
+  "key_takeaways": [
+    "Q3-rapporter kan vara dåliga men framåtblickande uttalanden är viktigare",
+    "Bahnhof ser billigt ut med stark balansräkning och direktavkastning på nästan 3%",
+    "Defensiva sektorer som hälsovård, fastigheter och guld rekommenderas",
+    "Qe4 från Fed kan ge rally men tills dess blir det volatilt",
+    "Konsumentförtroende är avgörande för att undvika en djupare kris"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2019-10-07-8bbd.txt",
+  "transcript_word_count": 3754,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

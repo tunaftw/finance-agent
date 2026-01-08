@@ -1,0 +1,393 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2021-09-23-cb46",
+  "podcast_name": "Market Makers",
+  "episode_title": "#199 Axyer",
+  "episode_number": 199,
+  "date": "2021-09-23",
+  "hosts": [
+    "Fabio",
+    "Host"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Kaleira - CPaaS microcap",
+    "RPA och UiPath",
+    "Microsoft Power Automate",
+    "Axier beta-lansering"
+  ],
+  "stocks_discussed": [
+    "Kaleira",
+    "UiPath",
+    "Microsoft"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Kaleira",
+      "ticker": "KLR",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "15:56",
+      "reasoning": "Kaleira är ett italiensk/indiskt microcap-noterat på NYSE med 430M USD market cap. Bolaget levererar 70% omsättningstillväxt YoY, varav 40% organiskt, och förväntas bli lönsamt redan Q3/Q4 2021. Bruttomarginalen expanderar från <15% till ~20%. Valuation är attraktivt med EV/Sales på ca 2x jämfört med konkurrenter som Sinch (9x) och Twilio (24x). Högt insider-ägande (31%) men viss insider-försäljning noteras som orosmoment.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag har inte plockat in någonting av det här i portföljen än. Men jag tycker det är rätt intressant för bolag som växer väldigt starkt, har en relativt billig prislapp när du kollar på tillväxten och i absoluta tal också, har hög sannolikhet att vända till vinst redan nästa kvartal. Allt som alltså tycker jag att det är väldigt intressant, är ett microcap play.",
+      "sector": "Software / CPaaS",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Lönsamhet Q3/Q4 2021"
+    },
+    {
+      "stock_name": "UiPath",
+      "ticker": "PATH",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "34:52",
+      "reasoning": "UiPath är ett renodlat RPA-bolag med stark tillväxt (60% YoY omsättning, 80% ARR-tillväxt) och massiva bruttomarginaler på ~90%. Net retention rate är 145%. Bolaget är på väg mot lönsamhet med operating leverage (förluster minskade från 500M till 90M USD). TAM har expanderat från 10M till 60M USD. Valuation är extremt hög med EV/Sales på 33, men har halverats från toppnivåer i juni.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi kan jämföra bara 2020 mot 2021 så ökade omsättningen med 72% medan kostnaderna enbart ökade 10%. så där ser man ju tydligt att desto mer de växer i omsättningen desto närmare handlar det om vinst. Men det är jättedyrt och man gör ingen vinst än. Jag tycker det ska bli jätteintressant att se dock vad som händer när man kliver över tröskeln.",
+      "sector": "Software / RPA",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "36:59",
+      "reasoning": "Microsoft är en kassaflödesmaskin med stark pricing power - nyligen höjde man licensavgifterna för Microsoft 365 med 10% vilket går rakt till sista raden. P-talet ligger runt 30 men PEG på 0,9 gör det attraktivt. Bolaget exponeras mot RPA-trenden via Power Automate som ingår i licensen. Stark ekosystem-effekt som lockar företag att integrera sig djupt i Microsofts värld.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Här ligger P-talet kring 30 lite drygt, men man växer också så pass mycket att P-talet ligger på 0,9. Det här är ett av mina favoritinnehav och ett av mina vi har haft längst i portföljen.",
+      "sector": "Software / Cloud",
+      "market": "us",
+      "position_context": "Favoritinnehav",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Kaleira",
+      "ticker": "KLR",
+      "timestamp_start": "05:28",
+      "timestamp_end": "15:56",
+      "word_count": 1200,
+      "speakers": [
+        "Fabio",
+        "Host"
+      ],
+      "primary_speaker": "Host",
+      "discussion_summary": "Kaleira är ett italiensk/indiskt microcap-bolag inom CPaaS noterat på NYSE. Bolaget har stark tillväxt med 70% YoY omsättningstillväxt i Q2 (54M USD vs 50M förväntat) och expanderande bruttomarginaler från <15% till ~20%. Förväntas bli lönsamt Q3/Q4 2021. Har 3800+ kunder inklusive AstraZeneca och Viber, levererade 8.5M billable messages (+62% YoY). Valuation attraktivt med EV/Sales på ~2x jämfört med konkurrenter.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Caleira är ett italienskt bolag som utvecklar mjukvara för kommunikation och e-handelssäkerhet. Som jag sa tidigare i introt är det ett C-passbolag, Communication Platform as a Service.",
+          "timestamp": "06:19",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host",
+          "text": "I senaste rapporten, alltså Q2 som landade här under augusti, så rapporterade man omsättning på 54 miljoner dollar jämfört med de 50 miljoner som var förväntat. Det här är alltså en tillväxt på över 70% year on year, bara 40% av det var organiskt.",
+          "timestamp": "12:13",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Earnings per share kom in på minus 0,13 dollar per aktie. Och det här låter ju tråkigt, det är förlust. Men expected var ändå minus 0,3 dollar. Man kommer med stor sannolikhet gå med vinst redan i Q3 och Q4 i år",
+          "timestamp": "14:09",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "2x",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "70% YoY (40% organic)",
+        "margin": "Gross ~20%",
+        "debt_level": null,
+        "custom": [
+          "Market cap: $430M",
+          "Q2 Revenue: $54M",
+          "EPS: -$0.13 vs -$0.30 expected",
+          "3800+ customers",
+          "75% revenue from customers >1 year"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "70% tillväxt med 40% organisk",
+          "Expanderande bruttomarginaler",
+          "Nära lönsamhet Q3/Q4",
+          "Attraktivt EV/Sales på 2x vs konkurrenter 9-24x",
+          "Hög insider-ägande 31%",
+          "Kunder som AstraZeneca, Viber"
+        ],
+        "bear_case": [
+          "Insider-försäljning noterat",
+          "Hög short-interest",
+          "Geografisk koncentration (Italien 36%, Indien 25%)",
+          "Förlustsamt för närvarande"
+        ],
+        "catalysts": [
+          "Lönsamhet Q3/Q4 2021",
+          "USA-expansion via EmeGage-förvärv"
+        ],
+        "risks": [
+          "Valuation kan komprimera om tillväxten saktar ner",
+          "Konkurrens från Twilio, Sinch",
+          "Insider-försäljning"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "UiPath",
+      "ticker": "PATH",
+      "timestamp_start": "21:53",
+      "timestamp_end": "34:52",
+      "word_count": 1800,
+      "speakers": [
+        "Fabio",
+        "Host"
+      ],
+      "primary_speaker": "Host",
+      "discussion_summary": "UiPath är marknadsledande inom RPA med 80% av Fortune 10 som kunder. Bolaget har massiv tillväxt med 60% omsättningsökning, 80% ARR-tillväxt och 145% net retention rate. Bruttomarginal på ~90% men ej lönsamt än. Operation leverage syns tydligt - omsättningen ökade 72% medan kostnaderna bara ökade 10%. TAM har expanderat från 10B till 60B USD. Har marketplace för användar-genererade lösningar och partnernätverk. Valuation extremt hög med EV/Sales 33.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "80% av Fortune 10-bolagen på kundlistan, 70% av Fortune 100 och 60% av Fortune 500. Man har runt 10 000 kunder totalt i UiPath. Net retention rate som vi så fint pratar om är 145%",
+          "timestamp": "23:59",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Jämfört 2020 mot 2021 så ökade omsättningen med 72% medan kostnaderna enligt ökade 10%. så där ser man ju tydligt att desto mer de växer i omsättningen desto närmare handlar det om vinst.",
+          "timestamp": "27:59",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabio",
+          "text": "Det är helt galet. Äntligen är vi tillbaka på lite hedligare plus 80 marginalsbusinesses.",
+          "timestamp": "26:23",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "33x",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "60% YoY",
+        "margin": "Gross ~90%",
+        "debt_level": null,
+        "custom": [
+          "ARR growth 80%",
+          "Net retention 145%",
+          "10,000 customers",
+          "1000+ customers with $100k+ ARR",
+          "Loss reduced from $500M to $90M YoY",
+          "TAM expanded from $10B to $60B"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Marknadsledande RPA-plattform",
+          "Massiv tillväxt med stark retention",
+          "Bruttomarginaler på ~90%",
+          "Operation leverage - växer mot lönsamhet",
+          "Marketplace för ekosystem-effekt",
+          "Partnernätverk för distribution",
+          "TAM expanderar"
+        ],
+        "bear_case": [
+          "Extremt hög valuation med EV/Sales 33",
+          "Ej lönsamt än",
+          "Konkurrens från Microsoft Power Automate",
+          "Fokus på äldre system kan vara förlegat"
+        ],
+        "catalysts": [
+          "Lönsamhet när tröskeln passeras",
+          "TAM-expansion",
+          "Ekosystem-tillväxt"
+        ],
+        "risks": [
+          "Valuation-risk om tillväxten saktar ner",
+          "Microsoft-konkurrens",
+          "Beroende av äldre ERP-system"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "timestamp_start": "36:59",
+      "timestamp_end": "41:08",
+      "word_count": 900,
+      "speakers": [
+        "Fabio",
+        "Host"
+      ],
+      "primary_speaker": "Host",
+      "discussion_summary": "Microsoft är en kassaflödesmaskin med enorm pricing power. Nyligen höjde man Microsoft 365-licenser med 10% vilket går direkt till sista raden. P/E runt 30 men PEG på 0,9 gör det attraktivt. Bolaget exponeras mot RPA via Power Automate som ingår i licensen. Stark ekosystem-effekt där fler funktioner (Teams, RPA) gör att företag väljer att integrera sig helt i Microsoft-världen. Host äger aktien och kallar det favoritinnehav.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Man höjer nu motsvarande runt ungefär 10% på de här licenserna. Vart hamnar de 10%-ökningarna? Jo, de hamnar rakt ner på sista raden. Det är ganska otroligt.",
+          "timestamp": "36:29",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host",
+          "text": "Här ligger P-talet kring 30 lite drygt, men man växer också så pass mycket att P-talet ligger på 0,9. Det här är ett av mina favoritinnehav och ett av mina vi har haft längst i portföljen.",
+          "timestamp": "36:59",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host",
+          "text": "I den här Microsoft 365-licensen som jag pratade om, där man får alla de här program man behöver som office-paket och så, då får man också med någonting som heter Power Automate, tidigare heter Microsoft Flow, och det är just ett automatiseringsverktyg.",
+          "timestamp": "37:30",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "~30",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "PEG ratio: 0.9",
+          "10% price increase on M365 licenses"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kassaflödesmaskin med stark pricing power",
+          "P/E 30 men PEG 0.9 gör det attraktivt",
+          "Ekosystem-effekt lockar djup integration",
+          "Power Automate ger RPA-exponering",
+          "Marknadsledande position"
+        ],
+        "bear_case": [
+          "Stor bolag sällan dubblas snabbt",
+          "Konkurrens inom specifika segment"
+        ],
+        "catalysts": [
+          "RPA-tillväxt via Power Automate",
+          "Ytterligare prisökningar på licenser"
+        ],
+        "risks": [
+          "Beroende av fortsatt tillväxt",
+          "Konkurrens från specialiserade RPA-bolag"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag kan tänka mig att de förvärver mycket och håller på att expanderar, så det går väl åt att det inte hamnar på bruttomarginalen. Men förhoppningsvis skalar i alla fall. Man kan jämföra det med svenska Cinch, som håller på med lite grejer. De har 25% i bruttomarginal, och amerikanska Twilio har hela 50% bruttomarginal, så det är en ganska stor skillnad.",
+      "summary": "CPaaS-bolag kan ha olika bruttomarginaler beroende på skalningsgrad och affärsmodell - Twilio 50%, Cinch 25%, Kaleira 20%",
+      "category": "wisdom",
+      "speaker": "Fabio",
+      "speaker_role": "host",
+      "timestamp": "12:43",
+      "confidence": "medium",
+      "tags": [
+        "bruttomarginal",
+        "skalning",
+        "CPaaS"
+      ]
+    },
+    {
+      "quote": "Det är den här typen av produktivitetsförbättringar som gör att vi fortsätter ha tillväxt i världen fortfarande. Vi blir för varje år mer och mer produktiva och datorerna har ju varit ett enormt komplementar och även robotar överlag. Ett sätt att få tillväxt utan att slösa på enda resurser.",
+      "summary": "Produktivitetsförbättringar via automation möjliggör ekonomisk tillväxt utan att kräva mer resurser",
+      "category": "philosophy",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "20:59",
+      "confidence": "high",
+      "tags": [
+        "produktivitet",
+        "automation",
+        "tillväxt"
+      ]
+    },
+    {
+      "quote": "Där ser man ju tydligt att desto mer de växer i omsättningen desto närmare handlar det om vinst. Det pratas en del om att de i samband med noteringen var lönsamma men att noteringskostnader och lite annat kom i vägen. Det viktiga är att man har en operational leverage, som det är så fint, det vill säga att man har en skalbarhet.",
+      "summary": "Operational leverage - när omsättningen växer snabbare än kostnaderna närmar man sig lönsamhet",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "27:59",
+      "confidence": "high",
+      "tags": [
+        "operational leverage",
+        "skalbarhet",
+        "lönsamhet"
+      ]
+    },
+    {
+      "quote": "Där är det otroligt intressant för det här tar ju ett bolag från några som producerar mjukvara till att skapa plattformar. Och tillåter du folk att faktiskt kunna tjäna pengar via din plattform, ja då har du en helt annan typ av vallgrav och en helt annan typ av flywheel bakom.",
+      "summary": "Plattformar som låter användare tjäna pengar skapar starkare vallgravar och flywheel-effekter",
+      "category": "philosophy",
+      "speaker": "Fabio",
+      "speaker_role": "host",
+      "timestamp": "31:21",
+      "confidence": "high",
+      "tags": [
+        "plattform",
+        "vallgrav",
+        "flywheel",
+        "ekosystem"
+      ]
+    },
+    {
+      "quote": "Det är den här typen av produktivitetsprodukter blir ju allt mer populära hos företag. Liksom lite annorlunda men det har ju allting från Jira... Det är en annorlunda inriktning, men det handlar ju allting om produktivitetsförbättringar i företaget.",
+      "summary": "Produktivitetsverktyg (Jira, Asana, RPA) blir allt mer kritiska för företags effektivitet",
+      "category": "wisdom",
+      "speaker": "Fabio",
+      "speaker_role": "host",
+      "timestamp": "21:02",
+      "confidence": "medium",
+      "tags": [
+        "produktivitet",
+        "SaaS",
+        "effektivitet"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet fokuserar på tre bolag: Kaleira (KLR), ett italiensk/indiskt microcap inom CPaaS med stark tillväxt men ännu ej lönsamt; UiPath (PATH), marknadsledande RPA-bolag med massiv tillväxt men extrem valuation; och Microsoft (MSFT), en kassaflödesmaskin med pricing power och RPA-exponering via Power Automate. Värdet ligger i att analysera hur olika typer av mjukvarubolag kan värderas baserat på tillväxt, marginaler och skalbarhet.",
+  "key_takeaways": [
+    "Kaleira har 70% tillväxt med attraktivt EV/Sales på 2x och närmar sig lönsamhet",
+    "UiPath har 90% bruttomarginal och operation leverage men extremt hög valuation",
+    "Microsoft visar hur starka ekosystem skapar pricing power",
+    "RPA-marknaden växer snabbt och kan bli lönsam när man når skalbarhet",
+    "Plattformar med marketplace skapar vallgravar via ekosystem-effekter"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2021-09-23-cb46.txt",
+  "transcript_word_count": 8387,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

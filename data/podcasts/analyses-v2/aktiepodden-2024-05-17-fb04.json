@@ -1,0 +1,223 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2024-05-17-fb04",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "176. Är investerarlegendarens filosofi för försiktig?",
+  "episode_number": "176",
+  "date": "2024-05-17",
+  "hosts": [
+    "Robert",
+    "Elin"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Meme stocks",
+    "Warren Buffett Berkshire Hathaway årsstämma",
+    "Hemnet analys",
+    "Inflationssiffror Sverige"
+  ],
+  "stocks_discussed": [
+    "GameStop",
+    "AMC",
+    "Apple",
+    "Hemnet"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "GameStop",
+      "ticker": "GME",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Robert",
+      "speaker_role": "host",
+      "timestamp": "09:40",
+      "reasoning": "Meme stock-spekulation klassas som en bubbla. 60 000+ svenska investerare förlorade pengar 2021. Risken är extrem och timing är omöjlig.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag skulle väl säga mycket starkt att jag avråder från den typen av spekulativa placeringar i skitbolag i USA. Det är en bubbla och alla vet det.",
+      "sector": "Retail / Gaming",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "AMC",
+      "ticker": "AMC",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Robert",
+      "speaker_role": "host",
+      "timestamp": "09:40",
+      "reasoning": "Meme stock-spekulation i biobranschen. Samma riskprofil som GameStop.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Undvik det här. Det finns så mycket andra sätt att köra pengar på och så mycket andra sätt att bygga en stark aktieportfölj av än att vara inne i de här bolagen.",
+      "sector": "Entertainment / Cinema",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hemnet",
+      "ticker": "HEMNET-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Robert",
+      "speaker_role": "host",
+      "timestamp": "25:50",
+      "reasoning": "Värderingen är för hög (P/E 54 på 2024). Prishöjningar på ~30% per år är inte hållbar långsiktigt. Konkurrens från Booli utgör risk. Riktkurs 200 SEK mot nuvarande 290 SEK.",
+      "price_target": 200,
+      "time_horizon": null,
+      "quote": "Idag står aktien i 290 spänn och vi har en riktkurs på 200. Så det blir 33 % ner. Vi stämplar det här... Vi har varit negativa till Hemnet tidigare men värderingen är för hög.",
+      "sector": "Real Estate / Technology",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "33% downside",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Hemnet",
+      "ticker": "HEMNET-B",
+      "timestamp_start": "20:44",
+      "timestamp_end": "27:42",
+      "word_count": 450,
+      "speakers": [
+        "Robert",
+        "Elin"
+      ],
+      "primary_speaker": "Robert",
+      "discussion_summary": "Hemnet har nära monopoly-position på den svenska bostadsmarknaden och har ökat priserna med ~30% per år sedan börsnoteringen 2021. Trots starka intäktsökningar och resultatförbättringar värderas bolaget högt (P/E ~54). Analytiker Jan Lindneroth är negativ och sätter riktkurs 200 SEK. Robert menar att de fortsatta prishöjningarna kräver att en annons ska kosta 20-25 000 SEK i framtiden för att motivera värderingen. Konkurrenten Booli växer och kan hota marknadsandelar. Elin har positiv upplevelse av Booli-appen.",
+      "quotes": [
+        {
+          "speaker": "Robert",
+          "text": "Hemnet har ökat priserna med ungefär 30% per år de senaste åren. Vid senaste kvartalsrapporten så ökade genomsiktiga intäkter per publicerat objekt med 32,5% upp till 4911 kronor.",
+          "timestamp": "22:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Robert",
+          "text": "Kikar vi på Hemnet så är det ungefär P54 på 2024 års väntarvinst. Om konsensusestimaten är att de ska öka vinsten i år med 57% under kommande år med ungefär 33% per år, så är det P31 på 2026 års vinst.",
+          "timestamp": "24:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Robert",
+          "text": "Vi är ganska oroliga för att vi tror inte att de kommer kunna höja priserna till det. Vi stämplar det här... Vi har varit negativa till Hemnet tidigare.",
+          "timestamp": "25:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Elin",
+          "text": "Jag kör Booli appen. Jag tycker faktiskt den är jättebra.",
+          "timestamp": "23:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Robert",
+          "text": "Om Booli når en kritisk massa av 15-20% av alla bostäder, då kan det gå fort utför för Hemnet.",
+          "timestamp": "24:50",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "54 (2024), 31 (2026)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "57% (2024 väntat), 33% per år framöver (konsensus)",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Genomsnittlig intäkt per annons: 4911 SEK",
+          "Prishöjning per annons: 32.5% senaste kvartalet"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Marknadsposition nära 100%",
+          "Prisökningskraft hittills",
+          "Bostadsmarknaden håller på att bli hetare"
+        ],
+        "bear_case": [
+          "Värdering är för hög (P/E 54)",
+          "Prishöjningar på 30% per år inte hållbar långsiktigt",
+          "Konkurrens från Booli",
+          "Kräver annonspris på 20-25 000 SEK för att motivera P/E 10"
+        ],
+        "catalysts": [
+          "Boolis tillväxt",
+          "Bostadsmarknadsutveckling"
+        ],
+        "risks": [
+          "Konkurrens",
+          "Prispress på annonser",
+          "Nedsättande värdering"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "En stor, stor majoritet av alla som investerar i GameStop och AMC, svenskar som investerar i GameStop och AMC, förlorar pengar och ganska mycket pengar också. Och det här är ju som alla andra bubblor förutom att det här är ännu tydligare för här uttalar man ju mer eller mindre från början att det är en bubbla.",
+      "summary": "Meme stocks är medvetna bubblor där de flesta förlorar.",
+      "category": "wisdom",
+      "speaker": "Robert",
+      "speaker_role": "host",
+      "timestamp": "09:05",
+      "confidence": "high",
+      "tags": [
+        "bubblor",
+        "meme stocks",
+        "risk"
+      ]
+    },
+    {
+      "quote": "När vi sitter och pratar om det här i en podd, då är man sist på bollen. Undvik det här. Det finns så mycket andra sätt att köra pengar på och så mycket andra sätt att bygga en stark aktieportfölj av än att vara inne i de här bolagen.",
+      "summary": "När media skriver om en trend är man för sen. Investera i grundläggande bolag istället.",
+      "category": "wisdom",
+      "speaker": "Robert",
+      "speaker_role": "host",
+      "timestamp": "10:10",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "media",
+        "investeringsfilosofi"
+      ]
+    },
+    {
+      "quote": "Om vi vet att börsen dubblas i snitt vart sjunde år och en episk krasch det är ju liksom en halvering av börsen. Då kan man ju tänka att om inte den här episka kraschen kommer vart sjunde år då hade det varit bättre att vara fullinvesterad.",
+      "summary": "Att sitta med stor kassa kan vara kostsamt om marknaden växer snabbt.",
+      "category": "philosophy",
+      "speaker": "Robert",
+      "speaker_role": "host",
+      "timestamp": "16:35",
+      "confidence": "medium",
+      "tags": [
+        "kassa",
+        "fullinvesterad",
+        "risk/reward",
+        "marknadstid"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar meme stocks (GameStop, AMC) som återigen stigit kraftigt men som avråds ifrån. Robert och Elin analyserar Warren Buffetts årsstämma och diskuterar om hans filosofi om att hålla stor kassa fortfarande är relevant. Avsnittets huvudcase är Hemnet där Robert presenterar en sälj-rekommendation med riktkurs 200 SEK (33% ner) på grund av övervärdering och konkurrens från Booli.",
+  "key_takeaways": [
+    "Undvik meme stocks som GameStop och AMC - de är spekulation, inte investering",
+    "Warren Buffetts filosofi om att hålla stor kassa kan ifrågasättas i dagens marknad",
+    "Hemnet är övervärderat och rekommenderas säljas (riktpunkt 200 SEK)",
+    "Svenska inflationssiffror var bättre än väntat men inget drastiskt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2024-05-17-fb04.txt",
+  "transcript_word_count": 4329,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

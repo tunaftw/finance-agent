@@ -1,0 +1,581 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "avanzapodden-2025-06-10-2220",
+  "podcast_name": "Avanzapodden",
+  "episode_title": "#400 – John Skogman: \"Jag är typ rikare än någonsin\"",
+  "episode_number": 400,
+  "date": "2025-06-10",
+  "hosts": [
+    "Douglas",
+    "Alexander",
+    "Alex"
+  ],
+  "guests": [
+    "John Skogman",
+    "Daniel Sätterberg"
+  ],
+  "main_topics": [
+    "Day trading",
+    "Belåning",
+    "Evighetsportfölj",
+    "Aktieanalys"
+  ],
+  "stocks_discussed": [
+    "Saab",
+    "Fastighetsbolag",
+    "Tesla",
+    "Orkla",
+    "SCA",
+    "Fenix Outdoor",
+    "Shopify",
+    "Atlas Copco",
+    "Swedbank",
+    "Nordea",
+    "Danske Bank",
+    "Getinge",
+    "Arjo"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "John Skogman",
+      "speaker_role": "guest",
+      "timestamp": "01:37:00",
+      "reasoning": "Överhypad med försvarsinflöden. Tror att aktien kan tappa 100-200 spänn om det blir fred i Ukraina/Ryssland. Inflödena till försvarsfonderna skulle då sluta och pengarna flöda ut. Saab har enorm ordrebok men har historiskt haft svårt att få upp marginalen, och det kommer ta längre tid att leverera ut.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Jag är helt övertygad om att Saab är överhypat med den här försvarsinflödena vi har. Bara idag blankar jag Saab i öppningskålen. Jag tror att den borde tappa 100-200 spänn här om det är möjligt att det blir fred eller som vi får hoppas på att det blir det i Ukraina och Ryssland där.",
+      "sector": "Försvar",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "100-200 SEK nedsida",
+      "catalyst_timing": "Fred i Ukraina/Ryssland"
+    },
+    {
+      "stock_name": "Fastighetsaktier",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John Skogman",
+      "speaker_role": "guest",
+      "timestamp": "01:37:40",
+      "reasoning": "Många intressanta fastighetsaktier har inte följt med uppgången. Inget har byggts på fem år. Räntesänkning har redan kommit från piken och är inräknad, men när utflödena slutar kan det finnas uppsida. Rekommenderar att ha lite fastigheter.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag tror att man ska köpa lite fastighetsaktier här. Många intressanta som inte har följt med. Det är inte byggt något på fem år.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John Skogman",
+      "speaker_role": "guest",
+      "timestamp": "01:40:19",
+      "reasoning": "Köpte efter Elon Musk blev \"galen\". Anser att USA och Västeuropa slutat köpa Tesla-bilar på grund av hans koppling till Trump. Begagnadepriserna har kraschat och lager är överfyllda. Tror att att köpa en Tesla Model 3 för 200,000 är en av de bättre trades man kan göra nu.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Funda det verkliga livet, köp en Tesla Model 3 för 200.000. Det är förmodligen en av de bättre trades man kan göra nu. Alla lager är överfyllda av de här bilarna.",
+      "sector": "Bilar",
+      "market": "us",
+      "position_context": "Äger själv",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Orkla",
+      "ticker": "ORK",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Daniel Sätterberg",
+      "speaker_role": "guest",
+      "timestamp": "00:48:10",
+      "reasoning": "Norsk konsumentvarukoncern med stabil kärnverksamhet. Värderas till ca 18x 2027E vinst jämfört med Procter & Gamble på 24x. Ställer sig neutrala vid 16x vinst då de ser begränsad uppsida.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Då kan man jämföra till exempel med Procter & Gamble då, de handlas till 24 gånger när vi skrev det här. Så det är en tydlig rabatt. Men som sagt, man har ganska mycket kvar att göra ändå med det här strukturjobbet man håller på med.",
+      "sector": "Konsumentvaror",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "SCA",
+      "ticker": "SCA-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Daniel Sätterberg",
+      "speaker_role": "guest",
+      "timestamp": "00:53:14",
+      "reasoning": "Skogs- och industriföretag. Ser 14% uppsida i bas-scenario, men 50% uppsida vid 3% avkastningskrav på skogen och 24% nedsida vid 6%. Finns osäkerhet kring skogsvärderingar.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Har man det här jättelåga avkastningskravet på 3%, då såg vi en uppsida på 50% i aktien. Det är vårt optimistiska scenario. Har man istället ett väldigt högt avkastningskrav, då tycker man att risken är lite högre och då är det istället en nedsida på 24%.",
+      "sector": "Skog och industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "24% nedsida i negativt scenario",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Fenix Outdoor",
+      "ticker": "FO-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Daniel Sätterberg",
+      "speaker_role": "guest",
+      "timestamp": "01:01:08",
+      "reasoning": "Frilufts- och detaljhandelsbolag med starkt tappad lönsamhet från 11-16% till 4% rörelsemarginal. Svårt att nå tillbaka till historiska nivåer, men kan vara intressant om ny friluftsvåg kommer. Landade på neutral.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag tycker framförallt med Fenix här så är det här, den tycker jag ändå man ska hålla koll på lite grann. För att de har haft det svårt så länge nu. Men det finns alltid en parallell verklighet där det här, där helt plötsligt händer någonting på marknaden.",
+      "sector": "Friluftsliv",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "timestamp_start": "01:36:56",
+      "timestamp_end": "01:37:52",
+      "word_count": 150,
+      "speakers": [
+        "John Skogman",
+        "Alexander"
+      ],
+      "primary_speaker": "John Skogman",
+      "discussion_summary": "John Skogman anser att Saab är överhypad och blankar aktien. Han tror att den kan tappa 100-200 SEK om det blir fred i Ukraina/Ryssland vilket skulle stoppa inflödena till försvarsfonderna. Saab har enorm ordrebok men har historiskt haft svårt att höja marginalen.",
+      "quotes": [
+        {
+          "speaker": "John Skogman",
+          "text": "Jag är helt övertygad om att Saab är överhypat med den här försvarsinflödena vi har. Bara idag blankar jag Saab i öppningskålen.",
+          "timestamp": "01:37:00",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John Skogman",
+          "text": "Jag tror att den borde tappa 100-200 spänn här om det är möjligt att det blir fred eller som vi får hoppas på att det blir det i Ukraina och Ryssland där.",
+          "timestamp": "01:37:10",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Enorm orderbok",
+          "Försvarsinflöden fortsätter om kriget pågår"
+        ],
+        "bear_case": [
+          "Överhypad aktie",
+          "Fred skulle stoppa inflöden till försvarsfonderna",
+          "Historiskt svårt att höja marginaler",
+          "Tar lång tid att leverera ut ordrar"
+        ],
+        "catalysts": [
+          "Fred i Ukraina/Ryssland"
+        ],
+        "risks": [
+          "Kriget tar slut",
+          "Marginaler förblir låga"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "01:39:28",
+      "timestamp_end": "01:42:35",
+      "word_count": 400,
+      "speakers": [
+        "John Skogman",
+        "Alexander",
+        "Douglas"
+      ],
+      "primary_speaker": "John Skogman",
+      "discussion_summary": "Diskuterar Teslas svängning på grund av Elon Musks koppling till Trump. John köpte Tesla efter Elon blev galen och ser det som en köpmöjlighet då lager är överfulla och begagnadepriserna kraschat. Han anser att det är en av de bättre trades att köpa en Tesla Model 3 för 200,000.",
+      "quotes": [
+        {
+          "speaker": "John Skogman",
+          "text": "Det är fascinerande hur en aktie som Tesla som välstannar en trillion dollar i börsvärde kan falla 15% på Twitterbråk.",
+          "timestamp": "01:39:33",
+          "context": "other"
+        },
+        {
+          "speaker": "John Skogman",
+          "text": "Funda det verkliga livet, köp en Tesla Model 3 för 200.000. Det är förmodligen en av de bättre trades man kan göra nu. Alla lager är överfyllda av de här bilarna.",
+          "timestamp": "01:42:15",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Lager är överfulla",
+          "Begagnadepriserna har kraschat",
+          "God potential att köpa till bra pris"
+        ],
+        "bear_case": [
+          "Elon Musks koppling till Trump skadar försäljningen i Europa"
+        ],
+        "catalysts": [
+          "Priskorrigering i begagnatmarknaden"
+        ],
+        "risks": [
+          "Fortsatt negativ varumärkespåverkan i Europa"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Orkla",
+      "ticker": "ORK",
+      "timestamp_start": "00:43:20",
+      "timestamp_end": "00:48:10",
+      "word_count": 600,
+      "speakers": [
+        "Daniel Sätterberg",
+        "Alexander"
+      ],
+      "primary_speaker": "Daniel Sätterberg",
+      "discussion_summary": "Daniel Sätterberg analyserar Orkla, en norsk koncern inom konsumentvaror. Bolaget håller på att renodla verksamheten och fokusera på kärnaffärer. Rörelsemarginalen ligger på 10% och ska upp till 11%. Värderas till 18x 2027E vinst jämfört med Procter & Gamble på 24x, men Placera ställer sig neutrala vid 16x.",
+      "quotes": [
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Det här är ju en norsk koncern inom konsumentvaror. Man kan väl kalla det lite grann för ett slags mini proctor and gamble.",
+          "timestamp": "00:43:27",
+          "context": "other"
+        },
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Man tjänar ungefär 10 procent i rörelsemarginal och man ska få upp det här till 11 ungefär.",
+          "timestamp": "00:46:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Då kan man säga att aktien idag står runt 115... och då blir det här ungefär 18 gånger vinsten som det värderas till.",
+          "timestamp": "00:47:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Och då kan man jämföra till exempel med Procter & Gamble då, de handlas till 24 gånger när vi skrev det här. Så det är en tydlig rabatt.",
+          "timestamp": "00:47:10",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "18x 2027E",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "10-11%",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabil kärnverksamhet",
+          "Rabatt mot jämförbara bolag som P&G",
+          "Pågående renodling av verksamheten"
+        ],
+        "bear_case": [
+          "Strukturjobbet kvarstår",
+          "Begränsad uppsida vid 16x värdering"
+        ],
+        "catalysts": [
+          "Förbättrad lönsamhet",
+          "Färdigställande av renodling"
+        ],
+        "risks": [
+          "Strukturåtgärder dröjer"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "SCA",
+      "ticker": "SCA-B",
+      "timestamp_start": "00:48:10",
+      "timestamp_end": "00:53:14",
+      "word_count": 700,
+      "speakers": [
+        "Daniel Sätterberg",
+        "Alexander"
+      ],
+      "primary_speaker": "Daniel Sätterberg",
+      "discussion_summary": "Analys av SCA som äger skog och har industriella verksamheter. Diskuterar värdet på skogen och kritik från blankare. Placera ser 14% uppsida i bas-scenario med 4,5% avkastningskrav på skogen, 50% uppsida vid 3% och 24% nedsida vid 6%. Landar på neutral.",
+      "quotes": [
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Om man ska snabbt dra det så är det ett bolag som dels äger skog, dels har en massa olika industriverksamheter.",
+          "timestamp": "00:48:17",
+          "context": "other"
+        },
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Har man det här jättelåga avkastningskravet på 3%, då såg vi en uppsida på 50% i aktien.",
+          "timestamp": "00:52:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Har man istället ett väldigt högt avkastningskrav, då tycker man att risken är lite högre och då är det istället en nedsida på 24%.",
+          "timestamp": "00:52:40",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Skogsvärderingen kan vara högre än bokfört",
+          "Potential vid lägre avkastningskrav"
+        ],
+        "bear_case": [
+          "Blankare kritiserar skogsvärderingar",
+          "Risk för fortsatt osäkerhet kring skogsvärdet"
+        ],
+        "catalysts": [
+          "Klargörande av skogsvärdering"
+        ],
+        "risks": [
+          "Osäkerhet kring skogsägande",
+          "Blankarattack"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Fenix Outdoor",
+      "ticker": "FO-B",
+      "timestamp_start": "00:53:20",
+      "timestamp_end": "01:01:37",
+      "word_count": 1000,
+      "speakers": [
+        "Daniel Sätterberg",
+        "Alexander",
+        "Douglas"
+      ],
+      "primary_speaker": "Daniel Sätterberg",
+      "discussion_summary": "Daniel analyserar Fenix Outdoor som säljer friluftsprodukter och driver butikskedjor. Lönsamheten har tappat från 11-16% till 4% rörelsemarginal under tre år. Svårt att nå tillbaka till historiska nivåer. Placera tror på 8% marginal framåt, vilket ger begränsad uppsida. Landar på neutral.",
+      "quotes": [
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Det här är ju ett bolag som de säljer dels produkter för friluftsliv, där man bland annat har egna varumärken som fjällräven och Tierra och liknande.",
+          "timestamp": "00:53:20",
+          "context": "other"
+        },
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Hon har en rörelsemarginal här som under de senaste 13 kvartalen så har den backat 12 av dem.",
+          "timestamp": "00:54:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Från att man har haft liksom en 15 års historik av att tjäna 10, 12, 14 procent i rörelsemarginal någonting, så är man nu nere på strax över 4 procent.",
+          "timestamp": "00:54:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Själva varumärkena, de har ju haft, de har ju haft marginaler på kanske mellan 15 och 40 procent i rörelsemarginal beroende på när man tittar och vilket segment man tittar på sådär.",
+          "timestamp": "00:57:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Daniel Sätterberg",
+          "text": "Men när vi räknade på det här och vi vågade väl anta att det kommer ändå, vi hoppas på någon slags återhämtning här i försäljningen. Vi tänker att man växer 5 procent här kommande ett-två åren ut här. Då landar vi i att om inget merakulöst ska ske här, något väldigt oväntat, då tror vi att man kanske kan nå 8 procent i röringsmarginal.",
+          "timestamp": "00:59:20",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "5% förväntad",
+        "margin": "4% nu, 8% förväntad, historiskt 11-16%",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Potentiell ny friluftsvåg",
+          "Fång upp-effekt i detaljhandeln",
+          "Kostnadsbesparingsinitiativ"
+        ],
+        "bear_case": [
+          "Lönsamheten har tappat rejält",
+          "Svårt att nå tillbaka till historiska nivåer",
+          "Konkurrenter använder rabatter som Fenix undviker"
+        ],
+        "catalysts": [
+          "Nya friluftstrender",
+          "Kostnadsinitiativ slår igenom"
+        ],
+        "risks": [
+          "Fortsatt svag detaljhandel",
+          "Varumärken tappar popularitet"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Ränta på ränta är en sån sinnessjuk grej som man inte riktigt förstår när man är ung. För att det gör typ ingenting i början, men det gör något sinnessjukt i slutet.",
+      "summary": "Ränta på ränta-effekten är svår att förstå i början men blir extremt kraftfull över lång tid.",
+      "category": "philosophy",
+      "speaker": "John Skogman",
+      "speaker_role": "guest",
+      "timestamp": "00:23:54",
+      "confidence": "high",
+      "tags": [
+        "ränta på ränta",
+        "lämpligt investerande"
+      ]
+    },
+    {
+      "quote": "Det går inte att överföra, vill du ge råd? Jag ger inga råd för att folk lyssnar inte... Unga killar kan inte lära sig det här med långsiktig investering utan att bränna sig en eller två gånger.",
+      "summary": "Unga investerare kan inte lära sig långsiktig investering utan att göra egna misstag.",
+      "category": "wisdom",
+      "speaker": "John Skogman",
+      "speaker_role": "guest",
+      "timestamp": "00:25:15",
+      "confidence": "high",
+      "tags": [
+        "investeringspsykologi",
+        "lärande"
+      ]
+    },
+    {
+      "quote": "Du behöver bli rik en gång. Är du ung kille och har gjort bort dig med belåning, lär dig av det och börja om. Men tänk inte att du aldrig någonsin ska använda belåning bara för det.",
+      "summary": "Man kan ta större risker när man är ung för att bli rik en gång, men måste lära sig av misstagen.",
+      "category": "wisdom",
+      "speaker": "John Skogman",
+      "speaker_role": "guest",
+      "timestamp": "00:12:20",
+      "confidence": "high",
+      "tags": [
+        "belåning",
+        "risk",
+        "ungt investerande"
+      ]
+    },
+    {
+      "quote": "Lita mer på andra, mindre på dig själv... Istället är det bättre att titta på en person som du tror kan allt om det här bolaget och sen följer honom och liksom litar på personen mer än aktien.",
+      "summary": "Följ personer med bra track-record snarare än att försöka hitta egna case.",
+      "category": "philosophy",
+      "speaker": "John Skogman",
+      "speaker_role": "guest",
+      "timestamp": "00:28:42",
+      "confidence": "high",
+      "tags": [
+        "social trading",
+        "följa experter"
+      ]
+    },
+    {
+      "quote": "Underskatta aldrig den man som överskattar sig själv. Och ofta ser man ju det. Man har pluggat med folk och man har tänkt sig, hur är det möjligt att den personen lyckades?",
+      "summary": "Överskattning av sig själv kan vara en drivkraft till framgång.",
+      "category": "wisdom",
+      "speaker": "John Skogman",
+      "speaker_role": "guest",
+      "timestamp": "00:26:50",
+      "confidence": "high",
+      "tags": [
+        "psykologi",
+        "framgångsfaktorer"
+      ]
+    },
+    {
+      "quote": "Ofta säljer man för tidigt när man använder belåning för att man ändå vill säkra hem. Men det är ju så härligt att få ner gavkurserna rejält.",
+      "summary": "Belåning leder ofta till att man säljer för tidigt för att säkra vinster.",
+      "category": "wisdom",
+      "speaker": "John Skogman",
+      "speaker_role": "guest",
+      "timestamp": "00:13:10",
+      "confidence": "medium",
+      "tags": [
+        "belåning",
+        "investeringspsykologi"
+      ]
+    },
+    {
+      "quote": "Var också rädd om pengarna, att inte bara skicka in de sista 500 000, eller miljoner, eller vad det är man har... när du börjar ha pengar behöver du inte satsa mer än 15-20% i ett bolag.",
+      "summary": "Sätt gränser för position storlek och var försiktig med pengar.",
+      "category": "wisdom",
+      "speaker": "John Skogman",
+      "speaker_role": "guest",
+      "timestamp": "00:36:05",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "positionsstorlek"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet innehåller intervju med trader John Skogman om hans strategier, evighetsportfölj och åsikter om belåning, samt analyser från Placera om Orkla, SCA och Fenix Outdoor. Skogman rekommenderar blanka Saab och köpa fastighetsaktier. Placera landar på neutrala råd för alla tre analyserade bolag.",
+  "key_takeaways": [
+    "Belåning kan vara kraftfullt under kriser men kräver disciplin",
+    "Låt ränta på ränta arbeta över tid i en evighetsportfölj",
+    "Saab överhypad enligt Skogman",
+    "Fenix Outdoor tappat mycket lönsamhet men kan vara intressant långsiktigt",
+    "Följ personer med track-record snarare än att försöka göra allt själv"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/avanzapodden/transcripts/avanzapodden-2025-06-10-2220.txt",
+  "transcript_word_count": 10299,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

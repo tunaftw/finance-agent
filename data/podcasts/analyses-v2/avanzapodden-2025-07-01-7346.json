@@ -1,0 +1,773 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "avanzapodden-2025-07-01-7346",
+  "podcast_name": "Avanzapodden",
+  "episode_title": "#403 – Aktiemäklaren: \"Optioner är väldigt kul\"",
+  "episode_number": 403,
+  "date": "2025-07-01",
+  "hosts": [
+    "Alexander",
+    "Douglas"
+  ],
+  "guests": [
+    "Madeleine Persson Edlund",
+    "Björn Rydell"
+  ],
+  "main_topics": [
+    "Mäklaryrket",
+    "Derivathandel",
+    "Orderexekvering",
+    "Aktieanalys"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "Scanfield",
+    "Medcap"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Björn Rydell",
+      "speaker_role": "guest",
+      "timestamp": "44:22",
+      "reasoning": "H&M visade stabil Q2-rapport med organisk tillväxt på 1%, bruttomarginal upp till 55% från 49% i Q1, och lagerökningstakt saktade från 11% till 1%. Företaget optimerar butiksnätet med fler stängningar än öppningar men kan börja växa igen om något år. Förväntad rörelsemarginalförbättring från 7% till ~8,5% 2027 med långsiktigt mål på 10%. Aktien handlas till ~12x rörelsevinst jämfört med konkurrenten Inditex som värderas till 15-16x, vilket innebär attraktiv värdering med utrymme för värderingsgapet att minska.",
+      "price_target": null,
+      "time_horizon": " långsiktig",
+      "quote": "Vi tycker fortfarande att aktien ser ganska attraktivt värderad ut och upprepade vårt köphål här på H&M. Handlas till ungefär 12 gånger rörelsevinsten. Inditex värderas till ungefär 15-16 gånger rörelsevinsten. Vi tror att kan H&M börja växa lite och framförallt få ut marginalen, så tror vi att de kan minska det här värderingsskapet till Inditex.",
+      "sector": "Klädhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Scanfield",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Björn Rydell",
+      "speaker_role": "guest",
+      "timestamp": "49:07",
+      "reasoning": "Scanfield är största elektronikkontraktstillverkaren i Norden med historisk 6% årlig organisk tillväxt och ~6% marginal. Nya finansiella mål med ökad tillväxt till 10% via förvärv. USA-förvärv i försvarsindustrin (6x rörelsevinst) ger geografisk breddning och exponering mot växande försvarssektor, jämförbart med Kitron som fått premievärdering. Aktien värderas till 10-11x rörelsevinst vilket är rabatt mot Kitron (13-15x) och i linje med sektorn trots att Scanfield är ett av de större bolagen med stabil historik. Utrymme för fler förvärv med stark balansräkning.",
+      "price_target": null,
+      "time_horizon": "medellång till lång sikt",
+      "quote": "Vi tror väl att de kommer kunna fortsätta växa och framförallt via förvärv. På våra pronoser för i år så värderas aktien till ungefär runt tio gånger rörelsevinsten, tio-elva gånger någonstans där. Jag tycker ändå det är en ganska attraktiv värdering. Scanfield är ju trots allt ett av de större bolagen, så vi tycker ändå att det finns skäl till att aktien ska kunna värderas lite högre än sektorn som helhet.",
+      "sector": "Elektronikkontraktstillverkning",
+      "market": "finland",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Medcap",
+      "ticker": null,
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Björn Rydell",
+      "speaker_role": "guest",
+      "timestamp": "54:43",
+      "reasoning": "Medcap är en hälsovårdskoncern med tre affärsområden som omsätter ~2 miljarder med 17-18% marginal. Specialistläkemedelsområdet hade tufft 2024 med marginal ner till 9% från 18-19% på grund av ökad konkurrens, särskilt i UK. Vinstvarning i januari gav 30-35% kursras. Något återhämtning efter förvärv av danskt bolag med 35% marginal, men operativa problem i grundverksamheten kvarstår. Aktien värderas till 15x vilket är rabatt mot jämförbara Lifco/Indutrade (18-19x). Neutral ståndpunkt trots attraktiv värdering och utrymme för fler förvärv med stark balansräkning.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi tycker väl ändå att man behöver hålla lite extra koll på det här området i och med att man har haft lite operativa problem. Sammantaget landar vi vid ett neutralt råd. Aktien värderas till ungefär 15 gånger rörelsevinsten på nästa år på analytikapronoserna. Det är väl inte jättedyrt egentligen. Men sammanlagt var vi neutrala till aktien.",
+      "sector": "Hälsovård",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Tuffa jämförelsetal för specialistläkemedel",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Inditex",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Björn Rydell",
+      "speaker_role": "guest",
+      "timestamp": "48:25",
+      "reasoning": "Jämförelseobjekt till H&M som värderas till 15-16x rörelsevinsten med nästan 20% marginal och bättre tillväxt. Björn nämner Inditex som referenspunkt för att visa värderingsgapet till H&M.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Deras närmsta jämförelseobjekt som många pratar om är de här Inditex-Spanjorerna, som äger bland annat Sara och Massimo Dotti. De värderas till ungefär 15-16 gånger rörelsevinsten. Det är ett lite annorlunda bolag, de växer lite bättre och så har man en marginal på nästan 20 procent.",
+      "sector": "Klädhandel",
+      "market": "spain",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "S&P 500",
+      "ticker": "SPX",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Madeleine Persson Edlund",
+      "speaker_role": "guest",
+      "timestamp": "04:02",
+      "reasoning": "Madeleine föredrar S&P 500 framför Dow Jones och Nasdaq eftersom den med 500 aktier ger en mer komplett representation av den amerikanska börsen. Hon tycker att Dow Jones (30 bolag) är för begränsad och att Nasdaq 100 är för tech-fokuserad. S&P 500 ger en helhetsbild.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Om vi tar Dow Jones, det är 30 stora blodchipbolag. 30 bolag är inte tillräckligt för att presentera hela amerikanska börsen. Så är det ju bara Nasdaq, pratar vi om Nasdaq 100, där det är väldigt tech heavy. Det klart representerar marknaden till stort, men jag tycker ändå att det kanske krävs de här S&P 500 med 500 aktierna för att verkligen visa en helhet över hur amerikanska börsen fungerar.",
+      "sector": "Index",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kitron",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Björn Rydell",
+      "speaker_role": "guest",
+      "timestamp": "53:00",
+      "reasoning": "Norskt elektronikkontraktstillverkare med stark närvaro inom försvarsindustrin (Kongsberg som kund). Har fått premievärdering mot sektorn och stark uppgång senaste åren på förväntningar om stark tillväxt inom försvarssegmentet. Används som jämförelseobjekt till Scanfield för att visa möjlig värderingsuppvärdering.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Tittar vi på andra bolag i sektorn, det finns ett bolag som heter Kytron, som är en norskt bolag som är väldigt starka inom försvar, de har Kongsberg som kunde och så här. De har fått ett rejält uppsving här senaste åren, har fått lite premievärdering mot sektorn.",
+      "sector": "Elektronikkontraktstillverkning",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Lifco",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Björn Rydell",
+      "speaker_role": "guest",
+      "timestamp": "59:45",
+      "reasoning": "Jämförelseobjekt till Medcap bland stora C-förvärvare. Lifco gör tiotals förvärv per år jämfört med Medcaps 1-3. Används för att visa att Medcap inte är en utpräglad serieförvärvare och värderas därefter.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Många av de här serieförvärven värderas väldigt högt och Medcap är kanske ingen riktigt utpräglad serieförvärvare så sätt. Man gör kanske ett, två, tre förvärv per år medan de här Lifco, Indutrade, de riktigt stora kontaktstillverkarna gör kanske ett tiotal eller ännu mer förvärv.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Indutrade",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Björn Rydell",
+      "speaker_role": "guest",
+      "timestamp": "59:45",
+      "reasoning": "Jämförelseobjekt till Medcap bland stora C-förvärvare. Indutrade gör tiotals förvärv per år jämfört med Medcaps 1-3. Används som referens för värderingsjämförelse.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Många av de här serieförvärven värderas väldigt högt och Medcap är kanske ingen riktigt utpräglad serieförvärvare så sätt. Man gör kanske ett, två, tre förvärv per år medan de här Lifco, Indutrade, de riktigt stora kontaktstillverkarna gör kanske ett tiotal eller ännu mer förvärv.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Adlife",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Björn Rydell",
+      "speaker_role": "guest",
+      "timestamp": "59:50",
+      "reasoning": "Jämförelseobjekt till Medcap, noterades våras 2025 och fokuserar på hälsovårdsinvesteringar. Mer lika Medcap än Lifco/Indutrade. Värderas till 18-19x jämfört med Medcaps 15x.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi har även ett par både Adlife och Asker som noteras i våras, som också fokuserar på investeringen i hälsovårdsområdet. De är ännu mer lika med Medcap och de ligger på 18-19 gånger.",
+      "sector": "Hälsovård",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Asker",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Björn Rydell",
+      "speaker_role": "guest",
+      "timestamp": "59:50",
+      "reasoning": "Jämförelseobjekt till Medcap, noterades våras 2025 och fokuserar på hälsovårdsinvesteringar. Mer lika Medcap än Lifco/Indutrade. Värderas till 18-19x jämfört med Medcaps 15x.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi har även ett par både Adlife och Asker som noteras i våras, som också fokuserar på investeringen i hälsovårdsområdet. De är ännu mer lika med Medcap och de ligger på 18-19 gånger.",
+      "sector": "Hälsovård",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "44:22",
+      "timestamp_end": "49:07",
+      "word_count": 850,
+      "speakers": [
+        "Björn Rydell",
+        "Alexander",
+        "Douglas"
+      ],
+      "primary_speaker": "Björn Rydell",
+      "discussion_summary": "H&M har gett en stabil Q2-rapport efter att brutit räkenskapsåret. Organisk tillväxt på 1%, bruttomarginal återhämtad till 55% från svaga 49% i Q1. Lagerökning saktade rejält från 11% till 1%. Butiksnätet minskar med 4% men växande e-handel kompensera. Förväntad rörelsemarginalförbättring till 8,5% 2027 med långsiktigt mål 10%. Attraktiv värdering på 12x vs konkurrenten Inditex på 15-16x.",
+      "quotes": [
+        {
+          "speaker": "Björn Rydell",
+          "text": "H&M är ett bolag som säkert många känner till. Det kanske behöver ingen närmre presentation, men klädhandlare omsatte 235 miljarder förra året och tjänade ungefär 7 procent.",
+          "timestamp": "44:22",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Försäljningen kom in ungefär som förväntan. Det var minus 5 procent i kvartalet. Det är rätt mycket valutaeffekter så det var väl minus 6 procent i valuta. Men justerat för i lokala valuta så växte man 1 procent organiskt. Det är väl lite, jag tror det var tredje kvartalet i rad nu som man har utvisat positiv organisk tillväxt.",
+          "timestamp": "45:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "En stor grej i kvartalet var egentligen bruttomarginalen där man låg på 55 procent nu i kvartalet. När jag var här i våras så pratade jag om att då hade det varit en liten sten i skor när bruttomarginalen var lite svagare. Då var den 49 procent i Q1.",
+          "timestamp": "45:33",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "I Q1 pratade man om att laget ökade 11 procent jämfört med förgående år. Och nu lå det på 1 procents ökningstakt jämfört med förgående år. Så lite lägre ökningstakt och att ledningen lyfte fram att man var ganska nöjda med lagonnivåerna.",
+          "timestamp": "46:10",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Nu ligger man på 4 200 butiker ungefär. Och det är ju 4 procent färre mot fjolåret. Man har pratat om att man ska öppna 80 nya butiker under 2025. Och att man ska stänga då 200.",
+          "timestamp": "46:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Vi tänker väl att det här är ett bolag som kommer att kunna växa ett par procent framöver över tid och förstärka rörelsemarginalen. Som sagt så låg den på ungefär 7 procent tidigare och nu kanske den ska upp mot, jag tror analytikerna räknade med konsensus på 8,5 eller något i den stilen, 2027.",
+          "timestamp": "47:12",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Och nord om det var deras aktiecent ungefär 12 gånger rörelsevinsten. Deras närmsta jämförelseobjekt som många pratar om är de här Inditex-Spanjorerna, som äger bland annat Sara och Massimo Dotti. De värderas till ungefär 15-16 gånger rörelsevinsten.",
+          "timestamp": "48:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Men vi tror ändå att kan H&M börja växa lite och framförallt få ut marginalen, så tror vi att de kan minska det här värderingsskapet till Inditex. Vi tycker fortfarande att aktien ser ganska attraktivt värderad ut och upprepade vårt köphål här på H&M.",
+          "timestamp": "48:35",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "12",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-5%",
+        "margin": "7%",
+        "debt_level": null,
+        "custom": [
+          "Bruttomarginal: 55%",
+          "Organisk tillväxt: 1%",
+          "Lager som % av försäljning: ~16%",
+          "Mål rörelsemarginal: 10%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabiliserande bruttomarginal till 55% från 49%",
+          "Tredje kvartalet i rad med positiv organisk tillväxt på 1%",
+          "Lagerökning saktad från 11% till 1%",
+          "Butiksnät optimeras med netto-stängningar",
+          "E-handelsandel 30% och växande",
+          "Rörelsemarginal kan närma sig 8,5% 2027 från nuvarande 7%",
+          "Attraktiv värdering på 12x vs konkurrent Inditex på 15-16x",
+          "Utrymme för värderingsgap att minska om marginalförbättringar levereras"
+        ],
+        "bear_case": [
+          "Valutaeffekter påverkade försäljning negativt (-6%)",
+          "Butiksnätet fortsätter krympa (-4% YoY)",
+          "Konkurrensen i klädbranschen är intensiv",
+          "Marginer historiskt svaga jämfört med konkurrenter"
+        ],
+        "catalysts": [
+          "Kommande kvartalsrapporter",
+          "Fortsatt marginalförbättring till mål 10%",
+          "Butiksnätet kan börja växa igen om ett par år",
+          "Ökad e-handelsandel"
+        ],
+        "risks": [
+          "Valutarisker",
+          "Konsumtionsutveckling",
+          "Konkurrens från andra klädkedjor",
+          "Lagernivåer kan bli för höga igen"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Scanfield",
+      "ticker": null,
+      "timestamp_start": "49:07",
+      "timestamp_end": "54:43",
+      "word_count": 950,
+      "speakers": [
+        "Björn Rydell",
+        "Alexander",
+        "Douglas"
+      ],
+      "primary_speaker": "Björn Rydell",
+      "discussion_summary": "Scanfield är Finlands största elektronikkontraktstillverkare med 6% historisk organisk årlig tillväxt. Drivs av trend mot tillverkning i närområdet. Nya vd och uppräknade finansiella mål till 10% tillväxt (tidigare 6-7%) med fokus på förvärv. USA-förvärv i försvarsindustrin (0,6-0,7x försäljning, 6x rörelsevinst) ger geografisk breddning och exponering mot växande försvarssektor. Aktien värderas till 10-11x vilket är rabatt mot Kitron (13-15x) men i linje med sektorn trots stark historik.",
+      "quotes": [
+        {
+          "speaker": "Björn Rydell",
+          "text": "Scanfield är ju en kontaktstillverkare och de är noterade i Finland. Så det är kanske inte lika många som har koll på dem här på svenska marknader. Men de är faktiskt, omsättningsmässigt, så är de den största kontaktstillverkaren i Norden.",
+          "timestamp": "49:13",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Nibe är väl en välkänd kund exempelvis. ABB är en annan. Och då har man tillbaka klockan här några år så har man vuxit med 6% per år organiskt. Det är en ganska stabil tillväxt ändå.",
+          "timestamp": "49:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Det är en generell trend det här med tillverkning i närområdet. Det har väl framförallt accelererat under de senaste åren. Tittar man till exempel under pandemin så var det mycket snack om halvledarbrist och liknande. Att man hade tillverkningen i lågkostnadsländer på andra sidan jordklotet.",
+          "timestamp": "50:10",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Marginalmässigt så har man tjänat ungefär drygt 6 procent i snitt de senaste åren. Det är väl ungefär i linje med andra nordiska kontraktstillverkare också.",
+          "timestamp": "50:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Förra våren 2024 så kom man ut med lite nya finansiella mål. Jag tror att tillväxtmålet tidigare var väl att man skulle växa 6-7 procent. Och nu skrör man upp till 10 procent.",
+          "timestamp": "51:05",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Nu, anledningen till att vi kikar på aktierna nyligen, var att man gjort ett förvärv i USA. Prislappen var väl ungefär 0,6-0,7 gånger försäljningen och typ 6 gånger rörelsevinsten.",
+          "timestamp": "51:40",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Det är en ganska god underliggande marknadstillväxt generellt. Men vi tror att de kommer kunna fortsätta växa och framförallt via förvärv.",
+          "timestamp": "52:05",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Tittar vi på andra bolag i sektorn, det finns ett bolag som heter Kytron, som är en norskt bolag som är väldigt starka inom försvar, de har Kongsberg som kunde och så här. De har fått ett rejält uppsving här senaste åren, har fått lite premievärdering mot sektorn.",
+          "timestamp": "53:00",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "På våra pronoser för i år så värderas aktien till ungefär runt tio gånger rörelsevinsten, tio-elva gånger någonstans där. Jag tycker ändå det är en ganska attraktiv värdering.",
+          "timestamp": "53:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Scanfield är ju trots allt ett av de största bolagen, så vi tycker ändå att det finns skäl till att aktien ska kunna värderas lite högre än sektorn som helhet.",
+          "timestamp": "53:55",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Vi tror väl att nu kortsiktigt gjorde man ett förvärv här i höstas och sen så ett förvärv nu nyligen här, så nu är det kortsiktigt kanske fokus på att integrera de här bolagen, men man har som sagt utrymme att kunna växa vidare genom förvärv.",
+          "timestamp": "54:15",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "10-11",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "6%",
+        "margin": "6%",
+        "debt_level": null,
+        "custom": [
+          "USA-förvärv: 0,6-0,7x försäljning",
+          "USA-förvärv: 6x rörelsevinst",
+          "Tillväxtmål: 10% (uppräknat från 6-7%)",
+          "Kontraktstillverkare (EMS)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabil historisk tillväxt på 6% per år",
+          "Drivs av trend mot tillverkning i närområdet/reshoring",
+          "Nya finansiella mål med högre tillväxt på 10%",
+          "USA-förvärv i försvarsindustrin till attraktiv multipel",
+          "Geografisk breddning till USA",
+          "Försvarsexponering kan ge premievärdering som Kitron",
+          "Attraktiv värdering på 10-11x vs Kitron 13-15x",
+          "Stark kunder som Nibe och ABB",
+          "Utrymme för fler förvärv med stark balansräkning"
+        ],
+        "bear_case": [
+          "Fokus på förvärvskomponenten ökar risken",
+          "Integration av nya förvärv tar tid",
+          "Försvarsindustrin kan vara volatil",
+          "Kortfristigt fokus på integration kan pressa tillväxten"
+        ],
+        "catalysts": [
+          "Fortsatta förvärv",
+          "Integration av USA- och Australien-förvärven",
+          "Växande försvarsindustri",
+          "Ökad efterfrågan på närområdestillverkning"
+        ],
+        "risks": [
+          "Förvärvsrisker och integration",
+          "Konjunkturkänslighet inom elektroniktillverkning",
+          "Valutarisker med geografisk expansion"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Medcap",
+      "ticker": null,
+      "timestamp_start": "54:43",
+      "timestamp_end": "01:00:41",
+      "word_count": 1050,
+      "speakers": [
+        "Björn Rydell",
+        "Alexander",
+        "Douglas"
+      ],
+      "primary_speaker": "Björn Rydell",
+      "discussion_summary": "Medcap är en hälsovårdskoncern med tre affärsområden som omsätter ~2 miljarder med 17-18% marginal. Specialistläkemedelsområdet hade tufft 2024 med marginal ner till 9% från 18-19% på grund av ökad konkurrens och prispress särskilt i UK. Vinstvarning i januari gav 30-35% kursras. Något återhämtning efter danskt förvärv med 35% marginal (2,5x försäljning, ~8x EBITDA). Balansräkning stark med nettokassa ~10 MSEK efter förvärv och utrymme för fler förvärv. Neutral ståndpunkt trots attraktiv värdering på 15x vs jämförbara på 18-19x.",
+      "quotes": [
+        {
+          "speaker": "Björn Rydell",
+          "text": "Medcap är ju, man kan nästan kalla det, en hälsovårdskoncern. Man har tre affärsområden, det är hjälpmedel och sen har man ett affärsområde som heter medicinteknik och ett som heter specialistläkemedel.",
+          "timestamp": "54:51",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Jag tror man omsätter på koncernnivå ungefär 2 miljarder och hade en marginal på någonstans 17-18 procent. Det är en hyfsat stort bolag med bra marginaler.",
+          "timestamp": "55:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "På det senaste året växte 13-14 procent av ungefär hälften var organiskt och hälften var via förvärv.",
+          "timestamp": "55:25",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Men här, som sagt 2024, så gick det väldigt bra inom både hjälpmedelsdelen och medicinteknikdelen. Men specialistläkemedelsdelen hade lite svagare år och det berodde ibland på ökad konkurrens inom vissa preparat och framförallt på den brittiska marknaden som man haft det lite tuffare med ökad konkurrens och prispressat.",
+          "timestamp": "55:40",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Det här området har tjänat ungefär i linje med koncernmarginalen på 18-19 procent de senaste åren, men ändå i 2024 var man ner på ungefär 9 procent.",
+          "timestamp": "56:15",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Jag tror att fonden äger att det är typ så här 50 procent. Och då på den här vinstvarningen i januari så var det ner typ 30-35 procent.",
+          "timestamp": "56:40",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Anledningen till att vi kikar på aktierna här nyligen var ju att man gjorde ett förvärv. Och det var faktiskt inom den här specialistläkemedels-delen. Det är ett bolag i Danmark som har köpt det.",
+          "timestamp": "57:00",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "De hade en rörelsemarginal i BD på 35 procent. Det är ett höglöntsamt bolag. Man hade väldigt bra tillväxt under 2024. Man växte 90 procent ungefär.",
+          "timestamp": "57:25",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Men grejen är att man betalade väl två och en halv gånger försäljningen ungefär och knappt åtta gånger rörelsevinsten före avskrivningar.",
+          "timestamp": "57:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Om vi tar bort tilläggsköpeskillingen så har man ungefär en nettokassa på ungefär 10 miljoner, även efter förvärvet. Och man har ett skuldsättningsmål på nettoskuld genom EBITDA att man vill ligga på under tre gånger. Och nu ligger man runt nollan så att säga. Utrymme.",
+          "timestamp": "58:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "En liten risk vi ser väl är att den här grundbusinessen inom specialistläkemedel har haft ett lite jobbigare år. Så man gör ändå ett förvärv i ett tillfälle där grundverksamheten går lite sämre.",
+          "timestamp": "58:45",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Sammantaget landar vi vid ett neutralt råd. Aktien värderas till ungefär 15 gånger rörelsevinsten på nästa år på analytikapronoserna.",
+          "timestamp": "59:15",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Tittar man på de andra större C-förvarna, mellan de här Adtech och Lifco och Lagokantz. Vi har även ett par både Adlife och Asker som noteras i våras, som också fokuserar på investeringen i hälsovårdsområdet. De är ännu mer lika med Medcap och de ligger på 18-19 gånger.",
+          "timestamp": "59:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Björn Rydell",
+          "text": "Men sammanlagt var vi neutrala till aktien. Det ska även sägas att vi reglerar aktier lite privat i Medcap också. För transparensens skull.",
+          "timestamp": "01:00:15",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "15",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "13-14%",
+        "margin": "17-18%",
+        "debt_level": "Nettokassa ~10 MSEK",
+        "custom": [
+          "Specialistläkemedels-marginal 2024: 9% (från 18-19%)",
+          "Danskt förvärv: 2,5x försäljning",
+          "Danskt förvärv: ~8x EBITDA",
+          "Danskt förvärv-marginal: 35%",
+          "Skuldsättningsmål: <3x nettoskuld/EBITDA",
+          "Vinstvarning i januari gav 30-35% kursras"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark historisk marginal på 17-18%",
+          "13-14% tillväxt (hälften organiskt, hälften via förvärv)",
+          "Hjälpmedel och medicinteknik presterade väl 2024",
+          "Danskt förvärv med hög marginal 35% och 90% tillväxt",
+          "Förvärvmultipel i linje med historiska nivåer",
+          "Stark balansräkning med nettokassa",
+          "Utrymme för fler förvärv (skuldsättning nära noll vs mål <3x)",
+          "Rabatt mot jämförbara Adlife/Asker (18-19x) på 15x"
+        ],
+        "bear_case": [
+          "Specialistläkemedelsområdet tufft 2024 med marginal ner till 9%",
+          "Vinstvarning i januari med 30-35% kursras",
+          "Ökad konkurrens och prispress, särskilt i UK",
+          "Operativa problem i grundverksamheten kvarstår",
+          "Risk att göra förvärv när grundbusiness går dåligt",
+          "Fokus kan splittras mellan ordna grundverksamhet och integrera förvärv"
+        ],
+        "catalysts": [
+          "Återhämtning i specialistläkemedelsområdet",
+          "Integration av danskt förvärv",
+          "Nya partneravtal för specialistläkemedel",
+          "Fler förvärv med stark balansräkning"
+        ],
+        "risks": [
+          "Konkurrenspress i specialistläkemedel",
+          "Integration av nytt förvärv",
+          "Grundverksamheten återhämtar sig inte som förväntat",
+          "Valutarisker (UK-marknad)"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag har en stark home-buyers, och det är främst för att jag känner att man har en viss närhet till bolagen. Sen tror jag att Sverige är en intressant marknad, för alla känner till USA. Jättestora flöden kommer in och ut i deras marknad. Men i Sverige har vi ändå... Har man koll på svenska bolag, har man en liten nisch globalt sett? Man får verkligen ta vara på det. Att vi har så otroligt många bra bolag i Sverige. Ta chansen och lära dig om dem och investera i dem.",
+      "summary": "Home bias kan vara en strategisk fördel eftersom du har närhet till och bättre kunskap om svenska bolag, vilket ger en informationsfördel jämfört med att investera i välbekanta men långt ifrån USA-bolag.",
+      "category": "philosophy",
+      "speaker": "Madeleine Persson Edlund",
+      "speaker_role": "guest",
+      "timestamp": "37:31",
+      "confidence": "high",
+      "tags": [
+        "home bias",
+        "svenska bolag",
+        "informationsfördel"
+      ]
+    },
+    {
+      "quote": "Jag har alltid tagit väldigt långa case. Jag har rätt så analytiskt lagd, så jag har alltid tyckt om att sitta och läsa, och nischat in mig på ett specifikt bolag och köpa det för att hålla det i många år framåt.",
+      "summary": "Långsiktig investeringsstrategi baserad på grundlig analys och djupgående bolagsförståelse kan vara mer framgångsrik än aktiv trading.",
+      "category": "philosophy",
+      "speaker": "Madeleine Persson Edlund",
+      "speaker_role": "guest",
+      "timestamp": "37:15",
+      "confidence": "high",
+      "tags": [
+        "långsiktig investering",
+        "analys",
+        "bolagsförståelse"
+      ]
+    },
+    {
+      "quote": "Det var också en väldigt kul period på något sätt för att då fick man verkligen känna att nu utnyttjar jag all min kapacitet här. Man fick jobba sig igenom samtal efter samtal, försöka vara så effektiv som möjligt. Så jag tycker faktiskt att det är kul när det är mycket som händer. Som sagt, det känns som att man lever.",
+      "summary": "Perioder med hög volatilitet och marknadsoro kan vara intensiva men också givande eftersom man då verkligen utnyttjar sin kapacitet och får känna att man bidrar.",
+      "category": "wisdom",
+      "speaker": "Madeleine Persson Edlund",
+      "speaker_role": "guest",
+      "timestamp": "20:15",
+      "confidence": "medium",
+      "tags": [
+        "volatilitet",
+        "arbetsliv",
+        "marknadsturbulens"
+      ]
+    },
+    {
+      "quote": "Jag tror att många har fått känna på hur det känns när saker inte går som man tänkt sig. När saker vänder från dag till dag. Jag tror att många, inklusive mig själv, har fått lära känna sig själv lite bättre. Hur fungerar det? Hur känner jag när allting rasar?",
+      "summary": "Börsturbulens och krascher är inte bara finansiella utan också personliga lärdomar som hjälper dig att förstå din egen risktolerans och hur du reagerar på förluster.",
+      "category": "wisdom",
+      "speaker": "Madeleine Persson Edlund",
+      "speaker_role": "guest",
+      "timestamp": "23:27",
+      "confidence": "high",
+      "tags": [
+        "risktolerans",
+        "självkännedom",
+        "marknadsturbulens"
+      ]
+    },
+    {
+      "quote": "Jag skulle kunna säga att man även märker det. Vi har ju ett europeiskt land, eller ja, en europeisk börs, ni tänker på Frankfurt som har handel från 8 på morgonen till 22. Men där går också, majoriteten av handeln är ju fortfarande under vanliga öppetider.",
+      "summary": "Även om börsen har utökade öppettider sker majoriteten av handeln under normala öppettider, vilket tyder på att utökade tider kanske inte utnyttjas så mycket i praktiken.",
+      "category": "wisdom",
+      "speaker": "Madeleine Persson Edlund",
+      "speaker_role": "guest",
+      "timestamp": "33:23",
+      "confidence": "medium",
+      "tags": [
+        "börsöppettider",
+        "likviditet",
+        "handelstider"
+      ]
+    },
+    {
+      "quote": "Utbildningen visar ju bara att du klarar av att plugga. Du kan fokusera på att göra någonting och prestera bra. Sen är det otroligt viktigt med arbetslivsförfarenhet. Där gäller det att få foten in i någonstans och visa. Man kan jobba och visa.",
+      "summary": "Utbildning bevisar förmågan att fokusera och prestera, men arbetslivsförfarenhet är minst lika viktig. Att visa vad du kan i praktiken är avgörande för karriärutveckling.",
+      "category": "wisdom",
+      "speaker": "Madeleine Persson Edlund",
+      "speaker_role": "guest",
+      "timestamp": "34:50",
+      "confidence": "high",
+      "tags": [
+        "karriär",
+        "utbildning",
+        "arbetslivserfarenhet"
+      ]
+    },
+    {
+      "quote": "Men det jag verkligen vill trycka på här det är att våga söka. För det märker jag själv, jag sitter med rekryteringar varje år och vi blir tvungna att stänga våra ansökningar efter en-två veckor. För att vi får, sist fick vi 200 ansökningar. Och jag sitter och jobbar igenom det här själv. Men det här året, förra året, var det kanske en 10-15 max tjejer som sakte.",
+      "summary": "Många kvinnor verkar avstå från att söka jobb de inte är helt säkra på att kvalificera sig för, medan män ofta söker mer översiktligt. Att våga söka är viktigt.",
+      "category": "wisdom",
+      "speaker": "Madeleine Persson Edlund",
+      "speaker_role": "guest",
+      "timestamp": "40:50",
+      "confidence": "high",
+      "tags": [
+        "karriär",
+        "jämställdhet",
+        "självförtroende",
+        "våga söka"
+      ]
+    },
+    {
+      "quote": "När jag sökte till Mäkleriet, då jobbade jag på kundtjänst här på Avansa, och jag hade jobbat i knappt ett år. Då hade precis utbildat mig inom våra marketsprodukter, så jag var precis nyspecialiserad. Så när den här annonsen kom ut internt om att hjälpa till på mäklarbordet, så tänkte jag att det här kommer aldrig någonsin att gå. Det kommer finnas 20 personer framför mig som är bättre, och kommer få det här före mig. Men jag sökte.",
+      "summary": "Även om du tror att chansen är liten, värt att söka. Du kan bara få ett nej men inget att förlora på en ansökan.",
+      "category": "wisdom",
+      "speaker": "Madeleine Persson Edlund",
+      "speaker_role": "guest",
+      "timestamp": "42:10",
+      "confidence": "high",
+      "tags": [
+        "karriär",
+        "våga söka",
+        "risktagande"
+      ]
+    },
+    {
+      "quote": "Vi som ändå har varit med på börsen ett par år, inte bara ett par år, minst ett decennium. Vi har ju stött och blött med volatilitet, det har varit krascher, det har varit korrektioner, björnmarknader. Vi kom tillbaka och det gjorde vi här med ganska stor kraft.",
+      "summary": "Erfarenhet av börsens volatilitet och krascher gör att man vet att marknaden historiskt har återhämtat sig med kraft.",
+      "category": "wisdom",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "timestamp": "25:10",
+      "confidence": "medium",
+      "tags": [
+        "långsiktig investering",
+        "börskrascher",
+        "återhämtning"
+      ]
+    },
+    {
+      "quote": "Då syftar jag på personer som vill köpa någonting och hålla det långsiktigt eller vill stänga en position. Då hade jag inte orat mig alldeles för mycket. Men det vi gör, det är ju vi tänker framförallt på att försöka optimera priset så bra som möjligt. Att liksom inte trycka kurser, att försöka minimera marknadspåverkan i den mån det går.",
+      "summary": "För långsiktiga investerare är exekvering mindre kritiskt, men mäklare fokuserar på prisoptimering och att minimera marknadspåverkan för större order.",
+      "category": "wisdom",
+      "speaker": "Madeleine Persson Edlund",
+      "speaker_role": "guest",
+      "timestamp": "06:14",
+      "confidence": "medium",
+      "tags": [
+        "orderexekvering",
+        "marknadspåverkan",
+        "prisoptimering"
+      ]
+    },
+    {
+      "quote": "Vi vet ju att den största delen av handeln det är i öppning och i stängning. Och ju längre tid man har så ska man smeta ut den här likviditeten på ännu fler timmar. Dra man ihop det istället så kanske man får tajtare handel och det behöver inte vara dåligt.",
+      "summary": "Koncentrerad handel vid öppning och stängning kan ge tajtare handel och bättre likviditet jämfört med att sprida ut den över längre öppettider.",
+      "category": "wisdom",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "timestamp": "33:00",
+      "confidence": "medium",
+      "tags": [
+        "likviditet",
+        "handelstider",
+        "börsöppettider"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på mäklaryrket med gäst Madeleine Persson Edlund som delar insikter om derivathandel, orderexekvering och hur man blir mäklare. Björn Rydell presenterar tre analyser: H&M med köpråd baserat på stabiliserande marginaler och attraktiv värdering, Scanfield med köpråd driven av förvärvsstrategi och försvarsexponering, samt Medcap med neutralt råd efter vinstvarning men positivt danskt förvärv. Diskussionen kretsar kring värdering, förvärv och marknadstrender.",
+  "key_takeaways": [
+    "H&M uppvisar förbättringar med bruttomarginal upp till 55% och attraktiv värdering på 12x vs konkurrent Inditex på 15-16x",
+    "Scanfield drar nytta av reshoring-trend och har genom USA-förvärv fått exponering mot växande försvarsindustri",
+    "Medcap har tufft år i specialistläkemedel men starkt danskt förvärv med 35% marginal ger hopp om återhämtning",
+    "Home bias kan vara strategiskt fördelaktig tack vare närhet till och kunskap om svenska bolag",
+    "Långsiktig investering baserad på grundlig analys är en framgångsrik strategi enligt gästernas erfarenheter"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/avanzapodden/transcripts/avanzapodden-2025-07-01-7346.txt",
+  "transcript_word_count": 9843,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

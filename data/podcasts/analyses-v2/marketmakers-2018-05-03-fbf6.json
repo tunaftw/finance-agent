@@ -1,0 +1,730 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2018-05-03-fbf6",
+  "podcast_name": "Market Makers",
+  "episode_title": "#31 FAAMG",
+  "episode_number": 31,
+  "date": "2018-05-03",
+  "hosts": [
+    "Niklas",
+    "Jakob"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Svenska kronan",
+    "Indenti IPO",
+    "WeWork",
+    "Disney och Marvel",
+    "Medborgarlön",
+    "Tech-giganter (FAMG)",
+    "GDPR",
+    "Amazon annonser",
+    "Lösa recensioner på Amazon/Alibaba"
+  ],
+  "stocks_discussed": [
+    "Indenti",
+    "HiQ",
+    "WeWork",
+    "Disney",
+    "Amazon",
+    "Microsoft",
+    "Facebook",
+    "Apple",
+    "Alphabet/Google",
+    "Netflix",
+    "Alibaba"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "27:56",
+      "reasoning": "Amazon har gått upp 33,9% i år men handlas till PE på 380 utan vinst. Vinstmarginal är bara 1,6%. Får högt PEG-tal (negativt) jämfört med andra tech-bolag. Mycket att bevisa men potential om tillväxten fortsätter. Risk: hög värdering och lönsamhetsproblem.",
+      "price_target": null,
+      "time_horizon": "1 år",
+      "quote": "Amazon handlas framför allt i ett PE på 380. PEG-talet är negativt för de gör ju ingen vinst. Det är spridda skuror. Jag tror att Amazon kanske redan kommer att prestera sämst. Det känns som att de har väldigt mycket emot och väldigt mycket att bevisa.",
+      "sector": "Technology/E-commerce",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Facebook",
+      "ticker": "META",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "31:00",
+      "reasoning": "Facebook har PE på 30 men PEG på bara 0,3 på grund av snabb tillväxt. Vinstmarginal på 45%. Fundamentalt driven av tillväxt. En av de billigaste tech-jättarna med PEG 0,3.",
+      "price_target": null,
+      "time_horizon": "1 år",
+      "quote": "Jag skulle nog kunna tänka mig Facebook. Den kommer att hänga mer i den fundamentala värderingen. Om de har den tillväxt som de har, det är ju fundamentalt drivet. Facebook har en PE på 30 och ett PEG på 0,3.",
+      "sector": "Technology/Social Media",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Disney",
+      "ticker": "DIS",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "11:21",
+      "reasoning": "Disney har legat flat i tre år. Största delen av omsättningen från ESPN som har varit rygblet. Nu sammanslagning med Fox och planerad streamingtjänst som ska tävla med Netflix. Mycket IP (Disney, Pixar, Marvel, Star Wars) men verksamheten har kämpat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Disney har legat, till skillnad från de här Amazons, McDonalds eller vad som helst, det har legat flat i tre år. Ingenting har hänt. Senast jag satt och kollade på Disney då var det ESPN som drog ner hela bolagen.",
+      "sector": "Media/Entertainment",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Streamingtjänst lansering"
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "17:57",
+      "reasoning": "Microsofts Azure växer med över 90% år för år. PE runt 30, PEG runt 0,8. Vinstmarginal över 20%. Delar ut 1,5% direktavkastning. Solid tillväxt inom molntjänster.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Amazon och AVS växte med ungefär 50% year on year och Microsofts motsvarighet Azure växte med över 90%. De dubblas nästan. Microsoft ligger runt 30 på PE. PEG runt 0,8.",
+      "sector": "Technology/Cloud",
+      "market": "us",
+      "position_context": "Äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "29:19",
+      "reasoning": "Apple är billigast av tech-jättarna med PE på 17. Vinstmarginal 20%, delar ut 1,5% direktavkastning. Säljer hårdvara så växer inte lika snabbt som mjukvarubolagen. PEG runt 1.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Den som är billigast är ju Apple. De ligger på PE 17. Apple priser man mindre, för de säljer hårdvaror. De delar dessutom ut, de har 1,5% i direktavkastning per år. Men de får PE-17.",
+      "sector": "Technology/Hardware",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Alibaba",
+      "ticker": "BABA",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "26:56",
+      "reasoning": "Problem med falska recensioner (brushers) där folk betalas för femstjärniga recensioner. Kan påverka säljsiffror trovärdighet. IPO-prospektet nämnde fraudulent transactions. Risk för negativt narrativ.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det kan bli ett lite skiftigt narrativ om folk börjar undersöka den här grejen. För mycket, jag har läst lite andra grejer om det där också, att folk börjar frågasätta de här försäljningssiffrorna.",
+      "sector": "E-commerce",
+      "market": "other",
+      "position_context": "Äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Indenti",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "03:12",
+      "reasoning": "Aktien har backat närmare 80% från teckningskursen. Lönsam bolag men sålde sin enda intäktskälla (konsultdelen) till HiQ för försumbar summa. Nu satsar de på riskfyllt IoT-område. Exempel på risk med IPO-bolag.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Den aktien har backat närmare 80% från tekniskursen. Det är jäkligt tråkigt. Så man i princip kommer nu att ta bort hela sin omsättning och satsa på den olansamma delen.",
+      "sector": "Technology/IoT",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "80% ned från teckningskurs",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "WeWork",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "05:58",
+      "reasoning": "Värderad till 20 miljarder dollar men gör ingen vinst. Bränner 700 miljoner dollar på ett år. Högrisk obligationsränta på 8%. Företagsmodell hyr ut kontorsplatser med community men i högkonjunktur utan vinst. Lågkonjunktur risk.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "De är värderade till runt 20 miljarder dollar. De tjänar inga pengar, det är högkonjunktur. De är fullsatta i de här kontoren. Ändå får man ingenting vinst. Nu ska man dessutom, låt säga att vi kommer in i lågkonjunktur om ett år... dessutom ska man då betala åtta procent ränta.",
+      "sector": "Real Estate/Shared Workspaces",
+      "market": "other",
+      "position_context": null,
+      "downside_note": "Ingen vinst i högkonjunktur, 8% ränta på obligationer",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "timestamp_start": "16:35",
+      "timestamp_end": "27:56",
+      "word_count": 800,
+      "speakers": [
+        "Niklas",
+        "Jakob"
+      ],
+      "primary_speaker": "Båda växelvis",
+      "discussion_summary": "Amazon slår EPS-estimater med 160% men vinstmarginal är bara 1,6%. Tillväxt drivs av AWS med 60-70% marginal. Prime har 100 miljoner användare och prisökning på $20/år ger $2 miljarder extra. Amazon annonser drog in $2 miljarder i Q1 (+70% YoY). Problem med fejkade annonser. Handlas till PE 380, hög värdering jämfört med andra tech-bolag.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Amazon, de slår sina EPS-estimater med 160 procent. Egentligen inte. Det vore en annan sak om Facebook eller Google gjorde det tycker jag. Amazon har runt 1,6% i vinstmarginal.",
+          "timestamp": "16:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Amazon och AVS växte med ungefär 50% year on year och Microsofts motsvarighet Azure växte med över 90%. Vinstmarginalen kommer jag inte ihåg, den är väl runt 60-70% på AVS.",
+          "timestamp": "17:47",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Amazon Prime är alltså en prenumerationstjänst där man bland annat får billigare frakt... man har alltså över 100 miljoner användare. Det är helt otroligt tycker jag.",
+          "timestamp": "18:18",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Höjer du ett abonnemang med 20 dollar och du har 100 miljoner användare ja då har du två miljarder dollar rakt in i fickan.",
+          "timestamp": "19:18",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host",
+          "text": "Annons... det hoppade till... Jag fann att de drog in två miljarder dollar. Det sjuka är att det ökar med 70 procent year on year.",
+          "timestamp": "24:47",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Amazon handlas framför allt i ett PE på 380. PEG-talet är negativt, för de gör ju ingen vinst. Det är spridda skuror.",
+          "timestamp": "29:30",
+          "context": "valuation"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "380",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "~50% AWS, +70% ads YoY",
+        "margin": "1.6% net, ~60-70% AWS",
+        "debt_level": null,
+        "custom": [
+          "100M Prime members",
+          "PEG negative"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "AWS drivs av molntrend med hög marginal",
+          "100M Prime-medlemmar ger prishöjningspotential",
+          "Annonsverksamhet växer 70% YoY, $2B i Q1",
+          "Dominant inom e-commerce och logistik"
+        ],
+        "bear_case": [
+          "PE på 380 är extremt högt",
+          "Nettovinstmarginal bara 1,6%",
+          "Negativt PEG-tal",
+          "Mycket att bevisa",
+          "Problem med fejkade annonser och review manipulation"
+        ],
+        "catalysts": [
+          "AWS tillväxt fortsätter",
+          "Prime-prishöjningar",
+          "Annonsverksamhet expandera"
+        ],
+        "risks": [
+          "Konkurrens inom moln",
+          "Reglering",
+          "Lönsamhetsproblem",
+          "Tech-bubbla risk"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Facebook",
+      "ticker": "META",
+      "timestamp_start": "15:45",
+      "timestamp_end": "32:04",
+      "word_count": 600,
+      "speakers": [
+        "Niklas",
+        "Jakob"
+      ],
+      "primary_speaker": "Båda växelvis",
+      "discussion_summary": "Facebook är 100% online med 45% vinstmarginal. PE på 30 men PEG på bara 0,3 pga snabb tillväxt. står för 14% av S&P 500 tillsammans med andra tech-jättar. GDPR-risk med personalized ads kan påverka annonsintäkter. Utvecklar egna AI-chips för att minska beroende av underleverantörer.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Facebook har till och med 45% i vinstmarginal. Jo exakt, men de är också 100% online.",
+          "timestamp": "17:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Facebook har en PE på 30 och ett PEG på 0,3. Microsoft ligger runt 0,8, Apple runt 1.",
+          "timestamp": "28:33",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Facebook står ju ut, den har ju alltså 45 procent vinstmarginal. De priser man så högt.",
+          "timestamp": "28:11",
+          "context": "valuation"
+        },
+        {
+          "speaker": "Host",
+          "text": "Det ska bli intressant att se hur det påverkar deras affärsmodell. Du kommer fortfarande att få lika mycket annonser, men de kommer inte alls vara specifika.",
+          "timestamp": "24:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host",
+          "text": "Jag skulle nog kunna tänka mig Facebook. Den kommer att hänga mer i den fundamentala värderingen.",
+          "timestamp": "31:00",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "30",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "~20-40%",
+        "margin": "45%",
+        "debt_level": null,
+        "custom": [
+          "PEG 0.3",
+          "100% online business"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Vinstmarginal 45%",
+          "PEG 0.3 - billig relativt tillväxt",
+          "Dominant position i sociala medier",
+          "Fundamentalt driven av tillväxt"
+        ],
+        "bear_case": [
+          "GDPR påverkar personalized ads",
+          "Cambridge Analytica skandal",
+          "Regleringsrisk i Europa",
+          "Beroende av annonsintäkter"
+        ],
+        "catalysts": [
+          "Tillväxt fortsätter",
+          "Nya produkter/tjänster"
+        ],
+        "risks": [
+          "GDPR regulation",
+          "Antitrust",
+          "User growth decline"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "timestamp_start": "17:47",
+      "timestamp_end": "32:04",
+      "word_count": 300,
+      "speakers": [
+        "Niklas",
+        "Jakob"
+      ],
+      "primary_speaker": "Båda växelvis",
+      "discussion_summary": "Microsofts Azure molntjänst växer över 90% YoY, nästan dubbelt så snabbt som AWS 50%. PE runt 30, PEG runt 0,8. Vinstmarginal över 20%. Delar ut 1,5% direktavkastning. Utvecklar egna AI-chips. Stark position i molnmarknaden.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Amazon och AVS växte med ungefär 50% year on year och Microsofts motsvarighet Azure växte med över 90%. De dubblas nästan.",
+          "timestamp": "17:57",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Microsoft ligger runt 30 på PE. PEG runt 0,8.",
+          "timestamp": "29:19",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Apple, Microsoft, Google och Facebook prisas högt av P30 ungefär. De har mellan 20 och 45 % vinstmarginal. De växer också mellan 20 och 40 % per år.",
+          "timestamp": "29:31",
+          "context": "valuation"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "30",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "1.5%",
+        "revenue_growth": "~20-40%",
+        "margin": "~20%",
+        "debt_level": null,
+        "custom": [
+          "PEG 0.8",
+          "Azure growth >90% YoY"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Azure växer 90%+ YoY",
+          "Dividend yield 1,5%",
+          "PEG 0.8 rimlig",
+          "Stabil cashflow"
+        ],
+        "bear_case": [
+          "Konkurrens från AWS och Google Cloud",
+          "Teknologisk förändring"
+        ],
+        "catalysts": [
+          "Cloud adoption fortsätter",
+          "AI-chip utveckling"
+        ],
+        "risks": [
+          "Cloud wars",
+          "Microsoft legacy products decline"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "timestamp_start": "20:07",
+      "timestamp_end": "32:04",
+      "word_count": 250,
+      "speakers": [
+        "Niklas",
+        "Jakob"
+      ],
+      "primary_speaker": "Båda växelvis",
+      "discussion_summary": "Apple utvecklar egna chip för att minska beroende av Intel och andra underleverantörer, framförallt för AI-tillämpningar. PE på 17 är billigast av tech-jättarna. Vinstmarginal 20%, delar ut 1,5%. Säljer hårdvara så växer inte lika snabbt som mjukvarubolagen.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Apple och Google utvecklar sina egna chip. Till stor del verkar det handla om den typen av hårdvaror som ska användas i AI-tillämpningar.",
+          "timestamp": "20:07",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host",
+          "text": "Den som är billigast är ju Apple. De ligger på PE 17. Apple prizer man mindre, för de säljer hårdvaror. De kommer inte kunna växa lika mycket och det är inte lika lönsamt.",
+          "timestamp": "29:19",
+          "context": "valuation"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "17",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "1.5%",
+        "revenue_growth": "<20%",
+        "margin": "20%",
+        "debt_level": null,
+        "custom": [
+          "PEG ~1",
+          "Hardware focus"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "PE 17 billigast",
+          "Dividend 1,5%",
+          "Egna chip för AI",
+          "Starkt ekosystem"
+        ],
+        "bear_case": [
+          "Hårdvara växer långsammare",
+          "Beroende av iPhone",
+          "Konkurrens från Android"
+        ],
+        "catalysts": [
+          "AI-chip framsteg",
+          "Nya produkter"
+        ],
+        "risks": [
+          "iPhone saturation",
+          "Kina risk",
+          "Innovation stall"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "WeWork",
+      "ticker": null,
+      "timestamp_start": "04:34",
+      "timestamp_end": "07:22",
+      "word_count": 400,
+      "speakers": [
+        "Niklas",
+        "Jakob"
+      ],
+      "primary_speaker": "Båda växelvis",
+      "discussion_summary": "WeWork är ett kontorshotell värderat till $20M som gör ingen vinst. Brände $700M efter Softbank investering. Obligationsränta 8%. Skapade Community Adjusted EBITDA för att se lönsamt ut. Högkonjunktur men ändå ingen vinst. Lågkonjunktur skulle vara katastrofal.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "De har ju i dagsläget är de värderade till runt 20 miljarder dollar. Det är det som vi menar med att det är lite fantasivärdering för ett bolag som hyr ut kontorsplatser.",
+          "timestamp": "05:47",
+          "context": "valuation"
+        },
+        {
+          "speaker": "Host",
+          "text": "Av dem har man bränt 700 miljoner dollar, plus det man har bränt av tidigare finansieringar.",
+          "timestamp": "06:37",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "Vet du vad man får för ränta på den obligationen? Den är närmare åtta procent.",
+          "timestamp": "06:53",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host",
+          "text": "De tjänar inga pengar, det är högkonjunktur. De är fullsatta i de här kontoren. Ändå får man ingenting vinst.",
+          "timestamp": "07:11",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host",
+          "text": "Jo, det är EBITDA exkluderat försäljningskostnader som anställdas löner, annonsering, kostnader för nya lokaler. Man skulle nästan kunna kalla det för EBIT DAC.",
+          "timestamp": "09:19",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Valued at $20B",
+          "Burn rate $700M/year",
+          "Bond rate 8%",
+          "No profit in boom"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Community concept",
+          "Brand value",
+          "Growth in flexible office"
+        ],
+        "bear_case": [
+          "Ingen vinst i högkonjunktur",
+          "Bränner $700M/år",
+          "8% ränta på obligationer",
+          "Community Adjusted EBITDA manipulerar",
+          "Lågkonjunktur risk är katastrofal"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Economic downturn",
+          "High cash burn",
+          "Unsustainable valuation",
+          "Competition from traditional office space"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man behöver inte ha många bra i det här företaget. Jag har alltid sagt att om man har en IQ av 160, ge 30 poäng till någon annan för att man inte behöver det i investeringar. Vad man behöver är emotionella utvecklingar.",
+      "summary": "Investeringsframgång handlar mer om emotionell kontroll än IQ",
+      "category": "philosophy",
+      "speaker": "Warren Buffett",
+      "speaker_role": "guest",
+      "timestamp": "00:00",
+      "confidence": "high",
+      "tags": [
+        "psykologi",
+        "disciplin",
+        "emotionell kontroll"
+      ]
+    },
+    {
+      "quote": "Vi fick väl se. Så det är väl att säga i alla fall att man ska ta det försiktigt med börsnoteringar och det går även att bli lite lurad även de här bolagen som faktiskt tjänar pengar.",
+      "summary": "IPO-bolag innebär hög risk även om de är lönsamma",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "04:26",
+      "confidence": "high",
+      "tags": [
+        "IPO",
+        "risk",
+        "nybörjare"
+      ]
+    },
+    {
+      "quote": "Det är väldigt intressant. Det finns jättemånga företag som hyr ut kontorsplatser och kontorshotell och sådana saker. Det är ingen som är lika heta som WeWorks. Det är verkligen bara för att de har lyckats få start-up-stämpeln och då hjälper de sig att få en helt annan värdering och helt annorlunda fantasisumma.",
+      "summary": "Varumärkespositionering och buzz kan driva extrem värdering oavsett affärsmodell",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "04:56",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "branding",
+        "startup"
+      ]
+    },
+    {
+      "quote": "Om vi tar då EBITDA, och då lägger man till DA... desto fler bokstäver man lägger till utöver EET, desto längre bort kommer man ju från den faktiska vinsten och närmare omsättningen.",
+      "summary": "Mer komplicerade vinstmätvärden döljer verkligheten",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "08:51",
+      "confidence": "high",
+      "tags": [
+        "nyckeltal",
+        "vinstmarginal",
+        "EBITDA"
+      ]
+    },
+    {
+      "quote": "Höjer du ett abonnemang med 20 dollar och du har 100 miljoner användare ja då har du två miljarder dollar rakt in i fickan. Det var lite det här Niklas Andersson pratade om... De har kraft i att de kan sätta priset på sitt abonnemang.",
+      "summary": "Prissättningsmakt hos plattformsbolag ger enormt värde",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "19:18",
+      "confidence": "high",
+      "tags": [
+        "prissättning",
+        "plattform",
+        "makt"
+      ]
+    },
+    {
+      "quote": "Jo, för varför ska folk försöka söka jobb om de får pengarna gratis. Det är intressant... det här medborgarlöende. Därför har jag tyckt att det var intressant att prata om det.",
+      "summary": "Medborgarlön utan krav minskar incitament att arbeta",
+      "category": "lesson",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "13:13",
+      "confidence": "medium",
+      "tags": [
+        "medborgarlön",
+        "incitament",
+        "ekonomi"
+      ]
+    },
+    {
+      "quote": "Det är därför det är så viktigt att hålla koll på värderingarna och bolaget och förstå vad de gör för någonting. För det går inte bara att titta på ett PE-tal. Det säger väldigt lite om de här bolagen.",
+      "summary": "Förstå bolagets affärsmodell, inte bara PE-tal",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "30:43",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "analys",
+        "PE"
+      ]
+    },
+    {
+      "quote": "Inget nyckeltal säger egentligen någonting om det tas ut i sin kontext.",
+      "summary": "Alla nyckeltal måste ses i rätt kontext",
+      "category": "philosophy",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "30:55",
+      "confidence": "high",
+      "tags": [
+        "nyckeltal",
+        "kontext",
+        "analys"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "quote": "Det var väl det man märkte mest, iallafall förra året. Då kändes det som om det var var och varannan dag var den löpse den om att grafikkorten var slut. På grund av att folk ville mina bitcoin.",
+      "timestamp": "21:01",
+      "context": "GPU shortage due to mining",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "2017"
+    },
+    {
+      "asset_symbol": "CRYPTO",
+      "asset_name": "Kryptovalutor",
+      "sentiment": "neutral",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "quote": "Sen så är det mining av kryptovalutor. Det är därför de går över till att istället för att förlita sig på Intel, Nvidia och så vidare... så gör man nu själva internt.",
+      "timestamp": "20:56",
+      "context": "Hardware demand for mining",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar tech-jättarna FAMG (Facebook, Amazon, Apple, Microsoft, Google) och deras extrema värderingar och tillväxt. Amazon sticker ut med PE 380 medan Facebook och Microsoft prisas mer rimligt. WeWork lyfts fram som exempel på övervärderad startup med fantasimetricer. GDPR och dataintegritet diskuteras som risker för Facebook och Google. Alibaba har problem med fejkade recensioner. Disney ses som omvandlingskandidat med ny streamingtjänst.",
+  "key_takeaways": [
+    "Tech-jättarna står för 14% av S&P 500",
+    "Facebook har PEG 0.3, Amazon har PE 380 utan vinst",
+    "WeWork-community adjusted EBITDA döljer förluster",
+    "GDPR kan påverka annonsintäkter för Facebook/Google",
+    "Amazon annonser växer 70% YoY till $2B"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2018-05-03-fbf6.txt",
+  "transcript_word_count": 7189,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

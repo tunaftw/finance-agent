@@ -1,0 +1,886 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2025-08-12-9c93",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 541 - Halvårssummering och SPAC-fest",
+  "episode_number": 541,
+  "date": "2025-08-12",
+  "hosts": [
+    "Host1",
+    "Host2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Halvårssummering",
+    "SPAC-fest",
+    "Råvaror",
+    "AI-bubbla",
+    "Örstedt",
+    "Geopolitik"
+  ],
+  "stocks_discussed": [
+    "Tigo",
+    "Flat Capital",
+    "Novo Nordisk",
+    "Eli Lilly",
+    "Viking Therapeutics",
+    "Örstedt",
+    "CCIR",
+    "Hecla Mining",
+    "Lumi",
+    "GoGold",
+    "Volvo Cars",
+    "Palantir",
+    "Bygg Hemma",
+    "Abseller",
+    "Neonode",
+    "Tobii",
+    "BASF",
+    "RWE",
+    "Saab",
+    "District Metal"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Tigo",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "12:11",
+      "reasoning": "Bolaget har rullat på med bättre kassaflöde och stora utdelningar. Risk/reward har varit fantastisk med begränsad nedsida. Underanalyserat med noterat i Sverige men ingen riktig brytning i USA. Världens bästa telecom-investerare. Resan har kanske bara börjat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det känns snarare som att bolaget är väldigt underägt, underanalyserat. Det har varit noterat i Sverige, ingen riktiga brytts i USA. Och nu har de gjort de här förvärven. De har kanske lyckats förklara det lite bättre. Stora utdelningar, kassaflödet sprutar in. Världens bästa telecom-investerare.",
+      "sector": "Telecom",
+      "market": "other",
+      "position_context": "Största innehav, nära 100% av portföljen",
+      "downside_note": "Begränsad nedsida",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Viking Therapeutics",
+      "ticker": "VKTX",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "09:52",
+      "reasoning": "Oral Fetma-piller-produkt med data som ska komma under kvartalet. Bolag var uppe i nästan 100 dollar, kom ner till 20, nu återhämtat till 38. Spännande speck-case där orala marknaden för Fetma-piller står kvar.",
+      "price_target": null,
+      "time_horizon": "Kort sikt (en månad)",
+      "quote": "Jag var när att köpa den här. Bitter att jag inte gjorde den. De ska komma med data under det här kvartalet. Om jag har läst rätt. Så då gillar man sådana här speck. Så borde det vara bra att köpa häromkring och sälja om en månad eller någonting.",
+      "sector": "Healthcare/Biotech",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Data under kvartalet"
+    },
+    {
+      "stock_name": "CCIR",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "01:35",
+      "reasoning": "Ukrainska telekomoperatör på väg till börsen. Handlas till P10, men vid en fred skulle värderingen vara P5. Ren och kärna Ukraine-play. Ticker kommer att bytas till Kyiv. Har Starlink-avtal. Stark koppling till potentiell fred och återbyggnad.",
+      "price_target": null,
+      "time_horizon": "Kort till medellång sikt",
+      "quote": "Det är ju en rent och krajna play så att jag tycker att det är intressant. Handlas väl till P10. Och liksom, kommer man tillbaka till förekriget så är det väl P5. De tjänar bra med pengar. Det kommer ju satsas ordentligt i Ukraina, om du väl blir fred.",
+      "sector": "Telecom",
+      "market": "other",
+      "position_context": "Ägt sedan februari",
+      "downside_note": null,
+      "catalyst_timing": "Möte mellan Trump och Putin på fredag"
+    },
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "07:46",
+      "reasoning": "Eli Lillys oralprodukt visade sig inte vara så effektiv som trott. Novo upp 15% på nyheten. Bolaget är fortfarande väldigt nertryckt. Har egen oralprodukt som kommer 2026 som ska vara bättre. Nu måste ritas om kartan.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Hade kursen stått i 500 hade det nog kunnat gå upp 10-15% också. De har ju en oralprodukt som man inte pratat så mycket om. Om jag har förstått rätt ska jag komma 2026 som nu ska vara bättre. Så då känns det som att man igen måste rita om kartan här.",
+      "sector": "Healthcare/Pharma",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Oralprodukt 2026"
+    },
+    {
+      "stock_name": "Eli Lilly",
+      "ticker": "LLY",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "09:50",
+      "reasoning": "Resultat på oralprodukt visade att den inte alls var så effektiv som man hade trott. Var ner 10-15% på studien. Folk hade hoppat av. Intressant att korta.",
+      "price_target": null,
+      "time_horizon": "Kort sikt",
+      "quote": "Och du är lite sugen på kort, Lilly. Två lufthandlare sitter här och spekulerar fritt.",
+      "sector": "Healthcare/Pharma",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hecla Mining",
+      "ticker": "HL",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "34:04",
+      "reasoning": "USAs största silverproducent och har varit i över 100 år. Trump-administrationen vill göra USA självförsörjande på kritiska råvaror. Silver är en industrimetall med stort behov i modern supply chain. Stabil, tjänar pengar, bra kassaflöden, liten belåning. Politisk medvind med red tape som försvinner.",
+      "price_target": null,
+      "time_horizon": "Långsiktig trend",
+      "quote": "För att om man tittar på Trump-administrationen och den långsiktiga planen, det är ju att USA ska bli självförsörjande på kritiska råvaror. Silver är en sådan. Och framför allt, varför jag tittar i USA är det intressant, för där finns det ju en politisk medvind. Trump-administrationen klubbar ju att den här gruvan ska öppnas.",
+      "sector": "Mining/Råvaror",
+      "market": "us",
+      "position_context": "Äger sedan några månader tillbaka",
+      "downside_note": null,
+      "catalyst_timing": "Ny gruva öppnas (Greenlight)"
+    },
+    {
+      "stock_name": "Lumi",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "33:32",
+      "reasoning": "Köpt i kraschen under 80, nu 109. Gick upp 10% på senaste rapporten. Vill ha mer exponering mot råvaror.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag köpte Lumi i kraschen, som var här i våras. Ja, jag fick in den under 80 och den stod ju 109. Så det blev jättebra. Men jag vill ha lite mer.",
+      "sector": "Mining/Råvaror",
+      "market": "other",
+      "position_context": "Äger",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "GoGold",
+      "ticker": "GOG",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "27:04",
+      "reasoning": "Ska få tillstånd på en gruva i Mexico. Silver och guld har gått bra, aktie upp 98%. Gjorde en placing för att gardera sig. Nu redo att sätta gruvorna i backen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det har ju varit galnaste halvåret någonsin... 98% var det upp i innehavet.",
+      "sector": "Mining/Råvaror",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Tillstånd från Mexico"
+    },
+    {
+      "stock_name": "Volvo Cars",
+      "ticker": "VOLCAR-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "29:06",
+      "reasoning": "Har haft en svängig resa, ner 19%. Fått tillbaka Samuelsson. Känner förtfarande mer köpsug nu än tidigare. Tufft med bilbranschen i stort men tullhot borta. Tro att något kommer hända inom tolv månader.",
+      "price_target": null,
+      "time_horizon": "12 månader",
+      "quote": "Jag är väl mer köpsug än nu kanske än jag var då. Det känns fortfarande som att hela bilbranschen är i ett stort vakuum. Vad händer med elbilar? Mera, men man har väl kanske fått bort det här tullhotet nu... Jag tror fortfarande inom tolv månader att någonting har hänt med Volvo.",
+      "sector": "Automotive",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Inom 12 månader"
+    },
+    {
+      "stock_name": "Palantir",
+      "ticker": "PLTR",
+      "action": "sell",
+      "confidence": "low",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "29:44",
+      "reasoning": "Kortsiktig trade som fungerade. Börsens hetaste aktie, upp 33% i år. Handlas till 100 gånger sales. Varning om att aldrig korta på fundamenta men detta var en kortsiktig trade.",
+      "price_target": null,
+      "time_horizon": "Kort sikt",
+      "quote": "Jag var kort Palantir när vi pratade om det här. Jag valde en kortsiktig trade, jag var kort. Det blev bra. Den gick ner så jag tog vinst.",
+      "sector": "Tech/Software",
+      "market": "us",
+      "position_context": "Tidigare kort position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Bygg Hemma",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "31:00",
+      "reasoning": "Upp 15%, var upp 40% som mest. Kommit ur emissionsproblematiken. Räntor på väg ner. Behöver att renoverings- och nybyggnationsmarknaden vänder. Intressant case men väntar på nästa kvartal.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker fortfarande B&G är ett intressant case. Det gäller bara att veta vilket som blir det här nästa kvartal.",
+      "sector": "Construction",
+      "market": "sweden",
+      "position_context": "Äger fram och tillbaka",
+      "downside_note": null,
+      "catalyst_timing": "Nästa kvartal"
+    },
+    {
+      "stock_name": "Abseller",
+      "ticker": "ATOX-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "32:40",
+      "reasoning": "Upp 47% i år, var ner 33% när graph togs upp. Nu kommer med tre egna molekyler i fas 1. Värderingen blir annorlunda med egna ägda molekyler. Biotech-sektorn har kommit tillbaka. Logisk uppvärdering.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Skillnaden nu är att de kommer med tre egna molekyler och är inne i fas 1 i år. I senaste rapporten beskrev de den första molekylen som har gått in i fas 1 och sen kommer fler. Så nu har de egna 100% ägda molekyler som går in i fas 1. Då blir värderingen lite annorlunda också. Och det kan komma andra triggers. Så en uppvärdering där känns ju logisk.",
+      "sector": "Biotech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Fas 1 studier"
+    },
+    {
+      "stock_name": "Råvaror (Metaller/Rare Earths)",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "39:00",
+      "reasoning": "Geopolitiken visar att vi måste ha egna supply chains och kritiska råvaror. USA köper 100% av antimon från Kina. Kommer subventioneras. Politisk, ekonomisk och geopolitisk medvind. Bull market i råvarumarknaden kan vara på gång. Låg supply efter år av låga priser.",
+      "price_target": null,
+      "time_horizon": "Långsiktig trend",
+      "quote": "Geopolitiken har visat de sista åren är att vi måste ha våra egna supply chains och vår egen supply av kritiska råvaror. Så kan man inte ha det. Det går ju inte. Så det där kommer ju ändras, punkt slut. Och kommer subventioneras. Så då har vi en politisk medvind, vi har en ekonomisk medvind för att det kommer att satsas massa pengar på det här. Och så har vi en geopolitiskt medvind. Så det är liksom staten och kapitalet sitter i samma båt.",
+      "sector": "Råvaror/Metaller",
+      "market": "global",
+      "position_context": "Vill öka råvarurexponeringen",
+      "downside_note": "Höga priser på råvaror genererar låga priser längre fram",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Örstedt",
+      "ticker": "ORSTED",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "19:03",
+      "reasoning": "Ska göra nyemission på 60 miljarder danska. Falskt från 320 till 213 på några dagar. Vore intressant köp om emissionen sätts till kraftig rabatt, men just nu hellre kort än lång. Bäst att vänta ut för att se villkoren.",
+      "price_target": null,
+      "time_horizon": "Kort sikt",
+      "quote": "Nu ska de göra en jätteemission här. Den skulle kunna bli ett intressant köp, om de måste sätta den, den står i 214 nu, om de måste sätta den här till kraftig rabatt när man tar in så mycket pengar. Men just nu skulle jag nästan hellre ligga kort än lång när man vet att det kommer en jätteemission som troligtvis kommer att sättas till någon lägre kurs här.",
+      "sector": "Energy/Renewables",
+      "market": "other",
+      "position_context": null,
+      "downside_note": "Ned 76% på fem år",
+      "catalyst_timing": "Nyemission"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "sell",
+      "confidence": "low",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "44:16",
+      "reasoning": "Kortade förra veckan på mötet mellan Trump och Putin. Vid fred kommer försvarsaxeln att gå ner.",
+      "price_target": null,
+      "time_horizon": "Kort sikt",
+      "quote": "Jag kortade i Saab förra veckan, det blev bra på det här mötet.",
+      "sector": "Defense",
+      "market": "sweden",
+      "position_context": "Kortad position",
+      "downside_note": null,
+      "catalyst_timing": "Möte Trump-Putin"
+    },
+    {
+      "stock_name": "USA Index (Nasdaq/S&P)",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "low",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "47:24",
+      "reasoning": "NFP-siffran var inte bra. Siffror reverserades bakåt. Trots tullarna gick inte inflationen upp. Arbetsmarknaden kanske inte så stark som man tror. Kort positioner måste ta sig igenom mötet mellan Trump och Putin.",
+      "price_target": null,
+      "time_horizon": "Kort sikt",
+      "quote": "Men jag måste ta mig igenom i mina korta positioner i USA måste jag ta mig igenom det mötet mellan Trump och Putin.",
+      "sector": "Index",
+      "market": "us",
+      "position_context": "Korta positioner",
+      "downside_note": null,
+      "catalyst_timing": "Möte Trump-Putin"
+    },
+    {
+      "stock_name": "District Metal",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "37:17",
+      "reasoning": "Världens största Iridium-fyndighet i Sverige. Från 3 till 2 vid notering, sedan 2 till 7, nu ner till 5. Hög risk men exponering mot självförsörjning.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nu ska man ju lyfta det här monatoriet, om att det är förbjudet att bryta Iridium. Nu får vi se hur det blir, men det är väldigt... Gillar man hög risk och vill få exponering mot det här självständiga så kan den aktien vara någonting att titta på också.",
+      "sector": "Mining/Råvaror",
+      "market": "sweden",
+      "position_context": "Handlat fram och tillbaka, inte äger idag",
+      "downside_note": "Hög risk",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Tigo",
+      "ticker": null,
+      "timestamp_start": "11:04",
+      "timestamp_end": "12:29",
+      "word_count": 200,
+      "speakers": [
+        "Host2"
+      ],
+      "primary_speaker": "Host2",
+      "discussion_summary": "Host2 beskriver Tigo som sitt överlägset största innehav med fantastisk resa sedan avnoteringen. Bolaget har bättre kassaflöde och har gjort förvärv som de lyckats förklara bättre. Stora utdelningar och världens bästa telecom-investerare. Host2 har minskat steg för steg över 40 dollar då man inte kan ha nära 100% av portföljen i ett bolag. Dollarn har varit emot med 4% nedgång. Resan kanske bara har börjat.",
+      "quotes": [
+        {
+          "speaker": "Host2",
+          "text": "Tigo Fest. Jag har ju haft det som mitt överlägset största innehav i portföljen. Det har ju varit en fantastisk resa sedan avnoteringen.",
+          "timestamp": "11:04",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Man hade lite bättre kassaflöde. Många skrev att jag förstod väl inte riktigt varför kursen var upp 7 procent. Men det känns snarare som att bolaget är väldigt underägt, underanalyserat.",
+          "timestamp": "11:17",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Stora utdelningar, kassaflödet sprutar in. Världens bästa telecom-investerare.",
+          "timestamp": "11:22",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Det man haft emot sig där är dollarn. Det är väl det som har varit det tråkigaste. Där har man ju tappat 4%. Annars hade väl ett snitt lite under 30 och nu är man uppe i 42-43. Risk reward har det varit en fantastisk resa.",
+          "timestamp": "12:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Säljer säkert bort mig men man kan inte ha nära 100% av portföljen i ett bolag. Det känns lite överdrivet. Så nu har jag lättat ner lite där.",
+          "timestamp": "12:11",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "Höga utdelningar",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kurs från under 30 till 42-43",
+          "Ned 4% på dollarn"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Underanalyserat bolag noterat i Sverige utan riktig brytning i USA",
+          "Bättre kassaflöde",
+          "Stora utdelningar",
+          "Världens bästa telecom-investerare",
+          "Begränsad nedsida"
+        ],
+        "bear_case": [
+          "Dollarn har varit emot (tappat 4%)",
+          "Börsvärde kan bli för stort"
+        ],
+        "catalysts": [
+          "Förvärv förklarade bättre",
+          "USA-marknaden börjar bryta"
+        ],
+        "risks": [
+          "Valutarisk med dollarn",
+          "Koncentration för stor i portföljen"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Hecla Mining",
+      "ticker": "HL",
+      "timestamp_start": "34:04",
+      "timestamp_end": "36:49",
+      "word_count": 350,
+      "speakers": [
+        "Host1",
+        "Host2"
+      ],
+      "primary_speaker": "Host1",
+      "discussion_summary": "Host1 presenterar Hecla Mining som USAs största silverproducent och har varit i över 100 år. Investeringen är baserad på Trump-administrationens plan att göra USA självförsörjande på kritiska råvaror där silver är en industrimetall med behov i modern supply chain för elektronik, solpaneler, elbilar. Politisk medvind med red tape som försvinner. Bolaget är stabilt, tjänar pengar, har bra kassaflöden och liten belåning. Market cap på 5 miljarder dollar och står för 50% av allt silver som bryts i USA.",
+      "quotes": [
+        {
+          "speaker": "Host1",
+          "text": "Jag köpte ett bolag som Heckla Mining i USA. Det är ingen liten miner, utan det är USAs största silverproducent och har varit i över 100 år.",
+          "timestamp": "34:04",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "För att om man tittar på Trump-administrationen och den långsiktiga planen, det är ju att USA ska bli självförsörjande på kritiska råvaror. Silver är en sådan.",
+          "timestamp": "34:17",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Om du vill ha en modern supply chain med moderna produkter, allt från elektronik, solpaneler, elbilar, etc. så är ju silver en industrimetall mycket.",
+          "timestamp": "34:21",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Men skillnaden här är ju att det inte bara om ekonomin går bra, nu är det att du har ett USA som vill säkra sin tillgång till allt det här.",
+          "timestamp": "34:35",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Trump-administrationen klubbar ju att den här gruvan ska öppnas. Mycket red tape som har funnits innan, som försvinner.",
+          "timestamp": "35:01",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Finansiering, vi såg MP Materials tidigare i år, där Pentagon gick in som ägare. Så USA-staterna, alltså säkrar, väljer vinnare helt enkelt i sektorn.",
+          "timestamp": "35:13",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Heckla verkar vara en sådan, de fick Greenlight hur snabbt som helst på en ny gruva, som de ska öppna upp.",
+          "timestamp": "35:23",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Market cap ser jag här i fem miljarder dollar. Det är ju ett riktigt bolag.",
+          "timestamp": "36:21",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Det är USAs äldsta och största silverproducent. Jag tror att de står för 50% av allt silver som bryts i USA. Om inte mer faktiskt.",
+          "timestamp": "36:24",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Tjänar bra med pengar",
+        "margin": null,
+        "debt_level": "Liten belåning",
+        "custom": [
+          "Market cap 5 miljarder dollar",
+          "50% av allt silver som bryts i USA",
+          "Går bra på rapport"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "USAs äldsta och största silverproducent med 100+ år historia",
+          "Trump-administrationen vill göra USA självförsörjande på kritiska råvaror",
+          "Politisk medvind med red tape som försvinner",
+          "Stabil, tjänar pengar, bra kassaflöden, liten belåning",
+          "Industrimetall med stort behov i modern supply chain",
+          "Pentagon väljer vinnare i sektorn"
+        ],
+        "bear_case": [
+          "Råvarupriser volatila",
+          "Politiska risker"
+        ],
+        "catalysts": [
+          "Ny gruva öppnas (Greenlight)",
+          "Trump-administrationens subventioner",
+          "USA vill säkra sina kritiska råvaror"
+        ],
+        "risks": [
+          "Råvarupriser volatila",
+          "Politiska risker"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Råvaror (Metaller/Rare Earths)",
+      "ticker": null,
+      "timestamp_start": "39:00",
+      "timestamp_end": "43:41",
+      "word_count": 500,
+      "speakers": [
+        "Host2",
+        "Host1"
+      ],
+      "primary_speaker": "Host2",
+      "discussion_summary": "Diskussion om geopolitikens betydelse för råvaror. Host2 förklarar att USA köper 100% av antimon från Kina och detta kommer ändras och subventioneras. Staten och kapitalet sitter i samma båt med politisk, ekonomisk och geopolitisk medvind. En ny bull market i råvarumarknaden kan vara på gång efter en lång bear market sedan tidigt 2010-tal. Supply har varit låg efter år av låga priser och investeringar. Host1 diskuterar hur oljeindustrin är totalt underinvesterad med drill baby drill som nytt tema. Börsen och samhället har varit verklighetsfrånvända medan konsumtionen slår rekord.",
+      "quotes": [
+        {
+          "speaker": "Host2",
+          "text": "Geopolitiken har visat de sista åren är att vi måste ha våra egna supply chains och vår egen supply av kritiska råvaror.",
+          "timestamp": "39:00",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Jag vet inte hur man uttalar det. Det är ett halvmetalliskt grundämne i alla fall och det används i batterier. Även i allt möjligt. Men för mycket i försvarsindustrin för att det leder inte så bra.",
+          "timestamp": "39:08",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Då såg jag en helt sjukt statistik att USA köper 100% av det från Kina. Så att bara sådana saker och det är viktigt för många produkter framförallt inom försvar och batterier och sånt. Så kan man inte ha det. Det går ju inte.",
+          "timestamp": "39:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Så det där kommer ju ändras, punkt slut. Och kommer subventioneras.",
+          "timestamp": "39:27",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Så då har vi en politisk medvind, vi har en ekonomisk medvind för att det kommer att satsas massa pengar på det här. Och så har vi en geopolitiskt medvind.",
+          "timestamp": "39:29",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Så det är liksom staten och kapitalet sitter i samma båt, för att citera en känd låt.",
+          "timestamp": "39:35",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Och det pratas mycket om en bull market i råvarumarknaden i många, många år nu. Det har varit en lång bear market sen tidigt 2010-tal. Och det har vi börjat komma igång lite grann, i alla fall det har ju studsat.",
+          "timestamp": "39:39",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "En av de största konsulterna inom oljebranschen var ut med en stor rapport här igår om att drill baby drill var nya temat nu från BP och Shell och sånt för att det kommer, ja men det är Örstedtvå och det vi pratade om.",
+          "timestamp": "40:39",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Det kommer att ta mycket längre tid med att ta bort det fossila så att nu är det totalt underinvesterat i oljebranschen.",
+          "timestamp": "40:47",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Samtidigt som att världs efterfrågan om konsumtionen i världen slår ett nytt rekord varje år. Det slår nya rekord varje år.",
+          "timestamp": "41:31",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host1",
+          "text": "När de sitter och räknar på hur de ska ersätta fossilbränslen då tänker inte de på att energiefterfrågan exploderar. Så det går ju inte, det spelar ingen roll hur många vinkraftverk du bygger.",
+          "timestamp": "42:02",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Men däremot råvaror, alltså metaller och rare earths, det tar tid. Så jag är mer intresserad av det.",
+          "timestamp": "42:22",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Också råvaror är intressant i aspekten att det är lite okollererat.",
+          "timestamp": "42:26",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Höga priser på råvaror genererar alltid låga priser längre fram. För att det kommer ju minas mycket och pumpas mycket.",
+          "timestamp": "43:21",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "USA köper 100% av antimon från Kina",
+          "Konsumtionen slår nytt rekord varje år",
+          "Totalt underinvesterat i oljebranschen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "USA måste bli självförsörjande på kritiska råvaror",
+          "Politisk, ekonomisk och geopolitisk medvind",
+          "Staten och kapitalet samarbetar",
+          "Låg supply efter år av låga priser och investeringar",
+          "Potentiell ny bull market i råvaror",
+          "Ockorerat till resten av marknaden"
+        ],
+        "bear_case": [
+          "Höga priser på råvaror genererar låga priser längre fram när nya gruvor och pumpar kommer online",
+          "Geopolitiska risker"
+        ],
+        "catalysts": [
+          "Trump-administrationens subventioner för kritiska råvaror",
+          "Pentagon väljer vinnare i sektorn",
+          "Drill baby drill i oljebranschen"
+        ],
+        "risks": [
+          "Höga priser lockar ny supply som pressar priserna",
+          "Geopolitiska spänningar"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det man fått emot sig där är dollarn. Det är väl det som har varit det tråkigaste. Där har man ju tappat 4%. Annars hade väl ett snitt lite under 30 och nu är man uppe i 42-43. Risk reward har det varit en fantastisk resa. Det är klart att det går att hitta massa bolag som har gått mycket mer procent. Men här hade man på något sätt en, troligtvis en begränsad nedsida.",
+      "summary": "Risk/reward och begränsad nedsida är viktigt i investeringar.",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "12:30",
+      "confidence": "high",
+      "tags": [
+        "risk",
+        "reward",
+        "downside",
+        "risk management"
+      ]
+    },
+    {
+      "quote": "Det brukar vara så, att biotekosen har kommit tillbaka lite grann.",
+      "summary": "Biotech sektorn tenderar att komma tillbaka efter perioder av underprestation.",
+      "category": "wisdom",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "32:40",
+      "confidence": "medium",
+      "tags": [
+        "biotech",
+        "sector",
+        "cycles"
+      ]
+    },
+    {
+      "quote": "Och när alla är riktigt negativa så ska man ju köpa.",
+      "summary": "När marknadssentimentet är extremt negativt kan det vara dags att köpa.",
+      "category": "wisdom",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "10:21",
+      "confidence": "high",
+      "tags": [
+        "sentiment",
+        "contrarian",
+        "timing"
+      ]
+    },
+    {
+      "quote": "För varje dag som går, desto närmre blir det en vapenvila eller någon sorts fred.",
+      "summary": "Tiden arbetar för en lösning på konflikter.",
+      "category": "wisdom",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "22:13",
+      "confidence": "medium",
+      "tags": [
+        "geopolitics",
+        "time",
+        "patience"
+      ]
+    },
+    {
+      "quote": "Det var ju en kortsiktig trade som jag var i där och då. Så skulle jag välja ett års case och säga nej men jag tar den här kortsiktiga trading jag är i för jag tror att den kan bli bra.",
+      "summary": "Skilj på kortsiktig trading och långsiktiga investeringar.",
+      "category": "philosophy",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "30:35",
+      "confidence": "high",
+      "tags": [
+        "trading",
+        "investing",
+        "time horizon"
+      ]
+    },
+    {
+      "quote": "Du sa faktiskt bra att man ska aldrig korta på fundamenta. Det här är väl verkligen ett exempel på det.",
+      "summary": "Att korta på fundamenta är riskabelt, särskilt när alla köper.",
+      "category": "lesson",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "30:37",
+      "confidence": "high",
+      "tags": [
+        "shorting",
+        "fundamentals",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Geopolitiken har visat de sista åren är att vi måste ha våra egna supply chains och vår egen supply av kritiska råvaror.",
+      "summary": "Geopolitiken har visat vikten av egna supply chains och kritiska råvaror.",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "39:00",
+      "confidence": "high",
+      "tags": [
+        "geopolitics",
+        "supply chain",
+        "resources",
+        "strategic"
+      ]
+    },
+    {
+      "quote": "Höga priser på råvaror genererar alltid låga priser längre fram. För att det kommer ju minas mycket och pumpas mycket.",
+      "summary": "Höga råvarupriser leder till ökad supply och lägre priser i framtiden.",
+      "category": "wisdom",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "43:21",
+      "confidence": "high",
+      "tags": [
+        "commodities",
+        "cycles",
+        "supply",
+        "demand"
+      ]
+    },
+    {
+      "quote": "När de sitter och räknar på hur de ska ersätta fossilbränslen då tänker inte de på att energiefterfrågan exploderar. Så det går ju inte, det spelar ingen roll hur många vinkraftverk du bygger.",
+      "summary": "Energiefterfrågan exploderar med AI och datacenters, vilket gör att fossila bränslen inte kan ersättas på kort sikt.",
+      "category": "wisdom",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "42:02",
+      "confidence": "medium",
+      "tags": [
+        "energy",
+        "AI",
+        "demand",
+        "fossil fuels"
+      ]
+    },
+    {
+      "quote": "För att de här visionen ska falla ut som vi vill. Enkelt så ser man ju att det kommer krävas väldigt mycket råvaror.",
+      "summary": "AI och modern teknologi kräver enorma mängder råvaror.",
+      "category": "wisdom",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "37:11",
+      "confidence": "high",
+      "tags": [
+        "AI",
+        "commodities",
+        "resources",
+        "supply"
+      ]
+    },
+    {
+      "quote": "Men nu har det ju efter en sål så många år där det inte har varit intressant och priserna har varit låga, så blir ju supply inte särskilt stort heller. För ni har inte investerat så mycket. Nu kommer ju investeringarna.",
+      "summary": "Långa perioder av låga priser och lågt intresse leder till låg supply.",
+      "category": "wisdom",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "40:39",
+      "confidence": "high",
+      "tags": [
+        "commodities",
+        "supply",
+        "investments",
+        "cycles"
+      ]
+    },
+    {
+      "quote": "Det brukar vara så, att omvärderingstillfällena kommer när alla är riktigt negativa.",
+      "summary": "Omvärderingstillfällen uppstår när sentiment är extremt negativt.",
+      "category": "wisdom",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "33:07",
+      "confidence": "high",
+      "tags": [
+        "sentiment",
+        "revaluation",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Jag tycker att det är hoppfulling för andra halvåret.",
+      "summary": "Efter turbulent halvår finns det hopp för andra halvåret.",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "26:19",
+      "confidence": "low",
+      "tags": [
+        "optimism",
+        "timing",
+        "cycles"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet handlar om halvårssummering, SPAC-fest (CCIR), AI-bubblan, och råvaror. Host1 har haft galnaste halvåret någonsin med portfölj ner 36% efter Trump-crashen, nu upp 62% med Tigo som drivkraft. Både diskuterar råvaror som Hecla Mining och trenden att USA vill bli självförsörjande på kritiska råvaror med politisk medvind. Novo Nordisk upp på Eli Lillys dåliga oral-produkt data. CCIR som Ukraine-play inför möte mellan Trump och Putin.",
+  "key_takeaways": [
+    "Tigo har varit fantastisk men underanalyserad, Host1 minskar positionen",
+    "CCIR som Ukraine-play inför potentiell fred",
+    "Råvaror med politisk och geopolitisk medvind",
+    "Novo Nordisk upp på konkurrentens problem",
+    "Hecla Mining som USA:s största silverproducent med politisk medvind",
+    "AI-trenden kräver enorma mängder råvaror och energi",
+    "Örstedt och vindkraft har svängt kraftigt",
+    "Råvaror ockorerade till resten av marknaden"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2025-08-12-9c93.txt",
+  "transcript_word_count": 8513,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

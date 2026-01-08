@@ -1,0 +1,969 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2022-02-10-802c",
+  "podcast_name": "Market Makers",
+  "episode_title": "#217 Rapportkaos & MMANGA",
+  "episode_number": 217,
+  "date": "2022-02-10",
+  "hosts": [
+    "Fabian",
+    "Niklas"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Earnings reports",
+    "Big Tech",
+    "Market sentiment",
+    "January effect",
+    "Social media trends"
+  ],
+  "stocks_discussed": [
+    "Meta",
+    "Apple",
+    "Netflix",
+    "Alphabet",
+    "Amazon",
+    "Microsoft",
+    "Rivian"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Meta",
+      "ticker": "META",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "27:16",
+      "reasoning": "Jag sålde i det, jag tror jag hade Facebook då, men jag har ju sålt i det lilla Facebook jag hade, just för att jag känner att jag litar något riktigt på den visionen, jag litar inte på att de kommer att vara de som vinner på det här. Inte sätta i pengar i alla fall. Tveksam till Facebook när sentiment är så osäkert och krävs väldigt lite för att tippa över bolaget åt fel håll.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag känner mig väldigt tveksam till Facebook just nu. Jag kan tänka mig att jag var positiv säkert inte alls för länge sen men nu börjar man se att det vänder lite grann och det blir också väldigt mycket negativt sentiment kring bolaget. Vem ska vilja äga det när det känns så här pass osäkert liksom?",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Meta",
+      "ticker": "META",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "26:06",
+      "reasoning": "De tradas ju på en free cash flow multipel på cirka 17, 6 procent free cash flow yield och det kan nog alla säga är väldigt väldigt bra. Men då är frågan är det här free cash flowet hållbart? Man ser ju då som sagt avtagande reklam på plattformen. Man ser framförallt ökad capex, ökar med typ 70 procent det här året. Det innebär ju minskade marginaler. Det ser ju jätte billigt ut när man kollar bakåt men det finns mycket headwinds för Facebook just nu.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag vet faktiskt inte om Facebook är ett bra köp här eller inte. Kikar man bakåt så ser det ju väldigt billigt ut. De tradas ju på en free cash flow multipel på cirka 17, 6 procent free cash flow yield och det kan nog alla säga är väldigt väldigt bra. Men då är frågan är det här free cash flowet hållbart?",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "01:00:27",
+      "reasoning": "Inkluderad i bolagsportföljen. Starkt bolag med 20% tillväxt, Azure växer och äter marknadsandelar, LinkedIn växer 37%, Dynamics upp 45%. Starkt ekosystem med återköpsprogram på 11 miljarder dollar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag äger faktiskt Netflix, vi äger även det i bolagsportföljen och jag har även Microsoft.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": "Äger i bolagsportfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Netflix",
+      "ticker": "NFLX",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "01:00:33",
+      "reasoning": "Inkluderad i bolagsportföljen. Trots missade subscribers har Netflix minskat churn, ökat tittande, och haft årets största tv-serie (Squid Game) och största filmreleaser. Stark entertainment value och contentbibliotek.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag äger bara Netflix via bolagsportföljen.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": "Äger i bolagsportfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Meta",
+      "ticker": "META",
+      "timestamp_start": "14:41",
+      "timestamp_end": "30:06",
+      "word_count": 1200,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Omfattande diskussion om Metas (Facebooks) Q4-rapport där aktien föll 26% trots starka siffror. Huvudproblemen identifieras som Apples IDFA-förändringar som påverkar intäkter, tappande daily active users (1 miljon), och stagnerande tillväxt i USA/Kanada. TikTok nämns som ett växande hot. Metaverse-investeringar ses som riskfyllda och potentiellt margin-dränerande.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Men allmänt, Facebook-rapporten, den såg ju på ytan väldigt bra ut. Omsättningen för helåret växte 37%, för kvartalet växte 20%, vinsten växte 35% på helåret. Men man missade estimaten och framförallt så guidade man lägre tillväxt framöver, cirka 3-11% year on year i Q1 2022.",
+          "timestamp": "14:47",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Först och främst har Facebook haft väldigt stora problem med Apples IDFA-förändringar. Alltså hur Apple tillåter att tredje parter trackar data. Det här påverkar till exempel hur de kör targeting för annonser och så vidare. Det gör att Facebooks return on investment för deras kunder, alltså företag som är annonserade på Facebook, minskar.",
+          "timestamp": "15:28",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Och senaste två åren har ju deras största grej varit stories på Instagram, och det är de här små knapparna högst upp ovanför flödet, men det monetariserar de inte särskilt bra. Så deras största dragning på plattformen är någonting som de inte monetariserar.",
+          "timestamp": "23:32",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jag känner mig väldigt tveksam till Facebook just nu. Jag kan tänka mig att jag var positiv säkert inte alls för länge sen men nu börjar man se att det vänder lite grann och det blir också väldigt mycket negativt sentiment kring bolaget.",
+          "timestamp": "26:44",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "De tradas ju på en free cash flow multipel på cirka 17, 6 procent free cash flow yield och det kan nog alla säga är väldigt väldigt bra. Men då är frågan är det här free cash flowet hållbart?",
+          "timestamp": "26:06",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "6%",
+        "dividend_yield": null,
+        "revenue_growth": "37%",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Billig värdering med 17x FCF multipel och 6% FCF yield",
+          "Möjlighet att lösa IDFA-problemet likt andra bolag",
+          "Oculus nedladdningar ökade 70% YoY - potential i VR/Metaverse",
+          "Contrarian investing opportunity då sentiment är mycket negativt"
+        ],
+        "bear_case": [
+          "Apples IDFA-förändringar förväntas torska 10% av intäkterna 2022",
+          "Tapp av daily active users (1 miljon) och mindre tid i apparna",
+          "Stagnerande tillväxt i lönsammaste marknaderna (USA, Kanada)",
+          "TikTok tar marknadsandelar och användare",
+          "Ökad capex (70%) leder till minskade marginaler",
+          "Metaverse är en cash burn med osäker utveckling",
+          "Svagt monetariserade produkter (Stories, Reels, WhatsApp)"
+        ],
+        "catalysts": [
+          "Evolution av sociala medier mot mer entertainment (TikTok)",
+          "Lösningar på IDFA/privacy-problem",
+          "Metaverse-utveckling och Oculus-adoption"
+        ],
+        "risks": [
+          "Apple IDFA förändringar",
+          "TikTok konkurrens",
+          "Metaverse investeringar utan garanterad avkastning",
+          "Ökade kostnader och minskade marginaler"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "timestamp_start": "30:12",
+      "timestamp_end": "33:40",
+      "word_count": 400,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Apple levererade en rekordrapport med dubbelsiffrig tillväxt i omsättning och vinst trots supply chain problem. Mac-försäljningen på all time high tack vare M1-chippen. Apple Services genererar 20 miljarder dollar i kvartalet med närmast 100% marginal. Diskussion om potentiellt priskrig på plattformsavgifter.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Dubbel siffror, omsättning, sväxt och vinsttillväxt. Rekordrapport för kvartalet för både omsättning och vinst. Skitbra helt enkelt. Det är trots supply chain problemen vi ser i världen.",
+          "timestamp": "30:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det jag också tyckte var väldigt intressant här nu är att deras Mac-försäljning är på all time high. Det visar sig vara ett väldigt bra drag att börja producera sin egen M1-chip.",
+          "timestamp": "30:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det där är faktiskt jätteintressant med chipet, vi har ju pratat om det tidigare också, men de gick ifrån att använda en annan typ av design, eller en annan typ av teknik när de bygger de här chippen.",
+          "timestamp": "30:53",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Apple Services, det vill säga det de drar in från iTunes och App Store och så vidare. 20 miljarder dollar tror jag nästan det var uppe i det senaste kvartalet. Det här har ju växt varje kvartal egentligen, intäkterna från service delen.",
+          "timestamp": "31:34",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det är en ganska stor grej tror jag. Folk börjar bli mer och mer betalningsvilla för det också. Jag tror att det var förut så att man ville att det skulle vara gratis och man hade svårt att betala saker på nätet, men folk idag är så extremt vana vid att betala på nätet",
+          "timestamp": "32:21",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "dubbel siffror",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Apple Services intäkter: 20 miljarder USD/kvartal",
+          "Services marginal: närmast 100%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "M1-chip ger kostnadsbesparingar och säkerhet i leveranskedjan",
+          "Mac-försäljning på all time high",
+          "Apple Services växer med nästan 100% marginal",
+          "Ökande betalningsvilja för digitala tjänster"
+        ],
+        "bear_case": [
+          "Potentiellt priskrig på plattformsavgifter (30% kan behöva sänkas)",
+          "Supply chain problem kan påverka framtida tillväxt"
+        ],
+        "catalysts": [
+          "Fortsatt ökning av Apple Services",
+          "M1-chip expansion till fler produkter",
+          "Betalningsvilja för prenumerationstjänster"
+        ],
+        "risks": [
+          "Priskrig på app-butikavgifter",
+          "EU-reglering kring data och plattformsavgifter"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Netflix",
+      "ticker": "NFLX",
+      "timestamp_start": "33:43",
+      "timestamp_end": "38:42",
+      "word_count": 700,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Netflix föll 20% efter Q4-rapport där de missade subscriber-estimat. De kom in med 2,5 miljoner nya subs vs 4 miljoner året innan. Trots detta minskade churn, ökade tittande, och hade stora succéer (Squid Game, Red Notice, Don't Look Up). Diskussion om konkurrens från YouTube, TikTok och Disney+, samt skillnaden mellan user-generated och creator content-modeller.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Då var minst sagt en tuff rapport för Netflix. De kom in med färre nya subscribers än vad man väntar sig. De kom in med 2,5 miljoner för kvartalet jämfört med 4 miljoner året innan.",
+          "timestamp": "33:43",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jag tycker det är viktigt att påpeka att allting ser inte så illa ut för Netflix, även om de missar subs lite. De sa också att de hade minskat churn, vilket är otroligt imponerande, för den var redan väldigt väldigt låg.",
+          "timestamp": "34:11",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Netflix har en väldigt stor budget för att skapa innehåll. De betalar i förskott, de tar en stor risk. Om de finansierar Squid Game och Squid Game blir dåligt, då har man förlorat pengar.",
+          "timestamp": "38:27",
+          "context": "risk"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Så det som är fördelen med Youtube och allmänt med user generated content är att det är ingen investering. Och framförallt, det skalar väldigt bra eftersom det alltid kommer fler folk på plattformen som vill göra content.",
+          "timestamp": "40:59",
+          "context": "comparison"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Netflix har konstanta marginaler, eller fixerade kostnader, vilket gör att marginalen kan skala.",
+          "timestamp": "38:53",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "New subscribers: 2,5 miljoner (vs 4 miljoner föregående år)",
+          "Content budget: 14 miljarder USD/år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Minskad churn och ökat tittande per användare",
+          "Stort contentbibliotek med hök entertainment value",
+          "Fixerade kostnader gör att marginalerna kan skala med fler prenumeranter",
+          "Starka titlar som Squid Game, Red Notice, Don't Look Up",
+          "Flest nomineringar och vinster för en studio i Emmys och Oscars"
+        ],
+        "bear_case": [
+          "Missade subscriber-estimat",
+          "Konkurrens från Disney+, YouTube, TikTok",
+          "Hög content-budget (14 miljarder USD/år)",
+          "Risk att content inte levererar avkastning"
+        ],
+        "catalysts": [
+          "Fortsatt minskad churn",
+          "Nytt content",
+          "Internationell expansion"
+        ],
+        "risks": [
+          "Konkurrens från streamingtjänster",
+          "TikTok och YouTube konkurrens om tittartid",
+          "Höga content-kostnader"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Alphabet",
+      "ticker": "GOOGL",
+      "timestamp_start": "41:49",
+      "timestamp_end": "47:05",
+      "word_count": 600,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Google levererade ett starkt kvartal med dubblad vinst. YouTube har överstigit Netflix i omsättning (8,6 vs 7,7 miljarder USD). Google Cloud Platform växer 45% men är fortfarande olönsam. Diskussion om molnmarknaden där Amazon AWS leder med 1/3 marknadsandel, Microsoft Azure växer från 12,5% till 20%, och Google ökar från 5% till 10%. Google lider av marginalpress på grund av ökad overhead och molnförluster.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Rent allmänt, det var också ett väldigt starkt kvartal för Google, man dubblar typ vinsten. De verkar faktiskt ha gynnats rätt bra av Apples förändringar.",
+          "timestamp": "41:49",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "YouTube i Q4 fick upp en omsättning på 8,6 miljarder dollar medan Netflix under samma perioden drog in 7,7 miljarder dollar. Alltså att YouTube hade högre intäkter än Netflix under ett kvartal.",
+          "timestamp": "38:49",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Google Cloud Platform växte 45 % på året. Det drar nu in 5,5 miljarder dollar per år. Men de torskar fortfarande pengar, går med förlust till skillnad mot AVS och Azure som är lönsamma.",
+          "timestamp": "42:53",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Amazon har vi lyft många gånger. Amazon och dess AVS, alltså Amazon Web Services, det är ju fortfarande det största molnet i världen. De var ju först och äger fortfarande över en tredjedel av marknaden.",
+          "timestamp": "43:24",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det som verkligen har ökat, som sticker ut, som har en enorm tillväxttakt är Microsoft och deras Azure, som har gått från ungefär 12,5 procent till över 20 procent av marknaden.",
+          "timestamp": "43:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det jag tycker man ska påpeka här är att Google verkar lida av marginalkompletioner. Det är verkligen det kallet du drog förra gången.",
+          "timestamp": "46:27",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "YouTube omsättning: 8,6 miljarder USD (Q4)",
+          "Google Cloud omsättning: 5,5 miljarder USD/år",
+          "GCP tillväxt: 45%",
+          "GCP: olönsam",
+          "AWS marknadsandel: 1/3",
+          "Azure marknadsandel: >20%",
+          "Google Cloud marknadsandel: ~10%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "YouTube överstiger Netflix i omsättning med noll content-budget",
+          "GCP växer 45% och är stark inom AI/machine learning",
+          "Gynns av Apples IDFA-förändringar (annonsörer lämnar Facebook)",
+          "Stark data från sök och YouTube"
+        ],
+        "bear_case": [
+          "GCP är fortfarande olönsam (till skillnad från AWS och Azure)",
+          "Marginalpress från ökad overhead och molnförluster",
+          "Ökade capex drar ner fritt kassaflöde",
+          "Förlorar marknadsandelar i cloud till Microsoft Azure"
+        ],
+        "catalysts": [
+          "GCP lönsamhet",
+          "YouTube tillväxt",
+          "AI och machine learning fördelar"
+        ],
+        "risks": [
+          "Marginalpress",
+          "GCP lönsamhet",
+          "Konkurrens från AWS och Azure",
+          "Ökade investeringar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "timestamp_start": "47:25",
+      "timestamp_end": "51:20",
+      "word_count": 400,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Amazon slog vinstestimat men 80% av vinsten (11,8 av 14,3 miljarder) kom från Rivian-innehav. Rivian har fallit 40% sedan mark-to-market på 100 dollar. Core-business backade i vinst. International sales är ner. Annonsering upp 33%. Amazon Prime ökar priset från 119 till 139 dollar (20% ökning). Guidad tillväxt för Q1 är bara 3-8%.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "De kom med en rekordvinst här. 11,8 miljarder av deras vinst på 14,3 miljarder, alltså cirka 80 procent, kom från deras ägande av Rivian.",
+          "timestamp": "47:34",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Rivian har sedan dess fallit cirka 40 procent, det är väl halverats ungefär i värde. Skulle man utesluta vinsten från Rivian, den här one-off-effekten som inte kommer att finnas med nästa kvartal, då ser inte vinsten alls lika bra ut.",
+          "timestamp": "47:55",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Dessutom är international sales ner, alltså en av deras huvudsegment, där maskiner är såklart i reklam, vilket är rätt intressant. Amazon är väl tredje största reklamspelare i världen nu. Man är upp 33% för kvartalet.",
+          "timestamp": "48:16",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "En intressant grej är att de också har ökat kostnaden för Amazon Prime med cirka 20 dollar att gå från 119 dollar till 139 dollar om året. Så här har de verkligen pricing power.",
+          "timestamp": "48:26",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Men som vi sa i början, det här bolaget Amazon förväntar tillväxt i Q1 vara cirka 3-8%. Så det ser inte heller så jättetrevligt ut om man tar i hänsyn att vinsten var inte så attraktiv som den såg ut.",
+          "timestamp": "48:38",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "3-8% (Q1 guidance)",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Vinst: 14,3 miljarder USD",
+          "Rivian bidrag: 11,8 miljarder USD (80%)",
+          "International sales: ner",
+          "Advertising up: 33%",
+          "Prime price: 119→139 USD (+20%)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Amazon AWS är största molnleverantören med stabil marknadsandel på 1/3",
+          "Pricing power på Prime (20% prisökning)",
+          "Annonseringsverksamhet växer 33%"
+        ],
+        "bear_case": [
+          "80% av vinsten kom från one-off Rivian-effekt",
+          "Core-business backade i vinst",
+          "International sales ner",
+          "Låg tillväxt guidance för Q1 (3-8%)",
+          "Lövtunna marginaler på retail"
+        ],
+        "catalysts": [
+          "AWS tillväxt",
+          "International återhämtning"
+        ],
+        "risks": [
+          "Rivian-aktier faller (40% ned)",
+          "Låg tillväxt i retail",
+          "Lövtunna marginaler"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "timestamp_start": "50:52",
+      "timestamp_end": "59:22",
+      "word_count": 650,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Microsoft levererade starkt med 20% tillväxt i omsättning och vinst. Azure växer 30% och äter marknadsandelar i molnmarknaden. Productivity & Business Processes upp 20%. LinkedIn växer 37% med 10 miljarder USD i intäkter. Dynamics upp 45%. Windows upp 25%. Ett stort problem är EU-US data-konflikten som kan hota tillgången till amerikanska molntjänster i Europa.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Microsoft kom in med väldigt bra omsättning, väldigt bra tillväxt överlag på alla delar. Som sagt, Azure fortsätter växa och äta upp marknadsandelar.",
+          "timestamp": "50:52",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Omsättningen faller upp 20%, net income alltså, vinst i bolaget kommer också in på drygt 20%, vinst per aktie är också upp 22%, så ganska stadigt 20% tillväxt för Microsoft.",
+          "timestamp": "52:19",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Intäkter i det som kallas för productivity and business processes, det är här till exempel Office Ligger och även Dynamics, som är ett väldigt stort affärssystem, och faktiskt LinkedIn. Det ökade 20% i affärsområdet. LinkedIn för övrigt är jätteintressant, upp 37%, det växer som tusen.",
+          "timestamp": "52:26",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Dynamics är också jätteintressant. Det är ju ett jättestort affärsystem, det är ju tydligare Navision. Upp 45 procent.",
+          "timestamp": "54:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Apropå Azure, tittar vi på Intelligent Cloud, som det så fint heter, så ökar det 30 procent ungefär.",
+          "timestamp": "55:14",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Dessutom har man köpt tillbaka 11 miljarder dollar i aktier, så man gör återköpsprogram.",
+          "timestamp": "55:28",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det stora problemet som jag ser här med de här månbolagen, det är ju det här stora problemet nu mellan EU och USA. Och att det inte liksom finns ett bra sätt att använda amerikanska måntjänster inom Europa.",
+          "timestamp": "56:00",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det är jätteproblem och det kommer faktiskt drabba de amerikanska bolagen som tappar massa intäkter, men det kommer framförallt drabba Europa om man skulle gå på det här hårt.",
+          "timestamp": "58:55",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "20%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Net income up: 20%",
+          "EPS up: 22%",
+          "Productivity & Business Processes up: 20%",
+          "LinkedIn up: 37%",
+          "LinkedIn intäkter: 10 miljarder USD",
+          "Dynamics up: 45%",
+          "Intelligent Cloud up: 30%",
+          "Windows up: 25%",
+          "Återköp: 11 miljarder USD"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Azure växer 30% och tar marknadsandelar",
+          "LinkedIn växer 37% och börjar monetiseras bra",
+          "Dynamics upp 45% med sticky affärssystem",
+          "Starkt ekosystem med Office, Azure, LinkedIn, Dynamics",
+          "Windows upp 25%",
+          "Återköpsprogram på 11 miljarder USD",
+          "Hybrid-moln-lösning attraherar stora företag"
+        ],
+        "bear_case": [
+          "EU-US data-konflikt kan hota tillgången till Azure i Europa",
+          "GDPR och amerikanska spionlagar gör det svårt att använda amerikanska molntjänster i Europa",
+          "Google Analytics redan dömt som olagligt i Österrike"
+        ],
+        "catalysts": [
+          "Fortsatt molntillväxt",
+          "LinkedIn monetarisering",
+          "Dynamics expansion"
+        ],
+        "risks": [
+          "EU-reglering av amerikanska molntjänster",
+          "Förlust av europeiska kunder på grund av datalagar"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Många kommenterar rapporter tycker jag och säger att siffrorna såg jättebra ut, varför faller aktien? Okej, men det är två saker man måste fundera på. Ett, rate of change, alltså vad är förändringstakten? Ja, det är jättebra nu att vinsten i snitt växer 34 %. Men det är en lägre vinsttillväxt än 42 % som var i Q3 innan, vilket alltså då tyder på att det minskar tillväxten.",
+      "summary": "Marknaden fokuserar på förändringstakt snarare än absoluta siffror. Även om vinsttillväxten är positiv, kan aktien falla om tillväxttakten saktar ner (rate of change är viktigare än absokuta tal).",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "10:35",
+      "confidence": "high",
+      "tags": [
+        "earnings",
+        "rate of change",
+        "market psychology"
+      ]
+    },
+    {
+      "quote": "Det andra med rapporter är hur man guidar framåt. Det kan ju vara så att borde rapportera 100 % vinsttillväxt men så säger man ja, så är det nu, men nästa kvartal räknar vi med att vi kommer att gå back lika mycket. Där måste man fokusera på att guidningen är väldigt viktig, vad som händer i framtiden.",
+      "summary": "Framtida guidance är viktigare än historiska resultat. En stark rapport kan dräneras om bolaget guidar svagt för framtiden.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "11:03",
+      "confidence": "high",
+      "tags": [
+        "guidance",
+        "earnings",
+        "future expectations"
+      ]
+    },
+    {
+      "quote": "Ja verkligen. Och det är därför guidningen är viktig. Därför kan man också se ibland till på ett rapport. Prisen siffrorna kommer, då börjar robotarna handla och kanske de som börjar läsa rubrikerna. Och så går aktien upp först för att det är starka siffror. Men sen ser man ganska snabbt där efter att det har sjunkit. Det är ju oftast på conference-kålet efter eller att folk inte kan läsa längre rapporten. Så ser man att de guidar ganska svagt framåt.",
+      "summary": "Effektiva marknader reagerar snabbt: aktien går upp på starka siffror men faller när marknaden läser guidningen. Visa investerare läser hela rapporten, inte bara rubrikerna.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "11:41",
+      "confidence": "high",
+      "tags": [
+        "efficient markets",
+        "guidance",
+        "earnings reaction"
+      ]
+    },
+    {
+      "quote": "Det var rätt kul faktisk. Det har ju varit en pågående meme eller ett pågående skämt om just att det görs väldigt mycket memes med att okej, om jag inte klarar mig med krypto då finns allt i McDonalds. Om jag misslyckas med krypto då kan jag gå till McDonalds och det har varit ett stående skämt.",
+      "summary": "Krypto och McDonalds har blivit ett meme om riskfylld investering vs säkerhet, vilket visar hur krypto har normaliserats i mainstream-kulturen.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "06:59",
+      "confidence": "medium",
+      "tags": [
+        "crypto",
+        "memes",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Och i stort sett statistiken han visade här var att förutom förra året då, så förra året var ett undantag, så har varje år sedan 1950 som startat med ett januari som gått minus, så har det följts av en ny eller fortsatt björnmarknad eller en 10% korrektion på det som hände i januari eller att året har legat flätt.",
+      "summary": "January effect: Historiskt sett (sedan 1950) har negativ januari oftast följts av svagt börsår, björnmarknad eller 10% korrektion.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "07:59",
+      "confidence": "high",
+      "tags": [
+        "January effect",
+        "seasonality",
+        "market history"
+      ]
+    },
+    {
+      "quote": "Så januari går, så går året. Det är det det handlar om. Historiskt tittar man på det så brukar det vara så att så januari går, ungefär så kommer resten av börsen gå.",
+      "summary": "As goes January, so goes the year. Historiskt sätt tenderar börsen att följa januari-trenden resten av året.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "08:16",
+      "confidence": "high",
+      "tags": [
+        "January effect",
+        "seasonality",
+        "market indicator"
+      ]
+    },
+    {
+      "quote": "Tittar man på S&P 500s vinst per aktie och slår ut det över en graf och en trendlinje över det, alltså vad är snittillväxten på det där. Så ser vi att vi ligger långt, långt, långt över det här snittet. Det här brukar vara en sån graf där det har så kallad reversion to the mean, det vill säga att vi brukar återgå till snittet.",
+      "summary": "S&P 500 vinst per aktie ligger 40% över historisk trend, vilket tyder på reversion to the mean - vinsterna behöver komma ner för att återgå till genomsnittet.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "13:14",
+      "confidence": "high",
+      "tags": [
+        "reversion to the mean",
+        "market cycles",
+        "earnings"
+      ]
+    },
+    {
+      "quote": "Det du sa tidigare om att Facebook verkligen har varit och snackat senaste månaden om att det är ett value play för att den har blivit så pass billig. Och så helt plötsligt ser vi, det är verkligen så intressant hur marknaden verkligen alltid har rätt. Det finns en vanlig anledning till att Facebook gått ner med väldigt mycket och blivit väldigt billig, för att man har börjat se de här riskerna i intäkterna antagligen.",
+      "summary": "Marknaden är ofta effektiv. Om en aktie blivit billig, finns det vanligtvis en god anledning till det som marknaden redan prissatt.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "20:16",
+      "confidence": "high",
+      "tags": [
+        "efficient markets",
+        "value investing",
+        "market wisdom"
+      ]
+    },
+    {
+      "quote": "Facebook är lite som en indexinvestering medan TikTok är lite mer som en stockpicking.",
+      "summary": "Facebook är som en indexinvestering (lätt att få bra ROI) medan TikTok är mer som stockpicking (kräver mer skicklighet för att lyckas med reklam).",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "25:08",
+      "confidence": "medium",
+      "tags": [
+        "advertising",
+        "social media",
+        "marketing"
+      ]
+    },
+    {
+      "quote": "Jag tror man börjar förstå värdet man får ut av det. Ska du prysa i 20-30 spänn för en app? Då inser jag snabbt hur snabbt du får tillbaka värdet på den investeringen.",
+      "summary": "Folk har börjat förstå värdet av digitala tjänster och är mer betalningsvilliga, vilket driver tillväxt för App Stores och prenumerationstjänster.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "32:37",
+      "confidence": "medium",
+      "tags": [
+        "consumer behavior",
+        "digital services",
+        "payments"
+      ]
+    },
+    {
+      "quote": "Men det som är underskattat är snarare entertainment value. Var får tittaren mest underhållning? Vad kan de lägga majoriteten av sin tid på? Av streamingtjänsterna så är det ju Netflix. Det är faktor för att de har mest content, det finns mest att kolla där så de kommer lägga en massa majoriteten underhållning.",
+      "summary": "Entertainment value är viktigare än teknisk kvalitet. MrBeasts YouTube-videos har begränsad produktionsvärde men drar miljoner tittare för att de är underhållande.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "35:34",
+      "confidence": "high",
+      "tags": [
+        "entertainment",
+        "content value",
+        "streaming"
+      ]
+    },
+    {
+      "quote": "Men Netflix har en väldigt stor budget för att skapa innehåll. De betalar i förskott, de tar en stor risk. Om de finansierar Squid Game och Squid Game blir dåligt, då har man förlorat pengar, det är det jag har sagt. YouTube däremot betalar ju annonsintäkter endast i det som ger visningar, som man har en revenue share modell.",
+      "summary": "Netflix tar risk genom att betala förskott för content medan YouTube delar intäkter efteråt (revenue share). Netflix marginaler kan skala med fler prenumeranter medan YouTubes marginaler minskar med mer tittande.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "38:27",
+      "confidence": "high",
+      "tags": [
+        "business model",
+        "content strategy",
+        "margins"
+      ]
+    },
+    {
+      "quote": "Det som är fördelen med Youtube och allmänt med user generated content är att det är ingen investering. Och framförallt, det skalar väldigt bra eftersom det alltid kommer fler folk på plattformen som vill göra content.",
+      "summary": "User generated content skalar bättre än creator content eftersom det kräver ingen investering och nya kreatörer ständigt tillkommer.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "40:59",
+      "confidence": "high",
+      "tags": [
+        "content strategy",
+        "scaling",
+        "UGC"
+      ]
+    },
+    {
+      "quote": "YouTube betalar ut pengar efter att det har gått bra. Men, det där tycker jag är lite first level, för det du måste tänka på, du måste tänka på vad som händer när det här skalar. Om YouTube skalar från 1 miljon visningar i månaden, till 1 miljard visningar i månaden, då skalar ju också utgifterna på samma sätt, eftersom de har en revenue share modell.",
+      "summary": "YouTube revenue share-modell gör att kostnaderna skalar med intäkterna, medan Netflix har fixerade kostnader vilket gör att marginalerna kan skala med fler prenumeranter.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "38:53",
+      "confidence": "high",
+      "tags": [
+        "margins",
+        "scaling",
+        "business model"
+      ]
+    },
+    {
+      "quote": "Jag såg en graf på det där just. Det här är ju väldigt intressant just med molntjänster. Amazon har vi lyft många gånger. Amazon och dess AVS, alltså Amazon Web Services, det är ju fortfarande det största molnet i världen. De var ju först och äger fortfarande över en tredjedel av marknaden.",
+      "summary": "AWS har behållit stabilt en tredjedel av molnmarknaden sedan 2017. Microsoft Azure har växt från 12,5% till över 20% och utgör det största hotet mot Amazon.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "43:24",
+      "confidence": "high",
+      "tags": [
+        "cloud",
+        "market share",
+        "competition"
+      ]
+    },
+    {
+      "quote": "Det viktigaste att ta med sig är att det finns plats för samtliga här. Sen kommer du att åka upp och ner lite grann, vilka som har vilka marknadsandelar, men det finns plats för samtliga och marknaden i sig växer enormt mycket.",
+      "summary": "Molnmarknaden växer enormt mycket och det finns plats för flera stora aktörer (AWS, Azure, Google Cloud). Marknadsandelar kan skifta men alla kan växa.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "46:18",
+      "confidence": "high",
+      "tags": [
+        "cloud",
+        "market growth",
+        "competition"
+      ]
+    },
+    {
+      "quote": "Det som företaget använder och etablerar sig på, det kommer de att använda som Cloud Service och andra produkter också. Det är därför de vill få in dig på så mycket ekosystem som möjligt, för då kommer du inte bita bort dig.",
+      "summary": "Ekosystem-låsning är avgörande. Företaget använder samma leverantör för Office, Azure och andra tjänster. När man väl är i ekosystemet är det svårt att byta.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "46:04",
+      "confidence": "high",
+      "tags": [
+        "ecosystem",
+        "stickiness",
+        "business strategy"
+      ]
+    },
+    {
+      "quote": "Anledningen till att det inte är uppmärksammat som ett stort problem det är för att de flesta idag blundar för det. Eftersom det inte finns något alternativ till AVS och de andra amerikanska målniheter så bara blundar man och kör de här tjänsterna fast de egentligen är olagliga.",
+      "summary": "Många företag ignorerar att amerikanska molntjänster kan vara olagliga i Europa på grund av data-säkerhetslagar, eftersom det inte finns några bra alternativ.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "57:48",
+      "confidence": "high",
+      "tags": [
+        "GDPR",
+        "data privacy",
+        "EU-US conflict"
+      ]
+    },
+    {
+      "quote": "Det är jätteproblem och det kommer faktiskt drabba de amerikanska bolagen som tappar massa intäkter, men det kommer framförallt drabba Europa om man skulle gå på det här hårt. För det är vi som tappar HPC, vi har HPC, det är ingen molntjänster. Vi kommer liksom att skickas tillbaka till medeltiden, sett till IT.",
+      "summary": "EU-US datakonflikt hotar att skicka Europa tillbaka till IT-medeltiden om amerikanska molntjänster stängs ute. Europa saknar infrastrukturen för att bygga egna molntjänster.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "58:55",
+      "confidence": "high",
+      "tags": [
+        "data privacy",
+        "EU regulation",
+        "infrastructure"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "quote": "Det första är nedgången i krypto. Nu har det studsat ganska rejält i kryptomarknaden, men det var en rejäl nedgång där.",
+      "context": "Marknadsnedgång och volatilitet i krypto",
+      "confidence": "high",
+      "price_levels": null,
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "CRYPTO",
+      "asset_name": "Kryptovalutor",
+      "sentiment": "bearish",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "quote": "Vad var det 4% av amerikaner som sa att de nu var ekonomiskt fria på grund av krypto förra året? Och jag tänkte väl då, vad med de ekonomiska fria? Jag kan tänka mig att det var några som lyckades daytrade ihop en månadslön och så tänkte jag att det här kan jag göra på heltid. Och sen visar det sig att det kan jag nog inte göra.",
+      "context": "Falsk känsla av ekonomisk frihet från krypto-daytrading som inte håller i längden",
+      "confidence": "medium",
+      "price_levels": null,
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "quote": "Det har ju varit en pågående meme eller ett pågående skämt om just att det görs väldigt mycket memes med att okej, om jag inte klarar mig med krypto då finns allt i McDonalds.",
+      "context": "Krypto-McDonalds meme om riskfylld investering vs säkerhet",
+      "confidence": "medium",
+      "price_levels": null,
+      "timeframe": null
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet fokuserar på rapportperioden för Big Tech-bolagen (Meta, Apple, Netflix, Alphabet, Amazon, Microsoft). Generellt sett var resultaten starka men guidningar var svaga och marginalpress syns. Meta/Facebook drabbades hårt av IDFA-förändringar och tappande användare. Google har starkt kvartal men marginalpress från molnförluster. Amazon visade stark vinst till stor del från Rivian-innehav. Microsoft levererade stabilt med 20% tillväxt. Netflix missade subs men minskade churn. Ett stort hot är EU-US datakonflikten som kan drabba amerikanska molntjänster i Europa.",
+  "key_takeaways": [
+    "Marknaden fokuserar på rate of change och guidance snarare än absoluta siffror i rapporter",
+    "Meta/Facebook har svåra headwinds: IDFA-förändringar, tappande användare, och Metaverse-investeringar",
+    "Google Cloud växer 45% men är fortfarande olönsamt till skillnad från AWS och Azure",
+    "Amazon starka vinst till 80% från Rivian one-off-effekt, core-business backade",
+    "Microsoft Azure växer och äter marknadsandelar, LinkedIn växer 37%",
+    "EU-US datakonflikt utgör ett systemiskt hot mot amerikanska molntjänster i Europa",
+    "YouTube överstiger Netflix i omsättning med annonsmodell istället för content-budget"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2022-02-10-802c.txt",
+  "transcript_word_count": 13099,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

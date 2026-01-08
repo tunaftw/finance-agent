@@ -1,0 +1,183 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borsmaklarna-2023-11-16-81b4",
+  "podcast_name": "Pareto podcast",
+  "episode_title": "79. Historien bakom cybersäkerhetsföretaget Yubico",
+  "episode_number": 79,
+  "date": "2023-11-16",
+  "hosts": [
+    "Pareto-intervjuare"
+  ],
+  "guests": [
+    "Mattias Danielsson"
+  ],
+  "main_topics": [
+    "Cybersäkerhet",
+    "Multifaktor-autentisering",
+    "Ubiko"
+  ],
+  "stocks_discussed": [
+    "Ubiko"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Ubiko",
+      "ticker": null,
+      "timestamp_start": "[00:00]",
+      "timestamp_end": "[35:23]",
+      "word_count": 6006,
+      "speakers": [
+        "Pareto-intervjuare",
+        "Mattias Danielsson"
+      ],
+      "primary_speaker": "Mattias Danielsson",
+      "discussion_summary": "En heltäckande intervju med Ubikos VD Mattias Danielsson om företagets resa från startup till börsnotering. Diskuterar Ubikey-produkten som multifaktor-autentiseringslösning, dess tekniska säkerhet, kunder som Google, Microsoft och Amazon, samt tillväxtstrategi genom ökad penetration hos befintliga kunder.",
+      "quotes": [
+        {
+          "speaker": "Mattias Danielsson",
+          "text": "Grundedelen är enkel, men sedan ligger det en ganska avancerad teknik för att få en säker lösning. Men om man tar det från grunden, majoriteten av inloggning kring olika system sker idag fortfarande med hjälp av att använda andra lösenord. Och det vi gör är att vi lägger på ett extra lager. Vi använder annet identitet än lösenordet i autentiseringen.",
+          "timestamp": "[05:17]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mattias Danielsson",
+          "text": "Om man mäter global 2000, så är det en sån här mått på världens 2000 största noterade bolag. Ungefär en fjärrdel, 26 procent av dem är redan kunder till oss. Men bland dem som redan är kunder till oss är vår genomsnittliga penetration, alltså hur stor antalet användare från hur många anställda de har, ligger på ungefär 5-6 procent.",
+          "timestamp": "[13:46]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mattias Danielsson",
+          "text": "Senast kvartalet hade vi ungefär 87% bruttomarginal vilket gör att vi kan investera i att bygga den främsta mjukvaran och bygga upp organisationen.",
+          "timestamp": "[31:55]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mattias Danielsson",
+          "text": "Det vi har sagt är att vi ska ha en 25 procentig tillväxt på sikt, men så har vi sagt att i och med att vi har en så väldigt hög tillväxt under 2022, så har vi sagt att i år kommer det bli lite av ett mellanår.",
+          "timestamp": "[28:58]",
+          "context": "financial_target"
+        },
+        {
+          "speaker": "Mattias Danielsson",
+          "text": "Ert ebitmarginalmål på 20 procent, ni ligger lite under det, gear to date. Just det, vi ligger på 15 procent gear to date och det beror delvis på att vi under det senaste kvartalet hade vissa kostnader av engångskarakter.",
+          "timestamp": "[34:11]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "25% mål på lång sikt",
+        "margin": "15% EBIT (current), 20% EBIT (target), 87% bruttomarginal",
+        "debt_level": null,
+        "custom": [
+          "26% penetration hos Global 2000",
+          "5-6% genomsnittlig användarpenetration hos kunder",
+          "132% årlig återköpsfrekvens hos 50 största kunder"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Säkraste lösningen på marknaden för multifaktor-autentisering",
+          "Starkt varumärke bland säkerhetsexperter och tech-kunniga",
+          "Nätverkseffekter genom ambassadörer hos kunder",
+          "Låg penetration hos befintliga kunder (5-6%) ger stor tillväxtpotential",
+          "Hög bruttomarginal (87%) möjliggör investeringar",
+          "Regulatoriska krav driver efterfrågan"
+        ],
+        "bear_case": [
+          "Konkurrens från mjukvarubaserade lösningar som är lättare att rulla ut",
+          "Hårdvaru-scaling tar tid jämfört med mjukvara",
+          "Kritisk halvledarkomponent kan orsaka leveransproblem"
+        ],
+        "catalysts": [
+          "Regulatoriska krav från amerikanska myndigheter och SEC",
+          "Ökande cyberattacker driver säkerhetsbehov",
+          "Trender som AI och post-quantum-kryptering kräver högre säkerhet"
+        ],
+        "risks": [
+          "Komponentbrist i halvledare",
+          "Konkurrenter kopierar öppna standarder",
+          "Kunder föredrar mjukvarulösningar"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Vår stora fördel när vi kommer in och jobbar mot en företagsförsäljning är att vi har ambassadörer i källaren som vi säger. Om du är säkerhetsintresserad eller säkerhetsexpert då känner du allmän till vår produkt och har förmodligen en på nyckelnippan. Och vi har lyckats bygga ett starkt varumärke bland säkerhetsexperter och teknikkunniga personer.",
+      "summary": "Nätverkseffekter och ambassadörer är kritiska för B2B-försäljning. Att bygga ett starkt varumärke bland experter och entusiaster skapar organisk tillväxt.",
+      "category": "philosophy",
+      "speaker": "Mattias Danielsson",
+      "speaker_role": "guest",
+      "timestamp": "[17:28]",
+      "confidence": "high",
+      "tags": [
+        "nätverkseffekter",
+        "varumärkesbyggande",
+        "B2B-försäljning"
+      ]
+    },
+    {
+      "quote": "De gånger vi har haft problem, vi hade till exempel ett känt problem med en vi hade en underleverantör av ett chip och då visade vi att det var en felaktig implementering av en algoritm där som gjorde att ett visst use case för kryptering så var det inte alls så säkert som det borde vara. Då kommunicerar man kring det här på ett genomtänkt sätt så att man hinner täcka igen problemet först. Då sa vi att om du är bekymrad över säkerheten på dina nöklag då får du byta ut dem. Vi skickar ersättningsprodukter och vi förvaktar inte dölja problemet. Jag tror att den typen av transparens och långsiktighet har tjänat oss väldigt välgå och byggt ett starkt varumärke.",
+      "summary": "Transparens och snabb åtgärd när problem uppstår bygger förtroende och långsiktigt varumärke. Att inte dölja problem stärker kundrelationen.",
+      "category": "lesson",
+      "speaker": "Mattias Danielsson",
+      "speaker_role": "guest",
+      "timestamp": "[18:10]",
+      "confidence": "high",
+      "tags": [
+        "transparens",
+        "kris Kommunikation",
+        "varumärkesbyggande"
+      ]
+    },
+    {
+      "quote": "Det som jag tror gör oss unika är att vi har en nyckel som passar i så många lås. Dels så har vi byggt upp ett starkt varumärke, men om man tittar i rena funktionaliteten, det som gör oss unika är att vi har en väldigt... en lite sån här schweiziska märkning. Vill du använda en Ubiquite som du använder smartcard, då kan man faktiskt göra det. Vill du använda det med en one-time-password, vilket är inte lika säkert, ja då kan du göra det, men det är vissa system som kräver det. Vill du använda det öppna protokollet, då har vi förstås det.",
+      "summary": "Produktens universalitet och kompatibilitet med flera standarder skapar ett unikt värdeerbjudande och högre inträdesbarriärer.",
+      "category": "philosophy",
+      "speaker": "Mattias Danielsson",
+      "speaker_role": "guest",
+      "timestamp": "[20:56]",
+      "confidence": "medium",
+      "tags": [
+        "produktstrategi",
+        "universalitet",
+        "kompatibilitet"
+      ]
+    },
+    {
+      "quote": "Om man tittar på våra 50 största kunder 2017, hur mycket nycklar köpte de under de kommande fem åren. I genomsnitt så köpte de om de köpte 10 000 nycklar 2017, då köpte de 13 200 nycklar 2018, 13 200 nycklar till 2019 och så vidare. Så vi hade 132 procent årlig återköpsfrekvens.",
+      "summary": "Hög återköpsfrekvens indikerar stark kundlojalitet och återkommande intäkter. Befintliga kunder har stor tillväxtpotential.",
+      "category": "wisdom",
+      "speaker": "Mattias Danielsson",
+      "speaker_role": "guest",
+      "timestamp": "[16:09]",
+      "confidence": "high",
+      "tags": [
+        "kundlojalitet",
+        " återkommande intäkter",
+        "tillväxt"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Intervju med Ubikos VD Mattias Danielsson om cybersäkerhetsbolagets resa, produkt och tillväxtstrategi. Ubiko tillhandahåller fysiska säkerhetsnycklar (Ubikey) för multifaktor-autentisering, med kunder som Google, Microsoft och Amazon. Företaget har 26% penetration hos Global 2000 men endast 5-6% användarpenetration hos dessa kunder, vilket indikerar stor tillväxtpotential. Finansiella mål: 25% årlig tillväxt och 20% EBIT-marginal på femårssikt. Regulatoriska krav och ökande cyberattacker driver efterfrågan.",
+  "key_takeaways": [
+    "Ubiko har starkt varumärke bland säkerhetsexperter med nätverkseffekter",
+    "Låg penetration hos befintliga kunder ger stor tillväxtpotential",
+    "Hög bruttomarginal (87%) möjliggör investeringar",
+    "Regulatoriska krav driver efterfrågan på multifaktor-autentisering",
+    "Mål: 25% tillväxt och 20% EBIT-marginal på lång sikt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borsmaklarna/transcripts/borsmaklarna-2023-11-16-81b4.txt",
+  "transcript_word_count": 6006,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

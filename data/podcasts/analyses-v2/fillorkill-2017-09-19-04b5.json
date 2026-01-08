@@ -1,0 +1,522 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2017-09-19-04b5",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 128 - 1+1=3",
+  "episode_number": 128,
+  "date": "2017-09-19",
+  "hosts": [
+    "Phil",
+    "Lomolfär"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Fingerprint vinstvarning",
+    "Autoliv bolagssplit",
+    "Bavarian biotech misslyckande",
+    "Bitcoin volatilitet",
+    "Räntebesked väntan"
+  ],
+  "stocks_discussed": [
+    "Fingerprint",
+    "Autoliv",
+    "Bavarian",
+    "Ericsson"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Fingerprint Cards",
+      "ticker": "FING-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Lomolfär",
+      "speaker_role": "host",
+      "timestamp": "[08:56]",
+      "reasoning": "Tredje vinstvarningen för i år visar att förväntningarna var dubbla (analytiker förväntade 1,6 miljarder men blev 800 miljoner). Otydlig guidning och bristande förtroende i ledningen. Företaget har inte lärt sig att kommunicera negativa nyheter. Har 933 miljoner i kassan men kan behöva ta in pengar om kassaflödet är dåligt. Extremt svårt att värdera och handla.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men jag ser inget, jag är väl avvakta eller sälj här. Jag vågar inte, skulle inte våga ge mig in och köpa här.",
+      "sector": "Technology",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Företaget har bränt hela kassan via uppköp och återköp, kan behöva nyemission",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Autoliv",
+      "ticker": "ALIV-SDB",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "timestamp": "[14:33]",
+      "reasoning": "Kapitalmarknadsdag där de meddelar övervägande att splitta bolaget inom ett år. Active Safety-delen (självkörande bilar) är den hetta men omsätter bara en tiondel eller sjundedel av den tråkigare delen. Marknaden gillade beskedet med 10% uppgång. Håll koll på värderingen av Active Safety-deln då peers som Mobileye handlas till brutala värderingar. Intressant om 1+1 blir 3 scenario.",
+      "price_target": null,
+      "time_horizon": "medellång",
+      "quote": "Så ska man nog hålla koll på den där aktiv safety-delen, för Intel köpte väl Mobileye och många peers som handlas till brutala värderingar på prices.",
+      "sector": "Automotive",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Bolagssplit inom ett år"
+    },
+    {
+      "stock_name": "Bavarian Nordic",
+      "ticker": "BAVA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Lomolfär",
+      "speaker_role": "host",
+      "timestamp": "[17:24]",
+      "reasoning": "Biotech-bolag vars monoterapi inom prostatacancer misslyckades helt. Aktien föll 60-70% från 440 till 180, men har återhämtat sig till 253 (50% uppgång från botten). Extremt svårt att värdera efter sådan nyhet - ingen riktigt vet hur de ska ta beskedet. Stora möjligheter för traders med liten size. Informationsskillnad där analytiker inte vet varför det failade.",
+      "price_target": null,
+      "time_horizon": "kort",
+      "quote": "Det är väl intressant, jag tror att det kommer komma mer action här när de kan presentera själva lite mer studiedata, var det var som failade... Och så går det säkert lite sån här automatstoppar, att när den väl är på väg att öppna då blir det tvångsförsäljning och liknande.",
+      "sector": "Biotechnology",
+      "market": "denmark",
+      "position_context": null,
+      "downside_note": "60-70% nedgång på misslyckande",
+      "catalyst_timing": "När mer studiedata presenteras"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Fingerprint Cards",
+      "ticker": "FING-B",
+      "timestamp_start": "[01:03]",
+      "timestamp_end": "[10:31]",
+      "word_count": 1200,
+      "speakers": [
+        "Phil",
+        "Lomolfär"
+      ],
+      "primary_speaker": "Lomolfär",
+      "discussion_summary": "Tredje vinstvarningen för i år med extremt stora missar (analytiker förväntade 1,6 miljarder men blev 800 miljoner). Ledningen har tidigare sålt aktier och har dålig kommunikationsstrategi. Företaget skyllar på Apple Face ID men känns ologiskt. Trots iris-teknologi via Delta-köpet saknas förtroende. Båda hostarna är avvakta/negativa - ingen vågar köpa eller korta. Diskussion om hur det kan bli en långsam väg upp snarare än snabb studs.",
+      "quotes": [
+        {
+          "speaker": "Phil",
+          "text": "Vi ska prata om fingerprint såklart.",
+          "timestamp": "[01:03]",
+          "context": "other"
+        },
+        {
+          "speaker": "Lomolfär",
+          "text": "Jag gjorde faktiskt inte ett enda avslut i Fingerprint i går. Med motiveringen? Nej, att jag är för dålig. Jag tycker det är helt omöjligt.",
+          "timestamp": "[02:25]",
+          "context": "other"
+        },
+        {
+          "speaker": "Phil",
+          "text": "Jag såg väl någon som lade ut 600 000 fingerprint i ett klick. Och det får mig lite ont i magen om.",
+          "timestamp": "[03:33]",
+          "context": "other"
+        },
+        {
+          "speaker": "Phil",
+          "text": "Det som kändes extremt här var ju att förväntningarna var dubbla. Analytikernas förväntningar på omsättningen var runt 1,6 miljarder och nu blev det runt 800 miljoner.",
+          "timestamp": "[07:51]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Lomolfär",
+          "text": "Jag kollade idag, de hade 933 miljoner i senaste rapporten i kassan och så hade de lite kundfodring i en hållet och lite banklån åt andra hållet. Men man måste väl ha lite rörelsekapital för att ha starka kunder som vågar göra affärer med.",
+          "timestamp": "[08:26]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Lomolfär",
+          "text": "Men jag ser inget, jag är väl avvakta eller sälj här. Jag vågar inte, skulle inte våga ge mig in och köpa här.",
+          "timestamp": "[08:56]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Phil",
+          "text": "Jag vet inte heller, jag har faktiskt ingen anling. Jag skulle inte heller vilja köpa den. Jag skulle inte våga korta den heller. Jag vågar inte handla den som sagt.",
+          "timestamp": "[09:04]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Phil",
+          "text": "Man kan säga att det är lite intressant att den toppade i princip den dagen den kommer i OMX30. Med allt från spreadar till möjligheter kanske för blankare och aktielån och liknande.",
+          "timestamp": "[10:06]",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Kassa: 933 MSEK",
+        "custom": [
+          "Riktade intäkter: 800 MSEK vs förväntade 1,6 MSEK",
+          "Kurs vid inspelning: runt 27-25 SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Iris-teknologi via Delta kan vara säkrare än Face ID",
+          "Potentiell långsam återhämtning om ledningen förnyas"
+        ],
+        "bear_case": [
+          "Tredje vinstvarningen visar bristande kontroll",
+          "Ledning har sålt aktier - bristande förtroende",
+          "Analytikermissar visar extrem dålig guidning",
+          "Försenade misskommunikationer",
+          "Kassan kan vara slut efter uppköp och återköp",
+          "Företagsskifte kan vara permanent"
+        ],
+        "catalysts": [
+          "Ny ledning eller ägare som kan vända företaget",
+          "Bättre kommunikationsstrategi",
+          "Rapport om kassaflöde"
+        ],
+        "risks": [
+          "Nödvändig nyemission om kassaflöde dåligt",
+          "Fortsatt nedgång - post announcement drift kan fortsätta flera dagar",
+          "Indexfonder intvingades vid OMX30 inträde men säljer nu"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Bavarian Nordic",
+      "ticker": "BAVA",
+      "timestamp_start": "[14:34]",
+      "timestamp_end": "[17:24]",
+      "word_count": 500,
+      "speakers": [
+        "Phil",
+        "Lomolfär"
+      ],
+      "primary_speaker": "Lomolfär",
+      "discussion_summary": "Danskt biotech-bolag vars monoterapi inom prostatacancer failade totalt. De fick råd från en extern rådgivare att inte gå vidare. Aktien stängde 440 och öppnade runt 180 (60-70% nedgång), men har återhämtat till 253. Muddy Waters försökte korta 2015 men kursen gick från 100 till 440. Extremt svårt att värdera efter sådan nyhet - ingen vet verkligen vad det betyder. Båda hostarna diskuterar tradingstrategier.",
+      "quotes": [
+        {
+          "speaker": "Lomolfär",
+          "text": "Deras monoterapi inom prostatecanser... Den gick på pumpen totalt. De kunde bara gå ut och säga att den inte skulle fortsätta.",
+          "timestamp": "[15:06]",
+          "context": "other"
+        },
+        {
+          "speaker": "Lomolfär",
+          "text": "Då skulle jag klicka in att jag skulle köpa där såklart. Men jag klickade sälj istället. Sedan gick den upp 20-30 spänn och jag torskade väldigt mycket pengar.",
+          "timestamp": "[15:26]",
+          "context": "other"
+        },
+        {
+          "speaker": "Lomolfär",
+          "text": "Jag såg en annan kul grej, såg jag Carysdale, en sån här som Muddy Water eller någon form av hedgefond blankaliknande. De var ut i 2015 och sa att det här kommer floppa och de klappade sig för bröstet här. Men kursen har väl gått från 100 till 440 på den här tiden.",
+          "timestamp": "[16:19]",
+          "context": "other"
+        },
+        {
+          "speaker": "Phil",
+          "text": "Att vara blankare i biotech, det känns ju onekligen, det känns som att tailrisken där är rätt stor.",
+          "timestamp": "[16:49]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Phil",
+          "text": "Ofta kan det vara bra att köpa innan ett resultat och sen sälja precis innan.",
+          "timestamp": "[17:16]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Phil",
+          "text": "Det är väl intressant, jag tror att det kommer komma mer action här när de kan presentera själva lite mer studiedata, var det var som failade.",
+          "timestamp": "[17:24]",
+          "context": "catalysts"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kurs före misslyckande: 440 DKK",
+          "Kurs direkt efter: 180 DKK",
+          "Kurs vid inspelning: 253 DKK",
+          "Nedgång: 60-70% initialt, 50% uppgång från botten"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Informationsskillnad - ingen vet varför det failade",
+          "Historisk styrka - motstod Muddy Waters attack 2015",
+          "Återhämtning från 180 till 253 visar köpintresse",
+          "När mer studiedata presenteras kan värderingen klarna"
+        ],
+        "bear_case": [
+          "Extern rådgivare rekommenderade att stoppa studien",
+          "Extrem volatilitet - 60-70% nedgång på negativt besked",
+          "Biotech tail-risken vid korta positioner"
+        ],
+        "catalysts": [
+          "Mer detaljerad studiedata",
+          "Nyhet om varför studien failade",
+          "Potentiella uppdateringar på andra studier"
+        ],
+        "risks": [
+          "Ytterligare misslyckanden i studier",
+          "Värdet kan gå till noll på nyhet",
+          "Extrem svårighet att värdera"
+        ]
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det finns ju till och med studier på det där, att det blir en drift några dagar efteråt, som kan vara rätt långt, att det fortsätter ner.",
+      "summary": "Efter vinstvarningar tenderar aktier att fortsätta nedåt under flera dagar (post-announcement drift)",
+      "category": "wisdom",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "timestamp": "[03:51]",
+      "confidence": "high",
+      "tags": [
+        "post-announcement drift",
+        "vinstvarning",
+        "marknadspsykologi"
+      ]
+    },
+    {
+      "quote": "Man kan säga att det är lite intressant att den toppade i princip den dagen den kommer i OMX30. Med allt från spreadar till möjligheter kanske för blankare och aktielån och liknande. Så det säger en del om att bara för att man kommer in i OMX30 och alla indexfonder måste köpas så är det inte någon garanti för succé.",
+      "summary": "Att gå in i OMX30 och tvingande köp från indexfonder är ingen garanti för framgång - kan vara toppen",
+      "category": "wisdom",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "timestamp": "[10:06]",
+      "confidence": "high",
+      "tags": [
+        "OMX30",
+        "indexfonder",
+        "marknadstoppar"
+      ]
+    },
+    {
+      "quote": "Att vara blankare i biotech, det känns ju onekligen, det känns som att tailrisken där är rätt stor. Det blir ju brutal när det väl sitter, om de sätter en studie liksom.",
+      "summary": "Att korta biotech-aktier har extrem tail-risk - en positiv studie kan få aktien att explodera uppåt",
+      "category": "wisdom",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "timestamp": "[16:49]",
+      "confidence": "high",
+      "tags": [
+        "biotech",
+        "shorting",
+        "tail-risk"
+      ]
+    },
+    {
+      "quote": "Ofta kan det vara bra att köpa innan ett resultat och sen sälja precis innan.",
+      "summary": "Strategi för biotech: köp långt innan resultatet när hopp byggs upp, sälj precis innan resultatet publiceras",
+      "category": "wisdom",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "timestamp": "[17:16]",
+      "confidence": "medium",
+      "tags": [
+        "biotech",
+        "trading",
+        "event-strategy"
+      ]
+    },
+    {
+      "quote": "Jag tycker det är fascinerande i själva releaseen eller i hela historien här är ju att de skrev att folk har varit väldigt avvaktande till Apple, att de ska presentera. Och sen så blev det ju den här Face ID. Och då ska väl alla kineser lite för dem som kopierar ihop det här på något halvår eller någonting.",
+      "summary": "Teknologisk osäkerhet - konkurrenter kan kopiera innovationer snabbt (kinesiska företag kopierar Face ID på ett halvår)",
+      "category": "wisdom",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "timestamp": "[04:51]",
+      "confidence": "medium",
+      "tags": [
+        "teknologi",
+        "konkurrens",
+        "innovation"
+      ]
+    },
+    {
+      "quote": "Ja, och så finns det kanske lite mer folk med belåning och sådana grejer. Och det kan man ju creda till nätmäcklarna i fingerprints fall, att det inte har varit belåning, det har nog räddat väldigt många.",
+      "summary": "Att sakna belåning hos nätmäklare kan vara en fördel vid krascher - mindre risk för tvångsförsäljningar och kredithändelser",
+      "category": "wisdom",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "timestamp": "[17:54]",
+      "confidence": "high",
+      "tags": [
+        "belåning",
+        "riskhantering",
+        "kreditrisk"
+      ]
+    },
+    {
+      "quote": "Det säger en del om hur svårt det är att värdera ett sånt här case efter en sån här nyhet. Så det är, man ska verkligen gå in som trader med liten size men det finns verkligen stora möjligheter för det.",
+      "summary": "Efter katastrofnyheter i biotech är det extremt svårt att värdera men finns stora möjligheter för traders med liten position",
+      "category": "wisdom",
+      "speaker": "Lomolfär",
+      "speaker_role": "host",
+      "timestamp": "[16:09]",
+      "confidence": "high",
+      "tags": [
+        "biotech",
+        "värdering",
+        "position sizing"
+      ]
+    },
+    {
+      "quote": "Jag tror att problemet är att människor är inte så coola, att det räcker för att du ska ha förtroende för. Utan jag tror att förtroendet kommer från att du har en centralbank eller ett stat som står bakom.",
+      "summary": "Förtroende för valuta och pengar kräver stödet från en centralbank eller stat - människor är inte tillräckligt rationella för att lita på decentraliserade system",
+      "category": "philosophy",
+      "speaker": "Lomolfär",
+      "speaker_role": "host",
+      "timestamp": "[21:37]",
+      "confidence": "high",
+      "tags": [
+        "förtroende",
+        "centralbanker",
+        "valuta"
+      ]
+    },
+    {
+      "quote": "Men liksom att alla de här stora dipparna, hittills har ju alla alltid belönats med By the Dip. Och det är extremt få människor som ens kan gå kort. Så det är ju bara ett riktigt säljflöd.",
+      "summary": "Historiskt har stora dippar i Bitcoin belönats av Buy the Dip - väldigt få kan korta vilket skapar en asymmetrisk situation",
+      "category": "wisdom",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "timestamp": "[25:05]",
+      "confidence": "high",
+      "tags": [
+        "bitcoin",
+        "buy-the-dip",
+        "marknadspsykologi"
+      ]
+    },
+    {
+      "quote": "Om inte många känner att de på tåget redan har gått.",
+      "summary": "När \"män på gatan\" börjar köpa en asset kan det vara en signal att toppen är nära",
+      "category": "wisdom",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "timestamp": "[27:28]",
+      "confidence": "medium",
+      "tags": [
+        "marknadstoppar",
+        "retail",
+        "indikatorer"
+      ]
+    },
+    {
+      "quote": "Man kan säga att det är lite intressant att den toppade i princip den dagen den kommer i OMX30. Med allt från spreadar till möljigheter kanske för blankare och aktielån och liknande.",
+      "summary": "Indexfonder och tvingande köp vid inträde i OMX30 kan skapa artificiella toppar",
+      "category": "wisdom",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "timestamp": "[10:06]",
+      "confidence": "high",
+      "tags": [
+        "indexfonder",
+        " OMX30",
+        "marknadstoppar"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Lomolfär",
+      "speaker_role": "host",
+      "quote": "Jag la ju på en kortning här igår var det väl, via en CFD. Och så fick jag mycket mothugg på varför jag gjorde det. Men jag är fortfarande någonstans brekgiven på den här påsen.",
+      "context": "Diskussion om Bitcoin kortning efter Jamie Dimons kommentarer om att det är en scam",
+      "confidence": "medium",
+      "price_levels": [
+        "uppe i nästan 5.000",
+        "nere på 3.000"
+      ],
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Lomolfär",
+      "speaker_role": "host",
+      "quote": "Den kan ju stå i hundratusen, den kan stå i noll. Så det är därför när jag säger att jag kortar den så får ingen tro att jag går in med size i den här. Det är livsfarligt.",
+      "context": "Diskussion om Bitcoins extrema volatilitet och risk",
+      "confidence": "high",
+      "price_levels": [
+        "hundratusen",
+        "noll"
+      ],
+      "timeframe": "obestämd"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Lomolfär",
+      "speaker_role": "host",
+      "quote": "Jag tror att problemet är att människor är inte så coola, att det räcker för att du ska ha förtroende för. Utan jag tror att förtroendet kommer från att du har en centralbank eller ett stat som står bakom.",
+      "context": "Diskussion om Bitcoins förtroendeproblem jämfört med guld och fiat-valutor",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "lång sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "quote": "Men liksom att alla de här stora dipparna, hittills har ju alla alltid belönats med By the Dip. Och det är extremt få människor som ens kan gå kort. Så det är ju bara ett riktigt säljflöd.",
+      "context": "Diskussion om historiskt mönster att Bitcoin-dippar belönas",
+      "confidence": "medium",
+      "price_levels": [
+        "3000",
+        "2500"
+      ],
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Phil",
+      "speaker_role": "host",
+      "quote": "Och det gick ju bra för dem den här gången och sen ska jag säga innan vi går vidare, att bland dina kompisar, är det någon liksom som inte håller på med börsen eller någonting som har investerat i bitcoin?",
+      "context": "Diskussion om att bitcoin har potential om 'män på gatan' börjar köpa",
+      "confidence": "low",
+      "price_levels": [
+        "80"
+      ],
+      "timeframe": "obestämd"
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet domineras av diskussioner om Fingprints tredje vinstvarning med omfattande missar och förtroendeproblem. Autoliv potentiell bolagssplit ger hopp om 1+1=3 scenario. Bavarian Nordic biotech-misslyckande skapar extrem volatilitet och värderingsosäkerhet. Bitcoin diskuteras med blandande sentiment - kortad av en host men historiskt har dippar belönats. Marknaden generellt beskrivs som seg men sakta uppåtgående.",
+  "key_takeaways": [
+    "Fingerprint tredje vinstvarning visar extrem dålig guidning och ledningens misslyckande med kommunikation",
+    "Post-announcement drift - aktier tenderar att fortsätta nedåt efter vinstvarningar under flera dagar",
+    "Att gå in i OMX30 är ingen garanti för framgång, kan vara toppen",
+    "Biotech-aktier har extrem tail-risk vid kortning - en positiv studie kan få aktien att explodera",
+    "Bitcoin-volatilitet gör det nästan omöjligt för butiker att ta betalt i det",
+    "Historiskt har alla stora Bitcoin-dippar belönats av Buy the Dip",
+    "När 'män på gatan' börjar köpa kan det vara signal om topp",
+    "Indexfonder kan skapa artificiella toppar vid tvingande köp"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2017-09-19-04b5.txt",
+  "transcript_word_count": 6186,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

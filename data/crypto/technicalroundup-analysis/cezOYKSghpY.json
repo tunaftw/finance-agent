@@ -1,0 +1,137 @@
+{
+  "source_id": "cezOYKSghpY",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-07-08",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "strongly_bullish",
+      "speaker": "Duck",
+      "context": "20k is the 2017 all-time high and 'the best level on the chart' to bid, expecting mean reversion to 30k+",
+      "quote": "20k is some version of very important support right... it's the best level on the chart...the best kind of price level in general",
+      "price_levels": [
+        "$20k",
+        "$28k",
+        "$30k+",
+        "$36k-$38k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Discussing technical setup with higher low and potential higher high formation, warning about 200-week MA risk",
+      "quote": "I don't think this is the best place for fresh fresh positioning necessarily...but like in terms of a market structure point of view...this starts to look like you know a higher high after a higher low",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "strongly_bullish",
+      "speaker": "Duck",
+      "context": "Similar setup to BTC - tested previous cycle level, expecting mean reversion to 2k area (3x from bottom)",
+      "quote": "Same thing kind of previous cycle level it just tested the previous cycle level it just tested...and that would be a big deal that's like a 3x from the bottom",
+      "price_levels": [
+        "$900+",
+        "$2k",
+        "$2.4k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "strongly_bullish",
+      "speaker": "Duck",
+      "context": "Up 30% on SOL position, strong performer in the bounce",
+      "quote": "I'm up more than 20 percent on solana quite a bit more actually it's pretty much 30 percent",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "Altcoins",
+      "asset_name": "Altcoins",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Expecting altcoins to underperform BTC initially then outperform near the top of the move",
+      "quote": "If bitcoin sends here all coins are gonna not be as strong...bitcoin's probably gonna outperform on the way up and then near the top of the bitcoin move you're gonna see the altcoins actually come back up and outperform bitcoin",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LUNA",
+      "asset_name": "Luna",
+      "sentiment": "bearish",
+      "speaker": "Unknown",
+      "context": "News about Korean AI trading firm losing 99% of funds shorting LUNA during its crash",
+      "quote": "UpRise lost 99 percent of client funds while shorting luna during its price crash",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$20k",
+        "$28k",
+        "$30k+",
+        "$36k-$38k"
+      ],
+      "ETH": [
+        "$2k",
+        "$2.4k"
+      ]
+    }
+  },
+  "key_insights": [
+    "20k is the 2017 ATH and represents the 'best level on the chart' for BTC - strongest support level available",
+    "Playing for mean reversion to 30k+ area on BTC and 2k on ETH, not necessarily a new bull market trend",
+    "Two main risks to the bullish thesis: (1) 200-week moving average acting as resistance from underside, (2) Macro contagion from S&P 500 if stocks nuke",
+    "FTX/CEX exchange committing $2B+ to backstop industry, signaling worst of the liquidity crunch is likely over",
+    "Crypto-specific forced selling (3AC, Celsius, etc.) appears largely complete, removing supply overhang",
+    "Miners selling inventory during bear markets has historically been a bottom indicator",
+    "S&P 500 showing confluence with BTC - both at monthly support and showing improved price action",
+    "Duck's personal worst case for BTC is 14k, making 20k entry attractive with 60k+ upside potential",
+    "Altcoins expected to lag BTC initially but outperform near the top of the move"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$20k area",
+      "target": "$28k (first target), $36k-$38k (take profit zone)",
+      "stop": "Below higher low area",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "Below $2k area",
+      "target": "$2.4k",
+      "stop": null,
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "Cred and Duck are strongly bullish on BTC and ETH at 20k and 900-1000 levels respectively, viewing them as key support areas (2017 ATH for BTC, previous cycle level for ETH). Both are playing for mean reversion to 30k+ on BTC and 2k on ETH, citing the liquidity crunch and forced selling as largely over. Main risks are 200-week MA resistance and macro contagion. Duck mentions he's up 30% on SOL. Both agree altcoins will lag BTC initially but may outperform near the top.",
+  "transcript_word_count": 46605,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:47:35.990980"
+}

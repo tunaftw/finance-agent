@@ -1,0 +1,926 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2020-12-15-f660",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 298 - Budfeber",
+  "episode_number": 298,
+  "date": "2020-12-15",
+  "hosts": [
+    "Anders",
+    "Pontus"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Bank investigations",
+    "Merger Monday",
+    "IPO Mania",
+    "SPACs",
+    "CD Projekt Cyberpunk release",
+    "Vaccination and lockdowns"
+  ],
+  "stocks_discussed": [
+    "Swedbank",
+    "SCB",
+    "Danske Bank",
+    "Nordea",
+    "AstraZeneca",
+    "Axkid",
+    "Airbnb",
+    "C3 AI",
+    "DMYT",
+    "OAC",
+    "Hexagon Purus",
+    "CD Projekt",
+    "Tesla"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Swedbank",
+      "ticker": "SWED-A",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "07:58",
+      "reasoning": "Handlas kring 155 SEK vilket bedöms som alldeles för dyrt. Banksektorn generellt anses trött med låg tillväxt och ökade investeringskrav.",
+      "price_target": null,
+      "time_horizon": "short term",
+      "quote": "Och sen om vi kollar på Swedbank, den har väl kommit upp till storvilligt 155. Jag tycker att det är alldeles för dyrt för Swedbank. Så det är väl snarare det. Därför borde jag ha kortat Swedbank idag.",
+      "sector": "Financials",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nordea",
+      "ticker": "NDA-SE",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Pontus",
+      "speaker_role": "host",
+      "timestamp": "08:03",
+      "reasoning": "ECB öppnade upp för utdelningar på 15-20% av vinsten. Nordea har inte samma problem med DOJ/megaböter som andra banker.",
+      "price_target": null,
+      "time_horizon": "medium term",
+      "quote": "Jag köpte lite Nordea igår, som jag inte äger idag, på att ECB höll på och öppnade upp för kommande utdelningar. De skulle få dela ut 15-20% av vinsten de senaste åren.",
+      "sector": "Financials",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Q1 2021"
+    },
+    {
+      "stock_name": "AstraZeneca",
+      "ticker": "AZN",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Pontus",
+      "speaker_role": "host",
+      "timestamp": "13:18",
+      "reasoning": "Bud på Alexion för 39 miljarder dollar. Ger breddad pipeline och tillväxt. Aktien sjunkit till ca 830 SEK från 1000 SEK.",
+      "price_target": null,
+      "time_horizon": "long term",
+      "quote": "Jag tror att det här var ett jättebra köp. Utan att man är någon superbiotekanalytiker. Men det kändes ju bra och bredda. De får tillväxt, de tror på större utdelning och liknande.",
+      "sector": "Healthcare",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "mid 2021"
+    },
+    {
+      "stock_name": "Axkid",
+      "ticker": "AXKID",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "12:11",
+      "reasoning": "Lågt bud, ledningen inte utköpt men med på utköpet. Bättre att ta pengarna och gå än vänta på höjd.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag skulle vilja säga ta pengarna och gå och sticka. Och satsa på nästa case.",
+      "sector": "Consumer Goods",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "DMYT",
+      "ticker": "DMYT",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "26:10",
+      "reasoning": "Gick från 13 till 19-20 USD. SPAC som ska köpa Rush Street (online betting). Förväntan på namnbyte i januari och ETF-flöden.",
+      "price_target": null,
+      "time_horizon": "medium term",
+      "quote": "Men jag tror verkligen att det finns en 2021 resa kvar här. Så efter namnbytet i januari och när de får sin riktiga ticker och folk kan börja jämföra dem med DraftKings som värderas, vad vet jag, 5-10 gånger högre.",
+      "sector": "Consumer Discretionary",
+      "market": "us",
+      "position_context": "Owner",
+      "downside_note": null,
+      "catalyst_timing": "January 2021"
+    },
+    {
+      "stock_name": "C3 AI",
+      "ticker": "AI",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "21:26",
+      "reasoning": "AI-bolag med långsiktig potential. Stor volatilitet, men stark fundamenta. Handlades runt 100-120.",
+      "price_target": null,
+      "time_horizon": "long term",
+      "quote": "Jag tycker att det här bolaget ser väldigt bra ut på lång sikt. Den här kan gå ner 50%, eller så gör den inte det. Det är väl så man får se det. Men på lång sikt absolut. Jag tror att det är ett grymt bolag.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": "Small position",
+      "downside_note": "Kan gå ner 50%",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Airbnb",
+      "ticker": "ABNB",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "24:18",
+      "reasoning": "IPO till 100 miljarder dollar bedöms som dyrt. Väntar på bättre inträdesnivå. Stark marknadsposition men låg tillväxt i Sverige.",
+      "price_target": null,
+      "time_horizon": "medium term",
+      "quote": "Men jag köper inte Airbnb här. Men det kan vara viktigt, det noteras ju massa bolag nu, det är alltid bra att ha koll på dem. Kan vara så att de kommer ner massa, då kan du by köpa ins.",
+      "sector": "Consumer Discretionary",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "OAC",
+      "ticker": "OAC",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Pontus",
+      "speaker_role": "host",
+      "timestamp": "28:22",
+      "reasoning": "Oak Tree Capital SPAC ska köpa HIMS (digital healthcare med telekonsultationer). Växande sektor men oklar värdering.",
+      "price_target": null,
+      "time_horizon": "medium term",
+      "quote": "Och det är två sidor som är lite kryvarianter, HIMS och HRS. Och det är kry att du träffar din läkare och sen kan du få prescriptions. Och det de tjänar pengar på är prescriptionserna och inte själva läkebesöket.",
+      "sector": "Healthcare",
+      "market": "us",
+      "position_context": "Owner",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "CD Projekt",
+      "ticker": "CDR",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Pontus",
+      "speaker_role": "host",
+      "timestamp": "33:55",
+      "reasoning": "Nere 30% efter buggig Cyberpunk-lansering men har sålt 8 miljoner spel dag 1. Stark finansieringsposition. Möjlighet om buggar fixas.",
+      "price_target": null,
+      "time_horizon": "medium term",
+      "quote": "Nu när den har gått 30% ner blir man ju nästan köpsugen istället. Men ändå så har de sålt 8 miljoner spel och en miljon spelare per dag. Så att är det nereaktiermässigt så är det svårt att se att de inte ska tjäna pengar på det.",
+      "sector": "Technology",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Next generation consoles release"
+    },
+    {
+      "stock_name": "Hexagon Purus",
+      "ticker": "PURUS",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Pontus",
+      "speaker_role": "host",
+      "timestamp": "40:49",
+      "reasoning": "Avspinning som gick som en raket. Allt grönt rör sig upp. Kortsiktig momentum.",
+      "price_target": null,
+      "time_horizon": "short term",
+      "quote": "Jag har handlat lite Hexagon Purus, en avspinning igår, ett ESC case. Köpte lite i början, hände inte så mycket. Och sen så gick den som en raket.",
+      "sector": "Industrials",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "sell",
+      "confidence": "low",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "39:56",
+      "reasoning": "Ska in i S&P 500 på måndag. Risk för säljtryck efteråt. Kortsiktig möjlighet att korta.",
+      "price_target": null,
+      "time_horizon": "short term",
+      "quote": "Så att nästa avsnitt kommer vi inte hinna prata Tesla innan de kommer in i S&P. Men jag tror att man ska vara försiktig med Tesla efter måndag då.",
+      "sector": "Consumer Discretionary",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Monday S&P 500 inclusion"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Banksektorn",
+      "ticker": null,
+      "timestamp_start": "01:22",
+      "timestamp_end": "09:43",
+      "word_count": 1500,
+      "speakers": [
+        "Anders",
+        "Pontus"
+      ],
+      "primary_speaker": "Anders",
+      "discussion_summary": "Banksektorn diskuterades efter FBI-nyheten om utredningar av Swedbank, Danske Bank och SEB. Marknaden reagerade med nedgångar på 4-8% men nyheten bedömdes som gammal. Swedbank ansågs för dyr kring 155 SEK medan Nordea sågs som den mest intressanta pga avsaknad av DOJ-utredningar och ny utdelningsmöjlighet från ECB.",
+      "quotes": [
+        {
+          "speaker": "Anders",
+          "text": "Den har precis börjat tjänst som. Jag har inte gjort så mycket. Handlat i USA, tittat på alla bud som flyger in.",
+          "timestamp": "01:02",
+          "context": "introduction"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Men jag tror att det där, det ska ju vara en våtfilt över de där bankerna på grund av det där. För det kommer ju komma förr eller senare känns det som.",
+          "timestamp": "01:42",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Pontus",
+          "text": "Jag köpte lite Nordea igår, som jag inte äger idag, på att ECB höll på och öppnade upp för kommande utdelningar.",
+          "timestamp": "08:03",
+          "context": "recommendation"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Och sen om vi kollar på Swedbank, den har väl kommit upp till storvilligt 155. Jag tycker att det är alldeles för dyrt för Swedbank.",
+          "timestamp": "07:58",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Låg",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Utdelning 15-20% av vinst tillåten av ECB för Nordea"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Nordea har inte samma problem med DOJ/megaböter som andra banker",
+          "ECB öppnade upp för utdelningar på 15-20% av vinsten",
+          "Kommer bli feta utdelningar nästa år"
+        ],
+        "bear_case": [
+          "Låg tillväxt i banksektorn",
+          "Ökade investeringskrav (Klarna)",
+          "Swedbank anses alldeles för dyr kring 155 SEK",
+          "FBI/DOJ-utredningar kan leda till stora böter"
+        ],
+        "catalysts": [
+          "Böter från DOJ/justitiedepartementet",
+          "Utdelningsbesked från ECB Q1 2021"
+        ],
+        "risks": [
+          "Regulatoriska böter",
+          "Låg tillväxt",
+          "ESG-tryck"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "AstraZeneca",
+      "ticker": "AZN",
+      "timestamp_start": "12:32",
+      "timestamp_end": "15:18",
+      "word_count": 800,
+      "speakers": [
+        "Anders",
+        "Pontus"
+      ],
+      "primary_speaker": "Pontus",
+      "discussion_summary": "AstraZeneca lade bud på Alexion för 39 miljarder dollar - ett av de största buden någonsin. AstraZeneca-aktien sjönk initialt 6-7% men bedömdes som ett jättebra köp för att bredda pipelinen och få tillväxt.",
+      "quotes": [
+        {
+          "speaker": "Anders",
+          "text": "Sen hade vi ju AstraZeneca, de la ju bud på Alexion.",
+          "timestamp": "12:32",
+          "context": "introduction"
+        },
+        {
+          "speaker": "Pontus",
+          "text": "Och här får de väl både tillväxt och en bredare pipeline då. Så de skulle ju betala både med egna aktier och en nyemission.",
+          "timestamp": "12:59",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Pontus",
+          "text": "Jag tror att det här var ett jättebra köp. Utan att man är någon superbiotekanalytiker. Men det kändes ju bra och bredda. De får tillväxt.",
+          "timestamp": "13:18",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Astra har ju kommit ner, den handlades ju tusen, nu är det 800.",
+          "timestamp": "13:44",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Budvärde: 39 miljarder dollar",
+          "Aktiepris: ca 830 SEK (ner från 1000 SEK)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Breddad pipeline med Alexion-förvärvet",
+          "Får tillväxt i cancerfokus",
+          "Stark finansieringsposition",
+          "Utnyttjar aktiekurs för expansion"
+        ],
+        "bear_case": [
+          "Nyemission kan utspäda existerande aktieägare",
+          "Bolaget i köpsläge går ofta ner initialt",
+          "Skuldsättning ökar"
+        ],
+        "catalysts": [
+          "Godkännande av budet mitten på 2021",
+          "Pipeline integration framgångsrik"
+        ],
+        "risks": [
+          "Integration risk",
+          "Skuldsättning",
+          "Regulatoriska hinder"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "IPO Mania - Airbnb",
+      "ticker": "ABNB",
+      "timestamp_start": "19:01",
+      "timestamp_end": "25:15",
+      "word_count": 1200,
+      "speakers": [
+        "Anders",
+        "Pontus"
+      ],
+      "primary_speaker": "Anders",
+      "discussion_summary": "Airbnb IPO:ade till 100 miljarder dollar (bedömt som extremt dyrt). Diskussion om huruvida detta var misslyckande för tidiga investerare som sålt sig för lågt, eller tecken på en överhettad marknad med 22 IPOs som dubblat första dagen 2020.",
+      "quotes": [
+        {
+          "speaker": "Anders",
+          "text": "Nåt som inte var ute, det var ju börsnoteringarna. Airbnb, vi pratade väl om en värdering på 40-50 miljard dollar. Idag är det 100 miljard dollar.",
+          "timestamp": "19:01",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Jag tror inte ägarna gråter ändå. Jag har inte riktigt läst vad som inte har gått snett, vad ska man kalla det, men oftast är det så att det är ett stort market cap, men det är inte en enorm...",
+          "timestamp": "19:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Pontus",
+          "text": "Men jag köper inte Airbnb här.",
+          "timestamp": "24:18",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Kan vara så att de kommer ner massa, då kan du by köpa ins.",
+          "timestamp": "24:29",
+          "context": "strategy"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "IPO-värdering: 100 miljarder dollar",
+          "Diskuterad värdering: 40-50 miljarder dollar",
+          "22 IPOs dubblande första dagen 2020"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Globalt ledande marknadsplats",
+          "Stark brand och lojalitet",
+          "Kan expandera till andra segment",
+          "Strukturell tillväxt i vacation rentals"
+        ],
+        "bear_case": [
+          "Extremt hög värdering på 100 miljarder dollar",
+          "COVID-19 påverkar resande negativt",
+          "Konkurrens från Booking.com och hotellkedjor"
+        ],
+        "catalysts": [
+          "Vaccinationer reser resande",
+          "Expansionsinitiativ"
+        ],
+        "risks": [
+          "Övervärdering",
+          "Reglering i olika marknader",
+          "Nedgång i resandet"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "SPACs - DMYT",
+      "ticker": "DMYT",
+      "timestamp_start": "25:18",
+      "timestamp_end": "28:58",
+      "word_count": 1100,
+      "speakers": [
+        "Anders",
+        "Pontus"
+      ],
+      "primary_speaker": "Anders",
+      "discussion_summary": "DMYT SPAC ska köpa Rush Street (online betting/casino). Gick från 13 USD till 19-20 USD efter att stämma satts till 29 december. Stark tillväxt i online betting, endast 10-15% av betting sker online idag. Förväntan på namnbyte i januari 2021 och ETF-flöden.",
+      "quotes": [
+        {
+          "speaker": "Anders",
+          "text": "Sen kan man ju förstå att alla korpavdelningar, de gråter för att de ser att de kunde fått en mycket högre fyr.",
+          "timestamp": "25:18",
+          "context": "introduction"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Jag tror verkligen att det finns en 2021 resa kvar här.",
+          "timestamp": "26:10",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Och när man tittar på de här, det är likadant om man tittar på Kambi och Kindred och de här, det är ju fortfarande 10-15 procent som sker online.",
+          "timestamp": "28:05",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Och nu med alla lockdown så har man verkligen... Du ändrar ju beteendet.",
+          "timestamp": "27:52",
+          "context": "catalyst"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Hög",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Prisutveckling: 13 till 19-20 USD",
+          "Online betting marknad: endast 10-15% online"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Strukturell tillväxt i online betting",
+          "Lockdowns driver beteendeförändring",
+          "Växande 300% och högre",
+          "ETF-flöden efter namnbyte januari",
+          "Jämförbar med DraftKings men värderas 5-10 ggr lägre"
+        ],
+        "bear_case": [
+          "Reglering kan komma",
+          "Konkurrens ökar",
+          "Valuation risk"
+        ],
+        "catalysts": [
+          "Namnbyte i januari 2021",
+          "ETF-flöden",
+          "Rekord i betting pågår"
+        ],
+        "risks": [
+          "Reglering",
+          "Konkurrens",
+          "Övervärdering"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "C3 AI",
+      "ticker": "AI",
+      "timestamp_start": "21:20",
+      "timestamp_end": "23:36",
+      "word_count": 600,
+      "speakers": [
+        "Anders",
+        "Pontus"
+      ],
+      "primary_speaker": "Anders",
+      "discussion_summary": "C3 AI IPO:ade och gick upp 130%. Handlades runt 100-120 USD med stora svingar. Anders tradade fram och tillbaka men äger lite långsiktigt och tror på bolaget.",
+      "quotes": [
+        {
+          "speaker": "Pontus",
+          "text": "Om vi tittar på ditt AI-bolag, det var väl upp 130% eller liknande.",
+          "timestamp": "21:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Jag tradade den, jag köpte den på 92, sålde på 109 och köpte om den på 100, sålde på 120",
+          "timestamp": "21:26",
+          "context": "trading"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Jag tycker att det här bolaget ser väldigt bra ut på lång sikt. Den här kan gå ner 50%, eller så gör den inte det. Det är väl så man får se det. Men på lång sikt absolut.",
+          "timestamp": "22:03",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "IPO uppgång: 130%",
+          "Handlades: 92-120 USD"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Grymt bolag på lång sikt",
+          "AI-trenden stark",
+          "Innovationsföretag"
+        ],
+        "bear_case": [
+          "Kan gå ner 50%",
+          "Volatile IPO-sektor",
+          "Hög värdering"
+        ],
+        "catalysts": [
+          "AI adoption ökar"
+        ],
+        "risks": [
+          "Volatilitet",
+          "Teknologi risk"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "CD Projekt",
+      "ticker": "CDR",
+      "timestamp_start": "33:11",
+      "timestamp_end": "37:10",
+      "word_count": 900,
+      "speakers": [
+        "Anders",
+        "Pontus"
+      ],
+      "primary_speaker": "Pontus",
+      "discussion_summary": "CD Projekt släppte Cyberpunk med många buggar och aktien sjönk 30%. Men de sålde 8 miljoner spel dag 1 och har 1 miljon spelare per dag. Finansieringen säkrad, återstår att fixa buggarna.",
+      "quotes": [
+        {
+          "speaker": "Pontus",
+          "text": "Och sen hade vi CD Projekt då, det här polska bolaget. Jag tänkte bara att vi kunde prata lite kort hur, ja det är väl alltid så här i dataspelsbranschen.",
+          "timestamp": "33:11",
+          "context": "introduction"
+        },
+        {
+          "speaker": "Anders",
+          "text": "När den har gått 30% ner blir man ju nästan köpsugen istället.",
+          "timestamp": "33:55",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Pontus",
+          "text": "De har ju skjutit på det fler gånger.",
+          "timestamp": "34:04",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Pontus",
+          "text": "Jag tror att de sålde åtta miljoner spel första dagen och har väl ungefär en miljon spelare nu per dag.",
+          "timestamp": "34:21",
+          "context": "metric"
+        },
+        {
+          "speaker": "Anders",
+          "text": "Och ändå så har de sålt 8 miljoner spel och en miljon spelare per dag. Så att är det nereaktiermässigt så är det svårt att se att de inte ska tjäna pengar på det.",
+          "timestamp": "36:22",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Spel sålda dag 1: 8 miljoner",
+          "Dagliga spelare: 1 miljon",
+          "Aktie nedgång: 30%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "8 miljoner spel sålda dag 1",
+          "Finansiering säkrad",
+          "1 miljon dagliga spelare",
+          "Kan patcha buggar",
+          "Brand redan starkt från Witcher"
+        ],
+        "bear_case": [
+          "Många buggar i Cyberpunk",
+          "Förväntningarna skyhöga",
+          "Tekniska problem kan skada ryktet",
+          "Ett spel = risk"
+        ],
+        "catalysts": [
+          "Bugg-fixes",
+          "Nästa generations konsoler release",
+          "DLCs",
+          "Online-version"
+        ],
+        "risks": [
+          "Kvalitet problem",
+          "Tekniska problem",
+          "Missnöjda kunder"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag skulle vilja säga ta pengarna och gå och sticka. Och satsa på nästa case.",
+      "summary": "När man varit med i tre år och byggt upp ett bolag och stoppat i massa emissioner och sen ska någon annan glida sista räkresan, så är det ofta bättre att ta pengarna och gå än att vänta på höjd.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "12:11",
+      "confidence": "high",
+      "tags": [
+        "merger",
+        "exit strategy",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Sådana här saker försvinner ju inte.",
+      "summary": "Regulatoriska utredningar och potentiella böter försvinner inte. Bankerna som utreds av FBI/DOJ kommer få böter förr eller senare.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "07:22",
+      "confidence": "high",
+      "tags": [
+        "regulation",
+        "banking",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Jag tror att det är så att man inte dog i daget.",
+      "summary": "Angående att Google forskningschef sa att överlever man de kommande tio åren så dör man inte av cancer - teknologin går så snabbt att det kan finnas andra lösningar än dagens cancerforskning.",
+      "category": "wisdom",
+      "speaker": "Pontus",
+      "speaker_role": "host",
+      "timestamp": "16:52",
+      "confidence": "medium",
+      "tags": [
+        "technology",
+        "biotech",
+        "future"
+      ]
+    },
+    {
+      "quote": "Hade någon sagt både till oss eller till vem som helst, både i våras i somras, att Airbnb som är beroende av resor ska IPO'as, den kommer gå upp 100% första dagen till en galen värdering. Det är ju ett tecken i tiden på att något är ganska crazy.",
+      "summary": "Att ett resebolag som Airbnb kan gå upp 100% på första dagen i IPO under pandemi är tecken på att marknaden är överhettad.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "20:50",
+      "confidence": "high",
+      "tags": [
+        "IPO",
+        "market sentiment",
+        "bubble"
+      ]
+    },
+    {
+      "quote": "Alla verkar helt plötsligt börja titta på 21 och 22, vart vi är då. Så alla har blivit long term investors.",
+      "summary": "Marknaden verkar dra framtiden till idag med extrema värderingar. Alla plötsligt blivit long term investors.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "22:12",
+      "confidence": "high",
+      "tags": [
+        "valuation",
+        "investor psychology",
+        "long term"
+      ]
+    },
+    {
+      "quote": "Jag tror att det är ett grymt bolag. Det handlar om att marknaden även i Airbnb fall och i C3AI som bolaget heter, de drar framtiden fram till idag.",
+      "summary": "Marknaden drar framtida tillväxt fram till idag med extremt höga värderingar för tillväxtbolag.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "22:09",
+      "confidence": "high",
+      "tags": [
+        "valuation",
+        "growth stocks",
+        "market timing"
+      ]
+    },
+    {
+      "quote": "När du har varit med i tre år och byggt upp ett bolag och stoppat i massa emissioner och sen ska någon annan glida sista räkresan.",
+      "summary": "Timing är kritiskt vid utbud. Om börsen inte värderar bolagen tillräckligt högt kommer utbud. Det handlar om att fatta rätt tid.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "12:16",
+      "confidence": "high",
+      "tags": [
+        "merger",
+        "timing",
+        "valuation"
+      ]
+    },
+    {
+      "quote": "Det är när väl gruvan ska öppnas eller vår bolag eller vad som helst så är det svårt att förväntningarna slår ju nästan aldrig resultatet.",
+      "summary": "Likhet mellan dataspelsbolag och oljeexploration - förväntningarna slår nästan aldrig resultatet vid stora händelser.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "36:35",
+      "confidence": "high",
+      "tags": [
+        "expectations",
+        "market reaction",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Det är väl så man får se det. På lång sikt absolut. Jag tror att det är ett grymt bolag.",
+      "summary": "Trots extrem volatilitet och potentiell 50% neddgång, kan bolag med stark fundamenta vara köpvärda på lång sikt om man orkar ligga med.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "22:03",
+      "confidence": "high",
+      "tags": [
+        "long term",
+        "volatility",
+        "fundamentals"
+      ]
+    },
+    {
+      "quote": "Ja, det är tiderna just nu. Ja, och då gäller det att anpassa sig.",
+      "summary": "Marknaden är överhettad men det är tiderna just nu. Istället för att kritisera ska man anpassa sig.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "21:14",
+      "confidence": "high",
+      "tags": [
+        "market adaptation",
+        "bubble",
+        "reality"
+      ]
+    },
+    {
+      "quote": "För det känns som att enda anledningen att äga bank är på grund av utdelningar.",
+      "summary": "Banksektorn har låg tillväxt och investeringskrav ökar. Enda anledningen att äga bank är utdelningar.",
+      "category": "lesson",
+      "speaker": "Pontus",
+      "speaker_role": "host",
+      "timestamp": "08:15",
+      "confidence": "high",
+      "tags": [
+        "banking",
+        "dividends",
+        "value investing"
+      ]
+    },
+    {
+      "quote": "Och du har ju inte råd att ha det.",
+      "summary": "I USA har man inte råd med ESG-grejen som i Sverige. Det påverkar investeringsbeslut.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "28:19",
+      "confidence": "medium",
+      "tags": [
+        "ESG",
+        "USA vs Sweden",
+        "investing"
+      ]
+    },
+    {
+      "quote": "Det finns ju ett incitament också att göra det, sätta det lite billigare för de som kliver in.",
+      "summary": "SPAC-sponsorer har incitament att sätta priset lågt för de som kliver in tidigt. Det skapar en resa.",
+      "category": "wisdom",
+      "speaker": "Anders",
+      "speaker_role": "host",
+      "timestamp": "31:58",
+      "confidence": "high",
+      "tags": [
+        "SPAC",
+        "incentives",
+        "valuation"
+      ]
+    },
+    {
+      "quote": "Jag tror att det är så att man inte dog i daget. Men då undrar jag att då är det nog inte någon systototiska terapi eller något som kommer att komma för att lösa den frågan. Det är nog andra saker.",
+      "summary": "Teknologin går så fort att dagens cancerforskning kan vara för gammal. CRISPR och immunterapi kan vara framtiden.",
+      "category": "wisdom",
+      "speaker": "Pontus",
+      "speaker_role": "host",
+      "timestamp": "16:56",
+      "confidence": "medium",
+      "tags": [
+        "technology",
+        "biotech",
+        "CRISPR",
+        "immunotherapy"
+      ]
+    },
+    {
+      "quote": "Fånga EXAKTA citat som stödjer rekommendationen. Citat får vara längre (max 200 ord) om de innehåller viktig information.",
+      "summary": "Viktig att fånga exakta citat som stödjer rekommendationer.",
+      "category": "lesson",
+      "speaker": "System instructions",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "analysis",
+        "methodology",
+        "documentation"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterade bankutredningar, budfeber (Axkid, Recipharm), SPAC-manin (DMYT, OAC), IPO-bubblan (Airbnb, C3 AI) och CD Projekt-lanseringen. Övergripande sentiment var blandat - optimism kring tillväxtbolag men oro för övervärdering. Banksektorn bedömdes som trött med Nordea som enda intressanta kandidat.",
+  "key_takeaways": [
+    "ECB öppnade upp för bankutdelningar på 15-20% av vinsten",
+    "AstraZenecas bud på Alexion för 39 miljarder dollar bedömdes som starkt",
+    "Airbnb-IPOn till 100 miljarder dollar visar extrem marknadöverhettnings",
+    "SPAC-sektorn är het med DMYT och OAC som intressanta case",
+    "CD Projekt nere 30% efter buggig Cyberpunk-lansering men starka säljsiffror",
+    "Bankutredningar försvinner inte - böter kommer förr eller senare"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2020-12-15-f660.txt",
+  "transcript_word_count": 8518,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,125 @@
+{
+  "source_id": "yId__-pwTFs",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-10-02",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "BTC at midpoint of monthly and weekly range with strong confluence resistance at 28.1-28.2",
+      "quote": "Midpoint is not the best area to do business. Options are either wait for a pullback and try to make sense of it in terms of Market structure or wait for this confluent 28.1 28.2 level to get flipped somewhat convincingly",
+      "price_levels": [
+        "$27.2",
+        "$27.4",
+        "$28.1",
+        "$28.2",
+        "$29k",
+        "$30k",
+        "$35k",
+        "$38k"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH/BTC weakness continues despite futures narrative, ETH down 4% vs BTC down 0.5%",
+      "quote": "The ebtc out performance Drive Etc the only thing you could achieve was a spike of the high and a really nasty rejection from that point onwards",
+      "price_levels": [
+        "$1600",
+        "$1700",
+        "$1750"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LINK",
+      "asset_name": "Chainlink",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "LINK in year-long range since August 2022, conference-driven speculation at range high",
+      "quote": "Until there's a strong breakout in this thing I'm going to assume that the range is going to be resistance they proven otherwise especially if there's a sort of news Catalyst driving a lot of the flows",
+      "price_levels": [
+        "$7.3",
+        "$7.4",
+        "$8",
+        "$8.7"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "mixed",
+      "speaker": "Cred",
+      "context": "SOL at monthly resistance of $24, strong outlier but facing resistance",
+      "quote": "Given we're at the monthly extremity now unless you've got a really clear breakout signal the relative risk to reward of being or of staying long into resistance doesn't really appear to be there",
+      "price_levels": [
+        "$22",
+        "$24"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$27.2",
+        "$28.1",
+        "$28.2",
+        "$29k",
+        "$30k"
+      ],
+      "ETH": [
+        "$1600",
+        "$1700",
+        "$1750"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC had a strong opening drive in October but opening drives tend to be mean-reverting",
+    "The 28.1-28.2 level is confluent resistance (monthly midpoint, weekly midpoint, daily resistance)",
+    "ETH/BTC weakness continues despite futures narrative which appears to be sell-the-news",
+    "LINK and SOL are outliers but both facing significant resistance at current levels",
+    "Macro environment not supportive with S&P closing weak and dollar looking strong"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "$28.1-$28.2 area",
+      "target": "$27.2-$27.4",
+      "stop": "$29k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$27.2-$27.4 (higher low)",
+      "target": "$29k-$30k",
+      "stop": "$26.9",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC had a strong October opening rally but is now at a confluent resistance zone of 28.1-28.2 which represents the midpoint of both monthly and weekly ranges. Cred prefers to wait for either a pullback to 27.2-27.4 or a daily flip of 28.1-28.2 before getting bullish. ETH/BTC weakness continues with the futures narrative appearing to be sell-the-news. LINK and SOL remain in ranges with LINK facing year-long resistance and SOL at monthly $24 resistance. Macro backdrop is not supportive with weak S&P and strong dollar.",
+  "transcript_word_count": 11658,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T03:06:27.945665"
+}

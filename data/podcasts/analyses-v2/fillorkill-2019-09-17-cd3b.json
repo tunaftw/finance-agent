@@ -1,0 +1,759 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2019-09-17-cd3b",
+  "podcast_name": "Fyll och Kill",
+  "episode_title": "Avsnitt 233 - Vem Vare Som Dröna?",
+  "episode_number": 233,
+  "date": "2019-09-17",
+  "hosts": [
+    "Low Wolf",
+    "Host2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Oljeprisattack",
+    "Flygbolag",
+    "Kinnevik",
+    "EQT-notering",
+    "WeWork",
+    "VC-fonder"
+  ],
+  "stocks_discussed": [
+    "IPCO",
+    "Enquest",
+    "Lupe",
+    "AfricaOil",
+    "SAS",
+    "Norwegian",
+    "IAG",
+    "Kinnevik",
+    "Zalando",
+    "Millicom",
+    "EQT",
+    "WeWork",
+    "Uber",
+    "Slack",
+    "Alibaba",
+    "Overstock",
+    "Asmr"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Kinnevik",
+      "ticker": "KINV-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "timestamp": "25:36",
+      "reasoning": "Kinnevik byter strategi till onoterade innehav, tar bort utdelningen vilket tvingar fonder att sälja. Rabatten mot NAV har ökat till runt 20% jämfört med andra holdingbolag som Lundbergs som handlas med premie. Osäkerhet kring Christina Stenbecks avsikter.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker man kan hålla sig undan till man har sett och förstått vad planen är.",
+      "sector": "Holdingbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "EQT",
+      "ticker": "EQTAB",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "timestamp": "26:09",
+      "reasoning": "Noteringen är en exit för befintliga ägare, inte ett köptillfälle för nya investerare. Småsparare får liten post, minimal uppsida. Affärsmodellen med förvaltningsavgifter är svår att förstå. EQT vill casha ut på toppen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nej. Jag tror inte ens man kunde teckna hos så många banker... Men för oss små småsparare tycker inte jag det blir så stor uppsida att teckna.",
+      "sector": "Private Equity",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "WeWork",
+      "ticker": "WE",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "32:41",
+      "reasoning": "WeWork värderas till 47 miljarder dollar jämfört med närmaste jämförbara Regus som handlas till 3 miljarder. Företaget tar långsiktig risk mot kortsiktiga intäkter, äger inte fastigheterna. Vision Fund affärer visar på artificiella värderingar. Noteringen har skjutits upp flera gånger.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det påminner ni om ett pyramidspel. Vision Fund, tusen miljarder dollar eller något... Och sen vill de IPOa det.",
+      "sector": "Fastighets",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Noteringen sänktes från 47 till 10 till 8 miljarder dollar",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Softbank",
+      "ticker": "9984.T",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "34:54",
+      "reasoning": "Softbanks största innehav har negativt kassaflöde och bränner pengar. Vision Fund affärer med Uber, WeWork, Slack har gått dåligt. Alibaba har problem med okända ägare. Too big to fail i VC-världen men osäker framtid.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det som är läskigt med softbank är att de är lite too big to fail i vc-världen. Och allt börjar se riktigt konstigt ut med Alibaba.",
+      "sector": "Investment Holding",
+      "market": "japan",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "SAS",
+      "ticker": "SAS-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "19:20",
+      "reasoning": "SAS är helt nedkörd men drabbas av flygskam, flygskatt, svag krona, Boeingproblem och nu högre oljepris. Inom 12 månader kan något hända - uppköp eller put. Infrastruktur-viktigt för Sverige men politiker verkar motarbeta.",
+      "price_target": null,
+      "time_horizon": "12 månader",
+      "quote": "SAS är ju helt nedkörd i backen... Det känns som inom tolv månader kommer det garanterat att ha hänt någonting med de här bolagen.",
+      "sector": "Flyg",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Inom 12 månader"
+    },
+    {
+      "stock_name": "Norwegian",
+      "ticker": "NAS",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "16:18",
+      "reasoning": "Norwegian har stigit från 30 till 40 SEK på budrykten om IAG-bud på 70-85 SEK. enorm skuldsättning men fortfarande handlas lågt. Kan bli uppköpta eller gå i putten inom 12 månader.",
+      "price_target": "70-85 SEK",
+      "time_horizon": "12 månader",
+      "quote": "Men jag tycker det är väldigt sjuka rörelser i Norrvigen. Den var ju 30 för några dagar sedan, nu var det 40 idag. Och bud på 70-85 eller vad det stod.",
+      "sector": "Flyg",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Inom 12 månader"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "EQT",
+      "ticker": "EQTAB",
+      "timestamp_start": "25:57",
+      "timestamp_end": "30:01",
+      "word_count": 600,
+      "speakers": [
+        "Host2",
+        "Low Wolf"
+      ],
+      "primary_speaker": "Low Wolf",
+      "discussion_summary": "Diskussionen handlar om EQT:s stundande notering på Stockholmsbörsen. Talarna är skeptiska till noteringen men erkänner att EQT är ett fantastiskt bolag med stark historik. Noteringen ses som en exit för befintliga ägare snarare än ett köptillfälle. Det diskuteras komplexiteten i EQT:s affärsmodell med förvaltningsavgifter och frågan om varför de vill bli ett direktavkastande bolag när de tidigare haft 5-7% direktavkastning.",
+      "quotes": [
+        {
+          "speaker": "Host2",
+          "text": "Det som är lite märkligt är att inte ens under Katrina så använde man det lagret. Så att USA då ska börja använda det lagret för att manipulera oljepriset globalt känns rätt långsökt.",
+          "timestamp": "09:28",
+          "context": "other"
+        },
+        {
+          "speaker": "Low Wolf",
+          "text": "Nej. Jag tror inte ens man kunde teckna hos så många banker, utan de har gett det här till SEB och sen såg jag Avanza och Nordea.",
+          "timestamp": "26:09",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Ja det var 250 miljoner gick det till bankerna. Så det är ju en skön, ja det lär skåla sig champagne även när de väl har ringt i klockan i alla fall.",
+          "timestamp": "26:18",
+          "context": "other"
+        },
+        {
+          "speaker": "Low Wolf",
+          "text": "Nej men det är ju de här stora, för oss små småsparare tycker inte jag det blir så stor uppsida att teckna, för man får ju bara jätteliten post och det kommer inte gå upp så mycket pengar.",
+          "timestamp": "26:31",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Ja, det känns ju lite för enkelt att säga att Blackstone gick till börsen, de var på toppen, nu gör de här killarna samma sak igen.",
+          "timestamp": "26:44",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Low Wolf",
+          "text": "Jag säger bara att det är ett fantastiskt bolag. De har varit superduktiga. De vill casha hem för jag går inte på att det är så jäkla trevligt att ha en direktavkastning därför går vi till börsen.",
+          "timestamp": "28:37",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Low Wolf",
+          "text": "Jag kollade deras avkastningshistorik, en direktavkastning på 5-7 procent, det är helt ointressant. De vill casha ut med det, jag tror att många kommer att göra något annat efter det.",
+          "timestamp": "28:52",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Ja, och så vill vi prata om att de vill bli mer självständiga från Investor. De vill ju ta in pengar för att kunna göra egna investeringar i sina fonder.",
+          "timestamp": "29:10",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Low Wolf",
+          "text": "Och tidningen har ju skrivit att de inte ens, de vill inte köra kvartals, de vill köra bara halvårsrapporter, för det är så svårvärderade bolag de har.",
+          "timestamp": "29:37",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "5-7%",
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Direktavkastning 5-7%",
+          "Noteringsvärde: 250 miljoner till bankerna"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Fantastiskt bolag med stark historik",
+          "Vill bli mer självständiga från Investor"
+        ],
+        "bear_case": [
+          "Notering är en exit för befintliga ägare",
+          "Affärsmodellen svår att förstå",
+          "Direktavkastande bolag verkar ointressant för ägarna",
+          "Små uppsida för småsparare"
+        ],
+        "catalysts": [
+          "Notering på Stockholmsbörsen"
+        ],
+        "risks": [
+          "Liten post för småsparare",
+          "Komplex affärsmodell",
+          "Exit-signal från grundare"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "WeWork",
+      "ticker": "WE",
+      "timestamp_start": "30:24",
+      "timestamp_end": "36:32",
+      "word_count": 1200,
+      "speakers": [
+        "Low Wolf",
+        "Host2"
+      ],
+      "primary_speaker": "Host2",
+      "discussion_summary": "Lång diskussion om WeWork och Vision Fund. WeWork noterades på 47 miljarder dollar men sänktes till 8 miljarder innan noteringen sköts upp. Jämförelse med Regus (3 miljarder dollar) visar extrem övervärdering. Företaget tar långsiktig risk mot kortsiktiga intäkter. Vision Fund beskrivs som pyramidspel. Softbank beskrivs som too big to fail men med problematiska innehav.",
+      "quotes": [
+        {
+          "speaker": "Host2",
+          "text": "Ja, om vi går in på den andra noteringen, WeWork som du pratade om innan, de har haft Softbank som stor investerare. Senaste noteringen tror jag var på 40 eller 47 miljarder dollar.",
+          "timestamp": "30:24",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Nu pratades det då om 30, sen blev det 20, sen blev det 10 och sen blev det 8 miljoner dollar i pris och nu i går kväll så kom de ut på att de sköt på noteringen.",
+          "timestamp": "30:42",
+          "context": "metric"
+        },
+        {
+          "speaker": "Low Wolf",
+          "text": "Nej, inte alls. Det påminner ni om ett pyramidspel. De har Vision Fund.",
+          "timestamp": "31:06",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Tusen miljarder dollar eller någonting? Ja, som Saudi och alla har stoppat in massa pengar i.",
+          "timestamp": "31:13",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Sen så placar de ut innehav från Softbank in i Vision Fund och printar rätt högt.",
+          "timestamp": "31:18",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host2",
+          "text": "De äger inte alls mycket av de fastigheterna de har.",
+          "timestamp": "33:16",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Det de gör är att de lysar långa avtal och hyr ut på korta avtal. Det är alltså de tar långsiktig risk mot kortsiktiga intäkter.",
+          "timestamp": "33:19",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Närmsta PR under har globalt sett, som är stor är Regus som också finns i Stockholm och har kontor. De handlas till ett market cap på 3 miljarder dollar. Och WeWork försöker sätta sig på 47. Det är sinnessjukt.",
+          "timestamp": "33:46",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Det speciella har varit att de har promotat sig som ett techbolag, fast de är någon form av kontorshotell.",
+          "timestamp": "33:53",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Noteringsvärde: 47 miljarder dollar (ursprunglig)",
+          "Noteringsvärde: 8 miljarder dollar (senaste)",
+          "Jämförelse Regus: 3 miljarder dollar",
+          "Vision Fund: Tusen miljarder dollar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Extrem övervärdering jämfört med Regus",
+          "Långsiktig risk mot kortsiktiga intäkter",
+          "Äger inte fastigheterna",
+          "Vision Fund-affärer artificiella",
+          "Pyramidspel-liknande struktur"
+        ],
+        "catalysts": [
+          "Notering fram till årsskiftet (sköts upp)"
+        ],
+        "risks": [
+          "Notering kan misslyckas",
+          "Softbank tappar förtroende",
+          "Kassaflödesproblem"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Kinnevik",
+      "ticker": "KINV-B",
+      "timestamp_start": "20:41",
+      "timestamp_end": "26:02",
+      "word_count": 900,
+      "speakers": [
+        "Host2",
+        "Low Wolf"
+      ],
+      "primary_speaker": "Host2",
+      "discussion_summary": "Diskussion om Kinneviks strategiförändring. De placeade ut 20% av Zalando med 6,5% rabatt men aktien handlades senare ner 10%. Samtidigt annonserade de att alla Millicom-aktier ska delas ut, vilket krossade aktien. Kinnevik vill satsa mer på onoterat och tar bort utdelningen. Rabatten mot NAV har ökat till ca 20% jämfört med andra holdingbolag som Lundbergs som handlas med premie. Osäkerhet kring Christina Stenbecks avsikter.",
+      "quotes": [
+        {
+          "speaker": "Host2",
+          "text": "Sen har vi ju Kinnevik. De har ju varit i media här hela året med deras affärer i Millicom, Tigo, vad man nu vill kalla det.",
+          "timestamp": "20:41",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Det började igår kväll med att de placade ut en, om det var 20 procent runt, av sitt innehav i Zalando. Som har gått extremt bra i år, jag tror att den är upp 80 procent eller liknande.",
+          "timestamp": "20:52",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Där lyckades de place ut ganska bra till 6,5 procents rabatt.",
+          "timestamp": "21:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Och jag läste att de har handlats till en ganska stor rabatt, jämfört med de andra bolagen runt 20%. Lundbergs har väl 7% premie eller liknande.",
+          "timestamp": "21:34",
+          "context": "metric"
+        },
+        {
+          "speaker": "Low Wolf",
+          "text": "När det är onoterade innehav, det finns inget så illikvit som det är, och spreddarna är stora och alltihopa.",
+          "timestamp": "22:27",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Low Wolf",
+          "text": "Det jag reagerade mest på var att de var tvungna att gå ut och snacka om att de skulle ta bort utdelningen också.",
+          "timestamp": "22:38",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Och nu så ökar ju då exponeringen på, de vill satsa mer på onoterat.",
+          "timestamp": "22:53",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Low Wolf",
+          "text": "Jag tycker man kan hålla sig undan till man har sett och förstått vad planen är.",
+          "timestamp": "25:36",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Zalando up 80%",
+          "Zalando-placering rabatt 6,5%",
+          "Rabatt mot NAV ca 20%",
+          "Lundbergs premie 7%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Millicom kan bli intressant om ägare försvinner"
+        ],
+        "bear_case": [
+          "Byter strategi till onoterat - illikvidt",
+          "Tar bort utdelningen - tvingar fonder att sälja",
+          "Rabatt mot NAV har ökat till 20%",
+          "Osäkerhet kring Stenbecks avsikter"
+        ],
+        "catalysts": [
+          "Millicom-utdelning",
+          "Strategisk tydlighet"
+        ],
+        "risks": [
+          "Fortsatt rabatt om onoterat fokus",
+          "Utdelningsbortfall leder till säljtryck"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "IPCO",
+      "ticker": "IPCO-B",
+      "timestamp_start": "13:16",
+      "timestamp_end": "14:30",
+      "word_count": 300,
+      "speakers": [
+        "Low Wolf",
+        "Host2"
+      ],
+      "primary_speaker": "Low Wolf",
+      "discussion_summary": "Kort diskussion om hur oljebolagen reagerade på oljeprisuppgången. Lupe gick upp mer än oljepriset medan IPCO och Enquest inte gick upp mycket i början. IPCO ses som säkrare kvalitet men det tog tid innan den reagerade. Speakers positioner i IPCO och oljebolag skalades av när kursen gick snabbt.",
+      "quotes": [
+        {
+          "speaker": "Low Wolf",
+          "text": "oljebolagens tyckte jag det var intressant att en sån som Lupe upp mer än vad oljepriset gick upp, en sån som IPCO och Enquest gick inte så mycket upp i början",
+          "timestamp": "13:16",
+          "context": "metric"
+        },
+        {
+          "speaker": "Low Wolf",
+          "text": "IPCO är väl helt okej också.",
+          "timestamp": "13:46",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Tydlig med transparanten, det gillar vi.",
+          "timestamp": "41:09",
+          "context": "other"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Och sen har vi ju oljan. Kan du berätta lite vad är det som har hänt här under helgen?",
+          "timestamp": "04:06",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Kvalitetsbolag inom olja",
+          "Säkrare än högskuldsatta oljebolag"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Högre oljepris"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det som var lite lustigt är att inte ens under Katrina så använde man det lagret. Så att USA då ska börja använda det lagret för att manipulera oljepriset globalt känns rätt långsökt.",
+      "summary": "USA:s strategiska oljelager har inte använts ens under Katrina, vilket gör det osannolikt att de används för att manipulera oljepriset nu.",
+      "category": "wisdom",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "timestamp": "09:28",
+      "confidence": "high",
+      "tags": [
+        "olja",
+        "strategi",
+        "marknadspåverkan"
+      ]
+    },
+    {
+      "quote": "Jag menar att om du kan förutse att det ska bli krig i Mellanöstern så borde du gå rejält lång olja inför helgen i alla fall.",
+      "summary": "Geopolitisk oro i Mellanöstern driver oljepriset uppåt, vilket är förutsägbart för investerare.",
+      "category": "wisdom",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "timestamp": "05:53",
+      "confidence": "high",
+      "tags": [
+        "olja",
+        "geopolitik",
+        "investering"
+      ]
+    },
+    {
+      "quote": "Flygbranschen är det ett år. Det blir väldigt hattigt på alla de här bolagen. Nu ska vi gasa, sen måste vi bromsa och gasa och bromsa.",
+      "summary": "Flygbranschen är extremt cyklisk med bara ett års medvind följt av motvind, vilket skapar volatilitet.",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "18:18",
+      "confidence": "high",
+      "tags": [
+        "flygbranschen",
+        "cyklisk",
+        "volatilitet"
+      ]
+    },
+    {
+      "quote": "Jag förstår faktiskt ingenting. Det speciella har varit att de har promotat sig som ett techbolag, fast de är någon form av kontorshotell.",
+      "summary": "Att marknadsföra traditionella bolag som tech-bolag är en trend som visar att VC-marknaden har gått för långt.",
+      "category": "lesson",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "33:53",
+      "confidence": "high",
+      "tags": [
+        "tech-bubbla",
+        "VC",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "När det är onoterade innehav, det finns inget så illikvit som det är, och spreddarna är stora och alltihopa. Så det är klart att det ska vara en stor rabatt.",
+      "summary": "Onoterade innehav kräver stor rabatt på grund av illikviditet och osäkerhet.",
+      "category": "wisdom",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "timestamp": "22:27",
+      "confidence": "high",
+      "tags": [
+        "onoterat",
+        "illikviditet",
+        "rabatt"
+      ]
+    },
+    {
+      "quote": "Det jag reagerade mest på var att de var tvungna att gå ut och snacka om att de skulle ta bort utdelningen också. För det gör ju att många fonder och som har som krav att bolagen har utdelning. Precis, de behöver inte ens tänka längre om de ska sälja eller inte. De bara måste sälja.",
+      "summary": "När bolag tar bort utdelningen tvingas många fonder att sälja oavsett fundamental värdering.",
+      "category": "lesson",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "timestamp": "22:38",
+      "confidence": "high",
+      "tags": [
+        "utdelning",
+        "fonder",
+        "säljtryck"
+      ]
+    },
+    {
+      "quote": "Men det blir svårt när man rekar saker på rätt lång sikt. Eller i alla fall något kvartal. Och sen bara händer allt på fem dagar.",
+      "summary": "När en investering går väldigt snabbt upp blir det svårt att hantera positionen.",
+      "category": "lesson",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "timestamp": "42:39",
+      "confidence": "high",
+      "tags": [
+        "positionshantering",
+        "timing",
+        "volatilitet"
+      ]
+    },
+    {
+      "quote": "Det som var lite lustigt är att inte ens under Katrina så använde man det lagret. Så att USA då ska börja använda det lagret för att manipulera oljepriset globalt känns rätt långsökt.",
+      "summary": "Marknadsmanipulation genom strategiska resurser är sällsynt och oftast teoretisk.",
+      "category": "wisdom",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "timestamp": "09:28",
+      "confidence": "high",
+      "tags": [
+        "marknadspåverkan",
+        "strategiska resurser"
+      ]
+    },
+    {
+      "quote": "Det lär det jag garanterat gör. Nej men det är ju de här stora, för oss små småsparare tycker inte jag det blir så stor uppsida att teckna, för man får ju bara jätteliten post och det kommer inte gå upp så mycket pengar.",
+      "summary": "Småsparare bör vara försiktiga med att teckna i stora noteringar där de får liten post.",
+      "category": "lesson",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "timestamp": "26:29",
+      "confidence": "medium",
+      "tags": [
+        "notering",
+        "småsparare",
+        "uppsida"
+      ]
+    },
+    {
+      "quote": "Allt handlar ju om förväntningar, inte vad de gör, vilket man verkligen kunde se.",
+      "summary": "Marknaden reagerar på förväntningar snarare än faktiska handlingar.",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "39:47",
+      "confidence": "high",
+      "tags": [
+        "marknadspsykologi",
+        "förväntningar",
+        "centralbanker"
+      ]
+    },
+    {
+      "quote": "Hansan här säger ju att jag tittar inte på de kommande tio åren, jag kollade på de närmaste hundra åren och det är så jag gör affärer. Och man bara, okej, det är nog ingen annan som intresserar av det.",
+      "summary": "Att fondera sina investeringar på hundraårsperspektiv är irrelevant för marknaden.",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "37:28",
+      "confidence": "medium",
+      "tags": [
+        "investeringshorisont",
+        "Vision Fund",
+        "Softbank"
+      ]
+    },
+    {
+      "quote": "Det som är läskigt med softbank är att de är lite too big to fail i vc-världen.",
+      "summary": "Vissa aktörer i VC-världen har blivit så stora att de inte tillåts misslyckas.",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "34:54",
+      "confidence": "high",
+      "tags": [
+        "VC",
+        "systemisk risk",
+        "Softbank"
+      ]
+    },
+    {
+      "quote": "Jag tror att många av de här affärsidéerna kommer att gå till helvete.",
+      "summary": "Många av de nuvarande startup-affärsidéerna kommer att misslyckas.",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "34:39",
+      "confidence": "high",
+      "tags": [
+        "startup",
+        "VC",
+        "affärsidéer"
+      ]
+    },
+    {
+      "quote": "Det finns ju ett samhällsintresse av att ha kvar dem. Det är ju en viktig infrastruktur del i ett land.",
+      "summary": "Infrastrukturkritiska bolag som SAS har samhällsintresse utöver ren lönsamhet.",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "20:17",
+      "confidence": "high",
+      "tags": [
+        "infrastruktur",
+        "SAS",
+        "samhällsintresse"
+      ]
+    },
+    {
+      "quote": "Det finns inte så mycket spare capacity i världen. Venezuela är långt ifrån att kunna krämma på lite. Alla andra har inte investerat mycket, det tar ett lång tid innan de är up and running.",
+      "summary": "Världens spare capacity för oljeproduktion är begränsad, vilket gör marknaden sårbar för störningar.",
+      "category": "wisdom",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "timestamp": "12:40",
+      "confidence": "high",
+      "tags": [
+        "olja",
+        "spare capacity",
+        "marknad"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Low Wolf",
+      "speaker_role": "host",
+      "quote": "Overstock bland annat, den har kommit ner nu igen. Den står väl ungefär, nu vet jag inte vad den står i när vi spelar in, men den gick ju faktiskt 40 procent däremellan.",
+      "context": "Nämnande av Overstock som handlar krypto",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": null
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet fokuserar på oljeprisattacken mot Saudi och dess effekter på oljebolag och flygbolag. Speakers är skeptiska till VC-marknaden och noteringar som EQT och WeWork. Kinneviks strategiförändring mot onoterat ses negativt. Marknadssentimentet är bearish med oro för börsbubbla och övervärderade VC-bolag.",
+  "key_takeaways": [
+    "Oljeprisattacken skapade stora rörelser men oljelagren kan dämpa effekten kort sikt",
+    "Flygbolag SAS och Norwegian är pressade men kan bli uppköpta inom 12 månader",
+    "EQT-noteringen är en exit för ägare, inte ett köptillfälle för småsparare",
+    "WeWork och Softbank/Vision Fund visar tecken på övervärdering och pyramidspel-struktur",
+    "Kinnevik bör undvikas tills strategin blir tydligare - rabatten mot NAV ökar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2019-09-17-cd3b.txt",
+  "transcript_word_count": 8076,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

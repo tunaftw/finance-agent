@@ -1,0 +1,271 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borsmagasinet-2025-03-11-a6bf",
+  "podcast_name": "Börsmagasinet",
+  "episode_title": null,
+  "episode_number": null,
+  "date": "2025-03-11",
+  "hosts": ["Emil Hansjöss", "Hampus Hedström"],
+  "guests": [],
+  "main_topics": ["olje- och gasmarknad", "HelloFresh", "Lifco-style företag", "tesla", "försvarsbolag"],
+  "stocks_discussed": ["Borg Drilling", "HelloFresh", "Röko", "Tesla", "4C", "Alten", "DNO", "Carasent", "EGA"],
+  "recommendations": [
+    {
+      "stock_name": "HelloFresh",
+      "ticker": "HFG",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Hampus Hedström",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "HelloFresh rapporterade ner 18% efter svaga Q4-siffror med 7,5% färre aktiva kunder och accelererande tapp. Endast 11-12% av kunderna stannar kvar, vilket kräver aggressiv marknadsföring med höga kundanskaffningskostnader. FCF marginal är bara 1% jämfört med det utlovade 5%. Bolaget skär ner promotions men riskerar att tappa en tredjedel av kunderna. Marknaden verkar mättad och tillväxt till 15-20% känns långt borta.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är klart att det är en jävligt stor modell att komma in på som en ny utmanare idag. Man kan ju kanske göra som Chefello och vara lokal igen eller två marknader men att göra globalt det är ju tufft. Frågan är om, alltså, är den här marknaden mättad nu eller finns, alltså finns det fler kunder att ta? Jag är inte så säker på det. Det känns rätt mättad.",
+      "sector": "Consumer Services",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Röko",
+      "ticker": "ROKO-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Emil Hansjöss",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Bolaget handlas på P/E 40 trots bara 5-6 års historia. Grundaren Fredrik Kling vill replikera Lifcos 10-årsresan på 5 år genom aggressiva förvärv inom alla sektorer, inte bara dental som Lifco. Skepticism finns kring om den växtstrategin är realistisk. Högt riskerade tillväxtscenario.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här alltså. Det reste sig rätt mycket kapital. Fredrik, han har ju liksom han har ju goodwill från Lifco. Kommer ut, kör det själv. Tänker att, okej. Det som Lifco gjorde på tio år ska vi nu göra på fem år. Det var ju det han sa.",
+      "sector": "Holding Companies",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "HelloFresh",
+      "ticker": "HFG",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 500,
+      "speakers": ["Emil Hansjöss", "Hampus Hedström"],
+      "primary_speaker": "Båda",
+      "discussion_summary": "HelloFresh tappade 18% efter svagt kvartal. Aktiva kunder ner 7,5% med accelererande tapp. Contribution margin platt trots minskad marknadsföring från 19,1% till 16%. FCF marginal bara 1% mot utlovade 5%. Endast 11-12% av kunderna stannar kvar vilket kräver höga kundanskaffningskostnader. Marknaden verkar mättad och tillväxtmålen på 15-20% känns orealistiska.",
+      "quotes": [
+        {
+          "speaker": "Hampus Hedström",
+          "text": "Nu verkar det mer som att Milkits typ går ner ganska snabbt. Factor inte växer lika snabbt. Marginalen kommer upp i Factor. Men ja, Milkits har ju betydligt högre lönsamhet ständigt. Det gör ju att marginalen kommer ner och man skär ju vartalsföring för att behålla dem istället för att ha haft tidigare.",
+          "timestamp": null,
+          "context": "business_analysis"
+        },
+        {
+          "speaker": "Hampus Hedström",
+          "text": "Det är klart att det är en jävligt stor modell att komma in på som en ny utmanare idag. Man kan ju kanske göra som Chefello och vara lokal igen eller två marknader men att göra globalt det är ju tufft.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Emil Hansjöss",
+          "text": "Frågan är, alltså, är den här marknaden mättad nu eller finns, alltså finns det fler kunder att ta? Jag är inte så säker på det. Det känns rätt mättad.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Emil Hansjöss",
+          "text": "Kollar man på kassaflödet så är det ju ganska, ja, vad gjorde man liksom? 73 miljoner före leasing i 2024 liksom. Man har alltid snackat om att capex ska vara typ 2% av sales. Ebit marginal om på 10 och sen så går ju en del skatt bort på det där och så säger att det är typ 5% free cashflow marginal. Men fan, de har ju 1% free cashflow marginal.",
+          "timestamp": null,
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "1%",
+        "dividend_yield": null,
+        "revenue_growth": "-3.5%",
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Customer retention: 11-12%", "Marketing cost: 16% of sales (från 19.1%)"]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["Marknaden verkar mättad", "Låg kundretention (11-12%)", "Höga kundanskaffningskostnader", "Negativ tillväxt i aktiva kunder", "Svag FCF marginal (1% vs utlovade 5%)", "Konkurrens från lokala spelare"],
+        "catalysts": [],
+        "risks": ["Marknadsmättnad", "Kostnadspress från promos", "Negativt rörelsekapital kan förvärra cashflow"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Borg Drilling",
+      "ticker": "BORG",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 500,
+      "speakers": ["Emil Hansjöss", "Hampus Hedström"],
+      "primary_speaker": "Båda",
+      "discussion_summary": "Borg Drilling gjorde stort förvärv förra veckan för att expandera till Nordsjön och bli en olje- och gasspelare. Bolaget gick från att vara exponerad mot Kurdistan till kontinentalskivan. Gearing ökar kortsiktigt men förvärvet gjordes utan utspädning. Det finns risken att Kurdistan kan öppna sina pipelines vilket skulle stärka kassan. Oljemarknaden är stökig med lägre rater.",
+      "quotes": [
+        {
+          "speaker": "Emil Hansjöss",
+          "text": "Det var ett förvärv här förra veckan det är inte att svinga jag såg att det såg rätt bra ut man fick inte så mycket siffror det var lite operationell man fick inte lite capex man fick gbt men det var väldigt fullexponerat den nordiska kontinentalskivan som man ska börja utöka med man är trött på skjuts i stan man pallar inte hålla på med den skiten längre kan jag förstå de köper svalenergi och nu blir man en spelare räknar man i Nordsjön",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Hampus Hedström",
+          "text": "Ja det är fint men bolaget är ju bara 12 miljarder nock kolla här nu det är ju ett stort förvärv liksom man köper ju ett bolag som är typ lika mycket värt som man själv är utan att köpa det här utan att göra någon utspädning så ja det är ju intressant gearingen går väl upp kortsiktigt",
+          "timestamp": null,
+          "context": "financial_analysis"
+        },
+        {
+          "speaker": "Emil Hansjöss",
+          "text": "Det kan ju finnas en möjlighet att de galna gubbarna i Kurdistan helt plötsligt skickar ut de pengarna alltså de är ju skyldiga det är nog då får de väl tror du det eller? nej det är väl det de håller på att grina över nu liksom oljebolagen vill ju inte de vill ju om de går med på att öppna pipe innan de får betalt för alla de här skulderna",
+          "timestamp": null,
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Hampus Hedström",
+          "text": "Jag tycker det är sjukt stökig oljemarknad just nu så det är jag har ingen aning vad som kan där kan jag säga jag vet inte oljepriset runt 70 det är väl det är väl okej liksom",
+          "timestamp": null,
+          "context": "market_context"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Market cap: ~12 miljarder SEK", "Cash consideration: 450 miljoner dollar", "Skuld övertagen: ~1,150 miljoner dollar", "Net cash: ~900 miljoner dollar"]
+      },
+      "thesis": {
+        "bull_case": ["Förvärv utan utspädning", "Expansion till Nordsjön", "Potential för att Kurdistan-betalningar kan komma", "Rimligt oljepris (~70)"],
+        "bear_case": ["Ökad skuldsättning", "Stökig oljemarknad", "Lägre riggrater", "Aramco och Pemex lägger våt filt på marknaden", "Borg Drilling är utlåst från Saudiarabien"],
+        "catalysts": ["Kurdistan kan öppna pipelines", "Oljemarknaden kan bottna", "Nordsjö expansion"],
+        "risks": ["Oljemarknadsstörningar", "Skuldökatagande", "Riggradprispress"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Alten",
+      "ticker": "ALT",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 400,
+      "speakers": ["Emil Hansjöss", "Hampus Hedström"],
+      "primary_speaker": "Emil Hansjöss",
+      "discussion_summary": "Alten köptes som exponering till försvarssektorn genom ingenjörstjänster. Bolaget har vuxit 15% på både vinst och omsättning över 25 år med minimal utspädning. Största kunder är Airbus (10% av omsättningen), Safran, Dassault. Handlas på 8x EV/EBITDA med 9-10% free cash flow yield. Grundaren Simon Asaluhi startade bolaget 1988 och äger fortfarande 15% vid 68 års ålder.",
+      "quotes": [
+        {
+          "speaker": "Emil Hansjöss",
+          "text": "För jag hann inte köpa några försvarsbolag innan allt tog, så tänkte jag hmm, Alten, de kommer nog ändå få leverera en hel del ingenjörtjänster till alla de här franska, italienska, brittiska och svenska försvarsbolagen",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Emil Hansjöss",
+          "text": "Man bor ju billigt. Det är ju ett bolag som har växt jag vet inte, kaggar det väl några 15% på både vinst och omsättning över typ 25 år. Och nej, diluta inte. Och gör en del förvärv och sådär",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Emil Hansjöss",
+          "text": "Jag tror det var typ EVBT 8 eller så. Fick du betala den där franska skatten då när du köpte? Stämt dyrt i? Det var ingenting jag reflekterade över",
+          "timestamp": null,
+          "context": "valuation"
+        },
+        {
+          "speaker": "Emil Hansjöss",
+          "text": "Här, kunde du köpa lite mer eller? Nej. Jag vet inte. Han hade väl inga direktaktier i GOP va? Så kanske inte. Han var ju med där tidigt. Han borde ha fått lite, kanske dåligt. Han har sett det här på förhandlingskurs",
+          "timestamp": null,
+          "context": "position_context"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "8x",
+        "ev_sales": null,
+        "fcf_yield": "9-10%",
+        "dividend_yield": null,
+        "revenue_growth": "15% (25-år historik)",
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Grundaren äger 15%", "Airbus: 10% av omsättningen"]
+      },
+      "thesis": {
+        "bull_case": ["Indirekt exponering till försvarssektorn", "Stabil historik med 15% tillväxt över 25 år", "Attraktiv värdering (8x EV/EBITDA)", "Hög FCF yield (9-10%)", "Låg utspädning"],
+        "bear_case": [],
+        "catalysts": ["Försvarssektorns fortsatta tillväxt", "Möjlighet att bolaget köps upp"],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är väl så när volatiliteten är upp så blir det ju ett hedgefonder som sitter med en lång och en kort bok så då får man ju ta ner den i total exponeringen för då har vi vissa riskparametrar som vi måste behålla emot och när volatiliteten ökar så gör det ju att 300 miljoner dollar då rör sig de 300 miljoner dollarna betydligt mycket mer än vad de gör om VIX är på 10 eller om det är på 30 så då får man skruva ner och då blir det försäljningar på båda håll eller att man täcker korta och sälja långa så grossar vi ner det är degrossing",
+      "summary": "Volatilitet tvingar hedgefonder att reducera total exponering, vilket leder till försäljningar på både lång och kort sida (degrossing)",
+      "category": "wisdom",
+      "speaker": "Hampus Hedström",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["volatilitet", "hedgefonder", "riskhantering"]
+    },
+    {
+      "quote": "De borde ha gjort som Olle. Tatt Olle playbooken och bara levererat. Men de fattar inte hur man ska exekvera gubbarna.",
+      "summary": "Lyckat investerande handlar om att leverera och exekvera, inte att hitta på nya strategier",
+      "category": "lesson",
+      "speaker": "Hampus Hedström",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": ["exekvering", "Lifco"]
+    },
+    {
+      "quote": "Vi kan väl nöja oss med att konstatera att narrativ fortsätter vara en viktig del av en aktie. Siffrorna har inte varit så starka de senaste rapporten men det har varit en viss förbättring eftersom det var tidigare. I alla fall inte lika illa som de väntade sig och den har handlats starkt som fan.",
+      "summary": "Narrativ och förväntningar kan driva aktiekurser mer än faktiska siffror, särskilt om besvikelse undviks",
+      "category": "wisdom",
+      "speaker": "Emil Hansjöss",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["narrativ", "marknadssentiment", "förväntningar"]
+    },
+    {
+      "quote": "Man måste skicka ut det där för att folk ska vilja testa det eller använda det. Det är ju bara 11-12% av kunder som stannar kvar.",
+      "summary": "Låg kundlojalitet signalerar brister i produkten eller affärsmodellen",
+      "category": "lesson",
+      "speaker": "Hampus Hedström",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": ["kundretention", "produktkvalitet"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet diskuterar flera sektorer med främst negativ syn på konsumenttjänster och råvaror. HelloFresh klassas som undvik på grund av svaga kundretention, mättad marknad och dålig lönsamhet. Röko avråds också med tanke på aggressiv tillväxtstrategi. Borg Drilling ägs men ses med skepticism. Alten köptes som försvarsexponering med stabil historik. Marknadssentimentet är negativt med volatilitet pressande marknaden.",
+  "key_takeaways": [
+    "HelloFresh undviks - svag kundretention (11-12%), mättad marknad, dålig FCF marginal (1%)",
+    "Röko avråds - P/E 40 med aggressiv förvärvsstrategi som väcker skepticism",
+    "Volatilitet tvingar hedgefonder att reducera exponering (degrossing)",
+    "Narrativ och förväntningar kan driva aktiekurser mer än faktiska siffror",
+    "Alten köptes som indirekt försvarsexponering med 8x EV/EBITDA och 9-10% FCF yield",
+    "Borg Drilling ägs men oljemarknaden är stökig med pressade rater"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borsmagasinet/transcripts/borsmagasinet-2025-03-11-a6bf.txt",
+  "transcript_word_count": 5611,
+  "has_timestamps": false,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,243 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2019-02-25-352e",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "Brev från gurun",
+  "episode_number": 66,
+  "date": "2019-02-25",
+  "hosts": [
+    "Karl-Henrik",
+    "Kristoffer"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Warren Buffets investerarbrev",
+    "Swedbank-skandalen",
+    "Börsutveckling",
+    "Makrostatistik PMI"
+  ],
+  "stocks_discussed": [
+    "Swedbank",
+    "Apple",
+    "Kraft Heinz",
+    "American Express"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Swedbank",
+      "ticker": "SWED-A",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Karl-Henrik",
+      "speaker_role": "host",
+      "timestamp": "08:46",
+      "reasoning": "Nordens mest effektiva och lönsamma bank med undervärdering. Värdering 1,35x bokvärde, direktavkastning 8-9%. Risk: pågående penningtvättshärvan, fler avslöjande väntas, potentiellt nedgång mot 150 SEK. Samtidigt insynsköp under torsdagen visar förtroende från internt håll.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Att aktien efter den här stora nedgången, vi gillade ju aktien redan på 196 kronor. Och på 165 tyckte det såg väldigt intressant ut. Det är Nordens mest effektiva och mest kostnadseffektiva och mest lönsamma bank. Värderingen nu är nedsatt liksom. Man betalar 1,35 gånger i boken och direktavkastningen är 8, 8,5-9 procent.",
+      "sector": "Finans",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Fortsätta ner mot 150 kronor",
+      "catalyst_timing": "Fler avslöjande den här veckan"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Swedbank",
+      "ticker": "SWED-A",
+      "timestamp_start": "07:38",
+      "timestamp_end": "10:11",
+      "word_count": 320,
+      "speakers": [
+        "Karl-Henrik",
+        "Kristoffer"
+      ],
+      "primary_speaker": "Karl-Henrik",
+      "discussion_summary": "Swedbank drabbades av SVT-avslöjande om påstådd penningtvätt, aktien föll 20% på två dagar men återhämtade 5% på fredagen. Värderingsmässigt ser banken attraktiv ut men osäkerheten kring vad som kan komma fram gör situationen farlig. Jämförelser med Danske Bank visar att utförsökningen kan fortsätta trots stabil bankverksamhet.",
+      "quotes": [
+        {
+          "speaker": "Kristoffer",
+          "text": "Det var ju uppdrag och granskningsavslöjande här om påstådda penningsvetenskrig ska vi säga. Man har också flaggat för att det kommer fler avslöjande den här veckan, vilket gör att det är lite olustigt.",
+          "timestamp": "07:43",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Karl-Henrik",
+          "text": "Att aktien efter den här stora nedgången, vi gillade ju aktien redan på 196 kronor. Och på 165 tyckte det såg väldigt intressant ut. Det är Nordens mest effektiva och mest kostnadseffektiva och mest lönsamma bank.",
+          "timestamp": "09:14",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Karl-Henrik",
+          "text": "Man betalar 1,35 gånger i boken och direktavkastningen är 8, 8,5-9 procent. Om man vågar tro på Swedbank så kan man se det här som ett attack i kurvan.",
+          "timestamp": "09:28",
+          "context": "metric"
+        },
+        {
+          "speaker": "Karl-Henrik",
+          "text": "Warren Buffett brukar ju säga att det är sällan en kackelacka i köket. Och det kanske är så i Swedbanks fall också.",
+          "timestamp": "09:14",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Kristoffer",
+          "text": "Många tittar ju på Danske Bank också, hur det gick och att det har hållit i sig mycket längre. Många av oss trodde ju att det skulle bli ett enkelt V... Men i Danske Bank så fortsatte ju bara utförsökningen.",
+          "timestamp": "08:46",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "8-9%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "P/B 1.35x"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Nordens mest effektiva och lönsamma bank",
+          "Undervärderad till 1,35x bokvärde",
+          "Hög direktavkastning på 8-9%",
+          "Insynsköp visar internt förtroende"
+        ],
+        "bear_case": [
+          "Pågående penningtvättshärvan med fler avslöjande väntande",
+          "Buffett:s princip att där rök finns, finns ofta eld",
+          "Danske Bank-jämförelse visar risk för långvarig utförsökning",
+          "Potentiell nedgång mot 150 SEK"
+        ],
+        "catalysts": [
+          "Fler avslöjande från granskande media",
+          "Insynsköp under torsdagen"
+        ],
+        "risks": [
+          "Klargörande skuldgrad i penningtvättsaffären",
+          "Fler banker kan dras in i härvan",
+          "Reputationsrisk påverkar kundförtroendet"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Amerikanska börsen är ju 140% av BNP tror jag. Så tittar vi på de här gamla, gammaldagsa Buffett-indikatorn där man delar marknadsvärdet med BNP så vill man ju gärna komma under 100% för att det är rea.",
+      "summary": "Buffett-indikatorn (marknadsvärde/BNP) visar att USA-börsen är övervärderad vid 140% av BNP, men marknaden kan ha strukturellt förändrats.",
+      "category": "wisdom",
+      "speaker": "Kristoffer",
+      "speaker_role": "host",
+      "timestamp": "05:36",
+      "confidence": "high",
+      "tags": [
+        "Buffett-indikator",
+        "värdering",
+        "marknadsvärde"
+      ]
+    },
+    {
+      "quote": "Tittar vi på de här gamla, gammaldagsa Buffett-indikatorn där man delar marknadsvärdet med BNP så vill man ju gärna komma under 100% för att det är rea. Men nu har ju marknaden blivit så otroligt stor och det är så otroligt många som är beroende av att marknaden fortsätter upp. Alla pensionsbolag och alla investerare. Så det finns starka incitament till att hålla marknaden uppe.",
+      "summary": "Strukturella förändringar kan göra gamla värderingsregler (som Buffett-indikatorn) mindre relevanta, då ekonomin och marknaden har vuxit och fler aktörer är beroende av stigande kurser.",
+      "category": "wisdom",
+      "speaker": "Kristoffer",
+      "speaker_role": "host",
+      "timestamp": "05:36",
+      "confidence": "high",
+      "tags": [
+        "marknadstruktur",
+        "pensionssystem",
+        "incitament"
+      ]
+    },
+    {
+      "quote": "Börsen brukar leda vägen. Det är såklart att förr i tiden så kanske man trodde att börsen nästan blivit så viktig som en signal till alla olika aktörer därute. Det är nästan den bästa ledande indikatorn vi har.",
+      "summary": "Börsen har blivit den bästa ledande indikatorn för ekonomin, då den speglar kollektiv visdom och framtidsförväntningar bättre än traditionella indikatorer som PMI.",
+      "category": "wisdom",
+      "speaker": "Kristoffer",
+      "speaker_role": "host",
+      "timestamp": "05:22",
+      "confidence": "high",
+      "tags": [
+        "ledande indikator",
+        "PMI",
+        "marknadssentiment"
+      ]
+    },
+    {
+      "quote": "Om de bara skulle haft 100% utdelningspolicy, att dela ut alla medel som de kunde tänka sig göra, då hade det egna kapitalet fortfarande varit på 22 miljoner dollar, mot över 300 miljarder som det är idag.",
+      "summary": "Berkshires enorma kapitaltillväxt från 22 miljoner till 300 miljoner dollar bevisar ränta-på-ränta-effektens styrka vid återinvestering av utdelningar istället för att ta ut dem.",
+      "category": "lesson",
+      "speaker": "Kristoffer",
+      "speaker_role": "host",
+      "timestamp": "15:32",
+      "confidence": "high",
+      "tags": [
+        "ränta på ränta",
+        "återinvestering",
+        "utdelning",
+        "Buffett"
+      ]
+    },
+    {
+      "quote": "Det finns absolut ingen anledning att dela ut pengarna om du faktiskt kan ha pengarna och återinvesterar din egen verksamhet.",
+      "summary": "Buffett anser att utdelningar bara är motiverade om bolaget inte kan återinvestera kapitalet med bättre avkastning än vad aktieägarna kan åstadkomma själva.",
+      "category": "philosophy",
+      "speaker": "Kristoffer",
+      "speaker_role": "host",
+      "timestamp": "15:15",
+      "confidence": "high",
+      "tags": [
+        "utdelningspolitik",
+        "återinvestering",
+        "Buffett"
+      ]
+    },
+    {
+      "quote": "När man börjar, det kanske börjar med en oskyldig justering eller vad man kan kalla, att man framlastar efterfrågan lite eller man planerar... Redovisning är ju som en gummiboll, man kan justera den lite utifrån hur man ser på framtiden och avskrivningstakt.",
+      "summary": "Företagsledare har stor flexibilitet i redovisning och kan börja med små justeringar som eskalerar till fullskalig manipulering för att möta marknadsförväntningar.",
+      "category": "wisdom",
+      "speaker": "Kristoffer",
+      "speaker_role": "host",
+      "timestamp": "11:40",
+      "confidence": "medium",
+      "tags": [
+        "redovisning",
+        "earnings management",
+        "justerade EBITDA"
+      ]
+    },
+    {
+      "quote": "Warren Buffett brukar ju säga att det är sällan en kackelacka i köket. Och det kanske är så i Swedbanks fall också.",
+      "summary": "Buffett:s princip om att problem sällan är isolerade - när ett problem upptäcks, finns det ofta fler där bakom, vilket är relevant vid Swedbanks penningtvättsskandal.",
+      "category": "wisdom",
+      "speaker": "Karl-Henrik",
+      "speaker_role": "host",
+      "timestamp": "09:14",
+      "confidence": "high",
+      "tags": [
+        "Buffett",
+        "risk",
+        "skandaler"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på Warren Buffets årliga investerarbrev med kritik mot justerade EBITDA-tal och stöd för återinvestering framför utdelningar. Swedbanks penningtvättsskandal diskuteras utförligt där värdemöjligheter väger mot betydande risker. Marknaden trotsar svaga PMI-siffror och fortsätter uppåt, men oron för Brexit och handelskrig kvarstår.",
+  "key_takeaways": [
+    "Buffett varnar för justerade EBITDA och redovisningsmanipulation",
+    "Swedbank kan vara köpvärt vid 165 SEK (1,35x P/B, 8-9% direktavkastning) men risken är stor med fler avslöjande väntande",
+    "Ränta-på-ränta via återinvestering skapade Berkshire Hathaways enorma kapitaltillväxt",
+    "Börsen har blivit den bästa ledande indikatorn för ekonomin och kan korrelera mindre med traditionella mätetal som PMI"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2019-02-25-352e.txt",
+  "transcript_word_count": 3367,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

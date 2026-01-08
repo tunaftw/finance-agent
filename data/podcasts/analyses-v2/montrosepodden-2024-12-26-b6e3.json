@@ -1,0 +1,591 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "montrosepodden-2024-12-26-b6e3",
+  "podcast_name": "Montrosepodden",
+  "episode_title": "#36 - David Rindegren: Nästan allt du behöver veta om halvledarsektorn just nu!",
+  "episode_number": 36,
+  "date": "2024-12-26",
+  "hosts": [
+    "Niklas"
+  ],
+  "guests": [
+    "David Rindegren"
+  ],
+  "main_topics": [
+    "Halvledare",
+    "AI",
+    "Halvledarindustrin",
+    "TSMC",
+    "NVIDIA",
+    "ASML"
+  ],
+  "stocks_discussed": [
+    "ASML",
+    "TSMC",
+    "NVIDIA",
+    "Hoya",
+    "Samsung",
+    "Synopsys",
+    "Cadence",
+    "Siemens",
+    "Relex",
+    "Broadcom",
+    "AMD",
+    "Intel",
+    "Texas Instruments",
+    "Alphabet",
+    "Amazon",
+    "Microsoft",
+    "ASM"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "ASML",
+      "ticker": "ASML",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "15:34",
+      "reasoning": "Ägs i fonden men har haft tufft år (ned ca 44-45% från toppen på några veckor). Förra året föll den 48% från toppen. Nu handlas till under 30x vinst (var tidigare 44-45x). Stor kundkoncentrationsrisk då TSMC nu är den egentliga stora kunden för EUV-maskinerna, medan Intel och Samsung har problem. Om TSMC sänker beställningarna för att förhandla priser så påverkar det rejält då ASML bara säljer 50-70 maskiner per år. Bättre att ha flera kunder än en väldigt mäktig kund.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi äger ASML i fonden så det är väl någon form av hint. Om man nu tittar på ASML, det man inte får glömma bort med den här industrin, den är väldigt cykliskt fortfarande. ASML var uppehandlade på 44-45 gånger vinsten, nu är det en bit under 30",
+      "sector": "Semiconductors",
+      "market": "other",
+      "position_context": "Ägs i fonden",
+      "downside_note": "Kundkoncentration till nästan bara TSMC",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "TSMC (Taiwan Semiconductor Manufacturing Company)",
+      "ticker": "2330.TW",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "49:50",
+      "reasoning": "Ägs i fonden och har 90-95% marknadsandel på de mest avancerade chipen. Dominerar närmast monopol på avancerade noder (3nm, 2nm). Har tagit marknadsandelar från Intel och Samsung. Nvidia, Apple, AMD alla är beroende av TSMC för tillverkning. Ställer nu till problem för ASML genom att vänta med beställningar för att förhandla priser pga sin starka position.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi äger de som tillverkar kippen, TSMC. Vi äger inte längre Samsung. Vi trodde att Samsung skulle kunna bli ett alternativ till TSMC, de mest avancerade noderna. De klarade inte av det, så Samsung är såld.",
+      "sector": "Semiconductors",
+      "market": "other",
+      "position_context": "Ägs i fonden",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hoya",
+      "ticker": "7741.T",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "19:26",
+      "reasoning": "Japanskt bolag som gör glasmask-blankor för EUV-maskinerna. Ett bolag med nästan monopolposition. Har utvecklats från glastillverkning för drycker till medicinska tillämpningar, hårddiskar och nu halvledarmaskor. Kallas Masters of Glass. Finns få andra bolag som kan göra detta.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det finns ett annat bolag som kan tillverka det här för de här EUV-maskinerna men i stort sett ett monopol. Så det finns många sådana här bolag som är extremt duktiga på någon liten nisch i halvledarindustrin och det här är ett av dem som vi äger.",
+      "sector": "Semiconductors",
+      "market": "japan",
+      "position_context": "Ägs i fonden",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Synopsys",
+      "ticker": "SNPS",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "49:50",
+      "reasoning": "EDA-bolag som designar ritningar för chip. Lägger 34% av omsättningen på R&D vilket är extremt mycket (Microsoft lägger 11-12%). Koncentrerar sig på en växande mediumstor marknad. Tillsammans med Cadence dominerar de EDA-marknaden vilket gör det svårt för nya aktörer att komma in.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och de bolagen, alltså Synopsys, Cadence, i Siemens, som vi också äger",
+      "sector": "Software",
+      "market": "us",
+      "position_context": "Ägs i fonden",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Cadence Design Systems",
+      "ticker": "CDNS",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "49:50",
+      "reasoning": "EDA-bolag som designar ritningar för chip, tillsammans med Synopsys. Dominerar denna nischmarknad. Högt R&D-fokus gör det svårt för konkurrenter att komma in.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och de bolagen, alltså Synopsys, Cadence, i Siemens, som vi också äger",
+      "sector": "Software",
+      "market": "us",
+      "position_context": "Ägs i fonden",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Siemens",
+      "ticker": "SIEGY",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "49:50",
+      "reasoning": "Äger Mentor Graphics som är EDA-bolag för chip-design. En av tre stora i EDA-marknaden tillsammans med Synopsys och Cadence.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och de bolagen, alltså Synopsys, Cadence, i Siemens, som vi också äger, så finns Mentor Graphics.",
+      "sector": "Diversified Industrials",
+      "market": "other",
+      "position_context": "Ägs i fonden",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Relex",
+      "ticker": null,
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "39:00",
+      "reasoning": "Bolag som tidigare var publicist av vetenskapliga tidskrifter, med stora mängder data. Har division med data och risklösningar samt legal data för advokater. Lanserar AI-tjänster för advokater med verifierad data (till skillnad från ChatGPT som kan hallucinera). Har nischdata som kan säljas via AI-tjänster. Ägs i den internationella fonden.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi äger i vår internationella fond, som inte då investerar i USA, till exempel Relex, som är ett bolag som en gång i tiden var en publicist av vetenskapliga tidskrifter. De har lanserat agitjänster mot advokater, det håller de också på, de har legal data, som förstås kan underlätta det dagliga arbetet för en advokatfirma enormt.",
+      "sector": "Software",
+      "market": "other",
+      "position_context": "Ägs i den internationella fonden (investerar inte i USA)",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "NVIDIA",
+      "ticker": "NVDA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "33:00",
+      "reasoning": "Fantastiskt bolag men ägs inte. Har bruttomarginal på 74-75%. Chippriset har gått från 3 000 dollar till 22 000 dollar. Dominerar AI-chip men konsoliderat på senaste halvåret. Betydande risk att scaling laws inte håller (att mer beräkning ger bättre modeller). Diskussion om skiftet från träning till inference kan ändra efterfrågan. Kunderna (tech-jättarna) utvecklar sina egna chips. Marknadsandel väntas vara 75% framöver.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nvidia är ett fantastiskt bolag, men det är ett bolag vi inte äger i dagsläget, vilket har varit helt fel de senaste två åren. Det ska det vara viktigt att understryka. Men det är också lite frågetecken kring vad nästa steg i den här revolutionen är på väg.",
+      "sector": "Semiconductors",
+      "market": "us",
+      "position_context": "Ägs inte, vilket varit fel de senaste två åren",
+      "downside_note": "Risk att scaling laws inte håller, skifte till inference, kunder utvecklar egna chips",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Samsung",
+      "ticker": "005930.KS",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "49:50",
+      "reasoning": "Har problem med avancerade noder. Trodde att Samsung skulle kunna bli ett alternativ till TSMC på de mest avancerade noderna men de klarade inte av det. Därför såldes positionen. Nu är de påtagligt efter TSMC.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi äger inte längre Samsung. Vi trodde att Samsung skulle kunna bli ett alternativ till TSMC, de mest avancerade noderna. De klarade inte av det, så Samsung är såld.",
+      "sector": "Semiconductors",
+      "market": "other",
+      "position_context": "Såld",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Alphabet / Google",
+      "ticker": "GOOGL",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "40:00",
+      "reasoning": "Ägs i fonden som vinnare på AI-infrastruktur och tillämpningar. Kan bli relativa vinnare om de inte behöver lägga lika mycket kapital på träning av modeller utan kan använda dem. Aktien har gått upp 15% på några dagar på nyheter om Willow quantum-chip, nya processorer och AI-modeller. VO2 (videogenererande modell) anses bättre än Sora. Anses gå från förlorare till vinnare igen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och det är också aktier som vi äger i fonden... Och Google är ett intressant aktie, för den har gått från, eller alfabet, att vara från en vinnare till en förlorare, vinnare, förlorare, och nu egentligen ses som vinnare igen.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": "Ägs i fonden",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "40:00",
+      "reasoning": "Ägs i fonden som en av måljättarna som kan bli relativa vinnare på AI. Om de kan använda modeller istället för att lägga enorma summor på träning (deras capex är runt 200 miljarder dollar tillsammans med Meta, Microsoft, Google) så finns det mycket att tjäna.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och det är också aktier som vi äger i fonden. Dels de som kan husera de här modellerna. Och det är ju måljättarna som man ska fundera på. Alltså Alphabet, Amazon och Microsoft.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": "Ägs i fonden",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "40:00",
+      "reasoning": "Ägs i fonden som en av måljättarna. Kan bli relativa vinnare om de kan använda modeller istället för att lägga enorma summor på träning (ca 200 miljarder dollar capex tillsammans med andra tech-jättar). Microsoft pratar mycket om AI-agenter som nästa steg i utvecklingen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och det är också aktier som vi äger i fonden... Och det är också aktier som vi äger i fonden. Dels de som kan husera de här modellerna. Och det är ju måljättarna som man ska fundera på. Alltså Alphabet, Amazon och Microsoft.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": "Ägs i fonden",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "ASM",
+      "ticker": null,
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "52:42",
+      "reasoning": "Bolag som håller på med ytbehandling av chip. Intressant i kontext av 3D-stacking där man måste bygga på höjden och får mer yta. Bolaget tjänar pengar på behandling av dessa ytor. Ägs i midcap-strategin.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi äger i vår midcap-strategi Centuria, ett bolag som heter ASM, som just håller på med det. Så när man bygger mer komplexa strukturer får man mer yta och då tjänar det här bolaget pengar på det på att behandla de här ytorna.",
+      "sector": "Semiconductors",
+      "market": "other",
+      "position_context": "Ägs i midcap-strategin",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "NVIDIA",
+      "ticker": "NVDA",
+      "timestamp_start": "29:32",
+      "timestamp_end": "36:00",
+      "word_count": 1200,
+      "speakers": [
+        "David Rindegren",
+        "Niklas"
+      ],
+      "primary_speaker": "David Rindegren",
+      "discussion_summary": "NVIDIA är det mest dominerande bolaget för AI-chip men har flera risker. Bruttomarginalen är på 74-75% och chippriset har gått från 3 000 till 22 000 dollar. Konsoliderat på senaste halvåret. Betydande risk att scaling laws inte håller (att mer beräkning ger bättre modeller). Diskussion om skiftet från träning till inference där man lägger mer tid på att optimera svar, vilket kan gynna andra bolag. Måljättarna utvecklar sina egna chips och kan minska beroendet av NVIDIA.",
+      "quotes": [
+        {
+          "speaker": "David Rindegren",
+          "text": "Nvidia är ett fantastiskt bolag, men det är ett bolag vi inte äger i dagsläget",
+          "timestamp": "33:00",
+          "context": "thesis"
+        },
+        {
+          "speaker": "David Rindegren",
+          "text": "När jag tittar på min lilla Nvidia-modell och tittar på historiska priserna, så kostade ett chip för några år sedan 3 000 dollar, och nu ligger vi på tror jag 22 000 dollar.",
+          "timestamp": "34:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "David Rindegren",
+          "text": "Och tittar jag på Nividia så har de bruttomarginalen på 74-75 procent, vilket är helt unheard of i den här industrin.",
+          "timestamp": "34:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "David Rindegren",
+          "text": "När jag träffar de smartare vännerna första frågan jag ställer, det är inte hur är läget eller hur går det med familjen, utan det är, håller de här scalinglås eller inte? Och senast när vi tog några öl här för några veckor sen, så var svaret nej, det ser ut som att de inte håller.",
+          "timestamp": "33:00",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "74-75%",
+        "debt_level": null,
+        "custom": [
+          "Chip price: 3,000 USD → 22,000 USD",
+          "Marknadsandel väntad 75%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Dominerar AI-chip marknaden",
+          "Enorm prissättningsmöjlighet när efterfrågan är hög",
+          "Kunder betalar vad som helst för chipen"
+        ],
+        "bear_case": [
+          "Risk att scaling laws inte håller",
+          "Skifte från träning till inference kan ändra efterfrågan",
+          "Måljättarna utvecklar egna chips",
+          "Konsoliderat på senaste halvåret"
+        ],
+        "catalysts": [
+          "Fortsatt AI-boom",
+          "Nya användningsområden för AI"
+        ],
+        "risks": [
+          "Scaling laws inte håller",
+          "Inference-phase minskar efterfrågan",
+          "Kapacitetsproblem hos TSMC",
+          "Kunder utvecklar egna chips (ASICs)"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "TSMC",
+      "ticker": "2330.TW",
+      "timestamp_start": "10:00",
+      "timestamp_end": "15:00",
+      "word_count": 900,
+      "speakers": [
+        "David Rindegren",
+        "Niklas"
+      ],
+      "primary_speaker": "David Rindegren",
+      "discussion_summary": "TSMC dominerar foundry-marknaden med 90-95% marknadsandel på de mest avancerade chipen. Närmast monopol på avancerade noder. Har tagit marknadsandelar från Intel och misslyckats. Deras affärsmodell med att sänka priser varje år för att få volymer och lära sig har varit avgörande för att konkurrera ut Intel. Intel och Apple är helt beroende av TSMC för tillverkning. Nu använder TSMC sin marknadsposition för att förhandla priser med ASML.",
+      "quotes": [
+        {
+          "speaker": "David Rindegren",
+          "text": "Och det betyder till exempel om man kollar på Foundry modellen så är det egentligen TSMC som dominerar, de har 90-95 procent marknadsandel på de mesta avancerade chipen, så i stort sett ett monopol.",
+          "timestamp": "10:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "David Rindegren",
+          "text": "TSMC har gjort fantastiskt bra ifrån sig... TSMC har helt konkurrerat ut Intel och till viss mån även Samsung.",
+          "timestamp": "14:00",
+          "context": "thesis"
+        },
+        {
+          "speaker": "David Rindegren",
+          "text": "Utan TSMC så skulle Nividia få enorma problem, minst sagt. AMD, samma sak, Design & Chip, någon annan tillverkar dem. Apple, Design & Chip, någon annan tillverkar dem.",
+          "timestamp": "12:00",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Marknadsandel på mest avancerade chip: 90-95%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Nästan monopol på avancerade noder",
+          "Höga yields (80-90%)",
+          "Alla stora fabless-bolag beroende av dem",
+          "Marknadsposition kan användas för att förhandla bättre priser med leverantörer"
+        ],
+        "bear_case": [
+          "Geopolitisk risk med Taiwan",
+          "Energiproblem för att utöka kapacitet",
+          "Stor kundkoncentration"
+        ],
+        "catalysts": [
+          "Fortsatt AI-boom",
+          "Nya teknologinoder (3nm, 2nm)"
+        ],
+        "risks": [
+          "Taiwanesisk geopolitisk risk",
+          "Energiförsörjning",
+          "Kunder utvecklar egna chips"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "ASML",
+      "ticker": "ASML",
+      "timestamp_start": "15:19",
+      "timestamp_end": "19:00",
+      "word_count": 700,
+      "speakers": [
+        "David Rindegren",
+        "Niklas"
+      ],
+      "primary_speaker": "David Rindegren",
+      "discussion_summary": "ASML är det enda bolaget i världen som kan tillverka EUV-maskinerna för de mest avancerade chipen. Har haft ett tufft år med nedgång på 44-45% från toppen, vilket följde på en 48% nedgång förra året. Handlas nu till under 30x vinst (var tidigare 44-45x). Stor risk med kundkoncentration där TSMC nu är nästan ensam stor kund för EUV-maskinerna, medan Intel och Samsung har problem. Bättre att ha flera kunder än en väldigt mäktig kund.",
+      "quotes": [
+        {
+          "speaker": "David Rindegren",
+          "text": "Vi äger ASML i fonden så det är väl någon form av hint.",
+          "timestamp": "15:34",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "David Rindegren",
+          "text": "ASML är en sån här aktie som hade ett tufft år och då ska man komma ihåg, om man sommar ut lite grann så är det viktigt att komma ihåg att jag tror att ASML är upp 3-4 % i år.",
+          "timestamp": "16:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "David Rindegren",
+          "text": "ASML var uppehandlade på 44-45 gånger vinsten, nu är det en bit under 30, så det är svårt att se att man ska uppa den typen av multiplar igen",
+          "timestamp": "17:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "David Rindegren",
+          "text": "Och det som har skett egentligen då det är ju att man har tappat order från TSMC för de har sån ställning nu mot ASML att de kan egentligen säga men vi väntar lite, vi diskuterar pris, vi kan ta dem här lite senare.",
+          "timestamp": "16:00",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "Under 30x (var 44-45x)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Föll 44-45% från toppen 2024",
+          "Föll 48% från toppen 2023",
+          "Säljer 50-70 maskiner per år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Monopol på EUV-maskiner",
+          "Lägre valuation nu (under 30x vs 44-45x tidigare)",
+          "Geopolitisk diversifiering kan ge fler kunder"
+        ],
+        "bear_case": [
+          "Kundkoncentration till nästan bara TSMC",
+          "TSMC kan vänta med beställningar för att förhandla priser",
+          "Intel och Samsung har problem",
+          "Om något händer med TSMC så drabbas ASML hårt"
+        ],
+        "catalysts": [
+          "Nya fabriker i västvärlden (USA, Europa) kan behöva EUV-maskiner"
+        ],
+        "risks": [
+          "Kundkoncentration",
+          "TSMCs förhandlingsmakt",
+          "Geopolitisk risk med Taiwan"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Om vi zoomar ut ytterligare lite grann och kollar på andra sådana här teknikskiften, så är det ofta så att i första steget så är det de som bygger infrastrukturen som tjänar pengar. Sen så blir det någon form av bubbla och efter den här bubblan har spruckit så är det bolagen som bygger applikationer eller tillämpningar på det här.",
+      "summary": "Historiskt mönster där infrastrukturbyggare vinner först, sedan bubbla, därefter applikationsbolagen",
+      "category": "wisdom",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "35:42",
+      "confidence": "high",
+      "tags": [
+        "teknologisk utveckling",
+        "bubblor",
+        "infrastruktur",
+        "tillämpningar"
+      ]
+    },
+    {
+      "quote": "För oss är det väldigt viktigt att lägga krutet, den största delen av tiden på det här sista steget, att försöka hitta rätt affärsmodell. När jag skrev vår investment thesis på Hoya för ett antal år sen så skrev jag under titeln Masters of Glass.",
+      "summary": "Viktigare att hitta rätt affärsmodell än bara följa tema",
+      "category": "philosophy",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "19:26",
+      "confidence": "high",
+      "tags": [
+        "affärsmodell",
+        "tematisk investering",
+        "right to win"
+      ]
+    },
+    {
+      "quote": "Men om man lägger ihop vad alla säger och räknar baklänge så kollar vi vilken energi som krävs så det är bara svårt att få det att gå ihop. När jag räknar på det på detaljnivå, så är det svårt att se att det ska gå ihop egentligen, att det ska kunna då 2030, när man räknar på bara NVIDIA chip i USA, så bara den inkrementella ökningen av chip i USA, är dubbla ökningen av elektrisk kapacitet i USA i år.",
+      "summary": "Energibehovet för AI är så stort att det är svårt att förstå hur det ska kunna uppfyllas",
+      "category": "wisdom",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "54:19",
+      "confidence": "high",
+      "tags": [
+        "energi",
+        "AI",
+        "energiförsörjning",
+        "datacenter"
+      ]
+    },
+    {
+      "quote": "Det som skedde för ett antal år sen, var att färre och färre bolag kunde ta sig vidare till nästa teknologisteg så den blev mer rationell, man fick lite mer pricing power så att säga. Vi hade inte samma överkapacitet.",
+      "summary": "Halvledarindustrin har blivit mer konsoliderad vilket ger bättre prissättningsmöjligheter",
+      "category": "wisdom",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "15:34",
+      "confidence": "high",
+      "tags": [
+        "konsolidering",
+        "pricing power",
+        "halvledare"
+      ]
+    },
+    {
+      "quote": "Man ska komma ihåg att om man tänker sin framtid där att USA inte, eller egentligen väst inte, är beroende av Taiwan, vad har vi då, eller vad tycker Trump då, värdet att försvara Taipei som kanske fem amerikaner kan peka ut på en karta av vad det ligger?",
+      "summary": "Geopolitisk risk med Taiwan - om västvärlden inte är beroende av Taiwan finns mindre incitament att försvara det",
+      "category": "wisdom",
+      "speaker": "David Rindegren",
+      "speaker_role": "guest",
+      "timestamp": "03:57",
+      "confidence": "high",
+      "tags": [
+        "geopolitik",
+        "Taiwan",
+        "halvledare",
+        "TSMC"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "David Rindegren ger en djupgående analys av halvledarindustrin och AI-utvecklingen. Han diskuterar hur TSMC dominerar tillverkningen av avancerade chip med nästan monopol, NVIDIA har haft fantastiskt med prisökningar men riskerar att scaling laws inte håller och att fokus skiftar till inference, och ASML är under press på grund av kundkoncentration till TSMC. Han betonar att historiskt sett vinner infrastrukturbolag först (som nu), därefter skapas en bubbla, och sedan vinner applikationsbolag. Stora frågetecken kring energiförsörjning - NVIDIA-chip i USA 2030 kräver dubbel ökning av elektrisk kapacitet. Geopolitiska risker med Taiwan och TSMC.",
+  "key_takeaways": [
+    "TSMC dominerar tillverkningen av avancerade chip med 90-95% marknadsandel",
+    "NVIDIA har ökat chippriset från 3 000 till 22 000 dollar men riskerar att scaling laws inte håller",
+    "Energibehovet för AI är enormt - NVIDIA-chip 2030 i USA kräver dubbel ökning av elektrisk kapacitet",
+    "Historiskt mönster: infrastrukturbolag vinner först, sedan bubbla, därefter applikationsbolag",
+    "Geopolitisk risk med Taiwan och TSMC - om västvärlden inte är beroende av Taiwan finns mindre incitament att försvara det",
+    "ASML har haft tufft år på grund av kundkoncentration till nästan bara TSMC"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/montrosepodden/transcripts/montrosepodden-2024-12-26-b6e3.txt",
+  "transcript_word_count": 13528,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

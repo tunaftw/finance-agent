@@ -1,0 +1,135 @@
+{
+  "source_id": "CwUOqfi7Te4",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-09-25",
+  "hosts": [
+    "Cred"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Market rejected from monthly resistance at 27.2, showing bearish retest behavior. Trading in narrow range with failed breakdown dynamics.",
+      "quote": "I think that would just look like a bearish retest on a monthly time frame. this is a pretty bearish retest as far as bearish retests go",
+      "price_levels": [
+        "$27,200",
+        "$26,400",
+        "$26,600",
+        "$25,600",
+        "$25,800",
+        "$23,000",
+        "$20,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Potential bullish case if market can reclaim 27.4 area, which would serve as key level for higher time frame reversal.",
+      "quote": "if you wanted to make a case for the higher time frames cascading into something bullish and you wanted to be semi-early to it I think 27.4 is the area to look for that",
+      "price_levels": [
+        "$27,400"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "ETH structure messier than BTC, failed to rally after breakdown. Lost important 1700 level with nothing compelling nearby.",
+      "quote": "nothing particularly compelling at 15 1600 uh compared to the loss of 1700. until that's fixed I'd rather wait for lower or wait for reclaims",
+      "price_levels": [
+        "$1,700",
+        "$1,600",
+        "$1,500",
+        "$1,400",
+        "$1,100"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LINK",
+      "asset_name": "Chainlink",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "LINK mentioned as potential outlier similar to 2018, but currently in year-long range since June 2022.",
+      "quote": "this is a very miserable weekly chart that's been ranged bound since June of 22 so over a year now... I think you need more evidence to support that argument",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "S&P 500",
+      "asset_name": "S&P 500",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Risk markets feeling pressure from bonds. S&P needs to hold 4300, showing breakdown potential.",
+      "quote": "if you're a bull you absolutely need 4300 to hold. we had a breakdown on the closing basis so any bounces into 43 70 80 could end up being bounces into resistance",
+      "price_levels": [
+        "$4,300",
+        "$4,370",
+        "$4,380",
+        "$4,400"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$27,200",
+        "$26,400",
+        "$25,600",
+        "$23,000",
+        "$20,000"
+      ],
+      "ETH": [
+        "$1,700",
+        "$1,400",
+        "$1,100"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC showing bearish retest of monthly resistance at 27.2k, with narrow trading range 25.6-26.6",
+    "ETH significantly weaker than BTC, having lost key 1700 level with no compelling support until 1400",
+    "LINK acting as potential outlier but needs more evidence to confirm secular uptrend like 2018",
+    "Risk markets (S&P 500) breaking down but correlation with crypto has diminished",
+    "Failed breakdowns provide clear support levels - second breakdown likely signals real move lower"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$25,600-$25,800",
+      "target": "$26,400-$26,600",
+      "stop": "$25,600",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1,400",
+      "target": "$1,600-$1,700",
+      "stop": "below $1,400",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "The episode analyzed BTC, ETH, and LINK with a predominantly bearish outlook. BTC faces resistance at 27.2k with a narrow trading range 25.6-26.6. ETH appears significantly weaker, having lost the key 1700 level. LINK remains range-bound since June 2022. Risk markets are under pressure but crypto correlation has diminished. The speaker emphasized the importance of hierarchical levels over minor price zones and warned that second breakdowns typically signal real moves lower rather than failed patterns.",
+  "transcript_word_count": 9639,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:19:00.489735"
+}

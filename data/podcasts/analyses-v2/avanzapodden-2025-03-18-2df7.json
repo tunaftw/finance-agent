@@ -1,0 +1,521 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "avanzapodden-2025-03-18-2df7",
+  "podcast_name": "Avanza podden",
+  "episode_title": "#388 – Handeln i MAG 7-bolagen, Rökos notering och Northvolts haveri",
+  "episode_number": 388,
+  "date": "2025-03-18",
+  "hosts": [
+    "Alexander",
+    "Douglas"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Marknadskorrigeringer",
+    "Mag 7-bolagen",
+    "Rökos notering",
+    "Northvolt",
+    "Nasdaq 24-timmars handel",
+    "ETF-er"
+  ],
+  "stocks_discussed": [
+    "Tesla",
+    "Meta",
+    "Nvidia",
+    "Google/Alphabet",
+    "ABB",
+    "P&G",
+    "H&M",
+    "Nestlé",
+    "Essity",
+    "Saab",
+    "Berkshire Hathaway",
+    "Scania",
+    "Volvo"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Mag 7-bolagen",
+      "ticker": null,
+      "timestamp_start": "05:53",
+      "timestamp_end": "08:31",
+      "word_count": 450,
+      "speakers": [
+        "Alexander",
+        "Douglas"
+      ],
+      "primary_speaker": "Alexander",
+      "discussion_summary": "Diskussionen handlar om hur Mag 7-bolagen drar ner index på S&P 500 och Nasdaq. Medianaktien är ner bara 2,7% medan index ner 6,7%, vilket visar hur koncentrerad världens index är till några få bolag. Mag 7 väger runt 30% i indexen och har gått mycket sämre än medianen. Diskussionen tar upp fördelar och nackdelar med värdeviktade index jämfört med likaviktade.",
+      "quotes": [
+        {
+          "speaker": "Alexander",
+          "text": "När vi tittar på medianaktien så ser det väldigt annorlunda ut. För om jag sa nu att Nasdaq 100 var ner 6,7 procent så är medianaktien bara ner 2,7.",
+          "timestamp": "06:09",
+          "context": "metric"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "De sju bolagen har ju gått väldigt mycket sämre än medianen på 2,7 procent. Så de drar ju ner index och det gäller både Nasdaq och S&P framför allt.",
+          "timestamp": "06:52",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Medianaktien presterar bättre än indexet"
+        ],
+        "bear_case": [
+          "Koncentrationen till Mag 7 gör index volatilt",
+          "Mag 7-bolagen har gått sämre än medianen"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Korrelationen till några få stora bolag ökar portföljrisk"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "timestamp_start": "41:29",
+      "timestamp_end": "43:32",
+      "word_count": 380,
+      "speakers": [
+        "Alexander",
+        "Douglas"
+      ],
+      "primary_speaker": "Alexander",
+      "discussion_summary": "Nvidia har ökat i ägarantal med 13% hos Avanzas kunder jämfört med årsskiftet, trots att Tesla tappat ägare. Aktien kopplas starkt till AI-trenden som väntas fortsätta. Värderingen har kommit ner rejält. Diskussionen tar upp AI:s effekt på samhället och företag, och nämner Google Gemini som konkurrent.",
+      "quotes": [
+        {
+          "speaker": "Alexander",
+          "text": "Och tittar vi här emellan då, så har Tesla fortsatt tappa ägare ner 17%, men Nvidia, där är det fler som kommer till för där är det 13% fler nu än vad det var vid årsskiftet.",
+          "timestamp": "41:50",
+          "context": "other"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "Nvidia är inte lika så även om värderingarna har kommit ner rejält där också. Men de har ju en tydlig koppling till AI, det har förvisso Elfabet också men inte lika stor. Och AI-trenden kommer, tror jag, inte dö ut i närtid.",
+          "timestamp": "42:27",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Värdering kommit ner rejält"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Tydlig koppling till AI-trenden",
+          "Värdering kommit ner",
+          "Ägarantal ökar hos retail"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "AI-implementering i samhället kommande år"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Google/Alphabet",
+      "ticker": "GOOGL",
+      "timestamp_start": "42:01",
+      "timestamp_end": "43:32",
+      "word_count": 200,
+      "speakers": [
+        "Alexander",
+        "Douglas"
+      ],
+      "primary_speaker": "Alexander",
+      "discussion_summary": "Google har ökat i ägarantal hos Avanzas kunder och noteras som den Mag 7-aktie med lägst framåtblickande P/E. Gemini, Googles chatbot, ska bli mer personlig genom att ta hänsyn till sökhistorik. Diskussionen nämner att AI-trenden väntas fortsätta.",
+      "quotes": [
+        {
+          "speaker": "Alexander",
+          "text": "Och det jag kunde konstatera då det är att Elfabet eller Google, de har ju lägst värdering om man tittar på framåtblickande PE bland de här magsävenbolagen. Så det kan vara en förklaring till att man vill, nu känner man att det är för billigt med magsäven, nu ökar vi med Elfabet i den aktien.",
+          "timestamp": "42:01",
+          "context": "metric"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "Jag såg, det var nog också på morgonen här nu, så berättade Google att Gemini, deras chatbot ska bli mer personlig nu för att den ska börja ta hänsyn till ens sökhistorik.",
+          "timestamp": "43:05",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "lägst bland Mag 7",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Lägst framåtblickande P/E bland Mag 7",
+          "AI-satsning med Gemini"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Gemmi blir mer personlig"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "40:36",
+      "timestamp_end": "42:20",
+      "word_count": 150,
+      "speakers": [
+        "Alexander"
+      ],
+      "primary_speaker": "Alexander",
+      "discussion_summary": "Tesla är värst ner av Mag 7-bolagen med -40% till date. Ägarantal hos Avanzas kunder har minskat med 17% jämfört med årsskiftet. Aktien drar ner indexet tillsammans med andra Mag 7-bolag.",
+      "quotes": [
+        {
+          "speaker": "Alexander",
+          "text": "Tesla är ju värst ner 40 procent",
+          "timestamp": "40:44",
+          "context": "metric"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "Och tittar vi här emellan då, så har Tesla fortsatt tappa ägare ner 17%",
+          "timestamp": "41:50",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "YTD: -40%",
+          "Ägarantal ner 17%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Värst ner av Mag 7",
+          "Ägarantal minskar"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Fortsatt nedgång"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Röko",
+      "ticker": null,
+      "timestamp_start": "46:21",
+      "timestamp_end": "48:48",
+      "word_count": 350,
+      "speakers": [
+        "Alexander",
+        "Douglas"
+      ],
+      "primary_speaker": "Alexander",
+      "discussion_summary": "Röko noterades under veckan med en noteringkurs på över 2000 kronor. Noteringen var övertecknad och krävde lottning. Aktien var den mest omsatta hos Avanzas kunder på noteringdagen och den mest nettoköpta. Fredrik och Thomas framhävde högre aktiekurs som kvalitetsstämpel.",
+      "quotes": [
+        {
+          "speaker": "Alexander",
+          "text": "Den var den mest omsatta aktien bland våra kunder på tisdag när den noterades. Och den var mer än tre gånger så handlade den som Saab som vi brukar vara väldigt omsatt.",
+          "timestamp": "46:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "3400 kunder ägde den efter tisdag då när den noterades.",
+          "timestamp": "46:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "Den aktien kostar ju mer än vad aktien normalt brukar kosta i. De här hade ju över 2 000 kronor.",
+          "timestamp": "47:25",
+          "context": "metric"
+        },
+        {
+          "speaker": "Alexander",
+          "text": "Är du inte sugen på att köpa vår aktie, om den kostar över 2000 kronor, då ska du inte äga oss. Så de ställer ett visst krav på dig som aktieägare också.",
+          "timestamp": "48:30",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Noteringskurs: >2000 SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Övertecknad notering",
+          "Hög omsättning hos retail",
+          "Fredrik och Thomas prioriterar långsiktiga ägare"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "ABB",
+      "ticker": "ABB-B",
+      "timestamp_start": "45:47",
+      "timestamp_end": "46:00",
+      "word_count": 50,
+      "speakers": [
+        "Alexander",
+        "Douglas"
+      ],
+      "primary_speaker": "Alexander",
+      "discussion_summary": "ABB nämns som en stor spelare inom robotisering, vilket kopplas till trenden med robotar som hjälper i vardagen och produktion. Robotisering väntas fortsätta kommande år.",
+      "quotes": [
+        {
+          "speaker": "Alexander",
+          "text": "Och där har vi ju en stor spelare i ABB.",
+          "timestamp": "45:49",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stor spelare inom robotisering"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Robotisering i produktion fortsätter"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Scania",
+      "ticker": "SCV-B",
+      "timestamp_start": "44:08",
+      "timestamp_end": "45:20",
+      "word_count": 150,
+      "speakers": [
+        "Alexander"
+      ],
+      "primary_speaker": "Alexander",
+      "discussion_summary": "Scania nämns i samband med försvarsupprustning. Scanias vd berättade om stora försvarsorder där allt material ska fraktas till olika platser, vilket kan spela över positivt på lastbilar. Diskussionen belyser vikten av att se sekundära effekter av trender.",
+      "quotes": [
+        {
+          "speaker": "Alexander",
+          "text": "Scanias vd. Och som då berättade om hela den här försvarsupprustningen som sker nu, att det skulle kunna då spela över även positivt på lastbilar. För att all det här materialet ska fraktas till olika ställen.",
+          "timestamp": "44:12",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Försvarsupprustning driver efterfrågan på lastbilar"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Försvarsmaktens order"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Dels på de här 75 åren så pratar vi nu både 2018, 2020 och nu. Då känns det som att lever vi i en tid nu när vi ska tänka oss att det är mer volatilitet och att man ska bli mer van i modern tid på att sådana här händelser uppstår än vad det var tidigare.",
+      "summary": "Marknaden har sett fler snabba korrektioner på senare år (2018, 2020, 2025), vilket kan tyda på ökad volatilitet i modern tid",
+      "category": "wisdom",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "timestamp": "15:33",
+      "confidence": "medium",
+      "tags": [
+        "volatilitet",
+        "marknadscykler",
+        "historik"
+      ]
+    },
+    {
+      "quote": "Jag tänker att i det här ungefär som man har skärmtid på telefonen, så kanske man, ju mer tillgänglig börsen kanske då blir, att man kanske skulle kunna börja sätta in egna begränsningar. Jag hade kunnat tycka att det hade varit lite kul även på, men säg att man då har köpt en aktie som man bestämt sig för, att nu köper jag den här, jag är här nere och bottenfisker, jag ska inte röra den här på tolv månader. Att man liksom satt in som en sperr på sig själv",
+      "summary": "24-timmars handel kan öka risken för irrationella beslut, likt skärmtid på telefonen kan man behöva sätta begränsningar för att undvika handla på natten",
+      "category": "wisdom",
+      "speaker": "Douglas",
+      "speaker_role": "host",
+      "timestamp": "31:13",
+      "confidence": "high",
+      "tags": [
+        "självkontroll",
+        "handelsdisciplin",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Men när man läser det i media, att nu är det ny korrektion, nu är det tufft, nu är det si och nu är det så. Så korrektion sa vi ju, då ska det ner 10% från toppen till botten, men average här är alltså 14. Så vi ska förvänta oss minst en korrektion varje år.",
+      "summary": "Korrectioner är vanliga - genomsnittlig max drawdown på S&P 500 sedan 1980 är 14%, så man bör förvänta sig minst en korrektion varje år",
+      "category": "wisdom",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "timestamp": "10:54",
+      "confidence": "high",
+      "tags": [
+        "korrektioner",
+        "historisk statistik",
+        "marknadscykel"
+      ]
+    },
+    {
+      "quote": "Men min poäng med det här är att ibland gäller det om man vill titta på trender, om man vill investera i trender, att man tittar bortom det mest uppenbara. För det där kan ju komma i olika faser. Precis som med AI då, Nvidia blev den stora spelaren på det från början. Det var det alla sprang efter. Sedan får man se vad kommer härnäst.",
+      "summary": "När man investerar i trender, se bortom det mest uppenbara och förstå att trender utvecklas i faser - AI började med Nvidia men effekten sprider sig till andra sektorer",
+      "category": "wisdom",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "timestamp": "45:08",
+      "confidence": "high",
+      "tags": [
+        "trendinvestering",
+        "AI",
+        "faser"
+      ]
+    },
+    {
+      "quote": "Problemet är att när du väl kommer tillbaka då har du missat ganska mycket av uppgången. Det kan vara tre månader, sex, tolv månader. Men när du kommer till den punkten och inser att jag har missat en ganska stor del av den här uppgången. Så frågan man borde ställa sig istället är okej, vilken risk har jag i portföljen? Måste jag tänka om?",
+      "summary": "Att sälja i nedgångar känns skönt men ofta missar man återhämtningen. Fokusera istället på riskprofilen snarare än att försöka timma marknaden",
+      "category": "lesson",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "timestamp": "20:14",
+      "confidence": "high",
+      "tags": [
+        "timning",
+        "riskhantering",
+        "marknadstiming"
+      ]
+    },
+    {
+      "quote": "Och om vi går tillbaka till nu ska man inte jämföra år mellan år och vad som hände de åren. Men 2018-2019 var ju tullkrig som sagt. Det var ju vissa månader som var extremt tuffa. Inte minst för SMP. Och jag blickade tillbaka till oktober 2018. Då stängde ju den månaden ner nästan 7 procent. December stängde ner 9 procent. Då såg det betydligt blodigare ut på grund av tullhoten.",
+      "summary": "Händelser som känns extamma när de sker tenderar att bli överreaktioner i historiskt perspektiv, vilket bekräftas av återhämtning efter tidigare snabba korrektioner",
+      "category": "wisdom",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "timestamp": "16:25",
+      "confidence": "medium",
+      "tags": [
+        "överreaktioner",
+        "marknadpsykologi",
+        "historia"
+      ]
+    },
+    {
+      "quote": "Tänk om man skulle testa det. Nu är man ju så nerdis att man vill ju vara inne där och se hela tiden hur det går. Men tänk om man skulle ändra perspektivet till att nu ska jag bara titta. Säg att du tar tre år då. Tre år, det är ju inte en jättelång horisont för aktier ändå. Och bara ligga med treårsperspektiv hela tiden. Det tror jag skulle göra någonting med hos mindset ändå.",
+      "summary": "Att ändra tidsperspektiv till längre horisonter kan hjälpa investerare undvika stress i tuffa marknadsmiljöer",
+      "category": "wisdom",
+      "speaker": "Douglas",
+      "speaker_role": "host",
+      "timestamp": "22:46",
+      "confidence": "medium",
+      "tags": [
+        "tids perspektiv",
+        "investerarepsykologi",
+        "långsiktighet"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": null,
+      "asset_name": "krypto",
+      "sentiment": "neutral",
+      "speaker": "Alexander",
+      "speaker_role": "host",
+      "quote": "Jag pratade med en kollega till oss som innan han kom tillbaka till Evansa jobbade som trader. Då beskrev han för mig att under en period så började han investera också i krypto. När han var exponerad mot krypto, som handlas dygnet runt, de är redan där, då satte han en klocka varannan timme på natten för att gå upp och kolla sina positioner. Då kände jag att det där inte är hälsosamt.",
+      "context": "Handlas dygnet runt kan leda till ohälsosamt beteende",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": null
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar pågående marknadskorrigeringer i USA där S&P 500 och Nasdaq fallit, drivet av Mag 7-bolagen. Samtidigt presterar svenska börsen bättre. Nordvolt har ansökt om konkurs med miljardförluster för pensionssparare. Röko noterades framgångsrikt med hög aktiekurs som strategiskt val. Diskussionen tar upp risker med 24-timmars handel, vikten av långsiktighet och historiska perspektiv på korrektioner.",
+  "key_takeaways": [
+    "S&P 500 och Nasdaq har haft korrektioner drivna av Mag 7-bolagen, medan svenska marknader presterat bättre",
+    "Medianaktien på Nasdaq 100 är bara ner 2,7% trots att index är ner 6,7%",
+    "Northvoly konkurs påverkar pensionssparare med miljardförluster",
+    "Röko noterades med framgång och hög aktiekurs som kvalitetsstämpel",
+    "Nvidia och Google har ökat i ägarantal hos Avanzas kunder"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/avanzapodden/transcripts/avanzapodden-2025-03-18-2df7.txt",
+  "transcript_word_count": 9654,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

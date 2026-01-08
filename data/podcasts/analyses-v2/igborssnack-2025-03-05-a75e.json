@@ -1,0 +1,429 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "igborssnack-2025-03-05-a75e",
+  "podcast_name": "IG Börssnack",
+  "episode_title": "Skakigt i USA | IG Börssnack",
+  "episode_number": null,
+  "date": "2025-03-05",
+  "hosts": [
+    "Patrik"
+  ],
+  "guests": [
+    "Lone Wolf (cited)"
+  ],
+  "main_topics": [
+    "RWE",
+    "NVIDIA",
+    "AI trends",
+    "Macro data",
+    "Crypto",
+    "Tesla"
+  ],
+  "stocks_discussed": [
+    "RWE",
+    "NVIDIA",
+    "Tesla"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "RWE",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Lone Wolf (cited by Patrik)",
+      "speaker_role": "guest",
+      "timestamp": "02:31",
+      "reasoning": "Tyskt energibolag handlas till låg värdering på ~8x årsvinsten, vilket begränsar nedsidan. Regeringsskifte i Tyskland med Merz (CDU) som förbundskanslere kan innebära mindre nedmontering av kärnkraft, vilket gynnar bolaget. Tekniskt stöd på nuvarande nivå med historisk volym.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Bolaget handlas just nu till ganska låg värdering. Det är ungefär åtta gånger årsvinsten. Och det gör ju att nedsidan i det här fallet inte är så stor. Och vi har fått ett köpcase från Lone Wolf helt enkelt där han tror att det här kan bli väldigt bra för RVE.",
+      "sector": "Energy",
+      "market": "other",
+      "position_context": null,
+      "downside_note": "Begränsad nedsidan på grund av låg värdering",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "17:25",
+      "reasoning": "Aktien har fallit rejält och handlas nu på en nivå med historiskt hög volym, vilket kan indikera stöd. Trots hög värdering på ~100x framåtblickande vinst, finns potential om Elon Musk hittar på nästa stora sak. Uppsidemål runt 350 USD. Höga motvindar från bojkottar och svaga Q1-försäljningssiffror i Europa.",
+      "price_target": 350,
+      "time_horizon": null,
+      "quote": "Det här är nivån man skulle kunna börja passa på att köpa in sig igen. Tittar man på vad är potentiella uppsidan så finns det olika nivåer även här. Och det är bland annat den senaste toppen ungefär runt 350 någonstans som vi ser här som kan vara en bra nivå att ta lite vinsthemtagning om vi skulle få en uppgång.",
+      "sector": "Automotive",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Bojkottrisker och svaga försäljningssiffror i Europa",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "NVIDIA",
+      "ticker": "NVDA",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "05:18",
+      "reasoning": "Stark rapport men aktien stört på lägre guidning och växande tillväxtoro. Handlas till ~50x nuvarande vinst men bara ~25x framåtblickande, vilket är lägre än andra Magnificent 7. Konkurrens från Kina och DeepSeek-effekten. Fas två i AI-racet kan gynna mjukvarubolag över hårdvarubolag.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Rapporten gillas ju av många, och det är ju guidning och tillväxt generellt som vi har, ser ett problem och det är tillväxtaktier som tar stryk, och framförallt halvledarbolag som leder den här tillväxtresan.",
+      "sector": "Semiconductors",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Lägre guidning och oro för framtida tillväxt",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "RWE",
+      "ticker": null,
+      "timestamp_start": "01:57",
+      "timestamp_end": "02:59",
+      "word_count": 250,
+      "speakers": [
+        "Patrik"
+      ],
+      "primary_speaker": "Patrik",
+      "discussion_summary": "Lone Wolf ser köpmöjlighet i tyska energibolaget RWE på grund av låg värdering (8x vinst), politiska vindar från regeringsskifte där Merz kan vara mindre benägen att avveckla kärnkraft, och tekniskt stöd på nuvarande nivå.",
+      "quotes": [
+        {
+          "speaker": "Patrik",
+          "text": "Bolaget handlas just nu till ganska låg värdering. Det är ungefär åtta gånger årsvinsten. Och det gör ju att nedsidan i det här fallet inte är så stor.",
+          "timestamp": "01:57",
+          "context": "metric"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Och vi har fått ett köpcase från Lone Wolf helt enkelt där han tror att det här kan bli väldigt bra för RVE.",
+          "timestamp": "02:23",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "den här nivån som aktien handlas på nu har vi stött på under, ja, tillbaka historiskt då. Och då har vi till högre volym och även haft det som en stödnivå när aktierna handlas ner.",
+          "timestamp": "02:31",
+          "context": "technical"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "8x",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Låg värdering 8x årsvinst",
+          "Nya tyska regeringen (Merz) mindre benägen att avveckla kärnkraft",
+          "Tekniskt stödnivå med historisk volym"
+        ],
+        "bear_case": [
+          "Få svenska ägare"
+        ],
+        "catalysts": [
+          "Regeringsskifte i Tyskland",
+          "Brott av teknisk stödnivå"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "13:54",
+      "timestamp_end": "19:05",
+      "word_count": 800,
+      "speakers": [
+        "Patrik"
+      ],
+      "primary_speaker": "Patrik",
+      "discussion_summary": "Tesla handlas till extremt hög värdering på ~100x framåtblickande vinst för ett bilbolag, men investerarna ser det som ett tillväxtbolag kopplat till AI, självkörande bilar och taximarknaden. Aktien har fallit pga bojkotter från företag och svaga Q1-försäljningssiffror i Europa, men tekniska indikatorer visar stöd på nuvarande nivå.",
+      "quotes": [
+        {
+          "speaker": "Patrik",
+          "text": "Det är bilbolag för det första till hög värdering. Vi pratade värdering på Nvidia där vi har ungefär 50 gånger årsvinsten och där har vi Tesla som är ungefär 100 gånger framåtblickande årsvinst. Så det är en jättehög värdering på bilbolag.",
+          "timestamp": "13:54",
+          "context": "metric"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Musk vill ju få bolaget att vara så mycket mer än bara ett gammalt bilbolag. Utan det är ju AI-racet här, självkörande bilar, han vill in i taxindustrin med sina bilar.",
+          "timestamp": "14:23",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Gör man en sökning på företag och organisationer som väljer att aktivt boykotta Tesla på grund av det som händer i USA med Elon och Trump just nu så är det ganska många. Alltifrån bak till 2023 där vi har Ericsson, tror vi Alfa Laval som har gått ut och sagt att de pausar. Vi har stora tyska SAP och så vidare.",
+          "timestamp": "15:53",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Det här är nivån man skulle kunna börja passa på att köpa in sig igen. Tittar man på vad är potentiella uppsidan så finns det olika nivåer även här. Och det är bland annat den senaste toppen ungefär runt 350 någonstans",
+          "timestamp": "17:25",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Christer Gardell var ut här om veckan och kallade det en jättestor bubbla.",
+          "timestamp": "18:50",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "100x (forward)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Tekniskt stöd på nuvarande nivå med historisk volym",
+          "Elon Musks innovationsförmåga kan driva kursen",
+          "Potential i AI, självkörande bilar och taximarknad"
+        ],
+        "bear_case": [
+          "Extremt hög värdering för bilbolag",
+          "Bojkotter från organisationer och företag",
+          "Svaga försäljningssiffror i Europa Q1",
+          "Elon Musks politiska profilering"
+        ],
+        "catalysts": [
+          "Nyheter om AI/självkörande teknologi",
+          "Ändrad bojkottstämning",
+          "Framtida rapporter"
+        ],
+        "risks": [
+          "Nya bojkottkampanjer",
+          "Musk gör något marknaden ogillar",
+          "Fortsatt svaga försäljningssiffror"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "NVIDIA",
+      "ticker": "NVDA",
+      "timestamp_start": "02:59",
+      "timestamp_end": "08:59",
+      "word_count": 600,
+      "speakers": [
+        "Patrik"
+      ],
+      "primary_speaker": "Patrik",
+      "discussion_summary": "NVIDIA rapporterade starkt men aktien föll på lägre guidning. Bolaget handlas till ~50x nuvarande men bara ~25x framåtblickande vinst. Diskussion om AI-racets utveckling från fas ett (hårdvara) till fas två (mjukvara). DeepSeek-kinesisk AI-modell skapade oro men kan faktiskt gynna Nvidia genom ökad efterfrågan.",
+      "quotes": [
+        {
+          "speaker": "Patrik",
+          "text": "NVIDIA är ju det här stora AI-bolaget som kanske bär den gulaste ledartröjan i det racet och väger väldigt tungt i index.",
+          "timestamp": "02:59",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Det är en hög värdering i kombination med väldigt höga förväntningar, som alltså ger utslag när den här rapporten kommer, trots att den faktiskt är stark",
+          "timestamp": "04:07",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Nvidia är inte så högt värderad som andra av dem här inom Magnificent 7. Tittar man på framtida, alltså framåtblickande pris mot vinst, så handlas det ungefär till 25 gånger det.",
+          "timestamp": "04:39",
+          "context": "metric"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "fas ett i den här AI-resan är just att hårdvarubolagen växer när många vill köpa deras hårdvara, bygga egna modeller och så vidare. Och steg två då skulle eventuellt kunna vara när mjukvarubolagen tar fart.",
+          "timestamp": "05:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "DeepSeek visade att man kunde bygga mycket mer effektivt av de här modellerna.",
+          "timestamp": "07:09",
+          "context": "other"
+        },
+        {
+          "speaker": "Patrik",
+          "text": "Meta bland annat har ju gått ut och sagt att de håller kvar i sina investeringar under det här året som är väldigt höga. Så att man kommer, Apple, Meta med flera kommer göra jätteinvesteringar under året och köpa mycket mer hårdvara.",
+          "timestamp": "06:13",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "50x (current), 25x (forward)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Lägre framåtblickande värdering än Magnificent 7 (25x)",
+          "Stora investeringar från Meta, Apple fortsätter",
+          "Hårdvarufas fortfarande pågående"
+        ],
+        "bear_case": [
+          "Lägre guidning orolar marknaden",
+          "Tillväxtaktier och halvledare pressade",
+          "AI-racet kan gå in i mjukvarufas"
+        ],
+        "catalysts": [
+          "Framtida AI-investeringar",
+          "Nya AI-applikationer",
+          "Kinesisk konkurrensutveckling"
+        ],
+        "risks": [
+          "DeepSeek-effekten",
+          "Minskad tillväxttak",
+          "Skifte till mjukvarufokus"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man kan nästan säga att det var tråkiga siffror som då lugnade marknaden. I det här fallet så är tråkiga siffror lite bra siffror.",
+      "summary": "Dåliga makrosiffror kan vara bra för marknaden om de öppnar för räntesänkningar",
+      "category": "wisdom",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "09:38",
+      "confidence": "high",
+      "tags": [
+        "makro",
+        "räntor",
+        "marknadssentiment"
+      ]
+    },
+    {
+      "quote": "Nu håller vi på och vänder återigen mot att dåliga siffror kan bli bra siffror och det är primärt för att man vill ha räntesänkningar från Fed. Och då är det så att då får det inte vara för stark tillväxt, det får inte vara för bra sysselsättning och det får inte vara för hög och stark inflation.",
+      "summary": "För att få räntesänkningar behöver tillväxten och inflationen vara måttliga, annars blir marknaden nervös",
+      "category": "wisdom",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "09:42",
+      "confidence": "high",
+      "tags": [
+        "räntor",
+        "Fed",
+        "inflation",
+        "tillväxt"
+      ]
+    },
+    {
+      "quote": "Man ska aldrig underskatta Musk. Han kommer att hitta på det värsta. Han kan ju haza den här aktien vid olika tillfällen. Kommer han ut med någonting nytt stort så kan den här aktien dra 10 procent och då kan man sitta lite snett om man går kort den aktien.",
+      "summary": "Att gå kort Tesla är riskfyllt eftersom Elon Musk kan komma med stora nyheter som driver kursen uppåt",
+      "category": "lesson",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "15:27",
+      "confidence": "high",
+      "tags": [
+        "shorting",
+        "Tesla",
+        "Musk",
+        "risk"
+      ]
+    },
+    {
+      "quote": "han är verkligen drivande i alla marknader nu",
+      "summary": "Trump har stor påverkan på marknaderna genom sina uttalanden och beslut",
+      "category": "wisdom",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "timestamp": "12:06",
+      "confidence": "medium",
+      "tags": [
+        "Trump",
+        "marknadspåverkan"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "quote": "Men sen gick ju Trump ut i helgen och berättade om vilka kryptovalutor han vill ska ingå i valutareserven. Då såg vi en studs igen.",
+      "context": "Trump meddelade vilka kryptovalutor han vill inkludera i den amerikanska valutareserven",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "quote": "Det är många av de mindre kryptovalutorna som bygger på de här nätverken, Solano till exempel och Cardano som är nätverk och även Bitcon och Ethereum. Så det är bra för hela kryptosvärlden.",
+      "context": "Gynnas av Trumps planer på kryptovaluta i valutareserven",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "ADA",
+      "asset_name": "Cardano",
+      "sentiment": "bullish",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "quote": "Det är många av de mindre kryptovalutorna som bygger på de här nätverken, Solano till exempel och Cardano som är nätverk och även Bitcon och Ethereum. Så det är bra för hela kryptosvärlden.",
+      "context": "Gynnas av Trumps planer på kryptovaluta i valutareserven",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Patrik",
+      "speaker_role": "host",
+      "quote": "Det är många av de mindre kryptovalutorna som bygger på de här nätverken, Solano till exempel och Cardano som är nätverk och även Bitcon och Ethereum. Så det är bra för hela kryptosvärlden.",
+      "context": "Gynnas av Trumps planer på kryptovaluta i valutareserven",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar RWE som köpkandidat på låg värdering, NVIDIA som fallit på lägre guidning men med rimlig framåtblickande värdering, och Tesla som tekniskt köpläge men med extrem värdering och bojkottrisker. Macro-siffror (PCE) lugnade marknaden medan Trump fortsätter påverka både aktie- och kryptomarknaderna.",
+  "key_takeaways": [
+    "RWE ses som köpkandidat på 8x vinst med politiska vindar i Tyskland",
+    "Tesla tekniskt köpläge men extrem värdering och bojkottrisker",
+    "NVIDIA faller på lägre guidning men har rimlig framåtblickande värdering på 25x",
+    "Trump drivande i både aktie- och kryptomarknaderna",
+    "Dåliga makrosiffror kan vara bra om det öppnar för räntesänkningar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/igborssnack/transcripts/igborssnack-2025-03-05-a75e.txt",
+  "transcript_word_count": 3217,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

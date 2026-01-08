@@ -1,0 +1,356 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2020-10-14-fff5",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 373 - Börskörkortet indraget",
+  "episode_number": 373,
+  "date": "2020-10-14",
+  "hosts": [
+    "Johan",
+    "Jon"
+  ],
+  "guests": [
+    "Daniel Ahrensrup"
+  ],
+  "main_topics": [
+    "Omvända vinstvarningar",
+    "Bitcoin-adoption",
+    "Västbygg-notering",
+    "Handelsbanken A/B-spread"
+  ],
+  "stocks_discussed": [
+    "Västbygg",
+    "Handicare",
+    "BuFab",
+    "Gränges",
+    "Optifreeze",
+    "SAS",
+    "Kindred",
+    "WBG",
+    "Sobi",
+    "BioGaia",
+    "Handelsbanken"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Västbygg",
+      "ticker": "VSTG B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "12:58",
+      "reasoning": "Aktien handlas lägre än förväntat efter notering, vilket ger ett bra inträdesläge. Möjlighet att värderas upp jämfört med K-fastigheter. Känns rimligt värderad på den låga sidan.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Dels för att man verkar kunna komma in ganska så billigt nu jämfört med vad i alla fall jag trodde... Dessutom tycker jag att man har en liten chans att få en sån här k-fastigheter värdering över det hela... Nästan åt det låga hållet så att jag har köpligt aktier.",
+      "sector": "Construction",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "BuFab",
+      "ticker": "BUFAB",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "17:59",
+      "reasoning": "Aktien har gått väldigt starkt och känns stretchat på dessa nivåer. Vinstvarningen drivs av kostnadsbesparingar snarare än tillväxt, vilket gör det svårt att dra stora växlar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Tittar man på aktien så har ju den gått väldigt starkt. Jag tror att man kan vänta med den på de här nivåerna. Det känns lite stretchat tycker jag.",
+      "sector": "Industrial",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "WBG",
+      "ticker": "WBG B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "27:43",
+      "reasoning": "Bortglömt bolag med potential att gynnas av starka verkstadsvindar. Stark balansräkning ger möjligheter till förvärv. Vd:s vice vd köpte aktier (några tusen stycken).",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så det är mycket headwind man inte vill ha egentligt... men ändå som man brukar säga för det är verkligen ett bortglömt bolag... Rapport 22 oktober. Jag är lite köpsugen.",
+      "sector": "Industrial",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Rapport 22 oktober"
+    },
+    {
+      "stock_name": "SAS",
+      "ticker": "SAS",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "21:39",
+      "reasoning": "Teoretisk arbitrage: sälj stammaktien för 2.20-2.30 och köp teckningsrätt + tilläggsköpeskilling för 1.26. Enorm vinstmöjlighet. Bolaget är i svårigheter jämfört med Lex Norway som är på all time low.",
+      "price_target": null,
+      "time_horizon": "Kort sikt",
+      "quote": "Så det är bortom tjänstefel att inte göra det... Och sen är ju ändå frågan om man ens ska äga SAS. För tittar man på Lex Norvidian, så är ju den aktien på all time low nu.",
+      "sector": "Airlines",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Komparativt med Lex Norway på all time low",
+      "catalyst_timing": "Teckningsrätt sista dagen handel i morgon"
+    },
+    {
+      "stock_name": "Kindred",
+      "ticker": "KIND SDB",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "25:07",
+      "reasoning": "Tog snabb vinst efter omvänd vinstvarning. Aktien är fortfarande billig men väntar på bättre läge. Holland får ny svenskliknande reglering nästa år vilket är motvind.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Själv tog jag en snabb vinst här och har sålt mina Kindred trots att det fortfarande är en riktigt billig aktie. Jag tror att man kommer att kunna hoppa in igen någon gång.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": "Snabb vinst",
+      "downside_note": null,
+      "catalyst_timing": "Holländsk reglering nästa år"
+    },
+    {
+      "stock_name": "BioGaia",
+      "ticker": "BIOG B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "29:17",
+      "reasoning": "Stark negativ överraskning med 20% omsättningsfall och 45% vinstfall. Aktien tappade nästan 20%. Förklaringen om COVID-19 påverkan känns svag. High-flying aktie som inte levererar är riskfylld.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är lite risky i sådana här high flying aktier som inte levererar. Det kan vara bra att ha med sig.",
+      "sector": "Healthcare",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Tappat nästan 20% på vinstvarning",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Handelsbanken",
+      "ticker": "SHB A",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "31:19",
+      "reasoning": "Arbitrage: 16 kronors skillnad mellan A och B-aktier. Samma bolag men A-aktien (med mer röststyrka) handlas lägre. Korta B och köp A. Spreaden förväntas gå ihop när utdelningen närmar sig.",
+      "price_target": null,
+      "time_horizon": "Medellång sikt (tills utdelning)",
+      "quote": "Caset är då korta B aktien och sen går man lång A aktien. Eller så har man bara B aktier kan man lika gärna sälja dem och köpa A aktien... men det är väldigt mycket som talar för att i längden kommer det här bli en bra affär som jag är intresserad av att göra själv.",
+      "sector": "Financials",
+      "market": "sweden",
+      "position_context": "Liten kul position",
+      "downside_note": "Kan ta längre tid än man tror",
+      "catalyst_timing": "När utdelningen närmar sig"
+    },
+    {
+      "stock_name": "Optifreeze",
+      "ticker": "OPTI",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "20:47",
+      "reasoning": "Har potential men säljt alla aktier. Kul att följa men mer än så är det inte.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag är i och för sig sålt alla mina aktier här men tycker att det är ett litet kul bolag att följa... Möjligtvis kul att följa då. Det är väl det.",
+      "sector": "Technology",
+      "market": "sweden",
+      "position_context": "Sålt alla aktier",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Västbygg",
+      "ticker": "VSTG B",
+      "timestamp_start": "12:58",
+      "timestamp_end": "15:08",
+      "word_count": 350,
+      "speakers": [
+        "Jon",
+        "Johan"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Diskuterar Västbyggs notering och värdering. Johan anser att namnet är dåligt men ser köpläge till rimlig värdering med potential till K-fastigheter-jämförelse. Jon är mer skeptisk och menar att det finns andra byggbolag med lägre multiplar. Johan rekommenderar köp medan Jon är mer avvaktande.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Västbygg fick jag inte alls det hosmottagandet som många trott... Sedan måste jag säga att namnet Västbygg är helt värdelöst. Det finns inget Stockholms baserade förvaltare är mer rädda för än Göteborgs korruption och skämighet.",
+          "timestamp": "12:58",
+          "context": "initial_comment"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Dels för att man verkar kunna komma in ganska så billigt nu jämfört med vad i alla fall jag trodde... Dessutom tycker jag att man har en liten chans att få en sån här k-fastigheter värdering över det hela... Nästan åt det låga hållet så att jag har köpligt aktier.",
+          "timestamp": "13:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Okej, jag känner mer när jag kollar på det, lite tvärtom, rimligt värderad åt det höga hållet kanske. För man kan ju lika gärna köpa något av alla de andra byggbolagen till samma eller kanske till och med lägre multiplar på sina hållokanter.",
+          "timestamp": "14:08",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Komma in billigt efter notering",
+          "Potentiell K-fastigheter-jämförelse",
+          "Rimlig värdering på låga sidan"
+        ],
+        "bear_case": [
+          "Andra byggbolag med lägre multiplar",
+          "VD säljer hälften av sina aktier (150 miljoner)",
+          "Byggbolag har ofta negativa överraskningar"
+        ],
+        "catalysts": [
+          "Värdering upp jämfört med K-fastigheter"
+        ],
+        "risks": [
+          "Negativa överraskningar från byggbolag",
+          "Högre värdering än konkurrenter"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "WBG",
+      "ticker": "WBG B",
+      "timestamp_start": "26:10",
+      "timestamp_end": "27:43",
+      "word_count": 300,
+      "speakers": [
+        "Jon",
+        "Johan"
+      ],
+      "primary_speaker": "Jon",
+      "discussion_summary": "Jon presenterar WBG som en eftersläntrare på starka verkstadsvindar. Bolaget är bortglömt men har fin balansräkning och potential för förvärv. Vice vd köpte aktier. Rapport kommer 22 oktober. Jon är köpsugen.",
+      "quotes": [
+        {
+          "speaker": "Jon",
+          "text": "Det kanske skulle kunna vara någon slags eftersläntra vinnare på starka verkstadsvindarna som blåser nu... Jag har inte köpt några aktier själv än, men jag är lite sugen på WBG faktiskt.",
+          "timestamp": "26:14",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jon",
+          "text": "Vännersborg grabbarna har ju inte levererat som du sa. Ledningen äger inte några aktier där. Och bolaget ägs av en stiftelse så att det inte går att köpas ut. Så det är mycket headwind man inte vill ha egentligen.",
+          "timestamp": "26:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jon",
+          "text": "WBG har en fin balansraktning som skulle kunna ge de möjlighet till förvärv. Sen såg jag faktiskt att deras vice vd köpte aktier. Ifrån bara tusen stycken men ändå någonting... Rapport 22 oktober. Jag är lite köpsugen.",
+          "timestamp": "26:54",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Stark balansräkning"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Potentiell eftersläntrare på verkstadsvindar",
+          "Stark balansräkning ger förvärvmöjligheter",
+          "Vice vd köper aktier",
+          "Rapport 22 oktober"
+        ],
+        "bear_case": [
+          "Ledningen äger knappt några aktier",
+          "Bolaget ägs av stiftelse (går ej att köpas ut)",
+          "Vännersborg grabbarna har inte levererat"
+        ],
+        "catalysts": [
+          "Rapport 22 oktober",
+          "Verkstadsvindar"
+        ],
+        "risks": [
+          "Ledningens låga ägande",
+          "Stiftelseägande gör utköp svårt"
+        ]
+      },
+      "position_disclosure": "bought"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "you can't unsign a document. Och att man ska tänka sig en och två gånger noga för innan man ger sig in i en deal. Men också att hela västvärlden är ju i princip uppbyggt på att man håller sina påskrivna kontrakt. Att innan man signat så kan man förhandla och bråka hur mycket som helst, men när man väl signat så är det det som gäller.",
+      "summary": "Vikten av att respektera undertecknade kontrakt och grundläggande principer i västvärldens affärskultur.",
+      "category": "philosophy",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "timestamp": "11:18",
+      "confidence": "high",
+      "tags": [
+        "kontrakt",
+        "affärsetik",
+        "Munger"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Jon",
+      "speaker_role": "host",
+      "quote": "Och nu på slutet har en del amerikanska, vad ska man kalla det, early adopter bolag kanske börjat sätta en del av sin kassa i just bitcoin. Det här bolaget som heter MicroStrategy var först ut för någon månad sedan när man köpte bitcoin för 425 miljoner dollar. Och nu i veckan gick Twitter-grundaren Jack Dorseys Square, som är någon slags betalningsföretag, ut och berätta att man köpte bitcoin för 50 miljoner dollar.",
+      "context": "Corporate adoption av bitcoin",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Börspodden diskuterar den unika situationen med omvända vinstvarningar och stark marknad trots toppiga värderingar. Vissa sektorer som bilar och verkstad ses som hatade men potentiella vinnare. Rekommendationer inkluderar Västbygg (köp), WBG (köpsugen), och arbitrage-möjligheter i Handelsbanken A/B samt SAS-teckningsrätter.",
+  "key_takeaways": [
+    "Omvända vinstvarningar är unika för närvarande och visar att bolagen är mer effektiva än förväntat",
+    "Bilar och verkstad är hatade sektorer med potential",
+    "Arbitrage-möjligheter finns i Handelsbanken A/B-spreaden och SAS-teckningsrätter",
+    "Corporate adoption av Bitcoin börjar med MicroStrategy och Square"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2020-10-14-fff5.txt",
+  "transcript_word_count": 7305,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

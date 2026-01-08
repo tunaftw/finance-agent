@@ -1,0 +1,161 @@
+{
+  "source_id": "1uJAsc24FMU",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-03-01",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Discussion of BTC at all-time highs driven by ETF flows, but at monthly resistance triple top level",
+      "quote": "Bitcoin has gotten an entirely new like investor base and they actually like investors not like us... with the ETF um Bitcoin has gotten an entirely new like investor base",
+      "price_levels": [
+        "$42,000",
+        "$45,000",
+        "$50,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Looking for dips to buy, mentions $45-50k as buy zone if pullback occurs",
+      "quote": "if we get a dip towards like 45 50 um I think that's where you want to be aggressively positioning",
+      "price_levels": [
+        "$45,000",
+        "$50,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH not making new lows but not showing strength against BTC, ETF narrative remains bullish",
+      "quote": "on its own terms eth btc is a bit of an unimpressive chart however given btc is its alltime high and the fact that it hasn't fallen out which is a technical term uh is in itself quite a positive development",
+      "price_levels": [
+        "$3,100",
+        "$3,300"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Suggests being bullish on ETH sooner rather than later, expects strength after BTC breaks ATH",
+      "quote": "so I think you want to be bullish e rather sooner than later um so any any kind of good excuse you get you want to be buying e there",
+      "price_levels": [
+        "$3,100",
+        "$3,300"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "PEPE",
+      "asset_name": "Pepe",
+      "sentiment": "strongly_bullish",
+      "speaker": "Duck",
+      "context": "Meme coin up 50% on the day, discussed on previous show",
+      "quote": "it's up 50% on the day I mean that's a mad one",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "DOGE",
+      "asset_name": "Dogecoin",
+      "sentiment": "strongly_bullish",
+      "speaker": "Cred",
+      "context": "Dogecoin up 55% since it started rallying, mentioned as part of meme coin froth",
+      "quote": "Dogecoin is up like 55 like pip is in total up like 200 50 but up 50% today",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BONK",
+      "asset_name": "Bonk",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Mentioned as part of best performing meme coins with Doge and Pepe",
+      "quote": "with Bonk Doge Pepe are like the best alts y like it's very hard",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned briefly in context of Robin Hood delisting",
+      "quote": "Robin Hood wallet integrates Solana for token swaps",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "decreasing",
+    "altcoin_season_view": "yes",
+    "key_levels": {
+      "BTC": [
+        "$42,000",
+        "$45,000",
+        "$50,000"
+      ],
+      "ETH": [
+        "$3,100",
+        "$3,300"
+      ]
+    }
+  },
+  "key_insights": [
+    "ETF flows have brought a new investor base to Bitcoin, potentially changing market dynamics",
+    "Retail IS present in the market contrary to popular narratives claiming only institutional participation",
+    "Meme coin parabolic moves (Pepe +50%, Doge +55%) indicate significant market froth",
+    "Market structure has evolved with USD-collateralized futures reducing cascade liquidation risk",
+    "Social sentiment follows price action - momentum trading leads to crowding at extremes",
+    "ETH ETF narrative remains compelling, the main challenge is timing the trade",
+    "Halving events have diminishing impact as market becomes desensitized to each new one",
+    "Being bearish has not been profitable strategy in current market regime"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$45,000-$50,000 range",
+      "target": "higher",
+      "stop": null,
+      "speaker": "Duck"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "on dips around $3,100-$3,300",
+      "target": "breakout above $3,300",
+      "stop": null,
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "Cred and Duck discuss Bitcoin at ATH levels driven by record ETF inflows, with both expressing bullish sentiment but noting elevated froth levels from meme coin parabolics. They debunk the 'no retail present' narrative, pointing to meme coin mania as evidence of retail participation. ETH is viewed as waiting for strength against BTC, with ETF narrative still relevant. Key insights include market structure evolution reducing cascade liquidation risk, social sentiment following price, and the importance of not staying wrong too long.",
+  "transcript_word_count": 49071,
+  "model_used": "glm-4",
+  "analyzed_at": "2025-12-26T21:22:28.840603"
+}

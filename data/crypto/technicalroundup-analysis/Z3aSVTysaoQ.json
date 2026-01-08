@@ -1,0 +1,92 @@
+{
+  "source_id": "Z3aSVTysaoQ",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-03-27",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Market structure analysis showing potential breakout above 43-44k, with critical resistance at 47-48k where trend-following metrics cluster",
+      "quote": "for me flat at the moment not interested in selling 44k the slowdown is a bit meh but given it's the weekend i don't want to read too much into it",
+      "price_levels": [
+        "$43k-$44k",
+        "$47k-$48k",
+        "$60k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as one of the altcoins to be discussed in upcoming stream",
+      "quote": "we'll look at sol luna avax your coin we'll look at sol luna avax your old coins and just have a chat",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "LUNA",
+      "asset_name": "Terra",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as one of the altcoins to be discussed in upcoming stream",
+      "quote": "we'll look at sol luna avax your coin we'll look at sol luna avax your old coins and just have a chat",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "AVAX",
+      "asset_name": "Avalanche",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as one of the altcoins to be discussed in upcoming stream",
+      "quote": "we'll look at sol luna avax your coin we'll look at sol luna avax your old coins and just have a chat",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$43k-$44k",
+        "$47k-$48k",
+        "$60k"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin weekly close above 43-44k would signal first tentative weekly break in market structure (higher high)",
+    "Critical resistance cluster at 47-48k where 21-weekly, 50-weekly, and 200-day moving averages converge",
+    "Market currently in consolidation range between ~33-48k with potential upside to 60k if 47-48k breaks decisively",
+    "Slow momentum around key resistance during weekend could indicate weakness or just seasonal low-liquidity price action"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$47k-$48k",
+      "target": "$60k",
+      "stop": "below 47-48k support",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin is in a consolidation phase with potential for local breakout above 43-44k. The critical decision point is 47-48k where multiple trend-following indicators cluster. Current momentum is slow, but Cred remains neutral to cautiously bullish, preferring to do business at the 47-48k extremes rather than current levels.",
+  "transcript_word_count": 6981,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:21:13.206322"
+}

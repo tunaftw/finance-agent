@@ -1,0 +1,96 @@
+{
+  "source_id": "bFTaTjJ-ZpI",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-07-28",
+  "hosts": [
+    "Cred"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "BTC closed back above the range high after a failed breakout, which Cred views as constructive",
+      "quote": "the failed breakout didn't lead to much and we're back above the range high again which is generally constructive and a good sign",
+      "price_levels": [
+        "$22k",
+        "$30k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH is in no man's land with awkward consolidation, waiting for clearer signals at higher levels",
+      "quote": "eth usd it's kind of a no man's land where it is right now on the daily this consolidation sucks",
+      "price_levels": [
+        "$1500",
+        "$1700-$1800"
+      ],
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Solana closed at range low retest, showing weak price action",
+      "quote": "no kind of weekly risk-on signal from altcoins at the moment",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "AVAX",
+      "asset_name": "Avalanche",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Avalanche closed at range low retest, showing weak price action",
+      "quote": "no kind of weekly risk-on signal from altcoins at the moment",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$22k",
+        "$30k"
+      ],
+      "ETH": [
+        "$1500",
+        "$1700-$1800"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC closed back above the range high after a failed breakout, which is constructive",
+    "The Fed raised rates 75 basis points and the market liked it because it wasn't worse than expected",
+    "ETH is in no man's land with awkward consolidation - clearer signals expected at 1700-1800",
+    "No weekly risk-on signal from altcoins - need BTC and ETH to get moving first"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$22k-$23k",
+      "target": "$30k-$35k",
+      "stop": "below $22k",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC shows constructive price action after closing back above the range high following a failed breakout, with invalidation at $22k and mean reversion target around $30k. ETH remains in consolidation with no clear direction, and altcoins lack weekly risk-on signals. The Fed's 75bp rate hike was well-received by the market.",
+  "transcript_word_count": 7774,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:37:51.519438"
+}

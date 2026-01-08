@@ -1,0 +1,90 @@
+{
+  "source_id": "386SL5xvkJA",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-05-29",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "BTC is consolidating sideways after impulsive breakout through 24k. Market is holding above key support level with failed breakdown attempt. Speaker considers this potentially bullish consolidation before continuation, but also acknowledges possibility of distribution.",
+      "quote": "sideways is generally favorable towards Bulls more than it is bears because the preceding move is higher so if the market just continues to move sideways while it's reasonable to look at it as potentially distribution I think you should at least have an open mind towards the idea that you have an impulsive break Market moving sideways and then continuation",
+      "price_levels": [
+        "$27,000-$27,300",
+        "$28,400",
+        "$29,400",
+        "$35,000",
+        "$22,000-$24,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH has failed to break out at 1930 level and remains in range between 1.8k-1.9k. Daily time frame is less constructive than BTC. Speaker prefers BTC setup over ETH for potential entries.",
+      "quote": "the daily time frame is far less constructive uh than BTC actually so I'm not as much a fan of that there's no sort of overt range low reclaim attempt instead the market just rallied into one of the previous failed breakout levels",
+      "price_levels": [
+        "$1,800-$1,900",
+        "$1,910",
+        "$1,930"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$27,000-$27,300",
+        "$35,000",
+        "$22,000-$24,000"
+      ],
+      "ETH": [
+        "$1,800-$1,900",
+        "$1,930"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC is consolidating after impulsive breakout through 24k, currently at ~27k in a range between 27.3k and 29.4k",
+    "Failed breakdown at 27.6k has been reclaimed, suggesting potential for continuation",
+    "27.3-27k is critical support - \"Bull's Last Stand\" - a break below would likely lead to 22-24k",
+    "ETH structure is weaker than BTC, still stuck under resistance at 1930 with no weekly close above",
+    "Overall sideways action is more bullish than bearish given preceding move was higher",
+    "Weekly levels are holding with no weekly closes below key support after 24k breakout"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$27,000-$27,300 or range reclaim",
+      "target": "$28,400-$29,400, potentially $35,000",
+      "stop": "$27,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "if daily reclaim fails and closes back below $27,300",
+      "target": "$22,000-$24,000",
+      "stop": "$29,400",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC is consolidating around 27k in a range between 27.3-29.4k after impulsive 24k breakout. Failed breakdown at 27.6k has been reclaimed, suggesting potential for continuation toward 35k if 27.3-27k support holds. This level is critical - a break would likely trigger decline to 22-24k. ETH is weaker, stuck under 1930 resistance with no weekly close above. Overall sentiment is neutral with bullish case dependent on holding current range levels.",
+  "transcript_word_count": 9614,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:39:53.729198"
+}

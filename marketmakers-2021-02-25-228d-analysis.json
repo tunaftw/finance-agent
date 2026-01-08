@@ -1,0 +1,469 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2021-02-25-228d",
+  "podcast_name": "Market Makers",
+  "episode_title": "#170 Bitcoin Med Christoffer De Geer",
+  "episode_number": 170,
+  "date": "2021-02-25",
+  "hosts": ["Fabian", "Niklas"],
+  "guests": ["Christoffer De Geer"],
+  "main_topics": ["bitcoin", "blockchain", "kryptovalutor", "ethereum", "mining", "stablecoins"],
+  "stocks_discussed": ["Bitcoin", "Ethereum"],
+  "recommendations": [
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "timestamp": "41:24",
+      "reasoning": "Bitcoin ses som en fantastisk tillgång för portföljer på grund av sin volatilitet och potentiellt låg korrelation med traditionella tillgångar. Evenemang som Elon Musks tweets kan driva priset kraftigt. Institutioner som Tesla och Square köper och erbjuder bitcoin vilket stärker nätverkseffekten och trycker upp priset.",
+      "price_target": null,
+      "time_horizon": "långsiktig",
+      "quote": "Så jag skulle säga att bitcoin är en fantastisk tillgång att ha i de flesta portföljer, om inte alla portföljer, därför att det är så extremt volatilt.",
+      "sector": "kryptovaluta",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Halveringseffekten med fyra årscykler, ytterligare institutionell adoption"
+    },
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "timestamp": "55:53",
+      "reasoning": "Gästen sålde alla sina bitcoins och betraktar detta som den sämsta investeringen ur ett rent ekonomiskt perspektiv eftersom bitcoin historiskt har överpresterat nästan allt annat.",
+      "price_target": null,
+      "time_horizon": "långsiktig",
+      "quote": "Min bästa investering, egentligen skulle man säga så här, sämsta investering man någonsin kan göra är ju att någonsin sälja bitcoin skulle jag säga. Det är det sämsta man kan göra i historiskt sätt liksom.",
+      "sector": "kryptovaluta",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Dogecoin",
+      "ticker": "DOGE",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "timestamp": "19:46",
+      "reasoning": "Dogecoin är en meme coin utan utvecklare, utan aktiv utveckling, och har buggar som gör att nätverket kan attackeras om det får mer värde. Rekommenderas inte för investering trots extrem marknadskapitalisering.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så det är verkligen inte någonting man ska investera i, men den typen av coin som inte har någon, den har också inte någon tydlig grundare som upprätthåller det, den har bara en community, den verkar också ha en väldigt stark typ av staying power.",
+      "sector": "kryptovaluta",
+      "market": "other",
+      "position_context": null,
+      "downside_note": "Nätverket kan attackeras",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "timestamp_start": "02:59",
+      "timestamp_end": "06:03",
+      "word_count": 850,
+      "speakers": ["Christoffer De Geer", "Fabian", "Niklas"],
+      "primary_speaker": "Christoffer De Geer",
+      "discussion_summary": "Christoffer De Geer berättar om hur han upptäckte bitcoin 2013 i Kina när han behövde flytta pengar internationellt. Han köpte bitcoin av en kines och började jobba med cold storage och säker lagring av digitala valuter. Han har sedan arbetat med XPT provider, KNC Miner, och är idag CIO på BTCX.",
+      "quotes": [
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Så då lösningen var tydligt att jag skulle kunna köpa bitcoin i Kina och sen sälja det i Sverige eller alternativt bara hålla bitcoin så kunde jag ha det och sen sälja tillbaka till kinesiska renminbi när jag kom tillbaka till Kina.",
+          "timestamp": "03:31",
+          "context": "other"
+        },
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Där började min resa för då blev jag ganska fascinerad över hur ett tekniskt system som bitcoin ändå är, det är bara att ett nätverk kan lösa en så stor och viktig del som banker och centralbanker och alla de finansiella inte stidigt utan löser.",
+          "timestamp": "04:38",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Löser problemet med att flytta pengar över landsgränser", "Alternativ för människor i länder med hyperinflation som Venezuela", "Digitalt guld med begränsat utbud på 21 miljoner bitcoins"],
+        "bear_case": ["Hög volatilitet", "Regleringsrisker kring KYC/AML"],
+        "catalysts": ["Ökad institutionell adoption (Tesla, Square, Paypal)", "Mining-industrins utveckling och energianvändning", "Halveringseffekten med fyra årscykler"],
+        "risks": ["Hög volatilitet", "Regleringsrisker", "Tekniska risker i smart contracts"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "timestamp_start": "31:05",
+      "timestamp_end": "42:03",
+      "word_count": 1350,
+      "speakers": ["Christoffer De Geer", "Fabian", "Niklas"],
+      "primary_speaker": "Christoffer De Geer",
+      "discussion_summary": "Diskussion om bitcoins volatilitet, fördelning av tillgångar, och hur det påverkar prisrörelser. Christoffer De Geer menar att volatilitet inte nödvändigtvis är negativt om tillgången är okorrelerad med resten av portföljen. Han jämför bitcoin med guld och nämner att bitcoin är 10% av guldets marknadskapitalisering.",
+      "quotes": [
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Om jag tar 99 kronor av 100, så säger jag 100 000 kronor, då tar jag 99 000 kronor och stoppar i svenska kronor och så tar jag 1000 kronor och stoppar i bitcoin. Över de flesta år så har den typen av portfölj en maxrisk på 99 eller en maxrisk på 1% och en bättre avkastning än S&P 500 till exempel.",
+          "timestamp": "40:14",
+          "context": "metric"
+        },
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Risken i sig är ju vad man gör av, det är inte volatilitet. Så jag skulle säga att bitcoin är en fantastisk tillgång att ha i de flesta portföljer, om inte alla portföljer, därför att det är så extremt volatilt.",
+          "timestamp": "40:22",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Vi är bara 10 procent av guld än så länge. Så man kan ju förvänta sig att vi har mycket mycket mycket mycket mycket högre volatilitet än guld.",
+          "timestamp": "33:18",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["10% av guldets marknadskapitalisering"]
+      },
+      "thesis": {
+        "bull_case": ["Volatilitet kan vara fördelaktig om tillgången är okorrelerad med resten av portföljen", "Bitcoin kan minska risk och öka potentiell uppsida i diversifierad portfölj", "Okorrelation existerar fortfarande till viss nivå"],
+        "bear_case": ["Volatilitet ökar när Gini-koefficienten är hög och få personer äger mycket", "Påverkas av enskilda personers åtgärder som Elon Musk", "Blir mer korrelerat med traditionella tillgångar när institutioner köper"],
+        "catalysts": ["Bättre fördelning av tillgångar", "Mining-industrins expansion"],
+        "risks": ["Hög volatilitet vid koncentrerad ägarstruktur"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "timestamp_start": "46:52",
+      "timestamp_end": "50:40",
+      "word_count": 1000,
+      "speakers": ["Christoffer De Geer", "Fabian", "Niklas"],
+      "primary_speaker": "Christoffer De Geer",
+      "discussion_summary": "Diskussion om när bitcoin kan nå 100 000 dollar baserat på historiska cykler och halveringsmönster. Christoffer De Geer menar att om tidigare mönster upprepas kan 100 000 dollar nås inom veckor, och toppen kan nå 400 000 dollar följt av en krasch tillbaka till 60 000 dollar.",
+      "quotes": [
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Bitcoin volatilitetsmässigt är att peaken slår ju, om man ska extrapolera det likt förra bullrunnaren, upp till 400 000 dollar nu. Och sen precis vid 400 000 dollar börjar alla dina kompisar lyssna på dig och så köper de bitcoin och så kraschar vi tillbaka ner till någonstans 60 000 dollar eller nånting.",
+          "timestamp": "48:04",
+          "context": "metric"
+        },
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "100 000 dollar borde ju enligt tidigare modell då. If current trends continues, vilket alldeles stämmer, så borde det ju ske inom liksom veckor.",
+          "timestamp": "48:13",
+          "context": "metric"
+        },
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Jag säger att vi kommer att garantera att ha poppat den bubblan och krascha tillbaka, så att alla CFOs stressar er sig. Annars blir jag väldigt förvånad.",
+          "timestamp": "50:41",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Nuvärde ~50 000 dollar", "Potentiell topp 400 000 dollar", "Potentiell botten efter krasch 60 000 dollar", "Mål 100 000 dollar inom veckor"]
+      },
+      "thesis": {
+        "bull_case": ["Halveringseffekten med fyra årscykler driver upp priset", "Förra bullrunnaren toppade på 20 000 dollar, extrapolering ger 400 000 dollar nu", "Mängd bitcoins på marknaden minskar medan efterfrågan ökar"],
+        "bear_case": ["Bubblor tenderar att spricka", "Historiska mönster kan upprepas med kraftig krasch"],
+        "catalysts": ["Halveringseffekten", "Institutionell adoption"],
+        "risks": ["Kraftig krasch efter topp", "Volatilitet och cykliska mönster"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "timestamp_start": "50:41",
+      "timestamp_end": "52:35",
+      "word_count": 750,
+      "speakers": ["Christoffer De Geer", "Fabian", "Niklas"],
+      "primary_speaker": "Christoffer De Geer",
+      "discussion_summary": "Diskussion om att investera i riktiga coins versus certifikat. Christoffer De Geer rekommenderar certifikat för spekulativa investeringar, men riktiga coins för dem som faktiskt behöver använda bitcoin som valuta. ISK-konton i Sverige ger skattemässiga fördelar.",
+      "quotes": [
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Men är det en person som till exempel säger någonting i stället med att jag vill ha lite bitcoins ifall jag behöver dem någon dag i framtiden. Men primärt ska jag bara spekulera, då tar du ju majoriteten i certifikat.",
+          "timestamp": "51:25",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Sen finns det ytterligare en svensk fördel och det är att vi har ISK-konton, vilket gör att du till exempel kan säga att du förväntar dig att en bullrun kommer av någon anledning. Om du hade köpt bitcoin idag, 50 000 dollar säger vi, och sen om en månad så är det 100 000 dollar så säljer du. Då skulle du skatta 30 % på de 50 000 dollar du gjorde i vinst, men hade du istället köpt inom ISK, då skattar du ingenting på det sättet.",
+          "timestamp": "51:52",
+          "context": "metric"
+        },
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Men det finns absolut fördelar med att ha dem hos någon annan. Sen finns det ytterligare en svensk fördel och det är att vi har ISK-konton, vilket gör att du till exempel kan säga att du förväntar dig att en bullrun kommer av någon anledning.",
+          "timestamp": "51:46",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Skattefördel med ISK i Sverige"]
+      },
+      "thesis": {
+        "bull_case": ["ISK-konton ger skattemässiga fördelar i Sverige", "Certifikat är lämpliga för spekulation", "Riktiga coins ger full kontroll och användbarhet som valuta"],
+        "bear_case": ["Riktiga coins kan tappas bort eller förloras", "Tredjepartsförvaring medför counterparty-risk"],
+        "catalysts": ["Potentiella bullruns"],
+        "risks": ["Not your keys, not your coins", "Counterparty-risk hos förvarare"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Ethereum",
+      "ticker": "ETH",
+      "timestamp_start": "17:21",
+      "timestamp_end": "29:42",
+      "word_count": 1400,
+      "speakers": ["Christoffer De Geer", "Fabian", "Niklas"],
+      "primary_speaker": "Christoffer De Geer",
+      "discussion_summary": "Christoffer De Geer diskuterar Ethereum som en av få altcoins med staying power, men menar att branschen är så komplex att det är nästan omöjligt att hålla koll på allt. Ethereum beskrivs som en världsdator som kan köra smarta kontrakt och bygga decentraliserade finansiella system.",
+      "quotes": [
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Vi har dock till exempel att Ethereum verkar ha någon typ av staying power, så det verkar finnas mycket intresse i den typen av löfte att vi ska kunna bygga någonting mer avancerat än bitcoin med blockkedjan.",
+          "timestamp": "18:14",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Det Ethereum försöker göra är ett sådant decentraliserat finansiellt system så att du ska kunna ha handelsplatser och allting egentligen uppe på blockkedjan då istället för att behöva gå till centraliserade parter.",
+          "timestamp": "18:37",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Christoffer De Geer",
+          "text": "Men absolut inte allt och jag förstår väldigt lite i förhåll om till exempel nya saker som Ethereum och DeFi och andra element av den här industrin, för att det går inte att få sig en helhetsbild om allt. Det är bara helt omöjligt idag.",
+          "timestamp": "06:43",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Ethereum har staying power jämfört med andra altcoins", "Bygger en världsdator för smarta kontrakt", "DeFi (Decentralised Finance) bygger på Ethereum", "Automated Market Makers möjliggör handel utan centraliserade parter"],
+        "bear_case": ["Branschen är extremt komplex och svår att förstå helt", "Smart contract risker - ingen kod är buggfri", "Attackvektorer kan finnas som inte upptäckts än"],
+        "catalysts": ["DeFi-utveckling", "Smart contracts adoption"],
+        "risks": ["Teknisk komplexitet", "Smart contract buggar", "Attackvektorer som inte upptäckts"]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Om jag säger någonting som är extremt volatilt men helt okorrelerat med min övriga portfölj så är det väldigt bra. Det kommer minska min risk och öka min potentiella uppsida. Så volatilitet sig skulle jag inte säga något negativt.",
+      "summary": "Volatilitet i sig är inte risk; en volatil men okorrelerad tillgång kan faktiskt minska portföljrisken.",
+      "category": "philosophy",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "timestamp": "40:14",
+      "confidence": "high",
+      "tags": ["volatilitet", "riskhantering", "diversifiering", "korrelation"]
+    },
+    {
+      "quote": "Risken i sig är ju vad man gör av, det är inte volatilitet.",
+      "summary": "Sann risk är inte volatilitet utan hur man positionerar sig i marknaden.",
+      "category": "wisdom",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "timestamp": "40:22",
+      "confidence": "high",
+      "tags": ["risk", "volatilitet", "positionering"]
+    },
+    {
+      "quote": "Det enda vi försöker lösa med bitcoin är just den här fruktansvärt enkla ekvationen. Vi vill bara kunna säga att jag vill kunna skicka 100 till dig eller 50 till dig och jag vill att alla kollar hur mycket som finns. Jag vill också att det är rätt nyckel ska göra det så att ni ska kolla att det inte är fel person som skickar mina pengar och så vidare.",
+      "summary": "Bitcoin löser den grundläggande ekvationen för pengar: skicka värde säkert och transparent utan centrala mellanhand.",
+      "category": "philosophy",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "timestamp": "25:20",
+      "confidence": "high",
+      "tags": ["bitcoin", "pengar", "värdeöverföring", "decentralisering"]
+    },
+    {
+      "quote": "Om någon säger att den här gången är annorlunda, vet man att den här gången är absolut inte annorlunda.",
+      "summary": "Att någon påstår att 'den här gången är annorlunda' är ett klassiskt tecken på att man återupplever historiska mönster.",
+      "category": "wisdom",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "timestamp": "49:46",
+      "confidence": "high",
+      "tags": ["marknadscyklar", "bubblor", "historia"]
+    },
+    {
+      "quote": "Jag säger att vi kommer att garantera att ha poppat den bubblan och krascha tillbaka, så att alla CFOs stressar er sig. Annars blir jag väldigt förvånad.",
+      "summary": "Bubblor tenderar att spricka, och när institutioner som CFOs drabbas upplever marknaden sina största prissänkningar.",
+      "category": "wisdom",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "timestamp": "50:41",
+      "confidence": "medium",
+      "tags": ["bubblor", "institutioner", "marknadpsykologi"]
+    },
+    {
+      "quote": "Det finns en hel del attackvektorer som inte upptäckt ännu tror jag, som behöver attackeras innan vi känner att systemet är helt stabilt.",
+      "summary": "Nya teknologiska system har sårbarheter som bara upptäcks genom försök att utnyttja dem.",
+      "category": "wisdom",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "timestamp": "54:30",
+      "confidence": "medium",
+      "tags": ["säkerhet", "blockchain", "teknik", "risker"]
+    },
+    {
+      "quote": "Min bästa investering, egentligen skulle man säga så här, sämsta investering man någonsin kan göra är ju att någonsin sälja bitcoin skulle jag säga. Det är det sämsta man kan göra i historiskt sätt liksom. Det finns i princip ingenting som har överpresterat det.",
+      "summary": "Sälja bitcoin kan vara den sämsta investeringsbeslutet eftersom det historiskt har överpresterat nästan alla andra tillgångar.",
+      "category": "lesson",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "timestamp": "55:53",
+      "confidence": "high",
+      "tags": ["bitcoin", "långsiktighet", "ånger"]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "quote": "Så jag skulle säga att bitcoin är en fantastisk tillgång att ha i de flesta portföljer, om inte alla portföljer, därför att det är så extremt volatilt.",
+      "context": "Som portföljtillgång med fördelar vid diversifiering",
+      "confidence": "high",
+      "price_levels": ["50 000 dollar nuvarande", "100 000 dollar inom veckor", "400 000 dollar potentiell topp"],
+      "timeframe": "lång sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "quote": "Där började min resa för då blev jag ganska fascinerad över hur ett tekniskt system som bitcoin ändå är, det är bara att ett nätverk kan lösa en så stor och viktig del som banker och centralbanker och alla de finansiella inte stidigt utan löser.",
+      "context": "Teknologisk lösning för finansiella problem",
+      "confidence": "high",
+      "price_levels": null,
+      "timeframe": "lång sikt"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "quote": "Men absolut inte allt och jag förstår väldigt lite i förhåll om till exempel nya saker som Ethereum och DeFi och andra element av den här industrin, för att det går inte att få sig en helhetsbild om allt.",
+      "context": "Komplex teknik som är svår att fullt förstå",
+      "confidence": "medium",
+      "price_levels": null,
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "quote": "Vi har dock till exempel att Ethereum verkar ha någon typ av staying power, så det verkar finnas mycket intresse i den typen av löfte att vi ska kunna bygga någonting mer avancerat än bitcoin med blockkedjan.",
+      "context": "Har staying power men komplexitet gör det svårt",
+      "confidence": "medium",
+      "price_levels": null,
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "DOGE",
+      "asset_name": "Dogecoin",
+      "sentiment": "bearish",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "quote": "Så det är verkligen inte någonting man ska investera i, men den typen av coin som inte har någon, den har också inte någon tydlig grundare som upprätthåller det, den har bara en community, den verkar också ha en väldigt stark typ av staying power.",
+      "context": "Meme coin utan utvecklare och med säkerhetsproblem",
+      "confidence": "high",
+      "price_levels": null,
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "USDT",
+      "asset_name": "Tether",
+      "sentiment": "neutral",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "quote": "Jag skulle säga att vi kommer nog att se ett par stablecoin-kriser på något sätt. Jag tror inte att alla sköter sina böcker perfekt.",
+      "context": "Potentiell risk med centraliserade stablecoins",
+      "confidence": "medium",
+      "price_levels": null,
+      "timeframe": "medellång sikt"
+    },
+    {
+      "asset_symbol": "DAI",
+      "asset_name": "DAI",
+      "sentiment": "neutral",
+      "speaker": "Christoffer De Geer",
+      "speaker_role": "guest",
+      "quote": "Det finns ett intressant alternativ som är decentraliserat. Om du stoppar in till exempel 100 000 dollar i värde i ether, så får du 50 000 dollar i en stablecoin som heter DAI.",
+      "context": "Decentraliserad stablecoin med insättning av ether",
+      "confidence": "low",
+      "price_levels": null,
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet handlar om bitcoin och kryptovalutor med gästen Christoffer De Geer som har jobbat i branschen sedan 2013. Han diskuterar bitcoins potential som digitalt guld, nätverkseffekter, mining, och institutionell adoption. Han rekommenderar bitcoin som en fantastisk tillgång för portföljer men varnar för att sälja kan vara ett misstag historiskt sett. Ethereum beskrivs som en av få altcoins med staying power men tekniskt komplex. Dogecoin avråds från att investera i.",
+  "key_takeaways": ["Bitcoin kan vara en värdefull portföljtillgång på grund av sin potentiella låga korrelation med traditionella tillgångar", "Historiska mönster och halveringscykler indikerar att bitcoin kan nå 100 000 dollar inom veckor och potentiellt 400 000 dollar som topp", "Ethereum har staying power men är mycket mer komplext än bitcoin", "Dogecoin bör undvikas som investering", "ISK-konton i Sverige ger skattemässiga fördelar för bitcoin-investeringar", "Mining kan bli en viktig industri för nationer och energiutnyttjande"],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2021-02-25-228d.txt",
+  "transcript_word_count": 10925,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

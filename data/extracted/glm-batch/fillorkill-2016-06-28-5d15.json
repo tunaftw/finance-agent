@@ -1,0 +1,105 @@
+{
+  "episode_id": "fillorkill-2016-06-28-5d15",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 65 - The FTSE Is Loose (160628)",
+  "episode_number": 65,
+  "date": "2016-06-28",
+  "hosts": [
+    "Andersson",
+    "LoneWolf"
+  ],
+  "guests": [
+    "Hannesson",
+    "Lom Wolf"
+  ],
+  "main_topics": [
+    "Brexit",
+    "Betsson vinstvarning",
+    "Nordea bokföringskritik",
+    "Deutsche Bank blankning"
+  ],
+  "stocks_discussed": [
+    "Betsson",
+    "Nordea",
+    "Deutsche Bank",
+    "Svenska banker",
+    "Unibet",
+    "Net Entertainment",
+    "Betfair"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "LoneWolf",
+      "speaker_role": "host",
+      "timestamp": "45:02",
+      "reasoning": "Vinstvarning med oklara orsaker, vd kan inte förklara vad som gått fel, historiskt bevis på announcement drift",
+      "price_target": null,
+      "time_horizon": "kort sikt (närmsta dagarna)",
+      "quote": "Jag kortade den idag och flera gånger idag. Så det blir bra. Jag tror bara att man ska akta sig för den här aktien de närmsta dagarna",
+      "sector": "Spel",
+      "market": "sweden"
+    },
+    {
+      "stock_name": "Svenska banker",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Andersson",
+      "speaker_role": "host",
+      "timestamp": "37:38",
+      "reasoning": "Strukturella problem i svensk banksystemet, risker värderas för lågt, övervärderade jämfört med europeiska peers",
+      "price_target": null,
+      "time_horizon": "kortsikt",
+      "quote": "Jag skulle inte köpa svenska banker. Jag förstår inte varför man köper svenska banker till price book på 1,4 eller 1,3",
+      "sector": "Bank",
+      "market": "sweden"
+    },
+    {
+      "stock_name": "Nordea",
+      "ticker": "NDA-SEK",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "LoneWolf",
+      "speaker_role": "host",
+      "timestamp": "38:31",
+      "reasoning": "Kritik från FI för riskvärdering, bokföringsfrågor, risk för nedskrivningar",
+      "price_target": null,
+      "time_horizon": "kortsikt",
+      "quote": "Svensk bank, oavsett vilken, känns jätteofräst. När riskbedömningarna får kritik på toppnivåer på fastighetsmarknaden",
+      "sector": "Bank",
+      "market": "sweden"
+    },
+    {
+      "stock_name": "Spelbolagssektorn",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Lom Wolf",
+      "speaker_role": "guest",
+      "timestamp": "33:02",
+      "reasoning": "Oddsbörsmodell som Betfair använder kan bli mer intressant framöver, minskad risk",
+      "price_target": null,
+      "time_horizon": "långsikt",
+      "quote": "Jag tror att något som kommer bli större och större som de här borde lansera, som man kanske borde tipsa då, kan bli de här om det är att bygga upp en oddsbörs som Betföre har",
+      "sector": "Spel",
+      "market": "other"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Efter Brexit-omröstningen diskuterades marknadskaoset, Betssons vinstvarning med oklara orsaker som ledde till 45% kursras, och kritiken mot svenska bankers riskvärdering. Skepsis mot hela banksektorn. Betfair och oddsbörser pekades ut som potentiellt intressant modell framöver.",
+  "key_takeaways": [
+    "Brexit skapade historiska rörelser på börsen med höga volymer",
+    "Betssons vinstvarning orsakade panik hos marknaden efter oklara förklaringar",
+    "Svenska banksektorn ses som övervärderad och riskfylld",
+    "Oddsbörs-modell kan bli mer attraktiv framöver",
+    "Risk-reward på marknaden närmar sig 1-1 vilket kräver försiktighet"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/transcripts/fillorkill/fillorkill-2016-06-28-5d15.txt",
+  "transcript_word_count": 8238,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

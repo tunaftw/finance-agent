@@ -1,0 +1,517 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2018-08-07-5a67",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 174 - Intervju Carl Björkegren (20180807)",
+  "episode_number": 174,
+  "date": "2018-08-07",
+  "hosts": [
+    "Andersson",
+    "Hanneson"
+  ],
+  "guests": [
+    "Carl Björkegren"
+  ],
+  "main_topics": [
+    "Optioner",
+    "Volatilitetshandel",
+    "Covered calls",
+    "Skyddsstrategier"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "Sandvik",
+    "Telia",
+    "Ericsson",
+    "Volvo"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host (Hanneson)",
+      "speaker_role": "host",
+      "timestamp": "28:11",
+      "reasoning": "I stora bolag som är i kraftig nedtrend, som H&M under de senaste åren, så tenderer vollarna att gå upp ganska kraftigt. Istället för att försöka finna köp och leta efter botten, så kan man istället sälla puttar. Då får man bra volla in, man får bra premie in, och sen så kan man få in aktierna billigt. Om man redan planerat en portfölj och tror på bolaget över tid, så kan man sälja puttar på en nivå man vill ha in aktien på. Om optionen löper ut utan att aktien når stricken, så behåller man premien.",
+      "price_target": null,
+      "time_horizon": "2-3 månader",
+      "quote": "Många traders håller ju mycket på med att dipsköpa, som det så fint heter. Och det kanske är min absoluta favorit, det är väl att i stora bolag som är i kraftig nedtrend, och vi tar H&M som exempel under de senaste åren, så tenderer vollarna att gå upp ganska kraftigt. Och istället för att gå in och försöka finna köp och leta efter botten, så kan man ju istället ställa puttar. Då får man ju väldigt bra volla in, man får ju bra premie in.",
+      "sector": "Retail",
+      "market": "sweden",
+      "position_context": "Om man planerar taxiköp av aktien",
+      "downside_note": "Risken blir ägare av aktien om den faller under stricken",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sandvik",
+      "ticker": "SAND",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "34:47",
+      "reasoning": "Om man har en aktieposition som gått väldigt bra och man är rädd att den kanske gått för bra, så finns det flera alternativ: 1) Sälja aktien och köpa en kål (call) för en mindre del av likviditeten - då har man pengar fria men är fortfarande med på uppsidan. 2) Behålla aktien men köpa en putt (put option) för försäkring. En putt som kostar 1-2% ger 100% exponering redan efter 1% nedgång, och man har fortfarande skydd i 1-2 månader.",
+      "price_target": null,
+      "time_horizon": "1-2 månader",
+      "quote": "Har den gått så pass bra som Sandvik gjorde, den var såg vid 70 och så gick den upp till 100 på 0-10 och sen så var det fortsatt stort säljsel. Vi har hundra vetat på många som köpte putt där eller en puttspredd till exempel, som kostade ännu mindre. Antingen så tar du hem pengarna och stoppar dem i annat, eller så har du kvar pengarna i en bra position, men du sätter lite försäkringar på vägen.",
+      "sector": "Industrials",
+      "market": "sweden",
+      "position_context": "Om man redan äger aktien",
+      "downside_note": "Kostnaden för optionen (1-2% av positionen)",
+      "catalyst_timing": "Inför rapport eller om man tror på vinsthemtagningar"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "28:11",
+      "timestamp_end": "29:43",
+      "word_count": 800,
+      "speakers": [
+        "Host",
+        "Carl Björkegren"
+      ],
+      "primary_speaker": "Host och Carl Björkegren",
+      "discussion_summary": "Diskussion om hur man kan använda optioner för att hantera en nedtrendande aktie som H&M. Istället för att köpa aktien direkt eller försöka pricka botten, kan man sälja puttar. Detta ger in premie, och om man vill äga aktien ändå kan man få in den till ett lägre pris. Strategin är särskilt lämplig om man tror på bolaget långsiktigt. Om optionen löper ut utan aktivering behåller man bara premien.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Många traders håller ju mycket på med att dipsköpa, som det så fint heter. Och det kanske är min absoluta favorit, det är väl att i stora bolag som är i kraftig nedtrend, och vi tar H&M som exempel under de senaste åren, så tenderer vollarna att gå upp ganska kraftigt.",
+          "timestamp": "28:11",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host",
+          "text": "Istället för att gå in och försöka finna köp och leta efter botten, så kan man ju istället ställa puttar. Då får man ju väldigt bra volla in, man får ju bra premie in.",
+          "timestamp": "28:14",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Planera taxiköp liksom. Om man nu tänkt sig en portfölj, och hennes tror vi på över tid, här kanske kommer vi att vända upp igen till bra nivåer. Och sälja puttar på kanske, ta någon procent över At The Money då.",
+          "timestamp": "28:25",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Går det två månader, tre månader, eller ligger Hovrall lite här kring 100, var är den just nu, 140 någonstans där. Tiden går ganska fort i en aktiesvärld. När det där sen förfaller, om man nu låter det gå dit, då kommer den antingen generera att du har Hennessy Maurits till ett bra pris, med en redan liten klar avkastning i premi du har fått in i din portfölj.",
+          "timestamp": "28:30",
+          "context": "implementation"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Händer det ingenting, att Striken och vad aktien ligger, alltså det är ingen som löser in det, ingen som säljer den till dig. Då går du tillbaks till ruta ett, men då har du kvar din premie, så du har tjänat pengar Hennessy Maurits trots att du inte äger aktien.",
+          "timestamp": "28:46",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Så det här är ett fantastiskt bra verktyg att sitta och leka med. Man kan ju ta en ganska liten position om man är osäker och testa, och sälja en putt, och man får in sin premie och man gör om det igen sådär. Och det kan du göra en gång i månaden, och det kan ge ganska bra resultat.",
+          "timestamp": "29:09",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Volatilitet: Högre i nedtrendande bolag",
+          "Teta: Tidsvärde minskar exponentiellt mot slutdagen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hög volatilitet i nedtrendande bolag ger bra premie",
+          "Man får in premie utan att äga aktien",
+          "Man kan köpa in aktien till lägre pris om den faller till stricken"
+        ],
+        "bear_case": [
+          "Risken att bli ägare av en fallande aktie",
+          "Aktien kan fortsätta ner under stricken"
+        ],
+        "catalysts": [
+          "Vändning i trenden kan ge stor uppgång från låga nivåer",
+          "Teta decay ger automatisk vinst om aktien står still"
+        ],
+        "risks": [
+          "Aktien kan falla rejält under stricken",
+          "Man binds upp kapital"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Telia",
+      "ticker": "TELIA",
+      "timestamp_start": "29:53",
+      "timestamp_end": "33:02",
+      "word_count": 1100,
+      "speakers": [
+        "Host",
+        "Carl Björkegren"
+      ],
+      "primary_speaker": "Carl Björkegren",
+      "discussion_summary": "Telia diskuteras som ett exempel på en aktie som legat i en tradingkorridor med begränsad nedsida på grund av stark kassa. Kalle rekommenderar en strategi med covered calls och putsamlingar mot innehavet. Genom att sälja både kålar och puttar (strangle) kan man få in dubbelpremie. Historiskt har Telia gett 7-8% avkastning på 2 månader med denna strategi, vilket kan upprepas fyra gånger per år för totalt 12-13% årlig avkastning, plus utdelning.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "Det är också en intressant grej, när man ska välja en löptid. Om man hypotetiskt sett ska ställa lite putts i hån.",
+          "timestamp": "29:44",
+          "context": "setup"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Jag vet i Telia till exempel så har det varit ganska vanligt, det har varit hyfsat seg. Step uppe över 40 för några månader sedan. Där har man gjort inte bara solten kål, men samtidigt solten putt. Olika strikes kallas för strangle, en vagga helt enkelt, sälja vagga mot ett innehav.",
+          "timestamp": "29:53",
+          "context": "implementation"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Då får man in dubbelpremie. I den där aktien är det som så att man vet att nedsidan i eget hus är begränsad. De har mycket pengar satt ut sprätt på, ska köpa bolag och så där, och det har sett ganska bra ut faktiskt i sista tiden.",
+          "timestamp": "30:02",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Om man leker att man tar en nedsides nivå, där man säljer sin säljoption då, som är kanske ett par tre procent mer, och Telia som redan tekniskt ligger i en liten korridor, om den nu går ner under den här sträckan, så kan man få köpa Telia.",
+          "timestamp": "30:09",
+          "context": "implementation"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Har man ett innehav och den sticker iväg över den här kålen man sålt samtidigt, då i värsta fall blir man av med sina aktier och så har man fått en avkastning på 7-8 procent på två månader.",
+          "timestamp": "30:18",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Många räknar på ett år, om man ska ha 20-procents avkastning på ett år, kanske en fond säger det. Då kan man göra det här med två månaders optioner, 60 dagars optioner. När det är klart så gör man det tre gånger till på ett år. Alltså fyra omgångar.",
+          "timestamp": "30:30",
+          "context": "implementation"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Det kräver inte så mycket tid, det kräver lite bevakning, man vet vilka nivåer man har. Men man kan instilla stående aktier och få en avkastning på 12-13 procent i de sista åren. Så det är ganska attraktivt.",
+          "timestamp": "30:38",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Vanligtvis har man kanske en av de här perioderna på 30-60 dagar. Är man mer kortsiktig, då kan man ju köra en 30 dagars och ta en större position om man är mer riskbenägen förstås.",
+          "timestamp": "30:50",
+          "context": "implementation"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Strangle avkastning: 7-8% på 2 månader",
+          "Årlig avkastning med strategin: 12-13%",
+          "Löptid: 30-60 dagar rekommenderas"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Begränsad nedsida - mycket kassa för uppköp",
+          "Ligger i tradingkorridor passar väl för optionsstrategier",
+          "Kan generera 12-13% årlig avkastning via optioner",
+          "Plus utdelning om man äger aktierna"
+        ],
+        "bear_case": [
+          "Aktien kan bryta ur korridoren på nedsidan",
+          "Uppgående breakout gör att man säljer aktier för billigt"
+        ],
+        "catalysts": [
+          "Uppköp av andra bolag kan driva kursen",
+          "Korridor-handel passar strangle-strategier"
+        ],
+        "risks": [
+          "Aktieprisrörelse utanför straddle-stricken",
+          "Bundet kapital i aktieinnehav"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Sandvik",
+      "ticker": "SAND",
+      "timestamp_start": "34:47",
+      "timestamp_end": "38:21",
+      "word_count": 900,
+      "speakers": [
+        "Host",
+        "Carl Björkegren"
+      ],
+      "primary_speaker": "Carl Björkegren",
+      "discussion_summary": "Sandvik används som exempel på en aktie som gått mycket bra (upp från 70 till 100 på kort tid). Diskussionen handlar om hur man kan hantera en sådan position som gått för bra. Alternativ som presenteras: 1) Sälja aktien och köpa en kål för 1.5% av likviditeten - då har man pengar fria men är fortfarande med på uppsidan. 2) Köpa en putt för försäkring, vilket kostar 1-2% och ger 100% skydd snabbt. Strategin lämpar sig för att låta vinstar kvarstå men samtidigt minska risk.",
+      "quotes": [
+        {
+          "speaker": "Host",
+          "text": "En annan liten favorit som jag själv tycker är lite rolig är ju också om man kanske har haft en svingtrading-posse eller en trendföljande position i något bolag som har massa optioner. Om vi tar ett Sandvik exempel som gick helt bananer här för några år sedan, när den gick nästan 100 procent.",
+          "timestamp": "34:47",
+          "context": "setup"
+        },
+        {
+          "speaker": "Host",
+          "text": "Och då, om du glider med väldigt mycket, men du är ganska rädd, då kanske det kommer något i pippen, det kommer en liten rapport eller någonting. Att man har gått för bra.",
+          "timestamp": "34:55",
+          "context": "setup"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Så att om du tänker att du köper en kol till exempel, du kanske vill ha dina pengar, du kanske vill ha likviditeten till en annan investering, en annan aktie, eller om någon anledning vill stoppa dem safe någonstans, kanske börja blåsa lite i övriga börsen.",
+          "timestamp": "35:31",
+          "context": "implementation"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Men Sandvik kanske fortfarande går. Sälj dina Sandvik och så köp en kol för en och en halv procent av din likvid som du har haft aktier i. Låt den kolen ligga där i två månader. Så har du två månader på att besluta om du ska kvar aktien eller om du ska skita i den.",
+          "timestamp": "35:40",
+          "context": "implementation"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Men du kommer vara med på den, du har identisk position. Du kommer vara med på uppsidan och så har du en bund med pengar du kan använda till annat.",
+          "timestamp": "35:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Om du tycker att aktierna arbetar bra i dina pengar och du tycker att inhavet ligger bra där, men vill låta den ligga där, men vill vara lite safe, köp en putt och försäkra dig.",
+          "timestamp": "36:00",
+          "context": "implementation"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Kanske en bit under att det är money, så att det blir lite mer kostnadseffektivt och som en liten stopploss kan man säga.",
+          "timestamp": "36:03",
+          "context": "implementation"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Har den gått så pass bra som Sandvik gjorde, den var såg vid 70 och så gick den upp till 100 på 0-10 och sen så var det fortsatt stort säljsel. Vi har hundra vetat på många som köpte putt där eller en puttspredd till exempel, som kostade ännu mindre.",
+          "timestamp": "36:13",
+          "context": "example"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Det fina med att köpa en putt, den enkla varianten, är att 1,5-2 procent senare, eller volatiliteten i samverkan var ganska låg, så att 1 procent senare så är du 100 procent exponerad och får tillbaka predviden.",
+          "timestamp": "36:26",
+          "context": "mechanics"
+        },
+        {
+          "speaker": "Carl Björkegren",
+          "text": "Nu är du fortfarande skyddad i en-två månader vad du väljer.",
+          "timestamp": "36:31",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Uppgång: Från 70 till 100 (~43%)",
+          "Kostnad för put-skydd: 1-2% av position",
+          "Kostnad för call-hållande: 1.5% av likvid",
+          "Löptid: 1-2 månader rekommenderas"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hålla vinstmen samtidigt minska risk",
+          "Fri likviditet genom att köpa call istället för att äga aktier",
+          "Put-skydd ger försäkring till låg kostnad"
+        ],
+        "bear_case": [
+          "Om aktien faller rejält kan putten inte täcka allt om OTM",
+          "Call-expirerar värdelös om aktien inte fortsätter upp"
+        ],
+        "catalysts": [
+          "Rapporter kan ge volatilitet",
+          "Vinsthemtagningar i marknaden"
+        ],
+        "risks": [
+          "Alternativets kostnad (premium)",
+          "Tidsrisk - teta decay"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "I min värld är det här kunskapen ingen borde vara utan för att det finns väldigt mycket att göra och tjäna på.",
+      "summary": "Kunskap om optioner och derivat är en viktig grundkompetens för alla investerare, eftersom det finns många möjligheter att skapa värde och hantera risk.",
+      "category": "philosophy",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "03:28",
+      "confidence": "high",
+      "tags": [
+        "optioner",
+        "utbildning",
+        "kunskap"
+      ]
+    },
+    {
+      "quote": "Det finns fonder och det finns privatpersoner, det finns finansbolag som handlar mycket och spekulerar mycket som bara gör covered calls. Utomlands är det ännu mer vanligt. Det finns fonder som bara får göra covered calls på sin innehav.",
+      "summary": "Covered calls är en etablerad strategi för att generera extra avkastning på existerande aktieinnehav, och används även av professionella fonder.",
+      "category": "wisdom",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "24:38",
+      "confidence": "high",
+      "tags": [
+        "covered calls",
+        "inkomststrategi"
+      ]
+    },
+    {
+      "quote": "Man kan sälja sig in och ha varit här med vinst men samtidigt ha kvar positionen till en liten kostnad. Man kan försäkra hela sin portfölj.",
+      "summary": "Optioner ger investeraren flexibilitet att kombinera vinsthemtagning med fortsatt exponering, och möjlighet att skydda portföljen.",
+      "category": "wisdom",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "39:05",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "försäkring",
+        "flexibilitet"
+      ]
+    },
+    {
+      "quote": "Hjälpmedel till det lite grann. Så ja, det är lite från case to case så där, vad man har för behov. Säger att det ena är bättre än det andra, så det beror på hur man vill positionera sig helt enkelt.",
+      "summary": "Det finns inget universellt bäst alternativ - valet av strategi beror på den specifika situationen och investerarens behov och mål.",
+      "category": "wisdom",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "37:52",
+      "confidence": "medium",
+      "tags": [
+        "strategival",
+        "anpassning"
+      ]
+    },
+    {
+      "quote": "Allting som vi ser på skärmarna är inte bolagens värde. Det är de värde vi tillsammans har satt på dem. Det är en psykologisk spel egentligen. Det är vad vi tror.",
+      "summary": "Aktiekurser speglar kollektiva övertygelser och psykologi snarare än objektivt värde, vilket skapar möjligheter för dem som förstår marknadspsykologi.",
+      "category": "wisdom",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "39:35",
+      "confidence": "high",
+      "tags": [
+        "marknadspsykologi",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Ja, generellt sett alltid i de här större bolagen, indexbolagen liksom, Ammon Eriksson, Volvo, Atlas och banken och så där, så är det alltid som så att volatiliteten och rörelsen och oron, den stegrar, jag skulle säga att 2-3 veckor innan rapporten brukar det vara.",
+      "summary": "Volatilitet i optioner tenderar att öka 2-3 veckor innan kvartalsrapporter i större bolag, vilket kan utnyttjas strategiskt.",
+      "category": "wisdom",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "40:39",
+      "confidence": "high",
+      "tags": [
+        "volatilitet",
+        "rapporter",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Multiplicatorn är ruggigt viktig. Det är min lilla chepest som jag följer med mig överallt. En option är alltid lika med 100 aktier.",
+      "summary": "Att förstå optionsmultiplikatorn (100) är kritiskt för att undvika dyra misstag vid optionshandel.",
+      "category": "lesson",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "54:13",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "multiplikator",
+        "grundläggande"
+      ]
+    },
+    {
+      "quote": "Optioner ska man till att börja med att se som ett hjälpmedel som gör att man kan ta bättre beslut.",
+      "summary": "Optioner ska ses som verktyg för att förbättra investeringsbeslut, inte som ett isolerat spekulationsverktyg.",
+      "category": "philosophy",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "38:57",
+      "confidence": "high",
+      "tags": [
+        "filosofi",
+        "verktyg",
+        "beslutsstöd"
+      ]
+    },
+    {
+      "quote": "Det har skett misstag under åren som jag har bevittnat som har varit lite onödiga, om man säger så. Det kan bli väldigt stora privata ekonomiska konsekvenser om man missförstår vad man gör.",
+      "summary": "Kunskapsbrist om optionsmekanik kan leda till allvarliga ekonomiska konsekvenser för både privatpersoner och professionella.",
+      "category": "lesson",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "54:42",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "kunskap",
+        "varning"
+      ]
+    },
+    {
+      "quote": "Och ja, jag kan tycka personligen att det vore bra om alla ISK kunde öppna upp förhandling med dervat.",
+      "summary": "Möjligheten att handla derivat i ISK skulle öka intresset för optioner bland privatpersoner.",
+      "category": "wisdom",
+      "speaker": "Carl Björkegren",
+      "speaker_role": "guest",
+      "timestamp": "42:25",
+      "confidence": "medium",
+      "tags": [
+        "ISK",
+        "derivat",
+        "skatt"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet är en djupgående introduktion till optionshandel med Carl Björkegren som gäst. Diskussionen fokuserar på hur optioner kan användas som hjälpmedel för att komplettera aktieportföljer, generera extra avkastning genom covered calls, och hantera risk genom skyddsstrategier som protective puts och collars. Exempel från H&M, Telia och Sandvik används för att illustrera konkreta strategier som att sälja puts i nedtrend, använda strangle på korridorhandlande bolag, och skydda snabba uppgångar. Grekerna (delta, gamma, theta, vega) förklaras som riskhanteringsverktyg.",
+  "key_takeaways": [
+    "Optioner kan ge 3-5% extra årlig avkastning på existerande aktieportföljer genom covered calls",
+    "Sälja puts i nedtrendande bolag kan ge bra premie och möjlighet att köpa in aktier billigt",
+    "Telia rekommenderas som kandidat för strangle-strategi med 12-13% årlig avkastningspotential",
+    "Skydda snabba uppgångar genom att köpa puts (1-2% kostnad) eller sälja aktier och köpa calls (1.5% kostnad)",
+    "Multiplicatorn på 100 är kritisk att förstå för att undvika kostsamma misstag",
+    "Grekerna (delta, gamma, theta, vega) är verktyg för att förstå och hantera optionsrisk"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2018-08-07-5a67.txt",
+  "transcript_word_count": 11308,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

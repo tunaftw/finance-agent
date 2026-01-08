@@ -1,0 +1,722 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2015-01-16-36d1",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "Aktiepodden Ep3 - Köpläge i fastighetsduo",
+  "episode_number": 3,
+  "date": "2015-01-16",
+  "hosts": ["Agneta Jönsson"],
+  "guests": ["Gösta Karlberg", "Dagro Lander", "Johan Lusenqvist"],
+  "main_topics": ["Marknadsvolatilitet", "Valutaeffekter", "Fastighetsbolag", "Investmentbolag", "Bilsäkerhet", "Rapportsäsong"],
+  "stocks_discussed": ["Autoliv", "Lifco", "Melker Schörling", "Kungsleden", "Fastighetspartner"],
+  "recommendations": [
+    {
+      "stock_name": "Autoliv",
+      "ticker": "ALIV-SDB",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Gösta Karlberg",
+      "speaker_role": "guest",
+      "timestamp": "09:45",
+      "reasoning": "Jättebra bolag och långsiktig vinnare. Världsledande inom passiv säkerhet (bilbälten, airbags). Aktiv säkerhet växer med 29% och är en spännande ny marknad. Konkurrenten Takata har kvalitetsproblem vilket kan ge ökade marknadsandelar. Dock har aktien gått väldigt starkt sedan oktober och marknaden är stökig. Rekommenderar att vänta med köp.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jättebra bolag, en långsiktig vinnare. Jag skulle dock vänta kanske med att köpa den nu, dels för att jag tycker att marknaden allmänt är lite stökig och därför att den har gått så starkt i stigandet.",
+      "sector": "Automotive",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Lifco",
+      "ticker": "LIFCO-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan Lusenqvist",
+      "speaker_role": "guest",
+      "timestamp": "16:45",
+      "reasoning": "Fint bolag med förvärvsstrategi och attraktiv verksamhet inom dental (oklyklisk). 50% av försäljning från dental som under finanskrisen hade stigande marginaler. Demolition Tools har 20% marginal. Förväntad tillväxt 4-5% organiskt, EBITDA-marginal 3,5%. Utdelning 2,5-3%. Men aktien stigit 45% sedan noteringen och handlas vid P/E 18 för 2015, vilket är dyrt jämfört med Indutrade/Adtech (15-16). Riktkurs 140 kr.",
+      "price_target": 140,
+      "time_horizon": null,
+      "quote": "Lifgo underbotten ett fint bolag, men när p1-talet närmar sig 18 gånger vinsten för 2015 då känns aningen högt. Framförallt om man jämför med Indutrade och Adtech som också är förvärvande bolag med förvärvsstrategi. Deras p1-talet för dem är runt 15-16. Då kan man avvakta lite i Lifgo.",
+      "sector": "Industriell teknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Melker Schörling AB",
+      "ticker": "MSAB-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan Lusenqvist",
+      "speaker_role": "guest",
+      "timestamp": "25:44",
+      "reasoning": "Portfölj består av sex bolag: Hexagon (50%), Hexpol, AAK, Securitas, Loomis. Hexagon växer 5% per år och handlas till P/E 20. Förväntad uppgång 10% i år för både Hexagon och övriga innehav. Portföljen fyrfaldigats sedan 2006. Handlas med 3% premie på substansvärdet. Låg förvaltningskostnad (under 10%). Kvalitetsbolag men ingen utdelningsaktie (1%).",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag tror att, alltså jag tycker portföljen som de har är bra. Detta bygger på att du måste ju tro på Hexagon för att tro på det här, för det är ju rikt halva på följen. Och alltså jag kom fram till att jag tror att Hexagon kanske har en chans att gå här 10 procent i år. Och det kan nog de andra innehaven också. Vilket gör det här till en helt okej aktie.",
+      "sector": "Investmentbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kungsleden",
+      "ticker": "KLED-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Gösta Karlberg",
+      "speaker_role": "guest",
+      "timestamp": "30:06",
+      "reasoning": "Fastighetsbolag med fokus på högavkastande fastigheter i storstadsregioner. Direktavkastning 2-3% med uppsida. Skattetvist med Skatteverket på 1,4-1,8 miljarder (50-50 chans att vinna, marknaden prissätter in förlust). Nylig emission inbringade 1,6 miljarder. Förväntar refinansiering av 50% av lånen inom 18 månader till lägre ränta (5% till 4%). Nyligen köpt fastighet med 6% direktavkastning. Är en efterslämpare jämfört med övriga fastighetsbolag.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Men jämfört med egentligen övriga fastighetsbolag så skulle jag säga är de fortfarande så pass intressanta så att vi sätter köpor om allt gent.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Skattetvist avgöras"
+    },
+    {
+      "stock_name": "Fastighetspartner",
+      "ticker": "FAST",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Dagro Lander",
+      "speaker_role": "guest",
+      "timestamp": "35:47",
+      "reasoning": "Fokuserat på Stockholmsfastigheter. Köpte fastigheten med Stockholmsbörsen till 6% direktavkastning. Mycket låg vakansrisk på grund av inflyttning till Stockholm. Genom belåning och låsta räntor (3% på 30 år) ger aktieägarna 12% avkastning efter skatt på eget kapital. Handlas med 30% premie på substansvärdet. Preferensaktie med 5% utdelning. Förväntad uppsida 10% det närmaste året. Möjlighet att göra ytterligare fastighetsaffärer.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Vad ser du för uppsida om du tittar på aktien här närmaste år? Kanske 10 procents avkastning.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Autoliv",
+      "ticker": "ALIV-SDB",
+      "timestamp_start": "07:23",
+      "timestamp_end": "12:59",
+      "word_count": 850,
+      "speakers": ["Gösta Karlberg", "Agneta Jönsson", "Johan Lusenqvist"],
+      "primary_speaker": "Gösta Karlberg",
+      "discussion_summary": "Autoliv är världsledande inom passiv bilbälten och airbags med inflationsdriven tillväxt, men det nya området aktiv säkerhet visar 29% tillväxt. Bolaget är en långsiktig vinnare men rekommendationen är att vänta med köp då aktien gått starkt sedan oktober och marknaden är volatil. Diskussionen handlar om substansvärdering versus P/E, risk att aktiv säkerhet minskar behovet av passiv, och jämförelser med konkurrenter som Mobileye.",
+      "quotes": [
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Autoliv. Det är ganska intressant med autoliv för att det är ett enormt stort företag inom säkerhet och det är lite dåligt i sig att säga. Men de blir lite bortglömda ibland kan jag tycka på minst om det.",
+          "timestamp": "07:23",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Den passiva, alltså traditionella, säkerheten består ju enkelt uttryckt av bilbälten och hockeyverk kan man säga. Och det är ju autolivs största i världen och det växer med inflation ungefär. Men sen har du den här nya marknaden som kommer nu med så kallad aktiv säkerhet.",
+          "timestamp": "07:23",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Autoliv själv, tyvärr då, det hände i område för Autoliv utgörde 6% i senaste rapporten, men i alla fall som sådant växte med 29% och det är ganska anmärkningsvärt, får man faktiskt säga, för att vara ett område inom Automotive då, som ändå är i många sammanhang dödförklarad sektor.",
+          "timestamp": "08:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Så att, ja, det finns faktiskt intressanta saker som Autoliv sysslar med här och det är ju bara hoppas på att de kan växa då och ta den här marknaden, så att det inte blir någon annan aktör som kommer in för att just på det här området att säga Autoliv är två i världen.",
+          "timestamp": "09:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Och aktien har gått, det är väl det som är nackdelen med den som jag kan tycka, att den har gått väldigt starkt sedan oktober egentligen. Så analysen landar ändå i att man kanske inte ska köpa Autodue just i detta nu, därför att den har gått väldigt starkt, inte minst då för att en konkurrens som heter Takata har haft kvalitetsproblem med sina krockuddar.",
+          "timestamp": "09:30",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Men om man tittar lite länge in i glasköldan och ser ut det här med aktiv och passiv säkerhet, då kan den ökad användning av aktiv säkerhet minska behovet av den passiva säkerheten då, som då är Autolivs största affärsområde.",
+          "timestamp": "10:21",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Nej jag tror absolut inte det. Det är snarare så att de måste bli ännu mer integrerade, vilket kräver ännu mer avancerad system. Du har ju en amerikansk konkurrent som heter Mobileye, som värderas alltså till 49 gånger försäljningen, de tjänar inga pengar än, och det visar ju någonstans hur intressant marknaden faktiskt tycker att det här området är.",
+          "timestamp": "10:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Objekt med 1,2 i värderad periods till exempel. Så det finns ju om den här trenden fortsätter, väldigt mycket tillväxt inom området.",
+          "timestamp": "11:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Agneta Jönsson",
+          "text": "Ska man kanske substansvärdera Autolivet i stället för att gå på pg-tong?",
+          "timestamp": "12:04",
+          "context": "other"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Två gånger det varter. Foder och Autoliv. De ligger på nästan tre. Det kan jag tycka är lite saftigt.",
+          "timestamp": "12:16",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 12,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": 29,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Aktiv säkerhet: 29% tillväxt", "Passiv säkerhet: inflationstillväxt"]
+      },
+      "thesis": {
+        "bull_case": ["Världsledande inom passiv säkerhet", "Aktiv säkerhet växer 29%", "Konkurrent Takata har kvalitetsproblem", "Mobileye värderad till 49x försäljning visar intressant marknad", "Mer integrerade system krävs"],
+        "bear_case": ["Aktien gått starkt sedan oktober", "Marknaden volatil och stökig", "Risk att aktiv säkerhet minskar behov av passiv", "Substansvärdering på 3x kan vara saftigt"],
+        "catalysts": ["Konkurrenternas kvalitetsproblem kan ge marknadsandelar"],
+        "risks": ["Teknikutveckling inom aktiv säkerhet kan minska passiv säkerhetsmarknad"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Lifco",
+      "ticker": "LIFCO-B",
+      "timestamp_start": "12:59",
+      "timestamp_end": "18:36",
+      "word_count": 900,
+      "speakers": ["Johan Lusenqvist", "Agneta Jönsson", "Gösta Karlberg"],
+      "primary_speaker": "Johan Lusenqvist",
+      "discussion_summary": "Lifco rekommenderades vid noteringen men har stigit 45% vilket gör den för dyr. Bolaget har cirka 100 dotterbolag med fokus på dental (50% av försäljning, oklyklisk med stigande marginaler under kris), demolition tools (20% marginal), och system solutions. Förväntad tillväxt 4-5% organiskt, EBITDA-marginal 3,5%, vinst 4,5 kr/aktie. Handlas till P/E 18 jämfört med Indutrade/Adtech på 15-16. Riktkurs 140 kr.",
+      "quotes": [
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Vi rekommenderar att man skulle teckna Lifco inför noteringen då. Då såg värderingen riktigt aptitlig ut. Nu i efterhand har aktien stigit med ungefär 45 %.",
+          "timestamp": "13:13",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Bolaget i sig består av ungefär 100 dotterblad. Lifco har en tydlig förvärvsstrategi. 50 % av deras försäljning tillhör den här dentalverksamheten. Som man kan se är ganska ocyklisk och attraktiv.",
+          "timestamp": "13:25",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Om man kollar på den här dentalverksamheten, under finanskrisen hade de till och med stigande marginaler. Vilket är verkligen bra.",
+          "timestamp": "13:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Marknaden som Lifco är verksam på inom dental, det är Norden inklusive Tyskland. Den växer med i snitt 1,6 % per år.",
+          "timestamp": "13:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Under 2015 tror jag att en tillväxt på runt 4-5 % kan vara rimligare antal. Med då en bevarad ebitda-marginal på runt 3,5 % så kan vinsten komma upp till 4,5 kr på aktien.",
+          "timestamp": "15:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Agneta Jönsson",
+          "text": "Du säger att du gillar bolag med höga direktavkastning. Hur ser det ut där?",
+          "timestamp": "15:56",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Ja, de har ju. Jag skulle säga att de kan nu dela ut mellan 2,5-3 % redan för 2014 och nu under 2015.",
+          "timestamp": "16:01",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Lifgo underbotten ett fint bolag, men när p1-talet närmar sig 18 gånger vinsten för 2015 då känns aningen högt. Framförallt om man jämför med Indutrade och Adtech som också är förvärvande bolag med förvärvsstrategi. Deras p1-talet för dem är runt 15-16. Då kan man avvakta lite i Lifgo.",
+          "timestamp": "16:28",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Vi har satt rikursen till 140 kronor på ett och sitt.",
+          "timestamp": "16:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Agneta Jönsson",
+          "text": "Det är precis som Autoliv, ett kvalitetsbolag, men det är lite dyrt nu.",
+          "timestamp": "16:45",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Demolition Tools säljer rymningsmaskiner och maskinmärktyg. Under 2014 blev det här affärsområdet en stark marknad i USA. Vi tror att det kommer fortsätta i samma takt i USA under 2015.",
+          "timestamp": "14:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Men deras lönsamhet där är fantastiskt bra. 20 procents magnol, det är som Atlas Copco.",
+          "timestamp": "17:42",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Om man kollar på Demolitions delen så är det främst det här varumärktet Brock som är världsledande inom fjärrstyrerivningsmaskiner.",
+          "timestamp": "18:00",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 18,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "2.5-3%",
+        "revenue_growth": "4-5%",
+        "margin": "3.5% EBITDA, 20% i Demolition Tools",
+        "debt_level": null,
+        "custom": ["Dentalmarknadstillväxt: 1,6%", "EPS 2015: 4,5 kr", "Indutrade/Adtech P/E: 15-16"]
+      },
+      "thesis": {
+        "bull_case": ["Oklyklisk dentalverksamhet med stigande marginaler under kris", "Demolition Tools med 20% marginal (Atlas Copco-nivå)", "Förvärvsstrategi med stark kassaflöde", "Åldrande befolkning driver dentalmarknad", "Dentalmarknad växer 1,6%/år"],
+        "bear_case": ["Stigit 45% sedan noteringen på två månader", "Handlas till P/E 18 vs Indutrade/Adtech på 15-16", "Utan förvärv endast 4-5% organisk tillväxt"],
+        "catalysts": ["Nya förvärv kan ändra värderingssynen"],
+        "risks": ["Värderingen kan komma ner jämfört med peers"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Melker Schörling AB",
+      "ticker": "MSAB-B",
+      "timestamp_start": "18:36",
+      "timestamp_end": "26:18",
+      "word_count": 1100,
+      "speakers": ["Johan Lusenqvist", "Agneta Jönsson", "Gösta Karlberg", "Dagro Lander"],
+      "primary_speaker": "Johan Lusenqvist",
+      "discussion_summary": "Melker Schörling är ett ägarbolag noterat 2006, portföljen fyrfaldigats trots 50% nedgång under 2008-2009. Aktien går från 50 kr till 400 kr. Melker äger 85%, Stefan Persson 5%. Portfölj: Hexagon (50%, P/E 20, växer 5%/år), Hexpol, AAK, Securitas, Loomis. Handels med 3% premie på substansvärde, årlig rätt att sälja till substansvärde. Låg förvaltningskostnad under 10%. Utdelning 1%. Noterades för att undvika förmögenhetsskatt.",
+      "quotes": [
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Det är Melker Schörling, aktiebolag, som är ett ägarbolag. Melker Schörling äger själv 85% av aktierna. Stefan Persson har ungefär 5% och allmänheten resten. Det är bara att lyfta på hatten för att det har gått fantastiskt bra.",
+          "timestamp": "18:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Sen bolaget noterades 2006 så har man fyrfaldigat värdet på den här portföljen. Där ingår ju då det här raset under 2008-2009 när aktien fallerade 90-50 kronor. Idag står det 400 kronor.",
+          "timestamp": "19:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Agneta Jönsson",
+          "text": "Vad för satte han sin... Det var väl Melker Sjörling med familjsegna innehav. Varför satt man här på börsen?",
+          "timestamp": "19:29",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Det fanns ju det här med förmögen i skatter. Melker Sjörling var en av de få mia där som betalade förmögen i skatt. Så det var den här läx-ubbla-historien. Han ägnade sig börsnoterade aktier via ett privataktiebolag och då fick han förmögen i skatt på en stor del av det här innehavet.",
+          "timestamp": "19:38",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Halva portföljen är ju Hexagon, som är ett välskött bolag, det går som inte att komma ifrån när de verkar på marknaden, som växer ganska hyppligt, kanske runt 5% per år.",
+          "timestamp": "20:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Det är ett bolag som värderas till P20, och det kan man kanske ha synpunkter på å andra sidan, om de växer i år så att de ser ut att göra så är det fullt rimligt att aktien går ytterligare 10% i år.",
+          "timestamp": "21:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Det här betyder för det första att det är väldigt lätt för oss som aktiesparare att köpa samma portfölj. Vi köper sex aktier så kan vi kopiera den här portföljen.",
+          "timestamp": "21:15",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Nu är premien 3 procent ungefär på substansvärdet och man har rätt en gång om året att sälja till substansvärdet om man skulle vilja ha.",
+          "timestamp": "21:56",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Sen gjorde ju bolaget i fjol en för aktieägarna ganska trevlig grej, att man fick möjlighet att teckna aktier i absolent, ett litet filterbolag, som Melker Sjörling hade investerat i privat och som man då skulle börsnotera.",
+          "timestamp": "22:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Aktien ger knappt 1% utdelning och det beror på att innansbolagen i snitt ger ungefär 2% och så delar man ut en hälften av det.",
+          "timestamp": "22:36",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Förvaltningskostnaderna är under 10% och det är nästan ingenting. Det är en vd-höne och en liten kontorsplats och man skickar ett årsutvisning och lite börskostnader och annat sånt.",
+          "timestamp": "23:08",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Ja, de jobbar ju med ega styrningarna, så det som sker här sker ju vid bolagen. Så det som sker sker i Hexagon och de andra och det är nog helt uppenbart att Melker Sjöling är en väldigt skickig företagsledare och att de fattar rätt beslut.",
+          "timestamp": "23:34",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan Lusenqvist",
+          "text": "Jag tror att, alltså jag tycker portföljen som de har är bra. Detta bygger på att du måste ju tro på Hexagon för att tro på det här, för det är ju rikt halva påföljen. Och alltså jag kom fram till att jag tror att Hexagon kanske har en chans att gå här 10 procent i år. Och det kan nog de andra innehaven också. Vilket gör det här till en helt okej aktie.",
+          "timestamp": "25:44",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 20,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "1%",
+        "revenue_growth": "5% (Hexagon)",
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Premie på substansvärde: 3%", "Förvaltningskostnad: under 10%", "Portfölj uppgång 4x sedan 2006"]
+      },
+      "thesis": {
+        "bull_case": ["Portföljen fyrfaldigats sedan 2006", "Hexagon växer 5% per år, kan gå 10% i år", "Hexagon välskött och P/E 20 rimligt med tillväxt", "Låg förvaltningskostnad under 10%", "Melker Schörling skickig företagsledare med ägartillsättning", "Extra utdelningar som Absolent-erbjjudandet"],
+        "bear_case": ["Måste tro på Hexagon som är 50% av portföljen", "Liten utdelning (1%) jämfört med andra investmentbolag", "Ingen aktiv analyskapacitet för nya innehav"],
+        "catalysts": ["Hexagon tillväxt driver portföljvärde", "Extra emissioner till aktieägare"],
+        "risks": ["Koncentration i Hexagon", "Loomis kan drabbas av kontanthanteringsminskning (3% av portfölj)"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Kungsleden",
+      "ticker": "KLED-B",
+      "timestamp_start": "26:18",
+      "timestamp_end": "31:50",
+      "word_count": 800,
+      "speakers": ["Gösta Karlberg", "Agneta Jönsson"],
+      "primary_speaker": "Gösta Karlberg",
+      "discussion_summary": "Kungsleden är en gammal favorit som varit under press efter skattetvister. Under ny ledning har strategin ändrats till fokus på högavkastande fastigheter i storstadsregioner. Skattetvist med Skatteverket på 1,4-1,8 miljarder, 50-50 chans. Marknaden prissätter in förlust. Nylig preferensaktieemission inbringade 1,6 miljarder. Direktavkastning 2-3% med uppsida. Nyligen köpt fastighet med 6% direktavkastning. Förväntar sänkning av finansieringskostnad från 5% till 4% när 50% refinansieras.",
+      "quotes": [
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Kungsleden som är en gammal favorit får man väl säga. Den var jättepopulär för ett antal år sedan. Då de hade en hög förvärvstakt och sådde och köpte väldigt mycket. Men nu tar man det lite lugnare efter den här stora skattesmällan som inte är helt avgjord för visser då.",
+          "timestamp": "26:32",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Under Brianna Persons ledning så har man bytt strategi, tar det lite lugnare, man inriktar sig på de fyra sådana här storstadsregionerna.",
+          "timestamp": "26:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Med det sagt och implicit så är det alltså inte primelägen vi pratar om, utan fastigheter som ligger lite i sidan av, men ändå kompenserar det mer med en högre direktavkastning.",
+          "timestamp": "27:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Agneta Jönsson",
+          "text": "Du sa något där om en skattesmäll, vad pratar vi om för pengar där och hur hänger det ihop?",
+          "timestamp": "27:51",
+          "context": "other"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Ja, det är ju så här att fortfarande ligger det i potten kan man säga 1,4 miljarder, som återstår då av de här strida med Skatteverket på tidigare transaktioner.",
+          "timestamp": "27:56",
+          "context": "metric"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Kungsidan själva säger att det är 50-50 ungefär, att man kan vinna de här. Aktiemarknaden har dock redan prissatt in det som att de förlorar.",
+          "timestamp": "28:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Så skulle vi räkna med det, vilket vi har gjort i vår analys, då är det ungefär 1,8 miljarder som det påverkar likviditetsmässigt 1,4 miljarder.",
+          "timestamp": "28:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Det man kan säga egentligen om krumsleden som driver tillväxten här det är att de har ju också gett ut preferensaktier och det är ju positivt att de har fått de här tecknader. De får in 1,6 miljarder.",
+          "timestamp": "28:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Gör vi ett antagande om att de köper i rundas längre runt en 2 miljarder så har du också en 2 kronor roughly på aktie i kassaflödet.",
+          "timestamp": "29:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Men jämfört med egentligen övriga fastighetsbolag så skulle jag säga är de fortfarande så pass intressanta så att vi sätter köpor om allt gent.",
+          "timestamp": "30:06",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Det är lite den där fula ankungen som börjar komma in i världen igen.",
+          "timestamp": "30:08",
+          "context": "other"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Nu så räknar vi med att de ligger mellan ett par tre procent men här finns faktiskt lite uppsida skulle man kunna säga.",
+          "timestamp": "30:22",
+          "context": "metric"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "De omsätter dessutom att refinansiera cirka hälften inom kommande ett och ett halvt året ungefär.",
+          "timestamp": "30:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Nu har vi räknat med att de sänker sina jämtekostnader med 20 procent rakt över, det vill säga ner till fyra procent från dagens fem. Men här finns definitivt en uppsida om den här positiva miljön fortsätter.",
+          "timestamp": "30:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Gösta Karlberg",
+          "text": "Du skriver att de köpte en fastighet med direktavkastning på 6 procent nyligen.",
+          "timestamp": "31:04",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "2-3%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Direktavkastning 6% på nyligen köpt fastighet", "Finansieringskostnad: 5% nu, förväntat 4%", "Emission inbringade: 1,6 miljarder", "Skattetvist: 1,4-1,8 miljarder (50-50)", "Cash flow per aktie från nya investeringar: 2 kr"]
+      },
+      "thesis": {
+        "bull_case": ["Strategifokus på högavkastande fastigheter i storstadsregioner", "1,6 miljarder från preferensaktieemission kan investeras med belåning", "Nyligen köpt fastighet med 6% direktavkastning", "Uppside vid refinansiering av 50% av lånen till lägre ränta (5% till 4%)", "Skattetvist 50-50 chans - positivt om de vinner"],
+        "bear_case": ["Skattetvist på 1,4-1,8 miljarder marknadsprisat som förlust", "Har varit under press och haft höga förvärvskostnader"],
+        "catalysts": ["Skattetvist avgörs", "Refinansiering av lån till lägre räntor", "Nya fastighetsförvärv"],
+        "risks": ["Skattetvist kan förloras"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Fastighetspartner",
+      "ticker": "FAST",
+      "timestamp_start": "31:50",
+      "timestamp_end": "36:15",
+      "word_count": 700,
+      "speakers": ["Dagro Lander", "Agneta Jönsson"],
+      "primary_speaker": "Dagro Lander",
+      "discussion_summary": "Fastighetspartner fokuserar på Stockholmsfastigheter med köp av fastigheten med Stockholmsbörsen till 6% direktavkastning. Låg vakansrisk på grund av inflyttning till Stockholm. Sten Olof Johansson kunde låsa in räntor på 3% på 30 år vilket med belåning ger aktieägarna 12% avkastning efter skatt. Handlas med 30% premie på substansvärde. Preferensaktie med 5% utdelning. Förväntad uppsida 10% det närmaste året.",
+      "quotes": [
+        {
+          "speaker": "Dagro Lander",
+          "text": "Fastpartnerna är ju fokuserade på Stockholmsområdet. Där förvärvade Sen Olof Johansson fastpartnerna i fjol höstas. De köpte bland annat fastigheten där Stockholmsbörsen ligger.",
+          "timestamp": "31:56",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Det var också en affär till 6% direktavkastning.",
+          "timestamp": "32:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Tanken är helt fullt, man fokuserar på Stockholm. Så kan man köpa till cirka 6% direktavkastning. Sen bedömer man att risken är väldigt låg eftersom du har sån inflyttning till Stockholm.",
+          "timestamp": "32:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Vilket innebär att risken för vakanser, vakanser i Stockholm, den är nästan försvunnbar.",
+          "timestamp": "32:25",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Och så visar det här när man räknar igenom det som jag har gjort att med det här upplägget så får aktieägarna ungefär 14% avkastning för skatt, 12% efter skatt, på eget kapital.",
+          "timestamp": "33:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Och detta efter att man har låst in räntekostnaden genom lånen.",
+          "timestamp": "33:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Ja han kunde låsa in på 30 år, till och med på 30 år i sig, lite mindre brott men ändå till 3% räntekostnad och vanliga bottenlån på under 3%.",
+          "timestamp": "33:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Detta gör ju då, i och med att du har en hävstång genom belåningen, att aktieägarnas avkastning hamnar uppe på 12% efter en beräknad skatt på 10%.",
+          "timestamp": "33:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Så det här blir ju en pengamaskin, för du kan köpa på fastighetsmarknaden till ett lägre pris än vad börsen värderar samma sak.",
+          "timestamp": "34:05",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "För att köpa fastigheter för, alltså vem som helst kan köpa en fastighet i situationssträck för 50 miljoner kronor. Men vem som helst kan inte köpa fastigheter för en halv miljoner mer.",
+          "timestamp": "34:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Det var 30 procent [premie].",
+          "timestamp": "35:11",
+          "context": "metric"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Även Färspartner har gett ut en preferensaktie med 5 procent i ett del, vilket ju även det är ganska lågt så att säga.",
+          "timestamp": "35:18",
+          "context": "metric"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Och sen så kan man låna rörligt till väsentligt läge. Så att företagsobligationer har nu kunnat köpa ut till 2,5 procent till exempel.",
+          "timestamp": "35:25",
+          "context": "metric"
+        },
+        {
+          "speaker": "Dagro Lander",
+          "text": "Kanske 10 procents avkastning.",
+          "timestamp": "35:47",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "3.5%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Direktavkastning: 6%", "Aktieägaravkastning: 12% efter skatt", "Låst ränta: 3% på 30 år", "Företagsobligationsränta: 2,5%", "Preferensaktie: 5% utdelning", "Premie på substansvärde: 30%"]
+      },
+      "thesis": {
+        "bull_case": ["Köpa fastigheter till 6% direktavkastning i Stockholm", "Mycket låg vakansrisk på grund av inflyttning", "Låsta räntor på 3% på 30 år", "Belåning ger 12% aktieägaravkastning efter skatt", "Köpa fastigheter billigare än börsvärdering", "Preferensaktie med 5% utdelning"],
+        "bear_case": ["Handlas med 30% premie på substansvärde", "Krävs stor kapacitet att göra stora fastighetsaffärer"],
+        "catalysts": ["Nya fastighetsaffärer till 6% direktavkastning", "Lågräntemiljön fortsätter"],
+        "risks": ["Uppstickare kan komma in på marknaden"]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Nu behöver vi borde växa in i värderingen. Å andra sidan kom det inflationssatistik idag som tidigare satt lite hicka på valutamarknaden. Dollarna som vi förstod tappade 9 öar som mest mot svenska kronor. Svenska kronor är starkt. Så det är inte självklart att vi kommer att ha sådana kronor som kommer att vara fortsatt svag även framöver.",
+      "summary": "Valutaeffekter driver marknaden men kan vända - svenska kronan har stärkts mot dollarn vilket minskar valutaeffekten för svenska exportbolag.",
+      "category": "wisdom",
+      "speaker": "Agneta Jönsson",
+      "speaker_role": "host",
+      "timestamp": "06:20",
+      "confidence": "high",
+      "tags": ["valutaeffekter", "värdering", "exportbolag"]
+    },
+    {
+      "quote": "Framförallt i Europa, om man tittar på Volvo och SSAB, exempelvis vi vet att i USA så går det bra både för lastbilar och för stålet i förhållande till Europa då. Så det är ju främst Europa som behöver ryck ut sig.",
+      "summary": "Marknaden drivs av regional skillnad - USA går bra för lastbilar och stål, Europa behöver återhämta sig.",
+      "category": "wisdom",
+      "speaker": "Gösta Karlberg",
+      "speaker_role": "guest",
+      "timestamp": "04:20",
+      "confidence": "high",
+      "tags": ["regional skillnad", "Europa vs USA"]
+    },
+    {
+      "quote": "Börsets krav på ett tillväxtbolag har sänkts väldigt dramatiskt jämfört med hur det var för några år sedan. Så jag tycker att när man tittar nu, så är de bolag som kan växa organiskt 4-5% ganska bra. I den här räntemiljön och i den tillväxten vi har i världsekonomin.",
+      "summary": "Avkastningskraven har sänkts i lågräntemiljö - 4-5% organisk tillväxt anses bra idag jämfört med för några år sedan.",
+      "category": "wisdom",
+      "speaker": "Gösta Karlberg",
+      "speaker_role": "guest",
+      "timestamp": "05:25",
+      "confidence": "high",
+      "tags": ["avkastningskrav", "värdering", "lågränta"]
+    },
+    {
+      "quote": "Det finns inga alternativ till aktiemarknaden. Man kan inte köpa ränteprodukter utan då är det aktier som gäller. Och så har man sänkt avkastningskravet på aktiepraktiken under ganska lång tid nu. Den effekten tror jag är med och inneborta nu. Nu måste faktiskt bolagen börja visa att de växer på riktigt.",
+      "summary": "Lågräntemiljö har drivit aktier men effekten kan vara över - bolag måste nu visa verklig tillväxt.",
+      "category": "wisdom",
+      "speaker": "Gösta Karlberg",
+      "speaker_role": "guest",
+      "timestamp": "05:50",
+      "confidence": "high",
+      "tags": ["lågränta", "värdering", "tillväxtkrav"]
+    },
+    {
+      "quote": "Ja, alltså handlas de till P20 så är de definitivt fullvärderade utan tillväxt.",
+      "summary": "P/E 20 är fullvärderat om bolaget inte växer.",
+      "category": "wisdom",
+      "speaker": "Agneta Jönsson",
+      "speaker_role": "host",
+      "timestamp": "06:11",
+      "confidence": "high",
+      "tags": ["värdering", "P/E", "tillväxt"]
+    },
+    {
+      "quote": "Det fanns ju det här med förmögen i skatter. Melker Sjörling var en av de få mia där som betalade förmögen i skatt. Så det var den här läx-ubbla-historien. Han ägnade sig börsnoterade aktier via ett privataktiebolag och då fick han förmögen i skatt på en stor del av det här innehavet. Den här typen av manöver visade ju att förmögen i skatten fungerade inte.",
+      "summary": "Förmögenhetsskatten gick att kringgå genom att notera ägarbolag på börsen.",
+      "category": "lesson",
+      "speaker": "Johan Lusenqvist",
+      "speaker_role": "guest",
+      "timestamp": "19:38",
+      "confidence": "high",
+      "tags": ["skatteplanering", "investmentbolag"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Aktiepodden diskuterar en volatil marknad efter oljeprisfall men identifierar köpmöjligheter i fastigheter. Kungsleden och Fastighetspartner rekommenderas som köp med direktavkastning på 6% och låsta räntor. Autoliv och Lifco är kvalitetsbolag men för dyra just nu (watch). Melker Schörling är en köprekommendation baserad på Hexagons tillväxtpotential. Valutaeffekter har gynnat svenska exportbolag men kan vända.",
+  "key_takeaways": [
+    "Fastighetsbolag (Kungsleden, Fastighetspartner) är köpcases med 6% direktavkastning och låda räntor",
+    "Autoliv och Lifco är kvalitetsbolag men för dyra efter stark uppgång - avvakta",
+    "Valutaeffekter har stöttat svenska exportbolag men kan minska framöver",
+    "Avkastningskraven har sänkts i lågräntemiljö - 4-5% organisk tillväxt anses bra",
+    "Marknaden är volatil men skapar möjligheter i eftersläpande segment som fastigheter"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2015-01-16-36d1.txt",
+  "transcript_word_count": 5788,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

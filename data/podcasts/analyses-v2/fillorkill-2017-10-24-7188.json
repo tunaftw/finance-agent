@@ -1,0 +1,353 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2017-10-24-7188",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 133 - Calla Fakta (20171024)",
+  "episode_number": 133,
+  "date": "2017-10-24",
+  "hosts": [
+    "Daniel",
+    "Lundgård",
+    "Handelsson",
+    "LånWolf"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Q3 earnings reports",
+    "Gaming sector concerns",
+    "Property market risks",
+    "AI trading"
+  ],
+  "stocks_discussed": [
+    "Atlas Copco",
+    "Sandvik",
+    "Volvo",
+    "Ericsson",
+    "Swedbank",
+    "Oscar Properties",
+    "Collector",
+    "Betsson",
+    "OF"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "LånWolf",
+      "speaker_role": "host",
+      "timestamp": "09:13",
+      "reasoning": "Short trading opportunity based on technical retest. Report was worse than expected but stock went up due to sentiment and potential support from major shareholders. Fundamentals expected to take several quarters to turn around. Long-term outlook negative due to legacy contract write-downs and services division issues.",
+      "price_target": null,
+      "time_horizon": "short-term",
+      "quote": "Jag handlade den också i fredags från kort sida. Det gick faktiskt bra, men jag hittade en enda rekylen på hela dagen",
+      "sector": "Technology/Telecom",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS-B",
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Handelsson",
+      "speaker_role": "host",
+      "timestamp": "18:18",
+      "reasoning": "Down 18% over 3 days to P/E 10, making it very cheap for hot gaming sector. However, significant concerns: 'Kalla Fakta' exposé about problem gamblers, Turkey revenue issues, failed UK acquisition, potential license loss in Netherlands, smart money short sellers maintaining positions. Could be opportunity dip like last 25% drop on previous warning, or may be worst company in sector.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag kollade bara lite snabbt, enligt anlyttningen ska de tjäna 6,50 nästa år. Och den handlades runt 64-65 kronor. Så det är ju P10 för ett bolag. Det låter ju väldigt billigt för den här heta spelsexten",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Down 18% in 3 days",
+      "catalyst_timing": "Leo Vegas, Mr Green, Kindred reports coming soon to see if this is sector trend"
+    },
+    {
+      "stock_name": "Collector",
+      "ticker": "COLL-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "17:48",
+      "reasoning": "Has property lending exposure, market is avoiding companies with property sector exposure. Self-identified as growth area but could become problematic when property market turns. Market selling all property-related exposure indiscriminately - may create opportunities for capital-strong companies, or indicate deeper problems.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Collector, där måste man väl djupt dyka mer för att verkligen ta reda på riskerna. Men det är ju ett affärsområde som de själva har nämnt som ett väldigt tillväxtområde för Collector att låna ut till",
+      "sector": "Financial Services",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS-B",
+      "timestamp_start": "18:18",
+      "timestamp_end": "24:22",
+      "word_count": 650,
+      "speakers": [
+        "Handelsson",
+        "LånWolf",
+        "Daniel"
+      ],
+      "primary_speaker": "Handelsson",
+      "discussion_summary": "Betsson has crashed 18% in 3 days after weak Q2 report, Danske Bank downgrade, and 'Kalla Fakta' TV exposé about problem gamblers. Now trades at P/E 10. Significant concerns: Turkey revenue via partner, failed UK acquisition, fired CEO, potential license loss in Netherlands with smart money short sellers maintaining positions. Debate about gaming regulation and personal responsibility. Could be buying opportunity like previous 25% drop on warning, or fundamental problems.",
+      "quotes": [
+        {
+          "speaker": "Handelsson",
+          "text": "Jag kollade bara lite snabbt, enligt anlyttningen ska de tjäna 6,50 nästa år. Och den handlades runt 64-65 kronor. Så det är ju P10 för ett bolag. Det låter ju väldigt billigt för den här heta spelsexten",
+          "timestamp": "18:18",
+          "context": "metric"
+        },
+        {
+          "speaker": "Handelsson",
+          "text": "Det som drogs fram i inslaget är ju att den stora andel av deras intäkter och vinst kommer ju från folk som har ett spelberoende. Och att det är deras core customer",
+          "timestamp": "19:04",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "LånWolf",
+          "text": "Det är väldigt mycket smartmoney som är inne och kortar där, men de var ju på EFN-TV där och berättade om sitt shortcase där, för det var ganska länge sedan nu, de har haft rätt ganska länge",
+          "timestamp": "23:19",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host",
+          "text": "Ett shortcase nu var att de hade bråkat så mycket i nederländerna, att de kanske skulle förlora licensen. De har jättemycket intäkter i nederländerna",
+          "timestamp": "23:40",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Daniel",
+          "text": "Det är hela havet stormar känns det som. Jag tycker värderingarna inte tar in är att jag köper inte riktigt att folk spelar i alla olika konjunkturcyklar",
+          "timestamp": "24:22",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "10",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Earnings estimate 6.50 SEK next year",
+          "Price 64-65 SEK",
+          "Down 18% in 3 days"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Very cheap at P/E 10 for hot gaming sector",
+          "Similar dip 25% on previous warning was buying opportunity",
+          "New CEO Pontus seen as stable",
+          "Stock already priced in significant risks"
+        ],
+        "bear_case": [
+          "'Kalla Fakta' exposé about problem gamblers may trigger regulation",
+          "Revenue from Turkey via partner at risk",
+          "Failed UK acquisition",
+          "Potential license loss in Netherlands - major revenue source",
+          "Smart money short sellers maintaining positions",
+          "Increased affiliate costs",
+          "Executive changes create uncertainty"
+        ],
+        "catalysts": [
+          "Upcoming reports from Leo Vegas, Mr Green, Kindred to see if this is sector trend",
+          "Potential gaming regulation from next year",
+          "Q4 results showing if problems continue"
+        ],
+        "risks": [
+          "Regulatory crackdown on Swedish gaming",
+          "License loss in Netherlands",
+          "Further customer churn",
+          "Negative sentiment from media coverage",
+          "Cost increases on affiliates"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Sandvik",
+      "ticker": "SAND",
+      "timestamp_start": "04:12",
+      "timestamp_end": "06:21",
+      "word_count": 350,
+      "speakers": [
+        "Handelsson",
+        "Daniel"
+      ],
+      "primary_speaker": "Handelsson",
+      "discussion_summary": "Sandvik has executed significant turnaround from 80 SEK to 150 SEK. Report had SMT division as only weak point, with organic growth missing. Promised improvement in Q4. Notable concern: 450 million SEK currency effects flagged, which is over 10% of 3.3 billion SEK EBIT. When historically mismanaged companies start performing, it often happens at economic tops - potential warning sign.",
+      "quotes": [
+        {
+          "speaker": "Daniel",
+          "text": "Ja, den kommer ju idag. Och det är ju jävligt otroligt. Då har ju förväntningarna gått upp efter Atlasrapporten",
+          "timestamp": "04:14",
+          "context": "other"
+        },
+        {
+          "speaker": "Handelsson",
+          "text": "Man kan ju konstatera det att de är på god väg i Sandvik och gör ett betydligt mer effektivt bolag. Det var ju bara SMT som gick dåligt egentligt i rapporten",
+          "timestamp": "04:51",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Handelsson",
+          "text": "Sen ska man ju komma ihåg att det var inte längesen när aktien handlas på 80 spänn. Nu är det 150. Ja, de har ju verkligen gjort någon form av turn around",
+          "timestamp": "05:35",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Handelsson",
+          "text": "när sådana där som i regel historiskt sett, du säger inte att de är det nu, men att de historiskt sett har varit ganska missköta bolag jämfört med sina peers. När de börjar prestera så tenderar det att vara på konjunkturtoppar",
+          "timestamp": "05:57",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Handelsson",
+          "text": "Jag tyckte det var intressant att de flaggade för valutaeffekter på 450 miljoner och nu gjorde de ju ett ebit på 3,3 miljarder. Så det är ju över 10 procent i nästa kvartal som försvinner på grund av valutan",
+          "timestamp": "06:01",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "EBIT 3.3 billion SEK",
+        "debt_level": null,
+        "custom": [
+          "Price 80 SEK previously, now 150 SEK",
+          "Currency effects 450 million SEK in next quarter",
+          "SMT division underperforming",
+          "Organic growth missed targets"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Significant turnaround from 80 SEK to 150 SEK",
+          "Becoming much more efficient company",
+          "Only SMT division underperforming",
+          "CEO promised improvement in Q4",
+          "Expectations rose after Atlas Copco report"
+        ],
+        "bear_case": [
+          "Historically mismanaged companies performing at tops may signal peak",
+          "SMT division may be difficult to divest",
+          "Currency effects of 450 million SEK (10%+ of EBIT) in next quarter",
+          "Organic growth not reaching targets"
+        ],
+        "catalysts": [
+          "Q4 results to show if SMT improvement happens",
+          "Continued turnaround progress"
+        ],
+        "risks": [
+          "Economic cycle turning negative",
+          "Currency headwinds if hedging insufficient",
+          "SMT division continues to underperform"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "när sådana där som i regel historiskt sett, du säger inte att de är det nu, men att de historiskt sett har varit ganska missköta bolag jämfört med sina peers. När de börjar prestera så tenderar det att vara på konjunkturtoppar. Så det kanske är ett tecken i tiden att det här är... Ja, nej men att det är en topp helt enkelt",
+      "summary": "When historically mismanaged companies suddenly start performing well, it often coincides with economic cycle tops rather than sustainable turnarounds",
+      "category": "wisdom",
+      "speaker": "Handelsson",
+      "speaker_role": "host",
+      "timestamp": "05:57",
+      "confidence": "high",
+      "tags": [
+        "market timing",
+        "economic cycles",
+        "turnaround investing"
+      ]
+    },
+    {
+      "quote": "Det enda vi vet är att vi inte vet. Och utifrån det så betyder det att vi ska bara vara adaptiva. Och det är det enda edge som människan har framför datorn, det är att vi kan vara betydligt bättre på att adaptera mot...",
+      "summary": "The only certainty is uncertainty - the human advantage over computers is adaptability to changing market conditions",
+      "category": "philosophy",
+      "speaker": "Handelsson",
+      "speaker_role": "host",
+      "timestamp": "31:01",
+      "confidence": "high",
+      "tags": [
+        "adaptability",
+        "trading psychology",
+        "market evolution"
+      ]
+    },
+    {
+      "quote": "Min känsla är att just det här, det blir ju en combo av ETF-erna till exempel, det skapar i min känsla väldigt mycket dumma flöden och då kommer det uppstå väldigt mycket lägen. Och jag agerade kanske på, ja, handlade någon finsk om en vinstvarn idag, hade aktierna i fyra sekunder då",
+      "summary": "ETFs create dumb flows that generate short-term trading opportunities, but these opportunities may disappear as markets become more efficient",
+      "category": "wisdom",
+      "speaker": "Lundgård",
+      "speaker_role": "host",
+      "timestamp": "30:20",
+      "confidence": "medium",
+      "tags": [
+        "ETFs",
+        "market structure",
+        "trading opportunities"
+      ]
+    },
+    {
+      "quote": "Men ändå är det ingen som går ut och fångar kniven. Och det är samma sak med Swedbank som värderingsmässigt, den är jättebillig. Och jämför med andra banker i Europa, den ser jättebillig ut. Men där är ju caset att det ska dölja sig en liten black swan, en liten bajskorv med en smälleri, någonstans i denna balansräkning. Och det är det folk är rädda för",
+      "summary": "Even when assets appear cheap, markets refuse to catch the falling knife due to fear of hidden risks (black swan events) in the balance sheet",
+      "category": "wisdom",
+      "speaker": "Daniel",
+      "speaker_role": "host",
+      "timestamp": "14:58",
+      "confidence": "high",
+      "tags": [
+        "valuation",
+        "risk aversion",
+        "contrarian investing"
+      ]
+    },
+    {
+      "quote": "Jag tror verkligen som Lovoff säger, det här är väldigt konjunkturkänsligt. Jag tror att väldigt många tycker sig ha råd att torska 5k på att det är så. Ja det är snarare det. Folk tycker att de har råd. Utan skillnaden är, lipstick för er går inte ens ut på att du kanske kommer att vinna någonting",
+      "summary": "Gaming is cyclical because people gamble when they feel wealthy during good times - similar to how luxury consumption works but with gambling's added risk",
+      "category": "wisdom",
+      "speaker": "Daniel",
+      "speaker_role": "host",
+      "timestamp": "25:07",
+      "confidence": "medium",
+      "tags": [
+        "cyclical stocks",
+        "consumer behavior",
+        "gaming sector"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Episode 133 discusses Q3 earnings with focus on industrial giants Atlas Copco, Sandvik, Volvo performing well, but warns about property and gaming sector risks. Betsson crashed 18% on 'Kalla Fakta' exposé and earnings miss, now cheap at P/E 10 but significant regulatory and license risks remain. Property sector in turmoil with Oscar Properties profit warning and zero recent sales. Swedbank CEO dismissive of property market concerns despite Riksbank warnings. Discussion on AI trading evolution and ETF flows creating opportunities.",
+  "key_takeaways": [
+    "Gaming sector面临 regulatory risks, Betsson very cheap but smart money maintaining shorts",
+    "Property sector crisis with Oscar Properties selling zero apartments, market avoiding all property exposure",
+    "Industrial giants Atlas Copco and Volvo delivering strong reports, but Sandvik's turnaround may signal economic top",
+    "ETF flows create trading opportunities but edge may disappear over time",
+    "Human advantage in trading is adaptability to changing market conditions"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2017-10-24-7188.txt",
+  "transcript_word_count": 7940,
+  "has_timestamps": true,
+  "model_used": "manual"
+}

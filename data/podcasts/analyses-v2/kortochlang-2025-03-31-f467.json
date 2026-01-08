@@ -1,0 +1,349 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2025-03-31-f467",
+  "podcast_name": "Kort och lång analyspodden",
+  "episode_title": "\"Då är det bear market\"",
+  "episode_number": null,
+  "date": "2025-03-31",
+  "hosts": [
+    "Okänd",
+    "Johan Wendel",
+    "Miska El-Olsson"
+  ],
+  "guests": null,
+  "main_topics": [
+    "Marknadsutsikter",
+    "Trump-tullar",
+    "M&A-aktivitet",
+    "Rapportsäsong"
+  ],
+  "stocks_discussed": [
+    "Fortnox",
+    "Volvo Cars",
+    "Röko"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Fortnox",
+      "ticker": "EKT",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Miska El-Olsson",
+      "speaker_role": "host",
+      "timestamp": "11:18",
+      "reasoning": "EQT bud på 90 SEK (38% premie). Fortnox är ett 'superbolag' med stark historik men värderingen är extremt hög (50x vinst). Budet är intressant men mycket beroende av fortsatta investeringar i produkter och förvärv. Hög multipl visar potential men också utmaningar.",
+      "price_target": "90 SEK",
+      "time_horizon": null,
+      "quote": "Fortnox är ju nästan odiskutabelt ett superbolag. Det är väl en av de aktierna som har gått bäst i Europa, alla mot MET de senaste 10-15 åren. Vi pratar 50 gånger innevarande årsvinst eller något i den stilen.",
+      "sector": "Software",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Volvo Cars",
+      "ticker": "VOLCAR-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Miska El-Olsson",
+      "speaker_role": "host",
+      "timestamp": "15:36",
+      "reasoning": "Extremt låg värdering med EV/EBITDA på 2,3x. Håkan Samuelsson tar över tillfälligt efter Jim Rowan. Risken för tullar men väntningarna är väldigt låga. 'Det är en ganska tacksam värdering att gå in på som vd'. Aktie har presterat bättre än tyska konkurrenter.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "ev-ebit... 2,3. Det är ju en superlåg värdering. Det är en ganska tacksam värdering att gå in på som vd.",
+      "sector": "Automotive",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Tullar är potentiellt katastrofalt",
+      "catalyst_timing": "Ny vd-rekrytering inom 2 år"
+    },
+    {
+      "stock_name": "Röko",
+      "ticker": "ROKO",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Miska El-Olsson",
+      "speaker_role": "host",
+      "timestamp": "18:13",
+      "reasoning": "Hög värdering på 25-30x EV/EBITDA för serieförvärvare med begränsad organisk tillväxt. Finansiella frågetecken kring redovisning. Magnus Dahl rekommenderar sälj. Udda notering utan svenska institutioner. 'Jag har inte köpt aktien själv, jag har inga planer på att köpa den'.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är svårt att förstå varför det ska vara så extremt hög värdering på många av de här bolagen som kanske har väldigt begränsad organisk tillväxt.",
+      "sector": "Conglomerate",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Fortnox",
+      "ticker": "EKT",
+      "timestamp_start": "11:18",
+      "timestamp_end": "13:50",
+      "word_count": 380,
+      "speakers": [
+        "Miska El-Olsson",
+        "Johan Wendel"
+      ],
+      "primary_speaker": "Miska El-Olsson",
+      "discussion_summary": "EQT lägger bud på 90 SEK (38% premie) på Fortnox som beskrivs som ett superbolag med exceptionell historik. Värderingen är extremt hög på 50x vinst. Det saknas vd. EQT kan hjälpa med internationell expansion. Blankar håller fortfarande 3,5% av aktierna.",
+      "quotes": [
+        {
+          "speaker": "Miska El-Olsson",
+          "text": "Fortnox är ju nästan odiskutabelt ett superbolag. Det är väl en av de aktierna som har gått bäst i Europa, alla mot MET de senaste 10-15 åren.",
+          "timestamp": "11:31",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Miska El-Olsson",
+          "text": "Vi pratar 50 gånger innevarande årsvinst eller något i den stilen. Det tyder ju på att de ser en oerhörd potential i det här ändå.",
+          "timestamp": "12:19",
+          "context": "metric"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "De har ingen vd heller och de har inte haft det på länge. Det är lite skumt.",
+          "timestamp": "13:02",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "50x",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Blankandel 3,5%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Superbolag med exceptionell historik",
+          "EQT kan hjälpa med internationell expansion",
+          "Svårt att byta från Fortnox"
+        ],
+        "bear_case": [
+          "Ingen vd på länge",
+          "Extremt hög värdering",
+          "Konkurrens från onoterade roll-ups"
+        ],
+        "catalysts": [
+          "EQT bud på 90 SEK"
+        ],
+        "risks": [
+          "Hög värdering kräver stora investeringar",
+          "Blankar kvar i aktien"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Volvo Cars",
+      "ticker": "VOLCAR-B",
+      "timestamp_start": "14:56",
+      "timestamp_end": "17:52",
+      "word_count": 420,
+      "speakers": [
+        "Miska El-Olsson",
+        "Johan Wendel"
+      ],
+      "primary_speaker": "Miska El-Olsson",
+      "discussion_summary": "Volvo Cars aktie står emot något efter VD-bytet. Jim Rowan får sparken, Håkan Samuelsson tar över tillfälligt max 2 år. Värdering extremt låg på EV/EBITDA 2,3x. Perfekt storm av svag konjunktur, svag elbilssatsning och kinesiskt ägande. Aktien presterar bättre än tyska konkurrenter.",
+      "quotes": [
+        {
+          "speaker": "Miska El-Olsson",
+          "text": "ev-ebit... 2,3. Det är ju en superlåg värdering. Det är en ganska tacksam värdering att gå in på som vd.",
+          "timestamp": "15:36",
+          "context": "metric"
+        },
+        {
+          "speaker": "Miska El-Olsson",
+          "text": "Risken för tullar, för det är ju något som är potentiellt katastrofalt för Volvo Cars just.",
+          "timestamp": "16:08",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan Wendel",
+          "text": "Det är nog en väldigt låg free float och kinesiskt ägande rabatt skulle jag säga mer än Jim Rowan kanske.",
+          "timestamp": "17:25",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "2.3",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Låg free float"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Extremt låg värdering EV/EBITDA 2,3x",
+          "Bättre än tyska konkurrenter",
+          "Håkan Samuelsson har erfarenhet"
+        ],
+        "bear_case": [
+          "Tullar potentiellt katastrofalt",
+          "Kinesiskt ägande rabatt",
+          "Svag elbilssatsning"
+        ],
+        "catalysts": [
+          "Håkan Samuelsson tar över",
+          "Ny vd-rekrytering"
+        ],
+        "risks": [
+          "Tullar",
+          "Svag konjunktur",
+          "Låg free float"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Röko",
+      "ticker": "ROKO",
+      "timestamp_start": "17:52",
+      "timestamp_end": "20:01",
+      "word_count": 340,
+      "speakers": [
+        "Miska El-Olsson",
+        "Johan Wendel"
+      ],
+      "primary_speaker": "Miska El-Olsson",
+      "discussion_summary": "Magnus Dahl rekommenderar sälj Röko. Värdering hög på 25-30x EV/EBITDA för serieförvärvare med begränsad organisk tillväxt. Finansiella frågetecken. Udda notering på 2024 kr utan svenska institutioner. Inga av talarna har köpt aktien.",
+      "quotes": [
+        {
+          "speaker": "Miska El-Olsson",
+          "text": "Det är väl 25-30 gånger rörelsesultatet för de här Lifco och Röco är väl där också nu.",
+          "timestamp": "18:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Miska El-Olsson",
+          "text": "Det är svårt att förstå varför det ska vara så extremt hög värdering på många av de här bolagen som kanske har väldigt begränsad organisk tillväxt.",
+          "timestamp": "19:00",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Miska El-Olsson",
+          "text": "Jag har inte köpt aktien själv, jag har inga planer på att köpa den och jag tycker det säger väl allt.",
+          "timestamp": "19:56",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "25-30",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Begränsad",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Noteringskurs 2024 kr"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kända finansproffs involverade"
+        ],
+        "bear_case": [
+          "Extremt hög värdering",
+          "Begränsad organisk tillväxt",
+          "Udda notering"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Finansiella frågetecken",
+          "Hög värdering"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Att det är väldigt enkelt att ha massa sådana kontraindikatorer. Men så lätt är det ju sällan liksom. Man glömmer också ofta att... Någon som kanske säger någonting offentligt om en aktie, den kan ju nästa andetag till sin kompis säga nej men jag tycker egentligen någonting helt annat.",
+      "summary": "Kontraindikatorer (gå emot blankar/förvaltare) är ofta missvisande eftersom personer kan ändra åsikt eller säga olika saker i olika sammanhang.",
+      "category": "wisdom",
+      "speaker": "Miska El-Olsson",
+      "speaker_role": "host",
+      "timestamp": "08:17",
+      "confidence": "high",
+      "tags": [
+        "kontraindikatorer",
+        "marknadssentiment"
+      ]
+    },
+    {
+      "quote": "Jag tror att man gör sig själv en orörd okäns om man försöker göra det väldigt lätt för sig. Att man lurar sig själv genom att hitta på de här små historierna eller att man dras med eller att man tänker inte riktigt klart.",
+      "summary": "Det är lätt att lura sig själv genom att förlita sig på enkla kontraindikatorer istället för att göra egen analys.",
+      "category": "philosophy",
+      "speaker": "Miska El-Olsson",
+      "speaker_role": "host",
+      "timestamp": "09:24",
+      "confidence": "high",
+      "tags": [
+        "investeringsfilosofi",
+        "egen analys"
+      ]
+    },
+    {
+      "quote": "Och i de lägen alltså, då känner man ju själv att man har maximalt ont i magen, man är superorod. Men i de lägen måste man bara insätta att just nu har det gått väldigt, väldigt dåligt. Så det är inte en kontraindikator på det sättet, för det alla förstår det här, men det är ju bara att försöka behålla lugnet i en sån situation.",
+      "summary": "Under marknadskrascher när börsen fallit drastiskt är det inte en kontraindikator att köpa - det handlar om att behålla lugnet.",
+      "category": "wisdom",
+      "speaker": "Miska El-Olsson",
+      "speaker_role": "host",
+      "timestamp": "10:28",
+      "confidence": "high",
+      "tags": [
+        "marknadskrasch",
+        "psykologi",
+        "motståndskraft"
+      ]
+    },
+    {
+      "quote": "Om det är så att han verkligen kör en 20-procentig tullavgift på allt det här så kommer det innebära 600 miljarder. Om vi sätter den skattehöjningen i perspektiv så är det den tredje största skattehöjningen som USA har genomfört i sin historia.",
+      "summary": "Trumps föreslagna 20% tullar motsvarar 600 miljarder dollar per år, vilket skulle vara den tredje största skattehöjningen i USA:s historia.",
+      "category": "wisdom",
+      "speaker": "Johan Wendel",
+      "speaker_role": "host",
+      "timestamp": "05:03",
+      "confidence": "high",
+      "tags": [
+        "tullar",
+        "makro",
+        "Trump"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar en orolig marknad medTrump-tullar som stor risk på 'Liberation Day'. Fortnox får bud på 90 SEK, Volvo Cars byter VD med extremt låg värdering, och Röko rekommenderas säljas av Magnus Dahl. Short-term optimism möts av long-term osäkerhet.",
+  "key_takeaways": [
+    "Fortnox bud på 90 SEK men extremt hög värdering på 50x",
+    "Volvo Cars EV/EBITDA 2.3x - extremt lågt",
+    "Röko har hög värdering 25-30x och rekommenderas säljas",
+    "Trumps 20% tullar = 600 miljarder dollar per år",
+    "Rapportsäsongen och makrodata i fokus"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2025-03-31-f467.txt",
+  "transcript_word_count": 3939,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

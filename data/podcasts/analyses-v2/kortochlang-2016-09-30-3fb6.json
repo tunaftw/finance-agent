@@ -1,0 +1,318 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2016-09-30-3fb6",
+  "podcast_name": "Analyspodden från Dagens Industri",
+  "episode_title": "Övergripande god stämning på börsen i Sverige",
+  "episode_number": null,
+  "date": "2016-09-30",
+  "hosts": [
+    "Martin Blomgren",
+    "Magnus Dahlgren"
+  ],
+  "guests": [],
+  "main_topics": [
+    "H&M rapport",
+    "Deutsche Bank risk",
+    "Haldex budstrid",
+    "börsstämning"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "Deutsche Bank",
+    "Haldex",
+    "Engelska Skolan",
+    "Scandic",
+    "Residoro",
+    "Atelia",
+    "ABB",
+    "MQ"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Martin Blomgren eller Magnus Dahlgren",
+      "speaker_role": "host",
+      "timestamp": "[12:57]",
+      "reasoning": "H&M har haft ett tufft år med motvind från valuta, väder och investeringar. Nu är kursen nedjusterad och P/E på ca 14.5x (skuldjusterat), vilket bara är marginellt över genomsnittet på börsen. Analytikerna prognosticerar 15% vinsttillväxt nästa år, med 3-4% försäljningstillväxt och marginalexpansion. Investeringsnivån väntas klappa av nästa år. Med valutan och dollarn i ryggen plus frukter från satsningarna kan det bli riktigt bra, men även utan det optimistiska scenariot är det köpvärd.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Så kan det bli riktigt bra men även utan det där optimist scenariot så skulle jag lätt våga köpa nu.",
+      "sector": "Klädbutik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Haldex",
+      "ticker": "HLDX",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Martin Blomgren eller Magnus Dahlgren",
+      "speaker_role": "host",
+      "timestamp": "[14:12]",
+      "reasoning": "Haldex befinner sig i en budstrid med två bud: 120 kr från ZF (inte kommer att höja enligt dem) och 125 kr från Knorr Bremse. ZF:s bud löper ut måndag och om de inte når 50% försvinner det. Kvar blir bara 125 kr-budet som kan fastna i myndigheternas kvarlar. Risken för att 120-kronorsbudet försvinner gör det lämpligt att sälja på börsen.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Jag tyckte att man skulle sälja innan, när den lå över det översta budet.",
+      "sector": "Autodelar",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Ner under 125 kr om ZF-budet försvinner",
+      "catalyst_timing": "Måndag budutgång"
+    },
+    {
+      "stock_name": "Telia",
+      "ticker": "TELIA-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Martin Blomgren eller Magnus Dahlgren",
+      "speaker_role": "host",
+      "timestamp": "[18:15]",
+      "reasoning": "Telia har fått ett bud på 800 miljoner dollar för sin andel i Fintur (telekomverksamheter i fyra länder i Eurasien, ägt med Turkcell). Detta skulle kunna göra Telia till ägare bara i Turkcell. Affären skulle kunna förbättra utdelningskapaciteten i Turkcell avsevärt om ägarna kan komma överens. Väntar på försäljning.",
+      "price_target": null,
+      "time_horizon": "oklar",
+      "quote": "Så jag håller utkik efter en försäljning.",
+      "sector": "Telekom",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Försäljning Fintur"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "[05:27]",
+      "timestamp_end": "[13:34]",
+      "word_count": 1300,
+      "speakers": [
+        "Martin Blomgren",
+        "Magnus Dahlgren"
+      ],
+      "primary_speaker": "Okänd specifik",
+      "discussion_summary": "H&M presenterade Q3-rapport med resultat i linje med förväntningar men septemberförsäljningen visade bara 1% tillväxt (negativt i jämförbara butiker). Lagernivåer har stigit kraftigt och det varma vädret i september ökar risken för reor. Analytiker har sänkt prognoser till 13-13.5% marginal och 15% vinsttillväxt nästa år. USA expanderar snabbt och kan bli största marknad. Ena talaren rekommenderar köp efter nedgången då värderingen nu är attraktiv och investeringar väntas klappa av.",
+      "quotes": [
+        {
+          "speaker": "Okänd",
+          "text": "Men nu har man kalibrerat det till förväntningarna för det här kvartalet, men de släppte samtidigt siffran för septemberförsäljningen, som pekar på att det är en tillväxt på 1% bara. Då ska man komma ihåg att H&M öppnar massa nya butiker, så skulle man räkna i jämförbart butiksbestånd så är det en nedgång i försäljningen.",
+          "timestamp": "[06:02]",
+          "context": "other"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "De sitter ju med ett jättelag och förmodligen och hoppas att det ska bli svinkalt nu i oktober, blir det inte det så måste de skicka ut alla höst och vinterkläder väldigt snabbt och med kampanjer.",
+          "timestamp": "[06:02]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "En ljuspunkt i rapporten är att de här stora satsningarna på online IT, nya koncept, som jag tryckt ner i marginalen, där får man en tjänst av att Kajun Persson flaggar för att de kommer att börja klinga av nästa år.",
+          "timestamp": "[07:52]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "Om JP Morgan räknar med att det läggs ner 3000 retailbutiker i kommande 18 månader för att konsumenterna expanderar så mycket på internet helt enkelt.",
+          "timestamp": "[08:24]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "Det är ingen som tror att de ska upp till de här 22 procenten längre, utan det ligger ju en 13-13,5 procent i snittprognoserna.",
+          "timestamp": "[08:57]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "Efter den här nedgången i aktien så skulle jag nog inte vara rädd för att köpa faktiskt.",
+          "timestamp": "[10:56]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "Jag justerar ju det förr och tittar på rörelseresultatet i fallande till skuldjusterade börsvärdet då. Alltså EBITDA på finansspråk. Då ser man ju att H&M är bara marginellt högre än börsen då, värderat.",
+          "timestamp": "[10:56]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "Det pekar väl, anonytyckarnas prognos pekar väl på en vinsttillväxt på 15 procent nästa år. Och det tyckte jag kändes ganska rimligt.",
+          "timestamp": "[12:38]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "Så kan det bli riktigt bra men även utan det där optimist scenariot så skulle jag lätt våga köpa nu.",
+          "timestamp": "[12:57]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "Bottenkänning i H&M tror vi, eller hur?",
+          "timestamp": "[13:21]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "~14.5x (EBITDA-adjusted)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "3-4%",
+        "revenue_growth": "1% sep, 15% nästa år prognos",
+        "margin": "13-13.5% prognos, var 22%",
+        "debt_level": "Net cash, inga räntebärande lån",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Investeringsnivåer väntas klappa av nästa år",
+          "Valuta- och dollareffekt kan vända",
+          "Värderingen bara marginellt över börsen",
+          "USA-expansion kan lyfta",
+          "Teknologiska satsningar börjar ge frukter"
+        ],
+        "bear_case": [
+          "Strukturella problem i USA med online- och lågpriskonkurrens",
+          "Lagernivåer har stigit kraftigt",
+          "Negativt jämförbar butiksförsäljning",
+          "Marginerna kan pressas av reor",
+          "USA kan vara ledande indikator för andra marknader"
+        ],
+        "catalysts": [
+          "Väderomslag i oktober/november",
+          "Valutautveckling",
+          "Q4-rapport",
+          "Q1-rapport nästa år (värde och valuta tailwind)"
+        ],
+        "risks": [
+          "Strukturell omstrukturering av detaljhandeln i USA",
+          "Fortsatta höga investeringar",
+          "Amazon och lågpriskonkurrenter",
+          "Valutarisker"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Haldex",
+      "ticker": "HLDX",
+      "timestamp_start": "[13:34]",
+      "timestamp_end": "[14:36]",
+      "word_count": 400,
+      "speakers": [
+        "Martin Blomgren",
+        "Magnus Dahlgren"
+      ],
+      "primary_speaker": "Okänd specifik",
+      "discussion_summary": "Haldex befinner sig i en budstrid där ZF har bud på 120 kr/aktie och Knorr Bremse har bud på 125 kr. ZF har deklarerat att de inte kommer att höja budet och deras bud löper ut måndag - om de inte når 50% acceptans försvinner budet. Marknaden har reagerat och aktien har fallit under 125 kr. Om 120-kronorsbudet försvinner återstår bara 125 kr-budet som kan fastna i myndighetsgodkännande. Rekommendation att sälja på börsen.",
+      "quotes": [
+        {
+          "speaker": "Okänd",
+          "text": "Den här veckan är att ZF som ligger på det lägre budet, 120 kronor på aktie, har sagt att de inte kommer att höja, de kommer inte att ändra villkoren. Deras budlöp utomgår måndag, har de inte 50 procent då, så blir det inget från deras sida.",
+          "timestamp": "[13:38]",
+          "context": "other"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "Så fort de sa det så sjönk aktien ner under 125 kronor från Knorr Bamse, som många hade hoppats skulle komma ytterligare en höjning, men nu börjar det bli lite ikläm här.",
+          "timestamp": "[13:38]",
+          "context": "other"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "Jag tyckte att man skulle sälja innan, när den lå över det översta budet.",
+          "timestamp": "[14:12]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Okänd",
+          "text": "Men om nu 120 kronor budet försvinner, 125 ligger kvar, men är ett bud där man kan behöva vänta länge och det kan fastna i myndigheternas kvarnar, så är det lite lörd hur man ska göra.",
+          "timestamp": "[14:12]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Bud 125 kr från Knorr Bremse",
+          "Bud 120 kr från ZF (kan försvinna)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "125 kr bud från Knorr Bremse kvarstår"
+        ],
+        "bear_case": [
+          "ZF:s 120 kr bud kan försvinna måndag",
+          "125 kr bud kan fastna i myndighetstillstånd",
+          "Tidshorisoson oklar om bud fastnar"
+        ],
+        "catalysts": [
+          "Måndag - ZF budutgång"
+        ],
+        "risks": [
+          "Inga andra bud om 120 kr försvinner",
+          "Myndighetstillstånd kan ta lång tid"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag tycker man tittar ofta på pgetal på Oa, men det blir ju lite snett att jämföra det med att de har en stor nettokassa och inga räntebärandelån. Så jag justerar ju det förr och tittar på rörelseresultatet i fallande till skuldjusterade börsvärdet då.",
+      "summary": "Vid värdering av bolag med stor nettokassa bör man justera P/E för nettokassan istället för att bara titta på vanligt P/E-tal.",
+      "category": "philosophy",
+      "speaker": "Martin Blomgren eller Magnus Dahlgren",
+      "speaker_role": "host",
+      "timestamp": "[10:56]",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "P/E",
+        "nettokassa",
+        "finansiella nyckeltal"
+      ]
+    },
+    {
+      "quote": "Så att allt det här bruset med värde och valuta kanske har någonsin kul med nu. Så att efter den här nedgången i aktien så skulle jag nog inte vara rädd för att köpa faktiskt.",
+      "summary": "När negativa faktorer (som valuta och branschproblem) har prissats in och aktien fallit kan det vara tid att agera snarare än att vara rädd.",
+      "category": "wisdom",
+      "speaker": "Martin Blomgren eller Magnus Dahlgren",
+      "speaker_role": "host",
+      "timestamp": "[10:38]",
+      "confidence": "medium",
+      "tags": [
+        "timing",
+        "risk",
+        "marknadssentiment"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Det avsnittet diskuterades huvudsakligen H&M:s tuffa Q3-rapport med svag septemberförsäljning och höga lager. Trots utmaningarna rekommenderades köp efter nedgången då värderingen nu anses attraktiv och investeringar väntas klappa av. Haldex budstrid analyserades med rekommendation att sälja innan ZF:s 120 kr-bud löper ut. Macro-risker från Deutsche Bank och god stämning på börsen med starka IPO:s och positiva sparflöden diskuterades också.",
+  "key_takeaways": [
+    "H&M rekommenderas köpa efter nedgången på grund av attraktiv värdering och väntande marginalåterhämtning",
+    "Haldex: sälj innan ZF:s 120 kr-bud löper ut måndag då risken finns att det försvinner",
+    "Börsstämningen är riskaptit med starka introduktioner men Deutsche Bank utgör risk för marknaden",
+    "H&M:s utmaningar: väder, valuta, höga investeringar och USA-konkurrens, men katalysatorer väntar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2016-09-30-3fb6.txt",
+  "transcript_word_count": 4059,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

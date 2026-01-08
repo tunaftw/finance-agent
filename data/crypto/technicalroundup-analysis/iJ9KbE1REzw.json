@@ -1,0 +1,121 @@
+{
+  "source_id": "iJ9KbE1REzw",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-03-22",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Discussing the monthly range structure and key resistance level at 43-47k that has been tested multiple times",
+      "quote": "We're still dealing within the monthly range and we are just testing one of the key levels within that range so highest close the resistance at 58k or thereabouts lowest close the support at 35 to 37k",
+      "price_levels": [
+        "$35-37k",
+        "$43-47k",
+        "$58k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Analyzing the daily downtrend characterized by bearish market structure with lower lows and lower highs",
+      "quote": "This downtrend has been characterized by rather clear bearish market structure not only just number go down but more importantly the market essentially just making lower lows and lower highs the whole way",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Potential bullish scenario if the 43-47k level breaks out, targeting mid-50s range",
+      "quote": "If this is a real range breakout of this entire consolidation it should go pretty far like at least somewhere in the 50s right",
+      "price_levels": [
+        "$50s",
+        "$55k"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Worst case scenario if the monthly range breaks down completely",
+      "quote": "If the range breaks down we have to start looking at much older levels between 14 and 20k",
+      "price_levels": [
+        "$14-20k"
+      ],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Optimistic about sideways consolidation scenario where BTC holds 30k while markets correct",
+      "quote": "Maybe this just turns into like an eternal crab chop range which from a high time frame point of view would be quite cool for bitcoin right you just hold 30k while the world melts and then when the world stops melting number go up",
+      "price_levels": [
+        "$30k"
+      ],
+      "timeframe": "long-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$35-37k",
+        "$43-47k",
+        "$58k",
+        "$50s"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin is stuck in a monthly range between $35-37k (support) and $58k (resistance) with the critical midpoint at $43-47k",
+    "The $43-47k level has been tested 3-4 times already, making each subsequent test weaker and more likely to break",
+    "Range breakouts tend to be violent events due to accumulated open interest and forced liquidations",
+    "Best strategy is to wait for the level to break before entering, rather than betting on which direction it will break",
+    "A failed breakout from $43-47k would provide an excellent short entry with clear invalidation at the breakout high",
+    "If the range breaks to the downside, the next significant support levels are between $14-20k"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$43-47k breakout",
+      "target": "$50s",
+      "stop": "Below $43-47k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "Failed breakout above $43-47k",
+      "target": "Range low ($35-37k)",
+      "stop": "Above breakout high",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes Bitcoin's consolidation within a monthly range of $35-37k to $58k, focusing on the critical $43-47k midpoint that has been tested multiple times. He recommends waiting for either a successful breakout targeting the $50s or a failed breakout that would provide a clear short opportunity. The current downtrend structure remains bearish with lower lows and highs, but a break of the midpoint could signal the first significant structural shift.",
+  "transcript_word_count": 6099,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:15:56.896044"
+}

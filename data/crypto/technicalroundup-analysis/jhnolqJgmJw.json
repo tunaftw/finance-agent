@@ -1,0 +1,69 @@
+{
+  "source_id": "jhnolqJgmJw",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-03-14",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Market analysis showing BTC range-bound between monthly support and resistance",
+      "quote": "same range is essentially intact where the bottom of the range at low to mid 30s and then you've got the top of the range at the low to mid 40s. As long as we're trading there not many interesting conclusions will be reached",
+      "price_levels": [
+        "$30,000-$35,000",
+        "$40,000-$45,000",
+        "$60,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$30,000-$35,000",
+        "$40,000-$45,000",
+        "$60,000"
+      ],
+      "ETH": null
+    }
+  },
+  "key_insights": [
+    "BTC is trading in a range between $30,000-$40,000 with support at low-to-mid 30s and resistance at low-to-mid 40s",
+    "Market has been choppy with no significant directional movement, trading primarily in the middle of the range rather than at boundaries",
+    "Understanding deviation patterns is crucial for risk-defined entries at range boundaries",
+    "Historical example: BTC showed deviation from $60,000 level before trading back within range",
+    "Patience required in choppy conditions - better to wait for clear setups rather than forcing trades at range midpoints"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "After deviation at support (low-to-mid 30s)",
+      "target": "range midpoint or resistance ($40,000-$45,000)",
+      "stop": "below deviation low",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "After deviation at resistance (low-to-mid 40s)",
+      "target": "range midpoint or support ($30,000-$35,000)",
+      "stop": "above deviation high",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC remains range-bound between $30,000-$40,000 with support in the low-to-mid 30s and resistance in the low-to-mid 40s. The market is choppy with most trading occurring in the middle of the range rather than at boundaries. Cred explains deviation trading concepts, emphasizing that deviations (failed breakouts) offer risk-defined entry opportunities with natural stop loss levels at the deviation high/low. Historical example showed BTC deviating from $60,000 level before trading back within range.",
+  "transcript_word_count": 5932,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:21:54.735581"
+}

@@ -1,0 +1,781 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2022-11-03-17aa",
+  "podcast_name": "Market Makers",
+  "episode_title": "#253 Google Och Meta Dödsdömda?",
+  "episode_number": 253,
+  "date": "2022-11-03",
+  "hosts": [
+    "Niklas",
+    "Axie"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Q3 rapporter",
+    "Techbolag",
+    "Google",
+    "Meta",
+    "Apple",
+    "Microsoft",
+    "Amazon",
+    "Metaversumet",
+    "Räntor",
+    "Inflation"
+  ],
+  "stocks_discussed": [
+    "Note",
+    "Nelly",
+    "Mag Interactive",
+    "G5",
+    "Google",
+    "Meta",
+    "Apple",
+    "Microsoft",
+    "Amazon"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Mag Interactive",
+      "ticker": "MAGI-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "09:10",
+      "reasoning": "Fånger mycket bättre respons på annonsering. Lägger in en krona får tillbaka två kronor i ROI. Mindre efterfrågan på annonser eftersom VC-finansierade konkurrenter måste dra ner på utgifter. Speculerar att UA-kostnadsökningen beror på bättre effektivitet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Han spekulerade att det berodde på att riskkapitalfinansierade, olönsamma konkurrenterna de kan inte lägga lika mycket pengar på annonsering längre för att de inte har lika bra tillgång till kapital.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": "Värden äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Google",
+      "ticker": "GOOGL",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "24:13",
+      "reasoning": "Börjar förlora positionen som sökmotor. Användare lägger till Reddit i sökningar för att hitta bättre resultat. För många annonser. AI-genererat och SEO-optimerat innehåll gör sökresultaten sämre. Risk att tappa marknadsandelar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man lägger till exempel till Reddit på en sökning för att hitta rätt grejer, hitta trådar från Reddit. Man vill slippa alla annonser, man vill slippa allt AI-genererat innehåll.",
+      "sector": "Tech",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Tappa pricing power om monopol bryts",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Meta",
+      "ticker": "META",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "38:58",
+      "reasoning": "Zuckerberg gör ett superhögriskbett på metaversumet. Fritt kassaflöde från 4,5 miljarder dollar till under 200 miljoner dollar. Kostnadskontroll helt borta. Apple IDFA förstör affärsmodellen. Värdering ser billig ut men kassaflödet försvinner.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Skulle man skära bort hela den här meta-grejen, om Zuckerberg i morgon går ut och säger att vi slopar den, då kan de sparka om det är väl 10 eller 20 000 pers. De får bort hela investeringskostnaden.",
+      "sector": "Tech",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Skenande kostnader äter upp allt kassaflöde",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "42:18",
+      "reasoning": "Otroligt stabil rapport. Håller upp hela techsektorn. Omsättning upp 8%, EPS upp 4%. Mac upp 25% trots svag PC-marknad. AirPods starkt. Köper tillbaka aktier aggressivt. Positivt med services och annonsverksamhet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man kan utan tvekan säga att Apple själv håller upp i hela techsektorn just nu. Det var nog inte många som trodde på den här kanonrapporten.",
+      "sector": "Tech",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "45:45",
+      "reasoning": "Stabil rapport. Omsättning upp 11%. Azure växte över 40%. Dynamics upp över 30%. LinkedIn stabil. Kostnadskontroll bra. Gammalt bolag som fortsätter leverera.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Cloud-delen går extremt stark. Delt deras Azure-delen som växte över 40%.",
+      "sector": "Tech",
+      "market": "us",
+      "position_context": "Värden äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "46:59",
+      "reasoning": "AWS bara växte 27%, ett otroligt slag mot aktieägaren. Fallande AWS-marginaler. Negativ EBIT från retail. Vinsten från Rivian drog upp siffrorna. Energikostnader och bränsle påverkar rejält.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "AWS bara växte 27% här, vilket är ett otroligt slag mot aktieägaren egentligen, för det har varit hela storyn är att du köper AWS.",
+      "sector": "E-commerce/Cloud",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Negativ retail EBIT, fallande AWS marginaler",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "G5",
+      "ticker": "G5",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "09:57",
+      "reasoning": "Kan tänkas gynnas av minskad konkurrens i annonsering precis som Mag Interactive. VC-finansierade olönsamma konkurrenter kan inte längre spendera lika mycket på annonser.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här kan man nog kunna lära koll på lite efter i G5 också kan jag tänka mig som ett annat mobilspecifiktag.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": "Värden äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Google",
+      "ticker": "GOOGL",
+      "timestamp_start": "19:23",
+      "timestamp_end": "34:00",
+      "word_count": 800,
+      "speakers": [
+        "Värd",
+        "Axie"
+      ],
+      "primary_speaker": "Värd",
+      "discussion_summary": "Diskuterar Google som en potentiell döende plattform. Rapporten var okej men jämförelsetalen tuffa (6% vs 41% förra året). Fokuserar på risken att förlora monopolpositionen, sämre sökresultat med för många annonser och AI-genererat innehåll. Användare flyttar till Reddit, Instagram, TikTok för att söka. Cloud drar inga pengar. R&D och S&M kostnader skenar. Trend mot mer specialiserade söktjänster istället för breda.",
+      "quotes": [
+        {
+          "speaker": "Värd",
+          "text": "Vi såg i det som jag sa, till exempel Mag Interactive lyfte det, att de får mycket mer för varje annons de lägger in nu. Det tyder också på att annonseringen minskar helt enkelt.",
+          "timestamp": "20:24",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Jag har faktiskt i min vildaste fantasi inte trott att Google tjänar pengar på cloud. Amazon har ju använt av VS, deras cloudtjänstid, det har varit deras kassakod",
+          "timestamp": "21:31",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Google blir alltmer ointressant som sökmotor. Att det är fler och fler som väljer andra saker, eller framförallt kanske mer specificerar sina sökningar. Man lägger till exempel till Reddit på en sökning",
+          "timestamp": "24:13",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Tittar man på specifika demografier ser vi också till exempel yngre. De använder främst TikTok idag som sökmotor. En ganska skrämmande tanke kanske, men de flyttar sig bort från Google",
+          "timestamp": "29:13",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Det som är risken om konsumtionsmönstren här helt förändras. Nu säger jag inte att det kommer hända 100%, men någonting man borde ha i bakhuvudet tror jag.",
+          "timestamp": "34:00",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "6%",
+        "margin": "EBIT-marginal 25%, ned 7% enheter",
+        "debt_level": null,
+        "custom": [
+          "Sök intäkter uppe 4%",
+          "R&D upp ~30%",
+          "S&M upp ~30%",
+          "Stock based compensation 14 miljarder dollar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Monopol position ger pricing power",
+          "Cloud kan vända till lönsamhet",
+          "Tillväxt kan återvända"
+        ],
+        "bear_case": [
+          "Förlorar monopolposition -> tappar pricing power",
+          "Konkurrens från TikTok, Reddit, Instagram för specifika sökningar",
+          "Sökresultat för dåliga med för många annonser och SEO-innehåll",
+          "Cloud lönsamhet oklar"
+        ],
+        "catalysts": [
+          "Tekniska förbättringar av sök",
+          "Ny konkurrens från sociala plattformar",
+          "Återgång till stark annonsmarknad"
+        ],
+        "risks": [
+          "Strukturell förändring av sökbeteende",
+          "Tapp av marknadsandelar i lönsamma annonskategorier",
+          "Recession drar annonsintäkter"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Meta",
+      "ticker": "META",
+      "timestamp_start": "34:00",
+      "timestamp_end": "41:53",
+      "word_count": 900,
+      "speakers": [
+        "Värd",
+        "Axie"
+      ],
+      "primary_speaker": "Värd",
+      "discussion_summary": "Meta är i en perfect storm. Zuckerberg har gått all in på metaversumet som kostar enormt och genererar inga intäkter. Fritt kassaflöde från 4,5 miljarder till under 200 miljarder dollar på ett kvartal. Apple IDFA-förändring förstör tracking och annonsmarginaler. TikTok äter användare. Kostnadskontroll helt borta. Värdering ser billig ut (<10x P/E) men kassaflödet försvinner i metaversuminvesteringar. Återköp gjordes på 250-300 dollar, nu aktien på mycket lägre nivåer.",
+      "quotes": [
+        {
+          "speaker": "Värd",
+          "text": "Jag har ingen koll, jag vet bara att för några avsikt sen sa jag Går det ner 10% till då köper jag. Det var innan jag läste nu var det den senaste rapporten och jag har inte köpt",
+          "timestamp": "34:11",
+          "context": "position_disclosure"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Zakk har ju gått all in, han är bettarfarmen som man brukar säga i USA på Metaversumet. Återigen här med skenande kostnadskontroll",
+          "timestamp": "34:37",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Det här kvartalet gick dess fria kassaflöde ifrån 4,5 miljarder dollar till mindre än 200 miljoner dollar. Det är minst 90 procent för fritt kassaflöde",
+          "timestamp": "34:57",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Apple har bara på ett från en dag till en annan vänt på det, och sagt att nej, du måste aktivt välja att bli spårad. Vilket har liksom varit en totalbomba nu helt enkelt Facebooks affärsmodell",
+          "timestamp": "36:05",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Skulle man skära bort hela den här meta-grejen, om Zuckerberg i morgon går ut och säger att vi slopar den, då kan de sparka om det är väl 10 eller 20 000 pers. De får bort hela investeringskostnaden. Helt plötsligt blir det en av de billigaste aktierna på börsen just då",
+          "timestamp": "38:58",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Köpade tillbaka 7 procent av bolaget för ett snittkurs på 250-300 dollar. Hade man lagt det här på dagens kurs, dagens market cap, som ligger på typ 250 miljarder dollar, då hade man kunnat köpa tillbaka över 40 procent av bolaget",
+          "timestamp": "40:00",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Så jag tycker personligen att det här ser särskilt attraktivt ut ur en risk reward synvinkel jämfört med andra bets. När man också tar hänsyn till att det här är ett av världens största bolag, ett av världens mest genomlysta bolag",
+          "timestamp": "41:53",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "<10 på rullande 12",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Ner några procent",
+        "margin": "EBIT ner nästan 20%, EPS ner 50%",
+        "debt_level": null,
+        "custom": [
+          "Fritt kassaflöde: 4,5 miljarder -> 200 miljoner dollar",
+          "Stock based compensation upp 30%",
+          "Personal uppe 30%",
+          "CapEx dubbelt mot förra året",
+          "90 000 anställda"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Värdering extremt billig på under 10x P/E",
+          "Om metaversuminvesteringar avslutas blir aktien superbillig",
+          "Fortsatt starka intäkter från Facebook och Instagram"
+        ],
+        "bear_case": [
+          "Zuckerberg vägrar sluta investera i metaversumet",
+          "Apple IDFA permanent skadar annonsintäkter",
+          "TikTok äter användare",
+          "Inflation och recession minskar annonsbudgetar",
+          "Kostnadskontroll helt borta"
+        ],
+        "catalysts": [
+          "Zuckerberg kan ändra strategi",
+          "Metaversumet kan lyckas",
+          "Kostnadsreduktioner"
+        ],
+        "risks": [
+          "Metaversuminvesteringar kan aldrig löna sig",
+          "Annonsmodellen förstörs av Apple förändringar",
+          "Kapitalallokering historiskt dålig (köpte tillbaka på top)"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "timestamp_start": "41:53",
+      "timestamp_end": "46:13",
+      "word_count": 350,
+      "speakers": [
+        "Värd",
+        "Axie"
+      ],
+      "primary_speaker": "Värd",
+      "discussion_summary": "Apple levererar en otroligt stabil rapport som håller upp hela techsektorn. Omsättning upp 8%, EPS upp 4%. Mac upp 25% trots svag PC-marknad generellt. AirPods starkt. Buffett har troat på bolaget och outperformat. Köper tillbaka aggressivt (över 500 miljarder på 10 år). Pivot till annonsverksamhet med privacy som argument för att locka användare från andra plattformar. App Store genererade 4 miljarder 2021, bara början.",
+      "quotes": [
+        {
+          "speaker": "Värd",
+          "text": "Men jag tycker att det var en otroligt stabil rapport. Man kan utan tvekan säga att Apple själv håller upp i hela techsektorn just nu",
+          "timestamp": "42:18",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Omsättningen uppe 8% year on year, EPS uppe 4%. Framförallt såg man otroligt bra Mac-siffror upp 25% vilket ska jämföras med PC som hade ännu ett vikande kvartal",
+          "timestamp": "42:41",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Buffett har ju visat sig vara bra att ligga likvid där marknaden har gått som den har gått. Det enda han har ägt in i princip är ju Apple som ju faktiskt är upp också",
+          "timestamp": "43:58",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Största anledningen varför de stängde hela den här IDFA-grejen där de fuckade över Snapchat och Facebook och Google. Det var ju själva för att kunna lansera lite mer ads",
+          "timestamp": "45:04",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Värd",
+          "text": "2021 drog man in cirka 4 miljarder dollar på App Store. Och det här är ju antagligen bara början",
+          "timestamp": "45:32",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "8%",
+        "margin": "EPS uppe 4%",
+        "debt_level": null,
+        "custom": [
+          "Mac upp 25%",
+          "Köpt tillbaka över 500 miljarder dollar på 10 år",
+          "App Store intäkter: 4 miljarder dollar 2021"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabil håller upp techsektorn",
+          "Aggressiva återköp",
+          "Pivot till services och annonser med hög marginal",
+          "Privacy-positionering lockar användare från konkurrenter",
+          "Buffett har rätt historiskt"
+        ],
+        "bear_case": [
+          "Premium-segment känsligt för annonser",
+          "Konkurrens inom alla segment",
+          "Beroende av iPhone för majoritet av intäkter"
+        ],
+        "catalysts": [
+          "Fler annonseringsplatser (News, Maps, TV, etc)",
+          "Eventuell egen sökmotor"
+        ],
+        "risks": [
+          "Premium-användare kan reagera negativt på annonser",
+          "Beroende av hårdvara"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "timestamp_start": "45:45",
+      "timestamp_end": "46:59",
+      "word_count": 200,
+      "speakers": [
+        "Värd",
+        "Axie"
+      ],
+      "primary_speaker": "Värd",
+      "discussion_summary": "Tråkig men stabil rapport. Omsättning upp 11%. Azure växte över 40%. Dynamics upp över 30%. LinkedIn fortsätter vara stabil växelteknare. PC och gaming visar slowdown men business och enterprise går starkt. God kostnadskontroll. Gammalt bolag som fortsätter leverera.",
+      "quotes": [
+        {
+          "speaker": "Värd",
+          "text": "Kanske den tråkigaste rapporten av alla de här. Därför kanske den vi ägnar minst tid också. Det var en allmänt stabil rapport. Jag växte 11% sen förra året i omsättningen",
+          "timestamp": "45:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Cloud-delen går extremt stark. Delt deras Azure-delen som växte över 40%. Dynamics, alltså deras affärssystem, växte över 30%",
+          "timestamp": "45:59",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd",
+          "text": "LinkedIn fortsätter vara en stabil växel i The Teens",
+          "timestamp": "46:13",
+          "context": "metric"
+        },
+        {
+          "speaker": "Axie",
+          "text": "Ja, och det har ju visat sig vara bra att ligga likvid där marknaden har gått som den har gått",
+          "timestamp": "50:36",
+          "context": "position_disclosure"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "11%",
+        "margin": "EPS avtå lite grann",
+        "debt_level": null,
+        "custom": [
+          "Azure uppe över 40%",
+          "Dynamics uppe över 30%",
+          "LinkedIn stabil",
+          "PC och gaming visar slowdown"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Cloud growth extremt starkt med Azure",
+          "Dynamics och LinkedIn levererar",
+          "God kostnadskontroll",
+          "Gammalt etablerat bolag med stabilisering"
+        ],
+        "bear_case": [
+          "PC-marknaden i recession",
+          "Gaming slowdown"
+        ],
+        "catalysts": [
+          "Fortsatt enterprise adaption"
+        ],
+        "risks": [
+          "Beroende av Windows och Office",
+          "Konkurrens i cloud"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "timestamp_start": "46:59",
+      "timestamp_end": "50:36",
+      "word_count": 400,
+      "speakers": [
+        "Värd",
+        "Axie"
+      ],
+      "primary_speaker": "Värd",
+      "discussion_summary": "Amazon släpar efter. AWS bara växte 27%, ett otroligt slag mot aktieägare eftersom cloud var hela storyn. Fallande AWS-marginaler. Retail EBIT negativ. Energikostnader och bränsle påverkar rejält. Vinsten drivs av Rivian som gjorde stor nedskrivning. Omsättning uppe 5% men internationell handel backade 5%. Man bränner 46 miljarder i cash plus stock based compensation på anställda. Ganska dyrt att hålla ingenjörerna.",
+      "quotes": [
+        {
+          "speaker": "Värd",
+          "text": "Men det absolut viktigaste här med Amazon, eller det intressanta, är ju i motsats till Microsoft där cloud gick så bra, så är det ju att AWS bara växte 27% här, vilket är ett otroligt slag mot aktieägaren egentligen",
+          "timestamp": "47:47",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Och så du har fallande AWS-marginaler, du har negativ ebit från retail, och det innebar ju att när du justerar för vinsten från Rivian, det här fuffensbolaget de har ett stort inneav i som gav ett väldigt stort utslag på Boronline, så landar det vinsten på endast 1,9 miljarder dollar ner från 3,2 miljarder förra året",
+          "timestamp": "48:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Man bränner cirka 46 miljarder totalt i cash plus stock based compensation om året. Det blir bara dyrare och dyrare att hålla de här ingenjörerna",
+          "timestamp": "49:03",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Jag fick fram att det var de som i deras film hade puttat ner en lastbil för en backe för att få det ut att den rullade",
+          "timestamp": "49:03",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "5%",
+        "margin": "EBIT 1,9 miljarder dollar (ned från 3,2)",
+        "debt_level": null,
+        "custom": [
+          "AWS uppe 27%",
+          "Internationell handel ner 5%",
+          "Vinstjusterat för Rivian",
+          "Cash + stock based compensation: 46 miljarder dollar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Är fortfarande marknadsledare",
+          "Kan återhämta sig när konjunkturen vänder"
+        ],
+        "bear_case": [
+          "AWS tillväxt saktar ner rejält (27%)",
+          "Retail EBIT negativ",
+          "Rivian nedskrivningar",
+          "Energikostnader slår hårt",
+          "Kostnadspress från anställda"
+        ],
+        "catalysts": [
+          "Återhämtning i retail",
+          "AWS acceleration"
+        ],
+        "risks": [
+          "AWS marginalpress",
+          "Konkurrens i e-commerce",
+          "Logistikkostnader"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "När pengarna har varit gratis då har riskkapitalet flödat in i bolag som har då kunnat köpa sig marknadsandelar genom att helt enkelt sälja en krona för mindre än vad den är värd. Men när de försvinner är det bolag med starka balansräkningar, bolag som är lönsamma som kan gynnas av det för att det blir mindre konkurrens.",
+      "summary": "Sämre ekonomi kan gynna lönsamma bolag med starka balansräkningar eftersom VC-finansierade konkurrenter tvingas dra ner på utgifter.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "08:30",
+      "confidence": "high",
+      "tags": [
+        "recession",
+        "konkurrens",
+        "lönsamhet",
+        "balansräkning",
+        "VC"
+      ]
+    },
+    {
+      "quote": "Det som är intressant med inflatoriska miljöer det är inte att inflationen stiger och förblir konstant hög. Att den stannar på 10 procent, det är rätt hanterbart ur ett samhälls synvinkel. Problemet med inflatoriska miljöer är att inflationen är otroligt volatil.",
+      "summary": "Inflation är särskilt svårhanterad eftersom den skapar volatilitet med både spikes uppåt och deflatoriska spikes nedåt, vilket gör det svårt att prissätta tillgångar.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "13:19",
+      "confidence": "high",
+      "tags": [
+        "inflation",
+        "volatilitet",
+        "tillgångsprissättning"
+      ]
+    },
+    {
+      "quote": "När inflationen har varit högre än 5 % har det i snitt också tagit 10 år att få tillbaka till 2 %.",
+      "summary": "Historiskt tar inflation över 5% i genomsnitt 10 år att komma ner till 2%.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "12:20",
+      "confidence": "high",
+      "tags": [
+        "inflation",
+        "historik",
+        "räntor"
+      ]
+    },
+    {
+      "quote": "Det som gör tech så svårt egentligen för att ena stunden som ser ut som ett bolag har jättestora vallgravar kommer att finnas för alltid. För att ett år senare inte finnas kvar. Eller var det helt utraderat.",
+      "summary": "Tech-sektorn är unik eftersom bolag med stora vallgravar snabbt kan utraderas av teknologiska förändringar.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "19:23",
+      "confidence": "high",
+      "tags": [
+        "tech",
+        "vallgravar",
+        "disruption",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Nu finns det knappt Nokia längre, det är Nokia Entires deras deckverksamhet. Som sa man att vad skulle kunna stoppa dem och den aktien blev en jättestor av hela OMXS30. Och sen helt plötsligt släpper Apple sin iPhone och totalt slaktar Nokia.",
+      "summary": "Är bolag som ser oerinnerliga kan snabbt utraderas av teknologiska innovationer, exemplifierat med Nokia och iPhone.",
+      "category": "lesson",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "19:23",
+      "confidence": "high",
+      "tags": [
+        "disruption",
+        "Nokia",
+        "Apple",
+        "tech"
+      ]
+    },
+    {
+      "quote": "Det enda som spelar en roll är tillväxt då är det lättaste sättet att växa, det är bara att slänga fler människor på ett problem. Problemet är att fler människor minskar produktiviteten per människa. Och det ser man sen i lönsamheten.",
+      "summary": "Att bara anställa fler för att driva tillväxt minskar produktivitet och lönsamhet per anställd.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "24:01",
+      "confidence": "high",
+      "tags": [
+        "tillväxt",
+        "produktivitet",
+        "anställning",
+        "lönsamhet"
+      ]
+    },
+    {
+      "quote": "Dels sitter du och pumpar in massor av pengar, väldigt spekulativa investeringar i toppen på en låg räntemiljö, och köper tillbaka när du har all time high i aktiekursen. Nu sinar kassaflödena, nu har du sjukt marginalkomponension.",
+      "summary": "Dålig kapitalallokering genom att köpa tillbaka aktier på top och göra spekulativa investeringar i bull market.",
+      "category": "lesson",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "40:20",
+      "confidence": "high",
+      "tags": [
+        "kapitalallokering",
+        " återköp",
+        "timing",
+        "investering"
+      ]
+    },
+    {
+      "quote": "Det är faktiskt de här bolagen som visar sig hålla sig hyfsat över ytan är Microsoft och Apple som också är de äldsta bolagen. Det var lite som jag sa med buffet där, det kanske är så att gammal är äldst.",
+      "summary": "Äldre etablerade bolag som Microsoft och Apple verkar mer motståndskraftiga i volatila marknader.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "50:20",
+      "confidence": "medium",
+      "tags": [
+        "Microsoft",
+        "Apple",
+        "gammal",
+        "etablerad",
+        "motståndskraftig"
+      ]
+    },
+    {
+      "quote": "Och apropå ränta, ska vi prata lite om ränta? Det är ju Fed besked i kväll väl. Vi spelar ju in det här den 2 november och det är väl i kväll som Fed förväntas höja 0,75% igen. Då kommer deras ränta, deras styrränta, landa på 4%. Det är ganska kraftig ränta får man ändå säga.",
+      "summary": "Fed förväntas höja räntan till 4% med en 0,75% höjning.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "11:05",
+      "confidence": "high",
+      "tags": [
+        "ränta",
+        "Fed",
+        "inflation"
+      ]
+    },
+    {
+      "quote": "Jag tror att det är farligt att göra den satsningen nu i den här miljön, när marginalerna går ner, istället för att göra det för ett år sen så kändes det inte som ett problem.",
+      "summary": "Stora spekulativa investeringar (som metaversumet) är farligare när marginaler går ner än när ekonomin är stark.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "39:42",
+      "confidence": "high",
+      "tags": [
+        "risk",
+        "investering",
+        "timing",
+        "marginaler",
+        "metaversumet"
+      ]
+    },
+    {
+      "quote": "Företagen måste kompensera det genom att höja priserna ut i butik. Plötsligt har den onda spiralen som låter inflationen gripa tag i ekonomin.",
+      "summary": "Löneökningar leder till prisökningar hos företag vilket skapar en inflationsspiral.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "13:10",
+      "confidence": "high",
+      "tags": [
+        "inflation",
+        "löner",
+        "priser",
+        "spiral"
+      ]
+    },
+    {
+      "quote": "Att fånga ALLA konkreta siffror och nyckeltal (P/E, EV/EBITDA, marginaler, tillväxt%)",
+      "summary": "Fånga alla konkreta siffror och nyckeltal i analysen.",
+      "category": "philosophy",
+      "speaker": "Prompt",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "analys",
+        "nyckeltal",
+        "siffror"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet analyserar Q3-rapporterna från stora techbolag efter ett volatilt år med extrem nedgång men en återhämtning i oktober. Diskussionen fokuserar på Googles potentiella död som sökmotor, Metas perfekta storm med skenande metaversuminvesteringar, Apples stabilitet som håller upp sektorn, Microsofts pålitliga leverans, och Amazons problem med avtagande AWS-tillväxt.",
+  "key_takeaways": [
+    "Techbolag kan snabbt utraderas av teknologiska förändringar (Nokia exempel)",
+    "Sämre ekonomi kan gynna lönsamma bolag med starka balansräkningar",
+    "Metas metaversumbett är extremt riskfyllt med drastiskt minskat fritt kassaflöde",
+    "Apple och Microsoft visar att äldre etablerade bolag kan vara mer motståndskraftiga",
+    "AWS tillväxt avtar till 27%, ett stort problem för Amazon"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2022-11-03-17aa.txt",
+  "transcript_word_count": 10084,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,476 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-03-21-e9e0",
+  "podcast_name": "Market Makers",
+  "episode_title": "#75 Cybersecurity",
+  "episode_number": 75,
+  "date": "2019-03-21",
+  "hosts": [
+    "Niklas",
+    "Fabien"
+  ],
+  "guests": [
+    "Simon (Switcher)"
+  ],
+  "main_topics": [
+    "Cybersäkerhet",
+    "Datasäkerhet",
+    "Cloud computing",
+    "Investeringsstrategi"
+  ],
+  "stocks_discussed": [
+    "Microsoft",
+    "Fortinet",
+    "Science Applications",
+    "Cisco"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Fortinet",
+      "ticker": "FTNT",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabien",
+      "speaker_role": "host",
+      "timestamp": "38:08",
+      "reasoning": "Fortinet har visat exceptionell vinsttillväxt på 260% snitt de senaste tre åren och omsättningstillväxt på 20%. Värderas till PE40 och P/S 40. Vinstöknigen förra året var en one-off, men den konsistenta omsättningstillväxten är positiv. Värderingen är dock hög så bör ses med försiktighet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Då blir man ju sugen, 260% snitttillväxt de senaste tre åren plus att du har ett namn som är väldigt likt Fortnox. Då blir man ju så här kan det vara någonting intressant. Mycket av det här har prisats in i bolaget som handlas till PI40 med ett treårssnitt på PI90. Kanske kan det vara något att titta på om man vill kika närmare på det här.",
+      "sector": "Cybersäkerhet",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Science Applications",
+      "ticker": "SAIC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabien",
+      "speaker_role": "host",
+      "timestamp": "40:37",
+      "reasoning": "Myndighetstjänstebolag med stark kundlista inklusive US Army, Navy, Marines, Air Force, NASA och Homeland Security. Värderas till PE18, P/S 0.7 och EV/EBIT 15. Direktavkastning 1,7%. 19% vinsttillväxt de senaste tre åren ger PEG på 1. Billig värdering men låg omsättningstillväxt på 2%. Sticky business med svårt att byta leverantör.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man levererar myndighetstjänster framförallt. Ungefär 15 000 anställda genererar ungefär 4,5 miljoner dollar i omsättning och värderas till 70 procent av det. Det betyder på något PS på 0,7. Kan ställas i relation till snitt PS på drygt mellan 5 och 6 för de 11 bolagen? Det låter väldigt billigt. EV-Ebit är 15, direktavkastning 1,7 procent och så är ett PE på 18. Som sagt, jag tror att det är en ganska stickig business, det kanske inte är så mycket tillväxt dock.",
+      "sector": "IT-tjänster/Myndigheter",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "50:27",
+      "reasoning": "Kraftfull position i cloud med Azure som växte 89% i Q4 2018. Starka marginaler: 28% vinstmarginal, 32% rörelsemarginal, 65% bruttomarginal. PE27 med PEG 1,3, trailing PEG 0,19. Direktavkastning 1,7% med 10 år av utdelningsökningar. Nettokassa 42 miljarder dollar. Dominant position i enterprise med Office 365.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag är ju ett superlång Microsoft, du hör dig vem som helst i den här podden. Annars skulle jag inte ha så mycket. Jag kan tro att jag ligger jättesnett med tanke på hur mycket jag försöker trycka upp kursen här.",
+      "sector": "Tech/Cloud",
+      "market": "us",
+      "position_context": "Stor position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Cisco",
+      "ticker": "CSCO",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Fabien",
+      "speaker_role": "host",
+      "timestamp": "39:58",
+      "reasoning": "Värderas till PE20 med 2,4% direktavkastning och 7% vinsttillväxt. Konglomerat med nätverksutrustning, IoT, molnsäkerhet och energimanagement. Första att reverse-engineera NotPetya-attacken. Historiskt hög värdering under IT-bubblan, fortfarande 20% under toppnivå från år 2000.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Cisco värderas idag till PE20. De ger en direktavkastning på 2,4 % och de har växt vinsten med runt 7 % i snitt de senaste tre åren. Det är inget pisbolag, det är det inte. Inte heller något raketbolag.",
+      "sector": "Tech/Nätverk",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "20% under historiskt toppnivå från 2000",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "timestamp_start": "43:13",
+      "timestamp_end": "49:19",
+      "word_count": 350,
+      "speakers": [
+        "Fabien",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabien",
+      "discussion_summary": "Detaljerad diskussion om Microsofts transformation till molnbolag med Azure och Office 365. Azure växte 89% i Q4 2018 och stod för 20% av totala intäkter på 100 miljarder dollar. Starka marginaler driven av digital affärsmodell. Dominant position gentemot Google tack vare befintlig enterprise-kundbas och Office-beroende. Google har svårt att konkurrera trots starka ML-verktyg eftersom Amazon Web Services och Microsoft har fler referenscase. Bill Gates immateriella tillgång som skämt.",
+      "quotes": [
+        {
+          "speaker": "Fabien",
+          "text": "Ungefär hälften av de här 300 ETF-erna har bolaget som en av sina 15 största innehav.",
+          "timestamp": "43:24",
+          "context": "other"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "Azure levererade 89% tillväxt i Q4 2018. Man drog totalt in 100 miljarder dollar på hela bolaget. Vara måntjänst stod för ungefär 20% av det.",
+          "timestamp": "45:34",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "Det säger helt enkelt att man behövde ha en egen serverpark. Där kom Amazon och bara ni vet ju hur man gör så vi ger bara infrastrukturen, gör vad fan ni vill.",
+          "timestamp": "46:14",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "De har alltid varit väldigt konsumentinriktade. Man är så van vid att köra Word, Excel och så vidare, det är väldigt dyrt för företag att utbilda personal, det är nya mjukvaror.",
+          "timestamp": "47:29",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "Microsoft handlas idag till PE27. De har höjt utdelningen åtminstone tio år i rad och levererar idag 1,7 procent direktavkastning. De har ett PEG på 1,3.",
+          "timestamp": "47:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "28 procent vinstmarginal är galet, 32 procent röringsmarginal och hela 65 procent bruttomarginal.",
+          "timestamp": "48:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "Samtidigt uppvisar Microsoft en nettokassa på 127 miljarder dollar i cash och 85 miljarder dollar i skulder.",
+          "timestamp": "49:05",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "27",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "1.7%",
+        "revenue_growth": "Azure 89% Q4 2018",
+        "margin": "28% vinst, 32% rörelse, 65% brutto",
+        "debt_level": "Net cash 42B USD (127B cash - 85B debt)",
+        "custom": [
+          "PEG: 1.3",
+          "Trailing PEG: 0.19",
+          "ROE: 36%",
+          "Total revenue Q4: 100B USD, Cloud revenue: 20B USD"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Azure växer extremt snabbt (89% i Q4 2018)",
+          "Starka marginaler driven av digital affärsmodell",
+          "Dominant position i enterprise via Office 365",
+          "Difficult for competitors due to high switching costs",
+          "Stark kassaflöde och utdelningstillväxt"
+        ],
+        "bear_case": [
+          "Hög värdering med PE27",
+          "Tung konkurrens från AWS och Google Cloud"
+        ],
+        "catalysts": [
+          "Fortsatt cloud-tillväxt",
+          "Enterprise-migrering till molnet",
+          "DLP och compliance-tjänster driver efterfrågan"
+        ],
+        "risks": [
+          "Priskrig med AWS",
+          "Regulatorisk risk",
+          "Teknologisk obsolescens"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Science Applications",
+      "ticker": "SAIC",
+      "timestamp_start": "40:30",
+      "timestamp_end": "43:12",
+      "word_count": 280,
+      "speakers": [
+        "Fabien",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabien",
+      "discussion_summary": "Science Applications levererar myndighetstjänster och IT-support till amerikanska statliga myndigheter. 15 000 anställda genererar 4,5 miljarder dollar i omsättning. Värderas attraktivt med P/S 0,7 och PE18. Kundlistan inkluderar US Army, Navy, Marines, Air Force, NASA och Department of Homeland Security. Sticky business eftersom myndigheter är mycket restriktiva med leverantörsbyte, särskilt efter Huawei-skandalen. Låg omsättningstillväxt men stark vinsttillväxt på 19%.",
+      "quotes": [
+        {
+          "speaker": "Fabien",
+          "text": "Ungefär 15 000 anställda genererar ungefär 4,5 miljoner dollar i omsättning och värderas till 70 procent av det. Det betyder på något PS på 0,7.",
+          "timestamp": "40:37",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "EV-Ebit är 15, direktavkastning 1,7 procent och så är ett PE på 18, vilket är lite under treårssnittet på 21.",
+          "timestamp": "41:11",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "Omsättningstillväxten är däremot bara 2 procent de senaste tre åren. Inte lika roligt. Man har tunna marginaler men troligtvis är en rätt stabil business.",
+          "timestamp": "41:21",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "Jag hängde lite framför det här och tänkte, vad ska han nämna för kunder? Jo, då kan jag nämna att vi hittar den amerikanska armén. Det är alltså The Navy, The Marines, The Air Force, det är hela gänget. Sen har man NASA.",
+          "timestamp": "41:49",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "Det här är en så kallad sticky business. Det är lite som att, det är bara att kolla på det här med Huawei nu som har varit där det visat sig vara kinesiska espioner och det andra. Man är väldigt noga med vem man upphandlar och speciellt USA är duktiga på det här.",
+          "timestamp": "42:15",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "18",
+        "ev_ebitda": "EV/EBIT 15",
+        "ev_sales": "0.7",
+        "fcf_yield": null,
+        "dividend_yield": "1.7%",
+        "revenue_growth": "2%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "PEG: 1",
+          "Profit growth: 19% (3-year average)",
+          "Employees: 15,000",
+          "Revenue: 4.5B USD"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Mycket låg värdering (P/S 0.7)",
+          "Sticky myndighetskunder svåra att byta",
+          "Stabil affärsmodell med kontraktsbaserad verksamhet",
+          "Hög vinsttillväxt på 19%"
+        ],
+        "bear_case": [
+          "Låg omsättningstillväxt på bara 2%",
+          "Beroende av amerikanska statens budgetunderskott",
+          "Konkurrens och prispress"
+        ],
+        "catalysts": [
+          "Ökande cybersäkerhetsbudgetar hos myndigheter",
+          "Fortsatt outsourcing av IT-tjänster"
+        ],
+        "risks": [
+          "Budgetnedskärningar hos amerikanska staten",
+          "Konkurrens från andra leverantörer",
+          "Byråkratiska köpprocesser"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Fortinet",
+      "ticker": "FTNT",
+      "timestamp_start": "38:08",
+      "timestamp_end": "39:05",
+      "word_count": 150,
+      "speakers": [
+        "Fabien",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabien",
+      "discussion_summary": "Fortinet säljer mjukvara och tjänster som brandväggar och antivirus. Stort bolag med närmare 1,5 miljarder dollar i omsättning. Har visat exceptionell vinsttillväxt på 260% snitt de senaste tre årin, men detta beror på att de fyrdubblade vinsten förra året vilket sannolikt är en one-off. Omsättningstillväxt på 20% de senaste åren är mer representativ. Värderas till PE40 med treårssnitt på PE90. P/S på 40. Mycket av tillväxten redan prisad i aktien.",
+      "quotes": [
+        {
+          "speaker": "Fabien",
+          "text": "Då blir man ju sugen, 260% snitttillväxt de senaste tre åren plus att du har ett namn som är väldigt likt Fortnox. Då blir man ju så här kan det vara någonting intressant.",
+          "timestamp": "38:08",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "Fortinet i alla fall säljer mjukvara och tjänster som brandväggar, antivirus och så vidare. Stort bolag med närmare 1,5 miljard dollar omsättning.",
+          "timestamp": "38:17",
+          "context": "other"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "Anledningen till den fina snitttillväxten i vinst är att man förra året 4-dubblade sin vinst. Nåt som man inte varit i närheten av tidigare så man ska inte se det som något annat än en one-off.",
+          "timestamp": "38:25",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabien",
+          "text": "Mycket av det här har prisats in i bolaget som handlas till PI40 med ett treårssnitt på PI90.",
+          "timestamp": "38:38",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "40",
+        "ev_ebitda": null,
+        "ev_sales": "40",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "20%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "3-year profit growth: 260% average",
+          "Revenue: ~1.5B USD"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark omsättningstillväxt på 20%",
+          "Etablerat bolag inom cybersäkerhet"
+        ],
+        "bear_case": [
+          "Hög värdering (PE40, P/S 40)",
+          "Vinsttillväxt driven av one-off event"
+        ],
+        "catalysts": [
+          "Fortsatt marknadstillväxt i cybersäkerhet"
+        ],
+        "risks": [
+          "Valuation risk",
+          "Konkurrens",
+          "Tillväxt avtar"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Oftast gör det här ordet megatrend, det gör att folk blir så våta i byxorna så att de köper vad som helst. Istället för att titta vad det underliggande är. Är det värt att köpa? Vad är det för värdering på det?",
+      "summary": "Megatrend-begreppet är farligt eftersom det får investerare att köpa utan att grunderna och värderingen, vilket leder till dåliga investeringsbeslut.",
+      "category": "philosophy",
+      "speaker": "Fabien",
+      "speaker_role": "host",
+      "timestamp": "36:33",
+      "confidence": "high",
+      "tags": [
+        "megatrend",
+        "värdering",
+        "investeringspsykologi"
+      ]
+    },
+    {
+      "quote": "Varför fokusera på konsulter och månkänser och inte till exempel på programvaran är att produkterna på marknaden blir mer och mer lika varandra och därför blir den största konkurrensfördelen pris helt enkelt. Detta driver priser nedåt och givetvis även marginaler och bolagens intjäningsförmåga.",
+      "summary": "I cybersäkerhetsbranschen blir mjukvaruprodukter alltmer lika, vilket leder till priskonkurrens och pressade marginaler, vilket gör konsult- och träningstjänster mer intressanta.",
+      "category": "wisdom",
+      "speaker": "Fabien",
+      "speaker_role": "host",
+      "timestamp": "34:37",
+      "confidence": "high",
+      "tags": [
+        "marginaler",
+        "konsult",
+        "mjukvara",
+        "konkurrens"
+      ]
+    },
+    {
+      "quote": "Man ska inte ens fatta att man är säker egentligen. Det finns också andra intressanta exempel på att företag måste förbättra riskhantering kring IT-infrastruktur.",
+      "summary": "Cybersäkerhet bör vara osynlig och automatisk för användarna - säkerhet ska inte vara något man aktivt tänker på utan som fungerar i bakgrunden.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "34:10",
+      "confidence": "medium",
+      "tags": [
+        "säkerhet",
+        "UX",
+        "osynlighet"
+      ]
+    },
+    {
+      "quote": "Enligt Verizon's 20th and Data Breach Report beror en femtedel av alla dataläkare på mänskliga misstag. Till exempel att man helt enkelt mailar fel person eller klickar på ett phishing-mail.",
+      "summary": "Mänskliga fel är en av de största säkerhetsriskerna för företag, vilket understryker vikten av utbildning och träning utöver tekniska lösningar.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "25:06",
+      "confidence": "high",
+      "tags": [
+        "mänskliga fel",
+        "säkerhet",
+        "utbildning",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Förut var man rädd för att datan skulle läcka ut, för att datan i sig var värdefull. Idag är man mer rädd för att datan ska läcka ut, för att man kan få såna otroliga böter, för att känslinginformation läcker ut.",
+      "summary": "GDPR och liknande lagstiftning har förändrat varför företag behöver skydda data - från att skydda värdefull information till att undvika massiva böter.",
+      "category": "wisdom",
+      "speaker": "Fabien",
+      "speaker_role": "host",
+      "timestamp": "22:19",
+      "confidence": "high",
+      "tags": [
+        "GDPR",
+        "data",
+        "risk",
+        "reglering"
+      ]
+    },
+    {
+      "quote": "IT är i alla fall inte längre bara ett stöd i verksamheten. Det är ju ofta hela verksamheten. Då blir det extra viktigt att skydda informationen.",
+      "summary": "Digitalisering har gjort IT till själva kärnan i många verksamheter, vilket gör cybersäkerhet kritiskt för företagens överlevnad.",
+      "category": "wisdom",
+      "speaker": "Fabien",
+      "speaker_role": "host",
+      "timestamp": "29:33",
+      "confidence": "high",
+      "tags": [
+        "digitalisering",
+        "IT",
+        "affärskritisk"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Fabien",
+      "speaker_role": "host",
+      "quote": "Det är något som kommer in, krypterar din disk, tvingar dig att betala lösensumma kanske i bitcoin då, för att få disken uppblåst egentligen.",
+      "context": "Bitcoin används av ransomware-angripare för lösensummor",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "kort sikt"
+    }
+  ],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet diskuterar cybersäkerhet som växande megatrend med stark marknadstillväxt på 12-15% årligen. Cloud-säkerhet växer snabbast med 50%+ tillväxt driven av GDPR och digitalisering. ETF:en Hack (Hack) har många förväntningar inprisade med höga värderingar (PE55). Microsoft lyfts fram som kvalitetsbolag med exceptionell cloud-tillväxt (Azure +89% i Q4) och starka marginaler. Fortinet och Science Applications diskuteras som watch-cases med intressanta värderingar men olika riskprofiler. Cisco beskrivs som stabilt men mediokert. Branschen växer kraftigt men prissättning är hög, vilket gör selektivt stockplockning viktigare än tematiska ETF:er.",
+  "key_takeaways": [
+    "Cybersäkerhet växer 12-15% årligen med cloud-säkerhet snabbast (+50% 2019)",
+    "GDPR och liknande regleringar driver efterfrågan på datasäkerhet (DLP, IAM)",
+    "Microsoft är ett kvalitetsbolag med exceptionell cloud-tillväxt och starka marginaler",
+    "ETF:en Hack har höga värderingar (PE55) och många förlustbolag",
+    "Fortinet har stark omsättningstillväxt men hög värdering (PE40)",
+    "Science Applications är billigt värderat (P/S 0.7) med sticky myndighetskunder",
+    "Konsult- och utbildningstjänster är mer intressanta än mjukvara på grund av priskonkurrens",
+    "Mänskliga fel orsakar 20% av alla dataläckage",
+    "Mer än 90% av cyberattacker börjar med phishing-email"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-03-21-e9e0.txt",
+  "transcript_word_count": 12400,
+  "has_timestamps": true,
+  "model_used": "claude-sonnet"
+}

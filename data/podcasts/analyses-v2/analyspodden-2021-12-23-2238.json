@@ -1,0 +1,171 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "analyspodden-2021-12-23-2238",
+  "podcast_name": "Analyspodden",
+  "episode_title": "Det är en toppsignal",
+  "episode_number": null,
+  "date": "2021-12-23",
+  "hosts": [
+    "Ulf Pettersson",
+    "Viktor Munkhammar"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Inflation",
+    "Omicron-effekter",
+    "Billeruds förvärv",
+    "M&A-aktivitet",
+    "Negativ realränta",
+    "Fastighetssektorn"
+  ],
+  "stocks_discussed": [
+    "Billerud",
+    "Embracer",
+    "Westrock",
+    "SBB",
+    "Castellum",
+    "Amasten"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Billerud",
+      "ticker": "BILL-B",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Viktor Munkhammar",
+      "speaker_role": "host",
+      "timestamp": "14:07",
+      "reasoning": "Billerud aktien sjönk 10% på beskedet om Westrock-förvärvet för 8 miljarder SEK med en P12-värdering samt 9 miljarder SEK i investeringar för att konvertera Västås fabriker. Marknaden förväntade sig kassaflöden och utdelningar, men får ytterligare investeringar istället. Detta signalerar att storförvärv inte längre belönas på marknaden.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det var väl det som marknaden inte riktigt gillade här. Förutom att de lägger upp 8 miljarder på en affär då prislappen var inte superhög, P12 ungefär. Men man har också bestämt sig för att konvertera om en del av Västås fabriker till en kartongpappersfabrik och det ska kosta 9 miljarder... aktien var faktiskt ner, Billerudaktien var ner 10% på det där",
+      "sector": "Skogsindustri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "10% nedgång på beskedet",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Billerud",
+      "ticker": "BILL-B",
+      "timestamp_start": "14:07",
+      "timestamp_end": "17:01",
+      "word_count": 650,
+      "speakers": [
+        "Viktor Munkhammar",
+        "Ulf Pettersson"
+      ],
+      "primary_speaker": "Viktor Munkhammar",
+      "discussion_summary": "Billerud gjorde ett 8 miljarder SEK förvärv av amerikanska Westrock med en 27% budpremie. Samtidigt planerar de investera 9 miljarder SEK för att konvertera Västås fabriker till kartongpappersproduktion. Marknaden tog emot beskedet negativt och aktien sjönk 10%, eftersom investerare förväntade sig kassaflöden och utdelningar efter tidigare investeringar. Diskussionen speglar en bredare trend där storförvärv inte längre belönas.",
+      "quotes": [
+        {
+          "speaker": "Viktor Munkhammar",
+          "text": "Det var ju Westo, ett amerikanskt bolag som har haft lite problem historiskt men som faktiskt har gått ganska bra på börsen sen dippen, sen i år börsen, sen mitten i mars 2020. Och så kom billerud här och bjöd, jag tror det var 27% biddpremie på det där",
+          "timestamp": "14:07",
+          "context": "other"
+        },
+        {
+          "speaker": "Viktor Munkhammar",
+          "text": "Det var väl det som marknaden inte riktigt gillade här. Förutom att de lägger upp 8 miljarder på en affär då prislappen var inte superhög, P12 ungefär. Men man har också bestämt sig för att konvertera om en del av Västås fabriker till en kartongpappersfabrik och det ska kosta 9 miljarder",
+          "timestamp": "14:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Viktor Munkhammar",
+          "text": "Då får man komma ihåg att Billerudkostnads kommer från en situation där de haft väldigt stora investeringar i sin KM7-maskin och sådant där och marknaden hade sett framför sig att nu ska det bli kassaflöden och utdelning och kanske aktieåterköp och sådant där och det blir det inte alldeles utan nu ska det bli ännu mer investeringar istället",
+          "timestamp": "15:01",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Viktor Munkhammar",
+          "text": "Ett svaghetsekt, vi såg samma på Embracer som gjorde den här 28 miljarder affären, att det inte är givet längre att storförvärv belönas på marknaden. Det är lite intressant för det är ett litet trendbort får man väl ändå säga mot hur det har sett ut tidigare under året",
+          "timestamp": "15:35",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Viktor Munkhammar",
+          "text": "Det är ju liksom de som kan sin historik. De här stora affärerna brukar aldrig föra båda goda tider på börsen. Men just nu så rullar det på riktigt bra. Stockholmsbörsen är upp 30 procent i år",
+          "timestamp": "16:10",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "12x",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Westrock har gått bra på börsen sedan mars 2020",
+          "P12-värdering ses som inte superhögt"
+        ],
+        "bear_case": [
+          "Marknaden förväntade sig kassaflöden och utdelningar, inte fler investeringar",
+          "Ytterligare 9 miljarder SEK i investeringar påverkar negativt",
+          "Storförvärv belönas inte längre på marknaden"
+        ],
+        "catalysts": [
+          "Konvertering av Västås fabriker till kartongpappersproduktion",
+          "Slutförande av Westrock-affären"
+        ],
+        "risks": [
+          "Negativ marknadsreaktion på storförvärv",
+          "Försenade kassaflöden och utdelningar"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Att de här som mamma lärde en att man skulle spara och inte förköpa sig, har varit så fel. De som har köpt en lägenhet och belånat, köpt ännu större lägenhet och belånat och köpt ännu större, de har suttit på en bank och mat i 20-30 års tid",
+      "summary": "Negativ realränta under lång tid har gjort att skuldsättning varit en bättre strategi än sparande",
+      "category": "wisdom",
+      "speaker": "Viktor Munkhammar",
+      "speaker_role": "host",
+      "timestamp": "17:16",
+      "confidence": "high",
+      "tags": [
+        "realränta",
+        "skuldsättning",
+        "bostadsmarknad"
+      ]
+    },
+    {
+      "quote": "Det är ju liksom de som kan sin historik. De här stora affärerna brukar aldrig föra båda goda tider på börsen. När vi ser, tittar man på ett diagram över företagsaffärer så ser man 2000. 2007 är de stora topparna",
+      "summary": "Stora företagsförvärv är historiskt en toppsignal på marknaden",
+      "category": "wisdom",
+      "speaker": "Viktor Munkhammar",
+      "speaker_role": "host",
+      "timestamp": "15:53",
+      "confidence": "high",
+      "tags": [
+        "M&A",
+        "toppsignaler",
+        "marknadstiming"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet diskuterar stark svensk konjunktur med 18,1% ökning i producentprisindex, men orosmoln kring omikron och stigande energipriser. Billeruds stora förvärv av Westrock och investeringar möttes av negativ marknadsreaktion, vilket signalerar att storförvärv inte längre belönas. Negativ realränta på -3,5% driver fortsatt köptryck, men historiken varnar att stora M&A-aktiviteter ofta sker vid marknadstoppar.",
+  "key_takeaways": [
+    "Producentprisindex upp 18,1% indikerar högt prisstryck",
+    "Billerud-förvärvet gav en 10% aktienedgång",
+    "Storförvärv är en historisk toppsignal",
+    "Negativ realränta fortsätter driva köptryck",
+    "Omicron och höga elpriser riskerar att dämpa konsumtionen"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2021-12-23-2238.txt",
+  "transcript_word_count": 4279,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

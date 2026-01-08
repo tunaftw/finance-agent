@@ -1,0 +1,374 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2024-03-22-a61a",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "172. Därför rasar kredithanteraren - igen och igen",
+  "episode_number": 172,
+  "date": "2024-03-22",
+  "hosts": [
+    "Robert Andersson",
+    "Elin"
+  ],
+  "guests": [
+    "Martin Edlund"
+  ],
+  "main_topics": [
+    "Japans räntehöjning",
+    "Skistar rapport",
+    "Intrum kris",
+    "Embracer försäljning av Saber",
+    "Minesto intervju"
+  ],
+  "stocks_discussed": [
+    "Skistar",
+    "Intrum",
+    "Embracer Group",
+    "Minesto"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Intrum Justitia",
+      "ticker": "INUM-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Robert Andersson",
+      "speaker_role": "host",
+      "timestamp": "21:58",
+      "reasoning": "Intrum har enorma skuldproblem med 57 miljarder i nettoskuld mot 1,8 miljarder i börsvärdet. Ett stort obligationsförfall på 10 miljarder i Q3 2025 som de inte kan täcka - faller 3-4 miljarder kort. Kreditmarknaden är stängd så ny finansiering är omöjlig till rimliga räntor. Lönsamhet finns men hjälper inte när hela lånet måste återbetalas snabbt. För hög risk.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag vågar absolut inte köpa några aktier i intrum i dagsläget, det är alldeles för riskigt. Så det finns faktiskt inte med i någon av våra portföljer.",
+      "sector": "Finans",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Kan troligen inte finansiera obligationsförfallo på 10 miljarder Q3 2025",
+      "catalyst_timing": "Obligationsförfall Q3 2025"
+    },
+    {
+      "stock_name": "Embracer Group",
+      "ticker": "EMBRAC-B",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Robert Andersson",
+      "speaker_role": "host",
+      "timestamp": "25:25",
+      "reasoning": "Säljer Saber Interactive för 2,5 miljarder vilket förbättrar kassaflödet avsevärt. Värdering är mycket låg: EV/EBITDA ~5, 12% free cash flow yield. Spelsektorn nära botten generellt. Hög risk men potential för upp till 100% uppsida om sentimentet vänder. Mindre capex utan Saber gör att fria kassaflödet kan användas till att amortera skuld.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Går kassaflöde så ska nog vi tror att aktien ska upp. Antagligen ganska mycket. Om man får ett annat kurssentiment, det här är liksom inte en 10% per år, utan antingen går ut i skogen, hög risk, men eller så går det ganska bra då borde vi kunna ha upp mot 100% här.",
+      "sector": "Spel/Underhållning",
+      "market": "sweden",
+      "position_context": "1,6% av portföljen, näst minsta innehav",
+      "downside_note": null,
+      "catalyst_timing": "Skuldmål ska nås inom hyfsad närtid"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Intrum Justitia",
+      "ticker": "INUM-B",
+      "timestamp_start": "12:18",
+      "timestamp_end": "22:14",
+      "word_count": 1200,
+      "speakers": [
+        "Robert Andersson",
+        "Elin"
+      ],
+      "primary_speaker": "Robert Andersson",
+      "discussion_summary": "Robert förklarar Intrums affärsmodell med två ben: servicing (inkasso) och investment (köpa skuldportföljer). Låga räntor gjorde investmentbenet mycket lönsamt men nu har portföljerna skrivits ner på grund av sämre återvinning. Detta har skapat en enorm skuldbörda på 57 miljarder mot 1,8 miljarder i börsvärdet. Ett stort obligationsförfall på 10 miljarder i Q3 2025 skapar akut finansieringsproblem då kreditmarknaden är stängd. Lönsamhet finns men hjälper inte när hela skulden måste återbetalas snabbt.",
+      "quotes": [
+        {
+          "speaker": "Robert Andersson",
+          "text": "När räntorna var låga, så man betalade 2% för att låna pengar, då var det ganska enkelt att bara säga ja men fett, vi lånade ett pengar. Vi köper det här, känner 19% där, betalar 2% för räntor, behåller 17% till oss. Perfekt.",
+          "timestamp": "13:55",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Robert Andersson",
+          "text": "Det som väl är problemet i Intrum... när man har skruvat ner de här kritbetygen för att man blivit orolig för att man har 57 miljarder i nettoskuld... Kriminetmarknaden efter de här nedskrivningarna är mer eller mindre stängd... Om de tar ett lån på 20 procent ränta, men eftersom deras investering genom 16 procents avkastning, så går inte den affärsmodellen ihop.",
+          "timestamp": "16:14",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Robert Andersson",
+          "text": "När man räknar på det kassaflödet, de borde ena i och så, så de faller kort på 3-4 miljarder. Det här kommer de inte att lyckas få fram.",
+          "timestamp": "20:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Robert Andersson",
+          "text": "Jag vågar absolut inte köpa några aktier i intrum i dagsläget, det är alldeles för riskigt.",
+          "timestamp": "21:58",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "57 miljarder i nettoskuld",
+        "custom": [
+          "Nettoskuld 57 miljarder",
+          "Börsvärde 1,8 miljarder",
+          "Obligationsförfall 10 miljarder Q3 2025",
+          "Investering ROI 17-19%",
+          "Servicing marginal ~16%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Underliggande lönsamhet finns och är ganska god",
+          "Om kreditmarknaden öppnas kunde de rolla obligationen till samma ränta",
+          "Då skulle det vara väldigt billigt på nuvarande nivåer"
+        ],
+        "bear_case": [
+          "57 miljarder skuld mot 1,8 miljarder börsvärde",
+          "Obligationsförfall 10 miljarder Q3 2025 som de inte kan täcka",
+          "Kreditmarknaden stängd - ny finansiering för dyr",
+          "Kan inte sälja tillgångar i dålig konjunktur",
+          "Nyemission inte möjlig med nuvarande börsvärde"
+        ],
+        "catalysts": [
+          "Kreditmarknadens öppnande",
+          "Nedskrivningar kan klarna",
+          "Säsongsmässiga insamlingar kan förbättras"
+        ],
+        "risks": [
+          "Bankrutt om obligationsförfall inte kan betalas",
+          "Framtida kreditbetygsnedgraderingar",
+          "Återvinning kan fortsätta vara sämre än beräknat"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Embracer Group",
+      "ticker": "EMBRAC-B",
+      "timestamp_start": "22:15",
+      "timestamp_end": "27:16",
+      "word_count": 1000,
+      "speakers": [
+        "Robert Andersson",
+        "Elin"
+      ],
+      "primary_speaker": "Robert Andersson",
+      "discussion_summary": "Embracer liknar Intrum med stora skulder men har bättre lösning. De sålde Saber Interactive för 2,5 miljarder vilket förbättrar kassaflödet eftersom Saber krävde stora reinvesteringar. Värdering är mycket låg med EV/EBITDA ~5 och 12% free cash flow yield. Spelsektorn generellt närmar botten. Robert äger aktien i portföljen (1,6%) och ser stor uppsida men erkänner hög risk.",
+      "quotes": [
+        {
+          "speaker": "Robert Andersson",
+          "text": "Embracer, ska vi prata lite om? Jag tänker att vi ska ha detta lite som veckans case. Embracer ligger ju höra och öppna, tyvärr, in i korta portföljen. Det är ju vårat näst minst innehav, nu ska jag kika in här, 1,6 procent av portföljen.",
+          "timestamp": "22:20",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Robert Andersson",
+          "text": "Så man säljer den här typen av verksamhet. Framförallt så är det att den här delen hade ganska mycket verksamhet i Ryssland. Det här är ett dotterbolag som är grundat i Sankt Peters början gång. Han ville inte lägga ner verksamheten i Ryssland.",
+          "timestamp": "23:08",
+          "context": "other"
+        },
+        {
+          "speaker": "Robert Andersson",
+          "text": "Värderingen i det här, aktien har ju gått avståeligt som jag sa, värderingen här är väldigt låg. EVB är typ fem, vi pratar nio gånger kassaflödet, någonting sånt, så 12 procent, free cash var ju yield.",
+          "timestamp": "24:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Robert Andersson",
+          "text": "Jag tror väl att vi står ganska nära botten för spelsektorn i sin helhet, och dessutom som sagt väldigt låga multiplar på Atom Bracers, så att ni kanske inte är mest kvalitativa.",
+          "timestamp": "24:57",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Robert Andersson",
+          "text": "Går kassaflöde så ska nog vi tror att aktien ska upp. Antagligen ganska mycket. Om man får ett annat kurssentiment, det här är liksom inte en 10% per år, utan antingen går ut i skogen, hög risk, men eller så går det ganska bra då borde vi kunna ha upp mot 100% här.",
+          "timestamp": "25:25",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "~5",
+        "ev_sales": null,
+        "fcf_yield": "~12%",
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "1,6 miljarder i nettoskuld, mål är 800 miljoner",
+        "custom": [
+          "Försäljning Saber 2,5 miljarder",
+          "Nettoskuld 1,6 miljarder",
+          "Mål skuld 800 miljoner",
+          "Free cash flow yield ~12%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Värdering mycket låg med EV/EBITDA ~5 och 12% FCF yield",
+          "Säljer Saber för 2,5 miljarder vilket förbättrar kassaflödet",
+          "Spelsektorn nära botten generellt",
+          "Mindre capex utan Saber gör att FCF kan amortera skuld"
+        ],
+        "bear_case": [
+          "Hög skuldsättning på 1,6 miljarder",
+          "Cyberpunk har inte levererat fullt ut",
+          "Gaming sektor har gått dåligt",
+          "Hög risk om sentimentet inte vänder"
+        ],
+        "catalysts": [
+          "Nått skuldmål",
+          "Fått in kassa från Saber-försäljning",
+          "Positivt sentiment i gaming sektor"
+        ],
+        "risks": [
+          "Skuldmål kan missas",
+          "Spelutveckling kan misslyckas",
+          "Gaming sektor kan fortsätta prestanda"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Minesto",
+      "ticker": "MINEST",
+      "timestamp_start": "27:47",
+      "timestamp_end": "37:00",
+      "word_count": 800,
+      "speakers": [
+        "Filip Lindqvist",
+        "Martin Edlund"
+      ],
+      "primary_speaker": "Martin Edlund",
+      "discussion_summary": "Martin Edlund, VD för Minesto, presenterar bolagets unika teknologi för tidvattenenergi. De utvecklar drakar som flyger under vattnet och utnyttjar tidvattensströmmar för att producera energi. Kopplade upp ett megawatt-kraftverk på Färöarna i februari 2024. Planerar 200 MW utbyggnad som motsvarar 40% av Färöarnas energibehov. Göre en företrädesemission på 120 miljoner. Ser potential på tiotal marknader.",
+      "quotes": [
+        {
+          "speaker": "Martin Edlund",
+          "text": "Minesto är ett av få bolag i världen som har utvecklat och erbjuder en helt ny förnybar energiteknik. Det innebär att vi ger mänskligheten en ny naturresurs att dra nytta av och producera energi från.",
+          "timestamp": "28:08",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Martin Edlund",
+          "text": "Vi nådde här i februari en väldigt viktig industriell och kommersiell milstolpe för bolaget då vi kopplade upp vårt stora megawattskaliga kraftverk mot elnätet på Färööarna.",
+          "timestamp": "29:13",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Martin Edlund",
+          "text": "Den utgör en affär för Minesto i storleksordningen 2 miljarder kronor i produktförsäljning initialt och sen en efterföljande service och reservdelsmarknad såklart.",
+          "timestamp": "30:25",
+          "context": "metric"
+        },
+        {
+          "speaker": "Martin Edlund",
+          "text": "Planerbarheten är en jätteviktig grundfundamenta i det här. Det vill säga att tidvatten, till skillnad från sol och vind, finns tillgängligt exakt när du vet att det ska finnas tillgängligt.",
+          "timestamp": "35:15",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "200 MW planerad kapacitet på Färöarna",
+          "2 miljarder kronor affärspotential",
+          "Företrädesemission 120 miljoner",
+          "40% av Färöarnas energibehov"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Unik teknologi för tidvattenenergi",
+          "Planerbar till skillnad från sol och vind",
+          "Industriell milstolpe nådd med nätuppkoppling",
+          "Affärspotential 2 miljarder på Färöarna",
+          "Teknologin är outnyttjad naturresurs"
+        ],
+        "bear_case": [
+          "Tekniken är ny och unik - ingen annan gör liknande",
+          "Måste överkomma skeptisism",
+          "Bolag på First North med risk"
+        ],
+        "catalysts": [
+          "Nätuppkoppling på Färöarna",
+          "Företrädesemission 120 miljoner",
+          "Marknadsexpansion på tiotal marknader"
+        ],
+        "risks": [
+          "Tekniskt risk",
+          "Marknadsacceptans",
+          "Finansieringsbehov"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är ju roligt bara att de anställde den här amerikanska rådgivan, fick aktien gå ner typ 25 procent. Ett av deras mest kända projekt är ju Lehman Brothers, så det kanske säger någonting.",
+      "summary": "Marknaden tolkar införande av krisrådgivare som negativt tecken på allvarliga problem.",
+      "category": "wisdom",
+      "speaker": "Robert Andersson",
+      "speaker_role": "host",
+      "timestamp": "16:14",
+      "confidence": "high",
+      "tags": [
+        "marknadssignal",
+        "kris",
+        "finansiering"
+      ]
+    },
+    {
+      "quote": "Det är lite exakt samma sätt som Intrum behöver göra just nu. De behöver inte bara ta den löpande avkastningen på sina tillgångar, utan de måste försöka sälja tillgångarna... Det är alltid jobbigt när man är störst, störst, vem ska köpa.",
+      "summary": "När företag måste sälja tillgångar snabbt i kris är det extra svårt om man är marknadsledande - få köpare är stora nog.",
+      "category": "wisdom",
+      "speaker": "Robert Andersson",
+      "speaker_role": "host",
+      "timestamp": "19:50",
+      "confidence": "high",
+      "tags": [
+        "kris",
+        "tillgångsförsäljning",
+        "marknadsposition"
+      ]
+    },
+    {
+      "quote": "Men man kan inte riktigt hålla på så att man behöver amortera på skulden. Och den här delen, Saber då, har varit en väldigt stor del av det här capexbehovet, att man har behövt återinvestera mer än alla pengar som Saber har genererat.",
+      "summary": "Höga reinvesteringar kan göra att ett kassaflödespositivt ändå inte genererar något nettokassaflöde för skuldamortering.",
+      "category": "lesson",
+      "speaker": "Robert Andersson",
+      "speaker_role": "host",
+      "timestamp": "24:00",
+      "confidence": "medium",
+      "tags": [
+        "kassaflöde",
+        "skuld",
+        "capex",
+        "reinvestering"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet täcker Japans första räntehöjning på 17 år och förväntade centralbankssänkningar. Robert diskuterar tre detaljerade fall: Skistar som inte rekommenderas för sommarsatsning, Intrum i djup kris med 57 miljarder skuld som bör undvikas, och Embracer som sålt Saber och har låg värdering men hög risk. Avslutas med intervju av Minesto som nyligen kopplat upp ett tidvattenkraftverk på Färöarna.",
+  "key_takeaways": [
+    "Japans centralbank höjer räntan för första gången på 17 år",
+    "Intrum har akut finansieringsproblem med obligationsförfall 2025 och bör undvikas",
+    "Embracer sålde Saber Interactive för 2,5 miljarder och har låg värdering men hög risk",
+    "Minesto kopplade upp ett megawatt-kraftverk på Färöarna och planerar 200 MW utbyggnad",
+    "Marknaden tror 88% på Riksbank-sänkning i juni"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2024-03-22-a61a.txt",
+  "transcript_word_count": 5782,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,289 @@
+{
+  "source_id": "melmattison1",
+  "analyzed_at": "2025-12-29T19:00:00",
+  "analyzed_by": "claude-code-agent",
+  "total_tweets_in_dataset": 3424,
+  "investment_relevant_tweets": 2036,
+  "tweets_reviewed": 3424,
+  "date_range": {
+    "from": "2024-01-03",
+    "to": "2025-12-29"
+  },
+  "profile_summary": {
+    "description": "Financial author (Quoz: A Financial Thriller, Simon & Schuster), macro investor focused on precious metals, options trader. Strong track record on 2025 predictions.",
+    "investment_style": "Macro, options-heavy, contrarian, multi-decade PM bull",
+    "language": "en",
+    "notable": "Wrote book predicting $25K gold/$1500 silver. 8/10 2025 predictions correct. Active options trader with specific entry/exit points."
+  },
+  "portfolio_allocation": {
+    "as_of": "2025-12-28",
+    "largest_holdings": ["Gold/Silver (physical + GLD/SLV)", "Bitcoin", "Palladium (PALL)", "Platinum (PPLT)"],
+    "strategy": "Long-term PM accumulation with tactical options overlays",
+    "notes": "Taking profits on PM options late Dec 2025, rotating into BTC for multi-quarter trade"
+  },
+  "performance": {
+    "2025_predictions_accuracy": "8/10",
+    "slv_options_trade": "SLV 69/70 call debits Oct->Dec: +100%",
+    "hood_trade": "HOOD 105/125 call spread: +22x in one day (Sep 2025)",
+    "rsp_trade": "RSP $220 June calls: +50% in 15 minutes (Dec 2025)"
+  },
+  "stock_mentions": [
+    {
+      "stock_name": "Alibaba",
+      "ticker": "BABA",
+      "exchange": "NYSE",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Qwen LLMs leading open source, reasonable valuation, China stimulus incoming, key technical level",
+      "quotes": ["$BABA is a giant. Their Qwen LLMs are leading open source. Valuation very reasonable. China set to deploy massive stimulus."],
+      "position": "Shares, March 170/180 call debits, June 200 calls",
+      "date": "2025-12-18"
+    },
+    {
+      "stock_name": "Robinhood",
+      "ticker": "HOOD",
+      "exchange": "NASDAQ",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "AI day catalyst, strong momentum, multiple successful trades",
+      "quotes": ["One of best short-term plays now is HOOD. They have a big event later today. Probably hits $130 by EoW"],
+      "position": "Dec 165/170 call debits, Jan 2028 $250 calls",
+      "date": "2025-12-16"
+    },
+    {
+      "stock_name": "Invesco S&P 500 Equal Weight ETF",
+      "ticker": "RSP",
+      "exchange": "NYSE Arca",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Rotation from cap-weighted to equal-weight expected in 2026, $230 target by June",
+      "quotes": ["RSP, IWM, EEM, etc. will be the slices of the portfolio pie to overweight in '26", "$230 by June definitely in the crosshairs"],
+      "position": "June 2026 $220 calls",
+      "date": "2025-12-11"
+    },
+    {
+      "stock_name": "iShares Russell 2000 ETF",
+      "ticker": "IWM",
+      "exchange": "NYSE Arca",
+      "action": "buy",
+      "confidence": "medium",
+      "reasoning": "Small cap catch-up trade, but prefers EM (EEM) for more upside",
+      "quotes": ["A lot of folks talking about the IWM catch-up trade, but I think EM has much more juice"],
+      "date": "2025-11-26"
+    },
+    {
+      "stock_name": "iShares MSCI Emerging Markets ETF",
+      "ticker": "EEM",
+      "exchange": "NYSE Arca",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Diversified China exposure (BABA, Tencent, Samsung), prefers over IWM for catch-up",
+      "quotes": ["this is also nice, diversified way to get access to companies like Baba, Ten Cent and Samsung"],
+      "position": "Sept $51 calls, Jan 2026 $53 calls",
+      "date": "2025-08-29"
+    },
+    {
+      "stock_name": "SoFi Technologies",
+      "ticker": "SOFI",
+      "exchange": "NASDAQ",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Long-term conviction, expects $100+ in 2+ years",
+      "quotes": ["My guess, SOFI is well over $100 2+ years from now"],
+      "position": "Jan 2028 $40 calls at $8",
+      "date": "2025-10-09"
+    }
+  ],
+  "sector_views": [
+    {
+      "sector": "Precious Metals (Gold/Silver)",
+      "sentiment": "very_bullish_long_term",
+      "confidence": "very_high",
+      "reasoning": "Multi-decade bull thesis, $25K gold / $1500 silver targets, largest portfolio allocation",
+      "short_term": "Taking profits after big 2025 run, waiting for pullback to reload",
+      "targets": {
+        "gold": "$25,000 (multi-decade)",
+        "silver": "$100+ by end 2026, $1,500 multi-decade",
+        "silver_pause_range": "$82-88"
+      }
+    },
+    {
+      "sector": "Large Cap Tech (QQQ/SOXX)",
+      "sentiment": "bearish",
+      "confidence": "high",
+      "reasoning": "Expects underperformance vs equal-weight, small caps, and EM in 2026",
+      "quotes": ["qqqs and spy are trash compared to other areas for 2026"]
+    },
+    {
+      "sector": "Equal Weight / Small Caps",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "reasoning": "Rotation trade for 2026, RSP/IWM to outperform SPY/QQQ"
+    },
+    {
+      "sector": "Emerging Markets",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "reasoning": "China stimulus, underperformance catch-up, prefers over US small caps"
+    },
+    {
+      "sector": "Fintech (HOOD, SOFI)",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "reasoning": "AI integration, retail trading growth, multi-year LEAP positions"
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "reasoning": "Third largest holding after PM, rotating PM profits into BTC for multi-quarter trade",
+      "quotes": [
+        "I f'd up my BTC call earlier this year. I thought 100k was a great entry. WRONG. But I'm stoked on my next call.",
+        "Offloading PM gains into BTC next week. Not a week or two call... a multi-quarter call.",
+        "BTC the best market indicator"
+      ],
+      "targets": "Expected to break $150K (missed in 2025, expects later)",
+      "date": "2025-12-28"
+    },
+    {
+      "asset_symbol": "IBIT",
+      "asset_name": "iShares Bitcoin Trust",
+      "sentiment": "neutral",
+      "confidence": "medium",
+      "reasoning": "Notes tax-loss harvesting in IBIT affecting BTC price",
+      "quotes": ["A lot of tourists came in after the election and are looking for something down to sell, so they're cashing out their IBIT"]
+    }
+  ],
+  "market_outlook": {
+    "overall_sentiment": "bullish_rotation",
+    "positioning": "Long PM (physical + ETFs), rotating options profits to BTC, overweight equal-weight/EM for 2026",
+    "2025_recap": "Predicted big H1 drop then rally to 7000 - correct. Predicted $3500 gold - correct. Missed BTC $150K.",
+    "2026_outlook": {
+      "spx": "7500 by end of Q2, potential continued rally",
+      "rotation": "RSP > IWM > SPY > QQQ > SOXX",
+      "gold": "Cautious short-term, wait for pullback to $4200 to reload",
+      "silver": "$100+ by year end",
+      "btc": "Multi-quarter bull case starting late Dec 2025"
+    }
+  },
+  "actionable_insights": [
+    {
+      "insight": "Rotate from cap-weighted (SPY/QQQ) to equal-weight (RSP) and EM (EEM) for 2026",
+      "actionable": true,
+      "action_type": "sector_rotation"
+    },
+    {
+      "insight": "Wait for gold pullback to ~$4200 before adding to PM positions",
+      "actionable": true,
+      "action_type": "timing"
+    },
+    {
+      "insight": "BTC rotation trade starting - expects multi-quarter move higher",
+      "actionable": true,
+      "action_type": "crypto_entry"
+    },
+    {
+      "insight": "Silver target $82-88 for pause, $100+ by end 2026",
+      "actionable": true,
+      "action_type": "target"
+    },
+    {
+      "insight": "Long-dated LEAP calls on fintech (SOFI, HOOD) as multi-year bets",
+      "actionable": true,
+      "action_type": "position_sizing"
+    }
+  ],
+  "recommendations": [
+    {
+      "date": "2025-12-28",
+      "ticker": "BTC",
+      "name": "Bitcoin",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Rotating PM profits into BTC for multi-quarter trade. Third largest holding.",
+      "time_horizon": "multi-quarter"
+    },
+    {
+      "date": "2025-12-18",
+      "ticker": "BABA",
+      "name": "Alibaba",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Qwen LLMs leading, reasonable valuation, China stimulus. Large position opened.",
+      "metrics": {
+        "options": "March 170/180 call debits, June 200 calls"
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "ticker": "HOOD",
+      "name": "Robinhood",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Best short-term play, AI day catalyst. Target $130.",
+      "metrics": null
+    },
+    {
+      "date": "2025-12-11",
+      "ticker": "RSP",
+      "name": "Invesco S&P 500 Equal Weight",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Overweight for 2026 rotation trade. $230 target by June.",
+      "metrics": {
+        "options": "June 2026 $220 calls"
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "ticker": "SLV",
+      "name": "iShares Silver Trust",
+      "signal": "hold",
+      "confidence": "high",
+      "text": "Long-term very bullish, but taking options profits short-term. Silver to $100+ by end 2026.",
+      "metrics": {
+        "target": "$100+ by end 2026"
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "ticker": "EEM",
+      "name": "iShares MSCI Emerging Markets",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Prefers EM over IWM for catch-up trade. Diversified China exposure.",
+      "metrics": null
+    },
+    {
+      "date": "2025-10-09",
+      "ticker": "SOFI",
+      "name": "SoFi Technologies",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Long-term conviction, expects $100+ in 2+ years.",
+      "metrics": {
+        "options": "Jan 2028 $40 calls at $8"
+      }
+    }
+  ],
+  "investment_philosophy": [
+    {
+      "quote": "Sow while others reap. Reap when others sow.",
+      "summary": "Contrarian timing - sell when consensus is bullish, buy when cautious",
+      "category": "philosophy"
+    },
+    {
+      "quote": "Buy when there is fear and caution. Sell when everyone is convinced 8000 on the imminent horizon",
+      "summary": "Counter-consensus trading",
+      "category": "philosophy"
+    },
+    {
+      "quote": "Sometimes things a year off, or in the case of silver, a decade or two.",
+      "summary": "Patience required for macro themes to play out",
+      "category": "lesson"
+    }
+  ]
+}

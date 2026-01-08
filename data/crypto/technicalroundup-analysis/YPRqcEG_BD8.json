@@ -1,0 +1,138 @@
+{
+  "source_id": "YPRqcEG_BD8",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-12-01",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Monthly time frame analysis - BTC closed above 35k resistance but at 37.5k resistance level",
+      "quote": "like in general uh I think it's much much like it's more bullish now than was last month like this that's cuz it went up done yeah it's considerably better close in in my opinion",
+      "price_levels": [
+        "$35,000",
+        "$37,200",
+        "$38,000",
+        "$40,000",
+        "$60,000"
+      ],
+      "timeframe": "short-term|medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "Duck",
+      "context": "ETF news-driven rally concerns - worried about sell the news event and proximity to invalidation points",
+      "quote": "I have big problems buying into like okay yeah like into reclaims or whatever um just based on the fact that news driven rallies um Can quickly kind of just retrace what they buying them late is the specific problem",
+      "price_levels": [
+        "$35,000",
+        "$37,500"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Weekly breakout from diagonal grind-up structure with higher lows",
+      "quote": "I think like if this is a slow breakout that actually turns into a failed breakout those are the worst ones that you can see so either it's like it's going to grind up and don't stop and then get a proper pop afterwards which is basically means a bunch of people are shorting it um",
+      "price_levels": [
+        "$38,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "ETH/BTC ratio underperforming, stuck below key resistance, weak compared to BTC",
+      "quote": "I think if you want to short something it should be eth uh and if you want a long something it should be Bitcoin um until further notice",
+      "price_levels": [
+        "$1,935",
+        "$2,000",
+        "$2,100"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "ETH/BTC ratio stuck below 0.57 despite ETF news",
+      "quote": "still below 057 which if the market is any semblance of strong should be a pathetic resistance to reclaim and this whole thing should just be like a nonsensical deviation",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BNB",
+      "asset_name": "Binance Coin",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "BNB/BTC pair looking terrible, regulatory concerns about Binance",
+      "quote": "oh yeah look BNB BTC that's horrendous... holy... I mean I would say four but I guess three is the new thing did you see that oh I mean that's the most bearish thing I've ever seen",
+      "price_levels": null,
+      "timeframe": "medium-term|long-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$35,000",
+        "$37,200",
+        "$38,000"
+      ],
+      "ETH": [
+        "$1,935",
+        "$2,100"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin showing bullish monthly close above 35k resistance, but proximity to invalidation points makes swing trading difficult",
+    "Market appears to be pricing in ETF news significantly with CME open interest at all-time highs above Binance",
+    "Concerns about 'sell the news' event when ETF decision window opens January 5-10",
+    "ETH underperforming Bitcoin significantly, potential short target relative to BTC",
+    "MicroStrategy now profitable on BTC holdings, continuing to accumulate"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$35,000-$37,000 range",
+      "target": "$60,000",
+      "stop": "$32,000-$33,000",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "current levels or on failure at $2,100",
+      "target": "lower vs BTC",
+      "stop": "above $2,100",
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "BTC closed December with a bullish monthly close above the key 35k resistance level, but both hosts remain cautious due to the news-driven nature of the rally and proximity to invalidation points. ETF approval window January 5-10 is the key catalyst, with concerns about a 'sell the news' event. ETH/BTC ratio is showing significant weakness despite ETF news, making it a potential short target while BTC remains the preferred long. CME futures open interest has reached all-time highs, suggesting institutional positioning ahead of the ETF decision.",
+  "transcript_word_count": 33585,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:10:36.228934"
+}

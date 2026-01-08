@@ -1,0 +1,474 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-12-05-149d",
+  "podcast_name": "Market Makers",
+  "episode_title": "#111 Number One",
+  "episode_number": 111,
+  "date": "2019-12-05",
+  "hosts": [
+    "Fabian",
+    "Niklas"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Börssentiment",
+    "Berkshire Hathaways missade investeringar",
+    "Inflation och ekonomisk politik",
+    "App-ekonomi och plattformsmonopol",
+    "Undervärderade sektorer"
+  ],
+  "stocks_discussed": [
+    "Berkshire Hathaway",
+    "American Express",
+    "Mastercard",
+    "Visa",
+    "Costco",
+    "Microsoft",
+    "IBM",
+    "Apple",
+    "Netflix",
+    "Facebook",
+    "Google",
+    "Expedia",
+    "TripAdvisor",
+    "Kindred",
+    "Loomis",
+    "GameStop"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Kindred",
+      "ticker": "KIND-SDB",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[38:32]",
+      "reasoning": "PE på 13, direktavkastning 10%, starkast bolag i en utbombad bettingsektor. Förväntar konsolidering i sektorn och Staffan Persson äger bolaget. Billig värdering men kortare diskussion.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Kindred, de hade vi med av slutet 86. Det är en riktigt utbombad sektor just nu med betting och gambling och så vidare. De lyfter ju vi som just det här exempelet av ska du köpa det starkaste bolaget i en svag sektor så är det kanske Kindred.",
+      "sector": "Gambling/Betting",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOM-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[39:04]",
+      "reasoning": "Handlas till P18, levererar starkt aktieägarvärde och tillväxt. Kontanter växer globalt trots utdöende i Sverige. Intressant värderingsnivå.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Loomis nämnde jag ju, de var ju med avsnitt 68, handlas till P18 nu, det är ändå hyfsat billigt tycker jag för det här bordret som levererar ett otroligt aktieägarvärde och en otrolig tillväxt.",
+      "sector": "Financial Services/Cash Handling",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "GameStop",
+      "ticker": "GME",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[39:26]",
+      "reasoning": "Handlas till price-to-sales på 0,07 (konkursnivå), direktavkastning 24%. Utbombad sektor men Joel Greenblatt och Bill Ackman är positiva. Value trap eller deep value?",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "GameStop handlas just nu till ett price of sales på 0,07. Det är alltså priset för konkurs egentligen. Direktavkastningen är ju på hela 24%. Kan det här bolaget, det här är ett typiskt exempel på, kan det här bolaget då som är helt utbombat, kan det faktiskt bara överleva i princip, så har det ju faktiskt en otrolig uppsida i det.",
+      "sector": "Retail/Gaming",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Berkshire Hathaway - Missade möjligheter",
+      "ticker": "BRK-B",
+      "timestamp_start": "[08:07]",
+      "timestamp_end": "[11:32]",
+      "word_count": 450,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Diskussion om hur även världens bästa investerare som Warren Buffett och Charlie Munger missade enorma möjligheter trots att de hade alla förutsättningar. Buffett missade Mastercard och Visa trots 50 års erfarenhet av American Express. Munger satt i Costcos styrelse i 22 år men Berkshire tog för liten position för sent. Visar hur svårt det är att identifiera vinnare i realtid.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Warren Buffett har cirka 50 års exponering och erfarenhet av American Express. Och givet det så tycker man att han skulle vara väldigt väl positionerad för att investera i till exempel Mastercard och Visa, som har varit extremt stora värdeskapare det senaste decenniet.",
+          "timestamp": "[08:25]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Berkshire har anlitat några nya investerare och de har tagit en liten position om 1,5% av portföljen, men det är lite för lite lite för sent. Det här visar ju väldigt väl hur svårt det är att pricka rätt, även om det ser ut eftersom man har haft alla korten på bordet.",
+          "timestamp": "[10:09]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Microsoft upp 657% senaste bullmarknaden. Jag har helt enkelt sammanfattning här att om du har missat en investering i en aktie, kände det inte så dålig för att du har troligtvis inte den enda som har gjort det.",
+          "timestamp": "[10:35]",
+          "context": "insight"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Google & Plattformsmonopol",
+      "ticker": "GOOGL",
+      "timestamp_start": "[24:55]",
+      "timestamp_end": "[29:39]",
+      "word_count": 500,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Analys av hur Google dominerar sökmarknaden och skapar problem för företag som Expedia och TripAdvisor genom nya moduler som visar hotell direkt i sökresultaten. Diskussion om plattformsmonopol som adderar värde för användare men skapar svåra odds för konkurrenter.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Google och till exempel de här bokningsföretagen förut samarbetade de för att bokningsföretagen skulle kunna klättra upp och hamna över organiska resultat. Men nu har Google infört till exempel nya hotellmoduler som direkt i sökningen visar hotell i området du söker på.",
+          "timestamp": "[26:52]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det är extremt användbart och värdefullt för slutanvändaren som mig och Niklas, eller du som lyssnar på podden. Men det här är ju inte så värdefullt för företagen som fastnar i mitten som TripAdvisor.",
+          "timestamp": "[27:20]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det finns en negativ. Vad är risken framförallt för aktieägarna? En stor fråga är, ska man bryta upp plattformarna? Då kan vi ställa oss frågan, är det här en risk eller kommer det att addera värde in the long run?",
+          "timestamp": "[29:20]",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "120% (5 år)",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Extrem pricing power i sök",
+          "Nya moduler som visar hotell direkt i sökresultaten",
+          "Ökar värde för slutanvändare"
+        ],
+        "bear_case": [
+          "Regulatorisk risk - kan brytas upp",
+          "Skapar monopolställning svår att konkurrera mot"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Reglering av plattformsmonopol"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Kindred - Värde i utbombad sektor",
+      "ticker": "KIND-SDB",
+      "timestamp_start": "[38:32]",
+      "timestamp_end": "[39:50]",
+      "word_count": 350,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Kindred presenteras som exempel på att köpa det bästa bolaget i en svag sektor. Bettingsektorn är utbombad men Kindred är starkast med PE 13 och 10% direktavkastning. Staffan Persson äger bolaget och tror på konsolidering.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Kindred, de hade vi med av slutet 86. Det är en riktigt utbombad sektor just nu med betting och gambling och så vidare. De lyfter ju vi som just det här exempelet av ska du köpa det starkaste bolaget i en svag sektor så är det kanske Kindred.",
+          "timestamp": "[38:32]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Just nu så är PE på 13 på Kindred, det har gått otroligt svagt och direktavkastningen på hela 10%.",
+          "timestamp": "[38:45]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Staffan Persson är faktiskt ägare i Kindred som jag sa och han tror att de kommer att vara väldigt väl lämpar för att kunna navigera den här marknaden när man ska konstrueras.",
+          "timestamp": "[38:56]",
+          "context": "insight"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "13",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "10%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Starkast bolag i svag sektor",
+          "Låg värdering PE 13",
+          "Hög direktavkastning 10%",
+          "Staffan Persson äger bolaget"
+        ],
+        "bear_case": [
+          "Sektorn är utbombad och negativ sentiment",
+          "Direktavkastningen kanske inte består"
+        ],
+        "catalysts": [
+          "Konsolidering i bettingsektorn"
+        ],
+        "risks": [
+          "Sektorsrisk",
+          "Regleringsrisk"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "GameStop - Value trap eller deep value?",
+      "ticker": "GME",
+      "timestamp_start": "[39:26]",
+      "timestamp_end": "[41:51]",
+      "word_count": 400,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "GameStop är en utbombad fysisk spelbutik som handlas till konkursnivåer (P/S 0,07) med 24% direktavkastning. Trots att retail döds och digital streaming hotar, menar gäster att Joel Greenblatt och Bill Ackman är positiva. Diskussion om value traps.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "GameStop handlas just nu till ett price of sales på 0,07. Det är alltså priset för konkurs egentligen. Direktavkastningen är ju på hela 24%.",
+          "timestamp": "[39:26]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Kan det här bolaget, det här är ett typiskt exempel på, kan det här bolaget då som är helt utbombat, kan det faktiskt bara överleva i princip, så har det ju faktiskt en otrolig uppsida i det.",
+          "timestamp": "[39:35]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det är ju ett bolag som, det ser ju ut som en value trap, utan tvekan, det ser ut som, går in med pengar, kommer och förlorar alla pengar du har och det är därför att det är så otroligt intressant att titta på.",
+          "timestamp": "[40:26]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "0,07",
+        "fcf_yield": null,
+        "dividend_yield": "24%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Extrem låg värdering P/S 0,07",
+          "Hög direktavkastning 24%",
+          "Joel Greenblatt och Bill Ackman är positiva"
+        ],
+        "bear_case": [
+          "Retail döds",
+          "Digital streaming av spel",
+          "Klassisk value trap"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Digitalt konkurrenshot",
+          "Retail döds"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Generellt ska man alltid akta sig för att titta på någonting som har gått upp väldigt mycket. Eller snarare gräma sig över det. För att du ska titta på någonting och fundera på är det fortfarande värt att köpa i sånt fall. Men det är väldigt lätt att titta på något har det gått väldigt väldigt bra så är det lätt att tänka oj det där skulle jag ha varit med på och så köper man idag bara för att det har gått bra tidigare. Och det är helt fel sätt att göra det på.",
+      "summary": "Varning mot att investera baserat på tidigare uppgångar - ska man köpa idag måste man utvärdera om det fortfarande är värt att köpa.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[11:33]",
+      "confidence": "high",
+      "tags": [
+        "momentum",
+        "behavioral finance",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Om man inte var med på bitcoin-resan för den kommer aldrig komma igen. Alla andra bolag kommer att finnas chanser med igen men inte med bitcoin.",
+      "summary": "Bitcoin är unikt som en one-time opportunity, medan aktier har återkommande möjligheter.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[12:23]",
+      "confidence": "medium",
+      "tags": [
+        "bitcoin",
+        "opportunity cost",
+        "unique opportunities"
+      ]
+    },
+    {
+      "quote": "Howard Marks säger att en riktigt bra investering kommer alltid kännas jävligt dålig till magen.",
+      "summary": "De bästa investeringarna känns ofta obekväma när man köper eftersom motståndet är högt och sentimentet negativt.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[37:39]",
+      "confidence": "high",
+      "tags": [
+        "value investing",
+        "contrarian",
+        "psychology"
+      ]
+    },
+    {
+      "quote": "Om du inte investerar i Apple, inte investerar i Netflix eller Facebook eller whatever, om även Warren Buffett och Charlie Munger gör de här misstagen så är det inte konstigt att du gör det också.",
+      "summary": "Även världens bästa investerare missar stora möjligheter - det är normalt och inget att känna sig dålig över.",
+      "category": "lesson",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "[12:11]",
+      "confidence": "high",
+      "tags": [
+        "mistakes",
+        "FOMO",
+        "Buffett"
+      ]
+    },
+    {
+      "quote": "Det finns ingen som inte är en bra investering till rätt pris, får du bara tillräckligt billigt så kommer det alltid vara intressant. Och det handlar som sagt om förväntningar.",
+      "summary": "Alla bolag kan bli bra investeringar om priset är tillräckligt lågt - det handlar om förväntningar och värdering.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[36:58]",
+      "confidence": "high",
+      "tags": [
+        "value investing",
+        "valuation",
+        "expectations"
+      ]
+    },
+    {
+      "quote": "Bra bolag inte behöver betyda bra investeringar också för att är det för dyr prislapp så är det ju inte en intressant investering. Vänder man på det så betyder ju också att dåliga bolag inte behöver betyda dåliga investeringar.",
+      "summary": "Kvalitativa bolag kan vara dåliga investeringar om de är för dyra, och dåliga bolag kan vara bra investeringar om de är tillräckligt billiga.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[36:51]",
+      "confidence": "high",
+      "tags": [
+        "value investing",
+        "quality",
+        "price vs value"
+      ]
+    },
+    {
+      "quote": "Man vill köpa det bästa bolaget i den billigaste sektorn. Det kan ju vara så att man har rätt i sig att sektorn är kass, men det finns något bolag där som verkligen presterar.",
+      "summary": "Strategi att hitta vinnare i ogillade sektorer där förväntningarna är låga och värderingarna billiga.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[35:55]",
+      "confidence": "high",
+      "tags": [
+        "contrarian",
+        "sector rotation",
+        "expectations"
+      ]
+    },
+    {
+      "quote": "Negativa räntor har visat sig leda till att folk sparar mer. Vilket är inte så konstigt eftersom de ser att deras sparade pengar inte ger någon avkastning. Då kommer de känna sig manna att spara mer eftersom de inte kan förlita sig på att pengarna ska växa sig självt.",
+      "summary": "Negativa räntor får paradoxalt nog folk att spara mer, inte konsumera mer, eftersom de inte litar på att räntan ska skapa avkastning.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "[20:00]",
+      "confidence": "medium",
+      "tags": [
+        "interest rates",
+        "savings",
+        "central banks"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "quote": "Om man inte var med på bitcoin-resan för den kommer aldrig komma igen. Alla andra bolag kommer att finnas chanser med igen men inte med bitcoin.",
+      "context": "Diskussion om missade möjligheter och hur Bitcoin är unik som en once-in-a-lifetime opportunity",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "lång sikt"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar hur även världens bästa investerare som Warren Buffett missade stora möjligheter i Mastercard, Visa, Costco och Microsoft. Därefter analyseras inflation, plattformsmonopol (Google) och hur företag som Expedia drabbas. Slutligen lyfts tre värdebolag (Kindred, Loomis, GameStop) som exempel på att köpa det bästa bolaget i en utbombad sektor.",
+  "key_takeaways": [
+    "Även Buffett och Munger missade enorma uppgångar - det är normalt och inget att känna sig dålig över",
+    "Negativa räntor får folk att spara mer, inte mindre",
+    "Plattformsmonopol som Google skapar enormt värde för användare men svåra odds för konkurrenter",
+    "Leta efter det bästa bolaget i den billigaste sektorn - förväntningar driver värdering",
+    "Kindred, Loomis och GameStop är exempel på value plays i utbombade sektorer"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-12-05-149d.txt",
+  "transcript_word_count": 8883,
+  "has_timestamps": true,
+  "model_used": "manual"
+}

@@ -1,0 +1,148 @@
+{
+  "source_id": "dl6L5sB0UNw",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-07-17",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "BTC is stuck in a narrow range between 29.9-31.2k, with failed breakout attempts despite positive news",
+      "quote": "the market feels heavy because it hasn't been that we've had bad news that's being absorbed and we trade back into the range it's been the opposite the good news is being absorbed and pushes us back into the range",
+      "price_levels": [
+        "$29.8-29.9",
+        "$30.5",
+        "$31.2",
+        "$28"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH struggling at $2000 level, with resistance at $1930 and clear downtrend structure",
+      "quote": "this is quite a clear downtrending structure in Eve BTC you know high low lower high lower low",
+      "price_levels": [
+        "$1800",
+        "$1930",
+        "$2500",
+        "$420"
+      ],
+      "timeframe": "short-to-medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum/Bitcoin",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "ETH/BTC showing textbook bearish market structure with lower highs and lower lows",
+      "quote": "this is quite a clear downtrending structure in Eve BTC you know high low lower high lower low lower high lower low lower high lower low",
+      "price_levels": [
+        "0.0575-0.0576",
+        "0.042"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "XRP",
+      "asset_name": "XRP",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as positive legal news (SEC case win) but market didn't respond positively",
+      "quote": "we have the xrp case which made the SEC look very weak and pathetic a barrage of good news essentially and the market was still willing to sell into it",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "S&P 500 approaching resistance at 45, which could be concerning for crypto if it makes new highs while BTC stays at 30k",
+      "quote": "if the s p is essentially making new all-time highs or close uh and Bitcoin is still stuck at 30k I mean even this entire diverging leg of the monthly breakout",
+      "price_levels": [
+        "$43-45",
+        "$46"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$28",
+        "$29.8-29.9",
+        "$30.5",
+        "$31.2"
+      ],
+      "ETH": [
+        "$1800",
+        "$1930",
+        "$2000",
+        "$2500"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC stuck in narrow range (29.9-31.2k) despite positive news flow including European BTC ETF approval and Larry Fink support",
+    "Market absorbing good news rather than reacting positively, indicating sellers are in control",
+    "ETH/BTC showing textbook downtrend with lower highs and lower lows",
+    "Failed breakout at 31.2k is concerning as it suggests resistance is strong",
+    "S&P 500 divergence could create additional headwinds if equities pull back while crypto remains stagnant",
+    "BTC key support at 28k - below that would invalidate the ETF rally structure"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "$31.2 on failed breakout",
+      "target": "$29.8-29.9 range low",
+      "stop": "$31.5+",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$28 on range breakdown reclaim",
+      "target": "Back to $30-31 range",
+      "stop": "$27.5",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH/BTC",
+      "direction": "short",
+      "entry": "Current downtrend continuation",
+      "target": "$0.0575-0.0576, then $0.042",
+      "stop": "Above recent lower high",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Failed breakdown at $29",
+      "target": "Back to $31.2",
+      "stop": "$28.5",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC remains stuck in a narrow range between 29.9-31.2k despite positive catalysts including European BTC ETF approval and Larry Fink's support. The market is absorbing good news and pushing price back down, suggesting sellers are in control. ETH is struggling at the $2000 level with strong resistance at $1930, while ETH/BTC pair is showing a clear downtrend structure. Key support levels to watch are $28k for BTC and $1800 for ETH - breaks below these would be bearish continuation signals.",
+  "transcript_word_count": 11461,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:53:52.497445"
+}

@@ -1,0 +1,370 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kvalitetforpengarna-2025-08-15-4ab2",
+  "podcast_name": "Kvalitet För Pengarna",
+  "episode_title": "Hur man analyserar en aktie på 3 minuter",
+  "episode_number": null,
+  "date": "2025-08-15",
+  "hosts": [
+    "Fredrik"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Aktieanalys",
+    "Onoterade aktier",
+    "Värdering",
+    "3-minuters analys",
+    "Hemnet",
+    "Clas Ohlson",
+    "Berner Industries"
+  ],
+  "stocks_discussed": [
+    "Hemnet",
+    "Clas Ohlson",
+    "Berner Industries",
+    "Dynamic Code"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Hemnet",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Hemnet har fantastiska nyckeltal (ROE 47.9%, fri kassaflödesmarginal 38.7%, låg skuldsättning 0.6x EBITDA) men är extremt högt värderat. P/S på 44.9 jämfört med historiskt snitt 49.3, P/E 15.9 vs historiskt 15. Ingen 40% margin of safety. Kräver fantastisk tillväxt under lång tid för att motivera värderingen, vilket vågar inte satsa på.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här är ju en siffra som jag normalt sett inte investerar i, så redan här kan jag säga att det här kommer jag inte att titta vidare på. Så både det höga pietalet och det lilla avståndet till historisk snitt gör att jag inte går vidare med denna och inte investerar i den i dagsläget.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "P/S 44.9 kräver så fantastiskt stor tillväxt under fantastiskt många år",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Clas Ohlson",
+      "ticker": "CLAS-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Clas Ohlson är ett kvalitetsbolag (ROE 37%, fri kassaflödesmarginal 14.4%, skuldsättning 0.4x EBITDA) med 5% omsättningstillväxt och 13.7% vinsttillväxt. Värdering är dock hög: P/S 1.9 vs historiskt 0.9, P/E 24.9 vs snitt 28. Ingen 40% margin of safety. Värt att titta vidare på men inte köpläge just nu.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så inte köpläge idag, men kanske värt att titta vidare på.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "P/S nästan dubbelt så högt som historiskt",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Berner Industries",
+      "ticker": "BERG-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Berner Industries är övervärderat efter stark kursuppgång. P/E 30 bakåtblickande vs historiskt snitt 18.5 och min riktkurs P16. P/S 1.5 vs historiskt 0.8. Prognos för 2027 visar vinst 3.80 kr, vilket ger P/E 20. Fair value beräknas till 61 kr vs dagens kurs 67.40, vilket ger minus 20% margin of safety. Rekommenderar att ta hem vinst.",
+      "price_target": 61,
+      "time_horizon": "2027",
+      "quote": "Min analys säger mig att Berner Industrier är för högt värderat i dagsläget. Det är sälj på den här. Den ska inte finnas kvar i någon aktiv portfölj för mig.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": "Har liten post i kvalitetsfond",
+      "downside_note": "20% nersida till fair value 61 kr",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Hemnet",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 200,
+      "speakers": [
+        "Fredrik"
+      ],
+      "primary_speaker": "Fredrik",
+      "discussion_summary": "Hemnet analyserades med 3-minutersmetoden visade fantastiska lönsamhetstal (ROE 47.9%, fri kassaflödesmarginal 38.7%) och stark tillväxt (22% omsättningstillväxt, 40%+ vinsttillväxt) men extrem värdering med P/S 44.9 gjorde det ointressant. Analys tog 2 minuter 44 sekunder.",
+      "quotes": [
+        {
+          "speaker": "Fredrik",
+          "text": "Return on Equity. Och är detta ett kvalitetsbolag? Ja, 47,9 % Return on Equity. En helt galet bra avkastning. Fri kassaflödesmarginal har vi på 38,7 %. Väldigt långt över de här 5 % som jag satte.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "pietalet 44,9 idag jämfört med 15 historiskt. Det här är ju en siffra som jag normalt sett inte investerar i",
+          "timestamp": null,
+          "context": "valuation"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Pietal på 45 kräver så fantastiskt stor tillväxt under fantastiskt många år, vilket jag inte vågar satsa på.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 15.9,
+        "ev_ebitda": null,
+        "ev_sales": 44.9,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "22%",
+        "margin": null,
+        "debt_level": "0.6x EBITDA",
+        "custom": [
+          "ROE 47.9%",
+          "FCF margin 38.7%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Extremt hög lönsamhet med ROE 47.9%",
+          "Fantastisk fri kassaflödesmarginal 38.7%",
+          "Stark tillväxt 22% omsättning, 40%+ vist",
+          "Låg skuldsättning 0.6x EBITDA"
+        ],
+        "bear_case": [
+          "Extremt hög värdering P/S 44.9",
+          "Kräver fantastisk tillväxt under lång tid",
+          "Ingen margin of safety"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Värdering kräver orealistisk tillväxt"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Clas Ohlson",
+      "ticker": "CLAS-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 200,
+      "speakers": [
+        "Fredrik"
+      ],
+      "primary_speaker": "Fredrik",
+      "discussion_summary": "Clas Ohlson visade sig vara ett kvalitetsbolag med ROE 37%, fri kassaflödesmarginal 14.4% och låg skuldsättning. Tillväxt är måttlig med 5% omsättning men 13.7% vistillväxt. Värdering är hög med P/S 1.9 vs historiskt 0.9 men P/E 24.9 är under snitt 28. Analys tog 2 minuter 47 sekunder.",
+      "quotes": [
+        {
+          "speaker": "Fredrik",
+          "text": "Return on Equity på Clas Ohlson är 37 procent. Det är över det sjuåriga snittet som ligger på 20.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "I dagsläget kostar de 1,9 gånger omsättningen, pias 1,9 alltså, och historiskt så har den snittat på 0,9.",
+          "timestamp": null,
+          "context": "valuation"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Tittar vi på pietalet, 24,9. Lite överkant, jättefin kvalitet och fina marginal och sånt, men inte superhög tillväxt på omsättningen då.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 24.9,
+        "ev_ebitda": null,
+        "ev_sales": 1.9,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "5%",
+        "margin": null,
+        "debt_level": "0.4x EBITDA",
+        "custom": [
+          "ROE 37%",
+          "FCF margin 14.4%",
+          "Profit growth 13.7%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hög ROE 37% över historiskt snitt 20%",
+          "Bra kassaflöde 14.4% margin",
+          "Låg skuldsättning",
+          "Vinsttillväxt 13.7%"
+        ],
+        "bear_case": [
+          "Hög P/S 1.9 vs historiskt 0.9",
+          "Måttlig omsättningstillväxt 5%",
+          "P/E 24.9 ganska högt"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Värderingen kan vara för optimistisk"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Berner Industries",
+      "ticker": "BERG-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 600,
+      "speakers": [
+        "Fredrik"
+      ],
+      "primary_speaker": "Fredrik",
+      "discussion_summary": "Berner Industries har gått från P16 värdering i november till P30 idag efter kursuppgång. Bolaget visar återhämtning med 7% omsättningstillväxt och vinsten som vände uppåt i Q1 2025. Prognoser för 2025-27 visar vinsttillväxt till 3.80 kr 2027, men även då ger det P/E 20. Fair value beräknas till 61 kr vs dagens 67.40 kr, vilket innebär minus 20% margin of safety. Säljrekommendation.",
+      "quotes": [
+        {
+          "speaker": "Fredrik",
+          "text": "De handlas idag till P30 bakåtblickande. Som jag sa så var det ju lite dålig marginal för några kvartal sedan.",
+          "timestamp": null,
+          "context": "valuation"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Snittet på den här aktien är någonstans på 18,5. Och jag brukar värdera dem som jag sa innan på kanske P16.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Netterskuld genom EBDA ligger på 1,4 på Berner Industrier. Så en bra situation när det gäller skuldsättning.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Sätter jag då in 3,20, 3,50, 3,80 i min modell, så får jag p-tal som ligger på 24, för detta året 22, lite knappt för nästa år, och på 20 för 2027.",
+          "timestamp": null,
+          "context": "valuation"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Och jag får då en fair value, en riktkurs på den här aktien, som är 61 kronor. 61 kronor är under dagens kurs på 67,40. Och jag får en margin of safety på minus 20 procent.",
+          "timestamp": null,
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fredrik",
+          "text": "Min analys säger mig att Berner Industrier är för högt värderat i dagsläget. Det är sälj på den här.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 30,
+        "ev_ebitda": 22.6,
+        "ev_sales": 1.5,
+        "fcf_yield": null,
+        "dividend_yield": "1.2%",
+        "revenue_growth": "7%",
+        "margin": "5%",
+        "debt_level": "1.4x EBITDA",
+        "custom": [
+          "ROE 18%",
+          "FCF margin 5.8%",
+          "Profit growth 3.3%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Återhämtning på gång, vinsten vände Q1 2025",
+          "7% omsättningstillväxt historiskt",
+          "Bra ROE 18% i linje med snitt",
+          "Nettoskuld 1.4x EBITDA hanterbar"
+        ],
+        "bear_case": [
+          "P/E 30 vs historiskt snitt 18.5",
+          "P/S 1.5 vs historiskt 0.8 - mycket högt värderad",
+          "Vinsttillväxt bara 3.3% på rullande 12 månader",
+          "Fair value 61 kr under nuvarande kurs 67.40 kr"
+        ],
+        "catalysts": [
+          "Återhämtning av lönsamhet Q1-Q2 2025",
+          "Tillväxttakt kan öka till 7-10% framåt"
+        ],
+        "risks": [
+          "Värdering kräver att hög P/E kvarstår",
+          "Låg vinsttillväxt om marginaler ej förbättras"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag tror inte det är en bra idé att satsa mycket pengar på ett förhoppningsbolag som i framtiden ska kunna bli bra, eller som i mitt fall ska kunna omvandlas till pengar när det väl börs noteras.",
+      "summary": "Varning mot onoterade förhoppningsbolag där exitstrategin bygger på framtida noteringar. Fokusera på bolag som bygger värden och tjänar pengar idag.",
+      "category": "lesson",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "onoterade aktier",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Och en tumregel där brukar vara absolut högst 3, men helst under 2, va? Och i sådana tider som det är nu, så brukar jag nästan alltid titta under 2.",
+      "summary": "Använd konservativa skuldmått. Nettoskuld/EBITDA under 2 är viktigt, särskilt i osäkra marknadsmiljöer.",
+      "category": "wisdom",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "skuldsättning",
+        "kvalitet"
+      ]
+    },
+    {
+      "quote": "Så kan man tänka, med det som de pratar om i sin pod, så går det också att göra det. Men jag tror man ska vara försiktig med det. Eller såhär, man ska inte köpa aktiebaserat bara på detta, utan jobba vidare på caset när du hittat något bra.",
+      "summary": "3-minutersanalys är ett bra screeningverktyg för att filtrera bort ointressanta bolag, men aldrig köpa en aktie baserat bara på snabb screening.",
+      "category": "wisdom",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "analysmetod",
+        "screening"
+      ]
+    },
+    {
+      "quote": "Och där får vi någon slags margin of safety-aktig faktor i alla fall, som hjälper oss att ta ett beslut om vad vi tycker om det.",
+      "summary": "Margin of safety är kritiskt för värdeinvestering. Sök minst 40% potential i P/E-ökning till historiskt snitt.",
+      "category": "philosophy",
+      "speaker": "Fredrik",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "margin of safety",
+        "värdering"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "cautious",
+  "summary": "Avsnittet diskuterar farorna med onoterade aktier genom fallet Dynamic Code som gick i konkurs, testar en 3-minuters analysmetod på Hemnet och Clas Ohlson, samt gör en djupare analys av Berner Industries som bedöms övervärderad med säljrekommendation.",
+  "key_takeaways": [
+    "3-minutersanalys kan snabbt filtrera bort dåliga investeringsmöjligheter men aldrig köpa baserat bara på screening",
+    "Hemnet är extremt högt värderad (P/S 44.9) och undviks trots fantastiska nyckeltal",
+    "Clas Ohlson är ett kvalitetsbolag men för högt värderat just nu, värd att titta vidare på",
+    "Berner Industries är övervärderad efter kursuppgång, sälj rekommenderas på 67.40 kr med fair value 61 kr",
+    "Onoterade aktier i förhoppningsbolag är riskabla - fokusera på bolag som redan tjänar pengar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kvalitetforpengarna/transcripts/kvalitetforpengarna-2025-08-15-4ab2.txt",
+  "transcript_word_count": 7956,
+  "has_timestamps": false,
+  "model_used": "glm-4.7"
+}

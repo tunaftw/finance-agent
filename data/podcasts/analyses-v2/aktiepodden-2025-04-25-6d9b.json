@@ -1,0 +1,400 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2025-04-25-6d9b",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "218. IMF, guld och bud",
+  "episode_number": 218,
+  "date": "2025-04-25",
+  "hosts": [
+    "Lars",
+    "Rick",
+    "Jakob Svensson"
+  ],
+  "guests": [],
+  "main_topics": [
+    "IMF prognos",
+    "Guld",
+    "Volvo Q1",
+    "Getinge Q1",
+    "Biotage bud"
+  ],
+  "stocks_discussed": [
+    "Volvo",
+    "Getinge",
+    "Biotage"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Volvo",
+      "ticker": "VOLV-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Lars/Rick",
+      "speaker_role": "host",
+      "timestamp": "12:19",
+      "reasoning": "Blandad rapport med svagare lönsamhet men stark balansräkning och fortsatt över målmarginal på 10,9%. Ordraboken starkare än väntat (55k mot väntade 52k). Valuation ser inte ansträngt ut historiskt men prognoser sänkta. Positivt för Europa som skyddat från tullar. Osäkerhet kring tullar men relativt tryggt bettom med finansiell styrka.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "så det känns väl ändå som ett relativt tryggt bettom",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Getinge",
+      "ticker": "GETI-B",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Rick/Lars",
+      "speaker_role": "host",
+      "timestamp": "16:21",
+      "reasoning": "Tillväxttakten mattats i Q1 (6% organisk vs 9% i Q4). Orderingång svagare (3% vs 7% i Q4). Helårsprognos spretig 2-5%. Tillväxt är enbent beroende av akutvård (58% av omsättningen). Geografiskt svag i Europa (2% tillväxt) medan Amerika (8%) mer utsatt för tullar. Återkommande kvalitetsproblem 23-24 ger hög riskpremie.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så att jag kan ändå förstå att det blev lite negativ reaktion där på rapporten faktisk",
+      "sector": "MedTech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Guld",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Rick",
+      "speaker_role": "host",
+      "timestamp": "07:08",
+      "reasoning": "Guld slog nytt all time high över 3500 dollar per uns, upp 30% hittills i år - bästa tillgångsklassen. Centralbanker köpte rekord mycket guld (>1000 ton/år tredje året i rad). ETF efterfrågan ökar samtidigt som utbud är begränsat (+1% per år). Inflationsskydd, centralbanker vill minska beroendet av dollarn. Penningpolitisk oro stöder efterfrågan.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så guld, trots det höga priset, kan nog fortsätta vara intressant",
+      "sector": "Råvaror",
+      "market": "global",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Volvo",
+      "ticker": "VOLV-B",
+      "timestamp_start": "08:23",
+      "timestamp_end": "12:38",
+      "word_count": 450,
+      "speakers": [
+        "Jakob",
+        "Lars",
+        "Rick"
+      ],
+      "primary_speaker": "Jakob",
+      "discussion_summary": "Volvo Q1 rapport visade svagare än väntat med omsättning -7% och marginal 10,9% mot väntade 11,9%, men ordrabock starkare med 55k lastbilar. Prognoser sänkta för USA och Brasilien men Europa oförändrat. Trots svagare rapport ser bolaget finansuellt starkt ut med god balansräkning.",
+      "quotes": [
+        {
+          "speaker": "Jakob",
+          "text": "Volvo rapporterade i veckan och man kan väl kort och gott säga att det var en blandad rapport. Omsättningen minskade 7 procent, kom in marginellt under förväntningarna.",
+          "timestamp": "08:23",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "55 000 lastbilar mot väntade 52 000 ungefär. Så en positiv överraskning där",
+          "timestamp": "08:23",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "kollar man prognoserna då så minskade man sin prognos för USA från 300.000 tunga lastbilar till 275.000 för helåret 2025",
+          "timestamp": "08:23",
+          "context": "metric"
+        },
+        {
+          "speaker": "Lars",
+          "text": "Och det är väl ändå positivt att man framförallt i stora Europa, så att man har, jag ska inte säga att man är säkrat sådär, men att större delar av omsättningen på något vis ändå inte omfattas och tullar",
+          "timestamp": "11:01",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Rick",
+          "text": "så det känns väl ändå som ett relativt tryggt bettom",
+          "timestamp": "12:19",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-7%",
+        "margin": "10.9%",
+        "debt_level": null,
+        "custom": [
+          "Orderbok: 55,000 lastbilar",
+          "Marginalmål: >10% över konjunkturcykel"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark balansräkning ger tid att hantera problem",
+          "Europa-prognos oförändrad - skyddad från tullar",
+          "Orderbok starkare än väntat",
+          "Valuation inte ansträngd historiskt"
+        ],
+        "bear_case": [
+          "Omsättning och marginal svagare än väntat",
+          "Prognoser sänkta för USA och Brasilien",
+          "Tull-osäkerhet kvarstår"
+        ],
+        "catalysts": [
+          "Krigsslut i Ukraina kan skapa återuppbyggnadsboom",
+          "Ökade försvarsbudgetar kan driva specialfordon"
+        ],
+        "risks": [
+          "Tullar påverkar synligheten slutet av kvartalet",
+          "Prognos-osäkerhet fortsätter"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Getinge",
+      "ticker": "GETI-B",
+      "timestamp_start": "14:41",
+      "timestamp_end": "16:49",
+      "word_count": 380,
+      "speakers": [
+        "Rick"
+      ],
+      "primary_speaker": "Rick",
+      "discussion_summary": "Getinge Q1 visade organisk tillväxt på 6%, ner från 9% i Q4. Orderingång 3% ner från 7% i Q4. Tillväxt är enbent beroende på akutvård (58% av omsättningen). Geografisk tillväxt stark i Amerika/Asien men svag i Europa. Helårsprognos 2-5% spretar.",
+      "quotes": [
+        {
+          "speaker": "Rick",
+          "text": "Q1 då så steg omsättningen på organisk basis med lite drygt 6 procent jämfört med 0 procent under motsvarande kvartal 2024",
+          "timestamp": "14:41",
+          "context": "metric"
+        },
+        {
+          "speaker": "Rick",
+          "text": "Där steg den förvisso med 3 procent då, men det var drygt 7 procent i Q4, så även där var det lite svagare",
+          "timestamp": "14:41",
+          "context": "metric"
+        },
+        {
+          "speaker": "Rick",
+          "text": "Man säger att man ska växa 2-5 procent, det är ju inte så jättemycket och det är ett ganska brett intervall ändå",
+          "timestamp": "14:41",
+          "context": "metric"
+        },
+        {
+          "speaker": "Rick",
+          "text": "Det blir, ska man säga, lite känsligt så där, att det står och faller med en sak",
+          "timestamp": "14:41",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Rick",
+          "text": "Om det nu blir problem med tullar så är det klart att då kanske amerikas föranför allt är mer utsatt",
+          "timestamp": "14:41",
+          "context": "risk"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "6% organisk",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Orderingång: 3% organisk",
+          "Helårsprognos: 2-5%",
+          "Akutvård: 58% av omsättningen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Positiv organisk tillväxt på 6% i medtech",
+          "Upprepar helårsprognos"
+        ],
+        "bear_case": [
+          "Tillväxttakt mattats (9% Q4 -> 6% Q1)",
+          "Orderingång växer bara 3% (vs 7% Q4)",
+          "Tillväxt enbent på akutvård",
+          "Amerika starkast men mest utsatt för tullar",
+          "Europa svagast (2% tillväxt)"
+        ],
+        "catalysts": null,
+        "risks": [
+          "Tullar kan drabba Amerika",
+          "Återkommande kvalitetsproblem 23-24",
+          "Hög riskpremie vs sektorn"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Biotage",
+      "ticker": "BIOT",
+      "timestamp_start": "16:50",
+      "timestamp_end": "21:31",
+      "word_count": 500,
+      "speakers": [
+        "Lars",
+        "Rick"
+      ],
+      "primary_speaker": "Rick",
+      "discussion_summary": "KKR lade bud på 145 kronor per aktie (60% budpremie) på Biotage. Bolaget pressats från 270 kr under pandemin till drygt 100 kr. Q4 och Q1 varit mycket svaga med -20% organisk omsättningstillväxt och halverad EBITDA i Q1. KKR, Carnegie och SEB (33% tillsammans) sagt ja.",
+      "quotes": [
+        {
+          "speaker": "Rick",
+          "text": "Där kom ett bud på 145 kronor per aktie, från runt dryga 100 lappen",
+          "timestamp": "16:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Rick",
+          "text": "Den har ju handlats lite norr om 270 kronor, inte jättelänge sedan, det var 2021 under pandemin",
+          "timestamp": "16:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Rick",
+          "text": "Q1 minskade omsättningen med 20 % på organisk basis samtidigt som EBITDA halverades",
+          "timestamp": "16:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Lars",
+          "text": "Det får man säga. Det är lite som du har varit inne på med att det var ju rätt så saftig budpremie på 60% men samtidigt är de fortsatt trots budet ner 12% i år",
+          "timestamp": "19:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Rick",
+          "text": "Det känns ändå som att det är rätt stor sannolikhet, att det går igenom",
+          "timestamp": "19:17",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-20% organisk Q1",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Bud: 145 kr",
+          "Budpremie: 60%",
+          "YTD: -12%",
+          "EBITA halverad Q1",
+          "KKR, Carnegie, SEB äger 33%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "60% budpremie på nuvarande nivå",
+          "KKR, Carnegie och SEB (33%) accepterat budet",
+          "Kvalitetsbolag som pressats av tillfälliga problem"
+        ],
+        "bear_case": [
+          "Q4 och Q1 mycket svaga",
+          "Bolag handlats 270 kr tidigare - långsiktiga ägare kan känna potential förverkligas ej",
+          "Hur länge ska man vänta på återhämtning?"
+        ],
+        "catalysts": [
+          "Tender offer från KKR"
+        ],
+        "risks": [
+          "Bud kan nobbas av långsiktiga ägare",
+          "Q1 såg riktigt risigt ut"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är ganska maffigt faktiskt. De har även sänkt sina prognoser för nästa år då, så det är kumulativt sammantaget och så är det 0,8 procentenheter i BNP-tillväxt som har rykt under de här två åren. De säger intensifying downside risks, dominated outlook.",
+      "summary": "IMF sänker global BNP-prognos 0,8 procentenheter på två år och varnar för ökande nedsidorisker.",
+      "category": "wisdom",
+      "speaker": "Rick",
+      "speaker_role": "host",
+      "timestamp": "04:45",
+      "confidence": "high",
+      "tags": [
+        "makro",
+        "BNP",
+        "risker"
+      ]
+    },
+    {
+      "quote": "Jag tror att det här är ytterligare en faktor som talar för large cap, att de har ju ofta mer diversifierad varuförsörjning, så då kanske lite lättare.",
+      "summary": "Osäkerhet talar för large cap då de ofta har mer diversifierad varuförsörjning som kan hantera kast bättre.",
+      "category": "wisdom",
+      "speaker": "Rick",
+      "speaker_role": "host",
+      "timestamp": "05:08",
+      "confidence": "medium",
+      "tags": [
+        "large cap",
+        "diversifiering",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Sen är det ju alltid med bud som man får ta beaktning i tidsvärdet med. Om du får liksom 60 procent avkastning idag eller om du får det 80 procent om tre år.",
+      "summary": "Vid bud måste man väga tidsvärdet - 60% idag kan vara värt mer än 80% om tre år.",
+      "category": "wisdom",
+      "speaker": "Lars",
+      "speaker_role": "host",
+      "timestamp": "21:19",
+      "confidence": "high",
+      "tags": [
+        "bud",
+        "tidsvärde",
+        "diskontering"
+      ]
+    },
+    {
+      "quote": "Det känns nu inför 2025, hur kommer börsen gå? Det känns som att det kan gå åt vilket håll som helst, förmodligen nedåt. Då är man kanske mer benägen att acceptera ett bud än att man känner att här står vi inför ett riktigt solitt år, där vi kan få en fin avkastning ändå.",
+      "summary": "I en osäker marknad kan ägare vara mer benägna att acceptera bud för att säkra värde.",
+      "category": "wisdom",
+      "speaker": "Rick",
+      "speaker_role": "host",
+      "timestamp": "22:41",
+      "confidence": "medium",
+      "tags": [
+        "bud",
+        "marknadssentiment",
+        "riskaversion"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet diskuterar en pessimistisk makro-utsikt med IMF:s sänkta globala BNP-prognos och ökande nedsidorisker. Volvo Q1 var blandad men finansuellt starkt med trygg position, Getinge visade avtagande tillväxttakt och riskfaktorer. Guld slog all time high på 3500 dollar (+30% i år) driven av centralbankköp och begränsat utbud. KKR lade bud på Biotage på 145 kr (60% premie) efter svaga Q4/Q1.",
+  "key_takeaways": [
+    "IMF sänker global BNP-prognos till 2,8% för 2025 (från 3,3%)",
+    "Guld upp 30% i år till över 3500 dollar per uns på centralbankköp och ETF-efterfrågan",
+    "Volvo Q1: omsättning -7%, marginal 10,9%, men orderbok starkare än väntat",
+    "Getinge Q1: organisk tillväxt 6% ner från 9% i Q4, orderingång 3% ner från 7%",
+    "KKR bud på Biotage 145 kr (60% premie) - KKR, Carnegie och SEB accepterat (33%)",
+    "Osäkerhet kring tullar och förhandlingstider - frihandelsavtal tar 1,5 år i snitt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2025-04-25-6d9b.txt",
+  "transcript_word_count": 3699,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

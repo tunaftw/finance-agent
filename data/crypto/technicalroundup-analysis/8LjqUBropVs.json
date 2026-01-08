@@ -1,0 +1,150 @@
+{
+  "source_id": "8LjqUBropVs",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-09-12",
+  "hosts": [
+    "Cred"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Weekly engulfing pattern at 20k support level showing non-trivial signs of reversal",
+      "quote": "weekly engulf that we have on btc usd weekly and by engulf i mean it traded below the low of the previous week and closed above the high of that same week that's a nice weekly engulfing",
+      "price_levels": [
+        "$19,000",
+        "$20,000",
+        "$20,700",
+        "$21,000",
+        "$22,600",
+        "$23,000",
+        "$28,000-$31,000",
+        "$30,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Market at resistance before CPI data, advising caution",
+      "quote": "i wouldn't be outright long into resistance unless you're very comfortable catalyst trading",
+      "price_levels": [
+        "$22,600",
+        "$23,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH at resistance around $1,700, similar to BTC situation",
+      "quote": "at the moment just like btc ether is in an area of resistance",
+      "price_levels": [
+        "$900",
+        "$1,200",
+        "$1,500",
+        "$1,700",
+        "$1,800",
+        "$1,900",
+        "$2,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Merge technical failure would be very bearish for ETH price",
+      "quote": "if the merge goes terribly wrong and there's a large technical failure or even a delay i think at this point uh then that will be very bearish for ethereum price",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum to Bitcoin ratio",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH/BTC slowing down at resistance, BTC showing relative strength",
+      "quote": "recent evidence even though it's not narrative evidence but it's the recent market data would suggest that btc is clawing some of that back",
+      "price_levels": [
+        "0.06",
+        "0.07",
+        "0.08"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "mixed",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$19,000",
+        "$20,000",
+        "$20,700",
+        "$21,000",
+        "$22,600",
+        "$23,000",
+        "$28,000-$31,000"
+      ],
+      "ETH": [
+        "$900",
+        "$1,200",
+        "$1,500",
+        "$1,700",
+        "$1,800-$2,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC showing weekly bullish engulfing pattern at key 20k support level",
+    "CPI data on September 13th expected to be more impactful catalyst than Ethereum merge",
+    "Market likely to follow traditional finance / S&P 500 and Nasdaq direction post-CPI",
+    "Current range for BTC: 19k-23k with potential upside to 28-31k if range breaks",
+    "Recommended to wait for CPI data to resolve before taking new positions"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$19,000-$20,000 or $20,700-$21,000 pullback",
+      "target": "$22,600 then $28,000-$31,000",
+      "stop": "Below $19,000",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1,500-$1,700 pullback",
+      "target": "$1,800-$1,900 then $2,000",
+      "stop": "Below $1,200",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "Post-CPI if data is favorable",
+      "target": "$28,000-$31,000",
+      "stop": "Below $20,000",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes BTC showing bullish weekly engulfing at 20k support with range 19-23k, expecting CPI data on Sep 13th to be more impactful than the ETH merge. ETH is at 1700 resistance with potential to 1800-2000. Both markets advised to wait for CPI resolution before new entries. Post-CPI long setups look attractive if inflation data is favorable.",
+  "transcript_word_count": 14274,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:00:48.236148"
+}

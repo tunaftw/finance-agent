@@ -1,0 +1,313 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2020-02-27-e99f",
+  "podcast_name": "Market Makers",
+  "episode_title": "#121 E-Coronan",
+  "episode_number": 121,
+  "date": "2020-02-27",
+  "hosts": [
+    "Fabian",
+    "Niklas"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Coronavirus-impact",
+    "AI och SaaS-bolag",
+    "Makroanalys",
+    "Investeringsstrategi i kris"
+  ],
+  "stocks_discussed": [
+    "Investmentbolag",
+    "AWS (Amazon)",
+    "Google Cloud",
+    "Guld",
+    "Teliasector"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Investmentbolag",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "01:29",
+      "reasoning": "Köpte lite i ett tråkigt investmentbolag under nedgången, tänkte att det var oerhört att de kanske går ner 5-60%. Småposition för att inte göra alls för mycket. Motivering: contrarian köp vid nedgång.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jo, jag tror faktiskt att jag köpte, men det var ju ingenting som räknas. Köpte lite i någon tråkig investmentbolag som jag hade, som jag tyckte att det är lite oerhört att de kanske går ner 5-60 % någonting.",
+      "sector": "Finans/Investmentbolag",
+      "market": "sweden",
+      "position_context": "Liten position",
+      "downside_note": "Potentiellt 5-60% nedgång",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Google Cloud",
+      "ticker": "GOOGL",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "22:53",
+      "reasoning": "Varning mot AI-bolag, föredrar Google Cloud inte AI-bolag, utan företag med one size fits all-strategi. AI-bolag har sämre ekonomi än SaaS, liknar servicebolag med högre kostnader.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag skulle säga bild investera i AI-bolag, så försök komma fram till företag som har någon typ av one size fits all-strategi. Det vill säga att de faktiskt har en modell som de applicerar på flera kunder.",
+      "sector": "Tech/Cloud",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Guld",
+      "ticker": "GULD",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "32:45",
+      "reasoning": "I miljö med avtagande BNP-tillväxt och avtagande inflation (liknande Q4 2018), guld är mest attraktivt defensivt alternativ.",
+      "price_target": null,
+      "time_horizon": "Kort till medellång sikt",
+      "quote": "Vill man vara lång någonting i en sån miljö så är det framförallt guld som är mest attraktivt ut just nu tycker jag.",
+      "sector": "Råvaror/Defensiv",
+      "market": "global",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Proxy bonds (högutdelande aktier)",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "32:45",
+      "reasoning": "I defensiv miljö, titta på stabila utdelare och ränteproxym. Svenska exempel: Telia och liknande defensiva bolag.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Även så kallade proxy bonds, vi kommer att prata om tillgångar som påminner om obligationer. Det handlar om stabila utdelare, det handlar om rates. Då kanske man ska titta på de här exakt höga utdelande till exempel om man vill hitta någonting svenskt. Annars skulle det vara exempel på telja och sådant som nästan närmar sig utilities.",
+      "sector": "Diverserat/Defensiv",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Energi",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "low",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "32:45",
+      "reasoning": "I makromiljö med avtagande BNP-tillväxt och inflation, energi kan funka sämre. Var tidigare bullish men nu avvakta.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Något som brukar funka sämre i det här som ska tilläggas är energi. Det har vi pratat om som vi tidigare varit bullish till och det kanske är något man nu ska avvakta om de här prognoserna stämmer om.",
+      "sector": "Energi",
+      "market": "global",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "AI-bolag generellt",
+      "ticker": null,
+      "timestamp_start": "07:43",
+      "timestamp_end": "22:56",
+      "word_count": 2800,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Lång diskussion om AI-bolag vs SaaS-bolag. AI-bolag har bruttomarginaler runt 50-60%, jämfört med SaaS 60-80%. Huvudproblemet är att AI kräver dyra modellträningar (25% av intäkterna) och mänsklig datanotering (10-15% av intäkterna). Dessutom är det svårt att skala AI pga economies of scale - varje ny kund kräver ofta unik träning.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Först ut så kan man poängtera att bruttomarginaler för renolade AI-bolag ligger runt 50-60 procent, och det här kan man tycka är relativt högt, men jämför man det med SAS benchmarken som ligger på cirka 60-80 procent, så inser man att det är rätt substantiellt lägre.",
+          "timestamp": "09:08",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Eftersom det är så dyrt så har ju vissa företag till och med kommit fram att bara att använda människor för att processera datan är billigare än att faktiskt ta tag i AI och träna modell och använda machine learning.",
+          "timestamp": "12:55",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Och det är ju så att själva träningen äter upp cirka 25% av intäkterna som ett AI-baserat bolag drar in. Det är ju helt sjukt för det här är ingen engångskostnad. Desto mer data du får desto mer måste du träna den här. Så de här kostnaderna är en löpande kostnad så länge som företag finns och använder den här typen av AI.",
+          "timestamp": "12:52",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Sedan 2012 så har behovet för beräkningskraft ökat 300 000 gånger för en state of the art modell, jämfört med NVDS GPUer som ökat cirka 4 gånger.",
+          "timestamp": "17:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det är en stor skillnad mellan att till exempel lagra i målet och att processera i målet. Så man kan tänka sig, så kan det kosta rätt mycket att använda de här GPU-erna som Google och Amazon har till förfogande.",
+          "timestamp": "12:18",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag skulle säga bild investera i AI-bolag, så försök komma fram till företag som har någon typ av one size fits all-strategi. Det vill säga att de faktiskt har en modell som de applicerar på flera kunder.",
+          "timestamp": "21:38",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det är nu det intressanta kommer. Då kan man fråga sig, vart hamnar AI-bolagen någonstans? Hamnar det om närmre mjukvarubolag eller marginaler? Eller närmre servicebolagen?",
+          "timestamp": "10:04",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Bruttomarginal 50-60% (AI-bolag), 60-80% (SaaS-bolag). Träning 25% av intäkter, Datanotering 10-15% av intäkter",
+        "debt_level": null,
+        "custom": [
+          "Beräkningskraft behov ökat 300,000x sedan 2012",
+          "GPU-kapacitet ökat 4x"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "AI kan automatisera processer",
+          "Data är värdefullt om det renas",
+          "Företag med one size fits all-strategi kan fungera"
+        ],
+        "bear_case": [
+          "AI-bolag har sämre marginaler än SaaS",
+          "Dyra träningskostnader 25% av intäkter",
+          "Mänsklig datanotering 10-15% av intäkter",
+          "Svårt att skala, economies of scale fungerar inte lika bra",
+          "Hög personalberoende och specialister"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Kostnad för träningsdata",
+          "Skalbarhetsproblem",
+          "Konkurrens från Google/Amazon/Microsoft"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det jag kan säga är, det här är rent anekdotiskt, men för mig personligen har de absolut sämsta tillfällena, då jag sålt, alltid skett i samband med att vi har legat på fear, på fear and greed indexet.",
+      "summary": "Att sälja när marknaden är i fear (rädsla) historiskt sett har varit dålig timing.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "02:10",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "fear and greed index",
+        "säljning",
+        "marknadssentiment"
+      ]
+    },
+    {
+      "quote": "Vi satt faktiskt och sammanställde här lite. Jag kikade på lite utdrag och tyckanden och tänkanden från sparekonomer i media. Det är alltid så. Om börsen är ner 4 procent och frågar om det är dags att sälja sina aktier. Nej, det var dags att sälja sina aktier igår, borde ju svaret vara.",
+      "summary": "Sparekonomer och media tenderar att ge köp- och säljråd i efterhand (herding), snarare än prediktiva råd.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "06:37",
+      "confidence": "high",
+      "tags": [
+        "sparekonomer",
+        "media",
+        "herding",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Det som är intressant med dem är att de har hela tiden sett till att spara all data som deras kunder har matat in i systemet. Det betyder att de sitter helt plötsligt på ganska många års historik som de nu skulle kunna applicera AI på att lära sig av.",
+      "summary": "Data är extremt värdefullt för företag som vill bygga AI-modeller. företag som sparar data över tid får konkurrensfördelar.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "14:56",
+      "confidence": "high",
+      "tags": [
+        "data",
+        "AI",
+        "konkurrensfördelar"
+      ]
+    },
+    {
+      "quote": "Remember, there is never just one cockroach. Det är alltså aldrig bara en kackilacka. Om du stampar i eller en kackilacka så kommer det alltid komma fler.",
+      "summary": "När negativ nyhet kommer (t.ex. coronavirus eller penningtvättsskandaler), är det ofta fler som följer.",
+      "category": "wisdom",
+      "speaker": "Fabian (refererar till Dennis Gartman)",
+      "speaker_role": "host",
+      "timestamp": "38:46",
+      "confidence": "high",
+      "tags": [
+        "cockroach theory",
+        "negativa nyheter",
+        "risker"
+      ]
+    },
+    {
+      "quote": "Gör precis tvärtom alltså. Det är bra att du säger det, för det är också så att vi har ingen råd i den rekommendationen i podden. Till skillnad från sparekonomer skjuter vi oss inte från att vara experter och komma med tydliga råd eller någonting.",
+      "summary": "Att göra tvärtom mot vad media och sparekonomer säger (köp när andra säljer i panik) historiskt sett fungerar bättre.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "06:48",
+      "confidence": "medium",
+      "tags": [
+        "contrarian",
+        "media",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Jag vill bara säga här ändå en massa brasklappar som återigen, att det är en hel gradering och det gör mig själv också, för det går ju aldrig att säga om någonting exakt. Och vi är ju också någon form av tyckare.",
+      "summary": "Inklusive brasklappar att investeringsråd är subjektiva och det går aldrig att säga exakt vad som kommer hända.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "06:10",
+      "confidence": "high",
+      "tags": [
+        "investering",
+        "osäkerhet",
+        "subjektivitet"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet fokuserar på coronavirusets påverkan på globala marknader. I krismiljö (avtagande BNP-tillväxt och inflation) rekommenderas defensiva tillgångar som guld och högutdelande aktier. AI-bolag varnas för då de har sämre ekonomi än traditionella SaaS-bolag pga dyra träningskostnader. Siffror från Kina är opålitliga, och en köpstrategi i kris rekommenderas.",
+  "key_takeaways": [
+    "Defensiva sektorer (guld, utdelningsaktier) föredras i kris",
+    "AI-bolag har höga kostnader och sämre skalbarhet jämfört med SaaS",
+    "Sparekonomer och media ger ofta råd i efterhand",
+    "Contrarian investering (köp när andra säljer i panik) rekommenderas"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2020-02-27-e99f.txt",
+  "transcript_word_count": 8365,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

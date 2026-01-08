@@ -1,0 +1,464 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2022-03-29-fbc2",
+  "podcast_name": "Fila och Killpodden",
+  "episode_title": "Avsnitt 365 - Bullfest",
+  "episode_number": 365,
+  "date": "2022-03-29",
+  "hosts": [
+    "Wolf",
+    "Ett namn (host 2)"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Fred i Ukraina",
+    "H&M rapport",
+    "Utdelningsstrategi",
+    "Riskviljan och meme stocks",
+    "Boräntor och fastigheter"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "Nordea",
+    "Tesla",
+    "Saab",
+    "Lunin Energy",
+    "GameStop",
+    "AMC",
+    "Embracer"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "11:27",
+      "reasoning": "Jag sitter på köpoptioner inför torsdagsrapporten. Trots sänkta analytikerestimat och riktkurser, tror jag på en superrapport. Ryssland stängde sent i kvartalet vilket gör effekten begränsad. Nya strategin 'H&M with Friends' där de säljer andra varumärken på sin sajt kan bli stort. 114 miljoner app-användare ger goda förutsättningar för en plattformsstrategi. Butiksnätet kan ses som logistikhubbar.",
+      "price_target": null,
+      "time_horizon": "kort (tills rapport)",
+      "quote": "Jag sitter på köpoptioner här, de har rapport på torsdag, man hoppas på en superrapport. Men tittar man på alla analytiker, så har de både sänkt estimaten och alla nästintill har sänkt sina riktkurser.",
+      "sector": "Retail/Fashion",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Rapport 2022-03-31"
+    },
+    {
+      "stock_name": "Nordea",
+      "ticker": "NDA-SEK",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "17:18",
+      "reasoning": "Köpte för utdelningsstrategi. Banker kan gynnas av inflation och räntehöjningar. Extremt välkapitaliserad bland europeiska banker. Kommit ner mycket på kriget. Utdelning på 7 kronor vid kurs 150 ger bra direktavkastning på nuvarande räntenivåer.",
+      "price_target": null,
+      "time_horizon": "kort till medellång",
+      "quote": "Jag köpte den en dag innan, runt 150, man fick sju spänn. De är extremt väl kapitaliserade, om man tittar på banker i Europa. Samtidigt är de ju bank så inflation och lite räntehöjningar skulle kunna gynna dem.",
+      "sector": "Bank",
+      "market": "sweden",
+      "position_context": "Äger kvar position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "06:47",
+      "reasoning": "Kortade Saab som del av strategin mot försvarsaktier vid fred. Olja och försvarsbolag förväntas gå ner vid fredsnyheter. Fungerade bra men gick ner trögt.",
+      "price_target": null,
+      "time_horizon": "kort",
+      "quote": "Kortade oljebolagen. Det var min take på det här. I och med att oljan varje gång det blev fred så går ju den ner. Och så går ju Lunin Energy och många av de här ner.",
+      "sector": "Försvar",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "24:17",
+      "reasoning": "Har kvar shortposition. Trots uppgång på fredshopp och kärnkraftsrevansch, tror jag den kommer mer ner. Använder put-optioner för skydd.",
+      "price_target": null,
+      "time_horizon": "kort",
+      "quote": "Jag har fortfarande lite short kvar. Jag har använt MoO-optioner så det är ju tur. Annars har man säkert bankat på aktien.",
+      "sector": "Automotive/EV",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Lunin Energy",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "06:47",
+      "reasoning": "Oljebolag förväntas gå ner vid fred. Kortade som del av strategi mot olja.",
+      "price_target": null,
+      "time_horizon": "kort",
+      "quote": "Kortade oljebolagen. Det var min take på det här. I och med att oljan varje gång det blir fred så går ju den ner.",
+      "sector": "Energi",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Lönsam kvalitets-tech",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "26:21",
+      "reasoning": "Kvalitetsbolag med positivt kassaflöde och vinst går först när marknaden studsar. Lönsam tech bör vara tidiga i rallyt. Men var försiktig när de når highs - då kan topp närma sig.",
+      "price_target": null,
+      "time_horizon": "kort till medellång",
+      "quote": "Det är ju när de bästa bolagen är på highs. Det är då man drar skiten också med sig upp. Så om vi nu får en fred här då, det är de som har kvalitet och framförallt lönsam tech, då menar jag positivt kassaflöde och gör någonting på sista raden, de går ju först.",
+      "sector": "Tech",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "11:27",
+      "timestamp_end": "16:55",
+      "word_count": 800,
+      "speakers": [
+        "Host 2",
+        "Wolf"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Lång diskussion om H&M inför kommande rapport. Värd förväntar sig 'superrapport' trots sänkta analytikerestimat. Ny strategi 'H&M with Friends' där de säljer andra varumärken presenteras som potentiellt game-changer. 114 miljoner app-användare ger plattformspotential. Strategin att bli tillväxtbolag igen och transformera till plattform med butiker som logistikhubbar analyseras.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "Jag sitter på köpoptioner här, de har rapport på torsdag, man hoppas på en superrapport. Men tittar man på alla analytiker, så har de både sänkt estimaten och alla nästintill har sänkt sina riktkurser.",
+          "timestamp": "11:27",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "H&M med Friends där de säljer andra varumärken. Bland annat Chimmy, Fila, Wrangler, Lee, AIM. Och det där är ju en... De har ju sålt på Found och sånt, har de ju sålt andra märken. Men inte på H&M H&M.",
+          "timestamp": "14:08",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "De har ju än så länge inte pushat för det här utan de har ju typ lanserat den och det var ju knappt en notis.",
+          "timestamp": "15:16",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Om man börjar se det så att de i stället blir en plattform, för det är det de blir då, de facto. Då blir det rätt intressant med deras butiksnät, om man ska börja se det som logistikhubbar då istället.",
+          "timestamp": "16:27",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Marginalerna kan vara lite sämre pga bomullspriser",
+        "debt_level": null,
+        "custom": [
+          "114 miljoner app-användare",
+          "Estimat 1.2-1.6 på sista raden"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "H&M with Friends - nya plattformsstrategin med andra varumärken",
+          "114 miljoner app-användare ger skalbarhet",
+          "Butiksnät kan transformeras till logistikhubbar",
+          "Reopening i stora delar av världen",
+          "Rysslandseffekt begränsad i kvartalet"
+        ],
+        "bear_case": [
+          "Sänkta analytikerestimat och riktkurser",
+          "Gaspriser och krigseffekt kan slå mot konsument",
+          "Kunder kan välja andra märken istället för egna",
+          "Sämre marginaler pga höga bomullspriser"
+        ],
+        "catalysts": [
+          "Rapport torsdag 31 mars",
+          "Potentiell större push av H&M with Friends efter smyg-lansering",
+          "Fred i Ukraina kan lätta på ryska sanktioner"
+        ],
+        "risks": [
+          "Analytikermassage eller dålig rapport",
+          "Negativ konsumenteffekt av inflation och höga energipriser"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Nordea",
+      "ticker": "NDA-SEK",
+      "timestamp_start": "17:18",
+      "timestamp_end": "20:01",
+      "word_count": 500,
+      "speakers": [
+        "Host 2",
+        "Wolf"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Värd köpte Nordea för utdelningsstrategi - köpte dag innan utdelningsdatum runt 150 för att få 7 kr utdelning. Argumenterar att banker gynnas av inflation och räntehöjningar. Extremt välkapitaliserad. Diskuterar hur stiftelser och fonder söker utdelningar i rådande räntemiljö.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "Jag köpte Nordea, den jag har gjort hittills. Jag tyckte den kom ner på kriggrejen och att börsen kom ner. Samtidigt är de ju bank så inflation och lite räntehöjningar skulle kunna gynna dem.",
+          "timestamp": "17:18",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "De är extremt väl kapitaliserade, om man tittar på banker i Europa. Den hade kommit ner rätt mycket på kriget. Och så delar de ut sju spänn.",
+          "timestamp": "17:18",
+          "context": "metric"
+        },
+        {
+          "speaker": "Wolf",
+          "text": "ta Nordea som exempel, de delar väl ut, jag vet inte vad det blir i procent nu, men den handlas liksom 152 dagar i denna utdelning om du ska få 7 kronor, det är rätt bra avkastning på de här räntenivåerna.",
+          "timestamp": "19:19",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "7 kronor (ca 4-5%) vid kurs 150-152",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Extremt välkapitaliserad",
+        "custom": [
+          "Utdelningsstrategi"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Banker gynnas av inflation och räntehöjningar",
+          "Extremt välkapitaliserad jämfört med andra europeiska banker",
+          "Kommit ner mycket på kriget",
+          "Ger bra direktavkastning i nuvarande räntemiljö"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Räntehöjningar från Riksbanken och ECB",
+          "Stabiliserande inflation"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "22:08",
+      "timestamp_end": "26:09",
+      "word_count": 600,
+      "speakers": [
+        "Host 2",
+        "Wolf"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Diskussion om Tesla som 'meme stock' leader och EV-vinnare. Värd har kvar shortposition med put-optioner. Tesla går upp på fredshopp, miljötänk och kärnkraftsrevansch. Wolf ser potentiell EV-revansch men värd tror mer på nedgång. Diskussion om riskviljan som återkommit.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "Jag har fortfarande lite short kvar. Jag har använt MoO-optioner så det är ju tur. Annars har man säkert bankat på aktien.",
+          "timestamp": "24:17",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Wolf",
+          "text": "Dels är de vinnare i miljötänket. Om oljan är högt så ska alla köpa elbilar. Europa och USA och allt ska satsa mycket mer grönt.",
+          "timestamp": "22:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Nu har de ju medvind just i kärnkraftfrågan och alltihopa. Det här kriget avslöjade, just råvaror, ingenting att vara beroende av.",
+          "timestamp": "24:23",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Potential split rykten",
+          "Gått upp 20 dagar i rad",
+          "Pick-up och Mustang säljer bra"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Vinnare i miljötänk och grönt",
+          "Höga oljepriser driver efterfrågan på elbilar",
+          "Kärnkraftsrevansch efter kriget",
+          "Pick-up och Mustang säljer bra"
+        ],
+        "bear_case": [
+          "Redan gått upp mycket (20 dagar i rad)",
+          "Shortposition trots uppgång",
+          "Meme stock beteende kan vända snabbt"
+        ],
+        "catalysts": [
+          "Potential aktiesplit",
+          "Continuerande grön satsning i Europa och USA"
+        ],
+        "risks": [
+          "Riskviljan kan vända snabbt",
+          "Tekniksektorn kan pressas av inflation"
+        ]
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Du kommer inte att få köpa botten den dagen det blir fred. Så enkelt är det. Marknaden börjar att ana, och det har ju kommit grejer.",
+      "summary": "Marknaden diskonterar framtida händelser innan de sker - köp när det osäkert, inte när nyheten är bekräftad.",
+      "category": "wisdom",
+      "speaker": "Wolf",
+      "speaker_role": "host",
+      "timestamp": "07:47",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "marknadspsykologi",
+        "buy-on-dip"
+      ]
+    },
+    {
+      "quote": "Jag tror väl att marknaden också har, ja det beror på, det blir lite bolagsspecifikt skulle jag nog säga. För i den hela tech-rotationen om man vill säga att det andra orosmolnet för börserna är inflationen. Och där har ju, eftersom vi fick kriget så gick allting ner.",
+      "summary": "Olika sektorer påverkas olika av makrohändelser - kvalitetsbolag kan klara inflation medan andra pressas.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "08:27",
+      "confidence": "medium",
+      "tags": [
+        "inflation",
+        "sektorrotation",
+        "makro"
+      ]
+    },
+    {
+      "quote": "Det är fascinerande hur det kan svänga på bara några veckor. Det kan komma nyheter som tolkades extremt negativt innan och nu händer ingenting.",
+      "summary": "Marknadssentiment kan ändras dramatiskt på kort tid - viktigt att inte låta sig påverkas för mycket av kortsiktig volatilitet.",
+      "category": "wisdom",
+      "speaker": "Wolf",
+      "speaker_role": "host",
+      "timestamp": "36:47",
+      "confidence": "high",
+      "tags": [
+        "volatilitet",
+        "marknadssentiment",
+        "tålamod"
+      ]
+    },
+    {
+      "quote": "Det man ska titta på är väl bankernas kalkylränta, för den styr oftast utlåningen och folk köper ju max och oftast inbelåning.",
+      "summary": "Bankernas kalkylränta är en viktig ledande indikator för fastighetsmarknaden och konsumentbetalningsförmåga.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "31:31",
+      "confidence": "medium",
+      "tags": [
+        "fastigheter",
+        "räntor",
+        "ledande indikatorer"
+      ]
+    },
+    {
+      "quote": "Ska det hända, då är det signalen, då kan du korta allt. För räntemarknaden kommer att prisa in då om konkursrisken går upp, då går den upp över hela linjen.",
+      "summary": "Ett fastighetsbolagskonkurs kan bli signalen för bredare marknadskorrektion - lyssna på ledande indikatorer.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "33:23",
+      "confidence": "medium",
+      "tags": [
+        "riskhantering",
+        "ledande indikatorer",
+        "fastigheter"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Wolf",
+      "speaker_role": "host",
+      "quote": "Sedan ska vi tacka Lunar som sponsrar avsnittet. Och bitcoin hade ju ett ordentligt kliva upp här.",
+      "timestamp": "38:55",
+      "context": "Sponsoromnämnande med positiv remark om Bitcoin",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "CARDANO",
+      "asset_name": "Cardano",
+      "sentiment": "neutral",
+      "speaker": "Wolf",
+      "speaker_role": "host",
+      "quote": "Lunar är ju framtidens bank som du kan använda vid sidan om av din nuvarande bank och de har ju den här nyheten att man just kan handla krypto i appen och då får du ju möjlighet att investera i de populäraste kryptovalutorna, allt från Cardano till Bitcoin.",
+      "timestamp": "20:01",
+      "context": "Sponsorreklam",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "bullish",
+  "summary": "Avsnittet dominerades av fredshopp i Ukraina som driver upp marknaden. Värdarna diskuterade H&M inför rapport, utdelningsstrategi i Nordea, och kortpositioner i försvars- och oljebolag vid fredsnyheter. Riskviljan återkommit med meme stocks som Tesla, GameStop och AMC upp kraftigt. Diskussion om kommande räntehöjningar och potentiell bostadsmarknadskorraktion.",
+  "key_takeaways": [
+    "Fredshopp driver upp marknaden - köp innan nyheten bekräftas",
+    "H&M med ny plattformsstrategi kan vara inför vägskäl vid kommande rapport",
+    "Utdelningsstrategi kan vara attraktiv i banksektorn givna ränteförväntningar",
+    "Riskviljan återkommen men var försiktig med meme stocks",
+    "Fastighetsmarknaden kan komma under press med stigande räntor"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2022-03-29-fbc2.txt",
+  "transcript_word_count": 7308,
+  "has_timestamps": true,
+  "model_used": "manual-analysis"
+}

@@ -1,0 +1,368 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-01-17-c6c8",
+  "podcast_name": "Market Makers",
+  "episode_title": "#66 Nån Gång Går Det Åt Helvete",
+  "episode_number": 66,
+  "date": "2019-01-17",
+  "hosts": [
+    "Niklas",
+    "Fabian"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Makroanalys",
+    "Marknadssentiment",
+    "Sektorsanalys",
+    "Tech-sektorn"
+  ],
+  "stocks_discussed": [
+    "Apple",
+    "Techbolag",
+    "Nasdaq"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Nasdaq Index",
+      "ticker": "^NDX",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "17:55",
+      "reasoning": "I en björnmarknad är det lockande att gå kort Nasdaq framförallt inför rapportsäsongen som just börjat. American bankerna (Citi och JP Morgan) har haft sämre än förväntat på budgetradings- och bostadslånssidan vilket är oroväckande. Nasdaq är tungt mot tech så man blir exponerad mot hela techsektorn utan enskild exponering mot aktier som kan studsa upp och marginkolla en.",
+      "price_target": null,
+      "time_horizon": "short_term",
+      "quote": "Vill man ligga kort i de här techbolagen då är väl ett av de bästa sätten att ligga kort i Nasdaq indexet. Du slipper enskild exponering mot aktier som kan studsa upp och marginkolla dig. Men eftersom Nasdaq är så tungt mot tech så blir du ändå starkt exponerad mot hela techsektorn.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Rapportsäsong"
+    },
+    {
+      "stock_name": "Guldgruvor",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "20:13",
+      "reasoning": "Om Fed gör en pivot och börjar sänka räntor, speciellt med Trump som pressar på, kan guld och goldminers bli superintressanta. De gynnas av att tillväxtkurvan i inflation blir brantare. Detta diskuterades för en månad sedan och behöver en katalysator för att bli intressant.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Då är ju superintressant guld och goldminers, som vi snackade om för nästan exakt en månad sedan. Eftersom det gynnas av att tillväxtkurvan i inflation blir brantare, som man så fint kan säga. Och så ser vi även en bredare konsolidering som vi sa var en risk, men om botten är nådd kan det ju snarare vara en fin plus i kanten.",
+      "sector": "Materials",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Fed pivot"
+    },
+    {
+      "stock_name": "Kommersiella Fastigheter",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "12:50",
+      "reasoning": "Kommersiella fastigheter kan vara intressanta sektorer att bevaka. Tittar man på tre månaders utveckling så är kraftförsörjning och telekom de bästa branscherna i Sverige med upp 12% respektive 8% den senaste månaden. De kanske kommer att lyfta ett case om två veckor inom fastigheter.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Något som är intressant nu, som många behöver prata om är just det här med, kommersiella fastigheter kan vara ganska intressant, och just telekom då. Vi kommer eventuellt att lyfta något case om två veckor, kanske inom fastigheter.",
+      "sector": "Real Estate",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Om 2 veckor"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "timestamp_start": "15:36",
+      "timestamp_end": "17:55",
+      "word_count": 350,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Apple guide ner för kvartalet på en cyklisk peak. Tim Cooks investerarebrev ger en tydlig bild på läget för hela FAANG och tech-sektorn. Stark dollar skapar motvind, ekonomisk svaghet i emerging markets och minskad tillväxt i Kina (näst lägsta BNP-tillväxten på 25 år på 6%). Marknaden är rationell och framåtblickande.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Vi ska lyfta fyra punkter från Tim Cooks investerarebrev. Han släppte det andra januari. Första är att Apple guide ner för kvartalet, och det är tydligt rätt hårt på en cyklisk peak.",
+          "timestamp": "15:36",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Nu avbryter jag mig inte i, men det är därför också folk när de pratar om att Apple ser så billigt ut på p-tal, så det finns en anledning till att de har fallit. Det följer innan det här guide ner-guidning om. Det är för att folk fattar det här. Marknaden är ganska rationell, ganska smart och framåtblickande.",
+          "timestamp": "15:49",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "En annan grej de nämner, punkt två är att stark dollar skapar motvind och drar ned omsättningstillväxten.",
+          "timestamp": "16:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Ja och samtidigt ger det ju motvind i utlandet och det leder ju också in på punkt tre och det är den här ekonomiska svagheten som dels är beroende av den starka dollarn i emerging markets.",
+          "timestamp": "16:50",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Och det största landet som man kallar för en emerging markets är Kina. Där har vi en nedsackning eller minskad tillväxt. Där BNP-tillväxt under september nu var det näst lägsta på 25 år. Det är rätt illa.",
+          "timestamp": "17:07",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Stark dollar skapar motvind",
+          "Ekonomisk svaghet i emerging markets",
+          "Minskad tillväxt i Kina - näst lägsta BNP-tillväxten på 25 år",
+          "Cyklisk peak"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Handelskrig",
+          "Konjunkturell avmattning",
+          "Beroende av Kinas tillväxt"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Nasdaq Index",
+      "ticker": "^NDX",
+      "timestamp_start": "17:55",
+      "timestamp_end": "19:05",
+      "word_count": 280,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Att ligga kort i techbolagen är bäst genom Nasdaq indexet för att slippa enskild exponering mot aktier som kan studsa upp. Nasdaq är tungt mot tech så man blir ändå starkt exponerad mot hela techsektorn. Inför rapportsäsongen är nivåerna lockande då amerikanska banker (Citi och JP Morgan) haft sämre än förväntat.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Vill man ligga kort i de här techbolagen då är väl ett av de bästa sätten att ligga kort i Nasdaq indexet. Du slipper enskild exponering mot aktier som kan studsa upp och marginkolla dig. Men eftersom Nasdaq är så tungt mot tech så blir du ändå starkt exponerad mot hela techsektorn.",
+          "timestamp": "17:55",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Men jag kan i alla fall tycka att nivåer när man går in på om man går kort över marknaden eller framförallt Nasdaq är lite lockande, speciellt inför rapportsäsongen som just kickat igång nu med de amerikanska bankerna. Jag har sett Citi och JP Morgan i alla fall. Bägge har haft mycket sämre på budgetradingssidan och bostadslånssidan också. Det är lite oroväckande.",
+          "timestamp": "18:51",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Ja, men JP Morgan är upp nu efter att Netflix släppt att de skulle öka sina abonnentkostnader.",
+          "timestamp": "18:59",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Sämre än förväntade rapporter från amerikanska banker",
+          "Budgetrading och bostadslånssidan svag",
+          "Tech-sektorn tungt exponerad mot Nasdaq"
+        ],
+        "catalysts": [
+          "Rapportsäsong inleds",
+          "Amerikanska bankernas rapporter"
+        ],
+        "risks": [
+          "Korta studar kan uppstå i björnmarknad",
+          "Ensilda aktier kan studsa upp rejält"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Guldgruvor",
+      "ticker": null,
+      "timestamp_start": "20:13",
+      "timestamp_end": "21:38",
+      "word_count": 400,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Guld och goldminers blir intressanta om Fed gör en pivot och börjar sänka räntor, speciellt med Trump som pressar på. De gynnas av att tillväxtkurvan i inflation blir brantare. Det finns en bredare konsolidering som kan vara positiv om botten är nådd. Andra råvaror som silver kan också bli intressanta men det kan vara lite tidigt än.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Då är ju superintressant guld och goldminers, som vi snackade om för nästan exakt en månad sedan. Eftersom det gynnas av att tillväxtkurvan i inflation blir brantare, som man så fint kan säga.",
+          "timestamp": "20:13",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Och så ser vi även en bredare konsolidering som vi sa var en risk, men om botten är nådd kan det ju snarare vara en fin plus i kanten.",
+          "timestamp": "20:27",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Sen finns det andra råvaror som ligger på tapeten. Många som är väldigt intresserade av till exempel silver.",
+          "timestamp": "21:10",
+          "context": "other"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Generellt nu, om man skulle börja få den här tilltagningen igen, så måste det först sakna ner lite grann. Sen kan det börja tillta lite igen i inflation eventuellt. Då kan just energi och en del råvaror vara lite intressant. Man kan få lite drag i galosserna som det heter. Men jag tror att det är lite tidigt än.",
+          "timestamp": "21:25",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Fed pivot och sänkta räntor",
+          "Tilltagande inflation gör growth curve brantare",
+          "Konsolidering kan vara om botten är nådd",
+          "Trump pressar på för lägre räntor"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Fed pivot"
+        ],
+        "risks": [
+          "Kan vara lite tidigt än",
+          "Inflation måste först sakta ner innan den kan tillta"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man behöver inte ha många bra i det här företaget. Jag har alltid sagt att om man har en IQ av 160, ge 30 poäng till någon annan för att man inte behöver det i investeringar. Vad man behöver är emotionell utveckling.",
+      "summary": "Emotionell utveckling är viktigare än IQ för investeringar. Man måste kunna hantera sina känslor för att lyckas på börsen.",
+      "category": "philosophy",
+      "speaker": "Gäst/citat",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "emotionell utveckling",
+        "investeringsfilosofi",
+        "psykologi"
+      ]
+    },
+    {
+      "quote": "I en björnmarknad, vilket vi tror det är i alla fall, så är det så att man får rejäla studsar. Det är inte så naturligt att börsen studsar så mycket uppåt som i en bullmarknad jämfört med hur den gör i en björnmarknad.",
+      "summary": "Björnmarknader kännetecknas av rejäla studsar uppåt vilket gör det svårt att navigera och handla på mönster.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "03:45",
+      "confidence": "high",
+      "tags": [
+        "björnmarknad",
+        "studser",
+        "marknadscykel"
+      ]
+    },
+    {
+      "quote": "Det går inte riktigt att säga någonting som att börsen ska röra sig nu. Snittlängden är 61 månader, sen kommer det vända upp igen.",
+      "summary": "Det är svårt att göra historiska mönster till exakta förutsägelser om när börsen ska vända.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "14:24",
+      "confidence": "high",
+      "tags": [
+        "mönster",
+        "historisk data",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Men däremot är det väldigt svårt att få till timing från det. Det är ju inte så himla enkelt. Oftast då kanske man inte är lite tidigt ut, speciellt om man är lite negativt laggad som person kanske.",
+      "summary": "Att identifiera var man är i konjunktur- och kreditscykeln är relativt enkelt, men att tajma marknaden är extremt svårt och man riskerar att komma in för tidigt.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "13:38",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "cykler",
+        "negativt laggad"
+      ]
+    },
+    {
+      "quote": "Marknaden är ganska rationell, ganska smart och framåtblickande.",
+      "summary": "Marknaden priser in förväntningar på ett rationellt sätt, vilket syns t.ex. när Apple faller innan deras nedguidning.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "15:49",
+      "confidence": "medium",
+      "tags": [
+        "marknadseffektivitet",
+        "prissättning",
+        "framåtblickande"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet fokuserar på makroekonomisk analys med en bearish inställning mot både globala marknader och tech-sektorn. Avtagande tillväxt i Europa och USA, särskilt Kinas minskade BNP-tillväxt, pekar mot sämre tider. Apple's nedguidning ses som en tydlig indikation på läget för hela tech-sektorn. Potentiella investeringsmöjligheter inkluderar guldgruvor om Fed gör en pivot och kommersiella fastigheter/telekom i Sverige.",
+  "key_takeaways": [
+    "Avtagande tillväxt i Europa och USA, Kinas minskade BNP-tillväxt påverkar global ekonomi",
+    "Tech-sektorn är under press - Apple's nedguidning speglar hela FAANG",
+    "Nasdaq kan vara attraktivt att korta inför rapportsäsong",
+    "Guldgruvor kan bli intressanta om Fed gör en pivot och inflationen tilltar",
+    "Timing är svårt - att identifiera cykler är enklare än att tajma marknaden"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-01-17-c6c8.txt",
+  "transcript_word_count": 6250,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,469 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2024-10-16-e329",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 582 - Obehagligt storhetsvansinne",
+  "episode_number": 582,
+  "date": "2024-10-16",
+  "hosts": [
+    "Johan",
+    "Tobbe"
+  ],
+  "guests": [
+    "Johan Henriksson"
+  ],
+  "main_topics": [
+    "Rapportsäsong",
+    "M&A-arbitrage",
+    "Kinneviks onoterade portfölj",
+    "Spelbolagssektorn",
+    "Freja EID"
+  ],
+  "stocks_discussed": [
+    "Concentric",
+    "Kinnevik",
+    "Stillfront",
+    "Dustin",
+    "ASML",
+    "Codemill",
+    "Note",
+    "Ramlosa Chipping",
+    "Ericsson",
+    "Charles Schwab",
+    "Freja EID"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Concentric",
+      "ticker": "COOR-B",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Tobbe",
+      "speaker_role": "host",
+      "timestamp": "[05:00]",
+      "reasoning": "M&A-arbitrage play för att finansiera alpresa. Köpte aktier i hopp om att budet ska gå igenom. Snabb in och ut-strategi med målet att acceptera budet. Riskabel men potentiellt lukrativ korttidstrade.",
+      "price_target": null,
+      "time_horizon": "kort sikt (1 vecka)",
+      "quote": "Hur skulle det vara om jag låter danskarna, alltså familjen Möller-Mersk, få betala för mitt sportlov? Räknade lite snabbt baklänge hur många koncentrik aktier måste jag köpa för att skrämla ihop till den här resan. Och då tänkte jag att snabbt in och ut. Köpa, acceptera budet, klart på en vecka.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Risk att budet inte går igenom",
+      "catalyst_timing": "Budaccept period"
+    },
+    {
+      "stock_name": "Kinnevik",
+      "ticker": "KINV-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[20:55]",
+      "reasoning": "Onoterade portfölj handlas till enorm rabatt, men ingen av värdena väcker sug. Har 12 miljarder i kassan efter Tele2-försäljningen. Kapitalmarknadsdagen nästa vecka blir avgörande för att övertyga marknaden om potentialen. Kan vara köpläge om de lyckas presentera en väg framåt.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Börsen är ganska proffsig. Det vi uttrycker nu är nog något som hela marknaden känner. Jag förstår det. Jag satt och kollade igenom portföljen här på morgonen. Alla onoterade bolag. Och man blir inte sugen på något av dem. Inget av de här bolagen väcker något sug eller habegär.",
+      "sector": "Holdingbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Fortsatt bränning av pengar i onoterade bolag",
+      "catalyst_timing": "Kapitalmarknadsdag nästa vecka"
+    },
+    {
+      "stock_name": "Stillfront",
+      "ticker": "SF-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[23:57]",
+      "reasoning": "Vinstvarning efter tunga investeringar i kundanskaffning. Mobilspelssektorn presterar dåligt (G5, EG7, MTG). Aktien halverats sedan maj. Traderaktie, inte för långportfölj. Ingen tydlig värdeskapning.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är inget för oss, vi gillar inte sånt här. Nej men det här är ju en traderaktie, ingenting att stoppa in i långportföljen och hoppas på. Utan ha den i en dag, en vecka, en månad, men bygg inte väskan kring den.",
+      "sector": "Spel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Dustin",
+      "ticker": "DUST",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[26:03]",
+      "reasoning": "Uröst kvartal, svaga bruttomarginer. Nettoskuld uppe i 4x justerad EBITA trots nyemission för ett år sedan. Ej belönat aktieägarna på evigheter. Sparpaket på 150-200 miljoner men vändning osäker. Nordstjärna kanske testar plocka ut värde men svårt att tro på.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är inte ens att man själv har behövt uppgradera sin dator för att AI har kommit. Nej, jag känner inte behovet riktigt. Så vi får se vad Nordstjärnan hittar på här. Det kanske blir så att de kan testa igen och försöka plocka ut det. De gillar att göra dåliga affärer. Man ska vara väldigt modig om man vågar tro på vändningen här.",
+      "sector": "IT-distribution",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Codemill",
+      "ticker": "CODE",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[31:40]",
+      "reasoning": "Förlorat 18 miljoner i intäkter (20-25% av omsättningen) efter att kund sagt upp avtal. Aktien tappat 25%, handlar under 14 SEK. Positivt att det inte handlar om spetsteknologi eller återkommande intäkter, men negativt att företag inte tycker de tillför värde. Q3-rapport blir avgörande.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det positiva är att det här har inget att göra med spetsteknologin inom Codemill. Och ingenting att göra med de här återkommande intäkterna heller. Det negativa är ju att något företag inte tycker att de tillför så mycket värde. Att liksom 20 procent av omsättningen med en säker vinst bara försvinner. Och att hela Codemill känns mer opolitligt.",
+      "sector": "Teknologi",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Kommande Q3-rapport"
+    },
+    {
+      "stock_name": "Note",
+      "ticker": "NOTE",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[32:11]",
+      "reasoning": "Vinstvarning men kom in i övre delen av guidat intervall. Rörelsemarginal över intervallet. Duktiga på att parera volymnedgång och hålla lönsamhet. Står fast vid guidningen för resten av året trots dålig visibilitet. Aktien upp 10% på rapportsdagen, nu högre än innan vinstvarningen. Inte jättedyr på 130 SEK.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man får väl ge Note att de ändå har varit duktiga på att parera den här volymnedgången. Och lyckats hålla i lönsamheten hyfsat bra. De står också fast vid guidningen för resten av året. Även om de uppenbarligen har väldigt dålig visibilitet. Den är inte jättedyr här nere på 130 kronor.",
+      "sector": "Elektroniktillverkning",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ramlosa Chipping",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[35:23]",
+      "reasoning": "IPO tecknad till exakt 100%, historiskt en dålig signal. Korvfirman som sätter upp bolaget får betalt i aktier, kommer skapa säljtryck. Svår bransch med svag historik. Värre prestanda än index. Svårt att se uppsida i andelar i chippingbåtar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "När något har blivit tecknad till just exakt 100 procent. Ja men då är det kört Johan. För alla ni som tecknat. Ni kommer garanterat förlora pengar här. Håll er borta från ramlösa chipp.",
+      "sector": "Fiske",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Notering 25 oktober"
+    },
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[37:00]",
+      "reasoning": "Stark rapport, bättre än consensus. Högre bruttomarginal och oväntade positiva effekter (högre patentintäkter, snabb ramp-up av AT&T-avtalet). Svag Q4-guidning. Upp 11% på rapportsdagen, men upp 40% i år. Konservativ bruttomarginalsguidning. Inte intressant kring 80 SEK, bättre köp på hälften av priset.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Marknaden skickar upp aktien runt 11 % på det här känns återigen snällt. Den hade också gått väldigt bra inför. Ericsson har väl upp kanske 40 % i år. Jag vet inte, jag är ju inte så intresserad av Ericsson här kring 80 lappen. Det var betydligt bättre att köpa den på typ halva priset.",
+      "sector": "Telekom",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Tuffare jämförelsetal framöver",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Charles Schwab",
+      "ticker": "SCHW",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[39:16]",
+      "reasoning": "USAs motsvarighet till Nordnet/Avanza. Stark rapport, aktie upp 6-7%. Hög handelsvolym i Q3. Räntesänkningar kan gynna genom ökat sparande och inflöden. Paralleller till svenska nätmäklare som haft det tufft på börsen. Potentiellt intressant rapporttrade.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker man kan dra upp paralleller till våra svenska bolag. Nu när räntan sänks så är det allmänna snacket att det inte gynnar bankerna. För att räntenettot kommer att försämras. Men samtidigt innebär sänkt ränta att folk har mer pengar över. Då sparas det mer. Det har både varit bra inflöden och det förväntas bli ännu bättre inflöden till Charles Schwab.",
+      "sector": "Finansiella tjänster",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Freja EID",
+      "ticker": "FREJA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[54:40]",
+      "reasoning": "Två affärsområden: Doser (stabil, hög lönsamhet, hälften av omsättning, men långsikt minskande) och ID-lösning (tillväxt, förluster minskar, nu på EBITA-nivå H1). 1,1 miljoner aktiva användare. 50% årlig tillväxt i ID-lösning. Internationell expansion på gång med stöd för 167 länder. Alcur största ägare. Strategi att bli lönsam i Sverige först, sedan satsa internationellt.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag tycker det. Jag tycker att min känsla är att vi definitivt är förbi den puckeln. Nu jobbar vi precis som jag försökt kommunicera i flera år. Målsättningen har varit lönsamhet absolut. Det går inte att trolla fram den utan det är bara hårt arbete och gnetande att få in avtalen. Och det får vi nu och vi har en god tillströmning av nya case som kommer in.",
+      "sector": "Teknologi",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Internationella kontrakt under 2025"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Kinnevik",
+      "ticker": "KINV-B",
+      "timestamp_start": "[19:18]",
+      "timestamp_end": "[22:12]",
+      "word_count": 600,
+      "speakers": [
+        "Johan",
+        "Tobbe"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Kinnevik rapporterar men diskussionen fokuserar på deras onoterade portfölj som handlas till stor rabatt. Bolaget valt att fortsätta investera vidlyftigt till skillnad från andra. Spring Health är största innehav med 15% av portföljen. Värderat till nästan 5 miljarder. Värdena har skrivits ner med 7%. Har 12 miljarder i kassan efter Tele2-försäljningen. Kapitalmarknadsdag nästa vecka blir kritisk för att övertyga marknaden om potentialen.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Rapport är ju inte så intressant egentligen när det är det som rapporteras i sig. Förra veckan pratade jag om att det var baksmällanstid. Att många vidlyftiga framtidssatsningar inte blir av. Man blir lite mer sansad. Men vi har ju ett lysande undantag här. Det är Kinnevik. De har ju valt att köra på. Inne i väggen.",
+          "timestamp": "[19:18]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "De skrev i alla fall ner värdet här med 7% på den onoterade portföljen under kvartalet. Och så har de investerat lite mer i Spring Health. Det är en slags nätdoktor, historia, Aira. Det här mixbolaget har de också stoppat in mer pengar i. Spring Health är väl det absolut största. Ja, det är det. Det är nästan 5 miljarder. 15% av portföljen.",
+          "timestamp": "[19:46]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag förstår det. Jag satt och kollade igenom portföljen här på morgonen. Alla onoterade bolag. Och man blir inte sugen på något av dem. Inget av de här bolagen väcker något sug eller habegär. Eller känslan av att det här kan vara nästa stora grej.",
+          "timestamp": "[20:30]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och så har de 12 miljarder i kassan efter att de har sålt ut Tele2. Man vill ju också veta vad de ska göra med de här pengarna. Och inte bara stoppa in dem i någon typ av brasa för vad deras investeringar bränner.",
+          "timestamp": "[21:31]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men jag tror att kapitalmarknadsdag nästa vecka blir viktigare än vad kapitalmarknadsdag brukar vara. De har ett läge där. Så får vi se om de lyckas.",
+          "timestamp": "[22:02]",
+          "context": "catalyst"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "12 miljarder i kassan",
+        "custom": [
+          "Onoterade portfölj skrivits ner 7%",
+          "Spring Health 5 miljarder, 15% av portfölj"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "12 miljarder i kassan kan användas till värdeskapande",
+          "Onoterade portfölj kan komma till noteringar med hög värdering",
+          "Kapitalmarknadsdag kan presentera tydlig strategi",
+          "Rabatten till underliggande värden kan minska"
+        ],
+        "bear_case": [
+          "Onoterade bolag bränner pengar",
+          "Marknaden inte övertygad om värdet i portföljen",
+          "Risk för mer nedskrivningar",
+          "Historik av dåliga investeringar"
+        ],
+        "catalysts": [
+          "Kapitalmarknadsdag nästa vecka",
+          "Noteringar av onoterade innehav",
+          "Hur 12 miljarder i kassan allokeras"
+        ],
+        "risks": [
+          "Fortsatt bränning av pengar i onoterade bolag",
+          "Marknaden tappar förtroende",
+          "Värderingen av onoterade bolag fortsätter ned"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Freja EID",
+      "ticker": "FREJA",
+      "timestamp_start": "[40:19]",
+      "timestamp_end": "[01:00:25]",
+      "word_count": 3000,
+      "speakers": [
+        "Johan",
+        "Tobbe",
+        "Johan Henriksson"
+      ],
+      "primary_speaker": "Johan Henriksson",
+      "discussion_summary": "Lång intervju med CEO Johan Henriksson om Freja EID:s affärsmodell och framtidsutsikter. Två segment: Doser (fulfillment) och ID-lösning. Doser-delen stabil men minskande långsikt, ca hälften av omsättningen. ID-lösningen växer, nu på EBITA-nivå H1. 1,1 miljoner aktiva användare, 50% årlig tillväxt. Stöder 167 länder för internationella användare. Affärsmodell är prenumeration + transaktionsbaserad. Alcur största ägare. Strategi: bli lönsam i Sverige först, sedan internationell expansion. Internationella kontrakt kan komma under 2025 men stora pengar dröjer.",
+      "quotes": [
+        {
+          "speaker": "Johan Henriksson",
+          "text": "Det är faktiskt fortfarande en del av vår affär idag. Det är det som vi kallar fulfillment segmentet. Det handlar alltså om att skicka ut enheter av olika slag till bankkunder runt om.",
+          "timestamp": "[41:05]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Henriksson",
+          "text": "Just nu är det runt hälften kan man säga. Och det har ju blivit en mindre och mindre andel för varje kvartal som har gått i takt med att Freja ID har vuxit då.",
+          "timestamp": "[43:12]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Henriksson",
+          "text": "Jag skulle tro att i förlängningen så är det klart att inte dosan finns kvar. Så att sätta i ett tioårsperspektiv så är det ingenting som jag strategiskt skulle satsa vidare på och utveckla. Utan det här är ju ett område som vi vet kommer vara ganska stabilt under ett antal år och sen så kommer det säkert successivt försvinna.",
+          "timestamp": "[43:10]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan Henriksson",
+          "text": "Tittar man rapporten står det att ni har 1,1 miljoner användare. Det är folk som har kommit igång med tjänsten.",
+          "timestamp": "[55:25]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Henriksson",
+          "text": "Trots det hade vi runt 50 % på årsbasis i arktillväxt vilket var bra.",
+          "timestamp": "[54:49]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan Henriksson",
+          "text": "Jag tycker det. Jag tycker att min känsla är att vi definitivt är förbi den puckeln. Nu jobbar vi precis som jag försökt kommunicera i flera år. Målsättningen har varit lönsamhet absolut.",
+          "timestamp": "[54:56]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Henriksson",
+          "text": "Då tror jag att man ska ha lite tålamod. Det är därför vi satsar så hårt i Sverige också. Därför att det är där vi kan få lönsamhet inom relativt kortsikt. Det är där vi också kan tjäna väldigt, väldigt bra med pengar.",
+          "timestamp": "[59:43]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Henriksson",
+          "text": "Jag vet att de ser oss som ett spännande bolag och en lite option för framtiden att det kan hända någonting. Dels så har vi den här internationella perspektivet, dels så ska vi inte glömma bort att det pågår en konsolidering i branschen också.",
+          "timestamp": "[59:52]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "50% årlig tillväxt ID-lösning",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "1,1 miljoner aktiva användare",
+          "Doser ca 50% av omsättning",
+          "H1 på EBITA-nivå",
+          "Stöder 167 länder",
+          "Transaktionsavgift 17 öre"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "På EBITA-nivå H1, förbi lönsamhetspuckeln",
+          "50% årlig tillväxt i ID-lösning",
+          "1,1 miljoner aktiva användare",
+          "Stöder 167 länder för international expansion",
+          "Alcur som stor ägare kan signalera konsolidering",
+          "Doser-delen ger stabil kassaflöde"
+        ],
+        "bear_case": [
+          "Doser-delen minskande långsikt",
+          "Internationell expansion tar tid och kostar pengar",
+          "Konkurrens från BankID",
+          "Behöver hålla i pengar, dyr expansionsfas"
+        ],
+        "catalysts": [
+          "Internationella kontrakt under 2025",
+          "Fler myndighetsaffärer i Sverige",
+          "Konsolidering i branschen"
+        ],
+        "risks": [
+          "BankID-dominans kvarstår",
+          "Internationell expansion misslyckas",
+          "Konkurrens från nya aktörer",
+          "Ekonomisk nedgång påverkar investeringsvilja"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Du kommer aldrig någonsin att tjäna pengar på att göra precis som alla andra gör. Gamestop är ju inte riktigt lika illa men den är ju ändå ner 50% på tre år. 18 000 aktieägare. Så snälla svenska folket. Sluta vara så enormt dumma och gå på alla de här aktiehyperna. Det är bättre att du inte är aktieintresserad alls än att du är så här dum och förlorar dina pengar.",
+      "summary": "Gå inte på masshype-aktier, det leder till förluster. Bättre att inte investera alls än att följa massan.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[29:38]",
+      "confidence": "high",
+      "tags": [
+        "hype",
+        "crowd psychology",
+        "GME",
+        "AMC"
+      ]
+    },
+    {
+      "quote": "Jättenkel regel att hålla sig till. Inte svårt att identifiera dem här när de uppombarar sig.",
+      "summary": "Lätt att identifiera hypade aktier genom att titta på när de uppmärksammas massivt.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[30:03]",
+      "confidence": "high",
+      "tags": [
+        "hype",
+        "identification"
+      ]
+    },
+    {
+      "quote": "Bankerånarepengar är ju ganska härliga. Det är inget man månade spara dem utan de sätter man ju sprätt på.",
+      "summary": "Pengar från snabba/M&A-arbitrage-trader känds som 'bankrånarepengar' som man vill spendera snabbt.",
+      "category": "wisdom",
+      "speaker": "Tobbe",
+      "speaker_role": "host",
+      "timestamp": "[05:25]",
+      "confidence": "medium",
+      "tags": [
+        "trading psychology",
+        "arbitrage"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Börspodden diskuterar rapportperioden med fokus på Kinneviks onoterade portfölj, spelbolagssektorns problem och Freja EID:s strategi. Concentric är en arbitrage-play för att finansiera alpresa. ASML:s svaga prognos drar ner sektorn. Varningar för Ramlosa Chipping IPO.",
+  "key_takeaways": [
+    "Kinneviks onoterade portfölj handlas till stor rabatt men inget väcker intresse",
+    "Spelbolagssektorn presterar dåligt - Stillfront, G5, EG7 alla drabbade",
+    "Freja EID på EBITA-nivå H1 med 50% tillväxt, 1,1 miljoner användare",
+    "ASML:s svaga prognos drar ner AI-chip-sektorn",
+    "Ramlosa Chipping IPO tecknad till 100% är varningssignal"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2024-10-16-e329.txt",
+  "transcript_word_count": 10393,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

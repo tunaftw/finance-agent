@@ -1,0 +1,154 @@
+{
+  "source_id": "X2T6GTbrD0U",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-06-19",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Weekly timeframe analysis - market showing signs of recovery with double bottom formation at 23.4",
+      "quote": "we're getting there I still think on the weekly time frame if you want the weekly to align with some of the bullishness we're seeing on the four hour and potentially the daily you need a weekly Market structure break above 28k",
+      "price_levels": [
+        "$24,300",
+        "$26,300-$26,400",
+        "$27,400",
+        "$28,000",
+        "$29,000-$30,000"
+      ],
+      "timeframe": "short-term to medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Double bottom at 23.4 showing positive behavior with engulfing candles",
+      "quote": "you have this double bottom market closed below it looks like a breakdown next day closes above right and it closes above on an engulfing candle so all of that is very positive",
+      "price_levels": [
+        "$23,400",
+        "$27,400",
+        "$29,000-$30,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Range trading 26.3 to 27.4 with reclaimed support",
+      "quote": "as long as that is the case so no acceptance below 26.3 26.4 and your targets are midpoint and range high before reassessing",
+      "price_levels": [
+        "$26,300-$26,400",
+        "$27,400"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Weekly timeframe bouncing off support at 1.6-1.9 range",
+      "quote": "I still think bigger picture if you want the weekly chart to really look good it needs a weekly close above 1.9",
+      "price_levels": [
+        "$1,600-$1,700",
+        "$1,780-$1,800",
+        "$1,900"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Four hour consolidation and retest of range",
+      "quote": "the market essentially Consolidated in this range dumped and now we're retesting that same range",
+      "price_levels": [
+        "$1,717",
+        "$1,800"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum/Bitcoin pair",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH showing weakness relative to BTC due to BlackRock ETF narrative favoring Bitcoin",
+      "quote": "Eve BDC has been weak throughout this I think the reason for that is the market is speculating that this if there's going to be strength in the market uh given the prevailing narrative is BlackRock Bitcoin ETF that the flows are going to be more Bitcoin Centric",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$24,300",
+        "$26,300-$26,400",
+        "$27,400",
+        "$28,000",
+        "$29,000-$30,000"
+      ],
+      "ETH": [
+        "$1,600-$1,700",
+        "$1,780-$1,800",
+        "$1,900"
+      ]
+    }
+  },
+  "key_insights": [
+    "BlackRock Bitcoin ETF news driving Bitcoin-centric market flows and institutional interest",
+    "Bitcoin showing controlled price action with emerging bullish momentum across multiple timeframes",
+    "Double bottom formation at $23.4 with positive follow-through suggests trend reversal potential",
+    "Weekly structure break above $28k is critical for sustained bullish continuation",
+    "ETH showing relative weakness compared to BTC, suggesting BTC dominance may continue"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$26,300-$26,400 or pullback to $25,800-$25,900",
+      "target": "$27,400 then $29,000-$30,000",
+      "stop": "below $26,300",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "above $27,400 with daily close confirmation",
+      "target": "$29,000-$30,000",
+      "stop": "below $27,400",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$1,700 support area",
+      "target": "$1,800 resistance",
+      "stop": "below $1,717 four hour low",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes Bitcoin and Ethereum showing signs of recovery from downtrend with controlled price action. Bitcoin formed a double bottom at $23.4 and is trading within a range of $26.3-$27.4, with critical breakout level at $27.4 and weekly structure break above $28k needed for sustained bullish momentum. BlackRock Bitcoin ETF news is driving Bitcoin-centric flows, making ETH/BTC pair weak. Market sentiment is cautiously bullish with controlled price action and emerging strength across timeframes.",
+  "transcript_word_count": 9109,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:05:21.291572"
+}

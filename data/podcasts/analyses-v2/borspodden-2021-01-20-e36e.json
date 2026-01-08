@@ -1,0 +1,977 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2021-01-20-e36e",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 387 - Avanzas twittertroll",
+  "episode_number": 387,
+  "date": "2021-01-20",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Rapportsäsongen",
+    "Bitcoin",
+    "Lågkonjunktur",
+    "Båtbyggare"
+  ],
+  "stocks_discussed": [
+    "Nimbus",
+    "Tylö",
+    "Harvia",
+    "Avanza",
+    "Sandvik",
+    "CDON",
+    "Clas Ohlson",
+    "Trelleborg",
+    "Swedbank",
+    "Ålandsbanken",
+    "Telia",
+    "Moberg Pharma",
+    "Greater Than"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Trelleborg",
+      "ticker": "TREL-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[22:15]",
+      "reasoning": "Trelleborg får köprek av Martin Blomgren. Morgan Stanley, Nordea och ABG har nyligen höjt riktkurserna, vilket tyder på positiv guidning. Rapporten 10 februari förväntas bli bra med möjlighet till omvänd vinstvarning. Aktien kring 200 kronor bedöms som intressant.",
+      "price_target": null,
+      "time_horizon": "Kortsikt fram till rapporten 10 februari",
+      "quote": "Trelleborg kring 200 lappen tror jag är intressant. [...] Trelle's rapport, att den ska bli dålig känns ju nästan omöjligt. 10 februari ska den släppas. Så det finns faktiskt möjligheter till lite omvänd vinstvarning här också.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Rapport 2021-02-10"
+    },
+    {
+      "stock_name": "Banksektorn (Swedbank, Ålandsbanken m.fl.)",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[23:12]",
+      "reasoning": "Alla banker värderas till under P10. Räntorna är på väg upp vilket är bra för banker. Företagsdelarna går bra, bostadsmarknaden är het. Hotet om bostadskrasch har uteblivit och banker kan effektivisera genom digitalisering. Bankerna värderas historiskt lågt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "När det kommer till Kritan så har ju alla människor någon typ av husbank som man då senare kanske kopplar samman med Klarna eller vad det nu är. Så tittar man på sektorer återigen så är ju bankerna kanske den sektor som funnits längst av alla sektorer någonsin på börsen. Så jag ser nog att P10 för bankerna är i köpläge.",
+      "sector": "Finans",
+      "market": "sweden",
+      "position_context": "Plocka ihop en liten portfölj med ett knippe banker",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sandvik",
+      "ticker": "SAND",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[13:48]",
+      "reasoning": "Sandvik har gått starkt upp 10% i år och handlas på ATH. Förväntningarna är höga på mjukvarufokus och förvärv. Finns mycket lite utrymme för besvikelse. Bolaget bevisade motståndskraft under pandemin men valutan verkar gå mot vind.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och här känner jag i alla fall att det finns väldigt lite utrymme för besvikelse framöver om man ska vara diplomatisk.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Lågt utrymme för besvikelse",
+      "catalyst_timing": "Rapport torsdag 21 januari"
+    },
+    {
+      "stock_name": "Avanza",
+      "ticker": "AZA",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[15:51]",
+      "reasoning": "Rekordstark kundaktivitet i december med 156% fler avslut per dag. Monster retail-håst. Q4 blir jättebra men allt detta är inprisat. Historiskt sett har enormt utbrett aktieintresse varit en varningssignal. Kanske läge för en paus.",
+      "price_target": null,
+      "time_horizon": "Kortsikt",
+      "quote": "Evanzas aktiekurs, Q4, kommer att bli jättebra. Men frågan är väl vad som ska driva på den här aktien framöver. Jag känner att det kan vara läge för en liten paus, Evanza.",
+      "sector": "Finans",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Varningssignal vid enormt utbrett aktieintresse",
+      "catalyst_timing": "Rapport torsdag 21 januari"
+    },
+    {
+      "stock_name": "Clas Ohlson",
+      "ticker": "CLAS-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[20:18]",
+      "reasoning": "Decemberintäkter 7% under förväntningar, negativ tillväxt 19% i Sverige på grund av restriktioner. Marknaden kanske lägger för stor vikt vid dessa restriktionspåverkade siffror. Nästa vd väntas tillträda. Online-försäljningen upp 45% är en ljuspunkt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Här så känner jag ändå att det kanske finns en möjlighet att marknaden lägger lite för stor vikt vid de här senaste månadssiffrorna som ändå är så uppenbart belastade av restriktioner.",
+      "sector": "Detaljhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Moberg Pharma",
+      "ticker": "MOB-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[27:28]",
+      "reasoning": "Ingen insider tecknade sin del i nyemissionen på konkursvärdering, inklusive CEO Wolpert som tagit ut mycket pengar genom tidigare utdelning. Oroväckande att insiders inte visar förtroende med plånboken. Fas 3-studie ska göras om efter tidigare misslyckande.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och att man nu inte väljer att teckna, eller nästan inga insiders väljer att teckna sin fulla del på nästan konkursvärdering här är ju väldigt oroväckande. Wolpert är ju en husare av rang, fast han visar inte med plånboken.",
+      "sector": "Hälsovård",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Konkursvärdering, ingen insider-teckning",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nimbus",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[04:44]",
+      "reasoning": "Båtförsäljningen slog rekord under hemesteråret 2020 vilket ger en toppighetskänsla inför noteringen. Båtbranschen är enormt konjunkturkänslig. Förra noteringsförsöket 2007 misslyckades och bolaget gick senare i konkurs.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är möjligt att även 2021 kan bli ett fint år för båtbranschen men det går ju inte att komma ifrån att det här är en enormt konjunkturkänslig bransch. Och jag tycker det ska bli spännande att se vad familjen som har haft Jocknick och Harald Mix som hör till ägarskalan idag kan få för pris för det här bolaget på börsen.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Toppighetskänsla, konjunkturkänslig bransch",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Telia",
+      "ticker": "TELIA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[25:03]",
+      "reasoning": "Operativt kassaflöde överträffade prognosen rejält för 2020 (12,1 md mot 9,5-10,5 md). Förbättringar verkar vara engångskaraktär. Ny vd Alison Kirkby väntas presentera kostnadsbesparingsprogram i investeraruppdateringen. Aktien kan dela 2 kr i utdelning i fem år.",
+      "price_target": null,
+      "time_horizon": "Medellång sikt",
+      "quote": "Så här är det ett öppet mål för Alison Kirkby att lyckas hon ingjuta förtroende i nåt sådant här rejält kostnadsbesparingsmål och samtidigt kanske också formulerar trovärdiga vägar för att växa tjänsteintäkterna. Så kan det bli lite medvind för aktien.",
+      "sector": "Telekom",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Utdelning 2 kr, nollräntemiljö ger limited downside",
+      "catalyst_timing": "Q4-rapport och investeraruppdatering nästa vecka"
+    },
+    {
+      "stock_name": "Greater Than",
+      "ticker": "GREAT",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[30:09]",
+      "reasoning": "Fått in finska finansfamiljen Årnrot via riktad emission på 136 miljoner. Familjen är en av de mäktigaste finansfamiljerna i Finlands historia. Potential i In-Kör-Tech och AI för försäkringsbolag men intäkterna lyser med sin frånvaro. Nu är det upp till bevis att det börjar ta fart.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men med alla fall med de här på tåget så är det väl ändå, nu är det dags att det är upp till bevis för greater than kan jag tycka. Man vill ju börja se tecken på att det börjar ta fart här, även i resultaträkningen.",
+      "sector": "Teknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Sandvik",
+      "ticker": "SAND",
+      "timestamp_start": "[13:48]",
+      "timestamp_end": "[15:51]",
+      "word_count": 450,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Sandvik rapporterar Q4 på torsdagen och drar igång rapportsäsongen på allvar. Aktien har gått starkt upp 10% i år och handlas på ATH. Det finns ökat förtroende för bolaget som höjt sig marginalmässigt senaste åren och visat motståndskraft under pandemin. Förväntningar finns på fler mjukvaruförvärv framöver och gruvsektorn väntas återhämta sig vilket driver efterfrågan. Negativt påverkar valutan och dyrare insatsvaror kan grumla utsikterna. Johan tycker det är spännande att de rör sig mot mjukvara för att dubbla multipeln.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Sandviks aktie har ju gått sinnessjukt starkt de sista månaderna och är upp bara i år 10 procent ungefär. Handlas på ATH-nivåer",
+          "timestamp": "[13:48]",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Det finns också förhoppningar på fler förvärv framöver, gärna inom mjukvara",
+          "timestamp": "[14:04]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "På den negativa sidan så har vi valutan mot vind och som vi var inne på i början har möjligtvis problem med dyrare insatsvaror",
+          "timestamp": "[14:15]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Och här känner jag i alla fall att det finns väldigt lite utrymme för besvikelse framöver om man ska vara diplomatisk.",
+          "timestamp": "[14:28]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tycker det spännande är det du säger att de går mot mjukvara. Lite kanske om man skulle försöka få Sandvik till ett hexagonbolag och kunna nästan dubbla multipeln här.",
+          "timestamp": "[15:04]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "+10% i år",
+        "margin": "Höjt sig ett par snett marginalmässigt de sista åren",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Ökat förtroende för bolaget marginalmässigt",
+          "Motståndskraft under pandemin med hjälp av fermenteringar",
+          "Förhoppningar på mjukvarufokus och fler förvärv",
+          "Gruvsektorn i återhämtningsfas driver efterfrågan",
+          "Kan dubbla multipeln genom mjukvarufokus"
+        ],
+        "bear_case": [
+          "Valutan går mot vind",
+          "Dyrare insatsvaror kan grumla utsikterna",
+          "Mycket höga förväntningar - lite utrymme för besvikelse",
+          "Handlas på ATH-nivåer"
+        ],
+        "catalysts": [
+          "Q4-rapport torsdagen",
+          "Framtida mjukvaruförvärv"
+        ],
+        "risks": [
+          "Valutarisker",
+          "Dyrare insatsvaror och komponentbrist",
+          "Höga förväntningar"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "CDON",
+      "ticker": "CDON",
+      "timestamp_start": "[17:17]",
+      "timestamp_end": "[20:18]",
+      "word_count": 520,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "CDON har gått väldigt starkt och en tysk analys från FWCM ger rekommendationen köp med riktkurs 830 kr baserat på att CDON genererar 250 miljoner i EBITA år 2024. Analysen påstår att den skandinaviska marknaden är extremt underpenetrerad på e-handel jämfört med andra länder och att hotet från Amazon är noll. John tycker detta är en fullständig lögn och kallar det bland det värsta han sett. Affärsvärlden gav en sällsynt säljrekommendation sent förra året vilket nu pinsamt nog har visat sig fel då aktien dubblats. En israelisk analys sätter riktkurs på 6000 kr.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Det blev ju lite pinsamt här kan man tycka för affärsvärlden och gänget där som så sent som i slutet av förra året gav en sällsynt säljrekommendation på just CDON och nu har den dubblats.",
+          "timestamp": "[17:27]",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag tycker kanske att det var lite konstigt hur man kan säljreka en e-handlare inför Q4, när man står inför den största jul e-handelsperioden någonsin i världshistorien",
+          "timestamp": "[17:43]",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Analysen säger då att den skandinaviska marknaden är extremt underpenetrerad på e-handel jämfört med andra europeiska länder. Det tycker jag låter som en fullständig lögn i min bok.",
+          "timestamp": "[18:12]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Om CDON genererar 250 miljoner i ebita år 2024, så ska aktien vara värd ungefär 830 kronor.",
+          "timestamp": "[18:31]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag såg en Israel som faktiskt igår hade en liknande case i CDON, men då en betydligt högre rittkurs, det var någonstans 2,5-3 tusen till 6 tusen i uppsida.",
+          "timestamp": "[19:22]",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag tycker nog att det här är bland det värsta jag sett på länge. Ett lite märkligt nytt fenomen att utlänningar utnyttjar vår börs till att kapa aktier i princip.",
+          "timestamp": "[18:45]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Dubblats på kort tid",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "EBITA 2024: 250 miljoner kr (enligt tysk analys)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Tysk analys: Skandinavisk e-handel underpenetrerad",
+          "Hotet från Amazon är noll",
+          "CDON har hållit på med e-handel i 20 år",
+          "Stark julhandelsperiod"
+        ],
+        "bear_case": [
+          "Analys påståenden bedöms som 'fullständig lögn'",
+          "Utlänningar kapar aktier på svensk börs",
+          "Historiskt sett har e-handels penetration i Skandinavien varit hög",
+          "Extremt höga riktkurser (6000 kr) känns orimliga"
+        ],
+        "catalysts": [
+          "E-handelstillväxt"
+        ],
+        "risks": [
+          "Övervärdering",
+          "Amazon expansion",
+          "Marknadssättning kan vända"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Trelleborg",
+      "ticker": "TREL-B",
+      "timestamp_start": "[21:36]",
+      "timestamp_end": "[23:12]",
+      "word_count": 480,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Trelleborg är en aktie John är intresserad av. Den fick köprek av Martin Blomgren, den tidigare DI-journalisten som nu jobbar på Placera. John nämner att andra jordbruksbolag som John Deere gått väldigt bra. Morgan Stanley, Nordea och ABG har nyligen höjt riktkurserna på Trelleborg. Detta kan bero på positiv guidning eller att alla tänkte samma sak samtidigt. Rapporten kommer 10 februari och känns nästan omöjlig att bli dålig. Det kan finnas möjligheter till omvänd vinstvarning. Aktien kring 200 kronor bedöms som intressant.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Trelleborg... det är ju en aktie som jag nu är lite intresserad av och den fick ju faktiskt en köprek av comebackande Martin Blomgren.",
+          "timestamp": "[21:36]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Dessutom är en sak som jag tycker är kul, är ju att Morgan Stanley, Nordea och ABG väldigt nyligen höjt riktkurserna här.",
+          "timestamp": "[22:03]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Vilket säger ju något om något, som man brukar säga. Till exempel att det varit lite positiv guidning därute.",
+          "timestamp": "[22:09]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Trelle's rapport, att den ska bli dålig känns ju nästan omöjlig. 10 februari ska den släppas.",
+          "timestamp": "[22:18]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Så det finns faktiskt möjligheter till lite omvänd vinstvarning här också. Så Trelleborg kring 200 lappen tror jag är intressant.",
+          "timestamp": "[22:24]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Martin Blom ger köprekommendation",
+          "Morgan Stanley, Nordea och ABG har höjt riktkurserna",
+          "Antyder positiv guidning",
+          "Möjlighet till omvänd vinstvarning",
+          "Relaterade jordbruksbolag (John Deere) gått väldigt bra"
+        ],
+        "bear_case": [
+          "Inga tydliga risker nämnda"
+        ],
+        "catalysts": [
+          "Rapport 10 februari"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Banksektorn (Swedbank, Ålandsbanken m.fl.)",
+      "ticker": null,
+      "timestamp_start": "[23:12]",
+      "timestamp_end": "[24:56]",
+      "word_count": 510,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Swedbank meddelade att de ska dela ut pengar från 2019. Ålandsbanken har redan gjort en stor utdelning för 2020. Båda bolagen har koppling till tidigare statsministern Göran Persson och verkar vara välskötta nu. Bankerna får en biltillverkarskänsla - man kanske ska plocka ihop en portfölj med ett knippe banker. Nästan alla banker värderas till under P10. Räntorna är på väg upp vilket är bra för bankerna. Företagsdelarna går bra, bostadsmarknaden är het. Hotet om bostadskrasch har uteblivit eller marknaden är så pass stor att det inte märks. Banker kan effektivisera genom att lägga ner kontor och digitalisera. Alla har en husbank. Bankerna är en sektor som funnits längst av alla på börsen. P10 för bankerna är i köpläge.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Swedbank meddelade i går att de ska dela ut pengar från 2019. Ålandsbanken har ju redan gjort en ganska stor utdelning här för 2020.",
+          "timestamp": "[23:12]",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Och de båda bolagen har ju den gemensamma nämnaren att förr detta statsminister Göran Persson har varit inblandade i båda. Så det verkar vara två välskötta bolag numera.",
+          "timestamp": "[23:25]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Och jag får en liten biltillverkarskänsla i hela banksektorn nu. Att man kanske ändå ska plocka ihop en liten portfölj med ett knippe banker här.",
+          "timestamp": "[23:38]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Då nästan alla banker värderas till under P10. Vi har räntorna som vi sett sista tiden är på väg upp, vilket är väldigt bra för bankerna.",
+          "timestamp": "[23:52]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Sen företagsdelarna går ju bra, bostadsmarknaden är het och lite av det hotet som det har pratats om i tio år nu från uppsvickare har väl ändå uterblivit",
+          "timestamp": "[24:00]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Eller så är marknaden så pass stor, att det inte märks riktigt när bankerna kan effektivisera otroligt mycket genom att lägga ner kontor och digitalisera kontrakt och så vidare.",
+          "timestamp": "[24:08]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Så tittar man på sektorer återigen så är ju bankerna kanske den sektor som funnits längst av alla sektorer någonsin på börsen. Så jag ser nog att P10 för bankerna är i köpläge.",
+          "timestamp": "[24:20]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "Under P10",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Värderade till under P10 - historiskt lågt",
+          "Räntor på väg upp vilket är bra för bankernas marginaler",
+          "Företagsdelarna går bra",
+          "Bostadsmarknaden är het",
+          "Hotet om bostadskrasch har uteblivit",
+          "Effektiviseringsmöjligheter genom digitalisering och stängd kontor",
+          "Swedbank ska dela ut pengar från 2019",
+          "Ålandsbanken har redan gjort stor utdelning"
+        ],
+        "bear_case": [
+          "Hot från nya aktörer",
+          "Historiska problem med penningtvätt mm kan fortsätta att påverka sentiment"
+        ],
+        "catalysts": [
+          "Stigande räntor",
+          "Fortsatt utdelningar"
+        ],
+        "risks": [
+          "Konkurrens från nya aktörer",
+          "Reglering",
+          "Historisk negativ prissättning kan bero på strukturella problem"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Telia",
+      "ticker": "TELIA",
+      "timestamp_start": "[25:03]",
+      "timestamp_end": "[27:28]",
+      "word_count": 540,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Telia kan ses som banker - mycket handlar om att spara. I nyårsavsnittet togs Telia upp och den har börjat röra på sig. Operativt kassaflöde överträffade prognosen för 2020 - 12,1 miljarder mot intervallet 9,5-10,5 miljarder. Telia kopplar detta till rörelsekapitalet men ger inga djupare förklaringar. Det låter som förbättringar av engångskaraktär, lagereffekt eller sportsrättigheter. Inte underliggande operativ förbättring. Q4 släpps nästa vecka då Telia också kommer med investeraruppdatering. Man hoppas på avknoppningen av tv-delen men det troliga är ett större kostnadsbesparingsprogram. Telias kostnader är höga jämfört med konkurrenterna. Det är ett öppet mål för nya vd:n Alison Kirkby att presentera trovärdiga kostnadsbesparingsmål och vägar att växa tjänsteintäkterna. Telia kan dela 2 kronor i fem år framöver vilket är bra i nollräntemiljö. Svårt att se hur Telia skulle ha någon som helst medsida härifrån.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Men bankerna börjar likna ett annat bolag som jag tänkte prata om, Telia. Det är mycket det handlar om att spara.",
+          "timestamp": "[25:03]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Det operativa kassaflödet överallt träffar prognosen för 2020. Ganska rejält också 12,1 miljarder mot det här intervallet. Man pratar om 9,5 till 10,5 miljarder.",
+          "timestamp": "[25:26]",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Det låter som förbättringar av engångskaraktär, om det är någon typ av lagereffekt eller sportsrättigheter.",
+          "timestamp": "[25:48]",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Det troliga här är väl ett större kostnadsbesparingprogram. Att man presenterar det. De flesta är överens om att det fortfarande finns en hel del att göra på kostnadssidan i Telia.",
+          "timestamp": "[26:15]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Så här är det ett öppet mål för Alison Kirkby att lyckas hon ingjuta förtroende i nåt sådant här rejält kostnadsbesparingsmål och samtidigt kanske också formulerar trovärdiga vägar för att växa tjänsteintäkterna.",
+          "timestamp": "[26:28]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Dessutom är den hungrig vd.",
+          "timestamp": "[27:19]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och den här avknoppningen som vi pratade om? Ja, den kommer att generera fruktansvärt pengar.",
+          "timestamp": "[27:22]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Sen att Telia nu säger att de kan dela 2 kronor i fem år framöver ungefär, är ju bra i en nollräntemiljö. Så det är svårt att se hur Telia skulle egentligen ha någon som helst med sida härifrån.",
+          "timestamp": "[27:12]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "12,1 miljarder (operativt kassaflöde 2020)",
+        "dividend_yield": "2 kr/år i fem år",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kostnaderna höga jämfört med konkurrenter"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Överträffade kassaflödesprognos rejält (12,1 md vs 9,5-10,5)",
+          "Nödvändiga kostnadsbesparingar är ett öppet mål för Alison Kirkby",
+          "Avknoppning av tv-delen kan generera fruktansvärt mycket pengar",
+          "Trovärdiga vägar att växa tjänsteintäkterna",
+          "Hungrig ny vd som vill visa sig",
+          "Utdelning 2 kr/år i fem år i nollräntemiljö",
+          "Begränsad nedrisk"
+        ],
+        "bear_case": [
+          "Kassaflödesförbättringar verkar vara av engångskaraktär (lager, sportsrättigheter)",
+          "Inte en underliggande operativ förbättring",
+          "Måste se kostnadsbesparingar i siffror för att marknaden ska tro på det"
+        ],
+        "catalysts": [
+          "Q4-rapport nästa vecka",
+          "Investoraruppdatering med kostnadsbesparingsprogram",
+          "Avknoppning av tv-delen"
+        ],
+        "risks": [
+          "Marknaden kanske inte tror på kostnadsbesparingarna",
+          "Höga kostnader relativt konkurrenter"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Moberg Pharma",
+      "ticker": "MOB-B",
+      "timestamp_start": "[27:28]",
+      "timestamp_end": "[29:37]",
+      "word_count": 520,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Moberg Pharma har tagit in 150 miljoner kronor för fas 3-studie i USA för nagelsvampspreparatet MOB015. Studien ska göras om eftersom tidigare studie misslyckades genom att inte visa på fullständig läkning. Nu ska man snabba på behandlingstiden. Man ska skicka in en ansökan i H1 för MOB015 med den nya studien. Man får sälja over the counter (utan recept) i Europa 2023 och eventuellt i USA 2026. Man ska knoppa av Buppi som gör smärtlindring för cancer. Caset är att de får mycket pengar från europaförsäljning med Bayer som europapartner. Men det oroväckande är att Mr. Wolpert inte tecknade sin del trots att han plockat ut mycket pengar genom stor utdelning tidigare. Nästan ingen insider tecknar sin fulla del på konkursvärdering.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "De har ju tagit in 150 miljoner kronor nu för att bedriva fas 3 studie i USA för deras nagelsvampspreparat Mobb 015 som numera är en klassiker.",
+          "timestamp": "[27:28]",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Och det innebär ju att den här studien ska i princip göras om eftersom deras tidigare studie blev misslyckad genom att inte visa på fullständig läkning.",
+          "timestamp": "[27:39]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Och då beräknar man att kunna börja sälja i Europa om det här blir godkänt vid 2023 och eventuellt i USA vid 2026.",
+          "timestamp": "[27:54]",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "John",
+          "text": "Men det som gör det lite läskigt och konstigt är ju att Mr. Wolpert inte tecknade sin del, trots att han har plockat ut väldigt mycket pengar genom den här stora utdelningen som Mowberg gjorde för ett tag sedan.",
+          "timestamp": "[28:14]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Och att man nu inte väljer att teckna, eller nästan inga insiders väljer att teckna sin fulla del på nästan konkursvärdering här är ju väldigt oroväckande.",
+          "timestamp": "[28:27]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Wolpert är ju en husare av rang, fast han visar inte med plånboken. Så det är lite radiostyrda pilotskolan här.",
+          "timestamp": "[28:33]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "150 miljoner kr i nyemission",
+          "Värdering: nästan konkursvärdering"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "150 miljoner kr för fas 3-studie",
+          "Bayer som europapartner",
+          "Kan sälja OTC i Europa 2023, USA 2026",
+          "Avknoppning av Buppi för smärtlindring"
+        ],
+        "bear_case": [
+          "Tidigare studie misslyckades",
+          "Fas 3-studie måste göras om",
+          "Ingen insider tecknar sin del i nyemissionen",
+          "CEO Wolpert visar inte förtroende med plånboken",
+          "Värderas på konkursnivå"
+        ],
+        "catalysts": [
+          "Ansökan H1 för MOB015",
+          "Europalansering 2023",
+          "US-lansering 2026",
+          "Avknoppning av Buppi"
+        ],
+        "risks": [
+          "Studier kan misslyckas igen",
+          "Ingen insiderförtroende",
+          "Behöver mer kapital framöver"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Greater Than",
+      "ticker": "GREAT",
+      "timestamp_start": "[29:43]",
+      "timestamp_end": "[32:07]",
+      "word_count": 460,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Greater Than är Keels favorit men han har gjort bort sig hittills. De har investerat väldigt tidigt. Keel twittrade att han aldrig sett ett så bra bolag när aktien stod i 114, sedan gick den ner till 70. Det luktar hedgefondjobb igen. Johan håller inte med om att man kan bedöma på veckobasis. Bolaget är verksamt inom In-Kör-Tech och har utvecklat en AI som baserat på kördata förutspår risken för olyckor och bilskador för att hjälpa försäkringsbolag med prissättning. Potentialen är enorm men intäkterna lyser med sin frånvaro vilket gör att bolaget behöver ta kapital med jämna mellanrum. Fått in finska finansfamiljen Ernrot via riktad emission på 136 miljoner. Familjen är den mäktigaste finansfamiljen i Finlands historia och har varit stora ägare i flera storbolag. När Kones Antti Herlin rekryterade en Ernrot som vd sa hans farfar att ett bra företag måste ha minst en Ernrot. Johan har inga aktier men följer med intresse. Nu är det upp till bevis att det börjar ta fart även i resultaträkningen.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Där han har gjort bort sig ganska så ordentligt hittills.",
+          "timestamp": "[29:37]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Nu tänkte jag på tweeten när han skrev att han aldrig sett ett så bra bolag när aktien stod i 114 och sen gick den ner till 70 år.",
+          "timestamp": "[29:43]",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Nu luktar det hedgefondjobb igen, det är så trist att se det här.",
+          "timestamp": "[29:55]",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Mer exakt har man utvecklat en AI som baserat på massa kördata förutspår risken för olyckor och bilskador och så vidare. Det ska hjälpa försäkringsbolag med bättre prissättning av premierna.",
+          "timestamp": "[30:12]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Potentialen är enorm här men än så länge lyser intäkterna med sin frånvaro. Vilket också gör att det här bolaget behöver ta en kapital med jämna mellanrum.",
+          "timestamp": "[30:24]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det tar just veckans nyhet eftersom man gick ut med att man fått in den finska finanselitfamiljen, får man säga, Ernrot som ny ägare via en riktad emission på 136 miljoner.",
+          "timestamp": "[30:31]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det är såklart en fjädrig hatten att få in den här familjen som utan tvekan väl är den mäktigaste finansfamiljen i Finlands historia.",
+          "timestamp": "[30:43]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men med alla fall med de här på tåget så är det väl ändå, nu är det dags att det är upp till bevis för greater than kan jag tycka. Man vill ju börja se tecken på att det börjar ta fart här, även i resultaträkningen.",
+          "timestamp": "[31:51]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Intäkter lyser med sin frånvaro",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Riktad emission: 136 miljoner kr"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Enorm potential i In-Kör-Tech och AI för försäkringsbolag",
+          "Fått in finska finansfamiljen Ernrot som ägare",
+          "Ernrotfamiljen är den mäktigaste finansfamiljen i Finlands historia",
+          "Har varit stora ägare i flera storbolag",
+          "Flera familjemedlemmar varit vd för Finlands största bolag"
+        ],
+        "bear_case": [
+          "Intäkterna lyser med sin frånvaro",
+          "Behöver ta kapital med jämna mellanrum",
+          "Keels investering gjort bort sig hittills (aktie 114 → 70)",
+          "Luktar hedgefondjobb",
+          "Inget bevis på att modellen fungerar i stor skala"
+        ],
+        "catalysts": [
+          "Tecken på intäktstillväxt i resultaträkningen"
+        ],
+        "risks": [
+          "Behöver mer kapital utöver 136 miljoner",
+          "Tekniken kanske inte fungerar i praktiken",
+          "Marknadacceptans oklar"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag skulle vilja rekommendera folk som förmodligen är smartare och betydligt rikare än mig. Men att ta en del av pengarna från bordet efter de här enorma uppgångarna vi sett. Till exempel, om jag vore Anders Ström, så skulle jag sälja aktier för en 500 mil för att säkra hem många, många generationer ekonomiskt framöver.",
+      "summary": "Ta hem vinsterna efter enorma uppgångar för att säkra finansiell trygghet för kommande generationer.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[11:08]",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "profit taking",
+        "wealth preservation"
+      ]
+    },
+    {
+      "quote": "Jag lärde mig av en millennial i dagarna när jag gnällde på några av mina aktier som inte gick upp. Så sa den personen, lugn John, allt går upp, det tar bara olika lång tid. Jag blev lite paff över den visdomsorden, för jag är ju mer inne på Bråsets linje att fler aktier går till noll än till oändligheten.",
+      "summary": "Olika investeringsfilosofier: optimister tror allt går upp medan realister erkänner att vissa aktier går till noll.",
+      "category": "philosophy",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[09:28]",
+      "confidence": "medium",
+      "tags": [
+        "investering",
+        "risker",
+        "filosofi"
+      ]
+    },
+    {
+      "quote": "Jag var för övrigt en av de aktierna som räddade mig ur finansiell härdsmälta 2008-9 kanske. Men i alla fall, det är ju en aktie som jag nu är lite intresserad av",
+      "summary": "Vissa aktier kan rädda en från finansiell kris.",
+      "category": "lesson",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[21:36]",
+      "confidence": "medium",
+      "tags": [
+        "finansiell kris",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Historiskt sett har det alltid varit någon typ av varningssignal när aktieintresset är så enormt utbrett som det är just nu. Det får man på något sätt ha med sig i bakhuvudet om man är en Evanza-ägare.",
+      "summary": "När aktieintresset är extremt utbrett har det historiskt varit en varningssignal.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[16:38]",
+      "confidence": "high",
+      "tags": [
+        "sentiment",
+        "varningssignaler",
+        "marknadstoppar"
+      ]
+    },
+    {
+      "quote": "Det är ett nytt fenomen att utlänningar utnyttjar vår börs till att kapa aktier i princip.",
+      "summary": "Utländska analytiker och investerare börjar kapra svenska aktier.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[18:49]",
+      "confidence": "medium",
+      "tags": [
+        "marknadsdynamik",
+        "utländska investerare"
+      ]
+    },
+    {
+      "quote": "Jag tycker att varken dem eller centralbankerna ska vara så ofantligt rädda för en liten lågkonjunktur då och då.",
+      "summary": "Lågkonjunkturer är naturliga och inget att vara livrädda för.",
+      "category": "philosophy",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[09:28]",
+      "confidence": "medium",
+      "tags": [
+        "konjunkturcykler",
+        "marknadscykel"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "quote": "Samtidigt som framstående amerikanska aktörer som PayPal inser möjligheten och betydelsen, tror jag, av att vara med på det här racet, då står de svenska storbankerna kvar skräckslagna på prången. [...] Jag tycker att de är helt fel tänkta och ser det som någon typ av wall of worry som man får vara med och klättra över som bitcoinägare.",
+      "context": "Diskussion om svenska bankernas bitcoin-skräck vs utländska aktörer som PayPal som ser potentialen.",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "lång sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "John",
+      "speaker_role": "host",
+      "quote": "Bitcoin... Bitcoin, John, har ju varit i fokus här efter en stark utveckling får man säga på slutet. Har du skickat ett sms om dagen om hur det har gått? Jag har ju förstört hela min jul och början av 2021.",
+      "context": "Johan frågar om Bitcoin och John berättar att han förlorat pengar under jul och början av 2021.",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "John",
+      "speaker_role": "host",
+      "quote": "Jag tycker mest man borde oroa sig för alla de här nyheterna om folk som har tappat bort sina bitcoin på hårdiskar och allt vad det heter. Att en valuta ska kunna byggas på ett system där man kan tappa bort sina pengar för allt framtid. Tycker jag är lite konstigt.",
+      "context": "John oroar sig för att man kan tappa bort bitcoin för alltid.",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "lång sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "quote": "Även bitcoin-hosen har inte varit dåligt för dem. Tittar man på bitcoin så omsätts det för 50-60 miljarder dollar om dagen i den valutan. Och Evanzas del är väl från den väldigt liten, men den är nog ganska bra för dem ändå.",
+      "context": "Bitcoin-hosen har gynnat Avanza genom ökad handelsvolym. Bitcoin omsätts för 50-60 miljarder dollar om dagen.",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Börspodden diskuterar den kommande rapportsäsongen med höga förväntningar på börsen som står i 1975. Sandvik rapporterar torsdagen och handlas på ATH men det finns lite utrymme för besvikelse. Avanza visar rekordstark kundaktivitet men allt kan vara inprisat. Banksektorn värderas till under P10 och kan vara i köpläge med stigande räntor. Trelleborg får köprek med potentiell omvänd vinstvarning. CDON har utlänningar som ger extrema riktkurser vilket känns konstigt. Bitcoin diskuteras med positiva tongångar om potentiella men oro för att man kan tappa bort sina pengar.",
+  "key_takeaways": [
+    "Rapportsäsongen drar igång med höga förväntningar",
+    "Banker kan vara i köpläge med stigande räntor",
+    "Trelleborg har köprek och potentiell omvänd vinstvarning",
+    "CDON får extrema riktkurser från utländska analytiker",
+    "Bitcoin har wall of worry att klättra över",
+    "Ett gratis tips: ta hem en del av vinsten efter enorma uppgångar"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2021-01-20-e36e.txt",
+  "transcript_word_count": 5516,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

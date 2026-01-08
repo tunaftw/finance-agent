@@ -1,0 +1,925 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borsensfinest-2025-06-18-2836",
+  "podcast_name": "Börsens Finest",
+  "episode_title": "Avsnitt 7- Case i överflöd",
+  "episode_number": 7,
+  "date": "2025-06-18",
+  "hosts": [
+    "Vandul",
+    "Jack"
+  ],
+  "guests": [
+    "Mikael Syding"
+  ],
+  "main_topics": [
+    "Tesla",
+    "Saab",
+    "H&M",
+    "Gamingbolag",
+    "Guld och uran",
+    "Fintech"
+  ],
+  "stocks_discussed": [
+    "Tesla",
+    "Saab",
+    "H&M",
+    "Evolution",
+    "Hacksaw Gaming",
+    "Tivoli",
+    "H100 Group",
+    "Truecaller",
+    "Hemnet",
+    "Mineros",
+    "EMX Royalty",
+    "Caspi",
+    "Uranian Royalty",
+    "Govex"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Evolution",
+      "ticker": "EVO",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[24:43]",
+      "reasoning": "VD köpte för 65 miljoner kronor, vilket är ett starkt köpsignal. P10 på befintliga tal. Har bevislig attraktion på marknaden och har kunnat handlas mycket högre historiskt. Långsiktig VD som sitter kvar med aktierna. Spelbranschen får positiv rapporter från USA och har varit hatad länge - nu på väg upp.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Du får någonting som bevisligen har en attraktion på marknaden där kursen har kunnat stå mycket mycket högre. På befintliga tal så är det cirka P10. Är verkligen det här caset helt raserat på det sättet att den ska värderas långt långt under börssnittet? Det tror inte jag.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Vandul (host)",
+      "speaker_role": "host",
+      "timestamp": "[22:17]",
+      "reasoning": "Fallit från 400 till 130 SEK. Plockas ur free float-viktat index, fonder säljer ut H&M aktier. Skulle gynnas mest av dollarförsvagningen. Familjeägt, Persson köper tillbaka aktier. Köper på 130 och snittar ner fram till månadsräkning.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Därför har jag köpt ett gäng H&M nu här på 130 spänn och tänker snittan ner mig varje dag fram till om en månadsskiftet blir det då för att det är då den här omvikningen ska vara klar.",
+      "sector": "Kläder/Retail",
+      "market": "sweden",
+      "position_context": "Köper och snittar ner positionen",
+      "downside_note": null,
+      "catalyst_timing": "Månadsräkning (indexomvikning)"
+    },
+    {
+      "stock_name": "Mineros",
+      "ticker": "MINE",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[43:06]",
+      "reasoning": "Kanadensiskt guldbolag noterat på Toronto. P3-4 på innevarande års vinst om guldet står stilla. Direktavkastning 6-8%. Ingen skuld. 50 år gammalt guldbolag med jättefina fyndigheter. Vd Vic äger 68% och har bytt ut ledningen för expansion. Kan garantera minst 100% uppgång om inte guldpriset kollapsar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Tittar du på vad guldpriserna är nu? Inte ens senaste kvartalet speglade fullt ut var guldpriset står någonstans. Vi pratar egentligen P3-4 på innevarande årsvinst om guldet står stilla. Till och med den prisnivån, sen kommer utdelningen att höjas, det kommer att vara mycket mer än 6%.",
+      "sector": "Guld/Mining",
+      "market": "other",
+      "position_context": null,
+      "downside_note": "Politisk risk i Colombia",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "EMX Royalty",
+      "ticker": "EMXVF",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[47:14]",
+      "reasoning": "Asset light royalty bolag med 200-300 fyndigheter globalt. Äger inga gruvor, bara royalty-strömmar. Ett kontrakt med Zidgen i Jugoslavien kan vara värt mer än hela företaget. Potentiellt 20-40x på tio år, ca 50% undervärderad idag.",
+      "price_target": null,
+      "time_horizon": "10 år",
+      "quote": "Man vet redan från början att Lundin måste investera 5 miljoner dollar på att utveckla den här. Varje år får EMX en peng för varje milestone som uppnåts, och sen får man själva metallen till underpris, eller så får man 2-3 procent av själva priset som kommer gälla då i framtiden, för all evig tid.",
+      "sector": "Mining/Royalty",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Caspi (Kasakhstan fintech)",
+      "ticker": "CASP",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[50:53]",
+      "reasoning": "Kazakstanskt fintech-företag som gör digitala betaltjänster, säljer begagnade bilar via WeChat, köpt Hebsiburada i Turkiet. Vuxit 20-40% årligen de senaste 5 åren. P7 med 8% direktavkastning. 2025 guidar 20% EPS-tillväxt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "De har de senaste fem åren vuxit med mellan 20 och 40 procent, vinsten per aktie mellan 20 och 40 procent per år. De delar ut, just nu är direktavkastningen 8 procent. Du köper det just nu på PE7.",
+      "sector": "Fintech",
+      "market": "other",
+      "position_context": null,
+      "downside_note": "Politisk risk i Kasakhstan",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[15:08]",
+      "reasoning": "Hypad för länge, svårt att uppfylla förväntningar. Växer aldrig snabbare än 10-20% i årstakt. P30 på konsensus 2027 för potentiell 15% uthållig tillväxt. När sentimentet vänder kan den falla tillbaka till P18-20. Känns som blankningskandidat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det skulle nog vara ganska lätt att knuffa in mig i någon slags negativt folla för Saab. Kanske inte en direkt blankning men även det. Det är bara att jag, som sagt, blankar egentligen aldrig. Men Saab känns lite som en blankningskandidat här.",
+      "sector": "Försvar",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Kan falla till P18-20",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hemnet",
+      "ticker": "HEMN",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Host (Vandul)",
+      "speaker_role": "host",
+      "timestamp": "[39:33]",
+      "reasoning": "Ökat utbud på bostadsmarknaden är bra för Hemnet - varje ny annons genererar mer pengar. Kursen tappat 150-180 spänn från toppen. Kan komma med bra rapport och överraska på uppsidan.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag vet att media försöker få det till att mäklaren håller på att starta något eget och så vidare. Men titta på Hemnets aktiekurs. Den har tappat nästan 150-180 spänn sen toppen.",
+      "sector": "Fastigheter/Plattform",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Kommande rapport"
+    },
+    {
+      "stock_name": "Uranian Royalty Corporation",
+      "ticker": "URC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[52:52]",
+      "reasoning": "Royalty bolag för uran likt EMX. När hela market cap är deras fysiska uran får man royalty-portföljen gratis. Men uran-space har gått upp, toppat och kommit ner. På en dödplato nu.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ibland så är faktiskt uranpriset sånt att hela market cap är deras innehav i fysiskt uran som de ligger på. Och då får man hela deras royalty-portfölj gratis. Men hela det här urankaset med att det kommer en massa kärnkraftverk i framtiden, på ena sidan känns det helt solitt, men samtidigt är det som att det är det caset det bara är ju där hela tiden och det händer ingenting.",
+      "sector": "Uran/Royalty",
+      "market": "other",
+      "position_context": "Låg prioritet",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Govex",
+      "ticker": "GVX",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[54:54]",
+      "reasoning": "Extremt spekulativt. Tappade viktigaste gruvan i Niger efter statskupp. Två fyndigheter kvar men måste investera 10x i market cap för att bygga gruvan. Måste få tillstånd och finansiering.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Govex är extremt spekulativt. De tappade ju på grund av en statskupp, så tappade de ju sin viktigaste gruva i nischär. Sen har de två fyndigheter kvar och den ena har de nu försöker accelerera utvecklingen av.",
+      "sector": "Uran/Mining",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tivoli",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Vandul (host)",
+      "speaker_role": "host",
+      "timestamp": "[31:00]",
+      "reasoning": "Danska Tivoli-parken. Svagt Q1 för att påsken ligger i Q2. Svenska kronan starka, fler svenskar kan besöka. Tappat värde de senaste tre åren. Evighetscase.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men jag tror ändå att har man en evighetsportfölj så kan man stoppa in en liten slant i Tivoli. Sen kan man fråga sig, kommer de här växa snabbare än inflationen? Förmodligen, nöjen känns som att det är bättre än inflationen.",
+      "sector": "Nöjen",
+      "market": "other",
+      "position_context": "Evighetscase",
+      "downside_note": null,
+      "catalyst_timing": "Q2 och Q3 rapporter"
+    },
+    {
+      "stock_name": "Hacksaw Gaming",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[29:23]",
+      "reasoning": "IPO av i-gaming bolag som gör Le Bandit-spelet. Växer med 30% årligen, vill behålla EBIT-marginal över 80%. Men hype som varar bara några månader kan vara över snabbt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men jag tycker så här om det finns en sån trend, etablerad i några månader eller kvartal, och man bara vågar dra ut den i några år och ganska snabbt hamnar under PE10, medan man fortfarande växer fort, då är det ju ett bra case, det finns en kalkyl där.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "H100 Group",
+      "ticker": "H100",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[34:08]",
+      "reasoning": "Bytt verksamhet till bitcoin treasury-grej. Värderas till tio gånger inne i havet. Hettaste vild på börsen men fundamentalt fel.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Typ en bitcoin treasury-grej där de ska bara få antalet bitcoin att växa. Smarta trades. Och så värderas de till tio gånger inne i havet idag. Det känns ju helt fel.",
+      "sector": "Bitcoin",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "[08:29]",
+      "timestamp_end": "[13:25]",
+      "word_count": 700,
+      "speakers": [
+        "Mikael Syding",
+        "Vandul",
+        "Jack"
+      ],
+      "primary_speaker": "Mikael Syding",
+      "discussion_summary": "Syding analyserar Tesla och menar att kursen är helt fristående från fundamenta. P/E på cirka 500 men vinsten är under press. Tesla har alltid varit ett förhoppningsbolag, sällan fundamentalt värderat. Tekniskt ser det dock ut som en köpsignal - kursen ligger över 200 dagars glidande medelvärde och verkar på väg mot nya all-time highs.",
+      "quotes": [
+        {
+          "speaker": "Mikael Syding",
+          "text": "Men min take, jag gör alltid kalkyler på allting. Jag tar en punkt i tiden, före tiden eller exakt nu eller någon tidpunkt i framtiden och så delar jag upp den i en fundamentalvariabel och en multipel.",
+          "timestamp": "[08:56]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "När Tesla har nästan aldrig fått ihop de här på något sätt som är logiskt och rationellt, och det gör att kursen är på ett något sätt helt fristående från fundamenta.",
+          "timestamp": "[09:29]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Vinsten är under press om man inte plötsligt trollar med knäna. Men det spelar liksom ingen roll om P.E.-talet är 150 eller 500, eller om till och med vinsten sjunker, trots de här nyckeltalen.",
+          "timestamp": "[10:04]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Just nu så är det ju snarare köpläge. Kursen ligger klart över 200 dagar, den har försvarat 200 dagars glidande medelvärde ett par gånger trots att den dök under och nu är den över igen.",
+          "timestamp": "[12:53]",
+          "context": "technical"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 500,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Teknisk köpsignal över 200-dagars MA",
+          "Potentiell Optimus-robot lansering",
+          "FSD-utveckling"
+        ],
+        "bear_case": [
+          "P/E på 500",
+          "Vinsten under press",
+          "Kurs fristående från fundamenta",
+          "Cybertruck och FSD osäkerhet"
+        ],
+        "catalysts": [
+          "Optimus lansering",
+          "FSD genombrott",
+          "Teknisk utbrott över 200-dagars MA"
+        ],
+        "risks": [
+          "Hype-aktie utan fundamental stöd",
+          "Konkurrens i elbilssegmentet",
+          "FSD misslyckas"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "timestamp_start": "[14:17]",
+      "timestamp_end": "[17:26]",
+      "word_count": 550,
+      "speakers": [
+        "Mikael Syding",
+        "Vandul",
+        "Jack"
+      ],
+      "primary_speaker": "Mikael Syding",
+      "discussion_summary": "Syding ser Saab som en blankningskandidat trots geopolitisk spänning. Bolaget är hypat men växer aldrig snabbare än 10-20% årligen. Handlas på P30 (2027 konsensus) för potentiell 15% uthållig tillväxt. När sentimentet vänder kan den falla tillbaka till P18-20.",
+      "quotes": [
+        {
+          "speaker": "Mikael Syding",
+          "text": "Saab känns lite som en blankningskandidat här. Den har blivit hypad för länge och på ett sätt som måste vara väldigt svårt för Saab att uppfylla.",
+          "timestamp": "[15:08]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "De växer ju aldrig snabbare än 10-20 % i årstakt. Inte ens nu gör de ju det.",
+          "timestamp": "[15:23]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Men på drygt P50 med någon slags uthållig potentiell tillväxttakt på 15%, just nu så tror jag att det handlar på P30 på konsensus på 2027.",
+          "timestamp": "[16:04]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Plötsligt så faller den tillbaka till P18-20 och faller ur sentimentet. Man vill inte ha försvar, man kanske kommer på att det är dumt att bomba folk.",
+          "timestamp": "[17:15]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 30,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "10-20%",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Geopolitisk spänning driver efterfrågan",
+          "Försvarsbudgetar ökar",
+          "Teknologisk ledning"
+        ],
+        "bear_case": [
+          "Växer bara 10-20% årligen",
+          "P30 för 15% tillväxt är dyrt",
+          "Tjänstemannastyrt bolag med låg effektivitet",
+          "Sentiment kan vända till P18-20"
+        ],
+        "catalysts": [
+          "JAS order",
+          "Ökat försvarsbudget",
+          "Geopolitisk konflikt"
+        ],
+        "risks": [
+          "Sentimentomslag",
+          "Kan inte växa snabbare än BNP",
+          "Misslyckas med effektivisering"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "[19:48]",
+      "timestamp_end": "[23:22]",
+      "word_count": 650,
+      "speakers": [
+        "Vandul",
+        "Mikael Syding",
+        "Jack"
+      ],
+      "primary_speaker": "Vandul",
+      "discussion_summary": "Host rekommenderar H&M på 130 SEK, efter fall från 400. Fonder säljer ut aktien eftersom den plockas ur free float-viktat index. Dollarförsvagning borde gynna H&M. Familjen Persson äger och köper tillbaka aktier. Host köper och snittar ner positionen fram till månadsräkning.",
+      "quotes": [
+        {
+          "speaker": "Vandul",
+          "text": "H&M har fallit tillbaka från nästan 150 till 130. Och så mycket för att man ska ta ut ur det här viktade indexet som sätter begränsningar för att det är så liten free float i H&M.",
+          "timestamp": "[19:48]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Vandul",
+          "text": "Trots att det är ett bolag som borde gynnas mest av dollarförsvagningen.",
+          "timestamp": "[19:58]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Vandul",
+          "text": "Därför har jag köpt ett gäng H&M nu här på 130 spänn och tänker snittan ner mig varje dag fram till om en månadsskiftet blir det då för att det är då den här omvikningen ska vara klar.",
+          "timestamp": "[22:17]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "På 130 är den ganska billig i sitt intervall. Det är ett stort företag, familjeägt, jättebra.",
+          "timestamp": "[21:51]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Billig på 130 SEK",
+          "Dollarförsvagning gynnar",
+          "Familjeägt",
+          "Fonder säljer ut (indexviktning)",
+          "Persson köper tillbaka aktier"
+        ],
+        "bear_case": [
+          "Plockas ur index",
+          "Konsumentsektor pressad",
+          "Kurs kan falla mer"
+        ],
+        "catalysts": [
+          "Indexomvikning klar",
+          "Rapport",
+          "Dollarförsvagning"
+        ],
+        "risks": [
+          "Index-uttag fortsätter",
+          "Dollarn förstärks",
+          "Konsumenttufft klimat"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Evolution",
+      "ticker": "EVO",
+      "timestamp_start": "[24:43]",
+      "timestamp_end": "[29:23]",
+      "word_count": 600,
+      "speakers": [
+        "Mikael Syding",
+        "Vandul",
+        "Jack"
+      ],
+      "primary_speaker": "Mikael Syding",
+      "discussion_summary": "Evolution rekommenderas starkt av Syding. VD Jens von Bahr köpte aktier för 65 miljoner kronor, vilket är ett starkt köpsignal. Handlas på P10 på befintliga tal. Spelbranschen har varit hatad men börjar återhämta sig. Hacksaw Gaming IPO nämns som spännande med 80% EBIT-marginal och 30% tillväxt.",
+      "quotes": [
+        {
+          "speaker": "Vandul",
+          "text": "Evolutions vd toq lastade in aktier här som har verkligen fått igång den aktien. Han köpte för 65 miljoner.",
+          "timestamp": "[24:43]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Du får någonting som bevisligen har en attraktion på marknaden där kursen har kunnat stå mycket mycket högre. På befintliga tal så är det cirka P10.",
+          "timestamp": "[24:52]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Det tycker jag att han gör helt rätt i. Det här är det bästa caset hittills idag. Vi slår ju Saab och H&M och alla de här med hästlängder.",
+          "timestamp": "[24:50]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Vandul",
+          "text": "Sen tycker jag att man hela tiden får rapporter från USA hur mycket spelas där faktiskt.",
+          "timestamp": "[25:34]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 10,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "VD köpte 65 miljoner",
+          "P10 på befintliga tal",
+          "Historiskt hög kurs bevisad",
+          "USA-marknad växer",
+          "Spelbranschen på väg upp"
+        ],
+        "bear_case": [
+          "Spelreglering",
+          "Hype kan vara tillfällig"
+        ],
+        "catalysts": [
+          "VD-köp",
+          "USA-tillväxt",
+          "Spelbransch återhämtning"
+        ],
+        "risks": [
+          "Regulatorisk risk",
+          "Hype klingar av"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Mineros",
+      "ticker": "MINE",
+      "timestamp_start": "[43:06]",
+      "timestamp_end": "[47:04]",
+      "word_count": 700,
+      "speakers": [
+        "Mikael Syding",
+        "Vandul"
+      ],
+      "primary_speaker": "Mikael Syding",
+      "discussion_summary": "Mineros är det bästa och säkraste av alla guldcasen enligt Syding. P3-4 på innevarande års vinst. Direktavkastning 6-8%. Ingen skuld. 50 år gammalt bolag med fantastiska fyndigheter. Vd Vic äger 68% och har bytt ut ledningen för expansion. Kan garantera minst 100% uppgång.",
+      "quotes": [
+        {
+          "speaker": "Mikael Syding",
+          "text": "Vi pratar egentligen P3-4 på innevarande årsvinst om guldet står stilla. Till och med den prisnivån, sen kommer utdelningen att höjas, det kommer att vara mycket mer än 6%.",
+          "timestamp": "[43:12]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Känner huvudägaren Vick som äger 68% av bolaget. Han har nyss ökat med ytterligare ett bud på gamla priser på grund av gamla avtal med lite karteller i Colombia.",
+          "timestamp": "[43:28]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Mineros, det är guld, good as gold. Det är ett säkert case och superbilligt.",
+          "timestamp": "[56:38]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Det är ett 50 år gammalt guldbolag med jättefina guldfyndigheter och superstark kassaflöde.",
+          "timestamp": "[44:18]",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "3-4",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "6-8%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Ingen skuld",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "P3-4 på vinst",
+          "6-8% direktavkastning",
+          "Ingen skuld",
+          "Vd äger 68%",
+          "50 år gammalt med fantastiska fyndigheter",
+          "Nya ledning för expansion",
+          "Guldpris upp 15-25% årligen möjligt"
+        ],
+        "bear_case": [
+          "Politisk risk i Colombia",
+          "Kartell-relaterade avtal",
+          "Guldpris kan kollapsa"
+        ],
+        "catalysts": [
+          "Guldpris upp",
+          "Nya förvärv",
+          "Utdelningsökning"
+        ],
+        "risks": [
+          "Kolumbisk politik",
+          "Karteller",
+          "Guldprisrisk"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "EMX Royalty",
+      "ticker": "EMXVF",
+      "timestamp_start": "[47:14]",
+      "timestamp_end": "[50:42]",
+      "word_count": 750,
+      "speakers": [
+        "Mikael Syding",
+        "Vandul"
+      ],
+      "primary_speaker": "Mikael Syding",
+      "discussion_summary": "EMX Royalty är asset light royalty bolag med 200-300 fyndigheter globalt. Äger inga gruvor utan bara royalty-strömmar. Köper mark, utvecklar den med geologer och säljer sedan rättigheten till stora bolag som Lundin Gold. Ett kontrakt med Zidgen kan vara värt mer än hela företaget.",
+      "quotes": [
+        {
+          "speaker": "Mikael Syding",
+          "text": "Det är ingen koncentrationsrisk, de äger fyndigheter på 200-300 platser. Det är bland annat i Sverige, Finland, Norge och med även mycket Kanada.",
+          "timestamp": "[47:19]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Man säljer rättigheten till den här marken som är bevisad och man säljer den mot att man får framtida billigt material från den som driver gruvan.",
+          "timestamp": "[48:07]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Bara det kontraktet, om du börjar räkna på det, så är det värt mer än hela Emex.",
+          "timestamp": "[49:29]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Bolaget är värt 20-40 gånger om typ tio år. Det betyder att det är egentligen kanske 50% undervärderat idag.",
+          "timestamp": "[49:54]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "200-300 fyndigheter globalt",
+          "Asset light royalty model"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Asset light - inga gruvor",
+          "Diversifierade royalty-strömmar",
+          "Zidgen kontrakt kan vara värt mer än hela företaget",
+          "20-40x på tio år",
+          "50% undervärderad idag"
+        ],
+        "bear_case": [
+          "Beroende på att köpare utvecklar",
+          "Råvaruprisrisk"
+        ],
+        "catalysts": [
+          "Milestones utlöser utbetalningar",
+          "Nya royalty kontrakt",
+          "Guldpriset upp"
+        ],
+        "risks": [
+          "Köpare utvecklar inte fyndigheterna",
+          "Råvarupriser ner"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Caspi (Kasakhstan fintech)",
+      "ticker": "CASP",
+      "timestamp_start": "[50:53]",
+      "timestamp_end": "[52:37]",
+      "word_count": 500,
+      "speakers": [
+        "Mikael Syding",
+        "Vandul"
+      ],
+      "primary_speaker": "Mikael Syding",
+      "discussion_summary": "Caspi är ett kazakstanskt fintech-företag som gör digitala betaltjänster via WeChat och säljer begagnade bilar. Har köpt Hebsiburada i Turkiet. Vuxit 20-40% årligen i 5 år. P7 med 8% direktavkastning. 2025 guidar 20% EPS-tillväxt. 150 miljarder i market cap.",
+      "quotes": [
+        {
+          "speaker": "Mikael Syding",
+          "text": "De har de senaste fem åren vuxit med mellan 20 och 40 procent, vinsten per aktie mellan 20 och 40 procent per år.",
+          "timestamp": "[51:15]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "De delar ut, just nu är direktavkastningen 8 procent.",
+          "timestamp": "[51:20]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Du köper det just nu på PE7.",
+          "timestamp": "[51:33]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Mikael Syding",
+          "text": "Återigen, du får den här härliga sydinska politiska risken med Kasaxtan.",
+          "timestamp": "[52:11]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 7,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "8%",
+        "revenue_growth": "20-40%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "150 miljarder market cap",
+          "20% EPS-tillväxt 2025 guidance"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "P7 med 8% utdelning",
+          "20-40% historisk tillväxt",
+          "20% EPS-tillväxt guidance 2025",
+          "Fintech expansion",
+          "WeChat integration"
+        ],
+        "bear_case": [
+          "Politisk risk i Kasakhstan",
+          "Regionens osäkerhet"
+        ],
+        "catalysts": [
+          "Fortsatt tillväxt",
+          "Utdelningsökning",
+          "Fintech expansion"
+        ],
+        "risks": [
+          "Kazakhstan politik",
+          "Regional risk"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man som har störst risker av alla i hela universum i de värsta bolagen är lite för rädd för just att köpa H&M.",
+      "summary": "Investerare kan vara paradoxalt rädda för att köpa billiga bolag de normalt undviker.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[20:47]",
+      "confidence": "high",
+      "tags": [
+        "psychology",
+        "value investing",
+        "contrarian"
+      ]
+    },
+    {
+      "quote": "Läs matte ungdomar, är det ett råd du kan ge? Nej, gå på ett annat ställe helt enkelt. Det är inte så att du behöver den där matten.",
+      "summary": "Matte är inte nödvändigt för alla, det finns andra vägar till framgång.",
+      "category": "wisdom",
+      "speaker": "Jack",
+      "speaker_role": "guest",
+      "timestamp": "[01:56]",
+      "confidence": "medium",
+      "tags": [
+        "education",
+        "career advice"
+      ]
+    },
+    {
+      "quote": "Jag brukar säga att man börjar med fundamenta och sen kollar jag lite grann att inte teknisk analys och makro är helt åt skogen. Och kanske 5% av fallen då är TA och makro så extremt att jag backar lite grann och väntar lite.",
+      "summary": "Börja med fundamenta, använd teknisk analys och makro endast när de är extremt tydliga.",
+      "category": "philosophy",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[13:49]",
+      "confidence": "high",
+      "tags": [
+        "fundamental analysis",
+        "technical analysis",
+        "investment philosophy"
+      ]
+    },
+    {
+      "quote": "De som har hängt med under en lång period. Jack, hör du talas om den? Någon gång har jag hört det, men det var lite förbi min tid. Har man lite otur med timingen, så är man en nobody. Har man tur, då är man hyllad och är superstjärna.",
+      "summary": "Timing kan avgöra rykte och framgång, oavsett kompetens.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[17:44]",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "luck",
+        "fund management"
+      ]
+    },
+    {
+      "quote": "Förhoppningsbolag som Tesla alltid har varit, för det har aldrig varit fundamentalt värderat. De gör ju i princip aldrig någon vinst, eller den är så liten i förhållande till Marketcap. Då är det bara trender i kursen egentligen, eller hype i någon slags moda i investeringsvärlden.",
+      "summary": "Bolag som baseras på förhoppningar snarare än fundamenta handlas på trender och hype.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[10:23]",
+      "confidence": "high",
+      "tags": [
+        "hype stocks",
+        "fundamentals",
+        "valuation"
+      ]
+    },
+    {
+      "quote": "Men 30 procent har ju typ inte hänt i Stockholm sen 90-talet. Nej men det är det jag försöker uttrycka att det blir aldrig det där är när det verkligen är krasch och det är ändå inte så mycket mer än rean på ett par jeans.",
+      "summary": "Bostadsmarknadskrascher är sällan så drastiska som man tror.",
+      "category": "wisdom",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "timestamp": "[40:35]",
+      "confidence": "medium",
+      "tags": [
+        "real estate",
+        "crashes",
+        "market psychology"
+      ]
+    },
+    {
+      "quote": "Men vet man om det är dipp förrän efter? Eller var det liksom bara att fånga fallande kniven? Och sen när det går upp igen, då köpte man på dippen. Annars köpte man liksom för tidigt.",
+      "summary": "Det är svårt att veta om det är en dipp förrän i efterhand.",
+      "category": "wisdom",
+      "speaker": "Jack",
+      "speaker_role": "guest",
+      "timestamp": "[40:58]",
+      "confidence": "high",
+      "tags": [
+        "market timing",
+        "buying the dip"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "quote": "Lite grann, nej det är verkligen inte nummer tre. Det är långt ner på listan. Jag tycker att man ska ha lite bitcoin och jag tycker att det är en spännande idé.",
+      "context": "Diskussion om hur mycket han gillar bitcoin vs guld och uran",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "lång sikt"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Mikael Syding",
+      "speaker_role": "guest",
+      "quote": "Typ en bitcoin treasury-grej där de ska bara få antalet bitcoin att växa. Smarta trades. Och så värderas de till tio gånger inne i havet idag. Det känns ju helt fel.",
+      "context": "Om H100 Group som bytt till bitcoin treasury",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "kort sikt"
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar flera aktier: Tesla är fristående från fundamenta men tekniskt köpläge, Saab är en blankningskandidat på hög valuation, H&M rekommenderas köpas på 130 SEK på grund av indexuttag och dollarförsvagning, Evolution är bästa caset med VD-köp på 65 miljoner, samt flera guldbolag där Mineros är bäst och säkrast.",
+  "key_takeaways": [
+    "Evolution rekommenderas starkt med P10 och VD-köp",
+    "H&M kan köpas på 130 SEK när fonder säljer ut",
+    "Mineros är bästa guldcaset med P3-4 och 6-8% utdelning",
+    "Saab ses som blankningskandidat på P30",
+    "EMX Royalty kan bli 20-40x på tio år"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borsensfinest/transcripts/borsensfinest-2025-06-18-2836.txt",
+  "transcript_word_count": 11500,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

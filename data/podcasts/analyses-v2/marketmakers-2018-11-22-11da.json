@@ -1,0 +1,833 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2018-11-22-11da",
+  "podcast_name": "Market Makers",
+  "episode_title": "#58 Eric Strand",
+  "episode_number": 58,
+  "date": "2018-11-22",
+  "hosts": [
+    "Fabian",
+    "Niklas"
+  ],
+  "guests": [
+    "Erik Strand"
+  ],
+  "main_topics": [
+    "Makrosvep",
+    "Ädelmetaller",
+    "Guld",
+    "Silver",
+    "Pacific Precious",
+    "Pacific Multi Asset",
+    "Investeringsstrategi",
+    "Marknadstrend"
+  ],
+  "stocks_discussed": [
+    "Pacific Precious",
+    "Pacific Multi Asset",
+    "Guld",
+    "Silver"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Guld",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Erik Strand",
+      "speaker_role": "guest",
+      "timestamp": "29:00",
+      "reasoning": "Guld skyddar mot politiska och statliga hot, har låg korrelation med börsen och ger avkastning inte bara skydd. Sedan 2000 har guld presterat bättre än börsen. Ett bra köptillfälle när ingen vill äga guld och priser är pressade.",
+      "price_target": null,
+      "time_horizon": "Långsiktig",
+      "quote": "Guld för mig är väl ett sätt att skydda oss kanske mot det som är över oss, om det nu är politiker, staten. Det känns som något sätt att det kan skydda oss investerare. Tittar vi på det här millenniet från 2000 så har det varit bättre ega guld än börsen.",
+      "sector": "Ädelmetaller",
+      "market": "other",
+      "position_context": "Öviktig del av portfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Silver",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Erik Strand",
+      "speaker_role": "guest",
+      "timestamp": "39:16",
+      "reasoning": "Silver har stark industriell efterfrågan i tekniska produkter (telefoner, datorer, solceller, elbilar). Eftersom det är en nödvändig råvara med liten mängd per produkt, påverkas inte efterfrågan av prisökningar. Brist på reserver och inelastiskt pris skapar upp potential.",
+      "price_target": null,
+      "time_horizon": "Långsiktig",
+      "quote": "Silver är intressantare just att det används så mycket industriellt. Det är världens nästmest använde råvara. Det finns inga reserver av silver. Priset är in elastiskt. Till skillnad mot olja som har ett elastiskt pris.",
+      "sector": "Ädelmetaller",
+      "market": "other",
+      "position_context": "Ren exponering via ETC",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Storbritannien index",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Erik Strand",
+      "speaker_role": "guest",
+      "timestamp": "20:57",
+      "reasoning": "Frankrike har svårt att genomföra nödvändiga reformer. Problemen har börjat komma och det är ett svårt land att göra de åtgärder som krävs. Positionerades tidigt men nu känns intressant.",
+      "price_target": null,
+      "time_horizon": "Medellångsiktig",
+      "quote": "Jag ser Frankrike som ett problem, nu har det varit ganska bra på ett sätt för Frankrike men det känns som att de kommer få svårt att genomföra det de säger och nu börjar väl problemen komma.",
+      "sector": "Index",
+      "market": "europe",
+      "position_context": "Kortposition i index",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kina index",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Erik Strand",
+      "speaker_role": "guest",
+      "timestamp": "20:57",
+      "reasoning": "Kinas tillväxt har saktat av rejält. Stimulansen som drev tillväxt håller på att strypas, vilket gör det svårt att slå tidigare jämförelsesiffror.",
+      "price_target": null,
+      "time_horizon": "Medellångsiktig",
+      "quote": "Men mer oroande kanske är Kinas tillväxt som saknar in rejält. För det är ju Kina och USAs stimulanser som har drivit den tillväxt vi har haft.",
+      "sector": "Index",
+      "market": "other",
+      "position_context": "Kortposition i index",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Pacific Precious",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "50:08",
+      "reasoning": "Fond som fokuserar på ädelmetaller med målsättning 10% avkastning årligen. Låg korrelation med börsen, valuta-hedgad till SEK. Strategi med tre ben: direkt råvaruexponering, streamingbolag och gruvbolag.",
+      "price_target": null,
+      "time_horizon": "Långsiktig",
+      "quote": "Jag kan ju mena att jag har en liten andel i Pacific Precious, så är vi helt transparenta med det. Men jag tror inte att det är så att jag kommer att tjäna någonting på att folk skulle köpa den fonden på något sätt.",
+      "sector": "Fonder",
+      "market": "sweden",
+      "position_context": "Liten position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Defensiva bolag",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "09:07",
+      "reasoning": "I en nedåtgående marknadstendens brukar defensiva bolag överprestera resten av börsen. Strategi att cykla bort från klassiska tillväxtaktier.",
+      "price_target": null,
+      "time_horizon": "Medellångsiktig",
+      "quote": "Istället kanske man ska kika på en annan typ av strategi än vad man tidigare gjort. Man kanske ska plocka in defensiva bolag som vi har nämnt några veckor sedan som brukar överprestera resten av börsen.",
+      "sector": "Defensiva sektorer",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Långa räntor",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "09:07",
+      "reasoning": "Långa räntor gynnas av det makroekonomiska klimat som är att vänta i en ekonomisk nedgång.",
+      "price_target": null,
+      "time_horizon": "Medellångsiktig",
+      "quote": "Sen är det intressant också, vi tror att man kan plocka in långa räntor och högutdelar också. Det kan gynnas av det klimatet vi går in i.",
+      "sector": "Räntor",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Råvaror",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "09:07",
+      "reasoning": "Råvaror brukar pik senare än börsen i slutet på en cykel, vilket kan ge skydd i en ekonomisk avmattning.",
+      "price_target": null,
+      "time_horizon": "Medellångsiktig",
+      "quote": "Och mer intressant är dock råvaror som brukar pika senare än börsen i slutet på en cykel.",
+      "sector": "Råvaror",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Pacific Precious",
+      "ticker": null,
+      "timestamp_start": "21:42",
+      "timestamp_end": "28:56",
+      "word_count": 1500,
+      "speakers": [
+        "Erik Strand",
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Erik Strand",
+      "discussion_summary": "Pacific Precious är en fond fokuserad på ädelmetaller med strategi att tjäna pengar oavsett bull eller bear market i sektorn. Fonden har tre ben: 50% direkt råvaruexponering (främst guld och silver), 25% streamingbolag och gruvbolag, samt en long/short-strategi med åtta långa positioner och kort index. Målsättning är 10% årlig avkastning med lägre volatilitet än guldgruvbolagsfonder.",
+      "quotes": [
+        {
+          "speaker": "Erik Strand",
+          "text": "Där är ju på ett sätt lite enklare för allting handlar om ermetaller. Så att ingenting handlar om vanliga aktiebolag utan allt är om ermetaller.",
+          "timestamp": "21:46",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "I första halvan, ungefär 50 procent, har vi en ren exponering mot råvarans värdeförändring. Guld eller silver i första hand, de två.",
+          "timestamp": "22:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Streamingbolag brukar säga att de har en hävstång gånger två på guldpriset. Om guldgruvbolag har en hävstång på fyra gånger guldpriset så är streamingbolag ungefär på två gånger.",
+          "timestamp": "22:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Streamingbolag... lånar de ut pengar till gruvbolag och får betala ungefär 25 procent av spotpris på kommande utvinning. Vilket gör dem till lite mindre vinstmaskiner egentligen.",
+          "timestamp": "22:48",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Sista benet för Precious är en long short där jag går lång i princip åtta bolag och kort index. Där principen är att vi aldrig nett och köper oss långa.",
+          "timestamp": "23:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Syftet med Precious är att man ska kunna vara med i hela den bull market som kommer.",
+          "timestamp": "24:15",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Jättehögt är det väl kanske inte. Det är 10 % per år. Det är väl ungefär det det har oftast legat faktiskt.",
+          "timestamp": "29:30",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Mål: 10% årlig avkastning",
+          "50% direkt råvaruexponering",
+          "25% streamingbolag",
+          "25% gruvbolag"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Bull market i ädelmetaller kan starta när obligationer och börsen vänder",
+          "Stora mängder pengar från obligations- och aktiemarknaderna kan flytta till mindre marknader",
+          "Perfect storm: höga skulder och krediter skapar perfekt miljö för ädelmetaller"
+        ],
+        "bear_case": [
+          "Om guldpriset faller kan fonden förlora pengar",
+          "Bear market i ädelmetaller kan driva ned fonden",
+          "Streamingbolag har mindre hävstång än gruvbolag vilket begränsar uppsidan"
+        ],
+        "catalysts": [
+          "Bear market i obligationer och aktiemarknader",
+          "Höga skulder och krediter i världen",
+          "Recession och ekonomisk osäkerhet"
+        ],
+        "risks": [
+          "Guldpriset faller",
+          "Streamingbolag minskar i värde",
+          "Gruvbolag med sämre ledning eller i osäkra länder"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Guld",
+      "ticker": null,
+      "timestamp_start": "27:01",
+      "timestamp_end": "36:43",
+      "word_count": 1200,
+      "speakers": [
+        "Erik Strand",
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Erik Strand",
+      "discussion_summary": "Guld beskrivs som ett skydd mot politiska och statliga hot med låg korrelation till börsen. Erik föredrar fysiskt guld eller allokerat guld (ETC) snarare än pappersguld (futures). Han ser potential för en mature bull market baserat på höga skulder, krediter och att obligation- och aktiemarknaderna kan vända samtidigt.",
+      "quotes": [
+        {
+          "speaker": "Erik Strand",
+          "text": "Guld för mig är väl ett sätt att skydda oss kanske mot det som är över oss, om det nu är politiker, staten.",
+          "timestamp": "29:00",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Tittar vi på det här millenniet från 2000 så har det varit bättre ega guld än börsen. Det var ännu bättre om man hade blandat båda två.",
+          "timestamp": "29:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Hur man uppnår en guld i sig har det inneboende. Det är en låg korrelation med börsen.",
+          "timestamp": "30:18",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Jag vill alltid nyansera den lilla frågan när någon tar upp pappersguld. För mig finns det rent fysisk guld som du har hemma, vilket jag också tycker är bra att ha.",
+          "timestamp": "30:51",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Sen finns det guld så som vi investerar i. Där är guldet allokerat. Vi har bar numbers i de ETC och de instrument vi använder.",
+          "timestamp": "31:12",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Sen finns det ett tredje nivå, och det är vad man ska kalla det för papperskuld. Då är det futures, COMEX, ETNR, där man i bank ställer ut någonting om man tar en risk på bank. Det är papperskuld. Men man måste se de här tre olika nivåerna så att man inte blandar ihop det.",
+          "timestamp": "31:25",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "När börsen går dåligt så beror det på de problem som finns i systemet eller när det blir motpartsrisker. Det är de egenskaperna som guld där man inte har de problemen.",
+          "timestamp": "30:25",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Bättre än börsen sedan 2000",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Låg korrelation med börsen",
+          "Avkastning > börsen sedan 2000",
+          "Perfekt skydd vid systemproblem"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Låg korrelation med börsen ger diversifiering",
+          "Sedan 2000 har guld presterat bättre än börsen",
+          "Skydd mot politiska och statliga risker",
+          "Perfekt miljö när obligationer och aktier vänder samtidigt"
+        ],
+        "bear_case": [
+          "Guldpriset kan gå ner i en bear market",
+          "Pappersguld innebär motpartsrisk mot bank",
+          "Man kan sälja på fel tillfälle om volatilitet är hög"
+        ],
+        "catalysts": [
+          "Bear market i obligationer och aktier",
+          "Höga skulder och krediter i världen",
+          "Recession och ekonomisk kris",
+          "Ökad osäkerhet i finanssystemet"
+        ],
+        "risks": [
+          "Prisfall i guld",
+          "Hästångsprodukter kan förlora mycket värde",
+          "Pappersguld har motpartsrisk"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Silver",
+      "ticker": null,
+      "timestamp_start": "39:13",
+      "timestamp_end": "41:13",
+      "word_count": 600,
+      "speakers": [
+        "Erik Strand",
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Erik Strand",
+      "discussion_summary": "Silver beskrivs som mer intressant än guld på grund av dess industriella användning. Det används i telefoner, datorer, solceller och elbilar. Priset är inelastiskt eftersom det är en nödvändig råvara med liten mängd per produkt, vilket gör att producenter köper oavsett pris. Brist på reserver och att mycket silver är biprodukt från guld- och koppargruvor skapar upp potential.",
+      "quotes": [
+        {
+          "speaker": "Erik Strand",
+          "text": "Silver är intressantare just att det används så mycket industriellt. Det är världens nästmast använde råvara. Det finns inga reserver av silver. Priset är in elastiskt.",
+          "timestamp": "39:16",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "I silver är en nödvändig råvara i varje telefon, i varje dator, i varje solcell, överallt där vi använder elbatterier till bilar, i varje bil behövs så mycket silver.",
+          "timestamp": "39:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Även om priset skulle gå upp 100-200 % så blir inte produkten, för det är inte så mycket silver i varje produkt. Det gör ju att producenten köper silver oavstående pris, för annars får han inte ut sin dator.",
+          "timestamp": "39:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Ytterligare en faktor är att mycket silver kommer från bolag som egentligen utvinner guld och får silver som en byproduct. Eller kopparbolag som också får silver som biprodukt.",
+          "timestamp": "40:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Men de är inte så många, de är inte så stora. Det är egentligen bara de som kan reagera på, om det blir en väldigt stor efterfrågan, att öka sin produktion.",
+          "timestamp": "40:15",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Inga reserver av silver",
+          "Inelastiskt pris",
+          "Industriell användning: telefoner, datorer, solceller, elbilar",
+          "Mycket silver som biprodukt från guld- och koppargruvor"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hög industriell efterfrågan",
+          "Inelastiskt pris - efterfrågan påverkas inte av prisökningar",
+          "Inga reserver av silver",
+          "Liten mängd per produkt gör att prisökningar inte påverkar slutproduktens pris",
+          "Brist på primära silvergruvor"
+        ],
+        "bear_case": [
+          "Recession kan minska industriell efterfrågan",
+          "Guld- och koppargruvor kan öka silverproduktionen om priset stiger",
+          "Silver kan följa guldpriset nedåt"
+        ],
+        "catalysts": [
+          "Ökad produktion av elbilar och solceller",
+          "Teknologisk utveckling kräver mer silver",
+          "Brist på silverreserver"
+        ],
+        "risks": [
+          "Recession minskar industriell efterfrågan",
+          "Ny teknik kan ersätta silver",
+          "Guldpriset faller drar med sig silver"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Gruvbolag (ädelmetaller)",
+      "ticker": null,
+      "timestamp_start": "36:43",
+      "timestamp_end": "39:13",
+      "word_count": 500,
+      "speakers": [
+        "Erik Strand",
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Erik Strand",
+      "discussion_summary": "Vid val av gruvbolag fokuserar Erik på fyra faktorer: 1) Likviditet - måste kunna sälja snabbt om nödvändigt, 2) Jurisdiktion - bolag ska verka i säkra länder som Mexiko, Australien, Kanada, 3) Silverinnehåll - föredrar bolag med högre silverandel, 4) Ledning - erfarna ledare från branschen. Han tittar mindre på värdering och nyckeltal.",
+      "quotes": [
+        {
+          "speaker": "Erik Strand",
+          "text": "De som jag väljer ut, och det är kanske lite intressant, att jag tittar relativt lite på uttaget på värderingen eller nyckeltal.",
+          "timestamp": "36:53",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "För någonstans har jag, i grunden, i bolagen rätt värderade där de är. Alltså att priset är rätt. Så för mig blir det mer ett likviditet. Kan jag sälja dem snabbt, om jag måste sälja dem?",
+          "timestamp": "36:57",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Nummer två för mig är juristikon, alltså var de är verksamma. Som är min fond så vill jag att de ska vara verksamma i säkra länder, om vi nu talar med Mexiko, Australien, Kanada.",
+          "timestamp": "37:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Vi har ju en familj i Sverige som är väldigt duktig inom mining, en av de mest ansedda i världen, Lundin Gold. Vi är ett bolag och de är experter verkligen på svåra länder.",
+          "timestamp": "37:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Men för mig blir det ett problem med just att de är i länder som inte är så säkra. Blir det fel, blir det stadsgrupp, blir det förstatligat, då blir det binärt och det passar inte in i en fond i alla fall.",
+          "timestamp": "37:45",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Sen tittar jag på, tror jag lite mer på silver än guld, då ser jag gärna att jag har mer minor som är silver, högre andel silver i sin mining.",
+          "timestamp": "38:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Och det fjärde för mig är ledningen i bolag. För i den här branschen kan inte VDR vandra från, man kan inte komma från en helt annan bransch.",
+          "timestamp": "38:10",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "Inte primärt fokus",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Likviditet är nummer ett",
+          "Säker jurisdiktion: Mexiko, Australien, Kanada",
+          "Högre silverandel är positivt",
+          "Erfaren ledning från branschen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Bull market i ädelmetaller",
+          "Högre silverinnehåll ger bättre uppsida",
+          "Erfaren ledning levererar bra resultat",
+          "Säkra länder ger minskad risk"
+        ],
+        "bear_case": [
+          "Osäkra länder riskerar förstatligande",
+          "Bristande likviditet vid uttag",
+          "Dålig ledning kan skada bolaget",
+          "Låg silverandel ger mindre uppsida i silverbull market"
+        ],
+        "catalysts": [
+          "Prisökning i guld och silver",
+          "Nya fyndigheter och gruvdrift",
+          "Ökad produktionseffektivitet"
+        ],
+        "risks": [
+          "Politisk risk i osäkra länder",
+          "Utbildningsrisker vid gruvdrift",
+          "Tekniska problem",
+          "Lägre råvarupriser"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "timestamp_start": "42:37",
+      "timestamp_end": "47:29",
+      "word_count": 800,
+      "speakers": [
+        "Erik Strand",
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Erik Strand",
+      "discussion_summary": "Erik är skeptisk till Bitcoin och ser svårt att förstå dess värde. Han skiljer på blockchain-tekniken (intressant för decentraliserade överföringar) och Bitcoin som valuta. Han pekar på risken att kryptokurser kan ersättas av bättre alternativ (Bitcoin-2, Bitcoin-3), att kvantdatorer kan knäcka krypteringen, och att transaktionstiden på 7 minuter är för lång för vardagsköp. Han ser mer potential i blockchain som överföringssystem för länder som vill frigöra sig från SWIFT.",
+      "quotes": [
+        {
+          "speaker": "Erik Strand",
+          "text": "För mig är blockchain en sak, att föra över pengar, till exempel, eller att föra över handlingar. Det behöver inte vara pengar man förer över.",
+          "timestamp": "42:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Jag tror inte att maktcentrum, om man vill prata om dem, om man ska ha guld, de ovanför oss. Jag tror inte att de ovanför oss riktigt vill ha det, för de vill ha kontroll.",
+          "timestamp": "42:58",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Däremot så harmonerar det i de frågorna där Kina och Ryssland vill frigöra sig från SWIFT-systemet. SWIFT är ett överföringssystem som USA äger.",
+          "timestamp": "43:10",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "För bitcoin, för mig har det svårt att ha ett värde. Att ta betalt för att jag har hjälp till att transaktioner blir gjord. Serviceavgift för att transaktioner görs, ja. Men det har inte med värdet i det jag överför.",
+          "timestamp": "43:45",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "För om bitcoin, nu kan du göra 21 miljoner bitcoin, maximalt. Men sen gör någon en bitcoin-2 som är lite snabbare, lite säkrare. Då är den ju bättre på alla punkter än bitcoin-1. Varför skulle bitcoin-1 ha ett värde om det finns en bitcoin-2?",
+          "timestamp": "44:05",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Och egentligen kanske mest intressant är väl vem har den första kvantumdatorn. För om jag förstår rätt, om det nu blir Kina eller USA, men de kan ju lösa sådana matematiska former så att de kan knäcka alla koder.",
+          "timestamp": "46:00",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Erik Strand",
+          "text": "Och i handen så kan det ju inte ta sju minuter innan man får, säljaren kan ju inte vänta sju minuter och se om han får betalt. Han måste ju veta att han får betalt direkt.",
+          "timestamp": "46:20",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Max 21 miljoner Bitcoin",
+          "Transaktionstid: 7 minuter",
+          "Risk från kvantdatorer",
+          "Kan ersättas av bättre kryptovalutor"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Blockchain-teknik är intressant för decentraliserade överföringar",
+          "Kina och Ryssland vill frigöra sig från SWIFT",
+          "Decentralisering kan ge alternativ till centraliserade system"
+        ],
+        "bear_case": [
+          "Svårt att se ett inneboende värde",
+          "Kan ersättas av bättre kryptokurser",
+          "Kvantumdatorer kan knäcka krypteringen",
+          "Lång transaktionstid (7 minuter) gör det opraktiskt för vardagsköp",
+          "Maktcentrum vill ha kontroll, inte decentralisering"
+        ],
+        "catalysts": [
+          "Ökad acceptans som betalningsmedel",
+          "Teknisk utveckling av blockchain",
+          "Länder som vill undvika SWIFT-sanktioner"
+        ],
+        "risks": [
+          "Kvantumdatorer kan knäcka kryptering",
+          "Bättre kryptokurser ersätter Bitcoin",
+          "Myndighetsreglering",
+          "Tekniska problem och hack"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag har alltid sagt att om man har en IQ av 160, då ska man ge 30 poäng till någon annan, för man behöver inte investera. Vad man behöver är emotionella utvecklingar.",
+      "summary": "Investeringsframgång handlar mer om emotionell mognad än hög intelligens. Att kontrollera sina känslor är viktigare än IQ.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "investeringspsykologi",
+        "känslor",
+        "intelligens"
+      ]
+    },
+    {
+      "quote": "Folk fattar inte att börsen är framåtblickande. Det är nåt vi har nämnt i ett antal avsnitt nu. Folk ser aldrig en recession när de står på toppen av en cykel.",
+      "summary": "Börsen är framåtblickande och prissätter framtida recessioner innan de sker. Allt ser bäst ut precis innan det vänder.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "05:47",
+      "confidence": "high",
+      "tags": [
+        "marknadscykel",
+        "recession",
+        "börsen"
+      ]
+    },
+    {
+      "quote": "Precis som med aktier så pikar ofta priset innan vinsten pikar. Det är som vi säger, börsen är framåtblickande.",
+      "summary": "Priset på aktier faller ofta före vinsterna, eftersom börsen prissätter framtida resultatförsämringar i förväg.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "07:52",
+      "confidence": "high",
+      "tags": [
+        "aktiepriser",
+        "vinster",
+        "cykler"
+      ]
+    },
+    {
+      "quote": "Det är alla frågade sig då Fabian, det är vad ska man äga istället eller vad ska man göra egentligen? Antingen kan man vara en Mr. Tough Guy och korta som Niklas Aldén.",
+      "summary": "I en nedåtgående marknad kan man antingen blanka eller ändra strategi mot defensiva bolag. Det finns flera sätt att överprestera i nedgång.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "09:07",
+      "confidence": "medium",
+      "tags": [
+        "bear market",
+        "strategi",
+        "defensiva"
+      ]
+    },
+    {
+      "quote": "Var öppen för flera tillgångslag helt enkelt för att bredda portföljen. Det är bra, har man bara investerat i den senaste bullcykeln så kanske det inte är jättebra att tro att man är en king på equities.",
+      "summary": "Breda portföljen över flera tillgångslag för att minska risk. Att bara investera i aktier under en bullcykel ger ingen garanti för framtida framgång.",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "10:00",
+      "confidence": "high",
+      "tags": [
+        "diversifiering",
+        "tillgångslag",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Första är det att man behöver inte blanka bara för att börsen går ned. Det finns andra sätt att både överprestera börsen och tjäna pengar i nedgång.",
+      "summary": "Det finns många sätt att tjäna pengar i nedgång utöver blankning, som att äga dollar, obligations eller defensiva aktier.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "10:30",
+      "confidence": "high",
+      "tags": [
+        "bear market",
+        "strategi",
+        "alternativ"
+      ]
+    },
+    {
+      "quote": "Jag kan sträcka mig till hävstång 2, men börjar det bli 4 och mer så blir det väldigt svårt att göra någonting av det. Det slutar ofta som att man inte har någonting kvar.",
+      "summary": "Hävstång på 2x kan fungera men över 4x blir det mycket svårt. Hävstång leder ofta till att man förlorar allt om det går fel.",
+      "category": "lesson",
+      "speaker": "Erik Strand",
+      "speaker_role": "guest",
+      "timestamp": "48:34",
+      "confidence": "high",
+      "tags": [
+        "hävstång",
+        "risk",
+        "leverage"
+      ]
+    },
+    {
+      "quote": "Jag tror att man ska inte vara rädd för en crash, utan en crash är en möjlighet. En crash är en förmögenhetsomfördelning som ger alla unga möjligheten att bli rika.",
+      "summary": "En krasch är inte något att vara rädd för utan en möjlighet för förmögenhetsomfördelning. Det är viktigt att stå köpstark på andra sidan kraschen.",
+      "category": "philosophy",
+      "speaker": "Erik Strand",
+      "speaker_role": "guest",
+      "timestamp": "49:13",
+      "confidence": "high",
+      "tags": [
+        "krasch",
+        "möjlighet",
+        "investeringsfilosofi"
+      ]
+    },
+    {
+      "quote": "Där tror jag att guld och silver är nyckeln. Sen kan man gå all in på börsen.",
+      "summary": "Guld och silver är nyckeln för att överleva en krasch. Efteråt kan man aggressivt investera i aktier.",
+      "category": "philosophy",
+      "speaker": "Erik Strand",
+      "speaker_role": "guest",
+      "timestamp": "49:25",
+      "confidence": "high",
+      "tags": [
+        "guld",
+        "silver",
+        "krasch"
+      ]
+    },
+    {
+      "quote": "Allting i vår värld handlar om förtroende. Vi ställer förtroende på att vi har listorna på de barlist som finns när vi köper och det säljs från marknaden.",
+      "summary": "Förtroende är grundläggande i finansiella system. Vi litar på att finansiella instrument har de tillgångar de påstår sig ha.",
+      "category": "wisdom",
+      "speaker": "Erik Strand",
+      "speaker_role": "guest",
+      "timestamp": "32:17",
+      "confidence": "high",
+      "tags": [
+        "förtroende",
+        "finansiella system",
+        "investering"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Erik Strand",
+      "speaker_role": "guest",
+      "quote": "För bitcoin, för mig har det svårt att ha ett värde. Varför skulle bitcoin-1 ha ett värde om det finns en bitcoin-2? Och mest intressant är väl vem har den första kvantumdatorn, för de kan ju knäcka alla koder.",
+      "context": "Diskussion om kryptokurser och blockchain",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "unknown"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet börjar med ett makrosvep om att OMX har fått ett så kallat dödskors, vilket tyder på en negativ trend. Värdens börser är i korrektionsterritorium och hosts tror att vi har sett starten på en björnmarknad med potentiellt 20-50% nedgång. I intervjun med Erik Strand diskuteras ädelmetaller som investering. Han presenterar sina fonder Pacific Precious och Pacific Multi Asset. Han är bullish på guld som skydd mot politiska hot och silver på grund av dess industriella användning. Han är skeptisk till Bitcoin men ser potential i blockchain-tekniken.",
+  "key_takeaways": [
+    "OMX har fått ett dödskors vilket indikerar negativ trend",
+    "Världens börser är i korrektionsterritorium",
+    "Hosts tror på start av björnmarknad med 20-50% nedgång",
+    "Guld är ett skydd mot politiska och statliga risker",
+    "Silver har stark industriell efterfrågan med inelastiskt pris",
+    "Pacific Precious har strategi med tre ben för att tjäna pengar oavsett bull eller bear market",
+    "Erik Strand är bearish på Bitcoin men ser potential i blockchain",
+    "Defensiva bolag och råvaror kan överprestera i en nedgång"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2018-11-22-11da.txt",
+  "transcript_word_count": 9237,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

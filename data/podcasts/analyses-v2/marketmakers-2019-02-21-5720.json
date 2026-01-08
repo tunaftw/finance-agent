@@ -1,0 +1,851 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-02-21-5720",
+  "podcast_name": "Market Makers",
+  "episode_title": "#71 Market Makers Första Köp",
+  "episode_number": 71,
+  "date": "2019-02-21",
+  "hosts": [
+    "Fabian",
+    "Niklas"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Q4-rapporter",
+    "värdering",
+    "portföljstrategi",
+    "e-handel"
+  ],
+  "stocks_discussed": [
+    "Loomis",
+    "Fortnox",
+    "Nilönngruppen",
+    "Avencia"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOM-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "04:53",
+      "reasoning": "Jag tog hem vinsten i Loomis i min privata portfölj. Värderingen har förbättrats till fel sida: EV/EBITA gick från närmare 8 till närmare 9, PEG gick från 0,7 till över 2, vilket är över historiskt snitt. Ett fint stabilt bolag men prislappen har ökat snarare än minskat. Passar att stoppa undan i byrålådan.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tog hem vinsten i Lomis i min privata portfölj. Så det känns inte som att det är mer köpare idag, snarare kanske tvärtom. Ett fint, stabilt bolag, stoppa undan i byrålådan.",
+      "sector": "Security services",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FORX",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "08:50",
+      "reasoning": "PEG-talet har sjunkit från 2 till nivåer runt 1, vilket är inom vårt mål på 1-1,5. Trots PE på 62 (fortfarande dyrt) slog man estimater med råge: 40% vinsttillväxt, 25% kundökning, närmare 40% omsättningstillväxt, förbättrad marginal. Lågkonjunktursrisken verkar hanterad då bolaget inte påverkats av konkurserna 2018. Möjlig position på 10% i gemensam portfölj.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "I privata väskan, jag ökar mitt innehav, jag tycker att det kan vara värt att plocka in en post även i gemensam portfölj. Spännande. Jag håller med.",
+      "sector": "Software/Financial services",
+      "market": "sweden",
+      "position_context": "Ökar positionen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nilönngruppen",
+      "ticker": "NIL-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "12:39",
+      "reasoning": "PE har fallit från 13 till 11,7 men vi vill se PE kring 10-11 innan köp. Marginalen kan pressas mer till. VD:s bostadsköp är tveksamt men Traction's försäljning är neutral då fortfarande största innehav. Stärkt balansräkning med högre soliditet och lägre nättskuld gör det mer attraktivt än tidigare.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker att den marginalen kan få pressas lite till. Plötsligt tycker jag att det är så tråkigt på oland. Otippat så håller jag helt med dig. Säger vi att det ska pressas ner till ett PR runt 10-11 då ska det band med att göra det. Så vi får kanske anledning att återvända till 9-örngruppen i alla fall.",
+      "sector": "Manufacturing/Retail fixtures",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Avencia",
+      "ticker": "AVEN",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "31:41",
+      "reasoning": "Underanalyserat småbolag med börsvärde drygt 500 Mkr, låg likviditet och få ägare (50% hos topp-3). Imponerande tillväxt: omsättningstillväxt ~20-30% per år, vinsttillväxt ~70% per år, aktieutveckling ~40% per år över 10 år. PEG på 0,3 är extremt billigt men vinsten slagig. P/E på 33 men EV/EBIT runt 20 tack vare nettokassa. Bruttomarginal 80%, soliditet 50%. Börsvärde för litet för institutionella vilket ger edge. Plan: börja med 5% position, öka mot 10% över tid. Köpa när intresset svalnar mellan rapporter.",
+      "price_target": null,
+      "time_horizon": " långsiktigt, flera år",
+      "quote": "Jag kan också tänka mig att ta en liten position. Kanske börja med en insats på 5% och kanske under tid öka upp den mot 10%. Någonstans där tycker jag också låter rimligt. Det är ett bolag man skulle kunna ta in i portföljen, men ett bolag där man definitivt köper in sig över lite tid och kanske några åtminstone under ett kommande kvartal.",
+      "sector": "E-commerce consulting",
+      "market": "sweden",
+      "position_context": "Börja med 5%, öka till 10%",
+      "downside_note": "Låg likviditet kan ge kraftiga kursrörelser",
+      "catalyst_timing": "Mellan rapporter när intresset svalnar"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Loomis",
+      "ticker": "LOOM-B",
+      "timestamp_start": "03:34",
+      "timestamp_end": "06:19",
+      "word_count": 450,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Diskuterade om Loomis blivit mer köpvärt efter Q4-rapport. 3% organisk tillväxt och 8% med förvärv. Rörelsemarginal föll från 11,5% men prognos förbättring 2019. Aktie upp 8-12% sedan avsnittet men värderingen försämrats: EV/EBITA från 8 till 9, PEG från 0,7 till >2. Niklas sålde sin position i privata portfölj. Slutsats: fint bolag men för dyrt för köp.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Framför allt har vi snackat mycket om att vi ska vara mycket mer bolagfokuserade i vår gemensamma portfölj och inte ta lika mycket hänsyn till makro som vi kanske gör i vår personliga privata portfölj.",
+          "timestamp": "03:34",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Vi tyckte att båda bolaget såg rimligt värderat ut men vi var oroliga för marginalpress. Främst på grund av ökade lönekostnader.",
+          "timestamp": "03:46",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Tillväxten var trevlig, de kom in på runt 3% organisk tillväxt och 8% med förvärv inkluderade.",
+          "timestamp": "04:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jag tog hem vinsten i Lomis i min privata portfölj.",
+          "timestamp": "04:53",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Vid inspelning låg EV-EBTA på närmare 8 och idag några veckor senare efter rapporten så är multipeln närmare 9.",
+          "timestamp": "05:18",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Dessutom har PEG gått från 0,7 till över 2 och det är helt enkelt rejält över historiska snittet. Så det känns inte som att det är mer köpare idag, snarare kanske tvärtom.",
+          "timestamp": "05:35",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Bland de positiva bitarna får man nämna att utdelningen höjs en hel krona, vilket motsvarar drygt 10% ökning och fortsätter bolaget leverera.",
+          "timestamp": "05:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Vi står fast vid att Loomis är ett fint bolag, ett intressant bolag, men prislappen har tyvärr ökat snarare än minskat. Ett fint, stabilt bolag, stoppa undan i byrålådan.",
+          "timestamp": "05:54",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": 8,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "10% utdelningsökning",
+        "revenue_growth": "3% organisk, 8% med förvärv",
+        "margin": "Rörelsemarginal 11,5% →  försämrad",
+        "debt_level": null,
+        "custom": [
+          "PEG 0,7 → >2"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "3% organisk tillväxt",
+          "Fortsatt leverans och utdelningsökning",
+          "Stabilt bolag"
+        ],
+        "bear_case": [
+          "Värderingen försämrats: EV/EBITA 8→9, PEG 0,7→>2",
+          "Marginalpress från ökade lönekostnader"
+        ],
+        "catalysts": [
+          "Förbättrad marginal under 2019"
+        ],
+        "risks": [
+          "Marginalpress",
+          "Uppvärdering"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Fortnox",
+      "ticker": "FORX",
+      "timestamp_start": "06:19",
+      "timestamp_end": "09:54",
+      "word_count": 750,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Fortnox alltid dyrt men nu intressantare efter Q4. PE sjunkit från 67 till 62 men fortfarande dyrt. Men PEG gick från 2 till ~1, nu inom mål 1-1,5. Fantastisk rapport: 40% vinsttillväxt, 25% kundökning, 40% omsättningstillväxt, förbättrad marginal. Lågkonjunktursrisken mindre än befarat då bolaget inte påverkats av 2018 konkurser. Planerar att ta in i gemensam portfölj, potentiellt 10% position.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Vidare till Fortnox, ett annat dyrt kvalitetsbolag som Niklas hade sagt. Fortnox har alltid varit rejält dyrt och handlas i ett EV-EBD-multipler som är mer än fem gånger så hög som Loomis.",
+          "timestamp": "06:19",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Fortnox steg också runt 10-12%, alltså aktiepriset, sen vi spelade in podden. Det har varit trevligt för min privata portfölj.",
+          "timestamp": "06:28",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jag köpte ju mer än Fortnox för jag tycker att de är väldigt duktiga.",
+          "timestamp": "06:40",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Vid det tillfället handlades aktien till ett PE på 67, vilket vi noterade var allra högst saderande av intervallet.",
+          "timestamp": "06:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Idag har PE sjunkit ner något till 62. Det är fortfarande ganska dyrt, men man slog i estimaten en råge och ökade även utinledningen med hela 40%. Antalet kunder ökade med 25% och omsättningen med närmare 40%.",
+          "timestamp": "07:08",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Fantastiskt mycket. Det kokade ner ett pegtal på ett. Det är ett viktigt nyckeltal med den här typen av bolag som växer så kraftigt.",
+          "timestamp": "07:26",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Vi sa ju att vi gärna skulle plocka upp bolaget till ett PE på runt 40 någonting, men, och det är det ju långt ifrån då, men vi sa också att PEG är faktiskt viktigare för just för att det är ett tillväxtbolag helt enkelt.",
+          "timestamp": "08:09",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Och vi ville ju att PEG-talet skulle ligga någonstans mellan 1 till 1,5. Vid inspelning som du sa förbannade låg det PEG på hela två, vilket vi tyckte var alldeles för dyrt, men nu är det alltså neder i det här underintervallet och mer i linje då med den historiska värderingen.",
+          "timestamp": "08:25",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "I privata väskan, jag ökar mitt innehav, jag tycker att det kan vara värt att plocka in en post även i gemensam portfölj. Spännande.",
+          "timestamp": "08:46",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag håller med. Oj, oj, oj, oj. Jag loggar in här direkt, vänta.",
+          "timestamp": "08:50",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jag tycker att börsen har sprungit på väldigt hög, väldigt snabbt nu under året. Jag tror att det är väldigt mycket risk inprisat där.",
+          "timestamp": "08:55",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Så man kanske kan slänga in en 10% kanske? Ja, jag tycker att det låter rätt bra.",
+          "timestamp": "09:15",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "De största riskerna vi nämnde i avsnittet om Fortnox var dels den höga värderingen, och som sagt där kan vi gå kontro med att pegetalet nu är nere på en nivå där vi vill ha det.",
+          "timestamp": "09:24",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Vi såg redan under sommaren 2018 rekordmånga konkurser i Sverige, men det tycks ju faktiskt inte ha rört bolaget i huvud taget, vilket gör att i alla fall jag värderar ner den risken lite grann.",
+          "timestamp": "09:34",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 62,
+        "ev_ebitda": "Mer än 5x högre än Loomis",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "40%",
+        "margin": "Förbättrad marginal",
+        "debt_level": null,
+        "custom": [
+          "PEG 2 → 1",
+          "Kundökning 25%",
+          "Vinsttillväxt 40%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "PEG-talet nu i mål 1-1,5",
+          "Fantastisk Q4: 40% vinsttillväxt, 25% kundökning",
+          "Lågkonjunktursrisken verkar hanterad"
+        ],
+        "bear_case": [
+          "PE fortfarande dyrt på 62",
+          "Börsen sprungit högt, mycket risk inprisat"
+        ],
+        "catalysts": [
+          "Vidare utveckling av vinsttillväxt"
+        ],
+        "risks": [
+          "Hög värdering",
+          "Lågkonjunktur"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Nilönngruppen",
+      "ticker": "NIL-B",
+      "timestamp_start": "10:16",
+      "timestamp_end": "13:00",
+      "word_count": 350,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Undvik 6% nedgång genom avvakta. PE fallit från 13 till 11,7 men vill se 10-11 innan köp. VD köpte dyr bostad (negativt) men Traction sålde till institutionella (neutralt eftersom fortfarande största ägare). Bolaget pendlar historiskt 9-12% rörelsemarginal, nu sjunkande sedan 2016. Stärkt balansräkning gör det mer attraktivt men väntar på lägre PE.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Ja, här undvik vi en nedgång på hela 6% genom att avvakta och det kanske öppnades upp i ett läge här.",
+          "timestamp": "10:16",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Spännande, ja det vi sa om nylångruppen var att vi gärna skulle se ett PE kring 10-11 och en möjlighet att köpa aktien billigare vid tillfällig marginalpress.",
+          "timestamp": "10:24",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Resonemanget var att bolaget historiskt har haft perioder med sämre marginaler och andra med bättre. Vi bedömer det som att det är bra att köpa bolaget när det uppvisar sämre marginaler då vi tror att bolaget ska återhämta detta.",
+          "timestamp": "10:33",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Bägge av de här talen faller vi i inspelning på drygt 13. Vi ville som sagt köpa bolaget kanske PE 10-11. Idag ligger den ner på 11,7 och man har även stärkt balansräkning nätt och höjt både soliditet och sänkt sin nättskuld.",
+          "timestamp": "11:02",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Precis, det var ju både vd för Nilööngruppen och även investmentbolaget Traction som är största ägare som hade sålt aktier. Vd kom ju fram och köpte tydligen en rejält dyr bostad vilket då skulle förklara den försäljningen.",
+          "timestamp": "11:38",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Och Traction har ju sålt till institutionella köpare där de har sett stort köptryck. Men de har fortfarande en rejällt post, det är deras största innehav och de är en stor ägare i Nilööngruppen.",
+          "timestamp": "11:56",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag tycker att den marginalen kan få pressas lite till. Plötsligt tycker jag att det är så tråkigt på oland. Otippat så håller jag helt med dig. Säger vi att det ska pressas ner till ett PR runt 10-11 då ska det band med att göra det.",
+          "timestamp": "12:39",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 11.7,
+        "ev_ebitda": "EV/Earnings drygt 13 → 11,7",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Rörelsemarginal 10% guidat, historiskt 9-12%",
+        "debt_level": "Stärkt balansräkning, högre soliditet, lägre nättskuld",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "PE fallit från 13 till 11,7",
+          "Stärkt balansräkning med högre soliditet och lägre nättskuld",
+          "Historiskt återhämtning efter perioder med sämre marginaler"
+        ],
+        "bear_case": [
+          "PE fortfarande över mål på 10-11",
+          "Marginalen kan pressas mer",
+          "VD köpte dyr bostad (tveksamt)"
+        ],
+        "catalysts": [
+          "Marginal återhämtning"
+        ],
+        "risks": [
+          "Sjunkande marginaler sedan 2016",
+          "VD:s bostadsköp"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Avencia",
+      "ticker": "AVEN",
+      "timestamp_start": "13:00",
+      "timestamp_end": "32:31",
+      "word_count": 2800,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Avencia: e-handelskonsult med fokus B2B, First North-listad. 20% årlig omsättningstillväxt 10 år, 36% 2017. Börsvärde 500 Mkr, för litet för institutionella. Ägare: A5 Invest 28%, topp-3 ägare 50%, låg likviditet (edge). Omsättningstillväxt 20-30%, vinsttillväxt 70%, aktieutveckling 40% per år. PEG 0,3 extremt billigt men vinst slagig (170% vinsttillväxt 2017-2018 men -50% vinsttapp andra år). P/E 33, EV/EBIT 20 (pga nettokassa). Bruttomarginal 80%, soliditet 50%, negativ nettoskuld/EBITDA -1,2. Risker: Personal (svårt att rekrytera), kundkoncentration (2 kunder 30% 2017, 1 kund 20% 2016). Strategi: köpa mellan rapporter när intresset svalnar, börja 5% öka till 10%.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "För övrigt en bra podcast är det övrigt när det gäller att läsa om bolag. Niklas har gäst av vår podcast två gånger faktiskt, de kan man också lyssna på.",
+          "timestamp": "13:26",
+          "context": "other"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Avencia är ett konsultbolag med fokus på e-handel. Man grundades runt millennieskiftet och har genomgått sammanslagningar, renoldlingar och en hel del annat på väg till det bolaget som det är idag.",
+          "timestamp": "13:52",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Totalt är man närmare 200 anställda, främst utvecklare. Här har man stigit väldigt mycket, man har ökat sin personalstyrka på väldigt kort tid, vilket har satt press på marginaler.",
+          "timestamp": "14:08",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Man hjälper alltså företag med att utveckla och drifta sin e-handelslösning.",
+          "timestamp": "14:21",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det som gör Aventia så intressant är just för att man är helt tecken inom e-handel. Man har främst medelstora kunder då mindre bolag gör de kanske hellre titta på en färdig lösning... Och riktigt stora företag som H&M då till exempel, de har ju resurserna att själva kunna ta in utvecklingen i e-handeln in house, så då väljer man inte att ta in konsulter.",
+          "timestamp": "15:35",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Aventia placerar sig där mitt emellan.",
+          "timestamp": "15:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Generellt säger man att kundrelationer var i 5-10 år, så man måste antagligen tolka det som långvarigt.",
+          "timestamp": "16:33",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Medan den här färdiga produkten, den skalar, det blir en digital lösning som man kan få brutalt bra marginaler på det. Men i dagsläget är det fortfarande en försvinnande liten del av bolagets omsättning.",
+          "timestamp": "16:52",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Bolaget har snyggt en omsättningstillväxt på drygt 20%, de senaste tio åren.",
+          "timestamp": "17:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Bolaget är relativt litet med ett börsvärde på drygt 500 miljoner. Och dessutom alldeles för låg omsättning i aktien för att kunna attrahera större institutionella investerare. Och det här ger ju oss en möjlighet att få en lite bättre edge som dessutom heter.",
+          "timestamp": "17:43",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "A5 Invest är största ägare med närmare 28% av kapitalet. De flesta bandet större ägarna är personer med relation till bolaget och totalt äger de tre största ägarna över 50% i aktierna.",
+          "timestamp": "17:52",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det gör att man får lite mindre omsättning och lite mindre free float. Det finns sämre likviditet helt enkelt.",
+          "timestamp": "18:20",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Aventia ökar sin omsättning med hela 36% samma år, 2017. Mer än dubbelt så mycket.",
+          "timestamp": "18:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Framförallt B2B är intressant då omväxlingen till e-handel har gått långsammare där och på flera skäl. Detta är dock något som ändras på.",
+          "timestamp": "19:37",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Omsättningstillväxten ligger på cirka 20-30% per år, vinsttillväxten på runt 70% per år och aktieutvecklingen ligger runt 40% per år.",
+          "timestamp": "20:34",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "I dagsläget har man direktavkastning på 1,6%.",
+          "timestamp": "20:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Man har en bruttomarginal, det är därför det heter bruttomarginal, på över 80 procent.",
+          "timestamp": "21:56",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Rörelsemarginalen är knappa 10 procent och det är väldigt tydligt att personalkostnaderna är det som äter mest av bolags inkänning.",
+          "timestamp": "22:08",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Slutligen landar vinstmarginalen på runt 6,5 procent och man har en avkastning på eget kapital på knappa 35 procent.",
+          "timestamp": "22:18",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "EV-EBIT och EVT-EBITDA ligger på runt 20.",
+          "timestamp": "22:56",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Dessa ligger alltså rejält lägre än just PE som är på 33 och det beror ju helt klart på nettokassan som ger ett lägre EV än börsvärde, alltså enterprise value.",
+          "timestamp": "23:06",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Ever sales och price to sales ligger på två och sedan har vi det härliga peggtalet på knappt 0,3.",
+          "timestamp": "23:21",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Men det kan ju vara värt att notera att tar man ett bolag som fortnått som stadigt har växt med ungefär samma vinsttillväxt egetiden då... så att man liksom någonstans lite mer litar på vinsttillväxten, då kan man inte hitta ett sånt bolag som ett peggtal på typ 0,3.",
+          "timestamp": "23:33",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Vinsten slår väldigt mycket, vissa år har man haft en vinsttillväxt på över 100%. Till exempel hade vi från 2017 till 2018 hela 170% vinsttillväxt, det är galet.",
+          "timestamp": "23:54",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Men andra år har man annars haft ett vinsttapp på närmare 50%, så det är slaget mellan kvartalen.",
+          "timestamp": "24:03",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "De slagiga resultaten beror troligtvis på renodlingen mot e-handeln, där man under åren sålt av andra delar av koncernen.",
+          "timestamp": "24:13",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag tycker i alla fall inte att det är några konstigheter att kallt räkna med en fortsatt omsättningstillväxt på runt 20-30 procent.",
+          "timestamp": "25:00",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Tittar vi på siffrorna som kom in för 2018, då hade vi närmare 50 procent omsättningstillväxt och nästan fördubblad rörelsemarginal, vilket gav en otroliga ökning i rörelseresultat på 176 procent.",
+          "timestamp": "25:24",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Man nämner att 80% av intjäningen kommer från tidigare kunder, vilket ger stabila intäkter.",
+          "timestamp": "26:21",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag tycker Aventa är ett väldigt intressant bolag. Vi har ju följt dem över en tid men jag har inte tittat så noggrant på värderingen förut i alla fall och tillväxtsiffrorna.",
+          "timestamp": "27:45",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Men jag tycker det är intressant att säga att det är lite mindre bolag också. Det har lite sämre likviditet. Det öppnar möjligheter just för att kunna ha lite bättre koll på bolaget.",
+          "timestamp": "27:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Dessutom har man haft stora svängningar resultat vilket gör att kurvan inte blir lika spikrak uppåt som till exempel i Fortnox som vi pratade om tidigare. Det gör att man måste titta lite noggrannare.",
+          "timestamp": "27:56",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Ett base case är att bolaget har en trevlig framtid framför sig. Jag tycker att mellan 10-20% tillväxt är inte alls högt räknat.",
+          "timestamp": "28:07",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Snarare borde ett base case ligga här kring 20-30% om man tittar på de nästkommande åren.",
+          "timestamp": "28:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Ska man snacka nåt typ av bullkris så är man inne i nån typ av gyllende period där man kan fortsätta växa så extremt som man gjort senaste tiden.",
+          "timestamp": "28:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "De största riskerna jag ser är ju personal. Personal är dyrt och framförallt svårt att få tag på.",
+          "timestamp": "28:48",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Man ser också att några av kunderna står för ett stor del av omsättning.",
+          "timestamp": "28:56",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "2017 då stod två enskilda kunder för närmare 30% av försäljningen. Under 2016 stod en enda kund för över 20% av försäljningen.",
+          "timestamp": "29:24",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "En stor säljsignal är om Avensa skulle få väldigt stort kundtapp. Eftersom kunderna är givetvis jätteviktiga.",
+          "timestamp": "29:54",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Utöver det så kan givetvis också uppblåst värdering vara anledningen till att minska sitt innehav.",
+          "timestamp": "30:08",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Sitter man då med lite mindre pengar på sig så är det ganska lätt att kunna nyttja det genom att sälja av då.",
+          "timestamp": "30:39",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Brukar bolaget handlas upp rejält vid rapportsläppen, just för att det är väldigt fina siffror. Sen brukar det trenda ner och till nästa rapport.",
+          "timestamp": "30:45",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Döm av grafen skulle visa på att det är en ganska bra affär att köpa bolag på några månaders sikt för att sedan då tappa lite fart när folk tröttnar på att det inte händer något i bolaget.",
+          "timestamp": "30:55",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag tycker att det är superintressant, speciellt eftersom det är ett bolag både du och jag har kikat på tidigare i vår gemensamma karriär när vi började umgås.",
+          "timestamp": "31:41",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Jag kan också tänka mig att ta en liten position. Kanske börja med en insats på 5% och kanske under tid öka upp den mot 10%.",
+          "timestamp": "31:51",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Det är ett bolag man skulle kunna ta in i portföljen, men ett bolag där man definitivt köper in sig över lite tid och kanske några åtminstone under ett kommande kvartal.",
+          "timestamp": "31:20",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 33,
+        "ev_ebitda": 20,
+        "ev_sales": 2,
+        "fcf_yield": null,
+        "dividend_yield": "1,6%",
+        "revenue_growth": "20-30% per år, 36% 2017, 50% 2018",
+        "margin": "Bruttomarginal 80%, Rörelsemarginal 10%, Vinstmarginal 6,5%",
+        "debt_level": "Nettoskuld/EBITDA -1,2 (negativ, dvs nettokassa)",
+        "custom": [
+          "PEG 0,3",
+          "Soliditet 50%",
+          "ROE 35%",
+          "Vinsttillväxt 70% per år",
+          "Kundkoncentration: 2 kunder 30% 2017"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Underanalyserat småbolag (500 Mkr börsvärde)",
+          "Låg likviditet ger edge mot institutionella",
+          "PEG 0,3 extremt billigt trots P/E 33",
+          "20-30% årlig omsättningstillväxt",
+          "Bruttomarginal 80%",
+          "Nettokassa",
+          "Långsiktiga kundrelationer (5-10 år)",
+          "80% intäkt från återkommande kunder",
+          "B2B e-handel i tidig fas"
+        ],
+        "bear_case": [
+          "Vinst slagig (170% vinsttillväxt 2017-18 men -50% vinsttapp andra år)",
+          "Personal svårt att rekrytera",
+          "Kundkoncentration (2 kunder 30% 2017)",
+          "Låg likviditet kan ge kraftiga kursrörelser"
+        ],
+        "catalysts": [
+          "Avancement till B2B e-handel fortsätter",
+          "Licens- och prenumerationsintäkter ökar",
+          "Marginalutveckling"
+        ],
+        "risks": [
+          "Kundtapp",
+          "Personalbrist",
+          "Uppblåst värdering",
+          "Låg likviditet"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man behöver inte ha många bröder i det här företaget. Jag har alltid sagt att om man har en IQ av 160, ge 30 poäng till någon annan för att man inte behöver det i investeringar. Vad man behöver är emotionella utvecklingar.",
+      "summary": "Emotionell utveckling är viktigare än IQ för investeringar.",
+      "category": "wisdom",
+      "speaker": "Okänt",
+      "speaker_role": "host",
+      "timestamp": "00:00",
+      "confidence": "high",
+      "tags": [
+        "investeringspsykologi",
+        "emotionell intelligens"
+      ]
+    },
+    {
+      "quote": "Jag tror inte att de kanske växer så i 20 år framöver.",
+      "summary": "Realistisk attityd till tillväxt: inte alla bolag kan växa för evigt.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "28:19",
+      "confidence": "high",
+      "tags": [
+        "tillväxt",
+        "realism"
+      ]
+    },
+    {
+      "quote": "Men å andra sidan, vi ska inte ta hänsyn till det lika mycket i den här portföljen och det handlar inte om så mycket pengar egentligen, det är ju bara några miljoner.",
+      "summary": "Diversifiering mellan portföljer: gemensam portfölj kan ta mer risk än privat.",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "08:55",
+      "confidence": "high",
+      "tags": [
+        "portföljstrategi",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Vi vill ha full transparens nu tror jag inte att vi kan driva riktigt kursreaktioner i de här bolagen. Men vi vill ändå vara tydliga med att om vi säger i podden att vi ska köpa någonting så köper vi givetvis det alltid efter att podden har släppts.",
+      "summary": "Transparens och etik: inget trading innan podd publicering.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "32:56",
+      "confidence": "high",
+      "tags": [
+        "etik",
+        "transparens"
+      ]
+    },
+    {
+      "quote": "Det intressanta är ju PEG-talet som tar hänsyn till vinsttillväxten.",
+      "summary": "PEG är viktigare än PE för tillväxtbolag.",
+      "category": "philosophy",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "08:13",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "PEG",
+        "tillväxtbolag"
+      ]
+    },
+    {
+      "quote": "Vi utvärderade det här bolaget precis innan rapporten. Då har ju självklart antagligen aktien handlats upp på förväntningar. Så det här PEG-talet vi satt och kollade på som var runt 2, det kanske var en artificiell siffra.",
+      "summary": "Varning mot att utvärdera bolag precis före rapport då värderingar kan vara artificiella.",
+      "category": "lesson",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "07:57",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "rapport"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Diskuterade fyra bolag: Loomis (sålt, för dyrt), Fortnox ( köp i gemensam portfölj, PEG nu intressant trots hög PE), Nilönngruppen (watch, vänta på PE 10-11), Avencia (buy, underanalyserat med extremt låg PEG 0,3). Planerar två första köp: Fortnox och potentiellt Avencia.",
+  "key_takeaways": [
+    "Fortnox köp i gemensam portfölj, PEG nu intressant",
+    "Loomis såld, värderingen försämrats",
+    "Avencia: underanalyserat, PEG 0,3 extremt billigt",
+    "Nilönngruppen: watch, vänta på lägre PE",
+    "PEG viktigare än PE för tillväxtbolag"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-02-21-5720.txt",
+  "transcript_word_count": 6738,
+  "has_timestamps": true,
+  "model_used": "claude"
+}

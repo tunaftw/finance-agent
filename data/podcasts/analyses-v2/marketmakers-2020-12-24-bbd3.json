@@ -1,0 +1,435 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2020-12-24-bbd3",
+  "podcast_name": "Market Makers",
+  "episode_title": "#163 Jack Schwager",
+  "episode_number": 163,
+  "date": "2020-12-24",
+  "hosts": [
+    "Fabian"
+  ],
+  "guests": [
+    "Jack Schwager"
+  ],
+  "main_topics": [
+    "Trading philosophy",
+    "Market Wizards",
+    "Risk management",
+    "Efficient market hypothesis",
+    "Trading methodology",
+    "Jack Schwager's trading approach"
+  ],
+  "stocks_discussed": [
+    "FXI",
+    "XME",
+    "Retail Index ETF",
+    "Cotton futures",
+    "CUBA (closed-end fund)"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "FXI",
+      "ticker": "FXI",
+      "action": "sell",
+      "confidence": "low",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "56:00",
+      "reasoning": "Jack describes this as a past mistake, part of a pair trade where he was long FXI and short retail index. He was long the weakest sector and short the strongest sector, which he knew was the wrong approach. Not a current recommendation, but a story about a trading error.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "The mistake was when I was long was the weakest sector, and what I was short in was the strongest sector. And I knew better... that was like the stupidest, worst mistake I can think of",
+      "sector": "ETF",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "XME",
+      "ticker": "XME",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "57:50",
+      "reasoning": "Jack describes buying leap calls on XME in late 2008 during the market panic when it was down 75%. He saw basic value and thought it was just a matter of time. This is a story about a past successful trade during the 2008 financial crisis, not a current recommendation.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "I saw stuff like the FXI being down 75%, XME, the Metals Index being down 75%. I kind of thought like, Jesus, there's basic value here. It's just a matter of time. So, and the time to buy it is when everybody's in a panic.",
+      "sector": "ETF",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "FXI",
+      "ticker": "FXI",
+      "timestamp_start": "56:00",
+      "timestamp_end": "57:30",
+      "word_count": 200,
+      "speakers": [
+        "Jack Schwager",
+        "Host"
+      ],
+      "primary_speaker": "Jack Schwager",
+      "discussion_summary": "Jack describes his worst trade: a pair trade where he was long FXI (Chinese ETF) and short the retail index ETF. The mistake was being long the weakest sector and short the strongest sector - exactly the opposite of the correct approach. He procrastinated getting out after a 4% loss in one day when both indexes moved in opposite directions. This illustrates the importance of proper sector positioning and cutting losses quickly.",
+      "quotes": [
+        {
+          "speaker": "Jack Schwager",
+          "text": "I had had a position in FXI, which is the Chinese ETF, and had had it from earlier on and had a really good profit in it. I wasn't necessarily thought it was the top or anything, but on the other hand, other indexes are going up and at the time, I thought the retail index seemed high priced, and I saw what I did is I went short, an equivalent amount of dollars on the retail index, ETF.",
+          "timestamp": "56:00",
+          "context": "other"
+        },
+        {
+          "speaker": "Jack Schwager",
+          "text": "One day, the FXI was down 2% on the same day the retail index was up 2%. The mistake wasn't being in a position. The mistake was when I was long was the weakest sector, and what I was short in was the strongest sector.",
+          "timestamp": "56:40",
+          "context": "other"
+        },
+        {
+          "speaker": "Jack Schwager",
+          "text": "I procrastinated for about a week or two, and I eventually got out, but that was like the stupidest, worst mistake I can think of, because I knew that you want to be long the strongest, short the weakest, and that was exactly the opposite.",
+          "timestamp": "57:00",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "XME",
+      "ticker": "XME",
+      "timestamp_start": "57:30",
+      "timestamp_end": "58:30",
+      "word_count": 150,
+      "speakers": [
+        "Jack Schwager",
+        "Host"
+      ],
+      "primary_speaker": "Jack Schwager",
+      "discussion_summary": "Jack describes his best trade: buying leap calls on XME (Metals Index ETF) in late 2008 when it was down 75%. He recognized basic value during the market panic and the time to buy is when everyone is in a panic. He was slightly early on the exact bottom but the trade worked as expected and made many multiples. This illustrates the contrarian opportunity during market panics.",
+      "quotes": [
+        {
+          "speaker": "Jack Schwager",
+          "text": "Back in late 2008, at the end of 2008, I thought we were in a classic panic market. I saw stuff like the FXI being down 75%, XME, the Metals Index being down 75%. I kind of thought like, Jesus, there's basic value here. It's just a matter of time.",
+          "timestamp": "57:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jack Schwager",
+          "text": "So, and the time to buy it is when everybody's in a panic. So I was a little early for the exact bottom, but what I did is I bought leaps, leap calls. So buying calls in the midst of that panic was probably, because it worked exactly like I thought it would. It made many multiples obviously",
+          "timestamp": "57:50",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": [
+          "Basic value at 75% down",
+          "Classic panic market creates opportunity",
+          "Time to buy when everyone is in panic"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Market recovery from panic"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "bought"
+    },
+    {
+      "stock_name": "Cotton Futures",
+      "ticker": null,
+      "timestamp_start": "34:30",
+      "timestamp_end": "37:30",
+      "word_count": 350,
+      "speakers": [
+        "Jack Schwager",
+        "Host"
+      ],
+      "primary_speaker": "Jack Schwager",
+      "discussion_summary": "Jack shares a story from the early 1970s when he was supposedly a cotton expert. He did extensive analysis and determined it was the most bullish post-WWII period, expecting it to go from 25 cents to 33-34 cents. However, Michael Marcus identified that China (PRC) was buying cotton for the first time in large amounts - the key factor Jack missed. The market ultimately went to 99 cents. Jack was short at 33 and got stopped out at 35 when he ran out of funds. This illustrates the difference between good traders who can identify the key factor versus those who look at everything but miss what matters.",
+      "quotes": [
+        {
+          "speaker": "Jack Schwager",
+          "text": "I was supposedly a cotton expert, and I did what any economist would do, or economics trained person would do. So I went through and I looked at all the markets in the post-World War II period, and I did all my analysis and whatever, and it turned out that most of the markets had been dominated by government loan programs, so you didn't really have free market equilibrium.",
+          "timestamp": "34:40",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jack Schwager",
+          "text": "Of those markets, I assessed that the current year was like the most bullish of any in the post-World War II period. We were at about 25 cents then, and I thought we would go back to the highs, the same type situation of the most bullish market, which was around 33, 34 cents.",
+          "timestamp": "35:00",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jack Schwager",
+          "text": "Michael had the skill to look at 100 different things and know which one is important. And he recognized that that year was the first time the PRC, China, at that time PRC, People's Republic of China, was buying cotton for the first time, and they were buying in large amounts. And he recognized that that was the key factor.",
+          "timestamp": "35:30",
+          "context": "other"
+        },
+        {
+          "speaker": "Jack Schwager",
+          "text": "I remember 33 and didn't have enough money. And luckily, I had some money that got stopped out because I didn't have any more funds at 35, fortunately. So, you know, that's a good example. So it's something that he has. It's like an innate skill to be able to identify what is the key factor.",
+          "timestamp": "36:20",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": [
+          "China buying cotton for first time in large amounts (key factor identified by Michael Marcus)",
+          "Most bullish post-WWII period"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "sold"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "The one thing they all shared is they have very good risk management processes for, you know, I would say with one exception in his book, risk management is an extraordinarily critical part of their approach. They tend to be pretty obsessive of what they do. So literally just extreme devotion to developing their approach, and spending many, many hours, and tremendous preparation, and discipline, and so forth.",
+      "summary": "Successful market wizards share two key characteristics: excellent risk management and obsessive dedication to their trading methodology through extensive preparation and discipline.",
+      "category": "wisdom",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "08:44",
+      "confidence": "high",
+      "tags": [
+        "risk management",
+        "discipline",
+        "preparation",
+        "trading success"
+      ]
+    },
+    {
+      "quote": "Losing traders let their emotions get in the way. They take trades on impulse. They'll do stupid stuff like, they'll take a trade on impulse. Well, of course, if you got an impulse to take the trade, and you're really not skilled, so do lots of other people, and you're probably buying high and selling low. You know, because if you feel panic, or you feel euphoria, that's because something happened in the market, which a lot of other people are reacting to. And those are not the people making the money. People who win basically are very calm, centered, focused, unemotional.",
+      "summary": "Losing traders are driven by emotions and impulses, often buying high and selling low, while winning traders remain calm, focused and unemotional in their decision-making.",
+      "category": "wisdom",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "10:30",
+      "confidence": "high",
+      "tags": [
+        "emotions",
+        "trading psychology",
+        "impulse control"
+      ]
+    },
+    {
+      "quote": "Humans have evolved to be, you know, through evolution, we've evolved to seek comfort. You know, humans seek comfort. Those natural instincts to do what's comfortable do not, do not work in the markets. The markets don't pay anybody to be comfortable. On the contrary. Eckhart was saying is that humans are so poor, our inner nature, the way we have evolved, is so poorly attuned to making correct decisions in the markets, that most people will do worse than random. The emphasis here is on worse than random.",
+      "summary": "Human evolution has wired us to seek comfort, but this instinct works against us in trading. Most people perform worse than random because their natural human instincts lead them to make the wrong decisions in markets.",
+      "category": "wisdom",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "15:42",
+      "confidence": "high",
+      "tags": [
+        "human nature",
+        "evolution",
+        "comfort bias",
+        "worse than random"
+      ]
+    },
+    {
+      "quote": "You have to realize that you have to trade with methodology, not with emotion. The first thing is you've got to develop a methodology that has some sort of an edge. You have to get rid of emotions by trading from a plan. You've got a methodology, you trade with your plan. You have to have risk management as part of it.",
+      "summary": "To succeed in trading, you must develop a methodology with an edge, trade according to a plan rather than emotions, and incorporate rigorous risk management.",
+      "category": "philosophy",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "17:54",
+      "confidence": "high",
+      "tags": [
+        "methodology",
+        "risk management",
+        "emotional control",
+        "trading plan"
+      ]
+    },
+    {
+      "quote": "A trader in his earlier days had a perfect example of what I would call a revenge trade, which is a typical kind of thing a bad trader would do, and that is people who lose money in a trade or a market will have a tendency to want to make the money back, but not just make it back, but make it back in the same market. It's like the show, you market, you don't understand, I was right, you were wrong, and I'm going to show you, I'm going to get the money back. By the end of the day, it wiped out his profits for a year.",
+      "summary": "Revenge trading - trying to make back losses in the same market to prove you were right - is a destructive emotional response that can wipe out an entire year's profits in a single day.",
+      "category": "lesson",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "12:00",
+      "confidence": "high",
+      "tags": [
+        "revenge trading",
+        "emotions",
+        "loss recovery",
+        "discipline"
+      ]
+    },
+    {
+      "quote": "The problem of consistency in trading - if your objective is overwhelmed by trying to be consistent, you've got to make money every month because you're using part of your profits to pay your mortgage or something like that. That type of objective of consistency is harmful because the markets don't really care about what you want. If you're driving for consistency, what's going to happen is you're going to take trades that are outside your methodology, you're going to trade larger than you should to make backups of losses.",
+      "summary": "Striving for consistency can be harmful because it forces traders to deviate from their methodology and take trades outside their rules when the market doesn't provide favorable opportunities.",
+      "category": "wisdom",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "23:22",
+      "confidence": "high",
+      "tags": [
+        "consistency",
+        "trading discipline",
+        "market conditions"
+      ]
+    },
+    {
+      "quote": "What makes traders profitable, those characteristics don't change. Risk management was important 30 years ago, is important 100 years ago. It's important now, it will be important 50 years from now. The need to be very disciplined doesn't change. The ability to be flexible and whatever your methodology is, if you're wrong, to be able to admit it and get out. The ability to have patience, to wait for the right trades, not to jump the gun. These things don't change.",
+      "summary": "The fundamental characteristics of successful traders - risk management, discipline, flexibility to admit mistakes, and patience - remain constant regardless of how markets change over time.",
+      "category": "philosophy",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "26:21",
+      "confidence": "high",
+      "tags": [
+        "risk management",
+        "discipline",
+        "flexibility",
+        "patience",
+        "trading principles"
+      ]
+    },
+    {
+      "quote": "Things that used to work can stop working. You need to be able to change. He switched to that. But what was fascinating was that when he pulled up, I said, well, how would the original system have been done after you stopped trading? And it's the most amazing thing. It's sort of like a hill going up, and then he starts going down, he gets out of it, and since that day, it's never made money again. He's lost money every year.",
+      "summary": "Trading strategies that worked in the past can stop working, and traders must be willing to adapt. Once a strategy stops working, continuing to use it will result in losses.",
+      "category": "lesson",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "28:54",
+      "confidence": "high",
+      "tags": [
+        "adaptability",
+        "strategy rotation",
+        "market changes"
+      ]
+    },
+    {
+      "quote": "One common trait among successful traders is that they place a lot of emphasis on failure. And learning from failure. Learning from mistakes is how traders become better traders. A number of traders that I've, many, many traders I've interviewed, particularly notable in this most recent book, keep diaries of every trade they've done, are very careful to note what went wrong, and so that it becomes a learning lesson.",
+      "summary": "Successful traders emphasize learning from failure by keeping detailed trade diaries and carefully analyzing mistakes to continuously improve their trading.",
+      "category": "lesson",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "32:29",
+      "confidence": "high",
+      "tags": [
+        "learning from failure",
+        "trade diary",
+        "continuous improvement"
+      ]
+    },
+    {
+      "quote": "Michael had the skill to look at 100 different things and know which one is important. And he recognized that that year was the first time the PRC, China, at that time PRC, People's Republic of China, was buying cotton for the first time, and they were buying in large amounts. And he recognized that that was the key factor. So it's that type of skill. So I looked at everything, but he understood that that was the key factor. And he said, no, Jack, this market's going a lot higher.",
+      "summary": "Great traders have the innate skill to identify the key factor among many variables. While average traders analyze everything, exceptional traders recognize which single factor will drive the market.",
+      "category": "wisdom",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "35:30",
+      "confidence": "high",
+      "tags": [
+        "key factors",
+        "market analysis",
+        "trading skill"
+      ]
+    },
+    {
+      "quote": "I combine chart reading with money management. And my chart reading doesn't necessarily mean classical. I mean, I sometimes will trade opposite a classical pattern because I think the market has just failed the classical pattern and that itself is a signal. I will have a stop in at the same time I put the trade on. So if I'm right, I'll make more than I'll lose when I'm wrong.",
+      "summary": "Trading combines chart reading with money management. Sometimes failed classical patterns themselves provide signals. Always have a stop in place when entering a trade so you make more when right than you lose when wrong.",
+      "category": "philosophy",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "37:49",
+      "confidence": "high",
+      "tags": [
+        "chart reading",
+        "money management",
+        "stop losses",
+        "risk reward"
+      ]
+    },
+    {
+      "quote": "For most people who have no skill in the markets, investing and trading, their best decision is probably buying a low-cost index fund and holding it for 30 years, which is the epitome of what you would do if the markets were efficient. So it's kind of ironic that most people are actually better off acting as if the markets were efficient, even though I think there's incontrovertible proof that the markets are not efficient.",
+      "summary": "While markets are not efficient and skilled traders can profit, most people without trading skills are better off buying low-cost index funds and holding for the long term.",
+      "category": "wisdom",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "45:40",
+      "confidence": "high",
+      "tags": [
+        "index investing",
+        "efficient markets",
+        "long-term investing"
+      ]
+    },
+    {
+      "quote": "The chicken in the markets is human emotion. So, for example, when you have Internet stocks in the late 1990s go up 600% literally in a year and a half. You could see that, and you could be 100% right, but you can go broke trying to short it. So you could be right and still lose money. So even though those moves were totally a total classic example of inefficiency, because the market went up six times, went all the way back down the whole cycle in three years, with no real big change in fundamentals. It was just a matter of hysteria on the upside and then a panic on the downside.",
+      "summary": "Human emotion is the key ingredient missing from efficient market models. You can identify market inefficiencies and be right about them, but still lose money because you don't know when irrational price movements will reverse.",
+      "category": "wisdom",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "46:25",
+      "confidence": "high",
+      "tags": [
+        "human emotion",
+        "market inefficiency",
+        "bubbles",
+        "shorting"
+      ]
+    },
+    {
+      "quote": "Start with less than all your risk capital because you don't want to blow it all on your first endeavor, because odds are most people are not going to do well first time around. And second thing is whatever amount you start with, let's just say somebody starts with $100,000, you want to pick some number where if you lose that amount cumulatively, the day that happens, let's say you do it on a closing basis, the day you decide you're willing to risk 20% of that, the day your account closes below $80,000, the next morning you just liquidate everything.",
+      "summary": "Start with less than your full risk capital and have a predetermined liquidation point (e.g., 20% loss) where you exit all positions and go back to the drawing board rather than risking catastrophic loss.",
+      "category": "philosophy",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "52:00",
+      "confidence": "high",
+      "tags": [
+        "position sizing",
+        "risk limits",
+        "capital preservation"
+      ]
+    },
+    {
+      "quote": "Once you do start, if you get ahead by a certain amount, then my advice is bring that type of liquidation point to break even, and eventually to do something higher than break even, and just gradually build as you're successful, rather than trying to do what people do out of greed, which is, well, thinking will be, well, I'd rather have more money on because if I'm right, I want to make more money. That's the wrong way to think about it.",
+      "summary": "As you become successful, gradually raise your liquidation point to break-even and higher, rather than greedily increasing position sizes when doing well, which increases the risk of blowing out.",
+      "category": "philosophy",
+      "speaker": "Jack Schwager",
+      "speaker_role": "guest",
+      "timestamp": "52:30",
+      "confidence": "high",
+      "tags": [
+        "position sizing",
+        "greed",
+        "building positions gradually"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "This episode features an extensive interview with Jack Schwager, author of the Market Wizards book series, discussing trading philosophy, characteristics of successful vs losing traders, risk management, trading methodology, and the efficient market hypothesis. Jack shares stories about his own trading experiences including his best trade during the 2008 panic and his worst mistake with a pair trade. The conversation emphasizes the importance of risk management, emotional control, discipline, and the ability to adapt to changing markets. Jack also provides advice for new traders starting out.",
+  "key_takeaways": [
+    "Successful traders share excellent risk management and obsessive dedication to preparation and discipline",
+    "Losing traders are driven by emotions and impulses, while winners remain calm and unemotional",
+    "Human evolution has wired us to seek comfort, which works against us in trading - most people perform worse than random",
+    "Markets change over time and traders must be willing to adapt when strategies stop working",
+    "For most people without trading skills, buying low-cost index funds and holding for 30 years is the best approach"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2020-12-24-bbd3.txt",
+  "transcript_word_count": 10254,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

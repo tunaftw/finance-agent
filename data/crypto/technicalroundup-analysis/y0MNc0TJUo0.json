@@ -1,0 +1,166 @@
+{
+  "source_id": "y0MNc0TJUo0",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-01-21",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Discussion about Bitcoin reclaiming the $20K range after FTX collapse, targeting move to $30K",
+      "quote": "I think there's a good chance that we actually bottom bottomed. we're trading above where FTX went insolvent",
+      "price_levels": [
+        "$19-20K",
+        "$21K",
+        "$24K",
+        "$28-32K",
+        "$30K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Discussing invalidation level and bull case scenario targeting $28-32K range",
+      "quote": "that's kind of where I'm targeting this whole thing because just looking at the weekly time frame I feel like it'd be a waste to let any trades go early",
+      "price_levels": [
+        "$19-20K",
+        "$28-32K"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Unknown",
+      "context": "Brief mention alongside Bitcoin during market rally discussion",
+      "quote": "Bitcoin up five percent ethop five percent talk close to six altcoin summon the double digits it's all green",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "strongly_bullish",
+      "speaker": "Duck",
+      "context": "Strong rally reclaiming summer range, 3x from lows, technical breakout setup",
+      "quote": "Solana right if we close above 25 it looks exactly... mental chart... it's basically 3x from the lows which is mad",
+      "price_levels": [
+        "$25",
+        "$50"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Acknowledges chart looks great but personal weakness in trading momentum plays",
+      "quote": "I'm terrible at trading this kind of stuff... I'm just leaving it other people can get their money's worth looks great to me",
+      "price_levels": [
+        "$25"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LTC",
+      "asset_name": "Litecoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "DonAlt holds position, five consecutive green weekly candles, targeting $100 milestone",
+      "quote": "I think 100 is just a matter of time... it's the fifth one in a row. that's exactly what I want to see",
+      "price_levels": [
+        "$100"
+      ],
+      "timeframe": "long-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "APTOS",
+      "asset_name": "Aptos",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Mentioned as up 40% today, made new high, AI layer one project",
+      "quote": "it's up like 40 today and it's basically made a new high",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "FRAX",
+      "asset_name": "Frax",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Breakout mentioned, getting perks listed as potential catalyst",
+      "quote": "Frax breakout is sort of accelerating that's when we wrote about on technical Roundup I think it's getting perks listed soon",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$19-20K",
+        "$21K",
+        "$24K",
+        "$28-32K"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin has reclaimed the summer range and is trading above where FTX went insolvent despite Genesis bankruptcy news being shaken off",
+    "Bad news is having less market impact which is a bullish indicator - Genesis bankruptcy filing was shrugged off by the market",
+    "Monthly time frame could produce first bullish signal in a while with a close above ~$23.5K",
+    "Market structure showing weekly higher highs for the first time in a long time",
+    "Solana showing strongest technical setup among altcoins, up 3x from lows and looking to reclaim summer range"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$21K or hold current position",
+      "target": "$28-32K initially, $30K longer term",
+      "stop": "$19-20K",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "SOL",
+      "direction": "long",
+      "entry": "above $25",
+      "target": "$50 as initial target",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "$28-32K range for potential temporary top before rotation",
+      "target": null,
+      "stop": null,
+      "speaker": "Duck"
+    }
+  ],
+  "summary": "Both hosts are bullish on Bitcoin which has reclaimed key levels and is trading above the FTX insolvency point despite negative industry news. The market is showing strength by shaking off bad news like Genesis bankruptcy. Solana and Litecoin are showing strong momentum but hosts prefer not chasing moves. Strategy is to stay long Bitcoin until $19-20K is lost, with plans to rotate into altcoins when Bitcoin reaches the $28-32K region.",
+  "transcript_word_count": 55113,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T03:02:08.665454"
+}

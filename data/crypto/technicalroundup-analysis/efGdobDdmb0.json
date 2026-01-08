@@ -1,0 +1,112 @@
+{
+  "source_id": "efGdobDdmb0",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-03-27",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Monthly breakout pending at $23.3k with engulfing candle formation. Weekly breakout from 6-8 month consolidation. Target at $35k.",
+      "quote": "we have an engulfing monthly breakout... monthly closing above monthly resistance at 23.3... breakout Target is 35 bullish argument goes to complete",
+      "price_levels": [
+        "$26,600",
+        "$26,800",
+        "$35,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Struggling at market structure levels, in a mean reverting range between $1600 and $1700. Not showing impulsiveness despite breaking above range high.",
+      "quote": "I just don't love this chart... this is just a miserable mean reverting range... it absolutely does not warrant my attention",
+      "price_levels": [
+        "$1,600",
+        "$1,700"
+      ],
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum/Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Trading in no man's land between 0.066 and 0.055 after weekly breakdown. Sideways and uninteresting.",
+      "quote": "at the moment this is no man's land so deeply uninteresting to me",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Choppy, sideways market trading around $4,000. No clear directional bias or structural violations.",
+      "quote": "this is just a sideways market for the time being... a complete chop no violations in Market structure",
+      "price_levels": [
+        "$4,000",
+        "$4,100"
+      ],
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$26,600",
+        "$26,800",
+        "$35,000"
+      ],
+      "ETH": [
+        "$1,600",
+        "$1,700"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin showing potential transforming breakout with monthly engulfing candle targeting $35k",
+    "Weekly breakout support must hold above previous week's low at $26.6 to maintain bullish structure",
+    "One red weekly candle is acceptable post-breakout, but two weeks would be concerning",
+    "Ethereum chart messy and uninteresting compared to Bitcoin's clear structure",
+    "Market absorbing CFTC Binance news well, technicals remain bullish at current levels",
+    "Bitcoin currently has the clearest chart and most important narrative among all assets"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$26,500-$26,800 range",
+      "target": "$35,000 (mid-term)",
+      "stop": "Daily close below $26,600",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "Wait for daily close below cluster at $26,600",
+      "target": "Wait for deviation at $24.300",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin showing potential transforming breakout with monthly engulfing pattern targeting $35k, holding critical support at $26.6-$26.8. Ethereum stuck in choppy range between $1,600-$1,700 with no clear setup. Market absorbing regulatory news well, with BTC offering clearest structure and trading opportunities.",
+  "transcript_word_count": 8692,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:05:00.000000"
+}

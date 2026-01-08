@@ -1,0 +1,820 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2018-09-12-e380",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 264 - Power Girig",
+  "episode_number": 264,
+  "date": "2018-09-12",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [
+    "Erik Hansén"
+  ],
+  "main_topics": [
+    "Valet",
+    "Spelsektorn",
+    "Bolag",
+    "Investmentbolag",
+    "IPO"
+  ],
+  "stocks_discussed": [
+    "BIM",
+    "Ica",
+    "XFood",
+    "IAR",
+    "Orexo",
+    "Amersport",
+    "Leo Vegas",
+    "Claren",
+    "Danske Bank",
+    "Azarina Pharma",
+    "HM",
+    "Hoist",
+    "ABB",
+    "Kopparbergs"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Orexo",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "15:30",
+      "reasoning": "Orexo steg 60% på två dagar efter patentvinst till 2032, men tillväxten för medicinen är låg med oförändrad marknadsandel. Aktien anses för överhettad på nuvarande nivåer.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så jag tycker det är modigt att våga köpa Orexo på den här nivån personligen och det tror jag många andra också tycker. Är det nog lite för upphåsad här.",
+      "sector": "Pharmaceuticals",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Azarina Pharma",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "22:55",
+      "reasoning": "IPO för PMS-medicin med stora ägare (Robur, Östersjöstiftelsen, Erik Thor, Labull). Korttidsinvestering med förväntad utdelning. Ej långsiktig eftersom medicinen måste tas som spruta.",
+      "price_target": null,
+      "time_horizon": "short-term",
+      "quote": "Jag kommer att teckna, förmodligen inte vara med så långsiktigt. Men det känns ändå som om man får tilldelning här så bör man inte förlora pengar på det.",
+      "sector": "Pharmaceuticals",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hoist",
+      "ticker": "HOIST",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "25:20",
+      "reasoning": "EQT har köpt in sig, men aktien gick bara upp en krona. Insiderhandlad börs där säljare kan köpa tillbaka billigt. Att ta rygg på EQT brukar vara lönsamt. Funderar på att gå in lite större.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men jag funderar på att gå in kanske lite större. Hade väl velat att aktien skulle sjunka lite närmare den här emersionskursen. Men som sagt att ta rygg på EQT brukar vara lönsamt.",
+      "sector": null,
+      "market": "sweden",
+      "position_context": "Lite större position",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "IAR",
+      "ticker": "IAR-B",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "14:20",
+      "reasoning": "Extremt hög värdering (P50) trots mager tillväxt. Svårt att motivera för nya köpare, men för den som äger kan det vara värt att ligga kvar pga stark marknadsposition och uppköpsrykten.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker ändå att det är ganska svårt att motivera den här värderingen, men förstår också att den håller sig här uppe med tanke på den här speciella positionen och marknadsdynamiken som de har. Så det är väl lite speciellt case, svårt att rekommendera någon köpare, men äger man det så kanske man ska ligga kvar, vad vet jag.",
+      "sector": "Software",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Amersport",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "17:20",
+      "reasoning": "Kinesiska Tjinkznäser indikativt bud på 40 euro/aktie (~P30 på konsensus). Aktien handlar långt under budnivån så det finns uppsida för den som tror på budet.",
+      "price_target": "40 EUR",
+      "time_horizon": "short-term",
+      "quote": "Så det kan man ju hålla koll på och tror man mycket på de här kineserna så är det bara att köpa. För då finns det ju fortfarande en viss uppsida till budnivån.",
+      "sector": "Sports equipment",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "BIM",
+      "ticker": null,
+      "timestamp_start": "10:56",
+      "timestamp_end": "12:03",
+      "word_count": 350,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "John diskuterar att Ola Rollén och Hexagon sålt sitt innehav i BIM medan Ny Teknik-fonden köpt aktierna. Han ser detta som negativt eftersom Ola anses mer kunnig på teknik. Aktien steg 17,5% på nyheten, vilket han tycker är galet, och noterar att BIM gjort en split trots låg kurs.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Jag såg att någon twittrare skrev att jag hade kallat dem för Scam-objekten på den gamla Goda. Det var kul va? Ja, inte så kul eftersom de har gått upp 1 miljon procent som dess.",
+          "timestamp": "10:56",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Men Ola Rollén och Hexagon har ju sålt sitt innehav i BIM och Fonden Ny Teknik har köpt aktierna. I min bok är det väl lite av en negativ nyhet. Jag tror ändå att Ola är mer kundig på teknik än en fondförvaltare.",
+          "timestamp": "11:10",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Aktien gick upp 17,5 procent på det här vilket är ju lite galet. Dessutom har ju BIM gjort en split vilket aktier som står i 3-400 brukar göra, inte när man handlas i 60 kronor.",
+          "timestamp": "11:30",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Split gjord",
+          "Kurs ca 60 SEK",
+          "+17,5% på nyheten"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "1 miljon procent uppgång historiskt"
+        ],
+        "bear_case": [
+          "Ola Rollén sålde",
+          "Värdering osäker",
+          "Split vid låg kurs"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "IAR",
+      "ticker": "IAR-B",
+      "timestamp_start": "13:08",
+      "timestamp_end": "14:42",
+      "word_count": 450,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "John beskriver IAR som IoT-bolag som utvecklar mjukvara för inbyggda system med extremt stark marknadsposition. Värderingen är extremt hög (P50) trots mager tillväxt. Bolaget är ständigt uppköpskandidat och hoppas på Secure Things-satsningen. Svårt att motivera värdering för nya köpare.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Liten mer konkret så utvecklar de mjukvara för utvecklare som programmerar inbyggda system och sådana här inbyggda system finns i typ alla produkter. Bröderostar, gräsklippare, mikrovågsugnar och så vidare.",
+          "timestamp": "13:08",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Då säljer de licenser till den här mjukvaran och har då en extremt stark position på marknaden. Det är väl bara de och någon annan som håller på med det här.",
+          "timestamp": "13:30",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Värderingen är extremt hög, trots ganska mager tillväxt. Den ser ut att bli en siffra i år och så var det även förra året, men man får ändå betala närmare P50 för bolaget.",
+          "timestamp": "13:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Det man betalar för är då den här marknadspositionen och optionen att några av de här satsningar man gjort i de senaste åren och samarbetarna man har börjar i utdelning på riktigt",
+          "timestamp": "13:55",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Bland annat hoppas de mycket på det här relativt nyförvärvade Secure Things, som gör säkerhetslösningar för inbyggda system. Dessutom är Gär en ständig uppköpskandidat",
+          "timestamp": "14:05",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag tycker ändå att det är ganska svårt att motivera den här värderingen, men förstår också att den håller sig här uppe med tanke på den här speciella positionen och marknadsdynamiken som de har.",
+          "timestamp": "14:15",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "~50",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Mager, ~en siffra",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Extremt stark marknadsposition",
+          "Ständig uppköpskandidat",
+          "Secure Things-satsning"
+        ],
+        "bear_case": [
+          "P50 värdering",
+          "Mager tillväxt (~en siffra)",
+          "Svårt att motivera för nya köpare"
+        ],
+        "catalysts": [
+          "Uppköp"
+        ],
+        "risks": [
+          "Hög värdering",
+          "Låg tillväxt"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Orexo",
+      "ticker": "OREXO",
+      "timestamp_start": "14:42",
+      "timestamp_end": "16:09",
+      "word_count": 500,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Orexo gjorde film för verktablettberoende som placerats på tungan. Aktien steg närmare 60% på två dagar efter patentvinst mot Aktaviz. Patentet gäller till 2032. Men tillväxten för medicinen är inte hög, marknadsandelarna är konstanta. John anser aktien är för överhettad på denna nivå.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "De gör en typ av film som man lägger på tungan för folk som är beroende av verktabletter, vilket väldigt många människor är i, framförallt USA.",
+          "timestamp": "14:47",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Men aktien har gått upp närmare 60% på två dagar och det är för att de har vunnit en patentsprid mot Aktaviz. Och nu har de patent på sitt lägemedel fram till 2032 så det var ju väldigt bra.",
+          "timestamp": "15:00",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "John",
+          "text": "Det som inte är lika roligt tycker jag är att det inte är en jättetillväxt för den här subsolvfilmen eller medicinen. Utan det ligger tuffa på på en relativt låg nivå. De kör samma marknadsandel ungefär hela tiden.",
+          "timestamp": "15:10",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Så jag tycker det är modigt att våga köpa Orexo på den här nivån personligen och det tror jag många andra också tycker. Är det nog lite för upphåsad här.",
+          "timestamp": "15:30",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Men det visar ju återigen hur läskigt det är att äga den här typen av aktier även fast det blev jackpot den här gången.",
+          "timestamp": "15:40",
+          "context": "wisdom"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Låg, oförändrad marknadsandel",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "+60% på två dagar",
+          "Patent till 2032"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Patent säkrat till 2032"
+        ],
+        "bear_case": [
+          "Låg tillväxt",
+          "Konstant marknadsandel",
+          "Överhettad aktie efter +60%"
+        ],
+        "catalysts": [
+          "Patentvinst"
+        ],
+        "risks": [
+          "Hög risk i bioteknik",
+          "Låg tillväxt"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Amersport",
+      "ticker": null,
+      "timestamp_start": "16:09",
+      "timestamp_end": "17:37",
+      "word_count": 400,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Budrykten från kinesiska Tjinkznäser på 40 euro per aktie, vilket innebär ca P30 på konsensus. Amersport hade kapitalmarknadsdag och meddelade strategisk utvärdering av cykeldelen. Aktien handlas långt under budnivån. Johan menar att man kan köpa om man tror på de kinesiska budgivarna.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Jag går över till Finland John. Det är ju budrykten på börspodden favoriten Amersport.",
+          "timestamp": "16:09",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men i går kom i alla fall nyheten ut att Tjinkznäser skulle vara intresserade av att lägga bud på Amersport och prisnivån som nämndes var 40 euro per aktie.",
+          "timestamp": "16:20",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Vilket man ju ändå får säga är en ganska fin premie. Det skulle innebära ungefär P30 på invarande års konsensusprognos.",
+          "timestamp": "16:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Man kan väl också tillägga här att Amersport hade en kapitalmarknadsdag i veckan som gick och att man då gick ut med att cykeldelen skulle genomgå en strategisk utvärdering med möjlig avutring som följd.",
+          "timestamp": "16:40",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det här är spännande att aktien handlar så långt ifrån budnivån. Det känns inte som att man litar på de här kineserna.",
+          "timestamp": "17:13",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Så det kan man ju hålla koll på och tror man mycket på de här kineserna så är det bara att köpa. För då finns det ju fortfarande en viss uppsida till budnivån.",
+          "timestamp": "17:20",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "~30",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Budnivå 40 EUR",
+          "Aktie handlas långt under bud"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Bud på 40 EUR (~P30)",
+          "Uppside till budnivå"
+        ],
+        "bear_case": [
+          "Marknaden litar inte på kinesiska budgivare"
+        ],
+        "catalysts": [
+          "Kinesiskt bud",
+          "Strategisk utvärdering av cykeldel"
+        ],
+        "risks": [
+          "Bud kan inte genomföras"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Azarina Pharma",
+      "ticker": null,
+      "timestamp_start": "21:35",
+      "timestamp_end": "23:21",
+      "word_count": 550,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Azarina Pharma gör IPO med medicin mot PMS. Problem drabbar 4-5% av alla kvinnor vilket ger gigantisk marknad. Stora ägare som Robur, Östersjöstiftelsen, Erik Thor och Labull tecknar. Johan kommer teckna men inte vara med långsiktigt. Medicinen måste tas som spruta vilket är negativt.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Men det är iallafall en spännande nyintroduktion på börsen och det heter Azarina Pharma. Det här är kanske något som vi alla vill ha för det är mot PMS.",
+          "timestamp": "21:35",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Det här problemet är ju ett kanske större problem än man tror, men bolaget har något på g på det. Det är fyra till fem procent av alla kvinnor som får sådana här svår PMS. Och det gör ju det här till en gigantisk marknad.",
+          "timestamp": "21:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Ett plus tycker jag, ett annat plus är också ägarna som tecknar. Det är Robur och Östersjöstiftelsen som tar stora pussar här.",
+          "timestamp": "22:00",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Men jag såg också att mästertradern Erik Thor och Labull har en miljonstek i prospektet här i teckningsförbindelser. Och de brukar ju sugas till pengar. Så det är nog inte fel att teckna.",
+          "timestamp": "22:10",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Det som är det främsta minuset är väl ändå att det här preparatet måste man ta i sprutform både innan och efter. Vilket känns lite väl mäckigt för mig.",
+          "timestamp": "22:20",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag kommer att teckna, förmodligen inte vara med så långsiktigt. Men det känns ändå som om man får tilldelning här så bör man inte förlora pengar på det.",
+          "timestamp": "22:55",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Okej, jag tycker det låter som en ganska usel idé faktiskt. Sprutorna gör ju att det helt går bort, helt värdelöst faktiskt.",
+          "timestamp": "23:11",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "4-5% av kvinnor med svår PMS",
+          "IPO",
+          "Sista dag för teckning"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Gigantisk marknad (4-5% av kvinnor)",
+          "Starka ägare (Robur, Östersjöstiftelsen, Erik Thor, Labull)",
+          "Förväntad utdelning vid IPO"
+        ],
+        "bear_case": [
+          "Måste tas som spruta",
+          "Korttidsinvestering"
+        ],
+        "catalysts": [
+          "IPO"
+        ],
+        "risks": [
+          "Sprutformatet kan minska marknad"
+        ]
+      },
+      "position_disclosure": "bought"
+    },
+    {
+      "stock_name": "HM",
+      "ticker": "HM-B",
+      "timestamp_start": "23:21",
+      "timestamp_end": "25:01",
+      "word_count": 500,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "HM kommer med försäljningssiffror för Q3 måndag 17 september. Swedbank räknar med 5,2% total tillväxt, minus 3,5% like-for-like. Carnegie räknar minus 4,5% like-for-like. Varm sommar drog ner trafik, distributionsproblem. Positivt: valutor hjälper. Marknad väntar på Q4-indikation vid rapport. Inditex kom med besvikande siffror.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "John HM, för att ta någonting lite större och mer substansfullt, kommer med försäljningssiffror för Q3 nu på måndag den 17.",
+          "timestamp": "23:21",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag har tittat lite bland förhållandstypseln, många inne på att man gick in i kvartalet i Q3, då alltså med lite bättre momentum. Man hade bättre farta i slutet på Q2-våren.",
+          "timestamp": "23:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men att den varma sommaren, som vi varit inne på, drog ner trafiken i butikerna och dessutom som ska ha distributionsproblem, också påverkat vissa marknader negativt.",
+          "timestamp": "23:40",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och det positiva är väl att valutorna har hjälpt till.",
+          "timestamp": "23:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Swedbank räknar med 5,2% i totalt tillväxt. Like for like på minus 3,5 och en försäljning någonsin landar strax under 54 miljarder.",
+          "timestamp": "24:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Carnegie räknar med minus 4,5 i like for like. Men tror att valuta bidrar lite mer positivt än vad Swedbank gör och landar ändå till slut, nästan exakt i linje med vad Swedbank gör.",
+          "timestamp": "24:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det här blir ju intressant men det man framförallt kanske kommer att titta på i närtid är ju sen när rapporten kommer. Det är väl en dryg vecka senare och vad de säger om inledningen på Q4 och om man kan få någon indikation på att det börjar vända lite grann.",
+          "timestamp": "24:20",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "John",
+          "text": "Även lageret brukar väl vara än i klassiker. Säg hur många, 100 miljarder det är nu.",
+          "timestamp": "24:38",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Sen såg jag att Inditex kommit siffror nu på morgonen som var en besvikelse rent försäljningsmässigt. Så risken kanske ligger på nedsidan där ändå i estimaten.",
+          "timestamp": "24:43",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Swedbank: +5,2% total, -3,5% LFL",
+        "margin": null,
+        "debt_level": "Lager: 100 miljarder",
+        "custom": [
+          "Q3-rapport 17 sept",
+          "Carnegie: -4,5% LFL",
+          "Estimat: ~54 miljarder SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Positiv valuta",
+          "Bättre momentum in i Q3"
+        ],
+        "bear_case": [
+          "Varm sommar drog trafik",
+          "Distributionsproblem",
+          "Inditex besvikelse"
+        ],
+        "catalysts": [
+          "Q3-försäljning 17 sept",
+          "Q4-indikation vid rapport"
+        ],
+        "risks": [
+          "Risken ligger på nedsidan enligt Johan"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "ABB",
+      "ticker": "ABB-B",
+      "timestamp_start": "25:41",
+      "timestamp_end": "27:22",
+      "word_count": 450,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "ABB diskuteras med fokus på möjlig uppdelning av Power Grids. Analytikerna ser 5-30% uppsida vid uppdelning. Johan ifrågasätter om det är värt allt jobb givet den uppmärksamheten. Handelsbankens Hampus Engelhav ser uppdelning som värdeskapande men Johan är halvtveksam.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Jag och John har kollat lite på ABB, som har varit en av BP's verkstadsfavoriter på slutet. Den har väl gått hyggligt kan man säga om man är snäll sen i somras.",
+          "timestamp": "25:41",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och det är tydligt att allt mer fokus nu läggs på den möjliga uppdelningen av bolaget. Man vill ha power grids, ska knoppas av eller säljas.",
+          "timestamp": "25:50",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Den typen av åtgärder brukar ju vara värdeskapande. Titta bara på nu senast Autoliv.",
+          "timestamp": "25:55",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men när jag tittar på vad analytikerna som följer ABB kommer fram till i sina samvård departureanalyser, idag är det en stor artikel i Dagens Industri om det här, så såg jag att Hampus Engelhav bland annat på Handelsbanken tror på mellan 5 och 30 procent i uppsida vid en uppdelning.",
+          "timestamp": "26:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och hamnar man i den nedre delen av det här intervallet så är det felräkningspengar.",
+          "timestamp": "26:10",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och givet den här enorma uppståndelsen kring den här uppdelningen så kanske man hade förväntat sig att det på pappret i alla fall såg betydligt bättre ut.",
+          "timestamp": "26:15",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "För sen så ska det genomföras också och det brukar inte alltid bli så bra som man tror. Så frågan är om det verkligen är värt att göra allt här. Jag tycker det känns halvtveksam faktiskt.",
+          "timestamp": "26:20",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Här man förstår ledningen, de vet extremt mycket jobb det är att göra så de är inte så sugen.",
+          "timestamp": "26:48",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Vilken del är det man ska äga av de här två? ABB eller Power Grids? Det känns som att automationsdelen är den som man vill ha som är het.",
+          "timestamp": "26:56",
+          "context": "other"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men sen har jag full respekt för att det kanske blir så att man skapar betydligt bättre förutsättningar för respektive del på lite längre sikt genom att göra så här. Allt är inte bara kortsiktiga riktkurser upp och ner.",
+          "timestamp": "27:05",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "5-30% uppsida vid uppdelning"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Uppdelning kan vara värdeskapande",
+          "Bättre förutsättningar på längre sikt",
+          "Automation anses som het del"
+        ],
+        "bear_case": [
+          "5-30% uppsida kan vara felräkningspengar",
+          "Mycket jobb att genomföra",
+          "Halvtveksam värdering"
+        ],
+        "catalysts": [
+          "Uppdelning av Power Grids"
+        ],
+        "risks": [
+          "Uppdelning kan inte bli så bra som tänkt"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Men något jag tycker att vi aktiemänniskor ska tänka på, kanske lära oss från politikerna, är att fundera ut innan vad man ska göra vid olika utfall. Oftast är man ju nästan helt oförberedd på det mesta som händer på börsen, om det inte går exakt som man själv har tänkt. Då agerar man fel när man är så oförberedd. Jag har massor av situationer själv där jag agerat helt fel för att jag inte haft någon plan B. Så jag säger som de säger inom Västerbottens läns landsting, mer förberedd mindre rädd.",
+      "summary": "Ainvesterare bör ha plan B för olika utfall precis som politiker. Oförberedelse leder till felaktiga beslut.",
+      "category": "lesson",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "05:50",
+      "confidence": "high",
+      "tags": [
+        "planering",
+        "riskhantering",
+        "psykologi"
+      ]
+    },
+    {
+      "quote": "Och då slog det ju mig att egentligen väldigt självklart att de här investmentbolagen handlas med rabatt. Varför ska man betala fullpris för till exempel Industrivärdens aktie? För om de skulle besluta sig för att avvecklas så hade massor av de här pengarna för att åka och värdet försvunnit i skatt och andra kostnader. Så därför är det egentligen inte något konstigt att investmentbolagen handlas med rabatt.",
+      "summary": "Investmentbolagens rabatt är naturlig eftersom avveckling skulle medföra skatt och kostnader som minskar värdet.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "09:40",
+      "confidence": "high",
+      "tags": [
+        "investmentbolag",
+        "rabatt",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Jag tycker att rabatten i de här investmentbolagen nästan alltid borde vara minst 20%. Och när man tänker så här så blir det mycket mindre attraktivt att äga ett investmentbolag.",
+      "summary": "Investmentbolag bör alltid ha minst 20% rabatt, vilket gör dem mindre attraktiva.",
+      "category": "philosophy",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "09:50",
+      "confidence": "high",
+      "tags": [
+        "investmentbolag",
+        "rabatt",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "Men det visar ju återigen hur läskigt det är att äga den här typen av aktier även fast det blev jackpot den här gången.",
+      "summary": "Att äga bioteknikaktier är riskfyllt även vid positiva utfall.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "15:40",
+      "confidence": "high",
+      "tags": [
+        "bioteknik",
+        "risk",
+        "psykologi"
+      ]
+    },
+    {
+      "quote": "Jag brukar gilla surdegar, men gör det faktiskt inte när den surdegen finns i en bank. Då brukar jag ändå öronåt mig lite grann.",
+      "summary": "Surdegar kan vara attraktiva men inte när det gäller bank-aktier där förtroende är kritiskt.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "20:35",
+      "confidence": "high",
+      "tags": [
+        "banker",
+        "surdeg",
+        "risk"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar amerikansk bilmarknad som visar tecken på att vika, spelsektorns haverier jämförs med Dieselgate, emerging markets potentiellt intressanta på låga värderingar, och investmentbolagens rabatter är naturliga. Betydande bolagsdiskussioner inkluderar BIM, IAR, Orexo, Amersport (bud), Azarina Pharma (IPO), HM (kommande rapport), Hoist (EQT), och ABB (uppdelning).",
+  "key_takeaways": [
+    "Emerging markets börjar se intressanta ut på låga värderingar",
+    "Spelsektorn är mest hatad men 'man ska köpa vad alla hatar'",
+    "Investmentbolagsrabatt på minst 20% är naturlig",
+    "EQT köpte sig in i Hoist vilket kan vara köpsignal",
+    "Orexo anses för överhettad efter 60% uppgång"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2018-09-12-e380.txt",
+  "transcript_word_count": 5349,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

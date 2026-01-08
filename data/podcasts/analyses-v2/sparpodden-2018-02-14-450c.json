@@ -1,0 +1,222 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2018-02-14-450c",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Årets Händelse",
+  "episode_number": 223,
+  "date": "2018-02-14",
+  "hosts": [
+    "Alex",
+    "Jocke"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Nordnet Live",
+    "Bankernas potential",
+    "Ericsson 5G-rykten",
+    "H&M kapitalmarknadsdag",
+    "Marknadsturbulens",
+    "Riskhantering"
+  ],
+  "stocks_discussed": [
+    "Ericsson",
+    "H&M",
+    "Svenska banker",
+    "Nordea",
+    "Handelsbanken",
+    "SEB"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Svenska banker",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "15:13",
+      "reasoning": "Bankerna har varit pressade under hösten främst pga oron för bostadsmarknaden. Om bostadsmarknaden stabiliseras borde riskpremien för bankerna minska och de kunna värderas upp. Positiva faktorer: stark svensk ekonomi, fortsatta investeringar, stigande obligationsräntor som kan öka aktiviteten på Markets-sidan.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Om någon bransch som sticker ut nu som borde kunna få ett lyft så skulle det ändå lyfta fram bankerna faktiskt.",
+      "sector": "Finans",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "26:45",
+      "reasoning": "H&M befinner sig i en svår förändringsprocess där man måste ställa om affärsmodellen efter den e-handelsrevolution som pågått. Bolaget står under press men har samtidigt enorm potential om de lyckas. Ett 10-bagger scenario bedöms som svårt att se. Riskhantering och portföljsättning är viktigt att tänka på.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Samtidigt med H&M, det finns ju enorm potential för oss också, om man lyckas.",
+      "sector": "Detaljhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Kapitalmarknadsdag onsdag 2018-02-14"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "timestamp_start": "18:41",
+      "timestamp_end": "22:39",
+      "word_count": 350,
+      "speakers": [
+        "Jocke",
+        "Alex"
+      ],
+      "primary_speaker": "Jocke",
+      "discussion_summary": "Diskussion kring ryktet om att Cisco kan förvärva Ericsson. Bakgrunden är 5G-utbyggnaden i USA och att det inte finns någon stor amerikansk leverantör. Cisco skulle ha både kapitalet och affärsmässiga skälen att köpa Ericsson. Gardell som stor ägare kan tänkas sälja vid rätt pris. Det finns samarbete idag mellan bolagen men Ericsson har försökt dra sig undan.",
+      "quotes": [
+        {
+          "speaker": "Jocke",
+          "text": "Det finns ingen amerikansk leverantör. Lucent, alla de här, de är borta liksom. Det finns ingen stor telekom-industri som jobbar med det.",
+          "timestamp": "18:41",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Det naturliga är att Cisco skulle köpa Ericsson. Det går inte att komma ifrån.",
+          "timestamp": "19:28",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Det finns väldigt många skäl rent affärsmässigt och industriellt att Cisco skulle köpa Ericsson.",
+          "timestamp": "20:06",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Cisco går rakt upp. Det finns muskler. Sedan har Cisco fortfarande en kassa så att de kan köpa Ericsson-kontan.",
+          "timestamp": "20:34",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Cisco saknar egen telekom-verksamhet",
+          "5G-nätbyggnation i USA kräver amerikansk aktör",
+          "Cisco har stark kassa för kontant köp",
+          "Gardell kan sälja till rätt pris"
+        ],
+        "bear_case": [
+          "Wallenbergfamiljens inflytande",
+          "Gardell endast finansiell ägare, inte röststark",
+          "Ryktet har funnits länge utan händelse"
+        ],
+        "catalysts": [
+          "US 5G-nätsbeslut",
+          "Cisco-ledningens strategi"
+        ],
+        "risks": [
+          "Wallenbergarna kan blockera affär",
+          "Ryktet kan vara ogrundat"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är riskhantering. Det har man fått lära sig under förra veckan. Det är viktigt när det svingar.",
+      "summary": "Riskhantering är särskilt viktigt i turbulent marknad.",
+      "category": "wisdom",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "28:05",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "volatilitet"
+      ]
+    },
+    {
+      "quote": "Det är viktigt att känna efter. Hur kändes den här veckan egentligen? Var det lugn ro eller fick man ont i magen? Då kanske man ska göra någonting åt det.",
+      "summary": "Reflektera över hur du känner dig när marknaden rör sig - din magkänsla säger något om din riskprofil.",
+      "category": "wisdom",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "28:13",
+      "confidence": "high",
+      "tags": [
+        "riskprofil",
+        "self-reflection"
+      ]
+    },
+    {
+      "quote": "Men det är det man som en duktig aktieplacerare behöver reflektera över. Vad har man i portföljen och varför har man det där?",
+      "summary": "Aktiver reflektion kring portföljsammansättning och motivationsgrund för varje innehav.",
+      "category": "philosophy",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "27:49",
+      "confidence": "high",
+      "tags": [
+        "portfölj",
+        "reflektion"
+      ]
+    },
+    {
+      "quote": "Sen så, det kom ju, det sa vi ju också i förra avsnittet, att det är naturligt med sådana här rörelser på börsen. Absolut.",
+      "summary": "Kraftiga marknadsrörelser är naturliga och normala delar av börsens gång.",
+      "category": "wisdom",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "28:20",
+      "confidence": "high",
+      "tags": [
+        "marknadsdynamik",
+        "normalisering"
+      ]
+    },
+    {
+      "quote": "Men vi ska inte tappa till tron till börsen helt och hållet, bara för att det faller lite en vecka.",
+      "summary": "Tappa inte tilltron till börsen på grund av kortsiktiga nedgångar.",
+      "category": "wisdom",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "28:47",
+      "confidence": "high",
+      "tags": [
+        "långsiktighet",
+        "tålamod"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar främst på det kommande Nordnet Live eventet men innehåller även diskussioner om finansmarknaden efter föregående veckas turbulens. Banksektorn pekas ut som en potentiell comeback-kandidat. Ericsson diskuteras i kontext av 5G-rykten kring potentiell förvärv från Cisco. H&M:s kommande kapitalmarknadsdag och deras utmaningar med digital transformation behandlas.",
+  "key_takeaways": [
+    "Bankerna kan få revansch om bostadsmarknaden stabiliseras",
+    "Riskhantering och portföljsutläggning viktigt i volatila tider",
+    "Rykten kring Ericsson och Cisco-forvärv lever vidare",
+    "H&M har potential men står inför svår transformation",
+    "Marknadsturbulens är naturligt - tappa inte tilltron"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2018-02-14-450c.txt",
+  "transcript_word_count": 4800,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

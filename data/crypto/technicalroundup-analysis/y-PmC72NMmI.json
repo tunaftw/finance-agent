@@ -1,0 +1,165 @@
+{
+  "source_id": "y-PmC72NMmI",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-05-09",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "BTC at monthly support 35-37k, discussing potential breakdown scenarios",
+      "quote": "failed breakout into a real breakdown that accelerates and it would also be the start of a monthly kind of range expansion",
+      "price_levels": [
+        "$35-37k",
+        "$15-20k",
+        "$30k",
+        "$38-40k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Potential bullish scenario if monthly close recovers or reclaims range",
+      "quote": "if you're a bull either for the monthly close to recover and close above support and this would be the wick portion of the candle that would be really positive",
+      "price_levels": [
+        "$35-37k"
+      ],
+      "timeframe": "long-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH in consolidation, not favorite structure",
+      "quote": "this type of structure consolidation that we're in is not my favorite at all and i've been staying out of eath mostly using btc",
+      "price_levels": [
+        "$2k",
+        "$2.5k",
+        "$3k",
+        "$4k+"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Potential attractive levels if ETH drops or reclaims",
+      "quote": "if it gets really pukey towards 2k round number maybe slightly below 2k that's probably attractive for some sort of short term trade",
+      "price_levels": [
+        "$2k",
+        "$2.5k"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LUNA",
+      "asset_name": "Luna",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "LUNA getting admonished, UST peg issues",
+      "quote": "i mean luna is getting completely uh admonished",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LUNA",
+      "asset_name": "Luna",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Technical view showing potential bounce area at weekly structure",
+      "quote": "purely structurally if you're going to get any sort of oversold bouncers on luna even if they're kind of technical ones this is kind of the area where you'd expect that to take place",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "UST",
+      "asset_name": "TerraUSD",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "UST peg depegging causing market turmoil",
+      "quote": "twitter is very fun especially getting lit up with all the commentary about the ust peg and market's nuking in general",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bearish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$35-37k",
+        "$15-20k"
+      ],
+      "ETH": [
+        "$2k",
+        "$3k"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC at critical monthly support 35-37k, close below would signal real breakdown to 15-20k",
+    "Failed breakdown setup would be bullish if price reclaims the range",
+    "Equities market weakness is major headwind for crypto",
+    "UST peg depegging causing market stress and altcoin weakness",
+    "Market showing consecutive weekly red candles, very one-sided move",
+    "Need evidence of absorption or failed breakdown before entering longs"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$35-37k on failed breakdown",
+      "target": "$38-40k",
+      "stop": "weekly low",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$15-20k",
+      "target": "$30-60k range",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$2k or slightly below",
+      "target": "$2.5k reclaim",
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$3k reclaim",
+      "target": "$4k+",
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC is at critical monthly support of 35-37k with bears in control. A monthly close below would confirm breakdown to 15-20k targets, while a reclaim would be bullish. Market showing consecutive red candles with no evidence of absorption yet. ETH range low around 2k, with potential bounce on reclaim of 3k. LUNA getting hammered due to UST peg issues. Equities weakness remains a major headwind for crypto. Cred advises waiting for failed breakdown evidence before entering longs.",
+  "transcript_word_count": 9533,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T03:01:00.831017"
+}

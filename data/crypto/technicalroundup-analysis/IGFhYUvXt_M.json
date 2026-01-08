@@ -1,0 +1,73 @@
+{
+  "source_id": "IGFhYUvXt_M",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-04-05",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Monthly close at range midpoint after breaking out of 2-month consolidation. Moving averages (21-week, 50-week) acting as support",
+      "quote": "the overarching theme of the market is the breakout so it makes sense to be bullish as long as the breakout is intact",
+      "price_levels": [
+        "$47,000",
+        "$44,000",
+        "$52,000",
+        "$56,000-$58,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "LUNA",
+      "asset_name": "Terra",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as buying BTC through LFG foundation, contributing to positive market news",
+      "quote": "terra via the lfg foundation is buying a bunch of btc like all the fundamental and even macro spillover stuff has been skewed really positively",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$47,000",
+        "$44,000",
+        "$52,000",
+        "$56,000-$58,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC closed monthly at range midpoint (43.47k) - not bearish but shows waning momentum",
+    "Market described as 'awkwardly bullish' - bullish due to breakout but concerned about slow 4-6% progress",
+    "Positive news (equities rally, Saylor buying BTC, Terra LFG buying BTC) hasn't translated to strong price action",
+    "47k resistance is the immediate hurdle for continuation; 44k is the do-or-die support level",
+    "A close above 47k would likely trigger move toward 52k with potential to 56-58k"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "above $47,000 with daily close",
+      "target": "$52,000-$58,000",
+      "stop": "$44,000",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC is in an 'awkwardly bullish' state after breaking out of a 2-month consolidation at the range midpoint around 43.5k. Despite positive fundamental catalysts including equity strength and institutional BTC buying, price action has been slow with only 4-6% upside. The immediate resistance at 47k is critical for continuation toward 52-58k, while 44k serves as the key support level where the breakout thesis would be invalidated.",
+  "transcript_word_count": 4802,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:51:56.991048"
+}

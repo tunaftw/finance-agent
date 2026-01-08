@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2022-11-29-d640",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 400 - Björnen sover",
+  "episode_number": 400,
+  "date": "2022-11-29",
+  "hosts": ["Host 1", "Host 2"],
+  "guests": ["David Johansson"],
+  "main_topics": ["Insiderförsäljningar", "Black Friday", "Kinas Covid-Kaos", "Neonode patentbesked", "Private Equity risker", "US marknadssentiment"],
+  "stocks_discussed": ["Nordnet", "Hexatronic", "Boost", "Neonode", "Tesla", "Alibaba", "LifeClean"],
+  "recommendations": [
+    {
+      "stock_name": "USA Stock Index",
+      "ticker": "US_INDEX",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "34:26",
+      "reasoning": "Börsen har gått för mycket upp, värderingen rimmar inte med det ekonomiska läget. Höga räntor kontra börsnivåer jämfört med 2021 när allt var på topp. Förväntar sig sämre tider framför oss och att vinsterna ska ner.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag har börjat gå kort i USA. Jag tycker att det har gått för mycket, jag tycker inte att vi har prissatt in så mycket. När vi var här 2021 och då tyckte man att det var näs blodsnivåer och det flög NFTs runt öronen på en och det var apers som var värda hur mycket som helst. Nu är vi på samma nivåer och tittar man ut i ekonomin så har ju folk det tufft.",
+      "sector": null,
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [],
+  "insights": [
+    {
+      "quote": "Du skulle nästan kunna starta en fond på det här, det är att köpa när insiders köper, och inte köpa när de säljer.",
+      "summary": "Insiderköp är positivt medan insiderförsäljningar bör tolkas med försiktighet som en negativ signal.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "13:02",
+      "confidence": "high",
+      "tags": ["insiders", "signals", "investeringsstrategi"]
+    },
+    {
+      "quote": "Jag tror att många personlighetsledare och ledarmässigt mår bra av att kanske få sälja 10 procent. Så man kan få lätta lite på det ekonomiska trycket och känna någon form av belöning, att man blir mer motiverad.",
+      "summary": "Insiderförsäljningar kan vara positiva för ledare som säljer en liten del av sitt innehav för att minska finansiellt tryck och öka motivationen.",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "08:31",
+      "confidence": "high",
+      "tags": ["insiders", "ledarskap", "motivation"]
+    },
+    {
+      "quote": "Alla som garanterar ränta brukar alltid sluta i succé. Speciellt om de inte har cashflowet.",
+      "summary": "Att garantera ränterisker utan underliggande kassaflöde är en klassisk varningssignal för finansiella bubblor.",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "24:57",
+      "confidence": "high",
+      "tags": ["risk", "private equity", "bubblor"]
+    },
+    {
+      "quote": "Det är skillnad på bond to have och need to have. Det tror jag att människor har ändrat sitt konsumtionsmönster på.",
+      "summary": "I tuffa ekonomiska tider ändrar konsumenter sitt beteende och väljer bort onödiga köp även vid bra rabatter.",
+      "category": "lesson",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "20:12",
+      "confidence": "high",
+      "tags": ["konsumtion", "ekonomi", "konsumentbeteende"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet handlar främst om insiderförsäljningar hos Nordnet och Hexatronic, Black Friday-siffror som var svaga, och det kaotiska läget i Kina med covid-restriktioner och protester. Neonode väntar på ett viktigt patentbesked. En ny spaning på CDS-liknande produkter inom private equity diskuteras. Intervju med LifeClean som är ett ESG-fokuserat bolag som arbetar med klordioxid för desinfektion. Marknadssentimentet är generellt negativt med en avvaktande inställning inför kommande Fed-tal och jobsiffror.",
+  "key_takeaways": ["Nordnet-VD sålde 1 miljoner aktier men behåller 4 miljoner", "Hexatronic-ledningen sålde för 70-100 miljoner SEK totalt", "Black Friday retail sales ner 7% år-för-år", "USA-index har gått för mycket upp enligt ena värden som gått kort", "Kinas covid-läge skapar osäkerhet för både global ekonomi och aktiemarknad"],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2022-11-29-d640.txt",
+  "transcript_word_count": 8244,
+  "has_timestamps": true,
+  "model_used": "claude-opencode"
+}

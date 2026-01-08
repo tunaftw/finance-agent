@@ -1,0 +1,496 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2023-01-05-25a1",
+  "podcast_name": "Market Makers",
+  "episode_title": "#261 AI-året 2023",
+  "episode_number": 261,
+  "date": "2023-01-05",
+  "hosts": [
+    "Niklas",
+    "Fabian"
+  ],
+  "guests": [],
+  "main_topics": [
+    "AI",
+    "ChatGPT",
+    "Tesla",
+    "Ekonomiska indikatorer",
+    "FTF",
+    "Tech-jobbmarknad"
+  ],
+  "stocks_discussed": [
+    "Tesla",
+    "Microsoft",
+    "Alphabet",
+    "C3.ai",
+    "Nvidia",
+    "Micron Technology",
+    "Berkshire Hathaway",
+    "Apple"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "17:03",
+      "reasoning": "Tesla handlas till PS5 vilket är väldigt dyrt jämfört med andra bilbolag (Volkswagen PS0.3, GM PS0.5, NIO PS2). Bolagets vinst tillväxt saktar ner, andra derivatan är negativ. Dessutom finns margin call-risk där 60% av Musks aktier är belånade. 90% nedsida till GM-nivåer och ytterligare risk från tvångsförsäljning.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Bolaget handlas fortfarande till PS5, vilket man kan anser är ganska dyrt för någonting som kanske inte mår så bra. Inget person som jag personligen skulle beta på. Det finns mer intressanta grejer därute.",
+      "sector": "Automotive",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "90% nedsida till General Motors nivå",
+      "catalyst_timing": "Investor day 2023-03-01"
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "37:04",
+      "reasoning": "Microsoft handlas till PE25 vilket är dyrt, men är mer intressant än Google. De investerar 1 miljard i OpenAI och planerar integrera ChatGPT i Bing, vilket kan utmana Google. Eftersom Bing utgör mindre än 5% av omsättningen har de mer utrymme att experimentera. GitHub Copilot är en stor framgång.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Om man vill är MegaCaps, då är Microsoft mer intressant tycker jag. Det handlas dock till PE-25, så det är ganska dyrt direkt av kastningen i en procent dock. Det är väl ännu mindre att rent play, men jag tycker som sagt personligt öververksamhet är mycket mer spännande.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Alphabet",
+      "ticker": "GOOGL",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "47:34",
+      "reasoning": "Alphabet handlas till PE17 vilket är billigt historiskt, men förlorar pengar på Google Cloud och ad-businessen bromsar in. De hotas av ChatGPT och OpenAI som utmanar deras sökmotor. De vågar inte lansera AI-sök då det hotar deras annonsintäkter som utgör 80-90% av intäkterna.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Problemet är väl, Alphabet har blivit ganska billigt idag, PE-17, men vi har ju pratat med dem tidigare i podden. De ligger väldigt långt fram inom AI. Problemet är ju att de förlorar ganska mycket pengar på Google Cloud. Det knappast drev de att play. De har väldigt mycket din annonseringsverksamhet i grund och botten.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "C3.ai",
+      "ticker": "AI",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "47:57",
+      "reasoning": "Aktien har fallit 90% sedan IPO 2020. Omsättningen växer men förlusterna skenar. Trots att det är ett rent AI-bolag så är det inte ett direkt play på AI-trender som ChatGPT. Ingen tydlig vändning synlig.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Aktierna är ju ner runt 90% sedan den noteringen. Men det här är ett bolag som verkar gå hyfsat bra, omsättningen växer hyfsat. Problemet är att deras förluster skenar helt enkelt. Man brukar inte behöva stressa in i sådana saker. Känns fortfarande inte jättelockande.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "50:16",
+      "reasoning": "Nvidia är en klassisk AI-play med GPUer som drivs av AI-trenden, men handlas till över PE60 vilket är väldigt dyrt. Omsättningen har dragits ner av kryptoboomen som gått över. Google och Apple tar fram egna chips vilket är en risk.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nvidia ett klassiskt exempel. Det som talar emot dem är att Nvidia fortfarande är väldigt dyrt, annars är det över P60. Dessutom tycker jag också att man ser många bordare som har börjat ta fram egna chips, som Google, Apple till exempel.",
+      "sector": "Semiconductors",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Micron Technology",
+      "ticker": "MU",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "50:55",
+      "reasoning": "Micron handlas till PE9 vilket lockar, men är en cyklisk halvledarbolag som drabbas av supply-demand mismatch. Bolaget ska sänka capex rejält och ser kontraktion i marginaler för 2023. Det är en boom-bust cykel.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "De handlas till PE9, vilket såklart lockar till att forska lite mer i det här. Men jag kan tänka mig att det är lite problemet att det är en sån här boombar, väldigt cyklisk helt enkelt verksamhet.",
+      "sector": "Semiconductors",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "13:01",
+      "timestamp_end": "23:50",
+      "word_count": 1200,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Tesla diskuteras utförligt med fokus på värdering och risker. Aktien har fallit 70% på ett år men handlas fortfarande till PS5, vilket är betydligt dyrare än konkurrenter som Volkswagen (PS0.3), GM (PS0.5) och NIO (PS2). Vinsttillväxten saktar ner, inventarierna växer, och 60% av Musks aktier är belånade med risk för margin calls. Företagets Investor day i mars kan vara en katalysator.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Problemet just nu är väl också att stor del av Teslas vinst kom från Kina, och då kan man diskutera hur sticker de är, de vinsterna, och vad man bör betala för dem. Norge till exempel, det var en av de mognare marknaderna på Tesla, den växer ju endast här, nu tror jag att det är förra kvartalssiffror med drygt, ensiffriga procent helt enkelt.",
+          "timestamp": "13:32",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Aktien handlas dock fortfarande till PS5, vilket man kan anser är ganska dyrt för någonting som kanske inte mår så bra. Musk toppar listan över de som tappas mest förmögenhet under 2022.",
+          "timestamp": "14:27",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Oavsett hur mycket tech de har i bakgrunden och hur mycket techbolag man tycker Tesla egentligen är, så är fortfarande deras bread and butter att sälja bilar. Det är det de tjänar pengar på. Och som alla vet är bilförsäljning cyklisk. En bra deal borde rimligen vara att du köper ett bilbolag och så får du en gratis option som kan utvecklas till något annat. Men här känns det snarare som du prysar för optionen som kanske aldrig spelar sig ut.",
+          "timestamp": "17:03",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Cirka 60% av Musks Tesla-innehav är pletsat som collateral, eller säkerhet som det heter på svenska. De vet ju att det kommer att bli värre idag. Men det är ändå intressant att det finns en nivå och som du säger 60% av aktier är belånade. Det finns nivåer där han börjar sälja och jag tror att vi är väldigt nära de nivåerna.",
+          "timestamp": "18:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Volkswagen handlas ju till P5, Price to Sales, nere nu på Tesla, från ganska sjuka nivåer, det har ju varit på PS långt över 20, nu är det nere på PS5, och Volkswagen handlas på 0,3, General Motors 0,5, så ska vi ner till General Motors nivå, då har det ju 90% nedsida till i aktien.",
+          "timestamp": "22:54",
+          "context": "metric"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Man kan snabbt också göra en liten jämförelse med NIO, det här kinesiska elbilsbolaget. Men NIO växer sina leveranser med 100 procent, så de ligger långt över Tesla, och de handlas till PS2. Så även där har du mer än en halvering ner.",
+          "timestamp": "23:50",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "40%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "PS5",
+          "Norge mognadsmarknad: ensiffrig % tillväxt",
+          "Kina: majoriteten av vinst"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Eventuell rally efter att aktien är översåld",
+          "Investor day 1 mars kan visa Tesla Generation 3-plattform med lägre produktionskostnad"
+        ],
+        "bear_case": [
+          "PS5 värdering är 10-17x högre än konkurrenter (VW PS0.3, GM PS0.5)",
+          "Negativ andra derivatan i tillväxt",
+          "Osålt inventarium",
+          "60% av Musks aktier belånade med margin call-risk",
+          "Vinsttillväxt saktar ner, missade estimates med 20%"
+        ],
+        "catalysts": [
+          "Investor day 2023-03-01 med Tesla Generation 3-plattform",
+          "Rally potential eftersom aktien är översåld"
+        ],
+        "risks": [
+          "Margin calls som kan tvinga tvångsförsäljning",
+          "Kompetensförluster hos anställda",
+          "Twitter-finansieringen drar ner Musk"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "timestamp_start": "35:44",
+      "timestamp_end": "38:00",
+      "word_count": 600,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Microsoft framställs som ett mer intressant AI-play än Google. De investerar 1 miljard dollar i OpenAI och planerar integrera ChatGPT i Bing, vilket kan utmana Googles dominans. Eftersom Bing utgör mindre än 5% av Microsofts omsättning har de mer utrymme att experimentera än Google vars sök står för 80-90% av intäkterna.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Microsoft har ju sin sökmotor Bing, det brukar ofta hånas, bland annat för att det mest sökta ordet på Bing är ju faktiskt Google. Men Microsoft gick ut med nyhet bara idag om att de ska försöka integrera nu chat-GPT i sin sökmotor Bing. Och det här är otroligt intressant.",
+          "timestamp": "36:13",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det motsvarar fortfarande mindre än 5% av deras totala omsättning. Vilket ger dem mycket mer utrymme att våga experimentera och testa att väva in sådana här funktioner. Ett litet tillägg är dessutom att Microsoft är en investerare i OpenAI. De har också lagt in en miljard dollar, precis som Mask har i OpenAI.",
+          "timestamp": "36:37",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "25",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Bing utgör <5% av omsättningen",
+          "1 miljard USD investering i OpenAI"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "OpenAI-investering och ChatGPT-integration i Bing kan utmana Google",
+          "Mer utrymme att experimentera då Bing är liten andel av omsättningen",
+          "GitHub Copilot är en stor framgång"
+        ],
+        "bear_case": [
+          "PE25 är ganska dyrt",
+          "Inte ett rent AI-play"
+        ],
+        "catalysts": [
+          "ChatGPT-integration i Bing"
+        ],
+        "risks": [
+          "Värdering",
+          "Konkurrens från Google"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Alphabet",
+      "ticker": "GOOGL",
+      "timestamp_start": "30:03",
+      "timestamp_end": "38:00",
+      "word_count": 800,
+      "speakers": [
+        "Niklas",
+        "Fabian"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Alphabet beskrivs som hotat av AI och ChatGPT. Trots att de ligger långt fram inom AI med modeller som Lambda, vågar de inte lansera AI-sök då det hotar deras annonsintäkter som utgör 80-90% av intäkterna. Google Cloud förlorar pengar och ad-businessen bromsar in. De hotas också på kartfronten.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Och jag skulle säga att det är första exempel på någonting som man ser på väldigt länge, som på allvar faktiskt utmanar Google, just när det gäller sök. Chat-GPT har ju varit en riktig fullträff. Nu säger OpenAI att man tror att man kommer att göra 200 miljoner dollar i omsättning nästa år på det här.",
+          "timestamp": "30:03",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Google har själva AI-modeller som några som anses ligga längre fram än chat-GPT, bland annat en som kallas Lambda. Men ryktet gör gällande att Google ser problem med den här sökfunktionen. Helt enkelt för att de vet inte hur de ska kunna få in annonsering i en sån sökmotor, så den ska ju döda deras business. De har själva deklarerat kod röd för den här typen av sökfunktioner.",
+          "timestamp": "35:03",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Problemet är väl, Alphabet har blivit ganska billigt idag, PE-17, men vi har ju pratat med dem tidigare i podden. De ligger väldigt långt fram inom AI. Problemet är ju att de förlorar ganska mycket pengar på Google Cloud.",
+          "timestamp": "47:34",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "17",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Google Cloud förlorar pengar",
+          "80-90% av intäkter från annonser"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Ligger långt fram inom AI med Lambda",
+          "Värderingen har kommit ner till PE-17"
+        ],
+        "bear_case": [
+          "ChatGPT och AI-sök hotar deras kärnverksamhet",
+          "Google Cloud förlorar pengar",
+          "Ad-businessen bromsar in",
+          "Kan inte lansera AI-sök då det hotar annonsintäkter",
+          "Hotas på kartfronten av Overture Maps Foundation"
+        ],
+        "catalysts": null,
+        "risks": [
+          "AI-sök ersätter traditionell sök",
+          "Annonsintäkter minskar"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det finns en dominoeffekt som i stort sett alltid verkar i cykler. Det startar alltid med housing, det går ner, det är en ledande indikator. Förra året såg vi NAHB index gå från 80 början av året till cirka 30 i slutet av året. Vi såg även att PMI-siffror började svaja, det är alltså ordrar, och även att vinster började försvagas. Men när folk hör det här så tänker man att det kommer att ske nästa kvartal. Men det här brukar ofta ta lite tid. Det kan ta 12-24 månader från det att man ser till exempel att housing börjar gå ner till att vinster börjar falla. Sist men inte minst så börjar man se arbetslöshetssiffror.",
+      "summary": "HOPE-cykeln (Housing, Orders, Profits, Employment) visar att det tar 12-24 månader från bostadsmarknadsnedgång till vinster faller och arbetslöshet stiger.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "06:16",
+      "confidence": "high",
+      "tags": [
+        "ekonomiska cykler",
+        "HOPE",
+        "housing",
+        "unemployment",
+        "ledande indikatorer"
+      ]
+    },
+    {
+      "quote": "Vad man brukar säga, peace time leader and war time in general. Det är väldigt lätt att leda ett land relativt sett, när det är fred snarare än när det är krig. Det är där det visar vad som skiljer, vad man brukar säga, Agnerna från vetet. Agnerna från vetet, det är så man säger. Det är det jag ser nu också i recessionstider. Det var väldigt många som blev management, fick styra företag eller vissa företag som blev större än de borde vara. Bara för att det fanns gratis pengar.",
+      "summary": "Ledarskap prövas i recession, inte i goda tider. Många bolag och ledare växte för mycket under perioden med gratis pengar och kan inte stå emot tuffare tider.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "06:16",
+      "confidence": "high",
+      "tags": [
+        "ledarskap",
+        "recession",
+        "gratis pengar",
+        "management"
+      ]
+    },
+    {
+      "quote": "Det handlar inte om att man vill att folk ska få det illa, utan det handlar om att genom att få sämre tider, få lite lönsamhetskrav, få upp räntor och så vidare, så rensar man ju också ut lite grann. Rensar upp bland dåliga företag. Man kanske ser till att de företag som visst de är bra, Google till exempel är ett jättebra företag som är superlönsamt, men det verkar ju som att de ändå byggt upp väldigt mycket dödkött, så mycket personal som kanske inte behövdes.",
+      "summary": "Recession och högre räntor fyller en funktion genom att rensa bort ineffektivitet och dödkött från marknaden, vilket i längden ger bättre ekonomi.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "05:01",
+      "confidence": "high",
+      "tags": [
+        "recession",
+        "räntor",
+        "effektivisering",
+        "arbetsmarknad"
+      ]
+    },
+    {
+      "quote": "Hela 47%, alltså nästan hälften av en high earners i USA lever också lön till lön. Dock också det är en kraftig ökning från tidigare. Framförallt om man tittar på den här covid-checken som skickades ut. Kommer man väl ihåg att under 2020 skickades ut en check i brevlådan till alla amerikaner med lite pengar. För många var det här kanske de första sparpengarna de hade. Men nu räknar Morgan Stanley med att ungefär den hälften av befolkningen som känner sämst i USA kommer att ha bränt sina covid-pengar 2024 senast.",
+      "summary": "Hela 63% av amerikaner lever paycheck to paycheck, inklusive 47% av high earners. Många har bränt igenom sina covid-pengar och kommer sakna sparpengar 2024.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "08:51",
+      "confidence": "high",
+      "tags": [
+        "konsumtion",
+        "sparande",
+        "inflation",
+        "amerikansk ekonomi"
+      ]
+    },
+    {
+      "quote": "Ja men i slutändan har ändå Berkshire i viset sett presterat väldigt mycket bättre än många andra som hyllades, till exempel ARK om vi tar deras Innovation Fund. Vi pratade om det förut att många räknade ut Buffett, det var samma sak i 2000 under Melendicash när Buffett köpte inga techbolag och då skrattade folk åt honom och sen visade sig att det var han som hade rätt i slutändan. Nu ser vi ju i princip samma sak igen.",
+      "summary": "Buffett och Berkshire Hathaway presterade bättre än hypade tech-bolag under 2022, precis som under dotcom-bubblan. Historien upprepar sig.",
+      "category": "lesson",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "16:15",
+      "confidence": "high",
+      "tags": [
+        "Buffett",
+        "Berkshire",
+        "tech-bubbla",
+        "historien upprepar sig"
+      ]
+    },
+    {
+      "quote": "Framstegen som gjorts inom AI riskerar att erodera den sociala tilliten, risker att ge mer makt till auktoritära regimer, och disrupta företag och marknader på ett sätt som inte nödvändigtvis är positivt heller. Risken är att man använder det här mer och mer för att manipulera människor och skapa till exempel politisk kaos eller kaos för företag. Och det är väldigt rimligt att vi antar att fler tjänster tillkommer över tid som är lika användarvänliga. Och då kommer det bli mer och mer svårt att avgöra vad som är verkligt och vad som inte är verkligt.",
+      "summary": "AI, särskilt generativ AI med deepfakes, riskerar att erodera social tillit och göra det omöjligt att skilja på sant och falskt. Kan användas för politisk manipulation och kaos.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "37:27",
+      "confidence": "high",
+      "tags": [
+        "AI",
+        "deepfakes",
+        "desinformation",
+        "social tillit"
+      ]
+    },
+    {
+      "quote": "Om jag tror till exempel på chat-GPT, då hjälper det inte mig att investera i C3. Det är det som är problemet att det inte går att investera specifikt i den tekniken, utan det finns ju massor av bolag som använder det på olika sätt.",
+      "summary": "Det är svårt att investera specifikt i AI-trender som ChatGPT då de flesta intressanta AI-bolag är privata och publika bolag bara använder tekniken.",
+      "category": "lesson",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "49:20",
+      "confidence": "medium",
+      "tags": [
+        "AI",
+        "investering",
+        "tech-trender",
+        "private bolag"
+      ]
+    },
+    {
+      "quote": "Kikar man på de här större bolagen, jag tror i alla fall att det kommer att vara svårare att tjäna bra med pengar på dem kommande tio åren jämfört med de tio åren som har varit. Det har varit deras time to shine helt enkelt med så mycket gratis pengar som har pumpats in i systemet. Jag tror inte att det kommer att vara en självklar trade i framtiden som det har varit.",
+      "summary": "Mega-cap tech-bolag kommer sannolikt underprestera kommande tio år jämfört med förra decenniet då gratis pengar pumpade upp deras värderingar.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "53:14",
+      "confidence": "medium",
+      "tags": [
+        "mega-cap",
+        "tech",
+        "gratis pengar",
+        "framtidens avkastning"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på AI-utvecklingen under 2022 med ChatGPT, DALL-E och andra generativa AI-modeller som genombrudd. Tesla diskuteras utförligt med negativt sentiment pga hög värdering (PS5) jämfört med konkurrenter. FTX-uppdatering och Sam Bankman-Frieds arrest. Ekonomin diskuteras med HOPE-cykeln (Housing, Orders, Profits, Employment) där arbetslöshet kan väntas 2023.",
+  "key_takeaways": [
+    "2023 kan bli året för AI med ChatGPT och generativ AI",
+    "Tesla övervärderad med 90% nedsida potential, margin call-risk för Musk",
+    "Microsoft mer intressant AI-play än Google pga mindre beroende av sökintäkter",
+    "AI-risk: deepfakes och desinformation kan erodera social tillit",
+    "HOPE-cykeln indikerar att arbetslöshet kan väntas 2023",
+    "63% av amerikaner lever paycheck to paycheck, covid-pengar bränns upp"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2023-01-05-25a1.txt",
+  "transcript_word_count": 10864,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

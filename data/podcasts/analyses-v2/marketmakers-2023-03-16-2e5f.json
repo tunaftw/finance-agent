@@ -1,0 +1,204 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2023-03-16-2e5f",
+  "podcast_name": "Market Makers",
+  "episode_title": "#271 Lånekarusellen",
+  "episode_number": 271,
+  "date": "2023-03-16",
+  "hosts": [
+    "Fabian",
+    "Hampus"
+  ],
+  "guests": [],
+  "main_topics": [
+    "SVB bankkrisen",
+    "inflationsdata",
+    "fastighetsmarknad",
+    "bankreglering"
+  ],
+  "stocks_discussed": [
+    "Sagax",
+    "SBB"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Sagax",
+      "ticker": "SAGA-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "PG Gyllenhammar",
+      "speaker_role": "guest",
+      "timestamp": "10:52",
+      "reasoning": "Sagax är välskött men våldsamt värderad. PG rekommenderar att aktien bör falla rejält i kurs. Det är en explicit short-rekommendation baserad på den höga värderingen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nu sticker han ut hakan och konstaterar att välskötta, men våldsamt värderade sagax bör falla rejält i kurs. Så det är en short-spaning här från PG själv.",
+      "sector": "Real Estate",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Silicon Valley Bank",
+      "ticker": "SIVB",
+      "timestamp_start": "21:13",
+      "timestamp_end": "52:20",
+      "word_count": 3500,
+      "speakers": [
+        "Fabian",
+        "Hampus"
+      ],
+      "primary_speaker": "Hampus",
+      "discussion_summary": "SVB kollapsade på grund av en kombination av ohedgeade ränterisker från långa obligationer köpta vid historiskt låga räntor, och en bankrun där kunder krävde ut 42 miljarder dollar på en dag. Banken hade extremt hög exponering mot tech-startups, 90% oförsäkrade insättningar, och hade ingen Chief Risk Officer under kritisk period. FDIC tog över och garanterade alla insättningar men aktieägare fick ingenting.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Det visade sig för det första. Deras kunder, många av de välkapitaliserade startups eller techbolag, inte direkt behövde lån, så SVB valde ju den andra rutten att investera pengarna istället.",
+          "timestamp": "34:52",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Hampus",
+          "text": "De valde ju att investera i obligationer, eller berättare sagt MBS med lång maturity, tio år. Där gav vi lite ränta, cirka 1,5 procent, och eftersom SVB inte betalade ränta på insättningar så kunde de ju ta spreaden i fickan.",
+          "timestamp": "35:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Hampus",
+          "text": "De hade ju 80 miljarder dollar i MBS-er, i deras health and maturity portfölj, varav 97% hade 10 plus år duration. Och som sagt, snittgilen var 1,56%. Nu är ju riskfria cirka två, tre gånger högre. Så bra trade, grabbar.",
+          "timestamp": "36:13",
+          "context": "metric"
+        },
+        {
+          "speaker": "Hampus",
+          "text": "För att möta de här uttaget tvingades SVB sälja obligationer till ett värde om 21 miljarder dollar, ta en smärre förlust på nästan 2 miljarder dollar. Men det visade sig sedan att orealiserade förluster var mycket större än så, cirka 16 miljarder på portföljen.",
+          "timestamp": "39:26",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Hampus",
+          "text": "På fredag morgon hade kunder krävt ut hela 42 miljarder dollar, en fia är det del av bankens totala insättningar, vilket såklart banken inte kunde möta för de var inlåsta på andra ställen.",
+          "timestamp": "40:14",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Insättningar: 189 miljarder dollar 2019-2021",
+          "MBS-portfölj: 80 miljarder dollar",
+          "MBS duration: 97% med 10+ år, snitt 1.56%",
+          "Orealiserade förluster: 16 miljarder dollar",
+          "Oförsäkrade insättningar: 90%",
+          "Uttag en dag: 42 miljarder dollar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Tidigare stark position inom tech och startup-sektorn",
+          "Långsiktiga värden kan vara intakta om räntorna stabiliseras"
+        ],
+        "bear_case": [
+          "Ohedgead ränterisk med långa obligationer köpta vid all time low räntor",
+          "Koncentration mot tech-startups som är känsliga för räntor",
+          "Extremt hög andel oförsäkrade insättningar",
+          "Ingen Chief Risk Officer under kritisk period"
+        ],
+        "catalysts": [
+          "Räntehöjningar från Fed",
+          "Tech-sektorn kraschar",
+          "Silvergate krisen utlöste oroliga VC-investerare"
+        ],
+        "risks": [
+          "Bankrun",
+          "Räntor stiger snabbt",
+          "Kunder kräver ut pengar"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det som Howard Marks alltid trycker på här, det är att oavsett om det här stämmer eller inte, så kommer du aldrig kunna skydda en investering om du köpte till för högt pris.",
+      "summary": "Investeringsfilosofi: Valuation är den viktigaste faktorn - man kan inte skydda en investering om man betalade för mycket",
+      "category": "philosophy",
+      "speaker": "Hampus (refererar till Howard Marks)",
+      "speaker_role": "host",
+      "timestamp": "10:29",
+      "confidence": "high",
+      "tags": [
+        "valuation",
+        "real estate",
+        "investering"
+      ]
+    },
+    {
+      "quote": "Det sista L-et är det viktiga egentligen och det är leverage, helt enkelt belåning. Det är ju faktiskt så att du kan ju nolla kontot, men det är svårt egentligen att nolla kontot om du inte använder hävstång. Det är absolut farliga sättet att investera på.",
+      "summary": "Riskhantering: Över-belåning är extremt farligt - du kan nolla kontot med hävstång",
+      "category": "wisdom",
+      "speaker": "Hampus",
+      "speaker_role": "host",
+      "timestamp": "07:41",
+      "confidence": "high",
+      "tags": [
+        "leverage",
+        "risk",
+        "belåning"
+      ]
+    },
+    {
+      "quote": "Jag vill bara lägga in en liten grej därför många missförstår det L-et, och det är att Buffett och Munger är ju fans av leverage, det är att du inte ska vara overlevered.",
+      "summary": "Nuance: Buffett/Munger gillar måttlig hävstång, men inte över-belåning",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "08:12",
+      "confidence": "medium",
+      "tags": [
+        "leverage",
+        "Buffett",
+        "Munger"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "USDC",
+      "asset_name": "USD Coin",
+      "sentiment": "neutral",
+      "speaker": "Hampus",
+      "speaker_role": "host",
+      "quote": "Circle, de äger ju den fjärde största kryptovalutan, USDC, som är en sån här stablecoin som ska vara peggad mot den amerikanska dollarn. De hade ju tre av sina 40 miljarder dollar hos SVB. Och eftersom de då helt plötsligt blev av med de pengarna, så fick de dipegga USDC, alltså sin stablecoin. Och den sköjk ju åtminstone 10% på den nyheten.",
+      "context": "USDC dipegade 10% efter Circle förlorade tillgång till 3 miljarder dollar hos SVB",
+      "confidence": "high",
+      "price_levels": [
+        "dipeg 10%"
+      ],
+      "timeframe": "kort sikt"
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet fokuserar på SVB-krisen, hur den uppstod genom ohedgeade ränterisker och bankrun, samt effekterna på banksystemet. Diskuterar även inflationsdata som visar USA med bättre kontroll än Sverige, och PG Gyllenhammars bearish syn på svenska fastigheter, inklusive short-rekommendation på Sagax.",
+  "key_takeaways": [
+    "SVB kollapsade på grund av ohedgead ränterisk och bankrun på 42 miljarder dollar en dag",
+    "PG rekommenderar short på Sagax på grund av extrem värdering",
+    "Amerikansk inflation 6% vs svensk 12% - Sverige har svårare läge",
+    "Regionala banker i USA har slappare regleringar än stora banker",
+    "Fed skapar moral hazard genom att garantera insättningar hos failed bankers"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2023-03-16-2e5f.txt",
+  "transcript_word_count": 15234,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,674 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2018-09-05-b43e",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 263 - The winner takes it all",
+  "episode_number": 263,
+  "date": "2018-09-05",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [
+    "Erik Hansén"
+  ],
+  "main_topics": [
+    "Marknadssentiment",
+    "Aktierekommendationer",
+    "Portugal-resa",
+    "Sponsorer"
+  ],
+  "stocks_discussed": [
+    "Clas Ohlson",
+    "H&M",
+    "Nolato",
+    "Veteranpoolen",
+    "Elekta",
+    "Solaris",
+    "Catena Media",
+    "BBVA",
+    "Galp Energia",
+    "EDP Renováveis",
+    "Kopparbergs",
+    "Hoist",
+    "Nike",
+    "Amazon"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Clas Ohlson",
+      "ticker": "CLAS-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[12:45]",
+      "reasoning": "Rapporten var mycket svag med resultatmiss på 32 miljoner mot väntade 53 miljoner, ner nästan 70% jämfört med förra året. Augustiförsäljningen var svag med only 1% LFL tillväxt. P/E på 15-16 är för högt givet utmaningarna. Värderingen är alldeles för hög och estimaten kommer sannolikt ned mer. Bolaget har för stora butiker för en modern marknad.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så det här är ju en så klart sälj för mig. Varför ska man betala P1516 för det här, givet de utmaningar man står inför. De sitter med jättemånga alldeles för stora butiker där man säljer klistermärken och GM och sånt. Det kommer inte funka helt enkelt.",
+      "sector": "Retail",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Estimaten kommer att sänkas ytterligare",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[10:44]",
+      "reasoning": "Johan var kort H&M inför rapporten men har täckt positionen. Han är inte positiv till bolaget men ville inte ligga kort över rapporten efter sänkningar. Han tog hem några procent i kortningen. John beskriver H&M i Portugal som tragiskt med omodern stil världen över.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag har faktiskt täckt min kortning H&M, nu vill jag inte riktigt ligga över rapporten. Men med det sagt så är jag inte positiv till H&M, men jag är nöjd med några procenten jag fick i den kortningen ändå.",
+      "sector": "Retail",
+      "market": "sweden",
+      "position_context": "Tog vinst på kortning",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nolato",
+      "ticker": "NOLO-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[11:26]",
+      "reasoning": "Tillväxten som marknaden värderar orimligt högt kommer att försvinna inom några kvartal. Den EC-gås som drivit aktien kommer att dö ut. Nu ska bolaget leverera ordinarie volymer och lageruppbyggnad. Aktien handlas fortfarande till väldigt höga multiplar. Johan kortade när aktien studsade från låga 600 till 650.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Den här EC-gåsen som drivit aktien sista året tror jag kommer att dö ut. Nu ska man börja leverera utannanseringsvolymer och lageruppbyggnad och jag tror inte det kommer att bli särskilt kul för den här aktien som fortfarande handlas till väldigt höga multiplar.",
+      "sector": "Manufacturing",
+      "market": "sweden",
+      "position_context": "Kortad",
+      "downside_note": "Tillväxten kommer försvinna inom några kvartal",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Veteranpoolen",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[20:42]",
+      "reasoning": "Bemanningsbolag för pensionärer som växer snabbt, 50% i Q2. Tjänar väldigt bra med pengar. Rider på demografiska utvecklingen med allt fler äldre. Uppskattad EBIT i år över 30 miljoner, kassa på några miljoner, värderad till 330 miljoner. Ångrar att han inte köpte i början av året på 12-13 SEK, nu är den kring 18. Aktien ser inte superdyr ut men utslagsgörande kvalitet kan göra att man sitter fast.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här är en marknad som är i sin lilla grann och som växer och tycker inte heller att aktien ser sådär superdyr ut. I år borde man kunna göra en bit över 30 miljoner i ebit och man har några miljoner i kassan och värderas till 330 miljoner och sånt på börsen. Men med det sagt så ligger den här ändå på min watchlist att köpa in någon gång.",
+      "sector": "Bemanning",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Utslagsgörande kvalitet, kan sitta fast",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Elekta",
+      "ticker": "EKTA-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[18:00]",
+      "reasoning": "Aktien tappade 10% på rapporten trots att den är upp 70-75% i år. Bolaget missade på bruttomarginalen. VD förklarar med högre volymer på tillväxtmarknader där systemen inte är lika avancerade och genererar lägre serviceintäkter. Q1 är ett litet kvartal. Ny produktcykel med Unity-maskinen har skapat förväntningar. Johan tycker det är för svårt att analysera.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Kanske är det här ett bra läge att hoppa på tåget, men jag kan för lite och tycker att det är för svårt, så jag passer ändå. Håller mig undan Lekta, för det är ett av de lättaste sättet att förlora pengar på börsen.",
+      "sector": "Healthcare",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Solaris",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[22:20]",
+      "reasoning": "Aktien tappat 30% i år efter rapporter som inte levt upp till förväntningarna. Förvärv och integration har strulat till men ska vara slutfört Q2. VD vill jobba tillbaka till marginal runt 10%. Andelen återkommande intäkter har gått från 90-95% till 80%. Förvärv har breddat geografiskt med närvaro i Tyskland och Storbritannien. Aktien ser inte billig ut men är ett okej köp för den riktigt långsiktiga. Stora internationella spelare som ADP handlas till 16-17% marginal.",
+      "price_target": null,
+      "time_horizon": "long",
+      "quote": "Sammanfattningsvis är väl intrycket att man är inne i en liten tuff och tråkig period, men jag tror att det här bolaget kommer att jobba sig igenom det här och att man även fortsatt har bra möjligheter att växa på ganska hyggligt så där. Aktien ser inte särskilt billig ut trots nedgången, men med det sagt så tror jag ändå att det är ett okej köp här för den som är riktigt långsiktig.",
+      "sector": "Software",
+      "market": "norway",
+      "position_context": null,
+      "downside_note": "Marginal har gått ned från 10% till lägre",
+      "catalyst_timing": "Q2 när integrationen är slutförd"
+    },
+    {
+      "stock_name": "Kopparbergs",
+      "ticker": "KOP-B",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[17:49]",
+      "reasoning": "John såg inte Kopparbergs cider någonstans i Portugal, endast Sommersby (ägd av Karlsberg). Det var bra säljläge efter rapporten på 230-240 SEK.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så att man ska vara glad om man kunde kränga ut sina Kopparbergs aktier efter rapporten på 230-240. Ja det tror jag också var ett väldigt väldigt bra säljläge.",
+      "sector": "Beverage",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hoist",
+      "ticker": "HOIST-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[21:26]",
+      "reasoning": "Fått ny storägare i EQT. Andra aktier där EQT gått in har blivit bra affärer, t.ex. BIM. Hoist är ett tråkigare bolag men mycket billigare, P10 i år och P8 på 2019 enligt SME. Kan vara intressant att hänga med EQT på några kronor.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "När EQT går in så brukar det sällan bli en dålig affär. Hoist är väl ganska mycket tråkigare bolag, får man väl ändå säga, någon typ av interimjustitiekopier, men det är också väldigt mycket billigare. Enligt SME ska det vara P10 i år och P8 på 2019.",
+      "sector": "Finance",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Investeringscase: kognitiv krasch kan påverka köpbeteende",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nike",
+      "ticker": "NKE",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[26:15]",
+      "reasoning": "Nike lanserade kontroversiell reklamkampanj med Colin Kaepernick. Aktien gick ner 3% på det. Det är ett intressant köpläge att komma in billigare. Senaste rapporten var väldigt bra. Företaget är som alla amerikanska varumärkesföretag väldigt dyrt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Aktien gick ner tre procent på det här och har man tittat på Nike så kan det vara ett intressant köpläge att komma in lite billigare. Det var en väldigt bra rapport senast som Nike kom med, så företaget tuffat på. Och det är ju som alla amerikanska varumärketsföretag väldigt, väldigt dyrt.",
+      "sector": "Consumer",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Väldigt dyr värdering",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[27:59]",
+      "reasoning": "Amazon gick med i 1 trillion dollar-klubben. Det är mest tur att investera i Amazon, eftersom det är väldigt bra att investera i företag där genier jobbar. Jeff Bezos har gång på gång förändrat Amazon med briljanta idéer. Det är märkligt att ingen svensk kunnat tjäna stora summor på Amazon.",
+      "price_target": null,
+      "time_horizon": "long",
+      "quote": "Eftersom, återigen, är det ju väldigt bra att investera i företag där genier jobbar. För det är ju briljanta idéer som man gång på gång har förändrat Amazon. De har ju kört de här webbservices och hela tiden kommer det nya grejer som gör Amazon mer värdefullt.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Galp Energia",
+      "ticker": "GALP.LS",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[16:21]",
+      "reasoning": "Portugisiskt energibolag med borr- och petroleumutvinning i Angola, Mozambique och Sydamerika. Aktien har gått bra. P/E 17, utdelning 3.5%.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "De här verkar göra riktigt bra ifrån sig. Aktien har gått bra, det är P17 och utdelning på 3,5 procent här. Så det är lite spännande.",
+      "sector": "Energy",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "EDP Renováveis",
+      "ticker": "EDPR.LS",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[17:08]",
+      "reasoning": "Blandning av Stutsvik, Fortum och Eolus Vind. Många fina bolag i ett men lite dyrt med P/E 30 och liten nästan obefintlig utdelning. Kändes lite spännande.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och här får man såhär många fina bolag i ett, så är det lite dyrt med. Och P30 och liten men nästan obefintlig utdelning. Men det här bolaget är ändå något som kändes lite spännande.",
+      "sector": "Renewables",
+      "market": "other",
+      "position_context": null,
+      "downside_note": "P/E 30 är dyrt",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "BBVA",
+      "ticker": "BBVA",
+      "action": "avoid",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[16:21]",
+      "reasoning": "Spansk bank med närvaro i Spanien, Portugal, Sydamerika och Turkiet. Aktien handlas på all-time low i USA, senast $6.20. Johan tycker det känns inte lockande att köpa en bank på all-time low som bara trendar ner.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag köper just bank på all time low som bara trendar ner och ner, känns ju inte så lockande ändå.",
+      "sector": "Finance",
+      "market": "other",
+      "position_context": null,
+      "downside_note": "Trending ner mot all-time low",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Clas Ohlson",
+      "ticker": "CLAS-B",
+      "timestamp_start": "[11:38]",
+      "timestamp_end": "[13:06]",
+      "word_count": 350,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Johan diskuterar Clas Ohlsons svaga rapport med resultatmiss på 32 miljoner mot väntade 53 miljoner och svag augustiförsäljning. Han rekommenderar sälj med tanke på den höga P/E på 15-16 och att estimaten troligen kommer sänkas ytterligare. John ifrågasätter om samarbetet med Amazon kan vara positivt men Johan avfärdar det och anser att de för stora butiker för en modern marknad.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Claes Olsson en bra sådan. De rapporterade på morgonen, jag pratade här förra veckan om att den kanske man skulle kunna gå kort inför rapporten, men det gjorde jag inte. Det såg ju först ut att vara helt rätt, men sen så har ju den kömpats upp till strax över plus tecknet. Lite svårt att förstå, rapporten i sig var väldigt svag.",
+          "timestamp": "[11:38]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Tittar man på resultatet så missar man rejält. 32 miljoner mot väntade 53, och det är ner nästan 70 procent jämfört med förra året. Augustiförsäljningen var inte heller något att hurra över. Like for like var upp 1 procent där.",
+          "timestamp": "[11:55]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Varför ska man betala P1516 för det här, givet de utmaningar man står inför. Så det här är ju en så klart sälj för mig.",
+          "timestamp": "[12:32]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag är inte lika säker på att det är en säljrek. De ska jobba med Amazon nu, Johan. Kittlar inte det?",
+          "timestamp": "[12:38]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Nej, det är typiskt sånt där som man inte ska hänga upp sig på i det här bolaget. Utan de sitter med jättemånga alldeles för stora butiker där man säljer klistermärken och GM och sånt. Det kommer inte funka helt enkelt.",
+          "timestamp": "[12:45]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "15-16",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Resultat miss 32M vs 53M väntat",
+          "-70% resultat vs förra året",
+          "LFL augusti +1%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Samarbete med Amazon"
+        ],
+        "bear_case": [
+          "Svag rapport med resultatmiss",
+          "P/E 15-16 är för högt",
+          "Estimaten kommer sänkas",
+          "För stora butiker för modern marknad",
+          "Säljer produkter som inte passar butik",
+          "Augustiförsäljning svag med endast 1% LFL"
+        ],
+        "catalysts": [
+          "Framtida rapporter"
+        ],
+        "risks": [
+          "Konkurrens från e-handel",
+          "Structuralk problem med butiksstorlek"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Veteranpoolen",
+      "ticker": null,
+      "timestamp_start": "[19:16]",
+      "timestamp_end": "[21:21]",
+      "word_count": 450,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "John presenterar Veteranpoolen (Vätteramolen) som ett bemanningsbolag för pensionärer som växer snabbt med 50% tillväxt i Q2. Bolaget rider på demografiska utvecklingen med allt fler äldre. John ångrar att han inte köpte i början av året på 12-13 SEK, nu handlas den kring 18. Uppskattad EBIT i år över 30 miljoner på värdering 330 miljoner. Johan varnar för utslagsgörande kvalitet och svårigheter att bygga upp en pool av pensionärer jämfört med ungdomar.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Vetterampolen som jag tror att vi har pratat om i podden. Avknoppning från HomeAid kring årsskiftet. Det är ett bemanningsbolag för pensionärer som vill dricka ut kassan lite.",
+          "timestamp": "[19:16]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Det här bolaget växer snabbt, 50 procent nu senast i Q2. Tjänar dessutom väldigt bra med pengar. Jag som gillar investeringar som rider på den här ondvikliga demografiska utvecklingen i Sverige, men allt större andel äldre i vår befolkning gillar det här.",
+          "timestamp": "[19:23]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag ångrar att jag aldrig fick tummen ur och köpte i början av året när man kunde handla den här aktien kring 12-13 spänn. Nu är den uppe kring 18 och sånt tror jag.",
+          "timestamp": "[19:38]",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "I år borde man kunna göra en bit över 30 miljoner i ebit och man har några miljoner i kassan och värderas till 330 miljoner och sånt på börsen",
+          "timestamp": "[20:00]",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Men med det sagt så ligger den här ändå på min watchlist att köpa in någon gång.",
+          "timestamp": "[20:18]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag är lite orolig för vissa grejer med veteranpoolen. Det ena är ju det här med att till exempel ungdomar och andra vikarier kan man väldigt fort få tag i de kollar sina telefoner. Det går lätt att styra upp system medans punchesar har mer ett av planerat liven. Det är lite svårare att kanske bygga upp en jättepool av hungriga pensionärer som vill sticka ut och jobba.",
+          "timestamp": "[20:42]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "50%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "EBIT >30M",
+          "Kassa några miljoner",
+          "Värdering 330M",
+          "Aktiekurs ca 18 SEK",
+          "Tidigare kurs 12-13 SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Omvändbar demografisk trend med allt fler äldre",
+          "Snabb tillväxt på 50%",
+          "Tjänar väldigt bra pengar",
+          "Värdering verkar inte superdyr",
+          "Marknad är i sin lilla grann"
+        ],
+        "bear_case": [
+          "Utslagsgörande kvalitet kan göra att man sitter fast",
+          "Svårare att bygga pool av pensionärer än ungdomar",
+          "Kan bli mer konkurrens",
+          "Marginal kan vara för hög på sikt"
+        ],
+        "catalysts": [
+          "Framtida rapporter"
+        ],
+        "risks": [
+          "Utslagsgörande kvalitet",
+          "Konkurrens",
+          "Risk att tillväxten inte håller i sig"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Solaris",
+      "ticker": null,
+      "timestamp_start": "[22:20]",
+      "timestamp_end": "[24:47]",
+      "word_count": 550,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "John diskuterar Solaris efter att ha besökt SVD Börs Plus temadag om digitala vinnare. Aktien har tappat 30% i år efter rapporter som inte levt upp till förväntningarna. Förvärv och integration har ställt till det men ska vara slutfört Q2. VD vill jobba tillbaka till marginal runt 10%. Andelen återkommande intäkter har fallit från 90-95% till 80% vilket är tråkigt. John tror det är ett okej köp för den långsiktiga och att aktien kan gå högre. Johan kritiserar att bolaget expand geografiskt när de inte ens har en stor del av den nordiska marknaden.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Jag var ju på den här SVD Börs Plus dagen igår. De hade en temadag av digitala vinnare och lyssnade på min gamla Norge favorit, bland annat Solaris.",
+          "timestamp": "[22:20]",
+          "context": "other"
+        },
+        {
+          "speaker": "John",
+          "text": "Den här aktien har haft en ganska tråkig utveckling i år, tappat drygt 30% efter ett par rapporter i rad som inte lept upp till förväntningarna.",
+          "timestamp": "[22:25]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Det som har strullat till är de förvärv som man genomförde förra året och integrationen av de här som uppenbarligen inte gått lika smidigt som man hoppats på. Men det här ska vara slutfört under Q2.",
+          "timestamp": "[22:31]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Vd Hans Petter sa att man nu ska börja jobba sig tillbaka till en marginal runt 10%, det vill säga där man låg innan förvärven.",
+          "timestamp": "[22:42]",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag förstår tänket bakom de här förvärven som har bidragit till att bredda salaris ganska rejält geografiskt. Nu är man stora på den tyska och brittiska marknaden också, förutom den norska som man bara jobbar på tidigare.",
+          "timestamp": "[22:51]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Det är bra men den lite tråkigare aspekten av de här förvärven är att det framför allt är konsultintäkter som de bidrar med och det har gjort att andelen återkommande intäkter gått från någonstans höga 90-95 % till 80 %.",
+          "timestamp": "[22:58]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Sammanfattningsvis är väl intrycket att man är inne i en liten tuff och tråkig period, men jag tror att det här bolaget kommer att jobba sig igenom det här och att man även fortsatt har bra möjligheter att växa på ganska hyggligt så där.",
+          "timestamp": "[23:10]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Aktien ser inte särskilt billig ut trots nedgången, men med det sagt så tror jag ändå att det är ett okej köp här för den som är riktigt långsiktig.",
+          "timestamp": "[23:22]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Tittar man på till exempel stora internationella spelare som ADP så ligger de kring 16-17 procent. Det är såklart en helt annan size på det bolaget, men det visar ju ändå att det går i den här typen av business.",
+          "timestamp": "[23:42]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag tycker ändå att man kan lära sig lite av det Sven Hagströmer brukar säga, att man ska gräva djupare där man står. Det känns ju helt galet av ett bolag som salaris att ge sig ut på diverse marknader när man fortfarande ändå måste ha relativt liten del av den nordiska marknaden.",
+          "timestamp": "[24:20]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "~10% (mål)",
+        "debt_level": null,
+        "custom": [
+          "Aktien ned 30% i år",
+          "Andel återkommande intäkter: 90-95% -> 80%",
+          "ADP marginal: 16-17%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Förvärv ska vara slutfört Q2",
+          "VD siktar på 10% marginal igen",
+          "Geografisk expansion till Tyskland och Storbritannien",
+          "Stora internationella spelare som ADP har 16-17% marginal",
+          "Bra långsiktiga tillväxtmöjligheter"
+        ],
+        "bear_case": [
+          "Aktien ned 30% efter svaga rapporter",
+          "Integration av förvärv har inte gått smidigt",
+          "Andelen återkommande intäkter fallit till 80%",
+          "Geografisk expansion istället för fokus på Norden",
+          "Aktien inte billig trots nedgången"
+        ],
+        "catalysts": [
+          "Q2 när integration är slutförd",
+          "Marginal återhämtning mot 10%"
+        ],
+        "risks": [
+          "Integration fortsätter problematisk",
+          "Lägre återkommande intäkter drar lönsamhet",
+          "Geografisk expansion kan misslyckas"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det enda han har lärt sig ifrån och av politiker är att det är något till stil med att i allt de lägger sig i så blir det dåligt.",
+      "summary": "Politisk inblandning i ekonomi leder till sämre utfall.",
+      "category": "wisdom",
+      "speaker": "John (citerar Mats Skogkär)",
+      "speaker_role": "host",
+      "timestamp": "[05:00]",
+      "confidence": "high",
+      "tags": [
+        "politik",
+        "ekonomi",
+        "historia"
+      ]
+    },
+    {
+      "quote": "Kanske en gånger fem turbo-varant också.",
+      "summary": "Politiker kan vara mindre attraktiva att investera i.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[06:26]",
+      "confidence": "medium",
+      "tags": [
+        "politik",
+        "humor"
+      ]
+    },
+    {
+      "quote": "Kortad H&M när marknaden värderade tillväxt för högt men täckte innan rapporten.",
+      "summary": "Täck kortpositioner inför rapporter för att undvika risken.",
+      "category": "lesson",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[10:44]",
+      "confidence": "high",
+      "tags": [
+        "blankning",
+        "riskhantering"
+      ]
+    },
+    {
+      "quote": "Jag som gillar investeringar som rider på den här ondvikliga demografiska utvecklingen i Sverige, men allt större andel äldre i vår befolkning gillar det här.",
+      "summary": "Demografiska trender som befolkningens åldrande är omvändbara investeringsteman.",
+      "category": "philosophy",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "[19:23]",
+      "confidence": "high",
+      "tags": [
+        "demografi",
+        "strukturinvesteringar"
+      ]
+    },
+    {
+      "quote": "Det är ju väldigt bra att investera i företag där genier jobbar.",
+      "summary": "Investera i bolag med exceptionell ledning och geniala grundare.",
+      "category": "philosophy",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[27:59]",
+      "confidence": "high",
+      "tags": [
+        "ledning",
+        "talang",
+        "Amazon"
+      ]
+    },
+    {
+      "quote": "Sven Hagströmer brukar säga, att man ska gräva djupare där man står.",
+      "summary": "Fokusera på dina hemmamarknader istället för att expandera geografiskt.",
+      "category": "philosophy",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[24:20]",
+      "confidence": "high",
+      "tags": [
+        "strategi",
+        "fokus",
+        "geografisk expansion"
+      ]
+    },
+    {
+      "quote": "Att man ska gräva djupare där man står. Det känns ju helt galet av ett bolag som salaris att ge sig ut på diverse marknader när man fortfarande ändå måste ha relativt liten del av den nordiska marknaden.",
+      "summary": "Bolag bör dominera sin hemmamarknad innan de expanderar internationellt.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "[24:20]",
+      "confidence": "high",
+      "tags": [
+        "strategi",
+        "marknadsexpansion"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Börspodden avsnitt 263 diskuterar bland annat svaga konjunkturindikatorer men stark marknad. Johan rekommenderar sälj för Clas Ohlson och Nolato medan John presenterar Veteranpoolen som en intressant watchlist-kandidat med 50% tillväxt och Solaris som ett okej köp för långsiktiga investerare trots senaste tidens problem. Amazon och Nike diskuteras som köpkandidater efter recent prissänkningar.",
+  "key_takeaways": [
+    "Johan säljer Clas Ohlson och Nolato på grund av svaga rapporter och höga värderingar",
+    "Veteranpoolen presenteras som en demografisk investeringsmöjlighet med 50% tillväxt",
+    "Solaris ses som ett långsiktigt köpläge efter integrationproblem med förvärv",
+    "Amazon och Nike erbjuder köplägen efter recent nedgångar",
+    "Marknaden ser stark ut trots svagare konjunkturindikatorer"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2018-09-05-b43e.txt",
+  "transcript_word_count": 5100,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

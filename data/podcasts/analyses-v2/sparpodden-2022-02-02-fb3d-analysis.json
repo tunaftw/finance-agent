@@ -1,0 +1,377 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2022-02-02-fb3d",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Börsnedgång, utdelningsaktier och valår - Sparpodden 430",
+  "episode_number": 430,
+  "date": "2022-02-02",
+  "hosts": ["Frida Bratt", "Okänd host"],
+  "guests": [],
+  "main_topics": ["Börsnedgång", "Utdelningsstrategi", "Tillväxtbolag", "Valår", "Energifrågan"],
+  "stocks_discussed": ["Nibe", "Hexatronic", "Storskogen", "Volvo", "Investor", "VNV Global", "Kinnevik", "Nordea", "AstraZeneca", "SKF", "ABB", "H&M"],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Nibe",
+      "ticker": "NIBE-B",
+      "timestamp_start": "[04:54]",
+      "timestamp_end": "[06:22]",
+      "word_count": 250,
+      "speakers": ["Frida Bratt", "Host"],
+      "primary_speaker": "Frida Bratt",
+      "discussion_summary": "Diskussion om Nibe som ett högvärderat, flödesdrivet bolag som drabbats hårt. Frida förklarar hur ESG-flöden och momentum drev upp värderingen, och hur det nu vänder.",
+      "quotes": [
+        {
+          "speaker": "Frida Bratt",
+          "text": "Nibe och Hexatronic är ju jätteduktiga bolag, har lång track record, jättefrangångsrikt management, starka kassaflöden, allt det som man skulle prata om är ett kvalitativt bolag. Men det kan inte konsta hur mycket som helst.",
+          "timestamp": "[04:54]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Om vi tar Nibe så är det ju väldigt flödesdrivet med förvaltare som behöver sälja av bolag som inte anses hållbara, alltså skjuts in med pengarna i bolag som Nibe exempelvis. Så när det är flödesdrivet också, då blir det ju också en liten mindre koppling till själva verksamheten också.",
+          "timestamp": "[05:21]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Nibe var ju inte sån där som checkade alla boxar på hållbarhetskriterier, så då skjutsades det in pengar. Sen så i sin tur, privatspararna köper fonder som gör att förvaltarna måste ytterligare öka på sina positioner.",
+          "timestamp": "[06:03]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Högvärderat men kvalitativt bolag", "Lång track record och starkt kassaflöde", "Framgångsrikt management", "ESG-flöden drev upp kursen"],
+        "bear_case": ["Värdering blev för hög", "Flödesdriven kursutveckling", "Riskaptiten minskar i osäker miljö", "Mindre koppling till verksamheten när det är flödesdrivet"],
+        "catalysts": ["Höjda räntor kan påverka tillväxtbolag negativt", "ESG-flöden kan vända"],
+        "risks": ["Fortsatta nedgångar när momentum vänder", "Förvaltare kan tvingas sälja vidare"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Investor",
+      "ticker": "INVE-B",
+      "timestamp_start": "[22:51]",
+      "timestamp_end": "[24:07]",
+      "word_count": 280,
+      "speakers": ["Frida Bratt", "Host"],
+      "primary_speaker": "Frida Bratt",
+      "discussion_summary": "Investor beskrivs som den mest populära aktien bland spararna, både 2021 och under turbulensen i januari. Frida noterar att Investor har en rabatt som är ovanlig.",
+      "quotes": [
+        {
+          "speaker": "Frida Bratt",
+          "text": "Investor är fortfarande heta, så då är det okej. Sen har man ju VNV Global som ett komplement. Ja, och lite Kinnevik. Så då får du den här tillväxtkakan ordentligt.",
+          "timestamp": "[23:06]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host",
+          "text": "Investor, det är ingen som klår i Investor när det gäller popularitet.",
+          "timestamp": "[23:55]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Investor, det är ingen som klår i Investor när det gäller popularitet. Du har fortfarande rabatt i Investor, vilket inte är såhär supervanligt förekommande.",
+          "timestamp": "[23:55]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["rabatt till substansvärde"]
+      },
+      "thesis": {
+        "bull_case": ["Mest populära aktien bland spararna", "Har rabatt till substansvärde (ovanligt)", "Exponering till svensk industri och bank via investmentbolag"],
+        "bear_case": ["Uppgift saknas i diskussionen"],
+        "catalysts": ["Uppgift saknas i diskussionen"],
+        "risks": ["Uppgift saknas i diskussionen"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Bankaktier (SEB, Swedbank, Nordea, etc)",
+      "ticker": null,
+      "timestamp_start": "[20:17]",
+      "timestamp_end": "[22:19]",
+      "word_count": 350,
+      "speakers": ["Frida Bratt", "Host"],
+      "primary_speaker": "Frida Bratt",
+      "discussion_summary": "Längre diskussion om bankaktier som högutdelade bolag som trivs i stigande ränteläge. Trots bra direktavkastning på 5-7% såldes bankaktier av privatsparare 2021.",
+      "quotes": [
+        {
+          "speaker": "Frida Bratt",
+          "text": "Storbankerna är tillbaka, det blev inte alls de här kreditförlusterna som man hade reserverat stora belopp för.",
+          "timestamp": "[20:20]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Dels har det ju storbankerna som trivs i ett stigande ränteläge, alltså stigande ränta ökar bankernas intjäningsförmåga. Så att bara där är det ju liksom bank har lite bättre motståndskraft i det här läget och sen är de högutdelade.",
+          "timestamp": "[21:15]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host",
+          "text": "Och trots att kurserna har gått ganska bra, så direktavkastningarna, givet vad analytikerna tror om utdelningen, den är kring fem till sju procent. Så det är ju inte särskilt dåligt.",
+          "timestamp": "[21:15]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Men när jag tittar på vad som köptes och vad som såldes under 2021, så såldes bank. Ingen ville köpa bank.",
+          "timestamp": "[21:50]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Kanske inte köper lika hett som vissa andra. Investerare kollar sig i spegeln och funderar på klä mig i den här portföljen. Vilken investerare är jag? Jag vill inte vara storbank och gammel industrinvesteraren.",
+          "timestamp": "[22:19]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "5-7%",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Trivs i stigande ränteläge", "Höjer intjäningsförmågan vid högre räntor", "Hög direktavkastning på 5-7%", "Kreditförlusterna blev inte så stora som befarat", "Högutdelade"],
+        "bear_case": ["Privatsparare sålde av 2021", "Investoridentitet - vill inte vara \"gammal industri och bank\"", "Mindre \"sexig\" än tillväxtaktier"],
+        "catalysts": ["Fortsatta räntehöjningar under 2022", "Återgång till utdelning efter restriktioner"],
+        "risks": ["Riskaptiten kan fortsätta att vara låg", "Valkampanjer kan påverka synen på banksektorn"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Utdelningsaktier generellt",
+      "ticker": null,
+      "timestamp_start": "[15:18]",
+      "timestamp_end": "[21:27]",
+      "word_count": 550,
+      "speakers": ["Frida Bratt", "Host"],
+      "primary_speaker": "Frida Bratt",
+      "discussion_summary": "Omfattande diskussion om utdelningsstrategins potential comeback. Frida redovisar statistik om total utdelning och argumenterar för att utdelningsaktier kan vara attraktiva i nuvarande miljö.",
+      "quotes": [
+        {
+          "speaker": "Frida Bratt",
+          "text": "Ja det gör jag, och det har varit totalt ointressant med utdelningen i två år nu.",
+          "timestamp": "[15:18]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Total utdelning för 2021... börjar det närma sig ungefär 300 miljarder... Det skulle nog kunna bli en bra bit över 300 miljarder som delas ut under 2022. Det kommer att bli rekord på Stockholmsbörsen.",
+          "timestamp": "[19:06]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Men då är frågan om det här kan väcka då utdelningsinvesterade igen... Jag tror ju att det här med utdelningar kommer ändå att bli lite hetare, därför att det ligger liksom lite grann i tiden, i den miljö vi går in i.",
+          "timestamp": "[19:50]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Dels har det ju storbankerna som trivs i ett stigande ränteläge, alltså stigande ränta ökar bankernas intjäningsförmåga.",
+          "timestamp": "[21:15]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host",
+          "text": "Men gissning är ändå att det blir en liten comeback för utdelningsaktier, men vi får se.",
+          "timestamp": "[26:36]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["total utdelning 2021: ca 300 miljarder SEK", "förväntad utdelning 2022: över 300 miljarder SEK"]
+      },
+      "thesis": {
+        "bull_case": ["Utdelningar återkommer starkt 2022", "Banker trivs i stigande ränteläge", "Direktavkastning 5-7% på bankaktier", "Högre räntor kan gynna utdelningsbolag", "Utdelningar skapar värde i ekonomin"],
+        "bear_case": ["Var inte populärt under 2020-2021", "Privatsparare sålde av bankaktier", "Tillväxtaktier upplevs som \"sexigare\""],
+        "catalysts": ["Fortsatta räntehöjningar under 2022", "Återgång till utdelning efter restriktioner", "Valår och politisk diskussion om kapitalskatt"],
+        "risks": ["Utdelningsinvesterare kan ha lämnat marknaden", "Tillväxtaktier kan fortsätta att dominera"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Tillväxtbolag",
+      "ticker": null,
+      "timestamp_start": "[08:30]",
+      "timestamp_end": "[13:16]",
+      "word_count": 600,
+      "speakers": ["Frida Bratt", "Host"],
+      "primary_speaker": "Frida Bratt",
+      "discussion_summary": "Diskussion om tillväxtbolagens situation 2022. Frida argumenterar för att lönsamma tillväxtbolag klarar sig bättre än förhoppningsbolag i en miljö med stigande räntor.",
+      "quotes": [
+        {
+          "speaker": "Frida Bratt",
+          "text": "Jag tror verkligen det. Man ser att det här kan vara ett tecken på det då. Att man blir lite mer selektiv. Det går inte att köpa allt som andas förvärv.",
+          "timestamp": "[10:33]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Det är därför man säger att de tillväxtbolag och de techbolag som är lönsamma idag, de har jättestora möjligheter att fortsätta gå bra. Medan de som har vinster, det ligger längre fram i tiden, tre år, fem år eller tio år kanske, de kanske kommer ha lite tuffare i det här klimatet med stigande räntor.",
+          "timestamp": "[11:05]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "För mig är ett förhoppningsbolag någonting som ännu inte tjänar pengar.",
+          "timestamp": "[11:28]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "Men när jag kikar på listorna över de bästa aktier över tid, då är det ofta aktier som har redan haft en vinst, har redan gjort åtminstone positivt rörelseresultat... Så man gör ju kanske inte bort sig om man ser till att vara lite selektiv",
+          "timestamp": "[11:47]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Frida Bratt",
+          "text": "personligen är jag mer för att investera i bolag där de inte är i lika starkt behov av mitt kapital, utan de kommer att ge mig pengar.",
+          "timestamp": "[14:52]",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": ["Lönsamma tillväxtbolag har större motståndskraft", "Selektivitet blir viktigare", "Bolag som tjänar pengar här och nu klarar sig bättre"],
+        "bear_case": ["Förhoppningsbolag utan lönsamhet har det tufft", "Stigande räntor drabbar förhoppningsbolag hårdare", "Tillväxt i ekonomin väntas minska"],
+        "catalysts": ["Rapportperioden hjälper till att separera bra från dåliga bolag", "Stigande räntor premierar lönsamhet"],
+        "risks": ["Marknaden kan fortsätta att vara volatil", "Riskaptiten kan vara låg under perioder"]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Starka opinions, svagt hållna. Man måste våga utmana sanningar.",
+      "summary": "Ha starka åsikter men var redo att ändra dem när fakta ändras.",
+      "category": "philosophy",
+      "speaker": "Frida Bratt",
+      "speaker_role": "guest",
+      "timestamp": "[26:22]",
+      "confidence": "high",
+      "tags": ["investeringsfilosofi", "mindset"]
+    },
+    {
+      "quote": "Det kan inte konsta hur mycket som helst.",
+      "summary": "Även bra bolag kan bli för högt värderade.",
+      "category": "wisdom",
+      "speaker": "Frida Bratt",
+      "speaker_role": "guest",
+      "timestamp": "[05:15]",
+      "confidence": "high",
+      "tags": ["värdering", "risk"]
+    },
+    {
+      "quote": "Personligen är jag mer för att investera i bolag där de inte är i lika starkt behov av mitt kapital, utan de kommer att ge mig pengar.",
+      "summary": "Föredra bolag som inte är beroende av nytt kapital utan som genererar kassaflöden.",
+      "category": "philosophy",
+      "speaker": "Frida Bratt",
+      "speaker_role": "guest",
+      "timestamp": "[14:52]",
+      "confidence": "high",
+      "tags": ["kassaflöde", "investeringsfilosofi"]
+    },
+    {
+      "quote": "Aktier är ju ett värdepapper, du är ju en investerare, det är ju vad du är. Vissa aktier kanske man alltid kan äga, och vissa aktier kanske man kan äga i vissa perioder.",
+      "summary": "Investera baserat på fundamenta och värde, inte på vilken investerarprofil du vill ha.",
+      "category": "philosophy",
+      "speaker": "Frida Bratt",
+      "speaker_role": "guest",
+      "timestamp": "[25:18]",
+      "confidence": "high",
+      "tags": ["investeringsfilosofi", "flexibilitet"]
+    },
+    {
+      "quote": "Bara för att någonting faller från en hög nivå så är ju inte det lika med rabatt.",
+      "summary": "En kursnedgång är inte automatiskt ett köpläge - utvärdera rabatten mot vad?",
+      "category": "wisdom",
+      "speaker": "Frida Bratt",
+      "speaker_role": "guest",
+      "timestamp": "[40:51]",
+      "confidence": "high",
+      "tags": ["värdering", "köpläge", "fallgropar"]
+    },
+    {
+      "quote": "Att aktier är ändå ett företag. Och att det finns ett företag som ska sälja produkter och tjänster och gör de det mer eller gör de det mindre? Står de emot konkurrensen?",
+      "summary": "Fokusera på företagets grundläggande affärsverksamhet, inte bara aktiekursen.",
+      "category": "philosophy",
+      "speaker": "Frida Bratt",
+      "speaker_role": "guest",
+      "timestamp": "[02:47]",
+      "confidence": "high",
+      "tags": ["företagsanalys", "grunder"]
+    },
+    {
+      "quote": "När folk blir väldigt oroliga och man loggar in på sin bank och ser hur det ser ut, så det är ju aldrig kul. Men det är ju sunt ändå kanske att få in det mindsetet igen.",
+      "summary": "Marknadsturbulens kan vara hälsosam för att påminna om att investeringar ska ha substans.",
+      "category": "wisdom",
+      "speaker": "Host",
+      "speaker_role": "host",
+      "timestamp": "[02:26]",
+      "confidence": "medium",
+      "tags": ["marknadsturbulens", "mindset"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Diskussion om börsnedgången i januari 2022 och dess orsaker: högvärderade tillväxtbolag som Nibe och Hexatronic tappade kraftigt när momentum vände. Frida Bratt argumenterar för att lönsamma bolag klarar sig bättre än förhoppningsbolag i en miljö med stigande räntor. Utdelningsstrategin kan göra comeback då 2022 kan bli rekordår för utdelningar på Stockholmsbörsen, och banker trivs i stigande ränteläge. Trots attraktiv direktavkastning på 5-7% sålde privatsparare av bankaktier 2021.",
+  "key_takeaways": [
+    "Lönsamma tillväxtbolag har bättre motståndskraft i miljö med stigande räntor",
+    "Utdelningsaktier kan göra comeback 2022 med förväntade rekordutdelningar",
+    "Banker trivs i stigande ränteläge och har direktavkastning på 5-7%",
+    "Privatsparare blir mer selektiva - säljer teknikfonder men köper enskilda tillväxtaktier",
+    "Även bra bolag kan bli för högt värderade - kursnedgång är inte automatiskt köpläge"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2022-02-02-fb3d.txt",
+  "transcript_word_count": 7533,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

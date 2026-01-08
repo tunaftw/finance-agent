@@ -1,0 +1,860 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2020-04-01-2a5f",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 345 - Mannen som hatade aktieägare",
+  "episode_number": 345,
+  "date": "2020-04-01",
+  "hosts": [
+    "Johan",
+    "John"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Utdelningar",
+    "Marknadsvolatilitet",
+    "Oljepris",
+    "Korona-påverkan",
+    "Bolagsdjupdykningar"
+  ],
+  "stocks_discussed": [
+    "H&M",
+    "Saab",
+    "SBB",
+    "Kopparbergs",
+    "Mekonomen",
+    "Bilia",
+    "SCR",
+    "WISE",
+    "Nent Group",
+    "Lundin Petroleum"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "25:58",
+      "reasoning": "Saab har gått ner 40% och underpresterat mot andra verkstadsbolag, trots att man påverkas mindre med en orderbok som sträcker sig flera år framåt. Orsaken tros vara AP-fonden som sålt aktier (ESG-omviktning). Om denna omviktning är klar kan det vara startskottet på en uppgång.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men skulle kunna vara startskottet på en uppgång.",
+      "sector": "Industri/Verkstad",
+      "market": "sweden",
+      "position_context": "Johan äger Saab",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "20:58",
+      "reasoning": "H&M kan komma ur krisen starkare - många mindre konkurrenter har redan kastat in handduken. Precis innan krisen vänt bolaget blad efter ett långt förändringsarbete. Ny VD kan lowballa och plocka fram extra åtgärder. Frågan är när man ska gå in.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag tror att HOM är en sådan spelare som kan komma och komma ur det här starkare. Vi har redan sett massor av konkurrenter, mindre kedjor, som fått kasta in handduken.",
+      "sector": "Detaljhandel/Kläder",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Q1 rapport fredag"
+    },
+    {
+      "stock_name": "Kopparbergs Bryggeri",
+      "ticker": "KOPI-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "31:08",
+      "reasoning": "Efter det brutala raset kan det vara ett intressant läge för den som kan välja att se förbi 2020 och hoppas på nästa år istället.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Möjligt att det kan vara ett intressant läge här då.",
+      "sector": "Drycker/Bryggeri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nent Group",
+      "ticker": "NENT-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "34:48",
+      "reasoning": "Nent har drabbats hårt av inställd sport men har snabba åtgärdsprogram med besparingar på 700 miljoner som verkar kunna parera skadorna. Kanske intressant om fotbollen kommer igång. Aktien handlas på PE 11-12.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag vet inte, är det billigt eller dyrt? Kanske är det rimligt just nu.",
+      "sector": "Media/Underhållning",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Premier League återstart"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "H&M",
+      "ticker": "HM-B",
+      "timestamp_start": "18:03",
+      "timestamp_end": "20:58",
+      "word_count": 350,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "H&M är hårt drabbad av krisen med nästan 70% av butiksnätet stängt, vilket kostar enorma summor dagligen. Man har också logistikproblem och dragit in utdelningen. Marknaden är extremt osäker kring Q2 med försäljningsestimaten från 22 till 59 miljarder. Trots detta kan H&M komma ur krisen starkare eftersom många konkurrenter redan gett upp och bolaget precis vänt blad.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "H&M är ju hårt drabbad av krisen med nästan 70% av butiksnätet som just nu är stängt, temporärt stängt. Och det här kostar såklart enorma summor för H&M varje dag. Det är hyror och andra kostnader som står och tickar.",
+          "timestamp": "18:11",
+          "context": "thesis"
+        },
+        {
+          "speaker": "John",
+          "text": "Marknaden är extremt osäker kring Q2 i H&M fall. Försäljningsestimaten sträcker sig från 22 miljarder till 59 miljarder. Och på rörelserresultatsnivå så ligger estimaten från över 4 miljarder i förlust till 6 miljarder i vinst.",
+          "timestamp": "20:14",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Jag tror att HOM är en sådan spelare som kan komma och komma ur det här starkare. Vi har redan sett massor av konkurrenter, mindre kedjor, som fått kasta in handduken.",
+          "timestamp": "20:24",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det finns verkligen möjlighet för nya vd-en att lowballa, kanske plocka fram lite extra EO-poster på kostnadssidan för att kunna överraska positivt sen.",
+          "timestamp": "20:58",
+          "context": "catalysts"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Q2 estimate range: 22-59B SEK",
+        "margin": "Q2 EBIT: -4B to +6B SEK range",
+        "debt_level": null,
+        "custom": [
+          "70% of store network temporarily closed"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kommer ur krisen starkare än konkurrenter",
+          "Många mindre konkurrenter har redan gett upp",
+          "Precis vänt blad efter långt förändringsarbete",
+          "Ny VD kan överraska positivt"
+        ],
+        "bear_case": [
+          "Nästan 70% av butiksnätet stängt med löpande kostnader",
+          "Stora logistikproblem med stängda gränser",
+          "Extrem osäkerhet kring Q2 med breda estimat",
+          "Risker för lageruppbyggnad och nedskrivningar"
+        ],
+        "catalysts": [
+          "Q1 rapport fredag kan ge mer info om Q2",
+          "Potentiella kostnadsbesparingar från ny VD"
+        ],
+        "risks": [
+          "Butiksstängningar kostar enorma summor dagligen",
+          "Logistikproblem hindrar effektivitet",
+          "Konsumentköpbeteende kan ändras permanent"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "timestamp_start": "24:02",
+      "timestamp_end": "26:20",
+      "word_count": 280,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Saab har gått ner dryga 40% och underpresterat mot alla stora verkstadsbolag, vilket är märkligt med tanke på att man påverkas betydligt mindre med en orderbok som sträcker sig flera år framåt. Rimligaste förklaringen är att AP-fonden sålt aktier (ESG-omviktning). Om denna säljprocess är klar kan det vara startskottet på en uppgång.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Han hör till en av de riktigt stora förlorarna på börsen, av de lite större bolagen. Han har gått ner dryga 40 procent i år. Saab har faktiskt underpresterat mot i princip alla stora verkstadsbolag.",
+          "timestamp": "24:02",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Saab själva säger ju att de faktiskt knappt påverkats alls än så länge. Man påverkas betydligt mindre än de flesta andra med sin orderbok som sträcker sig flera år in i framtiden.",
+          "timestamp": "24:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Den rimligaste förklaringen då är ju att första AP-fonden räkt ut aktier sista tiden. Sen årsskiftet har man gått från 8,7 till 7,8 miljoner aktier och gissningsvis så har man sålt en stor del av de här aktierna efter Q1, och det känns som någon typ av ESG-relaterad omviktning.",
+          "timestamp": "25:14",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Möjligt att den här omviktningen från AP-fonden är klar, vi får se. Men skulle kunna vara startskottet på en uppgång.",
+          "timestamp": "25:52",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Jag ser Saabs som väldigt intressant på de här nivåerna med.",
+          "timestamp": "25:58",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "YTD performance: -40%",
+          "AP-fond reduced holding from 8.7M to 7.8M shares"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Orderbok sträcker sig flera år framåt",
+          "Påverkas betydligt mindre än andra verkstadsbolag",
+          "Knapp påverkad än så länge enligt bolaget",
+          "Har redan komponenter för årets leveranser",
+          "Nytt kreditfacilitet säkrad"
+        ],
+        "bear_case": [
+          "AP-fonden har sålt stora mängder aktier (ESG-omviktning)",
+          "Svaga kassaflödeshistorik",
+          "Vag guidning oroade investerare"
+        ],
+        "catalysts": [
+          "AP-fondens omviktning kan vara klar",
+          "Större affärer kan stängas när delegationer åter reser"
+        ],
+        "risks": [
+          "ESG-relaterat säljtryck kan fortsätta",
+          "Svårt att stänga affärer utan personliga möten",
+          "Komponentbrist oros för vissa investerare"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Nent Group",
+      "ticker": "NENT-B",
+      "timestamp_start": "33:09",
+      "timestamp_end": "35:21",
+      "word_count": 250,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Nent har drabbats hårt av inställd sport - de har tvingats sänka priserna på sportabonnemangen och reklammarknaden är svag. Å andra sidan har man fått stort inflöde av nya ViaPlay-kunder. De lanserar ett åtgärdsprogram med besparingar på 700 miljoner som verkar kunna parera skadorna. Har betalat för Premier League rättigheter och kommer kompenseras om säsongen inte spelas.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "De har ju både en stor annonsaffär och stort fokus på sport, vilket innebär att Nent är en av de spelare som drabbats hårt av de senaste tidens händelser.",
+          "timestamp": "33:16",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Den här utöbligna sporten som jag pratade om tidigare har tvingat Nent att sänka priserna på de här sportabonnemangen. Och reklammarknaden är ju såklart inte heller någon höjdare just nu.",
+          "timestamp": "33:26",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men å andra sidan så har man sett ett ganska stort inflöde av nya ViaPlay-kunder. Nant har ju också varit snabba med åtgärdsprogram för att motverka de här negativa effekterna.",
+          "timestamp": "33:48",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "I veckan här så lanserar de ett program som ska resultera i besparingar på 700 miljoner. Och med de här åtgärderna så ser det ju faktiskt ut som att man kommer att kunna parera de här skadorna som den har orsakat.",
+          "timestamp": "33:54",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Nämnt har vi redan betalat för Premier League rättigheterna och om säsongen inte spelas klart så kommer de att kompenseras för det på något sätt.",
+          "timestamp": "34:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Å andra sidan så borde de kunna höja priserna igen om fotbollen till exempel kommer igång här snart.",
+          "timestamp": "34:22",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Så länge man fortsätter att leverera tillväxt inom via Play så kan nog marknaden acceptera den biten. Aktien runt PE 11-12 här efter den senaste månaders fall.",
+          "timestamp": "34:32",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "11-12",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Savings program: 700M SEK",
+          "Paid for Premier League rights"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stort inflöde av nya ViaPlay-kunder",
+          "Åtgärdsprogram med 700M i besparingar",
+          "Kommer kompenseras om Premier League inte spelas",
+          "Kan höja priserna när sporten kommer igång",
+          "Fortsatt tillväxt i ViaPlay"
+        ],
+        "bear_case": [
+          "Tvingade sänka priser på sportabonnemang",
+          "Svag reklammarknad",
+          "Inställd sport skadar affären",
+          "Osäkerhet kring sportintäkter framöver"
+        ],
+        "catalysts": [
+          "Premier League återstart maj-juli",
+          "700M besparingsprogram",
+          "Höjda priser när sport kommer igång"
+        ],
+        "risks": [
+          "Sporträttigheter kan förlora värde",
+          "Reklammarknaden förblir svag",
+          "Osäker kundupplevelse utan sport"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Kopparbergs Bryggeri",
+      "ticker": "KOPI-B",
+      "timestamp_start": "28:54",
+      "timestamp_end": "31:10",
+      "word_count": 150,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "Kopparbergs har fått tvetidiga signaler kring hur corona slår. Peter Bronsman gav en optimistisk bild att sprithamtring i butiker kompenserade för stängda pubbar. Men sen kom besked om att 40 av 180 anställda deltidspermitterats och svenska restaurangmarknaden gått ner med 70%. Aktien runt 110 spänn mot 10 förra året.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "Förra veckan var ju Peter Bronsman ut i DI, gav en ganska optimistisk bild av läget, trots stängda pubbar i OK. Han menade att sprithamstring i butikerna kompenserade, i alla fall till viss del, och att man i Spanien ökar försäljningen trots corona.",
+          "timestamp": "29:01",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Men så igår såg jag också en blänkare från Finwari tror jag det var, där bronsman kommenterade att man nu har deltidspermitterat 40 av 180 drygt anställda i det svenska brökeriet.",
+          "timestamp": "29:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "De tvingas då deltidspermittera. Så det här är uppgifter som har kommit ut med någon vecka emellan. Lite skillnad ändå i budskap tycker jag.",
+          "timestamp": "29:48",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "John",
+          "text": "Aktien runt 110 spänn nu, oavsett vad man tycker om det här. Och de gjorde väl knappt 10 spänn förra året.",
+          "timestamp": "29:51",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Sen kan man välja att se förbi det och hoppas på nästa år istället. Möjligt att det kan vara ett intressant läge här då.",
+          "timestamp": "31:01",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Stock price: ~110 SEK (was ~10 SEK last year)",
+          "40 of 180 employees temporarily laid off",
+          "Swedish restaurant market down ~70%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Sprithamstring i butiker kan kompensera för stängda pubbar",
+          "Ökad försäljning i Spanien",
+          "Rasat kurs kan ge intressant entry"
+        ],
+        "bear_case": [
+          "40 av 180 anställda deltidspermitterade",
+          "Svenska restaurangmarknaden ner 70%",
+          "Tvetidiga signaler från ledningen",
+          "Hela Mallorca och Spanien stängt"
+        ],
+        "catalysts": [
+          "Säsong efter corona kan bli bra",
+          "Marknaden vänder upp"
+        ],
+        "risks": [
+          "Pubb-stängningar varar längre än väntat",
+          "Konsumentbeteende ändras permanent",
+          "Volymer kan minska permanent"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "SBB",
+      "ticker": "SBB-B",
+      "timestamp_start": "21:21",
+      "timestamp_end": "22:56",
+      "word_count": 130,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Ilja och SBB har problem. De köpte Hemfosa men skulle sälja fastigheter för att sänka skuldsättningen. En affär på 8 miljarder med Nyfosa har nu fallit på frusen obligationsmarknad. Ilja har också emitterat en obligation på sig själv med pant i SPB-aktier, vilket är svajigt på en läskig börs.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Ilja och SBB sitter i samma båt här. SBB köpte ju Hemfosa i en jätteaffär och skulle sen sälja ut lite av de här fastigheterna för att sänka skuldsättningen.",
+          "timestamp": "21:29",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Men nu hävdar Nyfosa att obligationsmarknaden har frusit och det går inte att låna pengar längre. Men man får ju också lite av en känsla att folk vill sätta åt Ilja.",
+          "timestamp": "21:40",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Ytterligare en faktor i det här är ju att Ilja själv har ju på något konstigt sätt lyckats emittera en obligation på sig själv. Där det ryktas att de här SPB-aktierna är pampsatta och om den aktien kommer ned för mycket så har man rätt att ta panten.",
+          "timestamp": "21:55",
+          "context": "risks"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det är ju lite svajigt, särskilt på en svajig och läskig börs.",
+          "timestamp": "22:10",
+          "context": "risks"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Hemfosa acquisition",
+          "Failed 8B SEK sale to Nyfosa",
+          "Frozen bond market"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Ilja har kort kvar i rockärmen",
+          "Har inte kommit hit för att förlora allt"
+        ],
+        "bear_case": [
+          "Obligationsmarknaden frusen",
+          "Nyfosa backar ur 8-miljarders affär",
+          "Folk vill sätta åt Ilja",
+          "Iljas obligation på sig själv med pant i SPB-aktier"
+        ],
+        "catalysts": [],
+        "risks": [
+          "SPB-aktier kan tappa värde och utlösa panträtt",
+          "Lågkonjunkturen varar längre än väntat",
+          "Skuldsättningen blir ohållbar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Mekonomen",
+      "ticker": "MEKO-B",
+      "timestamp_start": "26:20",
+      "timestamp_end": "27:23",
+      "word_count": 100,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Mekonomen visar återigen sin sämsta sida. Hemsida har varit nedstängd i flera dagar på grund av hackerangrepp. Är på väg att bryta mot kombinanterna med bankerna på grund av hög skuldsättning. Alla personbilar står stilla så inga reparationer behövs. Känns inte bra.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Deras hemsida har nu varit nedstängd i flera dagar på grund av ett hackerangrepp.",
+          "timestamp": "26:37",
+          "context": "risks"
+        },
+        {
+          "speaker": "Johan",
+          "text": "De är på väg att bryta mot de här kombinanterna med bankerna på grund av den höga skuldsättningen.",
+          "timestamp": "26:42",
+          "context": "risks"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Och att precis alla personbilar står stilla nu som gör att det inte behövs några reparationer för någon egentligen är ju också väldigt dåligt för Mekonomen.",
+          "timestamp": "26:48",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "High",
+        "custom": [
+          "Hacker attack",
+          "Banks covenants at risk"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Hemsida nedstängd på grund av hackerangrepp",
+          "På väg att bryta mot bankernas kombinanter",
+          "Hög skuldsättning",
+          "Alla personbilar står stilla - inga reparationer"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Kan behöva nyemission",
+          "Bortfall av intäkter under lågkonjunkturen"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Bilia",
+      "ticker": "BILI-B",
+      "timestamp_start": "27:23",
+      "timestamp_end": "29:00",
+      "word_count": 120,
+      "speakers": [
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Johan",
+      "discussion_summary": "Bilia har rasat 42% trots att Kvibergs näsa ska ägna bolaget. De som säljer begagnat ligger pyrt till med bankerna som motparter, till skillnad från nya bilar där tillverkarna finansierar. Servicedelen är stor men nu inga jobb eller fjällresor, bilarna går inte sönder. I Norge är det biligt och i Sverige alla permitterade.",
+      "quotes": [
+        {
+          "speaker": "Johan",
+          "text": "Vi har ju ett annat bolag inom det här reparationsträsket just nu och det är ju Bilia som rasat med 42% trots att den beryktade aktien näsan som Kviberg säger sig har älskar det här bolaget.",
+          "timestamp": "27:23",
+          "context": "metric"
+        },
+        {
+          "speaker": "Johan",
+          "text": "För att de som säljer begagnat ligger riktigt pyrt till. För att de har bankerna som mot parter här. Mellan de som säljer nya bilar har tillverkarna som finansierar deras bilar.",
+          "timestamp": "27:56",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Det är inga jobbrezor, det är inga fjällresor, bilarna går inte sönder och i Norge är det biliga och i Stora är alla permitterade. Så där kommer inte några pengar in överhuvudtaget.",
+          "timestamp": "28:18",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Johan",
+          "text": "Sen är det klart att under den här värsta nedstängningsperioden så blir det svårt att stänga några större affärer.",
+          "timestamp": "24:50",
+          "context": "risks"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "YTD: -42%",
+          "Used car sellers have banks as counterparties"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Har historik av att svänga upp och ner i låg/högkonjunktur",
+          "Vissa gång kommer det igång och då har en aktie som rasat väldigt mycket"
+        ],
+        "bear_case": [
+          "De som säljer begagnat har bankerna som motparter (sämre villkor)",
+          "Servicedelen drabbad - inga jobbrezor eller fjällresor",
+          "Norge är biligt, i Sverige alla permitterade",
+          "Bilar går inte sönder när de inte används"
+        ],
+        "catalysts": [
+          "Ekonomin vänder upp"
+        ],
+        "risks": [
+          "Lång tid innan bilarna rullar igen",
+          "Begagnadmarknaden kan krascha"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "SCR",
+      "ticker": "SCR",
+      "timestamp_start": "31:10",
+      "timestamp_end": "33:09",
+      "word_count": 120,
+      "speakers": [
+        "John",
+        "Johan"
+      ],
+      "primary_speaker": "John",
+      "discussion_summary": "SCR handlas i 17 kronor, samma nivå som mitten av 2010 - ett förlorat dekade. Sen 2015 har man fått nästan hela dagens börskurs i utdelning. Inom konsultuthyrning är det natt svart - alla bolag ringer och säger upp konsulter. De måste steppa upp förändringsarbetet.",
+      "quotes": [
+        {
+          "speaker": "John",
+          "text": "SCR handlas i 17 kronor nu, vilket är samma nivå som den gjordes i mitten av 2010. Det är ett förlorat dekade.",
+          "timestamp": "31:20",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Men det som är lite intressant är att bara sen 2015 har man fått nästan hela dagens börskurs i utdelning.",
+          "timestamp": "31:25",
+          "context": "metric"
+        },
+        {
+          "speaker": "John",
+          "text": "Inom det här konsultuthyrning så är det ju natt svart. För att alla bolag ringer direkt och säger upp konsulterna.",
+          "timestamp": "31:50",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "John",
+          "text": "Så att de måste nog steppa upp sitt förändringsarbete, för annars blir de någon typ av Uniflex-poliga bolag som aldrig någonsin levererat aktieägarvärde.",
+          "timestamp": "32:42",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "~50% of stock price since 2015",
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Stock price: 17 SEK (same as 2010)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kan vara först att känna på när marknaden vänder",
+          "Fått nästan hela börskursen i utdelning sen 2015"
+        ],
+        "bear_case": [
+          "Ett förlorat dekade",
+          "Alla bolag säger upp konsulter",
+          "Konsultuthyrning är natt svart",
+          "Måste steppa upp förändringsarbete"
+        ],
+        "catalysts": [
+          "Marknaden vänder upp"
+        ],
+        "risks": [
+          "Kan bli som Uniflex som aldrig levererat aktieägarvärde",
+          "LinkedIn gör det lättare för bolag att rekrytera själva"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Timing och tur är någonting jag inte tror att man ska underskatta när det gäller framgång.",
+      "summary": "Timing och tur spelar stor roll för framgång.",
+      "category": "wisdom",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "08:44",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "tur",
+        "framgång"
+      ]
+    },
+    {
+      "quote": "Bonnier kommer att bli rejält pressad av nedgången även utan broadcasting, men nu fick man i alla fall ut en bra peng, tydligt mycket mer än vad verksamheten skulle vara värd i dag. Dessutom frisk kapital som kan användas för att rädda resterande delar om det skulle behövas.",
+      "summary": "Bonnier sålde TV-verksamheten till Telia i precis rätt ögonblick.",
+      "category": "lesson",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "09:36",
+      "confidence": "high",
+      "tags": [
+        "timing",
+        "försäljning",
+        "bonnier"
+      ]
+    },
+    {
+      "quote": "Jag tycker att det börjar bli en soppa och mycket kan man förklara med mannen som har lägst förtroende av alla politiker händligt svenska folket och det är ju Per Bolund. Han har ju alltid hatat småsparare och infört sjukare och sjukare regler för hur man ska straffa dem.",
+      "summary": "Per Bolund inför regler som straffar småsparare.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "12:25",
+      "confidence": "high",
+      "tags": [
+        "utdelningar",
+        "politik",
+        "småsparare"
+      ]
+    },
+    {
+      "quote": "Att låsa in överflödeskapital i bra och väl fungerande bolag gör ingenting bättre. Dessutom, vad är nyttan med att våga satsa sina surt förvärvade pengar i bolag som går bra och gör bra saker och sedan bestämmer sig Bolund... Att det är nästan olagligt att dela ut pengar till ägarna.",
+      "summary": "Att tvinga bolag att hålla in utdelningar hjälper inte.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "13:21",
+      "confidence": "high",
+      "tags": [
+        "utdelningar",
+        "politiker",
+        "aktieägare"
+      ]
+    },
+    {
+      "quote": "Paniksälja sin fond för att man har läst lite tidningsartiklar som försöker skrämma upp folk på grund av små små enskilda innehav är förmodligen ingen bra idé.",
+      "summary": "Paniksälj baserat på tidningsartiklar är inte bra.",
+      "category": "lesson",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "14:54",
+      "confidence": "high",
+      "tags": [
+        "panik",
+        "fondsparande",
+        "media"
+      ]
+    },
+    {
+      "quote": "Lite mer klara sig själv mentalitet efterlyser jag faktiskt Johan än att man ska försöka maxa alla möjliga bidrag.",
+      "summary": "Företag bör försöka klara sig själva istället för att maxa statliga bidrag.",
+      "category": "philosophy",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "17:51",
+      "confidence": "medium",
+      "tags": [
+        "stödpaket",
+        "bidrag",
+        "self-reliance"
+      ]
+    },
+    {
+      "quote": "Den som säger att utdelningar inte spelar någon roll vet ingenting.",
+      "summary": "Utdelningar spelar stor roll för aktieägarvärde.",
+      "category": "philosophy",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "31:32",
+      "confidence": "high",
+      "tags": [
+        "utdelningar",
+        "aktieägarvärde"
+      ]
+    },
+    {
+      "quote": "Personligen har jag ingen favorit förutom att jag är längre än du aldrig skulle betta emot familjen Lundin.",
+      "summary": "Aldrig satsa emot familjen Lundin.",
+      "category": "wisdom",
+      "speaker": "John",
+      "speaker_role": "host",
+      "timestamp": "08:28",
+      "confidence": "medium",
+      "tags": [
+        "lundin",
+        "olja",
+        "investering"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar hur korona-pandemin drabbar olika bolag och marknaden. Många drabbas hårt men det finns bolag som kan komma ur krisen starkare. Utdelningar dras in massivt. Saab och H&M pekas ut som potentiellt intressanta. Marknaden är extremt volatil och osäker.",
+  "key_takeaways": [
+    "Många utdelningar dras in men kan komma ut senare",
+    "Saab kan vara undervärderad med ordrebok som skydd",
+    "H&M kan komma ur krisen starkare än konkurrenter",
+    "Timing och tur spelar stor roll för framgång",
+    "Bonners försäljning till Telia var perfekt tajmad",
+    "Nent har åtgärder för att partera skadorna från inställd sport",
+    "Oljepriset är extremt lågt men oljebolag kan vara en spel",
+    "Vissa bolag som Mekonomen har stora problem",
+    "Bilia har historik av att svänga men ligger pyrt till nu",
+    "Konsultbolag har det tufft men kan vara först när det vänder",
+    "Kopparbergs har tvetidiga signaler men kan vara intressant på sikt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2020-04-01-2a5f.txt",
+  "transcript_word_count": 6148,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

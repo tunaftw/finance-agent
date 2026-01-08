@@ -1,0 +1,148 @@
+{
+  "source_id": "WNsjStfdROc",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2022-02-26",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Analyzing market structure after panic selling into 38k level and subsequent recovery",
+      "quote": "as long as 38k is intact this level it continues to act as support and prices accepted above it i think that's decent at the very least for some sort of range-bound environment",
+      "price_levels": [
+        "$38k",
+        "$42k",
+        "$44k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Discussed as a major asset and benchmark alongside BTC for market structure",
+      "quote": "within crypto at least the safe assumption that bitcoin and eth are going to survive from cycle to cycle",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as example of altcoin that outperformed in previous bullish market",
+      "quote": "you can buy much more of that in eth and solana",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "LUNA",
+      "asset_name": "Terra",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Referenced as strong performer in previous market cycle",
+      "quote": "then we had the soul luna avax trade and axi and a ton of outliers which do well when the market is bullish",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "AVAX",
+      "asset_name": "Avalanche",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned alongside SOL and LUNA as strong performers",
+      "quote": "then we had the soul luna avax trade",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "XRP",
+      "asset_name": "XRP",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as example of altcoin with more units than BTC",
+      "quote": "you can buy much more of that in eth and solana and you know xrp whatever it may be",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "ATOM",
+      "asset_name": "Cosmos",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as example of strong altcoin performer",
+      "quote": "soul luna avax jewel phantom yada yada",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "JEWEL",
+      "asset_name": "Jewel",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as example of strong performer in previous cycle",
+      "quote": "soul luna avax jewel phantom yada yada",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "PHANTOM",
+      "asset_name": "Phantom",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as example of strong performer",
+      "quote": "soul luna avax jewel phantom yada yada",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$38k",
+        "$42k",
+        "$44k"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC 38k level is critical inflection point - if held above, suggests range-bound positive environment",
+    "Market structure has changed: alt traders can bypass BTC onboarding due to stablecoins and USD pairs",
+    "BTC and ETH remain benchmarks - if altcoins don't outperform them, traders take more risk for lower returns",
+    "Altcoin performance correlates with BTC health in both directions - bullish BTC provides tailwind, bearish BTC drags all alts down",
+    "Failed breakdown setup only bullish if reclaimed level continues to act as support"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "above $38k sustained",
+      "target": "$42k-$44k",
+      "stop": "below $38k",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred discusses BTC market structure around the 38k level, which acts as a critical inflection point after failed breakdown. He advocates for BTC and ETH as benchmarks for all altcoin trading performance. The market remains range-bound with 38k as support and potential upside to 42-44k if level holds, though correlations between BTC and altcoins remain tight in both directions.",
+  "transcript_word_count": 11433,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T00:02:21.756084"
+}

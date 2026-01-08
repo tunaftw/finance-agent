@@ -1,0 +1,149 @@
+{
+  "source_id": "9rWPohSjXc0",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-11-13",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Trading above 35k resistance, weekly bullish reclaim, tension between monthly and weekly timeframes",
+      "quote": "we are halfway through the monthly candle currently we are trading above the 35k resistance which is good... the weekly is unambiguously strong because it closed through its equivalent range low at 32k",
+      "price_levels": [
+        "$32k",
+        "$33.8k",
+        "$35k",
+        "$35.4k",
+        "$38k",
+        "$44-46k",
+        "$58k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Weekly breakout above 1935 level, ETF announcement, underperformance vs BTC but technically stronger",
+      "quote": "eth USD chart is stronger than before on the weekly time frame... we've already had one deviation at the level here uh and now we've closed above it last week so that's a technically a valid weekly time frame breakout",
+      "price_levels": [
+        "$1.9k",
+        "$2.1k",
+        "$2.5k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum to Bitcoin ratio",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Attempting trend reversal but facing strong resistance at 0.057 level",
+      "quote": "this is attempting a trend reversal of sorts Again part of the conservatism on eusd comes from the fact that e BTC is into resistance here the underside of 057 I think at least you want a weekly close above that level",
+      "price_levels": [
+        "0.057",
+        "0.061"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Strong performance, good weekly breakout signal, next target at $78",
+      "quote": "following the breakout and that's been really strong we've spoken about salana which has surprised me to the upside... similar to e this is a good weekly breakout signal",
+      "price_levels": [
+        "$44-47",
+        "$53-54",
+        "$78"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LINK",
+      "asset_name": "Chainlink",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Strong weekly breakout",
+      "quote": "we've spoken about link on the weekly following the breakout and that's been really strong",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "yes",
+    "key_levels": {
+      "BTC": [
+        "$32k",
+        "$35k",
+        "$44-46k",
+        "$58k"
+      ],
+      "ETH": [
+        "$1.9k",
+        "$2.1k",
+        "$2.5k"
+      ]
+    }
+  },
+  "key_insights": [
+    "Weekly BTC close above 32.2k was a major breakout signal, but monthly tension remains",
+    "Large BTC range between 58k and 35k - reclaiming one side typically leads to the other",
+    "ETH weekly breakout above 1935 is technically significant, but underperformance remains a concern",
+    "Funding rates are elevated across assets, which can pressure long positions if price doesn't move up",
+    "Use BTC and ETH dips to time altcoin rotations in trending market conditions"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$35.4k-$33.8k",
+      "target": "$44-46k",
+      "stop": "below $32k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$2.1k reaction",
+      "target": "$2.5k",
+      "stop": "below $1.9k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "short",
+      "entry": "below $1.9k",
+      "target": "range lows",
+      "stop": "above $2.1k",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "SOL",
+      "direction": "short",
+      "entry": "weekly close below $44-47",
+      "target": null,
+      "stop": "above $47",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Cred analyzes BTC trading above 35k resistance with weekly bullish momentum above 32k, but notes tension with monthly timeframe. Large range between 58k and 35k suggests moves toward opposite side when reclaimed. ETH achieved weekly breakout above 1935 with potential gap fill to 2.5k, though underperformance persists. SOL and LINK showing strong weekly breakouts. Funding rates elevated across market, warning longs need price appreciation to justify costs.",
+  "transcript_word_count": 11739,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:03:12.671330"
+}

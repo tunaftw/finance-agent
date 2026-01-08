@@ -1,0 +1,633 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2021-11-18-ed28",
+  "podcast_name": "Market Makers",
+  "episode_title": "#206 Magnus Andersson",
+  "episode_number": 206,
+  "date": "2021-11-18",
+  "hosts": [
+    "Fabian",
+    "Niklas"
+  ],
+  "guests": [
+    "Magnus Andersson"
+  ],
+  "main_topics": [
+    "Investeringsfilosofi",
+    "Fokuserad portföljförvaltning",
+    "Digitala affärsmodeller",
+    "Tålamod i investeringar",
+    "Värderingstillväxt"
+  ],
+  "stocks_discussed": [
+    "Evolution Gaming",
+    "LVMH",
+    "Netflix",
+    "Apple",
+    "Microsoft",
+    "LeoVegas",
+    "Kambi",
+    "Embracer",
+    "Playwright",
+    "Fingerprint",
+    "Storytel",
+    "Roshan"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Evolution Gaming",
+      "ticker": "EVO",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "14:44",
+      "reasoning": "Största positionen i portföljen. Upp 216% sedan mars 2020. Dominant på marknaden för livecasinon med 60-80% global marknadsandel. Värderas till ca 35 gånger vinsten men växer med 30-40% årligen. Regleringsrisk existerar men bolaget klarar regelverk bra tack vare sin storlek. Fortsatt starka tillväxtmöjligheter vid omställning från fysiskt till digitalt kasino.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "EVO, den är upp 216 procent sedan valbar i 2020. Evolution som är fullständigt dominant, vi snackar liksom om 60-70-80 procent, det är svårt att veta av världsmarknaden för livecasinon nu också, är inte riktigt lika dominant om varieret slottar och sånt, men varieret livecasinor är helt dominanta på en oerhört lönsam, oerhört snabbväxande marknad",
+      "sector": "iGaming",
+      "market": "sweden",
+      "position_context": "Största positionen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "LVMH",
+      "ticker": "MC.PA",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "14:44",
+      "reasoning": "Andra största positionen. Upp 103% sedan mars 2020. Europas största företag. 80+ extremt starka varumärken inom lyxsektorn. Vallgravar som gör det svårt för konkurrenter. Drabbades negativt av pandemin men återhämtade sig. Starka intäkter från återkommande konsumenter.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "LVMH är upp 103 procent sedan dess. De väger 80 oerhört starka varumärken inom lyx av olika slag. Oavsett om det är väskor, kläder, champagne, whisky, resväskor och allt möjligt sånt där",
+      "sector": "Lyxvaror",
+      "market": "europe",
+      "position_context": "Andra största positionen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Netflix",
+      "ticker": "NFLX",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "14:44",
+      "reasoning": "Tredje största positionen. Upp 65% sedan mars 2020. Dominant position inom streaming. Ökande vinst tillväxt har sänkt PE-talet från mycket höga nivåer till mer rimliga. Håjer abonnemangspriset med 15% årligen. Stark återkommande intäktsmodell.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Netflix är upp 65 procent sedan dess. När den ligger på 700, den började strax över 100 dollar låg, den låg Netflix på då, bara som exempel för några år sen när jag köpte det första gången och det var så jätte jätte högt värderat, om man tittar på PE eller andra sådana tal. Idag ligger den då strax över övrigt som sjudubblad sedan dess",
+      "sector": "Streaming",
+      "market": "us",
+      "position_context": "Tredje största positionen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "33:52",
+      "reasoning": "Exempel på bolag med extremt stark kundlojalitet och produkter konsumenterna älskar. Marknaden accepterar högre värdering på grund av position. När Magnus tittade på Apple 2011 låg PE på 11-13 efter rapportbesvikelse. Svårt för någon enskild händelse att sänka bolaget tack vare dominans.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "När jag började titta på Apple, det som utmärkte det bolaget var den ganska mjuka världen. Att de lyckades skapa produkter som konsumenterna verkligen älskar. Det fanns ingen annan som tillverkade den typen av apparater som Apple gör som var ens i närheten av att ha den kundlojaliteten. När jag började titta 2011 på Apple, så var ju de nere vi snackar alltså 11, 12, 13, PE",
+      "sector": "Teknologi",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "LeoVegas",
+      "ticker": "LEO",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "01:07:16",
+      "reasoning": "Beskrivet som Magnus största misstag. Oerhört imponerad 2016-2017 men missade varningsflaggor. Stora förvärv i Storbritannien blev dyra. Ny reglering i Storbritannien slog hårt. Hoppade av tidigt vilket räddade från katastrof. Varning mot bolag som gör stora förvärv och regleringsrisk.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det som jag tar upp i boken är Leo Vegas. Jag vet inte om det är det största. Jo jag tror faktiskt att jag hade en, jag var ju mycket inne, tyvärr var jag oerhört imponerad av Leo Vegas 2016 och 2017 och var inte observant för varningflaggor. Och där var det ju mycket regleringen som ställde till det för dem och sen var det ju då de här ganska stora köpen och förvärven som de gjorde i Storbritannien",
+      "sector": "iGaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Stora förluster genomfördes",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kambi",
+      "ticker": "KAMBI",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "45:52",
+      "reasoning": "Används som exempel på risk med kundkoncentration. Bolag kan få mycket ont av att förlora en stor kund på tillväxtmarknad (t.ex. USA). En tredje kunds byte av leverantör kan halvera bolagsvärdet. Visar vikten av att förstå kundbaser och kontraktsrisk.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Om man följde det noga och om man var väldigt fokuserad mot Kambi så bör man ha funderat ganska rejält när de började tappa kunder och riskerade att tappa kunder på den stora tillväxtmarknaden som är naturligtvis USA för deras del. Där räckte det egentligen med att det blev den här tredje kunden som inte alls var klara med att de skulle lämna dem eller någonting sånt. Men det räckte ju med att de köpte ett bolag som antogs kunna leverera samma tjänst som Kambi levererar till dem för att sänka aktien och i princip halvera bolagsvärdet",
+      "sector": "Sportbetting",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Kan halvera bolagsvärdet",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Storytel",
+      "ticker": "STORY-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "57:51",
+      "reasoning": "Magnus barn äger lite men inget betydande. Omnämns som intressant men inget starkt uttalande från Magnus själv.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Storytel har ju mina barn ägt lite, men det är inte alls mycket",
+      "sector": "Ljudböcker",
+      "market": "sweden",
+      "position_context": "Barnens portfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Embracer",
+      "ticker": "EMBRAC-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "57:51",
+      "reasoning": "Magnus barn äger mer än Storytel. Omnämns i diskussion om dataspel men ingen stark rekommendation från Magnus själv.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Embracer har de mera av och Apple",
+      "sector": "Dataspel",
+      "market": "sweden",
+      "position_context": "Barnens portfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Evolution Gaming",
+      "ticker": "EVO",
+      "timestamp_start": "14:44",
+      "timestamp_end": "48:22",
+      "word_count": 1200,
+      "speakers": [
+        "Magnus Andersson",
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Magnus Andersson",
+      "discussion_summary": "Magnus största position med 216% uppgång sedan mars 2020. Dominant på livemarknaden för kasinon med 60-80% global marknadsandel. Diskuterar risker med reglering men menar att regleringar gynnar stora spelare. Värderas till ca 35x PE men växer 30-40% årligen. Utnyttjar volatilitet genom små justeringar med belåning.",
+      "quotes": [
+        {
+          "speaker": "Magnus Andersson",
+          "text": "EVO, den är upp 216 procent sedan valbar i 2020. Evolution som är fullständigt dominant, vi snackar liksom om 60-70-80 procent, det är svårt att veta av världsmarknaden för livecasinon nu också",
+          "timestamp": "14:44",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Där kan du acceptera att bolaget är högt värderat. Det finns naturligtvis en smärtgräns där, men jag har väldigt svårt att säga om det skulle vara, jag skulle inte sälja Evolution om de hade PE70, så länge jag är helt nöjd med att de fortfarande är helt dominanta, omställd mellan fysiskt kasino till digitalt kasino, fortsätter och så vidare",
+          "timestamp": "34:18",
+          "context": "valuation"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Stora risker som man måste ta i beaktande är ju reglering. Inte reglering som något stort rött flagga. Regleringen kan vara väldigt bra",
+          "timestamp": "48:22",
+          "context": "risk"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Jag ökade det tre-fyra veckor sedan när den sjönk så pass mycket utan någon rättig anledning. Då ökade jag det lite och minskade ibland när den stuckit upp",
+          "timestamp": "53:22",
+          "context": "position"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "35-40",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "30-40%",
+        "margin": "50-60%",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Dominant position på livemarknaden 60-80%",
+          "30-40% årlig tillväxt",
+          "Höga marginaler 50-60%",
+          "Omställning från fysiskt till digitalt kasino fortsätter",
+          "Regleringar gynnar stora aktörer"
+        ],
+        "bear_case": [
+          "Regleringsrisk globalt",
+          "Konkurrenter kan kopiera (Pragmatic)",
+          "Hög värdering (PE 35-40)"
+        ],
+        "catalysts": [
+          "Fortsatt digitalisering av kasinomarknaden",
+          "Marknadsexpansion i USA",
+          "Kundbase hos operatörer"
+        ],
+        "risks": [
+          "Reglering på viktiga marknader",
+          "Tekniska problem som skadar förtroende",
+          "Konkurrens från Pragmatic/Playtech"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "LVMH",
+      "ticker": "MC.PA",
+      "timestamp_start": "14:44",
+      "timestamp_end": "34:18",
+      "word_count": 800,
+      "speakers": [
+        "Magnus Andersson",
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Magnus Andersson",
+      "discussion_summary": "Andra största position med 103% uppgång sedan mars 2020. 80+ extremt starka lyxvarumärken som är svåra för konkurrenter att utmana. Drabbades av pandemin men återhämtade sig. Exempel på bolag med djupa vallgravar och stark positionering.",
+      "quotes": [
+        {
+          "speaker": "Magnus Andersson",
+          "text": "LVMH är upp 103 procent sedan dess",
+          "timestamp": "14:44",
+          "context": "performance"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "De väger 80 oerhört starka varumärken inom lyx av olika slag. Oavsett om det är väskor, kläder, champagne, whisky, resväskor och allt möjligt sånt där. Den typen av verksamhet kan inte konkurrenter flytta på alls på samma sätt som de kunde flytta på fingerprint",
+          "timestamp": "34:18",
+          "context": "moat"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Louis Vuitton är ingen som kommer att kunna någonsin konkurrera utom, även om det skapas en massa nya västmärken",
+          "timestamp": "34:18",
+          "context": "moat"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "80+ starka varumärken",
+          "Omöjligt för konkurrenter att konkurrera ut",
+          "Pandemi-resilient",
+          "Globalt erkända lyxmärken"
+        ],
+        "bear_case": [
+          "Ekonomisk nedgång kan drabba lyxkonsumtion",
+          "Skiftande konsumenttrender"
+        ],
+        "catalysts": [
+          "Kinesisk medelklass tillväxt",
+          "Global återhämtning post-pandemi"
+        ],
+        "risks": [
+          "Makroekonomisk nedgång",
+          "Förändrade konsumtionsmönster"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Netflix",
+      "ticker": "NFLX",
+      "timestamp_start": "14:44",
+      "timestamp_end": "41:05",
+      "word_count": 900,
+      "speakers": [
+        "Magnus Andersson",
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Magnus Andersson",
+      "discussion_summary": "Tredje största position med 65% uppgång sedan mars 2020. Diskussion om hur höga värderingar kan försvaras genom vinsttillväxt som sänker PE över tid. PE sjönk från >150 till mer rimliga nivåer tack vare stark vinsttillväxt. Håjer priset med 15% årligen.",
+      "quotes": [
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Netflix är upp 65 procent sedan dess",
+          "timestamp": "14:44",
+          "context": "performance"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Och då kan man ju se väldigt tydligt att, samtidigt, alltså den ökande vinstnilativen har ju sänkt det här hemska, hemska PE-talet då, så kanske började på 150, sen blev det 100, sen blev det 70 och sen plötsligt var det 50, 40, 30 och så vidare",
+          "timestamp": "39:08",
+          "context": "valuation"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "När den ligger på 700, den började strax över 100 dollar låg, den låg Netflix på då, bara som exempel för några år sen när jag köpte det första gången och det var så jätte jätte högt värderat... Idag ligger den då strax över övrigt som sjudubblad sedan dess",
+          "timestamp": "39:39",
+          "context": "return"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Och höjer då, som bekant, abordentpriset en gång per år med 15 procent",
+          "timestamp": "39:48",
+          "context": "pricing_power"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "30-70 (historiskt 150+)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Hög",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Dominant position inom streaming",
+          "Vinsttillväxt sänker PE över tid",
+          "Prisökningskraft 15% årligen",
+          "Återkommande intäktsmodell"
+        ],
+        "bear_case": [
+          "Konkurrens ökar (Disney+, HBO Max etc)",
+          "Hög värdering jämfört med historik"
+        ],
+        "catalysts": [
+          "Fortsatt abonnemangstillväxt",
+          "Internationell expansion"
+        ],
+        "risks": [
+          "Ökande konkurrens",
+          "Mättade marknader"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "timestamp_start": "33:52",
+      "timestamp_end": "41:05",
+      "word_count": 600,
+      "speakers": [
+        "Magnus Andersson",
+        "Fabian"
+      ],
+      "primary_speaker": "Magnus Andersson",
+      "discussion_summary": "Används som exempel på bolag med extrem kundlojalitet och produkter konsumenterna älskar. Ingen annan kan ta lika mycket betalt eller har samma efterapande-effekt. När Magnus tittade 2011 låg PE på 11-13, vilket kändes säkert. Svårt för någon enskild händelse att sänka bolaget.",
+      "quotes": [
+        {
+          "speaker": "Magnus Andersson",
+          "text": "När jag började titta på Apple, det som utmärkte det bolaget var den ganska mjuka världen. Att de lyckades skapa produkter som konsumenterna verkligen älskar. Det fanns ingen annan som tillverkade den typen av apparater som Apple gör som var ens i närheten av att ha den kundlojaliteten",
+          "timestamp": "33:52",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Det fanns ingen som kunde ta så mycket betalt. Det fanns ingen som alla andra bara efterapade",
+          "timestamp": "33:52",
+          "context": "moat"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "När jag började titta 2011 på Apple, så var ju de nere vi snackar alltså 11, 12, 13, PE. 11, 12, 13, någonting sånt där, när de hade haft någon rapportbesvikelse så kunde de åka ner till 10. Då kändes det liksom, det här är väldigt, väldigt säkert",
+          "timestamp": "33:52",
+          "context": "valuation"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "11-13 (2011)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Extrem kundlojalitet",
+          "Prisökningskraft",
+          "Produkter som efterapas av konkurrenter",
+          "Ecosystem-effekter"
+        ],
+        "bear_case": [
+          "Komponentbrist som nu drabbar",
+          "Innovation kan saktas ner"
+        ],
+        "catalysts": [
+          "Nya produkter",
+          "Tjänste-tillväxt"
+        ],
+        "risks": [
+          "Komponentbrist",
+          "Konkurrens inom specifika segment"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag tror mycket på att man ska fokusera på de bolag som man tror mest på, kan ha mest om och sådär. Är mycket inne i digitala affärsmodeller som jag tycker är något alldeles fantastiskt för er att hitta god och ofta uthållig lönsamhet",
+      "summary": "Koncentrerad portfölj med få innehav som man förstår djupt, gärna digitala affärsmodeller",
+      "category": "philosophy",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "06:42",
+      "confidence": "high",
+      "tags": [
+        "fokuserad-portfölj",
+        "digitala-affärsmodeller",
+        "koncentration"
+      ]
+    },
+    {
+      "quote": "Tålamod som jag tror är så oerhört viktigt att man lär sig...om man har tålamod på en marknad som är oerhört kvartalstriven och så där, som jag ser det, man har en större edge mot marknaden i övrigt än till och med om man ska sitta på olaglig information",
+      "summary": "Tålamod ger edge i kvartalstriven marknad, viktigare än information",
+      "category": "wisdom",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "15:02",
+      "confidence": "high",
+      "tags": [
+        "tålamod",
+        "edge",
+        "marknadstaktik"
+      ]
+    },
+    {
+      "quote": "Det verkar som att de som hela tiden är pessimister, även om det aldrig blir som de säger, behöver de aldrig klipa till korset för det där. Nu är det bara ännu mer oseriöst den här värderingen",
+      "summary": "Pessimister behöver aldrig ta ansvar när de har fel, skapar missvisande bild",
+      "category": "wisdom",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "15:51",
+      "confidence": "high",
+      "tags": [
+        "pessimism",
+        "marknadspessimism",
+        "psykologi"
+      ]
+    },
+    {
+      "quote": "Om man köper ett bolag som kanske växer med 50 eller 100% per år, sedan flera år, och verkar kunna fortsätta växa på det sättet, då köper du någonting fullständigt annorlunda än om du köper ett klassiskt svenskt industriföretag som växer med 50-10% per år",
+      "summary": "Högväxande bolag måste värderas annorlunda än traditionella industriföretag",
+      "category": "philosophy",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "29:45",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "tillväxt",
+        "pe-tal"
+      ]
+    },
+    {
+      "quote": "Det spelar ingen roll hur många gånger du får rätt och fel. Det som verkligen spelar roll är hur mycket pengar du tjänar de gånger du får rätt och hur mycket pengar du förlorar de gånger du får fel",
+      "summary": "Framgång handlar om asymmetrisk risk-reward, inte antal rätt",
+      "category": "wisdom",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "01:08:31",
+      "confidence": "high",
+      "tags": [
+        "risk-reward",
+        "positionering",
+        "george-soros"
+      ]
+    },
+    {
+      "quote": "Om man tänker att skillnaden där är så oerhört mycket större mot om du äger något medtechbolag där det bara krävs en misslyckad studie för att det ska vara i princip kört",
+      "summary": "Viktigt att skilja på bolag som kan ta stryk (Apple) och bolag som är beroende av enstaka händelser (medtech)",
+      "category": "wisdom",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "42:30",
+      "confidence": "high",
+      "tags": [
+        "risk",
+        "affärsmodell",
+        "koncentration"
+      ]
+    },
+    {
+      "quote": "Du får ju naturligtvis svårare med de här sakerna. Det är precis som vi har sett med bankerna. Det har varit en enorm ökning av regelbörden sedan finanskrisen på bankerna och det har ju verkligen cementerat de här fyra fem svenska storbankernas starka position",
+      "summary": "Regleringar kan skapa vallgravar för dominanta företag",
+      "category": "wisdom",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "51:48",
+      "confidence": "high",
+      "tags": [
+        "vallgravar",
+        "regleringar",
+        "banker"
+      ]
+    },
+    {
+      "quote": "Det kan vara en väldigt bra grej, det har man då, uttrycket kom från guldrushen och sådär, att de som tjänade pengar var egentligen de som, även som Levi's och sådana där då, som sålde saker som guldletarna behövde. Och det spelar liksom ingen roll vem som hittade guld, för alla måste ju ha de där grejerna",
+      "summary": "Sälj verktyg till guldletarna (picks and shovels) - alla köpare oavsett vem som vinner",
+      "category": "philosophy",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "01:03:21",
+      "confidence": "high",
+      "tags": [
+        "picks-and-shovels",
+        "evolution",
+        "leverantör"
+      ]
+    },
+    {
+      "quote": "Det är fyra olika saker där digitala affärsmodeller är en av de saker som jag tycker man ska hålla väldigt mycket ögonen på idag och det här årtiondet för jag tror att det kommer inte att förändras någonting",
+      "summary": "Digitala affärsmodeller är en av fyra nyckelattribut att fokusera på detta årtionde",
+      "category": "philosophy",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "59:26",
+      "confidence": "high",
+      "tags": [
+        "digitala-affärsmodeller",
+        "framtidsutsikter"
+      ]
+    },
+    {
+      "quote": "Att det här med återkommande intäkter. Det är ganska självklart. Men det är en fantastisk grej som till exempel är för Evolution. Att de har sina kunder väldigt säker intjäning och de får ju betalt på provision från spelarna",
+      "summary": "Återkommande intäkter skapar stabilitet och förutsägbarhet",
+      "category": "philosophy",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "01:01:24",
+      "confidence": "high",
+      "tags": [
+        "återkommande-intäkter",
+        "subscription",
+        "stabilitet"
+      ]
+    },
+    {
+      "quote": "Vi gör alla fel, vi hoppar på felhäst och så där. Men lyckas man och jag ska säga att jag satt ju inte hela vägen ner på något sätt i Leo och det var ju min räddning egentligen att jag hoppade av. Det blev dyrt men det blev inget katastrofalt",
+      "summary": "Viktigt att känna igen misstag och hoppa av innan det blir katastrofalt",
+      "category": "lesson",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "01:08:45",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "cut-losses",
+        "leo-vegas"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Magnus Andersson diskuterar sin fokuserade investeringsstil med tre stora innehav (Evolution, LVMH, Netflix) som har levererat starkt sedan coronakraschen. Han betonar vikten av tålamod, att förstå affärsmodeller djupt, och att våga ha koncentration i bolag man verkligen förstår och tror på. Boken \"Investera med rätt fokus\" innehåller 15 råd för att ta investeringen till nästa nivå, med fokus på digitala affärsmodeller, vallgravar, återkommande intäkter och picks-and-shovels-strategier.",
+  "key_takeaways": [
+    "Fokuserad portfölj med få bolag som man förstår djupt ger bäst resultat",
+    "Tålamod är en edge i kvartalstriven marknad",
+    "Höga värderingar kan försvaras av stark tillväxt och dominans",
+    "Digitala affärsmodeller med återkommande intäkter är särskilt attraktiva",
+    "Regleringar kan skapa vallgravar för dominanta företag",
+    "Viktigt att känna igen varningssignaler och hoppa av i tid (LeoVegas-exemplet)"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2021-11-18-ed28.txt",
+  "transcript_word_count": 11803,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

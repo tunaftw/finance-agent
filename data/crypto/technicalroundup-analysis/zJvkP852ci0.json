@@ -1,0 +1,104 @@
+{
+  "source_id": "zJvkP852ci0",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-02-06",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Bitcoin trading at monthly range high between 23-24K, showing signs of resistance with no clear breakout yet. Currently in consolidation phase.",
+      "quote": "we're still at this monthly Range High and there isn't a whole lot else to say... still signs of resistance at 23.3 23.4 K",
+      "price_levels": [
+        "$23.3-23.4K",
+        "$20K",
+        "$22K",
+        "$24.3K"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Ethereum similar to Bitcoin, stuck at monthly range high with spike above previous month's high. No clear rejection yet but not accepted above either.",
+      "quote": "as far as Eve goes honestly very similar... just stuck at monthly Range High with a spike above previous month's high as well",
+      "price_levels": [
+        "$1500"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SPX",
+      "asset_name": "S&P 500",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "S&P 500 lining up with high time frame resistance into monthly range high cluster at 4130s and weekly level at 4170s.",
+      "quote": "you have Bitcoin and eth at monthly resistance and no clear breakout yet we also have Legacy lining up with high time frame resistance SMP into this monthly sort of Range High cluster at 4130s",
+      "price_levels": [
+        "$4130s",
+        "$4170s"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "DXY",
+      "asset_name": "US Dollar Index",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Dollar showing evidence of bounce after spike above previous month's low, spending time within base between 104s and 101s.",
+      "quote": "some evidence of dollar bounce... looks like with a spike of previous month's low we finally had a reaction there",
+      "price_levels": [
+        "$104s",
+        "$101s"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "not_discussed",
+    "key_levels": {
+      "BTC": [
+        "$23.3-23.4K",
+        "$20K"
+      ],
+      "ETH": [
+        "$1500"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin and Ethereum are both stuck at monthly resistance levels with no clear breakout or reversal yet",
+    "20K is a critical must-hold level for Bitcoin; a break below would look concerning",
+    "Correlations with the dollar have been falling, offering visible balance for the first time in months",
+    "Legacy markets (S&P 500, NASDAQ) are also at high time frame resistance, creating confluence with crypto",
+    "Market is in choppy consolidation phase requiring patience before clearer directional moves emerge"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$20K or below with reclaim price action",
+      "target": "toward range midpoint and range high",
+      "stop": "below $20K",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "Bitcoin and Ethereum are stuck at monthly resistance levels with no clear breakout direction. Both are chopping at range highs - BTC around $23-24K with $20K as a critical support level, and ETH around $1.5K. Legacy markets including S&P 500 are also at resistance, creating market-wide confluence. The market is in a consolidation phase requiring patience before clearer directional moves emerge. Dollar correlations have weakened, offering some balance but the overall picture remains neutral.",
+  "transcript_word_count": 5898,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T03:17:13.357491"
+}

@@ -1,0 +1,458 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "montrosepodden-2025-07-10-f209",
+  "podcast_name": "Montrosepodden",
+  "episode_title": "#62 - NVIDIAs milstolpe, spaningar från fastighetssektorn och USA:s nya tullar",
+  "episode_number": 62,
+  "date": "2025-07-10",
+  "hosts": [
+    "Niklas",
+    "Viktor Irman"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Koppartullar",
+    "Epiroc ADR-listning",
+    "Nvidia",
+    "Fastighetssektorn",
+    "Hexatronic vinstvarning",
+    "Figma IPO"
+  ],
+  "stocks_discussed": [
+    "Epiroc",
+    "Nvidia",
+    "Fastighetsbolagen",
+    "Hexatronic",
+    "Figma",
+    "TSMC",
+    "AMD",
+    "Foxconn",
+    "Boliden",
+    "Lumina Minerals",
+    "Castellum",
+    "WK Kellogg"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Fastighetsbolagen",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Viktor Irman",
+      "speaker_role": "host",
+      "timestamp": "35:57",
+      "reasoning": "Fastighetsbolagen handlas till ordentliga rabatter efter tuffa år. Värderingarna är attraktiva på flera håll i sektorn. Med räntesänkningar gynnas finansieringsdelen eftersom fastighetsbolagen är högbelånade. Bolagen börjar vända operationellt enligt vd-ord. Begränsad nedsida och rätt bra risk-reward. Insynsköp i sektorn indikerar att insidertrader ser attraktiva värderingar. Om vinsterna fortsätter växa eller substansvärdena visa tillväxt finns uppsida.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Med det sagt så tycker jag ändå att värderingarna är attraktiva på flera håll i fastighetssektorn. Och fortsätter de växa vinsterna, eller till och med visa tillväxt i substansvärdena, så tror jag ändå att det finns rätt bra uppsida på flera håll. I alla fall begränsad nedsida, vilket då minner ut i bra risk-reward-ärar.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Begränsad nedsida",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hexatronic",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "55:09",
+      "reasoning": "Hexatronic gav en vinstvarning med besvikelse i Fibers Solutions. Aktien ner 86,5% från all time high. Hög blankning på 12,9% (högst på Stockholmsbörsen). Före detta vd sålde aktier. Marknaden oroar sig för tappade marknadsandelar. Däremot var det riktigt hög tillväxt inom datacentern med högre marginal. Om de fortsätter växa där kan marginalen öka. När alla skriker sälj och ingen vill röra bolaget med tång, ser det inte jättedyrt ut om det inte klappar ihop fullständigt. Kontrarianskt case men eländigt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Och på något sätt, när ingen ens vill röra bordaget med tång, alla skriker sälj, man pratar om just den här blankningstatistiken, man pratar om den här tidigare vd som säljer, ja men då blir man lite lite sugen. Men lite ändå, för på något sätt, det ser i alla fall inte nu jättedyrt ut, om det då inte fullständigt klappar ihop härifrån, men gör inte det, ja det finns kanske någonting att vara lite kontrarian och kolla på.",
+      "sector": "Teknisk infrastruktur",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Risk att det klappar ihop helt",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Epiroc",
+      "ticker": null,
+      "timestamp_start": "06:42",
+      "timestamp_end": "12:00",
+      "word_count": 500,
+      "speakers": [
+        "Niklas",
+        "Viktor Irman",
+        "Karin Larsson (IR-chef)"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Epiroc får koppartailwinds genom Trumps 50% tullar på koppar med start första augusti. Epiroc har stor exponering mot koppar som är den viktigaste mineralen för deras orderingång och topline. USA är deras näst största marknad. De har utfärdat sponsrade ADR-er nivå 1 i USA för att öka tillgången för globala investerare som inte kan handla i svenska kronor. IR-chef Karin Larsson förklarar att detta kan bidra till högre värdering och likviditet i USA.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "De har ju en hyfsad exponering mot koppar. Det är den mineralen som är absolut viktigast för deras topline, för deras orderingång. Och dessutom är USA den näst största marknaden.",
+          "timestamp": "06:57",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Karin Larsson",
+          "text": "Vissa investerare, till exempel amerikanare, vissa japanare, kanadensare, atroaliensare, de vill gärna köpa aktier i Epiroc men idag kan de inte göra det för de kan inte handla i svenska kronor.",
+          "timestamp": "09:05",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Karin Larsson",
+          "text": "Sen naturligtvis, det här är kanske lite mer opportunistiskt, men i USA är ju generellt värderingen högre och det är lite högre likviditet. Skulle vi kunna bidra med det här till aktien så finns det såklart en positiv effekt för Epiroc också.",
+          "timestamp": "10:42",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Koppartullar kan driva efterfrågan på utrustning",
+          "ADR-listning i USA kan öka värdering och likviditet",
+          "Nådde OMXS30 vid halvårsskiftet",
+          "Global bolag med intjäning över hela världen"
+        ],
+        "bear_case": [
+          "Kopparprisrörelser påverkar inte nödvändigtvis bolagsaktien",
+          "Marknaden har reagerat svagt på kopparuppgången",
+          "ADR-listing kräver inte extra rapportering men är opportunistiskt"
+        ],
+        "catalysts": [
+          "50% tullar på koppar från första augusti",
+          "Ökad tillgång för amerikanska investerare via ADR",
+          "Potentiellt högre värdering i USA-marknaden"
+        ],
+        "risks": [
+          "Kopparpriset kan backa",
+          "Marknadens koppling till kopparpris kan vara svag"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": null,
+      "timestamp_start": "18:55",
+      "timestamp_end": "30:12",
+      "word_count": 1500,
+      "speakers": [
+        "Niklas",
+        "Viktor Irman"
+      ],
+      "primary_speaker": "Niklas",
+      "discussion_summary": "Nvidia har nått 4 000 miljarder dollar i börsvärde, första bolaget någonsin. Utgör 7,5% av S&P 500. Upp närmare 100% från botten 7-8 april. Jensen Huang sa i början av 2023 att detta är 'the iPhone moment of artificial intelligence' och aktien har stigit 1 000% sedan dess. Revenuemixen har förändrats drastiskt: gaming ner från 53% till 8,7%, datacenter upp från 25% till 88%. Årsavkastning: 2019: +76%, 2020: +122%, 2021: +125%, 2022: -50%, 2023: +239%, 2024: +171%, 2025: +6%. Infrastrukturboomen pågår men nu kanske vi ser applikationsboomen.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Nvidia har nått ett börsvärde på 4 000 miljarder dollar. För protokollet får jag väl säga, 4 biljoner dollar då.",
+          "timestamp": "18:55",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Utgör 7,5 % av S&P 500 just nu och åker upp närmare 100 % sen årslägsta.",
+          "timestamp": "18:59",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Jensen Huang som är medgrundare och vd till det här bolaget som grundades 1993 sa ju de bevingade orden, det här är if you will this is the iPhone moment of artificial intelligence.",
+          "timestamp": "24:18",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Det är en tusen procent reda, det är alltså en ten-bagger sen han sade om bevingade orden.",
+          "timestamp": "25:19",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "2019 utgjorde gaming 53 procent av topline av intäkterna och datacenter där vi hittar mycket AI idag utgjorde 25 procent. Idag utgör gaming 8,7 procent, det vill säga då från 53 procent av topline av revenue mix eller intäktsmixen ner till 8,7. Och datacenter har gått från 25 procent till 88.",
+          "timestamp": "25:30",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "market_cap": "4 000 miljarder USD",
+        "custom": [
+          "7,5% av S&P 500",
+          "Gaming: 8,7% av topline (down från 53%)",
+          "Datacenter: 88% av topline (up från 25%)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "iPhone moment för AI",
+          "Infrastrukturboomen pågår, kan vara kvar i 5 år",
+          "Applikationsboom kan komma efter infrastruktur",
+          "Sovereign AI-trend där länder vill ha AI-redness",
+          "Ukraina-fronten är AI-fierad och visar praktiska användningsområden"
+        ],
+        "bear_case": [
+          "Börsvärde på 4 biljoner dollar är extremt",
+          "Många känner att tåget har gått",
+          "Valuation kan vara stretched"
+        ],
+        "catalysts": [
+          "AI-agenter",
+          "Nya användningsområden",
+          "Datacenter måste bli AI-ready globalt"
+        ],
+        "risks": [
+          "Hög värdering",
+          "Marknad kan ta hem vinster"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Fastighetsbolagen",
+      "ticker": null,
+      "timestamp_start": "35:05",
+      "timestamp_end": "48:08",
+      "word_count": 1300,
+      "speakers": [
+        "Niklas",
+        "Viktor Irman",
+        "Annika Ohnäs (vd Atrium Ljungberg)"
+      ],
+      "primary_speaker": "Viktor Irman",
+      "discussion_summary": "Fastighetsbolagen har rapporterat tidigt i denna rapportsäsong. Kontor verkar ha det tufft med ökande vakanser. Platser kom med fin rapport och ökat förvaltningsresultat men vakansvärden uppgick till 209 miljoner kronor. Värderingarna är attraktiva på flera håll. Insynsköp har gjorts i nästan valfritt fastighetsbolag under våren. Wallenstam rapporterar inga vakanser i bostäder, strategi om 'läge, läge, läge'. Atrium Ljungbergs vd ser att hushållen hålls tillbaka men förväntar sig konsumtionsåterhämtning tack vare ökade realinkomster och lägre finansieringskostnader.",
+      "quotes": [
+        {
+          "speaker": "Viktor Irman",
+          "text": "Kontor verkar ha det tufft, vakansgraden ökar faktiskt på flera håll, platser var ett exempel",
+          "timestamp": "35:39",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Viktor Irman",
+          "text": "Men med det sagt så tycker jag ändå att värderingarna är attraktiva på flera håll i fastighetssektorn. Och fortsätter de växa vinsterna, eller till och med visa tillväxt i substansvärdena, så tror jag ändå att det finns rätt bra uppsida på flera håll. I alla fall begränsad nedsida.",
+          "timestamp": "35:57",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Viktor Irman",
+          "text": "Vi såg ju faktiskt insynsköp i nästan valfritt fastighetsbolag under våren, vilket på något sätt måste tolkas som någon form av signal att man tycker nuvarande värderingar är attraktiva",
+          "timestamp": "37:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Hans Wallenstam",
+          "text": "Efterfrågan på våra bostäder är fortsatt stark, vi har inga vakanser alls. Det märks att vår strategi om läge, läge, läge ger effekt.",
+          "timestamp": "38:10",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Annika Ohnäs",
+          "text": "Hushållens konsumtionsvilja och företagens investeringslust hålls tillbaka. Och ännu ser vi inga tydliga tecken på en vändning. Eftersom hushållens sparande är högt och de reala disponibla inkomsterna ökar snabbt i år, förväntas hushållens konsumtion bli den främsta drivkraften bakom återhämtningen.",
+          "timestamp": "45:34",
+          "context": "catalyst"
+        }
+      ],
+      "financial_metrics": {
+        "custom": [
+          "Vakansvärden Platser: 209 miljoner SEK",
+          "Fastighetsbolagen ner ca 45% från toppen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Attraktiva värderingar på flera håll",
+          "Insynsköp indikerar insidertrader ser värde",
+          "Räntesänkningar gynnar finansieringsdelen",
+          "Operationell del börjar vända",
+          "Hushållen har ökade realinkomster",
+          "Finansieringskostnader ner kraftigt"
+        ],
+        "bear_case": [
+          "Kontor har tufft med ökande vakanser",
+          "Vakanser kostar pengar (209 miljoner för Platser)",
+          "Marknadsfinansiering har varit svår, men nu lossnar",
+          "Transaktionsmarknad har varit svag"
+        ],
+        "catalysts": [
+          "Räntesänkningar",
+          "Hushållens konsumtionsåterhämtning",
+          "Transaktionsmarknad lossnar",
+          "Operationell vändning"
+        ],
+        "risks": [
+          "Kontorsektorn kan fortsätta vara tuff",
+          "Vakanser ökar ytterligare"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Hexatronic",
+      "ticker": null,
+      "timestamp_start": "52:20",
+      "timestamp_end": "57:45",
+      "word_count": 800,
+      "speakers": [
+        "Niklas",
+        "Viktor Irman"
+      ],
+      "primary_speaker": "Viktor Irman",
+      "discussion_summary": "Hexatronic kom med en vinstvarning söndag innan börsen öppnade. Affärsområdet Fibers Solutions blev en besvikelse med lägre topline och lägre resultat. Aktien ner 86,5% från all time high, men upp 117% på fem år (15% årlig). Marknadsdata hade pekat på tillväxt för fiberoptiska kablar i Nordamerika och Europa, så vinstvarningen tolkas som oro för tappade marknadsandelar. Högsta blankningen på Stockholmsbörsen: 12,9%. Före detta vd sålde aktier. Däremot var det riktigt hög tillväxt inom datacentern med högre marginal. DTC (days to cover) är hög.",
+      "quotes": [
+        {
+          "speaker": "Niklas",
+          "text": "Hexatronic. Det här bolaget som har haft det rejält tufft. Vi ska komma ihåg att det här är ett bolag som för ett antal år sedan bjöd på fyra omvända vinstvarningar på lika många kvartal uppenbarligen under ett och samma år.",
+          "timestamp": "52:20",
+          "context": "other"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Affärsområdet Fibers Solutions blev en besvikelse. Lägre topline, lägre resultat. Aktien ner 86,5% sen all time high. Paradoxalt nog så är de upp 117% på fem år. Det är över 15% skagger.",
+          "timestamp": "52:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Viktor Irman",
+          "text": "Det här är faktiskt nästan roligt, men 12,9 procent. Det är högt. Det är alltså den mest blankad aktien på Stockholmsbörsen just nu.",
+          "timestamp": "53:48",
+          "context": "metric"
+        },
+        {
+          "speaker": "Viktor Irman",
+          "text": "Men, däremot tycker jag ändå att man ska nämna här, visserligen från låga nivåer, men det var faktiskt riktigt hög tillväxt inom det här segmentet, datacenter. Och marginalen i det segmentet är dessutom högre, så om de skulle fortsätta växa där, så skulle ju faktiskt hexakartalen kunna öka sin marginal framåt.",
+          "timestamp": "54:15",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "custom": [
+          "Aktie ner 86,5% från ATH",
+          "Upp 117% på 5 år (15% årlig)",
+          "Blankning: 12,9% (högst på börsen)"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Riktigt hög tillväxt i datacentern med högre marginal",
+          "Kontrarianskt case när alla skriker sälj",
+          "Upp 117% på 5 år trots nedgången från ATH"
+        ],
+        "bear_case": [
+          "Vinstvarning med besvikelse i Fibers Solutions",
+          "Lägre topline och resultat",
+          "Marknadsdata pekat på tillväxt så tolkas som tappade marknadsandelar",
+          "Hög blankning på 12,9%",
+          "Före detta vd sålde aktier"
+        ],
+        "catalysts": [
+          "Datacentersegmentet fortsätter växa med högre marginal"
+        ],
+        "risks": [
+          "Tappade marknadsandelar",
+          "Kan klappa ihop helt",
+          "High short interest indicates skepticism"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "När det går upp alldeles för mycket och gärna alldeles för snabbt så tycker jag att det blir lite jobbigt för då vet jag att det bygger fallhöjd. Det blir någon form av mean reversion i slutändan ändå. Att man faller tillbaka till någon form av långsiktig trend, lunk uppåt.",
+      "summary": "Snabb uppgång bygger fallhöjd genom mean reversion",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "16:27",
+      "confidence": "high",
+      "tags": [
+        "mean reversion",
+        "fallhöjd",
+        "marknadspsykologi"
+      ]
+    },
+    {
+      "quote": "Jag gillar att bada i skiten som jag brukar uttrycka det. Men alltså när det går upp alldeles för mycket och gärna alldeles för snabbt så tycker jag att det blir lite jobbigt",
+      "summary": "Föredrar att investera när marknaden är nere i skiten",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "17:37",
+      "confidence": "high",
+      "tags": [
+        "konträr",
+        "köp i nedgång",
+        "marknadspsykologi"
+      ]
+    },
+    {
+      "quote": "Jag tror att det är lönsamt att göra sin hemläxa och det gäller allt här i livet. Det gäller även när man letar nya pärlor till portföljen.",
+      "summary": "Vikten av noggrann forskning innan investering",
+      "category": "philosophy",
+      "speaker": "Viktor Irman",
+      "speaker_role": "host",
+      "timestamp": "43:45",
+      "confidence": "medium",
+      "tags": [
+        "forskning",
+        "hemläxa",
+        "due diligence"
+      ]
+    },
+    {
+      "quote": "Man måste försöka läsa bortom rubriker. För jag gillar alltid när det kommer en siffra och så som man är bra eller dålig så vill jag veta, liksom inte headline, inte det som matas ut direkt, utan vad är the true story om man börjar gräva lite grann.",
+      "summary": "Läs bortom rubriker för att förstå den sanna historien bakom siffror",
+      "category": "wisdom",
+      "speaker": "Viktor Irman",
+      "speaker_role": "host",
+      "timestamp": "43:18",
+      "confidence": "medium",
+      "tags": [
+        "analys",
+        "rubriker",
+        "djupdykning"
+      ]
+    },
+    {
+      "quote": "En stor del av mitt kapital har jag byggt när börsen har brunnit. Det har varit finanskris, från lite längre kriser till när det bara brann lite snabbt och det var lite brexit och det har varit lite kinafråss och allt möjligt sånt där och corona-crash och så. Men då har bra affärer verkligen gjorts.",
+      "summary": "Bra affärer görs när marknaden bränner",
+      "category": "lesson",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "17:27",
+      "confidence": "high",
+      "tags": [
+        "kris",
+        "börsnedgång",
+        "uppköpsmöjligheter"
+      ]
+    },
+    {
+      "quote": "Men när ingen vill röra sig med tång, då får man försöka kolla. Till slut tar säljandet slut.",
+      "summary": "Konträr investering när ingen vill röra aktien",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "56:50",
+      "confidence": "high",
+      "tags": [
+        "konträr",
+        "blankning",
+        "säljtryck"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar Trumps nya tullar på koppar och dess potentiella effekter, med Epiroc som möjlig vinnare genom sin kopparexponering och kommande ADR-listning i USA. Nvidia analyseras efter att nått 4 biljoner dollar i börsvärde, med dramatisk omsättningsskiftning från gaming till datacenter. Fastighetssektorn belyses med attraktiva värderingar och insynsköp, trots tufft klimat för kontor. Hexatronic gav vinstvarning men presenteras som ett kontrarianskt case med hög blankning.",
+  "key_takeaways": [
+    "Epiroc får koppartailwinds och listar ADR i USA för ökad tillgång",
+    "Nvidias drastiska omsättningsskiftning från gaming till datacenter (53% → 8,7% vs 25% → 88%)",
+    "Fastighetssektorn har attraktiva värderingar och insynsköp indikerar potential",
+    "Hexatronic har hög blankning (12,9%) men datacentertillväxt med högre marginaler",
+    "Marknaden har rosa glasögon och tolkar allt positivt, men snabba uppgångar bygger fallhöjd"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/montrosepodden/transcripts/montrosepodden-2025-07-10-f209.txt",
+  "transcript_word_count": 10489,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

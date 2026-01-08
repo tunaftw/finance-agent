@@ -1,0 +1,275 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "bullochbjorn-2025-09-25-b38d",
+  "podcast_name": "Bullenbjörn",
+  "episode_title": "20. Fastighetsspecial",
+  "episode_number": 20,
+  "date": "2025-09-25",
+  "hosts": ["Host 1", "Victor"],
+  "guests": [],
+  "main_topics": ["Fastighetsaktier", "Yield spread", "Leverage", "Kassaflödesanalys", "Ränterisk"],
+  "stocks_discussed": ["Sagax", "SBB", "Fastighetsbolaget i Emilshus", "Castellum", "Hufvudstaden", "Tu Balder"],
+  "recommendations": [
+    {
+      "stock_name": "Sagax",
+      "ticker": "SAGA-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[40:15]",
+      "reasoning": "Kvalitetsfastighetsbolag med stark kassaflödesfokus, låg belåning (~40-50%), utmärkt räntehedging (lån bundna över 10-årsperiod), och goda operativa skalfördelar. Bolaget har historiskt levererat 15% avkastning på eget kapital genom 7% direktavkastning, 50% belåning, hyreshöjningar på 3-4% och skalfördelar. Handlas för närvarande under substansvärde enligt talaren. Risk: Låg räntepositiv pågrund av väldigt låga yielder. Inte för tillväxtorienterade investerare.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Så är det det du är ute efter, så tycker jag att de här tre, fyra bolagen ser väldigt attraktiva ut nu. Men du kommer aldrig kunna få någon monster tillväxt i de här.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "SBB (Samhällsbyggnadsbolaget)",
+      "ticker": "SBB-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[24:02]",
+      "reasoning": "Negativt exempel på aggressiv fastighetsstrategi som misslyckades när räntorna steg. Högt leverage (~50-60%), mycket låga yielder (3-4%) med korta bindningstider (3-4 år snitt) trots långa utvalskontrakt (10-15 år). Yield spread försvann när räntorna steg 2021-2022, vilket ledde till att substansvärdet kraschade (~40% ner vid 20% prisnedgång på fastigheter). Tvingas nu sälja av tillgångar, pausa utdelning, och har negativ spiral. Låg kontroll på kvalitet, för hög tempo i förvärv.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Från några år gick till att hyllas som en trygg folkaktie med stabila kassaflöden till att bli ett bolag i kris. Just nu handlas det om till tvåsiffrig substansrabatt och har väldigt pressad finansiering.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Substansvärde kan försvinna om fastighetspriserna går ner",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Fastighetsbolaget i Emilshus",
+      "ticker": "EMIL-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[20:55]",
+      "reasoning": "Beskrivs som väldigt liknande Sagax i struktur och strategi. Klarar ha lite mer leverage än Sagax då de är mindre. Kategoriserad tillsammans med Sagax och Tu Balder som kvalitetsbolag som värderas högst i sektorn men fortfarande kan vara undervärderade.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men jag tycker ju personligen att de bolag som ingår i den koncernen, dvs MP3-fastigheter, fastighetsbolaget i Emilshus, de är ju väldigt lika Sagax.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Sagax",
+      "ticker": "SAGA-B",
+      "timestamp_start": "[05:50]",
+      "timestamp_end": "[17:20]",
+      "word_count": 1200,
+      "speakers": ["Host 1", "Victor"],
+      "primary_speaker": "Host 1",
+      "discussion_summary": "Sagax beskrivs som ett exemplariskt fastighetsbolag med fokus på kassaflöde och långsiktig värdeskapande. Bolaget använder leverage strategiskt med ca 7% direktavkastning, 50% belåning, och bibehåller konstant yield spread på ~4%. De har bundit sina obligationer jämnt över en 10-årsperiod vilket skyddar dem mot räntehöjningar. Deras finansiella mål är 15% avkastning på eget kapital som de historiskt levererat genom skalfördelar och förädling av fastigheter. Talaren argumenterar att bolaget bör värderas högt pga stabilt kassaflöde och att aktiekursen på lång sikt följer företagets verkliga värde när de återinvesterar kassaflödet till 15% ROE.",
+      "quotes": [
+        {
+          "speaker": "Host 1",
+          "text": "Så det är inte en slump att deras finansiella mål är just 15% avkastning på eget kapital över tid och att de har då en belåningsgrad på 50%. 15% return on equity, alltså avkastning på eget kapital då, transformeras sedan till 15% i förvaltningsresultatsstillväxt över tid.",
+          "timestamp": "[08:20]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Det här blir då väldigt intressant för bolag som bara har en yield omkring 4 %. Om räntan då är 4 % då ginnas ju inte de alls av att ta på sig ytterligare leverage eftersom att 4 minus 4 är 0 då.",
+          "timestamp": "[04:30]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Så formen blir då egentligen yield plus belåningsgrad gång spread för att beräkna avkastningen då på eget kapital.",
+          "timestamp": "[06:45]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Här har jag ett citat från Charlie Munger och han säger att på lång sikt så kommer aktiekursen att följa företagets verkliga värde. De växer ungefär i takt med företagets avkastning på investerat kapital, förutsatt att företaget också återinvesterar vinsterna till den avkastningen.",
+          "timestamp": "[08:50]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 1",
+          "text": "Så återigen då så tycker jag att Sagax är ett väldigt bra exempel, för de har bundit alla sina bonds jämnt över en tioårsperiod. Så när räntorna gick upp här för typ två år sedan, så drabbas de inte lika mycket som många andra fastighetsbolag gjorde vid den tidsperioden.",
+          "timestamp": "[20:10]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "~7% direktavkastning",
+        "dividend_yield": null,
+        "revenue_growth": "3-4% hyreshöjningar",
+        "margin": null,
+        "debt_level": "50% belåning",
+        "custom": ["15% ROE mål", "4% yield spread", "10-års obligationer bundna jämnt"]
+      },
+      "thesis": {
+        "bull_case": ["Långsiktig värdeskapning genom återinvestering till 15% ROE", "Skydd mot räntehöjningar via 10-års bond-hedging", "Stabila kassaflöden möjliggör hög värdering (upp till 25x kassaflöde)", "Skalfördelar och förädling av fastigheter", "Konstant yield spread på ~4%"],
+        "bear_case": ["Låg direktavkastning (7%) ger begränsad räntepositiv", "Är moget bolag med begränsad organisk tillväxt", "Hela fastighetssektorn handlas i grupp, drabbas av sektor-sentiment"],
+        "catalysts": ["Räntesänkningar ökar kassaflödet och förvaltningsresultatet", "Fortsatt effektivitet i förvaltning och förädling"],
+        "risks": ["Om yield spread krymper drastiskt", "Om fastighetsvärdena faller kraftigt trots låg belåning"]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "SBB (Samhällsbyggnadsbolaget)",
+      "ticker": "SBB-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[24:02]",
+      "reasoning": "Negativt exempel på aggressiv fastighetsstrategi som misslyckades när räntorna steg. Högt leverage (~50-60%), mycket låga yielder (3-4%) med korta bindningstider (3-4 år snitt) trots långa utvalskontrakt (10-15 år). Yield spread försvann när räntorna steg 2021-2022, vilket ledde till att substansvärdet kraschade (~40% ner vid 20% prisnedgång på fastigheter). Tvingas nu sälja av tillgångar, pausa utdelning, och har negativ spiral. Låg kontroll på kvalitet, för hög tempo i förvärv.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Från några år gick till att hyllas som en trygg folkaktie med stabila kassaflöden till att bli ett bolag i kris. Just nu handlas det om till tvåsiffrig substansrabatt och har väldigt pressad finansiering.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Substansvärde kan försvinna om fastighetspriserna går ner",
+      "catalyst_timing": null
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Yield eller direktavkastning är kortfattat fastighetsens driftnetto. Det är det operativa kassaflödet från fastigheten innan finansieringskostnader och overhead-kostnader delat med fastighetens värde.",
+      "summary": "Direktavkastning är en proxy för fastighetsrisk och avgörande för yield spread",
+      "category": "philosophy",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[03:30]",
+      "confidence": "high",
+      "tags": ["direktavkastning", "yield", "fastigheter"]
+    },
+    {
+      "quote": "Om vi tar fastighetens yield minus finansieringskostnad så vet vi hur mycket extra avkastning vi kommer att få på den belånade delen. Det här blir då väldigt intressant för bolag som bara har en yield omkring 4 %. Om räntan då är 4 % då ginnas ju inte de alls av att ta på sig ytterligare leverage eftersom att 4 minus 4 är 0 då.",
+      "summary": "Yield spread (yield minus räntekostnad) är kritiskt för fastighetsbolag med leverage",
+      "category": "philosophy",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[04:30]",
+      "confidence": "high",
+      "tags": ["yield spread", "leverage", "finansiering"]
+    },
+    {
+      "quote": "Här har jag ett citat från Charlie Munger och han säger att på lång sikt så kommer aktiekursen att följa företagets verkliga värde. De växer ungefär i takt med företagets avkastning på investerat kapital, förutsatt att företaget också återinvesterar vinsterna till den avkastningen. Och det här är ju inte bara sant för fastigheter, utan för alla bolag.",
+      "summary": "Aktiekursen följer företagets ROE på lång sikt när kassaflöde återinvesteras",
+      "category": "philosophy",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[08:50]",
+      "confidence": "high",
+      "tags": ["Munger", "ROE", "aktiekurs", "lång sikt"]
+    },
+    {
+      "quote": "Jag har ju alltid haft en devis att utdelande bolag är döende bolag. Vad jag menar med det är ju att de ofta är på ganska mogna marknader. Så de kan inte återinvestera sitt kassaflöde för att tillväxtmöjligheterna inom det de nu gör är inte så attraktiv.",
+      "summary": "Hög utdelning signalerar att bolaget inte kan återinvestera kassaflöde till attraktiv ROE",
+      "category": "philosophy",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[10:55]",
+      "confidence": "medium",
+      "tags": ["utdelning", "tillväxt", "maturitet"]
+    },
+    {
+      "quote": "Alla bolag borde egentligen göra det som genererar mest avkastning vid tidpunkten. Ett bolag kan ju praktiskt dela ut pengarna, återinvestera dem, köpa andra bolag som förvärvar då eller återinvestera i verksamheten.",
+      "summary": "Kassaflöde ska allokeras till alternativet med högst avkastning",
+      "category": "philosophy",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[11:47]",
+      "confidence": "high",
+      "tags": ["allokering", "kassaflöde", "kapital"]
+    },
+    {
+      "quote": "Så ja, det var det jag ville säga. Att de bästa bolagen gjorde, inklusive serieförvärvarna, är att de förstått de här bitarna och gör det i långsam takt. De gör inga nyemissioner utan gör bara förvärv med sitt kassaflöde och lite leverage.",
+      "summary": "De bästa bolagen växer långsamt med kassaflöde istället för nyemissioner",
+      "category": "philosophy",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[23:54]",
+      "confidence": "high",
+      "tags": ["långsam tillväxt", "kassaflöde", "förvärv"]
+    },
+    {
+      "quote": "Om du har en fastighet som är värd ungefär 10 miljoner kronor och har intäkter på den på 700 000, det vill säga en yieldå på 7 %. Om du har helt finansierat fastigheten med eget kapital, då blir avkastningen på eget kapital helt enkelt 7 %. Om du nu belånar fastigheten till hälften, då blir avkastningen på eget kapital dubbelt så stor, det vill säga 14 % givet ett scenarii där du har 0 % i räntekostnad.",
+      "summary": "Exempel på hur leverage kan fördubbla avkastningen på eget kapital",
+      "category": "lesson",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[04:00]",
+      "confidence": "high",
+      "tags": ["leverage", "exempel", "avkastning"]
+    },
+    {
+      "quote": "Med ett bolag som har 50-60 procents belåning... och om då marknaden tycker att fastighetsbestånden är värde 20 procent mindre, och du har 50 procent belåning, då tappar du 40 procent i ditt substansvärde.",
+      "summary": "Leverage skapar hävstång i båda riktningar vid förändringar i fastighetsvärden",
+      "category": "lesson",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[27:20]",
+      "confidence": "high",
+      "tags": ["leverage", "substansvärde", "risk"]
+    },
+    {
+      "quote": "Så när räntorna gick upp här för typ två år sedan, så drabbas de inte lika mycket som många andra fastighetsbolag gjorde vid den tidsperioden. Så det tar liksom många många år innan räntorna får genomslag i förvaltningsresultatet och kassaflödet.",
+      "summary": "Lång räntebindning skyddar mot räntehöjningar men ger långsamma effekter",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[20:10]",
+      "confidence": "high",
+      "tags": ["räntehedging", "lång sikt", "stabilitet"]
+    },
+    {
+      "quote": "Och det är därför de bästa bolagen har lyckats så bra för att de har lyckats kombinera de två sakerna tillsammans. Det är därför de bästa bolagen har lyckats så bra för att de har lyckats kombinera de två sakerna tillsammans.",
+      "summary": "Kombination av hög yield och stark finansieringsstruktur skapar framgång",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[36:54]",
+      "confidence": "medium",
+      "tags": ["framgångsfaktorer", "yield", "finansiering"]
+    },
+    {
+      "quote": "Stabiliteten i kassaflöden bör reflekteras i risken. Fastigheter har väldigt stabila kassaflöden och då blir också risken väldigt låg. I slutändan då den implikita multiplen i DCF ganska hög om du samtidigt har hög tillväxt i kassaflödet.",
+      "summary": "Stabila kassaflöden motiverar höga multiplar i värderingen",
+      "category": "wisdom",
+      "speaker": "Host 1",
+      "speaker_role": "host",
+      "timestamp": "[14:50]",
+      "confidence": "medium",
+      "tags": ["kassaflöde", "värdering", "risk"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet är en teoridriven genomgång av hur fastighetsbolag genererar avkastning genom yield spread och leverage. Sagax presenteras som ett positivt exempel på väldrivet fastighetsbolag med stark kassaflödesfokus och utmärkt räntehedging. SBB används som varnande exempel på vad som händer när en aggressiv fastighetsstrategi med hög leverage och låga yielder möter stigande räntor - yield spreaden försvinner, substansvärdet kraschar, och bolag hamnar i negativ spiral. Talaren rekommenderar att fokusera på kassaflödesdrivna bolag och förstå finansieringsstrukturen innan man investerar.",
+  "key_takeaways": [
+    "Yield spread (direktavkastning minus räntekostnad) är avgörande för lönsamhet i belånade fastighetsbolag",
+    "Långsiktig räntebindning (som Sagax's 10-års bonds) skyddar mot räntehöjningar",
+    "Fastighetsaktier bör värderas på kassaflöde, inte substansvärde, för kassaflödesfokuserade bolag",
+    "Hög leverage skapar hävstångseffekt i båda riktningar - både uppåt och neråt",
+    "De bästa fastighetsbolagen växer långsamt med kassaflöde istället för nyemissioner",
+    "SBB exemplifierar risken med aggressiv expansion, kort räntebindning, och låg yield när räntorna stiger"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/bullochbjorn/transcripts/bullochbjorn-2025-09-25-b38d.txt",
+  "transcript_word_count": 6770,
+  "has_timestamps": true,
+  "model_used": "manual"
+}

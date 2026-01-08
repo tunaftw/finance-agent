@@ -1,0 +1,733 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "analyspodden-2021-09-03-a27a",
+  "podcast_name": "Pencilpodden (Analyspodden)",
+  "episode_title": "Avsnitt 135: Fredagspodden",
+  "episode_number": 135,
+  "date": "2021-09-03",
+  "hosts": [
+    "Daniel Ljungström"
+  ],
+  "guests": [
+    "Ludwig",
+    "Claes Palin",
+    "Peter",
+    "Richard",
+    "Marcus",
+    "Hjalmar"
+  ],
+  "main_topics": [
+    "Biotech-sektorn",
+    "Värdering i lågräntemiljö",
+    "Förvärvsdrivna bolag",
+    "Bolagsdags-presentationer"
+  ],
+  "stocks_discussed": [
+    "Kaliditas",
+    "Iconovo",
+    "Initiator Pharma",
+    "Karolinska Development",
+    "Immunovia",
+    "Guard Therapeutics",
+    "Angler Gaming",
+    "Mentis",
+    "ESMG",
+    "Bejer Group",
+    "Bergman & Beving",
+    "Instalco",
+    "Beijer Alma",
+    "Opticept"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Kaliditas",
+      "ticker": "KALID",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Ludwig",
+      "speaker_role": "guest",
+      "timestamp": "01:10",
+      "reasoning": "Biotech-bolag med läkemedelskandidaten Nefecon för IGA-nefrit. FDA-beslut väntas 15 september med 95% sannolikhet för godkännande. Vid godkännande ser vi att aktien kan dubblas inom tolv månader. Motiverat värde 260-270 kr. Risk asymmetrisk: 5% negativt scenario ger större nedgång än uppåt vid positivt utfall.",
+      "price_target": "260-270",
+      "time_horizon": "12 månader",
+      "quote": "Det är ett accessbolag. Vi har ett motiverat värde på 260-270 kronor och jag äger aktier här. Vi ser ju då 95% sannolikhet för godkännande här. Och vid godkännande och positiv försäljningsutveckling så ser vi att aktien kommer stå minst det dubbla inom tolv månader.",
+      "sector": "Healthcare/Biotech",
+      "market": "sweden",
+      "position_context": "Äger aktier",
+      "downside_note": "Nedgång vid negativt FDA-beslut",
+      "catalyst_timing": "FDA-besked 2021-09-15"
+    },
+    {
+      "stock_name": "Iconovo",
+      "ticker": "ICO",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Claes Palin",
+      "speaker_role": "guest",
+      "timestamp": "13:35",
+      "reasoning": "Inhalatorbolag med gedigen erfarenhet från Astra-folk. Mål: 200 MSEK omsättning och 100 MSEK vinst 2026. Market cap 700 MSEK, vilket indikerar uppsida om målen nås. Licensieringsmodell minskar risk.",
+      "price_target": null,
+      "time_horizon": "2026",
+      "quote": "Det där tycker jag känns som ett bolag man ska titta på och ha under bevakning. Nu har ju aktien gått väldigt starkt men som sagt om man är intresserad av investerare över en par år så tror jag det finns en intressant uppsida.",
+      "sector": "Healthcare/Medtech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Initiator Pharma",
+      "ticker": "INIP",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Claes Palin",
+      "speaker_role": "guest",
+      "timestamp": "14:27",
+      "reasoning": "Läkemedelsutveckling inom erektildysfunktion och ansiktssmärta. Slimmad organisation med låga kostnader. Fas 2B-studie startar H2 2021, data slutet 2022. 19% sannolikhet framgångligt enligt Claes. Flera triggers kommande år.",
+      "price_target": null,
+      "time_horizon": "Ett år",
+      "quote": "Men man har många trigger som kommer komma till bolaget här närmaste året så jag tycker det är ett spännande bolag trots att aktien gått ganska starkt och nu närmar sig mitt motiverade värde som jag har för stunden.",
+      "sector": "Healthcare/Biotech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Hög projektisk, 81% risk för misslyckande",
+      "catalyst_timing": "Fas 2B-data slutet 2022"
+    },
+    {
+      "stock_name": "Karolinska Development",
+      "ticker": "KDEV",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Peter",
+      "speaker_role": "guest",
+      "timestamp": "19:14",
+      "reasoning": "Turnaround-situation med nytt management under Victor Dvort sedan fem år. Portföljbolag börjar leverera: Dilla Får (obstetrik) och Umeå Crime (encefalopati) har visat positiva fas 2-data i blockbuster-områden. Fortfarande klart undervärderat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Karolinska Development är ett jätteintressant bolag. Om man nu ska prata slarv i finanssvengelska i en turnaround-situation skulle jag vilja påstå. Tittar man på det så är det fortfarande i mina ögon klart undervärderade aktier.",
+      "sector": "Healthcare/Biotech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Immunovia",
+      "ticker": "IMNO",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Peter",
+      "speaker_role": "guest",
+      "timestamp": "22:34",
+      "reasoning": "Blodtest för tidig upptäckt av bukspottkörtelcancer. Prisbild satt till $995/test mot $6-7k för alternativ. Inga utvecklingsrisker, bara marknadsrisk. Tre patientgrupper: genetisk predisposition (400k i USA), ärftlighet, och nydebuterad typ 2-diabetes. Starkt vetenskapligt råd.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Immunovia har fått klart vad prisbilden ska ta. De ska ta 995 dollar per test. Det är då ett enkelt blodtest, blodprov. Det som gör det här riktigt intressant är att man plockar ut de patienter som finns i risk. Så det ser verkligen ljust ut.",
+      "sector": "Healthcare/Diagnostics",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Marknadsrisk (inte utvecklingsrisk)",
+      "catalyst_timing": "Lansering pågår"
+    },
+    {
+      "stock_name": "Guard Therapeutics",
+      "ticker": "GRD",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Peter",
+      "speaker_role": "guest",
+      "timestamp": "33:37",
+      "reasoning": "Biotech-bolag med förväntat fas 1B-data i september. Om positiva kan bolaget starta fas 2-studie innan årsskiftet. Europeiskt patenta nyligen beviljat (förväntat). Akt rusade på patentnyheten.",
+      "price_target": null,
+      "time_horizon": "Nästa halvår",
+      "quote": "Det är definitivt dator. Kaliditas beskedet är ju den stora. Sen har vi även från Kantarga kan vi få komma besked kring en konkurrerande produkt som är viktigt för deras kurs. Sen har vi ju klart Oncopeptide som är i hetluften.",
+      "sector": "Healthcare/Biotech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Fas 1B-data september 2021"
+    },
+    {
+      "stock_name": "Mentis",
+      "ticker": "MNTS",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Richard",
+      "speaker_role": "guest",
+      "timestamp": "41:20",
+      "reasoning": "Medicinsk simulering för endovaskulär kirurgi. Samarbeten med Philips och Siemens som säljer ~2000 Cath Labs/år. Mentis säljer ~200 system idag, potential 400 (20% penetration). Surgical Science har 70% penetration hos sina kunder. Motiverat värde 334-336 kr mot nuvarande ~160 kr.",
+      "price_target": "334-336",
+      "time_horizon": null,
+      "quote": "Jag äger aktier och senast vi skrev och publicerade någonting om bolaget var den 23 juli. Mentis har gjort det, de har utvecklat en simuleringsmjukvara som kan säljas tillsammans med de här. I våra estimat så räknar vi att någonstans mellan kring 20 procent av de här systemen kommer att säljas med Menteis mjukvara.",
+      "sector": "Healthcare/Medtech",
+      "market": "sweden",
+      "position_context": "Äger aktier",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Bergman & Beving",
+      "ticker": "BERG",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Marcus",
+      "speaker_role": "guest",
+      "timestamp": "49:24",
+      "reasoning": "Ny vd från Lagercrantz, ansvarig för M&A i 14 år. Värdering 15x EBIT nästa år vs 30x för traditionella förvärvsbolag. Momentum i affären väldigt god, 50-50 industri/bygg. God potential för M&A-acceleration och marginalförbättring.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Känns som att värderingen inte är ansträngt, på samma sätt som vi ser i många andra bolag. 15 gånger ebit på nästa år. Då ska vi jämföra det med de traditionella förvärvsbolagen som handlas på upp mot 30 gånger ebit. Det är lite gammeldagsvärdering, rimlig värdering.",
+      "sector": "Industri/Verktyg",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Instalco",
+      "ticker": "INST",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Marcus",
+      "speaker_role": "guest",
+      "timestamp": "54:59",
+      "reasoning": "Förvärvsdriven, starkt momentum med högkvalitativa bolag i pipeline. Tillagde 10 bolag i Q2, 1 i Q3. Bygger konsultverksamhet vilket stärker marginaler. Ny vd Robin som varit med sedan starten. Handlas nära 30x EBIT men med tillväxt. Definitivt köp på dip.",
+      "price_target": "5,35-5,37",
+      "time_horizon": null,
+      "quote": "Det här är ett av de bolag som faller in i det som vi pratar om tidigare. Du handlas nästan på 30 gånger ebit på nästa års vinst. Men som sagt, gott momentum och definitivt något som man åtminstone ska köpa på dip.",
+      "sector": "Industri/Installationer",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Beijer Alma",
+      "ticker": "BEIJ",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Hjalmar",
+      "speaker_role": "guest",
+      "timestamp": "57:53",
+      "reasoning": "Q2: 37% organisk tillväxt, rörelsemarginal 16%. Steppat upp förvärvstakten, köpt Alkomex. Förvärvsjusterad EV/EBIT 2023 på 35x jämfört med 17x nu (50% rabatt till jämförbara förvärvsbolag). Höjt motiverat värde till 250-255 kr. Stark integration av förvärven.",
+      "price_target": "250-255",
+      "time_horizon": "2023",
+      "quote": "Det vi kommer fram till är att vi tycker Beijer Alma ska ha en 50%-rabatt. Då landar vi på en multipel på 2023 på 17x. Det här motsvarar då ett motiverat värde av 250 till 255. Det var dit vi höjde då vårt motiverade värde i den senaste rabatten.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Sektorexponering med cyklikalitet",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Opticept",
+      "ticker": "OPTI",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Hjalmar",
+      "speaker_role": "guest",
+      "timestamp": "01:05:07",
+      "reasoning": "System för behandling av livsmedel och växter. Förlänger hållbarhet för snittblommor, ökar utfall hos olivodlare. Covid-förseningar men ingen tappad potential. Fyra intäktsben: Opticept, Optimus, Youseft (havredryck med Oatly-referens), Domain La Palmen-avtal ger referenser och snabbare försäljning. Motiverat värde bibehålls 136-138 kr trots förseningar.",
+      "price_target": "136-138",
+      "time_horizon": null,
+      "quote": "Jag äger aktier i det här bolaget. Vi minskar diskonteringsräntan. Därför bibehåller vi riktkursen på 136-138 där den har legat sedan tidigare. Så att kommersialiseringen förskjuts lite på framtiden men bolaget ligger själva kvar då med sina försäljningsestimat för 2021-2022 som är 45 maskiner.",
+      "sector": "Industri/Teknologi",
+      "market": "sweden",
+      "position_context": "Äger aktier",
+      "downside_note": "Försenad kommersialisering pga covid",
+      "catalyst_timing": "Höstens försäljning"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Kaliditas",
+      "ticker": "KALID",
+      "timestamp_start": "01:10",
+      "timestamp_end": "11:04",
+      "word_count": 1500,
+      "speakers": [
+        "Ludwig",
+        "Daniel Ljungström"
+      ],
+      "primary_speaker": "Ludwig",
+      "discussion_summary": "Ludvig initierar Kaliditas, ett biotech-bolag med läkemedelskandidaten Nefecon för behandling av IGA-nefrit. Bolaget väntar FDA-beslut senast 15 september. Ludwig bedömer 95% sannolikhet för godkännande baserat på stark fas 2-data, välkänd substans och Priority Review designation. Vid godkännande kan aktien dubblas inom 12 månader.",
+      "quotes": [
+        {
+          "speaker": "Ludwig",
+          "text": "Kaliditas har jag initierat på. Det är ett accessbolag. Vi har ett motiverat värde på 260-270 kronor och jag äger aktier här.",
+          "timestamp": "01:10",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Ludwig",
+          "text": "Ledande projektet Neffecon har enligt oss 95% sannolikhet att bli det första godkänna läkemedlet för nyhetssjukdomen IGA nefrit. Beslut för det här om man ska få marknadsgodkänna eller inte i USA, det väntas 15 september senast.",
+          "timestamp": "01:10",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Ludwig",
+          "text": "Men man ska ju vara medveten om att det kan gå fel, även om vi ser 95 procent. De här 5 procenten, då kommer det ju falla mer om det blir ett negativt påsked än går upp om det blir positivt.",
+          "timestamp": "02:33",
+          "context": "risk"
+        },
+        {
+          "speaker": "Ludwig",
+          "text": "Och vid godkännande och positiv försäljningsutveckling så ser vi att aktien kommer stå minst det dubbla inom tolv månader.",
+          "timestamp": "02:30",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Ludwig",
+          "text": "Det räcker med att man tar 20% av marknaden så når man ändå en blockbuster-försäljning på den här produkten.",
+          "timestamp": "08:37",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ludwig",
+          "text": "Man brukar säga runt 120-140 000 i USA och 200 000 i Europa. Och betydligt mer i Kina, där kan det vara upp till 2 miljarder i Kina.",
+          "timestamp": "09:29",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ludwig",
+          "text": "i det här skedet som man faktiskt är i, när man har lönat in ansökan, då om man kollar empiriskt på de historiska sannolikheterna för läkemedel i den här fasen, då är det ju mellan 85 och 90%",
+          "timestamp": "06:01",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ludwig",
+          "text": "Men vi tycker just att det är motiverat att ha en liten premie på dem här i Kaliditas fall, för att man har väldigt bra data, man har välkommuniserade endpoints. Buddhistonin är en väldigt känd substans",
+          "timestamp": "06:01",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "95% godkännandesannolikhet",
+          "20% marknadsandel för blockbuster"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Första läkemedlet på marknaden för IGA-nefrit",
+          "95% sannolikhet för FDA-godkännande",
+          "Blockbuster-potential med 20% marknadsandel",
+          "Priority Review från FDA"
+        ],
+        "bear_case": [
+          "FDA kan kräva ytterligare data (tvåårig neurofunktion)",
+          "5% risk för avslag",
+          "Negativ kursreaktion vid CRL"
+        ],
+        "catalysts": [
+          "FDA-besked 2021-09-15",
+          "Lansering USA Q4 2021",
+          "Lansering EU Q1 2022"
+        ],
+        "risks": [
+          "Regulatorisk risk",
+          "Clinical risk om studier inte bekräftar effekten",
+          "Konkurrens från andra projekt i fas 3"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Beijer Alma",
+      "ticker": "BEIJ",
+      "timestamp_start": "57:53",
+      "timestamp_end": "01:04:55",
+      "word_count": 800,
+      "speakers": [
+        "Hjalmar",
+        "Daniel Ljungström"
+      ],
+      "primary_speaker": "Hjalmar",
+      "discussion_summary": "Hjalmar presenterar Beijer Alma som ett förvärvsdrivet bolag med starkt momentum. Q2 visade 37% organisk tillväxt driven av Lechefors (+61%). Hjalmar argumenterar att bolaget är kraftigt undervärderat: förvärvsjusterad EV/EBIT på 17x 2023 jämfört med 35x för jämförbara bolag, en rabatt på 50%. Bolaget steppat upp förvärvstakten och integrerar förvärven väl.",
+      "quotes": [
+        {
+          "speaker": "Hjalmar",
+          "text": "Men om jag ska gå tillbaka till den här fina rapporten de släppte. De växte 37 procent organiskt. Kom in på 1336 miljoner. Starkt bidragande var Lechefors. De växte 61 procent organiskt.",
+          "timestamp": "58:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Hjalmar",
+          "text": "Och marginalen på koncernnivå kommer in på strax under 16 procent.",
+          "timestamp": "58:10",
+          "context": "metric"
+        },
+        {
+          "speaker": "Hjalmar",
+          "text": "Och det vi tycker är intressant, dels i rapporten men också en utveckling som vi har sett under sommaren, är att Beyer Alma har steppat upp förvärvstakten. Bland annat så köpte man Alkomex",
+          "timestamp": "58:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Hjalmar",
+          "text": "Men för att backa man bandet lite och kollar egentligen snittet från år 2000 fram till 2018, så låg den snittförvärvade tillväxten per år på ungefär 100 miljoner.",
+          "timestamp": "58:35",
+          "context": "metric"
+        },
+        {
+          "speaker": "Hjalmar",
+          "text": "Och Beijer Alma har väl någonstans en 50% i rabatter ungefär om man blickar på ev-ebit 2023.",
+          "timestamp": "01:00:30",
+          "context": "metric"
+        },
+        {
+          "speaker": "Hjalmar",
+          "text": "Så fick vi någonstans en förvärvsjusterad multipel och snittet ligger kring 35x på 2023.",
+          "timestamp": "01:02:58",
+          "context": "metric"
+        },
+        {
+          "speaker": "Hjalmar",
+          "text": "Om jag ska landa i slutklämmen här, så det vi kommer fram till är att vi tycker Beijer Alma ska ha en 50%-rabatt. Då landar vi på en multipel på 2023 på 17x. Det här motsvarar då ett motiverat värde av 250 till 255.",
+          "timestamp": "01:03:54",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Hjalmar",
+          "text": "Dels så finns det ju en sektorexponering. Beijer Alma har ju viss cyklikalitet i sin exponering. Det finns en exponering mot allmän industri.",
+          "timestamp": "01:04:02",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Hjalmar",
+          "text": "Sen så tror jag att en stor rabatt ligger i att man inte riktigt prisat in det här som ett förvärvande bolag.",
+          "timestamp": "01:04:02",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": "17x (förvärvsjusterad 2023)",
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "37% organiskt Q2",
+        "margin": "16% rörelsemarginal",
+        "debt_level": null,
+        "custom": [
+          "Lechefors +61% organisk tillväxt",
+          "50% rabatt till peers",
+          "35x jämförelse-multipel för förvärvsbolag"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "37% organisk tillväxt Q2",
+          "Steppat upp förvärvstakten",
+          "Bra integration av förvärven",
+          "Alkomex-köpet diversifierar kundbasen",
+          "Kraftigt rabatterad värdering"
+        ],
+        "bear_case": [
+          "Sektorexponering med cyklikalitet",
+          "Marknad prisar inte in förvärvskapacitet",
+          "Risk att integration av framtida förvärsv misslyckas"
+        ],
+        "catalysts": [
+          "Fortsatta förvärv",
+          "Värderingsomvärdering",
+          "Q3-rapport"
+        ],
+        "risks": [
+          "Cyklisk efterfrågan",
+          "Integration risk vid expansion"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Angler Gaming",
+      "ticker": "ANGL",
+      "timestamp_start": "35:55",
+      "timestamp_end": "41:19",
+      "word_count": 600,
+      "speakers": [
+        "Richard",
+        "Daniel Ljungström"
+      ],
+      "primary_speaker": "Richard",
+      "discussion_summary": "Richard diskuterar Angler Gaming som drabbats av en kraftig vinstvarning under sommaren. Bruttomarginalen pressades av bonusprogram och affiliates. Aktien halverats från 40 kr till 16 kr. Richard har sänkt motiverat värde från ~35 kr till 22-23 kr men anser marknadsreaktionen varit överdriven. Bolaget lanserar sportbok för att diversifiera.",
+      "quotes": [
+        {
+          "speaker": "Richard",
+          "text": "Här släppte vi en rapport senast den 23 augusti. Angler har varit ett bolag som vi har pratat ganska mycket om i den här podden. Det är en så kallad speloperatör. Man sätter till hand och håller kasinolösningar för konsumenter.",
+          "timestamp": "35:55",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Richard",
+          "text": "De började nu i sommaren med en kraftig vinstvarning. Där man sa att man såg betydligt lägre både omsättning och framförallt lönsamhet än väntat.",
+          "timestamp": "36:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Den här vinstvarningen berodde på att bruttemangralen pressades av bonusprogram och olika former av affiliatlösningar.",
+          "timestamp": "36:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Daniel Ljungström",
+          "text": "Det här är en aktie som handlades i nästan 40 kronor i våras. Kom med en Q1-rapport som väckte en del frågetecken. Och så kom man då med en varning inför UQ2-an som också var lite negativ.",
+          "timestamp": "36:43",
+          "context": "metric"
+        },
+        {
+          "speaker": "Richard",
+          "text": "det man kan ha haft lite problem under Q2.",
+          "timestamp": "39:02",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Ja, det handlar om några procentenheter.",
+          "timestamp": "40:34",
+          "context": "metric"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Och aktiekursen är ner 50 procent.",
+          "timestamp": "40:40",
+          "context": "metric"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Och det säger vårt motverade värde, jag tror att vi sänkte det från innan vinstvarningen så var det någonstans i mitt kring 35 kronor. Jag är inte helt ut och cyklar och nu är det nere på 22-23. Det är inte en halvering vi har prononcerat in där.",
+          "timestamp": "40:40",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Pressad bruttomarginal",
+        "debt_level": null,
+        "custom": [
+          "Aktiekurs ner 50%",
+          "Motiverat värde 22-23 kr vs 35 kr tidigare",
+          "Före vinstvarning: 40 kr"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Vinstvarning reagerat överdrivet",
+          "Nya affärer med sportbok lanseras",
+          "Bruttomarginalen ser botten"
+        ],
+        "bear_case": [
+          "Affiliate-kostnader ökade under fotbolls-EM",
+          "Marknadsföringskoncepten fungerar inte längre",
+          "Kunder flyttade till sportbokssajter"
+        ],
+        "catalysts": [
+          "Q3-rapport",
+          "Stabilisering av bruttomarginalen"
+        ],
+        "risks": [
+          "Affiliate-kostnader kan fortsätta pressa",
+          "Konkurrens intensifieras"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Mentis",
+      "ticker": "MNTS",
+      "timestamp_start": "41:20",
+      "timestamp_end": "44:06",
+      "word_count": 500,
+      "speakers": [
+        "Richard",
+        "Daniel Ljungström"
+      ],
+      "primary_speaker": "Richard",
+      "discussion_summary": "Richard presenterar Mentis som ett medicinsk simuleringsbolag inom endovaskulär kirurgi. Bolaget samarbetar med Philips och Siemens som säljer ~2000 Cath Labs/år. Mentis säljer ~200 system idag. Richard uppskattar potential för 20% penetration (400 system). Surgical Science har 70% penetration hos sina kunder. Motiverat värde 334-336 kr mot ~160 kr nuvarande.",
+      "quotes": [
+        {
+          "speaker": "Richard",
+          "text": "Jag äger aktier och senast vi skrev och publicerade någonting om bolaget var den 23 juli. Och anledningen att jag vill bara snabbt beröra Memphis, det har man pratat om en del, det är ett bolag inom medicinsk simulering",
+          "timestamp": "41:20",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Det som vi har belyst här i podden, också vi pratade mycket om på den här presentationen, det är att man samarbetar med de större medicinska bolagen Philips och Siemens.",
+          "timestamp": "42:00",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Richard",
+          "text": "De här bolagen säljer utvecklingskallade Caff Labs, det är ett system man använder för olika former av sig, Rönken, när man förbereder den här, Rönken och Emerson när man förbereder den här typen av ingrepp.",
+          "timestamp": "42:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Richard",
+          "text": "så säljs det ungefär 2000 Caff Labs årligt. Jag bedömer att Menteis säljer någonstans kring 200 system, plus minus en del.",
+          "timestamp": "42:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Här i våra estimat så räknar vi att någonstans mellan kring 20 procent av de här systemen kommer att säljas med Menteis mjukvara i slutet av prognosperiod. Det skulle då motsvara 400 system om man idag säljer kanske 200.",
+          "timestamp": "42:45",
+          "context": "metric"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Surgical Science, ett annat medicinska bolag i isolering, när deras kunder säljer varor, säljer sina system, så 70 procent säljer med simuleringssystem.",
+          "timestamp": "43:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Richard",
+          "text": "Memphis är ett accessbolag. Aktien står i 160 kronor och vi ser ett fortifierat värde på 334-336 kronor.",
+          "timestamp": "41:20",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "~200 system sålda idag",
+          "Potential 400 system (20% penetration)",
+          "2000 Cath Labs marknad",
+          "Surgical Science 70% penetration jämförelse"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Samarbeten med Philips och Siemens",
+          "Marknadspotential 400 system vs 200 idag",
+          "20% penetration realistiskt baserat på Surgical Science",
+          "Motiverat värde 334-336 kr vs 160 kr nuvarande"
+        ],
+        "bear_case": [
+          "Konkurrens från andra simuleringslösningar",
+          "Långsammare adoption än förväntat",
+          "Beroende av Philips/Siemens distributionskanaler"
+        ],
+        "catalysts": [
+          "Ökat antal Cath Labs",
+          "Konsolidering i branschen",
+          "Referenskund-case"
+        ],
+        "risks": [
+          "Teknisk utveckling kan göra mjukvara föråldrad",
+          "Lång försäljningscykel i sjukvård"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "i det här skedet som man faktiskt är i, när man har lönat in ansökan, då om man kollar empiriskt på de historiska sannolikheterna för läkemedel i den här fasen, då är det ju mellan 85 och 90% ungefär, beroende på vilken studie och terapiområde. Men vi tycker just att det är motiverat att ha en liten premie på dem här i Kaliditas fall, för att man har väldigt bra data",
+      "summary": "Empiriskt: läkemedelskandidater vid FDA-submission fas har 85-90% sannolikhet för godkännande. Kaliditas har starkare data än genomsnittet vilket motiverar en premie till 95%.",
+      "category": "wisdom",
+      "speaker": "Ludwig",
+      "speaker_role": "guest",
+      "timestamp": "06:01",
+      "confidence": "high",
+      "tags": [
+        "biotech",
+        "FDA",
+        "sannolikhet",
+        "risk"
+      ]
+    },
+    {
+      "quote": "Nu för tiden tittar man på andra siffror. Säger jag. Ja, eller något. Jag tror att vi kommer att ha ett tillfälle att komma tillbaka till värderingsdiskussionen i den här podden också under hösten. För multiplarna är ju uppskuvade.",
+      "summary": "Traditionella värderingsmultiplar är historiskt höga, vilket skapar intressanta lägen i bolag med låg värdering men starkt momentum.",
+      "category": "wisdom",
+      "speaker": "Marcus",
+      "speaker_role": "guest",
+      "timestamp": "51:29",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "multipel",
+        "multipler"
+      ]
+    },
+    {
+      "quote": "För som gammal teoretiker då, där man fortfarande hade näsan i böckerna, så värderar man ju med hänvisning till, eller hänstintagen till räntor och annat. Och det gör ju att, vad ska man säga, den här 15 gångers värderingen är ju kanske rimlig vid en ränta på 3 procent, eller vad det nu kan vara för någonting. Men om du sätter räntan till noll eller minus, då kan värderingen bli oändlig.",
+      "summary": "Teoretisk värdering baseras på räntor. Vid 3% ränta är 15x P/E rimligt, men vid noll eller negativ ränta kan värderingen bli oändligt hög.",
+      "category": "philosophy",
+      "speaker": "Daniel Ljungström",
+      "speaker_role": "host",
+      "timestamp": "52:08",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "ränta",
+        "teori",
+        "prissättning"
+      ]
+    },
+    {
+      "quote": "Jag har inget belägg för det, men jag har känsla av att med tusen noterade bolag så hamnar vissa bolag mer i fokus än andra bolag, och hamnar du inte i det fokuset så kommer det påverka intresset för din aktie.",
+      "summary": "Bland tusen noterade bolag hamnar vissa mer i fokus än andra. Om ett bolag inte får fokus påverkar det negativt intresset för aktien.",
+      "category": "wisdom",
+      "speaker": "Marcus",
+      "speaker_role": "guest",
+      "timestamp": "54:08",
+      "confidence": "medium",
+      "tags": [
+        "marknad",
+        "fokus",
+        "likviditet"
+      ]
+    },
+    {
+      "quote": "Det är en säsongsmässigt bra period vi går in i.",
+      "summary": "Biotechsektorn presterar ofta bra under sista delen av året och början på nytt år.",
+      "category": "wisdom",
+      "speaker": "Claes Palin",
+      "speaker_role": "guest",
+      "timestamp": "32:52",
+      "confidence": "medium",
+      "tags": [
+        "säsong",
+        "biotech",
+        "timing"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bullish",
+  "summary": "Analyspodden fokuserar på biotech- och industrisektorn med flera köprekommendationer. Biotech-bolag står inför kritiska FDA-beslut och fas 2-studier. Förvärvsdrivna bolag som Beijer Alma och Bergman & Beving värderas lågt jämfört med peers. Diskussion kring hur låga räntor påverkar värderingar och att vissa bolag får mer marknadsfokus än andra.",
+  "key_takeaways": [
+    "Biotech-sektorn har flera stora triggers kommande: Kaliditas FDA-besked 15 sept, fas 2B-data från Initiator Pharma, fas 1B-data från Guard Therapeutics",
+    "Förvärvsdrivna bolag (Beijer Alma, Bergman & Beving, Instalco) värderas betydligt lägre än traditionella förvärvsbolag, men har starkt momentum",
+    "Låga räntor gör att historiska värderingsmultipel är svåra att bedöma - 15x P/E kan vara rimligt men teoretiskt oändligt vid nollränta"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/analyspodden/transcripts/analyspodden-2021-09-03-a27a.txt",
+  "transcript_word_count": 11595,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "sparpodden-2018-04-25-5aa7",
+  "podcast_name": "Sparpodden",
+  "episode_title": "Varför faller en aktie på bra rapport?",
+  "episode_number": 233,
+  "date": "2018-04-25",
+  "hosts": [
+    "Jocke",
+    "Eva",
+    "Alex"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Rapportsäsong",
+    "Ericsson",
+    "Volvo",
+    "Börsrörelser",
+    "Riksbanken"
+  ],
+  "stocks_discussed": [
+    "Ericsson",
+    "Volvo",
+    "Amazon",
+    "Tesla",
+    "Caterpillar",
+    "Sandvik"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Volvo (AB Volvo)",
+      "ticker": "VOLV-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "09:47",
+      "reasoning": "Jocke äger Volvo och är positiv. Bolaget levererar ett av sina bästa kvartal någonsin med magisk försäljningsuppgång i construction equipment. Kina fortsätter ånga på med investeringar, USA likaså, Europa fortsätter jättestarkt. Samtliga bolag som är beroende av investeringar levererar bra rapporter.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nu vet ni att jag gillar Volvo. Jag äger Volvo och har pratat om det många gånger i Sparpodden, men det är helt otroligt. Kina fortsätter ånga på rätt bra med investeringar. USA likaså, Europa fortsätter jättestarkt.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": "Äger aktien",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Volvo (AB Volvo)",
+      "ticker": "VOLV-B",
+      "timestamp_start": "07:16",
+      "timestamp_end": "10:36",
+      "word_count": 800,
+      "speakers": [
+        "Jocke",
+        "Alex",
+        "Eva"
+      ],
+      "primary_speaker": "Jocke",
+      "discussion_summary": "Volvo levererar ett av sina bästa kvartal någonsin med fantastisk försäljningsuppgång, särskilt inom construction equipment. Trots detta faller aktien 3% på grund av marginalproblem inom lastbilarna orsakade av flaskhalsar i produktionen. Volvo kommer sannolikt inte nå målet på 10% marginal under året. Jocke äger Volvo och är positiv till bolaget.",
+      "quotes": [
+        {
+          "speaker": "Jocke",
+          "text": "Volvo kommer in med en av sina bästa, måske ett av sina bästa kvartal någonsin. I construction equipment där exploderar det fullkomligt. Men problemet är när man kollar på lastbilarna, så ser man marginalerna betydligt lägre.",
+          "timestamp": "07:29",
+          "context": "other"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Det är inte tillfälligt för det här kvartalet. Då får man ny information och det kommer att förändras på framtida vinst och då går aktien ner.",
+          "timestamp": "08:23",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Nu vet ni att jag gillar Volvo. Jag äger Volvo och har pratat om det många gånger i Sparpodden.",
+          "timestamp": "09:47",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Jocke",
+          "text": "Kina fortsätter ånga på rätt bra med investeringar. USA likaså, Europa fortsätter jättestarkt. Sandvik kommer också in bra, Caterpillar i USA kommer in bra.",
+          "timestamp": "09:55",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Hög",
+        "margin": "Under 10% målet, problem i lastbilar",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Fantastisk försäljningsuppgång i construction equipment",
+          "Kina fortsätter investera kraftigt",
+          "USA och Europa fortsätter starkt",
+          "Alla investeringsberoende bolag levererar bra rapporter"
+        ],
+        "bear_case": [
+          "Marginalproblem i lastbilar",
+          "Flaskhalsar i produktionen",
+          "Kommer sannolikt inte nå 10% marginalmål under året"
+        ],
+        "catalysts": [
+          "Framtida investeringar i Kina, USA, Europa"
+        ],
+        "risks": [
+          "Produktionsflaskhalsar",
+          "Marginalpress i lastbilar"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man måste komma ihåg att när det faller uppkommer det i fina köptillfällen. På lång sikt kan det vara ganska fin avkastning som väntar.",
+      "summary": "När börsen faller uppstår köptillfällen som kan ge bra avkastning på lång sikt.",
+      "category": "wisdom",
+      "speaker": "Alex",
+      "speaker_role": "host",
+      "timestamp": "01:07",
+      "confidence": "high",
+      "tags": [
+        "köptillfällen",
+        "långsiktighet",
+        "marknadstopp"
+      ]
+    },
+    {
+      "quote": "Det som marknaden värderar aktien till är ju framtida vinster. I det här fallet visar sig att marginalerna var dåliga och de kommer att fortsätta att vara det. Det var inte tillfälligt. Då får man ny information och det kommer att förändras på framtida vinst och då går aktien ner.",
+      "summary": "Aktier värderas på framtida vinster, inte historiska. Nya negativa informationer kan få aktier att falla trots bra rapporter.",
+      "category": "wisdom",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "08:15",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "framtida vinster",
+        "rapportsäsong"
+      ]
+    },
+    {
+      "quote": "Om du ändå ska spara nu på lång sikt, fem, tio år, att Volvo föll 3% i en piss i Mississippi. I det långa långt. Så är det förstås.",
+      "summary": "För långsiktiga sparare är kortsiktiga kursrörelser mindre viktiga.",
+      "category": "philosophy",
+      "speaker": "Eva",
+      "speaker_role": "host",
+      "timestamp": "10:37",
+      "confidence": "medium",
+      "tags": [
+        "långsiktighet",
+        "kursrörelser"
+      ]
+    },
+    {
+      "quote": "Det är inte sänkningen som gör att investeringarna kommer igång. Det är kostnaden för att finansiera som gör att du investerar.",
+      "summary": "Det är inte räntesänkningar som driver investeringar, utan den absoluta kostnaden för finansiering.",
+      "category": "wisdom",
+      "speaker": "Jocke",
+      "speaker_role": "host",
+      "timestamp": "15:32",
+      "confidence": "high",
+      "tags": [
+        "räntor",
+        "investeringar",
+        "ekonomisk teori"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar rapportsäsongen med fokus på Ericsson och Volvo. Ericsson levererar positivt men Jocke är försiktig på grund av höga förväntningar. Volvo levererar ett fantastiskt kvartal men aktien faller på grund av marginalproblem. Avsnittet förklarar också varför aktier kan falla trots bra rapporter och diskuterar volatilitet, övervärdering och Riksbankens räntebesked.",
+  "key_takeaways": [
+    "Ericsson visar positiva tecken men har höga förväntningar",
+    "Volvo levererar starkt men har marginalproblem i lastbilar",
+    "Aktier faller på framtida vinstförväntningar, inte historiska resultat",
+    "Övervärderad har blivit normal på börsen",
+    "Långsiktiga sparare bör inte stressas av kortsiktiga kursfall"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/sparpodden/transcripts/sparpodden-2018-04-25-5aa7.txt",
+  "transcript_word_count": 5091,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,463 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2021-12-02-847d",
+  "podcast_name": "Market Makers",
+  "episode_title": "*fixat ljud* #208 Investera i Kina med Nordic Asia",
+  "episode_number": 208,
+  "date": "2021-12-02",
+  "hosts": ["Fabian", "Johan"],
+  "guests": ["Ine Ingvang"],
+  "main_topics": [
+    "Investeringar i Kina",
+    "Nordic Asia Investment Group",
+    "5G-teknologi",
+    "Handelsplattformar",
+    "Lokala varumärken i Kina",
+    "Politiska risker i Kina",
+    "Kina-USA relationer"
+  ],
+  "stocks_discussed": [
+    "Alibaba",
+    "Tencent",
+    "JD.com",
+    "Sunway Communications",
+    "Eptolink",
+    "Enta Sport (ANTA)",
+    "Pinduoduo",
+    "Medicanatamin"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "JD.com",
+      "ticker": "9618.HK",
+      "timestamp_start": "26:00",
+      "timestamp_end": "29:00",
+      "word_count": 450,
+      "speakers": ["Ine Ingvang"],
+      "primary_speaker": "Ine Ingvang",
+      "discussion_summary": "Nordic Asia äger JD.com och ser det som en starkare e-handelsaktie än Alibaba. JD äger lager och distribution hela vägen till kund, har mer än 300,000 anställda, 1200 varuhus och >90% av produkterna kan levereras samma dag. JD har ökat antalet aktiva användare från 400 miljoner till 530 miljoner genom integration med Tencent/WeChat. Modell påminner mer om Amazon än Alibabas plattformsmodell.",
+      "quotes": [
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Men för att gd.com så fall så äger man lager själv och man äger också diskussionen. Det är hela värdekedjan ut till kund. I den fall så har man mer än 300 000 anställda, 1200 varuhus och mer än 90 % av produkterna kan man få samma dag än en stund.",
+          "timestamp": "26:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Och en av de drivaren för det, det är ju för att de har blivit nu direkt integrerade i Tencent. Så Tencent äger ju cirka 17 % av gd.com just nu. Men det som har möjliggjorts är att i WeChat direkt så finns det en shoppingfunktion.",
+          "timestamp": "27:00",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Så just nu ska vi säga att gd.com har en starkare affärsmodell, men även att man har egentligen fått upp kundanskaffningarna som har varit väldigt svårt för dem.",
+          "timestamp": "27:20",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Aktiva användare: 530M", "Anställda: 300,000", "Varuhus: 1200", "Tencent äger: 17%"]
+      },
+      "thesis": {
+        "bull_case": [
+          "Äger hela värdekedjan till kund (liknande Amazon-modell)",
+          "Integrerad med Tencent/WeChat ger tillgång till 530M användare",
+          "Mer än 90% leverans samma dag",
+          "Stark logistik och kundtjänst",
+          "Kan öka marknadsandelar från Alibaba"
+        ],
+        "bear_case": [
+          "Tar lång tid (1-2 år) för nya kunder att bli lönsamma",
+          "Konkurrens från Alibaba och Pinduoduo"
+        ],
+        "catalysts": [
+          "Ökad penetrering i T3/T4 städer genom WeChat-integration",
+          "Nya kunder utvecklas till mer mogna, högre-spend kunder över tid"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Alibaba",
+      "ticker": "9988.HK",
+      "timestamp_start": "14:45",
+      "timestamp_end": "26:00",
+      "word_count": 800,
+      "speakers": ["Ine Ingvang", "Fabian"],
+      "primary_speaker": "Ine Ingvang",
+      "discussion_summary": "Diskussion om Alibabas utmaningar: regulatorisk risk på grund av antitrustöverträdelser (krävde exklusivitet från handlare), ökad konkurrens från Pinduoduo och Tencent, sjunkande take rates för första gången historiskt. Nordic Asia ser mer risk i Alibabas plattformsmodell jämfört med JD.com. Bolaget har >900M aktiva användare men tillväxten bromsar.",
+      "quotes": [
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Då hade Alibaba en sån här klasshuvud där de sa att du som är handlare, du får bara välja en plattform att sälja dina produkter på. Om du väljer en annan plattform så styrker vi trafiken för dig.",
+          "timestamp": "19:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Och en väldigt viktig del där, speciellt på bottom line, de kom under förväntan var att deras take rates, det vill säga Alibabas inkörning beror ju på GNV och take rates, det vill säga hur mycket de tar av försäljningskronan. Den gick ner för första gången som vi har sett då.",
+          "timestamp": "24:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Men just i det här kvartalet så gick den där take rate ner. Anledningen till att den gick ner är för att det har blivit mycket mer konkurrensutsats.",
+          "timestamp": "24:15",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "I Tencent fall har de ju byggt upp ett ekostema av miniprogram som just nu är gratis för många säljare. Därmed måste Alibaba lite mer sänka sina priser för att behålla sin kund.",
+          "timestamp": "24:40",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Aktiva användare: 900M+", "Take rate: sjunkande för första gången"]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Antitrustreglering pga tvingat exklusivitetskrav från handlare",
+          "Ökad konkurrens från Pinduoduo och Tencent med miniprogram som är gratis",
+          "Take rate sjönk för första gången historiskt Q3",
+          "Press på marginaler kan fortsätta",
+          "Tillväxttak nådd med >900M användare"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Fortsatt regulatorisk risk",
+          "Marginalpress pga prisutslagning",
+          "Marknadsandelstapp till konkurrenter"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Sunway Communications",
+      "ticker": null,
+      "timestamp_start": "30:00",
+      "timestamp_end": "35:00",
+      "word_count": 400,
+      "speakers": ["Ine Ingvang"],
+      "primary_speaker": "Ine Ingvang",
+      "discussion_summary": "Sunway Communications är ledande tillverkare av LCP-antenner för 5G i Kina. Varje 5G-telefon behöver fler antenner och LCP-antenner har högre värde. Marknaden växer i takt med 5G-utbyggnad (mål 90% täckning, från 1M till 15M master). Fler devices kopplas upp (klockor, bilar, etc.) vilket driver efterfrågan.",
+      "quotes": [
+        {
+          "speaker": "Ine Ingvang",
+          "text": "I 5G-sektorn är det en väldigt tydlig policy. I dagsläget har man byggt ut en miljon 5G-master. Men tanken är att längre sist ska man täcka mer än 90 % av Kina med 5G-teknik. Då ska man utöka antalet 5G-master från 1-15 miljoner.",
+          "timestamp": "30:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Där äger vi till exempel bolag som gör både hårdvarorna, dvs smartphone och smarta klockor och så vidare, men även mycket av de underlömtörer till den här värdekedjan.",
+          "timestamp": "30:45",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Där finns det ett kinesiskt bolag som heter Sunway Communications, som är den ledande avtöranden av LCP-attender i Kina mot 5G-sektorn.",
+          "timestamp": "31:10",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Så det är ett sånt här bolag som vi äger, som heter Sound Recommunication, som just gör de här 5G-attenderna.",
+          "timestamp": "32:00",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["5G-master: 1M → 15M", "Täckningsmål: 90%", "Position: Ledande LCP-antennleverantör i Kina"]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kina ska bygga ut från 1M till 15M 5G-master",
+          "Mål: 90% täckning av Kina med 5G",
+          "Ledande på LCP-antenner som är framtida standard",
+          "Varje 5G-telefon behöver fler antenner",
+          "LCP-antenner har högre värde",
+          "Fler uppkopplade devices (klockor, bilar, etc.) driver efterfrågan"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "5G-utbyggnad accelererar",
+          "Ökat antal uppkopplade devices",
+          "Teknikskifte till LCP-antenner"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Eptolink",
+      "ticker": null,
+      "timestamp_start": "32:30",
+      "timestamp_end": "35:30",
+      "word_count": 350,
+      "speakers": ["Ine Ingvang"],
+      "primary_speaker": "Ine Ingvang",
+      "discussion_summary": "Eptolink tillverkar optiska transceivers för datacenters, ledande i Kina. Strukturellt skifte från 40Gbps till 100Gbps till 200Gbps när 5G och streaming ökar datamängderna. Bolaget växer nästan 70% med 25% marginal. Marknadspotential globalt i både väst och Kina.",
+      "quotes": [
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Sen har vi ett annat bolag i våra portfölj som också är lite av en sådan här underlövantör. Det heter Eptolink. En sån här företag, det de gör, de gör optiska transceivers för datacenters.",
+          "timestamp": "32:30",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Och de här optisk-conceivers går nu från cirka 40 Gbps till 100 Gbps och sedan från 100 Gbps till 200 Gbps. Så där kommer det finnas ett strukturellt skifte och ett behov av att man uppgraderar just de här optisk-conceivers.",
+          "timestamp": "33:10",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Och i det marknaden då äger vi ett bolag som heter Eptolink som just är Kinas ledande arbiträr av just de här optisk-conceivers. Och ett bolag som växer nästan 70% och känner 25% marginal.",
+          "timestamp": "33:30",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "70%",
+        "margin": "25%",
+        "debt_level": null,
+        "custom": ["Marknadsvärde: ~2 miljarder USD", "Teknik-uppgradering: 40G → 100G → 200G"]
+      },
+      "thesis": {
+        "bull_case": [
+          "Strukturellt skifte i datacenter: 40G → 100G → 200G",
+          "Kinas ledande leverantör av optiska transceivers",
+          "Växer nästan 70%",
+          "25% marginal",
+          "5G och streaming ökar datamängderna dramatiskt",
+          "Global efterfrågan, inte bara Kina"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "5G-utbyggnad driver datacenter-investeringar",
+          "Streaming av spel och video ökar",
+          "Teknikuppgraderingar till högre hastigheter"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Enta Sport (ANTA)",
+      "ticker": "2020.HK",
+      "timestamp_start": "35:55",
+      "timestamp_end": "40:10",
+      "word_count": 400,
+      "speakers": ["Ine Ingvang"],
+      "primary_speaker": "Ine Ingvang",
+      "discussion_summary": "Enta Sport är lokalt kinesiskt sportvarumärke, #3 i Kina med nästan 15% marknadsandel (Nike och Adidas har ~20% var). Äger Fila-rättigheter i Kina och förvärvade Amer Sports (Peak, Performance, Salomon, Wilson, etc.). Inför vinter-OS i februari 2022 planerar att penetrera vintersportssegmentet. Växer 25-26% med 23-24% marginal. Planerar öka online-försäljning till >40% och öka offline-marginaler med nästan 40%.",
+      "quotes": [
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Jag tror att Enta Sport är nog ett av de ännu mer tydliga exempel där ett lokalt varumärke nu börjar verkligen ta upp kampen mot Nike och Adidas.",
+          "timestamp": "36:40",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "I Kinas sportmarknader så är de stora spelarna fortfarande Nike och Adidas. De har nästan mer än 20 % av marknaden var. De har lyckats extremt bra i Kina hittills, men nu börjar Enta Sport segla upp sig som nummer 3 i marknaden, har nästan 15 % marknadsandel.",
+          "timestamp": "36:50",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Fila positioneras lite mer som Adidas, lite mer urban, trendig, lite mer dyra produktsemens. Utöver det så har det här bolaget också förvärvat Amersport i Finland, så de äger just nu egentligen Peak, Performance, Salmon, Wilson, etc.",
+          "timestamp": "37:20",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Nu kommer ju vinterOS väldigt kort i Kina redan fjärde februari. Då är det samma strategi som det här bolaget kommer göra med Fila, det vill säga att penetrera vinter sports segmentet med några av de etablerade varumärkena.",
+          "timestamp": "37:50",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Ine Ingvang",
+          "text": "Det här bolaget växer just nu cirka 25-26%, har en marginal på cirka 23-24%, men avsäkningen är att man ska göra en transformation av sina offline-butiker så att man ska driva de butikerna än mer själva.",
+          "timestamp": "39:00",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "25-26%",
+        "margin": "23-24%",
+        "debt_level": null,
+        "custom": ["Marknadsandel: ~15% (#3 i Kina)", "Nike/Adidas marknadsandel: ~20% var"]
+      },
+      "thesis": {
+        "bull_case": [
+          "Lokalt varumärke som utmanar globala aktörer",
+          "#3 i marknaden med 15% andel, växande",
+          "Äger Fila-rättigheter i Kina (premium/urban positionering)",
+          "Förvärvade Amer Sports (Peak, Performance, Salomon, Wilson)",
+          "Vinter-OS februari 2022 driver vintersportssegment",
+          "Växer 25-26% med 23-24% marginal",
+          "Proaktiv på nya kanaler (online, livestreaming, WeChat)",
+          "Planerar öka online-försäljning till >40%"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Vinter-OS i februari 2022",
+          "Ökad online-penetration (>40% målvärde)",
+          "Transformation av offline-butiker för högre marginaler",
+          "Lokala varumärken tar marknadsandelar från utländska"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "De största lärdomarna är att man som ägare verkligen ser sina bolag som barn. Att man ska äga de här bolagen vid ett tidigt skifte och sen jobba med bolag under länge period för att verkligen uppfylla bolagets potential på sikt.",
+      "summary": "Investeringsfilosofi från Mälarenergi: Ägare ska se bolag som barn, köpa tidigt och aktivt hjälpa dem växa över lång tid.",
+      "category": "philosophy",
+      "speaker": "Ine Ingvang",
+      "speaker_role": "guest",
+      "timestamp": "07:00",
+      "confidence": "high",
+      "tags": ["investment philosophy", "long-term", "active ownership"]
+    },
+    {
+      "quote": "Och så som vi tänker, vi är väldigt långsiktiga och strategiska. Så att vi tänker i vår investeringsfri är, hur ser Kina ut 2030? Och vi börjar därifrån.",
+      "summary": "Nordic Asia tänker baklänges: börja med hur Kina ser ut 2030 och investera baserat på den visionen.",
+      "category": "philosophy",
+      "speaker": "Ine Ingvang",
+      "speaker_role": "guest",
+      "timestamp": "09:30",
+      "confidence": "high",
+      "tags": ["strategic thinking", "long-term", "China"]
+    },
+    {
+      "quote": "Man måste förstå policy och man måste vara väldigt pragmatiska i den marknaden.",
+      "summary": "Kritiskt för investerare i Kina att förstå policy och vara pragmatisk kring regulatoriska risker.",
+      "category": "lesson",
+      "speaker": "Ine Ingvang",
+      "speaker_role": "guest",
+      "timestamp": "20:00",
+      "confidence": "high",
+      "tags": ["China", "policy", "regulatory risk"]
+    },
+    {
+      "quote": "Och även om det skulle vara så att det kommer en policy på Alibaba, så måste man räkna på det och få se fundamental hur mycket det påverkar här. Hur mycket kommer tillväxtsäktern att gå ner? Och finns det några andra vinnare i det här sektorn som man kan få en mer exponering till?",
+      "summary": "Vid regulatoriska händelser måste man kvantifiera påverkan och leta efter vinnare, inte bara titta på de direkt drabbade.",
+      "category": "wisdom",
+      "speaker": "Ine Ingvang",
+      "speaker_role": "guest",
+      "timestamp": "20:15",
+      "confidence": "high",
+      "tags": ["risk management", "opportunity", "analysis"]
+    },
+    {
+      "quote": "Men där kommer det finnas ett strukturellt skifte och ett behov av att man uppgraderar just de här optisk-conceivers. Och i det marknaden då äger vi ett bolag som heter Eptolink som just är Kinas ledande arbiträr av just de här optisk-conceivers. Och ett bolag som växer nästan 70% och känner 25% marginal. Som vi har i vårt profil och G-häv.",
+      "summary": "Identificera strukturella skiften (som 40G→200G datacenter-uppgraderingar) och investera i ledande aktörer.",
+      "category": "wisdom",
+      "speaker": "Ine Ingvang",
+      "speaker_role": "guest",
+      "timestamp": "33:30",
+      "confidence": "high",
+      "tags": ["structural shift", "investment thesis", "growth"]
+    },
+    {
+      "quote": "Och våra modeller så tittar vi på, vi gör en djup analys på bolag, vi skapar våra egna analysmodeller och sen så räknar vi faktiskt ut en IRR under vår ägarperiod.",
+      "summary": "Investmentbolags-approach: djup analys, egna modeller, och IRR-kalkyl för hela ägarperioden.",
+      "category": "philosophy",
+      "speaker": "Ine Ingvang",
+      "speaker_role": "guest",
+      "timestamp": "47:30",
+      "confidence": "high",
+      "tags": ["valuation", "IRR", "investment process"]
+    },
+    {
+      "quote": "Men givetvis är det en väldigt viktig affärsrelation eller relation. Men vi ser ändå att det finns lite signaler på att det blir förbättrad. Sen får man ju se så klart hur utfallet blir. Men rent ekonomiskt och strategiskt så är det alldeles för stora kostnader för båda länder att egentligen friöra sig från varandra.",
+      "summary": "Kina och USA behöver varandra ekonomiskt; total frikoppling är för kostsam för båda länder.",
+      "category": "wisdom",
+      "speaker": "Ine Ingvang",
+      "speaker_role": "guest",
+      "timestamp": "106:30",
+      "confidence": "high",
+      "tags": ["China-US relations", "geopolitics", "economics"]
+    },
+    {
+      "quote": "Det är ju liksom, ja, från JD-sidan, när marknaden är fearful så ska man vara greedy. Och det andra är att man kanske inte ska vara för greedy.",
+      "summary": "Investeringsläxa: Världens motsats-princip (fearful=greedy) men samtidigt undvik överdriven girighet.",
+      "category": "wisdom",
+      "speaker": "Ine Ingvang",
+      "speaker_role": "guest",
+      "timestamp": "109:50",
+      "confidence": "high",
+      "tags": ["contrarian investing", "psychology", " Buffett principle"]
+    },
+    {
+      "quote": "Det gynnar egentligen den underliggande konsumenten för att får vi bättre produkt- säkerhet, får man bättre ansäljningstrygghet, får man bättre sociala försäkringar, så lägger du er för en grund för att Kina ska bli ett konsumtionssamhälle.",
+      "summary": "Kinas regulatoriska åtgärder (produktsäkerhet, anställningstrygghet, sociala försäkringar) lägger grunden för konsumtionssamhälle.",
+      "category": "wisdom",
+      "speaker": "Ine Ingvang",
+      "speaker_role": "guest",
+      "timestamp": "17:30",
+      "confidence": "high",
+      "tags": ["China", "regulation", "consumption", "policy"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Nordic Asia Investment Group presenterar sin strategi för investeringar i Kina, med fokus på tre sektorer: 5G, handelsplattformar och lokala varumärken. Bolaget, som noteras på börsen i december 2021, har en investmentbolagsstruktur liknande svenska modeller men applicerad på kinesisk konsumentmarknad. Diskussionen täcker specifika portföljbolag, politiska risker, Kina-USA relationer, och vikten av att förstå policy och marknadsdynamik.",
+  "key_takeaways": [
+    "Nordic Asia investerar i 5G (Sunway Communications, Eptolink), handelsplattformar (JD.com) och lokala varumärken (Enta Sport/ANTA)",
+    "Kina skiftar från exportledd till konsumentledd ekonomi med konsumentandelen växande från 9% till >50% till 2030",
+    "JD.com har starkare modell än Alibaba (äger hela värdekedjan, integrerad med WeChat)",
+    "Alibaba utmanas av regulatoriska risker och ökad konkurrens",
+    "Lokala varumärken tar marknadsandelar från utländska aktörer genom högre kvalitet och kostnadseffektivitet",
+    "Kina öppnar upp mer för utländska ägare, inte tvärtom",
+    "Kina och USA behöver varandra - total frikoppling är för kostsam",
+    "Nordic Asia ska börja handlas på börsen 16 december 2021"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2021-12-02-847d.txt",
+  "transcript_word_count": 12299,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

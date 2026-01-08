@@ -1,0 +1,486 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2024-11-29-0748",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "198. Aktiepodden överväger att allokera",
+  "episode_number": 198,
+  "date": "2024-11-29",
+  "hosts": [
+    "Jakob",
+    "Lars"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Allokering",
+    "Dustin vinstvarning",
+    "Elekta rapport",
+    "Medtech sektorn",
+    "Merrill Lynch investeringsklocka"
+  ],
+  "stocks_discussed": [
+    "Dustin",
+    "Elekta",
+    "Getinge",
+    "Arjo",
+    "Bone Support",
+    "Biotage",
+    "Sektra",
+    "Raysearch",
+    "Thule"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Bone Support",
+      "ticker": "BONCE",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Lars",
+      "speaker_role": "host",
+      "timestamp": "09:12",
+      "reasoning": "Lars nämner Bonesupport som ett bolag som 'går fantastiskt bra' och sticker ut positivt. I diskussionen om medtech-favoriter kontrasteras Bonesupport mot stora breda bolag som Getinge som har problem. Lars drar slutsatsen att man bör undvika stora breda medtech-bolag och hitta mer nischade bolag som Bonesupport för att investera i sektorn.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är faktiskt de flesta som är ner. Det är ett par som sticker ut på uppsidan. Bone Support givetvis, då går det fantastiskt bra.",
+      "sector": "Medtech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Thule",
+      "ticker": "THULE-B",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Jakob",
+      "speaker_role": "host",
+      "timestamp": "20:05",
+      "reasoning": "Jakob förklarar att Aktiespararnas aktiva fond har övervikt i sektorcykliska köp på grund av Thule som beskrivs som en 'väldigt, väldigt bra aktie'. De går emot grundläggande allokeringsprincipen om en defensiv börs för att Thules egna meriter överväger allokeringsidén.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det beror på innehavet Thule, som är en väldigt, väldigt bra aktie. Där går vi emot grundläggande allokeringsprincipen nu om vi tror på en mer defensiv börs. Helt enkelt för att vi ser att bolagets egna meriter överväger allokeringsidén.",
+      "sector": "Cyklisk",
+      "market": "sweden",
+      "position_context": "Övervikt i fonden",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Medtech - stora breda bolag",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Lars",
+      "speaker_role": "host",
+      "timestamp": "09:31",
+      "reasoning": "Lars rekommenderar att undvika stora breda medtech-bolag som Getinge, Elekta och Arjo som alla har backat under året och har problem. Istället föreslår han att investera i mer nischade bolag som Bonesupport, Biotage, Sektra och Raysearch.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så kanske om man ska dra nån slutsats över det här, är det väl att undvika de stora breda bolagen om man vill investera i medtech och hitta de här mer nischade. Raysearch är också ett intressant bolag.",
+      "sector": "Medtech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Hälsovårdssektorn",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jakob",
+      "speaker_role": "host",
+      "timestamp": "15:21",
+      "reasoning": "Baserat på Apollo Research's analys av historisk data under mjuklandningar (svag konjunktur men inte recession), rekommenderar Jakob hälsovård som en av de tre bästa sektorerna att äga. Noterar dock att detta är historisk data och att undantag finns (Elekta).",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "De tre sektorer som går bäst är hälsovård, finans och consumer staples, alltså dagligvaror. Det är det man ska äga i det här konjunkturläget, historiskt.",
+      "sector": "Hälsovård",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Finanssektorn",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jakob",
+      "speaker_role": "host",
+      "timestamp": "15:21",
+      "reasoning": "Jakob rekommenderar finanssektorn baserat på Apollo Research's historiska analys av sektorer som presterat bäst under mjuklandningar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "De tre sektorer som går bäst är hälsovård, finans och consumer staples, alltså dagligvaror. Det är det man ska äga i det här konjunkturläget, historiskt.",
+      "sector": "Finans",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Dagligvarusektorn (Consumer Staples)",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Jakob",
+      "speaker_role": "host",
+      "timestamp": "15:21",
+      "reasoning": "Jakob rekommenderar consumer staples (dagligvaror) som en av tre bästa sektorer under mjuklandningar baserat på Apollo Research's historiska data.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "De tre sektorer som går bäst är hälsovård, finans och consumer staples, alltså dagligvaror. Det är det man ska äga i det här konjunkturläget, historiskt.",
+      "sector": "Dagligvaror",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Energimaterial/Råvaror",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Jakob",
+      "speaker_role": "host",
+      "timestamp": "15:30",
+      "reasoning": "Baserat på Apollo Research's historiska data rekommenderar Jakob att undvika energimaterial (råvaror) i nuvarande mjuklandning eftersom de är väldigt cykliska och historiskt presterat sämst.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det man ska undvika är energimaterial och teknologi. Energimaterial, alltså råvaror, det blir väldigt cykliskt sådär.",
+      "sector": "Råvaror",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Teknologisektorn",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Jakob",
+      "speaker_role": "host",
+      "timestamp": "15:30",
+      "reasoning": "Jakob rekommenderar att undvika teknologisektorn under mjuklandningar baserat på historisk data. Spekulerar att det kan bero på lägre riskappetit i svag konjunktur.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det man ska undvika är energimaterial och teknologi. Teknologi, jag vet inte varför, men det kanske är riskappetit. Man köper gärna tech när man gillar P50 fast tillväxten är 100 % och så vidare. Men i lågkonja känns inte det som rätt aktie att ha, så jag tror det är därför teknologi underpresterar.",
+      "sector": "Teknologi",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Raysearch",
+      "ticker": "RAYB",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Lars",
+      "speaker_role": "host",
+      "timestamp": "09:12",
+      "reasoning": "Lars nämner Raysearch som ett 'intressant bolag' i sammanhanget med medtech-investeringar. Detta är en vag positiv kommentare som inte utgör en tydlig köprekommendation.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Raysearch är också ett intressant bolag.",
+      "sector": "Medtech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Japanska börsbolag",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Lars",
+      "speaker_role": "host",
+      "timestamp": "23:28",
+      "reasoning": "Lars delar ett faktum om att 45% av bolagen i japanska Topix-index handlas under bokfört värde, vilket tyder på låg värdering. Men han gör ingen explicit rekommendation.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "45 % av bolagen i japanska Topics index handlas under bokfört värde. Det är du. Så ska man gå på multiplar så ska man nog leta på japambörsen.",
+      "sector": null,
+      "market": "japan",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Dustin",
+      "ticker": "DUST",
+      "timestamp_start": "01:15",
+      "timestamp_end": "03:40",
+      "word_count": 150,
+      "speakers": [
+        "Jakob",
+        "Lars"
+      ],
+      "primary_speaker": "Jakob",
+      "discussion_summary": "Jakob presenterar Dustins vinstvarning för Q1 där försäljningen väntas minska med 20% och justerat EBITDA spås landa i spannet 0-30 miljoner. Aktien rasade 20%. Lars reflekterar över Dustins strategiska problem med att gå uppåt i värdekedjan och konstaterar att underleverantörer utan starkt varumärke är sårbara i dåliga tider på grund av prispress.",
+      "quotes": [
+        {
+          "speaker": "Jakob",
+          "text": "Det var en vinstvarning återigen. Det var för deras kommande Q1. De har brutit räkenskapsår och likt Q4 så blev det återigen en vinstvarning för bolaget. Man ser en utmanande marknad. Man ser också vissa störningar i implementeringen av en IT-plattform i Benelux.",
+          "timestamp": "01:15",
+          "context": "other"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "I Q1 förväntar man sig att försäljningen minskar med 20% medan justerat EBITDA-resultat spås landa i spannet 0-30 miljoner kronor. På den här vinstvarningen rasade aktien 20%.",
+          "timestamp": "01:39",
+          "context": "metric"
+        },
+        {
+          "speaker": "Lars",
+          "text": "Det går fortsatt trögt för Dustin och fullständiga rapporten kommer den 8 januari.",
+          "timestamp": "02:11",
+          "context": "other"
+        },
+        {
+          "speaker": "Lars",
+          "text": "För ett antal år sen försökte man gå uppåt i värdekedjan, kan man väl säga. Man pratar om att man vill vara en partner till sina kunder snarare än bara en leverantör.",
+          "timestamp": "02:21",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Lars",
+          "text": "Det visar ju några olika saker, underleverantörer är sårbara. Kanske också en spanning här att när det är dåliga tider, då är det verkligen prispress. Då är det jätteviktigt att man har någon form av allgravet, varumärke eller en produktverkshöjd som gör att man kan försvara lönsamheten, medan man säljer då hårdvara, då är det svårt.",
+          "timestamp": "02:56",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "Det känns i alla fall svårt för tillfället och i alla fall om man kollar Dustin Sifri för tillfället också.",
+          "timestamp": "03:25",
+          "context": "other"
+        },
+        {
+          "speaker": "Lars",
+          "text": "Ja, verkligen. Det är lite synd. Svingfaktor om man är revenders, men det är rätt stora frågetecken.",
+          "timestamp": "03:33",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "-20%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Q1 EBITDA: 0-30 MSEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Underleverantörer utan starkt varumärke är sårbara",
+          "Prispress i dåliga tider",
+          "Docker har svårt att försvara lönsamhet när man bara säljer hårdvara"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Marknadsutmaningar",
+          "IT-plattformsstörningar i Benelux",
+          "Fortsatt svag efterfrågan"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Elekta",
+      "ticker": "EKTAB",
+      "timestamp_start": "03:40",
+      "timestamp_end": "09:14",
+      "word_count": 400,
+      "speakers": [
+        "Jakob",
+        "Lars"
+      ],
+      "primary_speaker": "Jakob",
+      "discussion_summary": "Jakob presenterar Elekras Q3-rapport som var sämre än de lågt ställda förväntningarna. Omsättning och resultat var lägre än förväntat men marginalen var oförändrad. Orderingången ökade med 9% i lokalvaluta men book-to-bill var 0.99, precis på gränsen för att bibehålla omsättning. Jakob noterade att Elekta är en av Börsens mest blankade aktier. Lars diskuterade blankning generellt och konstaterade att rapporten gav blankarna rätt. Jakob nämnde att hela medtech-sektorn har haft problem sedan pandemin, men att några nischade bolag som Bonesupport, Biotage och Sektra presterat bra.",
+      "quotes": [
+        {
+          "speaker": "Lars",
+          "text": "Jag tänkte att det är ett av Börsens mest blankade aktier. Kan du fråga dig, först och främst, vad tycker du om blankning?",
+          "timestamp": "03:47",
+          "context": "other"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "Den senaste ortalsrapporten här onekligen gav blankarna rätt. Det är mesta pekar åt fel håll tyvärr.",
+          "timestamp": "05:45",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "Omsättningen var lägre än förväntat, och då blev även resultatet lägre än förväntat. Men marginalen var i princip oförändrad.",
+          "timestamp": "06:05",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "Det som sticker ut då, det är väl för mig då orderingång tycker jag är intressant för att det är väl mer framåtblickande förstås än Q3-siffrorna per se.",
+          "timestamp": "06:20",
+          "context": "other"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "Orderingången följer 9 procent i lokalvaluta.",
+          "timestamp": "06:32",
+          "context": "metric"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "Man brukar säga att lite över ett måste man ändå ha för att behålla omsättningen på samma nivå. Den var 0.99, så det är på håret här för Elekta. Det är inte så bra.",
+          "timestamp": "07:02",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "Elekta är inte ensamma i medicinteknik. Getinge har också tittat på vilka stora bolag som har gått bakåt i år på börsen. Det är typ de flesta, stora inom medtech.",
+          "timestamp": "07:17",
+          "context": "other"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "Mitt intryck är att den här problemen inom medicinteknik har faktiskt funnits ett tag. Det är egentligen ända sedan pandemin kling av så har det varit lite framåt och bakåt och så där.",
+          "timestamp": "07:50",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Jakob",
+          "text": "Det är faktiskt de flesta som är ner. Det är ett par som sticker ut på uppsidan. Bone Support givetvis, då går det fantastiskt bra. Biotage är uppe i år. Sektra är också uppe, men det är väl de.",
+          "timestamp": "07:25",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "oförändrad",
+        "debt_level": null,
+        "custom": [
+          "Orderingång: +9% i lokalvaluta",
+          "Book-to-bill: 0.99"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Marginalen var oförändrad trots fallande omsättning",
+          "Orderingången ökade med 9% i lokalvaluta"
+        ],
+        "bear_case": [
+          "Omsättning och resultat var lägre än förväntat",
+          "Book-to-bill 0.99 är för lågt för tillväxt",
+          "Hela medtech-sektorn har haft problem sedan pandemin",
+          "Stora breda medtech-bolag har svårt"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Fortsatt svag efterfrågan i medtech",
+          "Konkurrens från mer nischade bolag"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Att minimera risken är viktigare än att hitta enskilda kursraketer. Det som driver förmögenhet är hur mycket aktiexponering du har över tid, snarare än exakt vilka aktier du har.",
+      "summary": "Exponering mot aktiemarknaden över tid är viktigare för förmögenhetsutveckling än att hitta specifika vinnare.",
+      "category": "philosophy",
+      "speaker": "Simon Reynhuis (citerad av Lars)",
+      "speaker_role": "guest",
+      "timestamp": "18:39",
+      "confidence": "high",
+      "tags": [
+        "time in the market",
+        "risk",
+        "exponering"
+      ]
+    },
+    {
+      "quote": "Paradoxalt nog, det tycker jag är intressant att ofta ser börsen billigast ut när den är som dyrast. Alltså precis på toppen av en högkonjunktur. Därför att då tittar man ju på väldigt väldigt höga vinster. Ett rekordår för Atlas. Det är klart att P1-talet ser lågt ut för de gör en rekordvinst. Men sen när vinsten faller så plötsligt så går det ut andra hållet då.",
+      "summary": "Värderingsmultiplar kan missleda - börsen kan se billig ut på toppen av högkonjunktur när vinsterna är rekordhöga och dyr ut i botten av konjunkturen.",
+      "category": "wisdom",
+      "speaker": "Lars",
+      "speaker_role": "host",
+      "timestamp": "21:36",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "multiplar",
+        "cyklisk"
+      ]
+    },
+    {
+      "quote": "När det är dåliga tider, då är det verkligen prispress. Då är det jätteviktigt att man har någon form av allgravet, varumärke eller en produktverkshöjd som gör att man kan försvara lönsamheten, medan man säljer då hårdvara, då är det svårt.",
+      "summary": "Underleverantörer utan starkt varumärke eller differentiering är sårbara för prispress i dåliga tider.",
+      "category": "wisdom",
+      "speaker": "Lars",
+      "speaker_role": "host",
+      "timestamp": "03:10",
+      "confidence": "medium",
+      "tags": [
+        "underleverantörer",
+        "prispress",
+        "differentiering"
+      ]
+    },
+    {
+      "quote": "Time in the market kontra timing the market. Alltså timing the market det handlar ju om att man ska köpa på botten och sälja på toppen. Väldigt lätt i teorin, inte så lätt i praktiken. Det andra sättet att jobba då, time in the market, är att man helt enkelt äger aktier och sitter kvar på dem.",
+      "summary": "Time in the market är överlägset timing the market - att sitta kvar i aktier är enklare och mer effektivt än att försöka tajma marknaden.",
+      "category": "philosophy",
+      "speaker": "Lars",
+      "speaker_role": "host",
+      "timestamp": "18:14",
+      "confidence": "high",
+      "tags": [
+        "time in the market",
+        "timing the market"
+      ]
+    },
+    {
+      "quote": "Om man ska dra nån slutsats över det här, är det väl att undvika de stora breda bolagen om man vill investera i medtech och hitta de här mer nischade.",
+      "summary": "Stora breda medtech-bolag har svårt medan nischade bolag presterar bättre.",
+      "category": "wisdom",
+      "speaker": "Lars",
+      "speaker_role": "host",
+      "timestamp": "09:31",
+      "confidence": "medium",
+      "tags": [
+        "medtech",
+        "nischade bolag",
+        "bolagsutval"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar Dustins vinstvarning och Elekras svaga rapport, följt av en bred diskussion om medtech-sektorn där nischade bolag som Bonesupport presterat bättre än stora breda bolag. Jakob presenterar Merrill Lynchs investeringsklocka och Apollo Research's sektoranalys för mjuklandningar, där hälsovård, finans och dagligvaror rekommenderas. Diskussionen avslutas med synpunkter på allokering vs bolagsanalys och importance av time in the market.",
+  "key_takeaways": [
+    "Bone Support och andra nischade medtech-bolag presterar bättre än stora breda",
+    "Hälsovård, finans och dagligvaror är historiskt bästa sektorerna under mjuklandningar",
+    "Undvik energimaterial och teknologi i svag konjunktur",
+    "Time in the market är viktigare än timing the market",
+    "Värderingsmultiplar kan missleda - börsen kan se billig ut på toppen av högkonjunktur"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/aktiepodden/transcripts/aktiepodden-2024-11-29-0748.txt",
+  "transcript_word_count": 3538,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

@@ -1,0 +1,548 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2019-04-02-c1ce",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 209 - Pang i Bygget",
+  "episode_number": 209,
+  "date": "2019-04-02",
+  "hosts": [
+    "Lennulf",
+    "Host 2"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Oscar Properties",
+    "Lyft IPO",
+    "Flygbolag",
+    "Bitcoin/Krypto",
+    "Riksbanken",
+    "Index",
+    "Overstock"
+  ],
+  "stocks_discussed": [
+    "Oscar Properties",
+    "Lyft",
+    "SAS",
+    "Norwegian",
+    "Overstock"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Oscar Properties",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Lennulf",
+      "speaker_role": "host",
+      "timestamp": "[06:48]",
+      "reasoning": "Oscar Properties har ställt in preferensaktieutdelning och obligationsbetalning, lagt ner byggnadsrörelsen. Risk för att garantier inte hålls om bolaget försvinner. Hela nybyggnationssektorn i Stockholm har extremt kämpigt. För hög risk att köpa stammaktien.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag skulle ju inte köpa stammaktien i alla fall och det var väl en av prefarna skulle man hålla sig borta... Jag tror att man ska hålla sig borta från hela sektorn faktiskt. Jag tror inte de här nyheterna blir bättre för de andra bostadsutvecklarna på börsen heller.",
+      "sector": "Fastigheter",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Norwegian",
+      "ticker": "NAS",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[17:54]",
+      "reasoning": "Om Boeing lyckas lösa 737 MAX-problemet snabbt kan Norwegian köpas. Aktien extremt volatil, rör sig 8-10 spänn om dagen. Eventuell mjukvaruupdatering skulle skapa superläge. Hög risk/reward.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Sen ska man hålla koll på om Boeing lyckas lösa det här så snabbt som möjligt så är det nog köpläge i norrvidden. Att de helt plötsligt får ut att nu kan ni köra planen om två veckor eller någonting.",
+      "sector": "Flygbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Extremt volatil",
+      "catalyst_timing": "Boeing-lösning om 2 veckor"
+    },
+    {
+      "stock_name": "SAS",
+      "ticker": "SAS",
+      "action": "buy",
+      "confidence": "speculative",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[17:17]",
+      "reasoning": "SAS har gått ner 20% på en månad men är ett av få flygbolag utan 737 MAX-bolag. Borde få fler flygningar. Spread long SAS short Norwegian.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "SAS är ner 20% på en månad, vilket är väldigt intressant då SAS är väl ett av få flygbolag som inte har den här modellen. Så egentligen borde de få fler flygningar och inte få så mycket problematik.",
+      "sector": "Flygbolag",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Overstock",
+      "ticker": "OSTK",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[25:31]",
+      "reasoning": "Överskottsbolag online som investerat i blockchain-teknik via Medici Ventures. Har T-Zero blockchains-börs godkänd av Finra/SEC. Kinesisk PE-fond skriver under LOI. Aktien superkraschad från 80 till 16-17 dollar. Extremt volatil och kortad - potentiell squeeze. Patrick Byrne har tagit alla pengar från Overstock till blockchain.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Har du köpt en aktie? 100-200 procent. Jag har lite grann faktiskt. Den är extremt volatil så den är nog bättre att tradea, men man kan ha ögonen på den.",
+      "sector": "E-handel/Blockchain",
+      "market": "us",
+      "position_context": "Liten position",
+      "downside_note": "Extremt volatil",
+      "catalyst_timing": "Kinesisk investering (fördröjd)"
+    },
+    {
+      "stock_name": "Bitcoin",
+      "ticker": "BTC",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[19:14]",
+      "reasoning": "Bitcoin bröt upp till 5000 dollar, upp 20% på natten. Spekulationer om stor order på 100 miljoner dollar. Kanske början på kryptohype 2.0.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Då bröt ju bitcoin upp, om det var halvårshögsta eller i alla fall högsta på väldigt länge. Och gick upp 20 procent.",
+      "sector": "Krypto",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ethereum",
+      "ticker": "ETH",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[20:04]",
+      "reasoning": "Köpt lite etherum på tips av kryptomänniskor att det såg fint ut att grejer var på gång.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Jag hade faktiskt köpt lite eterum de senaste dagarna här av tips av lite duktiga kryptomänniskor att det såg fint ut att det var grejer på gång här.",
+      "sector": "Krypto",
+      "market": "other",
+      "position_context": "Liten position",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Norwegian",
+      "ticker": "NAS",
+      "timestamp_start": "[17:17]",
+      "timestamp_end": "[18:35]",
+      "word_count": 500,
+      "speakers": [
+        "Host 2",
+        "Lennulf"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Norwegian har drabbats hårt av Boeing 737 MAX-kraschen och vinstvarnat. Aktien kraschade från 100-80 NOK till runt 40 NOK, nyemission gjordes på 33 NOK. Bolaget tog in 3 miljarder NOK men har jättestora skulder. Spread long SAS short Norwegian rekommenderas. Om Boeing löser mjukvaruproblemet snabbt kan det bli köpläge.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "SAS är ner 20% på en månad, vilket är väldigt intressant då SAS är väl ett av få flygbolag som inte har den här modellen. Så egentligen borde de få fler flygningar och inte få så mycket problematik.",
+          "timestamp": "[17:17]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Så min spread skulle ju vara lång sass kort norrvidden här om det inte kommer något bud eller någon annan konstig händelse.",
+          "timestamp": "[17:45]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Sen ska man hålla koll på om Boeing lyckas lösa det här så snabbt som möjligt så är det nog köpläge i norrvidden. Att de helt plötsligt får ut att nu kan ni köra planen om två veckor eller någonting.",
+          "timestamp": "[17:54]",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "För jag tror att det här kostar ofantligt mycket pengar och har de här stora nöjerna.",
+          "timestamp": "[17:56]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Om det är som vissa artiklar när man läser på nät och sånt att det är en mjukvaruupdatering som behövs då finns det ju ett superläge i norrvidden också. Men den är extremt volatil nu.",
+          "timestamp": "[17:59]",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Jag har följt den här de sista veckorna. Den rör sig nästan åtta, tio spännande dagen fram och tillbaka. Så den är läskig just nu.",
+          "timestamp": "[18:11]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Där du omsätter hur mycket som helst med lövtunna marginaler och bara det händer någonting konstigt så raderas hela världen.",
+          "timestamp": "[18:28]",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Lövtunna marginaler",
+        "debt_level": "Jättestora skulder, 3 miljarder NOK nyemission på 33 NOK",
+        "custom": [
+          "Aktie ner 20% på en månad",
+          "Från 100-80 NOK till 40 NOK",
+          "Nyemission 33 NOK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Boeing löser mjukvaruproblemet snabbt",
+          "Superläge om mjukvaruupdatering räcker",
+          "Får ut att planen kan köras om 2 veckor"
+        ],
+        "bear_case": [
+          "Kostar ofantligt mycket pengar med marken stående plan",
+          "Jättestora skulder",
+          "Extremt volatil"
+        ],
+        "catalysts": [
+          "Boeing-lösning",
+          "Mjukvaruupdatering"
+        ],
+        "risks": [
+          "Fortsatt problem med Boeing-planen",
+          "Hög volatilitet",
+          "Skuldsättning"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "SAS",
+      "ticker": "SAS",
+      "timestamp_start": "[17:17]",
+      "timestamp_end": "[19:09]",
+      "word_count": 400,
+      "speakers": [
+        "Host 2",
+        "Lennulf"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "SAS har gått ner 20% på en månad men har inte 737 MAX-modellen vilket är unikt. Borde få fler flygningar och mindre problematik. Negativa faktorer: dollarn emot, oljan upp, potentiell strejk. Long SAS short Norwegian spread rekommenderas.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "SAS är ner 20% på en månad, vilket är väldigt intressant då SAS är väl ett av få flygbolag som inte har den här modellen. Så egentligen borde de få fler flygningar och inte få så mycket problematik.",
+          "timestamp": "[17:17]",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Så min spread skulle ju vara lång sass kort norrvidden här om det inte kommer något bud eller någon annan konstig händelse.",
+          "timestamp": "[17:45]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "SAS var ju ut i någon form av potentiell strejk som det alltid är. Man har valuta, man har oljan, man har strejk och nu lite flygplan.",
+          "timestamp": "[18:24]",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Det är en väldigt speciell bransch där du omsätter hur mycket som helst med lövtunna marginaler och bara det händer någonting konstigt så raderas hela världen.",
+          "timestamp": "[18:28]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Och de inte har några av de här planen så skulle man inte kunna låta SAS tjäna lite pengar.",
+          "timestamp": "[18:46]",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Lövtunna marginaler",
+        "debt_level": null,
+        "custom": [
+          "Ner 20% på en månad"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Inga 737 MAX-plan",
+          "Borde få fler flygningar",
+          "Sweetspot med många konkurrenters plan marken"
+        ],
+        "bear_case": [
+          "Valuta emot",
+          "Olja upp",
+          "Potentiell strejk",
+          "Speciell bransch med lövtunna marginaler"
+        ],
+        "catalysts": [
+          "Fler flygningar",
+          "Konkurrenters problem"
+        ],
+        "risks": [
+          "Strejk",
+          "Valuta",
+          "Oljepris"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Overstock",
+      "ticker": "OSTK",
+      "timestamp_start": "[20:26]",
+      "timestamp_end": "[26:53]",
+      "word_count": 800,
+      "speakers": [
+        "Host 2",
+        "Lennulf"
+      ],
+      "primary_speaker": "Host 2",
+      "discussion_summary": "Overstock är ett amerikanskt näthandelsbolag som grundaren Patrick Byrne investerat alla pengar i blockchain-teknik via Medici Ventures. Har T-Zero blockchains-börs godkänd av Finra/SEC. Kinesisk PE-fond har LOI på investering men skjutit fram. Aktien gick från 20 till 80 dollar under kryptohypen men är ner på 16-17 dollar. Extremt volatil och kortad - potentiell squeeze.",
+      "quotes": [
+        {
+          "speaker": "Host 2",
+          "text": "Jag har följt den här de sista veckorna. Den rör sig nästan åtta, tio spännande dagen fram och tillbaka. Så den är läskig just nu.",
+          "timestamp": "[18:11]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Det är ett av de 20 största näthandelsbolagen i USA. Läs på om det här bolaget för den har en fantastisk historia.",
+          "timestamp": "[20:54]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Grundaren är då från Salt Lake City, Patrick Bein heter han. Han grundade då Overstock, någonstans runt år 2000. Gick ju väldigt bra. Sedan blev det otroligt blankat och han var ut och stämde hedgefonder och så vidare.",
+          "timestamp": "[21:07]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Då är det ju att Patrick Barn har tagit i princip alla pengar som kommer in från själva Overstock, överskottsbolagsversionen och investerat i crypto eller blockchain-teknik.",
+          "timestamp": "[22:02]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "De har skapat ett bolag som heter Medici Ventures som har blivit ett rätt stort bolag inom blockchain-teknik.",
+          "timestamp": "[22:07]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "De har gjort storyn så att den går att sälja så pass bra, men det de har gjort då är att för att blockchain ska komma in i samhället så måste man titta på vad är de viktiga delarna i samhället.",
+          "timestamp": "[22:10]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Aktien är superkraschad. Den gick från 20 dollar till 80 dollar när han avslöjade det här att varför vi går så dåligt är för att jag stoppar alla pengar i blockchain-teknik. Och det var i samband med mitt under krypthåsen. Så då gick den fyra gånger pengarna och idag är den nere på 16-17 dollar igen.",
+          "timestamp": "[24:34]",
+          "context": "metric"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Men de har något som heter T-Zero som har fått godkänt, det är den enda blockchainprodukten faktiskt som har fått godkänd av Finra, SEC och alltihopa att bli faktiskt en riktig marknadsplats.",
+          "timestamp": "[24:57]",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Och där har vi Kinas största private equity fond, har gjort ett letter of intent att investera. Den investeringen har de hållit på här, det skulle ske i februari, men nu har de skjutit den på framtiden några månader.",
+          "timestamp": "[25:10]",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Har du köpt en aktie? 100-200 procent. Jag har lite grann faktiskt. Den är extremt volatil så den är nog bättre att tradea, men man kan ha ögonen på den.",
+          "timestamp": "[25:31]",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host 2",
+          "text": "Extremt volatil, den är kortad. Som bara den händer någonting i den så finns det en jäkla squeeze att hämta.",
+          "timestamp": "[25:44]",
+          "context": "catalyst"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Från 20 till 80 dollar, nu 16-17 dollar",
+          "En av 20 största näthandelsbolagen i USA"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "T-Zero godkänd av Finra/SEC",
+          "Kinesisk PE-fond LOI",
+          "Patrick Byrne investerat allt i blockchain",
+          "Medici Ventures stor inom blockchain",
+          "Kortad - potentiell squeeze"
+        ],
+        "bear_case": [
+          "Extremt volatil",
+          "Kinesisk investering fördröjd",
+          "Kryptohype kan dö ut igen"
+        ],
+        "catalysts": [
+          "Kinesisk PE-investering",
+          "Kryptohype 2.0",
+          "Blockchain-applikationer i verkligheten"
+        ],
+        "risks": [
+          "Volatilitet",
+          "Kryptomarknaden",
+          "Fördröjda investeringar"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det man ska ha gjort såklart är att Riksbanken, för det första var det när de hade mandat att reglera lite på finansmarknaden. Sen det har ju tagits bort så det mesta ligger ju faktiskt på Löfven och staten att reglera belåning och hur bankernas belåning och hur de finansierar sig och så vidare.",
+      "summary": "Riksbanken saknar mandat att reglera finansmarknaden, ansvaret ligger på politikerna",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[32:40]",
+      "confidence": "high",
+      "tags": [
+        "Riksbanken",
+        "Finansmarknaden",
+        "Politik"
+      ]
+    },
+    {
+      "quote": "Jag tror snarare att man ska se det så att vilken tur att man satte in det så att de unga inte kliver in på toppnivåer. För det är lite så, om du läser Riksbankens stabilitetsrapport, det finns ingen riksbank som skriver det så rakt ut och klart att riskerna är superhöga.",
+      "summary": "Amorteringskravet hindrade unga från att kliva in på toppnivåer",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[32:20]",
+      "confidence": "high",
+      "tags": [
+        "Bostadsmarknaden",
+        "Risker",
+        "Amorteringskrav"
+      ]
+    },
+    {
+      "quote": "De har ju ett riskindex som de har haft i 30 år. Där kan vi se att risken för en riktig smäll i svenska ekonomin är alltså högre än vad den var precis innan 90-talskrisen.",
+      "summary": "Risken för ekonomisk smäll är högre än före 90-talskrisen",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[32:30]",
+      "confidence": "high",
+      "tags": [
+        "Riskindex",
+        "Kris",
+        "Svensk ekonomi"
+      ]
+    },
+    {
+      "quote": "Det är en väldigt speciell bransch där du omsätter hur mycket som helst med lövtunna marginaler och bara det händer någonting konstigt så raderas hela världen.",
+      "summary": "Flygbolagsbranschen har lövtunna marginaler och hög risk",
+      "category": "wisdom",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "timestamp": "[18:28]",
+      "confidence": "high",
+      "tags": [
+        "Flygbolag",
+        "Risker",
+        "Marginaler"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "quote": "Då bröt ju bitcoin upp, om det var halvårshögsta eller i alla fall högsta på väldigt länge. Och gick upp 20 procent. Det spekuleras ju lite på internet var det som fick den här. Det var någon som skrev att det var någon jättestor order på flera olika marknader. Och 100 miljoner dollar som skulle in.",
+      "context": "Bitcoin bröt 5000 dollar, upp 20%",
+      "confidence": "medium",
+      "price_levels": [
+        "5000 dollar",
+        "20000 dollar"
+      ],
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "quote": "Jag hade faktiskt köpt lite eterum de senaste dagarna här av tips av lite duktiga kryptomänniskor att det såg fint ut att det var grejer på gång här.",
+      "context": "Köpt lite etherum på tips",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": "Krypto",
+      "asset_name": "Kryptovalutor generellt",
+      "sentiment": "neutral",
+      "speaker": "Host 2",
+      "speaker_role": "host",
+      "quote": "Så ska vi prata lite om att krypton bubblar... Ja men jag tror att man ska i alla fall hålla koll på nu när det bubblar lite i krypton så kommer det antingen så dör det väl ut igen eller så blir det kryptohype 2.0 och då är det alltid bra att ha lite fingrar med i spelet.",
+      "context": "Diskuterar om kryptohype 2.0",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar Oscars Properties kris, Lyft IPO, flygbolagen Norwegian och SAS, bitcoin-kryptohype, Riksbankens kritik och indexutveckling. Norwegian och SAS diskuteras i detalj - spread long SAS short Norwegian rekommenderas. Overstock presenteras som intressant blockchain-case. Bitcoin bröt 5000 dollar, upp 20%. Riksbankens kritik bemöts med att risken för smäll är högre än före 90-talskrisen.",
+  "key_takeaways": [
+    "Håll dig borta från hela fastighetsutvecklarsektorn",
+    "Spread long SAS short Norwegian",
+    "Overstock är intressant blockchain-case, men extremt volatil",
+    "Bitcoin bröt 5000 dollar - potentiell kryptohype 2.0",
+    "Risken för ekonomisk smäll högre än före 90-talskrisen"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2019-04-02-c1ce.txt",
+  "transcript_word_count": 6522,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

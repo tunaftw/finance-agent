@@ -1,0 +1,138 @@
+{
+  "source_id": "6fL4NXkQmjU",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-10-30",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Unknown",
+      "context": "Weekly breakout reclaimed 32k former macro range low, two signals packed into one: macro range reclaim and local range breakout from April-October consolidation",
+      "quote": "This weekly close has sort of two signals packed into one... the first one big range reclaim second one is Range breakout as well",
+      "price_levels": [
+        "$32k",
+        "$33-33.3k",
+        "$35k",
+        "$44-46k",
+        "$58k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Unknown",
+      "context": "Still in punishing downtrend, ETH/BTC ratio shows lack of risk appetite, real support at 0.057 broken",
+      "quote": "ETH is still not particularly great... it's been a very punishing exercise during the course certainly of this The Accelerated portion of this downtrend",
+      "price_levels": [
+        "$1935",
+        "$1745"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "INJ",
+      "asset_name": "Injective",
+      "sentiment": "strongly_bullish",
+      "speaker": "Unknown",
+      "context": "Won't stop going up, reached $14, tricky to chase into at current levels",
+      "quote": "I believe is the list inj because it just won't stop going up and it it's reaching some areas that are a bit trickier under sort of to chase into contextually",
+      "price_levels": [
+        "$14"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LINK",
+      "asset_name": "Chainlink",
+      "sentiment": "bullish",
+      "speaker": "Unknown",
+      "context": "Weekly breakout signal that is interesting, hasn't reached scary area yet",
+      "quote": "On the link front it's the weekly breakout signal that I still think is interesting and hasn't really reached a particularly scary area yet",
+      "price_levels": null,
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "strongly_bullish",
+      "speaker": "Unknown",
+      "context": "Very strong performance, trading above $33 weekly, weekly close above $30, strong relative performance against BTC and ETH",
+      "quote": "This thing remained range bound and is making pretty decent progress relative to BTC and eth so that's a that's a very interesting one",
+      "price_levels": [
+        "$24",
+        "$28-29",
+        "$30",
+        "$33"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$32k",
+        "$30k",
+        "$35k",
+        "$44-46k",
+        "$58k"
+      ],
+      "ETH": [
+        "$1935",
+        "$1745"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC weekly breakout reclaimed 32k is the most important signal - previous examples (6K reclaim, 12K breakout) led to significant upside moves",
+    "The weekly close contains two signals: macro range reclaim and local range breakout from April-October consolidation",
+    "ETH/BTC ratio shows lack of risk appetite, suggesting more room for non-frothy BTC upside",
+    "Solana showing exceptional strength relative to BTC and ETH during recent price action",
+    "Most altcoins broke market structure on daily/weekly timeframes - making selection difficult"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$33-33.3k or $32.2k",
+      "target": "$44-46k or $58k",
+      "stop": "$30k (aggressive) or $32k (conservative)",
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "ETH",
+      "direction": "avoid",
+      "entry": "N/A",
+      "target": "N/A",
+      "stop": "N/A",
+      "speaker": "Unknown"
+    },
+    {
+      "asset": "SOL",
+      "direction": "long",
+      "entry": "$28-29 area",
+      "target": "higher levels above $33",
+      "stop": "below weekly structure",
+      "speaker": "Unknown"
+    }
+  ],
+  "summary": "BTC reclaimed 32k on weekly close with dual signals (macro range reclaim + local breakout), suggesting potential for significant upside toward 44-46k if above 30k. ETH remains weak in downtrend with broken 0.057 support, lacking risk appetite versus BTC. Solana showing exceptional relative strength, INJ and LINK also on watch with breakout signals. Altcoin selection challenging given most broke structure.",
+  "transcript_word_count": 11077,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T21:49:36.456160"
+}

@@ -1,0 +1,350 @@
+{
+  "filing_id": "getinge-quarterly-2025-q2",
+  "company_id": "getinge",
+  "filing_type": "quarterly",
+  "fiscal_year": 2025,
+  "fiscal_quarter": 2,
+  "analyzed_at": "2025-12-30T10:00:00Z",
+  "model_used": "claude-opus-4-5-20251101",
+
+  "executive_summary": "Getinge delivered stable Q2 2025 with 4.1% organic sales growth and margin improvement despite significant tariff (-110 MSEK) and currency (-158 MSEK EBITA) headwinds. Paragonix exceeded expectations with positive EBITA contribution ahead of schedule. First clinical use of next-gen EVH product Vasoview Hemopro 3 in US.",
+  "key_highlights": [
+    "Organic sales growth of 4.1% with all business areas and regions contributing",
+    "Paragonix making positive EBITA contribution earlier than expected",
+    "First Vasoview Hemopro 3 clinical cases successfully conducted in US",
+    "Partnership with Zimmer Biomet for ASC segment in US",
+    "Free cash flow SEK 510 M, up from 289 M in Q2 2024",
+    "New Ultima 1600 washer launched for Life Science"
+  ],
+
+  "ceo_letter": {
+    "author": "Mattias Perjos",
+    "title": "President & CEO",
+    "word_count": 380,
+    "tone": "cautiously_optimistic",
+    "confidence_level": "medium",
+
+    "promises": [
+      {
+        "statement": "We see no need to change our long-term financial target considering tariff levels noted in Q2",
+        "metric": "eps_growth",
+        "target": ">12%",
+        "timeframe": "2024-2028",
+        "confidence_language": "see no need to change"
+      },
+      {
+        "statement": "Net sales for 2025 are expected to increase by 2-5% organically",
+        "metric": "organic_growth",
+        "target": "2-5%",
+        "timeframe": "FY 2025",
+        "confidence_language": "expected"
+      }
+    ],
+
+    "themes": [
+      {
+        "topic": "tariff_management",
+        "emphasis": "high",
+        "sentiment": "cautious"
+      },
+      {
+        "topic": "paragonix_performance",
+        "emphasis": "high",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "product_launches",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "sterile_transfer_growth",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "supply_chain_adaptation",
+        "emphasis": "medium",
+        "sentiment": "improving"
+      }
+    ],
+
+    "challenges": [
+      {
+        "challenge": "Close to -270 MSEK in tariffs and negative currency effects vs prior year",
+        "attribution": "external",
+        "tone": "explanatory"
+      },
+      {
+        "challenge": "Bio-Processing market remains challenging",
+        "attribution": "external",
+        "tone": "explanatory"
+      },
+      {
+        "challenge": "Short term forced to absorb most of tariff costs",
+        "attribution": "external",
+        "tone": "explanatory"
+      }
+    ],
+
+    "honesty_signals": [
+      "Openly acknowledges being forced to absorb most tariff costs short-term",
+      "Discusses Bio-Processing challenges and restructuring response",
+      "Mentions analyzing supply chain adaptation opportunities"
+    ],
+
+    "key_quotes": [
+      {
+        "quote": "Paragonix is continuing to impress, with another sales record in the quarter. The operations also made a positive contribution to Getinge's EBITA margin, slightly earlier than expected",
+        "category": "achievement"
+      },
+      {
+        "quote": "Short term we have been forced to absorb most of the tariff costs",
+        "category": "accountability"
+      },
+      {
+        "quote": "Given our performance and dialogue with customers, my outlook for the remainder of 2025 is positive, even though geopolitical risk is elevated",
+        "category": "commitment"
+      }
+    ],
+
+    "is_qa_format": false,
+    "questions_addressed": []
+  },
+
+  "mda_analysis": {
+    "key_narratives": [
+      "Stable organic growth across all business areas and regions despite headwinds",
+      "Paragonix integration exceeding expectations with early positive margin contribution",
+      "Price adjustment strategy successfully offsetting some tariff impact",
+      "Bio-Processing rationalization fully underway for profitable growth when demand returns"
+    ],
+    "management_interpretation": "Management views Q2 as continued positive momentum despite significant external headwinds. Focus on price adjustments and supply chain adaptation as key responses to tariff environment.",
+
+    "segment_commentary": {
+      "Acute Care Therapies": {
+        "name": "Acute Care Therapies",
+        "performance": "solid",
+        "revenue_growth_yoy": 0.02,
+        "operating_margin": 0.19,
+        "outlook": "positive",
+        "management_commentary": "Continued success handling increased ventilator demand. First Vasoview Hemopro 3 clinical cases in US. ECLS consumables order intake remains high."
+      },
+      "Life Science": {
+        "name": "Life Science",
+        "performance": "mixed",
+        "revenue_growth_yoy": 0.04,
+        "operating_margin": 0.083,
+        "outlook": "cautious",
+        "management_commentary": "Sterile Transfer growth strengthening. Bio-Processing rationalizations underway. Launched new Ultima 1600 washer. 99.9% renewable energy at Halland site."
+      },
+      "Surgical Workflows": {
+        "name": "Surgical Workflows",
+        "performance": "strong",
+        "revenue_growth_yoy": 0.06,
+        "operating_margin": 0.057,
+        "outlook": "positive",
+        "management_commentary": "Infection Control and Digital Health Solutions delivering significant growth. XEN brand products launched in US. Zimmer Biomet ASC partnership announced."
+      }
+    },
+
+    "operational_highlights": [
+      "First Vasoview Hemopro 3 clinical cases successfully conducted in US",
+      "Servo-c ventilator extended with neonatal option",
+      "Paragonix 100th kidney transplant with KidneyVault System",
+      "Complete Intra-Aortic Balloon catheter portfolio (Class III) EU MDR certified",
+      "XEN brand cleaning/disinfection products launched in US",
+      "Zimmer Biomet ASC partnership for US market"
+    ],
+
+    "concerns_mentioned": [
+      "Tariff costs of approximately SEK -110 M in quarter",
+      "Currency effects SEK -158 M on adjusted EBITA",
+      "Bio-Processing market remains challenging",
+      "Net interest-bearing debt increased after Paragonix acquisition"
+    ]
+  },
+
+  "risk_factors": {
+    "risks": [
+      {
+        "risk": "Geopolitical risks including tariffs and trade barriers",
+        "severity": "high",
+        "category": "market",
+        "change": "escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Currency fluctuations impacting profitability",
+        "severity": "high",
+        "category": "financial",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Quality risks from regulatory perspective",
+        "severity": "medium",
+        "category": "regulatory",
+        "change": "de-escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Supply chain interruptions",
+        "severity": "medium",
+        "category": "operational",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Information and data security",
+        "severity": "medium",
+        "category": "technology",
+        "change": "unchanged",
+        "is_boilerplate": true
+      },
+      {
+        "risk": "Healthcare reimbursement system changes",
+        "severity": "medium",
+        "category": "regulatory",
+        "change": "unchanged",
+        "is_boilerplate": true
+      }
+    ],
+
+    "new_risks_count": 0,
+    "removed_risks_count": 0,
+    "escalated_risks_count": 1,
+    "de_escalated_risks_count": 1,
+    "boilerplate_ratio": 0.33,
+    "top_risk_categories": ["market", "financial", "regulatory"]
+  },
+
+  "guidance": {
+    "targets": [
+      {
+        "metric": "organic_growth",
+        "value": "2-5%",
+        "period": "FY 2025",
+        "vs_previous": "maintained",
+        "notes": "Unchanged"
+      },
+      {
+        "metric": "eps_growth",
+        "value": ">12%",
+        "period": "2024-2028",
+        "vs_previous": "maintained",
+        "notes": "Long-term target maintained despite tariff headwinds"
+      },
+      {
+        "metric": "dividend_payout",
+        "value": "30-50%",
+        "period": "ongoing",
+        "vs_previous": "maintained",
+        "notes": "Of net profit to shareholders"
+      }
+    ],
+    "overall_direction": "maintained",
+    "commentary": "Positive outlook for remainder of 2025 despite elevated geopolitical risk. No change to long-term financial targets.",
+    "management_confidence": "medium"
+  },
+
+  "segments": [
+    {
+      "name": "Acute Care Therapies",
+      "revenue": 4531000000,
+      "revenue_growth_yoy": 0.02,
+      "operating_margin": 0.19,
+      "order_intake": 4589000000,
+      "order_intake_growth_yoy": 0.03,
+      "management_commentary": "Continued success with ventilators and ECLS consumables despite challenging comparatives",
+      "outlook": "positive",
+      "management_focus": "high"
+    },
+    {
+      "name": "Life Science",
+      "revenue": 1001000000,
+      "revenue_growth_yoy": 0.04,
+      "operating_margin": 0.083,
+      "order_intake": 1003000000,
+      "order_intake_growth_yoy": -0.02,
+      "management_commentary": "Sterile Transfer strengthening while Bio-Processing rationalization underway",
+      "outlook": "cautious",
+      "management_focus": "medium"
+    },
+    {
+      "name": "Surgical Workflows",
+      "revenue": 2704000000,
+      "revenue_growth_yoy": 0.06,
+      "operating_margin": 0.057,
+      "order_intake": 2803000000,
+      "order_intake_growth_yoy": 0.10,
+      "management_commentary": "Sharp increase in order intake with healthy growth in all categories and regions",
+      "outlook": "positive",
+      "management_focus": "medium"
+    }
+  ],
+
+  "financial_metrics": {
+    "revenue": 8236000000,
+    "operating_income": 989000000,
+    "net_income": 540000000,
+    "operating_margin": 0.120,
+    "net_margin": 0.066,
+    "eps": 2.25,
+    "free_cash_flow": 510000000,
+    "net_debt": 13770000000,
+    "roe": null,
+    "roic": null
+  },
+
+  "piotroski_f_score": {
+    "total": 6,
+    "interpretation": "average",
+    "signals": {
+      "positive_net_income": true,
+      "positive_ocf": true,
+      "roa_improving": true,
+      "ocf_greater_than_ni": true,
+      "leverage_declining": false,
+      "current_ratio_improving": false,
+      "no_dilution": true,
+      "margin_improving": true,
+      "turnover_improving": false
+    }
+  },
+
+  "earnings_quality": {
+    "accruals_ratio": 0.04,
+    "quality_grade": "high",
+    "ocf_to_ni_ratio": 1.23,
+    "one_time_items_impact": "minimal",
+    "owner_earnings": null
+  },
+
+  "schilit_shenanigans": {
+    "overall_risk": "low",
+    "checks": {
+      "revenue_too_soon": {"risk": "none", "notes": null},
+      "bogus_revenue": {"risk": "none", "notes": null},
+      "one_time_gains": {"risk": "none", "notes": null},
+      "deferred_expenses": {"risk": "none", "notes": null},
+      "hidden_liabilities": {"risk": "low", "notes": "Additional Paragonix purchase price payment of SEK 1,445 M for 2024 milestones properly disclosed"},
+      "cookie_jar_reserves": {"risk": "none", "notes": null},
+      "big_bath": {"risk": "none", "notes": null}
+    },
+    "red_flags": []
+  },
+
+  "working_capital_efficiency": {
+    "dso": null,
+    "dso_yoy_change": null,
+    "dio": null,
+    "dio_yoy_change": null,
+    "dpo": null,
+    "dpo_yoy_change": null,
+    "cash_conversion_cycle": null,
+    "ccc_yoy_change": null,
+    "ccc_trend": "stable",
+    "flags": []
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "filing_id": "getinge-quarterly-2025-q3",
+  "company_id": "getinge",
+  "filing_type": "quarterly",
+  "fiscal_year": 2025,
+  "fiscal_quarter": 3,
+  "analyzed_at": "2025-12-30T10:00:00Z",
+  "model_used": "claude-opus-4-5-20251101",
+
+  "executive_summary": "Getinge delivered strong Q3 2025 results with 9.5% organic sales growth and improved margins despite significant headwinds from tariffs (-108 MSEK) and negative currency effects (-128 MSEK EBITA impact). All three business areas set quarterly sales records, with Acute Care Therapies leading on ventilator demand and ECLS consumables.",
+  "key_highlights": [
+    "Organic sales growth of 9.5% - strongest quarterly performance in 2025",
+    "Adjusted EBITA margin improved 1.6 percentage points to 13.1%",
+    "CE Mark restored for Cardiosave intra-aortic balloon pump",
+    "V12 balloon expandable covered stent received approval for three additional indications",
+    "Free cash flow SEK 793 M, more than doubled vs Q3 2024",
+    "Paragonix now included organically after one year - expansion outside US accelerating"
+  ],
+
+  "ceo_letter": {
+    "author": "Mattias Perjos",
+    "title": "President & CEO",
+    "word_count": 420,
+    "tone": "cautiously_optimistic",
+    "confidence_level": "high",
+
+    "promises": [
+      {
+        "statement": "We have chosen to reiterate our financial target considering tariff levels to date",
+        "metric": "organic_growth",
+        "target": "2-5%",
+        "timeframe": "FY 2025",
+        "confidence_language": "reiterate"
+      },
+      {
+        "statement": "Average adjusted earnings per share growth: >12%",
+        "metric": "eps_growth",
+        "target": ">12%",
+        "timeframe": "2024-2028",
+        "confidence_language": "target"
+      }
+    ],
+
+    "themes": [
+      {
+        "topic": "tariff_management",
+        "emphasis": "high",
+        "sentiment": "cautious"
+      },
+      {
+        "topic": "ventilator_demand",
+        "emphasis": "high",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "regulatory_progress",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "paragonix_integration",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      },
+      {
+        "topic": "productivity_improvements",
+        "emphasis": "medium",
+        "sentiment": "positive"
+      }
+    ],
+
+    "challenges": [
+      {
+        "challenge": "Tariff costs of approximately SEK -108 M in the quarter",
+        "attribution": "external",
+        "tone": "explanatory"
+      },
+      {
+        "challenge": "Currency effects totaling SEK -236 M impact vs prior year",
+        "attribution": "external",
+        "tone": "explanatory"
+      },
+      {
+        "challenge": "Tough Q4 comparative figures ahead",
+        "attribution": "external",
+        "tone": "explanatory"
+      }
+    ],
+
+    "honesty_signals": [
+      "Acknowledges need to absorb large share of tariff costs short-term",
+      "Openly discusses tough Q4 comparative figures ahead",
+      "Quantifies specific negative currency and tariff impacts"
+    ],
+
+    "key_quotes": [
+      {
+        "quote": "We demonstrated strength in the third quarter with significant organic growth, improved profitability and cash flow - despite stronger headwinds from tariffs and negative currency effects",
+        "category": "achievement"
+      },
+      {
+        "quote": "Short term we need to absorb a large share of the tariff costs",
+        "category": "accountability"
+      },
+      {
+        "quote": "We are essentially well positioned to manage these geopolitical challenges by leveraging our leading position in key niches",
+        "category": "commitment"
+      }
+    ],
+
+    "is_qa_format": false,
+    "questions_addressed": []
+  },
+
+  "mda_analysis": {
+    "key_narratives": [
+      "Market consolidation driving ventilator demand in Acute Care Therapies",
+      "Sterile Transfer continuing strong double-digit growth in Life Science",
+      "Productivity improvements generating tangible results despite external headwinds",
+      "Price adjustment strategy remains successful"
+    ],
+    "management_interpretation": "Management views Q3 as validation of resilience strategy, with operational improvements offsetting external headwinds. Focus on niche leadership and diversified supply chain as key competitive advantages.",
+
+    "segment_commentary": {
+      "Acute Care Therapies": {
+        "name": "Acute Care Therapies",
+        "performance": "strong",
+        "revenue_growth_yoy": 0.095,
+        "operating_margin": 0.228,
+        "outlook": "positive",
+        "management_commentary": "Continued very strong performance in ventilators, ECLS therapy and Cardiac Surgery. CE Mark restored for Cardiosave."
+      },
+      "Life Science": {
+        "name": "Life Science",
+        "performance": "strong",
+        "revenue_growth_yoy": 0.10,
+        "operating_margin": 0.108,
+        "outlook": "positive",
+        "management_commentary": "Double-digit organic growth. Lead time for GSS/GEV sterilizers reduced by 20%, COGS for certain WIS capital goods reduced by 10%."
+      },
+      "Surgical Workflows": {
+        "name": "Surgical Workflows",
+        "performance": "stable",
+        "revenue_growth_yoy": 0.04,
+        "operating_margin": 0.053,
+        "outlook": "neutral",
+        "management_commentary": "Growth in Infection Control and operating tables offset by decline in capital goods order intake."
+      }
+    },
+
+    "operational_highlights": [
+      "Lead time for GSS/GEV sterilizers reduced by more than 20%",
+      "COGS for certain WIS capital goods reduced by approximately 10%",
+      "Sweden's first fully automated CSSD at Malmo University Hospital inaugurated with Getinge T-DOC",
+      "Partnership with Philips for integrated anesthesia workstation in CE markets"
+    ],
+
+    "concerns_mentioned": [
+      "Tariff costs requiring short-term absorption",
+      "Surgical Workflows organic order intake declined despite strong tables and consumables",
+      "APAC order intake declined slightly due to tough comparables in Australia"
+    ]
+  },
+
+  "risk_factors": {
+    "risks": [
+      {
+        "risk": "Geopolitical risks including tariffs and trade barriers",
+        "severity": "high",
+        "category": "market",
+        "change": "escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Currency fluctuations impacting profitability",
+        "severity": "high",
+        "category": "financial",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Quality risks from regulatory perspective (CE certifications)",
+        "severity": "medium",
+        "category": "regulatory",
+        "change": "de-escalated",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Supply chain interruptions and dependence on external suppliers",
+        "severity": "medium",
+        "category": "operational",
+        "change": "unchanged",
+        "is_boilerplate": false
+      },
+      {
+        "risk": "Information and data security / cybersecurity deficiencies",
+        "severity": "medium",
+        "category": "technology",
+        "change": "unchanged",
+        "is_boilerplate": true
+      },
+      {
+        "risk": "Healthcare reimbursement system changes",
+        "severity": "medium",
+        "category": "regulatory",
+        "change": "unchanged",
+        "is_boilerplate": true
+      },
+      {
+        "risk": "Dependence on meeting climate targets",
+        "severity": "low",
+        "category": "regulatory",
+        "change": "unchanged",
+        "is_boilerplate": true
+      }
+    ],
+
+    "new_risks_count": 0,
+    "removed_risks_count": 0,
+    "escalated_risks_count": 1,
+    "de_escalated_risks_count": 1,
+    "boilerplate_ratio": 0.43,
+    "top_risk_categories": ["market", "financial", "regulatory"]
+  },
+
+  "guidance": {
+    "targets": [
+      {
+        "metric": "organic_growth",
+        "value": "2-5%",
+        "period": "FY 2025",
+        "vs_previous": "maintained",
+        "notes": "Unchanged despite tariff headwinds"
+      },
+      {
+        "metric": "eps_growth",
+        "value": ">12%",
+        "period": "2024-2028",
+        "vs_previous": "maintained",
+        "notes": "Average annual growth target"
+      },
+      {
+        "metric": "dividend_payout",
+        "value": "30-50%",
+        "period": "ongoing",
+        "vs_previous": "maintained",
+        "notes": "Of net profit to shareholders"
+      }
+    ],
+    "overall_direction": "maintained",
+    "commentary": "Guidance maintained considering tariff levels to date. Management well positioned to manage geopolitical challenges.",
+    "management_confidence": "high"
+  },
+
+  "segments": [
+    {
+      "name": "Acute Care Therapies",
+      "revenue": 4527000000,
+      "revenue_growth_yoy": 0.095,
+      "operating_margin": 0.228,
+      "order_intake": 4416000000,
+      "order_intake_growth_yoy": 0.047,
+      "management_commentary": "Very strong performance in ventilators due to market consolidation, ECLS consumables significant",
+      "outlook": "positive",
+      "management_focus": "high"
+    },
+    {
+      "name": "Life Science",
+      "revenue": 1062000000,
+      "revenue_growth_yoy": 0.10,
+      "operating_margin": 0.108,
+      "order_intake": 1136000000,
+      "order_intake_growth_yoy": 0.11,
+      "management_commentary": "Double-digit growth led by Sterile Transfer. Significant productivity improvements achieved.",
+      "outlook": "positive",
+      "management_focus": "medium"
+    },
+    {
+      "name": "Surgical Workflows",
+      "revenue": 2637000000,
+      "revenue_growth_yoy": 0.04,
+      "operating_margin": 0.053,
+      "order_intake": 2623000000,
+      "order_intake_growth_yoy": -0.03,
+      "management_commentary": "Growth in Infection Control and operating tables, offset by capital goods order decline",
+      "outlook": "neutral",
+      "management_focus": "low"
+    }
+  ],
+
+  "financial_metrics": {
+    "revenue": 8226000000,
+    "operating_income": 1079000000,
+    "net_income": 564000000,
+    "operating_margin": 0.131,
+    "net_margin": 0.069,
+    "eps": 2.42,
+    "free_cash_flow": 793000000,
+    "net_debt": 14469000000,
+    "roe": null,
+    "roic": null
+  },
+
+  "piotroski_f_score": {
+    "total": 7,
+    "interpretation": "average",
+    "signals": {
+      "positive_net_income": true,
+      "positive_ocf": true,
+      "roa_improving": true,
+      "ocf_greater_than_ni": true,
+      "leverage_declining": false,
+      "current_ratio_improving": true,
+      "no_dilution": true,
+      "margin_improving": true,
+      "turnover_improving": false
+    }
+  },
+
+  "earnings_quality": {
+    "accruals_ratio": 0.03,
+    "quality_grade": "high",
+    "ocf_to_ni_ratio": 1.41,
+    "one_time_items_impact": "minimal",
+    "owner_earnings": null
+  },
+
+  "schilit_shenanigans": {
+    "overall_risk": "low",
+    "checks": {
+      "revenue_too_soon": {"risk": "none", "notes": null},
+      "bogus_revenue": {"risk": "none", "notes": null},
+      "one_time_gains": {"risk": "none", "notes": null},
+      "deferred_expenses": {"risk": "none", "notes": null},
+      "hidden_liabilities": {"risk": "low", "notes": "Contingent considerations for acquisitions properly disclosed"},
+      "cookie_jar_reserves": {"risk": "none", "notes": null},
+      "big_bath": {"risk": "none", "notes": null}
+    },
+    "red_flags": []
+  },
+
+  "working_capital_efficiency": {
+    "dso": null,
+    "dso_yoy_change": null,
+    "dio": null,
+    "dio_yoy_change": "Lower inventories vs prior quarter noted",
+    "dpo": null,
+    "dpo_yoy_change": null,
+    "cash_conversion_cycle": null,
+    "ccc_yoy_change": null,
+    "ccc_trend": "improving",
+    "flags": []
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "source_id": "5a1OPVDwITU",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-06-17",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "BTC in consolidation between 60-71, bounces at midpoint getting weaker, waiting for daily close above 67.3-67.4 for bullish signal",
+      "quote": "the bounces have been getting weaker so if we look at the most recent interactions with this midpoint level... at this point if I'm going to let this thing bounce or assume that we're going to attack the Range High once again the earliest indication would be a daily close back above 67.4",
+      "price_levels": [
+        "$60",
+        "$67.3-$67.4",
+        "$71"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "If BTC closes daily above 67.4 and accepts above weekly open, it would form bullish weekly candle structure",
+      "quote": "if this is a bullish weekly setup you've got the open this would be the wick portion right wick portion above the open would be the body portion of the expansion and for that to be true we need to get above this daily resistance level",
+      "price_levels": [
+        "$67.3-$67.4"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH broke down from 3600 level, bearish below 3600, bounced from that level recently but still in downtrend",
+      "quote": "we've for some time focused on this 3600 level... and that's been very important... bearish below 3600 because that's you know this ends up being a failed breakdown the breakdown from this consolidation in general bounce into resistance",
+      "price_levels": [
+        "$3600",
+        "$3700"
+      ],
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "ETH would turn bullish if it closes above 3600-3700, which would invalidate the bearish breakdown",
+      "quote": "if that the earliest sign of that being invalidated would be a close above 3600 or more if you're being more conservative with it uh you know 3700",
+      "price_levels": [
+        "$3600",
+        "$3700"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH/BTC",
+      "asset_name": "Ethereum/Bitcoin ratio",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "ETH/BTC hasn't been doing anything notable, some bounce from weekly area but gave back portion",
+      "quote": "eth BTC hasn't really been doing anything there was some bounce I think from the weekly area that we discussed on Casual Friday but you know nothing super notable and it's given back some portion of that now",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ALTCOINS",
+      "asset_name": "Altcoins",
+      "sentiment": "strongly_bearish",
+      "speaker": "Cred",
+      "context": "Altcoins looking very bad, full retrace back to October/November 2023 levels, many at April lows",
+      "quote": "altcoins look very bad uh we you know just breakdown full full full retrace I mean look we're we're sort of hovering around prices from October November of 2023 right or even if we look at the April lows in some cases that's where the market is trading at the moment",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "DOGE",
+      "asset_name": "Dogecoin",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "Dogecoin back at lows, breakdown, shitty range",
+      "quote": "Dogecoin back at the lows back at the lows breakdown back at the at the lows shitty range back at the lows",
+      "price_levels": null,
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "stable",
+    "altcoin_season_view": "no",
+    "key_levels": {
+      "BTC": [
+        "$60",
+        "$67.3-$67.4",
+        "$71"
+      ],
+      "ETH": [
+        "$3600",
+        "$3700"
+      ]
+    }
+  },
+  "key_insights": [
+    "BTC in consolidation between 60-71, bounces weakening at midpoint - needs daily close above 67.3-67.4 to signal bullish continuation",
+    "ETH broke down from key 3600 support level, remains bearish below that level, needs reclaim of 3600-3700 to turn bullish",
+    "Altcoins in significant downtrend, many trading at October/November 2023 levels or even April lows - no altcoin season",
+    "Weekly candle structure important - if BTC reclaims daily levels early in week, could form bullish weekly wick",
+    "No clear trades except potential range low setups for short-term traders on altcoins"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$67.3-$67.4 daily close",
+      "target": "$71",
+      "stop": "Below $60",
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "$3600-$3700 daily close",
+      "target": "Consolidation expansion",
+      "stop": "Below recent breakdown point",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC consolidating 60-71 with weakening bounces at midpoint - needs daily close above 67.3-67.4 for bullish signal. ETH bearish below 3600, needs reclaim of 3600-3700. Altcoins showing significant weakness, many retracing to Oct/Nov 2023 levels. Market waiting for key level reclaims to signal direction.",
+  "transcript_word_count": 5857,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T20:47:36.625089+00:00"
+}

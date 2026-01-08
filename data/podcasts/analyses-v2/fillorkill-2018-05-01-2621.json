@@ -1,0 +1,525 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2018-05-01-2621",
+  "podcast_name": "Fil eller Kille",
+  "episode_title": "Avsnitt 160 - Algos Kom Tillbaka (20180501)",
+  "episode_number": 160,
+  "date": "2018-05-01",
+  "hosts": [
+    "Andersson",
+    "host2",
+    "host3"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Nasdaq tekniskt problem och 5-timmars börsstopp",
+    "Rapportsäsong: Evo, Ericsson, gamingbolag",
+    "Norge IP-block av spelbolag",
+    "Marknadsutveckling och index",
+    "Fastighetsbostadsutvecklare"
+  ],
+  "stocks_discussed": [
+    "Evolution Gaming",
+    "Ericsson",
+    "Volvo",
+    "Lifco",
+    "Autoliv",
+    "Atlas",
+    "JM",
+    "Tobin Properties",
+    "Leo Vegas",
+    "Cherry",
+    "Kindred",
+    "Betsson",
+    "Netent",
+    "Sandvik",
+    "Biotage"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Evolution Gaming",
+      "ticker": "EVO",
+      "timestamp_start": "08:01",
+      "timestamp_end": "09:20",
+      "word_count": 250,
+      "speakers": [
+        "Andersson",
+        "host2"
+      ],
+      "primary_speaker": "Andersson",
+      "discussion_summary": "Evo kom med rapport som var inline och bättre än förväntat. Guidance sa marginalen skulle gå upp men den har gått ner mycket. Aktien gick upp 7% först, och i stället för att gå ner som vanligt trendade den upp hela vägen till 27%. Andersson kortade aktien vid 10% och fick sin dyraste förlust någonsin när den gick till 27%. SEB:s Nordic Ideas pumpade in pengar när den stod 27% upp. Dagen efter kom den ner lite men har hållit sig uppe.",
+      "quotes": [
+        {
+          "speaker": "Andersson",
+          "text": "Evo med sin härliga rapport. Och den var väl hyfsat inline lite bättre och sen så var det ju guidance. De sa att marginalen skulle gå upp, den har gått ner mycket, det har varit blankare ute, två rekar, ja det har varit lite skakigt där.",
+          "timestamp": "08:01",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Och i en normal marknad när man leker orderbooks på list då kanske den går upp 15% och sen kanske kommer ner till 10%. Så man brukar väl i alla fall komma flätt om man har börjat korta lite för tidigt. Här gick den i stället i en rak trend upp 27%. Så det blev min dyraste förlust av någonsin.",
+          "timestamp": "08:01",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Men det var väl cred, det är ju imponerande att ha en sån hög marginal som live-spel, alla säger ju alltid att det här är så enkelt att kopiera och så vidare. Så framtiden kommer ju utvisa och det är såklart jättesvårt att ha en sån här hög marknadsandel, men hittills har de ju visat att de är bäst och alla andra har misslyckats",
+          "timestamp": "09:09",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Marknadsledare med hög marknadsandel",
+          "Bästa produkten hittills, konkurrenterna har misslyckats",
+          "Marginalerna förväntas gå upp enligt guidance"
+        ],
+        "bear_case": [
+          "Lätt att kopiera enligt marknaden",
+          "Blankare ute, två rekommendationer",
+          "Hög kursvärdering"
+        ],
+        "catalysts": [
+          "Rapport reaktion visar styrka i affären"
+        ],
+        "risks": [
+          "Konkurrens",
+          "Värderingsrisk"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B",
+      "timestamp_start": "10:04",
+      "timestamp_end": "12:42",
+      "word_count": 400,
+      "speakers": [
+        "Andersson",
+        "host2",
+        "host3"
+      ],
+      "primary_speaker": "host2",
+      "discussion_summary": "Ericsson öppnade mer än 20% upp på rapporten, vilket är extremt ovanligt för ett av Nordens största bolag. Rapporten var inte jättebra - de slutade bara göra aggressiva nedskrivningar och visade vinst. Det kan vara turnaround men intjäningen är svår med Huawei som konkurrent på 5G. Gardell har köpt mycket innan och Investor gjorde en bra affär. Bolaget gör helt rätt långsiktigt men osäkert om botten är nådd på kortsikt.",
+      "quotes": [
+        {
+          "speaker": "host2",
+          "text": "Ericsson har öppnat väldigt mycket upp. Väldigt, väldigt, väldigt mycket upp. Det var väl 20%, mer än 20% till och med. Jag menar det är ju väldigt, väldigt ovallligt att en av Nordens största bolag går upp så mycket på en rapport.",
+          "timestamp": "10:04",
+          "context": "metric"
+        },
+        {
+          "speaker": "host2",
+          "text": "Rapporten, den var ju inte jättebra heller. Exakt, de har bara precis gått, åh jäklar nu visar de vinst. Men det är ju egentligen bara grattis, ni har slutat göra extremt aggressiva nedskrivningar.",
+          "timestamp": "10:30",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host3",
+          "text": "De gör väl en turnaroundcase och såna här grejer. Det är lite svårt att se varför det skulle vara 20% upp på den där rapporten. Oavsett om Ericsson får måning på torpet så är det ändå en tuff marknad. Huavé var ut en dag innan och bäsa det Q5, eller 5G jag menar. Och så att intjäningen är svår och ligger långt borta.",
+          "timestamp": "11:26",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host3",
+          "text": "Men sen kan man säga så här, Ericsson gör ju helt rätt grejer. Alltså att de rensar ut och allting är ju fullständigt nödvändigt efter idioterna som har skötit innan. Så det de gör är ju absolut bullish långsiktigt.",
+          "timestamp": "12:54",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Turnaround på gång",
+          "Rensade ut tidigare problem",
+          "Bullish långsiktigt",
+          "Gardell och Investor köper"
+        ],
+        "bear_case": [
+          "Intjäning svår på 5G-marknaden",
+          "Huawei som stark konkurrent",
+          "Rapporten var inte jättebra, bara slutade med nedskrivningar",
+          "Tuff marknad"
+        ],
+        "catalysts": [
+          "5G utrullning",
+          "Turnaround fortsätter"
+        ],
+        "risks": [
+          "Huawei konkurrens",
+          "Svag marknad för telekom"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Spelbolagssektorn",
+      "ticker": null,
+      "timestamp_start": "19:24",
+      "timestamp_end": "28:58",
+      "word_count": 800,
+      "speakers": [
+        "Andersson",
+        "host2",
+        "host3"
+      ],
+      "primary_speaker": "host3",
+      "discussion_summary": "Norge ville stoppa utländska spelbolag vilket fick Leo Vegas, Cherry, Kindred, Betsson m.fl. att falla 7%. Det visade sig handla om en popup-varning snarare än IP-block. Spelutredningen ska klaras 1 januari med licenser. Sektorn anses osexig och möjligen peakad. Höga förväntningar i kurserna, hög marknadsföringskostnad per kund, och politiska risker med potentiella skatter. Betydande skillnad mellan bolag, vissa med sportsbook kan ha bättre förutsättningar än ren casino.",
+      "quotes": [
+        {
+          "speaker": "Andersson",
+          "text": "Det kom ju en liten notis i världens gang, läste jag, att de ville stoppa alla utländska spelbolag, Norge då. Jag testade och kortade lite, satte där en kvart, hängde läpp, hämnade inte så mycket, stängde.",
+          "timestamp": "19:24",
+          "context": "thesis"
+        },
+        {
+          "speaker": "host3",
+          "text": "Jag tycker att den [gamingbranschen] är ganska osexig. Hela hosen är ju egentligen udda. Det är en strukturell förändring där monopolisterna utmanas. Det är ju en disruption precis som Telecom var en gång och en till.",
+          "timestamp": "21:41",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host3",
+          "text": "Det här är ju bolag som kanske har peakat om man säger så. Men Sverige som marknad, om du säger att de etablerade aktuella svenska spel ska tappa mer marknadsandelar, ja, absolut men. Det är väl självklart, det känns väl om fem år så kommer de att ha 10% i stället för 75%.",
+          "timestamp": "22:13",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host3",
+          "text": "Det är klart att det är fantastiska bolag på pappret. Men det tror man ska komma ihåg också att många av de här bolagen, speciellt operatörerna, hade p1-tal som var ensiffriga, trots att de växte ännu mer en gång i tiden på grund av den politiska risken.",
+          "timestamp": "23:24",
+          "context": "risk"
+        },
+        {
+          "speaker": "host3",
+          "text": "Jag tror ändå att man underskattar effekterna av en eventuell skattesmäll. Det är en ganska tacksam del av ekonomin att beskatta. Om en politiker tar makten eller ont om pengar då kan man alltid beskatta gaming, eller spel. Det är samma sak som tobak, tobakskatterna, bensin, samma sak.",
+          "timestamp": "23:43",
+          "context": "risk"
+        },
+        {
+          "speaker": "host3",
+          "text": "Jag tror att det är mycket förväntningar i de här kurserna. Det ser man ju klart och tydligt, det är Netent och EVOs fall innan.",
+          "timestamp": "24:15",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host3",
+          "text": "Jag köper inte det caset alls att det är lipstick theory case de här bolagen i lågkonjunktur. Jag tror inte på att det är lipstick theory case de här bolagen i lågkonjunktur.",
+          "timestamp": "26:05",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host3",
+          "text": "Om så fall kanske man ska hålla sig till de bolag som också har en sportsbook, alltså sportbetting, för där finns det, folk kan i alla fall inbilla sig om att de har en edge.",
+          "timestamp": "26:50",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Jag tror tyvärr inte att de människorna går igenom budget varje månad. Jag tror att i desperata tider tror jag att folk spelar ännu mer slott och kasinon, för då vill man vinna stora vinster och inte hålla på med skicklighetsspel.",
+          "timestamp": "27:40",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host3",
+          "text": "Men lovar det att den där 1115 spelar för i månaden. För om du kollar snittet vad folk spelade för så var det nästan 500 spänn i månaden. Då är det väldigt många som ligger över det. Så absolut, jag tror att du kan se att summan folk spelar för kan gå ner dramatiskt om det blir en sämre tider.",
+          "timestamp": "28:37",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Digitalisering av trött bransch",
+          "Tillväxt på andra marknader",
+          "Sportsbook kan ha edge-faktor",
+          "Folk kanske spelar mer i desperata tider"
+        ],
+        "bear_case": [
+          "Sektorn möjligen peakad",
+          "Dyrköpt tillväxt på mogen svensk marknad",
+          "Höga marknadsföringskostnader per kund",
+          "Politisk risk - kan beskattas hårdare",
+          "Regleringsrisk i Sverige och andra länder",
+          "Marginalpress över lång sikt",
+          "Kunder kan minska spel i sämre tider"
+        ],
+        "catalysts": [
+          "Spelutredning 1 januari",
+          "Licenssystem",
+          "Marknadsandelar ökar mot statliga"
+        ],
+        "risks": [
+          "Skatter",
+          "Reglering",
+          "Minskande spelbelopp i lågkonjunktur",
+          "Betfair konkurrens med bäst odds"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Autoliv",
+      "ticker": "ALIV-SDB",
+      "timestamp_start": "14:41",
+      "timestamp_end": "15:32",
+      "word_count": 150,
+      "speakers": [
+        "host2",
+        "host3"
+      ],
+      "primary_speaker": "host3",
+      "discussion_summary": "Autoliv kom med dålig rapport på fredags. Företaget ska delas upp precis som Atlas. Många köper inför uppdelningen vilket bygger en kudde. Host3 gick short men stängde tidigt på grund av uppknoppningen - det fanns köpare som skulle göra arv. Aktien studsade upp vilket gjorde det bra att inte vara för girig.",
+      "quotes": [
+        {
+          "speaker": "host2",
+          "text": "Jag tyckte att den klinaste rörde var väl ändå Autoliv i fredags. Det var typ en av de två rapporterna jag handlade också. Men där fanns det ju tid, den följde så långt och bara trendade.",
+          "timestamp": "14:41",
+          "context": "other"
+        },
+        {
+          "speaker": "host3",
+          "text": "Nu smällde jag på Autoliv, men jag stängde ju också på grund av den där avknoppningsgrejen, och då vet man att där finns det alltid de som ska göra lite arb, och det kommer inköpare, så att man är inte lika girig.",
+          "timestamp": "15:05",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Uppdelning av bolag",
+          "Köpare som ska göra arv inför split"
+        ],
+        "bear_case": [
+          "Dålig rapport",
+          "Trendade ner"
+        ],
+        "catalysts": [
+          "Uppdelning/avknoppning"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Fastighetsbostadsutvecklare",
+      "ticker": null,
+      "timestamp_start": "15:58",
+      "timestamp_end": "18:42",
+      "word_count": 400,
+      "speakers": [
+        "Andersson",
+        "host2",
+        "host3"
+      ],
+      "primary_speaker": "Andersson",
+      "discussion_summary": "JM kom med rapport i fredags och gick ner. Tobin sålt bara 3 lägenheter på 3 månader. Tobin Oskar har infört prisgaranti från teckning till tillträde. Rutger kom in i Tobin med budplikt på 23, sedan nyemission på 11 två månader senare. Bolagen har hävstång i affärsmodellen vilket gör prisfall katastrofala. USA:s homebuilders 2005-2006 var en tidig indikation. Tobin vill lämna tillbaka byggrätter.",
+      "quotes": [
+        {
+          "speaker": "Andersson",
+          "text": "Tobin hade sålt tre lägenheter på tre månader. Det måste vara jobbigt att vara fastighetsmäklare där. Jag såg att de hade börjat med en ny grej, det var ju prisgaranti. Så från den dagen man tecknade, fram till den dagen man tillträdde, så fick man dra av på priset beroende på hur mycket bostadsmarknaden har gått ner.",
+          "timestamp": "16:08",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "host3",
+          "text": "Det känns sådär om man ska vara helt ärlig. Det känns ju desperat. Desperat och de är nog ganska nära döden allihopa.",
+          "timestamp": "16:50",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Man kan ju säga att i Tobin så kom Rutger in. Han gav först en liten budplikt på 23. Försökte rädda de aktieägare som fanns kvar där. De som tackade nej fick nu två månader senare en liten belöning med nyemission på 11.",
+          "timestamp": "17:08",
+          "context": "other"
+        },
+        {
+          "speaker": "host3",
+          "text": "De har ju en hävstång i sin affärsmodell som gör att när det blir Normala människor med en normal syn på fastighetsvärlden ser ju det här som en ganska liten bump in the road när priserna faller 10-15 procent. Men för dem är det ju katastrof när du har den balansräkningen.",
+          "timestamp": "17:57",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Andersson",
+          "text": "Men om vi kollar på byggrätterna, att bolaget vill lämna tillbaka byggrätter till kommunen, då känns det inte riktigt som en vindpust då. Utan då hade man nog haft lite mer staying power.",
+          "timestamp": "19:01",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "hög",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Hög hävstång gör prisfall katastrofala",
+          "Prisgaranti desperat",
+          "Tobin bara 3 lägenheter sålt på 3 månader",
+          "Vill lämna tillbaka byggrätter",
+          "USA homebuilders 2005-2006 dåligt år som indikation"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Hög skuldsättning",
+          "Fallande bostadspriser",
+          "Försenade byggstarter"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Så länge du har rätt, då får du ju ännu mer rätt när de inte är där. Men nej men det finns ju ingen likviditet. Du kunde ju se kurskörelserna, volatiliteten i många av de pappren var helt grov. De fyller en funktion på marknaden, stabiliserar marknaden och uppenbarligen så har vi bevis på det nu.",
+      "summary": "Market makers and algorithms provide crucial liquidity that stabilizes markets. Without them, volatility increases dramatically as seen during the Nasdaq halt.",
+      "category": "wisdom",
+      "speaker": "host3",
+      "speaker_role": "host",
+      "timestamp": "32:54",
+      "confidence": "high",
+      "tags": [
+        "market makers",
+        "liquidity",
+        "volatility",
+        "algos"
+      ]
+    },
+    {
+      "quote": "Sell in me and go away, är det det man ska göra nu? Ja, jag tror det. Även fast man kan prisa in att Sydkorea och Nordkorea absolut. Det är jättepositivt och Trump kommer få fredspriset. Men jag vet inte, jag tycker mycket är inprisat.",
+      "summary": "From May to November, markets historically show worse returns with higher risk. Much may already be priced in including positive geopolitical events.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "29:34",
+      "confidence": "high",
+      "tags": [
+        "seasonality",
+        "sell in may",
+        "market timing"
+      ]
+    },
+    {
+      "quote": "Börsen har toppat, det är no way but down. Så nu ska man se om sitt hus.",
+      "summary": "Bearish market outlook - believes the market has peaked and only direction is down. Advises caution.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "31:53",
+      "confidence": "medium",
+      "tags": [
+        "bear market",
+        "market top",
+        "outlook"
+      ]
+    },
+    {
+      "quote": "Det är ingenjörsfällan som exxon tenderar att gå i ganska många gånger. Bara var femtio år ungefär. Att den som tillverkar de bästa, de finaste, de tenderar att förlora.",
+      "summary": "Engineers fallacy - companies making the best products often lose out to cheaper alternatives, similar to WWII dynamics.",
+      "category": "wisdom",
+      "speaker": "host3",
+      "speaker_role": "host",
+      "timestamp": "12:11",
+      "confidence": "medium",
+      "tags": [
+        "innovation",
+        "competition",
+        "engineering"
+      ]
+    },
+    {
+      "quote": "En kris alltid vänts med en nyemission, här slipper vi den eller? Det är den vi saknar. Det är den jag saknar. Då står man på läktaren istället.",
+      "summary": "Crises often involve new share offerings that dilute shareholders. The absence of this could be seen as unusual.",
+      "category": "wisdom",
+      "speaker": "Andersson",
+      "speaker_role": "host",
+      "timestamp": "12:29",
+      "confidence": "medium",
+      "tags": [
+        "new shares",
+        "dilution",
+        "crisis"
+      ]
+    },
+    {
+      "quote": "När man gör något, antingen det var med Nasdaqs haveri, att det var fortfarande site B, eller att det bara tar ett tid. Så det tog väl tre, fyra timmar efter rapporten hade kommit innan den började gå ner på riktigt.",
+      "summary": "In slow or disrupted markets, it takes time for news to be priced in. Even after bad reports, stocks can hold up for hours before reacting.",
+      "category": "wisdom",
+      "speaker": "Andersson",
+      "speaker_role": "host",
+      "timestamp": "13:50",
+      "confidence": "medium",
+      "tags": [
+        "market efficiency",
+        "timing",
+        "liquidity"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Episode 160 covers the Nasdaq 5-hour trading halt showing the importance of market makers for liquidity. Discussion of earnings reports including Evo's 27% surge (causing one host's biggest loss from shorting), Ericsson's 20%+ jump on a mediocre report, and struggles in gaming sector after Norway IP-block news. Real estate developers like Tobin are in crisis with only 3 apartments sold in 3 months. Hosts express bearish sentiment, believing the market has topped and recommending 'sell in May and go away'.",
+  "key_takeaways": [
+    "Nasdaq halt demonstrated algos and market makers are crucial for liquidity and market stability",
+    "Evo surged 27% on inline report, causing biggest loss for one host who shorted too early",
+    "Ericsson jumped 20%+ despite mediocre report - stopped aggressive write-downs but tough 5G competition ahead",
+    "Gaming sector faces political/regulatory risks with Norway blocking and Sweden licensing system coming",
+    "Real estate developers struggling - Tobin only 3 apartments sold in 3 months, introducing price guarantees",
+    "Bearish market outlook - hosts believe market has topped, recommend caution",
+    "May through November historically worse period for markets with higher risk"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2018-05-01-2621.txt",
+  "transcript_word_count": 7063,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

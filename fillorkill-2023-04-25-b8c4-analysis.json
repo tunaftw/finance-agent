@@ -1,0 +1,521 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2023-04-25-b8c4",
+  "podcast_name": "Phil & Kill",
+  "episode_title": "Avsnitt 421 - Hausse i rekonstruktionen",
+  "episode_number": 421,
+  "date": "2023-04-25",
+  "hosts": ["Host1", "Host2"],
+  "guests": [],
+  "main_topics": ["Rapportsäsong", "Bud", "Konsument vs OMX30", "Spotify/Viaplay/Storytel", "Amerikanskt skuldtak", "Räntor och inflation"],
+  "stocks_discussed": ["Autoliv", "Sandvik", "Alfa", "Wärtsilä", "Fingerprint", "Byggmax", "Kambi", "Särnecke", "Doxa", "Rovio", "Sensi Dose", "BIM", "Nelly", "Sint", "SBB", "MIPS", "Hexatronic", "Singe", "Spotify", "Viaplay", "Storytel", "HBO Discovery", "EG7"],
+  "recommendations": [
+    {
+      "stock_name": "Byggmax",
+      "ticker": "BMAX",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "19:57",
+      "reasoning": "Konsumentrelaterade bolag har det väldigt tufft just nu. Folk har mindre i plånbotten, konsumtionen har dragit ig rejält och syns genom konkurser och utförsäljningar på Tågaborg Centrum. Bolag mot konsument och mot Sverige är utsatta. Konsumenten kom inte tillbaka efter pandemin (\"kosläppet blev aldrig av\"). Byggmax trendar väldigt dåligt och har rapporterat sämre än förväntat.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "bättre att gå kort de här Byggmax och andra bolag som Klaus Olsson och de här som inriktar sig mot konsument, mot Sverige",
+      "sector": "Bygg och detaljhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Viaplay",
+      "ticker": "VPL",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "21:32",
+      "reasoning": "Viaplay har väldigt svårt att sälja in sin story till marknaden, trots att den nordiska verksamheten går bra. Annonsmarknaden är dålig och de förlorar väldigt mycket pengar på sin utlandsatsning. Marknaden är inte superhett med förlorande techbolag just nu. Streamingmarknaden för TV är inte mogen på samma sätt som musikmarknaden. Det finns stora drakar att slåss mot (Netflix, Disney, Discovery) och det kanske bara räcker med 1-2 betaltjänster.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "och det är väl inte superhett med ett förlorande techbolag just nu",
+      "sector": "Media och underhållning",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Spotify",
+      "ticker": "SPOT",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "21:08",
+      "reasoning": "Spotify kom med en bra rapport med fler abonnenter än väntat. Aktien är upp 70% i år. Spotify är inte det första abonnemanget man säger upp (99 kronor i en lågkonjunktur ger extremt mycket value for money). Spotify är en av drakarna i musikstreaming, jämförbart med Netflix och Disney, och har ingen direkt konkurrent. De har lyckats bevisa att de kan dra ner på kostnader samtidigt som de ökar tillväxten. Får vi lägre räntor och ett annat techklimat kan Spotify vara en bra aktie.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Om man tittar typ på CWD i USA som är IT supplier, Tech stack supplier, ett stort bolag. De sa ju att IT satsningar var ju rakningen i källan. Så det ska bli väldigt intressant att se",
+      "sector": "Media och underhållning",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Storytel",
+      "ticker": "STORY",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "23:29",
+      "reasoning": "Storytel håller precis på att vända om. De har en fin nordisk marknad och har dragit ner på expansionen. Om de kan visa att de blir mer \"readly\" i modellen, lägger mindre på marknadsföring och skapar vinst istället, kan aktien helt vändas om. De har skaffat en ny VD från HBO med ett fett optionspaket som antingen kan göra en jättestädning eller \"trolla med knäna\". Positionen är mitt emellan Spotify och Viaplay.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "skulle de kunna visa att de blir lite readly i modellen? Lägger mindre på marknadsföring och skapar lite vinst istället? Då tror jag att den helt kan vändas om",
+      "sector": "Media och underhållning",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Kambi",
+      "ticker": "KAMBI",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "09:49",
+      "reasoning": "Hosten äger Kambi och väntar på potentiellt bud, men än så länge har det inte kommit något. Har funderat mest på om det kommer, när det kommer, och vem budgivaren skulle kunna vara. Positionen har ägts länge.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag äger Kambi",
+      "sector": "Spel och betting",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "HBO Discovery",
+      "ticker": "WBD",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "24:51",
+      "reasoning": "Hosten äger aktien kvar, trots att många väljer bort den. Handlas inte särskilt dyrt om man tittar på antal abonnenter. Använder antal abonnenter som värderingsmetod.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Ja, jag har kvar lite grann",
+      "sector": "Media och underhållning",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "EG7",
+      "ticker": "EG7",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "33:09",
+      "reasoning": "Hosten äger EG7, nämnt i slutet som ägande-disklosure.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "jag äger EG7 om vi nämnde den",
+      "sector": "Gaming",
+      "market": "other",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Spotify",
+      "ticker": "SPOT",
+      "timestamp_start": "21:08",
+      "timestamp_end": "24:41",
+      "word_count": 450,
+      "speakers": ["Host1", "Host2"],
+      "primary_speaker": "Host1",
+      "discussion_summary": "Hosten diskuterar Spotify som kommit med en bra rapport med fler abonnenter än väntat. Aktien är upp 70% i år. Jämför Spotify med Viaplay och Storytel, där Spotify anses vara en av drakarna i musikstreaming med en mogen marknad och få konkurrenter. Spotify har lyckats bevisa att de kan dra ner på kostnader samtidigt som de ökar tillväxten. Hosten menar att Spotify kan vara en bra aktie om vi får lägre räntor och ett bättre techklimat. Spotify gjorde en direktnotering utan att ta in pengar men har förlorat pengar varje kvartal, trots det har de en stor kassa. Jämförelsen med Viaplay visar skillnaden: Spotify är etablerad medan Viaplay kämpar med sin positionering.",
+      "quotes": [
+        {
+          "speaker": "Host1",
+          "text": "Där får man väl säga att det var en bra rapport, de hade fått mycket mer abonnenter än väntat. Aktien är upp 70% i år. Det känns som att man helt missat det här tech-rallyt i Sverige",
+          "timestamp": "21:08",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "men avför 99 kronor i en lågkonjunktur, så får du extremt mycket value for money. Det är väl min känsla. Spotify är inte det första abanementet man säger upp",
+          "timestamp": "21:25",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host1",
+          "text": "uppenbarligen Spotify tidigare har problem att sälja in sin story, nu lyckas de bevisa att nu drar vi ner på massa kostnader, och vi lyckas öka tillväxten. Då tror ju folk på den här storyn",
+          "timestamp": "21:58",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "medan Spotify har ingen konkurrent till. Då ska du byta till någon billigare, men du har ju inte tre olika musiktjänster",
+          "timestamp": "23:12",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host1",
+          "text": "De är en av drakarna. De är en av Netflix, HBO och Disney. Så det är där skillnaden är, att de redan är en av de stora",
+          "timestamp": "23:22",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Får vi lägre räntor och ett annat techklimat igen nu, som många tror, så kan väl Spotify vara en bra aktie",
+          "timestamp": "23:49",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "upp 70% på aktien",
+        "margin": null,
+        "debt_level": null,
+        "custom": ["70% kursutveckling under 2023", "fått mer abonnenter än väntat"]
+      },
+      "thesis": {
+        "bull_case": [
+          "Starkt abonnemangsvärde (99 kr) med extremt mycket value for money",
+          "Inte första abonnemanget man säger upp",
+          "Lyckats dra ner kostnader samtidigt som tillväxten ökar",
+          "En av de stora drakarna i musikstreaming (jämförbar med Netflix, Disney)",
+          "Ingen direkt konkurrent på musikmarknaden",
+          "Kan bli bra aktie om räntorna går ner och techklimatet förbättras"
+        ],
+        "bear_case": [
+          "Har förlorat pengar varje kvartal sedan noteringen",
+          "Techklimatet är fortfarande tufft",
+          "Handlas fortfarande lägre än noteringskursen"
+        ],
+        "catalysts": [
+          "Räntesänkningar",
+          "Fortsatt kostnadsreduktioner med ökande tillväxt",
+          "Förbättrat techklimat"
+        ],
+        "risks": [
+          "Techbolag värderas hårt nu",
+          "Fortsatta förluster trots kostnadsbesparingar"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Konsumentaktier vs OMX30 (Byggmax)",
+      "ticker": null,
+      "timestamp_start": "15:58",
+      "timestamp_end": "20:54",
+      "word_count": 600,
+      "speakers": ["Host1", "Host2"],
+      "primary_speaker": "Host2",
+      "discussion_summary": "Detaljerad diskussion om skillnaden mellan OMX30-bolagen (framförallt exportbolag och industribolag) och konsumentrelaterade svenska bolag. Hosten argumenterar för att korta konsumentaktier som Byggmax, medan motparten menar att OMX30 är för högt värderat givet ränteläget. Konsumenten har drastiskt dragit ig efter pandemin (\"kosläppet blev aldrig av\"), synligt genom konkurser och utförsäljningar på Tågaborg Centrum och restauranger. Många konsumentföretag har stora skatteskulder från uppskjuten skatt. OMX30-bolagen har dock export och kan höja priser (inflationshedge), men värderingsmultipplar på 30 för mocha bolag med 3% tillväxt är inte rimligt med nuvarande räntor.",
+      "quotes": [
+        {
+          "speaker": "Host1",
+          "text": "Det känns verkligen som att konsumenten har dragit igen. Så tittar man på Omx30 som handlas runt återom Heidå, eller utdelningsskesterat. Så det är skilda världar",
+          "timestamp": "15:58",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Jag tror i alla fall att det kan vara farligt. Det finns ju alternativs nu. Så det här Tina finns ju inte mer. Och det är där jag tror att börsen får ett problem",
+          "timestamp": "17:05",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Ja, jag tror i alla fall att det är farligt att åka till Tärby Centrum och se att alla butiker har lagt ner. Och sen ska korta man om X30 eller framförallt S&P 500 på den analysen",
+          "timestamp": "17:19",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host2",
+          "text": "om vi har den här inflationen vi har och de räntor vi har, så kan du inte ha multiplar på 30 på ett moget bolag som växer 3% per år",
+          "timestamp": "07:28",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Men det är lite där marknaden är, att vissa bolag kan och vissa bolag har även gynnats",
+          "timestamp": "06:45",
+          "context": "other"
+        },
+        {
+          "speaker": "Host1",
+          "text": "bättre att gå kort de här Byggmax och andra bolag som Klaus Olsson och de här som inriktar sig mot konsument, mot Sverige. Absolut",
+          "timestamp": "19:57",
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Och sen mycket i det där retailspelset är ju också att de har rätt mycket skatteskulder för de fick ju skjuta upp",
+          "timestamp": "19:57",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Exakt, och tittar man på restauranger så det kanske var fullt onsdag, torsdag, förut, nu är det ju inte längre",
+          "timestamp": "20:31",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "multipplar på 30 för mocha bolag är för högt",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["5-7% ränta möjligt i bondmarknaden", "Utdelningssektorn runt återinvestering"]
+      },
+      "thesis": {
+        "bull_case": [
+          "OMX30-bolag har stor export och inflationshedge",
+          "Vissa bolag kan höja priser (pricing power)",
+          "Exportbolag dröjer innan konsumentdämpningen når dem"
+        ],
+        "bear_case": [
+          "Konsumenten har dragit ig dramatiskt efter pandemin",
+          "Konsumentföretag har stora skatteskulder från uppskjuten skatt",
+          "OMX30 värderat för högt (multipplar på 30 för bolag med 3% tillväxt)",
+          "TINA (There Is No Alternative) finns inte mer - 5-7% i obligationer är ett alternativ",
+          "Konsumentrelaterade svenska bolag är utsatta"
+        ],
+        "catalysts": [
+          "Rapportsäsong där konsumentbolag missar",
+          "Räntor som stannar kvar på hög nivå",
+          "Skatteskulder som måste betalas"
+        ],
+        "risks": [
+          "Räntesänkningar kan driva upp OMX30",
+          "Konsumenten kan återhämta sig snabbare än väntat"
+        ]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Bud och M&A (Särnecke, Rovio, Sensi Dose, BIM)",
+      "ticker": null,
+      "timestamp_start": "08:54",
+      "timestamp_end": "14:47",
+      "word_count": 800,
+      "speakers": ["Host1", "Host2"],
+      "primary_speaker": "Host2",
+      "discussion_summary": "Omfattande diskussion om budböljan på marknaden. Särnecke fick bud med 80% premie från Doxa, men det var en komplex struktur där Doxa ville åt byggrättsportföljen medan Särnecke skulle åternoteras. Rovio fick bud från Sega (tidigare rykte om Platica). Sensi Dose, ett litet biotekbolag värde 100 miljoner kronor, fick fyra bud från två budgivare. Diskussionen handlar om strategi för att investera i potentiella budmål: antingen investera i kraschade bolag som kan ha dolt värde för externa köpare, eller sprida insatser på många små bolag. Skillnaden i värdering mellan vad börsen kan betala och vad branschaktörer kan se i synergier.",
+      "quotes": [
+        {
+          "speaker": "Host1",
+          "text": "Det känns som att det har sprutat in bud där, det var väl Sign Up, nu var det ju Sär Nekke, det känns som att det är ganska blandat och att det finns väldigt mycket pengar på sidlinjen",
+          "timestamp": "08:54",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Jag äger Kambi",
+          "timestamp": "09:49",
+          "context": "other"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Antingen ska man hitta mot Kraschatt, där någon utifrån sig är ett stort värde",
+          "timestamp": "10:09",
+          "context": "strategy"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Det var till och med budstrid på ett litet biotecher, Sensi Dose, med två budgivare som har budat över, fyra bud har det kommit in, på ett litet bolag som är värde 100 miljoner kronor",
+          "timestamp": "10:12",
+          "context": "example"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Rovio, blev du bud på?",
+          "timestamp": "13:20",
+          "context": "example"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Om man vill köra någon form av eventbaserat då ska man köpa efter första ryktet eller efter bolaget själv går ut och sagt",
+          "timestamp": "13:38",
+          "context": "strategy"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Det finns väl över 1000 noterade bolag så det känns som att det göms massa guldklimpar. Det gäller att ha lite tålamod och kanske stoppa in en liten slant i 10 stycken sådana här än att lasta in en",
+          "timestamp": "13:56",
+          "context": "strategy"
+        },
+        {
+          "speaker": "Host1",
+          "text": "Sen så är det skillnaden också vad börsen kan betala för en tillgång och vad till exempel någon i en viss bransch kan se för värdig i det ihop med sin egen verksamhet. Det brukar ju oftast vara ett stora skillnader",
+          "timestamp": "12:32",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Host2",
+          "text": "Där får man ge någon rätt trots att det slutade med ett bud",
+          "timestamp": "13:31",
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["80% budpremie på Särnecke", "Doxa gick trots bud", "Sensi Dose värde 100 miljoner kronor", "fyra bud på Sensi Dose från två budgivare"]
+      },
+      "thesis": {
+        "bull_case": [
+          "Många pengar på sidlinjen letar efter värde",
+          "Kraschade bolag kan ha dolt värde för externa köpare",
+          "Över 1000 noterade bolag, många gömda guldklimpar",
+          "Stora skillnader i värdering mellan börsen och branschsynergier",
+          "Sprid risk över många små budkandidater istället för stor position"
+        ],
+        "bear_case": [
+          "Bud kan komma med komplexa strukturer som inte gynnar alla ägare",
+          "Kanske fel anledning att investera i kraschade bolag i hopp om bud",
+          "Det kan ta lång tid innan bud kommer",
+          "Budpremier kan redan vara prissatta i aktiekursen"
+        ],
+        "catalysts": [
+          "Strategiska översyner",
+          "Kraschade bolag med intressanta tillgångar",
+          "Industriaktörer som söker synergier"
+        ],
+        "risks": [
+          "Komplexa budstrukturer",
+          "Långa väntetider utan bud",
+          "Värderingsdifferenser kan vara överdrivna"
+        ]
+      },
+      "position_disclosure": "Host2 owns Kambi (waiting for bid)"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "en orderbok är värd noll, för den kan alltid dras tillbaka eller? Ja, värd noll skulle jag absolut inte säga, men i vissa bolag är det ju så",
+      "summary": "Diskussion om värdet av orderböcker och att de kan dras tillbaka, vilket gör dem opålitliga i vissa bolag",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "04:38",
+      "confidence": "high",
+      "tags": ["orderböcker", "värdering", "risk"]
+    },
+    {
+      "quote": "Det finns ju alternativs nu. Så det här Tina finns ju inte mer. Och det är där jag tror att börsen får ett problem",
+      "summary": "TINA (There Is No Alternative) finns inte längre när man kan få 5-7% i obligationer, vilket skapar problem för börsen",
+      "category": "wisdom",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "17:12",
+      "confidence": "high",
+      "tags": ["TINA", "räntor", "börsen", "alternativinvesteringar"]
+    },
+    {
+      "quote": "Jag menar september år 2000 eller 2001, då hade Sabir Markud och Alice alla bara nej, nu kan det inte gå ner mer. För det har gått upp 24-25 procent och sen kommer det",
+      "summary": "Historiskt exempel på att marknaden kan fortsätta falla även när alla säger att det inte kan gå ner mer",
+      "category": "lesson",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "17:51",
+      "confidence": "high",
+      "tags": ["marknadstiming", "historia", "botten", "sentiment"]
+    },
+    {
+      "quote": "När man har ägt en länge och man har hoppats på det, så när det väl händer så blir man lite så här luften går ur. Man bara skönt och sen går man vidare",
+      "summary": "När man väntat länge på något (som ett bud) och det väl händer, känns det mer tomhet än eufori",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "15:12",
+      "confidence": "medium",
+      "tags": ["investerarpsykologi", "bud", "långsiktighet"]
+    },
+    {
+      "quote": "Det finns väl över 1000 noterade bolag så det känns som att det göms massa guldklimpar. Det gäller att ha lite tålamod och kanske stoppa in en liten slant i 10 stycken sådana här än att lasta in en",
+      "summary": "Strategi att sprida risk över många små bolag med budpotential istället för stor position i ett",
+      "category": "philosophy",
+      "speaker": "Host1",
+      "speaker_role": "host",
+      "timestamp": "13:56",
+      "confidence": "high",
+      "tags": ["portföljstrategi", "bud", "riskhantering", "diversifiering"]
+    },
+    {
+      "quote": "Det blir mer tomthet. Ja exakt. För att man har våndats och hängt med så länge",
+      "summary": "Långsiktigt engagemande skapar emotionell investering och när resultatet kommer känns det mer tomt än glädjande",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "15:15",
+      "confidence": "medium",
+      "tags": ["investerarpsykologi", "tålmod", "emotionell investering"]
+    },
+    {
+      "quote": "När den stora rörelsen här är på nedsidan om ett bolag missar. Det är där man ska vara tycker jag, man kan se i alla fall hittills i rapportsäsongen",
+      "summary": "I nuvarande marknad, de stora rörelserna är på nedsidan när bolag missar, snarare än uppåt för bra rapporter",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "08:16",
+      "confidence": "high",
+      "tags": ["rapportsäsong", "marknadsentiment", "risk", "short"]
+    },
+    {
+      "quote": "99,9% av alla pengar är långa, alltid",
+      "summary": "Marknaden är per definition alltid positiv (lång) med väldigt få kortpositioner",
+      "category": "wisdom",
+      "speaker": "Host2",
+      "speaker_role": "host",
+      "timestamp": "18:45",
+      "confidence": "high",
+      "tags": ["marknadsstatistik", "long/short", "marknadsstruktur"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet diskuterar en blandad rapportsäsong där OMX30-bolag levererar stabilt men inte rör sig mycket uppåt, medan konsumentrelaterade bolag som Byggmax och Fingerprint missar kraftigt. Marknaden prissätter redan in kommande räntesänkningar men värdet är för högt givet nuvarande räntor. Konsumenten har dragit ig drastiskt efter pandemin (\"kosläppet blev aldrig av\") med synliga konkurser. Budböljan pågår (Särnecke, Rovio, Sensi Dose) men strategin för att investera i budkandidater är att sprida insatser på många små bolag. Spotify fick en bra rapport och anses vara en bra aktie om räntorna går ner, medan Viaplay kämpar. Hosten är kort index och tror inte räntorna kommer ner så fort som marknaden förväntar.",
+  "key_takeaways": [
+    "Konsumentrelaterade svenska bolag är säljkandidater (Byggmax etc)",
+    "Spotify har stark position i streaming men behöver lägre räntor för att lyfta",
+    "OMX30 är övervärderat med multiplar på 30 för bolag med 3% tillväxt",
+    "TINA finns inte mer - 5-7% i obligationer är alternativ till börsen",
+    "Budstrategi: sprida små insatser på många bolag med budpotential",
+    "Rapportsäsong visar att missar straffas hårt men bra rapporter flyter inte upp"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2023-04-25-b8c4.txt",
+  "transcript_word_count": 6189,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

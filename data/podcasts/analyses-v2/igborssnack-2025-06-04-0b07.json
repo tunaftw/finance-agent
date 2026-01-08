@@ -1,0 +1,311 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "igborssnack-2025-06-04-0b07",
+  "podcast_name": "IG Börssnack",
+  "episode_title": "Analytikern: Svenska bolaget rusar av Trump-tullarna | IG Börssnack",
+  "episode_number": null,
+  "date": "2025-06-04",
+  "hosts": [
+    "host1",
+    "host2"
+  ],
+  "guests": [
+    "Lone Wolf"
+  ],
+  "main_topics": [
+    "Trump-tullar",
+    "Rapportsäsongen",
+    "SSAB",
+    "Broadcom",
+    "Nvidia",
+    "Kryptovaluta",
+    "Makrodata",
+    "Veckans trade"
+  ],
+  "stocks_discussed": [
+    "SSAB",
+    "Nvidia",
+    "Broadcom",
+    "Coinbase"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "SSAB",
+      "ticker": "SSAB-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "15:26",
+      "reasoning": "Tullsituationen gynnar SSAB som har produktion i USA. Bolaget är lönsamt, handlas inte till för höga multiplar, och har global försäljning. Marknaden positiv till återkallade expansionsplaner.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Dels har vi med det här tullsituationen som gynnar mot bolaget. Sen så tycker jag man ska ta med och titta på SSAB om man gillar att ha ett sånt här bolag i portföljen där man får en försäljning i stor del av världen men också ett bolag som just nu är lönsamt och som inte handlas till alltför höga multiplar helt enkelt.",
+      "sector": "Materials",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Coinbase",
+      "ticker": "COIN",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "16:12",
+      "reasoning": "Statistiskt trade mot glidande 200-dagars efter S&P 500 inklusion. Historiskt återgår aktier till normalnivå efter index-nyheter. Kortade positionen och tog vinst.",
+      "price_target": "200-dagars glidande medelvärde",
+      "time_horizon": "kort sikt",
+      "quote": "Det är en veckans trade. På den här veckan har det utvecklats ganska bra. Coinbase är ner en del. Så traden på det sättet är avslutat, även om vi inte riktigt nådde 200 dagars.",
+      "sector": "Financial Services",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Korrelerar med bitcoin",
+      "catalyst_timing": "efter S&P 500 inklusion"
+    },
+    {
+      "stock_name": "Broadcom",
+      "ticker": "AVGO",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "04:00",
+      "reasoning": "Rapportspek med höga förväntningar. Handlas upp inför rapporten. Rekommenderar att invänta och se vad som händer efter rapport.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Också en halvledar jätte ska vi säga, jättelikt bolag och den kommer på torsdag. Men man kanske ska vara försiktig just som ett rapportspek som du säger. Kanske invänta och se vad som händer.",
+      "sector": "Technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "torsdag rapport"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "SSAB",
+      "ticker": "SSAB-B",
+      "timestamp_start": "12:16",
+      "timestamp_end": "15:49",
+      "word_count": 850,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host2",
+      "discussion_summary": "SSAB diskuterades i detalj som veckans case. Bolaget är ett klassiskt svenskt stålbolag med produktion i både Sverige och USA. Tullarna på stål och aluminium från USA gynnar SSAB eftersom de har amerikansk produktion som inte omfattas av tullarna. Aktien handlades upp 7,7% på tullnyheten. Marknaden gillar också att SSAB dragit tillbaka planer på en stor grön stålfabrik, vilket ses som positivt i nuvarande ekonomiska klimat. Bolaget anses vara lönsamt och handlas inte till för höga multiplar.",
+      "quotes": [
+        {
+          "speaker": "host2",
+          "text": "Det är ett förhållandevis stort bolag med väldigt många svenska ägare. De har ju produktion här i Sverige, men även i USA. De exporterar stort i stora delar av världen helt enkelt.",
+          "timestamp": "12:16",
+          "context": "other"
+        },
+        {
+          "speaker": "host2",
+          "text": "Och det har vi sett på tidigare sådana här tullar som införs, att har man produktion i länder som inte omfattas av tullar eller i USA så gynnas man ganska kraftigt och SSAB handlades ju upp 7,7% i måndags efter det här beskedet.",
+          "timestamp": "12:43",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "host2",
+          "text": "Ja och marknaden faktiskt belönade ju aktien enormt när man började den här planeringen. För då hade man ju vidlyftiga planer och man räknade på en premie på stålpriset för att det skulle vara grönt och så vidare.",
+          "timestamp": "14:02",
+          "context": "other"
+        },
+        {
+          "speaker": "host2",
+          "text": "Dels har vi med det här tullsituationen som gynnar mot bolaget. Sen så tycker jag man ska ta med och titta på SSAB om man gillar att ha ett sånt här bolag i portföljen där man får en försäljning i stor del av världen men också ett bolag som just nu är lönsamt och som inte handlas till alltför höga multiplar helt enkelt.",
+          "timestamp": "15:26",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "lönsamhet",
+          "global export"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Produktion i USA skyddar mot tullar",
+          "Lönsamt bolag",
+          "Inte för höga multiplar",
+          "Återkallade expansionsplaner ses som positivt"
+        ],
+        "bear_case": [
+          "Tullarna kan ändras eller återkallas",
+          "Potentiell vinsthemtagning efter rusning",
+          "Konjunkturoro kan påverka stålpriserna"
+        ],
+        "catalysts": [
+          "Implementering av tullar den 4 juni"
+        ],
+        "risks": [
+          "Trump ändrar tullbeslut på grund av personliga skäl",
+          "Vinsthemtagning efter 7,7% rusning",
+          "Makroekonomisk oro"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "timestamp_start": "02:33",
+      "timestamp_end": "04:14",
+      "word_count": 600,
+      "speakers": [
+        "host1",
+        "host2"
+      ],
+      "primary_speaker": "host2",
+      "discussion_summary": "Nvidia kom med en superstark rapport men aktien reagerade inte uppåt. Orsaken var outlooken för nästa kvartal som bara visade 2% ökning på intäktssidan, vilket inte tillfredsställde marknadens höga förväntningar. Trots att bolaget växer enormt (10% mot Q1 och 40% mot Q1 förra året) och har ett marknadsvärde på 3 biljoner dollar, så visar detta hur höga förväntningar kan skapa besvikelser även vid bra resultat.",
+      "quotes": [
+        {
+          "speaker": "host2",
+          "text": "Det är ju framför allt outlooken, alltså förväntningarna på nästa kvartal. Bara en tvåprocentig ökning plus minus på intäktsidan, vilket inte är jättemycket. Man ser till att de ökade 10% mot Q1 och hela 40% mot Q1 förra året.",
+          "timestamp": "03:02",
+          "context": "metric"
+        },
+        {
+          "speaker": "host1",
+          "text": "Ja, och det är väl bara att konstatera det att när man har de förväntningarna och att det går så bra, så blir det ju baksidan av det, att folk kanske aldrig riktigt är nöjda.",
+          "timestamp": "03:35",
+          "context": "wisdom"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "10% vs Q1, 40% vs Q1 förra året, 2% outlooken",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "marknadsvärde 3 biljoner dollar"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Enorm tillväxt 40% YoY",
+          "Starkt kvartal",
+          "Marknadsvärde 3 biljoner dollar visar styrka"
+        ],
+        "bear_case": [
+          "Outlooken på 2% intäktsökning är svag",
+          "Förväntningarna för höga",
+          "Höga värderingar kräver exceptionell tillväxt"
+        ],
+        "catalysts": [
+          "Nästa kvartalsrapport",
+          "AI efterfrågan"
+        ],
+        "risks": [
+          "Höga förväntningar skapar besvikelser",
+          "Om tillväxten saktar ner"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är intressant. Vi har pratat om flera sådana här handelsmönster där det liksom handlas upp i förväg. Det lyfts in i ljuset helt enkelt och man får förväntningar och sen så handlas det ner efteråt. Det är ju ett historiskt mönster vad gäller bitcoin-konferensen också.",
+      "summary": "Historiskt mönster där assets handlas upp inför events men faller efter, särskilt vid konferenser och index-inclusioner.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "07:04",
+      "confidence": "high",
+      "tags": [
+        "handelsmönster",
+        "buy the rumor sell the news",
+        "event-driven trading"
+      ]
+    },
+    {
+      "quote": "Man ska nog inte tänka i alldeles för hög korrelation mellan inflation och vad Fed gör just nu, för det finns så mycket annat i spel. Sedan har du en annan stor viktig faktor, det är ju att amerikanska budgetunderskottet som tillför så mycket likviditet till marknaden.",
+      "summary": "Fed:s räntebeslut påverkas av mer än bara inflation, inklusive budgetunderskott och marknadslikviditet.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "07:48",
+      "confidence": "medium",
+      "tags": [
+        "Fed",
+        "räntepolitik",
+        "inflation",
+        "likviditet"
+      ]
+    },
+    {
+      "quote": "Men det är också normalt att man korrigerar inför en rapportsäsong, så just det i sig är inte så otroligt.",
+      "summary": "Normalt att analytiker sänker estimat inför rapportsäsong.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "05:03",
+      "confidence": "medium",
+      "tags": [
+        "rapportsäsong",
+        "analytiker-estimat",
+        "konsensus"
+      ]
+    },
+    {
+      "quote": "Kanske invänta och se vad som händer. Och framförallt det här rapportsamtalet som är viktigt efter.",
+      "summary": "Viktigt att invänta resultaten och framförallt rapportsamtalet, inte handla inför rapport.",
+      "category": "wisdom",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "timestamp": "04:14",
+      "confidence": "high",
+      "tags": [
+        "rapportspek",
+        "trading",
+        "taktik"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "speaker": "host2",
+      "speaker_role": "host",
+      "quote": "Vi får se om det blir så stora rörelser som vi kan ha sett tidigare år. Där har vi ju sett uppemot 20% efter konferensen så att vi får se, vi är inte riktigt där ändå.",
+      "context": "Bitcoin 2025 konferens och historiska mönster efter konferenser",
+      "confidence": "medium",
+      "price_levels": [],
+      "timeframe": "kort sikt"
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "IG Börssnack diskuterade Trumps tullar och deras juridiska bakslag, vilket kan gynna börsen men osäkerheten kvarstår. Nvidia levererade en stark rapport men aktien reagerade inte upp på grund av svag outlooken. Broadcom och SSAB diskuterades som intressanta bolag inför rapportsäsongen. Veckans trade fokuserade på kortning av Coinbase och long-position i platinum. Makrodata visade att inflationen faller i USA men Fed kan sänka räntorna mindre än väntat.",
+  "key_takeaways": [
+    "Trump-tullarna på stål gynnar SSAB som har produktion i USA",
+    "Nvidia stark rapport men outlooken besvämde marknaden",
+    "Coinbase kortad efter S&P 500 inklusion baserat på statistisk trade",
+    "Platinum ses som långsiktig möjlighet på ökad smyckesefterfrågan",
+    "Fed kan sänka räntor mindre än väntat pga budgetunderskott"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/igborssnack/transcripts/igborssnack-2025-06-04-0b07.txt",
+  "transcript_word_count": 3268,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

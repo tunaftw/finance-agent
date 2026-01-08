@@ -1,0 +1,95 @@
+{
+  "source_id": "E0eOrwR-qz4",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2024-01-29",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Analyzing futures basis rates, consolidation range, and key support/resistance levels",
+      "quote": "3-month annualized basis is in a pretty reasonable spot around 10% on OKX... Nothing too concerning there... we've been in the same range between 41 and 44k for 7 weeks now",
+      "price_levels": [
+        "$41,000",
+        "$44,000-$44,500",
+        "$35,000-$37,000",
+        "$58,000-$60,000"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH/BTC weakness and overall lack of interest in ETH trading",
+      "quote": "This is just not an interesting chart... given the strength of this weekly downtrend and given the failure to reclaim 0.057... I'm still not terribly interested",
+      "price_levels": [
+        "$2,200-$2,350",
+        "0.057",
+        "0.06"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "37% pullback from highs, potential trend line meme play",
+      "quote": "From high to low this is a 37% pullback... I think this is at least worth having on your radar for that reason if this thing accelerates",
+      "price_levels": [
+        "$74",
+        "$100",
+        "$100.2"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    }
+  ],
+  "overall_market_sentiment": "neutral",
+  "market_analysis": {
+    "btc_dominance_view": "not_discussed",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$41,000",
+        "$44,000-$44,500",
+        "$35,000-$37,000",
+        "$58,000-$60,000"
+      ],
+      "ETH": [
+        "$2,200-$2,350"
+      ]
+    }
+  },
+  "key_insights": [
+    "Bitcoin futures basis at 10% is healthy, no froth in market positioning",
+    "BTC in 7-week consolidation (41-44k range) with failed break attempts on both sides",
+    "Next weekly close through 44k or below 41k more likely to be real move after fakeouts",
+    "Ethereum showing weakness vs BTC, not interesting for trading currently",
+    "Solana flagged as potential trend reversal play above $100 level"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$35,000-$37,000 or weekly break above $44,000",
+      "target": "$58,000-$60,000",
+      "stop": "Below support zone",
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC in 7-week consolidation with healthy positioning and no market froth. Waiting for weekly breakout above 44k or breakdown below 41k. ETH showing weakness across both pairs, not interesting. SOL down 37% flagged as potential trend reversal play above 100. Overall market neutral with slight bullish bias pending breakout.",
+  "transcript_word_count": 14645,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-26T22:20:43.345768"
+}

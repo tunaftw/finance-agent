@@ -1,0 +1,230 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2019-10-10-df71",
+  "podcast_name": "Market Makers",
+  "episode_title": "#103 Reporäntan repar sig",
+  "episode_number": 103,
+  "date": "2019-10-10",
+  "hosts": [
+    "Niklas",
+    "Fabian"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Reporäntan",
+    "Likviditetskris",
+    "Defensiva aktier",
+    "Utdelningsstrategier"
+  ],
+  "stocks_discussed": [
+    "SignSec",
+    "Capri Holdings",
+    "Söderberg & Partners ETF",
+    "Castellum",
+    "Holmen"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "SignSec",
+      "ticker": null,
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "09:50",
+      "reasoning": "Svagt fundamenta med endast 3 MSEK omsättning mot 70 MSEK pre-money värdering (P/S ~20). GV Persson inblandad vilket indikerar pump-and-dump potential. Tekniskt intressant för kortsiktig handel men långsiktigt undvik. Marknaden för ID-verifiering väntas dubbla men fundamentala tveksamheter.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tror inte det är något man ska gå in i. Jag tror att man ska hålla sig långs borta för den här typen av bolag.",
+      "sector": "Tech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "100% downside risk - typisk pump and dump",
+      "catalyst_timing": "Notering 2019-10-21"
+    },
+    {
+      "stock_name": "Capri Holdings",
+      "ticker": "CPRI",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "14:14",
+      "reasoning": "Forward P/E 6, price to FCF 6 - extremt billigt jämfört med peers. P/S 0.8 vs LVMH 3.6. EV/EBITDA 11 ger 100% uppsida vid värdering som marknad. Management aktieägarvänligt med 3 miljarder USD buybacks. Debt reduction plan 2.6B → 1B på 3 år. Revenue growth fin. Kina bara 7% av försäljning - minimal risk men också uppväxningspotential.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Forward PE på 6, price to FCF på 6 också, vilket gör att det är så otroligt billigt jämfört med historisk värdering.",
+      "sector": "Mode/Lyxvaror",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Kina-backlash risk, brand integration challenges",
+      "catalyst_timing": "Debt reduction pågående 3 år"
+    },
+    {
+      "stock_name": "Söderberg & Partners Högutdelande ETF",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Fabian",
+      "speaker_role": "host",
+      "timestamp": "20:27",
+      "reasoning": "Fokuserar på stabila bolag med högst direktavkastning och lägst volatilitet. Lika viktad (equal-weighted) ger historiskt 15% vs 8% marknadsviktat. Mål ~4% direktavkastning. Största innehav: Telia, Castellum, Holmen. Utbetalning av utdelning till konton. Historiskt slagit OMX och OMX Stockholm PI. Defensiv positionering för krasch-skydd med rotation in i defensiva bolag före lågkonjunktur.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag har köpt lite själv som sagt. Tyvärr är det endast med CIMETF, enligt mig i alla fall, att det är lite svårt att måna en sparare i dem.",
+      "sector": "ETF",
+      "market": "sweden",
+      "position_context": "Köpt liten position",
+      "downside_note": "Defensiva bolag faller i krasch men återhämtar sig",
+      "catalyst_timing": "Rotation in i defensiva bolag"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Capri Holdings",
+      "ticker": "CPRI",
+      "timestamp_start": "10:46",
+      "timestamp_end": "16:17",
+      "word_count": 450,
+      "speakers": [
+        "Fabian",
+        "Niklas"
+      ],
+      "primary_speaker": "Fabian",
+      "discussion_summary": "Capri Holdings äger Michael Kors, Jimmy Choo och Versace. Aktien ned 58% YoY men handlas extremt billigt med forward P/E 6 och P/S 0.8. Management har gjort 3 miljarder USD i buybacks på 5 år och har aggressiv plan att minska skulden från 2.6 till 1 miljard USD. Kina utgör bara 7% av marknaden vilket minimerar risk men ger uppväxningspotential. Jämfört med LVMH som handlas på P/S 3.6 finns det 300% uppsida om värderingen justeras.",
+      "quotes": [
+        {
+          "speaker": "Fabian",
+          "text": "Capri Holdings har ett kagger på strax över 4 % i omsättning, men vinsten är nere nu på 2015 nivåer så det har backat lite. Däremot är management väldigt aktieägarvänligt. De har gett tillbaka cirka 3 miljarder dollar senast fem åren i form av buybacks.",
+          "timestamp": "11:29",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Fabian",
+          "text": "Forward PE på 6, price to FCF på 6 också, vilket gör att det är så otroligt billigt jämfört med historisk värdering. Framförallt ser det extremt billigt ut jämfört med peers.",
+          "timestamp": "14:14",
+          "context": "metric"
+        },
+        {
+          "speaker": "Niklas",
+          "text": "Kollar du på Capri Holding så ligger de på 0,8, där har du 300% uppsida om man skulle få samma värdering på dem.",
+          "timestamp": "15:47",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 10,
+        "forward_pe": 6,
+        "ev_ebitda": 11,
+        "ps_ratio": 0.8,
+        "fcf_yield": "16.7%",
+        "dividend_yield": "4%",
+        "revenue_growth": "Fin och jämn uppåt",
+        "margin": "Nere på 2015 nivåer",
+        "debt_level": "2.6 miljarder USD",
+        "custom": [
+          "Buybacks 3 miljarder USD på 5 år",
+          "Debt reduction plan: 2.6B → 1B på 3 år"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Forward P/E 6 extremt billigt",
+          "Management aktieägarvänligt med buybacks",
+          "Aggressiv debt reduction plan",
+          "Lågt Kina-exponering 7% ger uppväxningspotential",
+          "EV/EBITDA 11 vs peers ger 100% uppsida"
+        ],
+        "bear_case": [
+          "Överbetalt för Jimmy Choo och Versace",
+          "Svårt att integrera upscale märken med Michael Kors",
+          "Kina-backlash risk från Hongkong t-shirt kontrovers",
+          "Vinst nere på 2015 nivåer"
+        ],
+        "catalysts": [
+          "Debt reduction pågående 3 år",
+          "Värderingskorrigerin till nivå med peers",
+          "Tillväxt i Kina marknaden"
+        ],
+        "risks": [
+          "Brand integration misslyckas",
+          "Kina politisk risk",
+          "Lyxvaror konjunkturellt känsliga"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag känner hellre att titta på någonting som har kvalitet och det är det som vi vet att de kommer att leverera åt om och om igen.",
+      "summary": "Fokusera på kvalitetsbolag med förutsägbar intjäning istället för spekulation.",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "20:26",
+      "confidence": "high",
+      "tags": [
+        "kvalitet",
+        "värdeinvestering",
+        "förutsägbarhet"
+      ]
+    },
+    {
+      "quote": "Den typen av bolag ska man akta sig för. Det blir precis som att investera i forskningsbolag och sådana saker. Antingen får vi ett positivt resultat på studien och då blir det värt hur mycket som helst. Eller så får vi ett negativt resultat och då blir det inte värt någonting.",
+      "summary": "Undvik bolag som hänger på ett nästa spelprodukt eller forskningsresultat - för stor risk.",
+      "category": "lesson",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "20:04",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "diversifiering",
+        "biotech/tech risk"
+      ]
+    },
+    {
+      "quote": "Gör någon typ av play där, kanske försöka vara lite konträriska, plocka in lite sektorer som är lite mindre än vad de har varit i stort sett till hur mycket de utgör index och börsen som helhet.",
+      "summary": "Var konträr och köp sektorer som minskat vs historiska nivåer.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "27:30",
+      "confidence": "medium",
+      "tags": [
+        "konträrian",
+        "sektorallokering",
+        "trendanalys"
+      ]
+    },
+    {
+      "quote": "Tittar vi på Castellum, de har ju haft, jag vet inte hur många år det är nu, men extremt många år i alla fall av ökade utdelningar varje år. Jag tror att det är typ 17 år och de lär fortsätta göra det.",
+      "summary": "Föredrar bolag med lång historik av ökade utdelningar som Castellum.",
+      "category": "philosophy",
+      "speaker": "Niklas",
+      "speaker_role": "host",
+      "timestamp": "24:55",
+      "confidence": "high",
+      "tags": [
+        "utdelning",
+        "kassaflöde",
+        "historik"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar reporäntan och likviditetsbrist i banksystemet, SignSec IPO som pump-and-dump kandidat (undvik), Capri Holdings som extremt undervärderat lyxvarubolag (watch), och Söderberg & Partners högutdelande ETF som defensiv position (buy). Rekommendationer fokuserar på defensiva bolag med hög direktavkastning, låg volatilitet och stark kassaflöde, med rotation in i dessa sektorer inför potentiell lågkonjunktur.",
+  "key_takeaways": [
+    "Reporäntan spike indikerar bankernas bristande förtroende och systemrisk",
+    "SignSec IPO rekommenderas undvikas på grund av svaga fundamenta och pump-and-dump karaktär",
+    "Capri Holdings handlas på forward P/E 6 med 100% uppsida vid värdering som peers",
+    "Söderberg & Partners Högutdelande ETF ger stabilitet genom låg volatilitet och ~4% direktavkastning",
+    "Defensiva sektorer (fastigheter, skog, utdelningsaktier) bör presterara bättre vid konjunkturoro"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marketmakers/transcripts/marketmakers-2019-10-10-df71.txt",
+  "transcript_word_count": 6694,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

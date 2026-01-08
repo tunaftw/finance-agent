@@ -1,0 +1,148 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marknaden-2025-05-07-c449",
+  "podcast_name": "Marknaden",
+  "episode_title": "Taiwan, del 1: Den olösliga konflikten",
+  "episode_number": null,
+  "date": "2025-05-07",
+  "hosts": [
+    "Unknown"
+  ],
+  "guests": [
+    "Johan Morslin"
+  ],
+  "main_topics": [
+    "Taiwan",
+    "TSMC",
+    "Kina",
+    "Geopolitik",
+    "Chipindustri"
+  ],
+  "stocks_discussed": [
+    "TSMC",
+    "NVIDIA"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "AMF Räntefond kort",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan Morslin",
+      "speaker_role": "guest",
+      "timestamp": "[48:26]",
+      "reasoning": "I samband med oroliga tider anges korta räntefonder som en trygg form av fondsparande. AMF Räntefond kort fokuserar på högsta kreditbetyg. Samtliga investeringar innebär risk, vilket framgår explicit.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det är ju väldigt oroliga tider och just korta räntefonder är den tryggaste formen av fondsparande så det kan absolut vara läge.",
+      "sector": null,
+      "market": "unknown",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "TSMC",
+      "ticker": "2330.TW",
+      "timestamp_start": "[08:59]",
+      "timestamp_end": "[12:57]",
+      "word_count": 800,
+      "speakers": [
+        "Värd",
+        "Gäst"
+      ],
+      "primary_speaker": "Värd",
+      "discussion_summary": "TSMC grundades 1987 som ett halvstatligt bolag som en del av Taiwans strategi att skapa ekonomiskt försvar. De specialiserade sig på tillverkning av andra företags chipdesigner (Foundry-verksamhet) och dominerar idag tillverkningen av världens mest avancerade 3-nanometer chip med nära 100% marknadsandel.",
+      "quotes": [
+        {
+          "speaker": "Värd",
+          "text": "Man startade enkelt uttryckt ett företag som heter TSMC. Precis, som står för Taiwan Semiconductor Manufacturing Company.",
+          "timestamp": "[08:59]",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Värd",
+          "text": "Om man tittar på tillverkningsandelar, hur det ser ut inom de mest avancerade chipen vi har idag, som jag kallar det 3 nanometers chip, där noden är 3 nanometer, då är man i princip de enda som klarar av det faktiskt. Av chip som säljs idag, eller som har sålts hittills, så pratar vi nära 100 procent.",
+          "timestamp": "[13:12]",
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "~100% marknadsandel av 3nm chip"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Dominerar tillverkningen av världens mest avancerade chip (3nm)",
+          "Strategiskt viktigt för världens teknikutveckling",
+          "Ekosystem av kompetens och leverantörer svårt att kopiera"
+        ],
+        "bear_case": [
+          "Geopolitisk risk i Taiwan-sundet",
+          "Konfliktrisk med Kina"
+        ],
+        "catalysts": [
+          "AI-utveckling",
+          "Ökad efterfrågan på avancerade chip"
+        ],
+        "risks": [
+          "Krig/invasion",
+          "Störningar i leveranskedjan"
+        ]
+      },
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Men det gör jag nu. Och jag kan säga redan nu att det kommer inte räcka med ett avsnitt. Så nu kör vi Taiwan money i två aktor här. Ett den här veckan och ett nästa vecka.",
+      "summary": "Komplexa geopolitiska ämnen kräver utförlig behandling och kan inte reduceras till en yta diskussion.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "[04:05]",
+      "confidence": "high",
+      "tags": [
+        "geopolitik",
+        "analysdjup"
+      ]
+    },
+    {
+      "quote": "Så man kan väl på vissa sätt kalla det för ett redan pågående lågintensivt krig. Eller vad man ska kalla det.",
+      "summary": "Geopolitiska konflikter kan pågå under radarn som lågintensiv krigföring innan de eskalerar till öppet krig.",
+      "category": "wisdom",
+      "speaker": "Värd",
+      "speaker_role": "host",
+      "timestamp": "[19:54]",
+      "confidence": "high",
+      "tags": [
+        "konflikt",
+        "Kina-Taiwan"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet diskuterar Taiwans geopolitiska situation och dess dominerande roll i världens chipproduktion genom TSMC. Man utforskar historien bakom Taiwans status som egen stat och relationen till Kina, samt USA:s strategiska ambiguitet i regionen.",
+  "key_takeaways": [
+    "TSMC dominerar tillverkningen av världens mest avancerade chip med nära 100% marknadsandel",
+    "Taiwan utvecklade sin tekniska sektor som ett strategiskt försvar mot Kina",
+    "Kina har uttalat målet att återförena Taiwan med fastlandet senast 2049",
+    "USA balanserar sitt stöd till Taiwan med strategisk ambiguitet"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/marknaden/transcripts/marknaden-2025-05-07-c449.txt",
+  "transcript_word_count": 7696,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

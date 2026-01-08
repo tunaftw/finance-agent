@@ -1,0 +1,686 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "borspodden-2021-06-02-bebe",
+  "podcast_name": "Börspodden",
+  "episode_title": "Avsnitt 406 - Har Jokern checkat ut?",
+  "episode_number": 406,
+  "date": "2021-06-02",
+  "hosts": [
+    "Johan",
+    "John",
+    "Fredrik"
+  ],
+  "guests": [
+    "Magnus Andersson",
+    "Richard Bentefor"
+  ],
+  "main_topics": [
+    "Skattepolitik",
+    "IPO-marknaden",
+    "Insynshandel",
+    "Digitalisering"
+  ],
+  "stocks_discussed": [
+    "Checkin.com",
+    "Elos Medtech",
+    "Elekta",
+    "Xano",
+    "LMK Group",
+    "Vitrolife",
+    "Clas Ohlson",
+    "Kinnevik",
+    "Evolution Gaming",
+    "Netflix",
+    "LVMH",
+    "Apple",
+    "Embracer Group"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Checkin.com",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "15:30",
+      "reasoning": "Checkin.com gick in på 15,50 kronor men handlades på över 200 kronor vid inspelningstillfället, vilket ger ett börsvärde på cirka 4 miljarder. Förra året gjorde bolaget 22 miljoner i intäkter och 2 miljoner i EBITDA. Marknaden har tagit ut precis allt i förskott. Det skulle krävas fantastisk tillväxt i många år för att växa in i värderingen. Rekommendationen är att ta hem vinsten om man är med på resan.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Och om man av någon outgrundlig anledning lyckats vara med på den här resan ända hit så skulle jag säga att det är bara att säga tack och hej nu för att det här kommer inte hålla.",
+      "sector": "Teknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Betydande nedgång från toppnivåer",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Elos Medtech",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "15:53",
+      "reasoning": "Elos aktie har gått upp 27 procent på en månad och stängt vid den föreslagna budkursen på 215 kronor. Det finns tecken på uppenbar insiderhandel. Rekommendationen är att hålla ögonen på utvecklingen kring potentiellt köp men observera insiderhandeln som pågått.",
+      "price_target": 215,
+      "time_horizon": "kort sikt",
+      "quote": "Kanske är det något för varabon Ole Aronsson på Breakit att nysta i kan jag tycka. För det här är en av de mest uppenbara insideraffärerna man har sett på länge.",
+      "sector": "Medtech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Budprocess pågår"
+    },
+    {
+      "stock_name": "Elekta",
+      "ticker": "EKTA-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "18:06",
+      "reasoning": "Elekta rapporterade blandade siffror med sämre omsättning och resultat, men orderingången steg med 18 procent organiskt - ett tecken på att marknaden återhämtar sig. Bolaget siktar på över 7 procent i årlig tillväxt till 24-25 med ökande EBIT-marginaler. Guidance känns försiktig och det finns goda möjligheter att överträffa. Aktien är ett återhämtningscase med upptämt behov framför sig.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Det känns spontant som en ganska försiktig och tråkig guidance, som jag tror och tycker att man har goda möjligheter att överträffa. Aktien har fått någon höjning efter rapporten, och även om det inte är något jättefint så kanske den kan vara helt okej bara på det faktum att de har en återhämtning och ett upptämt behov framför sig.",
+      "sector": "Medtech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Rapporter Q3 och Q4 2021"
+    },
+    {
+      "stock_name": "Xano",
+      "ticker": "XANO-B",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "19:58",
+      "reasoning": "Xano har nästan dubblats på en månad och ett obetydligt miniförvärv (omsättning 56 miljoner danska kronor, ingen vinstpåverkan) fick aktien att gå 10-tals procent. Bolaget är nu värderat till över 3 miljarder. Detta är ett exempel på bubbla i serieförvärvar-sektorn och det finns ingen rimlig möjlighet att försvara börsvärdet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag tycker inte Xano eller Zano har någon rimlig möjlighet att försvara den här typen av börsvärde som de har just nu faktiskt.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "LMK Group",
+      "ticker": "LMK",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "21:00",
+      "reasoning": "LMK Group (Linas matkasse) rapporterade fortsatt positiv trend med 34 procents tillväxt i Q1 och EBITDA-steg från dryga 30 till dryga 40 miljoner. Aktien handlas runt 71 kronor (noteringskurs 79,50). P/E-talen för i år och nästa år är P13, P14. Marknaden är orolig för reopening-effekt men om man tror på matkasse-modellen kan det finnas värde här. Värderingen är ganska låg men modellen är tveksam.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Och det är klart att det kan finnas ett läge här om man lyckas få många att delvis ändra på sitt beteende. Och tror man på den här matkass-modellen så är det nog läge att titta på LMK nu. Personligen så är jag fortsatt tveksam till hela modellen och avstår men det skulle kunna finnas lite värde här.",
+      "sector": "E-handel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Kommande kvartalsrapporter"
+    },
+    {
+      "stock_name": "Vitrolife",
+      "ticker": "VITR",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "23:57",
+      "reasoning": "Vitrolifes P1-tal ligger kring 80, vilket känns rimligt eftersom ett människoliv är cirka 80 år. Aktien har fått fart på Kinas nya barnfödarpolitik (tre barn tillåtna) men multiplarna är orimligt höga. Bure är näst största ägare och om man vore Bure skulle man casha hem lite nu.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men oavsett om man får tre barn eller inte i Kina, så går det inte för mig att betala de här multiplarna för Vitro Life. Jag misstänker att Bure är rätt så sugna att börja sälja av en liten del faktiskt av det här guldägget som de har kommit över.",
+      "sector": "Medtech",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Clas Ohlson",
+      "ticker": "CLS-B",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "25:16",
+      "reasoning": "Clas Ohlson rapporterade omsättning ner 6 procent men EBIT kom under förväntningar. Utdelningen på 6,25 var högre än estimater och majförsäljningen var bättre än väntat. Bolaget hade en konstig pandemivinnarperiod vilket ger svåra jämförelsetal men förbereder sig för mer normal marknad i höst. Är man positiv så köper man nu som ett re-opening case inför hösten.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Om man är positiv så köper man det här nu som ett re-opening case inför hösten.",
+      "sector": "Detaljhandel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Hösten 2021"
+    },
+    {
+      "stock_name": "Kinnevik inlösenrätt",
+      "ticker": "KINV",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "speaker_role": "host",
+      "timestamp": "26:33",
+      "reasoning": "Kinnevik inlösenrätter ger nästan 10 procent rabatt på Zalando-aktier. 143 inlösenrätter kostar 164 kronor (23 452 kr totalt) och ger 28 Zalando-aktier. Det blir en kostnad på 837 kronor per Zalando-aktie jämfört med 921 kronor på tyska börsen. Det finns risk att man blir inlåst under konverteringsperioden men rabatten är för stor för att ignorera.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Man får nästan 10 procent i rabatt på att göra den här traden. Men jag tycker ändå att det är en intressant trade och dels har man vanliga Zalando-aktier så kan man bara sälja av dem och köpa Kinnevik inlösenrätter istället.",
+      "sector": "Finans",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Inlåsningsrisk under konvertering",
+      "catalyst_timing": "Konverteringsperiod"
+    },
+    {
+      "stock_name": "Evolution Gaming",
+      "ticker": "EVO",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "56:14",
+      "reasoning": "Evolution är Sveriges bästa bolag med unik affärsmodell. De har monopol på livecasino i Nordamerika och 75-80 procent av Europamarknaden. Bolaget lägger inte ett öre på reklam men har bättre och mer populära spel. Livecasino växer på övrigt online casinos bekostnad. Adresserbar marknad är gigantisk eftersom fysisk casino fortfarande är 85-90% av marknaden. Insiderförsäljningen var bara 14% av grundarnas innehav. Ledningen äger aktier för miljarder.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Vad ska jag säga om Evolution, det är väl Sveriges bästa bolag. De har ju monopol kan man säga, nu låter det som att det bara är de som är tillåtna då, men de har ju ett faktiskt fortfarande monopol i Nordamerika. De är enda leverantören där på en marknad som håller på att vakna, som blir fullständigt jättestor.",
+      "sector": "Spel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "USA marknadsexpansion"
+    },
+    {
+      "stock_name": "Netflix",
+      "ticker": "NFLX",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "42:12",
+      "reasoning": "Netflix är en fantastisk coronavinnare men har en enastående affärsmodell. De är världens första globala TV-kanal med närvaro i 200 länder. Varje ny kund är i princip renvinst och varje krona prishöjning går rakt ner till vinstföreskatt. De har lägre churn än konkurrenterna och de som skaffar Disney+ har det vid sidan av, istället för att byta bort Netflix. Världen är stor och bredbandsutbyggnaden pågår i många länder vilket driver tillväxten.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "De är ju den första globala TV-kanalen, kan man säga. De är ju oerhört dominanta på marknaden. Det får man inte glömma bort. De har närvaro, nu är det 200 länder och territorier. Och det de gör nu är väl egentligen samma sak som många andra sådana här bolag, som Amazon och så, att man försöker, eller framgångsrikt, förbättrar sina marginaler på, ja, höjer priserna, helt enkelt.",
+      "sector": "Media",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "LVMH",
+      "ticker": "MC.PA",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "47:22",
+      "reasoning": "LVMH är Europas största bolag med en oslagbar affärsmodell. De har ca 80 dotterbolag och när människor får mer pengar kommer fler in i målgruppen för lyxvaror. Produkter som kostar 10-20 000 kronor är överkomliga för medelklass. De höjer priserna långt över inflationen och rear aldrig ut. Det finns nästan inget lager. Bolaget har överlevt revolutioner och två världskrig och är konjunktursäkert eftersom kunderna har pengar även vid lågkonjunktur. Aktien handlas runt 600 euro men kan nå 1000 euro.",
+      "price_target": 1000,
+      "time_horizon": "lång sikt",
+      "quote": "Det påminner lite om det digitala för det finns nästan inget lager som man måste göra sig av med. Det är oerhört lite i alla fall för att folk betalar väldigt gärna för deras grejer. Jag tror absolut att det är bara att titta på hur det går för att bara gå bakåt. Det går lite upp och ner men om man drar ut den långa grafen till 2010 eller 2000 så ser man hur det går.",
+      "sector": "Lyxvaror",
+      "market": "europe",
+      "position_context": "Äger sedan 2016",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Apple",
+      "ticker": "AAPL",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "01:08:38",
+      "reasoning": "Apple ägs både av Magnus och hans fru samt barnen. Bolaget har en enormt stark affärsmodell med service-segmentet som växer med hög marginal. Service-segmentet inkluderar prenumerationer, garantier, mjukvara och 30% avgift på appförsäljning. Det är en guld-grävande maskin. Företaget är helt osannärbart och har visat att man kan fortsätta växa efter iPhone-succén genom service-segmentet.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Det är ju helt osannärbart egentligen. Det blir ju hur mycket pengar som helst och så det är ju det. Täljer ju guld, någonting som växer väldigt snabbt och har hög marginal är ju inte helt fel.",
+      "sector": "Teknik",
+      "market": "us",
+      "position_context": "Äger privat, frun äger, barnen äger",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Embracer Group",
+      "ticker": "EMBRAC-B",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "01:07:00",
+      "reasoning": "Embracer Group ägs av barnen till Magnus. Han är oerhört imponerad av vad Lars Wingefors gör. Wingefors sticker ut med sin ledningsförmåga och är nära topp tre i Sverige för bolagsledningar. Det är en intressant spelbolags-innehav som växer.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag är ju oerhört imponerad av, av, av Wingerfors gör och så, det tycker jag är roligt. Det är vad jag är ju oerhört sen in i eftersom jag inte kan liksom, jag är ingen gamer överhuvudtaget men, ja, man kan ju, om man har lite erfarenhet och följt många ledningar och så där och lyssnat på dem så är det väldigt tydligt när någon sticker ut på det sätt som han gör.",
+      "sector": "Spel",
+      "market": "sweden",
+      "position_context": "Äger för barnen",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Evolution Gaming",
+      "ticker": "EVO",
+      "timestamp_start": "56:00",
+      "timestamp_end": "01:05:30",
+      "word_count": 1800,
+      "speakers": [
+        "Magnus Andersson",
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Magnus Andersson",
+      "discussion_summary": "Magnus Andersson ger en detaljerad analys av Evolution Gaming som han kallar Sveriges bästa bolag. Bolaget har gått från att vara ett litet okänt företag värderat till några miljarder 2017 till att nu dominera marknaden med 75-80% av Europamarknaden och monopol i Nordamerika. De har en unik affärsmodell utan reklamkostnader och konkurrenterna ligger långt efter. Insiderförsäljningen diskuteras men Magnus menar att den är förstorad. Den adresserbara marknaden är gigantisk eftersom fysisk casino fortfarande är 85-90% av marknaden.",
+      "quotes": [
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Vad ska jag säga om Evolution, det är väl Sveriges bästa bolag. Och nu störs det säkert många på att jag säger nånting sånt, men då vill jag gärna höra vilket annat bolag som lyckas bättre än Evo de senaste åren.",
+          "timestamp": "56:14",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Om jag, jag vet inte vad det var, kanske hade 40-50 procent av Europamarknaden. Det här är ju väldigt osäkra siffror, det finns ju ingen officiell statistik. Men se att man hade 40-50 procent av Europamarknaden då 2017-2018 där, så har vi med kanske 75-80 procent av marknaden. De har ju monopol kan man säga.",
+          "timestamp": "58:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "De har ju ett unikt erbjudande. Deras spel är oerhört mycket bättre och oerhört mycket mer populära. Och det är ju, jag menar det är som egentligen vad som helst i underhållningen att det är ju kunden, slutkunden, spelaren som bestämmer vilka som ska tjäna pengar.",
+          "timestamp": "59:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Evolution lägger inte ett öre på reklam. Ja, man kanske har viss marknadsföring på mässor och så, men ingen reklamkostnad att tala om sådär.",
+          "timestamp": "59:37",
+          "context": "metric"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Jag menar, den adresserbara marknaden för live-casino, den är ju så gigantiskt mycket större än dagens marknad eftersom det är den stora omställningen ifrån fysisk casino som kanske fortfarande är en 85-90% av marknaden i världen.",
+          "timestamp": "01:01:00",
+          "context": "catalysts"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Skulle de ha sålt 80 procent, då finns det verkligen anledning. Jag menar, människor måste ju, jag vet inte, om du satt med ett innehav på 30 miljarder skulle inte du vilja ta ut det och göra någonting annat och investera i lite fler bolag då?",
+          "timestamp": "01:04:20",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Höga och ökande marginaler",
+        "debt_level": null,
+        "custom": [
+          "75-80% marknadsandel Europa",
+          "Monopol Nordamerika",
+          "0% reklamkostnad"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Monopol på livecasino i Nordamerika",
+          "75-80% marknadsandel i Europa",
+          "Unik affärsmodell utan reklamkostnader",
+          "Ökande marginaler",
+          "Kvalitetsprodukter som dominerar marknaden",
+          "Ledningen äger aktier för miljarder"
+        ],
+        "bear_case": [
+          "ESG-stämpel har dragit ned värdering tidigare",
+          "Insiderförsäljning av grundare"
+        ],
+        "catalysts": [
+          "USA marknadsexpansion för online-spel",
+          "Övergång från fysisk till online casino",
+          "Livecasino växer på övrigt online casinos bekostnad"
+        ],
+        "risks": [
+          "Regulatoriska risker",
+          "Konkurrens från Playtech",
+          "Marknadssvängningar"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Netflix",
+      "ticker": "NFLX",
+      "timestamp_start": "42:12",
+      "timestamp_end": "46:50",
+      "word_count": 1200,
+      "speakers": [
+        "Magnus Andersson",
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Magnus Andersson",
+      "discussion_summary": "Magnus Andersson diskuterar Netflix som en fantastisk coronavinnare med en enastående affärsmodell. Bolaget är världens första globala TV-kanal med närvaro i 200 länder. Varje ny kund är i princip renvinst och prishöjningar går rakt ner till vinstföreskattet. De har lägre churn än konkurrenter och bredbandsutbyggnaden globalt driver fortsatt tillväxt. Lokala konkurrenter som Disney+ köps parallellt med Netflix, istället för att ersätta det.",
+      "quotes": [
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Netflix är ett fantastiskt bolag. De är ju den första globala TV-kanalen, kan man säga. De är ju oerhört dominanta på marknaden. Det får man inte glömma bort.",
+          "timestamp": "42:45",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Varje ny kund är i princip renvinst och varje krona man kan höja priset går ju bara rakt ner till vinstföreskatt. Så det är en fantastisk affärsmodell.",
+          "timestamp": "43:10",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "De har ju närvaro, nu är det 200 länder och territorier. Och det de gör nu är väl egentligen samma sak som många andra sådana här bolag, som Amazon och så, att man försöker, eller framgångsrikt, förbättrar sina marginaler på, ja, höjer priserna, helt enkelt.",
+          "timestamp": "42:55",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Skaffar man Disney så har man det vid sidan av Netflix. Det är inte liksom så här att man tänker, nu tar vi bort Netflix här som kostar 120-130 kronor för att barnen vill ha Disney.",
+          "timestamp": "44:45",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Sen är det dessutom att man använder den via telefonen och så här, herregud det är en sån gigantisk marknad så även om de naturligtvis inte får hela marknaden så kommer de ju att kunna fortsätta växa i många härans åren.",
+          "timestamp": "46:35",
+          "context": "catalysts"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Höga marginaler",
+        "debt_level": null,
+        "custom": [
+          "Närvaro i 200 länder",
+          "Lägre churn än konkurrenter",
+          "Renvinst på nya kunder"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Världens första globala TV-kanal",
+          "Närvaro i 200 länder",
+          "Varje ny kund är renvinst",
+          "Prishöjningar går direkt till vinst",
+          "Lägre churn än konkurrenter",
+          "Bredbandsutbyggnaden driver tillväxt globalt",
+          "Disney+ köps parallellt, inte istället"
+        ],
+        "bear_case": [
+          "Konkurrens från lokala streamingtjänster",
+          "Tidigareläggning av kunder under pandemin"
+        ],
+        "catalysts": [
+          "Bredbandsutbyggnad i utvecklingsländer",
+          "Ökad användning via mobiler",
+          "Prishöjningar"
+        ],
+        "risks": [
+          "Konkurrens",
+          "Marknadsmättnad"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "LVMH",
+      "ticker": "MC.PA",
+      "timestamp_start": "47:22",
+      "timestamp_end": "54:00",
+      "word_count": 1600,
+      "speakers": [
+        "Magnus Andersson",
+        "Johan",
+        "John"
+      ],
+      "primary_speaker": "Magnus Andersson",
+      "discussion_summary": "Magnus Andersson presenterar LVMH som Europas största bolag med en oslagbar affärsmodell för lyxvaror. Bolaget har ca 80 dotterbolag inklusive Louis Vuitton, Moët, Hennessy, Christian Dior. När människor får mer pengar kommer fler in i målgruppen. Produkter för 10-20 000 kronor är överkomliga för medelklass. De höjer priserna långt över inflationen och rear aldrig ut. Nästan inget lager. Bolaget har överlevt revolutioner och två världskrig och är konjunktursäkert.",
+      "quotes": [
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Det är Europas största bolag idag så det är fler och fler som lär sig om det.",
+          "timestamp": "47:10",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "De väger väl ett 80-tal dotterbolag nu. Det är ett helt fantastiskt bolag. Jag har ägt dem nu, tror jag, sen början av 2016. Det har varit en rolig resa kan man säga.",
+          "timestamp": "47:50",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Precis som Netflix, så har de ett momentum som är ganska svårslaget i att över tid så får människor mer och mer pengar. Det blir fler och fler som kommer in i den här målgruppen för deras produkter.",
+          "timestamp": "48:00",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "De höjer ju priserna, precis som Netflix och andra, som har en dominant position. De höjer ju priserna långt över vad inflationen är, och folk fortsätter ju gladeligen att betala.",
+          "timestamp": "48:35",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Det påminner lite om det digitala för det finns nästan inget lager som man måste göra sig av med. Det är oerhört lite i alla fall för att folk betalar väldigt gärna för deras grejer.",
+          "timestamp": "49:15",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Ja, det står nu i vad kan den stå i 600? Jag tror absolut att det är bara att titta på hur det går för att bara gå bakåt. Det går lite upp och ner men om man drar ut den långa grafen till 2010 eller 2000 så ser man hur det går.",
+          "timestamp": "51:15",
+          "context": "price_target"
+        },
+        {
+          "speaker": "Magnus Andersson",
+          "text": "Det är ju liksom, det är väldigt lätt för många att säga, jag kommer ihåg bara diskussionerna om LVMH då, för, ja vad blir det, ett år och tre månader sedan eller någonting sånt där, om hur det skulle gå åt pipan och så där folk påstod. Nej men det är ju bara löjligt att tro någonting sånt.",
+          "timestamp": "53:30",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Höga marginaler",
+        "debt_level": null,
+        "custom": [
+          "Ca 80 dotterbolag",
+          "330 miljarder euro i börsvärde",
+          "Aktiekurs ca 600 euro",
+          "Mål: 1000 euro"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Europas största bolag",
+          "80 dotterbolag med starka varumärken",
+          "Växande medelklass driver efterfrågan",
+          "Prishöjningar långt över inflation",
+          "Inga reor - fullt kontroll",
+          "Nästan inget lager",
+          "Har överlevt revolutioner och två världskrig",
+          "Konjunktursäkert"
+        ],
+        "bear_case": [
+          "Uppstickar-märken på Instagram"
+        ],
+        "catalysts": [
+          "Växande global medelklass",
+          "Ökad förmögenhet i Asien"
+        ],
+        "risks": [
+          "Nya lyxmärken",
+          "Konjunktursvängningar"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det finns väl inga lättregler på det, men man kan ju inte titta riktigt på PS och PE på samma sätt när marginalerna är så fantastiska. Om du i allra bästa fall har noll marginalkostnad på det du säljer, det blir ju en helt annan sak än om du ska, som jag jobbat med förr, tillverka saker och lagerhålla dem och skicka ut dem.",
+      "summary": "Digitala bolag med nästan noll marginalkostnad bör värderas annorlunda än traditionella tillverkningsbolag.",
+      "category": "wisdom",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "37:53",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "digitala bolag",
+        "marginaler"
+      ]
+    },
+    {
+      "quote": "Jag börjar ju med sådant som jag tycker är intressant. Jag menar det finns ju jättemånga bra bolag som kommer att tjäna fantastiskt med pengar och sådär. Men jag orkar inte hålla på med sådant som jag inte tycker är intressant.",
+      "summary": "Fokusera på bolag du tycker är intressanta - det är lättare att följa dem noggrant över tid.",
+      "category": "philosophy",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "38:58",
+      "confidence": "high",
+      "tags": [
+        "investeringsfilosofi",
+        "intresse"
+      ]
+    },
+    {
+      "quote": "Jag är väl en stor anhängare av det här och kanske lite baffetska, men jag har överhuvudtaget det här att man minskar sin risk om man koncentrerar sig och följer ett fåtal och väldigt bra bolag. Väldigt mycket.",
+      "summary": "Koncentrera portföljen till få bolag av hög kvalitet för att minska risken.",
+      "category": "philosophy",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "01:05:45",
+      "confidence": "high",
+      "tags": [
+        "koncentration",
+        "risk",
+        "portfölj"
+      ]
+    },
+    {
+      "quote": "Det här med belåning är ju helt underbart. Om man betalar någon procent ränta om ens det och sen föräntar pengarna, det blir ju liksom otroligt lönsamt. Men sen kan det gå åt andra hållet också. Men det lärde mig mycket. Leo Vegas lärde mig en hel del om att allt är inte guld som glimmar när det gäller digitala bolag.",
+      "summary": "Belåning kan ge fantastisk avkastning men även stora förluster. Digitala bolag är inte alltid riskfria.",
+      "category": "lesson",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "41:07",
+      "confidence": "high",
+      "tags": [
+        "belåning",
+        "risk",
+        "digitala bolag"
+      ]
+    },
+    {
+      "quote": "Jag menar många ser en hög värdering och tänker att den måste vara övervärderad. Och väldigt många är orätt snabba med att bilda sig den uppfattningen om ett bolag. Och jag tycker snarare att det är ganska intressant att se vilka det är bolag som är högt värderade.",
+      "summary": "Hög värdering betyder inte automatiskt att bolaget är övervärderat. Det kan indikera ett fantastiskt bolag.",
+      "category": "wisdom",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "39:50",
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        " hög P/E"
+      ]
+    },
+    {
+      "quote": "Om man har rätt bolag då och hitta de bästa bolagen som växer och har bra marginaler och så där. Då tycker jag inte att det finns någon anledning att oroa sig.",
+      "summary": "Om man äger rätt bolag med bra tillväxt och marginaler behöver man inte oroa sig för börsen generellt.",
+      "category": "philosophy",
+      "speaker": "Magnus Andersson",
+      "speaker_role": "guest",
+      "timestamp": "36:54",
+      "confidence": "high",
+      "tags": [
+        "bolagsurval",
+        "marknadstidning"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "John",
+      "speaker_role": "host",
+      "quote": "Skilling har ju blivit the home of krypto CFD'er genom sitt breda utbud av krypto som man kan tradea. Ja och det har ju verkligen varit en volatil period nu. Frågan är, har vi sett toppen eller är det bara en liten anhämtningspaus?",
+      "context": "Sponsor-innehåll om Skillings krypto-utbud",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": "kort sikt"
+    },
+    {
+      "asset_symbol": null,
+      "asset_name": "Kryptovalutor",
+      "sentiment": "neutral",
+      "speaker": "John",
+      "speaker_role": "host",
+      "quote": "Via Skilling kan man nu tradea de 25 största kryptovalutorna via CFD'er då alltså.",
+      "context": "Sponsor-innehåll om Skillings krypto-utbud",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": null
+    },
+    {
+      "asset_symbol": null,
+      "asset_name": "Kryptovalutor",
+      "sentiment": "bullish",
+      "speaker": "Daniel Moström",
+      "speaker_role": "guest",
+      "quote": "Xpecunia är ett svenskt green tech-bolag som utvinner kryptovalutor. Med hjälp av Solenergi så motverkar vi produktionskostnaden.",
+      "context": "Vd för Xpecunia presenterar bolagets krypto-verksamhet",
+      "confidence": "high",
+      "price_levels": [],
+      "timeframe": "medellång sikt"
+    }
+  ],
+  "market_sentiment": "bullish",
+  "summary": "Börspodden diskuterar en rad aktuella ämnen inklusive förmögenhetsskattdebatten, IPO-marknaden och insiderhandel. Huvudfokus ligger på intervjun med Magnus Andersson som delar sina tankar om Evolution Gaming, Netflix, LVMH och Apple. Magnus är optimistisk om börsen och tror på digitaliseringstrenden. Han betonar vikten av att koncentrera sig på få men högkvalitativa bolag och varnar för att snabbt bedöma högt värderade bolag som övervärderade.",
+  "key_takeaways": [
+    "Evolution Gaming beskrivs som Sveriges bästa bolag med monopol i Nordamerika och dominans i Europa",
+    "Netflix har en unik affärsmodell där varje ny kund är renvinst",
+    "LVMH har en oslagbar lyxvarumärkesaffär med potential att nå 1000 euro per aktie",
+    "Digitala bolag med noll marginalkostnad bör värderas annorlunda än traditionella bolag",
+    "Koncentration till få högkvalitativa bolag kan minska risken"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/borspodden/transcripts/borspodden-2021-06-02-bebe.txt",
+  "transcript_word_count": 11842,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

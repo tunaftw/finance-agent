@@ -1,0 +1,386 @@
+{
+  "source_id": "mrmikeinvesting",
+  "analyzed_at": "2025-12-29T19:30:00",
+  "analyzed_by": "claude-code-agent",
+  "total_tweets_in_dataset": 2520,
+  "investment_relevant_tweets": 2100,
+  "tweets_reviewed": 2520,
+  "date_range": {
+    "from": "2024-01-01",
+    "to": "2025-12-29"
+  },
+  "profile_summary": {
+    "description": "High-engagement retail investing influencer. Focus on momentum stocks, meme stocks, and aggressive price targets. Claims past success with options trading ($100 to $380K challenge).",
+    "investment_style": "Momentum, retail-focused, aggressive targets, meme stocks",
+    "language": "en",
+    "notable": "140M+ total views, 1.2M+ likes. Very bullish targets, often promotional. Mix of momentum plays and macro bearish calls."
+  },
+  "engagement_stats": {
+    "total_views": 140988203,
+    "total_likes": 1220539,
+    "original_tweets": 1669
+  },
+  "portfolio_allocation": {
+    "as_of": "2025-12-24",
+    "focus_sectors": ["AI/Tech", "Space", "Healthcare", "Meme stocks"],
+    "strategy": "Momentum trading with aggressive price targets",
+    "notes": "Promotes trading challenges and group memberships"
+  },
+  "stock_mentions": [
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "exchange": "NASDAQ",
+      "action": "buy",
+      "confidence": "very_high",
+      "reasoning": "Most mentioned stock. Extremely bullish, expects $5T market cap.",
+      "quotes": ["$TSLA will become the most valuable company along with a $5T+ market cap soon"],
+      "target_price": "$800+ (2025), $600+ (2026)",
+      "mentions": 564
+    },
+    {
+      "stock_name": "GameStop",
+      "ticker": "GME",
+      "exchange": "NYSE",
+      "action": "hold",
+      "confidence": "medium",
+      "reasoning": "Most mentioned ticker but mainly in context of naked shorting/corruption commentary rather than direct buy calls",
+      "quotes": ["GENSLER WAS A MAJOR CRITIC OF CRYPTO AND PROTECTED NAKED SHORTING OF STOCKS LIKE $DJT $OSTK $MMTLP $GME $AMC"],
+      "mentions": 672
+    },
+    {
+      "stock_name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "exchange": "NASDAQ",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Down 40% from March levels, institutional call buying",
+      "quotes": ["$AMD has set up a once in a lifetime opportunity", "Institutions have been loading hundreds of millions worth of calls"],
+      "target_price": "$225-300+ (2025)",
+      "mentions": 356
+    },
+    {
+      "stock_name": "Hims & Hers Health",
+      "ticker": "HIMS",
+      "exchange": "NYSE",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Compares to early PLTR, expects massive breakout",
+      "quotes": ["Buying $HIMS today is like buying $PLTR when it was $12", "$45-$60 will be incoming soon"],
+      "target_price": "$50-70 (2025)",
+      "mentions": 343
+    },
+    {
+      "stock_name": "NVIDIA",
+      "ticker": "NVDA",
+      "exchange": "NASDAQ",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Will lead 2025 market rally",
+      "quotes": ["$NVDA is setting up for a massive bull run in 2025 and will lead the market once again"],
+      "target_price": "$165-200+ (2025)",
+      "mentions": 289
+    },
+    {
+      "stock_name": "Palantir Technologies",
+      "ticker": "PLTR",
+      "exchange": "NYSE",
+      "action": "watch",
+      "confidence": "high",
+      "reasoning": "Called bottom at $22, now expects 40-45% correction before next entry",
+      "quotes": ["Earlier this year I called that $PLTR would rally when it was $22", "I believe we have one final spike left before a major 40-45% correction"],
+      "target_price": "$100+ after correction",
+      "mentions": 237
+    },
+    {
+      "stock_name": "Oscar Health",
+      "ticker": "OSCR",
+      "exchange": "NYSE",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "$1B+ cash, 56% YoY revenue growth, CEO target $45-55",
+      "quotes": ["The CEO even has a $45-$55 target for 2026", "$32+ is incoming very soon"],
+      "target_price": "$32-55 (2026)",
+      "mentions": 228
+    },
+    {
+      "stock_name": "UnitedHealth Group",
+      "ticker": "UNH",
+      "exchange": "NYSE",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "14x P/E, -45% below ATH, Warren Buffett loading",
+      "quotes": ["Trading at a 14x P/E and -45% below its ATH, it's clear $UNH is clearly undervalued"],
+      "target_price": "$500+ (2026)",
+      "mentions": 191
+    },
+    {
+      "stock_name": "Alibaba",
+      "ticker": "BABA",
+      "exchange": "NYSE",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Lagging behind, fundamentals building, institutions agree",
+      "quotes": ["$BABA is one of the best stocks to load for 2025 that will yield the highest returns"],
+      "target_price": "$210-250+ (2025)",
+      "mentions": 128
+    },
+    {
+      "stock_name": "Robinhood",
+      "ticker": "HOOD",
+      "exchange": "NASDAQ",
+      "action": "hold",
+      "confidence": "high",
+      "reasoning": "Called bottom at $21, ran to $153+. Past winner.",
+      "quotes": ["$HOOD at $21 and ran to $153+"],
+      "mentions": 133
+    },
+    {
+      "stock_name": "AST SpaceMobile",
+      "ticker": "ASTS",
+      "exchange": "NASDAQ",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Space sector leader, expects continued rally",
+      "quotes": ["$ASTS at $36 and ran to $102+"],
+      "target_price": "$140+ (2026)",
+      "mentions": 73
+    },
+    {
+      "stock_name": "Rocket Lab",
+      "ticker": "RKLB",
+      "exchange": "NASDAQ",
+      "action": "buy",
+      "confidence": "high",
+      "reasoning": "Space sector play, prior success calling bottom",
+      "quotes": ["$RKLB at $37 and ran to $79+"],
+      "mentions": 50
+    },
+    {
+      "stock_name": "SoFi Technologies",
+      "ticker": "SOFI",
+      "exchange": "NASDAQ",
+      "action": "buy",
+      "confidence": "medium",
+      "reasoning": "Strong buy for 2026",
+      "target_price": "$27-38 (2026)",
+      "mentions": 40
+    }
+  ],
+  "sector_views": [
+    {
+      "sector": "AI/Tech",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "key_stocks": ["NVDA", "AMD", "PLTR", "ZETA", "ORCL"],
+      "reasoning": "AI will dominate 2026"
+    },
+    {
+      "sector": "Space",
+      "sentiment": "very_bullish",
+      "confidence": "high",
+      "key_stocks": ["ASTS", "RKLB"],
+      "reasoning": "Space sector to dominate 2026"
+    },
+    {
+      "sector": "Healthcare",
+      "sentiment": "bullish",
+      "confidence": "high",
+      "key_stocks": ["HIMS", "OSCR", "UNH", "NVO"],
+      "reasoning": "Multiple opportunities in telehealth and insurance"
+    },
+    {
+      "sector": "Meme Stocks",
+      "sentiment": "neutral_advocacy",
+      "confidence": "medium",
+      "key_stocks": ["GME", "AMC"],
+      "reasoning": "Focus on naked shorting corruption, SEC criticism"
+    },
+    {
+      "sector": "Real Estate",
+      "sentiment": "very_bearish",
+      "confidence": "high",
+      "reasoning": "Texas and Florida markets peaked, delinquency rates skyrocketing, predicts crash bigger than 1929"
+    },
+    {
+      "sector": "Robotics",
+      "sentiment": "bullish",
+      "confidence": "medium",
+      "key_stocks": ["TSLA", "ONDS"],
+      "reasoning": "Robotics to dominate 2026"
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "mixed",
+      "confidence": "medium",
+      "reasoning": "Bearish short-term due to M2 supply, expects gap down to $70K. Long-term unclear.",
+      "quotes": ["Bitcoin is falling fast because the Global M2 Supply is collapsing", "The gap down to $70,000 for $BTC will be fast"]
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bullish",
+      "confidence": "medium",
+      "reasoning": "Part of 12-month bullish targets",
+      "target": "$8,200",
+      "quotes": ["$ETH to $8,200"]
+    }
+  ],
+  "market_outlook": {
+    "overall_sentiment": "mixed_extremes",
+    "positioning": "Very bullish on individual stocks, very bearish on real estate/macro",
+    "2025_targets": {
+      "TSLA": "$800+",
+      "AMD": "$225-300+",
+      "BABA": "$210-250+",
+      "HIMS": "$50+",
+      "NVDA": "$200+"
+    },
+    "2026_targets": {
+      "TSLA": "$600+",
+      "ASTS": "$140+",
+      "UNH": "$500+",
+      "AMZN": "$330+",
+      "SOFI": "$38+"
+    },
+    "macro_warning": "Predicts real estate crash bigger than 1929, delinquency rates spiking"
+  },
+  "actionable_insights": [
+    {
+      "insight": "PLTR expected to have 40-45% correction - wait for pullback entry",
+      "actionable": true,
+      "action_type": "timing"
+    },
+    {
+      "insight": "Space sector (ASTS, RKLB) identified as 2026 leader",
+      "actionable": true,
+      "action_type": "sector_allocation"
+    },
+    {
+      "insight": "AMD down 40% from highs - institutional call buying noted",
+      "actionable": true,
+      "action_type": "dip_buying"
+    },
+    {
+      "insight": "UNH at 14x P/E, -45% from ATH, Buffett loading",
+      "actionable": true,
+      "action_type": "value_entry"
+    },
+    {
+      "insight": "Real estate in Texas/Florida showing crash signals",
+      "actionable": true,
+      "action_type": "sector_avoid"
+    }
+  ],
+  "recommendations": [
+    {
+      "date": "2024-12-31",
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Official 2025 PT of $800+. Expects $5T market cap.",
+      "metrics": {"target": "$800+"}
+    },
+    {
+      "date": "2024-12-31",
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Down 40% from March, institutional call buying, once in a lifetime opportunity.",
+      "metrics": {"target": "$225-300+"}
+    },
+    {
+      "date": "2024-12-31",
+      "ticker": "BABA",
+      "name": "Alibaba",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Best stock for 2025 returns, fundamentals building, institutions loading.",
+      "metrics": {"target": "$210-250+"}
+    },
+    {
+      "date": "2024-12-31",
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Like buying PLTR at $12. Massive breakout setup.",
+      "metrics": {"target": "$50-70"}
+    },
+    {
+      "date": "2024-12-31",
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Will lead 2025 market rally.",
+      "metrics": {"target": "$165-200+"}
+    },
+    {
+      "date": "2025-12-14",
+      "ticker": "UNH",
+      "name": "UnitedHealth Group",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "14x P/E, -45% from ATH, Buffett loading billions.",
+      "metrics": {"target": "$500+"}
+    },
+    {
+      "date": "2025-11-29",
+      "ticker": "OSCR",
+      "name": "Oscar Health",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "$1B+ cash, 56% YoY revenue growth, CEO targets $45-55.",
+      "metrics": {"target": "$32-55"}
+    },
+    {
+      "date": "2024-12-28",
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "signal": "watch",
+      "confidence": "high",
+      "text": "Expects 40-45% correction before next entry. Wait for pullback.",
+      "metrics": {"target": "$100+ after correction"}
+    },
+    {
+      "date": "2025-12-20",
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "signal": "buy",
+      "confidence": "high",
+      "text": "Space sector leader for 2026.",
+      "metrics": {"target": "$140+"}
+    }
+  ],
+  "risk_warnings": [
+    {
+      "warning": "Very aggressive price targets that may be unrealistic",
+      "severity": "high"
+    },
+    {
+      "warning": "Promotional nature of account - promotes trading groups/challenges",
+      "severity": "medium"
+    },
+    {
+      "warning": "Mix of legitimate analysis with meme stock advocacy",
+      "severity": "medium"
+    },
+    {
+      "warning": "Real estate crash predictions are extreme ('bigger than 1929')",
+      "severity": "medium"
+    }
+  ],
+  "investment_philosophy": [
+    {
+      "quote": "2025 will present generational wealth opportunities!",
+      "summary": "Very bullish, momentum-focused approach",
+      "category": "philosophy"
+    }
+  ]
+}

@@ -1,0 +1,793 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2025-05-06-288a",
+  "podcast_name": "Fill or Kill",
+  "episode_title": "Avsnitt 527 - Det gyllene snittet",
+  "episode_number": 527,
+  "date": "2025-05-06",
+  "hosts": [
+    "Värd1",
+    "Värd2"
+  ],
+  "guests": [
+    "Patrik Thomenius",
+    "Tobias Granberg"
+  ],
+  "main_topics": [
+    "Evolution rapport",
+    "Buffetts avgång",
+    "Tyska marknaden",
+    "Kina stimulanser",
+    "Försvarssektorn"
+  ],
+  "stocks_discussed": [
+    "Evolution Gaming",
+    "Nasdaq",
+    "Warner Bros Discovery",
+    "Alibaba",
+    "Netflix",
+    "Tesla",
+    "Invisio",
+    "Rheinmetall",
+    "SAP"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Evolution Gaming",
+      "ticker": "EVO",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Värd1",
+      "speaker_role": "host",
+      "timestamp": "13:15",
+      "reasoning": "Aktien fallit efter dålig rapport pga ring fencing i Europa, men är nu en konträr möjlighet. Bolaget övergår till utdelnings- och återköpscase likt Swedish Match. Q2 väntas vara dåligt men Q3-Q4 blir starkare. Ticker har optioner med strike under 1000 september till juni nästa år.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag gillar att vara konträr igen, så jag kommer att bli lång den här, jag vet ju det. Sen vill jag nog göra det som dig, långa optioner istället för att binda upp massa kapital.",
+      "sector": "Gaming",
+      "market": "sweden",
+      "position_context": "Har köpoptioner med strike under 1000",
+      "downside_note": null,
+      "catalyst_timing": "Q2-rapporten kan ge fint köpläge, återköpet startar efter auktionsprogrammet"
+    },
+    {
+      "stock_name": "Nasdaq",
+      "ticker": null,
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Värd1",
+      "speaker_role": "host",
+      "timestamp": "18:39",
+      "reasoning": "Index har studsat 14% från botten vilket är snittrekylen i en bear market rally. Tog position efter Magnificent Seven-rapporterna ur vägen. Vill korta marknaden.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Jag har ju blivit kort Nasdaq. Det har studsat 14% från botten. Just 14% är väl snittrekylen i en bear market, alltså ett bear market rally, är snittet 14%. Så jag tyckte det var läge att kanske börja.",
+      "sector": null,
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Warner Bros Discovery",
+      "ticker": "WBD",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Värd2",
+      "speaker_role": "host",
+      "timestamp": "24:09",
+      "reasoning": "Äger extremt mycket content. Om man värderar antalet abonnenter på Netflix-nivån är den jättebillig. Långsiktig value case som hållit i flera år trots dålig kursutveckling.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag äger fortfarande den. Den har inte gått så bra men den är billig. Framförallt så äger de väldigt mycket content. Du säljer aldrig, det är liksom den längsta aktiedepån någonsin.",
+      "sector": "Media",
+      "market": "us",
+      "position_context": "Lång tid, säljer aldrig",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Alibaba",
+      "ticker": "BABA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Värd2",
+      "speaker_role": "host",
+      "timestamp": "38:52",
+      "reasoning": "Aktie rört sig från 80 till 150 nu runt 130. Kina har möte imorgon där det kan komma stimulanser likt höstens stödpaket. Avnoterings-hot verkar lagts på is.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Jag kollade lite på mina Alibaba, tänkte om det kanske var köpläger där, den stod i 80 i början på året, var uppe i 150, nu var det väl 130 eller någonting",
+      "sector": "Technology/E-commerce",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Kina-möte imorgon kan ge stimulanser"
+    },
+    {
+      "stock_name": "Netflix",
+      "ticker": "NFLX",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Värd1",
+      "speaker_role": "host",
+      "timestamp": "22:16",
+      "reasoning": "Enda bolaget som levererar i streaming-sektorn. Content is king. Small streaming services kommer aldrig slå Netflix. Men svårt att köpa nu.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Man kan ändå säga att den här via playspreaden som man pratade om, att de här små kommer aldrig lycka slå från Netflix. Man skulle ha lång Netflix och korta alla andra. Man har ju inte gjort den, men den har ju spelat ut väldigt bra.",
+      "sector": "Media/Streaming",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Värd2",
+      "speaker_role": "host",
+      "timestamp": "20:81",
+      "reasoning": "Aktien ner 27% på tre månader men känns supervärderad fortfarande. Försäljningen ner 30-40% i Tyskland. Förtroendeproblem kvarstår.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Men den känns ju supervärderad fortfarande om man tittar på det här, så det finns ju inte så mycket att säga i Tesla.",
+      "sector": "Automotive",
+      "market": "us",
+      "position_context": null,
+      "downside_note": "Kursen ner 27% på tre månader",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Evolution Gaming",
+      "ticker": "EVO",
+      "timestamp_start": "04:45",
+      "timestamp_end": "13:26",
+      "word_count": 1500,
+      "speakers": [
+        "Värd1",
+        "Värd2"
+      ],
+      "primary_speaker": "Värd1",
+      "discussion_summary": "Evolution rapporterade sämre än väntat på grund av ring fencing i Europa som påverkar marginalerna. Aktien fallit 20% och ytterligare 2% dagen efter. Trots detta ser bolaget övergå från tillväxtcase till utdelnings- och återköpscase likt Swedish Match. Q2 väntas påverkas men Q3-Q4 ska bli starkare. Många har lämnat aktien nu när den inte längre är ett K-shell-case.",
+      "quotes": [
+        {
+          "speaker": "Värd1",
+          "text": "Rapporten kom in sämre än väntat. Det var lite valuta, men den stora grejen var att de hade börjat med sån här ring fencing i Europa. Men att man inte stänger ut operatörer som agerar lite i gråzonen har man gjort i resten av Europa",
+          "timestamp": "04:45",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Men det är ett fantastiskt läge någonstans att ha den som ett aktieåterköpscase, utdelningscase som Swedish Match var. De var inte den sexigaste aktien att äga. Men dra ut charten på lång sikt så är det en av de bästa i svenska avkastningshistorierna.",
+          "timestamp": "10:16",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Nu uppenbarligen Q2, vet alla att den är dålig, då kanske det är köpläge nu eller så får man ett fint köpläge på Q2-rapporten. Sen ska Q3-Q4",
+          "timestamp": "11:03",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Värd2",
+          "text": "Jag gillar att vara konträr igen, så jag kommer att bli lång den här, jag vet ju det. Sen vill jag nog göra det som dig, långa optioner istället för att binda upp massa kapital.",
+          "timestamp": "13:15",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Hög marginal men pressad av ring fencing",
+        "debt_level": null,
+        "custom": [
+          "600-700 bord hos konkurrenter vs 1200-1300 hos EVO"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Övergår till utdelnings- och återköpscase likt Swedish Match",
+          "Sprutar fortfarande in pengar och kassaflöde",
+          "Q3-Q4 ska bli starka när ring fencing effekt är borta",
+          "Konträr möjlighet när alla lämnat aktien",
+          "Köpläge på Q2-rapport eller nu när Q2 förväntas dåligt"
+        ],
+        "bear_case": [
+          "Ring fencing i Europa pressar marginaler",
+          "Q2 kommer drabbas mycket",
+          "Konkurrenter växer och marknaden mognar",
+          "Institutionellt kapital vill inte ta i spel-sektorn i Sverige/Europa",
+          "Slagpåse för politiker",
+          "Tillväxten inte densamma längre"
+        ],
+        "catalysts": [
+          "Q3-Q4 ska bli mycket starkare när ring fencing löst",
+          "Återköpsprogram startar efter auktionsprogrammet",
+          "USA-notering eller bud kan hända"
+        ],
+        "risks": [
+          "Ytterligare regleringar i Europa",
+          "Konkurrens intensifieras",
+          "Marginalpress fortsätter",
+          "Politiska risker"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Tesla",
+      "ticker": "TSLA",
+      "timestamp_start": "19:27",
+      "timestamp_end": "20:81",
+      "word_count": 450,
+      "speakers": [
+        "Värd1",
+        "Värd2"
+      ],
+      "primary_speaker": "Värd2",
+      "discussion_summary": "Tesla har fallit 27% på tre månader från 350 till 274 och var ner i 220. Försäljningen har återhämtat sig men problem kvarstår. Tyskland ner 30-40% i försäljning. Elon Musks förtroendeproblem syns i att folk sätter upp klisterlappar på bilarna om att de köpt innan han blev tokig. Bolaget anses fortfarande supervärderat.",
+      "quotes": [
+        {
+          "speaker": "Värd2",
+          "text": "Kursen är ner 27 procent på tre månader, den står väl liksom i 350, var väl ner i 220, har ju kommit upp.",
+          "timestamp": "19:76",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd2",
+          "text": "Det var väl ner 30-40 procent i Tyskland nu igen, det har liksom inte repat sig här från att ha varit den mest sålda bilen och supersuccé.",
+          "timestamp": "20:00",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd2",
+          "text": "Bara jag har gått runt här så har man sett enormt många sådana här klisterlappar att de har köpt bilen innan Elon blev tokig, som man sätter på sin Tesla nu. Så det ska ändå mycket till att man beställer en klisterlapp och sätter på sin bil för att markera att jag har köpt den här bilen innan.",
+          "timestamp": "20:00",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Värd2",
+          "text": "Men den känns ju supervärderad fortfarande om man tittar på det här, så det finns ju inte så mycket att säga i Tesla.",
+          "timestamp": "20:81",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Ner 27% på tre månader",
+          "Tyskland försäljning ner 30-40%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Försäljningen inte repat sig i Tyskland",
+          "Förtroendeproblem kvarstår",
+          "Supervärderad"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Försäljningsproblem fortsätter",
+          "Förtroendeproblemen värre"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Netflix",
+      "ticker": "NFLX",
+      "timestamp_start": "21:02",
+      "timestamp_end": "23:32",
+      "word_count": 700,
+      "speakers": [
+        "Värd1",
+        "Värd2"
+      ],
+      "primary_speaker": "Värd1",
+      "discussion_summary": "Netflix är det enda streaming-bolaget som levererar. Content is king och kostar mycket. Små streaming-tjänster kommer aldrig slå Netflix. Streaming-sektorn konsolideras. Disney har ESPN och sport. Små nischade bolag får det tufft att gå runt. Netflix köper och beställer mycket innehåll.",
+      "quotes": [
+        {
+          "speaker": "Värd1",
+          "text": "Det är liksom det enda bolaget som levererar. De är väl lite egentligen som gamblingbolagen och så, ska ju vara en supertullvinnare.",
+          "timestamp": "21:02",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Man kan ändå säga att den här via playspreaden som man pratade om, att de här små kommer aldrig lycka slå från Netflix. Man skulle ha lång Netflix och korta alla andra.",
+          "timestamp": "22:16",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Värd2",
+          "text": "Ja, verkligen. Det är väl content is king och det kostar med content. Där måste man ge Netflix att spruta ut content.",
+          "timestamp": "22:29",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Jag har ingen position i Netflix, man är svårt att köpa den här men det känns ju som att ska det bli dem kvar? Det är väl liksom sporten, det är väl där de",
+          "timestamp": "22:88",
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Enda streaming-bolag som levererar",
+          "Content is king",
+          "Köper och beställer mycket innehåll",
+          "Små streaming-tjänster kan inte konkurrera"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": [
+          "Trump hotar tullar på film"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Invisio",
+      "ticker": "INVI",
+      "timestamp_start": "14:48",
+      "timestamp_end": "16:60",
+      "word_count": 800,
+      "speakers": [
+        "Värd1",
+        "Värd2"
+      ],
+      "primary_speaker": "Värd1",
+      "discussion_summary": "Invisio har blivit en fondfavorit och varit en av de bästa aktierna på börsen tio år. Värdarna var långa på 15 och sålde på 25-27 men aktien gick till 3-400. Rapporten var ner 17% men återhämtat till 8% nedgång. Försvarssektorn kommer ta 3-5 år att rusta upp. Stark strukturell trend men budgetar ska klubbas och pengar lånas upp.",
+      "quotes": [
+        {
+          "speaker": "Värd2",
+          "text": "Vi var långa på 15 spänn, så på 25-27 tyckte vi att det här blev riktigt bra, hej då. 3-400, den här aktien var ner 17% såg jag, nu var den ner 8%.",
+          "timestamp": "14:48",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Men det här visar väl lite det här med försvarssektorn att det kommer att ta tid. De har ju varit en vinnare redan innan, men det kommer inte bara spruta in miljardordrar nu.",
+          "timestamp": "14:53",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Det ska ju rustas upp, men det kommer att ske kommande tre till fem åren. Det är budgetar, det ska klubbas paket. Det ska lånas upp. Det ska tryckas pengar, det tar ju tid.",
+          "timestamp": "15:16",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Värd2",
+          "text": "Jag lyssnade på en intressant VC-intervju och han sa att det här var ett av de hetaste områdena nu. Så det är en ganska intressant bransch som har varit, ingen har startat en bolag, det var helt oinvesterbart och nu",
+          "timestamp": "15:26",
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Gick från 15 till 3-400",
+          "Rapport ner 17% men återhämtat till 8%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Hett område enligt VC",
+          "Startas fonder på defense nu",
+          "Stark strukturell trend"
+        ],
+        "bear_case": [
+          "Tar 3-5 år att rusta upp",
+          "Miljardordrar kommer inte direkt",
+          "Budgetar ska klubbas och finansieras"
+        ],
+        "catalysts": [
+          "Försvarsbudgetar ökar över 3-5 år",
+          "Startups och fonder investerar i defense"
+        ],
+        "risks": [
+          "Tiden för upprustning lång",
+          "Teknik utvecklas fort snabbt än upphandling"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Berkshire Hathaway",
+      "ticker": "BRK",
+      "timestamp_start": "30:56",
+      "timestamp_end": "35:05",
+      "word_count": 1000,
+      "speakers": [
+        "Värd1",
+        "Värd2"
+      ],
+      "primary_speaker": "Värd1",
+      "discussion_summary": "Warren Buffett annonserade sin avgång vid årsskiftet efter 20 års förberedelser. Kursen föll 5-6% trots att det var väntat. Gregg Abel tar över. Buffett har enorm kassa på 343 miljarder dollar. Han gillar att göra deals i finanskriser och rädda bolag. Köpte Apple 2015 och har sålt mycket. Han har inte slagit index på många år men går bättre än index när det går ner.",
+      "quotes": [
+        {
+          "speaker": "Värd1",
+          "text": "Avsnitt 527 av Fill och Kill podden. Sen hade vi Warren Buffett som lade av i helgen eller annonserade sin avgång. Han ska väl avgå här i årsskiftet.",
+          "timestamp": "01:32",
+          "context": "other"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Det är ju en fantastisk saga och investerarkarriär. The best ever. De har ju liksom preppat för det här i 20 år. Ändå var kursen ner typ 5-6 procent.",
+          "timestamp": "30:56",
+          "context": "other"
+        },
+        {
+          "speaker": "Värd2",
+          "text": "Och sen att det inte har funnits så mycket case att kliva in. När man är så stor så blir det svårt att hitta affärer. Och när marknaden är dyr.",
+          "timestamp": "31:39",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Han gillar väl mer att göra deals som i finanskrisen och rädda bolag och grejer. Att sitta och tajma marknaden med sina 343 miljarder dollar eller vad de har i kassan är lite svårare.",
+          "timestamp": "31:49",
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Värd2",
+          "text": "Buffett han är ju legendarisk för att vara long only och long term. Men jag tycker att hela, om man läser hans historia så är han ju en shark.",
+          "timestamp": "33:00",
+          "context": "insight"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Hur han byggde sitt kapital i början var ju att han gick in i nästan konkursmässiga bolag och värderade tillgångarna att de var högre än marknadsvärdet etc.",
+          "timestamp": "33:32",
+          "context": "insight"
+        },
+        {
+          "speaker": "Värd2",
+          "text": "Och sen har jag ju sagt att ingen kan slå index över tid. Och det kan du ju inte om det kommer upp i viss size som han har gjort. Han har ju inte slagit index på många år.",
+          "timestamp": "34:20",
+          "context": "insight"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Ja, och sen är det ju så det går bättre än index sen över tid att du undviker de nedgångarna. Ja, de stora förlorar aldrig pengar, regelummett, undvik.",
+          "timestamp": "34:35",
+          "context": "insight"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "343 miljarder dollar i kassan",
+          "Kurs ner 5-6% på avgångsbesked"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Gregg Abel väl inskolad som efterträdare",
+          "Enorm kassa kan användas vid lämpliga deals",
+          "Buffett gillar göra deals i kriser"
+        ],
+        "bear_case": [
+          "Svårt att hitta affärer när så stor",
+          "Marknaden dyr",
+          "Har inte slagit index på många år"
+        ],
+        "catalysts": [
+          "Nästa finansiell kris kan ge deal-möjligheter"
+        ],
+        "risks": [
+          "Storlek gör det svårt att slå index",
+          "Begränsade möjligheter med sådan kassa"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "DAX (Tyska indexet)",
+      "ticker": null,
+      "timestamp_start": "35:15",
+      "timestamp_end": "37:58",
+      "word_count": 700,
+      "speakers": [
+        "Värd1",
+        "Värd2"
+      ],
+      "primary_speaker": "Värd1",
+      "discussion_summary": "DAX har presterat fantastiskt och är 19% starkare än OMXS30 historiskt. Kapitalflödet går från USA till Europa. DAX nästan på all-time high. Tyskland har blivit en ETF. Rheinmetall och SAP driver mycket. BASF kan gå om vapenvila i Ukraina. Värd köpte DAX när det var stökigt i april och tog 10% vinst men hoppade av. Nu kort nästack.",
+      "quotes": [
+        {
+          "speaker": "Värd1",
+          "text": "DAX är alltså, hör dig idag, 19 procent starkare än OMX, sen har man ju valutan kanske är 6-7 procent, men det har ju inte hänt någonsin i princip historiskt.",
+          "timestamp": "35:15",
+          "context": "metric"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Så DAX är alltså, hör dig idag, 19 procent starkare än OMX. Har man lagt på den i år, då har man ju sprängt sig när den var 5 procent i skillnad kanske, och nu är det 19.",
+          "timestamp": "35:15",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Men Tyskland har ju verkligen blivit någon form av, det känns som en ETF. Vill du inte investera i USA, då köper du bara DAX.",
+          "timestamp": "35:15",
+          "context": "thesis"
+        },
+        {
+          "speaker": "Värd2",
+          "text": "Nej inte längre, jag hoppade av den om det var förra veckan. Köpte den när det var stökigt här nere i april, fick 10 procent i Daxen, det är inte ofta man får, så den är jag ur.",
+          "timestamp": "37:43",
+          "context": "position_disclosure"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Men titta på BASF och dem, de har inte riktigt gått men de kommer nog att gå om vi får en vapenvila i Ukraina.",
+          "timestamp": "37:10",
+          "context": "catalyst"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "19% starkare än OMXS30",
+          "Nästan på all-time high"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kapitalflödet från USA till Europa",
+          "Nästan på all-time high",
+          "Rheinmetall och SAP driver",
+          "Vapenvila i Ukraina kan lyfta"
+        ],
+        "bear_case": [
+          "Vapenvila kan bli sell-on-news",
+          "Utvattnad trade deal"
+        ],
+        "catalysts": [
+          "Vapenvila i Ukraina",
+          "Trade deals"
+        ],
+        "risks": [
+          "För många positiva nyheter inprisade"
+        ]
+      },
+      "position_disclosure": "sold"
+    },
+    {
+      "stock_name": "Svenska fastighetsbolag",
+      "ticker": null,
+      "timestamp_start": "27:40",
+      "timestamp_end": "28:97",
+      "word_count": 550,
+      "speakers": [
+        "Värd1",
+        "Värd2"
+      ],
+      "primary_speaker": "Värd2",
+      "discussion_summary": "Castellum stökig när vd ska sluta. Fastigheter handlat jättedåligt men bättre när börsen vände upp. Tioåringen kan gå ner om USA-kris och ingen tror på dollarn. Mot tröttare tider och lägre ränta borde svenska fastigheter handla ganska okej. Välj kvalitetsfastighetsbolag eller nischaktörer som IS9 med Polen-exponering.",
+      "quotes": [
+        {
+          "speaker": "Värd1",
+          "text": "Castellum var lite stökig idag, Achelius vill, vd ska väl sluta där, han vill ha in sin gubbe. Han känns jobbig hon som äger Achelius",
+          "timestamp": "27:40",
+          "context": "other"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Men fastigheter har ju handlat jättedåligt. Sen när hela börsen vände upp så har den handlat lite bättre.",
+          "timestamp": "28:05",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Jag får för mig att tioåringen ska ner om man inte kommer in i någon sån här kris i USA, liksom att ingen tror på dollarn i USA mer. Då kommer inte tioåringen kanske handla ner",
+          "timestamp": "28:05",
+          "context": "catalyst"
+        },
+        {
+          "speaker": "Värd1",
+          "text": "Då borde svenska fastigheter handla ganska okej, och då får man välja bolag som inte är jätteexponerade mot koren mot Chista eller kanske kontorer och liknande, utan hitta kvalitetsfastighetsbolag eller IS9 som har exponering mot Polen till exempel.",
+          "timestamp": "28:05",
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Ränta kan gå ner",
+          "Kvalitetsfastighetsbolag handlar okej",
+          "Nischaktörer som IS9 med Polen-exponering"
+        ],
+        "bear_case": [
+          "Handlat jättedåligt",
+          "Kronförstärkning behövs för fart",
+          "Tioåringen kanske inte går ner om USA-kris"
+        ],
+        "catalysts": [
+          "Lägre räntor",
+          "Kronförstärkning"
+        ],
+        "risks": [
+          "Kronförstärkning inte sker",
+          "USA-ränta går inte ner"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Och sen har jag ju sagt att ingen kan slå index över tid. Och det kan du ju inte om det kommer upp i viss size som han har gjort. Han har ju inte slagit index på många år.",
+      "summary": "Ingen kan slå index över tid på lång sikt, särskilt inte när man blir stor i storlek.",
+      "category": "wisdom",
+      "speaker": "Värd2",
+      "speaker_role": "host",
+      "timestamp": "34:20",
+      "confidence": "high",
+      "tags": [
+        "index",
+        "storlek",
+        "avkastning"
+      ]
+    },
+    {
+      "quote": "Ja, och sen är det ju så det går bättre än index sen över tid att du undviker de nedgångarna. Ja, de stora förlorar aldrig pengar, regelummett, undvik.",
+      "summary": "Nyckeln till att slå index är att undvika de stora nedgångarna.",
+      "category": "wisdom",
+      "speaker": "Värd1",
+      "speaker_role": "host",
+      "timestamp": "34:35",
+      "confidence": "high",
+      "tags": [
+        "riskhantering",
+        "nedgångar",
+        "index"
+      ]
+    },
+    {
+      "quote": "Buffett han är ju legendarisk för att vara long only och long term. Men jag tycker att hela, om man läser hans historia så är han ju en shark.",
+      "summary": "Buffett är mer än bara en långsiktig investerare, han har också varit en haj som gör deals i kris.",
+      "category": "lesson",
+      "speaker": "Värd2",
+      "speaker_role": "host",
+      "timestamp": "33:00",
+      "confidence": "high",
+      "tags": [
+        "Buffett",
+        "shark",
+        "deals"
+      ]
+    },
+    {
+      "quote": "Hur han byggde sitt kapital i början var ju att han gick in i nästan konkursmässiga bolag och värderade tillgångarna att de var högre än marknadsvärdet etc.",
+      "summary": "Buffett byggde sitt kapital genom att köpa nästan konkursmässiga bolag där tillgångarna var värda mer än marknadspriset.",
+      "category": "lesson",
+      "speaker": "Värd1",
+      "speaker_role": "host",
+      "timestamp": "33:32",
+      "confidence": "high",
+      "tags": [
+        "värdeinvestering",
+        "Buffett",
+        "tillgångar"
+      ]
+    },
+    {
+      "quote": "Och på ett sätt har han ju rätt i det. Jag såg att han skrev att amerikanska ekonomi är mycket mer resilient än vad börsen tror. Och det kan man ju hålla med om.",
+      "summary": "Amerikanska ekonomin är mer motståndskraftig än vad börsen tror.",
+      "category": "wisdom",
+      "speaker": "Värd2",
+      "speaker_role": "host",
+      "timestamp": "41:30",
+      "confidence": "medium",
+      "tags": [
+        "ekonomi",
+        "resiliens",
+        "börs"
+      ]
+    },
+    {
+      "quote": "Utan att härda börsen kan ju också vara något positivt, för då kan man ta större svängar och ha lite mer bål i förhandlingarna. Så det kan ju vara så att man har härdat marknaden lite.",
+      "summary": "Att härda börsen kan vara positivt genom att man kan ta större svängar i förhandlingar.",
+      "category": "wisdom",
+      "speaker": "Värd2",
+      "speaker_role": "host",
+      "timestamp": "41:84",
+      "confidence": "medium",
+      "tags": [
+        "börs",
+        "härda",
+        "förhandlingar"
+      ]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "neutral",
+      "speaker": "Patrik Thomenius",
+      "speaker_role": "guest",
+      "quote": "Där finns även spreadar du kan handla vilket är intressant. Så vi har en produkt som är bitcoin över ethereum så att istället för att handla dem mot varandra så kan du bara handla den produkten.",
+      "context": "IG-produkt som nämns, inte en rekommendation från värdarna",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": null
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet handlar om Evolutions dåliga rapport och konträr köpmöjlighet, Warrent Buffetts avgång och investeringsfilosofi, tyska marknadens starka utveckling mot Sverige, samt förväntan på Kina-stimulanser. Värdarna är korta Nasdaq efter rallyt men positiva på Evolution på lång sikt.",
+  "key_takeaways": [
+    "Evolution är en konträr köpmöjlighet efter dålig rapport, övergår till utdelnings- och återköpscase",
+    "Nasdaq har rallyt 14% vilket är snitt-bear-market rally, värd är kort",
+    "DAX har presterat 19% bättre än OMXS30 historiskt",
+    "Kina kan komma med stimulanser efter möte imorgon",
+    "Buffetts nyckel till framgång är att undvika stora nedgångar",
+    "Warner Bros Discovery är långsiktig value case med mycket content"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/fillorkill/transcripts/fillorkill-2025-05-06-288a.txt",
+  "transcript_word_count": 12062,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}

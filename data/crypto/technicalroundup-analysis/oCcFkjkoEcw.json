@@ -1,0 +1,146 @@
+{
+  "source_id": "oCcFkjkoEcw",
+  "source_type": "youtube",
+  "channel": "TechnicalRoundup",
+  "date": "2023-10-27",
+  "hosts": [
+    "Cred",
+    "Duck"
+  ],
+  "mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Cred",
+      "context": "Discussion of monthly resistance and range reclaim, noting the market setup is 'too good to throw away' if it breaks above 35k",
+      "quote": "if this is the move and I don't have a position I'm going to see this thing move and I will not get a position until the bull market is over",
+      "price_levels": [
+        "$32k",
+        "$33k",
+        "$35k"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bullish",
+      "speaker": "Duck",
+      "context": "Comparison of 30k to 6k breakout scenario, expecting a massive move if resistance fails",
+      "quote": "33k is 6k is essentially...the market just blasted through it and if you look at the momentum continuation from that point on the weekly it basically went up like 150 170%",
+      "price_levels": [
+        "$30k",
+        "$35k"
+      ],
+      "timeframe": "long-term",
+      "confidence": "high"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Duck",
+      "context": "ETH showing weakness and underperforming Bitcoin, with broken technical levels",
+      "quote": "structurally ethusd is just showing the weakness unsurprisingly that's in eth BTC and also Don it might be quite funny if the 1935 weekly level becomes relevant again",
+      "price_levels": [
+        "0.057",
+        "0.054",
+        "$1,900"
+      ],
+      "timeframe": "medium-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "ETH",
+      "asset_name": "Ethereum",
+      "sentiment": "bearish",
+      "speaker": "Cred",
+      "context": "ETH bearish chart and downtrend, would sell into froth",
+      "quote": "if I see any bad signs I'm going to dump this and I'm going to be quite happy because I made a bunch of money on this",
+      "price_levels": [
+        "0.057",
+        "$2,000"
+      ],
+      "timeframe": "short-term",
+      "confidence": "medium"
+    },
+    {
+      "asset_symbol": "LINK",
+      "asset_name": "Chainlink",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Mentioned as outperforming Bitcoin, up 3% while BTC was down",
+      "quote": "even looking at link today it's up 3% while bitcoin's down one and a half",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    },
+    {
+      "asset_symbol": "SOL",
+      "asset_name": "Solana",
+      "sentiment": "neutral",
+      "speaker": "Cred",
+      "context": "Briefly mentioned as one of the altcoins that has been doing well",
+      "quote": "there's a few of those floating around and presumably you're just too hyperfocused on BTC",
+      "price_levels": null,
+      "timeframe": null,
+      "confidence": "low"
+    }
+  ],
+  "overall_market_sentiment": "bullish",
+  "market_analysis": {
+    "btc_dominance_view": "increasing",
+    "altcoin_season_view": "uncertain",
+    "key_levels": {
+      "BTC": [
+        "$32k",
+        "$33k",
+        "$35k"
+      ],
+      "ETH": [
+        "0.057",
+        "$1,900",
+        "$2,000"
+      ]
+    }
+  },
+  "key_insights": [
+    "Monthly BTC close above 35k is critical; a close below 30k would be bearish and invalidate the bullish thesis",
+    "ETH/BTC downtrend is concerning; ETH outperformance relative to BTC would be a sell signal for BTC positions",
+    "The market is not giving pullbacks; if you wait for deep pullbacks you likely won't get filled",
+    "S&P 500 looking terrible is a concern for the BTC correlation thesis",
+    "Arc Invest and Coinbase stocks showing weakness despite BTC strength is notable"
+  ],
+  "trading_ideas": [
+    {
+      "asset": "BTC",
+      "direction": "long",
+      "entry": "$32k-$33k",
+      "target": "$35k+",
+      "stop": "$30k",
+      "speaker": "Duck"
+    },
+    {
+      "asset": "BTC",
+      "direction": "short",
+      "entry": "$45k",
+      "target": null,
+      "stop": null,
+      "speaker": "Cred"
+    },
+    {
+      "asset": "ETH",
+      "direction": "long",
+      "entry": "0.057 reclaim",
+      "target": null,
+      "stop": null,
+      "speaker": "Cred"
+    }
+  ],
+  "summary": "BTC is in a bullish setup with monthly resistance at $35k being the key level to watch. The weekly close above $32.2k is important, with $30k being a critical invalidation level. ETH is showing significant weakness and underperformance, with speakers viewing ETH outperformance as a bearish signal for the overall market. The hosts emphasize the difficulty of getting pullbacks in this market and suggest either entering early or not at all.",
+  "transcript_word_count": 56390,
+  "model_used": "glm-4.7",
+  "analyzed_at": "2025-12-27T01:41:31.540556"
+}

@@ -1,0 +1,164 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2016-06-10-6dbf",
+  "podcast_name": "Analyspodden från Dagens Industri",
+  "episode_title": "Scenförändring i USA",
+  "episode_number": null,
+  "date": "2016-06-10",
+  "hosts": [
+    "Ulf Pettersson",
+    "Victor Munkhammar"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Federal Reserve räntebesked",
+    "Brexit",
+    "Handelsveckan",
+    "Laurits IPO",
+    "Oljepris"
+  ],
+  "stocks_discussed": [
+    "Laurits",
+    "H&M",
+    "MQ",
+    "Inditex",
+    "Nordic Waterproofing",
+    "Ciba",
+    "Netonet"
+  ],
+  "recommendations": [],
+  "stock_segments": [
+    {
+      "stock_name": "Laurits",
+      "ticker": null,
+      "timestamp_start": "09:20",
+      "timestamp_end": "13:56",
+      "word_count": 850,
+      "speakers": [
+        "Ulf Pettersson",
+        "Victor Munkhammar"
+      ],
+      "primary_speaker": "Ulf Pettersson",
+      "discussion_summary": "Laurits, den danska auktionssajten som skulle introduceras på First North, fick sin introduktion inställd 20 minuter före handelsstart. Bolaget påstod tekniska problem, men det framgick senare att intresset var för lågt från investerare. En större investerare hoppade av i sista minuten, vilket lämnade bara småsparare. Bolaget planerar att göra ett nytt försök den 22 juni med lägre noteringspris (rykten om 16 SEK mot tidigare 19-21 SEK). Timingen är riskabel med Brexit-omröstningen dagen efter.",
+      "quotes": [
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "Det som triggade igång nyhetsjägarna här det var ju då att helt plötsligt 20 minuter innan det skulle börja handlas aktier så stannade alltihop och de liksom, nej vi skjuter på det här.",
+          "timestamp": "09:57",
+          "context": "other"
+        },
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "Det berodde på att intresset för bolaget var för lågt. De trodde att de hade det här i hamn, men så var det någon lite större som hoppade av som det hette 5 i 12. Sen hade man bara småsparare inne i det här.",
+          "timestamp": "11:20",
+          "context": "other"
+        },
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "Hade inte aktien stigit från de här 19-20 spänn som skulle noteras ganska snabbt till 22 så hade det blivit ett säljtryck och så hade aktien gått åt fel håll.",
+          "timestamp": "11:35",
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "där det liksom ryktas ut i marknaden att om man siktar på 16 spänn istället för 19-21 spänn som det var.",
+          "timestamp": "12:25",
+          "context": "metric"
+        },
+        {
+          "speaker": "Ulf Pettersson",
+          "text": "22 är en väldigt osäker dag att notera ett bolag när det är brexit. Blir det en brexit då är det ju ett sånt litet bolag och folk som har fått sina aktier som inte vill ha det kan ju bli en blodig dag där det är 21 eller vad nästa handelsdag blir.",
+          "timestamp": "13:30",
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Noteringspris: 19-21 SEK (ursprungligt), 16 SEK (ryktat nytt pris)",
+          "Börsvärde: under 1 miljard SEK"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Intresset för lågt från investerare vid första försöket",
+          "Bara småsparare kvar vid introduktion = kortsiktig säljtryck",
+          "Timing risk med Brexit den 23 juni",
+          "Nytt lägre pris (16 SEK mot 19-21 SEK)"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Brexit-omröstningen kan skapa marknadsoro",
+          "Småsparare kan sälja snabbt om aktien inte stiger omedelbart"
+        ]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag tror att det kan nog finnas små bolag därute som blir jättestora. Det kan finnas stora bolag som blir små också.",
+      "summary": "Handeln genomgår stora förändringar där mindre e-handlare kan växa stort medan traditionella varumärken tappar marknad.",
+      "category": "wisdom",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "15:59",
+      "confidence": "high",
+      "tags": [
+        "handel",
+        "e-handel",
+        "tillväxt"
+      ]
+    },
+    {
+      "quote": "Hade inte aktien stigit från de här 19-20 spänn som skulle noteras ganska snabbt till 22 så hade det blivit ett säljtryck och så hade aktien gått åt fel håll.",
+      "summary": "Småsparare tenderar att vara kortsiktiga och skapar säljtryck om aktien inte stiger direkt efter notering.",
+      "category": "wisdom",
+      "speaker": "Ulf Pettersson",
+      "speaker_role": "host",
+      "timestamp": "11:35",
+      "confidence": "high",
+      "tags": [
+        "small investors",
+        "IPO",
+        "psychology"
+      ]
+    },
+    {
+      "quote": "Arbetsmarknaden är ju sencyklisk så förbättringen där kan fortsätta ganska långt efter att tillväxttakten har toppat.",
+      "summary": "Arbetsmarknadsförbättringar fortsätter ofta efter att den ekonomiska tillväxten redan har nått sin topp.",
+      "category": "wisdom",
+      "speaker": "Victor Munkhammar",
+      "speaker_role": "host",
+      "timestamp": "17:18",
+      "confidence": "high",
+      "tags": [
+        "arbetsmarknad",
+        "konjunktur",
+        "makro"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på makrohändelser inklusive Federal Reserves inställda räntehöjning, rekordlåga tyska räntor och stigande oljepriser. Laurits IPO-inställning diskuteras utförligt - intresset var för lågt och bolaget planerar nytt försök med lägre pris. Brexit-omröstningen närmar sig med ovisst utfall. Handelsveckan väntar med rapporter från H&M, MQ och Inditex. Arbetsmarknaden i Sverige visar positiva tecken.",
+  "key_takeaways": [
+    "Federal Reserve väntas inte höja räntan i juni, sannolikt inte heller i juli",
+    "Laurits IPO sköts upp på grund av för lågt intresse, nytt försök planeras 22 juni med lägre noteringspris",
+    "Brexit-omröstningen 23 juni skapar osäkerhet på finansmarknaden",
+    "Handelsveckan väntar med H&M:s majsiffror och rapporter från MQ och Inditex",
+    "Tyska tioårsräntan touchade nollan - rekordlågt"
+  ],
+  "transcript_file": "/Users/pontus/Developer/podcast-transcriber/data/podcasts/raw/kortochlang/transcripts/kortochlang-2016-06-10-6dbf.txt",
+  "transcript_word_count": 3957,
+  "has_timestamps": true,
+  "model_used": "glm-4.7"
+}
