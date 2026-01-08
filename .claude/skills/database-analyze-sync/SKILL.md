@@ -44,9 +44,9 @@ def get_sync_status():
 
     status = {}
 
-    # Podcasts - kolla data/podcasts/analyses/
+    # Podcasts - kolla data/podcasts/analyses-v2/
     # OBS: Anvand absoluta sokvagar for att matcha load_log
-    podcast_files = list(Path("data/podcasts/analyses").glob("*.json"))
+    podcast_files = list(Path("data/podcasts/analyses-v2").glob("*.json"))
     podcast_new = []
     podcast_modified = []
     for f in podcast_files:
@@ -214,7 +214,7 @@ Tips: Kor 'podstock db pending list' for att se omatchade aktienamn
 
 | Kalla | JSON-filer | Mapp |
 |-------|------------|------|
-| Podcasts | `{podcast_id}-{date}-{hash}.json` | `data/podcasts/analyses/` |
+| Podcasts | `{podcast_id}-{date}-{hash}.json` | `data/podcasts/analyses-v2/` |
 | Twitter | `{handle}-tweet-analyses.json` | `data/twitter/analyses/` |
 | YouTube | `{video_id}.json` | `data/youtube/analyses/` |
 

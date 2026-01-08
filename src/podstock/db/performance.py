@@ -136,6 +136,7 @@ def update_recommendation_performance(
         "7d": 7,
         "30d": 30,
         "90d": 90,
+        "180d": 180,
         "365d": 365,
     }
 
@@ -160,11 +161,13 @@ def update_recommendation_performance(
     perf.price_7d = prices.get("7d")
     perf.price_30d = prices.get("30d")
     perf.price_90d = prices.get("90d")
+    perf.price_180d = prices.get("180d")
     perf.price_365d = prices.get("365d")
     perf.return_1d = returns.get("1d")
     perf.return_7d = returns.get("7d")
     perf.return_30d = returns.get("30d")
     perf.return_90d = returns.get("90d")
+    perf.return_180d = returns.get("180d")
     perf.return_365d = returns.get("365d")
     perf.calculated_at = datetime.now().isoformat()
     perf.is_complete = days_since >= 365 and perf.price_365d is not None
@@ -304,6 +307,8 @@ def import_prices_from_tracker(
 def fetch_prices_from_yahoo(
     session: "Session",
     progress_callback=None,
+    full_history: bool = False,
+    force: bool = False,
 ) -> dict[str, int]:
     """Fetch historical prices from Yahoo Finance for all securities with recommendations.
 
@@ -315,6 +320,8 @@ def fetch_prices_from_yahoo(
     Args:
         session: Database session
         progress_callback: Optional callback(current, total, ticker) for progress
+        full_history: If True, download full history from 2010 instead of just rec dates
+        force: If True, re-download even if prices already exist for this security
 
     Returns:
         Dict with counts: fetched, skipped, failed, securities_processed
@@ -332,38 +339,51 @@ def fetch_prices_from_yahoo(
     )
 
     total = len(securities)
-    client = YahooFinanceClient(rate_limit_delay=0.3)
+    client = YahooFinanceClient(rate_limit_delay=0.5)
 
     for idx, security in enumerate(securities):
         if progress_callback:
             progress_callback(idx + 1, total, security.ticker)
 
-        # Get recommendation dates through analysis relationship
-        rec_dates = []
-        for rec in session.query(Recommendation).filter_by(security_id=security.id).all():
-            if rec.analysis and rec.analysis.content:
-                pub_date = rec.analysis.content.published_at
-                if pub_date:
-                    rec_dates.append(pub_date[:10])  # YYYY-MM-DD
+        # Check if we already have prices for this security
+        if not force:
+            existing_count = session.query(Price).filter_by(security_id=security.id).count()
+            if existing_count > 0:
+                results["skipped"] += 1
+                continue
 
-        if not rec_dates:
-            results["skipped"] += 1
-            continue
+        # Determine date range
+        if full_history:
+            # Download full history from 2010
+            start_dt = datetime(2010, 1, 1)
+            end_dt = datetime.now()
+        else:
+            # Get recommendation dates through analysis relationship
+            rec_dates = []
+            for rec in session.query(Recommendation).filter_by(security_id=security.id).all():
+                if rec.analysis and rec.analysis.content:
+                    pub_date = rec.analysis.content.published_at
+                    if pub_date:
+                        rec_dates.append(pub_date[:10])  # YYYY-MM-DD
 
-        # Get min/max dates
-        min_date = min(rec_dates)
-        max_date = max(rec_dates)
+            if not rec_dates:
+                results["skipped"] += 1
+                continue
 
-        # Add buffer for performance calculations (365 days after last rec)
-        try:
-            start_dt = datetime.strptime(min_date, "%Y-%m-%d") - timedelta(days=5)
-            end_dt = min(
-                datetime.strptime(max_date, "%Y-%m-%d") + timedelta(days=400),
-                datetime.now()
-            )
-        except ValueError:
-            results["failed"] += 1
-            continue
+            # Get min/max dates
+            min_date = min(rec_dates)
+            max_date = max(rec_dates)
+
+            # Add buffer for performance calculations (365 days after last rec)
+            try:
+                start_dt = datetime.strptime(min_date, "%Y-%m-%d") - timedelta(days=5)
+                end_dt = min(
+                    datetime.strptime(max_date, "%Y-%m-%d") + timedelta(days=400),
+                    datetime.now()
+                )
+            except ValueError:
+                results["failed"] += 1
+                continue
 
         # Fetch prices from Yahoo
         try:
@@ -376,7 +396,7 @@ def fetch_prices_from_yahoo(
             for snap in snapshots:
                 date_str = snap.timestamp.strftime("%Y-%m-%d")
 
-                # Check if already exists
+                # Check if already exists (for incremental updates)
                 existing = (
                     session.query(Price)
                     .filter_by(security_id=security.id, date=date_str)
@@ -412,4 +432,78 @@ def fetch_prices_from_yahoo(
     # Final commit
     session.commit()
 
+    return results
+
+
+def update_current_prices(
+    session: "Session",
+    progress_callback=None,
+) -> dict[str, int]:
+    """Update return_current using the latest available price from local database.
+
+    For each recommendation with performance data, calculate return from
+    price_at_rec to the most recent price available in the prices table.
+
+    Args:
+        session: Database session
+        progress_callback: Optional callback(current, total) for progress
+
+    Returns:
+        Dict with counts: updated, skipped
+    """
+    from sqlalchemy import func
+
+    results = {"updated": 0, "skipped": 0}
+
+    # Get all performance records with price_at_rec
+    perfs = (
+        session.query(RecommendationPerformance)
+        .filter(RecommendationPerformance.price_at_rec.isnot(None))
+        .all()
+    )
+
+    total = len(perfs)
+
+    # Cache latest prices per security to avoid repeated queries
+    latest_prices: dict[int, tuple[float, str]] = {}
+
+    for idx, perf in enumerate(perfs):
+        if progress_callback:
+            progress_callback(idx + 1, total)
+
+        rec = perf.recommendation
+        if not rec or not rec.security_id:
+            results["skipped"] += 1
+            continue
+
+        security_id = rec.security_id
+
+        # Get latest price from cache or query
+        if security_id not in latest_prices:
+            latest = (
+                session.query(Price.close, Price.date)
+                .filter(Price.security_id == security_id)
+                .order_by(Price.date.desc())
+                .first()
+            )
+            if latest:
+                latest_prices[security_id] = (latest.close, latest.date)
+            else:
+                latest_prices[security_id] = (None, None)
+
+        price, date = latest_prices[security_id]
+
+        if price and perf.price_at_rec:
+            perf.price_current = price
+            perf.price_current_date = date
+            perf.return_current = calculate_return(perf.price_at_rec, price)
+            results["updated"] += 1
+        else:
+            results["skipped"] += 1
+
+        # Commit periodically
+        if (idx + 1) % 1000 == 0:
+            session.commit()
+
+    session.commit()
     return results

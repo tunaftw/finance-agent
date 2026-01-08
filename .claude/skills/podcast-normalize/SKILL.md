@@ -51,7 +51,7 @@ def get_normalization_status():
                 registry[p["id"]] = p
                 canonical_names[p["id"]] = p["name"]
 
-    analyses_dir = Path("data/podcasts/analyses")
+    analyses_dir = Path("data/podcasts/analyses-v2")
 
     if not analyses_dir.exists():
         return {"error": "Analyses directory not found"}
@@ -190,7 +190,7 @@ def fix_podcast_names(podcast_id: str | None = None, dry_run: bool = True):
         data = json.load(f)
         registry = {p["id"]: p for p in data.get("podcasts", [])}
 
-    analyses_dir = Path("data/podcasts/analyses")
+    analyses_dir = Path("data/podcasts/analyses-v2")
 
     fixed_count = 0
     skipped_count = 0

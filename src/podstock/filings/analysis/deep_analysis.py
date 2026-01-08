@@ -217,6 +217,222 @@ Return as JSON:
 
 
 # =============================================================================
+# Quantitative Analysis Prompts (Piotroski, Sloan, Schilit, Efficiency)
+# =============================================================================
+
+PIOTROSKI_F_SCORE_PROMPT = """Calculate the Piotroski F-Score for this company.
+
+COMPANY: {company_name}
+FISCAL PERIOD: {fiscal_period}
+
+FINANCIAL DATA:
+{financial_data}
+
+Calculate each of the 9 Piotroski signals (1 point each if TRUE):
+
+PROFITABILITY (4 signals):
+1. Positive Net Income: Is net income > 0?
+2. Positive OCF: Is operating cash flow > 0?
+3. ROA Improving: Is ROA higher than prior year?
+4. OCF > Net Income: Is operating cash flow > net income? (earnings quality)
+
+LEVERAGE & LIQUIDITY (3 signals):
+5. Leverage Declining: Has long-term debt / total assets decreased?
+6. Current Ratio Improving: Has current ratio improved vs prior year?
+7. No Dilution: Were no new shares issued during the year?
+
+OPERATING EFFICIENCY (2 signals):
+8. Margin Improving: Is gross margin higher than prior year?
+9. Turnover Improving: Has asset turnover (revenue / assets) improved?
+
+Return as JSON:
+{{
+  "total": <0-9>,
+  "interpretation": "strong" | "average" | "weak" | "very_weak",
+  "signals": {{
+    "positive_net_income": true/false,
+    "positive_ocf": true/false,
+    "roa_improving": true/false,
+    "ocf_greater_than_ni": true/false,
+    "leverage_declining": true/false,
+    "current_ratio_improving": true/false,
+    "no_dilution": true/false,
+    "margin_improving": true/false,
+    "turnover_improving": true/false
+  }},
+  "notes": "Any relevant observations about the scoring"
+}}
+
+Interpretation guide:
+- 8-9: Strong (buy candidates among value stocks)
+- 5-7: Average
+- 2-4: Weak (caution)
+- 0-1: Very weak (avoid)
+"""
+
+EARNINGS_QUALITY_PROMPT = """Assess earnings quality using multiple indicators.
+
+COMPANY: {company_name}
+FISCAL PERIOD: {fiscal_period}
+
+FINANCIAL DATA:
+{financial_data}
+
+Calculate and assess:
+
+1. ACCRUALS RATIO (Sloan):
+   Formula: (Net Income - Operating Cash Flow) / Total Assets
+   - < 0.05: High quality (cash-backed)
+   - 0.05-0.10: Medium quality
+   - > 0.10: Low quality (manipulation risk)
+
+2. OCF TO NET INCOME RATIO:
+   Formula: Operating Cash Flow / Net Income
+   - > 1.0: Excellent (cash exceeds accounting earnings)
+   - 0.8-1.0: Good
+   - < 0.8: Concerning (earnings not backed by cash)
+
+3. ONE-TIME ITEMS:
+   - Identify any one-time gains or charges
+   - Asset sales, restructuring, legal settlements
+   - Impact: none | minimal | moderate | significant
+
+4. OWNER EARNINGS (Buffett):
+   Formula: Net Income + D&A - Maintenance CapEx - Working Capital Changes
+   Note: If maintenance CapEx not disclosed, estimate as 50-70% of total CapEx
+
+Return as JSON:
+{{
+  "accruals_ratio": <float>,
+  "quality_grade": "high" | "medium" | "low",
+  "ocf_to_ni_ratio": <float>,
+  "one_time_items_impact": "none" | "minimal" | "moderate" | "significant",
+  "one_time_items_detail": ["..."],
+  "owner_earnings": <number>,
+  "owner_earnings_notes": "..."
+}}
+"""
+
+SCHILIT_SHENANIGANS_PROMPT = """Check for accounting manipulation using Schilit's 7 Shenanigans framework.
+
+COMPANY: {company_name}
+FISCAL PERIOD: {fiscal_period}
+
+FILING CONTENT:
+{filing_content}
+
+Evaluate each of the 7 Shenanigans for signs of earnings manipulation:
+
+1. REVENUE RECORDED TOO SOON OR OF QUESTIONABLE QUALITY
+   Red flags: Bill-and-hold sales, channel stuffing, aggressive % completion,
+   revenue before delivery, round-trip transactions
+   Check: Is AR growing faster than revenue? DSO increasing?
+
+2. BOGUS REVENUE
+   Red flags: Revenue from non-customers, loans recorded as sales,
+   related party transactions, barter arrangements
+   Check: Related party disclosures, unusual revenue sources
+
+3. ONE-TIME GAINS BOOSTING INCOME
+   Red flags: Asset sale gains, pension gains, reserve releases,
+   litigation settlements in operating income
+   Check: Gains classified as operating vs non-operating
+
+4. EXPENSES SHIFTED TO LATER PERIODS
+   Red flags: Improper capitalization of operating costs,
+   extending depreciation lives, not writing down impaired assets
+   Check: Capitalized R&D or software, depreciation policy changes
+
+5. FAILING TO RECORD OR REDUCING LIABILITIES
+   Red flags: Off-balance sheet obligations, understated contingencies,
+   improper hedge accounting, missing pension liabilities
+   Check: Footnotes for contingent liabilities, lease obligations
+
+6. SHIFTING CURRENT REVENUE TO LATER (Cookie Jar Reserves)
+   Red flags: Large provisions for future losses, overreserving,
+   artificial revenue smoothing across periods
+   Check: Unusual reserve movements, consistent quarterly patterns
+
+7. SHIFTING FUTURE EXPENSES TO CURRENT PERIOD (Big Bath)
+   Red flags: Kitchen-sink write-offs, restructuring charges,
+   massive impairments that can be reversed later
+   Check: Large one-time charges after management change
+
+Return as JSON:
+{{
+  "overall_risk": "none" | "low" | "medium" | "high",
+  "checks": {{
+    "revenue_too_soon": {{"risk": "none"|"low"|"medium"|"high", "notes": "..."}},
+    "bogus_revenue": {{"risk": "none"|"low"|"medium"|"high", "notes": "..."}},
+    "one_time_gains": {{"risk": "none"|"low"|"medium"|"high", "notes": "..."}},
+    "deferred_expenses": {{"risk": "none"|"low"|"medium"|"high", "notes": "..."}},
+    "hidden_liabilities": {{"risk": "none"|"low"|"medium"|"high", "notes": "..."}},
+    "cookie_jar_reserves": {{"risk": "none"|"low"|"medium"|"high", "notes": "..."}},
+    "big_bath": {{"risk": "none"|"low"|"medium"|"high", "notes": "..."}}
+  }},
+  "red_flags": ["List of specific concerns found"],
+  "requires_further_investigation": ["Areas needing deeper review"]
+}}
+"""
+
+WORKING_CAPITAL_EFFICIENCY_PROMPT = """Analyze working capital efficiency metrics.
+
+COMPANY: {company_name}
+FISCAL PERIOD: {fiscal_period}
+
+FINANCIAL DATA:
+{financial_data}
+
+Calculate working capital efficiency metrics:
+
+1. DAYS SALES OUTSTANDING (DSO):
+   Formula: (Accounts Receivable / Revenue) × 365
+   - Measures average collection period
+   - Compare to industry and prior year
+
+2. DAYS INVENTORY OUTSTANDING (DIO):
+   Formula: (Inventory / COGS) × 365
+   - Measures how long inventory sits
+   - Industry-dependent (retail: 15-30, manufacturing: 45-90)
+
+3. DAYS PAYABLES OUTSTANDING (DPO):
+   Formula: (Accounts Payable / COGS) × 365
+   - Measures payment speed to suppliers
+   - Higher = more supplier financing
+
+4. CASH CONVERSION CYCLE (CCC):
+   Formula: DIO + DSO - DPO
+   - Lower is better (less cash tied up)
+   - Negative CCC = excellent (collect before paying)
+
+5. TREND ANALYSIS:
+   - Compare each metric to prior year
+   - Flag concerning trends
+
+Red flags to check:
+- DSO increasing faster than revenue growth
+- Inventory building up (demand problems)
+- DPO suddenly increasing (cash problems)
+- CCC lengthening trend
+
+Return as JSON:
+{{
+  "dso": <days>,
+  "dso_yoy_change": "+X days" or "-X days",
+  "dio": <days>,
+  "dio_yoy_change": "+X days" or "-X days",
+  "dpo": <days>,
+  "dpo_yoy_change": "+X days" or "-X days",
+  "cash_conversion_cycle": <days>,
+  "ccc_yoy_change": "+X days" or "-X days",
+  "ccc_trend": "improving" | "stable" | "worsening",
+  "flags": ["List any concerning patterns"],
+  "notes": "Additional observations"
+}}
+"""
+
+
+# =============================================================================
 # Full Filing Analysis Prompt (single comprehensive prompt)
 # =============================================================================
 

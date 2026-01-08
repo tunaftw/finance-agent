@@ -20,7 +20,7 @@ from ..models import (
 logger = logging.getLogger(__name__)
 
 # Default path to podcast analyses
-DEFAULT_ANALYSES_PATH = Path(__file__).parent.parent.parent.parent.parent / "data" / "extracted" / "glm-batch"
+DEFAULT_ANALYSES_PATH = Path(__file__).parent.parent.parent.parent.parent / "data" / "podcasts" / "analyses-v2"
 
 
 def parse_podcast_analysis(file_path: Path) -> Iterator[Signal]:

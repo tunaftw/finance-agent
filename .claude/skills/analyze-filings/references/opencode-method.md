@@ -6,6 +6,7 @@ Analysera filings med OpenCode CLI och GLM-4.7-modellen i en separat terminal.
 - Gratis (ingar i OpenCode)
 - Bra for batch-korning
 - Kor i bakgrunden
+- **Automatisk PDF-extraktion** - scriptet extraherar PDF till markdown automatiskt
 
 ## Nackdelar
 - Kraver separat terminal
@@ -16,62 +17,79 @@ Analysera filings med OpenCode CLI och GLM-4.7-modellen i en separat terminal.
 
 1. OpenCode installerat: `/Users/pontus/.opencode/bin/opencode`
 2. GLM-4.7 modell tillganglig: `opencode/glm-4.7-free`
+3. pymupdf4llm installerat (for PDF-extraktion)
 
 ## Enskild analys
 
-Kor i terminal:
+Kor i terminal. Bade PDF och MD accepteras (PDF extraheras automatiskt):
 
 ```bash
+# Med PDF (extraheras automatiskt)
+python scripts/filings_glm_driver.py \
+  data/filings/raw/hove/annual-2024.pdf
+
+# Eller med redan extraherad markdown
 python scripts/filings_glm_driver.py \
   data/filings/extracted/getinge/getinge_annual_report_2024.md
 ```
 
 Output:
 ```
-📝 Analyserar: getinge_annual_report_2024.md (45,000 ord) [forsok 1/3]
+  Extracting annual-2024.pdf...
+  Extracted: annual-2024.md (450,000 chars)
+  Analyserar: annual-2024.md (45,000 ord) [forsok 1/3]
    Extraherar sektioner...
    - CEO Letter: 1,850 ord
    - MD&A: 8,500 ord
    - Risk Factors: 4,200 ord
-✅ Analys klar! Tokens: 15,000 in / 4,500 out
-💾 Sparade: data/filings/analysis/getinge/getinge_annual_report_2024.json
+  Analys klar! Tokens: 15,000 in / 4,500 out
+  Sparade: data/filings/analysis/hove/annual-2024.json
 ```
 
 ## Batch-korning
 
+Drivern hittar automatiskt alla oanalyserade filings fran bade `raw/` (PDFs) och `extracted/` (MDs).
+
+### Lista oanalyserade
+
+```bash
+python scripts/filings_glm_driver.py --list
+```
+
+Output:
+```
+PENDING FILINGS:
+==================================================
+  [PDF] hove/annual-2024
+  [PDF] hove/quarterly-2025-h1
+  [MD] getinge/quarterly-2025-q3
+==================================================
+Total: 3 filings
+```
+
+`[PDF]` = Behover extraheras forst, `[MD]` = Redan extraherad
+
 ### Automatisk batch
 
 ```bash
-# Analysera alla oanalyserade filings for ett bolag
-python scripts/filings_glm_driver.py --batch getinge
+# Analysera alla oanalyserade filings for ett bolag (PDFs extraheras automatiskt)
+python scripts/filings_glm_driver.py --batch hove
 
-# Analysera alla oanalyserade filings
+# Analysera alla oanalyserade filings (alla bolag)
 python scripts/filings_glm_driver.py --batch-all
-```
-
-### Manuell batch
-
-```bash
-# Hitta oanalyserade
-for f in data/filings/extracted/getinge/*.md; do
-  base=$(basename "$f" .md)
-  if [[ ! -f "data/filings/analysis/getinge/${base}.json" ]]; then
-    echo "Analyserar: $f"
-    python scripts/filings_glm_driver.py "$f"
-  fi
-done
 ```
 
 ## Driver Script
 
 `scripts/filings_glm_driver.py` gor foljande:
 
-1. Laser filingen
-2. Extraherar relevanta sektioner med section finders
-3. Bygger prompt med sektion-innehall
-4. Anropar `opencode run --format json -m opencode/glm-4.7-free`
-5. Parsear och validerar JSON-respons
-6. Sparar till `data/filings/analysis/{company}/{filing_id}.json`
+1. **Extraherar PDF till markdown** (om input ar PDF)
+2. Laser filingen (markdown)
+3. Extraherar relevanta sektioner med section finders
+4. Bygger prompt med sektion-innehall
+5. Anropar `opencode run --format json -m opencode/glm-4.7-free`
+6. Parsear och validerar JSON-respons
+7. Sparar till `data/filings/analysis/{company}/{filing_id}.json`
 
 ## Prompt-struktur
 

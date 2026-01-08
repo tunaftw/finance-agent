@@ -14,15 +14,44 @@ Analysera filings direkt i Claude Code-konversationen.
 
 ## Workflow
 
-### 1. Las filingen
+### 1. Las filingen (med automatisk extraktion)
 
 ```python
 from pathlib import Path
 
-filing_path = Path("data/filings/extracted/{company}/{filing_id}.md")
+# Configuration
+company = "getinge"  # User-selected
+filing_stem = "annual-2024"  # User-selected
+
+def ensure_extracted(company: str, filing_stem: str) -> Path:
+    """Extraherar PDF till markdown om det behovs."""
+    raw_dir = Path('data/filings/raw')
+    extracted_dir = Path('data/filings/extracted')
+
+    pdf_path = raw_dir / company / f"{filing_stem}.pdf"
+    md_path = extracted_dir / company / f"{filing_stem}.md"
+
+    if md_path.exists():
+        return md_path
+
+    if not pdf_path.exists():
+        raise FileNotFoundError(f"PDF not found: {pdf_path}")
+
+    print(f"Extracting {pdf_path.name}...")
+    from podstock.filings.pdf.parser import PDFParser
+    markdown = PDFParser().to_markdown(pdf_path)
+
+    md_path.parent.mkdir(parents=True, exist_ok=True)
+    md_path.write_text(markdown, encoding='utf-8')
+    print(f"Extracted: {md_path}")
+
+    return md_path
+
+# Get filing path (extracts if needed)
+filing_path = ensure_extracted(company, filing_stem)
 content = filing_path.read_text(encoding="utf-8")
 word_count = len(content.split())
-print(f"Filing: {word_count} ord")
+print(f"Filing: {filing_path.name} ({word_count:,} words)")
 ```
 
 ### 2. Extrahera sektioner
@@ -95,6 +124,55 @@ For varje affaromrade:
 - Operativ marginal
 - Ledningens fokus och outlook
 
+### 3b. Quantitative Analysis (NEW)
+
+After section analysis, calculate these metrics:
+
+#### Piotroski F-Score (0-9)
+
+Use financial data to calculate 9 signals:
+- Profitability (4): Net Income > 0, OCF > 0, ROA improving, OCF > NI
+- Leverage (3): Debt ratio declining, Current ratio improving, No dilution
+- Efficiency (2): Gross margin improving, Asset turnover improving
+
+Score: 8-9 Strong | 5-7 Average | 2-4 Weak | 0-1 Very Weak
+
+#### Earnings Quality (Sloan Accruals)
+
+```
+Accruals Ratio = (Net Income - OCF) / Total Assets
+```
+- < 0.05: High quality
+- 0.05-0.10: Medium quality
+- > 0.10: Low quality (investigate)
+
+Also calculate:
+- OCF/NI Ratio (>1.0 = excellent)
+- Owner Earnings = NI + D&A - Maintenance CapEx - WC changes
+
+#### Schilit Shenanigans Check
+
+Evaluate each of the 7 shenanigans:
+1. Revenue too soon? (DSO increasing, AR growing faster than revenue)
+2. Bogus revenue? (Related party, non-customer sales)
+3. One-time gains? (Asset sales, reserve releases in operating income)
+4. Deferred expenses? (Improper capitalization, extended depreciation)
+5. Hidden liabilities? (Off-balance sheet, understated contingencies)
+6. Cookie jar reserves? (Over-reserving for future release)
+7. Big bath? (Kitchen-sink write-offs after management change)
+
+Flag: none | low | medium | high for each
+
+#### Working Capital Efficiency
+
+Calculate:
+- DSO = (AR / Revenue) × 365
+- DIO = (Inventory / COGS) × 365
+- DPO = (AP / COGS) × 365
+- CCC = DIO + DSO - DPO
+
+Flag concerning trends (DSO increasing faster than revenue, etc.)
+
 ### 4. Strukturera output
 
 Bygg JSON-struktur enligt output-schema:
@@ -130,6 +208,35 @@ analysis = {
     "risk_factors": {...},
     "guidance": {...},
     "segments": [...],
+    "financial_metrics": {...},
+
+    "piotroski_f_score": {
+        "total": 7,
+        "interpretation": "average",
+        "signals": {...}
+    },
+
+    "earnings_quality": {
+        "accruals_ratio": 0.04,
+        "quality_grade": "high",
+        "ocf_to_ni_ratio": 1.08,
+        "owner_earnings": 780000000
+    },
+
+    "schilit_shenanigans": {
+        "overall_risk": "low",
+        "checks": {...},
+        "red_flags": []
+    },
+
+    "working_capital_efficiency": {
+        "dso": 45,
+        "dio": 65,
+        "dpo": 52,
+        "cash_conversion_cycle": 58,
+        "ccc_trend": "stable"
+    },
+
     "executive_summary": "...",
     "key_highlights": [...]
 }

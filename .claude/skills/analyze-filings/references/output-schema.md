@@ -259,6 +259,57 @@ JSON-schema for filing-analyser.
     "net_debt": 12000000000,
     "roe": 0.18,
     "roic": 0.12
+  },
+
+  "piotroski_f_score": {
+    "total": 7,
+    "interpretation": "average",
+    "signals": {
+      "positive_net_income": true,
+      "positive_ocf": true,
+      "roa_improving": true,
+      "ocf_greater_than_ni": false,
+      "leverage_declining": true,
+      "current_ratio_improving": true,
+      "no_dilution": true,
+      "margin_improving": true,
+      "turnover_improving": false
+    }
+  },
+
+  "earnings_quality": {
+    "accruals_ratio": 0.04,
+    "quality_grade": "high",
+    "ocf_to_ni_ratio": 1.08,
+    "one_time_items_impact": "minimal",
+    "owner_earnings": 780000000
+  },
+
+  "schilit_shenanigans": {
+    "overall_risk": "low",
+    "checks": {
+      "revenue_too_soon": {"risk": "none", "notes": null},
+      "bogus_revenue": {"risk": "none", "notes": null},
+      "one_time_gains": {"risk": "low", "notes": "Small asset sale gain in Q2"},
+      "deferred_expenses": {"risk": "none", "notes": null},
+      "hidden_liabilities": {"risk": "none", "notes": null},
+      "cookie_jar_reserves": {"risk": "none", "notes": null},
+      "big_bath": {"risk": "none", "notes": null}
+    },
+    "red_flags": []
+  },
+
+  "working_capital_efficiency": {
+    "dso": 45,
+    "dso_yoy_change": "+3 days",
+    "dio": 65,
+    "dio_yoy_change": "-2 days",
+    "dpo": 52,
+    "dpo_yoy_change": "+1 day",
+    "cash_conversion_cycle": 58,
+    "ccc_yoy_change": "0 days",
+    "ccc_trend": "stable",
+    "flags": []
   }
 }
 ```
@@ -318,6 +369,68 @@ JSON-schema for filing-analyser.
 | `operating_margin` | float | Marginal som decimal (0.18 = 18%) |
 | `outlook` | enum | `positive` \| `neutral` \| `cautious` \| `negative` |
 | `management_focus` | enum | `high` \| `medium` \| `low` |
+
+### Piotroski F-Score
+
+Based on Joseph Piotroski's 2000 research. See `data/investment-philosophy/frameworks/piotroski-f-score.md`.
+
+| Falt | Typ | Beskrivning |
+|------|-----|-------------|
+| `total` | int | Total F-Score (0-9) |
+| `interpretation` | enum | `strong` (8-9) \| `average` (5-7) \| `weak` (2-4) \| `very_weak` (0-1) |
+| `signals.positive_net_income` | bool | Net income > 0 |
+| `signals.positive_ocf` | bool | Operating cash flow > 0 |
+| `signals.roa_improving` | bool | ROA higher than prior year |
+| `signals.ocf_greater_than_ni` | bool | OCF > Net Income (earnings quality) |
+| `signals.leverage_declining` | bool | Long-term debt ratio decreased |
+| `signals.current_ratio_improving` | bool | Current ratio improved |
+| `signals.no_dilution` | bool | No new share issuance |
+| `signals.margin_improving` | bool | Gross margin higher than prior year |
+| `signals.turnover_improving` | bool | Asset turnover improved |
+
+### Earnings Quality
+
+Based on Sloan accruals research. See `data/investment-philosophy/frameworks/sloan-accruals.md`.
+
+| Falt | Typ | Beskrivning |
+|------|-----|-------------|
+| `accruals_ratio` | float | (Net Income - OCF) / Total Assets. Lower = higher quality |
+| `quality_grade` | enum | `high` (<0.05) \| `medium` (0.05-0.10) \| `low` (>0.10) |
+| `ocf_to_ni_ratio` | float | OCF / Net Income. >1.0 = cash-backed earnings |
+| `one_time_items_impact` | enum | `none` \| `minimal` \| `moderate` \| `significant` |
+| `owner_earnings` | int | Net Income + D&A - Maintenance CapEx - WC changes (Buffett) |
+
+### Schilit Shenanigans
+
+Based on Howard Schilit's 7 Shenanigans framework. See `data/investment-philosophy/frameworks/schilit-7-shenanigans.md`.
+
+| Falt | Typ | Beskrivning |
+|------|-----|-------------|
+| `overall_risk` | enum | `none` \| `low` \| `medium` \| `high` |
+| `checks.revenue_too_soon` | object | Bill-and-hold, channel stuffing, aggressive recognition |
+| `checks.bogus_revenue` | object | Related party sales, non-customer revenue |
+| `checks.one_time_gains` | object | Asset sales, reserve releases, pension gains |
+| `checks.deferred_expenses` | object | Improper capitalization, extended depreciation |
+| `checks.hidden_liabilities` | object | Off-balance sheet, underreserved contingencies |
+| `checks.cookie_jar_reserves` | object | Artificial smoothing via reserves |
+| `checks.big_bath` | object | Kitchen-sink write-offs for future reversal |
+| `red_flags` | array | Specific manipulation indicators found |
+
+### Working Capital Efficiency
+
+Based on efficiency metrics. See `data/investment-philosophy/basics/key-metrics/efficiency.md`.
+
+| Falt | Typ | Beskrivning |
+|------|-----|-------------|
+| `dso` | int | Days Sales Outstanding = (AR / Revenue) × 365 |
+| `dso_yoy_change` | string | Change from prior year ("+5 days") |
+| `dio` | int | Days Inventory Outstanding = (Inventory / COGS) × 365 |
+| `dio_yoy_change` | string | Change from prior year |
+| `dpo` | int | Days Payables Outstanding = (AP / COGS) × 365 |
+| `dpo_yoy_change` | string | Change from prior year |
+| `cash_conversion_cycle` | int | DIO + DSO - DPO |
+| `ccc_trend` | enum | `improving` \| `stable` \| `worsening` |
+| `flags` | array | Red flags ("DSO increasing faster than revenue") |
 
 ## Evolution Schema (Cross-Filing)
 

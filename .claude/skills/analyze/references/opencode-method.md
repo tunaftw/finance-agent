@@ -24,17 +24,24 @@ Kör i terminal:
 ```bash
 python scripts/glm_driver.py \
   data/podcasts/raw/borspodden/transcripts/borspodden-2025-01-15.txt \
-  data/extracted/glm-batch/
+  data/podcasts/analyses-v2/
 ```
 
 Output:
 ```
 📝 Analyserar: borspodden-2025-01-15.txt (5,234 ord) [försök 1/3]
 ✅ Analys klar! Tokens: 7,500 in / 2,100 out | Rek: 4
-💾 Sparade: data/extracted/glm-batch/borspodden-2025-01-15.json
+💾 Sparade: data/podcasts/analyses-v2/borspodden-2025-01-15.json
 ```
 
 ## Batch-körning
+
+### Via Claude Code (Rekommenderat)
+
+Säg `/analyze batch` eller "analysera alla oanalyserade" i Claude Code. Claude kommer:
+1. Visa backlog-status
+2. Generera `transcript-queue.txt` med oanalyserade transkript
+3. Visa terminalkommando att köra
 
 ### Automatisk batch med shell-script
 
@@ -54,13 +61,13 @@ Scriptet:
 ```bash
 # Hitta oanalyserade
 ls data/podcasts/raw/*/transcripts/*.txt | wc -l
-ls data/extracted/glm-batch/*.json | wc -l
+ls data/podcasts/analyses-v2/*.json | wc -l
 
 # Kör på specifika filer
 for f in data/podcasts/raw/borspodden/transcripts/*.txt; do
-  if [[ ! -f "data/extracted/glm-batch/$(basename ${f%.txt}).json" ]]; then
+  if [[ ! -f "data/podcasts/analyses-v2/$(basename ${f%.txt}).json" ]]; then
     echo "Analyserar: $f"
-    python scripts/glm_driver.py "$f" data/extracted/glm-batch/
+    python scripts/glm_driver.py "$f" data/podcasts/analyses-v2/
   fi
 done
 ```
@@ -70,7 +77,7 @@ done
 Kolla completion-log:
 
 ```bash
-cat data/extracted/glm-batch/completion-log.json | python -m json.tool
+cat data/podcasts/analyses-v2/completion-log.json | python -m json.tool
 ```
 
 ```json
@@ -110,7 +117,7 @@ Om JSON saknar obligatoriska fält:
 
 ## Output-format
 
-Analyserna sparas i `data/extracted/glm-batch/{episode_id}.json`:
+Analyserna sparas i `data/podcasts/analyses-v2/{episode_id}.json`:
 
 ```json
 {

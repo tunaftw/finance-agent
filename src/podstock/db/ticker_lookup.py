@@ -8,7 +8,7 @@ from typing import TYPE_CHECKING
 
 from sqlalchemy import func
 
-from podstock.db.models import Security, SecurityAlias
+from podstock.db.models import PendingSecurity, Recommendation, Security, SecurityAlias
 
 if TYPE_CHECKING:
     from sqlalchemy.orm import Session
@@ -138,8 +138,9 @@ def resolve_security(
 
     Lookup order:
     1. Exact ticker match
-    2. Exact name match (case-insensitive)
-    3. Alias match (case-insensitive)
+    2. Ticker with common suffixes (.ST, .CO, .HE, .OL, -USD)
+    3. Exact name match (case-insensitive)
+    4. Alias match (case-insensitive)
 
     Args:
         session: Database session
@@ -151,22 +152,32 @@ def resolve_security(
     """
     name_lower = name.lower().strip()
 
-    # 1. Try ticker match first
+    # 1. Try ticker match first (exact)
     if ticker:
+        ticker_upper = ticker.upper()
         security = session.query(Security).filter(
-            func.lower(Security.ticker) == ticker.lower()
+            func.upper(Security.ticker) == ticker_upper
         ).first()
         if security:
             return security
 
-    # 2. Try exact name match
+        # 2. Try ticker with common suffixes
+        suffixes = [".ST", ".CO", ".HE", ".OL", ".L", "-USD"]
+        for suffix in suffixes:
+            security = session.query(Security).filter(
+                func.upper(Security.ticker) == ticker_upper + suffix
+            ).first()
+            if security:
+                return security
+
+    # 3. Try exact name match
     security = session.query(Security).filter(
         func.lower(Security.name) == name_lower
     ).first()
     if security:
         return security
 
-    # 3. Try alias match
+    # 4. Try alias match
     alias = session.query(SecurityAlias).filter(
         func.lower(SecurityAlias.alias) == name_lower
     ).first()
@@ -242,3 +253,159 @@ def seed_from_ticker_mapping(
                 result["aliases_created"] += 1
 
     return result
+
+
+def link_recommendations_to_securities(
+    session: "Session",
+    progress_callback=None,
+) -> dict[str, int]:
+    """Link unlinked recommendations to securities.
+
+    For each recommendation without a security_id:
+    1. Try to resolve using raw_stock_name and raw_ticker
+    2. If resolved, update security_id
+    3. If not resolved, track for pending_securities
+
+    Args:
+        session: Database session
+        progress_callback: Optional callback(current, total) for progress
+
+    Returns:
+        Dict with counts: linked, pending, skipped
+    """
+    result = {
+        "linked": 0,
+        "pending": 0,
+        "skipped": 0,
+    }
+
+    # Get all recommendations without security_id
+    recs = (
+        session.query(Recommendation)
+        .filter(Recommendation.security_id.is_(None))
+        .all()
+    )
+
+    total = len(recs)
+
+    # Track pending to add at end (avoid duplicate key issues during loop)
+    pending_to_add: dict[tuple[str, str | None], dict] = {}
+
+    for idx, rec in enumerate(recs):
+        if progress_callback:
+            progress_callback(idx + 1, total)
+
+        # Skip if no name
+        if not rec.raw_stock_name:
+            result["skipped"] += 1
+            continue
+
+        # Try to resolve
+        security = resolve_security(session, rec.raw_stock_name, rec.raw_ticker)
+
+        if security:
+            rec.security_id = security.id
+            result["linked"] += 1
+        else:
+            # Track for pending (aggregate by name+ticker)
+            key = (rec.raw_stock_name, rec.raw_ticker)
+            if key not in pending_to_add:
+                pending_to_add[key] = {
+                    "raw_name": rec.raw_stock_name,
+                    "raw_ticker": rec.raw_ticker,
+                    "context": rec.reasoning[:200] if rec.reasoning else None,
+                    "count": 0,
+                }
+            pending_to_add[key]["count"] += 1
+            result["pending"] += 1
+
+        # Commit periodically
+        if (idx + 1) % 500 == 0:
+            session.commit()
+
+    # Now add/update pending securities
+    for key, data in pending_to_add.items():
+        existing = (
+            session.query(PendingSecurity)
+            .filter(
+                PendingSecurity.raw_name == data["raw_name"],
+                PendingSecurity.raw_ticker == data["raw_ticker"],
+            )
+            .first()
+        )
+
+        if existing:
+            existing.occurrence_count += data["count"]
+        else:
+            pending = PendingSecurity(
+                raw_name=data["raw_name"],
+                raw_ticker=data["raw_ticker"],
+                context=data["context"],
+                occurrence_count=data["count"],
+            )
+            session.add(pending)
+
+    session.commit()
+    return result
+
+
+def _create_or_update_pending(
+    session: "Session",
+    raw_name: str,
+    raw_ticker: str | None,
+    context: str | None = None,
+) -> PendingSecurity | None:
+    """Create or update a pending security entry.
+
+    Args:
+        session: Database session
+        raw_name: Raw stock name
+        raw_ticker: Raw ticker (may be None)
+        context: Context/reasoning for the recommendation
+
+    Returns:
+        The pending security entry or None if skipped
+    """
+    # Check if already exists - use exact match for raw_name since unique constraint is case-sensitive
+    existing = (
+        session.query(PendingSecurity)
+        .filter(
+            PendingSecurity.raw_name == raw_name,
+            PendingSecurity.raw_ticker == raw_ticker,
+        )
+        .first()
+    )
+
+    if existing:
+        existing.occurrence_count += 1
+        return existing
+
+    # Also check case-insensitive to avoid near-duplicates
+    existing_similar = (
+        session.query(PendingSecurity)
+        .filter(
+            func.lower(PendingSecurity.raw_name) == raw_name.lower(),
+            PendingSecurity.raw_ticker == raw_ticker,
+        )
+        .first()
+    )
+
+    if existing_similar:
+        existing_similar.occurrence_count += 1
+        return existing_similar
+
+    # Create new
+    try:
+        pending = PendingSecurity(
+            raw_name=raw_name,
+            raw_ticker=raw_ticker,
+            context=context,
+            occurrence_count=1,
+        )
+        session.add(pending)
+        session.flush()
+        return pending
+    except Exception:
+        # Unique constraint violation - another thread/process created it
+        session.rollback()
+        return None

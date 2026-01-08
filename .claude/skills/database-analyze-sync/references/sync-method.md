@@ -37,7 +37,7 @@ def sync_all(source_types: list[str] = None, verbose: bool = True):
             results['podcast'] = sync_source(
                 engine=engine,
                 loader=PodcastLoader(),
-                data_dir=Path("data/podcasts/analyses"),
+                data_dir=Path("data/podcasts/analyses-v2"),
                 pattern="*.json",
                 source_name="podcasts",
                 verbose=verbose
@@ -204,7 +204,7 @@ def get_unsynced_files(source_type: str) -> list[Path]:
 
     # Konfigurera per kalla
     if source_type == 'podcast':
-        data_dir = Path("data/podcasts/analyses")
+        data_dir = Path("data/podcasts/analyses-v2")
         pattern = "*.json"
     elif source_type == 'twitter':
         data_dir = Path("data/twitter/analyses")
@@ -343,10 +343,10 @@ For att kora sync manuellt via CLI:
 
 ```bash
 # Ladda alla podcast-analyser
-podstock db load --type podcast --data-dir data/podcasts/analyses
+podstock db load --type podcast --data-dir data/podcasts/analyses-v2
 
 # Ladda en specifik fil
-podstock db load --type podcast --file data/podcasts/analyses/episode.json
+podstock db load --type podcast --file data/podcasts/analyses-v2/episode.json
 
 # Ladda Twitter
 podstock db load --type twitter

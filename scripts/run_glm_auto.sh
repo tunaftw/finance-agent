@@ -15,9 +15,9 @@
 set -euo pipefail
 
 PROJECT_ROOT="/Users/pontus/Developer/podcast-transcriber"
-TRANSCRIPT_QUEUE="$PROJECT_ROOT/data/extracted/glm-batch/transcript-queue.txt"
-COMPLETION_LOG="$PROJECT_ROOT/data/extracted/glm-batch/completion-log.json"
-OUTPUT_DIR="$PROJECT_ROOT/data/extracted/glm-batch"
+TRANSCRIPT_QUEUE="$PROJECT_ROOT/data/podcasts/analyses-v2/transcript-queue.txt"
+COMPLETION_LOG="$PROJECT_ROOT/data/podcasts/analyses-v2/completion-log.json"
+OUTPUT_DIR="$PROJECT_ROOT/data/podcasts/analyses-v2"
 GLM_DRIVER="$PROJECT_ROOT/scripts/glm_driver.py"
 BATCH_SIZE=8
 

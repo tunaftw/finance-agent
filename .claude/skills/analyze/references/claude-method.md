@@ -44,7 +44,7 @@ Skicka till Claude och parsa JSON-responsen:
 ```python
 # Claude Code analyserar direkt
 # Resultatet sparas i:
-output_path = Path(f"data/podcasts/analyses/{podcast_id}/{episode_id}.json")
+output_path = Path(f"data/podcasts/analyses-v2/{episode_id}.json")
 ```
 
 ### 4. Validera och spara
@@ -81,7 +81,7 @@ Claude: Analyserar transkript...
   - 1 crypto-omnämnande (BTC - bullish)
   - 3 insights (1 philosophy, 2 lesson)
 
-  Sparad: data/podcasts/analyses/borspodden/borspodden-2025-01-15.json
+  Sparad: data/podcasts/analyses-v2/borspodden-2025-01-15.json
 ```
 
 ## Batch-körning med Claude Code
@@ -92,7 +92,7 @@ För att analysera flera transkript i följd:
 from pathlib import Path
 
 transcripts_dir = Path("data/podcasts/raw/borspodden/transcripts")
-output_dir = Path("data/podcasts/analyses/borspodden")
+output_dir = Path("data/podcasts/analyses-v2")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # Hitta oanalyserade

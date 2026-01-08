@@ -1,7 +1,24 @@
 {
   "version": 1,
-  "updated_at": "2025-12-30T11:07:11.251597",
+  "updated_at": "2025-12-30T14:30:00.000000",
   "companies": [
+    {
+      "id": "bets-b-betsson",
+      "name": "Betsson",
+      "ticker": "BETS-B.ST",
+      "ticker_base": "BETS-B",
+      "exchange": "OMX",
+      "market": "sweden",
+      "nasdaq_id": null,
+      "isin": null,
+      "feeds": {
+        "nasdaq": "https://www.nasdaqomxnordic.com/news/companynews?symbol=BETS-B",
+        "mfn": "https://mfn.se/a/betsson"
+      },
+      "since": "2024-01-01",
+      "added_at": "2025-12-30T14:30:00.000000",
+      "active": true
+    },
     {
       "id": "hack-hacksaw-gaming",
       "name": "Hacksaw Gaming",
@@ -17,6 +34,23 @@
       },
       "since": "2024-01-01",
       "added_at": "2025-12-30T11:07:11.251590",
+      "active": true
+    },
+    {
+      "id": "geti-b-getinge",
+      "name": "Getinge",
+      "ticker": "GETI-B.ST",
+      "ticker_base": "GETI-B",
+      "exchange": "OMX",
+      "market": "sweden",
+      "nasdaq_id": null,
+      "isin": null,
+      "feeds": {
+        "nasdaq": "https://www.nasdaqomxnordic.com/news/companynews?symbol=GETI-B",
+        "mfn": "https://mfn.se/a/getinge"
+      },
+      "since": "2024-01-01",
+      "added_at": "2025-12-30T18:00:00.000000",
       "active": true
     }
   ],

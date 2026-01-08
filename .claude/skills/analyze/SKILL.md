@@ -16,6 +16,83 @@ Extrahera investeringsrekommendationer, crypto-omnämnanden och visdomsinsikter 
 5. Fråga om **vilka transkript**: Enskild fil, alla oanalyserade, eller nya sedan datum
 6. Kör analys och visa sammanfattning
 
+## Batch Mode (Snabbstart)
+
+Om användaren säger "batch", "kör alla", "analysera alla oanalyserade", "synka analyser", eller liknande - hoppa över interaktiva frågor och kör direkt:
+
+### Workflow
+
+1. **Visa backlog** (använd get_analysis_backlog() nedan)
+2. **Fråga bekräftelse** med AskUserQuestion: "Generera kö för X oanalyserade podcast-transkript?"
+3. **Generera transcript-queue.txt**
+4. **Visa terminalkommando**
+
+### Generera kö-fil
+
+```python
+from pathlib import Path
+
+# Hitta alla transkript
+transcripts = []
+for podcast_dir in Path('data/podcasts/raw').iterdir():
+    if podcast_dir.is_dir():
+        transcripts_dir = podcast_dir / 'transcripts'
+        if transcripts_dir.exists():
+            transcripts.extend(transcripts_dir.glob('*.txt'))
+
+# Hitta redan analyserade (alla platser)
+analyzed = set()
+
+# Primary: data/podcasts/analyses-v2/
+analyses_v2 = Path('data/podcasts/analyses-v2')
+if analyses_v2.exists():
+    analyzed.update(p.stem for p in analyses_v2.glob('*.json'))
+
+# Legacy locations
+for legacy_dir in ['data/extracted/glm-batch', 'data/podcasts/analyses']:
+    legacy_path = Path(legacy_dir)
+    if legacy_path.exists():
+        analyzed.update(p.stem for p in legacy_path.glob('*.json'))
+
+# Filtrera oanalyserade
+unanalyzed = [t for t in transcripts if t.stem not in analyzed]
+
+# Skriv kö-fil
+queue_file = Path('data/podcasts/analyses-v2/transcript-queue.txt')
+queue_file.parent.mkdir(parents=True, exist_ok=True)
+queue_file.write_text('\n'.join(str(t) for t in sorted(unanalyzed)))
+
+print(f"Skrev {len(unanalyzed)} transkript till {queue_file}")
+```
+
+### Visa terminalinstruktioner
+
+Efter kö-generering, visa:
+
+```
+================================================================================
+KÖ GENERERAD
+================================================================================
+
+Transkript att analysera: {antal}
+Kö-fil: data/podcasts/analyses-v2/transcript-queue.txt
+
+Kör i separat terminal:
+
+  cd /Users/pontus/Developer/podcast-transcriber
+  bash scripts/run_glm_auto.sh
+
+Eller Python-version:
+
+  python3 scripts/batch_runner.py
+
+Följ progress:
+
+  watch -n 5 'jq ".total_processed, (.failed | length)" data/podcasts/analyses-v2/completion-log.json'
+
+================================================================================
+```
+
 ## Backlog Check (Kör FÖRST)
 
 Visa automatiskt vad som ännu inte är analyserat:
@@ -36,12 +113,19 @@ def get_analysis_backlog():
             if transcripts_dir.exists():
                 podcast_transcripts.update(p.stem for p in transcripts_dir.glob('*.txt'))
 
-    # Check both analysis locations
-    analyzed_podcasts = set(p.stem for p in Path('data/extracted/glm-batch').glob('*.json'))
-    # Also check data/podcasts/analyses/ (flat structure)
-    analyses_dir = Path('data/podcasts/analyses')
-    if analyses_dir.exists():
-        analyzed_podcasts.update(p.stem for p in analyses_dir.glob('*.json'))
+    # Check all analysis locations
+    analyzed_podcasts = set()
+
+    # Primary location: data/podcasts/analyses-v2/
+    analyses_v2_dir = Path('data/podcasts/analyses-v2')
+    if analyses_v2_dir.exists():
+        analyzed_podcasts.update(p.stem for p in analyses_v2_dir.glob('*.json'))
+
+    # Legacy locations
+    for legacy_dir in ['data/extracted/glm-batch', 'data/podcasts/analyses']:
+        legacy_path = Path(legacy_dir)
+        if legacy_path.exists():
+            analyzed_podcasts.update(p.stem for p in legacy_path.glob('*.json'))
 
     backlog['podcasts'] = {
         'total': len(podcast_transcripts),
@@ -157,19 +241,14 @@ Kontrollera vad som redan analyserats:
 
 ```bash
 # Kolla befintliga analyser
-ls data/podcasts/analyses/ | wc -l
-ls data/extracted/glm-batch/ | wc -l
+ls data/podcasts/analyses-v2/ | wc -l
 
 # Hitta oanalyserade podcast-transkript
 python -c "
 from pathlib import Path
 import json
 
-analyzed = set(p.stem for p in Path('data/extracted/glm-batch').glob('*.json'))
-# Also check data/podcasts/analyses/
-analyses_dir = Path('data/podcasts/analyses')
-if analyses_dir.exists():
-    analyzed.update(p.stem for p in analyses_dir.glob('*.json'))
+analyzed = set(p.stem for p in Path('data/podcasts/analyses-v2').glob('*.json'))
 transcripts = set(p.stem for p in Path('data/podcasts/raw').rglob('*.txt'))
 unanalyzed = transcripts - analyzed
 print(f'Analyserade: {len(analyzed)}')
@@ -194,7 +273,7 @@ Efter analys, rapportera:
 - Antal rekommendationer (buy/sell/hold/watch/avoid)
 - Antal crypto-omnämnanden
 - Antal insights (philosophy/lesson/wisdom)
-- Sparade filer: `data/extracted/glm-batch/{episode_id}.json`
+- Sparade filer: `data/podcasts/analyses-v2/{episode_id}.json`
 
 ## Extraction Types
 
@@ -281,8 +360,7 @@ Analyser sparas i JSON format:
 
 | Källa | Analys-sökväg |
 |-------|---------------|
-| GLM Batch | `data/extracted/glm-batch/{episode_id}.json` |
-| Podcast analyses | `data/podcasts/analyses/{episode_id}.json` |
+| Podcast analyses | `data/podcasts/analyses-v2/{episode_id}.json` |
 | Twitter analyses | `data/twitter/analyses/{handle}-analysis.json` |
 | YouTube analyses | `data/youtube/analyses/{video_id}.json` |
 

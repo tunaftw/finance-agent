@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 
 from rich.console import Console
@@ -285,10 +286,59 @@ def cmd_db_search(args: argparse.Namespace) -> int:
         return 1
 
 
+def cmd_db_link_recommendations(args: argparse.Namespace) -> int:
+    """Link unlinked recommendations to securities."""
+    from podstock.db.engine import get_engine, get_session, DEFAULT_DB_PATH
+    from podstock.db.ticker_lookup import link_recommendations_to_securities
+
+    db_path = Path(args.db) if args.db else DEFAULT_DB_PATH
+
+    if not db_path.exists():
+        console.print(f"[yellow]Database not found:[/yellow] {db_path}")
+        return 1
+
+    try:
+        engine = get_engine(db_path)
+
+        with get_session(engine) as session:
+            from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn
+
+            with Progress(
+                SpinnerColumn(),
+                TextColumn("[progress.description]{task.description}"),
+                BarColumn(),
+                TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
+                console=console,
+            ) as progress:
+                task = progress.add_task("Linking recommendations...", total=100)
+
+                def update_progress(current, total):
+                    progress.update(task, completed=int(current / total * 100))
+
+                result = link_recommendations_to_securities(session, progress_callback=update_progress)
+
+        console.print(f"\n[green]Linked:[/green] {result['linked']}")
+        console.print(f"[yellow]Pending:[/yellow] {result['pending']}")
+        console.print(f"[dim]Skipped:[/dim] {result['skipped']}")
+
+        if result['pending'] > 0:
+            console.print(f"\n[dim]Run 'podstock db pending resolve-interactive' to map pending tickers[/dim]")
+
+        return 0
+
+    except Exception as e:
+        console.print(f"[red]✗[/red] Error: {e}")
+        if args.verbose:
+            import traceback
+            traceback.print_exc()
+        return 1
+
+
 def cmd_db_pending(args: argparse.Namespace) -> int:
     """Manage pending (unmatched) securities."""
     from podstock.db.engine import get_engine, get_session, DEFAULT_DB_PATH
-    from podstock.db.models import PendingSecurity, Security
+    from podstock.db.models import PendingSecurity, Security, Recommendation
+    from podstock.db.ticker_lookup import get_or_create_security, add_alias
 
     db_path = Path(args.db) if args.db else DEFAULT_DB_PATH
 
@@ -303,18 +353,18 @@ def cmd_db_pending(args: argparse.Namespace) -> int:
             if args.pending_command == "list":
                 pending = session.query(PendingSecurity).filter_by(
                     status="pending"
-                ).order_by(PendingSecurity.occurrence_count.desc()).limit(50).all()
+                ).order_by(PendingSecurity.occurrence_count.desc()).all()
 
                 if not pending:
                     console.print("[green]No pending securities[/green]")
                     return 0
 
-                table = Table(title="Pending Securities")
+                table = Table(title=f"Pending Securities ({len(pending)} total)")
                 table.add_column("ID", style="dim")
                 table.add_column("Name", style="cyan")
                 table.add_column("Ticker")
                 table.add_column("Count", justify="right")
-                table.add_column("Source")
+                table.add_column("Context", max_width=40)
 
                 for p in pending:
                     table.add_row(
@@ -322,10 +372,102 @@ def cmd_db_pending(args: argparse.Namespace) -> int:
                         p.raw_name,
                         p.raw_ticker or "-",
                         str(p.occurrence_count),
-                        p.source or "-",
+                        (p.context or "-")[:40],
                     )
 
                 console.print(table)
+
+            elif args.pending_command == "resolve-interactive":
+                # Interactive resolution of pending securities
+                pending_list = session.query(PendingSecurity).filter_by(
+                    status="pending"
+                ).order_by(PendingSecurity.occurrence_count.desc()).all()
+
+                if not pending_list:
+                    console.print("[green]No pending securities to resolve[/green]")
+                    return 0
+
+                console.print(f"\n[bold]Interactive Pending Resolution[/bold]")
+                console.print(f"Total pending: {len(pending_list)}")
+                console.print("[dim]Commands: ticker (e.g. EVO.ST), 's' skip, 'q' quit[/dim]\n")
+
+                resolved = 0
+                skipped = 0
+
+                # Load ticker mapping for auto-save
+                mapping_path = Path(__file__).parent.parent.parent.parent / "data" / "prices" / "ticker_mapping.json"
+                ticker_mapping = {}
+                if mapping_path.exists():
+                    ticker_mapping = json.loads(mapping_path.read_text())
+
+                for idx, pending in enumerate(pending_list):
+                    console.print(f"\n[bold]Pending {idx + 1}/{len(pending_list)}:[/bold] {pending.raw_name}")
+                    if pending.raw_ticker:
+                        console.print(f"  Raw ticker: {pending.raw_ticker}")
+                    console.print(f"  Occurrences: {pending.occurrence_count}")
+                    if pending.context:
+                        console.print(f"  Context: [dim]{pending.context[:100]}...[/dim]")
+
+                    user_input = input("  > Yahoo ticker (or s/q): ").strip()
+
+                    if user_input.lower() == 'q':
+                        console.print("\n[yellow]Quit[/yellow]")
+                        break
+                    elif user_input.lower() == 's' or not user_input:
+                        skipped += 1
+                        continue
+
+                    # Create or get security
+                    yahoo_ticker = user_input.upper()
+                    if not yahoo_ticker.endswith(('.ST', '.CO', '.HE', '.OL', '.L', '-USD')):
+                        # Assume Swedish if no suffix
+                        if not any(c.isdigit() for c in yahoo_ticker):
+                            console.print(f"  [dim]Hint: Swedish stocks need .ST suffix (e.g. {yahoo_ticker}.ST)[/dim]")
+
+                    security, was_created = get_or_create_security(
+                        session,
+                        ticker=yahoo_ticker,
+                        name=pending.raw_name,
+                    )
+
+                    if was_created:
+                        console.print(f"  [green]✓ Created security:[/green] {security.name} ({security.ticker})")
+                    else:
+                        console.print(f"  [green]✓ Using existing:[/green] {security.name} ({security.ticker})")
+
+                    # Add alias if raw_ticker differs
+                    if pending.raw_ticker and pending.raw_ticker.upper() != yahoo_ticker:
+                        add_alias(session, security.id, pending.raw_ticker, alias_type="ticker_variant")
+
+                    # Mark pending as resolved
+                    pending.status = "resolved"
+                    pending.resolved_security_id = security.id
+
+                    # Link all recommendations with this raw_name/raw_ticker
+                    linked = session.query(Recommendation).filter(
+                        Recommendation.security_id.is_(None),
+                        Recommendation.raw_stock_name == pending.raw_name,
+                    ).update({Recommendation.security_id: security.id})
+
+                    console.print(f"  [green]✓ Linked {linked} recommendations[/green]")
+
+                    # Update ticker_mapping.json
+                    if "mappings" not in ticker_mapping:
+                        ticker_mapping["mappings"] = {}
+                    ticker_mapping["mappings"][pending.raw_name] = yahoo_ticker
+                    ticker_mapping["updated_at"] = __import__("datetime").datetime.now().isoformat()
+
+                    session.commit()
+                    resolved += 1
+
+                # Save ticker mapping
+                if resolved > 0:
+                    mapping_path.write_text(json.dumps(ticker_mapping, indent=2, ensure_ascii=False))
+                    console.print(f"\n[green]✓ Updated ticker_mapping.json[/green]")
+
+                console.print(f"\n[bold]Summary:[/bold]")
+                console.print(f"  Resolved: {resolved}")
+                console.print(f"  Skipped: {skipped}")
 
             elif args.pending_command == "resolve":
                 pending = session.query(PendingSecurity).get(args.id)
@@ -540,6 +682,13 @@ def cmd_db_performance(args: argparse.Namespace) -> int:
             elif args.perf_command == "fetch-prices":
                 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn
 
+                full_history = getattr(args, "full", False)
+                force = getattr(args, "force", False)
+
+                if full_history:
+                    console.print("[bold]Downloading full price history (from 2010)[/bold]")
+                    console.print("[yellow]This may take 30-60 minutes for many tickers[/yellow]\n")
+
                 with Progress(
                     SpinnerColumn(),
                     TextColumn("[progress.description]{task.description}"),
@@ -553,11 +702,16 @@ def cmd_db_performance(args: argparse.Namespace) -> int:
                         progress.update(task, completed=int(current / total * 100),
                                        description=f"Fetching {ticker}...")
 
-                    result = fetch_prices_from_yahoo(session, progress_callback=update_progress)
+                    result = fetch_prices_from_yahoo(
+                        session,
+                        progress_callback=update_progress,
+                        full_history=full_history,
+                        force=force,
+                    )
 
                 console.print(f"\n[green]Securities processed:[/green] {result['securities_processed']}")
                 console.print(f"[green]Price records fetched:[/green] {result['fetched']}")
-                console.print(f"[dim]Skipped:[/dim] {result['skipped']}")
+                console.print(f"[dim]Skipped (already have data):[/dim] {result['skipped']}")
                 if result['failed'] > 0:
                     console.print(f"[yellow]Failed:[/yellow] {result['failed']}")
 
@@ -579,6 +733,8 @@ def cmd_db(args: argparse.Namespace) -> int:
         return cmd_db_status(args)
     elif args.db_command == "seed-securities":
         return cmd_db_seed_securities(args)
+    elif args.db_command == "link-recommendations":
+        return cmd_db_link_recommendations(args)
     elif args.db_command == "load":
         return cmd_db_load(args)
     elif args.db_command == "search":
@@ -615,6 +771,9 @@ def add_db_parser(subparsers: argparse._SubParsersAction) -> None:
     seed_parser = db_sub.add_parser("seed-securities", help="Seed securities from ticker mapping")
     seed_parser.add_argument("--mapping", help="Path to ticker_mapping.json")
 
+    # db link-recommendations
+    db_sub.add_parser("link-recommendations", help="Link unlinked recommendations to securities")
+
     # db load
     load_parser = db_sub.add_parser("load", help="Load JSON data into database")
     load_parser.add_argument("--source", help="Filter by source ID (e.g., fillorkill)")
@@ -638,8 +797,9 @@ def add_db_parser(subparsers: argparse._SubParsersAction) -> None:
     pending_sub = pending_parser.add_subparsers(dest="pending_command")
 
     pending_sub.add_parser("list", help="List pending securities")
+    pending_sub.add_parser("resolve-interactive", help="Interactively resolve pending securities")
 
-    resolve_parser = pending_sub.add_parser("resolve", help="Resolve a pending security")
+    resolve_parser = pending_sub.add_parser("resolve", help="Resolve a pending security by ID")
     resolve_parser.add_argument("id", type=int, help="Pending security ID")
     resolve_parser.add_argument("--security-id", type=int, required=True, help="Security ID to map to")
 
@@ -655,7 +815,10 @@ def add_db_parser(subparsers: argparse._SubParsersAction) -> None:
     perf_update.add_argument("--force", action="store_true", help="Recalculate all")
 
     perf_sub.add_parser("import-prices", help="Import prices from price tracker files")
-    perf_sub.add_parser("fetch-prices", help="Fetch historical prices from Yahoo Finance")
+
+    fetch_parser = perf_sub.add_parser("fetch-prices", help="Fetch historical prices from Yahoo Finance")
+    fetch_parser.add_argument("--full", action="store_true", help="Download full price history (from 2010)")
+    fetch_parser.add_argument("--force", action="store_true", help="Re-download even if prices exist")
 
     # db trust
     trust_parser = db_sub.add_parser("trust", help="Manage source trust ratings")
