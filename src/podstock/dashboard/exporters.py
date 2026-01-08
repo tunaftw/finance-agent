@@ -320,13 +320,13 @@ def _resolve_podcast(
         return podcast["id"], podcast["name"]
 
     # 3. Try to find by name (normalized)
-    name_lower = podcast_name_from_file.lower().strip()
+    name_lower = (podcast_name_from_file or "").lower().strip()
     if name_lower in name_aliases:
         podcast = name_aliases[name_lower]
         return podcast["id"], podcast["name"]
 
     # 4. Fallback: use extracted_id and original name
-    return extracted_id, podcast_name_from_file
+    return extracted_id, podcast_name_from_file or ""
 
 
 def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[str, Any]:

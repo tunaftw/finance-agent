@@ -37,13 +37,22 @@ class GenerateResult:
 class DashboardGenerator:
     """Generates static HTML dashboard from database and data files."""
 
-    def __init__(self, db_path: Path, output_dir: Path, data_dir: Path | None = None):
+    def __init__(
+        self,
+        db_path: Path,
+        output_dir: Path,
+        data_dir: Path | None = None,
+        embed_data: bool = True,
+    ):
         self.db_path = db_path
         self.output_dir = output_dir
         self.json_data_dir = output_dir / "data"  # Output JSON data directory
         self.assets_dir = output_dir / "assets"
         # Source data directory (for podcast/twitter/youtube JSON files)
         self.source_data_dir = data_dir or db_path.parent
+        # Whether to embed data inline in HTML (for file:// CORS workaround)
+        # Set to False for HTTP deployment (Vercel) to reduce HTML size
+        self.embed_data = embed_data
 
     def generate(self, full_rebuild: bool = False) -> GenerateResult:
         """Generate the complete dashboard.
@@ -158,17 +167,19 @@ class DashboardGenerator:
 
         Args:
             inline_data: Optional dict of data to embed inline in HTML.
-                         This avoids CORS issues with file:// protocol.
+                         Only embedded if self.embed_data is True.
+                         When False, data is loaded via fetch from JSON files.
         """
         templates_dir = Path(__file__).parent / "templates"
 
-        # Process index.html with inline data
+        # Process index.html with optional inline data
         src_html = templates_dir / "index.html"
         if src_html.exists():
             html_content = src_html.read_text(encoding="utf-8")
 
-            if inline_data:
+            if inline_data and self.embed_data:
                 # Inject inline data as a script tag before </head>
+                # This avoids CORS issues when opening file:// locally
                 data_script = f"""<script>
 // Inline data embedded by dashboard generator (avoids CORS issues with file://)
 window.DASHBOARD_DATA = {json.dumps(inline_data, ensure_ascii=False)};

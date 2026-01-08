@@ -29,9 +29,12 @@ def cmd_dashboard_generate(args: argparse.Namespace) -> int:
     output_dir = Path(args.output) if args.output else db_path.parent / "dashboard"
 
     try:
-        generator = DashboardGenerator(db_path, output_dir)
+        # embed_data=False for HTTP deployment (smaller HTML, data loaded via fetch)
+        embed_data = not getattr(args, "no_embed", False)
+        generator = DashboardGenerator(db_path, output_dir, embed_data=embed_data)
 
-        with console.status("Generating dashboard..."):
+        mode = "fetch" if not embed_data else "embedded"
+        with console.status(f"Generating dashboard ({mode} mode)..."):
             result = generator.generate(full_rebuild=args.full)
 
         console.print(f"[green]✓[/green] Dashboard generated: {result.output_path}")
@@ -106,6 +109,11 @@ def add_dashboard_parser(subparsers: argparse._SubParsersAction) -> None:
     generate_parser = dashboard_sub.add_parser("generate", help="Generate dashboard from database")
     generate_parser.add_argument("--full", action="store_true", help="Full rebuild (regenerate all data)")
     generate_parser.add_argument("--open", action="store_true", help="Open in browser after generating")
+    generate_parser.add_argument(
+        "--no-embed",
+        action="store_true",
+        help="Don't embed data in HTML (for HTTP deployment like Vercel)",
+    )
 
     # dashboard open
     dashboard_sub.add_parser("open", help="Open dashboard in browser")

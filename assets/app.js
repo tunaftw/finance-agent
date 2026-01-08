@@ -4,6 +4,8 @@ function dashboard() {
     return {
         // State
         loading: true,
+        loadSource: 'none',  // 'inline' | 'fetch'
+        loadErrors: [],      // Track failed data loads
         view: 'inbox',
         displayLimit: 50,
         inboxDisplayLimit: 50,
@@ -532,6 +534,7 @@ function dashboard() {
             try {
                 // Check for inline data first (embedded by generator to avoid CORS issues)
                 if (window.DASHBOARD_DATA) {
+                    this.loadSource = 'inline';
                     const data = window.DASHBOARD_DATA;
                     this.metadata = data.metadata || {};
                     this.analyses = data.analyses || [];
@@ -554,6 +557,7 @@ function dashboard() {
                     }
                 } else {
                     // Fallback to fetch (works when served via HTTP)
+                    this.loadSource = 'fetch';
                     const [
                         metadata,
                         analyses,
@@ -597,22 +601,29 @@ function dashboard() {
 
             } catch (error) {
                 console.error('Error loading dashboard data:', error);
+                this.loadErrors.push({ type: 'init', error: error.message });
             } finally {
                 this.loading = false;
             }
         },
 
-        async loadJson(path) {
-            try {
-                const response = await fetch(path);
-                if (!response.ok) {
-                    console.warn(`Failed to load ${path}: ${response.status}`);
-                    return null;
+        async loadJson(path, retries = 2) {
+            for (let attempt = 0; attempt <= retries; attempt++) {
+                try {
+                    const response = await fetch(path);
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+                    return await response.json();
+                } catch (error) {
+                    if (attempt === retries) {
+                        console.warn(`Failed to load ${path} after ${retries + 1} attempts:`, error);
+                        this.loadErrors.push({ file: path, error: error.message });
+                        return null;
+                    }
+                    // Wait before retry (1s, 2s, etc.)
+                    await new Promise(r => setTimeout(r, 1000 * (attempt + 1)));
                 }
-                return await response.json();
-            } catch (error) {
-                console.warn(`Error loading ${path}:`, error);
-                return null;
             }
         },
 
