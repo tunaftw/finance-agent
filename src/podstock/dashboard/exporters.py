@@ -416,7 +416,7 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                 }
                 for rec in data.get("recommendations", [])
             ],
-            # Stock segments - detailed discussion per stock
+            # Stock segments - slimmed for dashboard (full data in source JSON files)
             "stock_segments": [
                 {
                     "stock_name": seg.get("stock_name", ""),
@@ -424,13 +424,10 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                     "timestamp_start": seg.get("timestamp_start"),
                     "timestamp_end": seg.get("timestamp_end"),
                     "word_count": seg.get("word_count"),
-                    "speakers": seg.get("speakers", []),
                     "primary_speaker": seg.get("primary_speaker"),
                     "discussion_summary": seg.get("discussion_summary", ""),
-                    "quotes": seg.get("quotes", []),
-                    "financial_metrics": seg.get("financial_metrics", {}),
-                    "thesis": seg.get("thesis", {}),
-                    "position_disclosure": seg.get("position_disclosure"),
+                    # Note: financial_metrics, thesis, quotes, speakers removed to reduce size
+                    # Full data available in data/podcasts/analyses-v2/*.json
                 }
                 for seg in data.get("stock_segments", [])
             ],
@@ -735,6 +732,10 @@ def export_twitter(data_dir: Path, session: Optional[Session] = None) -> dict[st
 
     # Sort tweets by date (newest first)
     tweets.sort(key=lambda x: x["posted_at"] or "", reverse=True)
+
+    # Limit to last 180 days to reduce dashboard size
+    cutoff_date = (datetime.now() - timedelta(days=180)).strftime("%Y-%m-%d")
+    tweets = [t for t in tweets if (t["date"] or "") >= cutoff_date]
 
     # Build stock mentions for cross-reference
     stock_mentions = []
@@ -1052,8 +1053,9 @@ def export_recommendations(session: Session) -> list[dict[str, Any]]:
                 "confidence": rec.confidence,
                 "speaker": rec.speaker,
                 "speaker_role": rec.speaker_role,
-                "reasoning": rec.reasoning,
-                "quote": rec.quote,
+                # Truncate for dashboard size (full text in source-specific exports)
+                "reasoning": (rec.reasoning[:200] + "...") if rec.reasoning and len(rec.reasoning) > 200 else rec.reasoning,
+                "quote": (rec.quote[:150] + "...") if rec.quote and len(rec.quote) > 150 else rec.quote,
                 "price_target": rec.price_target,
                 "time_horizon": rec.time_horizon,
                 "sector": rec.sector,
