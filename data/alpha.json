@@ -1,0 +1,754 @@
+{
+  "companies": [
+    {
+      "ticker": "BETS-B",
+      "company": "Betsson AB",
+      "date": "2025-12-28",
+      "current_price": 145.0,
+      "weighted_fair_value": 240.0,
+      "recommendation": "KOPVARD",
+      "upside_pct": 65.5,
+      "confidence": "high",
+      "margin_of_safety": 39.6,
+      "summary": "Betsson ar ett kvalitetsbolag till skrappris. P/E 8x vs sektor 12-15x, FCF yield 12-13%, ROE 28%, Piotroski 9/9. Turkiet-risk ar PRICED IN med 40-50% rabatt mot peers. VM 2026 ar belagd katalysator.",
+      "scenarios": [
+        {
+          "name": "Bull",
+          "probability": 0.25,
+          "fair_value": 328.0
+        },
+        {
+          "name": "Base",
+          "probability": 0.5,
+          "fair_value": 242.0
+        },
+        {
+          "name": "Bear",
+          "probability": 0.25,
+          "fair_value": 148.0
+        }
+      ],
+      "risk_score": 4,
+      "quality_score": 9,
+      "insider_direction": "neutral",
+      "next_catalyst": {
+        "event": "VM 2026 (USA/Mexiko/Kanada)",
+        "date": "2026-06",
+        "impact": "high"
+      }
+    },
+    {
+      "ticker": "GETI-B",
+      "company": "Getinge AB",
+      "date": "2025-12-30",
+      "current_price": 210.0,
+      "weighted_fair_value": 130.0,
+      "recommendation": "FULLVÄRDERAD",
+      "upside_pct": -38.1,
+      "confidence": "medium",
+      "margin_of_safety": -61.5,
+      "summary": "Aktien handlas 38% över viktat fair value. Kvalitetsbolag med stark ECMO-dominans och massiva insiderköp (30+ MSEK 2024), men priset 210 SEK prisar in bull case utan margin of safety. Bråse (Protean Fund) är bullish med 3-års horisont, men även bull case (175 SEK) ligger under nuvarande kurs. Entry under 140 SEK rekommenderas.",
+      "scenarios": [
+        {
+          "name": "Bull",
+          "probability": 0.25,
+          "fair_value": 175.0
+        },
+        {
+          "name": "Base",
+          "probability": 0.5,
+          "fair_value": 135.0
+        },
+        {
+          "name": "Bear",
+          "probability": 0.25,
+          "fair_value": 75.0
+        }
+      ],
+      "risk_score": 6,
+      "quality_score": 6,
+      "insider_direction": "STARK_KÖPARE",
+      "next_catalyst": {}
+    }
+  ],
+  "analyses": {
+    "GETI-B": {
+      "ticker": "GETI-B",
+      "company": "Getinge AB",
+      "date": "2025-12-30",
+      "version": "2.0",
+      "weighted_fair_value": 130.0,
+      "current_price": 210.0,
+      "verdict": {
+        "recommendation": "FULLVÄRDERAD",
+        "upside_pct": -38.1,
+        "confidence": "medium",
+        "risk_adjusted_verdict": "FULLVÄRDERAD",
+        "margin_of_safety": -61.5,
+        "summary": "Aktien handlas 38% över viktat fair value. Kvalitetsbolag med stark ECMO-dominans och massiva insiderköp (30+ MSEK 2024), men priset 210 SEK prisar in bull case utan margin of safety. Bråse (Protean Fund) är bullish med 3-års horisont, men även bull case (175 SEK) ligger under nuvarande kurs. Entry under 140 SEK rekommenderas."
+      },
+      "data_sources": {
+        "mode": "full",
+        "filings_count": 7,
+        "podcasts_count": 52,
+        "twitter_count": 0,
+        "youtube_count": 0,
+        "insider_count": 16,
+        "news_count": 0,
+        "external_searches": 1
+      },
+      "scenarios": [
+        {
+          "name": "Bull",
+          "probability": 0.25,
+          "ebitda": 5500,
+          "multiple": 11.0,
+          "ev": 60500,
+          "equity_value": 46000,
+          "fair_value": 175.0,
+          "key_assumptions": [
+            "FDA consent decree löst 2026-2027",
+            "Kvalitetsåtgärder slutförda framgångsrikt",
+            "EBITA-marginal normaliseras till 16%+",
+            "Paragonix bidrar till tillväxt",
+            "EPS normaliserar mot justerat (~10-11 SEK)"
+          ]
+        },
+        {
+          "name": "Base",
+          "probability": 0.5,
+          "ebitda": 5000,
+          "multiple": 10.0,
+          "ev": 50000,
+          "equity_value": 35500,
+          "fair_value": 135.0,
+          "key_assumptions": [
+            "Gradvis kvalitetsförbättring (3-5 år)",
+            "EBITA-marginal stabiliseras på 14%",
+            "Justeringar fortsätter men gap minskar",
+            "Skuldsättning minskar långsamt",
+            "Inga nya större produktåterkallelser"
+          ]
+        },
+        {
+          "name": "Bear",
+          "probability": 0.25,
+          "ebitda": 4000,
+          "multiple": 8.0,
+          "ev": 32000,
+          "equity_value": 17500,
+          "fair_value": 75.0,
+          "key_assumptions": [
+            "FDA eskalerar åtgärder (ej produktionsstopp)",
+            "Cardiac assist tappar marknadsandelar",
+            "Fortsatta kvalitetskostnader",
+            "Marginaler pressas till 11-12%",
+            "Brasilien-utredning expanderar"
+          ]
+        }
+      ],
+      "fundamenta": {
+        "revenue": {
+          "latest_annual": 34759000000,
+          "cagr_3y": 8.7,
+          "q3_2025_organic_growth": 9.5,
+          "trend": "stable"
+        },
+        "margins": {
+          "adjusted_ebita_margin": 14.0,
+          "gaap_operating_margin": 8.2,
+          "margin_trend": "expanding"
+        },
+        "cash_flow": {
+          "fcf_2024": 4577000000,
+          "fcf_margin": 13.2,
+          "earnings_quality": "high",
+          "ocf_to_ni_ratio": 2.77
+        },
+        "balance_sheet": {
+          "net_debt": 14500000000,
+          "net_debt_ebitda": 2.2,
+          "piotroski_score": 6,
+          "health": "adequate"
+        },
+        "eps": {
+          "gaap": 6.01,
+          "adjusted": 11.0,
+          "gap_pct": 83,
+          "gap_flag": true
+        },
+        "segments": [
+          {
+            "name": "Acute Care Therapies",
+            "revenue_pct": 52,
+            "growth": 8.6,
+            "margin": 21.2,
+            "outlook": "positive",
+            "moat": "ECMO market dominance"
+          },
+          {
+            "name": "Surgical Workflows",
+            "revenue_pct": 35,
+            "growth": 11.7,
+            "margin": 5.3,
+            "outlook": "neutral"
+          },
+          {
+            "name": "Life Science",
+            "revenue_pct": 13,
+            "growth": 5.3,
+            "margin": 8.3,
+            "outlook": "neutral"
+          }
+        ],
+        "quality_score": 6,
+        "ceo_credibility": "medium-high",
+        "red_flags": [
+          "GAP justerat vs GAAP EPS: 83%",
+          "FDA Consent Decree pågående sedan 2015",
+          "Brasilien CGU-utredning (482 MSEK reserv)"
+        ],
+        "green_flags": [
+          "CE Mark återställd för Cardiosave (Q3 2025)",
+          "Kvalitetsrisk de-escalated i Q3",
+          "Stark FCF (13.2% marginal)",
+          "ECMO-dominans är verklig vallgrav"
+        ]
+      },
+      "insider": {
+        "net_direction": "STARK_KÖPARE",
+        "signal_strength": "very_high",
+        "summary_2024": {
+          "total_value_sek": 30000000,
+          "transaction_count": 12,
+          "notable_buyers": [
+            {
+              "name": "Mattias Perjos",
+              "position": "VD",
+              "shares": 85000,
+              "value_sek": 15400000
+            },
+            {
+              "name": "Johan Malmquist",
+              "position": "Styrelseordförande",
+              "shares": 60000,
+              "value_sek": 11800000
+            }
+          ]
+        },
+        "summary_2025": {
+          "total_value_sek": 1077420,
+          "transaction_count": 4,
+          "notes": "Fortsatta köp, inga försäljningar"
+        },
+        "key_observation": "VD satte 15+ MSEK av egna pengar vid ~175-197 SEK. Noll försäljningar sedan 2022.",
+        "interpretation": "Extremt stark köpsignal. Insiders tror inte på bear case."
+      },
+      "sentiment": {
+        "overall_score": 0.55,
+        "label": "cautiously_bullish",
+        "trend": "improving",
+        "notable_speakers": [
+          {
+            "name": "Richard Bråse",
+            "affiliation": "Protean Fund",
+            "stance": "bull",
+            "confidence": "high",
+            "owns_position": true,
+            "key_argument": "Bästa turnaround-kandidat på 3 år. ECMO-dominans, lågt värderad på FCF, huvudägare tänker 10+ år.",
+            "quote": "Det enda som behöver hända är att ingenting händer. Tiden behöver spela ut.",
+            "source": "Veckanstrade 2025-12-23"
+          },
+          {
+            "name": "John (Börspodden)",
+            "stance": "bull",
+            "argument": "Stark Q4, insiderköp"
+          },
+          {
+            "name": "Johan (Börspodden)",
+            "stance": "bear",
+            "argument": "Stort gap justerat vs faktiskt resultat"
+          }
+        ],
+        "bull_arguments": [
+          "ECMO-dominans ljusår före konkurrenter",
+          "Massiva insiderköp 30+ MSEK",
+          "CE Mark återställd - kvalitet de-eskalerar",
+          "Huvudägare Carl Bennet långsiktigt engagerad",
+          "Paragonix-förvärv stärker organportfölj"
+        ],
+        "bear_arguments": [
+          "35x GAAP P/E är dyrt",
+          "FDA consent decree i 10:e året",
+          "Gap justerat vs GAAP är kroniskt",
+          "Tariffexponering (108 MSEK Q3)",
+          "Brasilien-utredning kan eskalera"
+        ]
+      },
+      "risks": {
+        "overall_score": 6,
+        "interpretation": "elevated_risk",
+        "top_risks": [
+          {
+            "risk": "FDA Consent Decree fortsatt pågående",
+            "category": "regulatory",
+            "probability": "high",
+            "impact": "major",
+            "status": "unchanged"
+          },
+          {
+            "risk": "Kroniskt gap justerat vs GAAP EPS",
+            "category": "financial",
+            "probability": "high",
+            "impact": "moderate"
+          },
+          {
+            "risk": "Brasilien CGU-utredning",
+            "category": "legal",
+            "probability": "medium",
+            "impact": "major"
+          },
+          {
+            "risk": "Tariffexponering",
+            "category": "market",
+            "probability": "high",
+            "impact": "moderate"
+          }
+        ],
+        "de_escalated_risks": [
+          {
+            "risk": "CE Mark suspension Cardiosave",
+            "status": "RESOLVED - återställd Q3 2025"
+          },
+          {
+            "risk": "CE Mark HLS/PLS sets",
+            "status": "RESOLVED - återställd 2024"
+          }
+        ],
+        "kill_the_thesis": "FDA eskalerar till produktionsförbud eller ny Class I recall",
+        "bear_thesis": "Bolaget är strukturellt underinvesterat i kvalitet, och justeringarna maskerar verklig lönsamhet. Priset 210 SEK ger ingen margin of safety."
+      },
+      "valuation_multiples": {
+        "pe_gaap": 35.0,
+        "pe_adjusted": 19.0,
+        "ev_ebitda": 14.0,
+        "fcf_yield": 8.0,
+        "pb": null
+      },
+      "peers": {
+        "peer_group": [
+          "Elekta",
+          "Arjo",
+          "Philips",
+          "Medtronic",
+          "GE Healthcare"
+        ],
+        "relative_valuation": "Handlas till premie vs nordiska peers, i linje med globala medtech"
+      },
+      "position_guidance": {
+        "sizing": "underweight",
+        "max_position": "2-3%",
+        "entry_zone": {
+          "attractive": 115,
+          "acceptable": 140,
+          "current_assessment": "overvalued"
+        },
+        "time_horizon": "3-5 år",
+        "notes": "Vänta på bättre entry. Vid 140 SEK acceptabel risk/reward. Vid 115 SEK attraktiv."
+      },
+      "catalysts": [
+        {
+          "event": "Q4 2025 rapport",
+          "date": "2026-01-27",
+          "impact": "high"
+        },
+        {
+          "event": "FDA consent decree uppdatering",
+          "date": "2026-Q2",
+          "impact": "high"
+        },
+        {
+          "event": "EU MDR-transition slutförd",
+          "date": "2026-Q3",
+          "impact": "medium"
+        }
+      ],
+      "comparison_to_previous_analysis": {
+        "previous_fair_value": 88.0,
+        "updated_fair_value": 130.0,
+        "change_pct": 47.7,
+        "reason_for_change": "Tidigare analys missade helt insiderdata (30+ MSEK köp). Uppdaterat bear case från 17 till 75 SEK baserat på stark insidersignal och kvalitetsrisk de-escalation."
+      },
+      "analyst_note": "Bråse har rätt om bolagets kvaliteter men fel om timing vid 210 SEK. Insidersignalen är genuint stark men priset prisar in bull case utan margin of safety. Rekommenderar att vänta på 140 SEK eller lägre.",
+      "metadata": {
+        "analysis_version": "2.0",
+        "previous_version": "1.0",
+        "created_at": "2025-12-30T21:30:00Z",
+        "model_used": "claude-opus-4-5-20251101",
+        "data_completeness": "high",
+        "confidence_level": "medium"
+      }
+    },
+    "BETS-B": {
+      "ticker": "BETS-B",
+      "company": "Betsson AB",
+      "date": "2025-12-28",
+      "version": "1.0",
+      "weighted_fair_value": 240.0,
+      "current_price": 145.0,
+      "verdict": {
+        "recommendation": "KOPVARD",
+        "upside_pct": 65.5,
+        "confidence": "high",
+        "risk_adjusted_verdict": "KOPVARD",
+        "margin_of_safety": 39.6,
+        "summary": "Betsson ar ett kvalitetsbolag till skrappris. P/E 8x vs sektor 12-15x, FCF yield 12-13%, ROE 28%, Piotroski 9/9. Turkiet-risk ar PRICED IN med 40-50% rabatt mot peers. VM 2026 ar belagd katalysator."
+      },
+      "data_sources": {
+        "mode": "full",
+        "filings_count": 5,
+        "podcasts_count": 194,
+        "twitter_count": 1,
+        "youtube_count": 0,
+        "insider_count": 0,
+        "news_count": 2,
+        "external_searches": 4
+      },
+      "scenarios": [
+        {
+          "name": "Bull",
+          "probability": 0.25,
+          "ebitda": null,
+          "multiple": 11.0,
+          "ev": null,
+          "equity_value": null,
+          "fair_value": 328.0,
+          "key_assumptions": [
+            "VM/OS 2026 overtraffar forvantningar",
+            "Turkiet stabiliseras (domain-switching fungerar)",
+            "Intaktstillvaxt +18% 2025-26",
+            "EBIT-marginal 22%"
+          ]
+        },
+        {
+          "name": "Base",
+          "probability": 0.5,
+          "ebitda": null,
+          "multiple": 9.0,
+          "ev": null,
+          "equity_value": null,
+          "fair_value": 242.0,
+          "key_assumptions": [
+            "Stadig tillvaxt i linje med historik",
+            "Turkiet status quo (Realm fortsatter)",
+            "Intaktstillvaxt +12% 2025-26",
+            "EBIT-marginal 20%"
+          ]
+        },
+        {
+          "name": "Bear",
+          "probability": 0.25,
+          "ebitda": null,
+          "multiple": 7.0,
+          "ev": null,
+          "equity_value": null,
+          "fair_value": 148.0,
+          "key_assumptions": [
+            "Turkiet eskalerar (Realm stanger)",
+            "Marginpress fran skattehojningar",
+            "Intaktstillvaxt +3% 2025-26",
+            "EBIT-marginal 17%"
+          ]
+        }
+      ],
+      "fundamenta": {
+        "revenue": {
+          "latest_annual": 11500000000,
+          "latest_annual_eur": 1046000000,
+          "cagr_3y": 15.0,
+          "trend": "accelerating"
+        },
+        "margins": {
+          "ebit_margin": 20.3,
+          "ebit_margin_trend": "stable_expanding"
+        },
+        "cash_flow": {
+          "fcf_yield": 12.5,
+          "earnings_quality": "high"
+        },
+        "balance_sheet": {
+          "net_debt": -605000000,
+          "net_debt_ebitda": -0.3,
+          "piotroski_score": 9,
+          "health": "strong",
+          "notes": "Nettokassa ~55M EUR"
+        },
+        "segments": [
+          {
+            "name": "Casino",
+            "revenue_pct": 75,
+            "growth": null,
+            "margin": null,
+            "outlook": "positive",
+            "notes": "Ej beroende av sportspel"
+          },
+          {
+            "name": "Sportsbook",
+            "revenue_pct": 25,
+            "growth": null,
+            "margin": null,
+            "outlook": "positive",
+            "notes": "VM 2026 katalysator"
+          }
+        ],
+        "quality_score": 9,
+        "ceo_credibility": "high",
+        "ceo_name": "Pontus Lindwall",
+        "ceo_quote": "2024 was Betsson's best year ever, with new records across the board",
+        "red_flags": [],
+        "green_flags": [
+          "FCF Yield >10%",
+          "Nettokassa",
+          "Piotroski 9/9",
+          "Insider alignment (Lindwall)",
+          "ROE 28%"
+        ],
+        "summary": "Exceptionellt starka fundamenta. Revenue +15% YoY, EBIT +18% YoY, ROE 28%, Piotroski maxpoang. Nettokassa ger strategisk flexibilitet."
+      },
+      "sentiment": {
+        "overall_score": 0.75,
+        "label": "bullish",
+        "trend": "stable",
+        "notable_speakers": [
+          {
+            "name": "Richard Brase",
+            "affiliation": "Protean Fund",
+            "stance": "bull",
+            "confidence": "medium",
+            "owns_position": true,
+            "argument": "12-13% FCF yield, 1.5% av fonden",
+            "quote": "Betssons vardering ar sa lag att affaren i Turkiet i princip helt maste do for att det har ska bli daligt"
+          },
+          {
+            "name": "Lone Wolf",
+            "stance": "bull",
+            "confidence": "high",
+            "argument": "Very low P/E, ESG-concerns overstated"
+          },
+          {
+            "name": "Claes",
+            "stance": "bull",
+            "confidence": "medium",
+            "argument": "75% casino (ej sportspel), haller emot"
+          },
+          {
+            "name": "Ola",
+            "stance": "bull",
+            "confidence": "high",
+            "argument": "PE 7.3 for 2024, varderas for lagt"
+          },
+          {
+            "name": "Per Johansson",
+            "stance": "bear",
+            "confidence": "high",
+            "argument": "Turkiet-exponering strategisk risk"
+          }
+        ],
+        "bull_arguments": [
+          "Extrem undervardering (P/E 8 vs sektor 12-15)",
+          "FCF yield 12-13%",
+          "Nettokassa, stark balansrakning",
+          "Geografisk diversifiering minskar risk",
+          "VM 2026 = belagd katalysator (EM 2024 drev rekordkvartal)"
+        ],
+        "bear_arguments": [
+          "Turkiet-exponering via Realm Entertainment",
+          "Regulatorisk osakerhet i flera marknader",
+          "ESG-motvind fran institutioner"
+        ],
+        "summary": "Overbryggande bullish sentiment med aterkommande Turkey-varningar. Majoriteten ser risken som priced in vid nuvarande vardering."
+      },
+      "insider": {
+        "net_direction": "neutral",
+        "signal_strength": 5,
+        "notes": "Begransad insiderdata tillganglig",
+        "summary": "VD Pontus Lindwall har visat langsiktigt engagemang"
+      },
+      "risks": {
+        "overall_score": 4,
+        "interpretation": "medium_risk",
+        "top_risks": [
+          {
+            "risk": "Turkiet eskalerar (Erdogans offensiv)",
+            "category": "regulatory",
+            "probability": "medium",
+            "impact": "moderate",
+            "notes": "Realm revenue share <10%, minskar. Historiskt domain-switching har fungerat."
+          },
+          {
+            "risk": "Regulatorisk atstramning i nya marknader",
+            "category": "regulatory",
+            "probability": "medium",
+            "impact": "moderate"
+          },
+          {
+            "risk": "Marginpress fran skattehojningar",
+            "category": "financial",
+            "probability": "medium",
+            "impact": "moderate"
+          },
+          {
+            "risk": "ESG-driven institutionell avyttring",
+            "category": "market",
+            "probability": "low",
+            "impact": "minor"
+          }
+        ],
+        "de_escalated_risks": [],
+        "kill_the_thesis": "Turkiet-affaren maste helt do for att caset ska bli daligt (Brase-citat)",
+        "bear_thesis": "Om Erdogans offensiv lyckas stanga Realm helt, och samtidigt nya marknader infar striktare reglering, kan marginerna pressas betydligt. Men detta ar redan priced in med 40-50% rabatt.",
+        "summary": "Risken ar PRICED IN. Aktien handlas med 40-50% rabatt mot peers. Turkey-exponering ar <10% och minskar."
+      },
+      "peers": {
+        "peer_group": [
+          "Kindred",
+          "Evolution",
+          "Flutter",
+          "Entain",
+          "888"
+        ],
+        "relative_valuation": {
+          "vs_peers_pe": "8x vs 12-15x sektor",
+          "vs_peers_ev_ebitda": "6-7x vs 9-11x sektor",
+          "notes": "Betsson handlas med 40-50% rabatt mot peers"
+        },
+        "peer_multiples": [
+          {
+            "name": "Kindred",
+            "pe": 10,
+            "ev_ebitda": 8,
+            "fcf_yield": 8
+          },
+          {
+            "name": "Evolution",
+            "pe": 18,
+            "ev_ebitda": 15,
+            "fcf_yield": 5
+          },
+          {
+            "name": "Flutter",
+            "pe": 22,
+            "ev_ebitda": 12,
+            "fcf_yield": 4
+          }
+        ]
+      },
+      "position_guidance": {
+        "sizing": "full",
+        "max_position_pct": 20,
+        "entry_zone": {
+          "lower": 120,
+          "upper": 145
+        },
+        "entry_strategy": [
+          {
+            "level": "Nu (~145 SEK)",
+            "allocation_pct": 50
+          },
+          {
+            "level": "Dip <130 SEK",
+            "allocation_pct": 30
+          },
+          {
+            "level": "Turkey-panik <120 SEK",
+            "allocation_pct": 20
+          }
+        ],
+        "stop_loss": null,
+        "take_profit": [
+          242,
+          328
+        ],
+        "time_horizon": "10 manader",
+        "notes": "15-20% position rekommenderas. Asymmetrisk risk/reward - nedsida ~0% (bear case 148 vs pris 145), uppsida 65%+. Alternativt: Ga in med full position nu da VM-hype kan driva kursen fore dippar."
+      },
+      "catalysts": [
+        {
+          "event": "VM 2026 (USA/Mexiko/Kanada)",
+          "date": "2026-06",
+          "impact": "high",
+          "notes": "Forvantat hogsta betting-handle nagonsin. VM 2022 drev +65% vs foregaende VM."
+        },
+        {
+          "event": "OS 2026 Milano-Cortina",
+          "date": "2026-02",
+          "impact": "medium",
+          "notes": "Vinterspel = mindre betting-fokus, men feb-mars ar dead spot i andra sporter"
+        },
+        {
+          "event": "Q4 2025 rapport",
+          "date": "2026-02",
+          "impact": "medium",
+          "notes": "Ledtradar om Turkiet-utveckling"
+        }
+      ],
+      "next_catalyst": {
+        "event": "VM 2026 (USA/Mexiko/Kanada)",
+        "date": "2026-06",
+        "impact": "high"
+      },
+      "valuation_multiples": {
+        "pe": 8.0,
+        "ev_ebitda": 6.5,
+        "fcf_yield": 12.5,
+        "roe": 28.0
+      },
+      "metadata": {
+        "analysis_version": "1.0",
+        "created_at": "2025-12-28T00:00:00Z",
+        "converted_from": "alpha-analysis.md",
+        "model_used": "manual_conversion",
+        "data_completeness": "high",
+        "confidence_level": "high",
+        "sources": [
+          "https://www.betssonab.com/investors/share",
+          "https://casinobeats.com/2025/12/17/world-cup-2026-betting-35b-usa-favored-to-win-group/",
+          "https://www.investing.com/equities/betsson-b"
+        ]
+      }
+    }
+  },
+  "history": {
+    "GETI-B": [
+      {
+        "date": "2025-12-30",
+        "version": "2.0",
+        "weighted_fair_value": 130.0,
+        "current_price": 210.0,
+        "verdict": "FULLVÄRDERAD",
+        "upside_pct": -38.1,
+        "filename": "2025-12-30-analysis-v2.json"
+      },
+      {
+        "date": "2025-12-30",
+        "version": "1.0",
+        "weighted_fair_value": 88.2,
+        "current_price": 210.4,
+        "verdict": "ÖVERVÄRDERAD",
+        "upside_pct": -58.08,
+        "filename": "2025-12-30-analysis.json"
+      }
+    ],
+    "BETS-B": [
+      {
+        "date": "2025-12-28",
+        "version": "1.0",
+        "weighted_fair_value": 240.0,
+        "current_price": 145.0,
+        "verdict": "KOPVARD",
+        "upside_pct": 65.5,
+        "filename": "2025-12-28-analysis.json"
+      }
+    ]
+  }
+}

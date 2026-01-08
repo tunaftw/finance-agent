@@ -7,16 +7,32 @@ function dashboard() {
         view: 'inbox',
         displayLimit: 50,
         inboxDisplayLimit: 50,
+        podcastDisplayLimit: 50,
+        twitterDisplayLimit: 100,
+        youtubeDisplayLimit: 50,
 
         // Data
         metadata: {},
         analyses: [],
         recommendations: [],
         sources: [],
-        speakers: [],
-        tickers: [],
-        trackRecord: { by_source: [], by_speaker: [] },
-        watchlist: [],
+
+        // Source-specific data
+        podcasts: {
+            episodes: [],
+            sources: [],
+            stock_mentions: []
+        },
+        twitter: {
+            tweets: [],
+            users: [],
+            stock_mentions: []
+        },
+        youtube: {
+            videos: [],
+            channels: [],
+            stock_mentions: []
+        },
 
         // Filters
         filters: {
@@ -35,7 +51,54 @@ function dashboard() {
             search: '',
         },
 
-        // Computed
+        // Podcast Filters
+        podcastFilters: {
+            source: '',
+            dateFrom: '',
+            dateTo: '',
+            companySearch: '',
+            positionDisclosure: '',
+        },
+
+        // Twitter Filters
+        twitterFilters: {
+            user: '',
+            dateFrom: '',
+            dateTo: '',
+            companySearch: '',
+            onlyActionable: false,
+        },
+
+        // YouTube Filters
+        youtubeFilters: {
+            channel: '',
+            dateFrom: '',
+            dateTo: '',
+            companySearch: '',
+            recommendationType: '',
+        },
+
+        // Filings data and state
+        filings: {
+            companies: [],
+            evolutions: {},
+            theses: {}
+        },
+        selectedFilingCompany: '',
+        filingsSubView: 'promises',
+        expandedTonePeriod: null,  // For click-to-expand tone details
+
+        // Alpha data and state
+        alpha: {
+            companies: [],
+            analyses: {},
+            history: {}
+        },
+        selectedAlphaCompany: '',
+        alphaSubView: 'overview',  // overview, fundamentals, sentiment, risks, position
+
+        // === INBOX COMPUTED ===
+
         get filteredRecommendations() {
             let results = this.recommendations;
 
@@ -52,18 +115,6 @@ function dashboard() {
             }
 
             return results;
-        },
-
-        get filteredTickers() {
-            if (!this.filters.tickerSearch) {
-                return this.tickers;
-            }
-
-            const search = this.filters.tickerSearch.toLowerCase();
-            return this.tickers.filter(t =>
-                t.stock_name.toLowerCase().includes(search) ||
-                (t.ticker && t.ticker.toLowerCase().includes(search))
-            );
         },
 
         get filteredInbox() {
@@ -126,7 +177,357 @@ function dashboard() {
             return results.sort((a, b) => new Date(b.date) - new Date(a.date));
         },
 
-        // Initialization
+        // === PODCAST COMPUTED ===
+
+        get podcastSources() {
+            return this.podcasts.sources || [];
+        },
+
+        get filteredPodcastEpisodes() {
+            let results = this.podcasts.episodes || [];
+
+            // Source filter
+            if (this.podcastFilters.source) {
+                results = results.filter(e => e.podcast_id === this.podcastFilters.source);
+            }
+
+            // Date from filter
+            if (this.podcastFilters.dateFrom) {
+                results = results.filter(e => e.date >= this.podcastFilters.dateFrom);
+            }
+
+            // Date to filter
+            if (this.podcastFilters.dateTo) {
+                results = results.filter(e => e.date <= this.podcastFilters.dateTo);
+            }
+
+            // Company search
+            if (this.podcastFilters.companySearch) {
+                const search = this.podcastFilters.companySearch.toLowerCase();
+                results = results.filter(e =>
+                    (e.stocks_discussed || []).some(s => s.toLowerCase().includes(search)) ||
+                    (e.recommendations || []).some(r =>
+                        r.stock_name.toLowerCase().includes(search) ||
+                        (r.ticker && r.ticker.toLowerCase().includes(search))
+                    )
+                );
+            }
+
+            // Position disclosure filter
+            if (this.podcastFilters.positionDisclosure) {
+                const disclosure = this.podcastFilters.positionDisclosure;
+                results = results.filter(e =>
+                    (e.stock_segments || []).some(seg => seg.position_disclosure === disclosure)
+                );
+            }
+
+            // Sort by date descending
+            return results.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+        },
+
+        // === TWITTER COMPUTED ===
+
+        get twitterUsers() {
+            return this.twitter.users || [];
+        },
+
+        get filteredTweets() {
+            let results = this.twitter.tweets || [];
+
+            // User filter
+            if (this.twitterFilters.user) {
+                results = results.filter(t => t.user_id === this.twitterFilters.user);
+            }
+
+            // Date from filter
+            if (this.twitterFilters.dateFrom) {
+                results = results.filter(t => t.date >= this.twitterFilters.dateFrom);
+            }
+
+            // Date to filter
+            if (this.twitterFilters.dateTo) {
+                results = results.filter(t => t.date <= this.twitterFilters.dateTo);
+            }
+
+            // Company search
+            if (this.twitterFilters.companySearch) {
+                const search = this.twitterFilters.companySearch.toLowerCase();
+                results = results.filter(t =>
+                    (t.stock_mentions || []).some(m =>
+                        m.stock_name.toLowerCase().includes(search) ||
+                        (m.ticker && m.ticker.toLowerCase().includes(search))
+                    )
+                );
+            }
+
+            // Only actionable filter
+            if (this.twitterFilters.onlyActionable) {
+                results = results.filter(t => t.is_actionable);
+            }
+
+            // Sort by date descending
+            return results.sort((a, b) => (b.posted_at || '').localeCompare(a.posted_at || ''));
+        },
+
+        get crossReferencedStocks() {
+            let stocks = this.twitter.stock_mentions || [];
+
+            // If searching, filter to matching stocks
+            if (this.twitterFilters.companySearch) {
+                const search = this.twitterFilters.companySearch.toLowerCase();
+                stocks = stocks.filter(s =>
+                    s.stock_name.toLowerCase().includes(search) ||
+                    (s.ticker && s.ticker.toLowerCase().includes(search))
+                );
+            } else {
+                // Show stocks mentioned by 2+ users
+                stocks = stocks.filter(s => s.unique_users >= 2);
+            }
+
+            return stocks.sort((a, b) => b.total_mentions - a.total_mentions);
+        },
+
+        // === YOUTUBE COMPUTED ===
+
+        get youtubeChannels() {
+            return this.youtube.channels || [];
+        },
+
+        get filteredYoutubeVideos() {
+            let results = this.youtube.videos || [];
+
+            // Channel filter
+            if (this.youtubeFilters.channel) {
+                results = results.filter(v => v.channel_id === this.youtubeFilters.channel);
+            }
+
+            // Date from filter
+            if (this.youtubeFilters.dateFrom) {
+                results = results.filter(v => v.date >= this.youtubeFilters.dateFrom);
+            }
+
+            // Date to filter
+            if (this.youtubeFilters.dateTo) {
+                results = results.filter(v => v.date <= this.youtubeFilters.dateTo);
+            }
+
+            // Company search
+            if (this.youtubeFilters.companySearch) {
+                const search = this.youtubeFilters.companySearch.toLowerCase();
+                results = results.filter(v =>
+                    (v.stocks_discussed || []).some(s =>
+                        (typeof s === 'string' ? s : String(s)).toLowerCase().includes(search)
+                    ) ||
+                    (v.recommendations || []).some(r =>
+                        r.stock_name.toLowerCase().includes(search) ||
+                        (r.ticker && r.ticker.toLowerCase().includes(search))
+                    )
+                );
+            }
+
+            // Recommendation type filter
+            if (this.youtubeFilters.recommendationType) {
+                const recType = this.youtubeFilters.recommendationType;
+                results = results.filter(v =>
+                    (v.recommendations || []).some(r => r.recommendation_type === recType)
+                );
+            }
+
+            // Sort by date descending
+            return results.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+        },
+
+        // === FILINGS COMPUTED ===
+
+        get filingCompanies() {
+            return this.filings.companies || [];
+        },
+
+        get currentThesis() {
+            if (!this.selectedFilingCompany) return null;
+            return this.filings.theses[this.selectedFilingCompany] || null;
+        },
+
+        get currentEvolution() {
+            if (!this.selectedFilingCompany) return null;
+            return this.filings.evolutions[this.selectedFilingCompany] || null;
+        },
+
+        get sortedPromises() {
+            if (!this.currentEvolution) return [];
+            const promises = this.currentEvolution.promises || [];
+            // Sort by most recent quarter first
+            return [...promises].sort((a, b) => {
+                const quarterOrder = (q) => {
+                    if (!q) return 0;
+                    const match = q.match(/Q(\d)\s*(\d{4})/);
+                    if (match) return parseInt(match[2]) * 10 + parseInt(match[1]);
+                    return 0;
+                };
+                return quarterOrder(b.quarter_made) - quarterOrder(a.quarter_made);
+            });
+        },
+
+        get toneDataPoints() {
+            if (!this.currentEvolution) return [];
+            return this.currentEvolution.tone_trajectory || [];
+        },
+
+        get financialTrends() {
+            if (!this.currentEvolution) return null;
+            return this.currentEvolution.financial_trends || null;
+        },
+
+        get philosophyAlignment() {
+            if (!this.currentThesis) return null;
+            return this.currentThesis.philosophy_alignment || null;
+        },
+
+        // Helper to get status color class
+        getPromiseStatusClass(status) {
+            switch (status) {
+                case 'met': return 'bg-green-100 text-green-800';
+                case 'on_track': return 'bg-blue-100 text-blue-800';
+                case 'missed': return 'bg-red-100 text-red-800';
+                default: return 'bg-gray-100 text-gray-800';
+            }
+        },
+
+        // Helper to get tone color class
+        getToneClass(tone) {
+            switch (tone) {
+                case 'optimistic': return 'bg-green-500';
+                case 'cautiously_optimistic': return 'bg-green-300';
+                case 'neutral': return 'bg-gray-400';
+                case 'cautious': return 'bg-yellow-500';
+                case 'defensive': return 'bg-red-500';
+                default: return 'bg-gray-300';
+            }
+        },
+
+        // Helper to get philosophy alignment class
+        getPhilosophyClass(value) {
+            if (!value) return 'border-gray-200 bg-gray-50';
+            if (value.startsWith('POSITIVE')) return 'border-green-300 bg-green-50';
+            if (value.startsWith('NEGATIVE')) return 'border-red-300 bg-red-50';
+            return 'border-yellow-300 bg-yellow-50';
+        },
+
+        // Helper to format trend label
+        formatTrend(trend) {
+            if (!trend) return '-';
+            return trend.charAt(0).toUpperCase() + trend.slice(1).replace('_', ' ');
+        },
+
+        // === ALPHA COMPUTED ===
+
+        get alphaCompanies() {
+            return this.alpha.companies || [];
+        },
+
+        get currentAlphaAnalysis() {
+            if (!this.selectedAlphaCompany) return null;
+            return this.alpha.analyses[this.selectedAlphaCompany] || null;
+        },
+
+        get currentAlphaHistory() {
+            if (!this.selectedAlphaCompany) return [];
+            return this.alpha.history[this.selectedAlphaCompany] || [];
+        },
+
+        // Get verdict color class
+        getVerdictClass(recommendation) {
+            const rec = (recommendation || '').toUpperCase();
+            if (rec === 'KÖPVÄRD' || rec === 'KOPVARD') return 'bg-green-600 text-white';
+            if (rec === 'ATTRAKTIV') return 'bg-green-500 text-white';
+            if (rec === 'FAIR') return 'bg-yellow-500 text-white';
+            if (rec === 'FULLVÄRDERAD' || rec === 'FULLVARDERAD') return 'bg-orange-500 text-white';
+            if (rec === 'ÖVERVÄRDERAD' || rec === 'OVERVARDERAD') return 'bg-red-600 text-white';
+            return 'bg-gray-500 text-white';
+        },
+
+        // Get card border color based on verdict
+        getCardBorderClass(recommendation) {
+            const rec = (recommendation || '').toUpperCase();
+            if (rec === 'KÖPVÄRD' || rec === 'KOPVARD') return 'border-green-500';
+            if (rec === 'ATTRAKTIV') return 'border-green-400';
+            if (rec === 'FAIR') return 'border-yellow-400';
+            if (rec === 'FULLVÄRDERAD' || rec === 'FULLVARDERAD') return 'border-orange-400';
+            if (rec === 'ÖVERVÄRDERAD' || rec === 'OVERVARDERAD') return 'border-red-500';
+            return 'border-gray-300';
+        },
+
+        // Get upside color class
+        getUpsideClass(upside) {
+            if (upside === null || upside === undefined) return 'text-gray-500';
+            if (upside > 20) return 'text-green-600 font-bold';
+            if (upside > 5) return 'text-green-500';
+            if (upside > -10) return 'text-yellow-600';
+            if (upside > -20) return 'text-orange-500';
+            return 'text-red-600 font-bold';
+        },
+
+        // Get risk score color
+        getRiskScoreClass(score) {
+            if (!score) return 'bg-gray-200 text-gray-600';
+            if (score <= 3) return 'bg-green-100 text-green-800';
+            if (score <= 5) return 'bg-yellow-100 text-yellow-800';
+            if (score <= 7) return 'bg-orange-100 text-orange-800';
+            return 'bg-red-100 text-red-800';
+        },
+
+        // Get quality score color
+        getQualityScoreClass(score) {
+            if (!score) return 'bg-gray-200 text-gray-600';
+            if (score >= 8) return 'bg-green-100 text-green-800';
+            if (score >= 6) return 'bg-yellow-100 text-yellow-800';
+            if (score >= 4) return 'bg-orange-100 text-orange-800';
+            return 'bg-red-100 text-red-800';
+        },
+
+        // Get insider direction class
+        getInsiderClass(direction) {
+            const dir = (direction || '').toLowerCase();
+            if (dir.includes('köp') || dir.includes('buyer') || dir === 'stark_köpare') return 'text-green-600';
+            if (dir.includes('sälj') || dir.includes('seller')) return 'text-red-600';
+            return 'text-gray-500';
+        },
+
+        // Calculate price position as percentage between bear and bull case
+        getAlphaPricePosition(analysis) {
+            if (!analysis || !analysis.scenarios) return 50;
+            const scenarios = analysis.scenarios;
+            const bear = scenarios.find(s => s.name === 'Bear');
+            const bull = scenarios.find(s => s.name === 'Bull');
+            if (!bear || !bull) return 50;
+
+            const price = analysis.current_price;
+            const bearFv = bear.fair_value;
+            const bullFv = bull.fair_value;
+
+            if (!price || !bearFv || !bullFv) return 50;
+            if (bullFv === bearFv) return 50;
+
+            // Calculate position (0 = at bear, 100 = at bull)
+            const position = ((price - bearFv) / (bullFv - bearFv)) * 100;
+            return Math.max(0, Math.min(100, position));
+        },
+
+        // Format currency for Swedish display
+        formatSEK(value) {
+            if (value === null || value === undefined) return '-';
+            return `${value.toFixed(0)} SEK`;
+        },
+
+        // Format percentage
+        formatPercent(value) {
+            if (value === null || value === undefined) return '-';
+            const prefix = value >= 0 ? '+' : '';
+            return `${prefix}${value.toFixed(1)}%`;
+        },
+
+        // === INITIALIZATION ===
+
         async init() {
             try {
                 // Check for inline data first (embedded by generator to avoid CORS issues)
@@ -136,10 +537,21 @@ function dashboard() {
                     this.analyses = data.analyses || [];
                     this.recommendations = data.recommendations || [];
                     this.sources = data.sources || [];
-                    this.speakers = data.speakers || [];
-                    this.tickers = data.tickers || [];
-                    this.trackRecord = data.trackRecord || { by_source: [], by_speaker: [] };
-                    this.watchlist = data.watchlist || [];
+
+                    // Load source-specific data
+                    this.podcasts = data.podcasts || { episodes: [], sources: [], stock_mentions: [] };
+                    this.twitter = data.twitter || { tweets: [], users: [], stock_mentions: [] };
+                    this.youtube = data.youtube || { videos: [], channels: [], stock_mentions: [] };
+                    this.filings = data.filings || { companies: [], evolutions: {}, theses: {} };
+                    this.alpha = data.alpha || { companies: [], analyses: {}, history: {} };
+
+                    // Set default selected company if available
+                    if (this.filings.companies.length > 0) {
+                        this.selectedFilingCompany = this.filings.companies[0];
+                    }
+                    if (this.alpha.companies.length > 0) {
+                        this.selectedAlphaCompany = this.alpha.companies[0].ticker;
+                    }
                 } else {
                     // Fallback to fetch (works when served via HTTP)
                     const [
@@ -147,29 +559,40 @@ function dashboard() {
                         analyses,
                         recommendations,
                         sources,
-                        speakers,
-                        tickers,
-                        trackRecord,
-                        watchlist
+                        podcasts,
+                        twitter,
+                        youtube,
+                        filings,
+                        alpha
                     ] = await Promise.all([
                         this.loadJson('data/metadata.json'),
                         this.loadJson('data/analyses.json'),
                         this.loadJson('data/recommendations.json'),
                         this.loadJson('data/sources.json'),
-                        this.loadJson('data/speakers.json'),
-                        this.loadJson('data/tickers.json'),
-                        this.loadJson('data/track_record.json'),
-                        this.loadJson('data/watchlist.json'),
+                        this.loadJson('data/podcasts.json'),
+                        this.loadJson('data/twitter.json'),
+                        this.loadJson('data/youtube.json'),
+                        this.loadJson('data/filings.json'),
+                        this.loadJson('data/alpha.json'),
                     ]);
 
                     this.metadata = metadata || {};
                     this.analyses = analyses || [];
                     this.recommendations = recommendations || [];
                     this.sources = sources || [];
-                    this.speakers = speakers || [];
-                    this.tickers = tickers || [];
-                    this.trackRecord = trackRecord || { by_source: [], by_speaker: [] };
-                    this.watchlist = watchlist || [];
+                    this.podcasts = podcasts || { episodes: [], sources: [], stock_mentions: [] };
+                    this.twitter = twitter || { tweets: [], users: [], stock_mentions: [] };
+                    this.youtube = youtube || { videos: [], channels: [], stock_mentions: [] };
+                    this.filings = filings || { companies: [], evolutions: {}, theses: {} };
+                    this.alpha = alpha || { companies: [], analyses: {}, history: {} };
+
+                    // Set default selected company if available
+                    if (this.filings.companies.length > 0) {
+                        this.selectedFilingCompany = this.filings.companies[0];
+                    }
+                    if (this.alpha.companies.length > 0) {
+                        this.selectedAlphaCompany = this.alpha.companies[0].ticker;
+                    }
                 }
 
             } catch (error) {
@@ -193,7 +616,8 @@ function dashboard() {
             }
         },
 
-        // Helpers
+        // === HELPERS ===
+
         formatDate(dateStr) {
             if (!dateStr) return '-';
             return new Date(dateStr).toLocaleDateString('sv-SE');
