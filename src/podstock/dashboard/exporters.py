@@ -390,6 +390,8 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
             "market_sentiment": data.get("market_sentiment", ""),
             "summary": data.get("summary", ""),
             "key_takeaways": data.get("key_takeaways") or [],
+            # Recommendations - slimmed for dashboard (reasoning/quote removed to reduce size)
+            # Full data available in data/podcasts/analyses-v2/*.json
             "recommendations": [
                 {
                     "stock_name": rec.get("stock_name", ""),
@@ -398,11 +400,9 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                     "confidence": rec.get("confidence", ""),
                     "speaker": rec.get("speaker", ""),
                     "speaker_role": rec.get("speaker_role", ""),
-                    "reasoning": rec.get("reasoning", ""),
-                    "quote": rec.get("quote", ""),
+                    # Note: reasoning and quote removed to reduce file size (~8 MB savings)
                     "price_target": rec.get("price_target"),
                     "time_horizon": rec.get("time_horizon"),
-                    # Additional fields
                     "timestamp": rec.get("timestamp"),
                     "sector": rec.get("sector"),
                     "market": rec.get("market"),
@@ -431,8 +431,21 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                 }
                 for seg in data.get("stock_segments", [])
             ],
-            # Insights array (if available)
-            "insights": data.get("insights", []),
+            # Insights - slimmed for dashboard (quote removed to reduce size)
+            # Full data available in data/podcasts/analyses-v2/*.json
+            "insights": [
+                {
+                    "summary": ins.get("summary", ""),
+                    "category": ins.get("category", ""),
+                    "speaker": ins.get("speaker", ""),
+                    "speaker_role": ins.get("speaker_role", ""),
+                    "timestamp": ins.get("timestamp"),
+                    "confidence": ins.get("confidence", ""),
+                    "tags": ins.get("tags") or [],
+                    # Note: quote removed to reduce file size (~5 MB savings)
+                }
+                for ins in data.get("insights", [])
+            ],
         }
         episodes.append(episode)
 
