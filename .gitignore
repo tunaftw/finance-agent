@@ -146,7 +146,8 @@ data/filings/raw/
 
 # Logs
 *.log
-logs/
+logs/*
+!logs/orchestration/
 
 # =============================================================================
 # Secrets (should never be committed)
