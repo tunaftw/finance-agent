@@ -22,6 +22,8 @@ year_filter:        2025      # Filtrera podcasts fran detta ar
 retry_attempts:     3         # Max retry-forsok
 whisper_timeout:    15 min    # Timeout for Whisper
 analysis_model:     glm-4.7   # Modell for batch-analys
+parallel_agents:    3         # Antal parallella agenter for analys
+analysis_timeout:   180 sec   # Timeout per transkript-analys
 ```
 
 ---
@@ -166,42 +168,65 @@ else:
     print(f"▸ {len(unanalyzed)} transkript att analysera")
 ```
 
-### Kor batch-analys
+### Kor PARALLELL analys (rekommenderat for >10 transkript)
 
-```bash
-# Starta batch runner i bakgrunden
-cd /Users/pontus/Developer/podcast-transcriber
-nohup python3 scripts/batch_runner.py > /tmp/batch.log 2>&1 &
-BATCH_PID=$!
-echo "▸ Batch-analys startad (PID: $BATCH_PID)"
-```
-
-### Overvaka progress
+Om fler an 10 transkript ska analyseras, anvand parallella agenter for ~3x speedup:
 
 ```python
-import time
-import json
 from pathlib import Path
 
-log_file = Path('data/podcasts/analyses-v2/completion-log.json')
-timeout = 30 * 60  # 30 minuter
-start_time = time.time()
+# Dela upp transkript i N grupper (default: 3 agenter)
+N_AGENTS = 3
+chunk_size = (len(unanalyzed) + N_AGENTS - 1) // N_AGENTS
 
-while time.time() - start_time < timeout:
-    if log_file.exists():
-        log = json.loads(log_file.read_text())
-        processed = log.get('total_processed', 0)
-        failed = len(log.get('failed', []))
-        total = len(unanalyzed)
+groups = []
+for i in range(N_AGENTS):
+    start = i * chunk_size
+    end = min(start + chunk_size, len(unanalyzed))
+    if start < len(unanalyzed):
+        groups.append(unanalyzed[start:end])
 
-        if processed + failed >= total:
-            print(f"✓ Analys klar: {processed} lyckades, {failed} misslyckades")
-            break
+# Skapa ko-filer per agent
+queue_dir = Path('data/podcasts/analyses-v2/parallel-queues')
+queue_dir.mkdir(parents=True, exist_ok=True)
 
-    time.sleep(10)
-else:
-    print("⚠ Timeout - batch-analys tog for lang tid")
+for i, group in enumerate(groups, 1):
+    queue_file = queue_dir / f'queue-agent-{i}.txt'
+    queue_file.write_text('\n'.join(group))
+    print(f"Agent {i}: {len(group)} transkript")
 ```
+
+**Starta agenter parallellt med Task-verktyget:**
+
+```
+Starta 3 Task-agenter (subagent_type=general-purpose, run_in_background=true)
+varje agent far:
+  - Sin ko-fil (queue-agent-N.txt)
+  - Instruktion att kora: python3 scripts/glm_driver.py <path> data/podcasts/analyses-v2/
+  - Rapportera: lyckade, misslyckade, total tid
+```
+
+**Overvaka och samla resultat:**
+- Anvand TaskOutput med block=false for att kolla progress
+- Vantar tills alla agenter rapporterat klart
+- Sammanstall resultat i slutrapporten
+
+### Fallback: Sekventiell batch (for <10 transkript)
+
+```bash
+# For fa transkript, kor direkt utan parallellisering
+for f in $(cat data/podcasts/analyses-v2/transcript-queue.txt); do
+    python3 scripts/glm_driver.py "$f" data/podcasts/analyses-v2/
+done
+```
+
+### Kanda problem
+
+| Problem | Losning |
+|---------|---------|
+| Transkript hanger (>180 sec) | Skip efter timeout, logga for manuell review |
+| GLM rate limit | Automatisk retry efter 30 sek |
+| Agent crashar | Andra agenter fortsatter, rapportera skippade |
 
 ---
 
