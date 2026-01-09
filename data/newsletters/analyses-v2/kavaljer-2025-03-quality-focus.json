@@ -1,0 +1,180 @@
+{
+  "schema_version": "2.1",
+  "source_id": "kavaljer-2025-03-quality-focus",
+  "source_type": "newsletter",
+  "source_name": "Kavaljer Quality Focus",
+  "title": "Mars 2025",
+  "date": "2025-03",
+  "url": "https://mailchi.mp/be51f2d4fccb/kavaljer-quality-focus-mars-2025",
+  "author": "Kavaljer",
+  "main_topics": [
+    "Marknadsnedgång",
+    "Ny position Swedencare",
+    "FlatexDegiro djupanalys",
+    "Sdiptech djupanalys"
+  ],
+  "stocks_discussed": [
+    "Carasent",
+    "Nilorgruppen",
+    "Sdiptech",
+    "Swedencare",
+    "Kitron",
+    "Thule",
+    "Storytel",
+    "Inwido",
+    "FlatexDegiro",
+    "ITAB",
+    "Dometic",
+    "Munters"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Swedencare",
+      "ticker": "SWAN.ST",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Kavaljer",
+      "speaker_role": "fund_manager",
+      "reasoning": "Ny position etablerad. Djurhälsoprodukter med strukturell marknadstillväxt.",
+      "price_target": null,
+      "current_price": null,
+      "sector": "Pet Healthcare",
+      "market": "sweden"
+    },
+    {
+      "stock_name": "Carasent",
+      "ticker": "CARA.OL",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Kavaljer",
+      "speaker_role": "fund_manager",
+      "reasoning": "Position ökad.",
+      "price_target": null,
+      "current_price": null,
+      "sector": "Healthcare IT",
+      "market": "norway"
+    },
+    {
+      "stock_name": "FlatexDegiro",
+      "ticker": "FTK.DE",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Kavaljer",
+      "speaker_role": "fund_manager",
+      "reasoning": "Europeisk retailmäklare, 3.2M kunder i 16 länder. Lägger till ~35 000 kunder/månad. EBITDA-marginal 42%. 2027 guidning: 650M EUR omsättning, 200M EUR nettovinst. Låg marknadspenetration (endast 1% i Tyskland).",
+      "price_target": null,
+      "current_price": null,
+      "time_horizon": "2027",
+      "sector": "Financial Services",
+      "market": "germany",
+      "portfolio_weight": 0.028,
+      "valuation": {
+        "pe_ratio": 22,
+        "ebitda_margin": 0.42,
+        "customer_growth_monthly": 35000
+      }
+    },
+    {
+      "stock_name": "Sdiptech",
+      "ticker": "SDIP-B.ST",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Kavaljer",
+      "speaker_role": "fund_manager",
+      "reasoning": "Svenskt teknikkonglomerat, 47 dotterbolag i 4 divisioner. 2024 omsättning 5.2 mdr SEK, EBITA-marginal ~20%. Divisionsmarginaler: 18.7% till 25.8%. Net debt/EBITDA: 2.25x (3.85x inkl. earnouts). Handlas till ~10x EBITA (2025) vs Lagerkrantz 43x P/E.",
+      "price_target": null,
+      "current_price": null,
+      "sector": "Industrial Holdings",
+      "market": "sweden",
+      "valuation": {
+        "ev_ebita": 10,
+        "ebita_margin": 0.20,
+        "revenue_2024_msek": 5200,
+        "net_debt_ebitda": 2.25,
+        "net_debt_ebitda_incl_earnouts": 3.85
+      }
+    },
+    {
+      "stock_name": "Kitron",
+      "ticker": "KIT.OL",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Kavaljer",
+      "speaker_role": "fund_manager",
+      "reasoning": "Stor position såldes (sista delen tidigt april).",
+      "price_target": null,
+      "current_price": null,
+      "sector": "Electronics Manufacturing",
+      "market": "norway",
+      "position_change": "exit"
+    },
+    {
+      "stock_name": "Thule",
+      "ticker": "THULE.ST",
+      "action": "reduce",
+      "confidence": "medium",
+      "speaker": "Kavaljer",
+      "speaker_role": "fund_manager",
+      "reasoning": "Minskad vid ~350 SEK.",
+      "price_target": null,
+      "current_price": 350,
+      "sector": "Consumer Goods",
+      "market": "sweden",
+      "position_change": "reduced"
+    },
+    {
+      "stock_name": "Storytel",
+      "ticker": "STORY-B.ST",
+      "action": "reduce",
+      "confidence": "medium",
+      "speaker": "Kavaljer",
+      "speaker_role": "fund_manager",
+      "reasoning": "Minskad vid ~95 SEK.",
+      "price_target": null,
+      "current_price": 95,
+      "sector": "Media",
+      "market": "sweden",
+      "position_change": "reduced"
+    },
+    {
+      "stock_name": "Inwido",
+      "ticker": "INWI.ST",
+      "action": "reduce",
+      "confidence": "medium",
+      "speaker": "Kavaljer",
+      "speaker_role": "fund_manager",
+      "reasoning": "Minskad vid ~210 SEK.",
+      "price_target": null,
+      "current_price": 210,
+      "sector": "Building Materials",
+      "market": "sweden",
+      "position_change": "reduced"
+    }
+  ],
+  "fund_performance": {
+    "return_monthly": -0.06,
+    "benchmark_omxspi": -0.079,
+    "benchmark_small_cap": -0.08,
+    "benchmark_dow_jones_world": -0.04
+  },
+  "contributors": {
+    "positive": [
+      {"stock": "FlatexDegiro", "contribution": 0.003},
+      {"stock": "Kitron", "contribution": 0.002},
+      {"stock": "Protector Forsikring", "contribution": 0.002}
+    ],
+    "negative": [
+      {"stock": "ITAB", "contribution": -0.004},
+      {"stock": "Dometic", "contribution": -0.004},
+      {"stock": "Munters", "contribution": -0.004}
+    ]
+  },
+  "summary": "Mars 2025 var en svag månad med -6.0% avkastning, men bättre än OMXSPI (-7.9%). Ny position etablerad i Swedencare. Kitron såldes helt. Positioner minskade i Thule, Storytel och Inwido efter uppgångar.",
+  "key_takeaways": [
+    "Fonden -6.0% men slog index (-7.9%)",
+    "Ny position Swedencare",
+    "Sålde Kitron helt",
+    "Sdiptech handlas till 10x EBITA vs Lagerkrantz 43x P/E",
+    "FlatexDegiro: 42% EBITDA-marginal, lägger till 35k kunder/månad"
+  ]
+}
