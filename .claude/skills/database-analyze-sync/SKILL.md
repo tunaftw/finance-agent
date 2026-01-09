@@ -5,7 +5,7 @@ description: Synka JSON-analysfiler till SQLite-databasen. Anvand nar anvandaren
 
 # Database Analyze Sync Skill
 
-Synkronisera JSON-analysfiler fran podcasts, Twitter och YouTube till podstock.db.
+Synkronisera JSON-analysfiler fran podcasts, Twitter, YouTube och newsletters till podstock.db.
 
 ## Quick Start
 
@@ -107,6 +107,27 @@ def get_sync_status():
         'modified_examples': youtube_modified[:3]
     }
 
+    # Newsletters - kolla data/newsletters/analyses-v2/
+    newsletter_dir = Path("data/newsletters/analyses-v2")
+    newsletter_files = list(newsletter_dir.glob("*.json")) if newsletter_dir.exists() else []
+    newsletter_new = []
+    newsletter_modified = []
+    for f in newsletter_files:
+        file_hash = hashlib.sha256(f.read_bytes()).hexdigest()
+        path_str = str(f.absolute())  # Absolut sokvag (matchar loader.py)
+        if path_str not in loaded:
+            newsletter_new.append(f.name)
+        elif loaded[path_str] != file_hash:
+            newsletter_modified.append(f.name)
+    status['newsletters'] = {
+        'total_files': len(newsletter_files),
+        'new': len(newsletter_new),
+        'modified': len(newsletter_modified),
+        'synced': len(newsletter_files) - len(newsletter_new) - len(newsletter_modified),
+        'new_examples': newsletter_new[:5],
+        'modified_examples': newsletter_modified[:3]
+    }
+
     conn.close()
     return status
 
@@ -157,8 +178,13 @@ DATABASE SYNC STATUS
 [SYNC] YOUTUBE
     Filer: 273 totalt, 228 synkade
     Nya: 45 st
+
+[SYNC] NEWSLETTERS
+    Filer: 12 totalt, 0 synkade
+    Nya: 12 st
+         Ex: kavaljer-2025-12-quality-focus.json...
 ============================================================
-TOTALT: 1277 filer behover synkas
+TOTALT: 1289 filer behover synkas
 ============================================================
 ```
 
@@ -168,11 +194,12 @@ Om det finns filer att synka, fraga anvandaren med AskUserQuestion:
 
 ```
 Vad vill du gora?
-1. Synka alla (1277 st) - Recommended
+1. Synka alla (1289 st) - Recommended
 2. Endast podcasts (1232 st)
 3. Endast twitter (0 st)
 4. Endast youtube (45 st)
-5. Avbryt
+5. Endast newsletters (12 st)
+6. Avbryt
 ```
 
 ## Step 3: Execute Sync
@@ -192,18 +219,19 @@ Se [references/sync-method.md](references/sync-method.md) for detaljerad impleme
 SYNC KLAR
 ============================================================
 
-Synkade: 1275/1277 filer
+Synkade: 1287/1289 filer
   - Podcasts: 1230/1232
   - Twitter: 0/0
   - YouTube: 45/45
+  - Newsletters: 12/12
 
 Misslyckades: 2 filer
   - aktiepodden-invalid.json: Invalid JSON
   - borspodden-empty.json: Missing episode_id
 
 Nya i databasen:
-  - 1275 analyser
-  - 4532 rekommendationer
+  - 1287 analyser
+  - 4612 rekommendationer
   - 156 pending securities (for manuell mapping)
 
 Tips: Kor 'podstock db pending list' for att se omatchade aktienamn
@@ -217,6 +245,7 @@ Tips: Kor 'podstock db pending list' for att se omatchade aktienamn
 | Podcasts | `{podcast_id}-{date}-{hash}.json` | `data/podcasts/analyses-v2/` |
 | Twitter | `{handle}-tweet-analyses.json` | `data/twitter/analyses/` |
 | YouTube | `{video_id}.json` | `data/youtube/analyses/` |
+| Newsletters | `{newsletter_id}-{date}.json` | `data/newsletters/analyses-v2/` |
 
 ## Database Tables Affected
 

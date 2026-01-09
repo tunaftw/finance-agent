@@ -32,8 +32,15 @@ Om användaren säger "batch", "kör alla", "analysera alla oanalyserade", "synk
 ```python
 from pathlib import Path
 
-# Hitta alla transkript
+# Hitta alla transkript (BÅDA sökvägarna)
 transcripts = []
+
+# Ny struktur: data/transcripts/{podcast}/*.txt (primär)
+for podcast_dir in Path('data/transcripts').iterdir():
+    if podcast_dir.is_dir():
+        transcripts.extend(podcast_dir.glob('*.txt'))
+
+# Gammal struktur: data/podcasts/raw/{podcast}/transcripts/*.txt (legacy)
 for podcast_dir in Path('data/podcasts/raw').iterdir():
     if podcast_dir.is_dir():
         transcripts_dir = podcast_dir / 'transcripts'
@@ -105,8 +112,17 @@ def get_analysis_backlog():
 
     backlog = {}
 
-    # Podcasts
+    # Podcasts (BÅDA sökvägarna)
     podcast_transcripts = set()
+
+    # Ny struktur: data/transcripts/{podcast}/*.txt (primär)
+    transcripts_dir = Path('data/transcripts')
+    if transcripts_dir.exists():
+        for podcast_dir in transcripts_dir.iterdir():
+            if podcast_dir.is_dir():
+                podcast_transcripts.update(p.stem for p in podcast_dir.glob('*.txt'))
+
+    # Gammal struktur: data/podcasts/raw/{podcast}/transcripts/*.txt (legacy)
     for podcast_dir in Path('data/podcasts/raw').iterdir():
         if podcast_dir.is_dir():
             transcripts_dir = podcast_dir / 'transcripts'
@@ -243,19 +259,27 @@ Kontrollera vad som redan analyserats:
 # Kolla befintliga analyser
 ls data/podcasts/analyses-v2/ | wc -l
 
-# Hitta oanalyserade podcast-transkript
+# Hitta oanalyserade podcast-transkript (båda sökvägarna)
 python -c "
 from pathlib import Path
-import json
 
 analyzed = set(p.stem for p in Path('data/podcasts/analyses-v2').glob('*.json'))
-transcripts = set(p.stem for p in Path('data/podcasts/raw').rglob('*.txt'))
+
+# Samla transkript från båda sökvägarna
+transcripts = set()
+# Ny struktur (primär)
+for d in Path('data/transcripts').iterdir():
+    if d.is_dir():
+        transcripts.update(p.stem for p in d.glob('*.txt'))
+# Gammal struktur (legacy)
+transcripts.update(p.stem for p in Path('data/podcasts/raw').rglob('*.txt'))
+
 unanalyzed = transcripts - analyzed
 print(f'Analyserade: {len(analyzed)}')
 print(f'Oanalyserade: {len(unanalyzed)}')
 if unanalyzed:
     print('Första 5 oanalyserade:')
-    for t in list(unanalyzed)[:5]:
+    for t in sorted(unanalyzed)[:5]:
         print(f'  - {t}')
 "
 ```
@@ -352,7 +376,8 @@ Analyser sparas i JSON format:
 
 | Källa | Transkript-sökväg |
 |-------|-------------------|
-| Podcasts | `data/podcasts/raw/{podcast_id}/transcripts/*.txt` |
+| Podcasts (primär) | `data/transcripts/{podcast_id}/*.txt` |
+| Podcasts (legacy) | `data/podcasts/raw/{podcast_id}/transcripts/*.txt` |
 | Twitter | `data/twitter/raw/{handle}/tweets.jsonl` |
 | YouTube | `data/youtube/raw/{channel}/transcripts/*.txt` |
 

@@ -5,226 +5,159 @@ description: Sync podcast transcripts. Use when user asks "vilka podcasts har ko
 
 # Podcast Download Skill
 
-Sync podcast transcripts for unsynced episodes from 2025 onwards.
+Sync podcast transcripts for unsynced episodes.
 
 ## Quick Start
 
-1. Check sync status for all configured podcasts
-2. User selects: all podcasts or specific ones
-3. Execute sync using appropriate method per episode
-4. Report summary of what was synced and where
+1. Run sync status script to see what's missing
+2. User selects which podcasts to sync
+3. Execute sync using Apple Podcasts or Whisper
+4. Report summary
 
-## Workflow
+---
 
-### Step 1: Check Sync Status
+## Step 1: Check Sync Status
 
-Identify unsynced episodes (published 2025+ without transcript).
+**Run the sync status script:**
 
-**Important**: Use date-based matching since episode IDs may differ between sources (RSS, Apple, Whisper use different title hashes).
-
-```python
-import json
-from pathlib import Path
-from datetime import datetime
-from podstock.rss.parser import get_all_episodes
-from podstock.core.models import Podcast
-
-# Helper: Check if transcript exists by date (ignores hash differences)
-def transcript_exists(podcast_id: str, pub_date: datetime) -> bool:
-    date_str = pub_date.strftime('%Y-%m-%d')
-    pattern = f'{podcast_id}-{date_str}-*.txt'
-    transcript_dir = Path(f'data/podcasts/raw/{podcast_id}/transcripts')
-    if not transcript_dir.exists():
-        return False
-    return len(list(transcript_dir.glob(pattern))) > 0
-
-# Load configurations
-podcasts_data = json.loads(Path('data/podcasts.json').read_text())
-podcasts = [Podcast(**p) for p in podcasts_data['podcasts'] if p.get('active', True)]
-
-cutoff = datetime(2025, 1, 1)
-unsynced = {}  # {podcast_id: [episodes]}
-
-# Check RSS-enabled podcasts
-for podcast in podcasts:
-    if podcast.rss_url:
-        try:
-            episodes = get_all_episodes(podcast.rss_url, podcast.id)
-            for ep in episodes:
-                if ep.published_at >= cutoff and not transcript_exists(podcast.id, ep.published_at):
-                    unsynced.setdefault(podcast.id, []).append({
-                        'id': ep.id,
-                        'title': ep.title,
-                        'date': ep.published_at,
-                        'source': 'rss'
-                    })
-        except Exception as e:
-            print(f"Warning: Could not fetch RSS for {podcast.name}: {e}")
-
-# Check Apple Podcasts database for Apple-only podcasts
-from podstock.transcribe.apple import list_available_transcripts, match_to_podcast
-try:
-    apple_transcripts = list_available_transcripts(podcasts)
-    for t in apple_transcripts:
-        if t.pub_date >= cutoff:
-            matched_podcast = match_to_podcast(t.podcast_name, podcasts)
-            if matched_podcast and not transcript_exists(matched_podcast.id, t.pub_date):
-                from podstock.transcribe.apple import _generate_episode_id
-                ep_id = _generate_episode_id(matched_podcast.id, t.pub_date, t.episode_title)
-                unsynced.setdefault(matched_podcast.id, []).append({
-                    'id': ep_id,
-                    'title': t.episode_title,
-                    'date': t.pub_date,
-                    'source': 'apple',
-                    'is_cached': t.is_cached,
-                    'transcript': t
-                })
-except Exception as e:
-    print(f"Warning: Could not read Apple Podcasts database: {e}")
+```bash
+python3 scripts/podcast/check_sync_status.py
 ```
 
-### Step 2: Display Unsynced Summary
+This compares Apple Podcasts database with local transcripts and shows:
+- Episodes in Apple vs local transcripts per podcast
+- List of missing episodes with dates and titles
+- Validation warnings (stale podcasts, unmapped podcasts)
 
-Print status report:
+**Options:**
+```bash
+# Filter to specific year
+python3 scripts/podcast/check_sync_status.py --year 2025
 
-```
-================================================================================
-PODCAST SYNC STATUS (2025+)
-================================================================================
+# Filter to specific podcast
+python3 scripts/podcast/check_sync_status.py --podcast fillorkill
 
-BORSPODDEN (5 osynkade)
-  Metod: Apple Podcasts (3 cachade, 2 ej cachade)
-  - 2025-02-19: "Avsnitt 612 - Rapportfloden..."
-  - 2025-02-12: "Avsnitt 611 - Analyssnack..."
-  ...
-
-MARKET MAKERS (3 osynkade)
-  Metod: Whisper (ingen Apple-transcript tillganglig)
-  - 2025-01-15: "EP 234 - Tech-rotation..."
-  ...
-
-SPARPODDEN (2 osynkade)
-  Metod: Apple Podcasts (2 cachade)
-  - 2025-01-20: "Avsnitt 89 - Fondval..."
-  ...
-
---------------------------------------------------------------------------------
-SAMMANFATTNING: 10 avsnitt behover synkas
-  - Apple Podcasts: 7 avsnitt (5 cachade, 2 behover FetchTranscript)
-  - Whisper: 3 avsnitt
---------------------------------------------------------------------------------
+# Output as JSON
+python3 scripts/podcast/check_sync_status.py --json
 ```
 
-### Step 3: User Selection
+---
 
-Ask user (use AskUserQuestion tool):
+## Step 2: Validate Results
+
+**BEFORE showing results to user, verify:**
+
+1. **Reasonableness check**: If < 5 missing episodes total, question if that's realistic
+   - When was the last sync? If weeks ago, expect more missing episodes
+   - Check if Apple Podcasts app has been opened recently (episodes may not be updated)
+
+2. **Date sanity**: Active podcasts should have recent episodes (within 1-2 weeks)
+   - If a podcast shows "latest: 2025-02" but it's currently 2026, something's wrong
+   - Either the podcast stopped, or it's not synced in Apple Podcasts
+
+3. **Completeness**: Check the "VALIDERING" section of output for warnings
+
+---
+
+## Step 3: User Selection
+
+Ask user with AskUserQuestion:
 
 ```
+Hittade X avsnitt som saknar transkript.
+
 Vad vill du gora?
-1. Synka alla osynkade avsnitt (10 st)
-2. Synka specifika podcasts (ange namn)
-3. Avbryt
+1. Synka alla osynkade avsnitt
+2. Synka specifika podcasts (ange vilka)
+3. Visa detaljerad lista forst
+4. Avbryt
 ```
 
-### Step 4: Execute Sync
+---
+
+## Step 4: Execute Sync
 
 **Method priority:**
-1. Apple cached transcript -> immediate extraction
-2. Apple downloadable -> FetchTranscript tool
-3. RSS + Whisper -> download audio, transcribe locally
+1. Apple Podcasts cached transcript -> immediate extraction
+2. Apple Podcasts downloadable -> requires viewing episode in app
+3. Whisper -> download audio from RSS, transcribe locally
 
-**For Apple method:** See [references/apple-method.md](references/apple-method.md)
+### For Apple Podcasts method
 
-**For Whisper method:** See [references/whisper-method.md](references/whisper-method.md)
+See [references/apple-method.md](references/apple-method.md)
 
-**Progress output format:**
+**Key points:**
+- Check if transcript exists in Apple Podcasts database
+- Use `download_apple_transcripts.py` script to extract
+- Transcript stored in `data/podcasts/raw/{podcast_id}/transcripts/`
 
-```
-[1/10] borspodden-2025-02-19-a1b2
-  [Apple Cached] Extraherar transcript... klart (3,542 ord)
-  Sparat: data/transcripts/borspodden/borspodden-2025-02-19-a1b2.txt
+### For Whisper method
 
-[2/10] borspodden-2025-02-12-c3d4
-  [Apple Download] Hamtar transcript via FetchTranscript... klart
-  [Apple Download] Extraherar... klart (4,128 ord)
-  Sparat: data/transcripts/borspodden/borspodden-2025-02-12-c3d4.txt
+See [references/whisper-method.md](references/whisper-method.md)
 
-[3/10] marketmakers-2025-01-15-e5f6
-  [Whisper] Laddar ner audio... 45.2 MB (1:23 kvar)
-  [Whisper] Transkriberar med large-v3... 25%... 50%... 75%... klart
-  [Whisper] Transcript: 8,921 ord
-  Sparat: data/transcripts/marketmakers/marketmakers-2025-01-15-e5f6.txt
-```
+**Key points:**
+- Requires RSS URL (get from Apple Podcasts database: `ZFEEDURL` in `ZMTPODCAST` table)
+- Download audio, transcribe with whisper-large-v3
+- ~10-15 min per hour of audio
 
-### Step 5: Completion Summary
+---
+
+## Step 5: Completion Summary
+
+After syncing, report:
 
 ```
 ================================================================================
 SYNC KLAR
 ================================================================================
 
-Synkade: 9/10 avsnitt
-  - Apple Podcasts: 7 avsnitt
-  - Whisper: 2 avsnitt
+Synkade: X/Y avsnitt
+  - Apple Podcasts: N avsnitt
+  - Whisper: M avsnitt
 
-Misslyckades: 1 avsnitt
-  - marketmakers-2025-01-20-g7h8: Audio download failed (404)
+Misslyckades: Z avsnitt
+  - episode-id: anledning
 
-Transcripts sparade i:
-  data/transcripts/{podcast_id}/{episode_id}.txt
-
-State uppdaterad: data/state.json
+Transkript sparade i:
+  data/podcasts/raw/{podcast_id}/transcripts/
 ================================================================================
 ```
 
-## Method Selection
+---
 
-| Scenario | Method | Notes |
-|----------|--------|-------|
-| Apple transcript cached | Apple (immediate) | Fastest, high quality |
-| Apple transcript available but not cached | Apple (FetchTranscript) | Requires tool, high quality |
-| RSS available, no Apple transcript | Whisper | ~10-15 min/hour audio |
-| No RSS, no Apple transcript | Cannot sync | Need to configure RSS or view in Apple Podcasts |
+## Data Locations
 
-## Podcasts by Method
+| Data | Location |
+|------|----------|
+| Apple Podcasts DB | `~/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Documents/MTLibrary.sqlite` |
+| Podcast mapping | `data/podcast_mapping.json` |
+| Transcripts | `data/podcasts/raw/{podcast_id}/transcripts/{episode_id}.txt` |
+| Alt transcripts | `data/transcripts/{podcast_id}/{episode_id}.txt` |
+| Sync script | `scripts/podcast/check_sync_status.py` |
 
-| Podcast | RSS | Primary Method |
-|---------|-----|----------------|
-| borspodden | Yes | Apple or Whisper |
-| borsmagasinet | Yes | Apple or Whisper |
-| marketmakers | Yes | Apple or Whisper |
-| fillorkill | Yes | Apple or Whisper |
-| gotttjot | Yes | Apple or Whisper |
-| kortochlang | No | Apple only |
-| sparpodden | No | Apple only |
-| marknaden | No | Apple only |
-| kvalitetsaktiepodden | No | Apple only |
-| aktiepodden | No | Apple only |
-| veckanstrade | No | Apple only |
-| ettrikareliv | No | Apple only |
-| avanzapodden | No | Apple only |
-| smaspararpodden | No | Apple only |
-| borsensfinest | No | Apple only |
-| kvalitetforpengarna | No | Apple only |
+---
 
-## Storage Locations
+## Troubleshooting
 
-- Transcripts: `data/transcripts/{podcast_id}/{episode_id}.txt`
-- Audio (Whisper): `data/audio/{podcast_id}/{episode_id}.mp3`
-- State: `data/state.json`
+| Issue | Solution |
+|-------|----------|
+| "Apple Podcasts database not found" | Open Apple Podcasts app and ensure podcasts are synced |
+| Podcast not in mapping | Add to `data/podcast_mapping.json` |
+| Transcript shows as missing but file exists | Check filename format: `{podcast_id}-{YYYY}-{MM}-{DD}-{hash}.txt` |
+| No new episodes for active podcast | Open Apple Podcasts app to trigger sync |
 
-## Error Handling
+---
 
-| Error | Resolution |
-|-------|------------|
-| RSS fetch failed | Log warning, skip podcast, continue with others |
-| Apple DB not found | Fall back to RSS-only podcasts |
-| Audio download 404 | Log error, skip episode, continue |
-| Whisper OOM/timeout | Log error, keep audio for manual retry |
-| FetchTranscript failed | Fall back to Whisper if RSS available |
+## Adding New Podcasts
 
-## Sync Definition
-
-An episode is considered "synced" when:
-- `state.is_transcribed(episode_id)` returns `True`
-- A transcript file exists at expected path
+1. Subscribe in Apple Podcasts app
+2. Add mapping to `data/podcast_mapping.json`:
+   ```json
+   {
+     "apple_to_id": {
+       "New Podcast Name": "newpodcast"
+     }
+   }
+   ```
+3. Create transcript directory: `mkdir -p data/podcasts/raw/newpodcast/transcripts`
+4. Run sync status to verify: `python3 scripts/podcast/check_sync_status.py --podcast newpodcast`
