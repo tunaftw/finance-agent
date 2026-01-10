@@ -35,6 +35,7 @@ Invokera med bolagsnamn eller ticker + valfri kontext:
 | `references/agents.md` | Agent definitions and output schemas |
 | `references/valuation.md` | Valuation functions and sector multiples |
 | `references/output.md` | Display formatting and storage |
+| `references/cache-logic.md` | Cache checking for SENTIMENT and FUNDAMENTA |
 
 ---
 
@@ -74,14 +75,18 @@ Display what's available, warn about gaps, confirm to proceed.
 
 Launch agents 1-4 simultaneously using Task tool:
 
-| Agent | Data Source | Focus |
+| Agent | Calls Skill | Focus |
 |-------|-------------|-------|
-| FUNDAMENTA | Filings | Revenue, margins, cash flow, CEO credibility |
-| SENTIMENT | Podcasts, Twitter, YouTube | Market sentiment, notable speakers |
-| INSIDER | FI data | Net direction, significant trades |
-| EXTERN | Web search | News, Reddit, analyst views, short interest |
+| FUNDAMENTA | `analyze-filings` (cached) | Revenue, margins, cash flow, CEO credibility |
+| SENTIMENT | `analyze-sentiment` (cached) | Market sentiment, notable speakers, triage |
+| INSIDER | - | Net direction, significant trades |
+| EXTERN | - | News, Reddit, analyst views, short interest |
 
-See: `references/agents.md`
+**Cache Logic**: FUNDAMENTA and SENTIMENT check for cached analyses first.
+- If cached and fresh: ask user to use or refresh
+- If stale or missing: run respective skill
+
+See: `references/agents.md` and `references/cache-logic.md`
 
 ### Step 5: Collect Results
 
