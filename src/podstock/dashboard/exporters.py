@@ -413,8 +413,6 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
             "market_sentiment": data.get("market_sentiment", ""),
             "summary": data.get("summary", ""),
             "key_takeaways": data.get("key_takeaways") or [],
-            # Recommendations - slimmed for dashboard (reasoning/quote removed to reduce size)
-            # Full data available in data/podcasts/analyses-v2/*.json
             "recommendations": [
                 {
                     "stock_name": rec.get("stock_name", ""),
@@ -423,7 +421,8 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                     "confidence": rec.get("confidence", ""),
                     "speaker": rec.get("speaker", ""),
                     "speaker_role": rec.get("speaker_role", ""),
-                    # Note: reasoning and quote removed to reduce file size (~8 MB savings)
+                    "reasoning": rec.get("reasoning", ""),
+                    "quote": rec.get("quote", ""),
                     "price_target": rec.get("price_target"),
                     "time_horizon": rec.get("time_horizon"),
                     "timestamp": rec.get("timestamp"),
@@ -439,7 +438,6 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                 }
                 for rec in data.get("recommendations", [])
             ],
-            # Stock segments - slimmed for dashboard (full data in source JSON files)
             "stock_segments": [
                 {
                     "stock_name": seg.get("stock_name", ""),
@@ -449,13 +447,13 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                     "word_count": seg.get("word_count"),
                     "primary_speaker": seg.get("primary_speaker"),
                     "discussion_summary": seg.get("discussion_summary", ""),
-                    # Note: financial_metrics, thesis, quotes, speakers removed to reduce size
-                    # Full data available in data/podcasts/analyses-v2/*.json
+                    "financial_metrics": seg.get("financial_metrics"),
+                    "thesis": seg.get("thesis"),
+                    "quotes": seg.get("quotes", []),
+                    "speakers": seg.get("speakers", []),
                 }
                 for seg in data.get("stock_segments", [])
             ],
-            # Insights - slimmed for dashboard (quote removed to reduce size)
-            # Full data available in data/podcasts/analyses-v2/*.json
             "insights": [
                 {
                     "summary": ins.get("summary", ""),
@@ -465,7 +463,7 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                     "timestamp": ins.get("timestamp"),
                     "confidence": ins.get("confidence", ""),
                     "tags": ins.get("tags") or [],
-                    # Note: quote removed to reduce file size (~5 MB savings)
+                    "quote": ins.get("quote", ""),
                 }
                 for ins in data.get("insights", [])
             ],
@@ -704,7 +702,7 @@ def export_twitter(data_dir: Path, session: Optional[Session] = None) -> dict[st
                                         "action": action,
                                         "confidence": rec.get("confidence", "high"),
                                         "reasoning": rec.get("text", "From summary analysis"),
-                                        "quote": rec.get("text", "")[:150] if rec.get("text") else "",
+                                        "quote": rec.get("text", ""),
                                     })
                                     is_actionable = True
 
@@ -1089,9 +1087,8 @@ def export_recommendations(session: Session) -> list[dict[str, Any]]:
                 "confidence": rec.confidence,
                 "speaker": rec.speaker,
                 "speaker_role": rec.speaker_role,
-                # Truncate for dashboard size (full text in source-specific exports)
-                "reasoning": (rec.reasoning[:200] + "...") if rec.reasoning and len(rec.reasoning) > 200 else rec.reasoning,
-                "quote": (rec.quote[:150] + "...") if rec.quote and len(rec.quote) > 150 else rec.quote,
+                "reasoning": rec.reasoning,
+                "quote": rec.quote,
                 "price_target": rec.price_target,
                 "time_horizon": rec.time_horizon,
                 "sector": rec.sector,
