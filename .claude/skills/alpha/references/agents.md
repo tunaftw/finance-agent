@@ -57,36 +57,50 @@ Parallel agent architecture for comprehensive company analysis.
 
 **Purpose**: Analyze financial reports, CEO letters, and company fundamentals.
 
+**CRITICAL**: This agent MUST check for cached filings analysis first, then call `analyze-filings` skill if needed. NEVER read PDFs directly.
+
 **Input Sources**:
-- `data/filings/analysis/{company}/*.json` - Parsed financial reports
-- `data/filings/raw/{company}/*.pdf` - Original filings (if analysis missing)
+- Primary: `data/filings/analysis/{company}/*.json` - Cached filings analyses
+- Fallback: Call `/analyze-filings {company}` skill for PDFs
 
 **Prompt Template**:
 
 ```markdown
 ## Task: Fundamental Analysis
 
-Analyze the financial fundamentals for {company_name} ({ticker}).
+Du är FUNDAMENTA-agenten i Alpha-analysen för {company_name} ({ticker}).
 
-### Available Data
+### STEG 1: Kolla cached analys
 
-{filings_summary}
+Sök efter befintliga filings-analyser:
+```python
+from pathlib import Path
+analysis_dir = Path(f'data/filings/analysis/{company_slug}')
+if analysis_dir.exists():
+    analyses = sorted(analysis_dir.glob('*.json'))
+    # Använd senaste
+```
 
-### Extract
+Om cached analys finns och är <90 dagar gammal: använd den.
 
-1. **Revenue trajectory**: CAGR over available periods, acceleration/deceleration
-2. **Margin profile**: Gross, EBIT, Net margins and trends
-3. **Cash generation**: FCF, FCF/Revenue, FCF conversion rate
-4. **Balance sheet**: Net debt/EBITDA, equity ratio, working capital
-5. **CEO tone**: Confidence level, key themes, promise vs delivery
-6. **Capital allocation**: Dividends, buybacks, M&A, capex priorities
+### STEG 2: Kör analyze-filings (om behövs)
 
-### Focus Areas
+Om ingen cached analys finns:
+1. Kolla om PDFs finns: `data/filings/raw/{company}/*.pdf`
+2. Om ja: Använd Skill tool för `/analyze-filings {company}`
+3. Om nej: Rapportera att filings saknas
 
-- Compare CEO promises in older reports to actual outcomes
-- Identify margin expansion/compression drivers
-- Flag any accounting red flags or aggressive assumptions
-- Note seasonality patterns if visible
+**VIKTIGT**: Läs ALDRIG PDFs direkt - delegera till analyze-filings!
+
+### STEG 3: Extrahera nyckeltal
+
+Från filings-analysen, extrahera:
+- Revenue: trajectory, CAGR, trend
+- Margins: gross, EBIT, net + trends
+- Cash flow: FCF, FCF margin, conversion
+- Balance sheet: net debt, health
+- CEO analysis: tone, credibility, promises
+- Red/green flags
 
 ### Output
 
@@ -172,48 +186,57 @@ Return structured JSON following the schema below.
 
 **Purpose**: Analyze mentions in podcasts, Twitter, and YouTube to gauge market sentiment.
 
+**CRITICAL**: This agent MUST call the `analyze-sentiment` skill, not analyze sources directly.
+
 **Input Sources**:
-- `data/podcasts/analyses-v2/*.json` - Podcast mentions
-- `data/twitter/analyses/*.json` - Twitter mentions
-- `data/youtube/analyses/*.json` - YouTube mentions
-- `data/podstock.db` - Historical recommendations with prices
+- Calls: `/analyze-sentiment {ticker}`
+- Fallback: `data/sentiment/{ticker}-analysis.json` (cached)
 
 **Prompt Template**:
 
 ```markdown
 ## Task: Sentiment Analysis
 
-Analyze market sentiment for {company_name} ({ticker}) from media sources.
+Du är SENTIMENT-agenten i Alpha-analysen för {company_name} ({ticker}).
 
-### Available Mentions
+### STEG 1: Kolla cache
 
-**Podcasts**: {podcast_count} episodes
-{podcast_summary}
+Kontrollera om det finns en cached sentiment-analys:
+- Sökväg: `data/sentiment/{ticker}-analysis.json`
+- Om finns och <7 dagar gammal: använd den (fråga användaren först)
+- Om finns och äldre: rapportera och föreslå uppdatering
+- Om saknas: kör full analys
 
-**Twitter**: {twitter_count} accounts
-{twitter_summary}
+### STEG 2: Kör analyze-sentiment (om behövs)
 
-**YouTube**: {youtube_count} videos
-{youtube_summary}
+Använd Skill tool för att köra analyze-sentiment:
+```
+/analyze-sentiment {ticker}
+```
 
-### Extract
+### STEG 3: Kritisk granskning
 
-1. **Overall sentiment**: Weighted by source credibility and recency
-2. **Sentiment trend**: Is opinion improving or deteriorating?
-3. **Notable speakers**: Who has strong conviction (bull or bear)?
-4. **Bull arguments**: Most compelling reasons to own
-5. **Bear arguments**: Most compelling reasons to avoid
-6. **Price context**: What prices were mentioned at, vs current price
+**VIKTIGT**: Podcast-påståenden är ÅSIKTER, inte fakta!
 
-### Weighting Guidelines
+- Verifiera påståenden mot fundamenta där möjligt
+- Flagga motstridiga åsikter mellan talare
+- Notera vem som äger aktier (bias-risk)
+- Vikta nyare åsikter högre
 
-- Weight recent mentions (last 3 months) 2x older ones
-- Weight high-conviction speakers higher
-- Note if sentiment is consensus or contrarian
+### STEG 4: Syntes
+
+Sammanfatta från analyze-sentiment output:
+- Overall sentiment score
+- Notable speakers (med confidence scores)
+- Bull/bear arguments (deduplicated)
+- Trend (improving/stable/deteriorating)
 
 ### Output
 
-Return structured JSON following the schema below.
+Returnera samma schema som analyze-sentiment, men med:
+- Din kritiska granskning tillagd i summary
+- Eventuella verifierade/falsifierade claims
+- Adjusted confidence om du hittat motsägelser
 ```
 
 **Output Schema**:
@@ -224,63 +247,58 @@ Return structured JSON following the schema below.
   "company": "string",
   "ticker": "string",
   "analysis_date": "YYYY-MM-DD",
-  "data_coverage": {
+  "data_source": "cached|fresh_analysis",
+  "triage_summary": {
+    "sources_reviewed": 0,
+    "sources_analyzed": 0,
+    "sources_ignored": 0,
+    "podcasts_reviewed": 0,
     "podcasts_analyzed": 0,
-    "twitter_accounts": 0,
-    "youtube_videos": 0,
-    "earliest_mention": "YYYY-MM-DD",
-    "latest_mention": "YYYY-MM-DD"
+    "twitter_reviewed": 0,
+    "youtube_reviewed": 0,
+    "press_releases_reviewed": 0
   },
   "overall_sentiment": {
     "score": 0.0,
-    "label": "very_bullish|bullish|neutral|bearish|very_bearish",
+    "label": "bullish|neutral|bearish",
+    "trend": "improving|stable|deteriorating",
     "confidence": "high|medium|low"
-  },
-  "sentiment_trend": {
-    "direction": "improving|stable|deteriorating",
-    "notes": "string"
   },
   "notable_speakers": [
     {
       "name": "string",
-      "source": "podcast|twitter|youtube",
+      "affiliation": "string",
       "stance": "bull|bear|neutral",
-      "conviction": "high|medium|low",
-      "key_argument": "string",
-      "mention_date": "YYYY-MM-DD",
-      "price_at_mention": 0.0
-    }
-  ],
-  "bull_case_arguments": [
-    {
+      "owns_position": true,
       "argument": "string",
-      "frequency": 0,
-      "most_cited_by": "string"
+      "quote": "string",
+      "source": "string",
+      "confidence_score": 0
     }
   ],
-  "bear_case_arguments": [
+  "bull_arguments": ["string"],
+  "bear_arguments": ["string"],
+  "quotes": [
     {
-      "argument": "string",
-      "frequency": 0,
-      "most_cited_by": "string"
-    }
-  ],
-  "price_context": {
-    "mentions_with_prices": [
-      {
-        "date": "YYYY-MM-DD",
-        "price_mentioned": 0.0,
-        "action_recommended": "buy|sell|hold|watch",
-        "speaker": "string"
+      "id": "string",
+      "text": "string",
+      "speaker": "string",
+      "affiliation": "string",
+      "source_id": "string",
+      "date": "YYYY-MM-DD",
+      "stance": "bullish|bearish|neutral",
+      "owns_position": true,
+      "confidence_score": {
+        "specificity": 0,
+        "reasoning": 0,
+        "risk_awareness": 0,
+        "recency": 0,
+        "total": 0,
+        "label": "high|medium|low"
       }
-    ],
-    "avg_buy_price_mentioned": 0.0,
-    "avg_sell_price_mentioned": 0.0
-  },
-  "consensus_vs_contrarian": {
-    "is_consensus": true,
-    "notes": "string"
-  },
+    }
+  ],
+  "critical_notes": ["string"],
   "summary": "string"
 }
 ```
