@@ -89,7 +89,7 @@ See [references/apple-method.md](references/apple-method.md)
 **Key points:**
 - Check if transcript exists in Apple Podcasts database
 - Use `download_apple_transcripts.py` script to extract
-- Transcript stored in `data/podcasts/raw/{podcast_id}/transcripts/`
+- Transcript stored in `data/transcripts/{podcast_id}/`
 
 ### For Whisper method
 
@@ -119,7 +119,7 @@ Misslyckades: Z avsnitt
   - episode-id: anledning
 
 Transkript sparade i:
-  data/podcasts/raw/{podcast_id}/transcripts/
+  data/transcripts/{podcast_id}/
 ================================================================================
 ```
 
@@ -131,8 +131,7 @@ Transkript sparade i:
 |------|----------|
 | Apple Podcasts DB | `~/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Documents/MTLibrary.sqlite` |
 | Podcast mapping | `data/podcast_mapping.json` |
-| Transcripts | `data/podcasts/raw/{podcast_id}/transcripts/{episode_id}.txt` |
-| Alt transcripts | `data/transcripts/{podcast_id}/{episode_id}.txt` |
+| Transcripts | `data/transcripts/{podcast_id}/{episode_id}.txt` |
 | Sync script | `scripts/podcast/check_sync_status.py` |
 
 ---
@@ -159,5 +158,5 @@ Transkript sparade i:
      }
    }
    ```
-3. Create transcript directory: `mkdir -p data/podcasts/raw/newpodcast/transcripts`
+3. Create transcript directory: `mkdir -p data/transcripts/newpodcast`
 4. Run sync status to verify: `python3 scripts/podcast/check_sync_status.py --podcast newpodcast`
