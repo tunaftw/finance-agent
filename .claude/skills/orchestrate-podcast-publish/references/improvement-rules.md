@@ -93,7 +93,65 @@ def fix_deprecated_code(file_path, old_pattern, new_pattern):
     return False
 ```
 
-### 4. Timeout-värden
+### 4. Episode ID/Filnamn Mismatch
+
+**Symptom:** Episode ID i JSON-fil matchar inte filnamnet
+
+**Detection:**
+```python
+def detect_episode_id_mismatch():
+    mismatches = []
+    for f in Path('data/podcasts/analyses-v2').glob('*.json'):
+        try:
+            data = json.loads(f.read_text())
+            episode_id = data.get('episode_id', '')
+            if episode_id and episode_id != f.stem:
+                mismatches.append((f, episode_id, f.stem))
+        except:
+            continue
+    return mismatches
+```
+
+**Fix:**
+```python
+def fix_episode_id_mismatch(json_file, wrong_id, correct_id):
+    content = json_file.read_text()
+    new_content = content.replace(
+        f'"episode_id": "{wrong_id}"',
+        f'"episode_id": "{correct_id}"'
+    )
+    json_file.write_text(new_content)
+    return True
+```
+
+### 5. podcasts.json Ur Synk
+
+**Symptom:** Hemsidan visar inte nya avsnitt trots att de finns i databasen
+
+**Detection:**
+```python
+def detect_podcasts_json_out_of_sync():
+    dashboard_file = Path('data/dashboard/data/podcasts.json')
+    root_file = Path('data/podcasts.json')
+
+    if not dashboard_file.exists() or not root_file.exists():
+        return False
+
+    dashboard_hash = hashlib.sha256(dashboard_file.read_bytes()).hexdigest()
+    root_hash = hashlib.sha256(root_file.read_bytes()).hexdigest()
+
+    return dashboard_hash != root_hash
+```
+
+**Fix:**
+```python
+def fix_podcasts_json_sync():
+    import shutil
+    shutil.copy('data/dashboard/data/podcasts.json', 'data/podcasts.json')
+    return True
+```
+
+### 6. Timeout-värden
 
 **Symptom:** Konsekvent timeout på samma steg
 
@@ -127,6 +185,45 @@ def increase_timeout(skill_file, step_name, multiplier=1.5):
     return None
 ```
 
+### 7. Duplicerade Databasposter
+
+**Symptom:** Samma episode finns flera gånger i dashboard/JSON
+
+**Detection:**
+```python
+def detect_db_duplicates():
+    import sqlite3
+    conn = sqlite3.connect('data/podstock.db')
+    cursor = conn.execute("""
+        SELECT content_id, COUNT(*) as cnt
+        FROM analyses
+        GROUP BY content_id
+        HAVING cnt > 1
+    """)
+    duplicates = cursor.fetchall()
+    conn.close()
+    return duplicates
+```
+
+**Fix:**
+```python
+def fix_db_duplicates(content_id):
+    import sqlite3
+    conn = sqlite3.connect('data/podstock.db')
+    # Behåll första, ta bort resten
+    conn.execute("""
+        DELETE FROM analyses
+        WHERE content_id = ? AND id NOT IN (
+            SELECT MIN(id) FROM analyses WHERE content_id = ?
+        )
+    """, (content_id, content_id))
+    conn.commit()
+    conn.close()
+    return True
+```
+
+**OBS:** Denna fix kör automatiskt men loggas alltid för verifiering.
+
 ## Ej Automatiskt Fixbara Problem
 
 Dessa problem loggas för manuell åtgärd:
@@ -138,6 +235,7 @@ Dessa problem loggas för manuell åtgärd:
 | Korrupt fil | Behöver manuell undersökning |
 | Git merge-konflikt | Behöver mänskligt beslut |
 | Okänd feltyp | Kan inte förutsägas |
+| Transcript som hänger GLM | Markera som skipped, kräver manuell review |
 
 ## Förbättringslogg
 

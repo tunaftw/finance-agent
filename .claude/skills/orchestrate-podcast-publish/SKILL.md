@@ -227,6 +227,45 @@ done
 | Transkript hanger (>180 sec) | Skip efter timeout, logga for manuell review |
 | GLM rate limit | Automatisk retry efter 30 sek |
 | Agent crashar | Andra agenter fortsatter, rapportera skippade |
+| Episode ID/filnamn mismatch | Validera att JSON `episode_id` matchar filnamnet |
+| podcasts.json ur synk | Kopiera `data/dashboard/data/podcasts.json` → `data/podcasts.json` |
+| Duplicerade DB-entries | Kor `sqlite3 data/podstock.db` och rensa manuellt |
+
+### Validering efter analys
+
+Efter att analyser skapats, validera att `episode_id` inuti JSON matchar filnamnet:
+
+```python
+from pathlib import Path
+import json
+
+def validate_episode_ids():
+    """Validera att episode_id matchar filnamn."""
+    mismatches = []
+    for f in Path('data/podcasts/analyses-v2').glob('*.json'):
+        try:
+            data = json.loads(f.read_text())
+            episode_id = data.get('episode_id', '')
+            if episode_id and episode_id != f.stem:
+                mismatches.append({
+                    'file': f.name,
+                    'file_stem': f.stem,
+                    'episode_id': episode_id
+                })
+        except:
+            continue
+
+    if mismatches:
+        print(f"⚠ {len(mismatches)} episode_id/filnamn-mismatcher:")
+        for m in mismatches[:5]:
+            print(f"  {m['file']}: har episode_id='{m['episode_id']}'")
+    else:
+        print("✓ Alla episode_id matchar filnamn")
+
+    return mismatches
+```
+
+**Om mismatch hittas:** Uppdatera `episode_id` i JSON-filen till att matcha filnamnet.
 
 ---
 
@@ -330,6 +369,12 @@ podstock dashboard generate --no-embed
 
 if [ $? -eq 0 ]; then
     echo "✓ Dashboard genererad"
+
+    # VIKTIGT: Kopiera podcasts.json till rätt plats
+    # Dashboard genererar till data/dashboard/data/podcasts.json
+    # men webbappen laddar från data/podcasts.json
+    cp data/dashboard/data/podcasts.json data/podcasts.json
+    echo "✓ podcasts.json synkad"
 else
     echo "✗ Dashboard misslyckades - STOPP"
     exit 1
