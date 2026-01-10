@@ -814,6 +814,39 @@
         "shares_unit": "million",
         "treasury_shares_pct": 5.0,
         "quality_score": 7,
+        "piotroski_f_score": {
+          "score": 7,
+          "max_score": 9,
+          "label": "Strong",
+          "signals": {
+            "positive_net_income": true,
+            "positive_ocf": true,
+            "roa_improving": true,
+            "ocf_exceeds_net_income": false,
+            "leverage_decreasing": true,
+            "current_ratio_improving": true,
+            "no_dilution": true,
+            "gross_margin_improving": false,
+            "asset_turnover_improving": true
+          },
+          "notes": "Strong score driven by turnaround to profitability, no debt, and active buybacks. Gross margin stable (85%) rather than improving. OCF < NI in Q3 due to deferred tax benefit in net income."
+        },
+        "fcf_yield": {
+          "value": -1.9,
+          "unit": "percent",
+          "fcf_ttm": -36,
+          "fcf_unit": "MSEK",
+          "note": "Negative FCF due to heavy R&D investment in Webdoc X and German expansion. Growth-phase company prioritizing development over current cash generation."
+        },
+        "green_flags": [
+          "Strong gross margin 85%+ (SaaS benchmark)",
+          "Net cash position 173 MSEK - no debt",
+          "Active 150 MSEK buyback program",
+          "EBITDA margin expansion 10% → 29% YoY",
+          "ARR growth 27% with 16% organic",
+          "Very low churn at 2% annually",
+          "ISO14001 environmental certification"
+        ],
         "ceo_credibility": "mixed - delivered turnaround but sold shares after profit warning",
         "red_flags": [
           "Profit warning July 2025 - revised targets down",
@@ -1040,14 +1073,17 @@
         "source": "MarketScreener/Bloomberg"
       },
       "metadata": {
-        "analysis_version": "1.0",
+        "analysis_version": "1.1",
         "created_at": "2026-01-10T12:00:00Z",
+        "updated_at": "2026-01-10T17:50:00Z",
+        "filings_analyzed": [
+          "annual-2024.pdf",
+          "quarterly-2025-q3.pdf"
+        ],
         "data_limitations": [
-          "Annual reports not analyzed (PDF too large for context)",
-          "Limited to Q3 2025 interim report for detailed financials",
           "CEO sale found via external research, not in official insider JSON"
         ],
-        "methodology": "EV/Sales-based valuation for SaaS company with Bull/Base/Bear scenarios weighted 25/50/25"
+        "methodology": "EV/Sales-based valuation for SaaS company with Bull/Base/Bear scenarios weighted 25/50/25. Piotroski F-Score calculated from Annual 2024 and Q3 2025 filings."
       }
     }
   },
