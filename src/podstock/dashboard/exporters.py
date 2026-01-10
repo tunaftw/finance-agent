@@ -332,6 +332,8 @@ def _resolve_podcast(
 def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[str, Any]:
     """Export podcast episodes directly from analysis JSON files.
 
+    Also includes newsletters, displayed as "{source_name} Newsletter".
+
     Args:
         data_dir: Path to the data directory (e.g., /data/)
         session: Optional database session for enriching with price data
@@ -341,8 +343,10 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
     """
     # Use analyses-v2 as the canonical source for podcast analyses
     analyses_dir = data_dir / "podcasts" / "analyses-v2"
+    # Also include newsletters (displayed as podcasts with "Newsletter" suffix)
+    newsletter_dir = data_dir / "newsletters" / "analyses-v2"
 
-    if not analyses_dir.exists():
+    if not analyses_dir.exists() and not newsletter_dir.exists():
         return {"episodes": [], "sources": [], "stock_mentions": []}
 
     # Load podcast registry for canonical names
@@ -353,33 +357,52 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
     sources_map: dict[str, dict] = {}
     stock_mentions_map: dict[str, list] = defaultdict(list)
 
+    # Collect all analysis files from podcasts and newsletters
+    all_analysis_files: list[tuple[Path, bool]] = []  # (path, is_newsletter)
+    if analyses_dir.exists():
+        all_analysis_files.extend((f, False) for f in analyses_dir.glob("*.json"))
+    if newsletter_dir.exists():
+        all_analysis_files.extend((f, True) for f in newsletter_dir.glob("*.json"))
+
+    # Sort by filename (descending) for consistent ordering
+    all_analysis_files.sort(key=lambda x: x[0].name, reverse=True)
+
     # Read all analysis JSON files
-    for json_file in sorted(analyses_dir.glob("*.json"), reverse=True):
+    for json_file, is_newsletter in all_analysis_files:
         try:
             with open(json_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
         except (json.JSONDecodeError, IOError):
             continue
 
-        # Extract and normalize podcast info
-        episode_id = data.get("episode_id", json_file.stem)
-        podcast_name_from_file = data.get("podcast_name", "")
+        # Extract and normalize podcast/newsletter info
+        if is_newsletter:
+            # For newsletters: use source_id as episode_id, source_name + " Newsletter" as name
+            episode_id = data.get("source_id", json_file.stem)
+            source_name = data.get("source_name", "Unknown")
+            podcast_name = f"{source_name} Newsletter"
+            # Normalize source_name to create podcast_id
+            podcast_id = source_name.lower().replace(" ", "").replace("ä", "a").replace("ö", "o").replace("å", "a") + "-newsletter"
+        else:
+            # For podcasts: use existing resolution logic
+            episode_id = data.get("episode_id", json_file.stem)
+            podcast_name_from_file = data.get("podcast_name", "")
 
-        # Resolve to canonical podcast_id and name
-        podcast_id, podcast_name = _resolve_podcast(
-            episode_id, podcast_name_from_file, id_aliases, name_aliases
-        )
+            # Resolve to canonical podcast_id and name
+            podcast_id, podcast_name = _resolve_podcast(
+                episode_id, podcast_name_from_file, id_aliases, name_aliases
+            )
 
-        # Fallback if no name resolved
-        if not podcast_name:
-            podcast_name = podcast_id.replace("-", " ").title()
+            # Fallback if no name resolved
+            if not podcast_name:
+                podcast_name = podcast_id.replace("-", " ").title()
 
         # Build episode entry
         episode = {
             "id": episode_id,
             "podcast_id": podcast_id,
             "podcast_name": podcast_name,
-            "episode_title": data.get("episode_title", ""),
+            "episode_title": data.get("episode_title") or data.get("title", ""),  # newsletters use "title"
             "episode_number": data.get("episode_number"),
             "date": data.get("date", ""),
             "hosts": data.get("hosts") or [],

@@ -346,6 +346,138 @@ class PodcastLoader(BaseLoader):
         session.add(log)
 
 
+class NewsletterLoader(PodcastLoader):
+    """Loader for newsletter analyses - treated as podcast variant.
+
+    Newsletters use slightly different field names:
+    - source_id -> episode_id
+    - source_name -> podcast_name (with " Newsletter" suffix)
+    - title -> episode_title
+    """
+
+    def load(self, json_path: Path, session: "Session") -> LoadResult:
+        """Load a newsletter JSON file.
+
+        Transforms newsletter fields to podcast format and delegates to parent.
+        """
+        try:
+            data = json.loads(json_path.read_text())
+        except json.JSONDecodeError as e:
+            return LoadResult(status="failed", error=f"Invalid JSON: {e}")
+
+        if not isinstance(data, dict):
+            return LoadResult(status="failed", error="JSON root must be an object")
+
+        # Transform newsletter fields to podcast format
+        if "source_id" in data and "episode_id" not in data:
+            data["episode_id"] = data["source_id"]
+
+        if "source_name" in data and "podcast_name" not in data:
+            data["podcast_name"] = f"{data['source_name']} Newsletter"
+
+        if "title" in data and "episode_title" not in data:
+            data["episode_title"] = data["title"]
+
+        # Validate required fields (after transformation)
+        episode_id = data.get("episode_id")
+        if not episode_id:
+            return LoadResult(status="failed", error="Missing episode_id/source_id")
+
+        # Check file hash
+        file_hash = self.compute_file_hash(json_path)
+        if not self.should_load(session, json_path, file_hash):
+            return LoadResult(status="skipped", content_id=episode_id)
+
+        # Compute content hash for versioning
+        content_hash = self.compute_content_hash(data)
+
+        # Check if this exact version already exists
+        existing_analysis = (
+            session.query(Analysis)
+            .join(Content)
+            .filter(Content.id == episode_id, Analysis.content_hash == content_hash)
+            .first()
+        )
+
+        if existing_analysis:
+            self._log_load(session, json_path, file_hash, "newsletter", "skipped", existing_analysis.id)
+            return LoadResult(status="skipped", content_id=episode_id)
+
+        # Get or create source (as podcast type for dashboard compatibility)
+        podcast_name = data.get("podcast_name", "Unknown Newsletter")
+        source_id = self._normalize_source_id(podcast_name)
+        source = self.get_or_create_source(session, source_id, "podcast", podcast_name)
+
+        # Get or create content
+        content = session.query(Content).filter_by(id=episode_id).first()
+        if not content:
+            content = Content(
+                id=episode_id,
+                source_id=source.id,
+                type="episode",  # Treat as episode for consistency
+                title=data.get("episode_title"),
+                published_at=data.get("date", datetime.now().date().isoformat()),
+                raw_text=None,
+                word_count=None,
+                extra_data=json.dumps({
+                    "url": data.get("url"),
+                    "author": data.get("author"),
+                    "fund_performance": data.get("fund_performance"),
+                }),
+            )
+            session.add(content)
+            session.flush()
+
+        # Determine next version number
+        latest_version = (
+            session.query(Analysis.version)
+            .filter_by(content_id=episode_id)
+            .order_by(Analysis.version.desc())
+            .first()
+        )
+        new_version = (latest_version[0] + 1) if latest_version else 1
+
+        # Create analysis
+        analysis = Analysis(
+            content_id=episode_id,
+            version=new_version,
+            content_hash=content_hash,
+            model_used=data.get("model_used"),
+            analyzed_at=data.get("processed_at", datetime.now().isoformat()),
+            summary=data.get("summary"),
+            sentiment=data.get("market_sentiment"),
+            raw_json=json.dumps(data),
+        )
+        session.add(analysis)
+        session.flush()
+
+        # Create recommendations
+        rec_count = 0
+        for rec_data in data.get("recommendations", []):
+            rec = self._create_recommendation(session, analysis.id, rec_data, source_id)
+            if rec:
+                rec_count += 1
+
+        # Create key takeaways
+        for i, takeaway in enumerate(data.get("key_takeaways", [])):
+            kt = KeyTakeaway(
+                analysis_id=analysis.id,
+                takeaway=takeaway,
+                sort_order=i,
+            )
+            session.add(kt)
+
+        # Log successful load
+        self._log_load(session, json_path, file_hash, "newsletter", "success", analysis.id)
+
+        return LoadResult(
+            status="success",
+            content_id=episode_id,
+            analysis_id=analysis.id,
+            recommendations_count=rec_count,
+        )
+
+
 class TwitterLoader(BaseLoader):
     """Loader for Twitter analyses.
 

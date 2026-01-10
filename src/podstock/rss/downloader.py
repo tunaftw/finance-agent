@@ -30,6 +30,12 @@ DEFAULT_CHUNK_SIZE = 8192  # 8KB chunks
 DEFAULT_RETRY_ATTEMPTS = 3
 DEFAULT_RETRY_DELAY = 5  # seconds
 
+# User-Agent header to avoid blocks from podcast hosts (Acast, Buzzsprout, etc.)
+DEFAULT_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+)
+
 
 def _get_filename_from_episode(episode: Episode) -> str:
     """Generate a filename for an episode.
@@ -141,14 +147,14 @@ def _download_file(
         OSError: On file system errors.
     """
     # Check if file already exists and is complete
-    headers = {}
+    headers = {"User-Agent": DEFAULT_USER_AGENT}
     resume_position = 0
 
     if temp_path.exists():
         resume_position = temp_path.stat().st_size
         headers["Range"] = f"bytes={resume_position}-"
 
-    response = requests.get(url, headers=headers, stream=True, timeout=timeout)
+    response = requests.get(url, headers=headers, stream=True, timeout=timeout, allow_redirects=True)
 
     # Handle resume response
     if response.status_code == 416:
@@ -156,7 +162,8 @@ def _download_file(
         if temp_path.exists():
             temp_path.rename(dest_path)
             return
-        response = requests.get(url, stream=True, timeout=timeout)
+        headers_no_range = {"User-Agent": DEFAULT_USER_AGENT}
+        response = requests.get(url, headers=headers_no_range, stream=True, timeout=timeout, allow_redirects=True)
         resume_position = 0
 
     response.raise_for_status()
