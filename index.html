@@ -21,18 +21,18 @@
                 <div class="flex items-center space-x-4">
                     <span class="text-xl font-bold text-emerald-400">PodStock</span>
                     <span class="text-gray-500">|</span>
-                    <span class="text-sm text-gray-400" x-text="`${metadata.counts?.recommendations || 0} recommendations`"></span>
+                    <span class="text-sm text-gray-400" x-text="`${metadata.counts?.episodes || 0} avsnitt`"></span>
                 </div>
                 <div class="flex space-x-1">
-                    <button @click="view = 'inbox'"
-                            :class="view === 'inbox' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
-                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-                        Inbox
-                    </button>
                     <button @click="view = 'podcast'"
                             :class="view === 'podcast' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
                             class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
-                        Podcast
+                        Podcasts
+                    </button>
+                    <button @click="view = 'inbox'"
+                            :class="view === 'inbox' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Alla tips
                     </button>
                     <button @click="view = 'twitter'"
                             :class="view === 'twitter' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
@@ -244,46 +244,130 @@
         <!-- Podcast View -->
         <div x-show="view === 'podcast' && !loading" x-cloak>
             <div class="flex items-center justify-between mb-6">
-                <h1 class="text-2xl font-bold">Podcast</h1>
+                <h1 class="text-2xl font-bold">Podcasts</h1>
                 <span class="text-sm text-gray-400" x-text="filteredPodcastEpisodes.length + ' avsnitt'"></span>
             </div>
 
             <!-- Filter Panel -->
             <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
-                <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
-                    <!-- Podcast dropdown -->
+                <!-- Row 1: Podcasts and Period -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-4">
+                    <!-- Podcasts Multi-select -->
                     <div>
-                        <label class="block text-xs text-gray-500 mb-1">Podcast</label>
-                        <select x-model="podcastFilters.source" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
-                            <option value="">Alla podcasts</option>
-                            <template x-for="src in podcastSources" :key="src.id">
-                                <option :value="src.id" x-text="src.name + ' (' + src.episode_count + ')'"></option>
+                        <label class="block text-xs text-gray-500 mb-1">Podcasts</label>
+                        <div class="relative" @click.away="podcastDropdownOpen = false">
+                            <!-- Dropdown trigger -->
+                            <button @click="podcastDropdownOpen = !podcastDropdownOpen"
+                                    class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm text-left flex items-center justify-between hover:border-gray-500 transition-colors">
+                                <span x-text="podcastFilters.sources.length === 0 ? 'Alla podcasts' : podcastFilters.sources.length + ' valda'"></span>
+                                <svg class="w-4 h-4 text-gray-400 transition-transform" :class="podcastDropdownOpen ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+
+                            <!-- Dropdown menu -->
+                            <div x-show="podcastDropdownOpen" x-cloak
+                                 class="absolute z-50 mt-1 w-full bg-gray-700 border border-gray-600 rounded-lg shadow-xl max-h-64 overflow-hidden">
+                                <!-- Search in dropdown -->
+                                <div class="p-2 border-b border-gray-600">
+                                    <input type="text" x-model="podcastSourceSearch" placeholder="Filtrera..."
+                                           class="w-full bg-gray-600 border border-gray-500 rounded px-2 py-1 text-sm focus:outline-none focus:border-emerald-500">
+                                </div>
+
+                                <!-- Options list -->
+                                <div class="max-h-40 overflow-y-auto">
+                                    <template x-for="src in filteredPodcastSources" :key="src.id">
+                                        <div @click="togglePodcastSource(src.id)"
+                                             class="px-3 py-2 hover:bg-gray-600 cursor-pointer flex items-center justify-between text-sm">
+                                            <div class="flex items-center space-x-2">
+                                                <span class="w-4 h-4 rounded border flex items-center justify-center"
+                                                      :class="isPodcastSourceSelected(src.id) ? 'bg-emerald-500 border-emerald-500' : 'border-gray-500'">
+                                                    <svg x-show="isPodcastSourceSelected(src.id)" class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                                    </svg>
+                                                </span>
+                                                <span x-text="src.name"></span>
+                                            </div>
+                                            <span class="text-gray-500 text-xs" x-text="'(' + src.episode_count + ')'"></span>
+                                        </div>
+                                    </template>
+                                </div>
+
+                                <!-- Footer buttons -->
+                                <div class="p-2 border-t border-gray-600 flex gap-2">
+                                    <button @click="selectAllPodcastSources()" class="flex-1 px-2 py-1 text-xs bg-gray-600 hover:bg-gray-500 rounded transition-colors">
+                                        Välj alla
+                                    </button>
+                                    <button @click="clearPodcastSourceSelection()" class="flex-1 px-2 py-1 text-xs bg-gray-600 hover:bg-gray-500 rounded transition-colors">
+                                        Rensa
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Selected chips -->
+                        <div x-show="podcastFilters.sources.length > 0" class="flex flex-wrap gap-1 mt-2">
+                            <template x-for="srcId in podcastFilters.sources" :key="srcId">
+                                <span class="inline-flex items-center px-2 py-0.5 rounded text-xs bg-emerald-900 text-emerald-300">
+                                    <span x-text="getPodcastSourceName(srcId)"></span>
+                                    <button @click="removePodcastSource(srcId)" class="ml-1 hover:text-emerald-100">
+                                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                        </svg>
+                                    </button>
+                                </span>
                             </template>
-                        </select>
+                        </div>
                     </div>
 
-                    <!-- Date From -->
+                    <!-- Period -->
                     <div>
-                        <label class="block text-xs text-gray-500 mb-1">Från datum</label>
-                        <input type="date" x-model="podcastFilters.dateFrom"
-                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
-                    </div>
+                        <label class="block text-xs text-gray-500 mb-1">Period</label>
+                        <div class="flex flex-wrap items-center gap-2">
+                            <!-- Preset buttons -->
+                            <div class="flex gap-1">
+                                <button @click="setPodcastDatePreset('7d')"
+                                        :class="podcastFilters.datePreset === '7d' ? 'bg-emerald-600 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'"
+                                        class="px-3 py-1.5 rounded text-sm transition-colors">7d</button>
+                                <button @click="setPodcastDatePreset('30d')"
+                                        :class="podcastFilters.datePreset === '30d' ? 'bg-emerald-600 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'"
+                                        class="px-3 py-1.5 rounded text-sm transition-colors">30d</button>
+                                <button @click="setPodcastDatePreset('90d')"
+                                        :class="podcastFilters.datePreset === '90d' ? 'bg-emerald-600 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'"
+                                        class="px-3 py-1.5 rounded text-sm transition-colors">90d</button>
+                                <button @click="setPodcastDatePreset('ytd')"
+                                        :class="podcastFilters.datePreset === 'ytd' ? 'bg-emerald-600 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'"
+                                        class="px-3 py-1.5 rounded text-sm transition-colors">YTD</button>
+                                <button @click="setPodcastDatePreset('')"
+                                        :class="podcastFilters.datePreset === '' && !podcastFilters.dateFrom && !podcastFilters.dateTo ? 'bg-emerald-600 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'"
+                                        class="px-3 py-1.5 rounded text-sm transition-colors">Alla</button>
+                            </div>
 
-                    <!-- Date To -->
-                    <div>
-                        <label class="block text-xs text-gray-500 mb-1">Till datum</label>
-                        <input type="date" x-model="podcastFilters.dateTo"
-                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <!-- Custom date inputs -->
+                            <div class="flex items-center gap-2 text-sm text-gray-500">
+                                <span>eller:</span>
+                                <input type="date" :value="podcastFilters.dateFrom"
+                                       @input="setPodcastCustomDate('dateFrom', $event.target.value)"
+                                       class="bg-gray-700 border border-gray-600 rounded px-2 py-1 text-sm text-gray-300">
+                                <span>-</span>
+                                <input type="date" :value="podcastFilters.dateTo"
+                                       @input="setPodcastCustomDate('dateTo', $event.target.value)"
+                                       class="bg-gray-700 border border-gray-600 rounded px-2 py-1 text-sm text-gray-300">
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <!-- Company Search -->
-                    <div>
+                <!-- Row 2: Search and Ownership -->
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
+                    <!-- Company Search (wider) -->
+                    <div class="md:col-span-3">
                         <label class="block text-xs text-gray-500 mb-1">Sök bolag</label>
-                        <input type="text" x-model="podcastFilters.companySearch" placeholder="Bolagsnamn..."
+                        <input type="text" x-model="podcastFilters.companySearch" placeholder="Sök på bolagsnamn eller ticker..."
                                class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500">
                     </div>
 
-                    <!-- Position Disclosure filter -->
+                    <!-- Position Disclosure -->
                     <div>
                         <label class="block text-xs text-gray-500 mb-1">Ägarskap</label>
                         <select x-model="podcastFilters.positionDisclosure" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
@@ -294,15 +378,29 @@
                     </div>
                 </div>
 
-                <!-- Clear filters -->
-                <div class="flex gap-2 mt-4 pt-4 border-t border-gray-700">
-                    <button @click="podcastFilters = { source: '', dateFrom: '', dateTo: '', companySearch: '', positionDisclosure: '' }"
-                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
-                        Rensa filter
+                <!-- Row 3: Quick filters -->
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-700">
+                    <span class="text-xs text-gray-500 py-1">Snabbfilter:</span>
+                    <button @click="applyPodcastQuickFilter('highConviction')"
+                            class="px-3 py-1 rounded-lg text-xs bg-emerald-900 text-emerald-300 hover:bg-emerald-800 transition-colors">
+                        High Conviction
+                    </button>
+                    <button @click="applyPodcastQuickFilter('buyOnly')"
+                            class="px-3 py-1 rounded-lg text-xs bg-green-900 text-green-300 hover:bg-green-800 transition-colors">
+                        Endast KÖP
+                    </button>
+                    <button @click="applyPodcastQuickFilter('withPriceTarget')"
+                            class="px-3 py-1 rounded-lg text-xs bg-blue-900 text-blue-300 hover:bg-blue-800 transition-colors">
+                        Med kursmål
                     </button>
                     <button @click="podcastFilters.positionDisclosure = 'owns'"
-                            class="px-3 py-1 rounded-lg text-xs bg-emerald-900 text-emerald-300 hover:bg-emerald-800 transition-colors">
+                            class="px-3 py-1 rounded-lg text-xs bg-yellow-900 text-yellow-300 hover:bg-yellow-800 transition-colors">
                         Endast ägda
+                    </button>
+                    <div class="flex-1"></div>
+                    <button @click="clearPodcastFilters()"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Rensa filter
                     </button>
                 </div>
             </div>
