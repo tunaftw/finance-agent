@@ -6,7 +6,7 @@ function dashboard() {
         loading: true,
         loadSource: 'none',  // 'inline' | 'fetch'
         loadErrors: [],      // Track failed data loads
-        view: 'inbox',
+        view: 'podcast',
         displayLimit: 50,
         inboxDisplayLimit: 50,
         podcastDisplayLimit: 50,
@@ -55,12 +55,20 @@ function dashboard() {
 
         // Podcast Filters
         podcastFilters: {
-            source: '',
-            dateFrom: '',
-            dateTo: '',
+            sources: [],           // Multi-select array
+            datePreset: '',        // '7d', '30d', '90d', 'ytd', ''
+            dateFrom: '',          // Custom date (used if datePreset is empty)
+            dateTo: '',            // Custom date
             companySearch: '',
             positionDisclosure: '',
+            action: '',            // 'buy', 'sell', 'hold', 'watch', 'avoid'
+            confidence: '',        // 'high', 'medium', 'low'
+            hasPriceTarget: false, // Filter for recs with price targets
         },
+
+        // Podcast UI state
+        podcastDropdownOpen: false,
+        podcastSourceSearch: '',
 
         // Twitter Filters
         twitterFilters: {
@@ -188,19 +196,18 @@ function dashboard() {
         get filteredPodcastEpisodes() {
             let results = this.podcasts.episodes || [];
 
-            // Source filter
-            if (this.podcastFilters.source) {
-                results = results.filter(e => e.podcast_id === this.podcastFilters.source);
+            // Multi-select source filter
+            if (this.podcastFilters.sources.length > 0) {
+                results = results.filter(e => this.podcastFilters.sources.includes(e.podcast_id));
             }
 
-            // Date from filter
-            if (this.podcastFilters.dateFrom) {
-                results = results.filter(e => e.date >= this.podcastFilters.dateFrom);
+            // Date filter (preset or custom)
+            const dateRange = this.getPodcastDateRange();
+            if (dateRange.from) {
+                results = results.filter(e => e.date >= dateRange.from);
             }
-
-            // Date to filter
-            if (this.podcastFilters.dateTo) {
-                results = results.filter(e => e.date <= this.podcastFilters.dateTo);
+            if (dateRange.to) {
+                results = results.filter(e => e.date <= dateRange.to);
             }
 
             // Company search
@@ -220,6 +227,29 @@ function dashboard() {
                 const disclosure = this.podcastFilters.positionDisclosure;
                 results = results.filter(e =>
                     (e.stock_segments || []).some(seg => seg.position_disclosure === disclosure)
+                );
+            }
+
+            // Action filter (filter episodes that have at least one rec with this action)
+            if (this.podcastFilters.action) {
+                const action = this.podcastFilters.action;
+                results = results.filter(e =>
+                    (e.recommendations || []).some(r => r.action === action)
+                );
+            }
+
+            // Confidence filter
+            if (this.podcastFilters.confidence) {
+                const confidence = this.podcastFilters.confidence;
+                results = results.filter(e =>
+                    (e.recommendations || []).some(r => r.confidence === confidence)
+                );
+            }
+
+            // Price target filter
+            if (this.podcastFilters.hasPriceTarget) {
+                results = results.filter(e =>
+                    (e.recommendations || []).some(r => r.price_target)
                 );
             }
 
@@ -638,6 +668,170 @@ function dashboard() {
             if (value === null || value === undefined) return '-';
             const prefix = value >= 0 ? '+' : '';
             return `${prefix}${value.toFixed(1)}%`;
+        },
+
+        // === PODCAST FILTER HELPERS ===
+
+        // Convert date preset to actual date range
+        getPodcastDateRange() {
+            const preset = this.podcastFilters.datePreset;
+            if (!preset) {
+                // Use custom dates if no preset
+                return {
+                    from: this.podcastFilters.dateFrom,
+                    to: this.podcastFilters.dateTo
+                };
+            }
+
+            const now = new Date();
+            let from = null;
+            const to = now.toISOString().split('T')[0]; // Today
+
+            switch (preset) {
+                case '7d':
+                    from = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+                    break;
+                case '30d':
+                    from = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+                    break;
+                case '90d':
+                    from = new Date(now.getTime() - 90 * 24 * 60 * 60 * 1000);
+                    break;
+                case 'ytd':
+                    from = new Date(now.getFullYear(), 0, 1); // Jan 1 this year
+                    break;
+            }
+
+            return {
+                from: from ? from.toISOString().split('T')[0] : null,
+                to: null // No upper bound for presets
+            };
+        },
+
+        // Filter podcast sources for dropdown search
+        get filteredPodcastSources() {
+            let sources = this.podcastSources;
+            if (this.podcastSourceSearch) {
+                const search = this.podcastSourceSearch.toLowerCase();
+                sources = sources.filter(s => s.name.toLowerCase().includes(search));
+            }
+            // Sort by episode count descending
+            return sources.sort((a, b) => (b.episode_count || 0) - (a.episode_count || 0));
+        },
+
+        // Check if a podcast source is selected
+        isPodcastSourceSelected(id) {
+            return this.podcastFilters.sources.includes(id);
+        },
+
+        // Toggle podcast source selection
+        togglePodcastSource(id) {
+            const index = this.podcastFilters.sources.indexOf(id);
+            if (index === -1) {
+                this.podcastFilters.sources.push(id);
+            } else {
+                this.podcastFilters.sources.splice(index, 1);
+            }
+        },
+
+        // Remove podcast source from selection
+        removePodcastSource(id) {
+            const index = this.podcastFilters.sources.indexOf(id);
+            if (index !== -1) {
+                this.podcastFilters.sources.splice(index, 1);
+            }
+        },
+
+        // Get podcast source name by ID
+        getPodcastSourceName(id) {
+            const source = this.podcastSources.find(s => s.id === id);
+            return source ? source.name : id;
+        },
+
+        // Select all podcast sources
+        selectAllPodcastSources() {
+            this.podcastFilters.sources = this.filteredPodcastSources.map(s => s.id);
+        },
+
+        // Clear podcast source selection
+        clearPodcastSourceSelection() {
+            this.podcastFilters.sources = [];
+        },
+
+        // Set date preset (clears custom dates)
+        setPodcastDatePreset(preset) {
+            this.podcastFilters.datePreset = preset;
+            this.podcastFilters.dateFrom = '';
+            this.podcastFilters.dateTo = '';
+        },
+
+        // Set custom date (clears preset)
+        setPodcastCustomDate(field, value) {
+            this.podcastFilters.datePreset = '';
+            this.podcastFilters[field] = value;
+        },
+
+        // Clear all podcast filters
+        clearPodcastFilters() {
+            this.podcastFilters = {
+                sources: [],
+                datePreset: '',
+                dateFrom: '',
+                dateTo: '',
+                companySearch: '',
+                positionDisclosure: '',
+                action: '',
+                confidence: '',
+                hasPriceTarget: false,
+            };
+            this.podcastSourceSearch = '';
+        },
+
+        // Apply quick filter (preserves sources)
+        applyPodcastQuickFilter(preset) {
+            const sources = [...this.podcastFilters.sources]; // Preserve sources
+
+            switch (preset) {
+                case 'highConviction':
+                    this.podcastFilters = {
+                        sources: sources,
+                        datePreset: '30d',
+                        dateFrom: '',
+                        dateTo: '',
+                        companySearch: '',
+                        positionDisclosure: '',
+                        action: '',
+                        confidence: 'high',
+                        hasPriceTarget: false,
+                    };
+                    break;
+                case 'buyOnly':
+                    this.podcastFilters = {
+                        sources: sources,
+                        datePreset: '',
+                        dateFrom: '',
+                        dateTo: '',
+                        companySearch: '',
+                        positionDisclosure: '',
+                        action: 'buy',
+                        confidence: '',
+                        hasPriceTarget: false,
+                    };
+                    break;
+                case 'withPriceTarget':
+                    this.podcastFilters = {
+                        sources: sources,
+                        datePreset: '',
+                        dateFrom: '',
+                        dateTo: '',
+                        companySearch: '',
+                        positionDisclosure: '',
+                        action: '',
+                        confidence: '',
+                        hasPriceTarget: true,
+                    };
+                    break;
+            }
         }
     };
 }
