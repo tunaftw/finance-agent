@@ -47,19 +47,13 @@ for podcast_dir in Path('data/podcasts/raw').iterdir():
         if transcripts_dir.exists():
             transcripts.extend(transcripts_dir.glob('*.txt'))
 
-# Hitta redan analyserade (alla platser)
+# Hitta redan analyserade
 analyzed = set()
 
-# Primary: data/podcasts/analyses-v2/
+# Canonical location: data/podcasts/analyses-v2/
 analyses_v2 = Path('data/podcasts/analyses-v2')
 if analyses_v2.exists():
     analyzed.update(p.stem for p in analyses_v2.glob('*.json'))
-
-# Legacy locations
-for legacy_dir in ['data/extracted/glm-batch', 'data/podcasts/analyses']:
-    legacy_path = Path(legacy_dir)
-    if legacy_path.exists():
-        analyzed.update(p.stem for p in legacy_path.glob('*.json'))
 
 # Filtrera oanalyserade
 unanalyzed = [t for t in transcripts if t.stem not in analyzed]
@@ -133,15 +127,10 @@ def get_analysis_backlog():
     analyzed_podcasts = set()
 
     # Primary location: data/podcasts/analyses-v2/
+    # Canonical location: data/podcasts/analyses-v2/
     analyses_v2_dir = Path('data/podcasts/analyses-v2')
     if analyses_v2_dir.exists():
         analyzed_podcasts.update(p.stem for p in analyses_v2_dir.glob('*.json'))
-
-    # Legacy locations
-    for legacy_dir in ['data/extracted/glm-batch', 'data/podcasts/analyses']:
-        legacy_path = Path(legacy_dir)
-        if legacy_path.exists():
-            analyzed_podcasts.update(p.stem for p in legacy_path.glob('*.json'))
 
     backlog['podcasts'] = {
         'total': len(podcast_transcripts),

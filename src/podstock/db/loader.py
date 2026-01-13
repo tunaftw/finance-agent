@@ -755,16 +755,24 @@ class YouTubeLoader(BaseLoader):
         if not isinstance(data, dict):
             return LoadResult(status="failed", error="JSON root must be an object")
 
-        # Validate required fields
-        video_id = data.get("source_id")
+        # Validate required fields (support multiple schema versions)
+        video_id = data.get("source_id") or data.get("video_id")
         if not video_id:
-            return LoadResult(status="failed", error="Missing source_id")
+            return LoadResult(status="failed", error="Missing source_id/video_id")
 
-        channel = data.get("channel")
+        channel = data.get("channel") or data.get("channel_or_podcast") or data.get("channel_name")
         if not channel:
             return LoadResult(status="failed", error="Missing channel")
 
+        # Support both crypto mentions and stock recommendations
         mentions = data.get("mentions", [])
+        recommendations = data.get("recommendations", [])
+
+        # For stock analysis format, convert recommendations to mention-like format
+        if not mentions and recommendations:
+            # This is a stock analysis file - handle differently
+            return self._load_stock_analysis(json_path, data, video_id, channel, session)
+
         if not mentions:
             return LoadResult(
                 status="skipped", content_id=video_id, error="No mentions in file"
@@ -923,6 +931,176 @@ class YouTubeLoader(BaseLoader):
         )
         session.add(mention)
         return mention
+
+    def _load_stock_analysis(
+        self,
+        json_path: Path,
+        data: dict,
+        video_id: str,
+        channel: str,
+        session: "Session",
+    ) -> LoadResult:
+        """Load a YouTube stock analysis file (schema v2.1 format).
+
+        This handles files with recommendations instead of crypto mentions.
+        """
+        recommendations = data.get("recommendations", [])
+        if not recommendations:
+            return LoadResult(
+                status="skipped", content_id=video_id, error="No recommendations in file"
+            )
+
+        # Check file hash
+        file_hash = self.compute_file_hash(json_path)
+        if not self.should_load(session, json_path, file_hash):
+            return LoadResult(status="skipped", content_id=video_id)
+
+        # Compute content hash using recommendations
+        relevant = {
+            "recommendations": recommendations,
+            "summary": data.get("summary", ""),
+            "key_takeaways": data.get("key_takeaways", []),
+        }
+        content_hash = hashlib.sha256(
+            json.dumps(relevant, sort_keys=True, ensure_ascii=False).encode()
+        ).hexdigest()
+
+        # Normalize channel name for source_id
+        source_id = self._normalize_source_id(channel)
+
+        # Get or create source
+        source = self.get_or_create_source(session, source_id, "youtube", channel)
+
+        # Create unique content ID (use episode_id if available)
+        content_id = data.get("episode_id") or f"{source_id}-{video_id}"
+
+        # Get or create content
+        content = session.query(Content).filter_by(id=content_id).first()
+        if not content:
+            content = Content(
+                id=content_id,
+                source_id=source.id,
+                type="video",
+                external_id=video_id,
+                title=data.get("title"),
+                published_at=data.get("date", datetime.now().date().isoformat()),
+                raw_text=None,
+                word_count=data.get("word_count"),
+                extra_data=json.dumps(
+                    {
+                        "hosts": data.get("hosts", []),
+                        "guests": data.get("guests", []),
+                        "market_sentiment": data.get("market_sentiment"),
+                    }
+                ),
+            )
+            session.add(content)
+            session.flush()
+
+        # Check for existing analysis with same hash
+        existing = (
+            session.query(Analysis)
+            .filter_by(content_id=content_id, content_hash=content_hash)
+            .first()
+        )
+        if existing:
+            self._log_load(
+                session, json_path, file_hash, "youtube", "skipped", existing.id
+            )
+            return LoadResult(status="skipped", content_id=content_id)
+
+        # Get next version
+        latest = (
+            session.query(Analysis.version)
+            .filter_by(content_id=content_id)
+            .order_by(Analysis.version.desc())
+            .first()
+        )
+        new_version = (latest[0] + 1) if latest else 1
+
+        # Create analysis
+        analysis = Analysis(
+            content_id=content_id,
+            version=new_version,
+            content_hash=content_hash,
+            model_used=data.get("model_used"),
+            analyzed_at=data.get("analyzed_at", datetime.now().isoformat()),
+            summary=data.get("summary"),
+            sentiment=data.get("market_sentiment"),
+            raw_json=json.dumps(data),
+        )
+        session.add(analysis)
+        session.flush()
+
+        # Create recommendations
+        rec_count = 0
+        for rec_data in recommendations:
+            rec = self._create_recommendation_from_stock(
+                session, analysis.id, rec_data, source_id
+            )
+            if rec:
+                rec_count += 1
+
+        # Create key takeaways
+        for i, takeaway in enumerate(data.get("key_takeaways", [])):
+            kt = KeyTakeaway(
+                analysis_id=analysis.id,
+                takeaway=takeaway,
+                sort_order=i,
+            )
+            session.add(kt)
+
+        self._log_load(session, json_path, file_hash, "youtube", "success", analysis.id)
+
+        return LoadResult(
+            status="success",
+            content_id=content_id,
+            analysis_id=analysis.id,
+            recommendations_count=rec_count,
+        )
+
+    def _create_recommendation_from_stock(
+        self,
+        session: "Session",
+        analysis_id: int,
+        data: dict,
+        source_id: str,
+    ) -> Recommendation | None:
+        """Create a recommendation from stock analysis data."""
+        stock_name = data.get("stock_name")
+        if not stock_name:
+            return None
+
+        ticker = data.get("ticker")
+
+        # Try to resolve security
+        security = resolve_security(session, stock_name, ticker)
+
+        if not security:
+            self.create_or_update_pending(
+                session,
+                raw_name=stock_name,
+                raw_ticker=ticker,
+                source=source_id,
+                context=(data.get("reasoning", "") or "")[:200],
+            )
+
+        rec = Recommendation(
+            analysis_id=analysis_id,
+            security_id=security.id if security else None,
+            raw_stock_name=stock_name,
+            raw_ticker=ticker,
+            action=data.get("action"),
+            confidence=data.get("confidence"),
+            speaker=data.get("speaker"),
+            reasoning=data.get("reasoning"),
+            quote=data.get("quote"),
+            price_target=data.get("price_target"),
+            time_horizon=data.get("time_horizon"),
+            sector=data.get("sector"),
+        )
+        session.add(rec)
+        return rec
 
     def _log_load(
         self,
