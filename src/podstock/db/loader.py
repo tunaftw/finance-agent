@@ -171,7 +171,14 @@ class PodcastLoader(BaseLoader):
             return LoadResult(status="skipped", content_id=episode_id)
 
         # Get or create source
-        podcast_name = data.get("podcast_name", "Unknown")
+        podcast_name = data.get("podcast_name")
+        if not podcast_name:
+            # Extract from episode_id (e.g., "fillorkill-2026-01-13-7564" -> "fillorkill")
+            parts = episode_id.rsplit("-", 3)  # Split from right: [podcast, date parts, hash]
+            if len(parts) >= 4:
+                podcast_name = parts[0]
+            else:
+                podcast_name = "Unknown"
         source_id = self._normalize_source_id(podcast_name)
         source = self.get_or_create_source(session, source_id, "podcast", podcast_name)
 
