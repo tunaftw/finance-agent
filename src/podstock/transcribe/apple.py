@@ -341,6 +341,25 @@ def parse_ttml(ttml_path: Path, *, with_timestamps: bool = True) -> str:
             else:
                 lines.append(text)
 
+        # Check if we got enough content - fallback to regex if XML parsing gave too few words
+        total_words = sum(len(line.split()) for line in lines)
+        if total_words < 500:
+            # Regex fallback: directly extract word spans from raw TTML content
+            raw_content = ttml_path.read_text(encoding="utf-8")
+            regex_words = re.findall(r'podcasts:unit="word"[^>]*>([^<]+)</span>', raw_content)
+
+            if len(regex_words) > total_words:
+                # Regex found more words - rebuild lines from regex result
+                text = " ".join(w.strip() for w in regex_words if w.strip())
+                # Clean up whitespace
+                text = re.sub(r"\s+", " ", text)
+                # Split into paragraphs of ~100 words
+                words_list = text.split()
+                lines = []
+                for i in range(0, len(words_list), 100):
+                    paragraph = " ".join(words_list[i : i + 100])
+                    lines.append(paragraph)
+
         if not lines:
             raise TranscribeError("No text content found in TTML file")
 

@@ -36,9 +36,12 @@ APPLE_PODCASTS_CONTAINER = Path.home() / "Library/Group Containers/243LU875E5.gr
 SQLITE_DB_PATH = APPLE_PODCASTS_CONTAINER / "Documents/MTLibrary.sqlite"
 TTML_CACHE_PATH = APPLE_PODCASTS_CONTAINER / "Library/Cache/Assets/TTML"
 
-# Tool paths
-FETCH_TRANSCRIPT_PATH = Path("/tmp/apple-podcast-transcript-downloader/FetchTranscript")
-DOWNLOAD_DIR = Path("/tmp/apple-podcast-transcript-downloader")
+# Tool paths - relative to project root
+# FetchTranscript binary from: https://github.com/dado3212/apple-podcast-transcript-downloader
+# Compiled binary should be placed at tools/apple-transcripts/FetchTranscript
+PROJECT_ROOT = Path(__file__).parent.parent
+FETCH_TRANSCRIPT_PATH = PROJECT_ROOT / "tools/apple-transcripts/FetchTranscript"
+DOWNLOAD_DIR = PROJECT_ROOT / "tools/apple-transcripts"
 
 # Cocoa epoch for timestamp conversion
 COCOA_EPOCH = datetime(2001, 1, 1)

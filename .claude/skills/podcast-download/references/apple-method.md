@@ -7,7 +7,25 @@ Extract transcripts from Apple Podcasts app cache or download via FetchTranscrip
 - macOS with Apple Podcasts app installed
 - Episodes must have transcripts enabled by the podcast publisher
 - For cached transcripts: User must have viewed the transcript in Apple Podcasts app
-- For downloading: FetchTranscript tool (optional)
+- For downloading: FetchTranscript binary at `tools/apple-transcripts/FetchTranscript`
+
+## FetchTranscript Setup
+
+The FetchTranscript binary enables downloading TTML transcripts directly from Apple servers.
+
+**Location:** `tools/apple-transcripts/FetchTranscript`
+
+**Source:** https://github.com/dado3212/apple-podcast-transcript-downloader
+
+**Build instructions:**
+```bash
+cd tools/apple-transcripts
+git clone https://github.com/dado3212/apple-podcast-transcript-downloader .
+swift build -c release
+cp .build/release/FetchTranscript .
+```
+
+**IMPORTANT:** Always run scripts from project root, not from subdirectories.
 
 ## Key Functions
 

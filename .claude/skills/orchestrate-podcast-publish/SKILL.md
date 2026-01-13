@@ -46,9 +46,18 @@ APPLE_DB="$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Do
 # 3. Database
 [ -f "data/podstock.db" ] && echo "✓ Database" || echo "✗ podstock.db saknas - kor 'podstock db init'"
 
-# 4. Git status
+# 4. FetchTranscript binary (for Apple transcripts)
+[ -f "tools/apple-transcripts/FetchTranscript" ] && echo "✓ FetchTranscript" || echo "⚠ FetchTranscript saknas - Apple transcripts disabled"
+
+# 5. Git status
 git diff --quiet && echo "✓ Git working tree ren" || echo "⚠ Git har uncommitted changes"
 ```
+
+**VIKTIGT: Absoluta sokvagar**
+- Alla scripts MASTE koras fran projekt-root (`/Users/.../Finance-agent/`)
+- Undvik `cd` till subdirectories innan scripts kors
+- Anvand absoluta sokvagar i Python-kod: `Path(__file__).parent.parent / "data/..."`
+- Om du maste anvanda `cd`, aterstall working directory efterat
 
 **Om nagot kritiskt saknas:** STOPP och meddela anvandaren.
 
