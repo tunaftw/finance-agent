@@ -111,6 +111,36 @@ def _get_price_data(
     return result
 
 
+# --- SCHEMA CONVERSION HELPERS ---
+
+
+def _numeric_to_text_confidence(value: Any) -> str:
+    """Convert numeric confidence (0-1) to text category.
+
+    Schema v2.1 uses numeric confidence values (0.0-1.0), while the dashboard
+    expects text categories. This function handles both formats.
+
+    Args:
+        value: Confidence value - either numeric (0-1) or text string
+
+    Returns:
+        Text confidence: "high", "medium", "low", or "speculative"
+    """
+    if isinstance(value, str):
+        return value  # Already text (legacy schema)
+    if not isinstance(value, (int, float)):
+        return ""
+    # Convert numeric to text categories
+    if value >= 0.7:
+        return "high"
+    elif value >= 0.5:
+        return "medium"
+    elif value >= 0.3:
+        return "low"
+    else:
+        return "speculative"
+
+
 # --- NEW EXPORTERS FOR SOURCE-SPECIFIC TABS ---
 
 # Known name aliases for podcast normalization
@@ -417,8 +447,10 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                 {
                     "stock_name": rec.get("stock_name", ""),
                     "ticker": rec.get("ticker"),
-                    "action": rec.get("action", ""),
-                    "confidence": rec.get("confidence", ""),
+                    # Handle v2.1 schema: "sentiment" -> "action" fallback
+                    "action": rec.get("action") or rec.get("sentiment", ""),
+                    # Handle v2.1 schema: numeric -> text confidence
+                    "confidence": _numeric_to_text_confidence(rec.get("confidence", "")),
                     "speaker": rec.get("speaker", ""),
                     "speaker_role": rec.get("speaker_role", ""),
                     "reasoning": rec.get("reasoning", ""),
@@ -461,7 +493,8 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                     "speaker": ins.get("speaker", ""),
                     "speaker_role": ins.get("speaker_role", ""),
                     "timestamp": ins.get("timestamp"),
-                    "confidence": ins.get("confidence", ""),
+                    # Handle v2.1 schema: numeric -> text confidence
+                    "confidence": _numeric_to_text_confidence(ins.get("confidence", "")),
                     "tags": ins.get("tags") or [],
                     "quote": ins.get("quote", ""),
                 }
