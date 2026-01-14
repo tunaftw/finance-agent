@@ -1,8 +1,14 @@
 {
+  "schema_version": "2.1",
   "episode_id": "globalgains-2026-01-10-44de",
   "podcast_id": "globalgains",
   "source_type": "podcast",
-  "analyzed_at": "2026-01-13T12:00:00Z",
+  "podcast_name": "Global Gains",
+  "date": "2026-01-10",
+  "episode_title": "Toppforvaltarens strategi i en multipolar varld",
+  "hosts": ["Karl Lans"],
+  "guests": ["Morten Springborg"],
+  "analyzed_at": "2026-01-14T00:00:00Z",
   "model_used": "claude-opus-4-5-20251101",
   "recommendations": [
     {
@@ -10,7 +16,7 @@
       "ticker": "SAAB-B.ST",
       "sentiment": "buy",
       "confidence": 0.7,
-      "reasoning": "Swedish defense company with robust public finances backing it. Speaker notes Sweden's public finances are robust and Saab gets close to 50% of sales from Swedish government. Important for European defense rebuild.",
+      "reasoning": "Swedish defense company with robust public finances backing it. Sweden's public finances are robust and Saab gets close to 50% of sales from Swedish government. Important for European defense rebuild.",
       "speaker": "Morten Springborg"
     },
     {
@@ -30,6 +36,14 @@
       "speaker": "Morten Springborg"
     },
     {
+      "stock_name": "Kongsberg",
+      "ticker": "KOG.OL",
+      "sentiment": "watch",
+      "confidence": 0.55,
+      "reasoning": "Norwegian defense contractor mentioned as part of fragmented European defense market. Dependent on domestic government budget allocation.",
+      "speaker": "Morten Springborg"
+    },
+    {
       "stock_name": "European Quality Capital Goods Companies",
       "ticker": null,
       "sentiment": "buy",
@@ -42,7 +56,7 @@
       "ticker": null,
       "sentiment": "buy",
       "confidence": 0.7,
-      "reasoning": "Big investment opportunities in everything related to growing electricity consumption. The West needs to electrify significantly to catch up with China.",
+      "reasoning": "Big investment opportunities in everything related to growing electricity consumption. The West needs to electrify significantly to catch up with China as the first electrostate.",
       "speaker": "Morten Springborg"
     },
     {
@@ -63,10 +77,34 @@
     },
     {
       "stock_name": "Gold",
-      "ticker": null,
+      "ticker": "GC=F",
       "sentiment": "buy",
       "confidence": 0.7,
       "reasoning": "Gold has been rising because global central banks are building gold reserves to participate in a new monetary system where gold is the neutral reserve asset. Moving away from dollar-based unipolar monetary system.",
+      "speaker": "Morten Springborg"
+    },
+    {
+      "stock_name": "International ex-US Strategy",
+      "ticker": null,
+      "sentiment": "buy",
+      "confidence": 0.8,
+      "reasoning": "C Worldwide recently launched an international strategy (global ex-US) which they believe is the place to be for the next 10 years for long-term investors. US institutional investors want to diversify away from domestic US equity market overexposure.",
+      "speaker": "Morten Springborg"
+    },
+    {
+      "stock_name": "European Equities",
+      "ticker": null,
+      "sentiment": "buy",
+      "confidence": 0.7,
+      "reasoning": "Favored from cyclical point of view because Europe will invest significantly in manufacturing rebuild and defense. Capital that previously flowed to US may be retained in Europe.",
+      "speaker": "Morten Springborg"
+    },
+    {
+      "stock_name": "Emerging Markets",
+      "ticker": null,
+      "sentiment": "buy",
+      "confidence": 0.7,
+      "reasoning": "Structurally favored as part of the shift from US dominance. Part of the multipolar world thesis with rising Asian currencies and asset values.",
       "speaker": "Morten Springborg"
     }
   ],
@@ -83,18 +121,28 @@
       "speaker": "Morten Springborg"
     },
     {
+      "type": "wisdom",
+      "content": "In order to avoid war, you have to prepare for war - as the Romans said. Europe has not prepared for war and is very weak.",
+      "speaker": "Morten Springborg"
+    },
+    {
       "type": "prediction",
       "content": "The Euro and US Dollar will need to depreciate significantly against the Asian currency block. The Chinese renminbi would need to appreciate at least 50% against the Euro.",
       "speaker": "Morten Springborg"
     },
     {
       "type": "lesson",
-      "content": "China has reduced energy dependence to only 13% imported while Europe imports 58%. Chinese energy costs are about 25% of European costs, giving them competitive advantage.",
+      "content": "China has reduced energy dependence to only 13% imported while Europe imports 58%. Chinese energy costs are about 25% of European costs, giving them massive competitive advantage.",
+      "speaker": "Morten Springborg"
+    },
+    {
+      "type": "lesson",
+      "content": "Sweden holds the world record for most electricity capacity additions per capita (1971-1986). Nuclear power can be expanded rapidly with political commitment.",
       "speaker": "Morten Springborg"
     },
     {
       "type": "prediction",
-      "content": "Nuclear power expansion is long-term solution for Europe. Sweden built more electricity capacity per capita than any country between 1971-1986. It can be done again with political commitment.",
+      "content": "Nuclear power expansion is the long-term solution for Europe. Natural gas with renewables is the bridge solution, but will be more expensive than US and China.",
       "speaker": "Morten Springborg"
     },
     {
@@ -104,16 +152,40 @@
     },
     {
       "type": "prediction",
-      "content": "Many countries will have serious discussions about the Ponzi characteristics of welfare states within 10 years, as demographics shift from 3 workers per pensioner to less than 2.",
+      "content": "Many countries will have serious discussions about the Ponzi characteristics of welfare states within 10 years, as demographics shift from 3 workers per pensioner to less than 2 by 2050.",
       "speaker": "Morten Springborg"
     },
     {
       "type": "philosophy",
-      "content": "China takes a practical approach to AI focused on immediate productivity gains like factory automation, while the West focuses on pursuing superintelligence with massive investment.",
+      "content": "China takes a practical approach to AI focused on immediate productivity gains like factory automation, while the West focuses on pursuing superintelligence with massive investment. This creates technology anxiety in the West that does not exist in China.",
+      "speaker": "Morten Springborg"
+    },
+    {
+      "type": "lesson",
+      "content": "Chinese trade surplus went from $20 billion per month before COVID to $100 billion per month now. China is exporting deflation to the world due to enormous overcapacities.",
+      "speaker": "Morten Springborg"
+    },
+    {
+      "type": "philosophy",
+      "content": "The intelligent tangible world theme - mixing tangible and intangibles, physical and digital - is key for future investments. The last 15 years focused too much on digitization while underinvesting in the physical world.",
+      "speaker": "Morten Springborg"
+    },
+    {
+      "type": "prediction",
+      "content": "The global monetary system will transition from dollar-based unipolar system to multipolar currency world. Gold is being accumulated by central banks as the neutral reserve asset for this new system.",
       "speaker": "Morten Springborg"
     }
   ],
-  "analysis_summary": "Strategic investment discussion with C Worldwide strategist Morten Springborg on the geopolitical shift from unipolar to multipolar world. Key themes include European defense industry investments (favoring Saab, Rheinmetall), need for Western manufacturing rebuild, electrification opportunities, gold as reserve asset, and expected underperformance of US equities relative to Europe and emerging markets over next 5-10 years. Focus on quality capital goods companies and the intelligent tangible world theme.",
-  "podcast_name": "Global Gains",
-  "date": "2026-01-10"
+  "market_sentiment": "mixed",
+  "summary": "C Worldwide strategist Morten Springborg discusses the geopolitical shift from a unipolar to multipolar world, comparing 2025 to 1989 in historical significance. Key investment themes include European defense rebuild (favoring Saab and Rheinmetall), quality capital goods companies, electrification, and a significant underweight to US equities which he considers at bubble levels. He advocates for global ex-US exposure, particularly in Europe and emerging markets, while expecting the dollar to depreciate against Asian currencies.",
+  "key_takeaways": [
+    "2025 marks a historic shift to a multipolar world - as significant as the fall of the Berlin Wall in 1989",
+    "European defense companies Saab and Rheinmetall are favored due to strong domestic government finances; Southern European defense stocks like Leonardo face headwinds",
+    "US equity market at 70% of global markets is considered a bubble that will normalize to around 50% over 5-10 years",
+    "Europe desperately needs to rebuild manufacturing capacity and defense infrastructure - this creates massive investment opportunities",
+    "Quality capital goods companies and electrification themes are favored investment areas, particularly in Europe",
+    "Gold is rising as central banks build reserves for a new multipolar monetary system where gold serves as neutral reserve asset",
+    "China has structural advantages: only 13% energy import dependence vs Europe's 58%, and practical AI focus on automation vs Western pursuit of AGI",
+    "International ex-US strategy recommended as the place to be for long-term investors over next 10 years"
+  ]
 }

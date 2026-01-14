@@ -1,8 +1,14 @@
 {
+  "schema_version": "2.1",
   "episode_id": "borsmaklarna-2026-01-13-c639",
   "podcast_id": "borsmaklarna",
   "source_type": "podcast",
-  "analyzed_at": "2026-01-13T23:45:00Z",
+  "podcast_name": "Borsmäklarna",
+  "date": "2026-01-13",
+  "episode_title": "\"2026 är risk-on\" - Anders Borg om nordiskt näringsliv",
+  "hosts": ["Georg (Pareto Sweden)", "Pareto Podden Host (Norway)"],
+  "guests": ["Anders Borg"],
+  "analyzed_at": "2026-01-14T00:00:00Z",
   "model_used": "claude-opus-4-5-20251101",
   "recommendations": [
     {
@@ -10,7 +16,7 @@
       "ticker": null,
       "sentiment": "buy",
       "confidence": 0.75,
-      "reasoning": "US economy in very good shape with 2-3% growth driven by productivity and AI investments. Fed will cut rates due to low inflation from high productivity. US markets set positive tone for global markets. 2026 is a 'risk-on year' and 'no excuse year' for companies to deliver shareholder value.",
+      "reasoning": "US economy in very good shape with 2-3% growth driven by productivity and AI investments from Google, Meta, Microsoft, Amazon. Fed will cut rates due to low inflation from high productivity. US markets (65% of global market cap) set positive tone. 2026 is a 'risk-on year' and 'no excuse year' for companies to deliver shareholder value.",
       "speaker": "Anders Borg"
     },
     {
@@ -18,7 +24,7 @@
       "ticker": null,
       "sentiment": "buy",
       "confidence": 0.65,
-      "reasoning": "Lower ECB rates, very low valuations, and several depressed sectors (real estate, construction, retail) at low valuations. Even just normalization gives good returns. Expects 8-10% returns in 2026 for European equities.",
+      "reasoning": "Lower ECB rates, very low valuations, and several depressed sectors (real estate, construction, retail) at low valuations. Even just normalization gives good returns. Strong US economy provides support. Expects 8-10% returns in 2026 for European equities.",
       "speaker": "Anders Borg"
     },
     {
@@ -26,7 +32,7 @@
       "ticker": null,
       "sentiment": "buy",
       "confidence": 0.6,
-      "reasoning": "50-100 basis points better yield than European equivalents due to high transparency, good corporate governance, and strong market structure. Less systemic risk than bank lending. Segment expected to grow.",
+      "reasoning": "50-100 basis points better yield than European equivalents due to high transparency, good corporate governance, and strong market structure. Less systemic risk than bank lending. Nordic bond markets have taken larger percentage of European issuance. Segment expected to grow.",
       "speaker": "Anders Borg"
     },
     {
@@ -34,7 +40,7 @@
       "ticker": null,
       "sentiment": "watch",
       "confidence": 0.55,
-      "reasoning": "Swedish tech ecosystem creates millionaires and billionaires who reinvest - examples include Klarna, Spotify, iZettle alumni investing in next generation. Companies like Voi, Lysa, Dynads mentioned as investments. Swedish VC market could double and still be smaller than US.",
+      "reasoning": "Swedish tech ecosystem creates millionaires and billionaires who reinvest - Klarna, Spotify, iZettle alumni investing in next generation companies. Examples include Voi, Lysa, Dynads. Swedish VC market could double and still be smaller than US. Good like-for-like valuations compared to US tech.",
       "speaker": "Anders Borg"
     },
     {
@@ -42,7 +48,7 @@
       "ticker": null,
       "sentiment": "watch",
       "confidence": 0.5,
-      "reasoning": "Norway described as 'lowest hanging fruit in EU to fix' - strong fundamentals but needs tax reform on wealth tax, inheritance tax, and capital gains. Loss of 50-100 billionaires hurts venture capital ecosystem.",
+      "reasoning": "Norway described as 'lowest hanging fruit in EU to fix' - strong fundamentals, educated workforce, good infrastructure. Needs tax reform: remove wealth tax, improve inheritance and capital gains taxation. Loss of 50-100 billionaires hurts venture capital ecosystem - represents seed capital for potentially 500+ companies lost.",
       "speaker": "Anders Borg"
     },
     {
@@ -58,7 +64,7 @@
       "ticker": null,
       "sentiment": "watch",
       "confidence": 0.55,
-      "reasoning": "Depressed sector with low valuations. Normalization expected to drive returns.",
+      "reasoning": "Depressed sector with low valuations. Normalization expected to drive returns in European market context.",
       "speaker": "Anders Borg"
     },
     {
@@ -66,7 +72,7 @@
       "ticker": null,
       "sentiment": "watch",
       "confidence": 0.55,
-      "reasoning": "Consumer-facing sector at low valuations. Normalization opportunity.",
+      "reasoning": "Consumer-facing sector at low valuations in Europe. Normalization opportunity as ECB cuts rates.",
       "speaker": "Anders Borg"
     },
     {
@@ -74,8 +80,16 @@
       "ticker": null,
       "sentiment": "watch",
       "confidence": 0.5,
-      "reasoning": "Sweden together with UK is leading in this very large sector globally. Attracts global investor interest seeking best knowledge in the sector.",
-      "speaker": "Georg (Pareto analyst)"
+      "reasoning": "Sweden together with UK is leading in this very large global sector. Attracts global investor interest seeking best knowledge and investment opportunities in the sector.",
+      "speaker": "Georg"
+    },
+    {
+      "stock_name": "India Equities",
+      "ticker": null,
+      "sentiment": "watch",
+      "confidence": 0.6,
+      "reasoning": "Single biggest opportunity for next 20 years. Steel market already larger than Europe and US combined. Growing 7%+ annually. Consumer market of 600M middle class by 2050. Building one London per year for next 25 years. Energy market could reach China levels.",
+      "speaker": "Anders Borg"
     }
   ],
   "crypto_mentions": [],
@@ -87,51 +101,75 @@
     },
     {
       "type": "philosophy",
-      "content": "People focus too much on risks. The best estimate is markets return 7% on average - Swedish market has done this for 100 years in real terms.",
+      "content": "People focus too much on risks. The best estimate is markets return 7% on average - Swedish market has done this for 100 years in real terms. Technology shifts are difficult but always raise living standards.",
       "speaker": "Anders Borg"
     },
     {
       "type": "philosophy",
-      "content": "Geopolitical events (Venezuela, Ukraine, Gaza, Greenland) have had extremely small economic effects despite massive media coverage. AI and US productivity growth are far more important for markets.",
+      "content": "Geopolitical events (Venezuela, Ukraine, Gaza, Greenland) have had extremely small economic effects despite massive media coverage. Oil no longer plays the geopolitical role it did - Middle East exports mainly to China and India. AI and US productivity growth are far more important for markets.",
       "speaker": "Anders Borg"
     },
     {
       "type": "lesson",
-      "content": "Europe's problem is lack of funded pension systems in Germany, France, Italy. Their capital is 30% cash, 30% insurance/bonds, rest in real estate. No end-capital provider for venture capital.",
+      "content": "During the 2008 Lehman crisis, political decisions become liberating - you must do what the economy requires without worrying about voters. Swedish finance ministry worked two shifts day and night. Governments must dare to be unpopular when making reforms.",
       "speaker": "Anders Borg"
     },
     {
       "type": "lesson",
-      "content": "European billionaires inherited wealth and invest in real estate and government bonds. American billionaires invest in tech. Without capital markets, no innovation.",
+      "content": "Europe's structural problem is lack of funded pension systems in Germany, France, Italy. Their capital is 30% cash, 30% insurance/bonds, rest in real estate. No end-capital provider for venture capital. European billionaires inherited wealth and invest in real estate and government bonds. American billionaires invest in tech. Without capital markets, no innovation.",
+      "speaker": "Anders Borg"
+    },
+    {
+      "type": "lesson",
+      "content": "Building tech requires Sequoia, Peter Thiel, Jeff Bezos types - people who built tech companies themselves, have deep pockets, can bear 4-5 loss years. Europe lacks both the capital and the people with this experience.",
       "speaker": "Anders Borg"
     },
     {
       "type": "prediction",
-      "content": "China with DeepSeek breakthrough shows they are not 10 years behind like Soviet Union - they are on par with or leading alongside US. Europe is behind. China's AI investment boom is as strong as America's.",
+      "content": "China with DeepSeek breakthrough shows they are not 10 years behind like Soviet Union - they are leading alongside US. Europe is the one behind. China's AI investment boom is as strong as America's. They roll out AI applications everywhere.",
       "speaker": "Anders Borg"
     },
     {
       "type": "prediction",
-      "content": "India is the single biggest opportunity for the next 20 years. Steel market already larger than Europe and US combined. Could become 2-3x larger. Consumer market of 600M middle class by 2050. Building one London per year for next 25 years.",
+      "content": "India is the single biggest opportunity for the next 20 years. Steel market already larger than Europe and US combined, could become 2-3x larger. Consumer market of 600M middle class by 2050. Building approximately one London per year for next 25 years in urbanization.",
       "speaker": "Anders Borg"
     },
     {
-      "type": "philosophy",
-      "content": "If you feel you have nothing more to learn in your job, you're in the wrong job. You must constantly be on a steep learning curve and face new challenges.",
+      "type": "wisdom",
+      "content": "If you feel you have nothing more to learn in your job, you're in the wrong job. You must constantly be on a steep learning curve and face new challenges. If you go to work feeling 'I know this', you haven't challenged yourself enough.",
+      "speaker": "Anders Borg"
+    },
+    {
+      "type": "wisdom",
+      "content": "Young people must focus on hard skills - mathematics, financial engineering, medicine. These survive AI disruption. Also develop sales and deal-making skills which cannot become commoditized. Hard studies and much effort is the best security - like sports, you don't become world-best lying on the couch.",
       "speaker": "Anders Borg"
     },
     {
       "type": "lesson",
-      "content": "Young people must focus on hard skills - mathematics, financial engineering, medicine. These survive AI. Also develop sales and deal-making skills which cannot become commoditized.",
+      "content": "Politicians must dare to be unpopular when making reforms. Reforms should be done right after election wins to allow recovery time. When we removed wealth tax in Sweden April 2007, opposition gained 5 points. We won 2010 election because the economy performed well overall.",
       "speaker": "Anders Borg"
     },
     {
       "type": "lesson",
-      "content": "Politicians must dare to be unpopular when making reforms. Reforms should be done right after election wins so there's time to recover before next election.",
+      "content": "Norwegian investors are not low risk - they take big bets on shipping, oil, seafood, real estate, energy. They have hair on their chest. The issue is not culture but ecosystem - Sweden has had successful tech exits (Klarna, Spotify, iZettle) that created reinvestment cycles.",
+      "speaker": "Anders Borg"
+    },
+    {
+      "type": "lesson",
+      "content": "Starlink is revolutionary for telecom - Ukrainian tech workers could program from bomb shelters, upload code when it was calm. Company maintained same employee count throughout war with top-tier performance ratings from Disney, Paramount.",
       "speaker": "Anders Borg"
     }
   ],
-  "analysis_summary": "Special episode featuring Anders Borg (former Swedish Finance Minister 2006-2014, now board member at LKAB, Stena, advisor to Kinnevik). Main thesis: 2026 is a 'risk-on year' with US economy strong at 2-3% growth driven by AI/productivity. Bullish on both US and European equities, with Europe offering value opportunity in depressed sectors. Discusses Europe's structural problems (lack of capital markets, funded pensions, VC ecosystem) vs Nordic strengths. Highlights India as major 20-year opportunity and China's surprising AI competitiveness via DeepSeek.",
-  "podcast_name": "Börsmäklarna",
-  "date": "2026-01-13"
+  "market_sentiment": "bullish",
+  "summary": "Special joint episode of Borsmäklarna and Pareto Podden featuring Anders Borg, former Swedish Finance Minister (2006-2014) and current board member at LKAB, Stena, and advisor to Kinnevik. Borg's main thesis: 2026 is a 'risk-on year' with the US economy strong at 2-3% growth driven by AI investments and productivity. He's bullish on both US and European equities, with Europe offering value opportunities in depressed sectors like real estate and construction. The discussion covers Europe's structural capital market deficiencies versus Nordic strengths, Norway's 'low-hanging fruit' tax reforms needed, China's surprising AI competitiveness via DeepSeek, and India as the major 20-year investment opportunity.",
+  "key_takeaways": [
+    "2026 is 'risk-on year' - US economy strong at 2-3% growth, Fed will cut rates, expect 8-10% European equity returns",
+    "AI and productivity growth far more important than geopolitical events for markets - media overemphasizes political risks",
+    "Europe's capital market problem: no funded pensions, billionaires invest in real estate not tech, no VC ecosystem",
+    "Norway is 'lowest hanging fruit in EU to fix' - strong fundamentals but lost 50-100 billionaires due to tax policy",
+    "China not behind like Soviet Union - DeepSeek shows they lead alongside US in AI; Europe is actually behind",
+    "India is single biggest 20-year opportunity: 7%+ growth, 600M middle class by 2050, building one London per year",
+    "Hard skills (math, engineering, medicine) and sales/deal-making ability are best protection against AI disruption",
+    "Nordic high yield bonds offer 50-100bps better yield with better transparency and governance than European alternatives"
+  ]
 }

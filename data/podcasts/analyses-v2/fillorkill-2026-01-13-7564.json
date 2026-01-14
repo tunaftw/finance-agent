@@ -1,8 +1,14 @@
 {
+  "schema_version": "2.1",
   "episode_id": "fillorkill-2026-01-13-7564",
   "podcast_id": "fillorkill",
   "source_type": "podcast",
-  "analyzed_at": "2026-01-13T12:00:00Z",
+  "podcast_name": "Fill or Kill",
+  "date": "2026-01-13",
+  "episode_title": "Avsnitt 563 - Dags for nyarscase",
+  "hosts": ["Lomwulf"],
+  "guests": [],
+  "analyzed_at": "2026-01-14T00:00:00Z",
   "model_used": "claude-opus-4-5-20251101",
   "recommendations": [
     {
@@ -10,15 +16,15 @@
       "ticker": "SAAB-B.ST",
       "sentiment": "watch",
       "confidence": 0.6,
-      "reasoning": "Stock is up 20% recently, up 1200% since Ukraine invasion. Massive trading volume (4 billion SEK in one day). Many traders shorting it on valuation concerns. Potential state involvement or capital raise discussed. Speaker considers this a sigma 9 event - unprecedented move.",
-      "speaker": null
+      "reasoning": "Stock is up 20% in recent days, up 1200% since Ukraine invasion. Massive trading volume (4 billion SEK in one day). Many traders shorting on valuation concerns. Potential state involvement or capital raise discussed. Described as 'sigma 9 event' - unprecedented move. Defense ETF flows driving purchases.",
+      "speaker": "Lomwulf"
     },
     {
       "stock_name": "Uranium (Sprott Physical Uranium ETF)",
       "ticker": "U-UN.TO",
       "sentiment": "buy",
-      "confidence": 0.75,
-      "reasoning": "Uranium market looks skewed - underinvestment for 15-16 years since Fukushima. Kazakhstan (world's largest producer) guided down production for 2026. Supply appears insufficient vs demand. Russia uranium sanctions add pressure. Market is thin but critical - price insensitive buyers (nuclear plants). Speaker's 2026 case.",
+      "confidence": 0.8,
+      "reasoning": "Uranium market looks very skewed - underinvestment for 15-16 years since Fukushima. Kazakhstan (world's largest producer via Kazatom) guided DOWN production for 2026. Takes 15 years to build uranium mine. Supply appears insufficient vs demand. Russia uranium sanctions add pressure. Market is thin but critical - price insensitive buyers (nuclear plants don't care if price is 80 or 300). ETF holds physical uranium. Explicitly stated as Lomwulf's annual case for 2026.",
       "speaker": "Lomwulf"
     },
     {
@@ -26,31 +32,31 @@
       "ticker": "SNAP",
       "sentiment": "buy",
       "confidence": 0.7,
-      "reasoning": "Had a good report, trading range-bound between 7.5-8.2, now at 8.20. Company pivoting business model to pay influencers per views, creating content ecosystem. Market may not fully recognize business model transformation. Previous stock dilution from employee compensation may be ending. Speaker owns position.",
-      "speaker": null
+      "reasoning": "Had a good report, trading range-bound between 7.5-8.2, now at 8.20. Company pivoting business model to pay influencers per views (Bianca Ingrosso example), creating content ecosystem beyond just messaging. Market may not recognize business model transformation - doesn't show in 10-year chart. Previous stock dilution from employee compensation may be ending. Both hosts own position. Explicitly stated as annual case.",
+      "speaker": "Host"
     },
     {
       "stock_name": "Utelsat (OHB satellite company)",
-      "ticker": null,
+      "ticker": "OSAT.ST",
       "sentiment": "buy",
-      "confidence": 0.7,
-      "reasoning": "Emission went poorly due to Softbank disruption, creating year-end selling for tax losses. Flows returning in January. SpaceX IPO catalyst potential. Dropped from 2.30 to 1.60, now recovering. Satellite sector strong with defense applications.",
-      "speaker": null
+      "confidence": 0.75,
+      "reasoning": "Emission went poorly due to Softbank disrupting the deal late in year. Tax-loss selling created opportunity. Dropped from 2.30 to 1.60, now recovering to 2.30. Flows returning in January - classic year-end case pattern. SpaceX IPO potential catalyst. Satellite sector strong with both commercial and defense applications. Host admits buying more despite psychology of hating stock at lows. Explicitly stated as annual case.",
+      "speaker": "Host"
     },
     {
       "stock_name": "Kambi",
       "ticker": "KAMBI.ST",
       "sentiment": "buy",
       "confidence": 0.6,
-      "reasoning": "Market sentiment negative - people don't believe in it. Company showing hunger with new deals including one on Christmas Eve. Year of proving themselves. Target 140 from Jeffreys despite recent downgrade. Speaker owns position despite being long-suffering holder.",
-      "speaker": null
+      "reasoning": "Market sentiment very negative - people hate and don't believe in the company when pitched. Company showing hunger with new deals including one signed on Christmas Eve/New Year's Eve. 2026 is year of proof. Target 140 from Jeffreys despite recent downgrade. Both hosts own position. Host describes being 'luttrad' (battle-hardened) from holding. Explicitly stated as annual case.",
+      "speaker": "Host"
     },
     {
       "stock_name": "GEO Group",
       "ticker": "GEO",
       "sentiment": "buy",
-      "confidence": 0.65,
-      "reasoning": "Value play on private prisons as real estate. P/E around 7-8. Trump win catalyst for harder criminal justice policies. High leverage but rates expected to decline. Builds prisons in UK, USA. Saw price rally on Trump election, dipped, now recovering. Speaker bought at 15.",
+      "confidence": 0.7,
+      "reasoning": "Value play on private prisons viewed as real estate. P/E around 7-8, very cheap. Trump win catalyst for harder criminal justice policies and potential privatizations. High leverage but rates expected to decline. Long-term government contracts like 'samhallsfastigheter' (social infrastructure). Rallied on Trump election to 30, fell to 15 where Lomwulf bought, now 17-18. Compared favorably to Swedish real estate rally (InteA up 48% on year). Explicitly stated as annual case.",
       "speaker": "Lomwulf"
     },
     {
@@ -58,99 +64,136 @@
       "ticker": "BONESUP.ST",
       "sentiment": "watch",
       "confidence": 0.55,
-      "reasoning": "Binary situation - either company proves itself (strong upside) or shorts are right. Historically cheap for a growing medical device company. Fell from 400 to 180. High short interest. Waiting for Q4 report to determine entry. Large potential moves expected.",
-      "speaker": null
+      "reasoning": "Binary situation - either company proves itself with strong upside, or shorts are right. Historically cheap for a growing medical device company. Fell from 400 to 180. High short interest increasing. Waiting for Q4 report to determine entry timing. Large potential moves expected. Many 'smart investors' own it. Explicitly stated as annual case but with caution.",
+      "speaker": "Host"
     },
     {
       "stock_name": "Silver",
       "ticker": null,
       "sentiment": "buy",
       "confidence": 0.7,
-      "reasoning": "Reached new all-time high at 85-88, continuing strong momentum. Part of broader hard assets/commodities theme. Thin market with potential for squeeze. Weaker dollar supporting precious metals.",
-      "speaker": null
+      "reasoning": "Reached new all-time high at 85-88 dollars, continuing strong momentum from 70 dollar dip. Part of broader hard assets/commodities theme. Thin market like uranium. Weaker dollar and inflation concerns supporting precious metals. 'Moves like a small spotlight stock.'",
+      "speaker": "Host"
     },
     {
       "stock_name": "Gold",
       "ticker": null,
       "sentiment": "buy",
       "confidence": 0.7,
-      "reasoning": "Part of hard assets theme. Flight to safety with geopolitical uncertainty. Venezuela situation, Maduro, Russia sanctions show no safe assets - hard assets preferred by wealthy.",
-      "speaker": null
+      "reasoning": "Part of hard assets theme. All-time highs being hit. Flight to safety with geopolitical uncertainty. Venezuela/Maduro situation, Russia sanctions, seized Russian assets show no truly safe fiat assets - wealthy want hard assets. Warren Buffett margin of safety concept discussed.",
+      "speaker": "Host"
     },
     {
-      "stock_name": "OpenAI (Short thesis via proxies)",
+      "stock_name": "OpenAI",
       "ticker": null,
       "sentiment": "sell",
       "confidence": 0.5,
-      "reasoning": "Reports that OpenAI is losing ground to Google Gemini. Apple chose Google AI. Microsoft (large owner) or Softbank (large owner) could be proxy shorts. No own chips unlike Google.",
-      "speaker": null
+      "reasoning": "Short thesis via proxies. Reports that OpenAI losing ground to Google Gemini daily. Apple chose Google AI. OpenAI has no own chips unlike Google. Potential shorts: Microsoft (large owner), Softbank (large owner, 'went fantastically lately'). Hyperliquid crypto exchange has OpenAI trading at ATH but too complex to short there.",
+      "speaker": "Host"
     },
     {
       "stock_name": "Intrum",
       "ticker": "INTRUM.ST",
       "sentiment": "watch",
       "confidence": 0.55,
-      "reasoning": "Specialist credit fund has appeared as owner. Very volatile, needs to resolve financing in report. Nordic Capital (large holder) selling continuously - if they complete sale or someone buys block, stock transforms. Was at 70 in summer.",
-      "speaker": null
+      "reasoning": "Specialist credit fund appeared as new owner - interesting signal. Very volatile, was at 70 in summer, now much lower. Key catalyst: upcoming report on financing resolution. Nordic Capital (large holder) continuously selling in small amounts instead of block sale. If they complete sale or someone buys their block, stock transforms as overhang removed.",
+      "speaker": "Host"
     },
     {
       "stock_name": "Yubico",
       "ticker": "YUBICO.ST",
       "sentiment": "watch",
       "confidence": 0.5,
-      "reasoning": "Noted dip-buying activity with stock recovering. Interesting ownership changes spotted.",
-      "speaker": null
+      "reasoning": "Noted dip-buying activity in ownership changes. Stock recovering after dip. Mentioned briefly as interesting ownership change to research further.",
+      "speaker": "Host"
+    },
+    {
+      "stock_name": "ARK Space and Defense ETF",
+      "ticker": "ARKX",
+      "sentiment": "buy",
+      "confidence": 0.65,
+      "reasoning": "Up 20% in one month. Defense and space themes converging. ETF flows driving sector. Available via RoboMarkets for Swedish investors. Space sector becoming 2026 theme with SpaceX IPO potential.",
+      "speaker": "Host"
+    },
+    {
+      "stock_name": "Klarna",
+      "ticker": null,
+      "sentiment": "watch",
+      "confidence": 0.4,
+      "reasoning": "Mentioned as example of US volatility - was up 10% on Trump credit card rate cap news, then closed down 5%. Demonstrates US market swings opportunity.",
+      "speaker": "Host"
     }
   ],
   "crypto_mentions": [
     {
       "name": "Hyperliquid",
-      "context": "Mentioned as a crypto market where you can trade OpenAI stock at all-time high based on latest funding round. Not recommended due to complexity of creating accounts on strange exchanges."
+      "context": "Mentioned as a crypto market platform where you can trade OpenAI stock tokens at all-time high based on latest funding round. Not recommended due to complexity - 'creating account on strange exchange to short things sounds too complex'."
     }
   ],
   "insights": [
     {
       "type": "philosophy",
-      "content": "Warren Buffett's margin of safety concept - how far down is valuation vs assets. Want hard assets that provide protection against seizure or country risk.",
-      "speaker": null
-    },
-    {
-      "type": "prediction",
-      "content": "2026 is a US midterm election year - historically not super bullish until after the election (September/November), then very strong afterward.",
-      "speaker": null
-    },
-    {
-      "type": "lesson",
-      "content": "Greenland is strategically critical - controls North Atlantic, needed for nuclear submarines, centuries' most important trade route as Arctic ice melts. Whoever controls Greenland controls shipping between Asia and West (40% shorter than current routes).",
+      "content": "Warren Buffett's margin of safety concept applied to hard assets - how far down is valuation vs physical assets. In uncertain times with asset seizures (Russia, Venezuela), hard assets provide protection against country risk and confiscation.",
       "speaker": "Lomwulf"
     },
     {
       "type": "prediction",
-      "content": "Taiwan invasion risk is real - Polymarket shows 13% chance in 2026. If China takes Taiwan, major chipmakers (Nvidia has 80% production there) would be severely impacted. Chinese stocks trading at discount may reflect this risk.",
-      "speaker": null
-    },
-    {
-      "type": "philosophy",
-      "content": "Year-end case trades (arsskiftescase) - stocks beaten down for tax-loss selling often recover strongly in January as flows return. Good timing strategy.",
-      "speaker": null
+      "content": "2026 is US midterm election year - historically not super bullish until after the election (September/November), then very strong afterward. 'Fasten your seatbelt' for volatility.",
+      "speaker": "Lomwulf"
     },
     {
       "type": "lesson",
-      "content": "ETF flows driving individual stock moves - ARK Space and Defense ETF up 20% in a month, forcing purchases of Saab and other defense stocks regardless of individual valuation.",
-      "speaker": null
+      "content": "Greenland strategic importance: Controls North Atlantic, critical for nuclear submarines and missile systems hitting Moscow without reaction time. As Arctic ice melts, Nordpassagen becomes 'the century's Suez Canal' - 40% shorter Asia-to-West route. Whoever controls Greenland controls this critical shipping lane. Europe cannot afford to defend it (needs trillions for bases, nuclear weapons, aircraft carriers) - only US can.",
+      "speaker": "Lomwulf"
     },
     {
       "type": "prediction",
-      "content": "US electricity demand will surge with AI data centers. Tech companies buying nuclear reactors and mini-reactors. Trump said consumers shouldn't pay for build-out, tech companies must find own power solutions.",
-      "speaker": null
+      "content": "Taiwan invasion risk at 13% on Polymarket for 2026. If China takes Taiwan, Nvidia loses 80% of production. Chinese stocks trading at perpetual discount may reflect this real risk. Comparison to Russia - became 'impossible to own' overnight.",
+      "speaker": "Lomwulf"
     },
     {
       "type": "philosophy",
-      "content": "When geopolitics improves (Iran falls, Venezuela fell, Assad gone), it's bullish for Western markets - peace dividend like when Soviet fell. Russia and China lose influence spheres.",
+      "content": "Year-end case strategy (arsskiftescase): Stocks beaten down for tax-loss selling in December often recover strongly in January as capital flows return. Good systematic timing strategy - Utelsat perfect example.",
+      "speaker": "Host"
+    },
+    {
+      "type": "lesson",
+      "content": "ETF flows creating disconnected valuations - Defense ETFs getting inflows force purchases of Saab regardless of individual company valuation. 'Sector allocation where Saab is weighted together with German companies.' No identifiable flesh-and-blood buyers, just custodian/fund flows.",
+      "speaker": "Host"
+    },
+    {
+      "type": "prediction",
+      "content": "US electricity demand will surge with AI data centers. Tech companies buying nuclear reactors and mini-reactors. Trump said consumers shouldn't pay for AI build-out, tech companies must find own power solutions. Energy winners for 2026.",
       "speaker": "Lomwulf"
+    },
+    {
+      "type": "philosophy",
+      "content": "Geopolitical peace dividend thesis: As Iran potentially falls, Venezuela fell, Assad gone - Russia and China lose all their interest spheres globally. West becomes more powerful. Like when Soviet fell. 'Don't need to be doom-and-gloom about future - long-term looks bright.'",
+      "speaker": "Lomwulf"
+    },
+    {
+      "type": "lesson",
+      "content": "Trading psychology insight: At stock lows (Utelsat at 1.60) you hate the stock and feel deceived. At highs (2.30) you want to buy more. The right move is opposite - 'Gustav Vasa method: just keep staking on.'",
+      "speaker": "Host"
+    },
+    {
+      "type": "lesson",
+      "content": "Fed independence debate: Trump/Besent challenging Fed on bookkeeping, DOJ investigating renovations. Historically normal for presidents to pressure Fed. Fed has bad track record anyway. Key is whether Fed actually lets itself be influenced - if wrong people sit there, independence doesn't matter.",
+      "speaker": "Host"
+    },
+    {
+      "type": "prediction",
+      "content": "Capital rotation from AI to hard assets and value stocks predicted for 2026. Already visible in commodities rally. 'Look at shipping, commodities, value stocks like Bone Support rather than stretched AI valuations.'",
+      "speaker": "Host"
     }
   ],
-  "analysis_summary": "Swedish trading podcast discussing year-start market moves, geopolitics, and investment cases for 2026. Key themes: defense sector rally (Saab up massively), hard assets rotation (uranium, silver, gold), space/satellite plays, and value investing. Hosts discuss Greenland/Taiwan geopolitical risks, year-end trading strategies, and present their annual stock picks including uranium ETFs, Snapchat, Kambi, GEO Group, and Bone Support. Strong bias toward commodities and away from pure AI plays.",
-  "podcast_name": "Fill or Kill",
-  "date": "2026-01-13"
+  "market_sentiment": "bullish",
+  "summary": "Episode 563 covers year-start 2026 market dynamics with focus on extraordinary defense sector rally (Saab up 20% in days, 1200% since Ukraine invasion), hard assets rotation (silver at new ATH, uranium thesis), and geopolitical analysis including Greenland strategic importance and Taiwan invasion risk. Hosts present their annual stock picks: Uranium ETF, Snapchat, Utelsat, Kambi, GEO Group, and Bone Support, emphasizing value and hard assets over stretched AI names.",
+  "key_takeaways": [
+    "Defense sector experiencing unprecedented ETF-driven rally - Saab trading 4B SEK daily with 'sigma 9' moves; many traders shorting on valuation but geopolitics favor continued strength",
+    "Hard assets thesis for 2026: Uranium supply squeeze (Kazatom production cut, 15-year mine development cycle, Russia sanctions), silver at ATH, gold as safety play against asset seizures",
+    "Greenland geopolitically critical as Arctic melts - controls century's most important trade route (Nordpassagen) cutting Asia-West shipping 40%; Europe cannot afford to defend it alone",
+    "Year-end cases working: Utelsat recovered from 1.60 to 2.30, classic tax-loss selling reversal pattern; January flows returning to beaten-down names",
+    "Taiwan 13% invasion risk on Polymarket concerning - Nvidia 80% production there; Chinese stocks may deserve perpetual discount like Russia pre-invasion"
+  ]
 }

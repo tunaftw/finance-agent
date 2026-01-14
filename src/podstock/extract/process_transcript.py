@@ -3,6 +3,7 @@
 import json
 import re
 from pathlib import Path
+from typing import Any
 
 from podstock.analysis import extract_json_from_response
 from .llm_client import LLMClient, create_llm_client
@@ -12,6 +13,57 @@ from .prompt_templates import (
     EXTRACTION_USER_PROMPT,
     FEW_SHOT_EXAMPLE,
 )
+
+
+def _normalize_confidence(value: Any) -> str:
+    """Convert numeric confidence (0-1) to text category.
+
+    Claude sometimes outputs numeric confidence (0.65) instead of
+    text categories ("high", "medium", "low", "speculative").
+    This normalizes the output to match the expected schema.
+    """
+    if isinstance(value, str) and value in ("high", "medium", "low", "speculative"):
+        return value  # Already correct format
+    if not isinstance(value, (int, float)):
+        return "medium"  # Default fallback
+    if value >= 0.7:
+        return "high"
+    elif value >= 0.5:
+        return "medium"
+    elif value >= 0.3:
+        return "low"
+    else:
+        return "speculative"
+
+
+def _normalize_analysis_data(data: dict) -> dict:
+    """Normalize LLM output to match expected schema.
+
+    Handles common schema mismatches where Claude outputs:
+    - 'sentiment' instead of 'action'
+    - numeric confidence instead of text categories
+    """
+    # Normalize recommendations
+    for rec in data.get("recommendations", []):
+        # Handle 'sentiment' -> 'action' field name mismatch
+        if "action" not in rec and "sentiment" in rec:
+            rec["action"] = rec.pop("sentiment")
+
+        # Normalize confidence to text
+        if "confidence" in rec:
+            rec["confidence"] = _normalize_confidence(rec["confidence"])
+
+    # Normalize insights confidence
+    for ins in data.get("insights", []):
+        if "confidence" in ins:
+            ins["confidence"] = _normalize_confidence(ins["confidence"])
+
+    # Normalize crypto_mentions confidence
+    for crypto in data.get("crypto_mentions", []):
+        if "confidence" in crypto:
+            crypto["confidence"] = _normalize_confidence(crypto["confidence"])
+
+    return data
 
 
 class TranscriptProcessor:
@@ -128,6 +180,9 @@ class TranscriptProcessor:
 
         # Parse och validera
         data = json.loads(json_str)
+
+        # Normalize schema mismatches (sentiment->action, numeric->text confidence)
+        data = _normalize_analysis_data(data)
 
         # Lägg till metadata
         data["episode_id"] = file_meta["episode_id"]

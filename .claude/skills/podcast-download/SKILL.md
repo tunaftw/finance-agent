@@ -1,6 +1,6 @@
 ---
 name: podcast-download
-description: Sync podcast transcripts. Use when user asks "vilka podcasts har kommit som inte ar synkade", wants to check unsynced episodes, or download missing transcripts. Identifies episodes from 2025 onwards lacking transcripts and syncs using Apple Podcasts (preferred) or Whisper (fallback).
+description: Sync podcast transcripts. Use when user asks "vilka podcasts har kommit som inte ar synkade", wants to check unsynced episodes, or download missing transcripts. Identifies episodes from current year lacking transcripts and syncs using Apple Podcasts (preferred) or Whisper (fallback).
 ---
 
 # Podcast Download Skill

@@ -18,13 +18,15 @@ Kor hela pipelinen: download -> analyze -> sync DB -> publish hemsida.
 ## Hardkodade Variden
 
 ```
-year_filter:        2025      # Filtrera podcasts fran detta ar
-retry_attempts:     3         # Max retry-forsok
-whisper_timeout:    15 min    # Timeout for Whisper
-analysis_model:     glm-4.7   # Modell for batch-analys
-parallel_agents:    3         # Antal parallella agenter for analys
-analysis_timeout:   180 sec   # Timeout per transkript-analys
+year_filter:        CURRENT_YEAR  # Dynamiskt - anvand datetime.now().year
+retry_attempts:     3             # Max retry-forsok
+whisper_timeout:    15 min        # Timeout for Whisper
+analysis_model:     glm-4.7       # Modell for batch-analys
+parallel_agents:    3             # Antal parallella agenter for analys
+analysis_timeout:   180 sec       # Timeout per transkript-analys
 ```
+
+**VIKTIGT:** year_filter bor aldrig vara hardkodat till ett specifikt ar. Anvand alltid `datetime.now().year` for att filtrera pa innevarande ar.
 
 ---
 
@@ -72,10 +74,14 @@ Anropa **podcast-download** skill-logiken:
 ```python
 import subprocess
 from pathlib import Path
+from datetime import datetime
+
+# Anvand innevarande ar (ALDRIG hardkoda!)
+current_year = str(datetime.now().year)
 
 # Kolla sync status
 result = subprocess.run(
-    ["python3", "scripts/podcast/check_sync_status.py", "--year", "2025", "--json"],
+    ["python3", "scripts/podcast/check_sync_status.py", "--year", current_year, "--json"],
     capture_output=True, text=True
 )
 

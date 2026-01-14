@@ -249,8 +249,9 @@ def print_report(apple_episodes: dict, local_transcripts: dict,
 
 
 def main():
+    current_year = datetime.now().year
     parser = argparse.ArgumentParser(description='Check podcast sync status')
-    parser.add_argument('--year', type=int, default=2025, help='Year cutoff (default: 2025)')
+    parser.add_argument('--year', type=int, default=current_year, help=f'Year cutoff (default: {current_year})')
     parser.add_argument('--podcast', type=str, help='Filter to specific podcast ID')
     parser.add_argument('--json', action='store_true', help='Output as JSON')
     args = parser.parse_args()

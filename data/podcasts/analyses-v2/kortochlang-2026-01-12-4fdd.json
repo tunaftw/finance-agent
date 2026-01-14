@@ -1,48 +1,78 @@
 {
+  "schema_version": "2.1",
   "episode_id": "kortochlang-2026-01-12-4fdd",
   "podcast_id": "kortochlang",
   "source_type": "podcast",
-  "analyzed_at": "2026-01-13T12:00:00.000Z",
+  "podcast_name": "Kort och Lang",
+  "date": "2026-01-12",
+  "episode_title": "Ar investmentbankernas supercykel har?",
+  "hosts": ["Julia", "Jonathan"],
+  "guests": [],
+  "analyzed_at": "2026-01-14T00:00:00Z",
   "model_used": "claude-opus-4-5-20251101",
   "recommendations": [
     {
       "stock_name": "New Wave",
-      "ticker": "NEWA",
+      "ticker": "NEWA-B.ST",
       "sentiment": "buy",
       "confidence": 0.7,
-      "reasoning": "Handelsbanken issued a buy recommendation (kopstampel). The stock has performed weakly recently but received a significant lift from the analyst recommendation. The hosts suggest this could benefit from the cold winter weather driving sales of outdoor gear and thermal underwear.",
+      "reasoning": "Handelsbanken issued a buy recommendation (kopstampel). The stock has performed weakly recently but received a significant lift from the analyst recommendation. Could benefit from cold winter weather driving sales of outdoor gear and thermal underwear.",
       "speaker": "Julia"
     },
     {
-      "stock_name": "ITAB",
-      "ticker": "ITAB",
+      "stock_name": "ITAB Shop Concept",
+      "ticker": "ITAB.ST",
       "sentiment": "buy",
-      "confidence": 0.65,
-      "reasoning": "Julia's 'veckans aktie' (stock of the week). The retail fixtures company has undergone significant transformation as e-commerce grew. Made a major acquisition of HMI that essentially doubles their size. While the acquisition brings integration risks and increased debt, there is logic in the deal given the fragmented market. The stock is undervalued and has fallen back after a report-driven spike. If the acquisition succeeds with synergies and debt reduction, there is significant upside potential.",
+      "confidence": 0.75,
+      "reasoning": "Julia's 'veckans aktie' (stock of the week). Retail fixtures company has transformed as e-commerce grew, shifting focus to technical solutions. Made major HMI acquisition that doubles their size. While integration risks exist and debt increased, there is strategic logic given fragmented market. Stock is undervalued and if acquisition succeeds with synergies, significant upside potential exists.",
       "speaker": "Julia"
     },
     {
-      "stock_name": "Dustin",
-      "ticker": "DUST",
+      "stock_name": "Dustin Group",
+      "ticker": "DUST.ST",
       "sentiment": "watch",
       "confidence": 0.5,
-      "reasoning": "The IT distributor has a report coming on Wednesday. Has been struggling with no growth, poor profitability, and high debt under CEO Johan Karlsson. Latest report showed some improvement, especially in large enterprises and public sector, with better profitability. However, net debt remains concerning. Needs the entire market including SMB segment to recover. Few analysts cover the stock, but estimates suggest decent growth in Q1.",
+      "reasoning": "IT distributor reporting Wednesday. Has struggled with no growth, poor profitability, and high debt. New CEO Samuel Scott replaced Johan Karlsson. Latest report showed improvement in large enterprises and public sector. Net debt remains concerning. Needs entire market including SMB segment to recover for turnaround.",
       "speaker": "Julia"
     },
     {
       "stock_name": "Chefellos",
-      "ticker": null,
+      "ticker": "CHFLLOS.ST",
       "sentiment": "watch",
       "confidence": 0.55,
-      "reasoning": "Trading update coming tomorrow. The stock has been extremely strong over the past 3-5 years (10-bagger or more). Oli Kvarnstrom has been a notable investor who bought near the bottom. While the strong run suggests potential for a pause, could still have upside.",
+      "reasoning": "Trading update coming soon. Stock has been extremely strong over past 3-5 years, a 10-bagger or more. Notable investor Oli Kvarnstrom bought near the bottom. While strong run suggests potential pause, momentum could continue.",
       "speaker": "Jonathan"
+    },
+    {
+      "stock_name": "Flat Capital",
+      "ticker": "FLAT-B.ST",
+      "sentiment": "neutral",
+      "confidence": 0.4,
+      "reasoning": "Got a new CEO Richard L. Tarsi after previous CEO left to join Creades investment team. Uncertainty about how much autonomy new CEO will have versus Sebastian (founder). Some concerns about whether new CEO will be a 'puppet'.",
+      "speaker": "Julia"
     },
     {
       "stock_name": "JP Morgan",
       "ticker": "JPM",
       "sentiment": "watch",
       "confidence": 0.6,
-      "reasoning": "Part of US investment banks reporting this week. Discussion of potential 'supercycle' starting for investment banking due to expected IPO wave, pent-up deal demand, and rate cuts. Jamie Dimon's commentary is considered valuable beyond just the numbers. US banks historically beat expectations, though stock reaction is not always positive.",
+      "reasoning": "First of US investment banks reporting this week. Discussion of potential 'supercycle' starting for investment banking due to expected IPO wave, pent-up deal demand, and rate cuts. Jamie Dimon's commentary is considered valuable beyond the numbers. US banks historically beat expectations.",
+      "speaker": "Jonathan"
+    },
+    {
+      "stock_name": "Bank of America",
+      "ticker": "BAC",
+      "sentiment": "watch",
+      "confidence": 0.55,
+      "reasoning": "Reporting Wednesday along with Citigroup and Wells Fargo. Part of expected investment banking supercycle. US banks historically always beat expectations.",
+      "speaker": "Jonathan"
+    },
+    {
+      "stock_name": "Wells Fargo",
+      "ticker": "WFC",
+      "sentiment": "watch",
+      "confidence": 0.5,
+      "reasoning": "Reporting Wednesday. Did not perform as well last quarter compared to peers. Part of expected investment banking supercycle thesis.",
       "speaker": "Jonathan"
     },
     {
@@ -50,29 +80,50 @@
       "ticker": "TSM",
       "sentiment": "watch",
       "confidence": 0.5,
-      "reasoning": "Gullmars Saxe-Maga mentions TSMC reporting on Thursday. No specific recommendation given but flagged as interesting.",
-      "speaker": null
+      "reasoning": "Semiconductor giant reporting Thursday. Flagged as interesting to watch but no specific recommendation given.",
+      "speaker": "Jonathan"
     }
   ],
   "crypto_mentions": [],
   "insights": [
     {
       "type": "prediction",
-      "content": "This quarter could be the start of a 'supercycle' for investment banking, driven by expected IPOs, pent-up transaction demand, falling interest rates, and optimism around deals.",
-      "speaker": null
+      "content": "This quarter could be the start of a multi-year 'supercycle' for investment banking, driven by expected IPOs, pent-up transaction demand from high rates coming down, and general optimism around deals.",
+      "speaker": "Jonathan"
     },
     {
       "type": "philosophy",
-      "content": "US banks have historically always beaten analyst expectations in the past 15-20 years, but beating expectations does not always lead to stock price increases due to 'whispering' (unofficial higher expectations).",
+      "content": "US banks have historically always beaten analyst expectations in the past 15-20 years of observation. However, beating expectations does not always lead to stock price increases due to 'whispering' - unofficial higher expectations embedded in the market.",
       "speaker": "Jonathan"
     },
     {
       "type": "lesson",
-      "content": "Fed rate cut expectations are zero for January, with the next cut fully priced in for June. Market expects rates to stay higher for longer.",
-      "speaker": null
+      "content": "Fed rate cut expectations are zero for January, with the next cut fully priced in for June. Market expects rates to stay higher for longer despite inflation coming in lower than expected.",
+      "speaker": "Jonathan"
+    },
+    {
+      "type": "wisdom",
+      "content": "In fragmented markets like retail fixtures, consolidation through acquisitions can create significant value through synergies and cross-selling, even if short-term integration risks exist.",
+      "speaker": "Julia"
+    },
+    {
+      "type": "lesson",
+      "content": "Retail stores must invest in their physical locations to remain competitive with e-commerce, as seen with Inditex's success versus H&M. Stores need to integrate better with online channels.",
+      "speaker": "Julia"
+    },
+    {
+      "type": "prediction",
+      "content": "Profit warnings could come this week from Swedish companies, as discussed in previous episode. This is the typical timing window for such announcements.",
+      "speaker": "Julia"
     }
   ],
-  "analysis_summary": "This episode of Kort och Lang focuses on the weekly market outlook with discussions of potential profit warnings, US bank earnings season starting (JP Morgan, Bank of America, etc.), and featured Julia's analysis of ITAB as a turnaround play following their HMI acquisition. The hosts are cautiously optimistic about investment banking entering a supercycle while monitoring Swedish macro data and political events.",
-  "podcast_name": "Kort och Lång",
-  "date": "2026-01-12"
+  "market_sentiment": "neutral",
+  "summary": "Episode focuses on the weekly market outlook with US bank earnings season starting, potential investment banking supercycle thesis, and Julia's featured analysis of ITAB as a turnaround play. The hosts discuss upcoming Swedish company reports including Dustin, potential profit warnings, and macro events like Swedish CPI details and the political leader debate.",
+  "key_takeaways": [
+    "Investment banking may be entering a multi-year supercycle driven by IPO pipeline and pent-up deal demand",
+    "ITAB's HMI acquisition doubles company size - high risk but significant upside if integration succeeds",
+    "New Wave received Handelsbanken buy recommendation, could benefit from cold weather driving outdoor gear sales",
+    "Swedish inflation came in lower than Riksbank expected, but Fed rate cuts not expected until June",
+    "Watch for potential profit warnings from Swedish companies this week"
+  ]
 }
