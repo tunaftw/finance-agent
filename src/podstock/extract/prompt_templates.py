@@ -163,7 +163,7 @@ Extrahera (KOMPLETT SCHEMA 2.1):
    - downside_note (om nämnt: "30% downside", "Risk/reward 3:1")
    - catalyst_timing (om nämnt: "Rapport 2025-02-15", "Q2-lansering")
 
-3. **Stock Segments** (VIKTIGT - för varje aktie med >2 min diskussion)
+3. **Stock Segments** (OBLIGATORISKT - för VARJE aktie i stocks_discussed, oavsett längd)
    - stock_name, ticker
    - timestamp_start, timestamp_end (KRITISKT om tidsstämplar finns!)
    - discussion_summary (3-5 meningar sammanfattning)
@@ -184,6 +184,11 @@ Extrahera (KOMPLETT SCHEMA 2.1):
    - market_sentiment: bullish|bearish|neutral|mixed
    - summary (3-5 meningar)
    - key_takeaways (3-5 punkter för investerare)
+
+⚠️ VALIDERING FÖRE OUTPUT:
+- Kontrollera att VARJE aktie i stocks_discussed har ett motsvarande stock_segment
+- Om en aktie saknar stock_segment: SKAPA ETT, även om diskussionen var kort
+- Tom stock_segments-array är ENDAST OK om inga aktier diskuterades
 
 Returnera som JSON med schema_version: "2.1"."""
 
