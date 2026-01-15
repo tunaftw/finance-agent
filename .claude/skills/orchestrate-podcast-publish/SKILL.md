@@ -122,6 +122,8 @@ Om anvandaren valjer "Valj specifika", anvand multiSelect=true med podcast-namn.
 
 ### 2c. Ladda ner valda transkript
 
+**VIKTIGT:** Scriptet `download_apple_transcripts.py` stodjer BADE vara podcast-ID:n (t.ex. `marketmakers`) OCH Apple-namn (t.ex. `Market Makers`). Det oversatter automatiskt via `data/podcast_mapping.json`.
+
 **KOR:** Anropa podcast-download skill med Skill-verktyget:
 
 ```
@@ -133,24 +135,107 @@ Folj podcast-download skillens instruktioner for att ladda ner de valda avsnitte
 **Alternativt (om du vill kora inline):**
 
 ```python
-# For varje valt avsnitt
+# For varje valt avsnitt - anvand VARA podcast-ID:n (t.ex. "marketmakers")
 for episode in selected_episodes:
+    podcast_id = episode["podcast_id"]  # vara ID, t.ex. "marketmakers"
+
     # Forsok Apple Podcasts forst
     try:
         result = subprocess.run([
             "python3", "scripts/download_apple_transcripts.py",
-            "--podcast", episode["podcast"],
-            "--max", "1"
+            "--podcast", podcast_id,  # Scriptet oversatter till Apple-namn automatiskt
+            "--max", "5"
         ], capture_output=True, text=True, timeout=120)
 
-        if result.returncode == 0:
-            print(f"  ✓ {episode['id']} (Apple)")
+        if result.returncode == 0 and "Downloaded" in result.stdout:
+            print(f"  ✓ {podcast_id} (Apple)")
             continue
     except:
         pass
 
     # Fallback till Whisper
-    print(f"  ⚠ {episode['id']} - kraver Whisper (manuell atgard)")
+    print(f"  ⚠ {podcast_id} - kraver Whisper (manuell atgard)")
+```
+
+### 2d. Extrahera TTML till text
+
+**VIKTIGT:** Efter nedladdning maste TTML-filer extraheras till textfiler.
+
+```python
+import hashlib
+import json
+import re
+import sqlite3
+from datetime import datetime, timedelta
+from pathlib import Path
+
+# Paths
+APPLE_DB = Path.home() / "Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Documents/MTLibrary.sqlite"
+TTML_CACHE = Path.home() / "Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache/Assets/TTML"
+TRANSCRIPTS_DIR = Path("data/transcripts")
+PODCAST_MAPPING = Path("data/podcast_mapping.json")
+COCOA_EPOCH = datetime(2001, 1, 1)
+
+# Load podcast mapping
+with open(PODCAST_MAPPING) as f:
+    apple_to_id = json.load(f).get("apple_to_id", {})
+
+def find_ttml_file(transcript_id: str):
+    potential = TTML_CACHE / transcript_id
+    if potential.exists():
+        return potential
+    match = re.search(r'transcript_(\d+)\.ttml$', transcript_id)
+    if match:
+        ttml_id = match.group(1)
+        alt_path = TTML_CACHE / transcript_id.replace(f"transcript_{ttml_id}.ttml", f"transcript_{ttml_id}.ttml-{ttml_id}.ttml")
+        if alt_path.exists():
+            return alt_path
+    return None
+
+def parse_ttml(ttml_path):
+    raw = ttml_path.read_text(encoding="utf-8")
+    words = re.findall(r'podcasts:unit="word"[^>]*>([^<]+)</span>', raw)
+    return re.sub(r"\s+", " ", " ".join(w.strip() for w in words if w.strip()))
+
+# Query and extract
+conn = sqlite3.connect(APPLE_DB)
+cursor = conn.cursor()
+cursor.execute("""
+    SELECT e.ZTITLE, p.ZTITLE, e.ZPUBDATE, e.ZTRANSCRIPTIDENTIFIER
+    FROM ZMTEPISODE e JOIN ZMTPODCAST p ON e.ZPODCAST = p.Z_PK
+    WHERE e.ZTRANSCRIPTIDENTIFIER IS NOT NULL ORDER BY e.ZPUBDATE DESC
+""")
+
+extracted = 0
+for row in cursor.fetchall():
+    episode_title, podcast_name, pub_date_cocoa, transcript_id = row
+    podcast_id = apple_to_id.get(podcast_name)
+    if not podcast_id:
+        continue
+
+    ttml_path = find_ttml_file(transcript_id)
+    if not ttml_path:
+        continue
+
+    pub_date = COCOA_EPOCH + timedelta(seconds=pub_date_cocoa)
+    episode_id = f"{podcast_id}-{pub_date.strftime('%Y-%m-%d')}-{hashlib.md5(episode_title.encode()).hexdigest()[:4]}"
+
+    transcript_path = TRANSCRIPTS_DIR / podcast_id / f"{episode_id}.txt"
+    if transcript_path.exists():
+        continue
+
+    text = parse_ttml(ttml_path)
+    if len(text.split()) < 100:
+        continue
+
+    transcript_path.parent.mkdir(parents=True, exist_ok=True)
+    header = f"{'='*60}\nEpisode: {episode_id}\nPodcast: {podcast_id}\nsource: apple\noriginal_title: {episode_title}\npub_date: {pub_date.strftime('%Y-%m-%d')}\n{'='*60}\n\n"
+    transcript_path.write_text(header + text + "\n")
+    print(f"  + {episode_id}")
+    extracted += 1
+
+conn.close()
+print(f"✓ Extracted: {extracted} new transcripts")
 ```
 
 ---

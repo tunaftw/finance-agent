@@ -20,6 +20,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import shutil
@@ -45,6 +46,52 @@ DOWNLOAD_DIR = PROJECT_ROOT / "tools/apple-transcripts"
 
 # Cocoa epoch for timestamp conversion
 COCOA_EPOCH = datetime(2001, 1, 1)
+
+# Podcast mapping file
+PODCAST_MAPPING_PATH = PROJECT_ROOT / "data/podcast_mapping.json"
+
+
+def load_podcast_mapping() -> dict:
+    """Load podcast mapping from JSON file.
+
+    Returns dict with:
+      - apple_to_id: {Apple name -> our ID}
+      - id_to_apple: {our ID -> Apple name}
+    """
+    if not PODCAST_MAPPING_PATH.exists():
+        return {"apple_to_id": {}, "id_to_apple": {}}
+
+    with open(PODCAST_MAPPING_PATH) as f:
+        data = json.load(f)
+
+    apple_to_id = data.get("apple_to_id", {})
+    # Create reverse mapping
+    id_to_apple = {v: k for k, v in apple_to_id.items()}
+
+    return {"apple_to_id": apple_to_id, "id_to_apple": id_to_apple}
+
+
+def resolve_podcast_filter(podcast_input: str) -> str:
+    """Resolve podcast input to Apple name for DB query.
+
+    Accepts either:
+      - Our podcast ID (e.g., 'marketmakers') -> returns 'Market Makers'
+      - Apple name (e.g., 'Market Makers') -> returns as-is
+    """
+    mapping = load_podcast_mapping()
+    id_to_apple = mapping["id_to_apple"]
+
+    # Check if input is one of our IDs
+    if podcast_input.lower() in id_to_apple:
+        return id_to_apple[podcast_input.lower()]
+
+    # Check if input matches an ID (case-insensitive)
+    for our_id, apple_name in id_to_apple.items():
+        if podcast_input.lower() == our_id.lower():
+            return apple_name
+
+    # Assume it's already an Apple name
+    return podcast_input
 
 
 def check_requirements():
@@ -193,7 +240,7 @@ def move_to_cache(ttml_path: Path, transcript_id: str) -> bool:
 
 def main():
     parser = argparse.ArgumentParser(description="Download Apple Podcasts transcripts")
-    parser.add_argument("--podcast", "-p", help="Filter by podcast name")
+    parser.add_argument("--podcast", "-p", help="Filter by podcast (our ID like 'marketmakers' or Apple name like 'Market Makers')")
     parser.add_argument("--max", "-m", type=int, default=0, help="Maximum number to download (0 = unlimited)")
     parser.add_argument("--delay", "-d", type=float, default=0.5, help="Delay between downloads in seconds")
     parser.add_argument("--all", "-a", action="store_true", help="Download for all podcasts")
@@ -213,7 +260,12 @@ def main():
     print(f"📦 Already cached: {len(cached_ids)} transcripts")
 
     # Get episodes with transcripts
-    podcast_filter = args.podcast if not args.all else None
+    # Resolve our podcast ID to Apple name if needed
+    podcast_filter = None
+    if args.podcast and not args.all:
+        podcast_filter = resolve_podcast_filter(args.podcast)
+        if podcast_filter != args.podcast:
+            print(f"🔄 Resolved '{args.podcast}' → '{podcast_filter}'")
     episodes = get_episodes_with_transcripts(podcast_filter)
     print(f"📚 Total episodes with transcripts: {len(episodes)}")
 

@@ -88,8 +88,17 @@ See [references/apple-method.md](references/apple-method.md)
 
 **Key points:**
 - Check if transcript exists in Apple Podcasts database
-- Use `download_apple_transcripts.py` script to extract
+- Use `download_apple_transcripts.py` script to download TTML
+- **VIKTIGT:** Scriptet stodjer BADE vara podcast-ID:n (`marketmakers`) OCH Apple-namn (`Market Makers`)
+- After download, extract TTML to text (see orchestrate-podcast-publish skill)
 - Transcript stored in `data/transcripts/{podcast_id}/`
+
+**Exempel:**
+```bash
+# Anvand vara podcast-ID:n
+python3 scripts/download_apple_transcripts.py --podcast marketmakers --max 10
+python3 scripts/download_apple_transcripts.py --podcast fillorkill --max 5
+```
 
 ### For Whisper method
 

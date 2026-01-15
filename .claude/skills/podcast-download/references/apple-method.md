@@ -107,20 +107,31 @@ for t in cached:
 For transcripts not yet cached, use the FetchTranscript helper script:
 
 ```bash
-# Download transcripts for a specific podcast
-python scripts/download_apple_transcripts.py --podcast "Borspodden" --max 10
+# Download using OUR podcast ID (recommended)
+python scripts/download_apple_transcripts.py --podcast marketmakers --max 10
+python scripts/download_apple_transcripts.py --podcast fillorkill --max 10
+
+# Or using Apple's podcast name (also works)
+python scripts/download_apple_transcripts.py --podcast "Market Makers" --max 10
 
 # Download all available transcripts
 python scripts/download_apple_transcripts.py --max 50
 ```
 
-The script:
-1. Queries Apple Podcasts DB for episodes with transcripts
-2. Checks which are not yet in local TTML cache
-3. Uses FetchTranscript tool to download TTML files
-4. Saves to the cache directory for later extraction
+**VIKTIGT:** Scriptet stodjer BADE:
+- Vara podcast-ID:n (t.ex. `marketmakers`, `fillorkill`, `borspodden`)
+- Apple-namn (t.ex. `Market Makers`, `Fill or Kill`, `Börspodden`)
 
-After downloading, run the cached workflow above to extract.
+Scriptet oversatter automatiskt via `data/podcast_mapping.json`.
+
+The script:
+1. Resolves podcast ID to Apple name (if needed) using `podcast_mapping.json`
+2. Queries Apple Podcasts DB for episodes with transcripts
+3. Checks which are not yet in local TTML cache
+4. Uses FetchTranscript tool to download TTML files
+5. Saves to the cache directory for later extraction
+
+After downloading, **you must extract TTML to text files** - see orchestrate-podcast-publish skill for extraction code.
 
 ## AppleTranscript Object
 
