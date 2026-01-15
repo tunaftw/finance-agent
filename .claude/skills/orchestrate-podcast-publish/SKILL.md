@@ -65,23 +65,6 @@ git diff --quiet && echo "✓ Git working tree ren" || echo "⚠ Git har uncommi
 
 ---
 
-## Steg 1b: Valj Analysmodell
-
-**ALLTID FRAGA ANVANDAREN** nar det finns transkript att analysera:
-
-Anvand AskUserQuestion:
-```
-Fraga: "X transkript att analysera. Vilken modell vill du anvanda?"
-
-Options:
-1. "Claude (rekommenderas for kvalitet)"
-2. "GLM-4.7 (snabbare, gratis)"
-```
-
-Spara valet for anvandning i Steg 3. Notera: Bada modeller anvander nu samma enhetliga prompt fran `prompt_templates.py`.
-
----
-
 ## Steg 2: Download Transcripts
 
 ### 2a. Kolla sync-status
@@ -124,6 +107,23 @@ else:
         print(f"| ... | +{len(missing)-10} till | ... | ... |")
 ```
 
+### 2c. Valj Analysmodell
+
+**EFTER tabellen visats, fraga anvandaren vilken modell som ska anvandas for analys:**
+
+Anvand AskUserQuestion:
+```
+Fraga: "Vilken modell vill du anvanda for analys?"
+
+Options:
+1. "Claude (rekommenderas for kvalitet)"
+2. "GLM-4.7 (snabbare, gratis)"
+```
+
+Spara valet for anvandning i Steg 3. Notera: Bada modeller anvander nu samma enhetliga prompt fran `prompt_templates.py`.
+
+### 2d. Fraga om nedladdning
+
 **Anvand AskUserQuestion:**
 
 ```
@@ -137,7 +137,7 @@ Options:
 
 Om anvandaren valjer "Valj specifika", anvand multiSelect=true med podcast-namn.
 
-### 2c. Ladda ner valda transkript
+### 2e. Ladda ner valda transkript
 
 **VIKTIGT:** Scriptet `download_apple_transcripts.py` stodjer BADE vara podcast-ID:n (t.ex. `marketmakers`) OCH Apple-namn (t.ex. `Market Makers`). Det oversatter automatiskt via `data/podcast_mapping.json`.
 
@@ -174,7 +174,7 @@ for episode in selected_episodes:
     print(f"  ⚠ {podcast_id} - kraver Whisper (manuell atgard)")
 ```
 
-### 2d. Extrahera TTML till text
+### 2f. Extrahera TTML till text
 
 **VIKTIGT:** Efter nedladdning maste TTML-filer extraheras till textfiler.
 

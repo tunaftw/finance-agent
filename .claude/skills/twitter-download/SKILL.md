@@ -1,6 +1,8 @@
 ---
 name: twitter-download
-description: Download tweets from Twitter/X users. Use when user wants to collect, download, fetch, or sync tweets from a specific Twitter handle. Supports two methods: Twitter API (automated, costs credits) or browser scraping (manual, free). Handles date ranges like "all tweets from 2024", "new tweets since last download", or specific months.
+description: >-
+  Download tweets from Twitter/X users. Use when user wants to collect,
+  download, fetch, or sync tweets from a specific Twitter handle.
 ---
 
 # Twitter Download Skill
