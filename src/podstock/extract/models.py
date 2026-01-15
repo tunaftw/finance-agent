@@ -5,7 +5,41 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
+
+
+def _normalize_ticker(ticker: str | None) -> str:
+    """Normalize ticker for comparison (remove exchange suffixes)."""
+    if not ticker:
+        return ""
+    # Remove common exchange suffixes: .ST, -B, -A, .TO, etc.
+    normalized = ticker.upper()
+    for suffix in [".ST", ".TO", ".HK", "-B", "-A", " B", " A"]:
+        normalized = normalized.replace(suffix, "")
+    return normalized.strip()
+
+
+def _is_ticker_like(name: str, ticker: str | None) -> bool:
+    """Check if stock_name looks like a ticker (short, uppercase, matches ticker)."""
+    if not name:
+        return True  # Empty is "ticker-like" (bad)
+
+    name_upper = name.upper().strip()
+    ticker_normalized = _normalize_ticker(ticker)
+
+    # Empty or whitespace-only
+    if not name_upper:
+        return True
+
+    # Exact match with ticker
+    if ticker_normalized and name_upper == ticker_normalized:
+        return True
+
+    # Very short all-caps (likely ticker, not company name)
+    if len(name_upper) <= 5 and name_upper.isupper() and name_upper.isalpha():
+        return True
+
+    return False
 
 
 # === Stock Segment Models (för djupanalys) ===
@@ -51,8 +85,19 @@ class ThesisComponents(BaseModel):
 class StockSegment(BaseModel):
     """Komplett segment för djupanalys av en aktiediskussion."""
 
-    stock_name: str = Field(description="Aktiens namn")
-    ticker: str | None = Field(default=None, description="Ticker om känd")
+    stock_name: str = Field(description="Fullständigt bolagsnamn (t.ex. 'Hacksaw Gaming', ALDRIG bara ticker)")
+    ticker: str | None = Field(default=None, description="Börsticker (t.ex. 'HACSO')")
+
+    @model_validator(mode="after")
+    def validate_stock_name_not_ticker(self) -> "StockSegment":
+        """Ensure stock_name is a proper company name, not a ticker."""
+        if _is_ticker_like(self.stock_name, self.ticker):
+            raise ValueError(
+                f"stock_name måste vara fullständigt bolagsnamn, inte ticker. "
+                f"Fick: stock_name='{self.stock_name}', ticker='{self.ticker}'. "
+                f"Exempel: stock_name='Hacksaw Gaming', ticker='HACSO'"
+            )
+        return self
 
     # Tidsstämplar och längd
     timestamp_start: str | None = Field(default=None, description="När diskussionen börjar [HH:MM:SS]")
@@ -131,11 +176,22 @@ class CryptoMention(BaseModel):
 class StockRecommendation(BaseModel):
     """En enskild aktie-rekommendation från ett poddavsnitt."""
 
-    stock_name: str = Field(description="Aktiens namn, t.ex. 'Evolution'")
-    ticker: str | None = Field(default=None, description="Ticker om nämnt, t.ex. 'EVO'")
+    stock_name: str = Field(description="Fullständigt bolagsnamn (t.ex. 'Evolution Gaming', ALDRIG bara ticker)")
+    ticker: str | None = Field(default=None, description="Börsticker (t.ex. 'EVO')")
     action: Literal["buy", "sell", "hold", "watch", "avoid"] = Field(
         description="Typ av rekommendation"
     )
+
+    @model_validator(mode="after")
+    def validate_stock_name_not_ticker(self) -> "StockRecommendation":
+        """Ensure stock_name is a proper company name, not a ticker."""
+        if _is_ticker_like(self.stock_name, self.ticker):
+            raise ValueError(
+                f"stock_name måste vara fullständigt bolagsnamn, inte ticker. "
+                f"Fick: stock_name='{self.stock_name}', ticker='{self.ticker}'. "
+                f"Exempel: stock_name='Evolution Gaming', ticker='EVO'"
+            )
+        return self
     confidence: Literal["high", "medium", "low", "speculative"] = Field(
         description="Hur övertygad är talaren"
     )
