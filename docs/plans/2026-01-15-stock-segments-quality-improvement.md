@@ -1,8 +1,8 @@
 # Stock Segments Quality Improvement
 
 **Datum:** 2026-01-15
-**Status:** Fas 1 klar, Fas 2 väntar på beslut
-**Commit:** `01ed10a` (prompt fix)
+**Status:** Fas 1 & 1.5 klar, Fas 2 redo för körning
+**Commits:** `01ed10a` (prompt fix), `53e17a5` (stock_name fix)
 
 ## Bakgrund
 
@@ -68,6 +68,54 @@ Hacksaw Gaming-segmentet berikades manuellt med:
 - 3 risks
 - 6 quotes med context
 - Financial metrics (EV/EBIT, tillväxt, marginaler)
+
+## Genomförda åtgärder (Fas 1.5 - stock_name fix)
+
+### Problem identifierat
+
+Dashboard visade "(HACSO)" istället för "Hacksaw Gaming (HACSO)" - aktienamn saknades.
+
+**Grundorsaker:**
+1. `marketmakers-2026-01-15-78d2.json` använde `"company"` istället för `"stock_name"` (schema-mismatch)
+2. Prompten var otydlig om att `stock_name` måste vara fullständigt bolagsnamn (aldrig ticker)
+
+### 3. Förbättrad prompt för stock_name/ticker (Fas 1.5)
+
+**Ändring i `src/podstock/extract/prompt_templates.py`:**
+
+```diff
+2. **Recommendations** (för tydliga köp/sälj/watch)
+-  - stock_name, ticker, action, confidence, speaker, speaker_role
++  - stock_name: FULLSTÄNDIGT bolagsnamn (t.ex. "Evolution Gaming", "Hacksaw Gaming", "Saab AB") - ALDRIG tom
++  - ticker: Börsticker (t.ex. "EVO", "HACSO", "SAAB-B")
++  - action, confidence, speaker, speaker_role
+
+3. **Stock Segments** (OBLIGATORISKT...)
+-  - stock_name, ticker
++  - stock_name: FULLSTÄNDIGT bolagsnamn (samma som ovan - ALDRIG tom)
++  - ticker: Börsticker
+```
+
+**Ny validerings-instruktion:**
+
+```
+⚠️ KRITISKT: stock_name får ALDRIG vara tomt eller lika med ticker
+  - FEL: stock_name="" ticker="HACSO" → RÄTT: stock_name="Hacksaw Gaming" ticker="HACSO"
+  - FEL: stock_name="EVO" ticker="EVO" → RÄTT: stock_name="Evolution Gaming" ticker="EVO"
+```
+
+### 4. Fixad marketmakers-fil
+
+Schema-mismatch fixat: `"company"` → `"stock_name"` för alla 11 rekommendationer.
+
+**Verifiering:**
+```
+rec[0]: stock_name='Ovzon' ticker='OVZON'
+rec[1]: stock_name='Saab' ticker='SAAB B'
+rec[2]: stock_name='Google (Alphabet)' ticker='GOOGL'
+rec[4]: stock_name='Hacksaw Gaming' ticker='HACSO'
+... (alla 11 korrekta)
+```
 
 ## Episoder som behöver re-analyseras (Fas 2)
 
@@ -192,3 +240,4 @@ for f in analyses_dir.glob('*-2026-01-*.json'):
 | 2026-01-15 | Prompt-fix: Tog bort 2-min tröskel, lade till validering | `01ed10a` |
 | 2026-01-15 | Manuell berikning: Market Makers Hacksaw Gaming | `f9ea709` |
 | 2026-01-15 | Header-fix: 0 avsnitt → podcast_episodes | `c5a3d8c` |
+| 2026-01-15 | stock_name-fix: Tydligare prompt + fixad marketmakers-fil | `53e17a5` |

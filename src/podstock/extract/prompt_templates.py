@@ -155,7 +155,9 @@ Extrahera (KOMPLETT SCHEMA 2.1):
    - hosts, guests (med titel/roll om nämnt), main_topics (max 5), stocks_discussed (alla som nämns)
 
 2. **Recommendations** (för tydliga köp/sälj/watch)
-   - stock_name, ticker, action, confidence, speaker, speaker_role
+   - stock_name: FULLSTÄNDIGT bolagsnamn (t.ex. "Evolution Gaming", "Hacksaw Gaming", "Saab AB", "Spotify Technology") - ALDRIG tom, ALDRIG bara ticker
+   - ticker: Börsticker (t.ex. "EVO", "HACSO", "SAAB-B", "SPOT")
+   - action, confidence, speaker, speaker_role
    - timestamp (KRITISKT - måste inkluderas om tillgänglig!)
    - reasoning, price_target, time_horizon
    - quote (exakt citat, max 100 ord), sector, market
@@ -164,7 +166,8 @@ Extrahera (KOMPLETT SCHEMA 2.1):
    - catalyst_timing (om nämnt: "Rapport 2025-02-15", "Q2-lansering")
 
 3. **Stock Segments** (OBLIGATORISKT - för VARJE aktie i stocks_discussed, oavsett längd)
-   - stock_name, ticker
+   - stock_name: FULLSTÄNDIGT bolagsnamn (samma som ovan - ALDRIG tom)
+   - ticker: Börsticker
    - timestamp_start, timestamp_end (KRITISKT om tidsstämplar finns!)
    - discussion_summary (3-5 meningar sammanfattning)
    - quotes: [ {{ speaker, text, timestamp, context: "thesis"|"bull_case"|"bear_case"|"metric"|"conclusion"|"other" }} ]
@@ -189,6 +192,10 @@ Extrahera (KOMPLETT SCHEMA 2.1):
 - Kontrollera att VARJE aktie i stocks_discussed har ett motsvarande stock_segment
 - Om en aktie saknar stock_segment: SKAPA ETT, även om diskussionen var kort
 - Tom stock_segments-array är ENDAST OK om inga aktier diskuterades
+- KRITISKT: stock_name får ALDRIG vara tomt eller lika med ticker
+  - FEL: stock_name="" ticker="HACSO" → RÄTT: stock_name="Hacksaw Gaming" ticker="HACSO"
+  - FEL: stock_name="EVO" ticker="EVO" → RÄTT: stock_name="Evolution Gaming" ticker="EVO"
+  - FEL: stock_name="SAAB" ticker="SAAB-B" → RÄTT: stock_name="Saab AB" ticker="SAAB-B"
 
 Returnera som JSON med schema_version: "2.1"."""
 
@@ -437,8 +444,8 @@ JSON_SCHEMA_TEMPLATE = '''{{
   "stocks_discussed": ["Aktie1", "Aktie2"],
   "recommendations": [
     {{
-      "stock_name": "Aktiens namn",
-      "ticker": null,
+      "stock_name": "FULLSTÄNDIGT bolagsnamn (t.ex. Evolution Gaming, Hacksaw Gaming, Saab AB)",
+      "ticker": "Börsticker (t.ex. EVO, HACSO, SAAB-B)",
       "action": "buy|sell|hold|watch|avoid",
       "confidence": "high|medium|low|speculative",
       "speaker": "Vem som pratar",
@@ -457,8 +464,8 @@ JSON_SCHEMA_TEMPLATE = '''{{
   ],
   "stock_segments": [
     {{
-      "stock_name": "Aktiens namn",
-      "ticker": null,
+      "stock_name": "FULLSTÄNDIGT bolagsnamn (samma som recommendations - ALDRIG tomt)",
+      "ticker": "Börsticker",
       "timestamp_start": "HH:MM:SS",
       "timestamp_end": "HH:MM:SS",
       "speakers": ["Talare1"],
