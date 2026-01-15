@@ -63,3 +63,21 @@ def test_normalize_analysis_data_with_insights():
     assert result["insights"][0]["summary"] == "Test insight"
     # Second insight unchanged
     assert result["insights"][1]["quote"] == "Correct"
+
+
+def test_exporter_normalize_insight():
+    """Exporter should normalize insights before export."""
+    from podstock.dashboard.exporters import _normalize_insight_for_export
+
+    wrong_format = {
+        "topic": "Test topic",
+        "insight": "Test insight text",
+        "speaker": "TestSpeaker"
+    }
+
+    result = _normalize_insight_for_export(wrong_format)
+
+    assert result["summary"] == "Test insight text"
+    assert result["quote"] == "Test insight text"
+    assert result["category"] == "wisdom"
+    assert result["speaker"] == "TestSpeaker"

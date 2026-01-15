@@ -141,6 +141,38 @@ def _numeric_to_text_confidence(value: Any) -> str:
         return "speculative"
 
 
+def _normalize_insight_for_export(ins: dict) -> dict:
+    """Normalize insight schema for dashboard export.
+
+    Handles both v2.1 correct format and legacy wrong format.
+    """
+    # If wrong format (topic/insight instead of quote/summary)
+    if "summary" not in ins and ("insight" in ins or "topic" in ins):
+        insight_text = ins.get("insight", ins.get("topic", ""))
+        return {
+            "summary": insight_text,
+            "quote": insight_text,
+            "category": ins.get("category", "wisdom"),
+            "speaker": ins.get("speaker", ""),
+            "speaker_role": ins.get("speaker_role", ""),
+            "timestamp": ins.get("timestamp"),
+            "confidence": _numeric_to_text_confidence(ins.get("confidence", "")),
+            "tags": ins.get("tags") or [],
+        }
+
+    # Correct format - just normalize confidence
+    return {
+        "summary": ins.get("summary", ""),
+        "category": ins.get("category", ""),
+        "speaker": ins.get("speaker", ""),
+        "speaker_role": ins.get("speaker_role", ""),
+        "timestamp": ins.get("timestamp"),
+        "confidence": _numeric_to_text_confidence(ins.get("confidence", "")),
+        "tags": ins.get("tags") or [],
+        "quote": ins.get("quote", ""),
+    }
+
+
 # --- NEW EXPORTERS FOR SOURCE-SPECIFIC TABS ---
 
 # Known name aliases for podcast normalization
@@ -487,17 +519,7 @@ def export_podcasts(data_dir: Path, session: Optional[Session] = None) -> dict[s
                 for seg in data.get("stock_segments", [])
             ],
             "insights": [
-                {
-                    "summary": ins.get("summary", ""),
-                    "category": ins.get("category", ""),
-                    "speaker": ins.get("speaker", ""),
-                    "speaker_role": ins.get("speaker_role", ""),
-                    "timestamp": ins.get("timestamp"),
-                    # Handle v2.1 schema: numeric -> text confidence
-                    "confidence": _numeric_to_text_confidence(ins.get("confidence", "")),
-                    "tags": ins.get("tags") or [],
-                    "quote": ins.get("quote", ""),
-                }
+                _normalize_insight_for_export(ins)
                 for ins in data.get("insights", [])
             ],
         }
