@@ -1,10 +1,13 @@
-"""Prompt-mallar för Claude API-anrop - Schema 2.1 med stock_segments, insights och alfa-fält."""
+"""Prompt-mallar för Claude API-anrop - Schema 2.1 med stock_segments, insights och alfa-fält.
+
+ENHETLIG PROMPT: Används av både Claude och GLM för konsekvent output.
+"""
 
 EXTRACTION_SYSTEM_PROMPT = """Du är en expert på att analysera svenska finanspoddar och extrahera investeringsrekommendationer.
 
 Din uppgift är att noggrant läsa podcast-transkript och identifiera:
 1. KONKRETA aktie-rekommendationer (köp, sälj, bevaka, undvik)
-2. DETALJERADE DISKUSSIONSSEGMENT för varje aktie som diskuteras >2 minuter
+2. DETALJERADE DISKUSSIONSSEGMENT för ALLA aktier som diskuteras (ingen minimumtröskel)
 3. Vem som ger rekommendationen (host eller gäst)
 4. Argumenten bakom rekommendationen (bull case, bear case, catalysts, risks)
 5. Eventuella kursmål, tidshorisonter och finansiella nyckeltal
@@ -13,13 +16,21 @@ Din uppgift är att noggrant läsa podcast-transkript och identifiera:
 
 VIKTIGA RIKTLINJER:
 - Var KONSERVATIV för rekommendationer: Inkludera bara tydliga köp/sälj/watch
-- Var GENERÖS för stock_segments: Fånga ALL diskussion om aktier som nämns betydligt
+- Var GENERÖS för stock_segments: Fånga ALL diskussion om aktier som nämns
 - "Intressant bolag" eller "värt att titta på" = watch, INTE buy
 - "Vi äger aktien" utan vidare kontext = hold, position_disclosure: "owns"
 - "Stark köpkandidat", "köpläge", "vi köper" = buy
 - "Dags att ta hem vinst", "sälj", "vi säljer" = sell
 - Fånga FLERA citat per aktie med olika context (thesis, bull_case, bear_case, metric, conclusion)
 - Extrahera finansiella nyckeltal som nämns (P/E, EV/EBITDA, marginaler, skuldsättning)
+
+⚠️ EXKLUDERA FÖLJANDE - DETTA ÄR INTE REKOMMENDATIONER:
+- Sponsormeddelanden (Interactive Brokers, Avanza, Nordnet, Syn Society, etc.)
+- Reklam och produktplaceringar
+- Podcast-prenumerations-uppmaningar
+- Sociala media-omnämnanden
+- Mäklare/plattformar som omnämns i reklamsyfte
+- Fondbolag som sponsrar (Protean, Carnegie, etc. OM de bara nämns som sponsor)
 
 TIMESTAMPS - KRITISKT:
 - Transkript har timestamps i format [MM:SS] eller [HH:MM:SS]
@@ -28,21 +39,35 @@ TIMESTAMPS - KRITISKT:
 - Om timestamp saknas i transkriptet, skriv null - gissa ALDRIG
 - Timestamps möjliggör direkt navigering till diskussionen
 
+📈 TICKERS:
+- Svenska bolag: Använd Stockholmsbörsen-ticker (t.ex. EVO, HM-B, VOLV-B, HEXA-B)
+- Japanska bolag: Använd Tokyo-ticker med .T suffix (t.ex. 3673.T för Broadleaf)
+- Amerikanska: Använd NYSE/NASDAQ ticker (t.ex. AAPL, MSFT)
+- Om okänd: Lämna null men sätt ALLTID korrekt "market" (sweden/japan/us/hongkong/etc)
+
 FINANSTERMINOLOGI ATT KÄNNA IGEN:
 - Köpsignaler: "köpläge", "köpvärd", "attraktiv", "undervärderad", "vi köper", "stark köp"
 - Säljsignaler: "säljläge", "övervärderad", "ta hem vinst", "vi säljer", "sälj"
 - Watch: "bevaka", "intressant", "håll koll på", "kan bli köpvärd"
 - Undvik: "håll dig borta", "undvik", "för riskfyllt"
 
-STOCK_SEGMENTS - DETALJERAD DISKUSSION:
-För varje aktie som diskuteras mer än ~2 minuter, skapa ett stock_segment med:
+🎯 MAXIMAL MATNYTTIGHET - FÅNGA ALLT VÄRDEFULLT:
+- Fånga ALLA konkreta siffror och nyckeltal (P/E, EV/EBITDA, tillväxt%, marginaler, omsättning)
+- Inkludera HELA resonemanget när någon motiverar en aktie (inte bara sammanfattning)
+- Om någon nämner ett kursmål eller riktkurs, fånga det EXAKT
+- Om någon delar en portföljstrategi eller allokering, inkludera detaljerna
+- Citat får vara längre (max 200 ord) om de innehåller viktig information
+- Fånga kontext: varför just nu? Vad har hänt? Vad förväntas?
+
+📊 STOCK_SEGMENTS - DETALJERAD DISKUSSION:
+För VARJE aktie som diskuteras (ingen minimumtröskel), skapa ett stock_segment med:
 - discussion_summary: 3-5 meningar som sammanfattar hela diskussionen om aktien
 - thesis: { bull_case: [...], bear_case: [...], catalysts: [...], risks: [...] }
 - quotes: array med flera citat, varje med speaker, text, timestamp, context
 - financial_metrics: P/E, marginaler, skuldsättning etc. om de nämns
 - position_disclosure: "owns" om talaren äger aktien, "none" om inte, "unknown" annars
 
-INSIGHTS - FÅNGA INVESTERINGSVISDOM:
+💡 INSIGHTS - FÅNGA INVESTERINGSVISDOM:
 Extrahera tidlösa insikter och lärdomar som INTE är specifika aktie-tips:
 
 Kategorier:
@@ -68,7 +93,21 @@ EXKLUDERA från insights (fångas i recommendations):
 - Specifika aktie-tips ("köp Evolution")
 - Tidsbunden marknadskommentar ("marknaden är övervärderad just nu")
 
-EXTRA ALFA (fyll bara i om EXPLICIT nämnt - annars null):
+🪙 CRYPTO-OMNÄMNANDEN:
+Extrahera alla omnämnanden av kryptovalutor med sentiment:
+
+Tokens att leta efter:
+- Major: BTC/Bitcoin, ETH/Ethereum, SOL/Solana, XRP, ADA/Cardano
+- DeFi: LINK, UNI, AAVE
+- Meme: DOGE, SHIB, PEPE
+- Svenska termer: "krypto", "bitcoin", "ethereum"
+
+Sentiment-signaler:
+- Bullish: "intressant", "potential", "vi köper", "undervärderat"
+- Bearish: "försiktig", "undvik", "risk", "övervärderat"
+- Neutral: "håller koll", "osäker"
+
+📊 EXTRA ALFA (fyll bara i om EXPLICIT nämnt - annars null):
 
 POSITION CONTEXT (position_context i recommendations):
 - "50% av portföljen" → "50% av portföljen"
@@ -376,3 +415,172 @@ def build_comprehensive_prompt(
         filename=f"{episode_id}.txt",
         podcast_id=podcast_id,
     )
+
+
+# === JSON SCHEMA FOR GLM (inline) ===
+
+JSON_SCHEMA_TEMPLATE = '''{{
+  "schema_version": "2.1",
+  "episode_id": "{episode_id}",
+  "podcast_name": "Podcastens namn",
+  "episode_title": "Avsnittets titel om känd",
+  "episode_number": null,
+  "date": "YYYY-MM-DD",
+  "hosts": ["host1", "host2"],
+  "guests": ["gäst1"],
+  "main_topics": ["ämne1", "ämne2"],
+  "stocks_discussed": ["Aktie1", "Aktie2"],
+  "recommendations": [
+    {{
+      "stock_name": "Aktiens namn",
+      "ticker": null,
+      "action": "buy|sell|hold|watch|avoid",
+      "confidence": "high|medium|low|speculative",
+      "speaker": "Vem som pratar",
+      "speaker_role": "host|guest|unknown",
+      "timestamp": null,
+      "reasoning": "DETALJERAD motivering (50-100 ord)",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Exakt citat, max 200 ord",
+      "sector": null,
+      "market": "sweden|us|europe|other|unknown",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }}
+  ],
+  "stock_segments": [
+    {{
+      "stock_name": "Aktiens namn",
+      "ticker": null,
+      "timestamp_start": "HH:MM:SS",
+      "timestamp_end": "HH:MM:SS",
+      "speakers": ["Talare1"],
+      "primary_speaker": "Huvudtalare",
+      "discussion_summary": "3-5 meningar",
+      "quotes": [
+        {{
+          "speaker": "Namn",
+          "text": "Exakt citat...",
+          "timestamp": "HH:MM:SS",
+          "context": "thesis|bull_case|bear_case|metric|conclusion|other"
+        }}
+      ],
+      "financial_metrics": {{
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "fcf_yield": null,
+        "margin": null,
+        "revenue_growth": null,
+        "custom": []
+      }},
+      "thesis": {{
+        "bull_case": [],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      }},
+      "position_disclosure": "owns|bought|sold|none|unknown"
+    }}
+  ],
+  "insights": [
+    {{
+      "quote": "Exakt citat med investeringsvisdom",
+      "summary": "1-2 meningar sammanfattning",
+      "category": "philosophy|lesson|wisdom",
+      "speaker": "Vem som sa det",
+      "speaker_role": "host|guest|unknown",
+      "timestamp": null,
+      "confidence": "high|medium|low",
+      "tags": ["relevanta", "taggar"]
+    }}
+  ],
+  "crypto_mentions": [
+    {{
+      "asset_symbol": "BTC|ETH|SOL|etc",
+      "asset_name": "Bitcoin|Ethereum|etc",
+      "sentiment": "bullish|bearish|neutral|mixed",
+      "speaker": "Vem",
+      "quote": "Stödjande citat",
+      "confidence": "high|medium|low"
+    }}
+  ],
+  "market_sentiment": "bullish|bearish|neutral|mixed",
+  "summary": "3-5 meningar",
+  "key_takeaways": ["punkt1", "punkt2", "punkt3"],
+  "model_used": "{model_name}"
+}}'''
+
+
+def get_unified_prompt(
+    transcript: str,
+    episode_id: str,
+    model_name: str = "glm-4.7",
+) -> str:
+    """Get unified analysis prompt for GLM (single string format).
+
+    This function returns a complete prompt suitable for GLM-style models
+    that expect a single prompt string rather than system/user separation.
+
+    Args:
+        transcript: The transcript content
+        episode_id: Episode ID (e.g., "borspodden-2026-01-15-abc1")
+        model_name: Model name to include in output (default: "glm-4.7")
+
+    Returns:
+        Complete prompt string with system instructions, few-shot example,
+        schema, and transcript.
+    """
+    # Parse episode_id for metadata
+    parts = episode_id.split("-")
+    podcast_id = parts[0] if parts else None
+
+    # Extract date if present
+    date = "Okänt"
+    if len(parts) >= 4:
+        try:
+            date = f"{parts[1]}-{parts[2]}-{parts[3]}"
+        except IndexError:
+            pass
+
+    # Get podcast name
+    podcast_name = podcast_id or "Okänd podcast"
+    podcasts_file = Path(__file__).parent.parent.parent.parent / "data" / "podcasts.json"
+    if podcasts_file.exists() and podcast_id:
+        data = json.loads(podcasts_file.read_text(encoding="utf-8"))
+        for p in data.get("podcasts", []):
+            if p.get("id") == podcast_id:
+                podcast_name = p.get("name", podcast_id)
+                break
+
+    # Get hosts
+    hosts = get_podcast_hosts(podcast_id) if podcast_id else []
+    hosts_str = ", ".join(hosts) if hosts else "Okända (extrahera från introt)"
+
+    # Build schema with episode_id
+    schema = JSON_SCHEMA_TEMPLATE.format(episode_id=episode_id, model_name=model_name)
+
+    # Combine into single prompt
+    prompt = f"""{EXTRACTION_SYSTEM_PROMPT}
+
+{FEW_SHOT_EXAMPLE}
+
+---
+
+PODCAST: {podcast_name}
+DATUM: {date}
+FIL: {episode_id}.txt
+KÄNDA HOSTS: {hosts_str}
+
+OUTPUT SCHEMA:
+{schema}
+
+---
+TRANSKRIPT:
+{transcript}
+---
+
+Returnera ENDAST valid JSON enligt schemat ovan (ingen markdown, inga code blocks)."""
+
+    return prompt

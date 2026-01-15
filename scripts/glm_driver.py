@@ -4,6 +4,9 @@ GLM Driver för podcast-transkript analys.
 
 Anropar OpenCode CLI med GLM-4.7 för att analysera transkript
 och extrahera aktierekommendationer.
+
+VIKTIGT: Använder enhetlig prompt från prompt_templates.py för
+konsekvent output mellan Claude och GLM.
 """
 
 import json
@@ -13,10 +16,52 @@ import sys
 from pathlib import Path
 from typing import Any, Optional
 
+# Add src to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+from podstock.extract.prompt_templates import get_unified_prompt
+
 
 # Configuration
-OPENCODE_CLI = "/Users/pontus/.opencode/bin/opencode"
 GLM_MODEL = "opencode/glm-4.7-free"
+
+
+def find_opencode_cli() -> str:
+    """Find OpenCode CLI in common locations across different machines."""
+    import shutil
+
+    # Locations to search (in order of preference)
+    locations = [
+        # macOS app bundle (common on laptops/desktops)
+        Path("/Applications/OpenCode.app/Contents/MacOS/opencode-cli"),
+        # User's local opencode installation
+        Path.home() / ".opencode" / "bin" / "opencode",
+        # Alternative user paths
+        Path.home() / ".local" / "bin" / "opencode",
+        Path("/usr/local/bin/opencode"),
+    ]
+
+    # Check explicit paths first
+    for loc in locations:
+        if loc.exists() and loc.is_file():
+            return str(loc)
+
+    # Fall back to PATH lookup
+    path_result = shutil.which("opencode")
+    if path_result:
+        return path_result
+
+    path_result = shutil.which("opencode-cli")
+    if path_result:
+        return path_result
+
+    raise FileNotFoundError(
+        "OpenCode CLI not found. Searched:\n" +
+        "\n".join(f"  - {loc}" for loc in locations) +
+        "\n  - PATH (opencode, opencode-cli)"
+    )
+
+
+OPENCODE_CLI = find_opencode_cli()
 PROMPT_TEMPLATE_FILE = Path(__file__).parent.parent / "docs" / "GLM-ANALYSIS-INSTRUCTIONS.md"
 JSON_SCHEMA_FILE = Path(__file__).parent.parent / "docs" / "JSON-SCHEMA.md"
 
@@ -208,239 +253,16 @@ def analyze_transcript(
             word_count = len(content.split())
             
             episode_stem = transcript_path.stem
-            transcript_str = str(transcript_path)
-            has_timestamps = bool(re.search(r"\[\d{2}:\d{2}:\d{2}\]", content))
-            
+
             print(f"  📝 Analyserar: {transcript_path.name} ({word_count:,} ord) [försök {attempt}/{max_retries}]")
-            
-            prompt = f"""Du är en expert på att analysera svenska finanspoddar och extrahera investeringsrekommendationer.
 
-Din uppgift är att noggrant läsa podcast-transkript och identifiera:
-1. KONKRETA aktie-rekommendationer (köp, sälj, bevaka, undvik)
-2. Vem som ger rekommendationen (host eller gäst)
-3. Argumenten bakom rekommendationen
-4. Eventuella kursmål eller tidshorisonter
-5. DJUPANALYS: För aktier som diskuteras >1 minut, skapa detaljerade segment
+            # Använd enhetlig prompt från prompt_templates.py
+            prompt = get_unified_prompt(
+                transcript=content,
+                episode_id=episode_stem,
+                model_name="glm-4.7"
+            )
 
-VIKTIGA RIKTLINJER:
-- Var KONSERVATIV: Inkludera bara tydliga rekommendationer, inte vag diskussion
-- "Intressant bolag" eller "värt att titta på" = watch, INTE buy
-- "Vi äger aktien" utan vidare kontext = hold
-- "Stark köpkandidat", "köpläge", "vi köper" = buy
-- "Dags att ta hem vinst", "sälj", "vi säljer" = sell
-- Fånga EXAKTA citat som stödjer rekommendationen
-
-⏱️ TIMESTAMPS (KRITISKT):
-Transkriptet innehåller tidsstämplar i formatet [HH:MM:SS].
-DU MÅSTE extrahera timestamp för varje rekommendation!
-Sök efter närmaste [XX:XX:XX] före eller vid varje aktie-diskussion.
-Om transkriptet har timestamps men du inte hittar en specifik, använd den närmaste.
-Lämna ALDRIG null om transkriptet har timestamps.
-
-📈 TICKERS:
-- Svenska bolag: Använd Stockholmsbörsen-ticker (t.ex. EVO, HM-B, VOLV-B, HEXA-B)
-- Japanska bolag: Använd Tokyo-ticker med .T suffix (t.ex. 3673.T för Broadleaf)
-- Amerikanska: Använd NYSE/NASDAQ ticker (t.ex. AAPL, MSFT)
-- Om okänd: Lämna null men sätt ALLTID korrekt "market" (sweden/japan/us/hongkong/etc)
-
-⚠️ EXKLUDERA FÖLJANDE - DETTA ÄR INTE REKOMMENDATIONER:
-- Sponsormeddelanden (Interactive Brokers, Avanza, Nordnet, Syn Society, etc.)
-- Reklam och produktplaceringar
-- Podcast-prenumerations-uppmaningar
-- Sociala media-omnämnanden
-- Mäklare/plattformar som omnämns i reklamsyfte
-- Fondbolag som sponsrar (Protean, Carnegie, etc. OM de bara nämns som sponsor)
-
-FINANSTERMINOLOGI ATT KÄNNA IGEN:
-- Köpsignaler: "köpläge", "köpvärd", "attraktiv", "undervärderad", "vi köper", "stark köp"
-- Säljsignaler: "säljläge", "övervärderad", "ta hem vinst", "vi säljer", "sälj"
-- Watch: "bevaka", "intressant", "håll koll på", "kan bli köpvärd"
-- Undvik: "håll dig borta", "undvik", "för riskfyllt"
-
-🎯 MAXIMAL MATNYTTIGHET - FÅNGA ALLT VÄRDEFULLT:
-- Fånga ALLA konkreta siffror och nyckeltal (P/E, EV/EBITDA, tillväxt%, marginaler, omsättning)
-- Inkludera HELA resonemanget när någon motiverar en aktie (inte bara sammanfattning)
-- Om någon nämner ett kursmål eller riktkurs, fånga det EXAKT
-- Om någon delar en portföljstrategi eller allokering, inkludera detaljerna
-- Citat får vara längre (max 200 ord) om de innehåller viktig information
-- Fånga kontext: varför just nu? Vad har hänt? Vad förväntas?
-
-💡 INSIGHTS - FÅNGA INVESTERINGSVISDOM:
-Extrahera tidlösa insikter och lärdomar som inte är specifika aktie-tips:
-
-Kategorier:
-- "philosophy": Investeringsfilosofi och grundprinciper
-  Exempel: "Jag köper aldrig bolag jag inte förstår", "Tid i marknaden slår timing"
-- "lesson": Lärdomar från misstag eller erfarenheter
-  Exempel: "Det största misstaget jag gjort var...", "Jag lärde mig att aldrig..."
-- "wisdom": Marknadsvisdom, psykologi, timing
-  Exempel: "Rädsla skapar möjligheter", "Girigheten tar över när..."
-
-INKLUDERA:
-- Tidlösa principer som håller över tid
-- Konkreta lärdomar från erfarenhet
-- Psykologiska insikter om investerande
-- Riskhanterings-filosofi
-
-EXKLUDERA från insights (fångas i recommendations istället):
-- Specifika aktie-tips ("köp Evolution")
-- Tidsbunden marknadskommentar ("marknaden är övervärderad just nu")
-
-🪙 CRYPTO-OMNÄMNANDEN:
-Extrahera alla omnämnanden av kryptovalutor med sentiment:
-
-Tokens att leta efter:
-- Major: BTC/Bitcoin, ETH/Ethereum, SOL/Solana, XRP, ADA/Cardano
-- DeFi: LINK, UNI, AAVE
-- Meme: DOGE, SHIB, PEPE
-- Svenska termer: "krypto", "bitcoin", "ethereum"
-
-Sentiment-signaler:
-- Bullish: "intressant", "potential", "vi köper", "undervärderat"
-- Bearish: "försiktig", "undvik", "risk", "övervärderat"
-- Neutral: "håller koll", "osäker"
-
-📊 EXTRA ALFA (fyll bara i om det nämns EXPLICIT - annars null):
-
-POSITION CONTEXT (position_context):
-- "50% av portföljen" → "50% av portföljen"
-- "Största positionen" → "Största positionen"
-- "Liten position" → "Liten position"
-- "Vi byggde på" → "Ökade positionen"
-
-DOWNSIDE/RISK (downside_note):
-- "30% neddida härifrån" → "30% downside"
-- "Värsta fall 50 SEK" → "Downside 50 SEK"
-- "3:1 risk/reward" → "Risk/reward 3:1"
-
-CATALYST TIMING (catalyst_timing):
-- "Rapport 15 feb" → "Rapport 2025-02-15"
-- "Produktlansering Q2" → "Produktlansering Q2 2025"
-- "Efter nästa Fed-möte" → "Efter Fed-möte jan"
-
-📊 STOCK SEGMENTS (DJUPANALYS):
-För varje aktie som diskuteras i MER ÄN 1 MINUT, skapa ett detaljerat segment med:
-1. ALLA relevanta citat (inte bara ett!) - med kontext (thesis/bull_case/bear_case/metric/conclusion)
-2. Finansiella nyckeltal som nämns (P/E, EV/EBITDA, FCF yield, tillväxt, etc.)
-3. Bull case: Varför köpa? Vad är positivt?
-4. Bear case: Vad kan gå fel? Vilka risker?
-5. Katalysatorer: Vad kan driva aktien?
-6. Position disclosure: Äger/köpte/sålde talaren aktien?
-7. Sammanfattning av hela diskussionen (3-5 meningar)
-
-OUTPUT:
-Returnera ENDAST valid JSON enligt följande schema (ingen markdown, inga code blocks):
-
-{{
-  "schema_version": "2.1",
-  "episode_id": "{episode_stem}",
-  "podcast_name": "Podcastens namn",
-  "episode_title": "Avsnittets titel om känd",
-  "episode_number": null,
-  "date": "YYYY-MM-DD",
-  "hosts": ["host1", "host2"],
-  "guests": ["gäst1"],
-  "main_topics": ["ämne1", "ämne2"],
-  "stocks_discussed": ["Aktie1", "Aktie2"],
-  "recommendations": [
-    {{
-      "stock_name": "Aktiens namn",
-      "ticker": null,
-      "action": "buy|sell|hold|watch|avoid",
-      "confidence": "high|medium|low|speculative",
-      "speaker": "Vem som pratar",
-      "speaker_role": "host|guest|unknown",
-      "timestamp": null,
-      "reasoning": "DETALJERAD motivering (50-100 ord): Inkludera ALLA konkreta siffror/nyckeltal (P/E, EV/EBITDA, marginaler, tillväxt%). Bull case: varför köpa? Bear case/risker. Tidsperspektiv och katalysatorer. Positionsstorlek om nämnd.",
-      "price_target": null,
-      "time_horizon": null,
-      "quote": "Exakt citat som stödjer rekommendationen, max 200 ord - inkludera hela resonemanget",
-      "sector": null,
-      "market": "sweden|us|europe|other|unknown",
-      "position_context": null,
-      "downside_note": null,
-      "catalyst_timing": null
-    }}
-  ],
-  "stock_segments": [
-    {{
-      "stock_name": "Aktiens namn",
-      "ticker": null,
-      "timestamp_start": "HH:MM:SS",
-      "timestamp_end": "HH:MM:SS",
-      "word_count": 500,
-      "speakers": ["Talare1", "Talare2"],
-      "primary_speaker": "Huvudtalare",
-      "discussion_summary": "3-5 meningar som sammanfattar diskussionen om denna aktie",
-      "quotes": [
-        {{
-          "speaker": "Namn",
-          "text": "Exakt citat...",
-          "timestamp": "HH:MM:SS",
-          "context": "thesis|bull_case|bear_case|metric|conclusion|other"
-        }}
-      ],
-      "financial_metrics": {{
-        "pe_ratio": null,
-        "ev_ebitda": null,
-        "ev_sales": null,
-        "fcf_yield": "tex: 8.5%",
-        "dividend_yield": null,
-        "revenue_growth": null,
-        "margin": null,
-        "debt_level": null,
-        "custom": ["branschspecifika KPIer"]
-      }},
-      "thesis": {{
-        "bull_case": ["argument1", "argument2"],
-        "bear_case": ["risk1", "risk2"],
-        "catalysts": ["katalysator1"],
-        "risks": ["risk1"]
-      }},
-      "position_disclosure": "owns|bought|sold|none|unknown"
-    }}
-  ],
-  "insights": [
-    {{
-      "quote": "Exakt citat med investeringsvisdom, max 300 ord",
-      "summary": "1-2 meningar som sammanfattar insikten",
-      "category": "philosophy|lesson|wisdom",
-      "speaker": "Vem som sa det",
-      "speaker_role": "host|guest|unknown",
-      "timestamp": null,
-      "confidence": "high|medium|low",
-      "tags": ["relevanta", "taggar"]
-    }}
-  ],
-  "crypto_mentions": [
-    {{
-      "asset_symbol": "BTC|ETH|SOL|etc",
-      "asset_name": "Bitcoin|Ethereum|etc",
-      "sentiment": "bullish|bearish|neutral|mixed",
-      "speaker": "Vem som nämnde det",
-      "speaker_role": "host|guest|unknown",
-      "quote": "Stödjande citat, max 100 ord",
-      "context": "Diskussionskontext",
-      "confidence": "high|medium|low",
-      "price_levels": ["nivå1", "nivå2"],
-      "timeframe": "kort sikt|medellång sikt|lång sikt"
-    }}
-  ],
-  "market_sentiment": "bullish|bearish|neutral|mixed",
-  "summary": "3-5 meningar som sammanfattar avsnittet",
-  "key_takeaways": ["punkt1", "punkt2", "punkt3"],
-  "transcript_file": "{transcript_str}",
-  "transcript_word_count": {word_count},
-  "has_timestamps": {"true" if has_timestamps else "false"},
-  "model_used": "glm-4.7"
-}}
-
-VIKTIGT: stock_segments ska innehålla aktier med >1 min diskussion. För korta omnämnanden räcker recommendations.
-
-Transkript:
-{content}
-"""
-            
             cmd = [
                 OPENCODE_CLI, "run",
                 "--format", "json",
@@ -452,7 +274,8 @@ Transkript:
                 cmd,
                 capture_output=True,
                 text=True,
-                timeout=timeout
+                timeout=timeout,
+                cwd="/tmp"  # Run from /tmp to avoid parsing .claude/skills files
             )
             
             if result.returncode != 0:

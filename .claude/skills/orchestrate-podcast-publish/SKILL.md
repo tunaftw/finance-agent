@@ -65,6 +65,23 @@ git diff --quiet && echo "✓ Git working tree ren" || echo "⚠ Git har uncommi
 
 ---
 
+## Steg 1b: Valj Analysmodell
+
+**ALLTID FRAGA ANVANDAREN** nar det finns transkript att analysera:
+
+Anvand AskUserQuestion:
+```
+Fraga: "X transkript att analysera. Vilken modell vill du anvanda?"
+
+Options:
+1. "Claude (rekommenderas for kvalitet)"
+2. "GLM-4.7 (snabbare, gratis)"
+```
+
+Spara valet for anvandning i Steg 3. Notera: Bada modeller anvander nu samma enhetliga prompt fran `prompt_templates.py`.
+
+---
+
 ## Steg 2: Download Transcripts
 
 ### 2a. Kolla sync-status
@@ -545,24 +562,79 @@ fi
 
 ---
 
-## Steg 6: Slutrapport
+## Steg 6: Korningsrapport
 
-Visa sammanfattning:
+**VIKTIGT:** Visa ALLTID korningsrapport efter avslutad korning.
 
+Anvand `OrchestrationReport` for strukturerad rapportering:
+
+```python
+from podstock.orchestration.report import OrchestrationReport
+
+# Skapa rapport (populera under korningen)
+report = OrchestrationReport()
+report.model_used = selected_model  # "Claude" eller "GLM-4.7"
+
+# Lagg till nedladdningar
+for t in downloaded_transcripts:
+    report.add_transcript(t["filename"], t["destination"], t["source"])
+
+# Lagg till analyser
+for a in completed_analyses:
+    report.add_analysis(
+        a["filename"],
+        a["destination"],
+        a["recommendations"],
+        a["stock_segments"],
+        a["insights"]
+    )
+
+# Lagg till timing
+report.timing = {
+    "Nedladdning": download_time,
+    "Analys": analysis_time,
+    "Databas-synk": sync_time,
+    "Dashboard": dashboard_time,
+}
+
+# Visa i terminal
+print(report.to_terminal())
+
+# Spara till fil
+saved_path = report.save()
+print(f"\nRapport sparad: {saved_path}")
 ```
-════════════════════════════════════════════════════════════════════
-ORCHESTRATE-PODCAST-PUBLISH COMPLETE
-════════════════════════════════════════════════════════════════════
 
-RESULTAT
-────────
-✓ Downloaded:  {n_downloaded} transcripts ({n_apple} Apple, {n_whisper} Whisper)
-✓ Analyzed:    {n_analyzed} episodes → {n_recs} recommendations
-✓ DB synced:   {n_synced} analyses loaded
-✓ Published:   Commit {git_hash} pushed → Vercel deploying
+---
 
-════════════════════════════════════════════════════════════════════
+## Steg 7: Forbattringsforslag (Sjalvlakning)
+
+**Efter korningsrapporten, om forbattringar observerats:**
+
+```python
+if report.improvements:
+    print("\nFORBATTRINGSFORSLAG")
+    for i, imp in enumerate(report.improvements, 1):
+        print(f"  {i}. [{imp.category}] {imp.description}")
+        print(f"     Forslag: {imp.suggested_fix}")
+
+    # Fraga anvandaren med AskUserQuestion
+    # Options: "Ja, atgarda alla", "Visa detaljer forst", "Nej, hoppa over"
+else:
+    print("\nInga forbattringar att foresla - allt ser bra ut!")
 ```
+
+**Typer av forbattringar att observera under korning:**
+
+| Observation | Kategori | Auto-fix |
+|-------------|----------|----------|
+| Insight med fel schema | quality | Ja |
+| Saknad ticker-mappning | quality | Ja (lagg till i pending) |
+| Timeout pa analys | optimization | Ja (oka timeout) |
+| Schema-version <2.1 | critical | Ja (uppgradera) |
+| Prompt-inkonsekvens | skill | Fraga forst |
+
+**VIKTIGT:** Foresla ENDAST om det finns nagot tydligt att forbattra. Krysta inte fram feedback.
 
 ---
 

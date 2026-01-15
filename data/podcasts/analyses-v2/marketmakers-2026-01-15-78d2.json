@@ -117,47 +117,184 @@
       "quote": "Det ar en mojlighet att vara en del av ett sma foretag som hoppas att utvecklas helt nytt och vi kan hoppas att det blir en stor success"
     }
   ],
+  "stock_segments": [
+    {
+      "stock_name": "Hacksaw Gaming",
+      "ticker": "HACSO",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 2100,
+      "speakers": ["Magnus", "Niklas", "Fabian"],
+      "primary_speaker": "Magnus",
+      "discussion_summary": "Magnus gör en djupdykning i Hacksaw Gaming, en slottillverkare inom iGaming. Bolaget har fantastisk tillväxt (52%) med EBIT-marginaler över 80% och handlas till låg värdering (EV/EBIT 5 för 2027). Magnus lyfter fram att Hacksaw har den 'enkla tillväxtresan kvar' - de har bara 200 operatörer jämfört med Evolutions 800. Den stora poängen är diversifierade risker: max 15% från en kund/spel/jurisdiktion. Diskussion om oreglerade intäkter (88%) men Magnus argumenterar att detta inte är lika riskfyllt som för operatörer. Jämförelse med Evolution (krymper) och Betsson (Turkiet-koncentration). Magnus ser caset som intressant men vill vänta in rapporten.",
+      "quotes": [
+        {
+          "speaker": "Magnus",
+          "text": "Trots de här problemen så är jag positiv till action. Jag tycker att kollar man på deras plattform där de tillverkar de här spelen så verkar den väldigt bra.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "Kollar vi på hacksaw så är det ju inte fallet. Man har en tiondel av Evolutions omsättning, man är hos 200 operatörer när Evolution är hos 800. Så att man liksom har den här enkla tillväxtresan kvar.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "Haxo har ganska diversifierade intäkter. Så största spelet genererar 15 procent av intäkterna, största kunden runt 15 procent och största jurisdiktionen 10 procent.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "Det är sjukbäst i sektorn just nu. Och det tycker jag är ganska positivt för caset också.",
+          "timestamp": null,
+          "context": "other"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "CFO avgick i december. Det kan ju ibland vara att de inte kan stå bakom målen som är ute.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Magnus",
+          "text": "Sammantaget tycker jag att hacksor ser väldigt intressant ut. Jag tror att det kanske är bäst risk reward att vänta in rapporten.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "52%",
+        "margin": "80%+ EBIT",
+        "debt_level": null,
+        "custom": [
+          {"metric": "EV/EBIT 2027", "value": "5"},
+          {"metric": "Operatörer", "value": "200 (vs Evolution 800)"},
+          {"metric": "Största kund", "value": "15% av intäkter"},
+          {"metric": "Oreglerade intäkter", "value": "88%"}
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Fantastisk tillväxt (52%) med extremt höga marginaler (80%+ EBIT)",
+          "Låg värdering: EV/EBIT 5 för 2027 - billigare än Evolution (7.5) trots bättre tillväxt",
+          "Enkel tillväxtresa kvar: 200 operatörer vs Evolutions 800",
+          "Diversifierade risker: max 15% från en källa (kund/spel/jurisdiktion)",
+          "Stark plattform som även andra slottillverkare använder",
+          "iGaming-sektorn är extremt hatad - contrarian opportunity",
+          "Stark cash conversion ger utrymme för utdelningar och återköp"
+        ],
+        "bear_case": [
+          "88% oreglerade intäkter",
+          "CFO avgick i december - kan signalera problem",
+          "Lock-up gick ut i december - säljtryck från gamla ägare",
+          "Blankningen har ökat",
+          "Japan och Indien har reglerat (påverkan okänd)",
+          "Inga insiderköp trots kursfallet",
+          "Ett av de smutsigaste bolagen i en av de smutsigaste branscherna"
+        ],
+        "catalysts": [
+          "Kommande rapport kan visa fortsatt stark tillväxt",
+          "Möjlig extrautdelning",
+          "Sektorn kan vända - jämförbart med råvaror för några år sedan"
+        ],
+        "risks": [
+          "Regulatorisk risk i oreglerade marknader",
+          "Fortsatt säljtryck efter lock-up",
+          "Branschspecifik nedgång kan fortsätta"
+        ]
+      },
+      "position_disclosure": "owns"
+    }
+  ],
   "crypto_mentions": [],
   "insights": [
     {
-      "topic": "AI-marknaden",
-      "insight": "AI-modeller har blivit en commodity. Ingen stor skillnad mellan GPT-5, Gemini 3 etc. Pris och helhetsupplevelse avgor. Google har finansiella muskler att vanta ut lonsamhet medan OpenAI branner pengar utan lonsam affarsmodell.",
-      "speaker": "Niklas"
+      "quote": "AI-modeller har blivit en commodity. Ingen stor skillnad mellan GPT-5, Gemini 3 etc. Pris och helhetsupplevelse avgor. Google har finansiella muskler att vanta ut lonsamhet medan OpenAI branner pengar utan lonsam affarsmodell.",
+      "summary": "AI-modeller har blivit en commodity. Ingen stor skillnad mellan GPT-5, Gemini 3 etc. Pris och helhetsupplevelse avgor. Google har finansiella muskler att vanta ut lonsamhet medan OpenAI branner pengar utan lonsam affarsmodell.",
+      "category": "wisdom",
+      "speaker": "Niklas",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": []
     },
     {
-      "topic": "AI-infrastruktur",
-      "insight": "Infrastrukturen kring AI byggs ut snabbare an efterfragan kommer online. Kan leda till gropar pa vagen for AI-bolag och Mag7.",
-      "speaker": "Magnus"
+      "quote": "Infrastrukturen kring AI byggs ut snabbare an efterfragan kommer online. Kan leda till gropar pa vagen for AI-bolag och Mag7.",
+      "summary": "Infrastrukturen kring AI byggs ut snabbare an efterfragan kommer online. Kan leda till gropar pa vagen for AI-bolag och Mag7.",
+      "category": "wisdom",
+      "speaker": "Magnus",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": []
     },
     {
-      "topic": "Trump och marknaden",
-      "insight": "Trump pressar Fed att sanka rantan, vill stampa Powell, rantakotak for kreditkortsbolag, begransar forsvarsbolags buybacks/utdelning, stoppar foretag fran att aga enfamiljshus, attackerar Mag7:s energiforbrukning. Blir mer Kina-likt med regeringsstyrning.",
-      "speaker": "Magnus"
+      "quote": "Trump pressar Fed att sanka rantan, vill stampa Powell, rantakotak for kreditkortsbolag, begransar forsvarsbolags buybacks/utdelning, stoppar foretag fran att aga enfamiljshus, attackerar Mag7:s energiforbrukning. Blir mer Kina-likt med regeringsstyrning.",
+      "summary": "Trump pressar Fed att sanka rantan, vill stampa Powell, rantakotak for kreditkortsbolag, begransar forsvarsbolags buybacks/utdelning, stoppar foretag fran att aga enfamiljshus, attackerar Mag7:s energiforbrukning. Blir mer Kina-likt med regeringsstyrning.",
+      "category": "wisdom",
+      "speaker": "Magnus",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": []
     },
     {
-      "topic": "Borsnoteringar 2026",
-      "insight": "Direktnoteringar och omvanda forvarv har gett median -30% sedan noteringen (2022-2025). Traditionella IPOs har gett god avkastning (40% for 2023, 21% for 2024). Viktig distinktion infor borsaret 2026.",
-      "speaker": "Fabian"
+      "quote": "Direktnoteringar och omvanda forvarv har gett median -30% sedan noteringen (2022-2025). Traditionella IPOs har gett god avkastning (40% for 2023, 21% for 2024). Viktig distinktion infor borsaret 2026.",
+      "summary": "Direktnoteringar och omvanda forvarv har gett median -30% sedan noteringen (2022-2025). Traditionella IPOs har gett god avkastning (40% for 2023, 21% for 2024). Viktig distinktion infor borsaret 2026.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": []
     },
     {
-      "topic": "iGaming-sektorn",
-      "insight": "Sjukbass i sektorn just nu. Branschspecifikt att manga bolag gar extremt daligt. Kan vara contrarian opportunity likt ravaror var for nagra ar sedan.",
-      "speaker": "Magnus"
+      "quote": "Sjukbass i sektorn just nu. Branschspecifikt att manga bolag gar extremt daligt. Kan vara contrarian opportunity likt ravaror var for nagra ar sedan.",
+      "summary": "Sjukbass i sektorn just nu. Branschspecifikt att manga bolag gar extremt daligt. Kan vara contrarian opportunity likt ravaror var for nagra ar sedan.",
+      "category": "wisdom",
+      "speaker": "Magnus",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": []
     },
     {
-      "topic": "Ravaror - Mining M&A",
-      "insight": "Glencore och Rio Tinto undersoker megamerger. Toppish signal traditionellt men marknaden har andrats - inga investeringar pa ett artionde, fa mellanstora spelare kvar.",
-      "speaker": "Fabian"
+      "quote": "Glencore och Rio Tinto undersoker megamerger. Toppish signal traditionellt men marknaden har andrats - inga investeringar pa ett artionde, fa mellanstora spelare kvar.",
+      "summary": "Glencore och Rio Tinto undersoker megamerger. Toppish signal traditionellt men marknaden har andrats - inga investeringar pa ett artionde, fa mellanstora spelare kvar.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": []
     },
     {
-      "topic": "Silver",
-      "insight": "Silver uppe pa 90 dollar (var 50 dollar i oktober). Driven av sentiment och tekniska faktorer snarare an industriell efterfragan. Substitutsgrans mot koppar ligger runt 120 dollar. Risk for resursnationalism okar nar metallpriser gar upp.",
-      "speaker": "Fabian"
+      "quote": "Silver uppe pa 90 dollar (var 50 dollar i oktober). Driven av sentiment och tekniska faktorer snarare an industriell efterfragan. Substitutsgrans mot koppar ligger runt 120 dollar. Risk for resursnationalism okar nar metallpriser gar upp.",
+      "summary": "Silver uppe pa 90 dollar (var 50 dollar i oktober). Driven av sentiment och tekniska faktorer snarare an industriell efterfragan. Substitutsgrans mot koppar ligger runt 120 dollar. Risk for resursnationalism okar nar metallpriser gar upp.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": []
     },
     {
-      "topic": "Energi/Olja",
-      "insight": "Enda ravarusubsektorn som inte far karlek. Nymex crude oil net positionering pa 20-ars low. Sektorpositionering lagsta pa 6 ar. Iran (3M fat/dag) och Venezuela (1M fat/dag) star for 20% av Kinas oljeimport. Kina oppnar 250M fat ny lagerkapacitet. Kan snabbt ga fran overskott till underskott.",
-      "speaker": "Fabian"
+      "quote": "Enda ravarusubsektorn som inte far karlek. Nymex crude oil net positionering pa 20-ars low. Sektorpositionering lagsta pa 6 ar. Iran (3M fat/dag) och Venezuela (1M fat/dag) star for 20% av Kinas oljeimport. Kina oppnar 250M fat ny lagerkapacitet. Kan snabbt ga fran overskott till underskott.",
+      "summary": "Enda ravarusubsektorn som inte far karlek. Nymex crude oil net positionering pa 20-ars low. Sektorpositionering lagsta pa 6 ar. Iran (3M fat/dag) och Venezuela (1M fat/dag) star for 20% av Kinas oljeimport. Kina oppnar 250M fat ny lagerkapacitet. Kan snabbt ga fran overskott till underskott.",
+      "category": "wisdom",
+      "speaker": "Fabian",
+      "speaker_role": "unknown",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": []
     }
   ],
   "market_sentiment": "Forsiktigt optimistiskt med sektorspecifika variationer. Forsvars- och rymdaktier ar heta (meme stock-tendenser). AI-vinnare klarnar (Google framfor OpenAI). iGaming ar extremt hatat vilket kan vara contrarian opportunity. Ravaror/metaller pumpar (silver, guld, koppar) men energi ar ignorerad. Geopolitiska risker (Trump, Iran, Venezuela) paverkar sentiment. Investerare bor vara medvetna om USA-marknadens premievardering kan ifraga sattas om regeringen borjar paverka bolagsstyrning.",
