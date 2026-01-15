@@ -359,6 +359,43 @@ for f in analysis_files:
 print("✓ Databas synkad")
 ```
 
+### 4b. VERIFICATION GATE: DB Sync
+
+**KRITISK:** Verifiera att sync faktiskt lyckades innan vi går vidare.
+
+```python
+import sqlite3
+from pathlib import Path
+
+def verify_db_sync():
+    """Verifiera att databasen har rätt antal analyser."""
+
+    # Räkna JSON-filer
+    json_files = list(Path('data/podcasts/analyses-v2').glob('*-20??-??-??-????.json'))
+    json_count = len(json_files)
+
+    # Räkna DB-poster
+    conn = sqlite3.connect('data/podstock.db')
+    db_count = conn.execute(
+        "SELECT COUNT(DISTINCT content_id) FROM analyses WHERE source_type='podcast'"
+    ).fetchone()[0]
+    conn.close()
+
+    # Tillåt 5% diskrepans (för eventuella ogiltiga filer)
+    if db_count < json_count * 0.95:
+        print(f"⚠ VARNING: DB har {db_count} analyser men det finns {json_count} JSON-filer")
+        print("  Kör: .venv/bin/python -m podstock db load --type podcast")
+        return False
+
+    print(f"✓ DB sync verifierad: {db_count} analyser")
+    return True
+
+# KÖR GATE
+if not verify_db_sync():
+    print("✗ DB SYNC GATE FAILED - åtgärda innan fortsättning")
+    # Manuell intervention krävs
+```
+
 ---
 
 ## Steg 5: Dashboard & Publish
@@ -372,13 +409,96 @@ echo "▸ Genererar dashboard..."
 if [ $? -eq 0 ]; then
     echo "✓ Dashboard genererad"
 
-    # VIKTIGT: Kopiera podcasts.json till ratt plats
-    cp data/dashboard/data/podcasts.json data/podcasts.json
-    echo "✓ podcasts.json synkad"
+    # VIKTIGT: Kopiera alla JSON-filer till rätt plats
+    cp data/dashboard/data/*.json data/
+    cp data/dashboard/index.html index.html
+    cp -r data/dashboard/assets/* assets/
+    echo "✓ Dashboard-filer kopierade"
 else
     echo "✗ Dashboard misslyckades - STOPP"
     exit 1
 fi
+```
+
+### 5b. VERIFICATION GATE: Filstorlekar
+
+**KRITISK:** Verifiera att index.html är liten (--no-embed mode).
+
+```python
+from pathlib import Path
+
+def verify_file_sizes():
+    """Verifiera att inga filer överskrider Git-gränsen."""
+
+    MAX_SIZES = {
+        'index.html': 1_000_000,      # 1 MB max (--no-embed = ~150KB)
+        'data/podcasts.json': 95_000_000,  # 95 MB varning
+    }
+
+    errors = []
+    for file, max_size in MAX_SIZES.items():
+        path = Path(file)
+        if path.exists():
+            size = path.stat().st_size
+            if size > max_size:
+                errors.append(f"{file}: {size/1_000_000:.1f}MB > {max_size/1_000_000:.1f}MB gräns")
+            else:
+                print(f"✓ {file}: {size/1_000_000:.1f}MB")
+
+    if errors:
+        print("✗ FILSTORLEK GATE FAILED:")
+        for e in errors:
+            print(f"  {e}")
+        print("\n  FIX: Kör 'podstock dashboard generate --no-embed'")
+        return False
+
+    return True
+
+# KÖR GATE
+if not verify_file_sizes():
+    print("STOPP - åtgärda filstorlekar")
+```
+
+### 5c. VERIFICATION GATE: Senaste analys finns i export
+
+```python
+import json
+from pathlib import Path
+
+def verify_latest_in_export():
+    """Verifiera att senaste analysen finns i podcasts.json."""
+
+    # Hitta senaste JSON-analysen
+    json_files = sorted(
+        Path('data/podcasts/analyses-v2').glob('*-20??-??-??-????.json'),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True
+    )
+
+    if not json_files:
+        print("⚠ Inga analysfiler hittades")
+        return True
+
+    latest_file = json_files[0]
+    latest_id = latest_file.stem
+
+    # Kolla att den finns i exporten
+    with open('data/podcasts.json') as f:
+        data = json.load(f)
+
+    episode_ids = [e.get('episode_id') for e in data.get('episodes', [])]
+
+    if latest_id not in episode_ids:
+        print(f"✗ Senaste analysen '{latest_id}' SAKNAS i podcasts.json!")
+        print("  FIX: Kör DB sync + dashboard generate igen")
+        return False
+
+    print(f"✓ Senaste analysen finns i export: {latest_id}")
+    return True
+
+# KÖR GATE
+if not verify_latest_in_export():
+    print("STOPP - kör om pipeline")
 ```
 
 ### Git commit & push
@@ -386,11 +506,13 @@ fi
 ```bash
 echo "▸ Committar andringar..."
 
-# Lagg till relevanta filer
+# Lägg till relevanta filer (index.html MÅSTE vara <1MB - verifierat av gate ovan)
 git add \
+    index.html \
     data/transcripts/ \
     data/podcasts/analyses-v2/*.json \
-    data/podcasts.json \
+    data/*.json \
+    assets/ \
     .claude/skills/
 
 # Skapa commit

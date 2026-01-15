@@ -1,0 +1,2022 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PodStock Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        /* Custom color for recommendation cards */
+        .bg-gray-750 { background-color: rgb(38, 42, 51); }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen" x-data="dashboard()">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-4">
+                    <span class="text-xl font-bold text-emerald-400">PodStock</span>
+                    <span class="text-gray-500">|</span>
+                    <span class="text-sm text-gray-400" x-text="`${metadata.counts?.episodes || 0} avsnitt`"></span>
+                </div>
+                <div class="flex space-x-1">
+                    <button @click="view = 'podcast'"
+                            :class="view === 'podcast' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Podcasts
+                    </button>
+                    <button @click="view = 'inbox'"
+                            :class="view === 'inbox' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Alla tips
+                    </button>
+                    <button @click="view = 'twitter'"
+                            :class="view === 'twitter' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Twitter
+                    </button>
+                    <button @click="view = 'youtube'"
+                            :class="view === 'youtube' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        YouTube
+                    </button>
+                    <button @click="view = 'filings'"
+                            :class="view === 'filings' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Filings
+                    </button>
+                    <button @click="view = 'alpha'"
+                            :class="view === 'alpha' ? 'bg-emerald-600' : 'bg-gray-700 hover:bg-gray-600'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Alpha
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <!-- Loading State -->
+        <div x-show="loading" class="flex items-center justify-center py-20">
+            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-400"></div>
+        </div>
+
+        <!-- Inbox View -->
+        <div x-show="view === 'inbox' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">Inbox</h1>
+                <span class="text-sm text-gray-400" x-text="filteredInbox.length + ' rekommendationer'"></span>
+            </div>
+
+            <!-- Filter Panel -->
+            <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                    <!-- Date Filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Datum</label>
+                        <select x-model="inboxFilters.dateRange" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla</option>
+                            <option value="7d">Senaste 7 dagar</option>
+                            <option value="30d">Senaste 30 dagar</option>
+                            <option value="90d">Senaste 90 dagar</option>
+                            <option value="365d">Senaste året</option>
+                        </select>
+                    </div>
+
+                    <!-- Action Filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Action</label>
+                        <select x-model="inboxFilters.action" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla</option>
+                            <option value="buy">Buy</option>
+                            <option value="sell">Sell</option>
+                            <option value="hold">Hold</option>
+                            <option value="watch">Watch</option>
+                            <option value="avoid">Avoid</option>
+                        </select>
+                    </div>
+
+                    <!-- Confidence Filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Confidence</label>
+                        <select x-model="inboxFilters.confidence" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla</option>
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                            <option value="low">Low</option>
+                        </select>
+                    </div>
+
+                    <!-- Trust Filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Trust-nivå</label>
+                        <select x-model="inboxFilters.minTrust" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="0">Alla</option>
+                            <option value="3">★★★ och uppåt</option>
+                            <option value="4">★★★★ och uppåt</option>
+                            <option value="5">★★★★★ endast</option>
+                        </select>
+                    </div>
+
+                    <!-- Source Filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Källa</label>
+                        <select x-model="inboxFilters.source" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla källor</option>
+                            <template x-for="source in sources" :key="source.id">
+                                <option :value="source.id" x-text="source.name"></option>
+                            </template>
+                        </select>
+                    </div>
+
+                    <!-- Search -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Sök</label>
+                        <input type="text" x-model="inboxFilters.search" placeholder="Bolagsnamn..."
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500">
+                    </div>
+                </div>
+
+                <!-- Quick Filters -->
+                <div class="flex gap-2 mt-4 pt-4 border-t border-gray-700">
+                    <button @click="inboxFilters = { dateRange: '30d', action: 'buy', confidence: 'high', minTrust: '4', source: '', search: '' }"
+                            class="px-3 py-1 rounded-lg text-xs bg-emerald-900 text-emerald-300 hover:bg-emerald-800 transition-colors">
+                        High Conviction
+                    </button>
+                    <button @click="inboxFilters = { dateRange: '7d', action: '', confidence: '', minTrust: '0', source: '', search: '' }"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Senaste veckan
+                    </button>
+                    <button @click="inboxFilters = { dateRange: '', action: '', confidence: '', minTrust: '0', source: '', search: '' }"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Rensa filter
+                    </button>
+                </div>
+            </div>
+
+            <!-- Recommendations List -->
+            <div class="space-y-3">
+                <template x-for="rec in filteredInbox.slice(0, inboxDisplayLimit)" :key="rec.id">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700 transition-all"
+                         :class="(rec.trust_rating || rec.source_trust || 3) < 3 ? 'opacity-60' : ''">
+                        <div class="flex items-start justify-between">
+                            <div class="flex items-center space-x-3">
+                                <!-- Action Badge -->
+                                <span class="px-3 py-1 rounded-full text-sm font-medium"
+                                      :class="{
+                                          'bg-green-900 text-green-300': rec.action === 'buy',
+                                          'bg-red-900 text-red-300': rec.action === 'sell' || rec.action === 'avoid',
+                                          'bg-yellow-900 text-yellow-300': rec.action === 'hold',
+                                          'bg-blue-900 text-blue-300': rec.action === 'watch'
+                                      }"
+                                      x-text="rec.action ? rec.action.toUpperCase() : '-'">
+                                </span>
+                                <div>
+                                    <span class="font-semibold text-lg" x-text="rec.stock_name"></span>
+                                    <span x-show="rec.ticker" class="text-gray-500 text-sm ml-1" x-text="rec.ticker"></span>
+                                    <span x-show="rec.confidence" class="ml-2 px-2 py-0.5 rounded text-xs"
+                                          :class="{
+                                              'bg-emerald-900 text-emerald-300': rec.confidence === 'high',
+                                              'bg-yellow-900 text-yellow-300': rec.confidence === 'medium',
+                                              'bg-gray-700 text-gray-400': rec.confidence === 'low'
+                                          }"
+                                          x-text="rec.confidence">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <!-- Trust Stars -->
+                                <div class="flex items-center">
+                                    <template x-for="i in 5">
+                                        <span :class="i <= (rec.trust_rating || rec.source_trust || 3) ? 'text-yellow-400' : 'text-gray-600'" class="text-sm">★</span>
+                                    </template>
+                                </div>
+                                <span class="text-gray-400 text-sm" x-text="rec.date"></span>
+                            </div>
+                            <!-- Price Performance -->
+                            <div x-show="rec.price_at_rec" class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+                                <span class="text-gray-500">@<span x-text="rec.price_at_rec?.toFixed(2)"></span></span>
+                                <template x-for="period in [
+                                    {key: 'return_30d', label: '30d'},
+                                    {key: 'return_90d', label: '90d'},
+                                    {key: 'return_180d', label: '180d'},
+                                    {key: 'return_365d', label: '1y'},
+                                    {key: 'return_current', label: 'nu'}
+                                ]" :key="period.key">
+                                    <span x-show="rec[period.key] !== null && rec[period.key] !== undefined"
+                                          class="inline-flex items-center gap-0.5"
+                                          :class="rec[period.key] > 0 ? 'text-green-400' : (rec[period.key] < 0 ? 'text-red-400' : 'text-gray-400')">
+                                        <span x-text="(rec[period.key] > 0 ? '+' : '') + rec[period.key]?.toFixed(1) + '%'"></span>
+                                        <span class="text-gray-600 text-xs" x-text="'(' + period.label + ')'"></span>
+                                    </span>
+                                </template>
+                            </div>
+                        </div>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <span x-text="rec.source_name"></span>
+                            <template x-if="rec.speaker">
+                                <span> · <span x-text="rec.speaker"></span></span>
+                            </template>
+                        </div>
+                        <p x-show="rec.reasoning" class="mt-2 text-sm text-gray-300" x-text="rec.reasoning"></p>
+                        <p x-show="rec.quote" class="mt-2 text-sm text-gray-500 italic" x-text="rec.quote"></p>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Load More -->
+            <button x-show="filteredInbox.length > inboxDisplayLimit"
+                    @click="inboxDisplayLimit += 50"
+                    class="mt-6 w-full py-3 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors">
+                Visa fler (<span x-text="filteredInbox.length - inboxDisplayLimit"></span> kvar)
+            </button>
+
+            <p x-show="filteredInbox.length === 0" class="text-gray-500 text-center py-10">
+                Inga rekommendationer matchar filtren
+            </p>
+        </div>
+
+        <!-- Podcast View -->
+        <div x-show="view === 'podcast' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">Podcasts</h1>
+                <span class="text-sm text-gray-400" x-text="filteredPodcastEpisodes.length + ' avsnitt'"></span>
+            </div>
+
+            <!-- Filter Panel -->
+            <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <!-- Row 1: Podcasts and Period -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-4">
+                    <!-- Podcasts Multi-select -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Podcasts</label>
+                        <div class="relative" @click.away="podcastDropdownOpen = false">
+                            <!-- Dropdown trigger -->
+                            <button @click="podcastDropdownOpen = !podcastDropdownOpen"
+                                    class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm text-left flex items-center justify-between hover:border-gray-500 transition-colors">
+                                <span x-text="podcastFilters.sources.length === 0 ? 'Alla podcasts' : podcastFilters.sources.length + ' valda'"></span>
+                                <svg class="w-4 h-4 text-gray-400 transition-transform" :class="podcastDropdownOpen ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+
+                            <!-- Dropdown menu -->
+                            <div x-show="podcastDropdownOpen" x-cloak
+                                 class="absolute z-50 mt-1 w-full bg-gray-700 border border-gray-600 rounded-lg shadow-xl max-h-64 overflow-hidden">
+                                <!-- Search in dropdown -->
+                                <div class="p-2 border-b border-gray-600">
+                                    <input type="text" x-model="podcastSourceSearch" placeholder="Filtrera..."
+                                           class="w-full bg-gray-600 border border-gray-500 rounded px-2 py-1 text-sm focus:outline-none focus:border-emerald-500">
+                                </div>
+
+                                <!-- Options list -->
+                                <div class="max-h-40 overflow-y-auto">
+                                    <template x-for="src in filteredPodcastSources" :key="src.id">
+                                        <div @click="togglePodcastSource(src.id)"
+                                             class="px-3 py-2 hover:bg-gray-600 cursor-pointer flex items-center justify-between text-sm">
+                                            <div class="flex items-center space-x-2">
+                                                <span class="w-4 h-4 rounded border flex items-center justify-center"
+                                                      :class="isPodcastSourceSelected(src.id) ? 'bg-emerald-500 border-emerald-500' : 'border-gray-500'">
+                                                    <svg x-show="isPodcastSourceSelected(src.id)" class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                                    </svg>
+                                                </span>
+                                                <span x-text="src.name"></span>
+                                            </div>
+                                            <span class="text-gray-500 text-xs" x-text="'(' + src.episode_count + ')'"></span>
+                                        </div>
+                                    </template>
+                                </div>
+
+                                <!-- Footer buttons -->
+                                <div class="p-2 border-t border-gray-600 flex gap-2">
+                                    <button @click="selectAllPodcastSources()" class="flex-1 px-2 py-1 text-xs bg-gray-600 hover:bg-gray-500 rounded transition-colors">
+                                        Välj alla
+                                    </button>
+                                    <button @click="clearPodcastSourceSelection()" class="flex-1 px-2 py-1 text-xs bg-gray-600 hover:bg-gray-500 rounded transition-colors">
+                                        Rensa
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Selected chips -->
+                        <div x-show="podcastFilters.sources.length > 0" class="flex flex-wrap gap-1 mt-2">
+                            <template x-for="srcId in podcastFilters.sources" :key="srcId">
+                                <span class="inline-flex items-center px-2 py-0.5 rounded text-xs bg-emerald-900 text-emerald-300">
+                                    <span x-text="getPodcastSourceName(srcId)"></span>
+                                    <button @click="removePodcastSource(srcId)" class="ml-1 hover:text-emerald-100">
+                                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                        </svg>
+                                    </button>
+                                </span>
+                            </template>
+                        </div>
+                    </div>
+
+                    <!-- Period -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Period</label>
+                        <div class="flex flex-wrap items-center gap-2">
+                            <!-- Preset buttons -->
+                            <div class="flex gap-1">
+                                <button @click="setPodcastDatePreset('7d')"
+                                        :class="podcastFilters.datePreset === '7d' ? 'bg-emerald-600 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'"
+                                        class="px-3 py-1.5 rounded text-sm transition-colors">7d</button>
+                                <button @click="setPodcastDatePreset('30d')"
+                                        :class="podcastFilters.datePreset === '30d' ? 'bg-emerald-600 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'"
+                                        class="px-3 py-1.5 rounded text-sm transition-colors">30d</button>
+                                <button @click="setPodcastDatePreset('90d')"
+                                        :class="podcastFilters.datePreset === '90d' ? 'bg-emerald-600 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'"
+                                        class="px-3 py-1.5 rounded text-sm transition-colors">90d</button>
+                                <button @click="setPodcastDatePreset('ytd')"
+                                        :class="podcastFilters.datePreset === 'ytd' ? 'bg-emerald-600 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'"
+                                        class="px-3 py-1.5 rounded text-sm transition-colors">YTD</button>
+                                <button @click="setPodcastDatePreset('')"
+                                        :class="podcastFilters.datePreset === '' && !podcastFilters.dateFrom && !podcastFilters.dateTo ? 'bg-emerald-600 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'"
+                                        class="px-3 py-1.5 rounded text-sm transition-colors">Alla</button>
+                            </div>
+
+                            <!-- Custom date inputs -->
+                            <div class="flex items-center gap-2 text-sm text-gray-500">
+                                <span>eller:</span>
+                                <input type="date" :value="podcastFilters.dateFrom"
+                                       @input="setPodcastCustomDate('dateFrom', $event.target.value)"
+                                       class="bg-gray-700 border border-gray-600 rounded px-2 py-1 text-sm text-gray-300">
+                                <span>-</span>
+                                <input type="date" :value="podcastFilters.dateTo"
+                                       @input="setPodcastCustomDate('dateTo', $event.target.value)"
+                                       class="bg-gray-700 border border-gray-600 rounded px-2 py-1 text-sm text-gray-300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Search and Ownership -->
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
+                    <!-- Company Search (wider) -->
+                    <div class="md:col-span-3">
+                        <label class="block text-xs text-gray-500 mb-1">Sök bolag</label>
+                        <input type="text" x-model="podcastFilters.companySearch" placeholder="Sök på bolagsnamn eller ticker..."
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500">
+                    </div>
+
+                    <!-- Position Disclosure -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Ägarskap</label>
+                        <select x-model="podcastFilters.positionDisclosure" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla</option>
+                            <option value="owns">Äger aktien</option>
+                            <option value="none">Äger inte</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Row 3: Quick filters -->
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-700">
+                    <span class="text-xs text-gray-500 py-1">Snabbfilter:</span>
+                    <button @click="applyPodcastQuickFilter('highConviction')"
+                            class="px-3 py-1 rounded-lg text-xs bg-emerald-900 text-emerald-300 hover:bg-emerald-800 transition-colors">
+                        High Conviction
+                    </button>
+                    <button @click="applyPodcastQuickFilter('buyOnly')"
+                            class="px-3 py-1 rounded-lg text-xs bg-green-900 text-green-300 hover:bg-green-800 transition-colors">
+                        Endast KÖP
+                    </button>
+                    <button @click="applyPodcastQuickFilter('withPriceTarget')"
+                            class="px-3 py-1 rounded-lg text-xs bg-blue-900 text-blue-300 hover:bg-blue-800 transition-colors">
+                        Med kursmål
+                    </button>
+                    <button @click="podcastFilters.positionDisclosure = 'owns'"
+                            class="px-3 py-1 rounded-lg text-xs bg-yellow-900 text-yellow-300 hover:bg-yellow-800 transition-colors">
+                        Endast ägda
+                    </button>
+                    <div class="flex-1"></div>
+                    <button @click="clearPodcastFilters()"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Rensa filter
+                    </button>
+                </div>
+            </div>
+
+            <!-- Episode List -->
+            <div class="space-y-3">
+                <template x-for="episode in filteredPodcastEpisodes.slice(0, podcastDisplayLimit)" :key="episode.id">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-start justify-between">
+                            <div class="flex-1">
+                                <div class="flex items-center space-x-2 flex-wrap">
+                                    <span class="text-sm text-emerald-400 font-medium" x-text="episode.podcast_name"></span>
+                                    <span class="text-gray-500">|</span>
+                                    <span class="text-gray-400 text-sm" x-text="episode.date"></span>
+                                    <span x-show="episode.episode_number" class="text-gray-500 text-xs" x-text="'#' + episode.episode_number"></span>
+                                </div>
+                                <h3 class="font-semibold text-lg mt-1" x-text="episode.episode_title"></h3>
+                                <div x-show="(episode.hosts || []).length || (episode.guests || []).length" class="text-sm text-gray-500 mt-1">
+                                    <span x-show="(episode.hosts || []).length" x-text="'Hosts: ' + (episode.hosts || []).join(', ')"></span>
+                                    <span x-show="(episode.guests || []).length" x-text="' | Gäster: ' + (episode.guests || []).join(', ')"></span>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <span x-show="episode.recommendation_count > 0" class="px-2 py-1 rounded text-xs bg-emerald-900 text-emerald-300"
+                                      x-text="episode.recommendation_count + ' rec'"></span>
+                                <span x-show="episode.market_sentiment" class="px-2 py-1 rounded text-xs"
+                                      :class="{
+                                          'bg-green-900 text-green-300': episode.market_sentiment === 'bullish',
+                                          'bg-red-900 text-red-300': episode.market_sentiment === 'bearish',
+                                          'bg-gray-700 text-gray-300': episode.market_sentiment === 'neutral' || episode.market_sentiment === 'mixed'
+                                      }"
+                                      x-text="episode.market_sentiment"></span>
+                            </div>
+                        </div>
+
+                        <p x-show="episode.summary" class="mt-3 text-sm text-gray-300" x-text="episode.summary"></p>
+
+                        <!-- Key Takeaways -->
+                        <div x-show="episode.key_takeaways.length > 0" class="mt-3">
+                            <div class="flex flex-wrap gap-1">
+                                <template x-for="(takeaway, i) in episode.key_takeaways.slice(0, 4)" :key="i">
+                                    <span class="px-2 py-0.5 bg-gray-700 rounded text-xs text-gray-300" x-text="takeaway"></span>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Recommendations (expandable) -->
+                        <div x-show="episode.recommendations.length > 0" class="mt-3 pt-3 border-t border-gray-700">
+                            <div class="space-y-2">
+                                <template x-for="(rec, recIndex) in episode.recommendations" :key="rec.stock_name + '-' + recIndex">
+                                    <div class="rounded-lg bg-gray-750 border border-gray-600 overflow-hidden">
+                                        <!-- Recommendation Header (clickable) -->
+                                        <div class="flex items-center justify-between px-3 py-2 cursor-pointer hover:bg-gray-700 transition-colors"
+                                             @click="rec.expanded = !rec.expanded">
+                                            <div class="flex items-center space-x-2">
+                                                <span class="px-2 py-0.5 rounded text-xs font-semibold"
+                                                      :class="{
+                                                          'bg-green-900 text-green-300': rec.action === 'buy',
+                                                          'bg-red-900 text-red-300': rec.action === 'sell' || rec.action === 'avoid',
+                                                          'bg-yellow-900 text-yellow-300': rec.action === 'hold',
+                                                          'bg-blue-900 text-blue-300': rec.action === 'watch'
+                                                      }"
+                                                      x-text="rec.action?.toUpperCase()"></span>
+                                                <span class="font-medium text-gray-100" x-text="rec.stock_name"></span>
+                                                <span x-show="rec.ticker" class="text-sm text-gray-500" x-text="'(' + rec.ticker + ')'"></span>
+                                            </div>
+                                            <div class="flex items-center space-x-3">
+                                                <!-- Price change indicator (if available) -->
+                                                <span x-show="rec.price_change_pct !== undefined && rec.price_change_pct !== null"
+                                                      class="text-xs font-medium px-2 py-0.5 rounded"
+                                                      :class="rec.price_change_pct >= 0 ? 'bg-green-900/50 text-green-400' : 'bg-red-900/50 text-red-400'"
+                                                      x-text="(rec.price_change_pct >= 0 ? '+' : '') + rec.price_change_pct?.toFixed(1) + '%'"></span>
+                                                <!-- Confidence badge -->
+                                                <span x-show="rec.confidence" class="text-xs px-2 py-0.5 rounded"
+                                                      :class="{
+                                                          'bg-emerald-900/50 text-emerald-400': rec.confidence === 'high',
+                                                          'bg-yellow-900/50 text-yellow-400': rec.confidence === 'medium',
+                                                          'bg-gray-700 text-gray-400': rec.confidence === 'low' || rec.confidence === 'speculative'
+                                                      }"
+                                                      x-text="rec.confidence"></span>
+                                                <!-- Expand icon -->
+                                                <svg class="w-4 h-4 text-gray-500 transition-transform" :class="rec.expanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <!-- Recommendation Details (expandable) -->
+                                        <div x-show="rec.expanded" x-collapse class="px-3 pb-3 pt-1 border-t border-gray-700 bg-gray-800/50">
+                                            <!-- Price info -->
+                                            <div x-show="rec.price_at_signal || rec.latest_price" class="flex items-center space-x-2 text-sm text-gray-400 mb-2">
+                                                <span>📊</span>
+                                                <span x-show="rec.price_at_signal" x-text="'Pris vid signal: ' + rec.price_at_signal + ' SEK'"></span>
+                                                <span x-show="rec.price_at_signal && rec.latest_price">→</span>
+                                                <span x-show="rec.latest_price" x-text="rec.latest_price + ' SEK'"></span>
+                                            </div>
+                                            <!-- Speaker info -->
+                                            <div x-show="rec.speaker" class="text-sm text-gray-400 mb-2">
+                                                <span>🗣️</span>
+                                                <span x-text="rec.speaker"></span>
+                                                <span x-show="rec.speaker_role" class="text-gray-500" x-text="'(' + rec.speaker_role + ')'"></span>
+                                            </div>
+                                            <!-- Timestamp & Sector -->
+                                            <div x-show="rec.timestamp || rec.sector || rec.market" class="flex flex-wrap gap-2 text-xs text-gray-500 mb-2">
+                                                <span x-show="rec.timestamp" x-text="'⏱️ ' + rec.timestamp"></span>
+                                                <span x-show="rec.sector" x-text="'📁 ' + rec.sector"></span>
+                                                <span x-show="rec.market" x-text="'🌍 ' + rec.market"></span>
+                                            </div>
+                                            <!-- Reasoning -->
+                                            <div x-show="rec.reasoning" class="mb-2">
+                                                <div class="text-xs text-gray-500 mb-1">Motivering:</div>
+                                                <p class="text-sm text-gray-300" x-text="rec.reasoning"></p>
+                                            </div>
+                                            <!-- Quote -->
+                                            <div x-show="rec.quote" class="mb-2">
+                                                <div class="text-xs text-gray-500 mb-1">Citat:</div>
+                                                <p class="text-sm text-gray-400 italic border-l-2 border-gray-600 pl-3" x-text="rec.quote"></p>
+                                            </div>
+                                            <!-- Price target & time horizon -->
+                                            <div x-show="rec.price_target || rec.time_horizon" class="flex space-x-4 text-sm text-gray-400 mb-2">
+                                                <span x-show="rec.price_target" x-text="'🎯 Kursmål: ' + rec.price_target"></span>
+                                                <span x-show="rec.time_horizon" x-text="'⏱️ Tidshorisont: ' + rec.time_horizon"></span>
+                                            </div>
+
+                                            <!-- Stock Segment Details (if available, merged from stock_segments) -->
+                                            <template x-if="episode.stock_segments && episode.stock_segments.find(s => s.stock_name.toLowerCase() === rec.stock_name.toLowerCase())">
+                                                <div x-data="{ seg: episode.stock_segments.find(s => s.stock_name.toLowerCase() === rec.stock_name.toLowerCase()) }" class="mt-3 pt-3 border-t border-gray-700">
+                                                    <!-- Discussion Summary -->
+                                                    <div x-show="seg.discussion_summary" class="mb-3">
+                                                        <div class="text-xs text-emerald-400 mb-1">Detaljerad diskussion:</div>
+                                                        <p class="text-sm text-gray-300" x-text="seg.discussion_summary"></p>
+                                                    </div>
+
+                                                    <!-- Thesis breakdown -->
+                                                    <div x-show="seg.thesis && (seg.thesis.bull_case?.length || seg.thesis.bear_case?.length)" class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+                                                        <div x-show="seg.thesis.bull_case?.length" class="bg-green-900/20 rounded p-2">
+                                                            <div class="text-xs text-green-400 font-medium mb-1">Bull Case:</div>
+                                                            <ul class="text-xs text-gray-300 space-y-1">
+                                                                <template x-for="point in seg.thesis.bull_case" :key="point">
+                                                                    <li class="flex items-start">
+                                                                        <span class="text-green-500 mr-1">+</span>
+                                                                        <span x-text="point"></span>
+                                                                    </li>
+                                                                </template>
+                                                            </ul>
+                                                        </div>
+                                                        <div x-show="seg.thesis.bear_case?.length" class="bg-red-900/20 rounded p-2">
+                                                            <div class="text-xs text-red-400 font-medium mb-1">Bear Case:</div>
+                                                            <ul class="text-xs text-gray-300 space-y-1">
+                                                                <template x-for="point in seg.thesis.bear_case" :key="point">
+                                                                    <li class="flex items-start">
+                                                                        <span class="text-red-500 mr-1">-</span>
+                                                                        <span x-text="point"></span>
+                                                                    </li>
+                                                                </template>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Catalysts & Risks -->
+                                                    <div x-show="seg.thesis && (seg.thesis.catalysts?.length || seg.thesis.risks?.length)" class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+                                                        <div x-show="seg.thesis.catalysts?.length" class="bg-blue-900/20 rounded p-2">
+                                                            <div class="text-xs text-blue-400 font-medium mb-1">Catalysts:</div>
+                                                            <ul class="text-xs text-gray-300 space-y-1">
+                                                                <template x-for="point in seg.thesis.catalysts" :key="point">
+                                                                    <li x-text="'→ ' + point"></li>
+                                                                </template>
+                                                            </ul>
+                                                        </div>
+                                                        <div x-show="seg.thesis.risks?.length" class="bg-yellow-900/20 rounded p-2">
+                                                            <div class="text-xs text-yellow-400 font-medium mb-1">Risker:</div>
+                                                            <ul class="text-xs text-gray-300 space-y-1">
+                                                                <template x-for="point in seg.thesis.risks" :key="point">
+                                                                    <li x-text="'⚠️ ' + point"></li>
+                                                                </template>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Financial Metrics -->
+                                                    <div x-show="seg.financial_metrics && Object.values(seg.financial_metrics).some(v => v && v !== null && (!Array.isArray(v) || v.length > 0))" class="mb-3">
+                                                        <div class="text-xs text-gray-500 mb-1">Nyckeltal:</div>
+                                                        <div class="flex flex-wrap gap-2 text-xs">
+                                                            <span x-show="seg.financial_metrics.pe_ratio" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'P/E: ' + seg.financial_metrics.pe_ratio"></span>
+                                                            <span x-show="seg.financial_metrics.ev_ebitda" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'EV/EBITDA: ' + seg.financial_metrics.ev_ebitda"></span>
+                                                            <span x-show="seg.financial_metrics.ev_sales" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'EV/Sales: ' + seg.financial_metrics.ev_sales"></span>
+                                                            <span x-show="seg.financial_metrics.margin" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'Marginal: ' + seg.financial_metrics.margin"></span>
+                                                            <span x-show="seg.financial_metrics.revenue_growth" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'Tillväxt: ' + seg.financial_metrics.revenue_growth"></span>
+                                                            <span x-show="seg.financial_metrics.dividend_yield" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'Utd.yield: ' + seg.financial_metrics.dividend_yield"></span>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Multiple Quotes -->
+                                                    <div x-show="seg.quotes?.length" class="mb-3">
+                                                        <div class="text-xs text-gray-500 mb-1">Citat från diskussionen:</div>
+                                                        <div class="space-y-2">
+                                                            <template x-for="(q, qIndex) in seg.quotes" :key="qIndex">
+                                                                <blockquote class="text-xs text-gray-400 italic border-l-2 pl-2"
+                                                                            :class="{
+                                                                                'border-green-600': q.context === 'bull_case',
+                                                                                'border-red-600': q.context === 'bear_case',
+                                                                                'border-blue-600': q.context === 'catalyst',
+                                                                                'border-yellow-600': q.context === 'thesis',
+                                                                                'border-gray-600': !q.context || q.context === 'conclusion'
+                                                                            }">
+                                                                    <span x-text="'\"' + q.text + '\"'"></span>
+                                                                    <div class="text-gray-500 mt-0.5 not-italic">
+                                                                        <span x-text="'— ' + q.speaker"></span>
+                                                                        <span x-show="q.timestamp" class="text-gray-600" x-text="' (' + q.timestamp + ')'"></span>
+                                                                        <span x-show="q.context" class="ml-1 px-1 py-0.5 rounded text-[10px]"
+                                                                              :class="{
+                                                                                  'bg-green-900/50 text-green-400': q.context === 'bull_case',
+                                                                                  'bg-red-900/50 text-red-400': q.context === 'bear_case',
+                                                                                  'bg-blue-900/50 text-blue-400': q.context === 'catalyst',
+                                                                                  'bg-yellow-900/50 text-yellow-400': q.context === 'thesis',
+                                                                                  'bg-gray-700 text-gray-400': q.context === 'conclusion'
+                                                                              }"
+                                                                              x-text="q.context"></span>
+                                                                    </div>
+                                                                </blockquote>
+                                                            </template>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Position Disclosure & Timestamps -->
+                                                    <div class="flex flex-wrap gap-2 text-xs text-gray-500">
+                                                        <span x-show="seg.position_disclosure" class="px-2 py-0.5 rounded"
+                                                              :class="seg.position_disclosure === 'owns' ? 'bg-emerald-900/50 text-emerald-400' : 'bg-gray-700'"
+                                                              x-text="seg.position_disclosure === 'owns' ? '✓ Äger aktien' : seg.position_disclosure"></span>
+                                                        <span x-show="seg.timestamp_start && seg.timestamp_end" x-text="'⏱️ ' + seg.timestamp_start + ' - ' + seg.timestamp_end"></span>
+                                                        <span x-show="seg.word_count" x-text="seg.word_count + ' ord'"></span>
+                                                    </div>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Stock Segments (stocks discussed without explicit recommendation) -->
+                        <template x-if="episode.stock_segments && episode.stock_segments.filter(seg => !episode.recommendations.some(r => r.stock_name.toLowerCase() === seg.stock_name.toLowerCase())).length > 0">
+                            <div class="mt-3 pt-3 border-t border-gray-700">
+                                <div class="text-xs text-gray-500 mb-2">Övriga diskuterade bolag:</div>
+                                <div class="space-y-2">
+                                    <template x-for="seg in episode.stock_segments.filter(seg => !episode.recommendations.some(r => r.stock_name.toLowerCase() === seg.stock_name.toLowerCase()))" :key="seg.stock_name">
+                                        <div class="rounded-lg bg-gray-750 border border-gray-600 overflow-hidden">
+                                            <div class="flex items-center justify-between px-3 py-2 cursor-pointer hover:bg-gray-700 transition-colors"
+                                                 @click="seg.expanded = !seg.expanded">
+                                                <div class="flex items-center space-x-2">
+                                                    <span class="font-medium text-gray-100" x-text="seg.stock_name"></span>
+                                                    <span x-show="seg.position_disclosure === 'owns'" class="px-1.5 py-0.5 text-[10px] rounded bg-emerald-900/50 text-emerald-400">äger</span>
+                                                </div>
+                                                <div class="flex items-center space-x-2">
+                                                    <span x-show="seg.word_count" class="text-xs text-gray-500" x-text="seg.word_count + ' ord'"></span>
+                                                    <svg class="w-4 h-4 text-gray-500 transition-transform" :class="seg.expanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div x-show="seg.expanded" x-collapse class="px-3 pb-3 pt-1 border-t border-gray-700 bg-gray-800/50">
+                                                <p x-show="seg.discussion_summary" class="text-sm text-gray-300 mb-2" x-text="seg.discussion_summary"></p>
+
+                                                <!-- Thesis breakdown -->
+                                                <div x-show="seg.thesis && (seg.thesis.bull_case?.length || seg.thesis.bear_case?.length)" class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-2">
+                                                    <div x-show="seg.thesis.bull_case?.length" class="bg-green-900/20 rounded p-2">
+                                                        <div class="text-xs text-green-400 font-medium mb-1">Bull Case:</div>
+                                                        <ul class="text-xs text-gray-300 space-y-0.5">
+                                                            <template x-for="point in seg.thesis.bull_case" :key="point">
+                                                                <li x-text="'+ ' + point"></li>
+                                                            </template>
+                                                        </ul>
+                                                    </div>
+                                                    <div x-show="seg.thesis.bear_case?.length" class="bg-red-900/20 rounded p-2">
+                                                        <div class="text-xs text-red-400 font-medium mb-1">Bear Case:</div>
+                                                        <ul class="text-xs text-gray-300 space-y-0.5">
+                                                            <template x-for="point in seg.thesis.bear_case" :key="point">
+                                                                <li x-text="'- ' + point"></li>
+                                                            </template>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Quotes -->
+                                                <div x-show="seg.quotes?.length" class="space-y-1">
+                                                    <template x-for="(q, i) in seg.quotes.slice(0, 3)" :key="i">
+                                                        <blockquote class="text-xs text-gray-400 italic border-l-2 border-gray-600 pl-2">
+                                                            "<span x-text="q.text"></span>"
+                                                            <span class="text-gray-500 not-italic" x-text="'— ' + q.speaker"></span>
+                                                        </blockquote>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+
+                        <!-- Insights -->
+                        <div x-show="episode.insights && episode.insights.length > 0" class="mt-3 pt-3 border-t border-gray-700">
+                            <div class="text-xs text-gray-500 mb-2">Insikter:</div>
+                            <div class="space-y-2">
+                                <template x-for="(insight, i) in episode.insights.slice(0, 5)" :key="i">
+                                    <div class="bg-gray-750 rounded p-2">
+                                        <p class="text-sm text-gray-300" x-text="insight.summary || insight.quote"></p>
+                                        <div class="flex flex-wrap items-center gap-1 mt-1">
+                                            <span x-show="insight.timestamp" class="text-xs text-blue-400" x-text="'[' + insight.timestamp + ']'"></span>
+                                            <span x-show="insight.speaker" class="text-xs text-gray-500" x-text="'— ' + insight.speaker"></span>
+                                            <span x-show="insight.category" class="px-1 py-0.5 bg-gray-700 rounded text-xs text-gray-400" x-text="insight.category"></span>
+                                        </div>
+                                        <!-- Tags -->
+                                        <div x-show="insight.tags && insight.tags.length > 0" class="flex flex-wrap gap-1 mt-1">
+                                            <template x-for="tag in insight.tags" :key="tag">
+                                                <span class="px-1.5 py-0.5 bg-purple-900/50 text-purple-300 rounded text-xs" x-text="tag"></span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Stocks Discussed -->
+                        <div x-show="episode.stocks_discussed.length > 0 && episode.recommendations.length === 0 && (!episode.stock_segments || episode.stock_segments.length === 0)" class="mt-3 pt-3 border-t border-gray-700">
+                            <span class="text-xs text-gray-500">Bolag diskuterade: </span>
+                            <span class="text-xs text-gray-400" x-text="episode.stocks_discussed.slice(0, 10).join(', ')"></span>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Load More -->
+            <button x-show="filteredPodcastEpisodes.length > podcastDisplayLimit"
+                    @click="podcastDisplayLimit += 50"
+                    class="mt-6 w-full py-3 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors">
+                Visa fler (<span x-text="filteredPodcastEpisodes.length - podcastDisplayLimit"></span> kvar)
+            </button>
+
+            <p x-show="filteredPodcastEpisodes.length === 0" class="text-gray-500 text-center py-10">
+                Inga avsnitt matchar filtren
+            </p>
+        </div>
+
+        <!-- Twitter View -->
+        <div x-show="view === 'twitter' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">Twitter</h1>
+                <span class="text-sm text-gray-400" x-text="filteredTweets.length + ' tweets'"></span>
+            </div>
+
+            <!-- Filter Panel -->
+            <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+                    <!-- User dropdown -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Användare</label>
+                        <select x-model="twitterFilters.user" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla användare</option>
+                            <template x-for="user in twitterUsers" :key="user.id">
+                                <option :value="user.id" x-text="user.handle + ' (' + user.actionable_count + ' actionable)'"></option>
+                            </template>
+                        </select>
+                    </div>
+
+                    <!-- Date From -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Från datum</label>
+                        <input type="date" x-model="twitterFilters.dateFrom"
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                    </div>
+
+                    <!-- Date To -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Till datum</label>
+                        <input type="date" x-model="twitterFilters.dateTo"
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                    </div>
+
+                    <!-- Company Search -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Sök bolag</label>
+                        <input type="text" x-model="twitterFilters.companySearch" placeholder="Bolagsnamn..."
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500">
+                    </div>
+
+                    <!-- Only Actionable -->
+                    <div class="flex items-end pb-2">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" x-model="twitterFilters.onlyActionable"
+                                   class="w-4 h-4 rounded border-gray-600 bg-gray-700 text-emerald-500 focus:ring-emerald-500">
+                            <span class="text-sm text-gray-300">Endast actionable</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Clear filters -->
+                <div class="flex gap-2 mt-4 pt-4 border-t border-gray-700">
+                    <button @click="twitterFilters = { user: '', dateFrom: '', dateTo: '', companySearch: '', onlyActionable: false }"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Rensa filter
+                    </button>
+                    <button @click="twitterFilters.onlyActionable = true"
+                            class="px-3 py-1 rounded-lg text-xs bg-emerald-900 text-emerald-300 hover:bg-emerald-800 transition-colors">
+                        Visa endast actionable
+                    </button>
+                </div>
+            </div>
+
+            <!-- Cross-reference section (when searching for company) -->
+            <div x-show="twitterFilters.companySearch && crossReferencedStocks.length > 0" class="mb-6">
+                <h2 class="text-lg font-semibold mb-3">Bolag nämnda av flera användare</h2>
+                <div class="grid gap-3">
+                    <template x-for="stock in crossReferencedStocks.slice(0, 10)" :key="stock.stock_name">
+                        <div class="bg-gray-800 rounded-lg p-3 border border-emerald-700">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <span class="font-medium text-emerald-400" x-text="stock.stock_name"></span>
+                                    <span x-show="stock.ticker" class="text-gray-500 text-sm ml-1" x-text="'(' + stock.ticker + ')'"></span>
+                                </div>
+                                <span class="text-sm text-gray-400" x-text="stock.total_mentions + ' mentions'"></span>
+                            </div>
+                            <div class="mt-2 flex flex-wrap gap-1">
+                                <template x-for="um in stock.user_mentions" :key="um.user_id">
+                                    <span class="px-2 py-0.5 bg-gray-700 rounded text-xs text-gray-300"
+                                          x-text="'@' + um.user_id + ' (' + um.count + ')'"></span>
+                                </template>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+
+            <!-- Tweet List -->
+            <div class="space-y-3">
+                <template x-for="(tweet, tweetIndex) in filteredTweets.slice(0, twitterDisplayLimit)" :key="tweet.user_id + '-' + tweet.id + '-' + tweetIndex">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700"
+                         :class="tweet.is_actionable ? 'border-l-2 border-l-emerald-500' : ''">
+                        <div class="flex items-start justify-between">
+                            <div class="flex items-center space-x-2">
+                                <span class="font-medium text-emerald-400" x-text="tweet.user_handle"></span>
+                                <span class="text-gray-500 text-sm" x-text="tweet.date"></span>
+                                <span x-show="tweet.is_reply" class="text-xs text-gray-600">reply</span>
+                            </div>
+                            <div class="flex items-center space-x-3 text-sm text-gray-500">
+                                <span x-show="tweet.likes" x-text="tweet.likes + ' ♥'"></span>
+                                <span x-show="tweet.views" x-text="tweet.views + ' views'"></span>
+                            </div>
+                        </div>
+
+                        <p class="mt-2 text-gray-200 whitespace-pre-wrap" x-text="tweet.text"></p>
+
+                        <!-- Stock mentions (expandable) -->
+                        <div x-show="tweet.stock_mentions.length > 0" class="mt-3 space-y-2">
+                            <template x-for="(mention, mentionIndex) in tweet.stock_mentions" :key="tweet.id + '-mention-' + mentionIndex">
+                                <div class="rounded-lg bg-gray-750 border border-gray-600 overflow-hidden">
+                                    <!-- Mention Header (clickable) -->
+                                    <div class="flex items-center justify-between px-3 py-2 cursor-pointer hover:bg-gray-700 transition-colors"
+                                         @click="mention.expanded = !mention.expanded">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2 py-0.5 rounded text-xs font-semibold"
+                                                  :class="{
+                                                      'bg-green-900 text-green-300': mention.action === 'buy',
+                                                      'bg-red-900 text-red-300': mention.action === 'sell' || mention.action === 'avoid',
+                                                      'bg-yellow-900 text-yellow-300': mention.action === 'hold',
+                                                      'bg-blue-900 text-blue-300': mention.action === 'watch',
+                                                      'bg-gray-700 text-gray-300': !mention.action || mention.action === 'unknown'
+                                                  }"
+                                                  x-text="mention.action?.toUpperCase() || 'MENTION'"></span>
+                                            <span class="font-medium text-gray-100" x-text="mention.stock_name"></span>
+                                            <span x-show="mention.ticker" class="text-sm text-gray-500" x-text="'$' + mention.ticker"></span>
+                                        </div>
+                                        <div class="flex items-center space-x-3">
+                                            <!-- Price change indicator -->
+                                            <span x-show="mention.price_change_pct !== undefined && mention.price_change_pct !== null"
+                                                  class="text-xs font-medium px-2 py-0.5 rounded"
+                                                  :class="mention.price_change_pct >= 0 ? 'bg-green-900/50 text-green-400' : 'bg-red-900/50 text-red-400'"
+                                                  x-text="(mention.price_change_pct >= 0 ? '+' : '') + mention.price_change_pct?.toFixed(1) + '%'"></span>
+                                            <!-- Confidence badge -->
+                                            <span x-show="mention.confidence" class="text-xs px-2 py-0.5 rounded"
+                                                  :class="{
+                                                      'bg-emerald-900/50 text-emerald-400': mention.confidence === 'high',
+                                                      'bg-yellow-900/50 text-yellow-400': mention.confidence === 'medium',
+                                                      'bg-gray-700 text-gray-400': mention.confidence === 'low'
+                                                  }"
+                                                  x-text="mention.confidence"></span>
+                                            <!-- Expand icon -->
+                                            <svg class="w-4 h-4 text-gray-500 transition-transform" :class="mention.expanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!-- Mention Details (expandable) -->
+                                    <div x-show="mention.expanded" x-collapse class="px-3 pb-3 pt-1 border-t border-gray-700 bg-gray-800/50">
+                                        <!-- Price info -->
+                                        <div x-show="mention.price_at_signal || mention.latest_price" class="flex items-center space-x-2 text-sm text-gray-400 mb-2">
+                                            <span>📊</span>
+                                            <span x-show="mention.price_at_signal" x-text="'Pris vid signal: ' + mention.price_at_signal + ' SEK'"></span>
+                                            <span x-show="mention.price_at_signal && mention.latest_price">→</span>
+                                            <span x-show="mention.latest_price" x-text="mention.latest_price + ' SEK'"></span>
+                                        </div>
+                                        <!-- Reasoning -->
+                                        <div x-show="mention.reasoning" class="mb-2">
+                                            <div class="text-xs text-gray-500 mb-1">Motivering:</div>
+                                            <p class="text-sm text-gray-300" x-text="mention.reasoning"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Load More -->
+            <button x-show="filteredTweets.length > twitterDisplayLimit"
+                    @click="twitterDisplayLimit += 100"
+                    class="mt-6 w-full py-3 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors">
+                Visa fler (<span x-text="filteredTweets.length - twitterDisplayLimit"></span> kvar)
+            </button>
+
+            <p x-show="filteredTweets.length === 0" class="text-gray-500 text-center py-10">
+                Inga tweets matchar filtren
+            </p>
+        </div>
+
+        <!-- YouTube View -->
+        <div x-show="view === 'youtube' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">YouTube</h1>
+                <span class="text-sm text-gray-400" x-text="filteredYoutubeVideos.length + ' videor'"></span>
+            </div>
+
+            <!-- Filter Panel -->
+            <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+                    <!-- Channel dropdown -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Kanal</label>
+                        <select x-model="youtubeFilters.channel" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla kanaler</option>
+                            <template x-for="channel in youtubeChannels" :key="channel.id">
+                                <option :value="channel.id" x-text="channel.name + ' (' + channel.video_count + ')'"></option>
+                            </template>
+                        </select>
+                    </div>
+
+                    <!-- Date From -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Från datum</label>
+                        <input type="date" x-model="youtubeFilters.dateFrom"
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                    </div>
+
+                    <!-- Date To -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Till datum</label>
+                        <input type="date" x-model="youtubeFilters.dateTo"
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                    </div>
+
+                    <!-- Company Search -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Sök bolag</label>
+                        <input type="text" x-model="youtubeFilters.companySearch" placeholder="Bolagsnamn..."
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-emerald-500">
+                    </div>
+
+                    <!-- Recommendation Type filter -->
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">Typ</label>
+                        <select x-model="youtubeFilters.recommendationType" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                            <option value="">Alla</option>
+                            <option value="active_position">Aktiv position</option>
+                            <option value="commentary">Kommentar</option>
+                            <option value="exit_signal">Exit signal</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Clear filters -->
+                <div class="flex gap-2 mt-4 pt-4 border-t border-gray-700">
+                    <button @click="youtubeFilters = { channel: '', dateFrom: '', dateTo: '', companySearch: '', recommendationType: '' }"
+                            class="px-3 py-1 rounded-lg text-xs bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors">
+                        Rensa filter
+                    </button>
+                    <button @click="youtubeFilters.recommendationType = 'active_position'"
+                            class="px-3 py-1 rounded-lg text-xs bg-emerald-900 text-emerald-300 hover:bg-emerald-800 transition-colors">
+                        Endast aktiva positioner
+                    </button>
+                </div>
+            </div>
+
+            <!-- Video List -->
+            <div class="space-y-3">
+                <template x-for="video in filteredYoutubeVideos.slice(0, youtubeDisplayLimit)" :key="video.id">
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-start justify-between">
+                            <div class="flex-1">
+                                <div class="flex items-center space-x-2">
+                                    <span class="text-sm text-red-400 font-medium" x-text="video.channel_name"></span>
+                                    <span class="text-gray-500">|</span>
+                                    <span class="text-gray-400 text-sm" x-text="video.date"></span>
+                                    <span x-show="video.category" class="px-2 py-0.5 rounded text-xs bg-gray-700 text-gray-400" x-text="video.category"></span>
+                                </div>
+                                <h3 class="font-semibold text-lg mt-1" x-text="video.title"></h3>
+                            </div>
+                            <span x-show="video.recommendation_count > 0" class="px-2 py-1 rounded text-xs bg-emerald-900 text-emerald-300"
+                                  x-text="video.recommendation_count + ' rec'"></span>
+                        </div>
+
+                        <p x-show="video.summary" class="mt-3 text-sm text-gray-300" x-text="video.summary"></p>
+
+                        <!-- Recommendations (expandable) -->
+                        <div x-show="video.recommendations.length > 0" class="mt-3 pt-3 border-t border-gray-700">
+                            <div class="space-y-2">
+                                <template x-for="(rec, recIndex) in video.recommendations" :key="rec.stock_name + '-' + recIndex">
+                                    <div class="rounded-lg bg-gray-750 border border-gray-600 overflow-hidden">
+                                        <!-- Recommendation Header (clickable) -->
+                                        <div class="flex items-center justify-between px-3 py-2 cursor-pointer hover:bg-gray-700 transition-colors"
+                                             @click="rec.expanded = !rec.expanded">
+                                            <div class="flex items-center space-x-2">
+                                                <span class="px-2 py-0.5 rounded text-xs font-semibold"
+                                                      :class="{
+                                                          'bg-green-900 text-green-300': rec.action === 'buy',
+                                                          'bg-red-900 text-red-300': rec.action === 'sell' || rec.action === 'avoid',
+                                                          'bg-yellow-900 text-yellow-300': rec.action === 'hold',
+                                                          'bg-blue-900 text-blue-300': rec.action === 'watch'
+                                                      }"
+                                                      x-text="rec.action?.toUpperCase()"></span>
+                                                <span class="font-medium text-gray-100" x-text="rec.stock_name"></span>
+                                                <span x-show="rec.ticker" class="text-sm text-gray-500" x-text="'(' + rec.ticker + ')'"></span>
+                                            </div>
+                                            <div class="flex items-center space-x-3">
+                                                <!-- Price change indicator -->
+                                                <span x-show="rec.price_change_pct !== undefined && rec.price_change_pct !== null"
+                                                      class="text-xs font-medium px-2 py-0.5 rounded"
+                                                      :class="rec.price_change_pct >= 0 ? 'bg-green-900/50 text-green-400' : 'bg-red-900/50 text-red-400'"
+                                                      x-text="(rec.price_change_pct >= 0 ? '+' : '') + rec.price_change_pct?.toFixed(1) + '%'"></span>
+                                                <!-- Confidence badge -->
+                                                <span x-show="rec.confidence" class="text-xs px-2 py-0.5 rounded"
+                                                      :class="{
+                                                          'bg-emerald-900/50 text-emerald-400': rec.confidence === 'high',
+                                                          'bg-yellow-900/50 text-yellow-400': rec.confidence === 'medium',
+                                                          'bg-gray-700 text-gray-400': rec.confidence === 'low' || rec.confidence === 'speculative'
+                                                      }"
+                                                      x-text="rec.confidence"></span>
+                                                <!-- Expand icon -->
+                                                <svg class="w-4 h-4 text-gray-500 transition-transform" :class="rec.expanded ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <!-- Recommendation Details (expandable) -->
+                                        <div x-show="rec.expanded" x-collapse class="px-3 pb-3 pt-1 border-t border-gray-700 bg-gray-800/50">
+                                            <!-- Recommendation Type & Timestamp badges -->
+                                            <div x-show="rec.recommendation_type || rec.timestamp || rec.is_new_position" class="flex flex-wrap gap-2 mb-2">
+                                                <span x-show="rec.recommendation_type" class="px-2 py-0.5 rounded text-xs"
+                                                      :class="{
+                                                          'bg-emerald-900/50 text-emerald-400': rec.recommendation_type === 'active_position',
+                                                          'bg-gray-700 text-gray-400': rec.recommendation_type === 'commentary',
+                                                          'bg-red-900/50 text-red-400': rec.recommendation_type === 'exit_signal'
+                                                      }"
+                                                      x-text="rec.recommendation_type === 'active_position' ? 'Aktiv position' : rec.recommendation_type === 'exit_signal' ? 'Exit signal' : 'Kommentar'"></span>
+                                                <span x-show="rec.is_new_position" class="px-2 py-0.5 rounded text-xs bg-blue-900/50 text-blue-400">Ny position</span>
+                                                <span x-show="rec.timestamp" class="text-xs text-gray-500" x-text="'⏱️ ' + rec.timestamp"></span>
+                                            </div>
+                                            <!-- Price info -->
+                                            <div x-show="rec.price_at_signal || rec.latest_price" class="flex items-center space-x-2 text-sm text-gray-400 mb-2">
+                                                <span>📊</span>
+                                                <span x-show="rec.price_at_signal" x-text="'Pris vid signal: ' + rec.price_at_signal + ' SEK'"></span>
+                                                <span x-show="rec.price_at_signal && rec.latest_price">→</span>
+                                                <span x-show="rec.latest_price" x-text="rec.latest_price + ' SEK'"></span>
+                                            </div>
+                                            <!-- Speaker info -->
+                                            <div x-show="rec.speaker" class="text-sm text-gray-400 mb-2">
+                                                <span>🗣️</span>
+                                                <span x-text="rec.speaker"></span>
+                                            </div>
+                                            <!-- Reasoning -->
+                                            <div x-show="rec.reasoning" class="mb-2">
+                                                <div class="text-xs text-gray-500 mb-1">Motivering:</div>
+                                                <p class="text-sm text-gray-300" x-text="rec.reasoning"></p>
+                                            </div>
+                                            <!-- Price prediction -->
+                                            <div x-show="rec.price_prediction" class="mb-2">
+                                                <div class="text-xs text-gray-500 mb-1">Prisprediktion:</div>
+                                                <p class="text-sm text-gray-300" x-text="rec.price_prediction"></p>
+                                            </div>
+                                            <!-- Quote -->
+                                            <div x-show="rec.quote" class="mb-2">
+                                                <div class="text-xs text-gray-500 mb-1">Citat:</div>
+                                                <p class="text-sm text-gray-400 italic border-l-2 border-gray-600 pl-3" x-text="rec.quote"></p>
+                                            </div>
+                                            <!-- Price target, invalidation & time horizon -->
+                                            <div x-show="rec.price_target || rec.time_horizon || rec.invalidation_price" class="flex flex-wrap gap-3 text-sm text-gray-400 mb-2">
+                                                <span x-show="rec.price_target" x-text="'🎯 Kursmål: $' + rec.price_target"></span>
+                                                <span x-show="rec.invalidation_price" class="text-red-400" x-text="'⛔ Invalidering: $' + rec.invalidation_price"></span>
+                                                <span x-show="rec.time_horizon" x-text="'⏱️ Tidshorisont: ' + rec.time_horizon"></span>
+                                            </div>
+                                            <!-- Catalysts -->
+                                            <div x-show="rec.mentioned_catalysts && rec.mentioned_catalysts.length > 0" class="mb-2">
+                                                <div class="text-xs text-blue-400 mb-1">Catalysts:</div>
+                                                <div class="flex flex-wrap gap-1">
+                                                    <template x-for="catalyst in rec.mentioned_catalysts" :key="catalyst">
+                                                        <span class="px-2 py-0.5 rounded text-xs bg-blue-900/30 text-blue-300" x-text="catalyst"></span>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                            <!-- Risk Factors -->
+                                            <div x-show="rec.risk_factors_mentioned && rec.risk_factors_mentioned.length > 0" class="mb-2">
+                                                <div class="text-xs text-yellow-400 mb-1">Riskfaktorer:</div>
+                                                <div class="flex flex-wrap gap-1">
+                                                    <template x-for="risk in rec.risk_factors_mentioned" :key="risk">
+                                                        <span class="px-2 py-0.5 rounded text-xs bg-yellow-900/30 text-yellow-300" x-text="risk"></span>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Bitcoin dominance & Alt season (crypto-specific) -->
+                        <div x-show="video.bitcoin_dominance_view || video.alt_season_prediction !== undefined" class="mt-3 pt-3 border-t border-gray-700 flex flex-wrap gap-2 text-xs">
+                            <span x-show="video.bitcoin_dominance_view" class="px-2 py-0.5 rounded"
+                                  :class="video.bitcoin_dominance_view === 'increasing' ? 'bg-orange-900/50 text-orange-400' : 'bg-purple-900/50 text-purple-400'"
+                                  x-text="'BTC.D ' + video.bitcoin_dominance_view"></span>
+                            <span x-show="video.alt_season_prediction !== undefined" class="px-2 py-0.5 rounded"
+                                  :class="video.alt_season_prediction ? 'bg-green-900/50 text-green-400' : 'bg-gray-700 text-gray-400'"
+                                  x-text="video.alt_season_prediction ? 'Alt season: JA' : 'Alt season: NEJ'"></span>
+                        </div>
+
+                        <!-- Stocks Discussed -->
+                        <div x-show="video.stocks_discussed.length > 0 && video.recommendations.length === 0" class="mt-3 pt-3 border-t border-gray-700">
+                            <span class="text-xs text-gray-500">Stocks discussed: </span>
+                            <span class="text-xs text-gray-400" x-text="video.stocks_discussed.slice(0, 10).join(', ')"></span>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Load More -->
+            <button x-show="filteredYoutubeVideos.length > youtubeDisplayLimit"
+                    @click="youtubeDisplayLimit += 50"
+                    class="mt-6 w-full py-3 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors">
+                Visa fler (<span x-text="filteredYoutubeVideos.length - youtubeDisplayLimit"></span> kvar)
+            </button>
+
+            <p x-show="filteredYoutubeVideos.length === 0" class="text-gray-500 text-center py-10">
+                Inga videor matchar filtren
+            </p>
+        </div>
+
+        <!-- Filings View -->
+        <div x-show="view === 'filings' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">Filings Analysis</h1>
+                <span class="text-sm text-gray-400" x-text="filings?.companies?.length + ' companies'"></span>
+            </div>
+
+            <!-- Company Selector -->
+            <div class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <div class="flex items-center gap-4">
+                    <label class="text-sm text-gray-400">Company:</label>
+                    <select x-model="selectedFilingCompany" class="bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-sm">
+                        <template x-for="company in filings?.companies || []" :key="company">
+                            <option :value="company" x-text="company.charAt(0).toUpperCase() + company.slice(1)"></option>
+                        </template>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Reports Analyzed Overview -->
+            <div x-show="currentEvolution" class="bg-gray-800 rounded-lg p-4 mb-6 border border-gray-700">
+                <h3 class="text-lg font-semibold mb-3">Reports Analyzed</h3>
+                <div class="flex flex-wrap gap-2 mb-3">
+                    <template x-for="filing in currentEvolution?.filings_analyzed || []" :key="filing">
+                        <span class="px-3 py-1 bg-gray-700 rounded-full text-sm" x-text="filing"></span>
+                    </template>
+                </div>
+                <div class="flex items-center justify-between text-sm text-gray-400">
+                    <span x-text="'Coverage: ' + (currentEvolution?.filings_analyzed?.length || 0) + ' filings analyzed'"></span>
+                    <span x-show="currentEvolution?.last_updated" x-text="'Last updated: ' + new Date(currentEvolution.last_updated).toLocaleDateString('sv-SE')"></span>
+                </div>
+            </div>
+
+            <!-- Investment Thesis Summary -->
+            <div x-show="currentThesis" class="mb-8">
+                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                    <div class="flex items-center justify-between mb-6">
+                        <div>
+                            <h2 class="text-xl font-bold mb-2" x-text="selectedFilingCompany?.charAt(0).toUpperCase() + selectedFilingCompany?.slice(1) + ' Investment Thesis'"></h2>
+                            <p class="text-gray-400 text-sm" x-text="'Generated: ' + (currentThesis?.generated_at ? new Date(currentThesis.generated_at).toLocaleDateString('sv-SE') : '-')"></p>
+                        </div>
+                        <!-- Verdict Badge -->
+                        <div class="text-center">
+                            <div class="text-6xl font-bold mb-2"
+                                 :class="{
+                                     'text-green-400': currentThesis?.verdict === 'green',
+                                     'text-yellow-400': currentThesis?.verdict === 'yellow',
+                                     'text-red-400': currentThesis?.verdict === 'red'
+                                 }">
+                                <span x-show="currentThesis?.verdict === 'green'">&#x1F7E2;</span>
+                                <span x-show="currentThesis?.verdict === 'yellow'">&#x1F7E1;</span>
+                                <span x-show="currentThesis?.verdict === 'red'">&#x1F534;</span>
+                            </div>
+                            <div class="text-sm font-medium uppercase"
+                                 :class="{
+                                     'text-green-400': currentThesis?.verdict === 'green',
+                                     'text-yellow-400': currentThesis?.verdict === 'yellow',
+                                     'text-red-400': currentThesis?.verdict === 'red'
+                                 }"
+                                 x-text="currentThesis?.verdict"></div>
+                        </div>
+                    </div>
+
+                    <!-- CEO Credibility Score -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <h3 class="text-lg font-semibold mb-3">CEO Credibility Score</h3>
+                            <div class="bg-gray-900 rounded-lg p-4">
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="text-4xl font-bold" x-text="currentThesis?.ceo_credibility_score?.toFixed(0) + '/100'"></span>
+                                    <span class="text-sm text-gray-400" x-text="currentThesis?.verdict_reasoning"></span>
+                                </div>
+                                <div class="space-y-2">
+                                    <template x-for="(score, metric) in currentThesis?.credibility_breakdown || {}" :key="metric">
+                                        <div class="flex items-center justify-between text-sm">
+                                            <span class="text-gray-400" x-text="metric.replace(/_/g, ' ')"></span>
+                                            <div class="flex items-center gap-2">
+                                                <div class="w-24 h-2 bg-gray-700 rounded-full overflow-hidden">
+                                                    <div class="h-full bg-emerald-500" :style="'width: ' + score + '%'"></div>
+                                                </div>
+                                                <span class="text-gray-300 w-8 text-right" x-text="score.toFixed(0)"></span>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Trend Summary -->
+                        <div>
+                            <h3 class="text-lg font-semibold mb-3">Trend Summary</h3>
+                            <div class="bg-gray-900 rounded-lg p-4 space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-gray-400">Tone</span>
+                                    <span class="px-2 py-1 rounded text-sm"
+                                          :class="{
+                                              'bg-green-900/50 text-green-400': currentThesis?.tone_trend === 'improving',
+                                              'bg-gray-700 text-gray-300': currentThesis?.tone_trend === 'stable',
+                                              'bg-red-900/50 text-red-400': currentThesis?.tone_trend === 'declining'
+                                          }"
+                                          x-text="currentThesis?.tone_trend"></span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-gray-400">Margin</span>
+                                    <span class="px-2 py-1 rounded text-sm"
+                                          :class="{
+                                              'bg-green-900/50 text-green-400': currentThesis?.margin_trend === 'improving',
+                                              'bg-gray-700 text-gray-300': currentThesis?.margin_trend === 'stable',
+                                              'bg-red-900/50 text-red-400': currentThesis?.margin_trend === 'declining'
+                                          }"
+                                          x-text="currentThesis?.margin_trend"></span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-gray-400">Growth</span>
+                                    <span class="px-2 py-1 rounded text-sm"
+                                          :class="{
+                                              'bg-green-900/50 text-green-400': currentThesis?.growth_trend === 'improving',
+                                              'bg-gray-700 text-gray-300': currentThesis?.growth_trend === 'stable',
+                                              'bg-red-900/50 text-red-400': currentThesis?.growth_trend === 'declining'
+                                          }"
+                                          x-text="currentThesis?.growth_trend"></span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-gray-400">Leverage</span>
+                                    <span class="px-2 py-1 rounded text-sm"
+                                          :class="{
+                                              'bg-green-900/50 text-green-400': currentThesis?.leverage_assessment === 'healthy',
+                                              'bg-yellow-900/50 text-yellow-400': currentThesis?.leverage_assessment === 'elevated',
+                                              'bg-red-900/50 text-red-400': currentThesis?.leverage_assessment === 'concerning'
+                                          }"
+                                          x-text="currentThesis?.leverage_assessment"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Signals Grid -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <!-- Green Flags -->
+                        <div class="bg-green-900/20 rounded-lg p-4 border border-green-900/50">
+                            <h4 class="text-green-400 font-semibold mb-3 flex items-center gap-2">
+                                <span>&#x2705;</span> Green Flags (<span x-text="currentThesis?.green_flags?.length || 0"></span>)
+                            </h4>
+                            <ul class="space-y-2 text-sm">
+                                <template x-for="flag in currentThesis?.green_flags || []" :key="flag">
+                                    <li class="text-green-300" x-text="flag"></li>
+                                </template>
+                                <li x-show="!currentThesis?.green_flags?.length" class="text-gray-500">None</li>
+                            </ul>
+                        </div>
+
+                        <!-- Red Flags -->
+                        <div class="bg-red-900/20 rounded-lg p-4 border border-red-900/50">
+                            <h4 class="text-red-400 font-semibold mb-3 flex items-center gap-2">
+                                <span>&#x26A0;&#xFE0F;</span> Red Flags (<span x-text="currentThesis?.red_flags?.length || 0"></span>)
+                            </h4>
+                            <ul class="space-y-2 text-sm">
+                                <template x-for="flag in currentThesis?.red_flags || []" :key="flag">
+                                    <li class="text-red-300" x-text="flag"></li>
+                                </template>
+                                <li x-show="!currentThesis?.red_flags?.length" class="text-gray-500">None</li>
+                            </ul>
+                        </div>
+
+                        <!-- Watch Items (Detailed Risks) -->
+                        <div class="bg-yellow-900/20 rounded-lg p-4 border border-yellow-900/50">
+                            <h4 class="text-yellow-400 font-semibold mb-3 flex items-center gap-2">
+                                <span>&#x1F440;</span> Watch Items (<span x-text="currentThesis?.watch_items?.length || 0"></span>)
+                            </h4>
+                            <div class="space-y-3 text-sm max-h-64 overflow-y-auto">
+                                <template x-for="(item, index) in currentThesis?.watch_items || []" :key="index">
+                                    <div class="bg-gray-800/50 rounded p-2">
+                                        <div class="flex items-start justify-between gap-2 mb-1">
+                                            <span class="text-yellow-300 flex-1" x-text="item.description || item"></span>
+                                            <span class="px-1.5 py-0.5 rounded text-xs shrink-0"
+                                                  :class="{
+                                                      'bg-red-900/50 text-red-400': item.severity === 'high',
+                                                      'bg-yellow-900/50 text-yellow-400': item.severity === 'medium',
+                                                      'bg-gray-700 text-gray-400': item.severity === 'low'
+                                                  }"
+                                                  x-text="item.severity || ''"></span>
+                                        </div>
+                                        <div class="flex items-center gap-2 text-xs text-gray-500">
+                                            <span x-show="item.category" class="px-1.5 py-0.5 bg-gray-700/50 rounded" x-text="item.category"></span>
+                                            <span x-show="item.change && item.change !== 'unchanged'"
+                                                  :class="{
+                                                      'text-red-400': item.change === 'escalated',
+                                                      'text-green-400': item.change === 'de-escalated',
+                                                      'text-blue-400': item.change === 'new'
+                                                  }"
+                                                  x-text="item.change"></span>
+                                            <span x-show="item.source_filing" class="text-gray-600" x-text="item.source_filing"></span>
+                                        </div>
+                                    </div>
+                                </template>
+                                <div x-show="!currentThesis?.watch_items?.length" class="text-gray-500">None</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sub-view Tabs -->
+            <div class="mb-6">
+                <div class="flex space-x-2 border-b border-gray-700 pb-2">
+                    <button @click="filingsSubView = 'promises'"
+                            :class="filingsSubView === 'promises' ? 'bg-gray-700 text-white' : 'text-gray-400 hover:text-white'"
+                            class="px-4 py-2 rounded-t-lg text-sm font-medium transition-colors">
+                        Promise Tracker
+                    </button>
+                    <button @click="filingsSubView = 'tone'"
+                            :class="filingsSubView === 'tone' ? 'bg-gray-700 text-white' : 'text-gray-400 hover:text-white'"
+                            class="px-4 py-2 rounded-t-lg text-sm font-medium transition-colors">
+                        Tone Timeline
+                    </button>
+                    <button @click="filingsSubView = 'financials'"
+                            :class="filingsSubView === 'financials' ? 'bg-gray-700 text-white' : 'text-gray-400 hover:text-white'"
+                            class="px-4 py-2 rounded-t-lg text-sm font-medium transition-colors">
+                        Financial Trends
+                    </button>
+                    <button @click="filingsSubView = 'philosophy'"
+                            :class="filingsSubView === 'philosophy' ? 'bg-gray-700 text-white' : 'text-gray-400 hover:text-white'"
+                            class="px-4 py-2 rounded-t-lg text-sm font-medium transition-colors">
+                        Philosophy Alignment
+                    </button>
+                </div>
+            </div>
+
+            <!-- Promise Tracker Sub-view -->
+            <div x-show="filingsSubView === 'promises'" class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                <h3 class="text-lg font-semibold mb-4">Promise Tracker</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="border-b border-gray-700">
+                                <th class="text-left py-3 px-4 text-gray-400">Promise</th>
+                                <th class="text-left py-3 px-4 text-gray-400">Target</th>
+                                <th class="text-left py-3 px-4 text-gray-400">Made In</th>
+                                <th class="text-left py-3 px-4 text-gray-400">Status</th>
+                                <th class="text-left py-3 px-4 text-gray-400">Evidence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template x-for="promise in currentEvolution?.promise_tracker || []" :key="promise.promise">
+                                <tr class="border-b border-gray-700/50 hover:bg-gray-750">
+                                    <td class="py-3 px-4" x-text="promise.promise.substring(0, 70) + (promise.promise.length > 70 ? '...' : '')"></td>
+                                    <td class="py-3 px-4 text-emerald-400" x-text="promise.target || '-'"></td>
+                                    <td class="py-3 px-4 text-gray-400 text-xs" x-text="promise.made_in"></td>
+                                    <td class="py-3 px-4">
+                                        <span class="px-2 py-1 rounded text-xs"
+                                              :class="{
+                                                  'bg-green-900/50 text-green-400': promise.current_status === 'met',
+                                                  'bg-blue-900/50 text-blue-400': promise.current_status === 'on_track',
+                                                  'bg-red-900/50 text-red-400': promise.current_status === 'missed',
+                                                  'bg-gray-700 text-gray-400': promise.current_status === 'unknown'
+                                              }"
+                                              x-text="promise.current_status"></span>
+                                    </td>
+                                    <td class="py-3 px-4 text-gray-400 text-xs max-w-xs" x-text="promise.evidence || 'No evidence yet'"></td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                    <p x-show="!currentEvolution?.promise_tracker?.length" class="text-gray-500 text-center py-6">No promises tracked</p>
+                </div>
+            </div>
+
+            <!-- Tone Timeline Sub-view -->
+            <div x-show="filingsSubView === 'tone'" class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                <h3 class="text-lg font-semibold mb-4">Tone Timeline</h3>
+                <p class="text-sm text-gray-500 mb-4">Click on a bar to see reasoning and CEO quote</p>
+                <div class="flex items-end gap-4 h-48">
+                    <template x-for="point in currentEvolution?.tone_trajectory || []" :key="point.period">
+                        <div class="flex-1 flex flex-col items-center cursor-pointer"
+                             @click="expandedTonePeriod = expandedTonePeriod === point.period ? null : point.period">
+                            <!-- Bar -->
+                            <div class="w-full flex flex-col items-center justify-end h-32 mb-2">
+                                <div class="w-12 rounded-t transition-all hover:opacity-80"
+                                     :class="{
+                                         'bg-green-500 h-full': point.tone === 'optimistic',
+                                         'bg-emerald-500 h-4/5': point.tone === 'cautiously_optimistic',
+                                         'bg-gray-500 h-3/5': point.tone === 'neutral',
+                                         'bg-yellow-500 h-2/5': point.tone === 'cautious',
+                                         'bg-red-500 h-1/5': point.tone === 'defensive',
+                                         'ring-2 ring-white': expandedTonePeriod === point.period
+                                     }"></div>
+                            </div>
+                            <!-- Label -->
+                            <div class="text-xs text-gray-400 text-center" x-text="point.period"></div>
+                            <div class="text-xs text-center mt-1 capitalize"
+                                 :class="{
+                                     'text-green-400': point.tone === 'optimistic',
+                                     'text-emerald-400': point.tone === 'cautiously_optimistic',
+                                     'text-gray-400': point.tone === 'neutral',
+                                     'text-yellow-400': point.tone === 'cautious',
+                                     'text-red-400': point.tone === 'defensive'
+                                 }"
+                                 x-text="point.tone?.replace('_', ' ')"></div>
+                        </div>
+                    </template>
+                </div>
+
+                <!-- Expanded Tone Detail Panel -->
+                <template x-for="point in currentEvolution?.tone_trajectory || []" :key="'detail-' + point.period">
+                    <div x-show="expandedTonePeriod === point.period"
+                         x-transition
+                         class="mt-6 bg-gray-900 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-center justify-between mb-3">
+                            <h4 class="font-semibold" x-text="point.period + ' - ' + (point.tone?.replace('_', ' ') || '')"></h4>
+                            <button @click="expandedTonePeriod = null" class="text-gray-400 hover:text-white">
+                                <span>&#x2715;</span>
+                            </button>
+                        </div>
+                        <!-- Reasoning -->
+                        <div class="mb-4" x-show="point.reasoning">
+                            <div class="text-xs text-gray-500 uppercase mb-1">Why this rating:</div>
+                            <div class="text-sm text-gray-300" x-text="point.reasoning"></div>
+                        </div>
+                        <!-- Key Quote -->
+                        <div x-show="point.key_quote">
+                            <div class="text-xs text-gray-500 uppercase mb-1">Key CEO Quote:</div>
+                            <blockquote class="text-sm text-emerald-300 italic border-l-2 border-emerald-500 pl-3" x-text="point.key_quote"></blockquote>
+                        </div>
+                        <!-- Confidence -->
+                        <div class="mt-3 flex items-center gap-2">
+                            <span class="text-xs text-gray-500">Confidence:</span>
+                            <span class="px-2 py-0.5 rounded text-xs"
+                                  :class="{
+                                      'bg-green-900/50 text-green-400': point.confidence === 'high',
+                                      'bg-yellow-900/50 text-yellow-400': point.confidence === 'medium',
+                                      'bg-red-900/50 text-red-400': point.confidence === 'low'
+                                  }"
+                                  x-text="point.confidence"></span>
+                        </div>
+                    </div>
+                </template>
+
+                <p x-show="!currentEvolution?.tone_trajectory?.length" class="text-gray-500 text-center py-6">No tone data available</p>
+            </div>
+
+            <!-- Financial Trends Sub-view -->
+            <div x-show="filingsSubView === 'financials'" class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                <h3 class="text-lg font-semibold mb-4">Financial Trends</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <template x-for="(trend, metric) in currentEvolution?.financial_trends || {}" :key="metric">
+                        <div class="bg-gray-900 rounded-lg p-4" x-show="trend.values && trend.values.length > 0">
+                            <div class="flex items-center justify-between mb-3">
+                                <h4 class="font-medium capitalize" x-text="metric.replace(/_/g, ' ')"></h4>
+                                <span class="px-2 py-1 rounded text-xs"
+                                      :class="{
+                                          'bg-green-900/50 text-green-400': trend.trajectory === 'improving',
+                                          'bg-gray-700 text-gray-400': trend.trajectory === 'stable',
+                                          'bg-red-900/50 text-red-400': trend.trajectory === 'declining'
+                                      }"
+                                      x-text="trend.trajectory"></span>
+                            </div>
+                            <div class="flex items-end gap-2 h-24">
+                                <template x-for="point in trend.values" :key="point.period">
+                                    <div class="flex-1 flex flex-col items-center">
+                                        <div class="w-full bg-emerald-600 rounded-t transition-all"
+                                             :style="'height: ' + Math.max(10, Math.min(100, point.value * 5)) + '%'"></div>
+                                        <div class="text-xs text-gray-400 mt-1" x-text="point.period"></div>
+                                        <div class="text-xs text-emerald-400" x-text="point.value?.toFixed(1) + (metric.includes('margin') || metric.includes('growth') ? '%' : '')"></div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+                <p x-show="!Object.keys(currentEvolution?.financial_trends || {}).length" class="text-gray-500 text-center py-6">No financial trend data available</p>
+            </div>
+
+            <!-- Philosophy Alignment Sub-view -->
+            <div x-show="filingsSubView === 'philosophy'" class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                <h3 class="text-lg font-semibold mb-4">Investment Philosophy Alignment</h3>
+                <div class="space-y-4">
+                    <template x-for="(assessment, principle) in currentThesis?.philosophy_alignment || {}" :key="principle">
+                        <div class="flex items-center justify-between p-4 rounded-lg"
+                             :class="{
+                                 'bg-green-900/20 border border-green-900/50': assessment.startsWith('POSITIVE'),
+                                 'bg-red-900/20 border border-red-900/50': assessment.startsWith('NEGATIVE'),
+                                 'bg-yellow-900/20 border border-yellow-900/50': assessment.startsWith('WATCH') || assessment.startsWith('WARNING'),
+                                 'bg-gray-700/50 border border-gray-600': assessment.startsWith('NEUTRAL')
+                             }">
+                            <div>
+                                <div class="font-medium capitalize" x-text="principle.replace(/_/g, ' ')"></div>
+                                <div class="text-sm text-gray-400" x-text="assessment"></div>
+                            </div>
+                            <span class="text-2xl"
+                                  x-text="assessment.startsWith('POSITIVE') ? '&#x2705;' :
+                                          assessment.startsWith('NEGATIVE') ? '&#x274C;' :
+                                          (assessment.startsWith('WATCH') || assessment.startsWith('WARNING')) ? '&#x26A0;&#xFE0F;' : '&#x2796;'"></span>
+                        </div>
+                    </template>
+                </div>
+                <p x-show="!Object.keys(currentThesis?.philosophy_alignment || {}).length" class="text-gray-500 text-center py-6">No philosophy alignment data available</p>
+            </div>
+
+            <!-- No company selected -->
+            <p x-show="!selectedFilingCompany && filings?.companies?.length > 0" class="text-gray-500 text-center py-10">
+                Select a company to view analysis
+            </p>
+
+            <!-- No filings data -->
+            <p x-show="!filings?.companies?.length" class="text-gray-500 text-center py-10">
+                No filings data available. Run evolution synthesis first.
+            </p>
+        </div>
+
+        <!-- Alpha View -->
+        <div x-show="view === 'alpha' && !loading" x-cloak>
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold">Alpha - Bolagsanalyser</h1>
+                <span class="text-sm text-gray-400" x-text="`${alphaCompanies.length} bolag analyserade`"></span>
+            </div>
+
+            <!-- Company Selection Grid -->
+            <div x-show="!selectedAlphaCompany || alphaCompanies.length <= 1" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+                <template x-for="company in alphaCompanies" :key="company.ticker">
+                    <div @click="selectedAlphaCompany = company.ticker"
+                         :class="['cursor-pointer rounded-lg p-4 border-2 transition-all hover:shadow-lg', getCardBorderClass(company.recommendation), selectedAlphaCompany === company.ticker ? 'bg-gray-700' : 'bg-gray-800']">
+                        <div class="flex items-center justify-between mb-2">
+                            <div>
+                                <span class="font-bold text-lg" x-text="company.ticker"></span>
+                                <span class="text-gray-400 text-sm ml-2" x-text="company.company"></span>
+                            </div>
+                            <span :class="['px-2 py-1 rounded text-xs font-medium', getVerdictClass(company.recommendation)]"
+                                  x-text="company.recommendation"></span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                            <div>
+                                <span class="text-gray-500">Pris:</span>
+                                <span class="font-medium" x-text="formatSEK(company.current_price)"></span>
+                            </div>
+                            <div>
+                                <span class="text-gray-500">Fair Value:</span>
+                                <span class="font-medium" x-text="formatSEK(company.weighted_fair_value)"></span>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <span class="text-gray-500 text-sm">Uppsida:</span>
+                            <span :class="['font-bold', getUpsideClass(company.upside_pct)]"
+                                  x-text="formatPercent(company.upside_pct)"></span>
+                        </div>
+                        <!-- Scenario mini-bar -->
+                        <div class="mt-3 relative h-2 bg-gray-700 rounded-full overflow-hidden">
+                            <template x-for="scenario in company.scenarios" :key="scenario.name">
+                                <div :class="[
+                                    'absolute h-full',
+                                    scenario.name === 'Bear' ? 'bg-red-500 left-0' : '',
+                                    scenario.name === 'Base' ? 'bg-yellow-500' : '',
+                                    scenario.name === 'Bull' ? 'bg-green-500 right-0' : ''
+                                ]" :style="{
+                                    width: (scenario.probability * 100) + '%',
+                                    left: scenario.name === 'Bear' ? '0' : (scenario.name === 'Base' ? '25%' : 'auto')
+                                }"></div>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Company Detail View -->
+            <div x-show="selectedAlphaCompany && currentAlphaAnalysis" class="space-y-6">
+                <!-- Back button and header -->
+                <div class="flex items-center justify-between">
+                    <button @click="selectedAlphaCompany = ''" x-show="alphaCompanies.length > 1"
+                            class="text-gray-400 hover:text-white flex items-center gap-2">
+                        <span>&larr;</span> Tillbaka
+                    </button>
+                    <div class="flex items-center gap-4">
+                        <h2 class="text-xl font-bold" x-text="currentAlphaAnalysis?.company"></h2>
+                        <span class="text-gray-400" x-text="currentAlphaAnalysis?.ticker"></span>
+                        <span :class="['px-3 py-1 rounded text-sm font-medium', getVerdictClass(currentAlphaAnalysis?.verdict?.recommendation)]"
+                              x-text="currentAlphaAnalysis?.verdict?.recommendation"></span>
+                    </div>
+                    <span class="text-sm text-gray-500" x-text="'Analyserad: ' + currentAlphaAnalysis?.date"></span>
+                </div>
+
+                <!-- Verdict Summary Card -->
+                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <!-- Price vs Fair Value -->
+                        <div class="text-center">
+                            <div class="text-gray-400 text-sm mb-1">Nuvarande Pris</div>
+                            <div class="text-2xl font-bold" x-text="formatSEK(currentAlphaAnalysis?.current_price)"></div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-gray-400 text-sm mb-1">Viktat Fair Value</div>
+                            <div class="text-2xl font-bold text-emerald-400" x-text="formatSEK(currentAlphaAnalysis?.weighted_fair_value)"></div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-gray-400 text-sm mb-1">Uppsida/Nedsida</div>
+                            <div :class="['text-2xl font-bold', getUpsideClass(currentAlphaAnalysis?.verdict?.upside_pct)]"
+                                 x-text="formatPercent(currentAlphaAnalysis?.verdict?.upside_pct)"></div>
+                        </div>
+                    </div>
+
+                    <!-- Price Position Bar -->
+                    <div class="mt-6">
+                        <div class="flex justify-between text-xs text-gray-500 mb-1">
+                            <span>Bear</span>
+                            <span>Base</span>
+                            <span>Bull</span>
+                        </div>
+                        <div class="relative h-4 bg-gradient-to-r from-red-600 via-yellow-500 to-green-500 rounded-full">
+                            <div class="absolute w-3 h-6 bg-white rounded-full -top-1 transform -translate-x-1/2 shadow-lg border-2 border-gray-800"
+                                 :style="{ left: getAlphaPricePosition(currentAlphaAnalysis) + '%' }"></div>
+                        </div>
+                        <div class="flex justify-between text-xs text-gray-400 mt-1">
+                            <span x-text="formatSEK(currentAlphaAnalysis?.scenarios?.find(s => s.name === 'Bear')?.fair_value)"></span>
+                            <span x-text="formatSEK(currentAlphaAnalysis?.scenarios?.find(s => s.name === 'Base')?.fair_value)"></span>
+                            <span x-text="formatSEK(currentAlphaAnalysis?.scenarios?.find(s => s.name === 'Bull')?.fair_value)"></span>
+                        </div>
+                    </div>
+
+                    <!-- Summary -->
+                    <p class="mt-4 text-gray-300 text-sm" x-text="currentAlphaAnalysis?.verdict?.summary"></p>
+                </div>
+
+                <!-- Sub-view Tabs -->
+                <div class="flex space-x-1 bg-gray-800 p-1 rounded-lg w-fit">
+                    <button @click="alphaSubView = 'overview'"
+                            :class="alphaSubView === 'overview' ? 'bg-emerald-600' : 'bg-transparent hover:bg-gray-700'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Scenarios
+                    </button>
+                    <button @click="alphaSubView = 'fundamentals'"
+                            :class="alphaSubView === 'fundamentals' ? 'bg-emerald-600' : 'bg-transparent hover:bg-gray-700'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Fundamenta
+                    </button>
+                    <button @click="alphaSubView = 'sentiment'"
+                            :class="alphaSubView === 'sentiment' ? 'bg-emerald-600' : 'bg-transparent hover:bg-gray-700'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Sentiment
+                    </button>
+                    <button @click="alphaSubView = 'risks'"
+                            :class="alphaSubView === 'risks' ? 'bg-emerald-600' : 'bg-transparent hover:bg-gray-700'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Risker
+                    </button>
+                    <button @click="alphaSubView = 'position'"
+                            :class="alphaSubView === 'position' ? 'bg-emerald-600' : 'bg-transparent hover:bg-gray-700'"
+                            class="px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Position
+                    </button>
+                </div>
+
+                <!-- Scenarios Sub-view -->
+                <div x-show="alphaSubView === 'overview'" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <template x-for="scenario in currentAlphaAnalysis?.scenarios || []" :key="scenario.name">
+                        <div :class="[
+                            'rounded-lg p-4 border',
+                            scenario.name === 'Bull' ? 'bg-green-900/20 border-green-700' : '',
+                            scenario.name === 'Base' ? 'bg-yellow-900/20 border-yellow-700' : '',
+                            scenario.name === 'Bear' ? 'bg-red-900/20 border-red-700' : ''
+                        ]">
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="font-bold" x-text="scenario.name"></span>
+                                <span class="text-sm text-gray-400" x-text="(scenario.probability * 100) + '%'"></span>
+                            </div>
+                            <div class="text-2xl font-bold mb-3" x-text="formatSEK(scenario.fair_value)"></div>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <template x-for="assumption in scenario.key_assumptions || []" :key="assumption">
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-gray-500">&bull;</span>
+                                        <span x-text="assumption"></span>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                    </template>
+                </div>
+
+                <!-- Fundamentals Sub-view -->
+                <div x-show="alphaSubView === 'fundamentals'" class="space-y-4">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                            <div class="text-gray-400 text-xs mb-1">Quality Score</div>
+                            <div :class="['text-xl font-bold inline-block px-2 py-1 rounded', getQualityScoreClass(currentAlphaAnalysis?.fundamenta?.quality_score)]"
+                                 x-text="(currentAlphaAnalysis?.fundamenta?.quality_score || '-') + '/10'"></div>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                            <div class="text-gray-400 text-xs mb-1">Piotroski F-Score</div>
+                            <div class="text-xl font-bold" x-text="(currentAlphaAnalysis?.fundamenta?.balance_sheet?.piotroski_score || '-') + '/9'"></div>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                            <div class="text-gray-400 text-xs mb-1">FCF Yield</div>
+                            <div class="text-xl font-bold" x-text="(currentAlphaAnalysis?.fundamenta?.cash_flow?.fcf_yield || currentAlphaAnalysis?.valuation_multiples?.fcf_yield || '-') + '%'"></div>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                            <div class="text-gray-400 text-xs mb-1">CEO Credibility</div>
+                            <div class="text-xl font-bold capitalize" x-text="currentAlphaAnalysis?.fundamenta?.ceo_credibility || '-'"></div>
+                        </div>
+                    </div>
+
+                    <!-- Green/Red Flags -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-gray-800 rounded-lg p-4 border border-green-700">
+                            <h4 class="font-medium text-green-400 mb-2">Green Flags</h4>
+                            <ul class="text-sm space-y-1">
+                                <template x-for="flag in currentAlphaAnalysis?.fundamenta?.green_flags || []" :key="flag">
+                                    <li class="flex items-center gap-2 text-green-300">
+                                        <span>&#x2714;</span>
+                                        <span x-text="flag"></span>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-4 border border-red-700">
+                            <h4 class="font-medium text-red-400 mb-2">Red Flags</h4>
+                            <ul class="text-sm space-y-1">
+                                <template x-for="flag in currentAlphaAnalysis?.fundamenta?.red_flags || []" :key="flag">
+                                    <li class="flex items-center gap-2 text-red-300">
+                                        <span>&#x26A0;</span>
+                                        <span x-text="flag"></span>
+                                    </li>
+                                </template>
+                                <li x-show="!(currentAlphaAnalysis?.fundamenta?.red_flags?.length)" class="text-gray-500">Inga identifierade</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Segments -->
+                    <div x-show="currentAlphaAnalysis?.fundamenta?.segments?.length" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-3">Segment</h4>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <thead class="text-gray-400 border-b border-gray-700">
+                                    <tr>
+                                        <th class="text-left py-2">Segment</th>
+                                        <th class="text-right py-2">Andel</th>
+                                        <th class="text-right py-2">Tillväxt</th>
+                                        <th class="text-right py-2">Marginal</th>
+                                        <th class="text-left py-2">Outlook</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <template x-for="seg in currentAlphaAnalysis?.fundamenta?.segments || []" :key="seg.name">
+                                        <tr class="border-b border-gray-700/50">
+                                            <td class="py-2" x-text="seg.name"></td>
+                                            <td class="text-right py-2" x-text="seg.revenue_pct ? seg.revenue_pct + '%' : '-'"></td>
+                                            <td class="text-right py-2" x-text="seg.growth ? seg.growth + '%' : '-'"></td>
+                                            <td class="text-right py-2" x-text="seg.margin ? seg.margin + '%' : '-'"></td>
+                                            <td class="py-2 capitalize" x-text="seg.outlook || '-'"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sentiment Sub-view -->
+                <div x-show="alphaSubView === 'sentiment'" class="space-y-4">
+                    <!-- Overall Sentiment -->
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-medium">Overall Sentiment</h4>
+                            <span :class="[
+                                'px-3 py-1 rounded text-sm font-medium',
+                                currentAlphaAnalysis?.sentiment?.label === 'bullish' ? 'bg-green-600' : '',
+                                currentAlphaAnalysis?.sentiment?.label === 'bearish' ? 'bg-red-600' : '',
+                                currentAlphaAnalysis?.sentiment?.label === 'neutral' ? 'bg-gray-600' : '',
+                                currentAlphaAnalysis?.sentiment?.label === 'cautiously_bullish' ? 'bg-green-500' : ''
+                            ]" x-text="currentAlphaAnalysis?.sentiment?.label || '-'"></span>
+                        </div>
+                    </div>
+
+                    <!-- Notable Speakers -->
+                    <div x-show="currentAlphaAnalysis?.sentiment?.notable_speakers?.length" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-3">Notable Speakers</h4>
+                        <div class="space-y-3">
+                            <template x-for="speaker in currentAlphaAnalysis?.sentiment?.notable_speakers || []" :key="speaker.name">
+                                <div class="flex items-start gap-3 p-3 bg-gray-700/50 rounded-lg">
+                                    <div :class="[
+                                        'w-8 h-8 rounded-full flex items-center justify-center text-white font-bold text-sm',
+                                        speaker.stance === 'bull' ? 'bg-green-600' : '',
+                                        speaker.stance === 'bear' ? 'bg-red-600' : 'bg-gray-600'
+                                    ]" x-text="speaker.stance === 'bull' ? '&#x1F402;' : speaker.stance === 'bear' ? '&#x1F43B;' : '&#x2796;'"></div>
+                                    <div class="flex-1">
+                                        <div class="flex items-center gap-2">
+                                            <span class="font-medium" x-text="speaker.name"></span>
+                                            <span class="text-xs text-gray-400" x-text="speaker.affiliation"></span>
+                                            <span x-show="speaker.owns_position" class="text-xs bg-blue-600 px-1.5 py-0.5 rounded">Äger</span>
+                                        </div>
+                                        <p class="text-sm text-gray-300 mt-1" x-text="speaker.argument || speaker.key_argument"></p>
+                                        <p x-show="speaker.quote" class="text-xs text-gray-400 mt-1 italic" x-text="'\"' + speaker.quote + '\"'"></p>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <!-- Bull/Bear Arguments -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-gray-800 rounded-lg p-4 border border-green-700">
+                            <h4 class="font-medium text-green-400 mb-2">Bull Arguments</h4>
+                            <ul class="text-sm space-y-1">
+                                <template x-for="arg in currentAlphaAnalysis?.sentiment?.bull_arguments || []" :key="arg">
+                                    <li class="flex items-start gap-2 text-gray-300">
+                                        <span class="text-green-400">&bull;</span>
+                                        <span x-text="arg"></span>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg p-4 border border-red-700">
+                            <h4 class="font-medium text-red-400 mb-2">Bear Arguments</h4>
+                            <ul class="text-sm space-y-1">
+                                <template x-for="arg in currentAlphaAnalysis?.sentiment?.bear_arguments || []" :key="arg">
+                                    <li class="flex items-start gap-2 text-gray-300">
+                                        <span class="text-red-400">&bull;</span>
+                                        <span x-text="arg"></span>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Insider Signal -->
+                    <div x-show="currentAlphaAnalysis?.insider" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-2">Insider Signal</h4>
+                        <div class="flex items-center gap-4">
+                            <span :class="['text-lg font-bold', getInsiderClass(currentAlphaAnalysis?.insider?.net_direction)]"
+                                  x-text="currentAlphaAnalysis?.insider?.net_direction"></span>
+                            <span class="text-gray-400 text-sm" x-text="currentAlphaAnalysis?.insider?.key_observation || currentAlphaAnalysis?.insider?.summary"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Risks Sub-view -->
+                <div x-show="alphaSubView === 'risks'" class="space-y-4">
+                    <!-- Risk Score -->
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <div class="flex items-center justify-between">
+                            <h4 class="font-medium">Risk Score</h4>
+                            <span :class="['px-3 py-1 rounded font-bold', getRiskScoreClass(currentAlphaAnalysis?.risks?.overall_score)]"
+                                  x-text="(currentAlphaAnalysis?.risks?.overall_score || '-') + '/10'"></span>
+                        </div>
+                        <p class="text-sm text-gray-400 mt-2 capitalize" x-text="currentAlphaAnalysis?.risks?.interpretation?.replace('_', ' ')"></p>
+                    </div>
+
+                    <!-- Top Risks -->
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-3">Top Risks</h4>
+                        <div class="space-y-2">
+                            <template x-for="risk in currentAlphaAnalysis?.risks?.top_risks || []" :key="risk.risk">
+                                <div class="p-3 bg-gray-700/50 rounded-lg">
+                                    <div class="flex items-center justify-between">
+                                        <span class="font-medium" x-text="risk.risk"></span>
+                                        <div class="flex gap-2">
+                                            <span class="text-xs px-2 py-0.5 rounded bg-gray-600" x-text="risk.probability"></span>
+                                            <span :class="[
+                                                'text-xs px-2 py-0.5 rounded',
+                                                risk.impact === 'critical' ? 'bg-red-600' : '',
+                                                risk.impact === 'major' ? 'bg-orange-600' : '',
+                                                risk.impact === 'moderate' ? 'bg-yellow-600' : 'bg-gray-600'
+                                            ]" x-text="risk.impact"></span>
+                                        </div>
+                                    </div>
+                                    <p x-show="risk.notes" class="text-xs text-gray-400 mt-1" x-text="risk.notes"></p>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <!-- Kill the Thesis -->
+                    <div x-show="currentAlphaAnalysis?.risks?.kill_the_thesis" class="bg-red-900/20 rounded-lg p-4 border border-red-700">
+                        <h4 class="font-medium text-red-400 mb-2">Kill the Thesis</h4>
+                        <p class="text-sm text-red-200" x-text="currentAlphaAnalysis?.risks?.kill_the_thesis"></p>
+                    </div>
+
+                    <!-- Bear Thesis -->
+                    <div x-show="currentAlphaAnalysis?.risks?.bear_thesis" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-2">Bear Thesis</h4>
+                        <p class="text-sm text-gray-300" x-text="currentAlphaAnalysis?.risks?.bear_thesis"></p>
+                    </div>
+                </div>
+
+                <!-- Position Sub-view -->
+                <div x-show="alphaSubView === 'position'" class="space-y-4">
+                    <!-- Position Guidance -->
+                    <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-3">Position Guidance</h4>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                            <div>
+                                <span class="text-gray-400">Sizing:</span>
+                                <span class="font-medium capitalize ml-2" x-text="currentAlphaAnalysis?.position_guidance?.sizing || '-'"></span>
+                            </div>
+                            <div>
+                                <span class="text-gray-400">Max Position:</span>
+                                <span class="font-medium ml-2" x-text="currentAlphaAnalysis?.position_guidance?.max_position || currentAlphaAnalysis?.position_guidance?.max_position_pct + '%' || '-'"></span>
+                            </div>
+                            <div>
+                                <span class="text-gray-400">Time Horizon:</span>
+                                <span class="font-medium ml-2" x-text="currentAlphaAnalysis?.position_guidance?.time_horizon || '-'"></span>
+                            </div>
+                            <div x-show="currentAlphaAnalysis?.position_guidance?.entry_zone">
+                                <span class="text-gray-400">Entry Zone:</span>
+                                <span class="font-medium ml-2" x-text="formatSEK(currentAlphaAnalysis?.position_guidance?.entry_zone?.lower) + ' - ' + formatSEK(currentAlphaAnalysis?.position_guidance?.entry_zone?.upper)"></span>
+                            </div>
+                        </div>
+                        <p x-show="currentAlphaAnalysis?.position_guidance?.notes" class="text-sm text-gray-400 mt-3" x-text="currentAlphaAnalysis?.position_guidance?.notes"></p>
+                    </div>
+
+                    <!-- Entry Strategy -->
+                    <div x-show="currentAlphaAnalysis?.position_guidance?.entry_strategy?.length" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-3">Entry Strategy</h4>
+                        <div class="space-y-2">
+                            <template x-for="entry in currentAlphaAnalysis?.position_guidance?.entry_strategy || []" :key="entry.level">
+                                <div class="flex items-center justify-between p-2 bg-gray-700/50 rounded">
+                                    <span x-text="entry.level"></span>
+                                    <span class="font-medium text-emerald-400" x-text="entry.allocation_pct + '%'"></span>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <!-- Next Catalyst -->
+                    <div x-show="currentAlphaAnalysis?.next_catalyst" class="bg-gray-800 rounded-lg p-4 border border-emerald-700">
+                        <h4 class="font-medium text-emerald-400 mb-2">Next Catalyst</h4>
+                        <div class="flex items-center justify-between">
+                            <span x-text="currentAlphaAnalysis?.next_catalyst?.event"></span>
+                            <div class="flex gap-2">
+                                <span class="text-gray-400" x-text="currentAlphaAnalysis?.next_catalyst?.date"></span>
+                                <span :class="[
+                                    'text-xs px-2 py-0.5 rounded',
+                                    currentAlphaAnalysis?.next_catalyst?.impact === 'high' ? 'bg-red-600' : 'bg-gray-600'
+                                ]" x-text="currentAlphaAnalysis?.next_catalyst?.impact"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Peers -->
+                    <div x-show="currentAlphaAnalysis?.peers" class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                        <h4 class="font-medium mb-2">Peers</h4>
+                        <div class="flex flex-wrap gap-2 mb-2">
+                            <template x-for="peer in currentAlphaAnalysis?.peers?.peer_group || []" :key="peer">
+                                <span class="px-2 py-1 bg-gray-700 rounded text-sm" x-text="peer"></span>
+                            </template>
+                        </div>
+                        <p class="text-sm text-gray-400" x-text="currentAlphaAnalysis?.peers?.relative_valuation?.notes || currentAlphaAnalysis?.peers?.relative_valuation"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- No alpha data -->
+            <p x-show="!alphaCompanies?.length" class="text-gray-500 text-center py-10">
+                No alpha analyses available. Run /alpha for a company first.
+            </p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 py-6 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500">
+            <span>Generated: </span>
+            <span x-text="metadata.generated_at ? new Date(metadata.generated_at).toLocaleString('sv-SE') : '-'"></span>
+        </div>
+    </footer>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>

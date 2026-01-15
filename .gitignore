@@ -126,6 +126,19 @@ data/podstock.db-journal
 data/podstock.db-wal
 data/podstock.db-shm
 
+# =============================================================================
+# Dashboard och stora filer
+# Se: docs/plans/2026-01-15-website-pipeline-redesign.md
+# =============================================================================
+
+# VIKTIGT: index.html MÅSTE genereras med --no-embed för att vara <1MB
+# Verification gate i orchestrate-podcast-publish kontrollerar storleken
+# Om filen är >1MB, kör: podstock dashboard generate --no-embed
+
+# Empty/legacy database files
+data/analyses.db
+data/database.db
+
 # Financial filings PDFs (large, download on-demand with 'podstock filings sync')
 # Metadata and analysis results are tracked in git
 data/filings/raw/
