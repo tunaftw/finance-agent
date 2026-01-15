@@ -36,6 +36,34 @@ def _normalize_confidence(value: Any) -> str:
         return "speculative"
 
 
+def normalize_insight(ins: dict) -> dict:
+    """Transform wrong insight schema to correct v2.1 format.
+
+    Wrong format: {"topic": "...", "insight": "...", "speaker": "..."}
+    Correct format: {"quote": "...", "summary": "...", "category": "...",
+                    "speaker": "...", "speaker_role": "...", "tags": [...]}
+    """
+    # Already correct format
+    if "summary" in ins and "quote" in ins:
+        return ins
+
+    # Wrong format - transform
+    if "insight" in ins or "topic" in ins:
+        insight_text = ins.get("insight", ins.get("topic", ""))
+        return {
+            "quote": insight_text,
+            "summary": insight_text,
+            "category": ins.get("category", "wisdom"),
+            "speaker": ins.get("speaker", ""),
+            "speaker_role": ins.get("speaker_role", "unknown"),
+            "timestamp": ins.get("timestamp"),
+            "confidence": ins.get("confidence", "medium"),
+            "tags": ins.get("tags", [])
+        }
+
+    return ins
+
+
 def _normalize_analysis_data(data: dict) -> dict:
     """Normalize LLM output to match expected schema.
 
@@ -53,10 +81,13 @@ def _normalize_analysis_data(data: dict) -> dict:
         if "confidence" in rec:
             rec["confidence"] = _normalize_confidence(rec["confidence"])
 
-    # Normalize insights confidence
-    for ins in data.get("insights", []):
-        if "confidence" in ins:
-            ins["confidence"] = _normalize_confidence(ins["confidence"])
+    # Normalize insights schema AND confidence
+    for i, ins in enumerate(data.get("insights", [])):
+        data["insights"][i] = normalize_insight(ins)
+        if "confidence" in data["insights"][i]:
+            data["insights"][i]["confidence"] = _normalize_confidence(
+                data["insights"][i]["confidence"]
+            )
 
     # Normalize crypto_mentions confidence
     for crypto in data.get("crypto_mentions", []):
