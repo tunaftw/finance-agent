@@ -21,7 +21,7 @@
                 <div class="flex items-center space-x-4">
                     <span class="text-xl font-bold text-emerald-400">PodStock</span>
                     <span class="text-gray-500">|</span>
-                    <span class="text-sm text-gray-400" x-text="`${metadata.counts?.episodes || 0} avsnitt`"></span>
+                    <span class="text-sm text-gray-400" x-text="`${metadata.counts?.podcast_episodes || 0} avsnitt`"></span>
                 </div>
                 <div class="flex space-x-1">
                     <button @click="view = 'podcast'"
