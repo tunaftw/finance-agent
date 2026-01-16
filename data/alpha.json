@@ -38,6 +38,44 @@
       }
     },
     {
+      "ticker": "CARA",
+      "company": "Carasent AB (publ)",
+      "date": "2026-01-10",
+      "current_price": 26.85,
+      "weighted_fair_value": 27.0,
+      "recommendation": "FAIR",
+      "upside_pct": 0.56,
+      "confidence": "medium",
+      "margin_of_safety": 0.56,
+      "summary": "Aktien handlas nära viktat fair value med medel konfidens. Varken billig eller dyr. Stark EBITDA-tillväxt men profit warning och VGR-risk sänker konfidens. CEO-försäljning i oktober 2025 är en varningsflagga trots övrig insiderköp.",
+      "scenarios": [
+        {
+          "name": "Bull",
+          "probability": 0.25,
+          "fair_value": 36.8
+        },
+        {
+          "name": "Base",
+          "probability": 0.5,
+          "fair_value": 26.9
+        },
+        {
+          "name": "Bear",
+          "probability": 0.25,
+          "fair_value": 17.5
+        }
+      ],
+      "risk_score": 6,
+      "quality_score": 7,
+      "insider_direction": "net_buyer",
+      "next_catalyst": {
+        "event": "Q4 2025 Report",
+        "date": "2026-02-12",
+        "impact": "high",
+        "note": "Critical to confirm full-year targets met and 2026 guidance"
+      }
+    },
+    {
       "ticker": "GETI-B",
       "company": "Getinge AB",
       "date": "2025-12-30",
@@ -716,6 +754,337 @@
           "https://www.investing.com/equities/betsson-b"
         ]
       }
+    },
+    "CARA": {
+      "ticker": "CARA",
+      "company": "Carasent AB (publ)",
+      "date": "2026-01-10",
+      "weighted_fair_value": 27.0,
+      "current_price": 26.85,
+      "currency": "SEK",
+      "verdict": {
+        "recommendation": "FAIR",
+        "upside_pct": 0.56,
+        "confidence": "medium",
+        "risk_adjusted_verdict": "FAIR",
+        "margin_of_safety": 0.56,
+        "summary": "Aktien handlas nära viktat fair value med medel konfidens. Varken billig eller dyr. Stark EBITDA-tillväxt men profit warning och VGR-risk sänker konfidens. CEO-försäljning i oktober 2025 är en varningsflagga trots övrig insiderköp."
+      },
+      "data_sources": {
+        "mode": "full",
+        "filings_count": 9,
+        "podcasts_count": 26,
+        "twitter_count": 0,
+        "youtube_count": 0,
+        "insider_count": 1,
+        "news_count": 25,
+        "external_searches": 3
+      },
+      "fundamenta": {
+        "revenue": {
+          "latest_quarterly": 82.2,
+          "latest_quarterly_unit": "MSEK",
+          "yoy_growth": 0.27,
+          "organic_growth": 0.13,
+          "trend": "accelerating",
+          "full_year_2025_guidance": {
+            "low": 345,
+            "high": 350,
+            "unit": "MSEK"
+          }
+        },
+        "arr": {
+          "value": 323,
+          "unit": "MSEK",
+          "yoy_growth": 0.27
+        },
+        "margins": {
+          "ebitda_margin": 0.29,
+          "ebitda_margin_trend": "improving",
+          "ebitdac_margin": 0.15,
+          "ebitda_full_year_2025_target": 75
+        },
+        "balance_sheet": {
+          "cash": 173,
+          "net_debt": -173,
+          "net_debt_ebitda": -2.3,
+          "health": "excellent"
+        },
+        "shares_outstanding": 69.9,
+        "shares_unit": "million",
+        "treasury_shares_pct": 5.0,
+        "quality_score": 7,
+        "piotroski_f_score": {
+          "score": 7,
+          "max_score": 9,
+          "label": "Strong",
+          "signals": {
+            "positive_net_income": true,
+            "positive_ocf": true,
+            "roa_improving": true,
+            "ocf_exceeds_net_income": false,
+            "leverage_decreasing": true,
+            "current_ratio_improving": true,
+            "no_dilution": true,
+            "gross_margin_improving": false,
+            "asset_turnover_improving": true
+          },
+          "notes": "Strong score driven by turnaround to profitability, no debt, and active buybacks. Gross margin stable (85%) rather than improving. OCF < NI in Q3 due to deferred tax benefit in net income."
+        },
+        "fcf_yield": {
+          "value": -1.9,
+          "unit": "percent",
+          "fcf_ttm": -36,
+          "fcf_unit": "MSEK",
+          "note": "Negative FCF due to heavy R&D investment in Webdoc X and German expansion. Growth-phase company prioritizing development over current cash generation."
+        },
+        "green_flags": [
+          "Strong gross margin 85%+ (SaaS benchmark)",
+          "Net cash position 173 MSEK - no debt",
+          "Active 150 MSEK buyback program",
+          "EBITDA margin expansion 10% → 29% YoY",
+          "ARR growth 27% with 16% organic",
+          "Very low churn at 2% annually",
+          "ISO14001 environmental certification"
+        ],
+        "ceo_credibility": "mixed - delivered turnaround but sold shares after profit warning",
+        "red_flags": [
+          "Profit warning July 2025 - revised targets down",
+          "CEO sold 25% of holdings October 2025",
+          "Organic growth 13% below stated 15%+ ambition",
+          "VGR contract risk 15-25 MSEK"
+        ],
+        "summary": "SaaS healthcare IT company showing strong recovery with EBITDA margin expanding from 10% to 29%. ARR growth solid at 27% though organic portion at 13% is lower than management's stated ambition. Net cash position of 173 MSEK provides stability. Share buyback program active with 5%+ treasury shares."
+      },
+      "sentiment": {
+        "overall_score": 7.5,
+        "label": "bullish",
+        "trend": "stable",
+        "notable_speakers": [
+          {
+            "name": "Per Johansson (Origo Capital)",
+            "stance": "bullish",
+            "source": "Börsens Finest 2025-11-05",
+            "argument": "Turnaround story, strong recurring revenue, low churn"
+          },
+          {
+            "name": "Carnegie Analyst",
+            "stance": "bullish",
+            "source": "Analyspodden EP 326",
+            "argument": "Buy rating with 27 SEK target, break-even to positive cash flow"
+          },
+          {
+            "name": "Kavaljer Quality Focus",
+            "stance": "bullish",
+            "source": "Monthly newsletter 2025",
+            "argument": "16% organic ARR growth, EBITDAC improving from -3% to +14.8%"
+          }
+        ],
+        "bull_arguments": [
+          "Low churn (2% annually) = sticky recurring revenue",
+          "German expansion opportunity (150K private clinics)",
+          "Nasdaq Stockholm listing increases visibility/liquidity",
+          "Strong net cash position enables M&A",
+          "Management turnaround track record since 2022"
+        ],
+        "bear_arguments": [
+          "CEO sold shares after profit warning - alignment concern",
+          "Organic growth 13% below 15%+ target",
+          "VGR contract concentration risk",
+          "Competition from larger EHR vendors",
+          "Acquisition integration complexity"
+        ],
+        "summary": "Market sentiment bullish with multiple BUY recommendations from notable voices. However, CEO share sale after profit warning creates mixed signals. Analyst consensus price target 32-36 SEK suggests 20-35% upside potential."
+      },
+      "insider": {
+        "net_direction": "net_buyer",
+        "net_value_sek": 446680,
+        "period_months": 24,
+        "significant_transactions": [
+          {
+            "date": "2025-11-11",
+            "insider": "Johan Kallblad",
+            "position": "Board Member",
+            "type": "BUY",
+            "shares": 14000,
+            "price": 27.17,
+            "value_sek": 380380
+          },
+          {
+            "date": "2025-02-20",
+            "insider": "Petri Niemi",
+            "position": "Chairman",
+            "type": "BUY",
+            "shares": 32500,
+            "price_eur": 2.04,
+            "value_eur": 66300,
+            "note": "Increased position by 165%"
+          },
+          {
+            "date": "2025-10-XX",
+            "insider": "Daniel Öhman",
+            "position": "CEO",
+            "type": "SELL",
+            "shares_pct": 0.25,
+            "note": "Sold 25% of holdings - NEGATIVE SIGNAL from external research"
+          }
+        ],
+        "cluster_activity": true,
+        "signal_strength": 5,
+        "signal_note": "Board buying at current levels is positive, but CEO selling after profit warning is concerning. Mixed signals overall.",
+        "summary": "4 buy transactions, 0 sells in official records past 24 months. However, external research found CEO sold 25% of holdings in October 2025 after profit warning. Net direction positive but CEO sale is a yellow flag."
+      },
+      "risks": {
+        "overall_score": 6,
+        "top_risks": [
+          {
+            "risk": "CEO sold shares after profit warning",
+            "category": "governance",
+            "probability": "confirmed",
+            "impact": "medium",
+            "note": "Signals lack of confidence or personal liquidity needs"
+          },
+          {
+            "risk": "VGR contract risk 15-25 MSEK",
+            "category": "customer_concentration",
+            "probability": "medium",
+            "impact": "high",
+            "note": "Single region contract exposure"
+          },
+          {
+            "risk": "Organic growth below target (13% vs 15%+)",
+            "category": "execution",
+            "probability": "confirmed",
+            "impact": "medium",
+            "note": "May indicate market saturation or competitive pressure"
+          },
+          {
+            "risk": "German expansion execution",
+            "category": "expansion",
+            "probability": "medium",
+            "impact": "high",
+            "note": "150K clinics opportunity but unproven market entry"
+          },
+          {
+            "risk": "Integration of acquisitions",
+            "category": "m&a",
+            "probability": "medium",
+            "impact": "medium",
+            "note": "Multiple acquisitions need integration"
+          }
+        ],
+        "red_flags": [
+          "CEO share sale timing (post profit warning)",
+          "Revised guidance downward in July 2025"
+        ],
+        "bear_thesis": "Carasent's turnaround stalls as organic growth disappoints (13% vs 15%+ target). CEO selling shares signals insider concern. VGR contract loss would materially impact revenue. German expansion fails to gain traction against established competitors. Without sustained 15%+ growth, SaaS premium multiple compresses to 3x EV/Sales or below.",
+        "kill_the_thesis": "What would break the bull case? (1) Continued organic growth deceleration below 10%, (2) Loss of major VGR contract, (3) German expansion fails to deliver meaningful revenue by 2027, (4) Additional management turnover or insider selling.",
+        "summary": "Moderate risk profile. Key concerns are CEO share sale alignment, VGR concentration, and organic growth execution. Strong balance sheet provides buffer against downside scenarios."
+      },
+      "peers": {
+        "peer_group": [
+          "CompuGroup Medical (CGM.DE)",
+          "Vitec Software (VIT-B.ST)",
+          "Lime Technologies (LIME.ST)",
+          "Addnode (ANOD-B.ST)"
+        ],
+        "relative_valuation": {
+          "ev_sales": "4.7x vs peers 3-8x",
+          "note": "Mid-range for Nordic healthcare SaaS, discount to CompuGroup"
+        },
+        "notes": "Carasent trades at reasonable valuation vs Nordic software peers. Premium to slow-growth healthcare IT, discount to high-growth SaaS. Valuation appears fair."
+      },
+      "scenarios": [
+        {
+          "name": "Bull",
+          "probability": 0.25,
+          "revenue_2026e": 400,
+          "ev_sales_multiple": 6.0,
+          "ev": 2400,
+          "net_cash": 173,
+          "equity_value": 2573,
+          "fair_value": 36.8,
+          "key_assumptions": [
+            "15% organic growth sustained",
+            "German expansion gains traction",
+            "EBITDA margin expands toward 35% target",
+            "No major contract losses"
+          ]
+        },
+        {
+          "name": "Base",
+          "probability": 0.5,
+          "revenue_2026e": 380,
+          "ev_sales_multiple": 4.5,
+          "ev": 1710,
+          "net_cash": 173,
+          "equity_value": 1883,
+          "fair_value": 26.9,
+          "key_assumptions": [
+            "10% organic growth (current run-rate)",
+            "German expansion slow start",
+            "EBITDA margin stable at 25-28%",
+            "VGR risk partially materializes"
+          ]
+        },
+        {
+          "name": "Bear",
+          "probability": 0.25,
+          "revenue_2026e": 350,
+          "ev_sales_multiple": 3.0,
+          "ev": 1050,
+          "net_cash": 173,
+          "equity_value": 1223,
+          "fair_value": 17.5,
+          "key_assumptions": [
+            "Organic growth stalls below 5%",
+            "VGR contract lost (-15-25 MSEK)",
+            "German expansion fails",
+            "Multiple compression as growth story fades"
+          ]
+        }
+      ],
+      "position_guidance": {
+        "sizing": "starter",
+        "entry_zone": {
+          "lower": 22.0,
+          "upper": 25.0,
+          "note": "Better entry below 25 SEK where margin of safety improves"
+        },
+        "stop_loss": 16.0,
+        "take_profit": [
+          32,
+          36
+        ],
+        "note": "At current price (27 SEK), wait for better entry or Q4 2025 confirmation"
+      },
+      "next_catalyst": {
+        "event": "Q4 2025 Report",
+        "date": "2026-02-12",
+        "impact": "high",
+        "note": "Critical to confirm full-year targets met and 2026 guidance"
+      },
+      "analyst_consensus": {
+        "target_price_avg": 34.0,
+        "target_price_low": 25.27,
+        "target_price_high": 40.95,
+        "rating": "Strong Buy",
+        "analysts_count": 1,
+        "source": "MarketScreener/Bloomberg"
+      },
+      "metadata": {
+        "analysis_version": "1.1",
+        "created_at": "2026-01-10T12:00:00Z",
+        "updated_at": "2026-01-10T17:50:00Z",
+        "filings_analyzed": [
+          "annual-2024.pdf",
+          "quarterly-2025-q3.pdf"
+        ],
+        "data_limitations": [
+          "CEO sale found via external research, not in official insider JSON"
+        ],
+        "methodology": "EV/Sales-based valuation for SaaS company with Bull/Base/Bear scenarios weighted 25/50/25. Piotroski F-Score calculated from Annual 2024 and Q3 2025 filings."
+      }
     }
   },
   "history": {
@@ -748,6 +1117,17 @@
         "verdict": "KOPVARD",
         "upside_pct": 65.5,
         "filename": "2025-12-28-analysis.json"
+      }
+    ],
+    "CARA": [
+      {
+        "date": "2026-01-10",
+        "version": "1.0",
+        "weighted_fair_value": 27.0,
+        "current_price": 26.85,
+        "verdict": "FAIR",
+        "upside_pct": 0.56,
+        "filename": "2026-01-10-analysis.json"
       }
     ]
   }

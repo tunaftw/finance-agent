@@ -1,5 +1,4646 @@
 {
-  "by_source": [],
-  "by_speaker": [],
-  "total_verified": 0
+  "by_source": [
+    {
+      "source_id": "fillellerkill",
+      "name": "Fill eller Kill",
+      "trust_rating": 3,
+      "total_verified": 5,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 18.16,
+      "avg_return_90d": -8.64,
+      "by_action": {
+        "buy": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 26.25
+        },
+        "sell": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 15.59
+        },
+        "watch": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 7.11
+        }
+      }
+    },
+    {
+      "source_id": "gott&jot",
+      "name": "Gott & Jot",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 3.71,
+      "avg_return_90d": -0.13,
+      "by_action": {
+        "buy": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 3.71
+        }
+      }
+    },
+    {
+      "source_id": "fillandkill",
+      "name": "Fill and Kill",
+      "trust_rating": 3,
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 14.75,
+      "avg_return_90d": 13.63,
+      "by_action": {
+        "buy": {
+          "total": 3,
+          "hit_rate": 100.0,
+          "avg_return": 14.75
+        }
+      }
+    },
+    {
+      "source_id": "dagensanalyspodden",
+      "name": "Dagens Analyspodden",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 1.44,
+      "avg_return_90d": 0.1,
+      "by_action": {
+        "buy": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 1.44
+        }
+      }
+    },
+    {
+      "source_id": "nagontingomaktier",
+      "name": "Någonting om aktier",
+      "trust_rating": 3,
+      "total_verified": 5,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 19.21,
+      "avg_return_90d": 66.57,
+      "by_action": {
+        "watch": {
+          "total": 4,
+          "hit_rate": 100.0,
+          "avg_return": 15.3
+        },
+        "buy": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 34.85
+        }
+      }
+    },
+    {
+      "source_id": "fillorill-podden",
+      "name": "FilloRill-podden",
+      "trust_rating": 3,
+      "total_verified": 2,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 10.26,
+      "avg_return_90d": 16.5,
+      "by_action": {
+        "hold": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 18.43
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 2.09
+        }
+      }
+    },
+    {
+      "source_id": "fillochkill-podden",
+      "name": "Fill och Kill-podden",
+      "trust_rating": 3,
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 22.91,
+      "avg_return_90d": 68.98,
+      "by_action": {
+        "sell": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 8.52
+        },
+        "buy": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 51.69
+        }
+      }
+    },
+    {
+      "source_id": "axipodden(aktiespararnaspodcast)",
+      "name": "Axipodden (Aktiespararnas podcast)",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 15.45,
+      "avg_return_90d": -2.27,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 15.45
+        }
+      }
+    },
+    {
+      "source_id": "fillorkillpoddcasten",
+      "name": "Fill or Kill Poddcasten",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 50.81,
+      "avg_return_90d": 37.37,
+      "by_action": {
+        "sell": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 50.81
+        }
+      }
+    },
+    {
+      "source_id": "analyspoddenfrandagensindustri(kortochlang)",
+      "name": "Analyspodden från Dagens Industri (Kort och Lång)",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 5.31,
+      "avg_return_90d": -13.04,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 5.31
+        }
+      }
+    },
+    {
+      "source_id": "filochkill",
+      "name": "Fil och Kill",
+      "trust_rating": 3,
+      "total_verified": 9,
+      "hit_rate_30d": 88.9,
+      "avg_return_30d": 14.53,
+      "avg_return_90d": -7.58,
+      "by_action": {
+        "watch": {
+          "total": 3,
+          "hit_rate": 66.7,
+          "avg_return": 5.55
+        },
+        "avoid": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 9.62
+        },
+        "buy": {
+          "total": 4,
+          "hit_rate": 100.0,
+          "avg_return": 23.73
+        }
+      }
+    },
+    {
+      "source_id": "analyspodden(dagensindustri)",
+      "name": "Analyspodden (Dagens Industri)",
+      "trust_rating": 3,
+      "total_verified": 6,
+      "hit_rate_30d": 83.3,
+      "avg_return_30d": 6.78,
+      "avg_return_90d": 2.28,
+      "by_action": {
+        "buy": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 5.4
+        },
+        "watch": {
+          "total": 4,
+          "hit_rate": 75.0,
+          "avg_return": 7.47
+        }
+      }
+    },
+    {
+      "source_id": "filler&kill",
+      "name": "Filler & Kill",
+      "trust_rating": 3,
+      "total_verified": 6,
+      "hit_rate_30d": 83.3,
+      "avg_return_30d": 11.39,
+      "avg_return_90d": 6.28,
+      "by_action": {
+        "buy": {
+          "total": 6,
+          "hit_rate": 83.3,
+          "avg_return": 11.39
+        }
+      }
+    },
+    {
+      "source_id": "borsredaktionsanalyspodd",
+      "name": "Börsredaktionsanalyspodd",
+      "trust_rating": 3,
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 4.48,
+      "avg_return_90d": 13.52,
+      "by_action": {
+        "buy": {
+          "total": 4,
+          "hit_rate": 75.0,
+          "avg_return": 4.36
+        },
+        "watch": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 4.95
+        }
+      }
+    },
+    {
+      "source_id": "fyllellerdod",
+      "name": "Fyll eller Död",
+      "trust_rating": 3,
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 9.02,
+      "avg_return_90d": -9.89,
+      "by_action": {
+        "watch": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 15.56
+        },
+        "buy": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 8.69
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -3.39
+        }
+      }
+    },
+    {
+      "source_id": "filellerfil",
+      "name": "Fil eller Fil",
+      "trust_rating": 3,
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 28.96,
+      "avg_return_90d": 25.74,
+      "by_action": {
+        "hold": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 129.87
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 1.6
+        },
+        "buy": {
+          "total": 3,
+          "hit_rate": 66.7,
+          "avg_return": 4.44
+        }
+      }
+    },
+    {
+      "source_id": "borsbadden",
+      "name": "Börsbådden",
+      "trust_rating": 3,
+      "total_verified": 8,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 0.67,
+      "avg_return_90d": 15.17,
+      "by_action": {
+        "watch": {
+          "total": 5,
+          "hit_rate": 80.0,
+          "avg_return": 0.11
+        },
+        "sell": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 0.06
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 4.71
+        }
+      }
+    },
+    {
+      "source_id": "fil&kill",
+      "name": "Fil & Kill",
+      "trust_rating": 3,
+      "total_verified": 11,
+      "hit_rate_30d": 72.7,
+      "avg_return_30d": 3.09,
+      "avg_return_90d": -2.25,
+      "by_action": {
+        "watch": {
+          "total": 5,
+          "hit_rate": 80.0,
+          "avg_return": 2.53
+        },
+        "avoid": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": -6.95
+        },
+        "sell": {
+          "total": 3,
+          "hit_rate": 66.7,
+          "avg_return": 3.11
+        },
+        "buy": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 25.88
+        }
+      }
+    },
+    {
+      "source_id": "kvalitetforpengarna",
+      "name": "Kvalitet för pengarna",
+      "trust_rating": 3,
+      "total_verified": 64,
+      "hit_rate_30d": 68.8,
+      "avg_return_30d": 3.37,
+      "avg_return_90d": -1.22,
+      "by_action": {
+        "avoid": {
+          "total": 3,
+          "hit_rate": 66.7,
+          "avg_return": 5.81
+        },
+        "buy": {
+          "total": 27,
+          "hit_rate": 70.4,
+          "avg_return": 2.43
+        },
+        "hold": {
+          "total": 16,
+          "hit_rate": 56.2,
+          "avg_return": -0.03
+        },
+        "watch": {
+          "total": 16,
+          "hit_rate": 75.0,
+          "avg_return": 5.82
+        },
+        "sell": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 19.89
+        }
+      }
+    },
+    {
+      "source_id": "axipodden",
+      "name": "Axipodden",
+      "trust_rating": 3,
+      "total_verified": 6,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 2.9,
+      "avg_return_90d": 18.32,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 1.28
+        },
+        "buy": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": -4.17
+        },
+        "hold": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 14.1
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -3.75
+        }
+      }
+    },
+    {
+      "source_id": "filo&kill-podden",
+      "name": "Filo & Kill-podden",
+      "trust_rating": 3,
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 25.0,
+      "avg_return_90d": 7.29,
+      "by_action": {
+        "buy": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 4.31
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 66.37
+        }
+      }
+    },
+    {
+      "source_id": "dagensindustrisanalyspodd",
+      "name": "Dagens Industris Analyspodd",
+      "trust_rating": 3,
+      "total_verified": 35,
+      "hit_rate_30d": 65.7,
+      "avg_return_30d": 3.03,
+      "avg_return_90d": 5.48,
+      "by_action": {
+        "buy": {
+          "total": 11,
+          "hit_rate": 63.6,
+          "avg_return": 2.31
+        },
+        "watch": {
+          "total": 16,
+          "hit_rate": 62.5,
+          "avg_return": 1.57
+        },
+        "hold": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 3.51
+        },
+        "avoid": {
+          "total": 5,
+          "hit_rate": 80.0,
+          "avg_return": 12.71
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -15.1
+        }
+      }
+    },
+    {
+      "source_id": "fillochkill",
+      "name": "Fill och Kill",
+      "trust_rating": 3,
+      "total_verified": 11,
+      "hit_rate_30d": 63.6,
+      "avg_return_30d": 0.6,
+      "avg_return_90d": 7.82,
+      "by_action": {
+        "avoid": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 4.3
+        },
+        "buy": {
+          "total": 2,
+          "hit_rate": 0.0,
+          "avg_return": -5.49
+        },
+        "hold": {
+          "total": 3,
+          "hit_rate": 66.7,
+          "avg_return": 0.2
+        },
+        "watch": {
+          "total": 3,
+          "hit_rate": 100.0,
+          "avg_return": 4.76
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -5.87
+        }
+      }
+    },
+    {
+      "source_id": "analyspodd",
+      "name": "Analyspodd",
+      "trust_rating": 3,
+      "total_verified": 19,
+      "hit_rate_30d": 57.9,
+      "avg_return_30d": -4.61,
+      "avg_return_90d": 3.26,
+      "by_action": {
+        "watch": {
+          "total": 10,
+          "hit_rate": 50.0,
+          "avg_return": -4.99
+        },
+        "hold": {
+          "total": 3,
+          "hit_rate": 66.7,
+          "avg_return": -4.67
+        },
+        "buy": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 7.15
+        },
+        "avoid": {
+          "total": 3,
+          "hit_rate": 66.7,
+          "avg_return": -11.11
+        }
+      }
+    },
+    {
+      "source_id": "borsboden",
+      "name": "Börsboden",
+      "trust_rating": 3,
+      "total_verified": 21,
+      "hit_rate_30d": 57.1,
+      "avg_return_30d": 0.69,
+      "avg_return_90d": 5.64,
+      "by_action": {
+        "avoid": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 5.51
+        },
+        "watch": {
+          "total": 4,
+          "hit_rate": 75.0,
+          "avg_return": 3.29
+        },
+        "buy": {
+          "total": 8,
+          "hit_rate": 37.5,
+          "avg_return": 1.78
+        },
+        "sell": {
+          "total": 6,
+          "hit_rate": 83.3,
+          "avg_return": 4.4
+        },
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -50.41
+        }
+      }
+    },
+    {
+      "source_id": "kvalitetsaktiepodden",
+      "name": "Kvalitetsaktiepodden",
+      "trust_rating": 3,
+      "total_verified": 662,
+      "hit_rate_30d": 54.8,
+      "avg_return_30d": 1.68,
+      "avg_return_90d": 5.33,
+      "by_action": {
+        "buy": {
+          "total": 174,
+          "hit_rate": 63.8,
+          "avg_return": 4.12
+        },
+        "avoid": {
+          "total": 56,
+          "hit_rate": 44.6,
+          "avg_return": -2.57
+        },
+        "watch": {
+          "total": 226,
+          "hit_rate": 49.6,
+          "avg_return": 0.68
+        },
+        "hold": {
+          "total": 171,
+          "hit_rate": 60.2,
+          "avg_return": 2.45
+        },
+        "sell": {
+          "total": 30,
+          "hit_rate": 40.0,
+          "avg_return": -1.35
+        }
+      }
+    },
+    {
+      "source_id": "ettrikareliv",
+      "name": "Ett rikare liv",
+      "trust_rating": 3,
+      "total_verified": 205,
+      "hit_rate_30d": 54.6,
+      "avg_return_30d": 1.45,
+      "avg_return_90d": 4.06,
+      "by_action": {
+        "avoid": {
+          "total": 25,
+          "hit_rate": 44.0,
+          "avg_return": -1.98
+        },
+        "hold": {
+          "total": 63,
+          "hit_rate": 58.7,
+          "avg_return": 2.37
+        },
+        "sell": {
+          "total": 17,
+          "hit_rate": 47.1,
+          "avg_return": 2.1
+        },
+        "buy": {
+          "total": 72,
+          "hit_rate": 55.6,
+          "avg_return": 1.59
+        },
+        "watch": {
+          "total": 28,
+          "hit_rate": 57.1,
+          "avg_return": 1.72
+        }
+      }
+    },
+    {
+      "source_id": "borsbaden",
+      "name": "Börsbaden",
+      "trust_rating": 3,
+      "total_verified": 22,
+      "hit_rate_30d": 54.5,
+      "avg_return_30d": 0.04,
+      "avg_return_90d": -1.16,
+      "by_action": {
+        "watch": {
+          "total": 5,
+          "hit_rate": 40.0,
+          "avg_return": 0.18
+        },
+        "avoid": {
+          "total": 4,
+          "hit_rate": 25.0,
+          "avg_return": -4.34
+        },
+        "buy": {
+          "total": 7,
+          "hit_rate": 71.4,
+          "avg_return": -0.39
+        },
+        "sell": {
+          "total": 5,
+          "hit_rate": 60.0,
+          "avg_return": 2.53
+        },
+        "hold": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 7.46
+        }
+      }
+    },
+    {
+      "source_id": "filellerkill",
+      "name": "Fil eller Kill",
+      "trust_rating": 3,
+      "total_verified": 11,
+      "hit_rate_30d": 54.5,
+      "avg_return_30d": 4.82,
+      "avg_return_90d": -10.58,
+      "by_action": {
+        "avoid": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": -3.1
+        },
+        "watch": {
+          "total": 6,
+          "hit_rate": 83.3,
+          "avg_return": 10.51
+        },
+        "buy": {
+          "total": 2,
+          "hit_rate": 0.0,
+          "avg_return": -1.55
+        },
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -0.72
+        }
+      }
+    },
+    {
+      "source_id": "aktiepodden",
+      "name": "Aktiepodden",
+      "trust_rating": 3,
+      "total_verified": 582,
+      "hit_rate_30d": 52.7,
+      "avg_return_30d": 1.02,
+      "avg_return_90d": 4.66,
+      "by_action": {
+        "buy": {
+          "total": 256,
+          "hit_rate": 53.5,
+          "avg_return": 0.44
+        },
+        "watch": {
+          "total": 177,
+          "hit_rate": 53.7,
+          "avg_return": 1.4
+        },
+        "hold": {
+          "total": 84,
+          "hit_rate": 50.0,
+          "avg_return": -1.71
+        },
+        "sell": {
+          "total": 33,
+          "hit_rate": 51.5,
+          "avg_return": 9.89
+        },
+        "avoid": {
+          "total": 30,
+          "hit_rate": 53.3,
+          "avg_return": 1.58
+        }
+      }
+    },
+    {
+      "source_id": "analyspodden",
+      "name": "Analyspodden",
+      "trust_rating": 3,
+      "total_verified": 325,
+      "hit_rate_30d": 52.3,
+      "avg_return_30d": 0.55,
+      "avg_return_90d": 1.66,
+      "by_action": {
+        "buy": {
+          "total": 112,
+          "hit_rate": 47.3,
+          "avg_return": -0.92
+        },
+        "avoid": {
+          "total": 36,
+          "hit_rate": 63.9,
+          "avg_return": 3.31
+        },
+        "hold": {
+          "total": 33,
+          "hit_rate": 54.5,
+          "avg_return": 1.12
+        },
+        "watch": {
+          "total": 127,
+          "hit_rate": 52.8,
+          "avg_return": 0.86
+        },
+        "sell": {
+          "total": 16,
+          "hit_rate": 56.2,
+          "avg_return": 0.99
+        }
+      }
+    },
+    {
+      "source_id": "kortochlang",
+      "name": "Kort och Lång",
+      "trust_rating": 3,
+      "total_verified": 338,
+      "hit_rate_30d": 51.5,
+      "avg_return_30d": 0.98,
+      "avg_return_90d": 2.68,
+      "by_action": {
+        "watch": {
+          "total": 148,
+          "hit_rate": 50.7,
+          "avg_return": 1.42
+        },
+        "buy": {
+          "total": 103,
+          "hit_rate": 54.4,
+          "avg_return": 0.33
+        },
+        "hold": {
+          "total": 29,
+          "hit_rate": 62.1,
+          "avg_return": 3.59
+        },
+        "sell": {
+          "total": 25,
+          "hit_rate": 36.0,
+          "avg_return": -0.97
+        },
+        "avoid": {
+          "total": 33,
+          "hit_rate": 48.5,
+          "avg_return": 0.14
+        }
+      }
+    },
+    {
+      "source_id": "somethingaboutstocks",
+      "name": "Something About Stocks",
+      "trust_rating": 3,
+      "total_verified": 2,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -4.97,
+      "avg_return_90d": -6.84,
+      "by_action": {
+        "watch": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": -4.97
+        }
+      }
+    },
+    {
+      "source_id": "kortochlangt",
+      "name": "Kort och Långt",
+      "trust_rating": 3,
+      "total_verified": 2,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 2.52,
+      "avg_return_90d": 6.42,
+      "by_action": {
+        "buy": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 2.52
+        }
+      }
+    },
+    {
+      "source_id": "fyllellerkill",
+      "name": "Fyll eller Kill",
+      "trust_rating": 3,
+      "total_verified": 6,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 3.44,
+      "avg_return_90d": -11.03,
+      "by_action": {
+        "buy": {
+          "total": 4,
+          "hit_rate": 50.0,
+          "avg_return": 1.06
+        },
+        "hold": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 8.22
+        }
+      }
+    },
+    {
+      "source_id": "analysepodden",
+      "name": "Analysepodden",
+      "trust_rating": 3,
+      "total_verified": 8,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -0.43,
+      "avg_return_90d": 4.14,
+      "by_action": {
+        "buy": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": -3.31
+        },
+        "watch": {
+          "total": 4,
+          "hit_rate": 50.0,
+          "avg_return": -0.12
+        },
+        "hold": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 6.92
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -3.27
+        }
+      }
+    },
+    {
+      "source_id": "fillerochkill",
+      "name": "Filler och Kill",
+      "trust_rating": 3,
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -0.08,
+      "avg_return_90d": -16.3,
+      "by_action": {
+        "sell": {
+          "total": 3,
+          "hit_rate": 33.3,
+          "avg_return": -1.47
+        },
+        "buy": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 4.09
+        }
+      }
+    },
+    {
+      "source_id": "kortochlanganalyspoddenfrandi(igborssnack)",
+      "name": "Kort och lång analyspodden från DI (IG Börssnack)",
+      "trust_rating": 3,
+      "total_verified": 2,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 1.04,
+      "avg_return_90d": 0,
+      "by_action": {
+        "watch": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 1.04
+        }
+      }
+    },
+    {
+      "source_id": "fillorkillpodden",
+      "name": "Fill or Killpodden",
+      "trust_rating": 3,
+      "total_verified": 8,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -3.16,
+      "avg_return_90d": -2.08,
+      "by_action": {
+        "avoid": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 2.84
+        },
+        "buy": {
+          "total": 3,
+          "hit_rate": 33.3,
+          "avg_return": -6.58
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -8.36
+        },
+        "watch": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 1.29
+        },
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -4.17
+        }
+      }
+    },
+    {
+      "source_id": "philochkillpodden",
+      "name": "Phil och Killpodden",
+      "trust_rating": 3,
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -0.97,
+      "avg_return_90d": 7.17,
+      "by_action": {
+        "watch": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": -6.19
+        },
+        "buy": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 4.25
+        }
+      }
+    },
+    {
+      "source_id": "analyspodden(kort&lang)",
+      "name": "Analyspodden (Kort & Lång)",
+      "trust_rating": 3,
+      "total_verified": 2,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 13.88,
+      "avg_return_90d": 5.81,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 32.45
+        },
+        "buy": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -4.69
+        }
+      }
+    },
+    {
+      "source_id": "filellerkill-podden",
+      "name": "Fil eller Kill-podden",
+      "trust_rating": 3,
+      "total_verified": 2,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -0.45,
+      "avg_return_90d": 17.52,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 6.81
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -7.71
+        }
+      }
+    },
+    {
+      "source_id": "kvalitetsaktiepoddan",
+      "name": "Kvalitetsaktiepoddan",
+      "trust_rating": 3,
+      "total_verified": 10,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 1.7,
+      "avg_return_90d": 4.05,
+      "by_action": {
+        "buy": {
+          "total": 8,
+          "hit_rate": 62.5,
+          "avg_return": 2.36
+        },
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -0.09
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -1.79
+        }
+      }
+    },
+    {
+      "source_id": "filleochkillpodden",
+      "name": "Fille och Killpodden",
+      "trust_rating": 3,
+      "total_verified": 2,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -15.17,
+      "avg_return_90d": -21.1,
+      "by_action": {
+        "buy": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": -15.17
+        }
+      }
+    },
+    {
+      "source_id": "analysbarden",
+      "name": "Analysbården",
+      "trust_rating": 3,
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -2.88,
+      "avg_return_90d": 8.46,
+      "by_action": {
+        "avoid": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 2.17
+        },
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -4.54
+        },
+        "buy": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": -4.59
+        }
+      }
+    },
+    {
+      "source_id": "kort&lang",
+      "name": "Kort & Lång",
+      "trust_rating": 3,
+      "total_verified": 51,
+      "hit_rate_30d": 49.0,
+      "avg_return_30d": 1.56,
+      "avg_return_90d": 3.27,
+      "by_action": {
+        "sell": {
+          "total": 4,
+          "hit_rate": 50.0,
+          "avg_return": 0.87
+        },
+        "buy": {
+          "total": 18,
+          "hit_rate": 61.1,
+          "avg_return": 2.12
+        },
+        "hold": {
+          "total": 5,
+          "hit_rate": 20.0,
+          "avg_return": -2.2
+        },
+        "watch": {
+          "total": 19,
+          "hit_rate": 42.1,
+          "avg_return": 2.55
+        },
+        "avoid": {
+          "total": 5,
+          "hit_rate": 60.0,
+          "avg_return": 0.09
+        }
+      }
+    },
+    {
+      "source_id": "borspodden",
+      "name": "Börspodden",
+      "trust_rating": 3,
+      "total_verified": 1028,
+      "hit_rate_30d": 48.4,
+      "avg_return_30d": 1.16,
+      "avg_return_90d": 3.07,
+      "by_action": {
+        "sell": {
+          "total": 126,
+          "hit_rate": 46.0,
+          "avg_return": 0.55
+        },
+        "avoid": {
+          "total": 222,
+          "hit_rate": 40.5,
+          "avg_return": -1.06
+        },
+        "buy": {
+          "total": 348,
+          "hit_rate": 50.6,
+          "avg_return": 1.91
+        },
+        "hold": {
+          "total": 80,
+          "hit_rate": 51.2,
+          "avg_return": 5.07
+        },
+        "watch": {
+          "total": 251,
+          "hit_rate": 53.0,
+          "avg_return": 1.13
+        }
+      }
+    },
+    {
+      "source_id": "analyspoddenfrandagensindustri",
+      "name": "Analyspodden från Dagens Industri",
+      "trust_rating": 3,
+      "total_verified": 124,
+      "hit_rate_30d": 47.6,
+      "avg_return_30d": -1.54,
+      "avg_return_90d": -1.28,
+      "by_action": {
+        "buy": {
+          "total": 34,
+          "hit_rate": 52.9,
+          "avg_return": 1.73
+        },
+        "avoid": {
+          "total": 20,
+          "hit_rate": 55.0,
+          "avg_return": -2.73
+        },
+        "watch": {
+          "total": 52,
+          "hit_rate": 44.2,
+          "avg_return": -2.3
+        },
+        "hold": {
+          "total": 12,
+          "hit_rate": 41.7,
+          "avg_return": -1.19
+        },
+        "sell": {
+          "total": 6,
+          "hit_rate": 33.3,
+          "avg_return": -10.21
+        }
+      }
+    },
+    {
+      "source_id": "fillorkill",
+      "name": "Fill or Kill",
+      "trust_rating": 3,
+      "total_verified": 735,
+      "hit_rate_30d": 47.2,
+      "avg_return_30d": 0.43,
+      "avg_return_90d": 3.26,
+      "by_action": {
+        "buy": {
+          "total": 224,
+          "hit_rate": 50.9,
+          "avg_return": 1.51
+        },
+        "sell": {
+          "total": 161,
+          "hit_rate": 45.3,
+          "avg_return": -0.24
+        },
+        "hold": {
+          "total": 67,
+          "hit_rate": 46.3,
+          "avg_return": 2.02
+        },
+        "watch": {
+          "total": 215,
+          "hit_rate": 44.2,
+          "avg_return": 0.07
+        },
+        "avoid": {
+          "total": 68,
+          "hit_rate": 50.0,
+          "avg_return": -1.94
+        }
+      }
+    },
+    {
+      "source_id": "avanzapodden",
+      "name": "Avanzapodden",
+      "trust_rating": 3,
+      "total_verified": 50,
+      "hit_rate_30d": 46.0,
+      "avg_return_30d": 2.95,
+      "avg_return_90d": 4.31,
+      "by_action": {
+        "buy": {
+          "total": 22,
+          "hit_rate": 45.5,
+          "avg_return": -0.6
+        },
+        "hold": {
+          "total": 17,
+          "hit_rate": 41.2,
+          "avg_return": 5.11
+        },
+        "avoid": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 6.39
+        },
+        "sell": {
+          "total": 3,
+          "hit_rate": 33.3,
+          "avg_return": 0.66
+        },
+        "watch": {
+          "total": 5,
+          "hit_rate": 80.0,
+          "avg_return": 11.26
+        }
+      }
+    },
+    {
+      "source_id": "veckanstrade",
+      "name": "Veckans Trade",
+      "trust_rating": 3,
+      "total_verified": 48,
+      "hit_rate_30d": 43.8,
+      "avg_return_30d": -1.91,
+      "avg_return_90d": -10.05,
+      "by_action": {
+        "hold": {
+          "total": 6,
+          "hit_rate": 50.0,
+          "avg_return": -8.3
+        },
+        "watch": {
+          "total": 14,
+          "hit_rate": 28.6,
+          "avg_return": -5.97
+        },
+        "avoid": {
+          "total": 12,
+          "hit_rate": 50.0,
+          "avg_return": 0.73
+        },
+        "buy": {
+          "total": 15,
+          "hit_rate": 53.3,
+          "avg_return": 2.33
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -1.82
+        }
+      }
+    },
+    {
+      "source_id": "borsensfinest",
+      "name": "Börsens Finest",
+      "trust_rating": 3,
+      "total_verified": 137,
+      "hit_rate_30d": 43.8,
+      "avg_return_30d": -0.56,
+      "avg_return_90d": -3.96,
+      "by_action": {
+        "buy": {
+          "total": 78,
+          "hit_rate": 43.6,
+          "avg_return": -0.35
+        },
+        "hold": {
+          "total": 10,
+          "hit_rate": 50.0,
+          "avg_return": -1.87
+        },
+        "sell": {
+          "total": 18,
+          "hit_rate": 50.0,
+          "avg_return": -2.15
+        },
+        "watch": {
+          "total": 21,
+          "hit_rate": 28.6,
+          "avg_return": -2.61
+        },
+        "avoid": {
+          "total": 10,
+          "hit_rate": 60.0,
+          "avg_return": 6.24
+        }
+      }
+    },
+    {
+      "source_id": "filorkill",
+      "name": "Fil or Kill",
+      "trust_rating": 3,
+      "total_verified": 7,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": -7.47,
+      "avg_return_90d": -4.51,
+      "by_action": {
+        "avoid": {
+          "total": 2,
+          "hit_rate": 100.0,
+          "avg_return": 1.36
+        },
+        "sell": {
+          "total": 3,
+          "hit_rate": 0.0,
+          "avg_return": -12.14
+        },
+        "buy": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -25.6
+        },
+        "watch": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 7.04
+        }
+      }
+    },
+    {
+      "source_id": "analyspoddfrandagensindustri",
+      "name": "Analyspodd från Dagens Industri",
+      "trust_rating": 3,
+      "total_verified": 7,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": -4.5,
+      "avg_return_90d": -10.85,
+      "by_action": {
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -9.1
+        },
+        "buy": {
+          "total": 6,
+          "hit_rate": 50.0,
+          "avg_return": -3.73
+        }
+      }
+    },
+    {
+      "source_id": "fillaochkillpodden",
+      "name": "Filla och Killpodden",
+      "trust_rating": 3,
+      "total_verified": 7,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": 6.11,
+      "avg_return_90d": -8.08,
+      "by_action": {
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -1.46
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -3.68
+        },
+        "watch": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 6.32
+        },
+        "buy": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 0.73
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 33.81
+        }
+      }
+    },
+    {
+      "source_id": "dagensindustrisanalyspodden",
+      "name": "Dagens Industris Analyspodden",
+      "trust_rating": 3,
+      "total_verified": 19,
+      "hit_rate_30d": 42.1,
+      "avg_return_30d": -3.99,
+      "avg_return_90d": -2.1,
+      "by_action": {
+        "hold": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 2.82
+        },
+        "avoid": {
+          "total": 2,
+          "hit_rate": 0.0,
+          "avg_return": -13.6
+        },
+        "watch": {
+          "total": 16,
+          "hit_rate": 43.8,
+          "avg_return": -3.21
+        }
+      }
+    },
+    {
+      "source_id": "fill&killpodden",
+      "name": "Fill & Killpodden",
+      "trust_rating": 3,
+      "total_verified": 5,
+      "hit_rate_30d": 40.0,
+      "avg_return_30d": -10.86,
+      "avg_return_90d": -4.66,
+      "by_action": {
+        "buy": {
+          "total": 3,
+          "hit_rate": 66.7,
+          "avg_return": 8.04
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -60.0
+        },
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -18.41
+        }
+      }
+    },
+    {
+      "source_id": "filaochkillpodden",
+      "name": "Fila och Killpodden",
+      "trust_rating": 3,
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 1.56,
+      "avg_return_90d": -1.05,
+      "by_action": {
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -15.62
+        },
+        "buy": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -3.18
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 23.49
+        }
+      }
+    },
+    {
+      "source_id": "kortochlang(dagensindustrianalyspodd)",
+      "name": "Kort och Lång (Dagens Industri Analyspodd)",
+      "trust_rating": 3,
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 1.75,
+      "avg_return_90d": 15.01,
+      "by_action": {
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -2.13
+        },
+        "watch": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 3.7
+        }
+      }
+    },
+    {
+      "source_id": "nagotomaktier",
+      "name": "Något om aktier",
+      "trust_rating": 3,
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -3.19,
+      "avg_return_90d": -20.11,
+      "by_action": {
+        "buy": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 4.64
+        },
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -3.45
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -10.76
+        }
+      }
+    },
+    {
+      "source_id": "avanza-podden",
+      "name": "Avanza-podden",
+      "trust_rating": 3,
+      "total_verified": 7,
+      "hit_rate_30d": 28.6,
+      "avg_return_30d": -4.11,
+      "avg_return_90d": -5.45,
+      "by_action": {
+        "hold": {
+          "total": 2,
+          "hit_rate": 0.0,
+          "avg_return": -4.72
+        },
+        "watch": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": -2.88
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -17.57
+        },
+        "buy": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": 1.99
+        }
+      }
+    },
+    {
+      "source_id": "phil&keithpodden",
+      "name": "Phil & Keith Podden",
+      "trust_rating": 3,
+      "total_verified": 4,
+      "hit_rate_30d": 25.0,
+      "avg_return_30d": -3.55,
+      "avg_return_90d": -5.31,
+      "by_action": {
+        "watch": {
+          "total": 2,
+          "hit_rate": 50.0,
+          "avg_return": -2.52
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -7.46
+        },
+        "buy": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -1.69
+        }
+      }
+    },
+    {
+      "source_id": "fillellerkillpodden",
+      "name": "Fill eller Killpodden",
+      "trust_rating": 3,
+      "total_verified": 5,
+      "hit_rate_30d": 20.0,
+      "avg_return_30d": -7.98,
+      "avg_return_90d": -7.11,
+      "by_action": {
+        "hold": {
+          "total": 4,
+          "hit_rate": 25.0,
+          "avg_return": -7.55
+        },
+        "buy": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -9.69
+        }
+      }
+    },
+    {
+      "source_id": "phil&kill",
+      "name": "Phil & Kill",
+      "trust_rating": 3,
+      "total_verified": 5,
+      "hit_rate_30d": 20.0,
+      "avg_return_30d": -15.39,
+      "avg_return_90d": -29.07,
+      "by_action": {
+        "avoid": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -12.23
+        },
+        "hold": {
+          "total": 2,
+          "hit_rate": 0.0,
+          "avg_return": -27.88
+        },
+        "watch": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 1.64
+        },
+        "buy": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -10.58
+        }
+      }
+    },
+    {
+      "source_id": "fillochorkill-podden",
+      "name": "Fill och Orkill-podden",
+      "trust_rating": 3,
+      "total_verified": 5,
+      "hit_rate_30d": 20.0,
+      "avg_return_30d": 5.8,
+      "avg_return_90d": -13.76,
+      "by_action": {
+        "buy": {
+          "total": 4,
+          "hit_rate": 25.0,
+          "avg_return": 9.82
+        },
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -10.29
+        }
+      }
+    },
+    {
+      "source_id": "analyspodden(kortochlang)",
+      "name": "Analyspodden (Kort och Lång)",
+      "trust_rating": 3,
+      "total_verified": 11,
+      "hit_rate_30d": 18.2,
+      "avg_return_30d": -4.91,
+      "avg_return_90d": 2.39,
+      "by_action": {
+        "buy": {
+          "total": 7,
+          "hit_rate": 0.0,
+          "avg_return": -8.11
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 100.0,
+          "avg_return": 13.03
+        },
+        "watch": {
+          "total": 3,
+          "hit_rate": 33.3,
+          "avg_return": -3.43
+        }
+      }
+    },
+    {
+      "source_id": "analysepoddenfrandagensindustri",
+      "name": "Analysepodden från Dagens Industri",
+      "trust_rating": 3,
+      "total_verified": 9,
+      "hit_rate_30d": 11.1,
+      "avg_return_30d": -6.04,
+      "avg_return_90d": -8.84,
+      "by_action": {
+        "buy": {
+          "total": 2,
+          "hit_rate": 0.0,
+          "avg_return": -5.0
+        },
+        "hold": {
+          "total": 2,
+          "hit_rate": 0.0,
+          "avg_return": -9.39
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -5.43
+        },
+        "watch": {
+          "total": 4,
+          "hit_rate": 25.0,
+          "avg_return": -5.04
+        }
+      }
+    },
+    {
+      "source_id": "filoellerkillpodden",
+      "name": "Filo eller Killpodden",
+      "trust_rating": 3,
+      "total_verified": 5,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -11.08,
+      "avg_return_90d": -23.04,
+      "by_action": {
+        "buy": {
+          "total": 4,
+          "hit_rate": 0.0,
+          "avg_return": -11.19
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -10.61
+        }
+      }
+    },
+    {
+      "source_id": "phil&killpodden",
+      "name": "Phil & Kill podden",
+      "trust_rating": 3,
+      "total_verified": 2,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -20.25,
+      "avg_return_90d": -30.35,
+      "by_action": {
+        "buy": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -6.98
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -33.52
+        }
+      }
+    },
+    {
+      "source_id": "filipochfredrik",
+      "name": "Filip och Fredrik",
+      "trust_rating": 3,
+      "total_verified": 4,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -8.74,
+      "avg_return_90d": 10.81,
+      "by_action": {
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -0.09
+        },
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -27.52
+        },
+        "watch": {
+          "total": 2,
+          "hit_rate": 0.0,
+          "avg_return": -3.67
+        }
+      }
+    },
+    {
+      "source_id": "analysedaktionen",
+      "name": "Analysedaktionen",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -6.97,
+      "avg_return_90d": 20.92,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -6.97
+        }
+      }
+    },
+    {
+      "source_id": "filorkillpodden",
+      "name": "Fil or Killpodden",
+      "trust_rating": 3,
+      "total_verified": 2,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -12.8,
+      "avg_return_90d": -13.02,
+      "by_action": {
+        "buy": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -5.91
+        },
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -19.68
+        }
+      }
+    },
+    {
+      "source_id": "dagensindustrisbusspodd",
+      "name": "Dagens Industris busspodd",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -1.98,
+      "avg_return_90d": 0.33,
+      "by_action": {
+        "hold": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -1.98
+        }
+      }
+    },
+    {
+      "source_id": "analyspodden,kortochlang",
+      "name": "Analyspodden, kort och lång",
+      "trust_rating": 3,
+      "total_verified": 2,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -6.66,
+      "avg_return_90d": 26.17,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -10.38
+        },
+        "avoid": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -2.93
+        }
+      }
+    },
+    {
+      "source_id": "filellerdo(fillorkill)",
+      "name": "Fil eller Dö (Fill or Kill)",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -11.91,
+      "avg_return_90d": -44.68,
+      "by_action": {
+        "sell": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -11.91
+        }
+      }
+    },
+    {
+      "source_id": "dagensindustrisanalyspod",
+      "name": "Dagens Industris analyspod",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -38.24,
+      "avg_return_90d": -44.51,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -38.24
+        }
+      }
+    },
+    {
+      "source_id": "phil&kid-podden",
+      "name": "Phil & Kid-podden",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -9.24,
+      "avg_return_90d": -4.16,
+      "by_action": {
+        "buy": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -9.24
+        }
+      }
+    },
+    {
+      "source_id": "fillerochkillpodden",
+      "name": "Filler och Killpodden",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -19.51,
+      "avg_return_90d": -26.09,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -19.51
+        }
+      }
+    },
+    {
+      "source_id": "fyllaellerdoda",
+      "name": "Fylla eller Döda",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -9.87,
+      "avg_return_90d": -39.07,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -9.87
+        }
+      }
+    },
+    {
+      "source_id": "filleochkill-podden",
+      "name": "Fille och Kill-podden",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -11.14,
+      "avg_return_90d": -43.08,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -11.14
+        }
+      }
+    },
+    {
+      "source_id": "filellerkille",
+      "name": "Fil eller Kille",
+      "trust_rating": 3,
+      "total_verified": 1,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -10.01,
+      "avg_return_90d": -13.43,
+      "by_action": {
+        "watch": {
+          "total": 1,
+          "hit_rate": 0.0,
+          "avg_return": -10.01
+        }
+      }
+    }
+  ],
+  "by_speaker": [
+    {
+      "speaker": "Mikael Syding",
+      "total_verified": 4,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 28.3,
+      "sources": [
+        "Börspodden",
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Tristan Sjöberg",
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 7.51,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Bus",
+      "total_verified": 4,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 15.9,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Semir Hassan Begovic",
+      "total_verified": 4,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 7.47,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Anders Hägerström",
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 9.42,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Host (Johan)",
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 7.0,
+      "sources": [
+        "Analyspodden från Dagens Industri"
+      ]
+    },
+    {
+      "speaker": "Gabriel Mellqvist",
+      "total_verified": 4,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 12.72,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Taner Pikdöken",
+      "total_verified": 5,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 13.97,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Gustaf von Sivers",
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 7.45,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Lars Söderfjell",
+      "total_verified": 10,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 5.11,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Hande",
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 7.17,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Hosts",
+      "total_verified": 5,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 9.56,
+      "sources": [
+        "Aktiepodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Josefin",
+      "total_verified": 4,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 15.3,
+      "sources": [
+        "Någonting om aktier"
+      ]
+    },
+    {
+      "speaker": "värd1",
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 16.47,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Petter Löfqvist",
+      "total_verified": 5,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 13.68,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Christian Blink",
+      "total_verified": 8,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 8.64,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Kille",
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 3.01,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "värd",
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 3.19,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Jacob",
+      "total_verified": 4,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 5.56,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Ola/Claes",
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 35.38,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Agnate Jönsson",
+      "total_verified": 3,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 9.97,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Kvalitetsaktiepodden (Claes)",
+      "total_verified": 4,
+      "hit_rate_30d": 100.0,
+      "avg_return_30d": 10.39,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "värd2",
+      "total_verified": 10,
+      "hit_rate_30d": 90.0,
+      "avg_return_30d": 13.93,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Carl Gustafsson",
+      "total_verified": 7,
+      "hit_rate_30d": 85.7,
+      "avg_return_30d": 13.11,
+      "sources": [
+        "Ett rikare liv",
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Okänt (en av hostarna)",
+      "total_verified": 7,
+      "hit_rate_30d": 85.7,
+      "avg_return_30d": 6.6,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Henrik Mittelman",
+      "total_verified": 7,
+      "hit_rate_30d": 85.7,
+      "avg_return_30d": 5.66,
+      "sources": [
+        "Dagens Industris Analyspodd",
+        "Analyspodden"
+      ]
+    },
+    {
+      "speaker": "Ola/Markus/Claes",
+      "total_verified": 7,
+      "hit_rate_30d": 85.7,
+      "avg_return_30d": 7.13,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Christopher",
+      "total_verified": 6,
+      "hit_rate_30d": 83.3,
+      "avg_return_30d": 5.77,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Christopher Anermark",
+      "total_verified": 6,
+      "hit_rate_30d": 83.3,
+      "avg_return_30d": 7.13,
+      "sources": [
+        "Aktiepodden",
+        "Axipodden (Aktiespararnas podcast)"
+      ]
+    },
+    {
+      "speaker": "Lars Frick",
+      "total_verified": 6,
+      "hit_rate_30d": 83.3,
+      "avg_return_30d": 9.54,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Jonathan Axelsson",
+      "total_verified": 6,
+      "hit_rate_30d": 83.3,
+      "avg_return_30d": 13.45,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Calle",
+      "total_verified": 11,
+      "hit_rate_30d": 81.8,
+      "avg_return_30d": 5.35,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Jonathan",
+      "total_verified": 16,
+      "hit_rate_30d": 81.2,
+      "avg_return_30d": 8.35,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Stefan Roos",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 5.61,
+      "sources": [
+        "Ett rikare liv",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Niklas",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 6.49,
+      "sources": [
+        "Analyspodden",
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Jösta Carlberg",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 3.27,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Unknown",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 11.79,
+      "sources": [
+        "Fill and Kill",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Tobjörn Isaksson",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 2.4,
+      "sources": [
+        "Analyspodden",
+        "Analyspodden (Dagens Industri)"
+      ]
+    },
+    {
+      "speaker": "Johan Rosenqvist",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 4.99,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Mikael L. Olsson",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 5.45,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Okänd värd",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 3.44,
+      "sources": [
+        "Aktiepodden",
+        "Börspodden",
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Fill/Kill",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 1.97,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Inge Heydorn",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 9.02,
+      "sources": [
+        "Fyll eller Död"
+      ]
+    },
+    {
+      "speaker": "Killen",
+      "total_verified": 5,
+      "hit_rate_30d": 80.0,
+      "avg_return_30d": 6.15,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "host2",
+      "total_verified": 13,
+      "hit_rate_30d": 76.9,
+      "avg_return_30d": 14.66,
+      "sources": [
+        "Fill och Kill",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Nils Brobacke",
+      "total_verified": 4,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 1.72,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Marcus Hernhag",
+      "total_verified": 8,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 1.7,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Okänd talare",
+      "total_verified": 4,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 7.14,
+      "sources": [
+        "Dagens Industris Analyspodd"
+      ]
+    },
+    {
+      "speaker": "Kristoffer Arnmark",
+      "total_verified": 4,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 2.97,
+      "sources": [
+        "Aktiepodden",
+        "Axipodden"
+      ]
+    },
+    {
+      "speaker": "Viktor Munkhammar",
+      "total_verified": 4,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 1.48,
+      "sources": [
+        "Dagens Industris Analyspodd",
+        "Analyspodden från Dagens Industri"
+      ]
+    },
+    {
+      "speaker": "Ulf Fetteson",
+      "total_verified": 4,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 1.97,
+      "sources": [
+        "Analyspodd"
+      ]
+    },
+    {
+      "speaker": "Angata Jönsson",
+      "total_verified": 4,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 15.56,
+      "sources": [
+        "Analyspodden"
+      ]
+    },
+    {
+      "speaker": "Speaker 1",
+      "total_verified": 4,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 4.95,
+      "sources": [
+        "Aktiepodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Karl-Henrik",
+      "total_verified": 4,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 2.66,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Lars Schick",
+      "total_verified": 4,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 9.06,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "John Lund",
+      "total_verified": 4,
+      "hit_rate_30d": 75.0,
+      "avg_return_30d": 3.86,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Speaker 2",
+      "total_verified": 11,
+      "hit_rate_30d": 72.7,
+      "avg_return_30d": 2.0,
+      "sources": [
+        "Aktiepodden",
+        "Kort och lång analyspodden från DI (IG Börssnack)",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Magnus Dagell",
+      "total_verified": 28,
+      "hit_rate_30d": 71.4,
+      "avg_return_30d": 3.44,
+      "sources": [
+        "Analyspodden från Dagens Industri",
+        "Analyspodden",
+        "Analysepodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Marcus Härnhag",
+      "total_verified": 7,
+      "hit_rate_30d": 71.4,
+      "avg_return_30d": 1.65,
+      "sources": [
+        "Fill och Kill"
+      ]
+    },
+    {
+      "speaker": "Agneta",
+      "total_verified": 7,
+      "hit_rate_30d": 71.4,
+      "avg_return_30d": 1.22,
+      "sources": [
+        "Analyspodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Tommi Saukkoriipi",
+      "total_verified": 10,
+      "hit_rate_30d": 70.0,
+      "avg_return_30d": 2.89,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Magnus Andersson",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": -0.11,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Lomvol",
+      "total_verified": 6,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": -2.38,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Värd",
+      "total_verified": 24,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 8.11,
+      "sources": [
+        "Aktiepodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Victor Munkhammar",
+      "total_verified": 6,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": -2.38,
+      "sources": [
+        "Analyspodden från Dagens Industri",
+        "Analyspodden",
+        "Analyspodd"
+      ]
+    },
+    {
+      "speaker": "Fredrik",
+      "total_verified": 66,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 3.33,
+      "sources": [
+        "Kvalitet för pengarna",
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Johan Thorén",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 0.52,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Daniel Svensson",
+      "total_verified": 12,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 4.31,
+      "sources": [
+        "Avanza-podden",
+        "Avanzapodden"
+      ]
+    },
+    {
+      "speaker": "Elin",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": -8.41,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Alexander Boman",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 9.65,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Felicia Åkerman",
+      "total_verified": 12,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": -0.35,
+      "sources": [
+        "Analyspodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Helene Rothstein",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": -0.98,
+      "sources": [
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Gösta Carlberg",
+      "total_verified": 6,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 3.91,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Puket Trader",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": -4.27,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Guest",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 6.36,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Diskuterad, ej specifikerad",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 8.97,
+      "sources": [
+        "Analyspodden"
+      ]
+    },
+    {
+      "speaker": "Matt Lundstedt (refererad av Agneta)",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 2.87,
+      "sources": [
+        "Analyspodden"
+      ]
+    },
+    {
+      "speaker": "Jan Glevén",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 4.11,
+      "sources": [
+        "Analyspodden från Dagens Industri"
+      ]
+    },
+    {
+      "speaker": "Gösta Karlberg",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 4.8,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Lomolfär",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 15.31,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Martin Lundgren",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 1.31,
+      "sources": [
+        "Dagens Industris Analyspodden",
+        "Kort & Lång"
+      ]
+    },
+    {
+      "speaker": "Karin Haraldsson",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 4.94,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Johan Roslund",
+      "total_verified": 6,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": -2.93,
+      "sources": [
+        "Fil eller Kill",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Per H Börjesson",
+      "total_verified": 6,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 0.69,
+      "sources": [
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Daniel Lindkvist",
+      "total_verified": 6,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 6.1,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Fill or Kill Host",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 8.47,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Malleys",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 11.48,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Richard Brås",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": -1.28,
+      "sources": [
+        "Analyspodden från Dagens Industri"
+      ]
+    },
+    {
+      "speaker": "LånWolf",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 3.04,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Speaker1",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 1.52,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Lån Wolf",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 5.11,
+      "sources": [
+        "Fille och Kill-podden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Pucket Trader",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 17.03,
+      "sources": [
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Hosts collectively",
+      "total_verified": 3,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": -4.22,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Niklas Pålsson",
+      "total_verified": 6,
+      "hit_rate_30d": 66.7,
+      "avg_return_30d": 8.16,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Uffe Pettersson",
+      "total_verified": 29,
+      "hit_rate_30d": 65.5,
+      "avg_return_30d": 2.42,
+      "sources": [
+        "Analyspodden från Dagens Industri",
+        "Analyspodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Lars-Erik Lundgren",
+      "total_verified": 8,
+      "hit_rate_30d": 62.5,
+      "avg_return_30d": 3.71,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Anna Jakobsson",
+      "total_verified": 8,
+      "hit_rate_30d": 62.5,
+      "avg_return_30d": 3.66,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Kvalitetsaktiepodden",
+      "total_verified": 8,
+      "hit_rate_30d": 62.5,
+      "avg_return_30d": 7.52,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Robert Ahldin",
+      "total_verified": 8,
+      "hit_rate_30d": 62.5,
+      "avg_return_30d": 2.61,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Dag",
+      "total_verified": 13,
+      "hit_rate_30d": 61.5,
+      "avg_return_30d": 2.58,
+      "sources": [
+        "Aktiepodden",
+        "Axipodden"
+      ]
+    },
+    {
+      "speaker": "Julia Forsberg",
+      "total_verified": 13,
+      "hit_rate_30d": 61.5,
+      "avg_return_30d": 1.53,
+      "sources": [
+        "Analyspodden",
+        "Kort & Lång",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "En av värdarna",
+      "total_verified": 5,
+      "hit_rate_30d": 60.0,
+      "avg_return_30d": 1.61,
+      "sources": [
+        "Börsboden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Jan",
+      "total_verified": 20,
+      "hit_rate_30d": 60.0,
+      "avg_return_30d": -1.02,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Magnus Dahl",
+      "total_verified": 20,
+      "hit_rate_30d": 60.0,
+      "avg_return_30d": 1.8,
+      "sources": [
+        "Analyspodden från Dagens Industri",
+        "Analyspodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "LoneWolf",
+      "total_verified": 10,
+      "hit_rate_30d": 60.0,
+      "avg_return_30d": 2.5,
+      "sources": [
+        "Fil & Kill",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Lomwulf",
+      "total_verified": 5,
+      "hit_rate_30d": 60.0,
+      "avg_return_30d": -0.02,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Gösta",
+      "total_verified": 5,
+      "hit_rate_30d": 60.0,
+      "avg_return_30d": 0.08,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Hansson",
+      "total_verified": 5,
+      "hit_rate_30d": 60.0,
+      "avg_return_30d": -1.7,
+      "sources": [
+        "Fill or Killpodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Jonathan Andersson",
+      "total_verified": 10,
+      "hit_rate_30d": 60.0,
+      "avg_return_30d": 7.27,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Uffe",
+      "total_verified": 10,
+      "hit_rate_30d": 60.0,
+      "avg_return_30d": 3.68,
+      "sources": [
+        "Kort & Lång",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Johanna Jansson",
+      "total_verified": 19,
+      "hit_rate_30d": 57.9,
+      "avg_return_30d": 1.53,
+      "sources": [
+        "Dagens Industris Analyspodd",
+        "Analyspodden från Dagens Industri",
+        "Börsredaktionsanalyspodd",
+        "Kort och Lång",
+        "Analysepodden från Dagens Industri",
+        "Analyspodden"
+      ]
+    },
+    {
+      "speaker": "Claes",
+      "total_verified": 154,
+      "hit_rate_30d": 57.1,
+      "avg_return_30d": 1.87,
+      "sources": [
+        "Kvalitet för pengarna",
+        "Börsbådden",
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Charlotte Faxén",
+      "total_verified": 7,
+      "hit_rate_30d": 57.1,
+      "avg_return_30d": 8.57,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Host1",
+      "total_verified": 14,
+      "hit_rate_30d": 57.1,
+      "avg_return_30d": 8.49,
+      "sources": [
+        "Filo & Kill-podden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Ola",
+      "total_verified": 339,
+      "hit_rate_30d": 56.0,
+      "avg_return_30d": 1.68,
+      "sources": [
+        "Börspodden",
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Martin Blomgren",
+      "total_verified": 45,
+      "hit_rate_30d": 55.6,
+      "avg_return_30d": 1.36,
+      "sources": [
+        "Analyspodd",
+        "Analysepodden",
+        "Börsens Finest",
+        "Dagens Industris busspodd",
+        "Analyspodden från Dagens Industri",
+        "Börspodden",
+        "Börsredaktionsanalyspodd",
+        "Kort och Lång",
+        "Analysepodden från Dagens Industri",
+        "Analyspodden",
+        "Kort & Lång"
+      ]
+    },
+    {
+      "speaker": "Kristoffer",
+      "total_verified": 9,
+      "hit_rate_30d": 55.6,
+      "avg_return_30d": -0.17,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Okänd host",
+      "total_verified": 9,
+      "hit_rate_30d": 55.6,
+      "avg_return_30d": 1.33,
+      "sources": [
+        "Fil och Kill",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Lone Wolf",
+      "total_verified": 50,
+      "hit_rate_30d": 54.0,
+      "avg_return_30d": 1.21,
+      "sources": [
+        "Filler och Kill",
+        "Fil eller Kill",
+        "Börsens Finest",
+        "Fill or Kill",
+        "Fylla eller Döda",
+        "Fil or Kill",
+        "Phil & Kill",
+        "Fill or Killpodden",
+        "Fill och Kill-podden"
+      ]
+    },
+    {
+      "speaker": "Markus",
+      "total_verified": 50,
+      "hit_rate_30d": 54.0,
+      "avg_return_30d": 0.83,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Jonas Olavi",
+      "total_verified": 13,
+      "hit_rate_30d": 53.8,
+      "avg_return_30d": 2.16,
+      "sources": [
+        "Aktiepodden",
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Christoffer",
+      "total_verified": 13,
+      "hit_rate_30d": 53.8,
+      "avg_return_30d": 1.28,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "John",
+      "total_verified": 266,
+      "hit_rate_30d": 53.4,
+      "avg_return_30d": 2.97,
+      "sources": [
+        "Börsbaden",
+        "Börspodden",
+        "Börsens Finest",
+        "Börsboden"
+      ]
+    },
+    {
+      "speaker": "Johan Vendel",
+      "total_verified": 15,
+      "hit_rate_30d": 53.3,
+      "avg_return_30d": -2.51,
+      "sources": [
+        "Analyspodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Lars Rick",
+      "total_verified": 17,
+      "hit_rate_30d": 52.9,
+      "avg_return_30d": -1.81,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Agnetha Jönsson",
+      "total_verified": 31,
+      "hit_rate_30d": 51.6,
+      "avg_return_30d": -1.5,
+      "sources": [
+        "Analyspodden från Dagens Industri",
+        "Analyspodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Robert Andersson",
+      "total_verified": 88,
+      "hit_rate_30d": 51.1,
+      "avg_return_30d": -0.38,
+      "sources": [
+        "Aktiepodden",
+        "Analyspodden, kort och lång",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Kalle",
+      "total_verified": 38,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -0.7,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Daniel Setterberg",
+      "total_verified": 12,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -0.08,
+      "sources": [
+        "Avanza-podden",
+        "Avanzapodden"
+      ]
+    },
+    {
+      "speaker": "David Lindström",
+      "total_verified": 8,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 2.4,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "host1",
+      "total_verified": 30,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 0.8,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Carl-Henrik Söderberg",
+      "total_verified": 14,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -2.36,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Oskar Ekman",
+      "total_verified": 6,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -6.97,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Rickard Bråse",
+      "total_verified": 22,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 0.27,
+      "sources": [
+        "Dagens Industris Analyspodd",
+        "Analysepodden",
+        "Ett rikare liv",
+        "Analyspodden från Dagens Industri",
+        "Kort och Lång",
+        "Analyspodden",
+        "Kort & Lång"
+      ]
+    },
+    {
+      "speaker": "Puketrader",
+      "total_verified": 10,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 8.67,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Taner/Nikos",
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 1.06,
+      "sources": [
+        "Fyll eller Kill"
+      ]
+    },
+    {
+      "speaker": "Martin",
+      "total_verified": 6,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 2.05,
+      "sources": [
+        "Dagens Industris Analyspodd",
+        "Kort & Lång"
+      ]
+    },
+    {
+      "speaker": "Jon Hyltner",
+      "total_verified": 16,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -1.49,
+      "sources": [
+        "Ett rikare liv",
+        "Börspodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Mats Qviberg",
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 3.37,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Host2",
+      "total_verified": 10,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 5.59,
+      "sources": [
+        "Filo & Kill-podden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Per-PJ Johansson",
+      "total_verified": 8,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 3.15,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Kristoffer Anermark",
+      "total_verified": 6,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 4.26,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Joanna Jansson",
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 1.57,
+      "sources": [
+        "Analyspodden från Dagens Industri",
+        "Analyspodden"
+      ]
+    },
+    {
+      "speaker": "Petrusko",
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -1.79,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Long Wolf",
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 2.89,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Julia",
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -0.85,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Kvalitetsaktiepoddan",
+      "total_verified": 8,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 1.78,
+      "sources": [
+        "Kvalitetsaktiepoddan"
+      ]
+    },
+    {
+      "speaker": "Cathie Wood",
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 11.86,
+      "sources": [
+        "Avanzapodden"
+      ]
+    },
+    {
+      "speaker": "Pucket",
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": 2.65,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Agneta Jansson",
+      "total_verified": 4,
+      "hit_rate_30d": 50.0,
+      "avg_return_30d": -0.29,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Johan",
+      "total_verified": 483,
+      "hit_rate_30d": 48.9,
+      "avg_return_30d": 0.55,
+      "sources": [
+        "Börsbådden",
+        "Fill or Kill",
+        "Börsbaden",
+        "Börspodden",
+        "Börsboden",
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Ulf Pettersson",
+      "total_verified": 186,
+      "hit_rate_30d": 48.9,
+      "avg_return_30d": -0.38,
+      "sources": [
+        "Dagens Industris Analyspodd",
+        "Analyspodd från Dagens Industri",
+        "Analyspodd",
+        "Analyspodden från Dagens Industri",
+        "Dagens Analyspodden",
+        "Dagens Industris Analyspodden",
+        "Analyspodden, kort och lång",
+        "Analyspodden (Dagens Industri)",
+        "Kort och Lång",
+        "Analyspodden (Kort och Lång)",
+        "Analysedaktionen",
+        "Analysepodden från Dagens Industri",
+        "Analyspodden",
+        "Kort och Lång (Dagens Industri Analyspodd)",
+        "Kort & Lång",
+        "Analysbården"
+      ]
+    },
+    {
+      "speaker": "Host 2",
+      "total_verified": 54,
+      "hit_rate_30d": 48.1,
+      "avg_return_30d": 4.38,
+      "sources": [
+        "Fil or Killpodden",
+        "Fil eller Dö (Fill or Kill)",
+        "Fil eller Fil",
+        "Fill or Kill",
+        "Fil eller Kill",
+        "Phil och Killpodden",
+        "Phil & Kill",
+        "Fill or Killpodden",
+        "Filip och Fredrik",
+        "Aktiepodden",
+        "Fila och Killpodden",
+        "Fil & Kill",
+        "Fill eller Kill",
+        "Filler & Kill"
+      ]
+    },
+    {
+      "speaker": "Host 1",
+      "total_verified": 67,
+      "hit_rate_30d": 47.8,
+      "avg_return_30d": 1.37,
+      "sources": [
+        "Fil or Killpodden",
+        "Fil eller Fil",
+        "Fill or Kill",
+        "Fil och Kill",
+        "Phil och Killpodden",
+        "Fila och Killpodden",
+        "Fil & Kill",
+        "Fill or Killpodden",
+        "Filler & Kill",
+        "Fill eller Kill"
+      ]
+    },
+    {
+      "speaker": "Richard Bråse",
+      "total_verified": 40,
+      "hit_rate_30d": 47.5,
+      "avg_return_30d": 0.69,
+      "sources": [
+        "Börsens Finest",
+        "Ett rikare liv",
+        "Analyspodden från Dagens Industri",
+        "Kort och Lång",
+        "Analyspodden",
+        "Kort & Lång"
+      ]
+    },
+    {
+      "speaker": "Host",
+      "total_verified": 214,
+      "hit_rate_30d": 46.3,
+      "avg_return_30d": 0.14,
+      "sources": [
+        "Börsens Finest",
+        "Fill or Kill",
+        "Filler och Killpodden",
+        "Börspodden",
+        "Börsboden",
+        "Aktiepodden",
+        "Veckans Trade",
+        "Fille och Killpodden",
+        "Analyspodden"
+      ]
+    },
+    {
+      "speaker": "Jakob",
+      "total_verified": 13,
+      "hit_rate_30d": 46.2,
+      "avg_return_30d": 0.38,
+      "sources": [
+        "Aktiepodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Filip",
+      "total_verified": 13,
+      "hit_rate_30d": 46.2,
+      "avg_return_30d": 0.78,
+      "sources": [
+        "Fil eller Kill-podden",
+        "Fil & Kill",
+        "Fill & Killpodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "host",
+      "total_verified": 13,
+      "hit_rate_30d": 46.2,
+      "avg_return_30d": -4.35,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Marcus",
+      "total_verified": 37,
+      "hit_rate_30d": 45.9,
+      "avg_return_30d": 0.45,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Skogman",
+      "total_verified": 9,
+      "hit_rate_30d": 44.4,
+      "avg_return_30d": -1.35,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Mattias Montgomery",
+      "total_verified": 16,
+      "hit_rate_30d": 43.8,
+      "avg_return_30d": 2.88,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Jon",
+      "total_verified": 83,
+      "hit_rate_30d": 43.4,
+      "avg_return_30d": 1.18,
+      "sources": [
+        "Börsbaden",
+        "Börspodden",
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Jack Zero",
+      "total_verified": 14,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": -0.63,
+      "sources": [
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Johan Wendel",
+      "total_verified": 84,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": -0.57,
+      "sources": [
+        "Analyspodden från Dagens Industri",
+        "Kort och Lång",
+        "Analyspodden (Kort och Lång)",
+        "Dagens Industris analyspod",
+        "Kort och Långt",
+        "Analyspodden",
+        "Kort & Lång",
+        "Analyspodden (Kort & Lång)"
+      ]
+    },
+    {
+      "speaker": "Okänd speaker",
+      "total_verified": 14,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": -0.68,
+      "sources": [
+        "Aktiepodden",
+        "Analyspodden från Dagens Industri",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Handelsson",
+      "total_verified": 14,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": -0.92,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Wolf",
+      "total_verified": 7,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": -0.89,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Erik",
+      "total_verified": 7,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": -0.4,
+      "sources": [
+        "Börsens Finest",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Björn Rudell",
+      "total_verified": 7,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": 0.34,
+      "sources": [
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Fill",
+      "total_verified": 7,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": 10.08,
+      "sources": [
+        "Fill och Orkill-podden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Host (Markus/Ola/Claes)",
+      "total_verified": 7,
+      "hit_rate_30d": 42.9,
+      "avg_return_30d": -2.37,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Jack",
+      "total_verified": 19,
+      "hit_rate_30d": 42.1,
+      "avg_return_30d": -1.61,
+      "sources": [
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Johan Isaksson",
+      "total_verified": 31,
+      "hit_rate_30d": 41.9,
+      "avg_return_30d": -3.16,
+      "sources": [
+        "Börspodden",
+        "Börsboden"
+      ]
+    },
+    {
+      "speaker": "Agneta Jönsson",
+      "total_verified": 101,
+      "hit_rate_30d": 40.6,
+      "avg_return_30d": -1.39,
+      "sources": [
+        "Dagens Industris Analyspodd",
+        "Analyspodd",
+        "Analyspodden från Dagens Industri",
+        "Kort & Lång",
+        "Kort och Lång",
+        "Aktiepodden",
+        "Analyspodden",
+        "Analyspodd från Dagens Industri",
+        "Analysbården"
+      ]
+    },
+    {
+      "speaker": "Dag Rolander",
+      "total_verified": 37,
+      "hit_rate_30d": 40.5,
+      "avg_return_30d": 10.5,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Hans Isoz",
+      "total_verified": 5,
+      "hit_rate_30d": 40.0,
+      "avg_return_30d": -3.72,
+      "sources": [
+        "Veckans Trade",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Robert/Kalle",
+      "total_verified": 5,
+      "hit_rate_30d": 40.0,
+      "avg_return_30d": -4.68,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Tim Hansson",
+      "total_verified": 5,
+      "hit_rate_30d": 40.0,
+      "avg_return_30d": -3.9,
+      "sources": [
+        "Något om aktier",
+        "Something About Stocks"
+      ]
+    },
+    {
+      "speaker": "Okänt",
+      "total_verified": 5,
+      "hit_rate_30d": 40.0,
+      "avg_return_30d": 2.41,
+      "sources": [
+        "Kort & Lång",
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Erik Bertilsson",
+      "total_verified": 5,
+      "hit_rate_30d": 40.0,
+      "avg_return_30d": 3.03,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Mikael Olsson",
+      "total_verified": 10,
+      "hit_rate_30d": 40.0,
+      "avg_return_30d": 0.03,
+      "sources": [
+        "Analyspodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Christoffer Ahnemark",
+      "total_verified": 5,
+      "hit_rate_30d": 40.0,
+      "avg_return_30d": -0.46,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Kill",
+      "total_verified": 20,
+      "hit_rate_30d": 40.0,
+      "avg_return_30d": -6.49,
+      "sources": [
+        "Fill och Kill",
+        "Fill or Kill",
+        "Fil och Kill",
+        "Filla och Killpodden",
+        "Fill och Orkill-podden",
+        "Fil & Kill"
+      ]
+    },
+    {
+      "speaker": "Magnus Dagen",
+      "total_verified": 5,
+      "hit_rate_30d": 40.0,
+      "avg_return_30d": -3.27,
+      "sources": [
+        "Analyspodden"
+      ]
+    },
+    {
+      "speaker": "Anders Hägerstrand",
+      "total_verified": 37,
+      "hit_rate_30d": 37.8,
+      "avg_return_30d": -0.67,
+      "sources": [
+        "Analyspodden från Dagens Industri",
+        "Dagens Industris Analyspodden",
+        "Kort och Lång",
+        "Analyspodden",
+        "Kort & Lång"
+      ]
+    },
+    {
+      "speaker": "Robin",
+      "total_verified": 8,
+      "hit_rate_30d": 37.5,
+      "avg_return_30d": -12.1,
+      "sources": [
+        "Aktiepodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Phil",
+      "total_verified": 16,
+      "hit_rate_30d": 37.5,
+      "avg_return_30d": -0.86,
+      "sources": [
+        "Filler och Kill",
+        "Phil & Kill podden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Pucketrader",
+      "total_verified": 19,
+      "hit_rate_30d": 36.8,
+      "avg_return_30d": 2.9,
+      "sources": [
+        "Fil or Kill",
+        "Phil & Kill",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Robert",
+      "total_verified": 20,
+      "hit_rate_30d": 35.0,
+      "avg_return_30d": -3.51,
+      "sources": [
+        "Aktiepodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Okänd",
+      "total_verified": 23,
+      "hit_rate_30d": 34.8,
+      "avg_return_30d": -4.03,
+      "sources": [
+        "Aktiepodden",
+        "Fill or Kill",
+        "Börsens Finest",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Host 1 (Philip)",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 0.32,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Ola och Claes",
+      "total_verified": 9,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 0.45,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Anders Elgemyr",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -2.95,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Jacob Svensson",
+      "total_verified": 6,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 4.71,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Avanza hosts (referencing Investech)",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 1.86,
+      "sources": [
+        "Avanzapodden"
+      ]
+    },
+    {
+      "speaker": "Tomas Eriksson",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -7.35,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Björn Rydell",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 0.08,
+      "sources": [
+        "Börsens Finest",
+        "Avanzapodden"
+      ]
+    },
+    {
+      "speaker": "Jula",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -8.2,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Jonas Jonsson",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -0.88,
+      "sources": [
+        "Dagens Industris Analyspodd",
+        "Analysepodden från Dagens Industri"
+      ]
+    },
+    {
+      "speaker": "Robban",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -3.17,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Lomulf",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -0.81,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Milo Wolf",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 4.19,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Pontus Wachtmeister",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -3.91,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Fill or Kill host",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -7.67,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Tomas",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -1.62,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Henrik Johansson",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -3.71,
+      "sources": [
+        "Aktiepodden",
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Mikael Holm",
+      "total_verified": 6,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 1.49,
+      "sources": [
+        "Filla och Killpodden"
+      ]
+    },
+    {
+      "speaker": "Christoffer Ahnermark",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 0.08,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Elinor Hult",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -11.03,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Daniel Sätteberg",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 4.36,
+      "sources": [
+        "Avanzapodden"
+      ]
+    },
+    {
+      "speaker": "Johan Hertz",
+      "total_verified": 6,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -2.03,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Lomholst",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -26.13,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Pucketradare",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -12.77,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Peter",
+      "total_verified": 6,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -0.98,
+      "sources": [
+        "Kvalitetsaktiepoddan",
+        "Kvalitetsaktiepodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Ola, Claes",
+      "total_verified": 9,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -6.06,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Kristofer Barrett",
+      "total_verified": 6,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -10.22,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Andreas Brock",
+      "total_verified": 6,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -11.0,
+      "sources": [
+        "Ett rikare liv",
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Markus/Ola",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": 4.43,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Chris",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -1.44,
+      "sources": [
+        "Aktiepodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Karl-Henrik Söderberg",
+      "total_verified": 3,
+      "hit_rate_30d": 33.3,
+      "avg_return_30d": -5.66,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Andersson",
+      "total_verified": 28,
+      "hit_rate_30d": 32.1,
+      "avg_return_30d": -9.47,
+      "sources": [
+        "Fil or Kill",
+        "Fil eller Kill",
+        "Phil & Kill",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Felicia",
+      "total_verified": 13,
+      "hit_rate_30d": 30.8,
+      "avg_return_30d": -5.71,
+      "sources": [
+        "Dagens Industris Analyspodden"
+      ]
+    },
+    {
+      "speaker": "Per Johansson",
+      "total_verified": 10,
+      "hit_rate_30d": 30.0,
+      "avg_return_30d": -0.11,
+      "sources": [
+        "Ett rikare liv",
+        "Börspodden",
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Kid",
+      "total_verified": 24,
+      "hit_rate_30d": 29.2,
+      "avg_return_30d": -3.72,
+      "sources": [
+        "Phil & Kid-podden",
+        "Phil & Kill podden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "John Skogman",
+      "total_verified": 31,
+      "hit_rate_30d": 29.0,
+      "avg_return_30d": -2.0,
+      "sources": [
+        "Ett rikare liv",
+        "Börspodden",
+        "Börsens Finest",
+        "Avanzapodden"
+      ]
+    },
+    {
+      "speaker": "Carl Armfelt",
+      "total_verified": 7,
+      "hit_rate_30d": 28.6,
+      "avg_return_30d": -5.1,
+      "sources": [
+        "Fill eller Killpodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Lomolf",
+      "total_verified": 7,
+      "hit_rate_30d": 28.6,
+      "avg_return_30d": 0.2,
+      "sources": [
+        "Fyll eller Kill",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Värdarna",
+      "total_verified": 7,
+      "hit_rate_30d": 28.6,
+      "avg_return_30d": -2.48,
+      "sources": [
+        "Aktiepodden",
+        "Kvalitetsaktiepodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Johan Edberg",
+      "total_verified": 15,
+      "hit_rate_30d": 26.7,
+      "avg_return_30d": 2.29,
+      "sources": [
+        "Ett rikare liv",
+        "Börspodden",
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Johan Skogman",
+      "total_verified": 23,
+      "hit_rate_30d": 26.1,
+      "avg_return_30d": -3.17,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Macke",
+      "total_verified": 4,
+      "hit_rate_30d": 25.0,
+      "avg_return_30d": -3.06,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Jakob Svensson",
+      "total_verified": 8,
+      "hit_rate_30d": 25.0,
+      "avg_return_30d": -6.16,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Phil eller Keith",
+      "total_verified": 4,
+      "hit_rate_30d": 25.0,
+      "avg_return_30d": -3.55,
+      "sources": [
+        "Phil & Keith Podden"
+      ]
+    },
+    {
+      "speaker": "Ulf Bettersson",
+      "total_verified": 4,
+      "hit_rate_30d": 25.0,
+      "avg_return_30d": -3.42,
+      "sources": [
+        "Dagens Industris Analyspodd",
+        "Analyspodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Elin Wiker",
+      "total_verified": 4,
+      "hit_rate_30d": 25.0,
+      "avg_return_30d": -12.09,
+      "sources": [
+        "Börsens Finest"
+      ]
+    },
+    {
+      "speaker": "Handesson",
+      "total_verified": 4,
+      "hit_rate_30d": 25.0,
+      "avg_return_30d": -3.57,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Lars",
+      "total_verified": 4,
+      "hit_rate_30d": 25.0,
+      "avg_return_30d": -4.68,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Carl Hedberg",
+      "total_verified": 15,
+      "hit_rate_30d": 20.0,
+      "avg_return_30d": -4.44,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Ulf",
+      "total_verified": 6,
+      "hit_rate_30d": 16.7,
+      "avg_return_30d": -3.5,
+      "sources": [
+        "Kort och Lång",
+        "Analyspodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Carl Henrik",
+      "total_verified": 6,
+      "hit_rate_30d": 16.7,
+      "avg_return_30d": -3.32,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Daniel",
+      "total_verified": 6,
+      "hit_rate_30d": 16.7,
+      "avg_return_30d": -2.33,
+      "sources": [
+        "Avanzapodden"
+      ]
+    },
+    {
+      "speaker": "Peter Norhammar",
+      "total_verified": 6,
+      "hit_rate_30d": 16.7,
+      "avg_return_30d": -4.13,
+      "sources": [
+        "Ett rikare liv"
+      ]
+    },
+    {
+      "speaker": "Gäst",
+      "total_verified": 7,
+      "hit_rate_30d": 14.3,
+      "avg_return_30d": -7.42,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Dagro Lander",
+      "total_verified": 7,
+      "hit_rate_30d": 14.3,
+      "avg_return_30d": -5.34,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Simon Blecker",
+      "total_verified": 13,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -5.89,
+      "sources": [
+        "Börspodden"
+      ]
+    },
+    {
+      "speaker": "Erik Poulsson",
+      "total_verified": 3,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -3.77,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Värd 2",
+      "total_verified": 4,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -9.91,
+      "sources": [
+        "Filo eller Killpodden",
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Host (Milo/Wolf)",
+      "total_verified": 3,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -7.29,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Victor Munkammar",
+      "total_verified": 3,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -3.67,
+      "sources": [
+        "Analyspodden från Dagens Industri"
+      ]
+    },
+    {
+      "speaker": "Rickard Bråsson",
+      "total_verified": 3,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -5.3,
+      "sources": [
+        "Analyspodden från Dagens Industri"
+      ]
+    },
+    {
+      "speaker": "Tobias Isaksson",
+      "total_verified": 5,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -8.56,
+      "sources": [
+        "Dagens Industris Analyspodd",
+        "Analyspodden från Dagens Industri",
+        "Analyspodden",
+        "Analysepodden från Dagens Industri"
+      ]
+    },
+    {
+      "speaker": "Christian Anermark",
+      "total_verified": 4,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -6.02,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Nils Åkesson",
+      "total_verified": 5,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -5.95,
+      "sources": [
+        "Analyspodden",
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Magnus",
+      "total_verified": 4,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -3.57,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Speaker2",
+      "total_verified": 4,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -7.31,
+      "sources": [
+        "Fill or Kill"
+      ]
+    },
+    {
+      "speaker": "Torbjörn Isaksson",
+      "total_verified": 3,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -8.36,
+      "sources": [
+        "Analyspodden"
+      ]
+    },
+    {
+      "speaker": "Stefan Ros",
+      "total_verified": 6,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -47.65,
+      "sources": [
+        "Aktiepodden"
+      ]
+    },
+    {
+      "speaker": "Anna Eklund",
+      "total_verified": 3,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -9.51,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Ulf Pettsson",
+      "total_verified": 3,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -9.45,
+      "sources": [
+        "Analyspodden",
+        "Analysepodden"
+      ]
+    },
+    {
+      "speaker": "Hostar",
+      "total_verified": 4,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -5.79,
+      "sources": [
+        "Kvalitetsaktiepodden"
+      ]
+    },
+    {
+      "speaker": "Ulf Petersson",
+      "total_verified": 3,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -7.04,
+      "sources": [
+        "Kort och Lång"
+      ]
+    },
+    {
+      "speaker": "Jacob Stjernberg",
+      "total_verified": 3,
+      "hit_rate_30d": 0.0,
+      "avg_return_30d": -2.19,
+      "sources": [
+        "Börsens Finest"
+      ]
+    }
+  ],
+  "total_verified": 4735
 }

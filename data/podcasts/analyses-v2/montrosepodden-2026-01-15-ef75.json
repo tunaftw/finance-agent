@@ -1,0 +1,127 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "montrosepodden-2026-01-15-ef75",
+  "source_type": "podcast",
+  "podcast_name": "Montrosepodden",
+  "date": "2026-01-15",
+  "hosts": ["Eric Strand", "Victor Strand"],
+  "guests": [],
+  "recommendations": [
+    {
+      "stock_name": "Plejd",
+      "ticker": "PLEJD",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Eric Strand",
+      "reasoning": "Hemautomation i medvind när hushållen får det bättre. Ner 25% från toppen utan nyheter. Tidigarelägger rapport från 29 jan till 22 jan. ROT-avdraget (50%→30%) påverkar minimalt - ca 1400 kr på 28000 kr totalt.",
+      "quote": "Plejd är ner 25% sen toppen och det har inte kommit några nyheter som skulle rättfärdiga det. Så det blir superspännande att se nu Q4-erna.",
+      "catalyst_timing": "Rapport 22 januari (tidigarelagd)"
+    },
+    {
+      "stock_name": "Dustin",
+      "ticker": "DUSTIN",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Victor Strand",
+      "reasoning": "Ner 97% på 5 år, market cap 2.5 mdr. Rapport idag med 18% organisk tillväxt - första tvåsiffriga på länge. Skuldsättning ner till 3.1x EBITDA. Komponentbrist pga AI-efterfrågan.",
+      "quote": "Det jag ändå tycker de visade upp var att det var faktiskt en organisk omsättningstillväxt på hela 18%. Och det ser man inte, det var ett tag sedan man såg det i Dustin."
+    },
+    {
+      "stock_name": "AAC Clyde Space",
+      "ticker": "AAC",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Eric Strand",
+      "reasoning": "LEO-satellitbolag som gynnas av försvarsmaktens satsning på 10 satelliter för 1.3 mdr. Upp 15% på nyheten, +169% senaste året. Goldman Sachs spår satellitmarknad växer från $15 mdr till $108 mdr till 2035.",
+      "quote": "AAC Clyde Space steg 15% på den här nyheten i veckan, de är upp 169% på ett år."
+    },
+    {
+      "stock_name": "AST Space Mobile",
+      "ticker": "ASTS",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Eric Strand",
+      "reasoning": "Google-investerat satellitbolag som levererar bredband direkt till mobiltelefoner utan extra hårdvara. Bland mest handlade hos Montrose i december. +333% på ett år, +1700% på tre år.",
+      "quote": "AST Space Mobile som Google har investerat i. De är upp 333% senaste året och 1700% på tre år."
+    },
+    {
+      "stock_name": "Alphabet",
+      "ticker": "GOOGL",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Victor Strand",
+      "reasoning": "Gemini tar marknadsandelar snabbt från ChatGPT. Apple-partnerskap för Siri bekräftat. Investerad i SpaceX och AST Space Mobile. Buffett köpte i Q3, redan +40-50%.",
+      "quote": "Buffett, Berkshire Hathaway köpte på sig Alphabet-aktier i Q3. De är upp typ 40-50 procent redan."
+    },
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Victor Strand",
+      "reasoning": "Balanserar på MA200, senast under var september 2024. Eli Lilly skjuter på pillerlanseringen till Q2 2026 vilket ger Novo andrum.",
+      "quote": "Novo balanserar nu på MA200. Senast de gjorde det var september 2024."
+    }
+  ],
+  "crypto_mentions": [],
+  "insights": [
+    {
+      "quote": "70-75% av totalavkastningen har genererats under vinterhalvåret. Aktier är en vintersport.",
+      "summary": "Säsongsmönstret 'aktier är en vintersport' har stark historisk bäring - november till april ger majoriteten av avkastningen",
+      "category": "lesson",
+      "speaker": "Eric Strand",
+      "confidence": "high",
+      "tags": ["seasonality", "timing", "statistics"]
+    },
+    {
+      "quote": "Januaribarometern lovar 90% chans för positivt börsår om det är ett positivt januari. Men börsen är ju ändå positiv 70-75% sannolikhet varje år oavsett hur januari går.",
+      "summary": "Januaribarometern är meningslös - baseline av 70-75% positiva år gör indikatorn obsolet",
+      "category": "lesson",
+      "speaker": "Victor Strand",
+      "confidence": "high",
+      "tags": ["seasonality", "statistics", "debunking"]
+    },
+    {
+      "quote": "Den 13 oktober 2022 bottnade björnmarknaden och tjurmarknaden föddes. Oktober har dräpt flest björnmarknader historiskt.",
+      "summary": "Oktober har oförtjänt dåligt rykte - månaden har dödat flest björnmarknader (2002, 2008, 2022)",
+      "category": "wisdom",
+      "speaker": "Eric Strand",
+      "confidence": "high",
+      "tags": ["bear-markets", "october", "contrarian"]
+    },
+    {
+      "quote": "Man borde värdevikta. Vem är det som säger vad och vad har man för track record?",
+      "summary": "Vikta inte alla åsikter lika - värdevikta baserat på track record istället",
+      "category": "philosophy",
+      "speaker": "Eric Strand",
+      "confidence": "high",
+      "tags": ["information-filtering", "track-record", "process"]
+    },
+    {
+      "quote": "Justerar man bort bankerna och tittar på den genomsnittliga uppgången på snittaktien på Stockholmsbörsen så var den 7%. Varannan aktie på Stockholmsbörsen var ner i fjol.",
+      "summary": "Värdeviktat index döljer sanningen - snittaktien upp 7%, varannan aktie ner trots 20% indexuppgång",
+      "category": "lesson",
+      "speaker": "Eric Strand",
+      "confidence": "high",
+      "tags": ["index", "equal-weight", "market-breadth"]
+    },
+    {
+      "quote": "Marknaden för satelliter i låga omloppsbanor väntas växa från 15 miljarder dollar 2023 till hela 108 miljarder dollar 2035.",
+      "summary": "LEO-satellitmarknaden spås 7x tillväxt på 10 år enligt Goldman Sachs",
+      "category": "lesson",
+      "speaker": "Eric Strand",
+      "confidence": "medium",
+      "tags": ["satellites", "LEO", "space", "megatrend"]
+    }
+  ],
+  "market_sentiment": "bullish",
+  "summary": "Montrosepodden firar att OMXS30 passerat 3000 och gör djupdykning i säsongsmönster. 'Aktier är en vintersport' har stark bäring - 70-75% av avkastningen kommer nov-apr. Januaribarometern avfärdas som meningslös. Satellitbolag i fokus efter försvarsmaktens 1.3 mdr-satsning - AAC Clyde Space +169% på året. Plejd intressant inför rapport 22 jan. Dustin visar 18% organisk tillväxt trots 97% nedgång på 5 år.",
+  "key_takeaways": [
+    "OMXS30 passerade 3000 - varannan aktie var dock ner 2024, bankerna drev index",
+    "Aktier är en vintersport: 70-75% av avkastningen genereras nov-apr historiskt",
+    "Januaribarometern fungerar inte - 70-75% av år är positiva oavsett januari",
+    "LEO-satelliter: Goldman spår marknad från $15 mdr till $108 mdr till 2035",
+    "Plejd ner 25% utan nyheter - rapport tidigarelagd till 22 jan",
+    "Snitt tjurmarknad 5.5 år - nuvarande startade okt 2022, ~2 år kvar teoretiskt"
+  ]
+}
