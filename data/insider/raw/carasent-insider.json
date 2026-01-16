@@ -1,0 +1,257 @@
+{
+  "company": {
+    "name": "Carasent AB (publ)",
+    "ticker": "CARA",
+    "isin": "SE0023261599",
+    "exchange": "Nasdaq Stockholm",
+    "previousExchange": "Oslo Bors",
+    "previousTicker": "CARA",
+    "previousIsin": "NO0010123060",
+    "mergerDate": "2024-12-05",
+    "firstTradingDayNasdaq": "2024-12-09"
+  },
+  "dataCollectionDate": "2026-01-10",
+  "sources": [
+    "https://live.euronext.com/en/products/equities/company-news/2024-12-05-carasent-asa-mandatory-notifications-trades-resulting",
+    "https://www.marketscreener.com/quote/stock/CARASENT-AB-58808438/news/Carasent-ASA-primary-insider-trading-48183192/",
+    "https://www.marketscreener.com/quote/stock/CARASENT-AB-179840743/news/Carasent-Chairman-Petri-Niemi-increases-his-shareholding-49126690/",
+    "https://carasent.com/press-releases/carasent-ceo-daniel-ohman-acquires-shares/",
+    "https://www.placera.se/telegram/carasent-carasents-styrelseledamot-johan-kallblad-koper-aktier-for-0-4-miljoner-kronor-20251112"
+  ],
+  "insiderHoldings": {
+    "asOfMergerDate": "2024-12-05",
+    "management": [
+      {
+        "name": "Daniel Ohman",
+        "position": "CEO",
+        "shares": 161115,
+        "holdingEntity": "Personal"
+      },
+      {
+        "name": "Svein Martin Bjornstad",
+        "position": "CFO",
+        "totalShares": 353645,
+        "breakdown": [
+          {"entity": "Personal", "shares": 78017},
+          {"entity": "Birgen Invest I AS", "shares": 125628},
+          {"entity": "Birgen Invest II AS", "shares": 150000}
+        ]
+      },
+      {
+        "name": "Vilma Jonson",
+        "position": "Head of Strategy",
+        "shares": 24132,
+        "holdingEntity": "Personal"
+      },
+      {
+        "name": "Cornelia Broqvist",
+        "position": "Head of Marketing",
+        "shares": 2403,
+        "holdingEntity": "Personal"
+      },
+      {
+        "name": "Stefan Jernberg",
+        "position": "Head of Compliance",
+        "shares": 2600,
+        "holdingEntity": "Personal"
+      },
+      {
+        "name": "Magnar Hoyvik",
+        "position": "Head of Department",
+        "shares": 120000,
+        "holdingEntity": "Ad-Ma Holding AS"
+      },
+      {
+        "name": "Bjorn Jacobson",
+        "position": "CEO Medrave",
+        "totalShares": 47088,
+        "breakdown": [
+          {"entity": "Personal", "shares": 18832},
+          {"entity": "Nellie Forvaltning AB", "shares": 28256}
+        ]
+      },
+      {
+        "name": "Ingvild Skarestad",
+        "position": "CEO Norway",
+        "shares": 143189,
+        "holdingEntity": "Thim Invest AS"
+      },
+      {
+        "name": "Peter Wallin",
+        "position": "CEO HPI AB",
+        "shares": 21221,
+        "holdingEntity": "Nine Bean Rows AB"
+      }
+    ],
+    "board": [
+      {
+        "name": "Petri Niemi",
+        "position": "Chairman",
+        "sharesAtMerger": 12264,
+        "holdingEntity": "G2 Invest Oy"
+      },
+      {
+        "name": "Henric Carlsson",
+        "position": "Board Member",
+        "sharesAtMerger": 10000,
+        "holdingEntity": "NRG Nordiska Resultatgruppen AB"
+      },
+      {
+        "name": "Camilla Skoog",
+        "position": "Board Member",
+        "sharesAtMerger": 9345,
+        "holdingEntity": "Personal"
+      },
+      {
+        "name": "Ulrika Cederskog Sundling",
+        "position": "Board Member",
+        "sharesAtMerger": 20000,
+        "holdingEntity": "Personal"
+      }
+    ]
+  },
+  "transactions": [
+    {
+      "date": "2025-11-11",
+      "person": "Johan Kallblad",
+      "position": "Board Member",
+      "transactionType": "BUY",
+      "shares": 14000,
+      "pricePerShare": 27.17,
+      "currency": "SEK",
+      "totalValue": 380380,
+      "exchange": "Nasdaq Stockholm",
+      "holdingsAfter": 40000,
+      "source": "Placera.se/MarketScreener"
+    },
+    {
+      "date": "2025-02-20",
+      "person": "Petri Niemi",
+      "position": "Chairman",
+      "transactionType": "BUY",
+      "shares": 32500,
+      "pricePerShare": 2.04,
+      "currency": "EUR",
+      "totalValue": 66300,
+      "exchange": "Nasdaq Stockholm",
+      "holdingsBefore": 12264,
+      "holdingsAfter": 44764,
+      "holdingEntity": "G2 Invest Oy",
+      "source": "MarketScreener/Finansinspektionen"
+    },
+    {
+      "date": "2024-11-07",
+      "person": "Stefan Jernberg",
+      "position": "Head of Compliance (CCO)",
+      "transactionType": "BUY",
+      "shares": 2600,
+      "pricePerShare": 20.1,
+      "currency": "NOK",
+      "totalValue": 52260,
+      "exchange": "Oslo Bors",
+      "holdingsAfter": 2600,
+      "source": "Oslo Bors NewsWeb"
+    },
+    {
+      "date": "2024-10-28",
+      "person": "Henric Carlsson",
+      "position": "Board Member",
+      "transactionType": "BUY",
+      "shares": 10000,
+      "pricePerShare": 20.2,
+      "currency": "NOK",
+      "totalValue": 202000,
+      "exchange": "Oslo Bors",
+      "holdingsAfter": 10000,
+      "holdingEntity": "NRG Nordiska Resultatgruppen AB",
+      "source": "Oslo Bors NewsWeb/MarketScreener"
+    },
+    {
+      "date": "2023-08-21",
+      "person": "Daniel Ohman",
+      "position": "CEO",
+      "transactionType": "BUY",
+      "shares": 6500,
+      "pricePerShare": 14.86,
+      "currency": "NOK",
+      "totalValue": 96590,
+      "exchange": "Oslo Bors",
+      "holdingsAfter": 18721,
+      "source": "Carasent Press Release"
+    },
+    {
+      "date": "2023-05-12",
+      "person": "Niclas Hugosson",
+      "position": "CPO",
+      "transactionType": "SELL",
+      "shares": 350000,
+      "pricePerShare": 15.0,
+      "currency": "NOK",
+      "totalValue": 5250000,
+      "exchange": "Oslo Bors",
+      "holdingsAfter": 2552417,
+      "holdingEntity": "N Hugosson Inwest AB",
+      "source": "Carasent Press Release"
+    }
+  ],
+  "warrantCancellations": {
+    "date": "2024-12-05",
+    "context": "Cross-border merger completion",
+    "cancellations": [
+      {
+        "person": "Daniel Ohman",
+        "position": "CEO",
+        "warrantsHeld": 260588,
+        "warrantsCancelled": 260588,
+        "refundAmount": 800000,
+        "refundCurrency": "NOK",
+        "note": "Refund designated for open-market share purchases"
+      },
+      {
+        "person": "Petri Niemi",
+        "position": "Chairman",
+        "warrantsHeld": 260588,
+        "warrantsCancelled": 260588,
+        "refundAmount": 800000,
+        "refundCurrency": "NOK",
+        "note": "Refund designated for open-market share purchases"
+      }
+    ]
+  },
+  "summary": {
+    "last12MonthsActivity": {
+      "periodStart": "2025-01-10",
+      "periodEnd": "2026-01-10",
+      "totalBuyTransactions": 2,
+      "totalSellTransactions": 0,
+      "netDirection": "NET_BUYING",
+      "totalSharesBought": 46500,
+      "totalSharesSold": 0,
+      "netSharesChange": 46500,
+      "buyersInPeriod": ["Petri Niemi (Chairman)", "Johan Kallblad (Board Member)"],
+      "sellersInPeriod": []
+    },
+    "last24MonthsActivity": {
+      "periodStart": "2024-01-10",
+      "periodEnd": "2026-01-10",
+      "totalBuyTransactions": 4,
+      "totalSellTransactions": 0,
+      "netDirection": "NET_BUYING",
+      "totalSharesBought": 59100,
+      "totalSharesSold": 0,
+      "netSharesChange": 59100,
+      "buyersInPeriod": ["Petri Niemi (Chairman)", "Johan Kallblad (Board Member)", "Henric Carlsson (Board Member)", "Stefan Jernberg (CCO)"],
+      "sellersInPeriod": []
+    },
+    "insiderSentiment": "BULLISH",
+    "notes": [
+      "Strong insider buying pattern with 4 buy transactions and 0 sells in past 24 months",
+      "Chairman Petri Niemi significantly increased position by 165% in Feb 2025",
+      "New board member Johan Kallblad purchased shares shortly after joining board",
+      "CEO Daniel Ohman last purchased in Aug 2023; no recent transactions but maintains significant position",
+      "CFO Svein Martin Bjornstad holds substantial position (353,645 shares) through personal and controlled entities",
+      "No insider selling activity detected in past 24 months",
+      "Company moved from Oslo Bors to Nasdaq Stockholm in Dec 2024"
+    ]
+  }
+}

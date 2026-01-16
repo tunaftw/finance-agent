@@ -1,0 +1,226 @@
+{
+  "ticker": "CARA",
+  "company_name": "Carasent AB (publ)",
+  "analyzed_at": "2026-01-10T14:30:00Z",
+
+  "triage_summary": {
+    "sources_reviewed": 33,
+    "sources_analyzed": 20,
+    "sources_ignored": 3,
+    "podcasts_reviewed": 8,
+    "podcasts_analyzed": 5,
+    "podcasts_ignored": 3,
+    "twitter_reviewed": 0,
+    "youtube_reviewed": 0,
+    "press_releases_reviewed": 25,
+    "press_releases_to_fundamenta": 10,
+    "press_releases_to_timeline": 15
+  },
+
+  "triage_log": [
+    {
+      "source_id": "borsens-finest-2025-11-05",
+      "source_type": "podcast",
+      "date": "2025-11-05",
+      "decision": "analyzed",
+      "reason": "Per Johansson (Origo) with substantive buy thesis"
+    },
+    {
+      "source_id": "ett-rikare-liv-2025-10-02",
+      "source_type": "podcast",
+      "date": "2025-10-02",
+      "decision": "ignored",
+      "reason": "Mention of different company (Bycara biotech, not Carasent)"
+    },
+    {
+      "source_id": "sparpodden-2025-08-26",
+      "source_type": "podcast",
+      "date": "2025-08-26",
+      "decision": "analyzed",
+      "reason": "Anders Lundgren with detailed margin analysis"
+    },
+    {
+      "source_id": "analyspodden-2025-03-30",
+      "source_type": "podcast",
+      "date": "2025-03-30",
+      "decision": "analyzed",
+      "reason": "Carnegie analyst with price target 27 SEK"
+    },
+    {
+      "source_id": "aktiepodden-2025-02-28",
+      "source_type": "podcast",
+      "date": "2025-02-28",
+      "decision": "analyzed",
+      "reason": "Buy recommendation with profitability thesis"
+    },
+    {
+      "source_id": "market-makers-2021-08-05",
+      "source_type": "podcast",
+      "date": "2021-08-05",
+      "decision": "ignored",
+      "reason": "Old (>12 months) without unique current insight"
+    },
+    {
+      "source_id": "marketmakers-2020-11-05",
+      "source_type": "podcast",
+      "date": "2020-11-05",
+      "decision": "ignored",
+      "reason": "Old (>12 months) without unique current insight"
+    }
+  ],
+
+  "quotes": [
+    {
+      "id": "q1",
+      "text": "Don't tell me PE 10 stock how it's cheap, give me a PE 40 stock that is very cheap. Och Karacent faller in här. Bud på Karacent på 20 kronor, software bolag.",
+      "speaker": "Per Johansson",
+      "affiliation": "Origo Capital",
+      "source_id": "borsens-finest-2025-11-05",
+      "source_type": "podcast",
+      "date": "2025-11-05",
+      "stance": "bullish",
+      "owns_position": true,
+      "confidence_score": {
+        "specificity": 2,
+        "reasoning": 2,
+        "risk_awareness": 1,
+        "recency": 3,
+        "total": 8,
+        "label": "medium"
+      },
+      "extracted_claims": [
+        {"claim": "PE 40 but cheap on EV/Sales", "type": "opinion", "verifiable": true},
+        {"claim": "High management confidence", "type": "opinion", "verifiable": false}
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Det här är ett bolag med höga bruttomarginaler kring 85-90%. Marginalerna bottnade 2022-2023 och bolaget guidar för fortsatt förbättring.",
+      "speaker": "Anders Lundgren",
+      "affiliation": "Sparpodden",
+      "source_id": "sparpodden-2025-08-26",
+      "source_type": "podcast",
+      "date": "2025-08-26",
+      "stance": "bullish",
+      "owns_position": null,
+      "confidence_score": {
+        "specificity": 3,
+        "reasoning": 3,
+        "risk_awareness": 1,
+        "recency": 2,
+        "total": 9,
+        "label": "medium"
+      },
+      "extracted_claims": [
+        {"claim": "Gross margins 85-90%", "type": "fact", "verifiable": true},
+        {"claim": "Margins bottomed 2022-2023", "type": "fact", "verifiable": true}
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Värderingsrange 22-27 SEK med aktie runt 22 SEK ger 14% uppsida till mittvärde. Bolaget står i en vändpunktsfas med förbättrad kassaflödesprofil.",
+      "speaker": "Elvin Rolder",
+      "affiliation": "Carnegie",
+      "source_id": "analyspodden-2025-03-30",
+      "source_type": "podcast",
+      "date": "2025-03-30",
+      "stance": "bullish",
+      "owns_position": false,
+      "confidence_score": {
+        "specificity": 3,
+        "reasoning": 3,
+        "risk_awareness": 2,
+        "recency": 2,
+        "total": 10,
+        "label": "high"
+      },
+      "extracted_claims": [
+        {"claim": "Fair value 22-27 SEK", "type": "opinion", "verifiable": false},
+        {"claim": "Turnaround phase with improved cash flow", "type": "opinion", "verifiable": true}
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Mindre bolag med fokus på att nå lönsamhet i verksamheten. Successiv fundamental förbättring. Caset bygger på bolagsspecifika krafter.",
+      "speaker": "Jacob",
+      "affiliation": "Aktiepodden",
+      "source_id": "aktiepodden-2025-02-28",
+      "source_type": "podcast",
+      "date": "2025-02-28",
+      "stance": "bullish",
+      "owns_position": null,
+      "confidence_score": {
+        "specificity": 1,
+        "reasoning": 2,
+        "risk_awareness": 1,
+        "recency": 2,
+        "total": 6,
+        "label": "low"
+      },
+      "extracted_claims": [
+        {"claim": "Focus on profitability", "type": "opinion", "verifiable": false}
+      ]
+    }
+  ],
+
+  "notable_speakers": [
+    {
+      "name": "Elvin Rolder",
+      "affiliation": "Carnegie",
+      "stance": "bullish",
+      "owns_position": false,
+      "argument": "Turnaround med förbättrad kassaflödesprofil, fair value 22-27 SEK",
+      "quote": "Värderingsrange 22-27 SEK ger 14% uppsida till mittvärde",
+      "source": "Analyspodden 2025-03-30",
+      "confidence_score": 10
+    },
+    {
+      "name": "Anders Lundgren",
+      "affiliation": "Sparpodden",
+      "stance": "bullish",
+      "owns_position": null,
+      "argument": "Höga bruttomarginaler 85-90%, marginalerna har bottnat",
+      "quote": "Det här är ett bolag med höga bruttomarginaler kring 85-90%",
+      "source": "Sparpodden 2025-08-26",
+      "confidence_score": 9
+    },
+    {
+      "name": "Per Johansson",
+      "affiliation": "Origo Capital",
+      "stance": "bullish",
+      "owns_position": true,
+      "argument": "PE 40 men billig på EV/Sales, högt förtroende för ledning",
+      "quote": "Don't tell me PE 10 stock how it's cheap, give me a PE 40 stock that is very cheap",
+      "source": "Börsens Finest 2025-11-05",
+      "confidence_score": 8
+    }
+  ],
+
+  "bull_arguments": [
+    "Turnaround-story med förbättrad kassaflödesprofil (Carnegie)",
+    "Höga bruttomarginaler 85-90% med bottnade marginaler (Sparpodden)",
+    "Billig på EV/Sales trots högt PE (Origo Capital)",
+    "Strategisk förändring på gång med högt ledningsförtroende",
+    "Låg churn (2% årligen) ger sticky recurring revenue"
+  ],
+
+  "bear_arguments": [
+    "Ingen av de analyserade podcasterna nämner risker explicit",
+    "CEO sålde aktier efter profit warning oktober 2025 (ej nämnt i podcasts)",
+    "Organisk tillväxt 13% under 15%+ mål (ej nämnt i podcasts)",
+    "VGR-kontrakt koncentrationsrisk (ej nämnt i podcasts)"
+  ],
+
+  "overall_score": 7.5,
+  "label": "bullish",
+  "trend": "stable",
+
+  "critical_notes": [
+    "VIKTIGT: Ingen podcast nämner risker - one-sided bull case",
+    "CEO-försäljning efter profit warning (okt 2025) inte omnämnd i podcasts",
+    "Analyst (Carnegie) har högst confidence score - mest balanserad analys",
+    "Per Johansson (Origo) äger position - potentiell bias"
+  ],
+
+  "summary": "Marknadens sentiment är klart BULLISH med 4 av 4 analyserade podcasts som ger köprekommendation. Carnegie-analytiker ger högsta confidence (10/12) med specifik riktkurs 27 SEK. Sparpodden lyfter starka bruttomarginaler (85-90%). Per Johansson (Origo) ser bolaget som billigt på EV/Sales. KRITISK NOT: Ingen podcast diskuterar risker, CEO-försäljning efter profit warning, eller VGR-kontrakt risk. Sentiment är ensidigt positivt vilket kräver extra skepticism."
+}
