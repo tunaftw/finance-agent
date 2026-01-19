@@ -170,9 +170,71 @@ for episode in selected_episodes:
     except:
         pass
 
-    # Fallback till Whisper
-    print(f"  ⚠ {podcast_id} - kraver Whisper (manuell atgard)")
+    # Fallback till Whisper - KRÄVER RSS-URL konfigurerad i sources.json
+    print(f"  ⚠ {podcast_id} - försöker Whisper...")
+
+    # Kör Whisper-transkribering
+    try:
+        whisper_result = subprocess.run([
+            ".venv/bin/python", "-c", f'''
+import json
+from pathlib import Path
+from datetime import datetime
+from podstock.rss.parser import get_latest_episodes
+from podstock.rss.downloader import download_episode
+from podstock.transcribe.whisper import transcribe, save_transcript
+
+# Ladda podcast-config
+with open("data/podcasts/sources.json") as f:
+    sources = json.load(f)
+
+podcast = next((p for p in sources["podcasts"] if p["id"] == "{podcast_id}"), None)
+if not podcast or not podcast.get("rss_url"):
+    print("ERROR: Ingen RSS-URL konfigurerad")
+    exit(1)
+
+# Hämta senaste episoder
+episodes = get_latest_episodes(podcast["rss_url"], "{podcast_id}", n=5)
+
+# Hitta rätt episod (senaste som saknar transkript)
+for ep in episodes:
+    transcript_path = Path(f"data/transcripts/{podcast_id}") / f"{{ep.id}}.txt"
+    if transcript_path.exists():
+        continue
+
+    print(f"Laddar ner audio: {{ep.title[:50]}}...")
+    audio_dir = Path(f"data/temp_audio/{podcast_id}")
+    audio_path = download_episode(ep, audio_dir, show_progress=False)
+
+    print("Transkriberar med Whisper large-v3...")
+    text = transcribe(audio_path, model="large-v3", language="sv")
+
+    save_transcript(
+        ep.id, text, Path("data/transcripts"), "{podcast_id}",
+        metadata={{"source": "whisper", "model": "large-v3",
+                  "original_title": ep.title,
+                  "pub_date": ep.published_at.strftime("%Y-%m-%d")}}
+    )
+    print(f"✓ Transkriberat: {{ep.id}}")
+    break
+'''
+        ], capture_output=True, text=True, timeout=900)  # 15 min timeout
+
+        if whisper_result.returncode == 0:
+            print(f"  ✓ {podcast_id} (Whisper)")
+        else:
+            print(f"  ✗ {podcast_id} Whisper misslyckades: {whisper_result.stderr[:100]}")
+    except subprocess.TimeoutExpired:
+        print(f"  ✗ {podcast_id} Whisper timeout (>15 min)")
+    except Exception as e:
+        print(f"  ✗ {podcast_id} Whisper fel: {e}")
 ```
+
+**WHISPER FÖRUTSÄTTNINGAR:**
+- `mlx-whisper` installerat i venv
+- Podcast måste ha `rss_url` konfigurerad i `data/podcasts/sources.json`
+- Apple Silicon Mac (M1/M2/M3/M4)
+- Ca 10-15 min per timme audio
 
 ### 2f. Extrahera TTML till text
 
