@@ -1,0 +1,216 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2026-01-19-9ea8",
+  "podcast_name": "Kort & Lång",
+  "episode_title": "Sälja öar behöver inte vara fel",
+  "episode_number": null,
+  "date": "2026-01-19",
+  "hosts": ["Anna", "Agneta Lindblom Hulthén", "Magnus Dagel"],
+  "guests": [],
+  "main_topics": ["Trump-tullar", "Grönlandskrisen", "Bravida", "Torbjörn-portföljen", "Rapportsäsong", "Buy the dip"],
+  "stocks_discussed": ["Bravida", "TF Bank", "Avanza", "Investor", "Ericsson", "Atlas Copco", "Assa Abloy", "Handelsbanken", "Nordea", "Swedish Match", "EQT", "Essity", "Creades"],
+  "recommendations": [
+    {
+      "stock_name": "Bravida Holding AB",
+      "ticker": "BRAV",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Agneta Lindblom Hulthén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Värdering nere på P/E 13 där aktien har vänt tre gånger sedan noteringen 2015. Hygglig direktavkastning på 4,2%. Överfaktureringsproblemet från 2023 anses åtgärdat. Bra uppsidepotential när osäkerheten lättar.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Värderingen nere på P13 ungefär. Där har den vänt tre gånger innan sen de noterades 2015. Så jag tycker att det finns en bra uppsiderpotential nu.",
+      "sector": "industrials",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "20% av intäkterna från offentlig sektor - risk om de åker dit för överfakturering igen",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "TF Bank AB",
+      "ticker": "TFBANK",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Agneta Lindblom Hulthén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Köprekommendation sedan augusti, upp 13-14% sedan dess. Stark lånetillväxt (~20% i årstakt) driven av tysk kreditkortsmarknad. Rapport kommer på tisdag.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Den har ju vi köprekommendation på sen i augusti. Den är upp en 13-14 procent sedan dess. Deras case är ju att de växer väldigt kraftigt på den tyska kreditkortsmarknaden.",
+      "sector": "financials",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Högre kreditförluster på kreditkorten är nedsidan",
+      "catalyst_timing": "Rapport tisdag"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Bravida Holding AB",
+      "ticker": "BRAV",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Agneta Lindblom Hulthén", "Magnus Dagel"],
+      "primary_speaker": "Agneta Lindblom Hulthén",
+      "discussion_summary": "Diskussion om Bravida som installationsbolag med 350 enheter. Aktien handlas på P/E 13 med 4,2% direktavkastning. Tidigare problem med överfakturering 2023 anses åtgärdat efter utbildningar och nya rutiner. Risk finns om 20% av intäkterna från offentlig sektor försvinner vid nya skandaler.",
+      "quotes": [
+        {
+          "speaker": "Agneta Lindblom Hulthén",
+          "text": "Värderingen nere på P13 ungefär. Där har den vänt tre gånger innan sen de noterades 2015.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Dagel",
+          "text": "Min erfarenhet från bygg är att man lätt överfakturerar. Man lägger på några timmar här, några timmar där för att få upp lönsamheten.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "13",
+        "ev_ebitda": null,
+        "fcf_yield": null,
+        "margin": null,
+        "revenue_growth": null,
+        "custom": ["Direktavkastning: 4,2%", "Offentlig sektor: 20% av intäkter"]
+      },
+      "thesis": {
+        "bull_case": ["Låg värdering (P/E 13) - historiskt vändningsnivå", "Hygglig direktavkastning 4,2%", "Överfaktureringsproblemet åtgärdat"],
+        "bear_case": ["20% av intäkterna från offentlig sektor i riskzonen", "Decentraliserad organisation kan dölja rötägg", "Historik av överfakturering"],
+        "catalysts": [],
+        "risks": ["Nya överfaktureringsavslöjanden kan stänga ute dem från offentliga upphandlingar"]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Torbjörn-portföljen",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Magnus Dagel"],
+      "primary_speaker": "Magnus Dagel",
+      "discussion_summary": "Magnus Dagels stabila aktieportfölj som funnits i 9,5 år. Fokus på låg volatilitet, stabila bolag med bevisade affärsmodeller. 150% avkastning på 9 år. Innehåller/har innehållit Atlas Copco, Assa Abloy, Investor, Swedish Match, Handelsbanken, Nordea. En uppdatering per år.",
+      "quotes": [
+        {
+          "speaker": "Magnus Dagel",
+          "text": "Jag hade 150 procent på nio år. Så det har varit fantastiskt under väldigt låg risk. Det är generellt de aktier med lägst volatilitet på Stockholmsbörsen.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Dagel",
+          "text": "Jag tycker många tar alldeles för stora risker i sina sparande. Speciellt ungdomar. De köper mycket kryptovalutor. Man ser aktier som chansningar och lottsedlar.",
+          "timestamp": null,
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "fcf_yield": null,
+        "margin": null,
+        "revenue_growth": null,
+        "custom": ["Avkastning: 150% på 9 år", "Strategi: Lägst volatilitet på Stockholmsbörsen"]
+      },
+      "thesis": {
+        "bull_case": ["Stabila bolag kommer tillbaka efter kriser", "Låg volatilitet ger trygghet", "Återinvesterade utdelningar driver avkastning"],
+        "bear_case": ["Missar teknikskiften (Ericsson-exemplet)", "Kan underprestera i hausser"],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "owned"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Precis som på aktiemarknaden så måste man kunna sälja när det finns en köpare. När man har stora illikvida tillgångar.",
+      "summary": "Likviditetsargumentet: sälj när det finns en villig köpare för illikvida tillgångar",
+      "category": "philosophy",
+      "speaker": "Magnus Dagel",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["liquidity", "contrarian"]
+    },
+    {
+      "quote": "Jag förlorade i stort sett allt jag hade i krisen. Jag tycker det är lärdomar man kan göra av kapitalförvaltning. Att man måste förlora mycket pengar själv. Och sen kan man börja bygga upp sin portfölj på ett bra sätt.",
+      "summary": "Personliga förluster är ofta nödvändiga för att lära sig riskhantering",
+      "category": "lesson",
+      "speaker": "Magnus Dagel",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["mistakes", "risk_management", "psychology"]
+    },
+    {
+      "quote": "Göra så lite som möjligt och köpa det här som ibland kallas för tråkiga aktier. Men som egentligen bara är stabila aktier.",
+      "summary": "Tråkiga stabila aktier är ofta bättre än spännande spekulationer",
+      "category": "philosophy",
+      "speaker": "Magnus Dagel",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["quality", "long_term", "patience"]
+    },
+    {
+      "quote": "Vi har en hel generation investerare sedan finanskrisen som det här har varit mantrat. Det har alltid funkat. Men händer något riktigt så kommer det inte riktigt att funka.",
+      "summary": "Buy-the-dip har fungerat sedan finanskrisen men kan misslyckas vid verkligt stor kris",
+      "category": "wisdom",
+      "speaker": "Agneta Lindblom Hulthén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["market_cycles", "risk_management", "contrarian"]
+    },
+    {
+      "quote": "Jag är oroad över de höga värderingarna i USA. Och den här enorma koncentrationen till ett fåtal aktier. Det ser jag i USA som när man blickar historiskt en stor varningssignal.",
+      "summary": "Hög koncentration till få aktier i USA är historiskt en varningssignal",
+      "category": "wisdom",
+      "speaker": "Magnus Dagel",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["valuation", "market_cycles", "risk_management"]
+    },
+    {
+      "quote": "Christer Gardell menar på att bankerna kommer konvertera upp värderingsmässigt mot försäkringsbolagen. Vi ser att Sampo handlas på P19-20. Bankerna ligger fortfarande på 11-12.",
+      "summary": "Banker kan omvärderas uppåt mot sakförsäkringsbolagens multiplar enligt Gardell",
+      "category": "wisdom",
+      "speaker": "Magnus Dagel",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": ["valuation", "financials"]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_name": "Kryptovalutor",
+      "asset_symbol": null,
+      "sentiment": "bearish",
+      "speaker": "Magnus Dagel",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "quote": "Speciellt ungdomar. De köper mycket kryptovalutor. Man ser aktier som chansningar och lottsedlar.",
+      "price_level": null,
+      "time_horizon": null,
+      "context": "Negativ referens till ungdomars risktagande"
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Måndagsavsnitt efter Trumps tullutspel och Grönlandskrisen. Börsen ner 1,5% men panelen ser det som rationellt. Magnus föreslår kontroversiellt att Danmark borde sälja Grönland. Agneta pitchar Bravida (P/E 13, 4,2% direktavkastning) som köpvärd. Magnus presenterar sin Torbjörn-portfölj med 150% avkastning på 9 år genom stabila lågvolatilitetsaktier. Panelen är mer positiv till Europa/Sverige än USA pga höga värderingar och koncentration. Rapportsäsongen drar igång med TF Bank, Avanza, Investor och Ericsson.",
+  "key_takeaways": [
+    "Bravida ser köpvärd ut på P/E 13 och 4,2% direktavkastning - historisk vändningsnivå",
+    "TF Bank har köprek sedan augusti, upp 13-14%, stark tysk kreditkortstillväxt",
+    "Torbjörn-portföljen: 150% på 9 år genom stabila lågvolatilitetsaktier (Atlas Copco, Assa Abloy etc)",
+    "Panelen föredrar Europa/Sverige över USA pga höga amerikanska värderingar och koncentration",
+    "Christer Gardell tror banker kan omvärderas mot försäkringsbolagens P/E 19-20",
+    "Buy-the-dip har fungerat men en hel generation har aldrig sett det misslyckas"
+  ],
+  "model_used": "claude-opus-4-5-20251101"
+}
