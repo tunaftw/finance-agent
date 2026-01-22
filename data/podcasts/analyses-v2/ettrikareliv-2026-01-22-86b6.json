@@ -1,0 +1,78 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "ettrikareliv-2026-01-22-86b6",
+  "source_type": "podcast",
+  "podcast_name": "Ett rikare liv",
+  "date": "2026-01-22",
+  "hosts": ["Helene Rådstein"],
+  "guests": ["Mikael Staffas"],
+  "recommendations": [
+    {
+      "stock_name": "Boliden",
+      "ticker": "BOL",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Mikael Staffas",
+      "reasoning": "All-time high kurs. Odda-projektet startar Q1 2026 med +1.67 miljarder SEK EBITDA-förbättring per år. Zinkpriset kan gå upp. Koppar och guld på bra nivåer. Världsledande på miljö och arbetsmiljö.",
+      "quote": "Vi hade all time high i går."
+    }
+  ],
+  "crypto_mentions": [],
+  "insights": [
+    {
+      "quote": "Zinkpriset tror jag har en möjlighet att kunna gå upp ganska bra. För dels har det inte gått upp så mycket. Om man tittar på balansen med utbud och efterfrågan framåt så ser det ganska bra ut.",
+      "summary": "Zink undervärderad vs koppar/guld - utbud/efterfrågan ser bra ut",
+      "category": "wisdom",
+      "speaker": "Mikael Staffas",
+      "confidence": "high",
+      "tags": ["commodities", "zinc", "supply-demand"]
+    },
+    {
+      "quote": "Kineserna har slutat köpa amerikanska statspapper så när kineserna får pengar över i sin positiva handelsbalans då använder man det till att köpa guld.",
+      "summary": "Kinesisk flight från US treasuries till guld driver guldpriset",
+      "category": "wisdom",
+      "speaker": "Mikael Staffas",
+      "confidence": "medium",
+      "tags": ["gold", "china", "macro"]
+    },
+    {
+      "quote": "De metaller vi håller på med kommer att vara minst lika relevanta om 30 år som de är idag.",
+      "summary": "Industrimetaller långsiktigt relevanta - koppar, zink, guld, silver",
+      "category": "philosophy",
+      "speaker": "Mikael Staffas",
+      "confidence": "high",
+      "tags": ["commodities", "long-term", "secular-trend"]
+    },
+    {
+      "quote": "Sällsynta jordartsmetaller - det finns det överallt. Det enda som är sällsynt är att de tjänar pengar på att hålla på med dem.",
+      "summary": "Rare earth metals har dålig lönsamhet - därför dominerar Kina",
+      "category": "lesson",
+      "speaker": "Mikael Staffas",
+      "confidence": "high",
+      "tags": ["rare-earth", "china", "profitability"]
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Boliden",
+      "ticker": "BOL",
+      "discussion_summary": "Djupintervju med VD Mikael Staffas från Garpenbergs gruva. Odda-projektet (12 mdr SEK) startar Q1 2026 med +1.67 mdr SEK årlig EBITDA-förbättring. Rönneskär-projektet (5 mdr) på budget. Gruvmarginaler ~40%, smältverk ~5%. Zink ser bra ut, koppar stabilt, guld osäkert.",
+      "sentiment": "bullish",
+      "position_disclosure": "none",
+      "quotes": [
+        {"speaker": "Mikael Staffas", "text": "Under första kvartalet ska vi vara igång, så det ligger inom de närmaste veckorna."},
+        {"speaker": "Mikael Staffas", "text": "Vi förbättrar Oddas verksamhet med ungefär 150 miljoner euro per år, alltså 1,67 miljarder kronor."}
+      ]
+    }
+  ],
+  "market_sentiment": "bullish",
+  "summary": "Djupintervju med Bolidens VD Mikael Staffas från Garpenbergs gruva. Fokus på Odda-projektet som startar Q1 2026 med massiv EBITDA-förbättring (+1.67 mdr SEK/år). Zinkpriset har potential att stiga. Guldpriset drivet av kinesisk flight från US treasuries. Sällsynta jordartsmetaller har dålig lönsamhet - därför dominerar Kina.",
+  "key_takeaways": [
+    "Boliden: All-time high kurs, Odda-projektet startar Q1 2026",
+    "Zink: Undervärderad, utbud/efterfrågan ser bra ut",
+    "Guld: Drivet av Kinas flight från US treasuries, osäker framtid",
+    "Koppar: Stabilt högt pris, ingen bubblerisk",
+    "Gruvmarginaler ~40%, smältverk ~5% - helt olika affärsmodeller"
+  ],
+  "model_used": "claude-opus-4-5-20250121"
+}

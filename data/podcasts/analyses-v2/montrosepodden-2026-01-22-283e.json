@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "montrosepodden-2026-01-22-283e",
+  "source_type": "podcast",
+  "podcast_name": "Montrosepodden",
+  "date": "2026-01-22",
+  "hosts": ["Programledare"],
+  "guests": ["Karl-Henrik Lindberg"],
+  "recommendations": [
+    {
+      "stock_name": "XACT Norden Högutdelande",
+      "ticker": "XACTNHUD",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Karl-Henrik Lindberg",
+      "reasoning": "Flaggskeppsfond för utdelningsjägare. Nu courtagefritt via Montrose-samarbetet.",
+      "quote": "Exakt Norden högutdelande som alla ni utdelningsjägare därutte gillar."
+    },
+    {
+      "stock_name": "Montrose Global Monthly Dividend ETF",
+      "ticker": "SNAP",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Programledare",
+      "reasoning": "Montroses egen månadsutdelare. Blev en av Sveriges mest ägda ETF:er.",
+      "quote": "Vår månadsutdelare Snap blev en av Sveriges mest ägda ETF:er."
+    }
+  ],
+  "crypto_mentions": [],
+  "insights": [
+    {
+      "quote": "Börshandlade fonder, eller ETF:er, alltså Exchange Traded Fund, blir allt mer populära bland svenska investerare.",
+      "summary": "ETF-marknaden växer globalt men Sverige halkar efter",
+      "category": "lesson",
+      "speaker": "Programledare",
+      "confidence": "high",
+      "tags": ["ETF", "passive-investing", "trends"]
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "ETF-marknaden",
+      "ticker": null,
+      "discussion_summary": "Utbildningsavsnitt om ETF:er med Karl-Henrik Lindberg från XACT Fonder. Montrose lanserar exklusivt samarbete - courtagefritt på de flesta XACT-produkter. Diskussion om ETF-marknadens tillväxt globalt vs Sverige.",
+      "sentiment": "bullish",
+      "position_disclosure": "affiliated",
+      "quotes": [
+        {"speaker": "Programledare", "text": "Nu tar vi nästa steg i vår satsning på ETF-marknaden genom ett exklusivt samarbete med XACT."}
+      ]
+    }
+  ],
+  "market_sentiment": "neutral",
+  "summary": "Utbildningsavsnitt om ETF:er och Montroses nya samarbete med XACT Fonder. Karl-Henrik Lindberg (förvaltningschef XACT) gästar. Montrose erbjuder nu courtagefri handel i de flesta XACT-produkter. Diskussion om ETF-marknadens tillväxt och varför Sverige halkar efter globalt.",
+  "key_takeaways": [
+    "Montrose + XACT: Courtagefritt på de flesta XACT ETF:er",
+    "XACT Norden Högutdelande: Populär bland utdelningsjägare",
+    "ETF-marknaden växer globalt men Sverige halkar efter",
+    "Montrose Global Monthly Dividend (SNAP) - en av Sveriges mest ägda ETF:er"
+  ],
+  "model_used": "claude-opus-4-5-20250121"
+}

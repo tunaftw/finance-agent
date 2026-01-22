@@ -1,0 +1,125 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "montrosepodden-2026-01-22-a115",
+  "source_type": "podcast",
+  "podcast_name": "Montrosepodden",
+  "date": "2026-01-22",
+  "hosts": ["Viktor", "Co-host"],
+  "guests": [],
+  "recommendations": [
+    {
+      "stock_name": "Apotea",
+      "ticker": "APOTEA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Viktor",
+      "reasoning": "Vinstvarnade och rasar 20% - sämsta dagen någonsin. Lägre bruttomarginal pga Black Friday-beteende. Handlas nu under IPO-stängningskurs. Kan vara strukturellt case att bevaka.",
+      "quote": "Det är rimligtvis, jag har sagt det tidigare, vi har mer pengar i plånböckerna. Frågan är om det här bara är en one-off eller om det är strukturellt."
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Viktor",
+      "reasoning": "Blankningen har minskat från 3% till 1.76% - blankarna täcker. Massiva institutionella inflöden pga brutal orderbok och visibilitet. Förvaltare älskar visibiliteten.",
+      "quote": "Kollar man faktiskt på blankningsstatistiken så var det ungefär 3% blankat i Saab i oktober, medan idag är det 1,76%, så blankarna täcker i Saab."
+    },
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Viktor",
+      "reasoning": "Rasade 17% på vinstvarning. Turkiet-exponering är problemet. Erdogan driver hårdare linje mot spelbolag. i-gaming är 'hatat' just nu.",
+      "quote": "i-gaming överlag kan man väl säga, det är iskallt just nu, i alla fall på börsen för de här bolagen."
+    },
+    {
+      "stock_name": "Shell Group",
+      "ticker": "SHELL",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Co-host",
+      "reasoning": "Vinstvarnade men avgående Rusta-VD köpte för 60 MSEK. Aktien ner 90% från toppen. Claes Olsson konkurrerar framgångsrikt. Behöver hitta sin positionering.",
+      "quote": "Nu ska han lämna VD-posten på Rusta och jag läste att han nu skeppade in 60 miljoner in i Shell Group."
+    },
+    {
+      "stock_name": "Försvarssektorn",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Viktor",
+      "reasoning": "Trenden fortsätter i årtionden. Europa måste stå för egen säkerhet. Breddning i sektorn - även Mildef och andra bolag drar nu. Men varning för ESG-liknande bubbla.",
+      "quote": "Vi beh­över i allt större utsträckning stå för vår egen säkerhet och öka anslagen... den här trenden är rimligtvis en trend som vi kommer se i årtionden framöver."
+    }
+  ],
+  "crypto_mentions": [],
+  "insights": [
+    {
+      "quote": "De här förvaltarna är mest bullish sen juli 2021. Så ingen håller kassa. Alla är i stort sett all in just nu.",
+      "summary": "Fondförvaltare mest bullish sedan 2021 enligt BofA - konträr varningssignal",
+      "category": "wisdom",
+      "speaker": "Viktor",
+      "confidence": "high",
+      "tags": ["sentiment", "contrarian", "risk"]
+    },
+    {
+      "quote": "96% av de amerikanska tullarna under 2025 betalades av amerikanska importörer och amerikanska konsumenter enligt tyska IFV.",
+      "summary": "Tullar betalas av amerikanska konsumenter, inte utländska exportörer",
+      "category": "lesson",
+      "speaker": "Co-host",
+      "confidence": "high",
+      "tags": ["tariffs", "macro", "trade"]
+    },
+    {
+      "quote": "Det här snackade vi, det är ju nästan identiskt med när det var ESG... Då var det rekordinflöden i gröna fonder, nu är det försvarsfonder.",
+      "summary": "Försvarssektorn liknar ESG-hypen 2021 - samma mönster med massiva inflöden",
+      "category": "wisdom",
+      "speaker": "Viktor",
+      "confidence": "high",
+      "tags": ["sector-rotation", "bubbles", "defense"]
+    },
+    {
+      "quote": "Time in market har ändå varit bättre än market timing så att säga.",
+      "summary": "Långsiktighet slår timing - klassisk investeringsvisdom",
+      "category": "philosophy",
+      "speaker": "Co-host",
+      "confidence": "high",
+      "tags": ["long-term", "timing", "basics"]
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Apotea",
+      "ticker": "APOTEA",
+      "discussion_summary": "Vinstvarnade för Q4. Rasar 20% - sämsta dagen någonsin. Försäljning 3% under konsensus men rörelseresultat rejält sämre. Orsak: lägre bruttomarginal, högre avskrivningar från Varberg-lager, och förändrat konsumentbeteende där kunder väntar på Black Friday-rabatter.",
+      "sentiment": "bearish",
+      "position_disclosure": "none",
+      "quotes": [
+        {"speaker": "Viktor", "text": "Apotea handlas ju faktiskt nu under stängningskursen som de hade på IPO-dagen."},
+        {"speaker": "Viktor", "text": "Perceptionen får en smäll. Man ser det här som att det kanske inte är så ocykliskt som vi tidigare trodde."}
+      ]
+    },
+    {
+      "stock_name": "Trump/Tullar/Makro",
+      "ticker": null,
+      "discussion_summary": "Trumps Grönlandsutspel skapar dramatik. 10% strafftullar initialt, sedan 25% från juni. Största dagsnedgången i USA sedan oktober. 10-årsräntan på 4.3% - kritisk nivå. Institutioner som Lekta dumpar US treasuries.",
+      "sentiment": "bearish",
+      "position_disclosure": "none",
+      "quotes": [
+        {"speaker": "Viktor", "text": "Det var fruktansvärt att lyssna på honom. Det talet. Det var bland det minst sammanhängande talen jag någonsin hört."},
+        {"speaker": "Co-host", "text": "1095 dagar kvar av Trumps presidentskap."}
+      ]
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet fokuserar på Trumps Grönlandsutspel och strafftullar mot Europa. Stockholmsbörsen ner 2.3% sedan fredagen. Apotea vinstvarnade och rasar 20% - sämsta dagen någonsin, pga Black Friday-beteende. Betsson fortsätter ned på Turkiet-oro. Försvarssektorn stark men Viktor varnar för ESG-liknande bubbla. Fondförvaltare mest bullish sedan 2021 - konträr varningssignal. Tjeckiskt försvarsbolag noteras för 268 miljarder SEK i Amsterdam.",
+  "key_takeaways": [
+    "Apotea: Vinstvarning, ner 20%, under IPO-kurs - bevaka för strukturellt case",
+    "Betsson: i-gaming 'hatat', Turkiet-problemet kvarstår",
+    "Försvar: Stark trend men liknar ESG-hypen - var medveten om rotation",
+    "Makro: Fondförvaltare all-in = konträr varningssignal",
+    "Tullar: 96% betalas av amerikanska konsumenter, inte exportörer"
+  ],
+  "model_used": "claude-opus-4-5-20250121"
+}

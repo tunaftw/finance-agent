@@ -1,0 +1,141 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2026-01-20-10c5",
+  "source_type": "podcast",
+  "podcast_name": "Fill or Kill",
+  "date": "2026-01-20",
+  "hosts": ["Long Wolf", "Co-host"],
+  "guests": [],
+  "recommendations": [
+    {
+      "stock_name": "Bonesupport",
+      "ticker": "BONEX",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Long Wolf",
+      "reasoning": "Siffrorna kom inline trots 9% blankning. Aktien var upp 15-20% efter rapporten. Handlas historiskt billigt på P/E 17. Blankarna har inte haft rätt ännu. Inväntar nya FDA-ansökan och Q1-rapport innan köp.",
+      "quote": "Tickar man boxarna så har ju aktien blivit mer köpvärd här i alla fall."
+    },
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Co-host",
+      "reasoning": "Vinstvarning pga Turkiet. Erdogan stramar åt. Osäkert om Turkiet är 100% av vinsten. Cykler med dippar som historiskt varit bra köplägen. Invänta fotbolls-VM-säsongen.",
+      "quote": "Betsson kommer ju att ha en låg värdering, ofta när det har skett så här, det känns som att den går nästan i cykler."
+    },
+    {
+      "stock_name": "Eutelsat",
+      "ticker": "ETL",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Long Wolf",
+      "reasoning": "Upp 15% på tullnyheter. Gynnades av geopolitisk oro. Europa måste göra sig oberoende av USA inom satelliter och försvar. Trenden fortsätter oavsett om Trump backar.",
+      "quote": "Eutelsat var väl upp 15 procent igår eller någonting."
+    },
+    {
+      "stock_name": "Saab",
+      "ticker": "SAAB-B",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Long Wolf",
+      "reasoning": "Handlat Saab från kortsidan och tjänat pengar trots att aktien gått upp 40%. Stark trend men känns sent på bollen. Funderade på att korta vid toppen.",
+      "quote": "Jag har handlat Saab bara från kort sidan och tjänat pengar nästan varje dag, aktien bara gått upp."
+    },
+    {
+      "stock_name": "Sotkamo Silver",
+      "ticker": "SOSI",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Co-host",
+      "reasoning": "Enda svenska silverbolaget. Upp 500% i år. Silver gått från 30 till 95. Utländska investerare har börjat hitta aktien.",
+      "quote": "Sotkamo Silver, där har jag sett att det är massa utlänningar som hittat det här."
+    },
+    {
+      "stock_name": "Häckla",
+      "ticker": "HACK",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Long Wolf",
+      "reasoning": "Sålt hälften av positionen. Har nu 25% kvar av ursprungspositionen. Gått jättebra.",
+      "quote": "Jag har sålt hälften av mina häcklar."
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "sentiment": "bullish",
+      "speaker": "Co-host",
+      "confidence": "medium",
+      "quote": "Polymarket har blivit så utbrett så att de skulle kunna kallas för det. Det är Netscape Moment för krypto."
+    },
+    {
+      "asset_symbol": "ETH",
+      "sentiment": "bullish",
+      "speaker": "Co-host",
+      "confidence": "medium",
+      "quote": "NYSE nyheten att de håller på med en plattform, tokeniserad, ska ha öppet 24-7... bygger på Ethereum-blockkedjan."
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Charlie Munger hade en idé om att man ska vägra vara ett offer. Man får aldrig göra sig själv till ett offer.",
+      "summary": "Undvik offermentalitet - ta ansvar för risker istället för att hoppas andra är snälla",
+      "category": "philosophy",
+      "speaker": "Long Wolf",
+      "confidence": "high",
+      "tags": ["risk-management", "mindset", "Charlie-Munger"]
+    },
+    {
+      "quote": "Europa har gett bort allt till alla. Vi har outsourcerat vår export till Kina, vi har outsourcerat vår säkerhet till USA och vår energi till Ryssland.",
+      "summary": "Europa saknar strategisk självständighet - beroende av andra för säkerhet, energi och export",
+      "category": "wisdom",
+      "speaker": "Long Wolf",
+      "confidence": "high",
+      "tags": ["geopolitics", "europe", "macro"]
+    },
+    {
+      "quote": "Polymarket är lite som Netscape Moment. Det är första riktiga internet-tillämpningen som gör att användandet för konsument blev intressant.",
+      "summary": "Polymarket kan vara crypto/blockchains 'Netscape-moment' - första mainstream-applikationen",
+      "category": "wisdom",
+      "speaker": "Co-host",
+      "confidence": "medium",
+      "tags": ["crypto", "prediction-markets", "adoption"]
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Bonesupport",
+      "ticker": "BONEX",
+      "discussion_summary": "Diskuterar vinstvarningen som kom inline. Blankat 9% men blankarna har inte fått rätt. Aktien var upp 15-20% efter rapporten. Handlas historiskt billigt men osäkerhet kring blankarnas teser.",
+      "sentiment": "neutral",
+      "position_disclosure": "watching",
+      "quotes": [
+        {"speaker": "Long Wolf", "text": "Bonesupport är fortfarande blankat, över 9 procent, en av de mest blankade aktierna på hela börsen."},
+        {"speaker": "Long Wolf", "text": "Aktien har ju kommit ner och handlas historiskt billigt."}
+      ]
+    },
+    {
+      "stock_name": "Polymarket/Prediction Markets",
+      "ticker": null,
+      "discussion_summary": "Djupgående diskussion om prediction markets som Polymarket. 30% chans att tullar går igenom mot Sverige. Kan användas för att hedga geopolitiska risker. NYSE ska lansera tokeniserad handel.",
+      "sentiment": "bullish",
+      "position_disclosure": "owns",
+      "quotes": [
+        {"speaker": "Co-host", "text": "Det är 30% chans att Tullarna går igenom mot Sverige första februari."},
+        {"speaker": "Long Wolf", "text": "Goldman och en massa professionella aktörer skulle skapa prediction market-deskar."}
+      ]
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet diskuterar Davos, Trumps tullhot mot Grönland och geopolitisk oro. Bonesupport kom inline och rusade 15-20% trots 9% blankning. Betssons vinstvarning bekräftar Turkiet-risken. Stark fokus på råvaror (guld, silver), försvar (Saab, Eutelsat) och prediction markets (Polymarket). Europa måste göra sig oberoende av USA - Charlie Munger-citat om att inte vara ett offer. NYSE ska lansera tokeniserad handel.",
+  "key_takeaways": [
+    "Bonesupport: Inline siffror, historiskt billigt, men 9% blankning - avvakta",
+    "Betsson: Turkiet-vinstvarning, cykliskt - vänta på fotbolls-VM",
+    "Eutelsat: Vinnare på geopolitisk oro, Europa bygger eget försvar",
+    "Polymarket: Kan hedga tullar och geopolitik - 30% odds på Sveriges-tullar",
+    "Råvaror: Silver och guld fortsätter starkt, Sotkamo Silver upp 500%"
+  ],
+  "model_used": "claude-opus-4-5-20250121"
+}

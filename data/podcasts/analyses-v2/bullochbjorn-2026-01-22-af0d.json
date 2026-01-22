@@ -1,0 +1,124 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "bullochbjorn-2026-01-22-af0d",
+  "source_type": "podcast",
+  "podcast_name": "Bull & Björn",
+  "date": "2026-01-22",
+  "hosts": ["Viktor", "Johan"],
+  "guests": [],
+  "recommendations": [
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "Viktor",
+      "reasoning": "Vinstvarning påverkar sentimentet men värderingen är låg. Turkiet-osäkerhet och marginalkontraktion i B2C. Risk/reward ungefär samma som innan raset. Vänta till VM-sommaren för bättre läge.",
+      "quote": "Jag tror att hur jag tänker kring den potentiellt framtida avkastningen är att den är ungefär samma som den var innan det här raset."
+    },
+    {
+      "stock_name": "Flatex",
+      "ticker": "FTK",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "reasoning": "Sålt av efter stark uppgång. Tror den fortsätter upp men tog hem vinst.",
+      "quote": "Flatex kommer att fortsätta uppåt, så det brukar vara någon form av köpindikation när jag säljer ut bolag som har gått så bra."
+    },
+    {
+      "stock_name": "Peers",
+      "ticker": "PEERS",
+      "action": "sell",
+      "confidence": "medium",
+      "speaker": "Johan",
+      "reasoning": "Sålt av tillsammans med Flatex.",
+      "quote": "Men jag har sålt av Flatex och Peers här."
+    },
+    {
+      "stock_name": "Evolution",
+      "ticker": "EVO",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Viktor",
+      "reasoning": "Exempel på långsam nedgång med dåligt sentiment. Death by a thousand cuts.",
+      "quote": "Till exempel i Evolution där det är någon sentimentändring som ligger över aktien i flera år. Det är liksom lite såhär death by a thousand cuts."
+    },
+    {
+      "stock_name": "Hacksaw Gaming",
+      "ticker": "HACK",
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "Johan",
+      "reasoning": "Förstår inte nedgången. Vågar inte köpa mer trots billigare kurs.",
+      "quote": "Jag kan liksom inte förstå men det känns bara som att jag missar någonting här."
+    }
+  ],
+  "crypto_mentions": [],
+  "insights": [
+    {
+      "quote": "Det där är faktiskt ett jävligt vanligt bias som många har, att man cementerar fast sin position i en aktie bara för att man har köpt den.",
+      "summary": "Anchoring bias - vi försvarar positioner vi pratat om offentligt mer än vi borde",
+      "category": "lesson",
+      "speaker": "Viktor",
+      "confidence": "high",
+      "tags": ["bias", "psychology", "anchoring"]
+    },
+    {
+      "quote": "Det som är värst är snarare de här bolagen som bara puttar ner 1% per dag och så går det ner 70% på ett år. De är nästan värre än när det kommer en ensättning intradag.",
+      "summary": "Death by a thousand cuts - långsam nedgång är värre än plötsliga krascher",
+      "category": "wisdom",
+      "speaker": "Viktor",
+      "confidence": "high",
+      "tags": ["psychology", "losses", "sentiment"]
+    },
+    {
+      "quote": "Generellt sett så gillar jag inte att sitta och äga aktier där man bara hoppas på en multipel expansion. För då ska det ju hoppas att någon annan ska värdera upp det.",
+      "summary": "Undvik att bara hoppas på multipelexpansion - kräver operativ förbättring",
+      "category": "philosophy",
+      "speaker": "Viktor",
+      "confidence": "high",
+      "tags": ["valuation", "multiple-expansion", "discipline"]
+    },
+    {
+      "quote": "Jag jobbar väldigt mycket med conviction här, försöka gå igenom allting jag äger igen, säkerställa varför jag äger det.",
+      "summary": "I tuffa tider - gå tillbaka till grunderna och bekräfta din strategi",
+      "category": "philosophy",
+      "speaker": "Johan",
+      "confidence": "high",
+      "tags": ["conviction", "discipline", "strategy"]
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS",
+      "discussion_summary": "Djupgående analys av vinstvarningen. Diskuterar Turkiet-exponering, EBITDA-marginaler, spelskatt och personalkostnader. Viktor försvarar sin position men erkänner osäkerheten. Konklusion: vänta till VM-sommaren.",
+      "sentiment": "bearish",
+      "position_disclosure": "owns",
+      "quotes": [
+        {"speaker": "Viktor", "text": "Nu har vi snackat om det här men jag tänkte, jag glömde säga till dig att det känns som att jag har lagt mer tid på att försvara Betsson nu än vad förlusten känns."},
+        {"speaker": "Viktor", "text": "Jag tror om man vill äga det här så borde man ställa upp några scenarier i en modell och försöka se vad som händer med marginalerna om Turkiet minskar."}
+      ]
+    },
+    {
+      "stock_name": "Polymarket",
+      "ticker": null,
+      "discussion_summary": "Diskussion om prediction markets som hot mot traditionella bettingbolag. Polymarket opererar i en gråzon utan samma spelskatt. 90% av omsättningen från sportsbetting. Förväntas regleras framöver.",
+      "sentiment": "neutral",
+      "position_disclosure": "none",
+      "quotes": [
+        {"speaker": "Johan", "text": "Det som var skillnaden det gick såklart att betta på stora världsevent då också men det som har hänt med Polymarket och de här nya prediction markets är väl att de i ännu större utsträckning riktar sig mot stora världskändelser."}
+      ]
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet fokuserar på Betssons vinstvarning och Turkiet-problematiken. Viktor försvarar sin position men medger att sentimentet är dåligt. Diskussion om anchoring bias och vikten av att inte bara hoppas på multipelexpansion. Polymarket diskuteras som potentiellt hot mot bettingbranschen. Johan har sålt Flatex och Peers, sitter på stor kassa.",
+  "key_takeaways": [
+    "Betsson: Risk/reward ungefär oförändrad efter raset - vänta till VM",
+    "Anchoring bias: Försvar av positioner man pratat om offentligt",
+    "Death by 1000 cuts värre än plötsliga nedgångar",
+    "Polymarket utmanar bettingbolagen genom att undvika spelskatt",
+    "Defensiv marknad: Råvaror, försvar, consumer staples går starkt"
+  ],
+  "model_used": "claude-opus-4-5-20250121"
+}
