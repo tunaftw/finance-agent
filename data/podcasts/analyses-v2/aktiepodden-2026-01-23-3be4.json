@@ -1,0 +1,210 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "aktiepodden-2026-01-23-3be4",
+  "podcast_name": "Aktiepodden",
+  "episode_title": "246. Vinstvarningar, besparingsprogram och case",
+  "date": "2026-01-23",
+  "hosts": ["Lars Frick", "Oliver"],
+  "guests": [],
+  "main_topics": ["Vinstvarningar", "Besparingsprogram", "Geopolitisk oro", "Elekta case", "Tullar"],
+  "stocks_discussed": ["Elekta", "Betsson", "Apotea", "Rottneros", "Ericsson", "Meds", "Chefellos", "Sobi", "Bone Support", "Atlas Copco", "Sandvik", "Volvo Cars", "Telia", "Tele2"],
+  "recommendations": [
+    {
+      "stock_name": "Elekta",
+      "ticker": "EKTA-B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Oliver",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Veckans case. Bra siffror kortsiktigt men tuff konkurrent i Siemens Healthineers/Varian. Ny produkt EVO godkänd av FDA kan vara game changer i USA. Besparingsprogram på 500 MSEK. Vänta på trendvändning i USA innan köp.",
+      "price_target": "65 SEK",
+      "time_horizon": null,
+      "quote": "Jag tycker att caset, igen tillbaka till USA, går det att börja gå bra där, då är det här ett bra case som man också kan sitta en tid på.",
+      "sector": "medicinteknik",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Har boomat prognoser dubbelt så många gånger som slagit dem senaste 3 åren",
+      "catalyst_timing": "Kapitalmarknadsdag 30 januari"
+    },
+    {
+      "stock_name": "Apotea",
+      "ticker": "APOTEA",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Lars Frick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Vinstvarnade med halverad vinst Q4. Ökade avskrivningar från nytt lager i Varberg. Lägre bruttomarginal och svagare tillväxt (7% vs 15% tidigare). Kombinationen av sämre tillväxt OCH lägre marginal är 'giftig'.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Om man ser samtidigt sämre tillväxt och lite svagare brutomarginal, den kombon är rätt dålig.",
+      "sector": "e-handel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Aktien ner 30% sedan årsskiftet, under introduktionskurs",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Meds",
+      "ticker": "MEDS",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Oliver",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Konkurrent till Apotea som växer snabbare. Handlas till 0.8x försäljningen mot Apoteas 1.1x - 25% billigare. Kan vara det 'långa benet' i paret.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Så att Meds kanske sticker fram som ett lite attraktivt.",
+      "sector": "e-handel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Elekta",
+      "ticker": "EKTA-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "discussion_summary": "Veckans case. Medicintekniskt bolag med strålknivar (linjäracceleratorer). Stark rapport senast men lång historik av besvikelser - boomat prognoser oftare än slagit dem. Ny VD har städat i orderboken. Ny produkt EVO godkänd i USA kan vända trenden. 40% av försäljningen i Europa, 25% i Amerika. Konkurrerar med Siemens/Varian som är dubbelt så stora.",
+      "quotes": [
+        {
+          "speaker": "Oliver",
+          "text": "Jag tycker att caset, igen tillbaka till USA, går det att börja gå bra där, då är det här ett bra case som man också kan sitta en tid på.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Lars Frick",
+          "text": "Besparingar betyder ju att vi säljer inte så mycket som vi hade hoppats, och nu får vi dra i bromsen. Så det är ju fortfarande en negativ signal ändå.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "thesis": {
+        "bull_case": ["FDA-godkännande för EVO", "Besparingsprogram 500 MSEK", "Kapitalmarknadsdag 30 jan"],
+        "bear_case": ["Boomat prognoser oftare än slagit", "Tuff konkurrens från Siemens/Varian", "USA-marknaden krympt"],
+        "catalysts": ["EVO-lansering i USA", "Kapitalmarknadsdag"],
+        "risks": ["Siemens har större finansiella muskler", "Medtech-sektorn har det tufft"]
+      },
+      "financial_metrics": {
+        "riktkurs": "65 SEK"
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Apotea",
+      "ticker": "APOTEA",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "discussion_summary": "Vinstvarnade med halverad vinst Q4. Ökade avskrivningar från nytt lager i Varberg. Tillväxt bara 7% mot tidigare 15%. Lägre bruttomarginal - kombinationen är giftig. Aktien ner 30% sedan årsskiftet, nu under introduktionskursen.",
+      "quotes": [
+        {
+          "speaker": "Oliver",
+          "text": "Om man ser samtidigt sämre tillväxt och lite svagare brutomarginal, den kombon är rätt dålig.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "thesis": {
+        "bull_case": ["Nytt lager i Varberg ska ge bättre marginaler långsiktigt"],
+        "bear_case": ["Sämre tillväxt OCH sämre marginal", "Ny lag om hemleverans försvårar"],
+        "catalysts": [],
+        "risks": ["Meds växer snabbare", "Ny leveranslag"]
+      },
+      "financial_metrics": {},
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Betsson",
+      "ticker": "BETS-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "discussion_summary": "Vinstvarnade pga turbulens på den turkiska marknaden. Online-spel i Turkiet är olagligt men stor del av vinsten kommer därifrån. Intäktstapp på 1% men vinsten faller 24% - visar skalbarheten åt fel håll.",
+      "quotes": [
+        {
+          "speaker": "Oliver",
+          "text": "Det är ett intäktstapp på ungefär 1% för Betsson här, men vinsten faller med 24%.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["Turkiet-risk", "Skalbarhet slår åt fel håll", "Regleringsrisk"],
+        "catalysts": [],
+        "risks": ["Turkiska myndigheter stävjar marknaden"]
+      },
+      "financial_metrics": {},
+      "position_disclosure": "unknown"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Boring is beautiful.",
+      "summary": "Diversifiering löser många problem - det låter tråkigt men fungerar",
+      "category": "philosophy",
+      "speaker": "Lars Frick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["diversification", "portfolio_management"]
+    },
+    {
+      "quote": "Skalbarhet i affärsmodellen kan slå åt båda hållen.",
+      "summary": "Skalbarhet är roligt när det går bra men brutalt när det går dåligt - Betssons 1% intäktstapp blev 24% vinstfall",
+      "category": "wisdom",
+      "speaker": "Oliver",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["scalability", "operating_leverage"]
+    },
+    {
+      "quote": "80% av Atlas Copcos kostnadsbas är rörlig. Det är en väldigt icke-skalbar affärsmodell.",
+      "summary": "Hög andel rörliga kostnader ger skydd vid nedgång men begränsar marginalpotential vid uppgång",
+      "category": "wisdom",
+      "speaker": "Oliver",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["business_model", "cost_structure"]
+    },
+    {
+      "quote": "Jag investerar inte i någonting jag inte förstår.",
+      "summary": "Buffett-filosofi - undvik sektorer med oreglerbara risker",
+      "category": "philosophy",
+      "speaker": "Lars Frick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["buffett", "circle_of_competence"]
+    },
+    {
+      "quote": "Netto är ändå positivt i börsen.",
+      "summary": "Konjunkturförstärkningen dominerar över tullproblematiken - BNP-effekten är bara 0.1-0.2 procentenheter",
+      "category": "wisdom",
+      "speaker": "Oliver",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": ["macro", "tariffs", "outlook"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "neutral",
+  "summary": "Avsnittet fokuserar på vinstvarningar (Betsson, Apotea, Rottneros) och besparingsprogram (Ericsson, Elekta, Volvo Cars). Geopolitisk oro från Trump-tullar men Kiel-institutet räknar med begränsad BNP-effekt (0.1-0.2 procentenheter). Veckans case är Elekta som får 'avvakta' - vänta på trendvändning i USA innan köp. Skalbarhetsinsikt: Betssons 1% intäktstapp blev 24% vinstfall.",
+  "key_takeaways": [
+    "Tull-effekten på BNP är begränsad: 0.1-0.2 procentenheter - konjunkturen dominerar",
+    "Elekta: Avvakta tills USA-trenden vänder - FDA-godkännande för EVO är positivt",
+    "Apotea: Giftig kombination av sämre tillväxt OCH sämre marginal",
+    "Betsson: Skalbarhet slår åt båda håll - 1% intäktstapp = 24% vinstfall",
+    "Diversifiering löser många problem när man inte kan räkna på geopolitik",
+    "Besparingar är negativt långsiktigt - betyder att försäljningen inte räcker till"
+  ],
+  "model_used": "claude-opus-4-5-20250114"
+}

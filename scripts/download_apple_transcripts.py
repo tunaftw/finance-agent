@@ -177,19 +177,28 @@ def get_episodes_with_transcripts(podcast_filter: str = None) -> list:
     return episodes
 
 
-def download_transcript(apple_episode_id: str, cache_token: bool = True) -> Path | None:
-    """Download a transcript using the FetchTranscript tool."""
-    args = [str(FETCH_TRANSCRIPT_PATH), apple_episode_id]
-    if cache_token:
-        args.append("--cache-bearer-token")
+def download_transcript(apple_episode_id: str, cache_token: bool = False) -> Path | None:
+    """Download a transcript using the FetchTranscript tool.
+
+    Uses osascript to run FetchTranscript in a separate process context,
+    avoiding the fork() crash with Objective-C runtime.
+
+    Note: cache_token=False by default to avoid fork() crash when refreshing
+    expired bearer tokens. Each request fetches a fresh token.
+    """
+    # Build the shell command
+    # Note: We don't use --cache-bearer-token because it causes fork() crash
+    # when the cached token is expired and needs refresh
+    cmd = f"cd {DOWNLOAD_DIR} && ./FetchTranscript {apple_episode_id}"
+    # Removed: if cache_token: cmd += " --cache-bearer-token"
 
     try:
+        # Use osascript to run in separate process context (avoids fork crash)
         result = subprocess.run(
-            args,
-            cwd=DOWNLOAD_DIR,
+            ["osascript", "-e", f'do shell script "{cmd}"'],
             capture_output=True,
             text=True,
-            timeout=60
+            timeout=120
         )
 
         # Check if file was created
@@ -292,7 +301,7 @@ def main():
 
     # Download loop
     print(f"\n🚀 Starting download of {len(missing)} transcripts...")
-    print("   (Using --cache-bearer-token for faster batch processing)\n")
+    print("   (Using osascript to avoid fork() crash)\n")
 
     success_count = 0
     fail_count = 0
