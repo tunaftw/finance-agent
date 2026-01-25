@@ -153,6 +153,8 @@ Transkript sparade i:
 | Podcast not in mapping | Add to `data/podcast_mapping.json` |
 | Transcript shows as missing but file exists | Check filename format: `{podcast_id}-{YYYY}-{MM}-{DD}-{hash}.txt` |
 | No new episodes for active podcast | Open Apple Podcasts app to trigger sync |
+| FetchTranscript fork() crash | Normal - scriptet hanterar detta automatiskt via osascript workaround |
+| `objc[...]: NSDateFormatter initialize` | Scriptet använder osascript för att undvika detta. Om det ändå uppstår, kör scriptet igen |
 
 ---
 

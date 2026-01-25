@@ -141,6 +141,9 @@ Om anvandaren valjer "Valj specifika", anvand multiSelect=true med podcast-namn.
 
 **VIKTIGT:** Scriptet `download_apple_transcripts.py` stodjer BADE vara podcast-ID:n (t.ex. `marketmakers`) OCH Apple-namn (t.ex. `Market Makers`). Det oversatter automatiskt via `data/podcast_mapping.json`.
 
+**OBS:** Scriptet använder automatiskt `osascript` workaround för att undvika
+fork() crash med FetchTranscript. Ingen manuell åtgärd krävs.
+
 **KOR:** Anropa podcast-download skill med Skill-verktyget:
 
 ```

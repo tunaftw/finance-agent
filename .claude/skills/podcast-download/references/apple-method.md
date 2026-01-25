@@ -182,6 +182,32 @@ has_timestamps: True
 | `No text content found in TTML` | TTML file may be corrupted, try re-downloading |
 | `Failed to parse TTML XML` | File format issue, check file manually |
 
+## Known Issues
+
+### FetchTranscript fork() Crash
+
+**Symptom:**
+```
+objc[...]: +[NSDateFormatter initialize] may have been in progress in another thread when fork() was called
+```
+
+**Orsak:**
+FetchTranscript är en Objective-C binär. Python's subprocess använder fork() som inte är kompatibelt med Objective-C runtime.
+
+**Lösning:**
+Scriptet `download_apple_transcripts.py` använder automatiskt `osascript` workaround:
+- Kör FetchTranscript via `osascript -e 'do shell script "..."'`
+- Undviker `--cache-bearer-token` som orsakar ytterligare fork() vid token refresh
+
+**Om du kör FetchTranscript manuellt:**
+```bash
+# UNDVIK detta (kan krascha):
+./FetchTranscript 12345 --cache-bearer-token
+
+# Använd detta istället:
+osascript -e 'do shell script "cd /path/to/tools/apple-transcripts && ./FetchTranscript 12345"'
+```
+
 ## Checking Transcript Availability
 
 ```python
