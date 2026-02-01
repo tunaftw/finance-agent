@@ -63,29 +63,45 @@ else
 fi
 ```
 
-### 4. OpenCode/GLM-4.7 Tillgänglighet
+### 4. Apple Transcript Tools
 
 ```bash
-# Kolla att batch runner finns
-BATCH_SCRIPT="/Users/pontus/Developer/podcast-transcriber/scripts/batch_runner.py"
-
-if [ -f "$BATCH_SCRIPT" ]; then
-    echo "✓ Batch runner finns"
+# Kolla GetBearerToken binary
+if [ -f "tools/apple-transcripts/GetBearerToken" ]; then
+    echo "✓ GetBearerToken finns"
 else
-    echo "✗ Batch runner saknas: $BATCH_SCRIPT"
-    exit 1
+    echo "✗ GetBearerToken saknas - kan inte ladda Apple transcripts"
 fi
 
-# Kolla att OpenCode är installerat
-which opencode >/dev/null 2>&1
-if [ $? -eq 0 ]; then
-    echo "✓ OpenCode installerat"
+# Kolla bearer token status
+if [ -f "tools/apple-transcripts/bearer_token.txt" ]; then
+    token=$(cat tools/apple-transcripts/bearer_token.txt)
+    exp=$(echo "$token" | cut -d'.' -f2 | base64 -D 2>/dev/null | python3 -c "import sys,json; print(json.load(sys.stdin).get('exp',0))" 2>/dev/null)
+    now=$(date +%s)
+
+    if [ "$exp" -gt "$now" ] 2>/dev/null; then
+        exp_date=$(python3 -c "from datetime import datetime; print(datetime.fromtimestamp($exp).strftime('%Y-%m-%d'))")
+        echo "✓ Bearer token giltig (expires: $exp_date)"
+    else
+        echo "⚠ Bearer token EXPIRED - kör: ./scripts/refresh_apple_token.sh"
+    fi
 else
-    echo "⚠ OpenCode inte i PATH - batch-analys kan misslyckas"
+    echo "⚠ Bearer token saknas - kör: ./scripts/refresh_apple_token.sh"
 fi
 ```
 
-### 5. Git Working Tree
+### 5. OpenCode/GLM-4.7 Tillgänglighet
+
+```bash
+# Kolla att OpenCode är installerat
+if [ -f "$HOME/.opencode/bin/opencode" ]; then
+    echo "✓ OpenCode installerat"
+else
+    echo "⚠ OpenCode saknas - använder Claude Code istället"
+fi
+```
+
+### 6. Git Working Tree
 
 ```bash
 if git diff --quiet && git diff --cached --quiet; then
@@ -104,7 +120,7 @@ else
 fi
 ```
 
-### 6. Disk Space
+### 7. Disk Space
 
 ```bash
 # Kolla att det finns tillräckligt med utrymme (minst 1GB)
@@ -123,6 +139,9 @@ fi
 ```python
 import subprocess
 import sys
+import json
+import base64
+from datetime import datetime
 from pathlib import Path
 
 def pre_flight_check():
@@ -146,7 +165,33 @@ def pre_flight_check():
     if not db.exists():
         warnings.append("Database saknas - kommer initieras")
 
-    # 4. Git status
+    # 4. GetBearerToken binary
+    get_bearer = Path("tools/apple-transcripts/GetBearerToken")
+    if not get_bearer.exists():
+        warnings.append("GetBearerToken saknas - kan inte ladda Apple transcripts")
+
+    # 5. Bearer token status
+    token_path = Path("tools/apple-transcripts/bearer_token.txt")
+    if token_path.exists():
+        token = token_path.read_text().strip()
+        try:
+            payload = token.split(".")[1]
+            # Add padding if needed
+            padding = 4 - len(payload) % 4
+            if padding != 4:
+                payload += "=" * padding
+            data = json.loads(base64.urlsafe_b64decode(payload))
+            exp = datetime.fromtimestamp(data.get("exp", 0))
+            if datetime.now() > exp:
+                warnings.append(f"Bearer token EXPIRED ({exp.strftime('%Y-%m-%d')})")
+            else:
+                print(f"✓ Bearer token giltig (expires: {exp.strftime('%Y-%m-%d')})")
+        except:
+            warnings.append("Bearer token ogiltig")
+    else:
+        warnings.append("Bearer token saknas - kör ./scripts/refresh_apple_token.sh")
+
+    # 6. Git status
     result = subprocess.run(["git", "diff", "--quiet"], capture_output=True)
     if result.returncode != 0:
         warnings.append("Git har uncommitted changes")
@@ -178,6 +223,9 @@ if __name__ == "__main__":
 | Apple Podcasts DB saknas | Ja | STOPP - användaren måste installera appen |
 | Podcast mapping saknas | Ja | STOPP - filen behövs |
 | Database saknas | Nej | Init:a automatiskt |
+| GetBearerToken saknas | Nej | Varning - kompilera från källa eller kopiera binär |
+| Bearer token expired | Nej | Kör `./scripts/refresh_apple_token.sh` (auto-refreshas av scriptet) |
+| Bearer token saknas | Nej | Kör `./scripts/refresh_apple_token.sh` |
 | Git dirty | Nej | Fråga användaren |
-| OpenCode saknas | Nej | Varning - batch kan misslyckas |
+| OpenCode saknas | Nej | Varning - använder Claude Code istället |
 | Disk full | Ja | STOPP |

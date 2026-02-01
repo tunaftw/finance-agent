@@ -49,13 +49,29 @@ APPLE_DB="$HOME/Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Do
 # 3. Database
 [ -f "data/podstock.db" ] && echo "✓ Database" || echo "✗ podstock.db saknas"
 
-# 4. FetchTranscript binary (for Apple transcripts)
-[ -f "tools/apple-transcripts/FetchTranscript" ] && echo "✓ FetchTranscript" || echo "⚠ FetchTranscript saknas"
+# 4. GetBearerToken binary (for Apple transcripts)
+[ -f "tools/apple-transcripts/GetBearerToken" ] && echo "✓ GetBearerToken" || echo "⚠ GetBearerToken saknas"
 
-# 5. Git status
+# 5. Bearer token status
+if [ -f "tools/apple-transcripts/bearer_token.txt" ]; then
+    # Check expiration
+    token=$(cat tools/apple-transcripts/bearer_token.txt)
+    exp=$(echo "$token" | cut -d'.' -f2 | base64 -D 2>/dev/null | python3 -c "import sys,json; print(json.load(sys.stdin).get('exp',0))" 2>/dev/null)
+    now=$(date +%s)
+    if [ "$exp" -gt "$now" ] 2>/dev/null; then
+        exp_date=$(python3 -c "from datetime import datetime; print(datetime.fromtimestamp($exp).strftime('%Y-%m-%d'))")
+        echo "✓ Bearer token (expires: $exp_date)"
+    else
+        echo "⚠ Bearer token EXPIRED - run ./scripts/refresh_apple_token.sh"
+    fi
+else
+    echo "⚠ Bearer token saknas - run ./scripts/refresh_apple_token.sh"
+fi
+
+# 6. Git status
 git diff --quiet && echo "✓ Git working tree ren" || echo "⚠ Git har uncommitted changes"
 
-# 6. Kolla analysmetod (OpenCode eller Claude)
+# 7. Kolla analysmetod (OpenCode eller Claude)
 [ -f "$HOME/.opencode/bin/opencode" ] && echo "✓ OpenCode tillganglig" || echo "⚠ OpenCode saknas - anvander Claude Code"
 ```
 
@@ -139,50 +155,40 @@ Om anvandaren valjer "Valj specifika", anvand multiSelect=true med podcast-namn.
 
 ### 2e. Ladda ner valda transkript
 
-**VIKTIGT:** Scriptet `download_apple_transcripts.py` stodjer BADE vara podcast-ID:n (t.ex. `marketmakers`) OCH Apple-namn (t.ex. `Market Makers`). Det oversatter automatiskt via `data/podcast_mapping.json`.
+**METOD 1: Apple Podcasts (rekommenderat)**
 
-**OBS:** Scriptet använder automatiskt `osascript` workaround för att undvika
-fork() crash med FetchTranscript. Ingen manuell åtgärd krävs.
+Använd `fetch_transcript_pure_python.py` som automatiskt:
+- Laddar bearer token (refreshar om expired)
+- Laddar ner TTML från Apple API
+- Extraherar text och sparar som transcript
 
-**KOR:** Anropa podcast-download skill med Skill-verktyget:
+```bash
+# Ladda ner alla saknade för 2026
+python3 scripts/fetch_transcript_pure_python.py --year 2026
 
+# Begränsa antal
+python3 scripts/fetch_transcript_pure_python.py --year 2026 --max 10
+
+# Dry-run först
+python3 scripts/fetch_transcript_pure_python.py --year 2026 --dry-run
 ```
-Skill tool: skill="podcast-download"
-```
 
-Folj podcast-download skillens instruktioner for att ladda ner de valda avsnitten.
+**Om token är expired:** Scriptet refreshar automatiskt via `GetBearerToken`.
 
-**Alternativt (om du vill kora inline):**
+**METOD 2: Whisper (fallback för podcasts utan Apple transcript)**
+
+För podcasts som saknar Apple transcript (t.ex. Gött Tjöt), använd Whisper:
 
 ```python
-# For varje valt avsnitt - anvand VARA podcast-ID:n (t.ex. "marketmakers")
-for episode in selected_episodes:
-    podcast_id = episode["podcast_id"]  # vara ID, t.ex. "marketmakers"
+import subprocess
 
-    # Forsok Apple Podcasts forst
-    try:
-        result = subprocess.run([
-            "python3", "scripts/download_apple_transcripts.py",
-            "--podcast", podcast_id,  # Scriptet oversatter till Apple-namn automatiskt
-            "--max", "5"
-        ], capture_output=True, text=True, timeout=120)
+# Kör Whisper-transkribering för en podcast
+podcast_id = "gotttjot"
 
-        if result.returncode == 0 and "Downloaded" in result.stdout:
-            print(f"  ✓ {podcast_id} (Apple)")
-            continue
-    except:
-        pass
-
-    # Fallback till Whisper - KRÄVER RSS-URL konfigurerad i sources.json
-    print(f"  ⚠ {podcast_id} - försöker Whisper...")
-
-    # Kör Whisper-transkribering
-    try:
-        whisper_result = subprocess.run([
-            ".venv/bin/python", "-c", f'''
+whisper_result = subprocess.run([
+    ".venv/bin/python", "-c", f'''
 import json
 from pathlib import Path
-from datetime import datetime
 from podstock.rss.parser import get_latest_episodes
 from podstock.rss.downloader import download_episode
 from podstock.transcribe.whisper import transcribe, save_transcript
@@ -199,7 +205,7 @@ if not podcast or not podcast.get("rss_url"):
 # Hämta senaste episoder
 episodes = get_latest_episodes(podcast["rss_url"], "{podcast_id}", n=5)
 
-# Hitta rätt episod (senaste som saknar transkript)
+# Hitta episoder som saknar transkript
 for ep in episodes:
     transcript_path = Path(f"data/transcripts/{podcast_id}") / f"{{ep.id}}.txt"
     if transcript_path.exists():
@@ -219,18 +225,8 @@ for ep in episodes:
                   "pub_date": ep.published_at.strftime("%Y-%m-%d")}}
     )
     print(f"✓ Transkriberat: {{ep.id}}")
-    break
 '''
-        ], capture_output=True, text=True, timeout=900)  # 15 min timeout
-
-        if whisper_result.returncode == 0:
-            print(f"  ✓ {podcast_id} (Whisper)")
-        else:
-            print(f"  ✗ {podcast_id} Whisper misslyckades: {whisper_result.stderr[:100]}")
-    except subprocess.TimeoutExpired:
-        print(f"  ✗ {podcast_id} Whisper timeout (>15 min)")
-    except Exception as e:
-        print(f"  ✗ {podcast_id} Whisper fel: {e}")
+], capture_output=True, text=True, timeout=900)  # 15 min timeout
 ```
 
 **WHISPER FÖRUTSÄTTNINGAR:**
@@ -239,85 +235,19 @@ for ep in episodes:
 - Apple Silicon Mac (M1/M2/M3/M4)
 - Ca 10-15 min per timme audio
 
-### 2f. Extrahera TTML till text
+### 2f. Verifiera nedladdning
 
-**VIKTIGT:** Efter nedladdning maste TTML-filer extraheras till textfiler.
+**OBS:** `fetch_transcript_pure_python.py` extraherar automatiskt TTML till text.
+Ingen separat extraktion behövs längre.
 
-```python
-import hashlib
-import json
-import re
-import sqlite3
-from datetime import datetime, timedelta
-from pathlib import Path
+Verifiera att transcripts sparades:
 
-# Paths
-APPLE_DB = Path.home() / "Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Documents/MTLibrary.sqlite"
-TTML_CACHE = Path.home() / "Library/Group Containers/243LU875E5.groups.com.apple.podcasts/Library/Cache/Assets/TTML"
-TRANSCRIPTS_DIR = Path("data/transcripts")
-PODCAST_MAPPING = Path("data/podcast_mapping.json")
-COCOA_EPOCH = datetime(2001, 1, 1)
+```bash
+# Kolla senaste transcripts
+ls -lt data/transcripts/*/  | head -20
 
-# Load podcast mapping
-with open(PODCAST_MAPPING) as f:
-    apple_to_id = json.load(f).get("apple_to_id", {})
-
-def find_ttml_file(transcript_id: str):
-    potential = TTML_CACHE / transcript_id
-    if potential.exists():
-        return potential
-    match = re.search(r'transcript_(\d+)\.ttml$', transcript_id)
-    if match:
-        ttml_id = match.group(1)
-        alt_path = TTML_CACHE / transcript_id.replace(f"transcript_{ttml_id}.ttml", f"transcript_{ttml_id}.ttml-{ttml_id}.ttml")
-        if alt_path.exists():
-            return alt_path
-    return None
-
-def parse_ttml(ttml_path):
-    raw = ttml_path.read_text(encoding="utf-8")
-    words = re.findall(r'podcasts:unit="word"[^>]*>([^<]+)</span>', raw)
-    return re.sub(r"\s+", " ", " ".join(w.strip() for w in words if w.strip()))
-
-# Query and extract
-conn = sqlite3.connect(APPLE_DB)
-cursor = conn.cursor()
-cursor.execute("""
-    SELECT e.ZTITLE, p.ZTITLE, e.ZPUBDATE, e.ZTRANSCRIPTIDENTIFIER
-    FROM ZMTEPISODE e JOIN ZMTPODCAST p ON e.ZPODCAST = p.Z_PK
-    WHERE e.ZTRANSCRIPTIDENTIFIER IS NOT NULL ORDER BY e.ZPUBDATE DESC
-""")
-
-extracted = 0
-for row in cursor.fetchall():
-    episode_title, podcast_name, pub_date_cocoa, transcript_id = row
-    podcast_id = apple_to_id.get(podcast_name)
-    if not podcast_id:
-        continue
-
-    ttml_path = find_ttml_file(transcript_id)
-    if not ttml_path:
-        continue
-
-    pub_date = COCOA_EPOCH + timedelta(seconds=pub_date_cocoa)
-    episode_id = f"{podcast_id}-{pub_date.strftime('%Y-%m-%d')}-{hashlib.md5(episode_title.encode()).hexdigest()[:4]}"
-
-    transcript_path = TRANSCRIPTS_DIR / podcast_id / f"{episode_id}.txt"
-    if transcript_path.exists():
-        continue
-
-    text = parse_ttml(ttml_path)
-    if len(text.split()) < 100:
-        continue
-
-    transcript_path.parent.mkdir(parents=True, exist_ok=True)
-    header = f"{'='*60}\nEpisode: {episode_id}\nPodcast: {podcast_id}\nsource: apple\noriginal_title: {episode_title}\npub_date: {pub_date.strftime('%Y-%m-%d')}\n{'='*60}\n\n"
-    transcript_path.write_text(header + text + "\n")
-    print(f"  + {episode_id}")
-    extracted += 1
-
-conn.close()
-print(f"✓ Extracted: {extracted} new transcripts")
+# Eller kör dry-run för att se vad som saknas
+python3 scripts/fetch_transcript_pure_python.py --dry-run --year 2026
 ```
 
 ---
