@@ -102,36 +102,36 @@ for t in cached:
     print(f"  Saved to: {transcript_path}")
 ```
 
-## Workflow: Download Missing Transcripts
+## Workflow: Download Missing Transcripts (Recommended)
 
-For transcripts not yet cached, use the FetchTranscript helper script:
+Use the pure Python script with bearer token:
 
 ```bash
-# Download using OUR podcast ID (recommended)
-python scripts/download_apple_transcripts.py --podcast marketmakers --max 10
-python scripts/download_apple_transcripts.py --podcast fillorkill --max 10
+# 1. Ensure bearer token is valid (refresh if needed)
+./scripts/refresh_apple_token.sh
 
-# Or using Apple's podcast name (also works)
-python scripts/download_apple_transcripts.py --podcast "Market Makers" --max 10
+# 2. Check what's missing
+python3 scripts/fetch_transcript_pure_python.py --dry-run --year 2026
 
-# Download all available transcripts
-python scripts/download_apple_transcripts.py --max 50
+# 3. Download all missing transcripts
+python3 scripts/fetch_transcript_pure_python.py --year 2026
+
+# 4. Or limit downloads
+python3 scripts/fetch_transcript_pure_python.py --year 2026 --max 10
 ```
 
-**VIKTIGT:** Scriptet stodjer BADE:
-- Vara podcast-ID:n (t.ex. `marketmakers`, `fillorkill`, `borspodden`)
-- Apple-namn (t.ex. `Market Makers`, `Fill or Kill`, `Börspodden`)
-
-Scriptet oversatter automatiskt via `data/podcast_mapping.json`.
-
 The script:
-1. Resolves podcast ID to Apple name (if needed) using `podcast_mapping.json`
+1. Loads bearer token from `tools/apple-transcripts/bearer_token.txt`
 2. Queries Apple Podcasts DB for episodes with transcripts
-3. Checks which are not yet in local TTML cache
-4. Uses FetchTranscript tool to download TTML files
-5. Saves to the cache directory for later extraction
+3. Filters to episodes missing local transcript files
+4. Downloads TTML via Apple API
+5. Extracts text and saves directly to `data/transcripts/{podcast_id}/`
 
-After downloading, **you must extract TTML to text files** - see orchestrate-podcast-publish skill for extraction code.
+**No extraction step needed** - transcripts are saved as ready-to-use text files.
+
+### Legacy Script (DEPRECATED)
+
+`download_apple_transcripts.py` exists but uses the broken FetchTranscript tool. Don't use it.
 
 ## AppleTranscript Object
 
@@ -184,7 +184,22 @@ has_timestamps: True
 
 ## Known Issues
 
-### FetchTranscript fork() Crash
+### Bearer Token Expiration (401 Errors)
+
+**Symptom:**
+```
+401 Client Error: Unauthorized for url: https://amp-api.podcasts.apple.com/...
+```
+
+**Orsak:**
+Bearer token har gått ut (giltig i 30 dagar).
+
+**Lösning:**
+```bash
+./scripts/refresh_apple_token.sh
+```
+
+### FetchTranscript fork() Crash (DEPRECATED)
 
 **Symptom:**
 ```
@@ -192,21 +207,32 @@ objc[...]: +[NSDateFormatter initialize] may have been in progress in another th
 ```
 
 **Orsak:**
-FetchTranscript är en Objective-C binär. Python's subprocess använder fork() som inte är kompatibelt med Objective-C runtime.
+FetchTranscript använder internt `fork()` (rad 14 i FetchTranscript.m) för att wrappa potentiella segfaults. På modern macOS kraschar detta eftersom Objective-C runtime redan är initierad.
+
+**VIKTIG LÄRDOM:** Problemet är i FetchTranscript-verktyget självt, INTE i hur vi anropar det. Varken subprocess, osascript, eller att köra direkt i Terminal fungerar.
 
 **Lösning:**
-Scriptet `download_apple_transcripts.py` använder automatiskt `osascript` workaround:
-- Kör FetchTranscript via `osascript -e 'do shell script "..."'`
-- Undviker `--cache-bearer-token` som orsakar ytterligare fork() vid token refresh
+Använd INTE FetchTranscript. Istället:
 
-**Om du kör FetchTranscript manuellt:**
+1. **GetBearerToken** - Ny binär som hämtar bearer token utan fork()
+2. **fetch_transcript_pure_python.py** - Ren Python som använder token för att ladda ner
+
 ```bash
-# UNDVIK detta (kan krascha):
-./FetchTranscript 12345 --cache-bearer-token
+# Hämta ny token
+./scripts/refresh_apple_token.sh
 
-# Använd detta istället:
-osascript -e 'do shell script "cd /path/to/tools/apple-transcripts && ./FetchTranscript 12345"'
+# Ladda ner transcripts
+python3 scripts/fetch_transcript_pure_python.py --year 2026
 ```
+
+### Varför GetBearerToken fungerar
+
+GetBearerToken löser fork()-problemet genom att:
+1. Använda `continueWithBlock:` istället för `thenWithBlock:` för promise-hantering
+2. Göra synkrona HTTP-anrop inuti callback:en
+3. Anropa `_exit(0)` direkt efter att ha skrivit ut token för att undvika promise cleanup-kraschen
+
+Se `tools/apple-transcripts/README.md` för tekniska detaljer.
 
 ## Checking Transcript Availability
 

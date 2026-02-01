@@ -87,17 +87,21 @@ Vad vill du gora?
 See [references/apple-method.md](references/apple-method.md)
 
 **Key points:**
-- Check if transcript exists in Apple Podcasts database
-- Use `download_apple_transcripts.py` script to download TTML
-- **VIKTIGT:** Scriptet stodjer BADE vara podcast-ID:n (`marketmakers`) OCH Apple-namn (`Market Makers`)
-- After download, extract TTML to text (see orchestrate-podcast-publish skill)
+- Uses bearer token to authenticate with Apple API
+- Token valid 30 days, refresh with `./scripts/refresh_apple_token.sh`
+- Downloads TTML and extracts text in one step
 - Transcript stored in `data/transcripts/{podcast_id}/`
 
 **Exempel:**
 ```bash
-# Anvand vara podcast-ID:n
-python3 scripts/download_apple_transcripts.py --podcast marketmakers --max 10
-python3 scripts/download_apple_transcripts.py --podcast fillorkill --max 5
+# 1. Refresh token if needed (valid 30 days)
+./scripts/refresh_apple_token.sh
+
+# 2. Download missing transcripts
+python3 scripts/fetch_transcript_pure_python.py --year 2026
+
+# 3. Limit if many missing
+python3 scripts/fetch_transcript_pure_python.py --year 2026 --max 10
 ```
 
 ### For Whisper method
@@ -153,8 +157,23 @@ Transkript sparade i:
 | Podcast not in mapping | Add to `data/podcast_mapping.json` |
 | Transcript shows as missing but file exists | Check filename format: `{podcast_id}-{YYYY}-{MM}-{DD}-{hash}.txt` |
 | No new episodes for active podcast | Open Apple Podcasts app to trigger sync |
-| FetchTranscript fork() crash | Normal - scriptet hanterar detta automatiskt via osascript workaround |
-| `objc[...]: NSDateFormatter initialize` | Scriptet använder osascript för att undvika detta. Om det ändå uppstår, kör scriptet igen |
+| 401 Unauthorized error | Bearer token expired - run `./scripts/refresh_apple_token.sh` |
+| "No bearer token found" | Run `./scripts/refresh_apple_token.sh` to create one |
+| FetchTranscript fork() crash | **Deprecated tool** - use `fetch_transcript_pure_python.py` instead |
+
+### Bearer Token Management
+
+Apple's API requires a signed JWT token (valid 30 days). The token is managed automatically:
+
+```bash
+# Check/refresh token
+./scripts/refresh_apple_token.sh
+
+# Sync transcripts (uses cached token)
+python3 scripts/fetch_transcript_pure_python.py --year 2026
+```
+
+If you get 401 errors, the token has expired. Just run the refresh script.
 
 ---
 
