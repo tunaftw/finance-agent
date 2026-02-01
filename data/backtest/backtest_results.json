@@ -1,0 +1,114 @@
+{
+  "run_at": "2026-01-24T22:37:13.777930",
+  "config": {
+    "start_date": "2024-03-21T17:25:00+00:00",
+    "end_date": "2026-01-23T16:35:00+00:00",
+    "latency_ms": 500,
+    "slippage_pct": 0.5,
+    "exit_strategy": "end_of_day"
+  },
+  "summary": {
+    "total_signals": 9,
+    "trades_executed": 8,
+    "trades_skipped": 1,
+    "winning_trades": 4,
+    "losing_trades": 4,
+    "win_rate": 0.5,
+    "total_return_pct": 12.37315855257445,
+    "avg_return_pct": 1.5466448190718063,
+    "best_trade_pct": 16.50836541428747,
+    "worst_trade_pct": -11.345969704856515,
+    "buy_signals": 7,
+    "sell_signals": 2
+  },
+  "trades": [
+    {
+      "date": "2025-01-17T12:00:00+00:00",
+      "company": "cheffelo",
+      "ticker": "CHEF.ST",
+      "title": "Cheffelo publicerar preliminär EBIT för fjärde kvartalet till följd av ökat rörelseresultat",
+      "signal": "STRONG_BUY",
+      "confidence": 0.9,
+      "entry_price": 25.642794356960227,
+      "exit_price": 27.927566528320312,
+      "return_pct": 8.909996857421
+    },
+    {
+      "date": "2025-04-23T05:20:00+00:00",
+      "company": "volvo",
+      "ticker": "VOLV-B.ST",
+      "title": "AB Volvo: Volvokoncernen - det första kvartalet 2025",
+      "signal": "STRONG_SELL",
+      "confidence": 0.85,
+      "entry_price": 246.56100303649902,
+      "exit_price": 251.8000030517578,
+      "return_pct": -2.124829129804949
+    },
+    {
+      "date": "2025-04-24T06:00:00+00:00",
+      "company": "kinnevik",
+      "ticker": "KINV-B.ST",
+      "title": "Kinneviks delårsrapport 1 januari – 31 mars 2025",
+      "signal": "BUY",
+      "confidence": 0.7,
+      "entry_price": 76.54080368041991,
+      "exit_price": 77.54000091552734,
+      "return_pct": 1.305443877071594
+    },
+    {
+      "date": "2025-07-17T05:20:00+00:00",
+      "company": "volvo",
+      "ticker": "VOLV-B.ST",
+      "title": "AB Volvo: Volvokoncernen - det andra kvartalet 2025",
+      "signal": "STRONG_SELL",
+      "confidence": 0.85,
+      "entry_price": 273.625,
+      "exit_price": 264.1000061035156,
+      "return_pct": 3.481039340880539
+    },
+    {
+      "date": "2025-10-17T05:20:00+00:00",
+      "company": "volvo",
+      "ticker": "VOLV-B.ST",
+      "title": "AB Volvo: Volvokoncernen - det tredje kvartalet 2025",
+      "signal": "STRONG_BUY",
+      "confidence": 0.85,
+      "entry_price": 252.05400306701657,
+      "exit_price": 247.39999389648438,
+      "return_pct": -1.8464333491639788
+    },
+    {
+      "date": "2025-10-30T10:00:00+00:00",
+      "company": "bioarctic",
+      "ticker": "BIOA-B.ST",
+      "title": "BioArctic: Försäljningen av Leqembi® uppgick till 18 miljarder yen under det tredje kvartalet 2025",
+      "signal": "BUY",
+      "confidence": 0.7,
+      "entry_price": 297.47999999999996,
+      "exit_price": 290.0,
+      "return_pct": -2.514454753260711
+    },
+    {
+      "date": "2025-11-05T06:45:00+00:00",
+      "company": "cheffelo",
+      "ticker": "CHEF.ST",
+      "title": "Cheffelo presenterar resultat för tredje kvartalet 2025 – accelererad tillväxt och ökad kundanskaffning, vilket har tredubblat EBIT hittills i år",
+      "signal": "STRONG_BUY",
+      "confidence": 0.85,
+      "entry_price": 85.7265030670166,
+      "exit_price": 76.0,
+      "return_pct": -11.345969704856515
+    },
+    {
+      "date": "2026-01-19T10:30:00+00:00",
+      "company": "cheffelo",
+      "ticker": "CHEF.ST",
+      "title": "Cheffelo publicerar preliminär EBIT för fjärde kvartalet till följd av ökat rörelseresultat",
+      "signal": "STRONG_BUY",
+      "confidence": 0.95,
+      "entry_price": 82.9125,
+      "exit_price": 96.5999984741211,
+      "return_pct": 16.50836541428747
+    }
+  ]
+}
