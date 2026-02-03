@@ -1,0 +1,373 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "igborssnack-2026-02-03-1a5d",
+  "podcast_name": "IG Börssnack",
+  "episode_title": "Elon Musks rymd-AI, kraschen i silver & Patricks småbolag",
+  "episode_number": null,
+  "date": "2026-02-03",
+  "hosts": ["Patrick"],
+  "guests": [],
+  "main_topics": ["Silver-kraschen", "AI-bolag och OpenAI", "SpaceX förvärvar XAI", "Cybersäkerhet och LLM-risker", "Bitcoin", "Patricks småbolagsportfölj"],
+  "stocks_discussed": ["Nvidia", "Microsoft", "Meta", "SpaceX", "OpenAI", "MicroStrategy", "Fortinet", "Freja eID", "Norbit", "Argen", "Sonnet", "Ouson"],
+  "recommendations": [
+    {
+      "stock_name": "Cybersäkerhetsbolag (Fortinet m.fl.)",
+      "ticker": "FTNT",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Cybersäkerhetsbolagen har handlats ner efter att ha växt otroligt snabbt sedan 2020. Nu börjar omsättningstillväxten mattas av. Klassiskt läge där hype försvinner och värdering kommer ner till rimliga nivåer. LLM-säkerhet är en ny stor utmaning som kan driva efterfrågan.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag gillar ju sådana här lägen när det har handlats upp väldigt höga multiplar, man tror att det här ska gå ur skyarna. Man börjar se att det blir en plateau i omsättning. Det handlas ner, många blir trötta på det, hittar någonting annat, det pratas inte och då får det komma ner till lite för låg värdering helt enkelt.",
+      "sector": "technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Freja eID",
+      "ticker": "FREJA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Nytt lagförslag kan tvinga alla kommuner och statliga bolag att erbjuda Freja som e-legitimationsalternativ. Skulle kraftigt öka abonnemangskunder från 500 mot potentiellt 20 000. Behöver nå ~70-80 MSEK omsättning för lönsamhet (nu ~50 MSEK).",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det kom ett nytt lagförslag som säger att alla kommuner och statliga bolag måste erbjuda de e-alternativ som finns därute egentligen. Så då måste de både ha bankID och FrejaID.",
+      "sector": "technology",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Kommer svagheter i bolaget så straffas aktien hårt",
+      "catalyst_timing": "Lagförslag under behandling"
+    },
+    {
+      "stock_name": "Norbit",
+      "ticker": "NORBT",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Norskt bolag inom ekolod och undervattensavbildning. Screenat fram baserat på tillväxt i omsättning och lönsamhet. Mest lönsamma området är undervattensavbildning.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Vi har Norbit, det är norska bolaget. De är den här ekoloden då. Undervattensavbildning som är det största området och mest lönsamma.",
+      "sector": "technology",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Argen",
+      "ticker": "ARGX",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Belgiskt biotekbolag i framkant inom immunologiska läkemedel, fokuserar på IGG-antikroppar. Moget bolag som passerat biljon i omsättning, inte i tidig klinisk fas. Snabbväxande med ljus framtid om allt faller på plats.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "De är faktiskt i framkant vad det gäller immunförsvaret eller immunologiska läkemedel. Här är ju ett moget bolag på det sättet, som ett SoB eller Novo Nordisk.",
+      "sector": "healthcare",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": "Risk i att de har i princip ett biologiskt ämne de jobbar med",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sonnet (Polska Fortnox)",
+      "ticker": null,
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Polskt SaaS-bolag inom bokföringsprogram, likt svenska Fortnox. Polen är en snabbväxande marknad och potentiell europeisk ekonomisk motor. Har både self service (SaaS) och full service (redovisningsbyrå).",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här har både du och jag varit ganska intresserade av. De har själv service bland annat som en SaaS, typ som Fortnox. Polen är en otroligt snabbväxande marknad. Kan bli ett framtida europeisk motor.",
+      "sector": "technology",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ouson",
+      "ticker": "OUSON",
+      "action": "buy",
+      "confidence": "low",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Svenskt satellitbolag med 'satellite as a service'-modell. Bra momentum och rotation in i rymdsektorn 2026. Äger egen satellit och hyr ut kapacitet.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Rim the race, så tror jag det och bra momentum. Det börjar skrivs mycket om dem och de ligger bra till i det här årets rotation in i den här marknaden.",
+      "sector": "aerospace",
+      "market": "sweden",
+      "position_context": "Liten position i personlig portfölj",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Straffades hårt på rapporten trots högre omsättning än väntat. Molnintäkter slog inte förväntningarna. Kodbas börjar bli buggig - uppskattningsvis 10-20% AI-genererad kod. De tunga AI-investeringarna ger inte avkastning ännu.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Microsoft till exempel, som ju i högsta grad är med och angrensar den här branschen, de straffades ju väldigt hårt. Trots att omsättningen var högre än väntat. Just för att man såg att molnintäkterna slog inte förväntningarna.",
+      "sector": "technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Meta Platforms",
+      "ticker": "META",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Gick i motsatt riktning mot Microsoft. Aktien upp tvåsiffrigt på rapport. Både resultat och omsättning bra. Viktigast var stark guidance framåt. Zuckerberg ökade förmögenhet med 180 miljarder kronor på rapporten.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Meta däremot gick i andra riktningen. Aktien var upp tvåsiffrigt och både resultat och omsättning såg bra ut. Och framför allt kanske viktigast här var att man guidade starkt framåt.",
+      "sector": "technology",
+      "market": "us",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Silver",
+      "ticker": "XAG",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Patrick"],
+      "primary_speaker": "Patrick",
+      "discussion_summary": "Silverpriset handlades upp kraftigt på inflöden från småsparare och ETFer, delvis utan fundamentala faktorer. I fredags gick luften ur. Ursprungligt drev av underproduktion och AI-chipefterfrågan. Debasement-teorin lockade retail-investerare.",
+      "quotes": [
+        {
+          "speaker": "Patrick",
+          "text": "Råvarorna och kanske framförallt silver har ju handlats upp väldigt kraftigt den senaste tiden och det råder ju inget tvivel om att det här beror på stora inflöden av kapital. Det är småsparare och det är ETF-er som har drivit den här rörelsen.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": ["Underproduktion", "Ökad AI-chipefterfrågan"],
+        "bear_case": ["Spekulativt driven", "Marginalkrav ökade"],
+        "catalysts": [],
+        "risks": ["Leverage-tvångssäljningar"]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "OpenAI",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Patrick"],
+      "primary_speaker": "Patrick",
+      "discussion_summary": "OpenAI har det kämpigt. Paus i det stora avtalet med Nvidia på 100 miljarder dollar. Jensen Huang tog avstånd i intervju. Jämförelse med Spotify - OpenAI når troligen ingen inflection point på intäkter trots höjda priser till 139 kr/mån. IPO planeras.",
+      "quotes": [
+        {
+          "speaker": "Patrick",
+          "text": "Det är lite kämpigt för OpenAI just nu får man säga. Det är ju någon slags paus i det här stora avtalet som man väntade sig med Nvidia.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "custom": ["139 kr/mån prenumerationspris"]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["Nvidia-avtal pausat", "Når ingen inflection point"],
+        "catalysts": ["IPO planerad"],
+        "risks": ["Säkerhetsbrister i LLM"]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "SpaceX / XAI",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Patrick"],
+      "primary_speaker": "Patrick",
+      "discussion_summary": "SpaceX ska förvärva AI-bolaget XAI. Värderas till ~11 000 miljarder. Elon Musk pratar om datacenter i rymden. SpaceX planerar börsnotering i juni. Kan handlas via pre-IPO på IG.",
+      "quotes": [
+        {
+          "speaker": "Patrick",
+          "text": "SpaceX ska förvärva AI-bolaget XAI. Det blir ju värderat till typ 11 000 miljarder. Det är liksom det mest HC man kan tänka sig. Det är ett rymdbolag och det mest hypade av dem och då AI.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "custom": ["Värdering ~11 000 miljarder SEK"]
+      },
+      "thesis": {
+        "bull_case": ["Kombinerar rymd och AI", "IPO i juni"],
+        "bear_case": ["Extremt hög värdering", "Datacenter i rymden är 'skitsnack' enligt experter"],
+        "catalysts": ["IPO juni 2026"],
+        "risks": ["Hypat utan substans"]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "MicroStrategy",
+      "ticker": "MSTR",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Patrick"],
+      "primary_speaker": "Patrick",
+      "discussion_summary": "Har 700-1000 bitcoins och NAV runt 76 000 dollar per bitcoin. Nu nära den nivån. Spekuleras om de måste sälja om bitcoin går under NAV. Saylor vill göra det sista han gör att sälja - en sådan signal skulle krasha bitcoin.",
+      "quotes": [
+        {
+          "speaker": "Patrick",
+          "text": "De har ju ett NAV runt 76 000 dollar. Det är ju nästan där vi är idag. Då börjar det bli spekulerat vad måste de göra om vi går under det här? Han kommer nog göra det sista han vill i att börja sälja av.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "custom": ["NAV 76 000 USD per BTC", "700-1000 BTC innehav"]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["Nära NAV-nivå", "Tvångsförsäljningsrisk"],
+        "catalysts": [],
+        "risks": ["Bitcoin under 76k triggar säljsignal"]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Freja eID",
+      "ticker": "FREJA",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Patrick"],
+      "primary_speaker": "Patrick",
+      "discussion_summary": "E-legitimationsbolag liknande BankID men med möjlighet att skala internationellt (170 länder). Har ~500 abonnemangskunder vs BankID:s 5000. Nytt lagförslag kan tvinga statliga aktörer att erbjuda Freja. Behöver 70-80 MSEK för lönsamhet, nu på 50 MSEK.",
+      "quotes": [
+        {
+          "speaker": "Patrick",
+          "text": "Det kom ett nytt lagförslag som säger att alla kommuner och statliga bolag måste erbjuda de e-alternativ som finns. Jag tror att man kan räkna uppemot kanske 20 000 abonnemangskunder som total möjlig adresserbar marknad.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "revenue_growth": "Rullande ~50 MSEK, behöver 70-80 MSEK för breakeven",
+        "custom": ["500 abonnemangskunder vs 5000 för BankID"]
+      },
+      "thesis": {
+        "bull_case": ["Lagförslag kan 40x abonnemangskunder", "Kan skala internationellt"],
+        "bear_case": ["Merparten av intäkter från Sverige", "Ej lönsamt ännu"],
+        "catalysts": ["Lagförslag under behandling"],
+        "risks": ["Aktien straffas hårt vid svaghet"]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Intel Go",
+      "ticker": "INTGO",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Patrick"],
+      "primary_speaker": "Patrick",
+      "discussion_summary": "KPMG kom fram till att 640 av 644 MSEK aldrig borde intäktsförts. Jämförs med Enron men kan vara värre procentuellt. Finansiering via EKN (statligt) baserat på fiktiva ordrar.",
+      "quotes": [
+        {
+          "speaker": "Patrick",
+          "text": "KPMG kommit fram till att 640 av 644 miljoner kronor aldrig borde intäktsfört i det där kvartalet. Det här är ju så grovt så jag vet inte vad man ska jämföra det med. Om man bara ska jämföra med börsvärde och procentuellt hur mycket man har hittat på så är det här garanterat värre än Enron.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "custom": ["640/644 MSEK fiktiv omsättning"]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["Nästan 100% fiktiv omsättning", "Bedrägeri"],
+        "catalysts": [],
+        "risks": ["Kriminellt"]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Jag gillar ju sådana här lägen när det har handlats upp väldigt höga multiplar, man tror att det här ska gå ur skyarna. Man börjar se att det blir en plateau i omsättning. Det handlas ner, många blir trötta på det, hittar någonting annat, det pratas inte och då får det komma ner till lite för låg värdering helt enkelt.",
+      "summary": "Leta efter tidigare hype-aktier där intresset försvunnit och värderingen kommit ner",
+      "category": "philosophy",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["contrarian", "valuation", "timing"]
+    },
+    {
+      "quote": "Nu är det ingenting. Nu är det bara, som du brukar också säga, proxy på riskvilja. När det är smooth sailing, finns inget mån på himlen, då går bitcoin bara. Så fort det finns någonting, geopolitiskt, ekonomiskt, var det nu är, då handlas bitcoin ner.",
+      "summary": "Bitcoin har blivit en ren riskvilje-proxy utan fundamentalt stöd",
+      "category": "wisdom",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": ["psychology", "market_cycles"]
+    },
+    {
+      "quote": "Börjar man se att marginaleffekten kommer inte riktigt, att man investerar mycket men man ökar inte lönsamheten, då blir man ju straffad helt enkelt.",
+      "summary": "AI-investeringar som inte ger marginalförbättring straffas av marknaden",
+      "category": "lesson",
+      "speaker": "Patrick",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["valuation", "growth"]
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Patrick",
+      "quote": "Vad är bitcoin just nu? Jag vet inte, bara trash kanske. Det är svårt när det inte är underliggande. Fler och fler kommer tappa tron ju längre vi står och stampar.",
+      "confidence": "medium"
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet behandlar silver-kraschen driven av spekulation och ETF-flöden. Diskuterar AI-sektorns problem där OpenAI kämpar med Nvidia-avtal och Microsoft straffas trots bra omsättning. SpaceX förvärvar XAI till extrem värdering. Varnar för LLM-säkerhetsrisker med prompt injection. Patricks småbolagsportfölj inkluderar Freja eID (lagförslag-katalysator), Norbit, Argen och Ouson. Intel Go-bedrägeriet jämförs med Enron.",
+  "key_takeaways": [
+    "Cybersäkerhetsbolag kan vara intressanta efter nedvärdering - LLM skapar nya säkerhetsutmaningar",
+    "Freja eID kan få kraftig tillväxt om lagförslag om alternativa e-legitimationer går igenom",
+    "OpenAI och Microsoft kämpar - AI-investeringar ger inte förväntad avkastning",
+    "Bitcoin är nu bara en riskvilje-proxy utan fundamentalt stöd",
+    "MicroStrategy närmar sig NAV-nivå på 76 000 USD - potentiell tvångsförsäljningsrisk"
+  ],
+  "model_used": "claude-opus-4-5-20251101"
+}
