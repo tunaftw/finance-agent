@@ -1,0 +1,176 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kortochlang-2026-02-02-8f04",
+  "podcast_name": "Kort & Lång – analyspodden från Di",
+  "episode_title": "När det vänder går det fort",
+  "episode_number": null,
+  "date": "2026-02-02",
+  "hosts": ["Anna", "Robban", "Johan"],
+  "guests": [],
+  "main_topics": [
+    "Trump-tullar och Grönland",
+    "Kevin Walsh Fed-nominering",
+    "Svenska småbolags svaga start",
+    "MIPS aktieanalys",
+    "Rapportveckan framåt"
+  ],
+  "stocks_discussed": ["MIPS", "Stillfront", "Academedia", "NCC", "Sandvik", "Boliden", "Lundin Gold", "Lundin Mining", "Securitas", "Kinnevik", "Vitrolife", "Alfa Laval", "Saab", "Volvo Cars", "Scandi Standard", "Evolution", "Sobi", "A3", "Railers", "Dynavox", "Lagercrantz", "Lifco", "Indutrade", "Hexagon", "Kongsberg", "Apotea", "Betsson"],
+  "recommendations": [
+    {
+      "stock_name": "MIPS AB",
+      "ticker": "MIPS",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Robban",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Kvalitetsbolag med fantastisk historik som vuxit 50% per år fram till 2021. Aktien ner över 75% från toppen. Utbytescykel närmar sig för hjälmar (3-5 år). Koroid-förvärvet ger korsförsäljningsmöjligheter. Fortfarande 20%+ rörelsemarginal. Skalfördel om tillväxten tar fart.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Nu har ju aktien kommit ner väldigt mycket. Den har kommit ner mer än 75% sen toppen. Det jag ändå tycker är viktigt att ta med sig här är att om man jämför mot ett Thule... en cykelhjälm ska man officiellt byta ut på mellan 3-5 år.",
+      "sector": "consumer",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Sandvik AB",
+      "ticker": "SAND",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Robban",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Presenterar fantastisk Q4-rapport men metallpriser faller kraftigt. Säljer till gruvsektorn och nya gruvor öppnas vid höga priser. Risk för inställda beställningar framåt. Robban hade kortat silver och var rätt.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Jag vill inte vara Stefan Widing, vd på Sandvik. De presenterar ju en fantastisk rapport för fjärde kvartalet men nu när metallpriserna faller igen.",
+      "sector": "industrials",
+      "market": "sweden",
+      "position_context": "Short position via silver",
+      "downside_note": null,
+      "catalyst_timing": "Rapport imorgon (tisdag)"
+    },
+    {
+      "stock_name": "Stillfront Group",
+      "ticker": "SF",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Anna",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Mobilspelsbolag som gasade för hårt med för stor skuldbörda. Verkar på trist marknad. En miljard nedskrivning kom nu - osäkert om det är den sista. Vinstvarning två dagar innan rapport.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det här är ju ett bolag som gasade lite väl hårt och gjorde lite väl mycket och fick en alldeles för stor skuldbörda utan att verksamheten gick så bra.",
+      "sector": "gaming",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": "Rapport onsdag"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "MIPS AB",
+      "ticker": "MIPS",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Robban", "Anna", "Johan"],
+      "primary_speaker": "Robban",
+      "discussion_summary": "Detaljerad genomgång av MIPS som veckans aktie. Bolaget tillverkar skyddsinlägg för hjälmar och har historiskt vuxit 50% per år med 50%+ rörelsemarginal. Aktien har fallit över 75% men verksamheten stabiliseras med ~10% tillväxt. Koroid-förvärvet ger synergier. Kritik mot 2-miljardermålet i omsättning som kan driva dåliga beslut.",
+      "quotes": [
+        {
+          "speaker": "Robban",
+          "text": "Det här är ett bolag som det är i grunden ett jättefint kvalitetsbolag. Ett fantastiskt bolag av svensk uppfinning som gick på börsen 2017 och växte som hur mycket som helst.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Robban",
+          "text": "Min take är ju att nu börjar det snart bli dags att börja byta ut de här. Så det finns flera faktorer som spelar in här. Dels så mår ju konsumenten bättre och allt det här.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Robban",
+          "text": "Jag är väldigt kritisk generellt sett mot mål som är på omsättningsnivå i en fast siffra.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "margin": "20%+ rörelsemarginal",
+        "revenue_growth": "10% organiskt",
+        "custom": ["Bruttomarginal 70%+", "~100 anställda"]
+      },
+      "thesis": {
+        "bull_case": ["Utbytescykel för hjälmar 3-5 år", "Koroid-förvärv ger synergier", "Konsumentåterhämtning", "Låg kostnadsbas - skalar bra"],
+        "bear_case": ["2-miljardersmålet kan driva dåliga förvärv", "Dollar motvind", "Lageröverhang efter pandemin"],
+        "catalysts": ["Utbytescykel börjar", "Tillväxt via Koroid"],
+        "risks": ["Ledningen jagar omsättningsmål"]
+      },
+      "position_disclosure": "unknown"
+    },
+    {
+      "stock_name": "Stillfront Group",
+      "ticker": "SF",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Anna", "Robban"],
+      "primary_speaker": "Anna",
+      "discussion_summary": "Stillfront kom med en miljard i nedskrivningar och vinstvarning två dagar innan rapporten. Bolaget har expanderat för snabbt med för hög skuldsättning. Mobilspelsmarknaden beskrivs som trist.",
+      "quotes": [
+        {
+          "speaker": "Anna",
+          "text": "Man är ju nästan fascinerad över det. De har gjort så mycket stora nedskrivningar och att de hittade en till miljard nedskrivning känns att säga hur mycket finns det att ta av?",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["Hög skuldsättning", "Trist marknad", "Återkommande nedskrivningar"],
+        "catalysts": [],
+        "risks": ["Fler nedskrivningar kan komma"]
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Man brukar argumentera för att småbolag är bättre än stora på grund av att de växer vinsterna mer. Men den senaste perioden har småbolags vinster krympt när de stora har vuxit. Det är fundamentalt underbyggt att småbolag ska ha gått sämre.",
+      "summary": "Småbolags underperformance är fundamentalt motiverad av svagare vinsttillväxt, inte bara flöden",
+      "category": "wisdom",
+      "speaker": "Robban",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["market_cycles", "valuation", "quality"]
+    },
+    {
+      "quote": "När det vänder så kan det gå fort. För då får man ju ändå den här dubbeleffekten. Flöden och värderingen har varit en del. Så en dubbeleffekt som ger småbolagen en rusning kommer ju förr eller senare.",
+      "summary": "Småbolagsåterhämtning kan bli stark - dubbeleffekt av flöden och värdering",
+      "category": "wisdom",
+      "speaker": "Anna",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["market_cycles", "timing", "contrarian"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Di:s analyspod diskuterar Trump-tullarna mot Sverige, Kevin Walsh som ny Fed-chef och svenska småbolags rekordsvaga start på året. MIPS lyfts som veckans aktie - ett kvalitetsbolag ner 75% från topp med potential vid utbytescykel för hjälmar. Stillfront varnas för med en ny miljard i nedskrivningar. Rapportveckan framåt blir fullspäckad med Alfa Laval, Boliden, Saab och Evolution.",
+  "key_takeaways": [
+    "Kevin Walsh som Fed-chef ses som rimlig kompromiss - marknaden lättad",
+    "Svenska småbolag hade sämsta starten någonsin - fundamentalt motiverat",
+    "MIPS ner 75% men kvalitet kvar - utbytescykel närmar sig",
+    "Stillfront fortsatta nedskrivningar - undvik",
+    "Rapportveckan: Alfa Laval, Boliden, Kinnevik, Saab, Evolution"
+  ],
+  "model_used": "claude-opus-4-5-20251101"
+}
