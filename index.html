@@ -605,7 +605,7 @@
                                                                                 'border-yellow-600': q.context === 'thesis',
                                                                                 'border-gray-600': !q.context || q.context === 'conclusion'
                                                                             }">
-                                                                    <span x-text="q.text ? ('\u0022' + q.text + '\u0022') : ''"></span>
+                                                                    <span x-text="q.text"></span>
                                                                     <div class="text-gray-500 mt-0.5 not-italic">
                                                                         <span x-text="q.speaker ? ('— ' + q.speaker) : ''"></span>
                                                                         <span x-show="q.timestamp" class="text-gray-600" x-text="q.timestamp ? (' (' + q.timestamp + ')') : ''"></span>
@@ -1842,7 +1842,7 @@
                                             <span x-show="speaker.owns_position" class="text-xs bg-blue-600 px-1.5 py-0.5 rounded">Äger</span>
                                         </div>
                                         <p class="text-sm text-gray-300 mt-1" x-text="speaker.argument || speaker.key_argument"></p>
-                                        <p x-show="speaker.quote" class="text-xs text-gray-400 mt-1 italic" x-text="speaker.quote ? ('\u0022' + speaker.quote + '\u0022') : ''"></p>
+                                        <p x-show="speaker.quote" class="text-xs text-gray-400 mt-1 italic" x-text="speaker.quote"></p>
                                     </div>
                                 </div>
                             </template>
