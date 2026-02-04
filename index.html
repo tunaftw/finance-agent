@@ -534,11 +534,11 @@
                                                     </div>
 
                                                     <!-- Thesis breakdown -->
-                                                    <div x-show="seg.thesis && (seg.thesis.bull_case?.length || seg.thesis.bear_case?.length)" class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
-                                                        <div x-show="seg.thesis.bull_case?.length" class="bg-green-900/20 rounded p-2">
+                                                    <div x-show="seg.thesis && (seg.thesis?.bull_case?.length || seg.thesis?.bear_case?.length)" class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+                                                        <div x-show="seg.thesis?.bull_case?.length" class="bg-green-900/20 rounded p-2">
                                                             <div class="text-xs text-green-400 font-medium mb-1">Bull Case:</div>
                                                             <ul class="text-xs text-gray-300 space-y-1">
-                                                                <template x-for="point in seg.thesis.bull_case" :key="point">
+                                                                <template x-for="point in seg.thesis?.bull_case || []" :key="point">
                                                                     <li class="flex items-start">
                                                                         <span class="text-green-500 mr-1">+</span>
                                                                         <span x-text="point"></span>
@@ -546,10 +546,10 @@
                                                                 </template>
                                                             </ul>
                                                         </div>
-                                                        <div x-show="seg.thesis.bear_case?.length" class="bg-red-900/20 rounded p-2">
+                                                        <div x-show="seg.thesis?.bear_case?.length" class="bg-red-900/20 rounded p-2">
                                                             <div class="text-xs text-red-400 font-medium mb-1">Bear Case:</div>
                                                             <ul class="text-xs text-gray-300 space-y-1">
-                                                                <template x-for="point in seg.thesis.bear_case" :key="point">
+                                                                <template x-for="point in seg.thesis?.bear_case || []" :key="point">
                                                                     <li class="flex items-start">
                                                                         <span class="text-red-500 mr-1">-</span>
                                                                         <span x-text="point"></span>
@@ -560,19 +560,19 @@
                                                     </div>
 
                                                     <!-- Catalysts & Risks -->
-                                                    <div x-show="seg.thesis && (seg.thesis.catalysts?.length || seg.thesis.risks?.length)" class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
-                                                        <div x-show="seg.thesis.catalysts?.length" class="bg-blue-900/20 rounded p-2">
+                                                    <div x-show="seg.thesis && (seg.thesis?.catalysts?.length || seg.thesis?.risks?.length)" class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+                                                        <div x-show="seg.thesis?.catalysts?.length" class="bg-blue-900/20 rounded p-2">
                                                             <div class="text-xs text-blue-400 font-medium mb-1">Catalysts:</div>
                                                             <ul class="text-xs text-gray-300 space-y-1">
-                                                                <template x-for="point in seg.thesis.catalysts" :key="point">
+                                                                <template x-for="point in seg.thesis?.catalysts || []" :key="point">
                                                                     <li x-text="'→ ' + point"></li>
                                                                 </template>
                                                             </ul>
                                                         </div>
-                                                        <div x-show="seg.thesis.risks?.length" class="bg-yellow-900/20 rounded p-2">
+                                                        <div x-show="seg.thesis?.risks?.length" class="bg-yellow-900/20 rounded p-2">
                                                             <div class="text-xs text-yellow-400 font-medium mb-1">Risker:</div>
                                                             <ul class="text-xs text-gray-300 space-y-1">
-                                                                <template x-for="point in seg.thesis.risks" :key="point">
+                                                                <template x-for="point in seg.thesis?.risks || []" :key="point">
                                                                     <li x-text="'⚠️ ' + point"></li>
                                                                 </template>
                                                             </ul>
@@ -583,12 +583,12 @@
                                                     <div x-show="seg.financial_metrics && Object.values(seg.financial_metrics).some(v => v && v !== null && (!Array.isArray(v) || v.length > 0))" class="mb-3">
                                                         <div class="text-xs text-gray-500 mb-1">Nyckeltal:</div>
                                                         <div class="flex flex-wrap gap-2 text-xs">
-                                                            <span x-show="seg.financial_metrics.pe_ratio" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'P/E: ' + seg.financial_metrics.pe_ratio"></span>
-                                                            <span x-show="seg.financial_metrics.ev_ebitda" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'EV/EBITDA: ' + seg.financial_metrics.ev_ebitda"></span>
-                                                            <span x-show="seg.financial_metrics.ev_sales" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'EV/Sales: ' + seg.financial_metrics.ev_sales"></span>
-                                                            <span x-show="seg.financial_metrics.margin" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'Marginal: ' + seg.financial_metrics.margin"></span>
-                                                            <span x-show="seg.financial_metrics.revenue_growth" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'Tillväxt: ' + seg.financial_metrics.revenue_growth"></span>
-                                                            <span x-show="seg.financial_metrics.dividend_yield" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'Utd.yield: ' + seg.financial_metrics.dividend_yield"></span>
+                                                            <span x-show="seg.financial_metrics?.pe_ratio" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'P/E: ' + seg.financial_metrics?.pe_ratio"></span>
+                                                            <span x-show="seg.financial_metrics?.ev_ebitda" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'EV/EBITDA: ' + seg.financial_metrics?.ev_ebitda"></span>
+                                                            <span x-show="seg.financial_metrics?.ev_sales" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'EV/Sales: ' + seg.financial_metrics?.ev_sales"></span>
+                                                            <span x-show="seg.financial_metrics?.margin" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'Marginal: ' + seg.financial_metrics?.margin"></span>
+                                                            <span x-show="seg.financial_metrics?.revenue_growth" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'Tillväxt: ' + seg.financial_metrics?.revenue_growth"></span>
+                                                            <span x-show="seg.financial_metrics?.dividend_yield" class="px-2 py-0.5 bg-gray-700 rounded" x-text="'Utd.yield: ' + seg.financial_metrics?.dividend_yield"></span>
                                                         </div>
                                                     </div>
 
@@ -596,7 +596,7 @@
                                                     <div x-show="seg.quotes?.length" class="mb-3">
                                                         <div class="text-xs text-gray-500 mb-1">Citat från diskussionen:</div>
                                                         <div class="space-y-2">
-                                                            <template x-for="(q, qIndex) in seg.quotes" :key="qIndex">
+                                                            <template x-for="(q, qIndex) in seg.quotes || []" :key="qIndex">
                                                                 <blockquote class="text-xs text-gray-400 italic border-l-2 pl-2"
                                                                             :class="{
                                                                                 'border-green-600': q.context === 'bull_case',
@@ -605,10 +605,10 @@
                                                                                 'border-yellow-600': q.context === 'thesis',
                                                                                 'border-gray-600': !q.context || q.context === 'conclusion'
                                                                             }">
-                                                                    <span x-text="'\"' + q.text + '\"'"></span>
+                                                                    <span x-text="q.text ? ('\"' + q.text + '\"') : ''"></span>
                                                                     <div class="text-gray-500 mt-0.5 not-italic">
-                                                                        <span x-text="'— ' + q.speaker"></span>
-                                                                        <span x-show="q.timestamp" class="text-gray-600" x-text="' (' + q.timestamp + ')'"></span>
+                                                                        <span x-text="q.speaker ? ('— ' + q.speaker) : ''"></span>
+                                                                        <span x-show="q.timestamp" class="text-gray-600" x-text="q.timestamp ? (' (' + q.timestamp + ')') : ''"></span>
                                                                         <span x-show="q.context" class="ml-1 px-1 py-0.5 rounded text-[10px]"
                                                                               :class="{
                                                                                   'bg-green-900/50 text-green-400': q.context === 'bull_case',
@@ -664,19 +664,19 @@
                                                 <p x-show="seg.discussion_summary" class="text-sm text-gray-300 mb-2" x-text="seg.discussion_summary"></p>
 
                                                 <!-- Thesis breakdown -->
-                                                <div x-show="seg.thesis && (seg.thesis.bull_case?.length || seg.thesis.bear_case?.length)" class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-2">
-                                                    <div x-show="seg.thesis.bull_case?.length" class="bg-green-900/20 rounded p-2">
+                                                <div x-show="seg.thesis && (seg.thesis?.bull_case?.length || seg.thesis?.bear_case?.length)" class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-2">
+                                                    <div x-show="seg.thesis?.bull_case?.length" class="bg-green-900/20 rounded p-2">
                                                         <div class="text-xs text-green-400 font-medium mb-1">Bull Case:</div>
                                                         <ul class="text-xs text-gray-300 space-y-0.5">
-                                                            <template x-for="point in seg.thesis.bull_case" :key="point">
+                                                            <template x-for="point in seg.thesis?.bull_case || []" :key="point">
                                                                 <li x-text="'+ ' + point"></li>
                                                             </template>
                                                         </ul>
                                                     </div>
-                                                    <div x-show="seg.thesis.bear_case?.length" class="bg-red-900/20 rounded p-2">
+                                                    <div x-show="seg.thesis?.bear_case?.length" class="bg-red-900/20 rounded p-2">
                                                         <div class="text-xs text-red-400 font-medium mb-1">Bear Case:</div>
                                                         <ul class="text-xs text-gray-300 space-y-0.5">
-                                                            <template x-for="point in seg.thesis.bear_case" :key="point">
+                                                            <template x-for="point in seg.thesis?.bear_case || []" :key="point">
                                                                 <li x-text="'- ' + point"></li>
                                                             </template>
                                                         </ul>
@@ -685,10 +685,10 @@
 
                                                 <!-- Quotes -->
                                                 <div x-show="seg.quotes?.length" class="space-y-1">
-                                                    <template x-for="(q, i) in seg.quotes.slice(0, 3)" :key="i">
+                                                    <template x-for="(q, i) in (seg.quotes || []).slice(0, 3)" :key="i">
                                                         <blockquote class="text-xs text-gray-400 italic border-l-2 border-gray-600 pl-2">
                                                             "<span x-text="q.text"></span>"
-                                                            <span class="text-gray-500 not-italic" x-text="'— ' + q.speaker"></span>
+                                                            <span class="text-gray-500 not-italic" x-text="q.speaker ? ('— ' + q.speaker) : ''"></span>
                                                         </blockquote>
                                                     </template>
                                                 </div>
@@ -1183,7 +1183,7 @@
                 </div>
                 <div class="flex items-center justify-between text-sm text-gray-400">
                     <span x-text="'Coverage: ' + (currentEvolution?.filings_analyzed?.length || 0) + ' filings analyzed'"></span>
-                    <span x-show="currentEvolution?.last_updated" x-text="'Last updated: ' + new Date(currentEvolution.last_updated).toLocaleDateString('sv-SE')"></span>
+                    <span x-show="currentEvolution?.last_updated" x-text="currentEvolution?.last_updated ? 'Last updated: ' + new Date(currentEvolution.last_updated).toLocaleDateString('sv-SE') : ''"></span>
                 </div>
             </div>
 
@@ -1842,7 +1842,7 @@
                                             <span x-show="speaker.owns_position" class="text-xs bg-blue-600 px-1.5 py-0.5 rounded">Äger</span>
                                         </div>
                                         <p class="text-sm text-gray-300 mt-1" x-text="speaker.argument || speaker.key_argument"></p>
-                                        <p x-show="speaker.quote" class="text-xs text-gray-400 mt-1 italic" x-text="'\"' + speaker.quote + '\"'"></p>
+                                        <p x-show="speaker.quote" class="text-xs text-gray-400 mt-1 italic" x-text="speaker.quote ? ('\"' + speaker.quote + '\"') : ''"></p>
                                     </div>
                                 </div>
                             </template>
