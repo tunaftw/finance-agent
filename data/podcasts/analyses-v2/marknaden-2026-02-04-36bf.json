@@ -1,0 +1,863 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marknaden-2026-02-04-36bf",
+  "podcast_name": "Marknaden",
+  "episode_title": "AI-agenter startar religion, och härdsmälta för börsens småbolag: 20% gick till noll.",
+  "episode_number": null,
+  "date": "2026-02-04",
+  "source_type": "podcast",
+  "hosts": [
+    "Johan Isaksson",
+    "Lars Göranov",
+    "Hampus Prodén"
+  ],
+  "guests": [],
+  "main_topics": [
+    "AI-agenter och Maltbook",
+    "MicroStrategy och Bitcoin",
+    "SaaS-bolag under press från AI",
+    "Småbolag på börsen",
+    "Småbolagspremien",
+    "Börsnoteringar 2021 – facit",
+    "Indexfonder vs aktiv förvaltning",
+    "Spelbolagens kurskollaps efter Google AI-demo"
+  ],
+  "stocks_discussed": [
+    "MicroStrategy",
+    "Unity",
+    "Roblox",
+    "Palantir",
+    "Salesforce",
+    "SAP",
+    "Workday",
+    "Vitec Software Group",
+    "Figma",
+    "Adobe",
+    "Spotify",
+    "Klarna",
+    "Investor",
+    "SANA Labs",
+    "Lovable",
+    "Mildef"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Unity Technologies",
+      "ticker": "U",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Hampus Prodén",
+      "reasoning": "Aktien föll 25% efter Googles AI-demo men spelutvecklare verkar inte imponerade av prototypen. Kortsiktigt överdriven reaktion men långsiktig AI-risk finns.",
+      "quote": "Jag tror att spelutvecklarna i sig var inte så imponerade. Det är klart kul att se en AI-demo.",
+      "timestamp": null,
+      "price_target": null,
+      "timeframe": null,
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Vitec Software Group",
+      "ticker": "VITEC",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Johan Isaksson",
+      "reasoning": "Ner 60% på ett år men har starka nätverkseffekter i finans- och fastighetssektorn som skyddar mot AI-disruption. Kan vara överdriven nedgång.",
+      "quote": "Vitex som är liksom det största är väl ner 60% på ett år kanske.",
+      "timestamp": null,
+      "price_target": null,
+      "timeframe": null,
+      "position_disclosure": "none"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "MicroStrategy",
+      "ticker": "MSTR",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 350,
+      "speakers": [
+        "Johan Isaksson",
+        "Lars Göranov",
+        "Hampus Prodén"
+      ],
+      "primary_speaker": "Johan Isaksson",
+      "discussion_summary": "Diskussion om Michael Saylors MicroStrategy och risken för margin call när Bitcoin föll till 76 000 dollar. Snittinköpskursen ligger runt 70 000 dollar per Bitcoin. Affärsmodellen bygger på att köpa Bitcoin med belåning och emittera aktier när bolagsvärdet överstiger portföljvärdet.",
+      "quotes": [
+        {
+          "speaker": "Johan Isaksson",
+          "text": "Jag är personligen ingen fan av modellen för det handlar lite om att man ska använda damman. Man ska sälja aktier när de kostar mer än de är värda och man ska köpa tillbaka när de kostar mindre än vad de är värda.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Johan Isaksson",
+          "text": "Hans snittinköpskurs ligger väl nånstans här omkring. Dryga 70 000 dollar per bitcoin tror jag.",
+          "timestamp": null,
+          "context": "financial_metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          {
+            "metric": "snittinköpskurs_bitcoin",
+            "value": "~70 000 USD"
+          }
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Finansiell engineering kan skapa mer Bitcoin per aktie",
+          "Kan köpa tillbaka aktier billigt om bolagsvärdet understiger portföljen"
+        ],
+        "bear_case": [
+          "Hävstångseffekt förstärker nedgångar",
+          "Risk för margin call vid kraftiga Bitcoin-fall",
+          "Copycats runt om i världen med oklara balansräkningar"
+        ],
+        "catalysts": [
+          "Bitcoin-prisutveckling uppåt"
+        ],
+        "risks": [
+          "Bitcoin-krasch under snittinköpskursen",
+          "Tvångsförsäljning vid margin call",
+          "Bolagsvärde under portföljvärde"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Unity Technologies",
+      "ticker": "U",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 400,
+      "speakers": [
+        "Johan Isaksson",
+        "Lars Göranov",
+        "Hampus Prodén"
+      ],
+      "primary_speaker": "Hampus Prodén",
+      "discussion_summary": "Unity föll 25% på en dag efter att Google visade en AI-baserad realtids videomotor. Bolaget har i 20 år gjort spelutvecklingmotorer. Panelen diskuterar om rädslan är överdriven då det var en prototyp, inte en produktionsklar produkt.",
+      "quotes": [
+        {
+          "speaker": "Hampus Prodén",
+          "text": "Jag tror att spelutvecklarna i sig var inte så imponerade. Det är klart kul att se en AI-demo. Men jag tror att om vi skulle ta in någon spelutvecklare idag och fråga vad tycker du om den där? Jag tror inte att de tänker att det kommer att ersätta Unity för mig nästa åren.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Googles demo var en prototyp, inte produktionsklar",
+          "Spelutvecklare inte imponerade av AI-alternativet",
+          "Kraftig kursreaktion kan vara överdriven"
+        ],
+        "bear_case": [
+          "AI-utvecklingen går snabbt – demo idag, produkt imorgon",
+          "Prispress om billigare alternativ uppstår",
+          "Marknaden kanske inte kan motivera höga multiplar längre"
+        ],
+        "catalysts": [
+          "Bevisad otillräcklighet i AI-alternativ",
+          "Nya produktlanseringar"
+        ],
+        "risks": [
+          "Fler AI-demos som hotar kärnverksamheten",
+          "Prispress från AI-genererade verktyg",
+          "Snabb teknikutveckling inom AI"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Roblox",
+      "ticker": "RBLX",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 50,
+      "speakers": [
+        "Hampus Prodén"
+      ],
+      "primary_speaker": "Hampus Prodén",
+      "discussion_summary": "Roblox föll 13-14% i fredags som ett direkt resultat av Googles AI-demo, i samband med att Unity föll kraftigt.",
+      "quotes": [
+        {
+          "speaker": "Hampus Prodén",
+          "text": "Och Roblox föll väl 13-14% i fredags, som ett direkt resultat av att Google hade en AI-demo.",
+          "timestamp": null,
+          "context": "price_action"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "AI-hot mot spelplattformen"
+        ],
+        "catalysts": [],
+        "risks": [
+          "AI-genererat spelinnehåll kan minska plattformens relevans"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Palantir Technologies",
+      "ticker": "PLTR",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 250,
+      "speakers": [
+        "Hampus Prodén",
+        "Lars Göranov"
+      ],
+      "primary_speaker": "Hampus Prodén",
+      "discussion_summary": "Palantir lyfts fram som positivt exempel på befintligt mjukvarubolag som gynnades enormt av AI. Deras befintliga dataanalysprodukt var perfekt att koppla AI till, vilket ledde till revolutionerande demos för befintliga kunder. Största kund: amerikanska regeringen.",
+      "quotes": [
+        {
+          "speaker": "Hampus Prodén",
+          "text": "De struck gold lite grann genom att bara ha en produkt redan som var grym att koppla på AI på.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Lars Göranov",
+          "text": "Palantirs absolut största kund är amerikanska regeringen. De kommer troligtvis inte att byta i år från Palantir till ett AI-verktyg som hävdar att de gör samma sak.",
+          "timestamp": null,
+          "context": "moat"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Befintlig produkt perfekt positionerad för AI-integration",
+          "Extremt starka kundrelationer med amerikanska regeringen",
+          "Trovärdighetsfaktor ger skydd mot nya AI-konkurrenter"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Fortsatt AI-integration i befintliga produkter",
+          "Nya statliga kontrakt"
+        ],
+        "risks": [
+          "Hög värdering relativt peers"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Salesforce",
+      "ticker": "CRM",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Hampus Prodén",
+        "Lars Göranov"
+      ],
+      "primary_speaker": "Hampus Prodén",
+      "discussion_summary": "Salesforce nämns som exempel på SaaS-bolag med stark moat tack vare enterprise-kunder, stora installerade kundbaser och trovärdighetsfaktor. Potentialen att addera mervärde med AI lyfts fram – deras kunddata i kombination med kapabel AI kan multiplicera kundvärdet.",
+      "quotes": [
+        {
+          "speaker": "Hampus Prodén",
+          "text": "Vad kan man inte göra med den datan som finns på deras plattform med mycket mer kapabel AI till exempel. Det kan vara så att de kan ta fram produkter som adderar åtta gånger mer värde av vad de har varit kapabel att leverera till sina kunder sen tidigare.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Enorm kunddata som kan multipliceras med AI",
+          "Enterprise-kunder byter inte lätt leverantör",
+          "Trovärdighetsfaktor hos stora kunder och regeringar"
+        ],
+        "bear_case": [
+          "Prispress från nya AI-alternativ i upphandlingar"
+        ],
+        "catalysts": [
+          "AI-integrerade produkter som adderar mervärde"
+        ],
+        "risks": [
+          "Nya AI-konkurrenter kan pressa licenspriser"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Workday",
+      "ticker": "WDAY",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 250,
+      "speakers": [
+        "Lars Göranov",
+        "Hampus Prodén",
+        "Johan Isaksson"
+      ],
+      "primary_speaker": "Lars Göranov",
+      "discussion_summary": "Workday diskuteras som exempel på SaaS-bolag med extremt stark lock-in. Hanterar anställddata och HR för stora företag – data som är för viktig och känslig att experimentera med. Köpte SANA Labs, vilket visar att stora SaaS-bolag kan köpa upp nya AI-konkurrenter.",
+      "quotes": [
+        {
+          "speaker": "Lars Göranov",
+          "text": "Det är en ganska kass mjukvara. Men när man väl har installerat Workday på ett företag, det är alltså en mjukvara som hanterar allt som har anställda data och HR-byte. Då byter man inte ut det.",
+          "timestamp": null,
+          "context": "moat"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Extremt stark lock-in med känslig HR-data",
+          "Enterprise-kunder experimenterar inte med ny mjukvara",
+          "Kan förvärva AI-bolag (köpte SANA Labs)"
+        ],
+        "bear_case": [
+          "Prispress vid upphandlingar mot nya AI-alternativ"
+        ],
+        "catalysts": [
+          "AI-integration i befintlig plattform",
+          "Förvärv av AI-bolag"
+        ],
+        "risks": [
+          "Licenspriser pressas av billigare AI-konkurrenter"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Vitec Software Group",
+      "ticker": "VITEC",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Johan Isaksson"
+      ],
+      "primary_speaker": "Johan Isaksson",
+      "discussion_summary": "Vitec är ner 60% på ett år, som ett exempel på svenska SaaS-bolag under press. Men Johan pekar på att Vitecs portföljbolag levererar produkter till finans- och fastighetssektorn med starka nätverkseffekter, t.ex. mjukvara för fastighetsmäklare med kopplingar till banker och bostadsvärderingstjänster.",
+      "quotes": [
+        {
+          "speaker": "Johan Isaksson",
+          "text": "Är du liksom den mjukvara som sitter på fastighetsmäklarna, där finns det ju också på finans-laptops. Och de administrerar kopplingar till banker som levererar lånlöften, bostadsvärderingstjänster och allt som sitter på den där plattformen. Då är det ganska jobbigt att riva ut den.",
+          "timestamp": null,
+          "context": "moat"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          {
+            "metric": "kursutveckling_1y",
+            "value": "ca -60%"
+          }
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Starka nätverkseffekter i finans- och fastighetssektorn",
+          "Svårt att riva ut installerad mjukvara",
+          "Kursfall kan vara överdrivet"
+        ],
+        "bear_case": [
+          "Global trend med SaaS-bolag under press",
+          "AI kan skapa billigare alternativ"
+        ],
+        "catalysts": [
+          "Marknadens ökade sofistikering kring vilka SaaS-bolag som faktiskt har moats"
+        ],
+        "risks": [
+          "Fortsatt negativt sentiment mot SaaS-sektorn"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Figma",
+      "ticker": "FIGM",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Lars Göranov",
+        "Hampus Prodén"
+      ],
+      "primary_speaker": "Lars Göranov",
+      "discussion_summary": "Figma nämns som det SaaS-bolag som tappat mest i värde, minus 80% på ett år. Utkonkurreras av Lovable och liknande AI-verktyg. Kundbasen är mer prosumers och individer som enklare byter verktyg, till skillnad från enterprise-kunder.",
+      "quotes": [
+        {
+          "speaker": "Lars Göranov",
+          "text": "Att Figma tappar 80% är för mig ingen jätteöverraskning. För där finns det nu en uppsjö av alternativ som kanske är ännu bättre och mycket billigare än vad Figma har varit.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          {
+            "metric": "kursutveckling_1y",
+            "value": "ca -80%"
+          }
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Utkonkurreras av AI-verktyg som Lovable",
+          "Prosumer-kunder saknar lojalitet och trovärdighetsbarriär",
+          "Pris- och funktionsfokuserade kunder byter enkelt"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Fortsatt kundtapp till AI-alternativ",
+          "Ingen stark moat hos kundbasen"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Adobe",
+      "ticker": "ADBE",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 50,
+      "speakers": [
+        "Lars Göranov",
+        "Hampus Prodén"
+      ],
+      "primary_speaker": "Hampus Prodén",
+      "discussion_summary": "Adobe nämns i samma kategori som Figma bland SaaS-bolag under press, men med viktig skillnad: Adobe har många enterprise-kunder med företagslicenser, vilket ger starkare skydd.",
+      "quotes": [
+        {
+          "speaker": "Hampus Prodén",
+          "text": "Adobe har också många enterprise. Den är lika utsatt, men där har många bolag en enterpriselicens.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Enterprise-kunder med företagslicenser ger stabilare intäkter"
+        ],
+        "bear_case": [
+          "Under press från AI-verktyg precis som Figma"
+        ],
+        "catalysts": [],
+        "risks": [
+          "AI-alternativ för designverktyg"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Spotify Technology",
+      "ticker": "SPOT",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Johan Isaksson",
+        "Hampus Prodén"
+      ],
+      "primary_speaker": "Johan Isaksson",
+      "discussion_summary": "Spotify nämns som exempel på svenskt bolag som väntade 18-20 år innan börsnotering, valde New York-börsen, och nu är otroligt lönsamt. Diskuteras i kontexten av att de bästa bolagen stannar privata längre och att svenska börsen förlorar kvalitetsbolag.",
+      "quotes": [
+        {
+          "speaker": "Johan Isaksson",
+          "text": "Nu är Spotify otroligt lönsamt och framgångsrikt i publik miljö. Men jag tror att de ändå fortsatte under ett årtid om det där och prioriterade att bli den dominerande musikplattformen.",
+          "timestamp": null,
+          "context": "background"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Dominerande musikplattform",
+          "Nu otroligt lönsamt"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Investor AB",
+      "ticker": "INVE-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 30,
+      "speakers": [
+        "Lars Göranov"
+      ],
+      "primary_speaker": "Lars Göranov",
+      "discussion_summary": "Investor nämns som folkaktien som retail-sparare köper istället för småbolag. Symbol för att den sista riskviljan för småbolag inte finns ännu.",
+      "quotes": [
+        {
+          "speaker": "Lars Göranov",
+          "text": "Det är lättare att bara köpa Investor. Det är väl folkaktien som är 30 år.",
+          "timestamp": null,
+          "context": "market_dynamics"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Folkaktie som attraherar retail-sparare"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Mildef Group",
+      "ticker": "MILDEF",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 30,
+      "speakers": [
+        "Johan Isaksson"
+      ],
+      "primary_speaker": "Johan Isaksson",
+      "discussion_summary": "Mildef nämns som det bäst presterande bolaget bland 2021-års börsnoteringar, upp cirka 260%. Lyckades tura in sig innan försvarsboomen.",
+      "quotes": [
+        {
+          "speaker": "Johan Isaksson",
+          "text": "Det var något försvarsbolag som lyckades tura in sig innan försvarsåsen. Mildef för nog det bästa. 260 procent upp ungefär.",
+          "timestamp": null,
+          "context": "performance"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          {
+            "metric": "avkastning_sedan_notering_2021",
+            "value": "+260%"
+          }
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark position inom försvarssektor"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "asset_name": "Bitcoin",
+      "sentiment": "bearish",
+      "speaker": "Johan Isaksson",
+      "speaker_role": "host",
+      "quote": "Bitcoin inledde veckan på 90 000 dollar, nu ner på 76 000 dollar.",
+      "context": "Kraftig prisnedgång under veckan, diskussion om Saylors MicroStrategy och margin call-risk",
+      "confidence": "high",
+      "price_levels": [
+        "90 000 USD (veckans start)",
+        "76 000 USD (aktuellt)",
+        "70 000 USD (Saylors snittinköpskurs)"
+      ],
+      "timeframe": "veckan"
+    },
+    {
+      "asset_symbol": "MALT",
+      "asset_name": "Maltcoin",
+      "sentiment": "neutral",
+      "speaker": "Lars Göranov",
+      "speaker_role": "host",
+      "quote": "Den stack ju iväg flera tusen procent direkt",
+      "context": "Kryptovaluta startad av AI-agenter på Maltbook-plattformen, anses manipulerad/spekulativ",
+      "confidence": "low",
+      "price_levels": [],
+      "timeframe": null
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det känns lite överdrivet tycker jag. För vad har man sett så här långt av rent praktiska exempel på när AI-utvecklade mjukvaror på något sätt slår sig in och tar över det?",
+      "summary": "SaaS-kollapsen kan vara överdriven - det saknas konkreta bevis på att AI-mjukvara faktiskt ersätter befintliga produkter i stor skala",
+      "category": "wisdom",
+      "speaker": "Hampus Prodén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "SaaS",
+        "AI-disruption",
+        "contrarian",
+        "värdering"
+      ]
+    },
+    {
+      "quote": "SaaS är ju inte en bolagsform, det är ju ett sätt att ta betalt. Vissa SaaS-bolag ligger nog riktigt i sig till på grund av att det är lätt att göra kopier på deras produkter med vibecoding, men andra bolag sitter ju på moats av olika slag som inte har med hur lätt det är att producera kod att göra.",
+      "summary": "Man måste skilja mellan SaaS-bolag med starka moats (nätverkseffekter, proprietärdata, installerade kundbaser) och de utan, istället för att straffa hela sektorn",
+      "category": "lesson",
+      "speaker": "Hampus Prodén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "SaaS",
+        "moats",
+        "nätverkseffekter",
+        "vibecoding"
+      ]
+    },
+    {
+      "quote": "Jag tror att investerarkollektivet kommer de nästa tolv månaderna att lära sig att bli lite mer sofistikerade redan att börja räkna ut vilka bolag som kan försvara sina positioner och vilka som är lite mer uppenbart toast i den här utvecklingen.",
+      "summary": "Marknaden kommer att differentiera mellan SaaS-bolag med och utan moats inom de närmaste 12 månaderna",
+      "category": "philosophy",
+      "speaker": "Hampus Prodén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": [
+        "SaaS",
+        "marknadsutveckling",
+        "värdering",
+        "AI-disruption"
+      ]
+    },
+    {
+      "quote": "Skulle någon ge oss hela Twitters kodbas, så skulle vi inte kunna skapa något värde överhuvudtaget med. Det är för starka nätverkseffekter i den befintliga Twitterplattformen.",
+      "summary": "Kod i sig saknar värde utan nätverkseffekter och användarbas - vibecoding kan inte kopiera det viktigaste hos framgångsrika plattformar",
+      "category": "wisdom",
+      "speaker": "Hampus Prodén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "nätverkseffekter",
+        "moats",
+        "kopiering"
+      ]
+    },
+    {
+      "quote": "26 av de här 143 gått till noll. Det är minus 100 procent. Och breddar man spannet lite grann så man accepterar minus 80 procent till minus 100. Då har vi 61 av de 143.",
+      "summary": "Av 143 börsnoteringar 2021 har 26 gått till noll och 61 stycken tappat 80-100% - bara 21 har gett positiv avkastning",
+      "category": "lesson",
+      "speaker": "Johan Isaksson",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "börsnoteringar",
+        "IPO",
+        "2021",
+        "småbolag",
+        "kvalitet"
+      ]
+    },
+    {
+      "quote": "Småbolagspremien... i princip hela den premien kom från perioden 1975 till typ 1983. Det är i princip hela förklaringen till att småbolagen i USA de senaste hundra åren har gått bättre än börsen som helhet.",
+      "summary": "Småbolagspremien i USA förklaras nästan helt av en tioårsperiod efter pensionsreformen 1975 - utan den perioden skiljer det bara 0,2% i avkastning",
+      "category": "lesson",
+      "speaker": "Hampus Prodén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "småbolagspremien",
+        "historisk avkastning",
+        "USA",
+        "pensionsreform"
+      ]
+    },
+    {
+      "quote": "I Europa så är småbolagssektorn har lite annan karaktär. I Europa finns det mycket bolag som tar väldigt starka positioner, men de kanske är starka inom en geografi eller en nisch som i sig inte är så stor.",
+      "summary": "Europeiska småbolag är ofta kvalitetsbolag i nischer, inte förhoppningsbolag som i USA - därför har småbolagspremien fungerat bättre i Europa",
+      "category": "wisdom",
+      "speaker": "Hampus Prodén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "småbolag",
+        "Europa",
+        "kvalitetsbolag",
+        "småbolagspremien"
+      ]
+    },
+    {
+      "quote": "Om man ska investera i small cap så verkar det finnas världens skäl att hålla koll på vilken av de två polerna man fiskar i, om det är förhoppningsbolagen eller om det är kvalitetsbolag som bara råkar vara lite små.",
+      "summary": "Avgörande att skilja mellan quality small cap och förhoppnings small cap - kvalitetsgruppen har historiskt slagit börsen",
+      "category": "philosophy",
+      "speaker": "Hampus Prodén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "småbolag",
+        "quality",
+        "investeringsstrategi",
+        "förhoppningsbolag"
+      ]
+    },
+    {
+      "quote": "De befintliga SaaS-bolagen kommer säkert kunna utveckla sina erbjudanden och bli bättre och vassare. Effekten som man tror att det kommer att se är att priserna pressas.",
+      "summary": "Den verkliga AI-risken för SaaS-bolag är inte ersättning utan prispress - nya AI-alternativ tvingar ner licenspriser vid upphandlingar",
+      "category": "wisdom",
+      "speaker": "Lars Göranov",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": [
+        "SaaS",
+        "prispress",
+        "AI",
+        "konkurrens"
+      ]
+    },
+    {
+      "quote": "Passivt förvaltat kapital... i Sverige så låg den andelen på 6% 2010 och den har gått upp till 24% vid utgången av 2025.",
+      "summary": "Indexfonder har gått från 6% till 24% av svenska fondmarknaden, och dessa flöden gynnar per automatik storbolagen på bekostnad av småbolag",
+      "category": "lesson",
+      "speaker": "Hampus Prodén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "indexfonder",
+        "passiv förvaltning",
+        "småbolag",
+        "kapitalflöden"
+      ]
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Avsnittet inleds med diskussion om AI-agenter på plattformen Maltbook och Claude-botar som skapar religioner och kryptovalutor. Därefter analyseras marknadsturbulens: silverpris ner 30%, Bitcoin ner från 90 000 till 76 000 dollar med oro kring Saylors MicroStrategy, och SaaS-bolag under massiv press efter Googles AI-demo (Unity -25%, Roblox -14%, Figma -80% på ett år). Panelen tar en contrarian-position och menar att SaaS-kollapsen kan vara överdriven, då bolag med starka moats (nätverkseffekter, enterprise-kunder, proprietärdata) inte enkelt ersätts. Stor del av avsnittet ägnas åt småbolagsdiskussion: Small Cap Stockholm ner 25% sedan 2022, medan OMXS30 är upp 26%. Av 143 börsnoteringar 2021 har 26 gått till noll och bara 21 gett positiv avkastning. Panelen argumenterar för att skilja mellan quality small cap och förhoppningsbolag, och ser tecken på att utflöden ur småbolagsfonder kan signalera en annalkande vändning.",
+  "key_takeaways": [
+    "SaaS-bolag under massiv press: Figma -80%, Unity -25%, Vitec -60% på ett år – men panelen menar att marknaden straffar urskillningslöst",
+    "Avgörande att skilja SaaS-bolag med moats (nätverkseffekter, enterprise-kunder) från de utan",
+    "Bitcoin ner till 76 000 USD med oro kring MicroStrategys margin call-risk vid snittinköpskurs ~70 000 USD",
+    "Av 143 börsnoteringar 2021 har 26 gått till noll och bara 21 gett positiv avkastning",
+    "Småbolagspremien i USA förklaras nästan helt av en tioårsperiod (1975-1983) efter pensionsreform",
+    "Small Cap Stockholm ner 25% sedan 2022 vs OMXS30 upp 26% – stor värderingsgap",
+    "Indexfonder har gått från 6% till 24% av svenska fondmarknaden, gynnar storbolag systematiskt",
+    "Utflöden ur småbolagsfonder kan signalera slutet på underperformance-cykeln"
+  ],
+  "transcript_file": "/Users/pontus/Developer/finance-agent/data/transcripts/marknaden/marknaden-2026-02-04-36bf.txt",
+  "transcript_word_count": 10359,
+  "has_timestamps": false,
+  "model_used": "claude-opus-4-6"
+}

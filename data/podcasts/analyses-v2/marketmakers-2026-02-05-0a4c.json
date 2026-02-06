@@ -1,0 +1,564 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "marketmakers-2026-02-05-0a4c",
+  "source_type": "podcast",
+  "podcast_name": "Market Makers",
+  "episode_title": "#418 Mangekalypsen",
+  "episode_number": 418,
+  "date": "2026-02-05",
+  "hosts": ["Fabian Franzén", "Niklas Aldén", "Magnus Skoog"],
+  "guests": [],
+  "main_topics": [
+    "Seatronics och poddpåverkan på aktiekurser",
+    "Arriba Tech uppgång efter poddomnämnande",
+    "Backtesting och curve fitting-varning",
+    "Fondförvaltning och dess svårigheter",
+    "Intellego-bedrägeriet och KPMG-rapport",
+    "Elon Musk XAI/SpaceX/X-sammanslagning",
+    "Proact IT-case och datacenterboom",
+    "Guld- och silverkrasch och råvarubolag",
+    "Ny Fed-chef Kevin Warsh"
+  ],
+  "stocks_discussed": [
+    "Seatronics",
+    "Arriba Tech",
+    "Proact IT",
+    "Intellego",
+    "Flat Capital",
+    "TIN Fonder",
+    "Munters",
+    "SanDisk",
+    "Maco Mining",
+    "Cerrado Gold",
+    "Orvana Minerals",
+    "Sommar Gold",
+    "Step Gold",
+    "Asante Gold",
+    "Tharisa",
+    "Sibanye Stillwater",
+    "Gaia Microcap",
+    "Coliseum"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Proact IT",
+      "ticker": "PACT",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Fabian Franzén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Kvalitetsbolag som handlas till P/E 16 på rullande 12 månader, EV/EBIT under 10x på 2026-estimat. Gynnas av datacenter-boom, europeisk suveränitetstren och AI-investeringar. Stark position i offentlig sektor. Ny produkt Hybrid Cloud AI. Norden och Baltikum utvecklas starkt. Aktien ner 17% senaste året ger attraktiv ingångspunkt.",
+      "price_target": null,
+      "time_horizon": "medium-term",
+      "quote": "Under 10% i ev-ebit bara nästa år. Det låter ju alldeles för billigt för ett bolag i den här sektorn.",
+      "sector": "technology",
+      "market": "sweden",
+      "position_context": "Bevakningsposition",
+      "downside_note": "Minnesbrist kan trycka marginaler kortsiktigt, Q4-rapport osäkerhet, Väst- och Centraleuropa-problem, ny VD och CFO-byte",
+      "catalyst_timing": "Q4-rapport 10 februari 2026"
+    },
+    {
+      "stock_name": "Seatronics",
+      "ticker": null,
+      "action": "hold",
+      "confidence": "low",
+      "speaker": "Magnus Skoog",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Magnus sålde hela positionen förra veckan vilket orsakade kraftig nedgång. Fabian hade sålt halva positionen. Aktien har börjat återhämta sig. Tror fortfarande det kan bli ett intressant år för Seatronics trots turbulensen.",
+      "price_target": null,
+      "time_horizon": "medium-term",
+      "quote": "Nu har det börjat återhämta sig igen och jag tror fortfarande på att det kan vara ett intressant år ändå för Seatronics.",
+      "sector": "technology",
+      "market": "sweden",
+      "position_context": "Fabian har kvar halva positionen (insatsen)",
+      "downside_note": "Kraftig volatilitet efter poddpåverkan",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Arriba Tech",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Fabian Franzén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Norskt IT-konsultbolag som alla tre var eniga om var intressant case förra veckan. Aktien upp nästan 20% sedan podden släpptes. Fabian ville köpa men väntade till efter poddsläpp av etiska skäl, missade uppgången. Kan fortfarande vara billig.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Den är ju upp nu nästan 20 procent här på den här veckan sedan vi släppte podden så att det blev inga Arriba Tech för mig. Men den kanske är fortfarande billig.",
+      "sector": "technology",
+      "market": "norway",
+      "position_context": "Ingen position, missade ingången",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Intellego",
+      "ticker": "ILEG",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "Fabian Franzén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "KPMG-rapport visar att 99,4% av försäljningen 2025 var fabricerad. VD Claes Lindahl misstänkt för bedrägeri. Styrelsen hävdar okunnighet trots tre års varningar från bland annat Sven Ordenstam. Kallas Sveriges Bernie Madoff. Största bedrägeriet i modern tid i Sverige.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Det visar sig att vi underdrev ganska kraftigt förra veckan. Det var nämligen 99,4% som var fake av det de kollat på hittills.",
+      "sector": "technology",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Bedrägeri - undvik helt",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Proact IT",
+      "ticker": "PACT",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Fabian Franzén", "Niklas Aldén", "Magnus Skoog"],
+      "primary_speaker": "Fabian Franzén",
+      "discussion_summary": "Fabians huvudcase för avsnittet. Proact är ett svenskt datacenterbolag som handlas på mid cap Stockholm. Gynnas av datacenter-boom driven av AI, europeisk suveränitetsambition inom IT, och stark position i offentlig sektor. Hälften av intäkterna från hårdvara (system), resten från support, managed cloud, konsulttjänster. Norden och Baltikum går bra, men Väst- och Centraleuropa har problem. Lanserat Hybrid Cloud AI-produkt. Ny VD 2025, CFO avgick Q4. Aktien ner kraftigt från 166 kr till 99 kr. EV/EBIT under 10x på 2026-estimat. ABG enda analytikern, räknar bara 3% tillväxt 2026. Minnesbristen största kortsiktiga risken. Alla tre värdarna har position eller bevakningspost.",
+      "quotes": [
+        {
+          "speaker": "Fabian Franzén",
+          "text": "Under 10% i ev-ebit bara nästa år. Det låter ju alldeles för billigt för ett bolag i den här sektorn.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Fabian Franzén",
+          "text": "Här känns det som att lyckas man inte vinna i den här enorma boomen som är just nu, då är det någonting allvarligt fel i bolaget.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Magnus Skoog",
+          "text": "Det är faktiskt andra bolag nu på kort tid som du tar upp som jag äger utan att jag visste att du skulle ta upp det.",
+          "timestamp": null,
+          "context": "position"
+        },
+        {
+          "speaker": "Niklas Aldén",
+          "text": "Jag har också bevakningspost. Jag tycker också att det känns väldigt läskigt med Q4 hur den kommer se ut och hur den kommer ta sig emot av marknaden.",
+          "timestamp": null,
+          "context": "position"
+        }
+      ],
+      "financial_metrics": {
+        "ev_ebit": "11-12x på 2025-estimat, under 10x på 2026-estimat",
+        "ev_ebita": "8,5x rullande 12, 7,5x 2026-estimat",
+        "pe": "P/E 16 på rullande 12",
+        "revenue": "~5 miljarder SEK (2025)",
+        "ebit": "~300 MSEK",
+        "recurring_revenue": "~2 miljarder SEK",
+        "dividend_yield": "2,5%",
+        "buyback": "Äger ~4% av egna aktier",
+        "margin": "EBIT-marginal 5-6%, mål >8% justerad EBITDA"
+      },
+      "thesis": {
+        "bull_case": [
+          "Datacenter-boom 2026 med 40% branschväxt enligt Gartner",
+          "Europeisk suveränitetstrend gynnar europeiska IT-leverantörer",
+          "Stark i offentlig sektor som vill undvika amerikanska molntjänster",
+          "EV/EBIT under 10x på 2026E - billigt för sektorn",
+          "Ny produkt Hybrid Cloud AI med stor efterfrågan",
+          "Återköpsprogram och utdelning",
+          "Norden och Baltikum växer starkt och är lönsamt",
+          "Ingen nettoskuld"
+        ],
+        "bear_case": [
+          "Minnesbrist pressar marginaler på hårdvarusidan",
+          "Väst- och Centraleuropa förlustbringande",
+          "Slagig intäktsutveckling kvartalsvis",
+          "Ny VD och CFO-byte skapar osäkerhet",
+          "Analytiker räknar bara 3% tillväxt 2026"
+        ],
+        "catalysts": [
+          "Q4-rapport 10 februari 2026",
+          "Datacenter-investeringsvåg 2026",
+          "EU-resolution om europeisk IT-suveränitet",
+          "Förvärv i Norden (danskt bolag)"
+        ],
+        "risks": [
+          "Minnespriser skenar - Dell rapporterar historiskt höga kostnader",
+          "Centraleuropa-verksamheten fortsatt olönsam",
+          "Marknaden hatar småbolag generellt"
+        ]
+      },
+      "position_disclosure": "Magnus äger, Niklas bevakningspost, Fabian bevakningspost"
+    },
+    {
+      "stock_name": "Seatronics",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Fabian Franzén", "Magnus Skoog"],
+      "primary_speaker": "Fabian Franzén",
+      "discussion_summary": "Diskuterar den kraftiga nedgången i Seatronics efter att Magnus sa att han sålt hela sin position i förra veckans avsnitt. Fabians innehav var ner 10% den dagen. Fabian hade sålt halva positionen men behåller insatsen. Aktien har börjat återhämta sig. Var upp 12% i år innan kraschen.",
+      "quotes": [
+        {
+          "speaker": "Fabian Franzén",
+          "text": "Mitt innehav i portföljen, den var ju ner 10% eller någonting när du sa att du hade sålt Manger. Det var fan en tuff dag.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Fabian Franzén",
+          "text": "Jag trodde inte att det skulle bli sånt jäkla flöde. Visst som om det skulle handlas ner någon procent. Det var helt galet.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": ["Var upp 12% i år innan kraschen", "Börjat återhämta sig"],
+        "bear_case": ["Extrem volatilitet pga poddpåverkan"],
+        "catalysts": [],
+        "risks": ["Tunn likviditet gör aktien känslig för stora säljare"]
+      },
+      "position_disclosure": "Fabian äger halva ursprungspositionen, Magnus sålt allt"
+    },
+    {
+      "stock_name": "Arriba Tech",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Fabian Franzén", "Niklas Aldén"],
+      "primary_speaker": "Fabian Franzén",
+      "discussion_summary": "Norskt IT-konsultbolag som diskuterades förra veckan och alla tre var positiva till. Aktien upp nästan 20% sedan poddsläpp. Fabian ville köpa men väntade av etiska skäl och missade ingången. Nämner att andra twitterprofiler och poddar också lyft bolaget.",
+      "quotes": [
+        {
+          "speaker": "Fabian Franzén",
+          "text": "Den är ju upp nu nästan 20 procent här på den här veckan sedan vi släppte podden så att det blev inga Arriba Tech för mig.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Niklas Aldén",
+          "text": "Min tes kring att köpa saker som Niklas är bullish till men som han inte äger håller fortfarande.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": ["Intressant norskt IT-konsultbolag", "Kan fortfarande vara billig trots uppgång"],
+        "bear_case": ["Redan upp 20% - missad ingång"],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "Ingen av värdarna äger"
+    },
+    {
+      "stock_name": "Intellego",
+      "ticker": "ILEG",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Fabian Franzén", "Niklas Aldén", "Magnus Skoog"],
+      "primary_speaker": "Fabian Franzén",
+      "discussion_summary": "KPMG-rapporten visar att 99,4% av försäljningen var fabricerad, ännu värre än vad som diskuterades förra veckan. VD Claes Lindahl har kallats Sveriges Bernie Madoff. Styrelsen hävdar att de inte visste något trots att Sven Ordenstam och blankare varnat i tre år. Styrelseordförande Johan Möllerström under brottsutredning. Koppling till Dag Food Tech som gick i konkurs. Största bedrägeriet i modern tid i Sverige.",
+      "quotes": [
+        {
+          "speaker": "Fabian Franzén",
+          "text": "Det visar sig att vi underdrev ganska kraftigt förra veckan. Det var nämligen 99,4% som var fake av det de kollat på hittills.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Niklas Aldén",
+          "text": "Antingen så är ju de i styrelsen ganska gravt retarderade, eller så har de ätit dem där.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": [],
+        "bear_case": ["99,4% av försäljning fabricerad", "VD misstänkt för bedrägeri", "Styrelsen under utredning"],
+        "catalysts": [],
+        "risks": ["Total förlust av investerat kapital"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Flat Capital",
+      "ticker": "FLAT",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Fabian Franzén", "Niklas Aldén"],
+      "primary_speaker": "Fabian Franzén",
+      "discussion_summary": "Kort omnämnande i samband med Elon Musk-diskussionen. Flat Capital har haft det tufft på börsen sedan de blev en Klarna-proxy. De har dock både XAI och SpaceX på balansräkningen, och med tiodubblande värderingar kan det hända saker. Om de inte hade tagit in Klarna hade det kunnat vara fart i bolaget.",
+      "quotes": [
+        {
+          "speaker": "Fabian Franzén",
+          "text": "Flat Capital har ju haft det riktigt tufft på börsen sen de bara blev en Klarna proxy, men de har väl både XAI och SpaceX tror jag på balansräkningen.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {},
+      "thesis": {
+        "bull_case": ["Exponering mot XAI och SpaceX med kraftigt höjda värderingar"],
+        "bear_case": ["Blivit en Klarna-proxy", "Klarna dominerar portföljen"],
+        "catalysts": ["SpaceX IPO"],
+        "risks": ["Klarna-beroende"]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Munters",
+      "ticker": "MTRS",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Fabian Franzén"],
+      "primary_speaker": "Fabian Franzén",
+      "discussion_summary": "Nämns som jämförelsebolag till Proact. Känt datacenter-case på börsen med stor exponering. Handlas till P/E 50-60 vilket gör Proact relativt billigare. Orderingång ökade nästan 200% senaste kvartalet, illustrerar datacenter-boomen.",
+      "quotes": [
+        {
+          "speaker": "Fabian Franzén",
+          "text": "Munt är en case som ändå ganska många känner till på börsen, som har stor exponering mot datacenter. Men de handlas ju till P5060 eller sånt.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe": "P/E 50-60",
+        "order_growth": "Orderingång +200% senaste kvartalet"
+      },
+      "thesis": {
+        "bull_case": ["Stark orderingång +200%", "Exponering mot datacenter-boom"],
+        "bear_case": ["Mycket högt värderad P/E 50-60"],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Maco Mining",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Niklas Aldén"],
+      "primary_speaker": "Niklas Aldén",
+      "discussion_summary": "En av de billiga guldbolag Niklas roterat in i efter guld/silver-kraschen. Handlas 2-4x fritt kassaflöde 2026E. Planerad produktionsexpansion. Handlas 2x fritt kassaflöde 2027 vid 5000 USD guld. Stor rabatt mot NPV, cirka 70-80%.",
+      "quotes": [],
+      "financial_metrics": {
+        "custom": ["2-4x fritt kassaflöde 2026E", "2x FCF 2027E vid 5000 USD guld", "70-80% rabatt mot NPV"]
+      },
+      "thesis": {
+        "bull_case": ["Extremt billig på kassaflöde", "Planerad produktionsexpansion"],
+        "bear_case": ["Något som skaver - geografi, management eller temporärt problem"],
+        "catalysts": ["Produktionsexpansion"],
+        "risks": ["Guldprisfall"]
+      },
+      "position_disclosure": "Niklas äger"
+    },
+    {
+      "stock_name": "Cerrado Gold",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Niklas Aldén", "Fabian Franzén"],
+      "primary_speaker": "Niklas Aldén",
+      "discussion_summary": "Guldbolag som Niklas roterat in i. Även Fabian har position. Handlas billigt mot kassaflöde. En del kopparexponering som Fabian är bullish till långsiktigt.",
+      "quotes": [],
+      "financial_metrics": {
+        "custom": ["2-4x fritt kassaflöde 2026E"]
+      },
+      "thesis": {
+        "bull_case": ["Billig värdering", "Kopparexponering utöver guld"],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": ["Guldprisfall"]
+      },
+      "position_disclosure": "Niklas och Fabian äger"
+    },
+    {
+      "stock_name": "Orvana Minerals",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Niklas Aldén"],
+      "primary_speaker": "Niklas Aldén",
+      "discussion_summary": "Guldbolag i Niklas portfölj. Ingår i korgen av billiga guldbolag som handlas 2-4x fritt kassaflöde 2026E med planerad expansion.",
+      "quotes": [],
+      "financial_metrics": {
+        "custom": ["2-4x fritt kassaflöde 2026E"]
+      },
+      "thesis": {
+        "bull_case": ["Extremt billig på kassaflöde"],
+        "bear_case": [],
+        "catalysts": ["Produktionsexpansion"],
+        "risks": ["Guldprisfall"]
+      },
+      "position_disclosure": "Niklas äger, Magnus äger"
+    },
+    {
+      "stock_name": "Tharisa",
+      "ticker": "THS",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Niklas Aldén"],
+      "primary_speaker": "Niklas Aldén",
+      "discussion_summary": "Platinagruppmetall-producent noterad på Londonbörsen. Liknande upplägg som guldbolagen - handlas runt 3x fritt kassaflöde på årstakt med planerad produktionsexpansion. Niklas har rotat in en del av sin Sibanye Stillwater-position hit då Tharisa handlas ungefär hälften så dyrt.",
+      "quotes": [],
+      "financial_metrics": {
+        "custom": ["~3x fritt kassaflöde på årstakt"]
+      },
+      "thesis": {
+        "bull_case": ["Billig på kassaflöde", "Hälften så dyr som Sibanye Stillwater", "Expanderar produktion"],
+        "bear_case": ["Noterad i London - saknar amerikanska flöden"],
+        "catalysts": ["Produktionsexpansion"],
+        "risks": ["Platinaprisfall"]
+      },
+      "position_disclosure": "Niklas äger"
+    },
+    {
+      "stock_name": "Sibanye Stillwater",
+      "ticker": "SBSW",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Niklas Aldén"],
+      "primary_speaker": "Niklas Aldén",
+      "discussion_summary": "Platinagruppmetall-producent på NYSE. Har haft en 4-5x uppgång sedan Niklas pratade om den för cirka ett år sedan. Handlas nu ungefär dubbelt så dyrt som Tharisa. Niklas har rotat delar av positionen till billigare Tharisa.",
+      "quotes": [],
+      "financial_metrics": {
+        "custom": ["4-5x sedan poddrekommendation ~1 år sedan"]
+      },
+      "thesis": {
+        "bull_case": ["Noterad NYSE - bättre flöden"],
+        "bear_case": ["Dubbelt så dyr som Tharisa på dagens metallpriser"],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "Niklas har minskat position"
+    },
+    {
+      "stock_name": "SanDisk",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "speakers": ["Fabian Franzén"],
+      "primary_speaker": "Fabian Franzén",
+      "discussion_summary": "Nämns som exempel på minnesbristen. En 10-baggar sedan september 2025, vilket illustrerar hur extremt minnespriserna stigit. Relevant som riskfaktor för Proact vars hårdvarukostnader påverkas.",
+      "quotes": [
+        {
+          "speaker": "Fabian Franzén",
+          "text": "Sandisk till exempel som gör små minnen och sånt där. Det var ju en 10-baggar bara på det senaste halvåret typ.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "custom": ["10-baggar sedan september 2025"]
+      },
+      "thesis": {
+        "bull_case": ["Enorm efterfrågan på minnen"],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "crypto_mentions": [],
+  "insights": [
+    {
+      "quote": "Du äger inte aktien, du hyr dem och det gäller att skala in i styrka och inte bli girig.",
+      "summary": "Viktigt att ta hem vinster i styrka - man hyr aktier, äger dem inte",
+      "category": "wisdom",
+      "speaker": "Niklas Aldén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["risk_management", "trading"]
+    },
+    {
+      "quote": "Det finns fler trades framöver, det är bättre att säkert uppfinns det.",
+      "summary": "Bättre att säkra vinst - det kommer alltid fler tillfällen",
+      "category": "wisdom",
+      "speaker": "Niklas Aldén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["risk_management", "patience"]
+    },
+    {
+      "quote": "Backtesting, alltså att testa sin algoritm mot gamla historiska resultat och sedan optimera efter dem, det är en ganska farlig strategi.",
+      "summary": "Curve fitting-varning: backtesting som optimeras mot historisk data fungerar inte framåt",
+      "category": "lesson",
+      "speaker": "Fabian Franzén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["risk_management", "trading"]
+    },
+    {
+      "quote": "Fonder, det är dit alla traders går för att dö.",
+      "summary": "Fondförvaltning är extremt svårt - många duktiga traders misslyckas som förvaltare",
+      "category": "wisdom",
+      "speaker": "Fabian Franzén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["fund_management", "philosophy"]
+    },
+    {
+      "quote": "När du har en fond, du säljer ändå någon typ av produkt, du har ju någon typ av inriktning, vänder vindarna kan du inte helt plötsligt sitta och plocka upp råvaror.",
+      "summary": "Fondförvaltare har begränsad flexibilitet - kan inte byta strategi när marknaden vänder",
+      "category": "lesson",
+      "speaker": "Niklas Aldén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["fund_management", "flexibility"]
+    },
+    {
+      "quote": "Bara för att guldpriset går ner så gör det inte nödvändigtvis att de här gruvbolagen blir ett bättre köp, utan snarare tvärtom.",
+      "summary": "Gruvbolags attraktivitet beror på guldpriset - lägre guldpris gör dem dyrare relativt",
+      "category": "lesson",
+      "speaker": "Niklas Aldén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["commodities", "valuation"]
+    },
+    {
+      "quote": "Han är ju förmodligen den bästa företagsbyggaren som någonsin har funnits. Så han har ju getts in i de absolut svåraste branscherna man kan göra.",
+      "summary": "Elon Musk erkänd som exceptionell företagsbyggare men värderingarna extrema",
+      "category": "philosophy",
+      "speaker": "Niklas Aldén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": ["valuation", "leadership"]
+    },
+    {
+      "quote": "Det är väldigt stor dislocation mellan olika bolag. Vissa bolag kommer du se handlas väldigt dyrt. Och vissa bolag har inte fått med sig flödena än och handlas billigt.",
+      "summary": "Stor värderingsskillnad bland gruvbolag - möjlighet att hitta undervärderade bolag",
+      "category": "lesson",
+      "speaker": "Niklas Aldén",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["commodities", "valuation", "market_cycles"]
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet inleds med 'veckans sågningar' - backtesting-varning mot en Paradise Hotel-deltagare som säljer curve-fittat tradingskript, samt genomgång av svenska fonder som underpresterar kraftigt (TIN, Brobacke, Gaia Microcap, Coliseum). Intellego-bedrägeriet eskalerar med KPMG-rapport som visar 99,4% fabricerad försäljning. Elon Musks sammanslagning av XAI, X och SpaceX diskuteras med skepsis mot värderingarna. Fabians huvudcase är Proact IT som handlas till EV/EBIT under 10x på 2026-estimat och gynnas av datacenter-boom och europeisk IT-suveränitetstrend. Avsnittet avslutas med diskussion om guld- och silverkraschen där silver föll 40% på en dag, den största dagsnedgången sedan 1750-talet, driven av ny Fed-chef Kevin Warsh. Niklas presenterar en korg av billiga guldbolag som handlas 2-4x fritt kassaflöde.",
+  "key_takeaways": [
+    "Proact IT handlas till EV/EBIT under 10x 2026E - billigt för datacenter-sektorn som förväntas växa 40%",
+    "Intellego-bedrägeriet värre än väntat - 99,4% av försäljningen fabricerad enligt KPMG",
+    "Silver hade största dagsnedgången sedan 1750-talet (-40%) efter ny Fed-chef Kevin Warsh nominerades",
+    "Fondförvaltning extremt svårt - TIN 5% totalavkastning på 7 år, Brobacke förlorat sin egen fond",
+    "Billiga guldgruvbolag handlas 2-4x FCF 2026E trots guldpris runt 5000 USD - stor dislocation",
+    "Elon Musks XAI värderas till 230 miljarder USD med 600x intäktsmultipel vs OpenAI på 25x",
+    "Europeisk IT-suveränitetstrend accelererar - Frankrike sparkade ut Microsoft, EU-resolution om europeiskt IT",
+    "Curve fitting-varning: backtestade strategier som visar 500 000% avkastning fungerar inte i verkligheten"
+  ],
+  "model_used": "claude-opus-4-6"
+}

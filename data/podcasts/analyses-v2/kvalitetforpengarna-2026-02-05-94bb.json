@@ -1,0 +1,983 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "kvalitetforpengarna-2026-02-05-94bb",
+  "source_type": "podcast",
+  "podcast_name": "Kvalitet För Pengarna",
+  "episode_title": "Rapporter och hur man sätter ihop en kvalitetsfond",
+  "episode_number": null,
+  "date": "2026-02-05",
+  "hosts": [
+    "Ola"
+  ],
+  "guests": [
+    "Jesper von Koch"
+  ],
+  "main_topics": [
+    "Rapportsäsong - genomgång av rapporter från portföljbolag",
+    "Novo Nordisk - besvikande rapport men långsiktigt behåll",
+    "New Wave - köp på rapportnedgång",
+    "Revolution Race - stark rapport och marginalåterhämtning",
+    "Intervju med Jesper von Koch från Kavaljer om investeringsprocess",
+    "Hur man sätter ihop en kvalitetsfond",
+    "Huhtamäki - djupdykning i finskt förpackningsbolag"
+  ],
+  "stocks_discussed": [
+    "Novo Nordisk",
+    "New Wave",
+    "Revolution Race",
+    "Hexagon",
+    "Atlas Copco",
+    "Note",
+    "Hexatronic",
+    "Securitas",
+    "Byggmax",
+    "Hexpol",
+    "Swedbank",
+    "Huhtamäki",
+    "Carasent",
+    "Eli Lilly"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Rapport kom in sämre än förväntat, minus 17% på aktiekursen. Sänkta prognoser för 2026 och 2027. Men riktkurs runt 400 kr mot nuvarande kurs nära 300 kr ger attraktiv margin of safety på 1-2 års sikt. Grundverksamheten inom diabetes och fetma är stabil. Mycket negativt sentiment kortsiktigt gör aktien svårhandlad, men långsiktigt starkt behåll.",
+      "price_target": 400,
+      "time_horizon": "lång sikt",
+      "quote": "I det långa perspektivet så tycker jag fortfarande att det är ett jättestarkt behåll på Novo Nordisk.",
+      "sector": "Läkemedel",
+      "market": "other",
+      "position_context": "Äger i långsiktig portfölj, överväger sälja i aktiv portfölj",
+      "downside_note": "Mycket negativt sentiment och hat kring aktien kortsiktigt. Kan plocka bort ur aktiv portfölj.",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "New Wave Group",
+      "ticker": "NEWA-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Rapport visade lägre marginaler men högre omsättning. Valutajusterad tillväxt över 10%. Lägre marginaler förklaras av förvärv med lägre marginaler, engångskostnader och investeringar i lagerautomatisering. Köpte på nedgången på minus 8% strax över 100 kr. Togs in i både långsiktig och aktiv portfölj.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Jag har passat på att fylla på i New Wave här under morgonen. På minus 8%. Strax över 100 kronor.",
+      "sector": "Konsumentvaror/Kläder",
+      "market": "sweden",
+      "position_context": "Ökade position, nu i både långsiktig och aktiv portfölj",
+      "downside_note": null,
+      "catalyst_timing": "Lagerautomatiseringsinvesteringar ger positiv effekt framåt"
+    },
+    {
+      "stock_name": "Hexatronic Group",
+      "ticker": "HTRO",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Stark rapport med plus 12% på rapportdagen. Upp 20% på en månad och 40% på tre månader. Låga förväntningar som överträffades. Finns i portföljen.",
+      "price_target": null,
+      "time_horizon": null,
+      "quote": "Den kom in plus 12 procent. Låga förväntningar på det bolaget och det lyckades de överträffa.",
+      "sector": "Telekommunikation/Fiber",
+      "market": "sweden",
+      "position_context": "Äger i portföljen",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Securitas",
+      "ticker": "SECU-B",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Ola",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Jättefin rapport, upp 7,5% på rapportdagen. Levererar på marginalmålet som man kommit över. Effektiviseringsåtgärder fungerar väl. Störst positiv påverkan på portföljen hittills. Jesper von Koch nämner Securitas som ett av de två absolut största innehaven i Kavaljer Quality Focus.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Securitas som kom in med en jättefin rapport här igår. Upp 7,5 procent på den rapporten.",
+      "sector": "Säkerhet",
+      "market": "sweden",
+      "position_context": "Äger, ett av de största innehaven",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Huhtamäki",
+      "ticker": "HUH1V",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Kvalitetsbolag inom förpackning som handlas till historisk rabatt. EV/EBIT på 10,5 mot historiskt snitt på 15. P/E runt 12 mot historiskt 19. Effektiviseringsprogram levererat 100 MEUR i årliga besparingar, tidigare och billigare än planerat. Volymtillväxt i två av fyra segment. Investeringar i Nordamerika ger effekt 2026. 16 år i rad med ökande utdelning, ca 3,5% direktavkastning. Stark balansräkning med nettoskuld/EBITDA på 2,0.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Riktigt kvalitetsbolag som tickar sakta men säkert i tillväxt och kontinuerliga lönsamhetsförbättringar över tid.",
+      "sector": "Förpackning",
+      "market": "other",
+      "position_context": "Ca 4% av Kavaljer Quality Focus. Värden inte i Olas portfölj.",
+      "downside_note": "36% exponering mot Nordamerika medför valutarisk. Topline inte imponerande kortsiktigt.",
+      "catalyst_timing": "Volymtillväxt och marginalförbättring under 2026"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 500,
+      "speakers": [
+        "Ola"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "Novo Nordisk rapporterade sämre än väntat med minus 17% på aktiekursen. Ola har sänkt sina prognoser för 2026 och även justerat ner 2027. Trots besvikelsen ser han en riktkurs på runt 400 kr mot nuvarande kurs nära 300 kr. Grundverksamheten inom diabetes och fetma bedöms som stabil, men det finns mycket negativt sentiment. Han överväger att plocka bort aktien ur sin aktiva portfölj men behåller definitivt i den långsiktiga.",
+      "quotes": [
+        {
+          "speaker": "Ola",
+          "text": "Jag tror att en riktkurs på det här bolaget kan ligga någonstans på 400 kronor eller kanske till och med lite över 400.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Ola",
+          "text": "I det långa perspektivet så tycker jag fortfarande att det är ett jättestarkt behåll på Novo Nordisk.",
+          "timestamp": null,
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Ola",
+          "text": "Det kan hända att jag plockar väck Novo Nordisk i en lite kortsiktigare aktiva portfölj. Men jag behåller den definitivt i den långsiktiga.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Riktkurs ca 400 SEK",
+          "Aktiekurs ca 300 SEK",
+          "Minus 17% på rapport",
+          "Kursfall 70% från toppen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark grundverksamhet inom diabetes och fetma",
+          "Ca 33% uppsida till riktkurs 400 kr",
+          "Behöver inte vara ensam på marknaden - plats för både Novo och Eli Lilly",
+          "Stabilt kvalitetsbolag under ytan"
+        ],
+        "bear_case": [
+          "Mycket negativt sentiment och hat kring aktien",
+          "Sänkta prognoser 2026 och 2027",
+          "Svårt att bedöma kortsiktig utveckling",
+          "Många investerare förväntar sig fortfarande snabbväxaren som aktien en gång var"
+        ],
+        "catalysts": [
+          "Normalisering av marknadens syn på bolaget som stabilt kvalitetsbolag",
+          "Diabetes- och fetmamarknadens fortsatta tillväxt"
+        ],
+        "risks": [
+          "Kortsiktigt negativt sentiment kan pressa kursen ytterligare",
+          "Konkurrens från Eli Lilly",
+          "Marknaden prissätter inte längre snabb tillväxt"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "New Wave Group",
+      "ticker": "NEWA-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 350,
+      "speakers": [
+        "Ola"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "New Wave rapporterade med lite högre omsättning men lägre marginaler. Marknaden reagerade negativt med minus 7-8%. Valutajusterad tillväxt var över 10% vilket var starkt. Lägre marginaler förklaras av förvärv med lägre marginaler, engångskostnader och investeringar i lagerautomatisering. Ola passade på att fylla på aktien strax över 100 kr och tog in den i sin aktiva portfölj utöver den långsiktiga.",
+      "quotes": [
+        {
+          "speaker": "Ola",
+          "text": "Jag har passat på att fylla på i New Wave här under morgonen. På minus 8%. Strax över 100 kronor i inköpskurs.",
+          "timestamp": null,
+          "context": "action"
+        },
+        {
+          "speaker": "Ola",
+          "text": "Det har varit en aktie som har gått och plockat upp ganska bra på nedgångar de senaste åren och sen fått tillbaka sina pengar ganska snabbt.",
+          "timestamp": null,
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Över 10% valutajusterat",
+        "margin": "Lägre marginaler än förväntat pga förvärv och engångskostnader",
+        "debt_level": null,
+        "custom": [
+          "Inköpskurs strax över 100 SEK",
+          "Automatisering av lager pågår"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark valutajusterad tillväxt över 10%",
+          "Investeringar i lagerautomatisering ger framtida marginallyft",
+          "Historiskt har aktien studsat tillbaka snabbt efter nedgångar"
+        ],
+        "bear_case": [
+          "Lägre marginaler pga förvärv",
+          "Konsumenten har inte kommit tillbaka ännu",
+          "Valutamotvind"
+        ],
+        "catalysts": [
+          "Lagerautomatisering ger marginaleffekt",
+          "Konsumentåterhämtning"
+        ],
+        "risks": [
+          "Fortsatt svag konsumentmarknad",
+          "Valutamotvind"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Revolution Race",
+      "ticker": "RVRC",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 250,
+      "speakers": [
+        "Ola"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "Revolution Race levererade en superrapport med plus 24% på rapportdagen. Bra tillväxtsiffror i en tuff konsumentmarknad. Högre marginaler igen, vilket är nyckeln till hela caset. Dock ska kursuppgången ses i perspektiv - aktien hade redan fallit lika mycket sedan årsskiftet, så den är bara upp ca 2,3% på en månad.",
+      "quotes": [
+        {
+          "speaker": "Ola",
+          "text": "Superresultat för aktien. Och en bra rapport. De visar att de fortsatt håller liv i tillväxten i en riktigt tuff marknad.",
+          "timestamp": null,
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Ola",
+          "text": "Eftersom de höga marginalerna är nyckeln till hela Revolution Race-storien, så var det nog framförallt det som gjorde att folk var beredda att komma tillbaka in i aktien.",
+          "timestamp": null,
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Positiv tillväxt i tuff marknad",
+        "margin": "Högre marginaler igen",
+        "debt_level": null,
+        "custom": [
+          "Plus 24% på rapportdagen",
+          "Upp 2,3% på en månad netto"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Högre marginaler bekräftar caset",
+          "Tillväxt i tuff konsumentmarknad"
+        ],
+        "bear_case": [
+          "Aktien hade fallit kraftigt innan rapporten",
+          "Konsumentmarknaden fortsatt svag"
+        ],
+        "catalysts": [
+          "Fortsatt marginalstabilitet",
+          "Konsumentåterhämtning"
+        ],
+        "risks": [
+          "Marginaler kan vara temporärt höga",
+          "Svag konsumentmarknad"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Hexagon",
+      "ticker": "HEXA-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Ola"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "Hexagon rapporterade med begränsad kursrörelse, plus 1,1% på rapportdagen. Ganska bra rapport utan stora överraskningar. Har haft tuffare perioder men verkar ha hittat en botten. Inte lika stark utveckling som Atlas Copco senaste halvåret.",
+      "quotes": [
+        {
+          "speaker": "Ola",
+          "text": "Båda två verkar ha kommit in ganska stabilt. Och kanske är det tecken på att vi har hittat en botten.",
+          "timestamp": null,
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Plus 1,1% på rapportdagen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Möjlig botten nådd",
+          "Bra väg uppåt om siffror börjar visa vändning"
+        ],
+        "bear_case": [
+          "Tuffare period utan tydlig tillväxt"
+        ],
+        "catalysts": [
+          "Förbättrade siffror som indikerar vändning"
+        ],
+        "risks": [
+          "Fortsatt svaga siffror"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Atlas Copco",
+      "ticker": "ATCO-A",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Ola"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "Atlas Copco rapporterade med minus 2% på rapportdagen. Många underprestationer i rad men aktien har ändå gått plus 26% senaste halvåret. Verkar ha stabiliserats och kan vara redo för uppsida om siffror vänder uppåt.",
+      "quotes": [
+        {
+          "speaker": "Ola",
+          "text": "Atlas Copco har väl dock gått ganska bra senaste halvåret kan vi väl säga. Plus 26 procent.",
+          "timestamp": null,
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Minus 2% på rapportdagen",
+          "Plus 26% senaste halvåret"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Redan visat stark kursutveckling senaste halvåret",
+          "Om siffror vänder uppåt finns bra potential"
+        ],
+        "bear_case": [
+          "Många rapportbesvikelser i rad",
+          "Redan prisad i viss optimism"
+        ],
+        "catalysts": [
+          "Vändning i rapporterna"
+        ],
+        "risks": [
+          "Fortsatta underprestationer i rapporter"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Note",
+      "ticker": "NOTE",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 80,
+      "speakers": [
+        "Ola"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "Note rapporterade med plus 2% på rapportdagen. Fortfarande ingen tydlig vändning eller fart uppåt som man hoppats på, men heller inget som avskräckte marknaden.",
+      "quotes": [],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Plus 2% på rapportdagen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Väntar fortfarande på vändningen"
+        ],
+        "bear_case": [
+          "Ingen fart uppåt ännu"
+        ],
+        "catalysts": [
+          "Vändning i orderingång"
+        ],
+        "risks": [
+          "Fortsatt svag marknad"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Hexatronic Group",
+      "ticker": "HTRO",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 120,
+      "speakers": [
+        "Ola"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "Hexatronic levererade en stark rapport med plus 12% på rapportdagen. Låga förväntningar som överträffades. Aktien har gått starkt senaste tiden med plus 20% på en månad och plus 40% på tre månader.",
+      "quotes": [
+        {
+          "speaker": "Ola",
+          "text": "Hexatronic som jag pratat om en del i podden. Den kom in plus 12 procent. Upp 20 procent på en månad och 40 procent på tre månader.",
+          "timestamp": null,
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Plus 12% på rapportdagen",
+          "Plus 20% på en månad",
+          "Plus 40% på tre månader"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Låga förväntningar som överträffades",
+          "Stark kursutveckling senaste månaderna"
+        ],
+        "bear_case": [
+          "Har redan gått mycket"
+        ],
+        "catalysts": [
+          "Fortsatt rapportleverans"
+        ],
+        "risks": [
+          "Höga förväntningar efter kursuppgång"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Securitas",
+      "ticker": "SECU-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Ola",
+        "Jesper von Koch"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "Securitas levererade en jättefin rapport med plus 7,5% på rapportdagen. Levererar på marginalmålet och effektiviseringsåtgärderna tuffar på bra. Jesper von Koch nämner Securitas som ett av de två absolut största innehaven i Kavaljer Quality Focus. Störst positiv påverkan på Olas portfölj.",
+      "quotes": [
+        {
+          "speaker": "Ola",
+          "text": "Securitas som kom in med en jättefin rapport här igår. Upp 7,5 procent. De levererade det marginalmålet som man satt upp, det kom man över.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Jesper von Koch",
+          "text": "De två absolut största innehaven är Securitas och Carasent.",
+          "timestamp": null,
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Levererat marginalmålet",
+        "debt_level": null,
+        "custom": [
+          "Plus 7,5% på rapportdagen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Levererar på marginalmålet",
+          "Effektiviseringsåtgärder fungerar",
+          "Största innehavet i professionell fond"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Fortsatt marginalexpansion"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Byggmax",
+      "ticker": "BMAX",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 100,
+      "speakers": [
+        "Ola"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "Byggmax rapporterade med plus 1,4% på rapportdagen. Fortsätter spara kostnader och effektivisera i väntan på marknadsvändning. Ola tycker aktien gått lite bättre än siffrorna motiverar senaste månaderna.",
+      "quotes": [
+        {
+          "speaker": "Ola",
+          "text": "Jag kan tycka att den har gått lite bättre än vad siffrorna bakom förtjänar de senaste månaderna.",
+          "timestamp": null,
+          "context": "other"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Plus 1,4% på rapportdagen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Kostnadsbesparingar och effektivisering",
+          "Redo för vändning när marknaden kommer"
+        ],
+        "bear_case": [
+          "Aktien gått bättre än siffrorna motiverar",
+          "Marknaden har inte vänt ännu"
+        ],
+        "catalysts": [
+          "Marknadsvändning för byggvaruhandeln"
+        ],
+        "risks": [
+          "Fortsatt svag konsumentmarknad"
+        ]
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Hexpol",
+      "ticker": "HPOL",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 40,
+      "speakers": [
+        "Ola"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "Hexpol kom in med en dålig rapport, minus 14% på rapportdagen. Ola äger inte aktien.",
+      "quotes": [],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Minus 14% på rapportdagen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Dålig rapport"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Swedbank",
+      "ticker": "SWED-A",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 60,
+      "speakers": [
+        "Ola"
+      ],
+      "primary_speaker": "Ola",
+      "discussion_summary": "Swedbank rapporterade ungefär som förväntat men med en jätteutdelning. Finns i utdelningsportföljen. Man slängde på extra mycket pengar på en redan hög utdelning.",
+      "quotes": [
+        {
+          "speaker": "Ola",
+          "text": "Man slängde på extra mycket pengar på en redan hög utdelning.",
+          "timestamp": null,
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Extra hög utdelning"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Höjd utdelning"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "owns"
+    },
+    {
+      "stock_name": "Huhtamäki",
+      "ticker": "HUH1V",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 1200,
+      "speakers": [
+        "Jesper von Koch",
+        "Ola"
+      ],
+      "primary_speaker": "Jesper von Koch",
+      "discussion_summary": "Jesper von Koch presenterar Huhtamäki som sitt case - ett finskt förpackningsbolag med ca 100 års historia. Fyra segment: Nordamerika (36%), Flexible packaging (32%), Food service packaging (24%) och Fiber packaging (10%). Genomsnittlig tillväxt runt 4,5% senaste 10 åren mot mål på 5-6%. Lönsamheten har förbättrats från 6-7% till över 10% EBIT-marginal. Alla fyra segment levererar över 9% marginal i Q3 för första gången. Effektiviseringsprogram levererat 100 MEUR i årliga besparingar, tidigare och billigare än utlovat. Volymtillväxt i Nordamerika och Fiber packaging. Investeringar i Nordamerika som ger effekt 2026. Stark balansräkning med nettoskuld/EBITDA på 2,0. 16 år i rad med ökande utdelning. Handlas till historiskt låg värdering med EV/EBIT på 10,5 mot historiskt snitt på 15.",
+      "quotes": [
+        {
+          "speaker": "Jesper von Koch",
+          "text": "Tittar vi på EV/EBIT på justerade siffror så har vi 10,5 vilket är historiskt lågt. På börsdata finns det inget år där man värderats lägre.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Jesper von Koch",
+          "text": "I Q3 2025 så levererar alla fyra segment över 9% marginal EBIT för första gången.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Jesper von Koch",
+          "text": "Riktigt kvalitetsbolag som tickar sakta men säkert i tillväxt och kontinuerliga lönsamhetsförbättringar över tid.",
+          "timestamp": null,
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Jesper von Koch",
+          "text": "Man har 16 år i rad av ökande utdelningar och den är typ 3,5% baserat på fjolårets utdelning.",
+          "timestamp": null,
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": 12,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "3,5%",
+        "revenue_growth": "4,5% snitt senaste 10 åren, mål 5-6%",
+        "margin": "Över 10% EBIT rullande 12, mål 10-12%",
+        "debt_level": "Nettoskuld/EBITDA 2,0 (mål 2-3)",
+        "custom": [
+          "EV/EBIT 10,5 (historiskt snitt 15)",
+          "Justerad vinst per aktie 2,51 EUR (P12)",
+          "100 MEUR årliga kostnadsbesparingar",
+          "16 år i rad med ökande utdelning",
+          "Alla 4 segment över 9% EBIT-marginal",
+          "36% av intäkter från Nordamerika",
+          "Ca 20 förvärv senaste 15 åren"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Historiskt låg värdering - EV/EBIT 10,5 mot snitt 15",
+          "Effektiviseringsprogram levererat 100 MEUR i besparingar",
+          "Alla segment levererar över 9% marginal för första gången",
+          "Volymtillväxt i Nordamerika och Fiber packaging",
+          "Investeringar som ger marginaleffekt 2026",
+          "Stark balansräkning med utrymme för förvärv",
+          "16 år i rad med ökande utdelningar",
+          "3,5% direktavkastning som krockkudde"
+        ],
+        "bear_case": [
+          "36% exponering mot Nordamerika med valutamotvind",
+          "Topline inte imponerande kortsiktigt",
+          "Svagare konjunktur påverkar volymer",
+          "Låg tillväxt jämfört med finansiellt mål"
+        ],
+        "catalysts": [
+          "Återgång till 5-6% årlig tillväxt",
+          "Marginalförbättring mot 10-12% mål",
+          "Upprampningskostnader i Nordamerika klingar av under 2026",
+          "Valutamotvind vänder"
+        ],
+        "risks": [
+          "Fortsatt valutamotvind i USD",
+          "Svag konjunktur och lägre volymer",
+          "Förvärvsrisk"
+        ]
+      },
+      "position_disclosure": "owns_guest"
+    },
+    {
+      "stock_name": "Carasent",
+      "ticker": "CARA",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 30,
+      "speakers": [
+        "Jesper von Koch"
+      ],
+      "primary_speaker": "Jesper von Koch",
+      "discussion_summary": "Carasent nämns kort som ett av Kavaljer Quality Focus två absolut största innehav tillsammans med Securitas.",
+      "quotes": [],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Största innehavet i professionell kvalitetsfond"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "owns_guest"
+    }
+  ],
+  "crypto_mentions": [],
+  "insights": [
+    {
+      "quote": "Utan conviction så kommer det inte gå bra. Man börjar darra som ett litet asplöv när det stormar och man börjar fundera på helt fel saker.",
+      "summary": "Conviction är avgörande - utan stark övertygelse säljer man på fel tidpunkt",
+      "category": "philosophy",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "conviction",
+        "psykologi",
+        "strategi",
+        "tålamod"
+      ]
+    },
+    {
+      "quote": "Man behöver inte läsa fler böcker utan det är bättre att internalisera de allra bästa.",
+      "summary": "Bättre att läsa om de bästa böckerna än att ständigt jaga nya",
+      "category": "wisdom",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "utbildning",
+        "böcker",
+        "lärande"
+      ]
+    },
+    {
+      "quote": "Det är svårt för en aktie att gå upp när vinsten minskar.",
+      "summary": "Vinstmomentum är centralt - köp inte när vinsten är på väg ner",
+      "category": "philosophy",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "vinstmomentum",
+        "tajming",
+        "princip"
+      ]
+    },
+    {
+      "quote": "Att leta upp intressanta case är bara de första 30 procenten av arbetet. Sen handlar allting om conviction.",
+      "summary": "Att hitta bolaget är bara början - det verkliga arbetet är att hålla fast vid övertygelsen",
+      "category": "philosophy",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "conviction",
+        "process",
+        "ägande"
+      ]
+    },
+    {
+      "quote": "Bestäm dig för strategin. Och bli inte så lätt inspirerad av olika typer av strategier.",
+      "summary": "Håll dig till en strategi istället för att hoppa mellan olika tillvägagångssätt",
+      "category": "philosophy",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "strategi",
+        "disciplin",
+        "konsistens"
+      ]
+    },
+    {
+      "quote": "Med 20% av tiden så uppnår man 80% av resultatet. Och de sista 20% av resultatet tar fyra gånger så lång tid.",
+      "summary": "80/20-regeln gäller för aktieanalys - djupare analys ger avtagande avkastning",
+      "category": "wisdom",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "80-20",
+        "analys",
+        "effektivitet"
+      ]
+    },
+    {
+      "quote": "Antingen ska man lägga väldigt mycket tid på det och vara bevisat duktig. Annars ska man inte hålla på med det. Annars blir det som en syltburk - håll tassarna borta.",
+      "summary": "Var antingen seriös investerare eller indexinvesterare - halvhjärtat pillande förstör avkastning",
+      "category": "wisdom",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "strategi",
+        "nybörjare",
+        "disciplin",
+        "indexfonder"
+      ]
+    },
+    {
+      "quote": "Historisk vinsttillväxt per aktie på typ sju år. Att den ska vara stark och gärna jämn. Det är det absolut viktigaste.",
+      "summary": "Viktigaste nyckeltalet för nybörjare: stabil vinsttillväxt per aktie över 7 år",
+      "category": "lesson",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "nyckeltal",
+        "vinsttillväxt",
+        "nybörjare",
+        "analys"
+      ]
+    },
+    {
+      "quote": "Jag tycker inte om thesis drift. Det vill säga att man först har en premiss och sen kanske något dåligt händer och så bara 'det har ju blivit ännu billigare'.",
+      "summary": "Undvik thesis drift - sälj om din ursprungliga tes inte längre stämmer istället för att rationalisera",
+      "category": "philosophy",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "thesis drift",
+        "disciplin",
+        "sälja",
+        "psykologi"
+      ]
+    },
+    {
+      "quote": "Istället för att fundera på om börsen är lite övervärderad eller oroligt i USA... hittar jag ett bra case så köper jag det.",
+      "summary": "Fokusera på enskilda bolag och case istället för att försöka tajma marknaden",
+      "category": "philosophy",
+      "speaker": "Jesper von Koch",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "marknadstajming",
+        "fullinvesterad",
+        "bottom-up"
+      ]
+    }
+  ],
+  "market_sentiment": "mixed",
+  "summary": "Avsnittet är uppdelat i två delar: rapportgenomgång och en intervju med Jesper von Koch från fondbolaget Kavaljer. Ola går igenom rapporter från sina portföljbolag med blandat resultat - Novo Nordisk besvikelse (minus 17%) men långsiktigt behåll, New Wave köpläge på rapportnedgång, Revolution Race superrapport (+24%), Securitas bäst i klassen (+7,5%) och Hexatronic stark (+12%). Intervjun med Jesper handlar om investeringsprocess, hur man hittar och analyserar kvalitetsbolag, vikten av conviction, och portföljkonstruktion. Jesper presenterar Huhtamäki som case - ett finskt förpackningsbolag som handlas till historiskt låg värdering med EV/EBIT 10,5 mot snitt 15, med förbättrade marginaler och stark balansräkning.",
+  "key_takeaways": [
+    "Novo Nordisk: starkt långsiktigt behåll med riktkurs 400 kr trots rapportbesvikelse, men kortsiktigt mycket negativt sentiment",
+    "New Wave: köpläge på minus 8% med stark underliggande valutajusterad tillväxt över 10%",
+    "Securitas levererar bäst i portföljen med fin rapport och uppnått marginalmål",
+    "Hexatronic visar stark momentum med +12% på rapport och +40% på tre månader",
+    "Huhtamäki presenteras som kvalitetscase - historiskt låg värdering, 100 MEUR i besparingar och 3,5% direktavkastning",
+    "Jesper von Koch betonar att conviction och disciplin är viktigare än att hitta nya case",
+    "80/20-regeln: i stora bolag räcker det att förstå de stora dragen, i småbolag lönar sig djupare analys",
+    "Kavaljer Quality Focus har 35 innehav med max 5% per position i high conviction-case",
+    "Nybörjare bör fokusera på historisk vinsttillväxt per aktie över 7 år som viktigaste nyckeltal"
+  ],
+  "transcript_file": "/Users/pontus/Developer/finance-agent/data/transcripts/kvalitetforpengarna/kvalitetforpengarna-2026-02-05-94bb.txt",
+  "transcript_word_count": 5200,
+  "has_timestamps": false,
+  "model_used": "claude-opus-4-6"
+}

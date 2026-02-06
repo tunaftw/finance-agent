@@ -1,0 +1,1293 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "veckanstrade-2026-02-04-ff28",
+  "podcast_name": "Veckans Trade",
+  "episode_title": "44. Vd:n som måste avgå för att kursen ska lyfta",
+  "episode_number": 44,
+  "date": "2026-02-04",
+  "hosts": [
+    "George Trulia"
+  ],
+  "guests": [],
+  "main_topics": [
+    "Svårt att slå index i januari",
+    "Rapportperioden är svag med många vinstvarningar",
+    "Investor och dess portfölj (ABB, Saab)",
+    "Post Earnings Announcement Drift som strategi",
+    "AI-hotet mot mjukvarubolag och gamingbolag",
+    "Google Project Genie och påverkan på gamingsektorn",
+    "Lyko vinstvarning och VD-kritik",
+    "Hype (snusåterförsäljare) och tobakstillstånd",
+    "Swedencare vinstvarning",
+    "Karnov Group och Anthropic-hot",
+    "Bitcoin och krypto som spekulativ tillgång"
+  ],
+  "stocks_discussed": [
+    "Investor",
+    "ABB",
+    "Saab",
+    "Atlas Copco",
+    "EQT",
+    "Vitrolife",
+    "Novo Nordisk",
+    "Lyko",
+    "Hype",
+    "Swedencare",
+    "Karnov Group",
+    "Unity Software",
+    "Take-Two Interactive",
+    "Coffee Stain",
+    "Paradox Interactive",
+    "Embracer Group",
+    "Mag Interactive",
+    "Electrolux",
+    "Boliden",
+    "Sandvik",
+    "Volvo",
+    "Cloetta",
+    "Arjo",
+    "Getinge",
+    "Autoliv",
+    "Verishore",
+    "Matas",
+    "Eqil Pharma",
+    "Shopify",
+    "Alphabet"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Investor",
+      "ticker": "INVE-B",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Investor verkar inte kunna förlora. Saab har gått tio gånger pengarna och utgör ca 9% av NAV. ABB hade en av de bästa kvartalsrapporterna i historien och stod för 15% av NAV. Portföljen levererar konsekvent trots att man alltid tror att rule of big numbers ska stoppa dem. Även i en svår rapportperiod fortsätter Investor överträffa.",
+      "price_target": null,
+      "time_horizon": "long",
+      "quote": "Det verkar som att investorer inte kan förlora. Så fort man räknar ut någon av deras lite sämre idéer.",
+      "sector": "Investment",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "ABB",
+      "ticker": "ABB",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Hade en av de bästa kvartalsrapporterna i historien, aktien var upp 10%. Rider på AI-trenden med kylning och energilagring. Ville använda Post Earnings Announcement Drift-strategin för att köpa efter rapporten men missade på grund av silvervolatilitet. Ser uppsida från ATH.",
+      "price_target": null,
+      "time_horizon": "short",
+      "quote": "ABB, ATH, Hås, alla ska köpa nu. De rider ju faktiskt jättemycket på AI trenden.",
+      "sector": "Industri",
+      "market": "sweden",
+      "position_context": "Ville köpa men missade tillfället",
+      "downside_note": null,
+      "catalyst_timing": "Post Earnings Announcement Drift, 3 dagars window efter rapport"
+    },
+    {
+      "stock_name": "Lyko",
+      "ticker": "LYKO",
+      "action": "avoid",
+      "confidence": "high",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Vinstvarnade efter att peer Matas redan varnat om svag svensk marknad. VD Rikard Lyko kritiseras hårt för sitt TikTok/LinkedIn-beteende vid vinstvarningen. Sparkade 70 anställda. Värden anser att VD:n måste bytas ut för att aktiekursen ska kunna lyfta. Kan inte konsekvent tjäna pengar trots att branschen (smink) har stark medvind.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "Lyko som investeringscase, den här vd:en måste ur. Någon måste blocka ur honom.",
+      "sector": "E-handel/Skönhet",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "VD-risk, konsekvent oförmåga att leverera vinst trots stark marknad",
+      "catalyst_timing": "Eventuellt VD-byte som trigger"
+    },
+    {
+      "stock_name": "Hype",
+      "ticker": "HYPE",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Handlas till ca 5 gånger årsvinsten. Rätt värderat enligt värden. Tobakstillståndsproblemet var en nothing burger (mindre än 1% av omsättning). Stark trend med snus bland unga. Amerikanska köpflöden driver aktien, ofta runt 15:30. Har en riktig produkt som AI inte kan ersätta. Svårt med volatiliteten pga amerikanska family offices.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "Det här beordraget är rätt värderat. Det handlade sig typ fem gånger års vinsten.",
+      "sector": "Konsument/Snus",
+      "market": "sweden",
+      "position_context": "Kortade på nyhet men täckte snabbt, missade köpet av dippen",
+      "downside_note": "Amerikanska flöden skapar hög volatilitet vid negativa nyheter, regulatorisk risk från EU",
+      "catalyst_timing": "Köpflöde ofta 15:30 vid positiva nyheter"
+    },
+    {
+      "stock_name": "Swedencare",
+      "ticker": "SECARE",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Vinstvarnade och skyldde på höga marknadsföringskostnader till Amazon. VD har historik av att kalla saker one-off. Risk för nyemission enligt Affärsvärlden. Billigt om man tror på att kostnadsökningen var tillfällig. Symrise som storägare kan potentiellt ta ut bolaget från börsen.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "De har ju Simrise som största ägaren som köpte upp Probi. Det var snack om att de kommer... Det finns väl en putt i att de tar ut det från börsen.",
+      "sector": "Djurhälsa",
+      "market": "sweden",
+      "position_context": "Äger aktier, är sned i positionen",
+      "downside_note": "Risk för nyemission, VD:ns trovärdighet ifrågasätts",
+      "catalyst_timing": "Potentiellt uppköp av Symrise"
+    },
+    {
+      "stock_name": "Karnov Group",
+      "ticker": "KAR",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Ner 19% efter att Anthropic lanserade AI-lösning för juridik. Carnegie menar nedgången är överdriven. Handlas till 18 gånger årsvinsten. Har kundrelationer och avtal med myndigheter som borde vara värda mer. Men marknaden saknar riskkapital att stå emot så aktien malde ner hela dagen.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "Carnegie sa att det borde vara oförändrat på det här. Man vet inte om de kan ta vara på den här antropikgrejen.",
+      "sector": "Mjukvara/Legal Tech",
+      "market": "sweden",
+      "position_context": "Köpte aktier men fastnade i positionen",
+      "downside_note": "AI-hot från Anthropic, brist på riskkapital i marknaden att stå emot nedgången",
+      "catalyst_timing": "Rapport om några dagar"
+    },
+    {
+      "stock_name": "Take-Two Interactive",
+      "ticker": "TTWO",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Lojal spelarbas med titlar som Red Dead Redemption 2. AI kommer korta ledtider för spelutveckling (4-5 år ner till markant kortare). Kan sparka stor del av arbetsstyrkan och använda AI. Har kulturellt värde i sina spel som inte bara kan promptas fram. GTA 6 på väg. Dippen på grund av Google Genie borde ha köpts.",
+      "price_target": null,
+      "time_horizon": "long",
+      "quote": "Man skulle verkligen köpa dippen i Take-Two Interactive.",
+      "sector": "Gaming",
+      "market": "us",
+      "position_context": "Missade att köpa dippen, backtrader i efterhand",
+      "downside_note": null,
+      "catalyst_timing": "GTA 6-release"
+    },
+    {
+      "stock_name": "Mag Interactive",
+      "ticker": "MAGI",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "reasoning": "Mobilspelsbolag (Quizkampen) som blev sämre och sämre. Handlas runt 5,60 kr, halva börsvärdet är kassa. Har 107 anställda inklusive kontor i England för att göra mobilspel, vilket är orimligt med AI. VD köper dippen men det betyder lite. Trigger vore om de sparkar majoriteten av personalstyrkan.",
+      "price_target": null,
+      "time_horizon": "medium",
+      "quote": "Tills att det jobbar 100 plus pers för att göra lite jävla mobilspel så kommer jag inte ta i det här bolaget med tong.",
+      "sector": "Gaming/Mobilspel",
+      "market": "sweden",
+      "position_context": null,
+      "downside_note": "Överbemannat, sämre och sämre kvartal, AI-hot mot mobilspel",
+      "catalyst_timing": "Eventuell stor personalneddragning"
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Investor",
+      "ticker": "INVE-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 500,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Investor är Sveriges mest ägda aktie och fortsätter leverera exceptionell avkastning. Saab har gått tio gånger pengarna och utgör 9% av NAV. ABB hade en av historiens bästa kvartalsrapporter (upp 10%) och står för 15% av NAV. Trots att värden alltid tänkt att rule of big numbers borde stoppa Investor, fortsätter de överträffa. Husqvarna ägs i liten del och ses som världens bästa short på 20 år.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Det verkar som att investorer inte kan förlora. Så fort man räknar ut någon av deras lite sämre idéer.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "George Trulia",
+          "text": "Investor, det är ju clichet. Man får aldrig sälja, Investor säger folk. Men jag är benägen att hålla med.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Ca 15% CAGR över 40 år",
+          "Saab ca 9% av NAV (tio gånger pengarna)",
+          "ABB ca 15% av NAV"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Konsekvent överavkastning under lång tid",
+          "Saab har gått tio gånger pengarna",
+          "ABB levererar historiskt starka rapporter och rider på AI-trenden",
+          "Sveriges mest ägda aktie med stark track record"
+        ],
+        "bear_case": [
+          "Rule of big numbers - kan avkastningen fortsätta?",
+          "Husqvarna-innehavet ses som dåligt",
+          "Atlas Copco potentiellt dyr"
+        ],
+        "catalysts": [
+          "ABB:s AI-exponering inom kylning och energilagring",
+          "Saab och försvarssektorn"
+        ],
+        "risks": [
+          "Substansrabatt kan variera",
+          "Portföljbolag som Atlas Copco och Husqvarna"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "ABB",
+      "ticker": "ABB",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 350,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "ABB hade en av de bästa kvartalsrapporterna i historien, aktien upp 10%. Bolaget rider på AI-trenden med kylning och energilagring, inte bara robotdelen. Värden ville använda Post Earnings Announcement Drift-strategin men missade tillfället pga silvervolatilitet. Lyfts fram som ett av Sveriges bästa AI-bolag.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Jag trodde att ABB bara var själva robotdelen som står på Volvo fabrikerna, de svetsa plåt, men de har ju jättemycket kylning och energilagring.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "George Trulia",
+          "text": "Vi har ju liksom ett av de största bolagen som är i forefront av det här racet.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktien upp 10% på rapportdagen",
+          "All-time high"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "En av de bästa kvartalsrapporterna i historien",
+          "AI-exponering via kylning och energilagring",
+          "Post Earnings Announcement Drift borde driva kursen vidare",
+          "All-time high signalerar stark trend"
+        ],
+        "bear_case": [
+          "Redan på all-time high"
+        ],
+        "catalysts": [
+          "Fortsatt AI-investeringsvåg",
+          "PEAD efter stark rapport"
+        ],
+        "risks": [
+          "Makro och silvervolatilitet påverkar index"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "EQT",
+      "ticker": "EQT",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "EQT var ner över 10-11% på en dag med extrem volym (vollakal). Jämförs med reaktionen under Trump-tullarna. Dess konkurrent Apollo var ner 5% samtidigt. Nämns som exempel på hur brutalt marknaden straffar bolag i den rådande miljön. Oracle-omfinansiering nämns som möjlig orsak.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "EQT vollakalades typ sist i Trump-tullarna. Det är inte varje dag man ser sådana här flöden.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Ner 11% på en dag"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Hänsynslösa flöden i PE-sektorn",
+          "Oracle-omfinansiering påverkar negativt"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Private equity-sektorn under press",
+          "Brist på riskkapital i marknaden"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Vitrolife",
+      "ticker": "VITR",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Vitrolife var ner över 20% på rapport. Värden försökte handla en kortsiktig trade men aktien stängde dagslägsta. Stor säljorder på 300 000 aktier på dagslägsta signalerade total kapitulation. Nämns i kontexten att fertilitetsmarknaden är svag - folk gör inte barn längre.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Vitrolife var ner 20 procent. Och jag tänkte att ja men det här har Richard Brose sagt kanske inte är jättedåligt. Och så ser jag någon i boken lägga ut 300 000 aktier på dagslägsta.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "George Trulia",
+          "text": "Barn sminkar sig, men folk gör inte barn längre. Det suger.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Ner 20% på rapportdagen"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Svag rapport",
+          "Fertilitetsmarknaden i motvind",
+          "Total kapitulation i orderflödet"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Demografisk motvind - sjunkande födelsetal"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Novo Nordisk släppte preliminära siffror som såg horribla ut. Utgör en oproportionerligt stor del av det danska indexet, jämförbart med Ericsson under IT-kraschen. Danmarks ekonomi styrs mycket av Novo Nordisks vinstförmåga som är i backen.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Deras index, de har ju värre procentuell del av sitt index än typ Ericsson hade i it-crushen.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Horribla preliminära siffror",
+          "Vinstförmåga i backen"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Systemrisk för danskt index",
+          "Konkurrenssituation i GLP-1-marknaden"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Lyko",
+      "ticker": "LYKO",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 600,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Lyko vinstvarnade efter att Matas (ägare av Kicks) redan varnat om svag svensk sminkmarknad. VD Rikard Lyko kritiseras hårt för sitt TikTok/LinkedIn-beteende med vinstvarningen. 70 anställda sparkas. Bullcaset finns i att barn sminkar sig och marknaden växer, men om man konsekvent inte kan tjäna pengar på en växande bransch är det ett ledarskapsproblem. Värden anser att VD:n måste bytas ut.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Lyko som investeringscase, den här vd:en måste ur. Någon måste blocka ur honom.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "George Trulia",
+          "text": "Den här människan kan bevisligen inte driva ett bolag i en noterad miljö.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "70 anställda sparkas"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Sminkmarknaden växer - barn sminkar sig från 9 års ålder",
+          "Hela världen som kundbas"
+        ],
+        "bear_case": [
+          "Kan inte konsekvent tjäna pengar trots stark marknad",
+          "VD:s beteende och kommunikation skadar bolaget",
+          "Peer Matas varnade redan om svag svensk marknad",
+          "Pris-action innan vinstvarningen indikerade insiderkunskap"
+        ],
+        "catalysts": [
+          "VD-byte skulle kunna vara en stark trigger"
+        ],
+        "risks": [
+          "Ledarskapsrisk - VD saknar förmåga att driva noterat bolag",
+          "Dåliga satsningar i Danmark och Finland"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Hype",
+      "ticker": "HYPE",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 500,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Snusåterförsäljarbolaget flashade att de kan förlora tobakstillståndet, men det rör mindre än 1% av omsättningen. Värden kortade på instinkt men täckte snabbt efter att ha läst pressmeddelandet. Missade köpet av dippen. Handlas runt 5 gånger årsvinsten. Amerikanska family offices driver stora flöden, ofta köpflöde kl 15:30. Stark position med riktig produkt som AI inte kan ersätta.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Det här beordraget är rätt värderat. Det handlade sig typ fem gånger års vinsten.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "George Trulia",
+          "text": "Väldigt ofta vid trading tips jag kan dela med mig av, om det är okej nyheter i hype... så brukar det komma ett fruktansvärt köpflöde 1530.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "5x",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Inte världens högmarginal business",
+        "debt_level": null,
+        "custom": [
+          "Tobakstillstånd rör <1% av omsättning"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Låg värdering runt 5x årsvinst",
+          "Riktig produkt som AI inte kan ersätta",
+          "Stark snustrend bland unga",
+          "Amerikanska köpflöden driver kursen"
+        ],
+        "bear_case": [
+          "Amerikanska family offices skapar volatilitet vid negativa nyheter",
+          "Inte världens högmarginalaffär"
+        ],
+        "catalysts": [
+          "Amerikanskt köpflöde kl 15:30 vid positiva nyheter",
+          "Loop-produkter (nikotinpåsar) som tillväxtdriver"
+        ],
+        "risks": [
+          "EU-regulering av snus/nikotin",
+          "Volatila amerikanska flöden"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Swedencare",
+      "ticker": "SECARE",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 300,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Swedencare vinstvarnade och skyldde på höga marknadsföringskostnader till Amazon. VD har historik av att kalla allt one-off. Affärsvärlden flaggar risk för nyemission. Symrise (som köpte Probi) är storägare och det finns en möjlighet att de tar ut bolaget från börsen.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Han borde inte prata så nyckfullt om framtiden. För att, ja du har det för dig. Du säljer hundkex digitalt på nätet.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": "Risk för nyemission enligt Affärsvärlden",
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Billigt om marknadsföringskostnader var tillfälliga",
+          "AI kan inte äta upp djurhälsa",
+          "Symrise kan ta ut bolaget från börsen"
+        ],
+        "bear_case": [
+          "VD:s trovärdighet är låg - upprepade one-off-förklaringar",
+          "Risk för nyemission",
+          "Höga marknadsföringskostnader till Amazon"
+        ],
+        "catalysts": [
+          "Potentiellt uppköp av Symrise"
+        ],
+        "risks": [
+          "Nyemission",
+          "Fortsatt svag lönsamhet"
+        ]
+      },
+      "position_disclosure": "Äger aktier"
+    },
+    {
+      "stock_name": "Karnov Group",
+      "ticker": "KAR",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 400,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Karnov Group var ner 19% (stängde dagslägsta) efter att Anthropic lanserade en AI-lösning för juridik. Carnegie menade att nedgången var överdriven och att det borde vara oförändrat. Bolaget har rapport om några dagar och kan eventuellt dementera hotet då. Värden köpte men fastnade - det fanns inget riskkapital att stå emot nedgången.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Kärnövstängd är day low, minus 19%. På en icke, alltså det är inga nya finansiella nyheter i marknaden.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "George Trulia",
+          "text": "Carnegie är utemellan av en analys där de säger att det här är orimligt, den ska inte ner så mycket.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "18x",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Börsvärde ca 10 miljarder",
+          "Mid cap-listan"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Carnegie anser nedgången överdriven",
+          "Starka kundrelationer med myndigheter och regering",
+          "Kan inkludera AI i sin egen affär",
+          "Kundstock i offentlig sektor är trögrörlig"
+        ],
+        "bear_case": [
+          "Anthropic lanserar AI-lösning för juridik",
+          "Inget riskkapital i marknaden att stå emot",
+          "Stängde dagslägsta, minus 19%"
+        ],
+        "catalysts": [
+          "Kvartalsrapport om några dagar"
+        ],
+        "risks": [
+          "AI-disruption av legal tech-marknaden",
+          "Fortsatt säljpress utan motköp"
+        ]
+      },
+      "position_disclosure": "Äger aktier"
+    },
+    {
+      "stock_name": "Unity Software",
+      "ticker": "U",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 350,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Unity var ner 30% efter att Google lanserade Project Genie som hotar Unitys affärsmodell. Genie kan prompta fram spelvärldar som tidigare krävde kodning i Unity. Hela gamingsektorn drogs med ner. Constellation Software var ner 10% och Shopify över 10% samma dag. EV/Sales var 60x vid IPO 2021.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Med Project Genie, kan du promta fram det väldigt komplext. Du skriver hej, gör en vikingärvärld när jag ska göra nästa Valheim DLC.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "60x vid IPO 2021",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Ner 30% på en dag"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Google Project Genie hotar hela affärsmodellen",
+          "AI kan ersätta behovet av Unity-mjukvaran",
+          "Svindyrt även efter nedgång"
+        ],
+        "catalysts": [],
+        "risks": [
+          "AI-disruption av spelverktygsmarknaden"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Take-Two Interactive",
+      "ticker": "TTWO",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 350,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Take-Two Interactive drogs ner med hela gamingsektorn (minus 10%) pga Google Genie-rädsla. Värden argumenterar att bolaget tvärtom gynnas av AI - lojal spelarbas, kulturellt värdefulla titlar som Red Dead Redemption 2 som inte bara kan promptas fram. Ledtider på 4-5 år kan kortas markant med AI. Man borde ha köpt dippen.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Man skulle verkligen köpa dippen i Take-Two Interactive.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "George Trulia",
+          "text": "Jag tror att om fem år så kommer det att ha omvänd effekt.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Ner ca 10% på Google Genie-dag"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Lojal spelarbas med kulturellt värde",
+          "AI kortar ledtider för spelutveckling markant",
+          "Kan minska arbetsstyrkan med bibehållen output",
+          "GTA 6 på väg"
+        ],
+        "bear_case": [
+          "Kortsiktig AI-rädsla trycker ner kursen"
+        ],
+        "catalysts": [
+          "GTA 6-release",
+          "Kostnadsbesparingar genom AI"
+        ],
+        "risks": [
+          "Generell AI-rädsla i gamingsektorn"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Paradox Interactive",
+      "ticker": "PDX",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Paradox drogs ner med gamingsektorn efter Google Genie. Värden argumenterar dock att Paradox-spel kräver historisk korrekthet och specialiserad kunskap som inte bara kan promptas fram - karaktärer som Genghis Khan måste vara historiskt korrekta. Paradox ses som mer skyddat från AI-disruption än mobilspelsbolag.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Just sådana spel, de kräver ju lite att man... Du kan inte bara AI-prompta fram, skriv någon random historia, utan det måste vara historiskt rätt.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Historiskt korrekt content kräver specialiserad kunskap",
+          "Lojal nischpublik"
+        ],
+        "bear_case": [
+          "Dras ner av generell gaming-rädsla"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Generell AI-rädsla i gamingsektorn"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Mag Interactive",
+      "ticker": "MAGI",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 350,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Mag Interactive (Quizkampen) har fallit från miljardbörsvärde till 105-160 MSEK. Handlas runt 5,60 kr, halva värdet är kassa (3 kr/aktie). Har 107 anställda + kontor i England, vilket är orimligt för mobilspel i AI-eran. VD köper dippen men det säger lite. Värden vägrar investera förrän man ser massiva uppsägningar.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Om den här snubben sparkar 90% av de som jobbar på det här företaget och bara köper en Google-subscription, så ska den här aktien upp 200%.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "George Trulia",
+          "text": "Tills att det jobbar 100 plus pers för att göra lite jävla mobilspel så kommer jag inte ta i det här bolaget med tong.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Kurs ca 5,60 SEK",
+          "Kassa ca 3 SEK/aktie",
+          "Börsvärde 105-160 MSEK",
+          "107 anställda"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Halva börsvärdet är kassa",
+          "Skulle kunna sparka 90% och använda AI istället",
+          "VD köper aktier"
+        ],
+        "bear_case": [
+          "Orimligt många anställda för mobilspel",
+          "Sämre och sämre kvartal",
+          "AI-hotet gör mobilspelsutveckling trivial"
+        ],
+        "catalysts": [
+          "Stor personalneddragning som trigger"
+        ],
+        "risks": [
+          "Ingen moat i mobilspel",
+          "Fortsatt värdeförstöring"
+        ]
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Electrolux",
+      "ticker": "ELUX-B",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 50,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Electrolux nämns kort med att de hade en väldigt bra rapport, men från låga nivåer. Investor äger en mikroposition.",
+      "quotes": [],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Bra rapport"
+        ],
+        "bear_case": [
+          "Från låga nivåer"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Eqil Pharma",
+      "ticker": "EQIL",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 100,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Diskuterades i föregående avsnitt med Skönberg som turnaround-case. Rapporten såg bra ut vid första anblick men aktien stängde minus 8%. Marknaden är inte lika sugen på caset som värden.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Bevisligen är inte börsen lika sugen på caset som jag är, vilket klärde jag mig på kort sikt.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Ner 8% på rapport"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Turnaround-case",
+          "Rapport såg bra ut vid första anblick"
+        ],
+        "bear_case": [
+          "Marknaden inte intresserad",
+          "Stängde minus 8%"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Alphabet",
+      "ticker": "GOOGL",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 200,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Google/Alphabet lyfts fram som ledande inom AI trots att många (inklusive Klarnas Sebastian) tidigare sa att bolaget var dödsdömt pga ChatGPT. Har garpig värdering jämfört med andra Mag 7-bolag. Lanserade Nano Banana Pro för bild/video-generering och Project Genie för spelvärldar. Ses som undervärdererat AI-bolag.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "De vänder ju på klacken helt åt... De är ledande inom AI nu.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Garpig värdering jämfört med Mag 7"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Ledande inom AI",
+          "Garpig värdering jämfört med Mag 7",
+          "Banbrytande teknologiska framsteg (Nano Banana Pro, Genie)"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Project Genie",
+          "Fortsatta AI-lanseringar"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Matas",
+      "ticker": "MATAS",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 100,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Danskt bolag som äger Kicks. Vinstvarnade och skyldde på svag svensk sminkmarknad. Var en tidig signal inför Lykos vinstvarning.",
+      "quotes": [],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Vinstvarnade",
+          "Svag svensk sminkmarknad"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    },
+    {
+      "stock_name": "Verishore",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 100,
+      "speakers": [
+        "George Trulia"
+      ],
+      "primary_speaker": "George Trulia",
+      "discussion_summary": "Verishore var ner 10% på oändlig volym utan tydlig anledning förutom styrelsebyte. Ingen negativ nyhet kunde hittas. Exemplifierar marknadens irrationella beteende under rapportperioden.",
+      "quotes": [
+        {
+          "speaker": "George Trulia",
+          "text": "Jag hittade ingenting i Veryshores mer än att man byter ut styrelsen och aktien är ner 10% på typ oändlig volym.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Ner 10% utan tydlig anledning"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Ner 10% på styrelsebyte",
+          "Hög volym indikerar stort säljflöde"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "none"
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset": "Bitcoin",
+      "ticker": "BTC",
+      "sentiment": "long-term_bullish",
+      "summary": "Bitcoin gick under 80 000 och laggar Nasdaq. Värden tror bitcoin är här för att stanna men anser att man borde köpa runt 50 000. Guld är lika volatilt som bitcoin så argumentet att BTC är för volatil som reservvaluta håller inte. På kort sikt bearish men på lång sikt måste man ha exponering.",
+      "price_mentioned": "Under 80 000, köpnivå runt 50 000",
+      "speaker": "George Trulia",
+      "quotes": [
+        "Jag tror att bitcoin är här för att stanna och man släpper den tanken bara för att priset går ner så kommer man missa den här håsen som alltid infinner sig.",
+        "Att börja måna att spara bitcoin under 50k känns sunt."
+      ]
+    },
+    {
+      "asset": "Ethereum",
+      "ticker": "ETH",
+      "sentiment": "bearish",
+      "summary": "Nämns som ett sämre alternativ till Bitcoin. KTH-utbildade kryptografer säger att om man tror på kryptografi ska man köpa Bitcoin, inte Ethereum.",
+      "price_mentioned": null,
+      "speaker": "George Trulia",
+      "quotes": [
+        "Om du är lite dum i huvudet och köper du Ethereum, om du tror på kryptografi, köp bitcoin."
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Om du vill bli duktig på stockpicking eller att investera, så finns all information offentlig.",
+      "summary": "All information för att bli en bra investerare finns gratis och offentligt tillgänglig. Köp inte dyra kurser eller nyhetsbrev - de som verkligen är duktiga vill sällan dela med sig.",
+      "category": "wisdom",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "utbildning",
+        "stockpicking",
+        "gratis information",
+        "varning för guruer"
+      ]
+    },
+    {
+      "quote": "Det viktiga i rapporthandel är förväntningen, alltså förväntansbilden på earnings.",
+      "summary": "Rapporthandel handlar inte om absoluta siffror utan om förväntansbilden. Marknaden prisar redan in förväntade resultat, och reaktionen beror på avvikelsen från konsensus.",
+      "category": "lesson",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "rapporthandel",
+        "förväntningar",
+        "earnings",
+        "marknadseffektivitet"
+      ]
+    },
+    {
+      "quote": "Post Earnings Announcement Drift. Det här konceptet som innebär att när bolag presenterar bra och negativa finansiella nyheter, så tar det oftast tre dagar för information att marineras i själva finansiella ekosystemet.",
+      "summary": "PEAD-strategin bygger på att det tar ca tre dagar för marknaden att fullt absorbera rapportinformation då förvaltare och mäklare behöver tid att analysera och agera.",
+      "category": "lesson",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "PEAD",
+        "rapporthandel",
+        "strategi",
+        "informationsasymmetri"
+      ]
+    },
+    {
+      "quote": "Det är mycket lättare att handla på de rapporter som släpps intradag. För då är det mindre ögon som hinner analysera.",
+      "summary": "Rapporter som släpps under handelsdagen (intradag) ger bättre tradingmöjligheter eftersom färre analytiker hinner processa informationen jämfört med rapporter som släpps före/efter börsöppning.",
+      "category": "lesson",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": [
+        "rapporthandel",
+        "intradag",
+        "informationsasymmetri",
+        "timing"
+      ]
+    },
+    {
+      "quote": "Om någon är övertygad om att den är duktig på att tjäna pengar på börsen, så vill den gynna sig själv i första hand.",
+      "summary": "De som verkligen tjänar pengar på börsen prioriterar sig själva och delar sällan med sig. Var skeptisk mot de som marknadsför sin framgång - de tjänar på att sälja drömmen.",
+      "category": "wisdom",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "skepticism",
+        "finfluencers",
+        "självintresse"
+      ]
+    },
+    {
+      "quote": "De enda aktierna som går bra på den nordiska marknaden är gruvbolag.",
+      "summary": "I en svår marknad där indexet drivs av ett fåtal bolag (Sandvik, Boliden, Volvo, banker) går gruvbolag bra tack vare stark underliggande råvarumarknad, medan småbolag och tillväxtbolag straffas.",
+      "category": "philosophy",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "gruvbolag",
+        "råvaror",
+        "sektorrotation",
+        "nordisk marknad"
+      ]
+    },
+    {
+      "quote": "Man köper oftast först och sen läser man på. Det är en lite konstig dynamik man gör som trader.",
+      "summary": "I snabb nyhetshandel måste traders ofta agera först och analysera sedan på grund av algoritmer och hastigheten i marknaden. Inte en Buffett-strategi men nödvändigt för kortsiktig handel.",
+      "category": "lesson",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": [
+        "trading",
+        "nyhetshandel",
+        "snabbhet",
+        "algoritmhandel"
+      ]
+    },
+    {
+      "quote": "AI äter upp allting. Det går inte att nämna en affärsmodell utan att folk säger AI checka upp den skiten.",
+      "summary": "AI-rädslan har blivit konsensus bland kortsiktiga traders. Varje mjukvarubolag ifrågasätts. Men det finns en skillnad mellan bolag med riktig kundbas/kultur och de som enkelt kan ersättas.",
+      "category": "philosophy",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "AI",
+        "disruption",
+        "mjukvara",
+        "marknadsrädsla"
+      ]
+    },
+    {
+      "quote": "Börserna funkar inte just nu för att de enda som köper är traders. Det finns inget riskkapital.",
+      "summary": "Marknadsmiljön präglas av avsaknad av riskkapital. Bara traders köper, och de vill också sälja snabbt. Detta skapar djupare rapportreaktioner och brist på motköp vid nedgångar.",
+      "category": "wisdom",
+      "speaker": "George Trulia",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "marknadsstruktur",
+        "riskkapital",
+        "likviditet",
+        "traders"
+      ]
+    }
+  ],
+  "market_sentiment": "bearish",
+  "summary": "Avsnitt 44 av Veckans Trade fokuserar på en brutal rapportperiod där de flesta rapporter är sämre än förväntat och reaktionerna djupare än normalt. George Trulia konstaterar att det är nästan omöjligt att slå svenskt index som drivs av ett fåtal bolag (Sandvik, Boliden, Volvo, banker) medan småbolag och tillväxtbolag straffas hårt. Investor lyfts fram som den enda positiva överraskningen med ABB:s historiska rapport och Saabs tiodubblade värde. AI-hotet diskuteras ingående - Google Project Genie sänkte hela gamingsektorn med Unity ner 30%, medan Karnov Group tappade 19% på Anthropics juridiksatsning. Lyko och Swedencare kritiseras hårt efter vinstvarningar. Bitcoin ses som långsiktigt intressant runt 50 000 men är bearish kortsiktigt.",
+  "key_takeaways": [
+    "Rapportperioden är extremt svår - de flesta rapporter sämre än förväntat med djupare reaktioner än normalt",
+    "Omöjligt att slå svenskt index som drivs av Sandvik, Boliden, Volvo och banker - även toppförvaltare är minus i januari",
+    "Investor fortsätter överträffa med ABB:s AI-exponering och Saab som gått tio gånger pengarna",
+    "AI-hotet drabbar mjukvarubolag brett - Google Genie sänkte gaming, Anthropic sänkte Karnov Group 19%",
+    "Bolag med riktig produkt/kultur (Take-Two, Paradox, Hype) är mer skyddade från AI-disruption",
+    "Lykos VD måste bytas ut - konsekvent oförmåga att leverera vinst i en stark marknad",
+    "Brist på riskkapital gör att det inte finns motköp vid nedgångar - bara traders handlar",
+    "Bitcoin långsiktigt intressant men bör köpas runt 50 000 - kortsiktigt bearish då den laggar Nasdaq"
+  ],
+  "transcript_file": "/Users/pontus/Developer/finance-agent/data/transcripts/veckanstrade/veckanstrade-2026-02-04-ff28.txt",
+  "transcript_word_count": 9500,
+  "has_timestamps": false,
+  "model_used": "claude-opus-4-6"
+}
