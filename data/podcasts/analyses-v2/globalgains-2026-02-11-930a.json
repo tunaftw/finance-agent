@@ -1,0 +1,837 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "globalgains-2026-02-11-930a",
+  "podcast_name": "Global Gains",
+  "episode_title": "Så undviker man minusår",
+  "episode_number": null,
+  "date": "2026-02-11",
+  "hosts": ["Per Ståhl", "Karl Löns"],
+  "guests": ["Filip Sissner"],
+  "main_topics": [
+    "Sissner Canopus hedgefond - strategi och filosofi",
+    "Tematisk top-down investering: försvar, energi, kärnkraft",
+    "Nedsideskydd genom hedging med putoptioner och shorts",
+    "Storebrand som långsiktig kärnposition",
+    "Maersk som kort-position och containermarknaden"
+  ],
+  "stocks_discussed": [
+    "Storebrand",
+    "ASML",
+    "Nordic Semiconductor",
+    "Rheinmetall",
+    "Leonardo",
+    "Kongsberg Gruppen",
+    "Siemens Energy",
+    "Rolls-Royce",
+    "Prysmian",
+    "Nexans",
+    "ABB",
+    "Maersk",
+    "Novo Nordisk",
+    "NexGen Energy",
+    "Cameco",
+    "Bristol-Myers Squibb",
+    "LVMH",
+    "Ellos",
+    "Europris",
+    "Norsk Hydro",
+    "Boliden",
+    "Lundin Mining",
+    "Anglo American",
+    "Alcoa",
+    "Equinor",
+    "SBB"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Storebrand",
+      "ticker": "STB.OL",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Största positionen i fonden sedan 2012, har slagit både fonden och alla index. Gynnas av höga norska räntor som frigör kapital, växer i flera segment (kapitalförvaltning, skadeförsäkring), bra utdelning och aktieåterköp. Oligopolistisk marknad med pricing power.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Storebrand har varit den största positionen sen 2012. Den har slagit både fonden själv och alla möjliga indexer i tillägg.",
+      "sector": "finans",
+      "market": "europe",
+      "position_context": "Största positionen, max 10% exponering enligt fondens begränsning",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Siemens Energy",
+      "ticker": "ENR.DE",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Del av Power Up Europe-temat - Europas energinät är underinvesterat. Började som en av 4-5 bolag i portföljen, koncentrerades till efter att temat fungerade. Fantastisk avkastningskälla.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Köpte vi en portfölj av 4-5 bolag. Bland annat var Rolls Royce, Siemens Energy, Prismion, Nexance, ABB. Och så eftersom de fungerade, så koncentrerade vi oss mer på Siemens Energy och Rolls Royce.",
+      "sector": "energi",
+      "market": "europe",
+      "position_context": "Koncentrerad position efter initial screening av 4-5 bolag",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Rolls-Royce",
+      "ticker": "RR.L",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Del av Power Up Europe-temat samt kärnkraftsexponering genom små modulära reaktorer (SMR). Koncentrerad position efter att temat fungerade väl.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Så har du en liten del av Rolls Royce som jag nämnde också, som driver med små modulära reaktorer. Det är ju inte någon stor intäktskälla nu men det tror vi kommer att bli det.",
+      "sector": "industri",
+      "market": "europe",
+      "position_context": "Koncentrerad position, exponering mot både energi och kärnkraft",
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Maersk",
+      "ticker": "MAERSK-B.CO",
+      "action": "sell",
+      "confidence": "high",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Kort position. Aktien handlas nära all-time-high men 20-30% av världens containerflotta levereras som nybygg. Samtidigt ska trafiken genom Suezkanalen återupptas, vilket förkortar resvägar och ökar implicit skepstillgänglighet. Efterfrågan i bästa fall platt.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Nu åker Mersk... Ett problem är att det byggs väldigt många nya container-skip. 20-30 procent av hela världens flott kommer för levering också. Så du ökar ju tillbud av skip.",
+      "sector": "shipping",
+      "market": "europe",
+      "position_context": "Aktiv kort/blankad position i fonden just nu",
+      "downside_note": "Gigantiskt bolag med otroligt mycket nedsida härifrån",
+      "catalyst_timing": "Öppnande av Suezkanalen-trafik, leverans av nybeställda containerskepp"
+    },
+    {
+      "stock_name": "ASML Holding",
+      "ticker": "ASML",
+      "action": "hold",
+      "confidence": "high",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "De facto monopol på avancerad litografutrustning för chipproduktion. Fantastisk position att kunna prissätta produkterna och hantera stora volymer. Gynnas av AI-trenden och bredare teknikutveckling.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Det är nästan något att använda ordet monopol faktiskt. Du kommer ju också utom den om du ska, om du har lyst till att producera chipar.",
+      "sector": "tech",
+      "market": "europe",
+      "position_context": null,
+      "downside_note": null,
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nordic Semiconductor",
+      "ticker": "NOD.OL",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Långsiktig position i fonden, typiskt mellan 2-5% av portföljen i flera år. De handlar aktivt genom att sälja vid höga värderingar och köpa tillbaka vid dippar, men behåller alltid tro på bolaget.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Nordic Semiconductor som också har varit en position i fonden stort sett mellan 2 och 5 procent i flera år. Och man har slagit av lite aktier när man syns det har blivit för dyrt och så köpt tillbaka när den har fallit.",
+      "sector": "tech",
+      "market": "europe",
+      "position_context": "2-5% av portföljen",
+      "downside_note": null,
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Storebrand",
+      "ticker": "STB.OL",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 350,
+      "speakers": ["Filip Sissner", "Per Ståhl", "Karl Löns"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Storebrand har varit Canopus-fondens största position sedan starten 2012 och har överträffat både fonden och alla index. Bolaget har tre ben: bank, kapitalförvaltning (äger Delphi och Skagen), livförsäkring och skadeförsäkring. De gynnas av Norges höga styrränta på 4%, som frigör kapital. Bra tillväxt i flera segment, god utdelning och aktieåterköp. Oligopolistisk marknadsposition med pricing power.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Storebrand har varit den största positionen sen 2012. Den har slagit både fonden själv och alla möjliga indexer i tillägg.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Filip Sissner",
+          "text": "Norge håller sig högre. Vi har ju fortsatt styrningsränta på 4 procent. Det är dubbelt så högt som här i Sverige. Och man ser ju att det frigör extremt mycket kapital att betala ut.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Filip Sissner",
+          "text": "Storebrand har vuxit bra, bra utdelning. Aktieåterköp också.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "Bra utdelning (ej specificerad)",
+        "revenue_growth": "Växer i flera segment",
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Norsk styrränta 4%", "Aktieåterköp pågår", "Max 10% exponering per bolag i fonden"]
+      },
+      "thesis": {
+        "bull_case": [
+          "Norges styrränta på 4% frigör kapital inom livförsäkring",
+          "Stark tillväxt i kapitalförvaltning (äger Delphi, Skagen)",
+          "Bra utdelning och aktieåterköp",
+          "Oligopolistisk marknad med pricing power",
+          "Förbättrade resultat inom skadeförsäkring"
+        ],
+        "bear_case": [
+          "Pricing power kan möta regulatoriskt motstånd"
+        ],
+        "catalysts": [
+          "Fortsatt hög norsk räntemiljö",
+          "Tillväxt genom förvärv i kapitalförvaltning"
+        ],
+        "risks": [
+          "Räntesänkningar i Norge skulle minska frigörande av kapital"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Maersk",
+      "ticker": "MAERSK-B.CO",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 250,
+      "speakers": ["Filip Sissner", "Per Ståhl"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Maersk är fondens aktuella kort-position. Aktien handlas nära all-time-high men fundamentala faktorer pekar nedåt: 20-30% av världens containerflotta levereras som nybeställningar, samtidigt ska Suezkanalen öppnas igen vilket frigör kapacitet. Efterfrågan är i bästa fall platt. Sissner ser gigantisk nedsida i aktien.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Just nu är vi Short Maersk.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Filip Sissner",
+          "text": "Mersk aktien står på all time high, mord eller mindre. 20-30 procent av hela världens flott kommer för levering också.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Filip Sissner",
+          "text": "Det är ett gigantiskt bolag, som har otroligt mycket nedsida härifrån tror vi.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": ["Nybyggsflotta: 20-30% av världens kapacitet", "All-time-high aktiekurs"]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "20-30% av världens containerflotta under leverans som nybygg",
+          "Suezkanalen ska öppnas igen, vilket förkortar resvägar",
+          "Ökad skeppskapacitet möter flat efterfrågan",
+          "Aktien på all-time-high utan fundamentalt stöd"
+        ],
+        "catalysts": [
+          "Suezkanalen öppnar - dramatisk kapacitetsökning",
+          "Leverans av nybeställda containerskepp"
+        ],
+        "risks": [
+          "Fortsatt orolighet i Yemen kan förlänga Afrika-rutten",
+          "Konsumentefterfrågan kan öka mer än väntat"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "ASML Holding",
+      "ticker": "ASML",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 120,
+      "speakers": ["Filip Sissner", "Per Ståhl"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "ASML diskuteras som ett de facto monopol inom halvledarlitografi. Sissner betonar att det är nästan rimligt att använda ordet monopol - ingen kan producera avancerade chip utan ASML:s utrustning. Bolaget gynnas av AI-trenden och kan prissätta sina produkter med stor frihet.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Det är nästan något att använda ordet monopol faktiskt. Du kommer ju också utom den om du ska producera chipar.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Filip Sissner",
+          "text": "Du ligger ju i en fantastisk position att kunna prisa produkterna och hantera ganska stora volym samtidigt.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "De facto monopol inom avancerad litografi för chipproduktion",
+          "Stark pricing power",
+          "Gynnas av AI-trend och bredare teknikutveckling"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Ökande AI-investeringar driver chipefterfrågan"
+        ],
+        "risks": [
+          "Geopolitisk risk kring halvledarindustrin"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Nordic Semiconductor",
+      "ticker": "NOD.OL",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 130,
+      "speakers": ["Filip Sissner", "Per Ståhl"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Nordic Semiconductor har varit en konstant position i Canopus mellan 2-5% av portföljen i flera år. Fonden handlar aktivt runt positionen - säljer av vid höga värderingar och köper tillbaka vid dippar. Sissner betonar att man hela tiden har haft tilltro till bolaget och velat ha det i portföljen.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Nordic Semiconductor har varit en position i fonden stort sett mellan 2 och 5 procent i flera år.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Filip Sissner",
+          "text": "Man har ju hela tiden haft tro på sällskapet som man har hela tiden velat ha den i portföljen.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Långsiktig tro på bolaget",
+          "Möjlighet att handla aktivt runt positionen"
+        ],
+        "bear_case": [
+          "Marknaden tenderar att överdriva prisrörelser"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Siemens Energy",
+      "ticker": "ENR.DE",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": ["Filip Sissner"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Siemens Energy ingår i Sissners Power Up Europe-tema som identifierades för 1,5 år sedan. Temat bygger på att Europas energinät och energitillgång är underinvesterat. Bolaget var en av 4-5 initiala positioner som sedan koncentrerades efter att temat fungerade väl. Fantastisk avkastningskälla för fonden.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Energitillgången och energigridden, inte minst, alltså nätet, är ju underinvesterat i Europa.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Europas energinät är underinvesterat",
+          "Strukturell medvind från Power Up Europe-temat",
+          "Koncentrerad efter bevisad framgång"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Europeisk energiinfrastrukturinvestering"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Rolls-Royce",
+      "ticker": "RR.L",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 120,
+      "speakers": ["Filip Sissner"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Rolls-Royce är en del av både Power Up Europe-temat och kärnkraftstemat genom sin SMR-verksamhet (små modulära reaktorer). Koncentrerad position efter initial framgång i Power Up Europe-portföljen. SMR-intäkter är inte stora ännu men Sissner tror att det kommer att bli en betydande intäktskälla.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Så har du en liten del av Rolls Royce som driver med små modulära reaktorer. Det är ju inte någon stor intäktskälla nu men det tror vi kommer att bli det.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Exponering mot underinvesterad europeisk energiinfrastruktur",
+          "SMR-verksamhet (små modulära reaktorer) som framtida tillväxtområde",
+          "Dubbel tematisk exponering: energi + kärnkraft"
+        ],
+        "bear_case": [
+          "SMR-intäkter fortfarande begränsade"
+        ],
+        "catalysts": [
+          "Utveckling av SMR-affären",
+          "Europeisk energiinfrastrukturinvestering"
+        ],
+        "risks": [
+          "SMR-teknologi kan dröja längre än förväntat"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Kongsberg Gruppen",
+      "ticker": "KOG.OL",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 100,
+      "speakers": ["Filip Sissner"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Kongsberg Gruppen exemplifierar Sissners aktiva handelsansats. Fonden gick från lång till kort position i försvarsbolaget när prisningen bedömdes vara i topp, särskilt efter att ETF:er och bankfonder lanserades inom försvarssektorn. De var neutrala i flera månader genom blankning.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Vi hade så långa positioner så blankade vi eller shortade Kongsberggruppen som är den norska. Det fungerade rätt bra i flera månader.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Prisningen var i topp vid tidpunkten för blankning",
+          "ETF-flöden och bankfonder drev temporär peak"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "sold",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Rheinmetall",
+      "ticker": "RHM.DE",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 80,
+      "speakers": ["Filip Sissner"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Rheinmetall nämns som en av de första försvarsaktier fonden investerade i efter att ESG-mandatbegränsningar ändrades. Fonden köpte tillbaka i november-december förra året vid en liten dipp, köpte två dagar för tidigt men ökade på nedgången.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Vi köpte väl två dagar för tidigt så vi var med ner 5 procent. Så köpte vi lite till och så är det sin deskot ganska bra.",
+          "timestamp": null,
+          "context": "other"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Strukturell tillväxt i europeisk försvarssektor"
+        ],
+        "bear_case": [
+          "Höga multiplar i sektorn"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Begränsad produktionskapacitet kan plana ut tillväxten"
+        ]
+      },
+      "position_disclosure": "bought",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Novo Nordisk",
+      "ticker": "NOVO-B.CO",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 120,
+      "speakers": ["Filip Sissner", "Per Ståhl"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Novo Nordisk diskuteras som ett euforiskt case och varningsexempel. Fonden tjänade pengar genom att skriva putoptioner på vägen upp, men tog en förlust när aktien kraschade i oktober-november 2024. Det var den mest negativa bidragsgivaren i Canopus förra året. Fonden äger inte aktien idag.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "En var en karriärrisk att inte äga något Novo Nordisk. Då skapar du bubblor.",
+          "timestamp": null,
+          "context": "other"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Euforisk värdering skapade bubbla",
+          "Karriärrisk att inte äga skapade flockbeteende"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "sold",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Cameco",
+      "ticker": "CCJ",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 80,
+      "speakers": ["Filip Sissner"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Cameco var en fantastisk bidragsgivare till fondens avkastning under 2021 men fonden sålde ut under förra året. Sissner nämner osäkerhet kring huruvida Cameco är nettolång eller nettokort uran på grund av tradingverksamhet. Fonden kan potentiellt gå in igen.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Vi bara syns att aktierna hade gått lite för snabbt och så är det lite sådant osäkert om Cameco faktiskt är nettolång eller nettoshort.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Kärnkraft som strukturell trend"
+        ],
+        "bear_case": [
+          "Aktien hade sprungit iväg för snabbt",
+          "Osäkerhet kring Camecos netto-uranposition"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Tradingverksamhet gör exponeringen oklar"
+        ]
+      },
+      "position_disclosure": "sold",
+      "segment_text": null
+    },
+    {
+      "stock_name": "NexGen Energy",
+      "ticker": "NXE",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 50,
+      "speakers": ["Filip Sissner"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "NexGen nämns som en av uranbolagen som var fantastisk bidragsgivare till fondens avkastning i 2021. Fonden sålde dock ut positionen under förra året, men vill potentiellt komma in igen.",
+      "quotes": [],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Uranutvinning i USA, kärnkraftstrend"
+        ],
+        "bear_case": [
+          "Aktien ansågs ha gått för snabbt"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "sold",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Bristol-Myers Squibb",
+      "ticker": "BMY",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 40,
+      "speakers": ["Filip Sissner"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Bristol-Myers Squibb nämns som en ny pharma-investering. Fonden har sedan tidigare haft Roche och nu lagt till Bristol-Myers. Fondens pharma-analytiker med 20 års erfarenhet driver dessa investeringar med detaljerade värderingsmodeller.",
+      "quotes": [],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Driven av stark pharma-analytiker med 20 års erfarenhet"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "bought",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Ellos Group",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 130,
+      "speakers": ["Filip Sissner", "Per Ståhl"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Ellos, det svenska e-handelsbolaget riktat mot kvinnor, är ett framgångsrikt kreditcase. Fonden köpte obligationer billigt (70% av nominellt värde) efter att Nordic Capital hade skuldsatt bolaget för högt. Obligationerna konverterades till aktier vid optimal tidpunkt. Bolaget går nu bra och siktar på börsnotering första halvåret 2026. Avkastning: 2-4x pengarna.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Vi köpte obligationer billigt, men köpte om trend, tog över ägerskapet till bolaget då de var på bunnen av cykeln. Och nu går det ju hur bra som helst.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Filip Sissner",
+          "text": "Vi riktar oss in på en börsnotering där, första halvår i år.",
+          "timestamp": null,
+          "context": "other"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Köpte obligationer billigt och konverterade till aktier på botten",
+          "Bolaget växer starkt efter omstrukturering",
+          "Börsnotering planerad H1 2026"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "IPO första halvåret 2026"
+        ],
+        "risks": [
+          "IPO-marknaden kan försämras"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Europris",
+      "ticker": "EPR.OL",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 80,
+      "speakers": ["Filip Sissner", "Per Ståhl"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "Europris diskuteras som lågprissegmentet. De köpte ÖB för några år sedan och arbetar med omstrukturering för bättre lönsamhet. Sissner har noterat att ÖB-butikerna förbättras med nya varuhyllor och fräschare utseende, och fonden har investerat baserat på tron att omställningen kan lyckas.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Europris köpte ju ÖB för några år sedan, och prövar att omstrukturera och få lite bättre lönsamhet utav ÖB, så det är en av grunden att vi har investerat här.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Omstrukturering av ÖB kan lyfta lönsamheten",
+          "Synliga förbättringar i butikerna"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "ÖB-omstrukturering reflekteras i aktiekursen"
+        ],
+        "risks": [
+          "Omställningen tar längre tid eller misslyckas"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "LVMH Moët Hennessy Louis Vuitton",
+      "ticker": "MC.PA",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 100,
+      "speakers": ["Filip Sissner", "Per Ståhl"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "LVMH och lyxsektorn diskuteras. Sissner noterar att lyxkonsumenten mår bra tack vare börsuppgång och kapitalägare klarade sig väl genom nedturer. Kina bromsade men är på väg tillbaka. Europeiska konsumenter gynnas av räntesänkningar och skattesänkningar. Fonden har dock inte tagit någon specifik position baserat på detta.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "Lyxkonsumenten är ju färre med oss nu, och det är ju lite med den k-shaped recovery, att de som har god råd, de har ju egentligen inte haft någon särskild nedtur.",
+          "timestamp": null,
+          "context": "other"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [
+          "Lyxkonsumenten mår bra - K-shaped recovery",
+          "Kina på väg tillbaka",
+          "Europeiska räntesänkningar gynnar konsumtion"
+        ],
+        "bear_case": [],
+        "catalysts": [
+          "Kinesisk lyxkonsumtion återhämtas"
+        ],
+        "risks": []
+      },
+      "position_disclosure": "none",
+      "segment_text": null
+    },
+    {
+      "stock_name": "SBB (Samhällsbyggnadsbolaget)",
+      "ticker": "SBB-B.ST",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 80,
+      "speakers": ["Filip Sissner"],
+      "primary_speaker": "Filip Sissner",
+      "discussion_summary": "SBB och svenska fastighetsbolag nämns i kontexten av Canopus framgångsrika blankningar 2022. Fonden shortade svenska fastighetsbolag när räntorna steg och fastighetspriserna föll. Detta var en av de stora avkastningskällorna i 2022, ett år då fonden var upp 8-9% medan marknaden föll kraftigt.",
+      "quotes": [
+        {
+          "speaker": "Filip Sissner",
+          "text": "SBB skulle bara vuxit in i himlen, och så glömde man att när räntorna steg i 2022, när räntan plötsligt är 4 procent, och då köpte fastigheter på yield 2 procent, så gick det ingen mening alls.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": null,
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Ohållbar affärsmodell när räntor steg",
+          "Köpte fastigheter med yield 2% i 4% räntemiljö"
+        ],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "sold",
+      "segment_text": null
+    }
+  ],
+  "insights": [
+    {
+      "quote": "När min far började här 2009 hade vi en treårs lock-up-period på det första fondet. Och då var det också, det var ju en finanskris. Det var totalt blått, allt var på rea. Så man fick ihop en del pengar från Friends, Family & Fool. Fokus på god kvalitet, likväl inte köra bongas men att ha en liten nedsiddeskydd till varje tid.",
+      "summary": "Att ha formats under en finanskris skapar en permanent riskaversion och fokus på nedsideskydd som genomsyrar hela investeringsfilosofin.",
+      "category": "philosophy",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["riskhantering", "nedsideskydd", "hedgefond", "Canopus", "finanskris"]
+    },
+    {
+      "quote": "Många av våra kunder är ju family office, de har brukt flera generationer på att bygga upp en förmögenhet. Och det är det ju sådant att de är mer upptatta av att ta vara på nedsiden än nödvändigtvis dubbla pengarna. Så det är den här riskjusterade avkastningen som är i fokus.",
+      "summary": "Family office-kunder prioriterar att skydda nedsidan framför att maximera uppsida - riskjusterad avkastning bör vara målet.",
+      "category": "philosophy",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["family office", "riskjusterad avkastning", "kapitalbevarande", "nedsideskydd"]
+    },
+    {
+      "quote": "Corporate governance är något som verkligen är viktigt om du ska ha folk som levererar som de säger och över tid skapar aktionärvärde. Du kan ha goda produkter med dålig management, det är inte nödvändigtvis en god mix.",
+      "summary": "Bra management och ägarstyrning är avgörande - goda produkter räcker inte om ledningen är bristfällig.",
+      "category": "wisdom",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["corporate governance", "management", "aktionärvärde", "urvalsprocess"]
+    },
+    {
+      "quote": "Det ser jag det när banken sätter upp kärnkraftfond eller försvarsfond, det har en tendens att vara en medeltidlig peak. Då strömmer pengarna in och då är det nog bättre att sälja och heller komma tillbaka när kapitalflödena har lugnat sig.",
+      "summary": "När storbanker lanserar tematiska fonder (försvar, kärnkraft etc.) är det ofta en signal om toppning - konträr indikator.",
+      "category": "lesson",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["konträrindikator", "tematiska fonder", "kapitalflöden", "timing", "säljsignal"]
+    },
+    {
+      "quote": "Alla kan köpa men jag tror att det viktigaste är att sälja. Både att de har sålt med förlust för att det gått dåligt, och att de har sålt med vinst, det är det som är svårt att få rätt.",
+      "summary": "Förmågan att sälja - både med vinst och förlust - är den verkliga kompetensen i förvaltning. Alla kan köpa.",
+      "category": "wisdom",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["sälja", "timing", "förvaltarkompetens", "disciplin"]
+    },
+    {
+      "quote": "Vi ska plocka de bästa bolagen, de bästa aktierna som är riktigast för våra investorer, långsiktiga avkastningar. Det är mycket viktigare än att tänka relativt till en geografiskt avgränsad index.",
+      "summary": "Global frihet att välja de bästa aktierna utan benchmarkbegränsning ger bättre resultat än att tvingas till relativ indexförvaltning.",
+      "category": "philosophy",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["benchmarkfri", "global förvaltning", "absolut avkastning", "aktieválning"]
+    },
+    {
+      "quote": "Nu har vi kreditspreader som inte varit så låga sedan finanskrisen. Det är egentligen jämnt över. Det är mycket skit som har kommit ut i kreditmarknaden. Det kan ju vara något ingen fokuserar på egentligen, före det träffar.",
+      "summary": "Extremt låga kreditspreader och dålig kreditkvalitet i marknaden är en potentiell bubbla som ingen fokuserar på - förrän det smäller.",
+      "category": "wisdom",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["kreditspredar", "kreditbubbla", "risk", "makro", "finanskris"]
+    },
+    {
+      "quote": "Vi har adopterat en sådan slogan från andra världskriget i UK: Keep calm and carry on. Och det tror vi egentligen fungerar rätt bra. Det bästa är att fortsätta att investera i de bästa bolagen som har tillväxt, gärna i en oligopolistisk position och lönsamhet.",
+      "summary": "I stökiga marknader med Trump och geopolitik: håll huvudet kallt och fortsätt investera i kvalitetsbolag med tillväxt och oligopolposition.",
+      "category": "philosophy",
+      "speaker": "Filip Sissner",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": ["marknadsoro", "Trump", "kvalitetsbolag", "oligopol", "långsiktighet"]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Filip Sissner, förvaltare av norska hedgefonden Canopus hos Sissner Capital (familjeägt, grundat 2009), gästar Global Gains och beskriver fondens investeringsfilosofi och positioner. Fonden har levererat ca 12% årlig avkastning sedan start 2012 med bara ett minusår, tack vare fokus på nedsideskydd genom putoptioner och selektiva blankningar. Största positionen är norska försäkringsbolaget Storebrand sedan start. Aktuella teman inkluderar Power Up Europe (Siemens Energy, Rolls-Royce), försvarsindustrin (Rheinmetall), och ASML som halvledarmonopol. Fonden blankar för närvarande Maersk pga massiv nybyggnation av containerskepp och Suezkanalen som väntas öppna. Sissner varnar för kreditbubblor med historiskt låga spreader och potentiella makrorisker kring Trump, dollar och inflation.",
+  "key_takeaways": [
+    "Canopus har levererat 12% årlig nettoavkastning sedan 2012 med bara ett minusår (-5.5% 2018), 23% avkastning 2025",
+    "Storebrand är fondens största position sedan start - gynnas av Norges höga ränta (4%) och oligopolistisk marknad",
+    "Maersk är aktiv kort-position: all-time-high kursen bedöms ohållbar med 20-30% ny containerkapacitet och Suezkanalen som öppnar",
+    "Power Up Europe-temat (Siemens Energy, Rolls-Royce) och ASML som monopolinnehav driver avkastningen",
+    "Kreditspreader är på lägsta nivån sedan finanskrisen - potentiell bubbla som ingen bevakar"
+  ],
+  "transcript_file": "data/transcripts/globalgains/globalgains-2026-02-11-930a.txt",
+  "transcript_word_count": 3850,
+  "has_timestamps": false,
+  "processed_at": "2026-02-11T10:30:00",
+  "model_used": "claude-opus-4-6"
+}

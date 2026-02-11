@@ -1,0 +1,1364 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "montrosepodden-2026-02-09-e073",
+  "podcast_name": "Montrosepodden",
+  "episode_title": "#98 - Framgångsreceptet bakom DNB Teknologifond som gett +18,4% CAGR sen 2001",
+  "episode_number": 98,
+  "date": "2026-02-09",
+  "hosts": [
+    "Montrose-värden"
+  ],
+  "guests": [
+    "Anders Tandberg-Johansen",
+    "Sverre Bergland"
+  ],
+  "main_topics": [
+    "DNB Teknologifond - framgångsrecept och track record",
+    "Generativ AI och capex-investeringar i datacenter",
+    "Minnesboomen (HBM) och dess effekter på halvledarmarknaden",
+    "Mjukvarusektorns disruption-risk från AI",
+    "Portföljpositionering: Microsoft, Alphabet, Amazon, Nvidia, Apple"
+  ],
+  "stocks_discussed": [
+    "Microsoft",
+    "Alphabet",
+    "Amazon",
+    "Nvidia",
+    "Apple",
+    "Samsung",
+    "Meta Platforms",
+    "Broadcom",
+    "TSMC",
+    "AMD",
+    "Ericsson",
+    "Nokia",
+    "Palantir",
+    "ServiceNow",
+    "Salesforce",
+    "Intuit",
+    "SAP",
+    "Adobe",
+    "Snap",
+    "Pinterest",
+    "Oracle",
+    "SoftBank",
+    "Intel",
+    "Micron",
+    "Western Digital",
+    "Sandisk",
+    "SK Hynix",
+    "Nintendo",
+    "TomTom",
+    "Visa",
+    "Mastercard",
+    "Mellanox"
+  ],
+  "recommendations": [
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Anders Tandberg-Johansen",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Microsoft har blivit rejält billigt, handlar på låga 20-talet i P/E med 13-15% toplinjetillväxt och snabbare vinsttillväxt. Azure växer 38% som en 100 miljarder dollar-affär. Stark positionering genom OpenAI-ägande. Köpte till efter 11% nedgång på rapportdagen trots att estimaten gick upp.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Den aktien har blivit rejält billig, faktiskt. Det handlar lave 20-talet på en växt som är 13-15 år. Azure växer bara 38 procent. Det är en 100 miljarder dollar business.",
+      "sector": "tech",
+      "market": "us",
+      "position_context": "Största positionen, nästan 9% vikt, nära 10%-gränsen för UCITS-fond",
+      "downside_note": "Capex-investeringarnas avkastning är osäker, sentimentstyrd nedgång kan fortsätta kortsiktigt",
+      "catalyst_timing": "Bevisa return on capex-investeringar kommande kvartal"
+    },
+    {
+      "stock_name": "Alphabet",
+      "ticker": "GOOGL",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Sverre Bergland",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Alphabet har gått starkt efter att marknaden svängde från att se Google som AI-förlorare till AI-vinnare. Gemini-modellen är bra och billigare. Söktillväxten har accelererat till 14-15%. Men aktien börjar bli dyr relativt sin egen historik och fonden har börjat sälja av. OpenAI planerar reklam i ChatGPT vilket skapar ny disruptionsrisk för sökmotorn.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Vi har sålt lite Google nu, för vi tycker att den aktien har gått så mycket och den börjar bli ganska dyr i förhållande till sin egen historik.",
+      "sector": "tech",
+      "market": "us",
+      "position_context": "Näst största innehavet i fonden, har börjat sälja av",
+      "downside_note": "OpenAI börjar med reklam i ChatGPT, sökmotordisruption-risken kvarstår",
+      "catalyst_timing": "Rapport ikväll (vid inspelningstillfället)"
+    },
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "action": "buy",
+      "confidence": "high",
+      "speaker": "Sverre Bergland",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Störst övervikt i fonden. AWS-datacenteraffären har bäst risk/reward för att spela AI-trenden. E-commerce har fin marginalhävstång. Förväntningarna på AWS-tillväxt är inte höga, behöver bara 100-200 baspunkters acceleration till 21-22% för att överraska positivt. Ny kapacitet kommer online. Amazon har 50-60% av e-commerce och stark position för agentisk AI inom shopping.",
+      "price_target": null,
+      "time_horizon": "lång sikt",
+      "quote": "Vi följer oss ganska komfortabel på datacenter-storien. Förväntningarna nu på AWS är inte så höga, det krävs kanske inte så mycket för att de ska överraska positivt.",
+      "sector": "tech",
+      "market": "us",
+      "position_context": "Största övervikten i fonden",
+      "downside_note": "Om AI-investeringarna inte ger return kan det bli negativt för hela sektorn",
+      "catalyst_timing": "AWS-acceleration under kommande kvartal"
+    },
+    {
+      "stock_name": "Samsung",
+      "ticker": "005930.KS",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Anders Tandberg-Johansen",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Samsung var fondens största bett i fjol med nästan 9% vikt. Aktien är upp cirka 200% från bästa köpnivåerna. Fonden har sålt sig ner under vägen och det är den sista minnesaktien de har kvar. Minnescykeln bedöms vara nära toppen med ny supply på väg, men Samsung har fortfarande gått upp 40% i år.",
+      "price_target": null,
+      "time_horizon": "kort sikt",
+      "quote": "Vi har satt oss ned i Samsung också, en sista minneaktien vi har igen, så jag tror att från ett investeringsperspektiv så är vi lite kärlighet i minnebranschen.",
+      "sector": "halvledare",
+      "market": "other",
+      "position_context": "Var nästan 9% av fonden, har minskat betydligt. Sista minnesaktien kvar.",
+      "downside_note": "Minnescykeln bedöms nå toppen, ny supply på väg",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "Anders Tandberg-Johansen",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Underviktad i fonden. Prisningen ser låg ut på pappret men konkurrensrisken har ökat. Google tränar Gemini på egna TPU:er billigare, AMD tar marknadsandelar med OpenAI som har 10% av AMDs aktier. Nvidia köpte Run:AI som indikation på att de inte klarar inference tillräckligt bra. Om capex-investeringarna avtar kan det bli blodbad.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Jag tänker att konkurrensensituationen är lite högre än Nvidia. Prisningen är väldigt låg på papiret så vi har lite grann aktier men vi är mer osikre än vi har varit någon gång där.",
+      "sector": "halvledare",
+      "market": "us",
+      "position_context": "Undervikt, har lite aktier men mer osäkra än någonsin",
+      "downside_note": "Om AI-capex avtar kan det bli blodbad, ökande konkurrens på inference-sidan",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Apple Inc.",
+      "ticker": "AAPL",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "Sverre Bergland",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Underviktad på grund av för hög prissättning. P/E kring 30 för en långsiktig tillväxt på 6-8%. Marginalerna kan pressas av stigande minnespriser nästa kvartal. Apple har skjutit den vanliga iPhone-versionen till nästa år och lanserar bara Pro-modeller, troligen på grund av dyra minneskomponenter.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Betala med P30 för det syns vi är för högt. Vi tror inte att marginen kan vara så mycket högre. Minnepriserna att de kan bli lite tuffare på gross margin.",
+      "sector": "tech",
+      "market": "us",
+      "position_context": "Undervikt i fonden",
+      "downside_note": "Minnespriser pressar bruttomarginalen, P/E-30 för 6-8% tillväxt är dyrt",
+      "catalyst_timing": null
+    },
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B.ST",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "Anders Tandberg-Johansen",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Positivt överraskande operationellt. Nästan uppe på marginalmålen, organisk tillväxt justerat för valuta. Har tagit marknadsandelar från Nokia inom mobilnätverk. Bra uppstädning av management. Dividend plus möjliga återköp. Handlas på 13 gånger vinsten, behöver inte stark toplinjetillväxt vid den värderingen. Har fördel av försvagade nordiska valutor som exportör.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Om du tänker på att det är nästan uppe på maginmålen. De växer organiskt, om du justerar för valutan. De har klart att ta en marknadsposition, de har rejält slagit Nokia på mobilnätverk. Handlar på 13 gånger intjäningen.",
+      "sector": "telekomutrustning",
+      "market": "sweden",
+      "position_context": "Innehav i fonden",
+      "downside_note": "Slutmarknaden växer inte fort",
+      "catalyst_timing": "Potentiellt godkännande av återköpsprogram"
+    },
+    {
+      "stock_name": "Adobe Inc.",
+      "ticker": "ADBE",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "Anders Tandberg-Johansen",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "reasoning": "Aktien har fallit 61% från toppen och handlas till P/E 10-11 på nästa år med extremt höga marginaler (44-45%) och bra kassaflöde. Dock reell disruptionsrisk från AI-verktyg som Sora, Veo 3 etc. Tillväxten drivs mest av prishöjningar vilket inte är hållbart. Om de får problem kan mycket marginal försvinna. Fonden följer noga men har inte tagit position.",
+      "price_target": null,
+      "time_horizon": "medellång sikt",
+      "quote": "Man borde kanske locka ögonen, men jag vet inte, när du sitter sådant, de har väl 44-45 procent magin, om de börjar få tröbbel så är det mycket magin som kan försvinna där.",
+      "sector": "mjukvara",
+      "market": "us",
+      "position_context": "Ingen position, följer noga",
+      "downside_note": "Reell disruptionsrisk från AI-verktyg, marginalerna kan erodera kraftigt",
+      "catalyst_timing": null
+    }
+  ],
+  "stock_segments": [
+    {
+      "stock_name": "Microsoft",
+      "ticker": "MSFT",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 800,
+      "speakers": [
+        "Anders Tandberg-Johansen",
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Anders Tandberg-Johansen",
+      "discussion_summary": "Microsoft är fondens största position med nästan 9% vikt. Aktien har tappat 26% sedan sommaren och tog stryk på rapporten, men gästerna anser att den blivit rejält billig på låga 20-talet i P/E. Azure växer 38% som en 100 miljarder dollar-affär. Nedgången var sentimentstyrd snarare än fundamentalt motiverad. Fonden köpte till efter rapportdagens 11% fall trots att estimaten gick upp. SAP föll 16-17% samma dag. Capex-investeringarna behöver bevisas ge avkastning.",
+      "quotes": [
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Den aktien har blivit rejält billig, faktiskt. Det handlar lave 20-talet på en växt som är 13-15 år, och de voxer rörningsfortare.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "När du ser på det kvartalet som blir leverat nu, så voxer Azure bara, minnar folk på det, 38 procent. Det är en 100 miljarder dollar business, och de guider till någon av den samme växeln.",
+          "timestamp": null,
+          "context": "metric"
+        },
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Jag tänker att de är extremt gott positionerade och de har någon henskärr där som gör att Asher, om det blir fantastiskt med allt som man måste avgöra så vill de tjena pengarna sina.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Jag måste säga att ner 11% på en dag där estimaten ändå går upp är inte ned.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "Låga 20-talet",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "13-15% topplinje, Azure 38%",
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Capex to sales: 40-talet %"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Rejält billig värdering på låga 20-talet P/E för 13-15% tillväxt",
+          "Azure växer 38% och är en 100 miljarder dollar-affär",
+          "Stark position genom OpenAI-ägande, sitter i pole position för AI-revolutionen",
+          "Estimaten gick upp trots kursnedgång"
+        ],
+        "bear_case": [
+          "Enorma capex-investeringar med osäker avkastning",
+          "Capex to sales på 40-talet%, historiskt väldigt cashgenerativt bolag",
+          "Sentimentstyrd marknad kan pressa kursen vidare"
+        ],
+        "catalysts": [
+          "Bevisa return on AI-capex",
+          "Fortsatt Azure-acceleration"
+        ],
+        "risks": [
+          "AI-capex ger inte tillräcklig avkastning",
+          "Circular financing genom OpenAI-investeringar"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Alphabet",
+      "ticker": "GOOGL",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 700,
+      "speakers": [
+        "Sverre Bergland",
+        "Anders Tandberg-Johansen",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "Alphabet är fondens näst största innehav. Aktien värderades i linje med Telia (P/E 15) under Q3 fjol, ansågs vara AI-förlorare, men har sedan dess stigit 139% från tullbotten. Buffett köpte under Q3. Fonden köpte aktivt när aktien var nere i botten efter analys på team-offsite. Gemini-modellen har blivit blockbuster och tar marknadsandelar. Chrome-avyttring behövdes inte. Söktillväxten accelererat till 14-15%. Fonden har nu börjat sälja av då aktien närmar sig dyr relativt sin historik. OpenAIs planerade reklam i ChatGPT är en ny risk.",
+      "quotes": [
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Vi kom egentligen fram till att vi trodde att frukten från Chachapiti var överdrevet, så vi köpte faktiskt en god del Google efter att vi satt där och alla hade kommit med meningarna.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Vi har sålt lite Google nu, för vi tycker att den aktien har gått så mycket och den börjar bli ganska dyr i förhållande till sin egen historik.",
+          "timestamp": null,
+          "context": "conclusion"
+        },
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Om du går ett år tillbaka så är alla helt säkra på att Google var en AI-taper. Nu är de samma investorerna helt säkra på att Google är en AI-vinner.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "P/E 15 vid botten (Q3 fjol), nu dyrare",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Söktillväxt 14-15%",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Gemini-modellen är stark och billigare än konkurrenterna",
+          "Söktillväxt accelererat till 14-15%",
+          "Chrome-domen föll favorabelt",
+          "Har egna TPU:er för AI-träning, sitter i pole position"
+        ],
+        "bear_case": [
+          "Aktien börjar bli dyr relativt sin egen historik",
+          "OpenAI planerar reklam i ChatGPT - ny konkurrenshot mot sökmotorn",
+          "Disruptionsrisk från sökmotorer kan återkomma"
+        ],
+        "catalysts": [
+          "Rapport (vid inspelningstillfället)",
+          "Fortsatt Gemini-adoption"
+        ],
+        "risks": [
+          "OpenAI-reklam i ChatGPT disrupterar sök",
+          "Sentimentsvängningar i marknaden"
+        ]
+      },
+      "position_disclosure": "sold",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Amazon",
+      "ticker": "AMZN",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 500,
+      "speakers": [
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "Amazon är fondens fjärde största innehav men största övervikt. AWS-datacenteraffären bedöms ha bäst risk/reward för att spela AI-trenden. Förväntningarna på AWS-tillväxt är inte höga, bara 100-200 baspunkters acceleration till 21-22% behövs för positiv överraskning. E-commerce-delen har fin marginalhävstång. Med 50-60% e-commerce marknadsandel är Amazon väl positionerat för agentisk AI inom shopping. Anthropic (Claude) kopplas till Amazon genom deras investering.",
+      "quotes": [
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Vi följer oss ganska komfortabel på datacenter-storien. Förväntningarna nu på AWS är inte så höga, det krävs kanske inte så mycket för att de ska överraska positivt.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Med 50-60 procent av e-commerce market share, så tror jag att de vill ta en väldigt solid rolle i det spelet där.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "AWS 19-21%, förväntas accelerera till 21-22%",
+        "margin": "Marginalhävstång i e-commerce",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "AWS har bäst risk/reward för AI-datacenter-trenden",
+          "Låga förväntningar på AWS-tillväxt, enkel att överraska",
+          "E-commerce med stark marginalhävstång",
+          "Väl positionerat för agentisk AI med 50-60% marknadsandel"
+        ],
+        "bear_case": [
+          "Om AI-capex avtar drabbas hela sektorn",
+          "Agentisk e-commerce kan bli disruptivt (men Amazon anses bäst positionerat)"
+        ],
+        "catalysts": [
+          "AWS-kapacitet kommer online från utbyggnad",
+          "AWS-tillväxtacceleration"
+        ],
+        "risks": [
+          "AI-capex-cykeln avtar"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Samsung",
+      "ticker": "005930.KS",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 600,
+      "speakers": [
+        "Anders Tandberg-Johansen",
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Anders Tandberg-Johansen",
+      "discussion_summary": "Samsung var fondens största bett i fjol med nästan 9% vikt. Aktien var extremt opopulär och handlade väldigt lågt när de köpte. Sydkorea var upp nästan 80% i dollartermer i fjol, drivet av Samsung. Aktien är upp cirka 200% från bästa köpnivåerna och 40% i år. Fonden har sålt sig ner under resans gång och Samsung är nu sista minnesaktien de har kvar. Bedömningen är att minnescykeln börjar nå toppen med ny supply på väg.",
+      "quotes": [
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Samsung var vårt största bett i fjol. Vi hade nästan 9 procent gående in i fjolåret och så sålde vi utöver i antal år eftersom kursen gick upp.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Det bästa bettet du gör, det är att du köper ett sällskap som folk tror är dåligt, som blir bra. Där du tjänar ordentligt mycket pengar.",
+          "timestamp": null,
+          "context": "thesis"
+        },
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Vi har satt oss ned i Samsung också, en sista minneaktien vi har igen, så jag tror att från ett investeringsperspektiv så är vi lite kärlighet i minnebranschen.",
+          "timestamp": null,
+          "context": "conclusion"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Minnescykeln typiskt 82 gånger bok",
+          "Sydkorea upp 80% i dollartermer fjol"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Var extremt opopulär och handlade mycket lågt vid köptillfället",
+          "Minnesdominant position med HBM-exponering",
+          "Stark kursuppgång: +200% från botten, +40% i år"
+        ],
+        "bear_case": [
+          "Minnescykeln bedöms vara nära toppen",
+          "Ny supply på väg, särskilt kinesiska YMTC med ny fabrik klar septemberkvartalet",
+          "Aktien svängig med 50-100% rörelser per vecka i sektorn"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Minnescykeln toppar ut",
+          "Kinesisk kapacitetsexpansion"
+        ]
+      },
+      "position_disclosure": "sold",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Nvidia",
+      "ticker": "NVDA",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 500,
+      "speakers": [
+        "Anders Tandberg-Johansen",
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Anders Tandberg-Johansen",
+      "discussion_summary": "Nvidia är underviktad i fonden. Aktien stod och trampade vatten sedan augusti fjol. Konkurrensrisken har ökat: Google tränar Gemini på egna TPU:er till lägre priser, AMD tar marknadsandelar (OpenAI har 10% av AMDs aktier), och Nvidia köpte Run:AI vilket indikerar problem med inference. Gästerna är mer osäkra på Nvidia än de någonsin varit. Prisningen ser låg ut på pappret men risk/reward anses bättre i datacenter-bolagen (Microsoft, Amazon, Alphabet). Om capex-cykeln avtar kan det bli ett blodbad i halvledaraktier.",
+      "quotes": [
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Jag tänker att konkurrensensituationen är lite högre än Nvidia. Prisningen är väldigt låg på papiret så vi har lite grann aktier men vi är mer osikre än vi har varit någon gång där.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Om det inte blir det, då ska du i alla fall inte äga Nvidia och AMD och de chips-sällskapen, för då kommer det att bli ett blodbad.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "Låg prissättning på pappret",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Låg prissättning relativt tillväxt",
+          "Dominant position i AI-GPU-marknaden"
+        ],
+        "bear_case": [
+          "Ökande konkurrens: Google TPU:er, AMD, Broadcom custom chips",
+          "Nvidia köpte Run:AI vilket antyder problem med inference",
+          "OpenAI har 10% av AMD-aktier, indikerar diversifiering bort från Nvidia",
+          "Om capex-investeringarna avtar blir det blodbad"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Konkurrensposition försvagas",
+          "AI-capex-cykel avtar",
+          "Custom chips från hyperscalers tar marknadsandelar"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Apple Inc.",
+      "ticker": "AAPL",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 300,
+      "speakers": [
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "Apple är underviktad i fonden på grund av för hög prissättning. P/E kring 30 för en långsiktig tillväxt som bedöms vara 6-8%. Nyligen hade Apple några bra kvartal med hög ensiffrig till tvåsiffrig tillväxt i telefonförsäljning, men det bedöms vara ohållbart. Stigande minnespriser hotar bruttomarginalerna. Apple har skjutit vanliga iPhone till nästa år och lanserar bara Pro-modeller, troligen på grund av höga minneskomponentkostnader.",
+      "quotes": [
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Betala med P30 för det syns vi är för högt. Vi tror inte att marginen kan vara så mycket högre.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "P/E ~30",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Långsiktig 6-8%, senaste kvartalen högre",
+        "margin": "Gross margin kan pressas av minnespriser",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stark ecosystemlås",
+          "Senaste kvartalen med hög tillväxt i telefonförsäljning"
+        ],
+        "bear_case": [
+          "P/E 30 för 6-8% långsiktig tillväxt",
+          "Minnespriser hotar bruttomarginalerna",
+          "Tvungen att skjuta vanliga iPhone och bara lansera Pro-modeller"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Minnespriser eroderar bruttomarginalen",
+          "Priseslasticitet om man höjer iPhone-priser"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Meta Platforms",
+      "ticker": "META",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "Meta nämns som tredje största innehavet i fonden och som exempel på extrema capex-investeringar. Capex to sales ligger på 50%, vilket innebär att Meta nästan inte har fritt kassaflöde i år. Jämförs med telekomoperatörer som har 15-20% capex to sales. Klassificeras som en av de stora hyperscalers som investerar enormt i AI-infrastruktur.",
+      "quotes": [
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Meta, faktiskt nästan inte har flycash-lover i år, de har en capex to sales som är 50 procent.",
+          "timestamp": null,
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": "Nästan inget fritt kassaflöde i år",
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Capex to sales: 50%"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Capex to sales 50% ger nästan inget fritt kassaflöde"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Enorma AI-investeringar utan bevisad avkastning"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Ericsson",
+      "ticker": "ERIC-B.ST",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 350,
+      "speakers": [
+        "Anders Tandberg-Johansen",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Anders Tandberg-Johansen",
+      "discussion_summary": "Ericsson lyfts fram som ett positivt case. Bolaget är nästan uppe på marginalmålen, växer organiskt justerat för valuta och har rejält slagit Nokia på mobilnätverksmarknaden. Management har gjort bra uppstädning. Utöver utdelning finns potentiella återköp om det godkänns. Handlas på 13 gånger vinsten, vilket inte kräver stark toplinjetillväxt. Nordiska valutornas svaghet har gynnat Ericsson som exportör, men nu stärks kronan.",
+      "quotes": [
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Om du tänker på att det är nästan uppe på maginmålen. De växer organiskt, om du justerar för valutan. De har klart att ta en marknadsposition, de har rejält slagit Nokia på mobilnätverk.",
+          "timestamp": null,
+          "context": "bull_case"
+        },
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "De bolagen vi ser med bäst marknadspositioner, så slår vi oss i ro med att det är ett slutmarket som inte vuxer fort. Det behöver man heller inte göra när man handlar på 13 gånger intjäningen.",
+          "timestamp": null,
+          "context": "metric"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "13x",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": "Utdelning plus potentiella återköp",
+        "revenue_growth": "Organisk tillväxt (justerat för valuta)",
+        "margin": "Nästan uppe på marginalmålen",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Nästan uppe på marginalmålen",
+          "Har slagit Nokia på mobilnätverk, stärkt marknadsposition",
+          "P/E 13 kräver inte hög tillväxt",
+          "Management har ryddat upp bra",
+          "Utdelning + potentiella återköp"
+        ],
+        "bear_case": [
+          "Slutmarknaden växer inte fort",
+          "Kronförstärkning kan minska valutamedvinden"
+        ],
+        "catalysts": [
+          "Godkännande av återköpsprogram",
+          "Fortsatt marginalförbättring"
+        ],
+        "risks": [
+          "Svag slutmarknadstillväxt",
+          "Valutamotvind vid starkare krona"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Palantir Technologies",
+      "ticker": "PLTR",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 200,
+      "speakers": [
+        "Anders Tandberg-Johansen",
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Anders Tandberg-Johansen",
+      "discussion_summary": "Palantir nämns som exempel på extremt hög värdering. Handlar på 70-80 gånger omsättningen. För att motivera den värderingen behöver bolaget växa 60-70% per år i 5-7 år. Aktien hade kommentarer på sin kvartalsrapport som bidrog till enorma spreadar i marknaden. Illustrerar fondens värderingsdisciplin.",
+      "quotes": [
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Låt oss ta Palantir som ett exempel, det ser ju kämpebra ut. Om du köper den på 70-80 gånger salget så ska de faktiskt vuxa en 60-70 procent i 5-7 år, före du får en peng.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": "70-80x omsättning",
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "Behöver 60-70% tillväxt i 5-7 år för att motivera värderingen",
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Ser kämpebra ut tematiskt"
+        ],
+        "bear_case": [
+          "Extremt dyr: 70-80x omsättning",
+          "Kräver 60-70% tillväxt i 5-7 år för att motivera priset"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Kan inte växa tillräckligt för att motivera värderingen"
+        ]
+      },
+      "position_disclosure": "none",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Adobe Inc.",
+      "ticker": "ADBE",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 350,
+      "speakers": [
+        "Anders Tandberg-Johansen",
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Anders Tandberg-Johansen",
+      "discussion_summary": "Adobe diskuteras som en av de mest misshandlade mjukvaruaktierna, ner 61% från toppen. Handlas till P/E 10-11 på nästa år med 44-45% marginal och stark kassaflödesproduktion. Dock finns reell disruptionsrisk från AI-verktyg som Sora och Veo 3. Tillväxten drivs mest av prishöjningar. Coca-Cola nämns som exempel på företag som gör egna reklamkampanjer med AI. Fonden har inte tagit stora positioner men följer noga.",
+      "quotes": [
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Adobe är den aktien som har blivit hårdast behandlade. För det är där det är enklast att förstå att du kan bli disruptiv.",
+          "timestamp": null,
+          "context": "bear_case"
+        },
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Man borde kanske locka ögonen, men jag vet inte, när du sitter sådant, de har väl 44-45 procent magin, om de börjar få tröbbel så är det mycket magin som kan försvinna där.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": "P/E 10-11 (nästa år)",
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": "~10%, mestadels prisdrivet",
+        "margin": "44-45%",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Extremt låg värdering: P/E 10-11",
+          "Fortfarande 10% tillväxt",
+          "Skyhöga marginaler (44-45%) och starkt kassaflöde"
+        ],
+        "bear_case": [
+          "Reell disruptionsrisk från AI-verktyg (Sora, Veo 3)",
+          "Tillväxten drivs mestadels av prishöjningar",
+          "Om problem uppstår kan mycket marginal försvinna",
+          "Företag börjar göra egna kampanjer med AI istället för Adobe-verktyg"
+        ],
+        "catalysts": [],
+        "risks": [
+          "AI-disrupterar kärnprodukterna",
+          "Prishöjningar stöter på motstånd"
+        ]
+      },
+      "position_disclosure": "none",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Sandisk",
+      "ticker": null,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 250,
+      "speakers": [
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "Sandisk nämns som exempel på fondens förmåga att hitta opopulära aktier. Fonden var största aktieägaren och var med i placering på 40 kr när Western Digital sålde sig ner. Alla aktier såldes runt 100 kr. Aktien handlas nu vid 600 kr. Upp 1600% på sex månader driven av minnesboomen och HBM-trenden. Dock bedöms minnescykeln vara nära toppen och kinesisk kapacitet från YMTC kommer.",
+      "quotes": [
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Vi var den största aktionären i Sandisk. Den brunnit på 30 spänn. Vi var med i placering på 40 spänn och sålde alla våra aktier runt 100 och nu var den 600.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktien upp 1600% på sex månader"
+        ]
+      },
+      "thesis": {
+        "bull_case": [],
+        "bear_case": [
+          "Kinesisk konkurrens (YMTC) med ny fabrik klar septemberkvartalet",
+          "Minnescykeln bedöms toppa ut"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Supply-expansion dämpar priserna"
+        ]
+      },
+      "position_disclosure": "sold",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Visa Inc.",
+      "ticker": "V",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 100,
+      "speakers": [
+        "Sverre Bergland"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "Visa och Mastercard nämns som stora innehav som står väldigt bra i volatila marknader. De är stabila positioner som kan användas som finansieringskälla när fonden vill öka i andra aktier som fått stryk. Diskuteras kort i samband med EU/handelskonflikt-risker men bedöms som lågriskinvestering jämfört med internetbolag.",
+      "quotes": [
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Vi har ganska stora innehåll, Visa och Mastercard. De står väldigt bra i sådana marknader.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabila i volatila marknader",
+          "Lägre EU-reguleringsrisk än internetbolag"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": [
+          "EU-handelskonflikt risk"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Mastercard",
+      "ticker": "MA",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 100,
+      "speakers": [
+        "Sverre Bergland"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "Mastercard nämns tillsammans med Visa som stora innehav med hög stabilitet. Ses som en säker hamn i portföljen under volatila perioder och kan användas som likviditetskälla för att finansiera köp i aktier som fått stryk.",
+      "quotes": [],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Stabilt innehav i volatila marknader"
+        ],
+        "bear_case": [],
+        "catalysts": [],
+        "risks": []
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Broadcom",
+      "ticker": "AVGO",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "Broadcom nämns i samband med custom AI-chip-diskussionen. Bolaget designar TPU:er för Google. Det finns dock diskussioner om ökande konkurrens från MediaTek och att Google gör mer chipdesign själva. Broadcom var en stor del av memoryrelaterad framgång i fjol.",
+      "quotes": [],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Designar TPU:er för Google, central roll i AI-infrastruktur"
+        ],
+        "bear_case": [
+          "MediaTek konkurrerar på senaste generationerna",
+          "Google gör mer chipdesign själva"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Ökande konkurrens i custom chip-design"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Sverre Bergland",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "TSMC har 1% vikt i fonden, vilket bedöms som ganska lågt. Bolaget vinner i nästan alla scenarier men belastas historiskt av geopolitisk risk kring Kina/Taiwan. ASML nämns tillsammans med TSMC som halvledarinfrastruktur. Senaste tidens kursuppgång med 50% har gjort aktien dyrare, och fonden har sålt av lite.",
+      "quotes": [
+        {
+          "speaker": "Sverre Bergland",
+          "text": "TSMC vinner i nästan alla scenarier. Nu får vi se, Intel verkar som om de kommer igenom och att de inte klarar att finansiera nästa runde utveckling.",
+          "timestamp": null,
+          "context": "bull_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktien upp ~50% senaste tiden"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Vinner i nästan alla scenarier",
+          "Intel klarar inte finansiera utveckling, stärker TSMCs position"
+        ],
+        "bear_case": [
+          "Geopolitisk risk Kina/Taiwan",
+          "Blivit dyrare efter 50% uppgång"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Geopolitisk risk",
+          "Värdering efter stark kursuppgång"
+        ]
+      },
+      "position_disclosure": "owns",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Nintendo",
+      "ticker": "7974.T",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Anders Tandberg-Johansen",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Anders Tandberg-Johansen",
+      "discussion_summary": "Nintendo nämns som derivat av minnesboomen. Aktien var ner 11% efter rapport på grund av rädsla att höga minnespriser ska erodera bruttomarginalerna på deras hårdvara. Är ett av världens största gamingbolag med både hardware och software. Illustrerar hur AI-minnesboomen påverkar konsumentelektronik negativt.",
+      "quotes": [
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Nintendo levererade tal nu och den aktien var ner 11 procent i natt för att investerarna är rädda för att minnepriserna ska ödelägga bruttomaginen när de säljer dessa device.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": "Risk för bruttomarginalpress från höga minnespriser",
+        "debt_level": null,
+        "custom": []
+      },
+      "thesis": {
+        "bull_case": [
+          "Om minnescykeln toppar ut finns uppsida i konsumentelektronik"
+        ],
+        "bear_case": [
+          "Höga minnespriser hotar bruttomarginalerna"
+        ],
+        "catalysts": [
+          "Minnespriser toppar ut Q2-Q3"
+        ],
+        "risks": [
+          "Minnespriserna håller i sig längre än förväntat"
+        ]
+      },
+      "position_disclosure": "unknown",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Snap Inc.",
+      "ticker": "SNAP",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 150,
+      "speakers": [
+        "Anders Tandberg-Johansen",
+        "Montrose-värden"
+      ],
+      "primary_speaker": "Anders Tandberg-Johansen",
+      "discussion_summary": "Snap diskuteras som en av aktierna som haft det extremt tufft, ner 93% sedan toppen 2021. Gästerna har varit negativa till Snap sedan länge på grund av svårigheter att monetisera messaging-modellen. Reklammodellen i en messaging-app har visat sig vara svår. De har dock börjat lyckas få användare att betala.",
+      "quotes": [
+        {
+          "speaker": "Anders Tandberg-Johansen",
+          "text": "Snap har vi varit negativa till sedan tidens morgon. För jag trodde aldrig att de klarar att monetisera i den modellen de har.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktien ner 93% sedan toppen 2021"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Gen Z-plattform med stark användarbas",
+          "Börjat få folk att betala"
+        ],
+        "bear_case": [
+          "Reklammodell i messaging-app fungerar dåligt",
+          "Ner 93% sedan toppen"
+        ],
+        "catalysts": [],
+        "risks": [
+          "Monetiseringsproblem kvarstår"
+        ]
+      },
+      "position_disclosure": "none",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Oracle",
+      "ticker": "ORCL",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 100,
+      "speakers": [
+        "Sverre Bergland"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "Oracle nämns som derivat av OpenAI. Aktien har hög korrelation med OpenAI-nyheter. Under Code Red-perioden (Sam Altmans varning) tappade Oracle all kursuppgång den hade haft. Aktien har halverats. Illustrerar hur börsnoterade bolag påverkas av onoterade AI-bolags framgångar och motgångar.",
+      "quotes": [
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Oracle mistade ju all den kurs av förgangen de hade haft baserat på att det var frukt runt att Open AI var i lite tröppel.",
+          "timestamp": null,
+          "context": "bear_case"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktien halverad"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Framgångsrik OpenAI-kapitalanskaffning vore positivt"
+        ],
+        "bear_case": [
+          "Hög korrelation med OpenAI skapar extern risk",
+          "Aktien halverad"
+        ],
+        "catalysts": [
+          "OpenAI-kapitalanskaffning"
+        ],
+        "risks": [
+          "OpenAI-beroende risk"
+        ]
+      },
+      "position_disclosure": "unknown",
+      "segment_text": null
+    },
+    {
+      "stock_name": "Hewlett-Packard",
+      "ticker": "HPQ",
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "word_count": 100,
+      "speakers": [
+        "Sverre Bergland"
+      ],
+      "primary_speaker": "Sverre Bergland",
+      "discussion_summary": "HP nämns som ett ganska tråkigt bolag inom printing men med nästan hälften av verksamheten i PC-business. Aktien har fallit sedan Sam Altman var i Korea och förhandlade minnesköp i september, från 30 till 20 kr. Marknaden förväntar sig ett dåligt 2026 på grund av höga minnespriser. Fonden tänker att det är en cykel och att det kommer tillbaka.",
+      "quotes": [
+        {
+          "speaker": "Sverre Bergland",
+          "text": "Vi har ju köpt Julepacker som är en ganska kedelig bolag, printing men nästan halvparten är pc business. Den har ju fallit i event sedan Sam Altman var borta i Korea och förhandlade miniköp i september.",
+          "timestamp": null,
+          "context": "thesis"
+        }
+      ],
+      "financial_metrics": {
+        "pe_ratio": null,
+        "ev_ebitda": null,
+        "ev_sales": null,
+        "fcf_yield": null,
+        "dividend_yield": null,
+        "revenue_growth": null,
+        "margin": null,
+        "debt_level": null,
+        "custom": [
+          "Aktien från 30 till 20 kr"
+        ]
+      },
+      "thesis": {
+        "bull_case": [
+          "Cyklisk nedgång som kommer tillbaka",
+          "PC-business återhämtar sig när minnespriser normaliseras"
+        ],
+        "bear_case": [
+          "Höga minnespriser ger dåligt 2026",
+          "Tråkigt business med printing"
+        ],
+        "catalysts": [
+          "Minnesmarknaden normaliseras"
+        ],
+        "risks": [
+          "Timing - kan ta längre tid än man tror"
+        ]
+      },
+      "position_disclosure": "bought",
+      "segment_text": null
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Om smarta människor har samma information så tar de stort sett samma beslutningar. Därför är det mycket diskussioner och krångel nu. Då kan man på en månad levela ut den informationen.",
+      "summary": "Informationsdelning inom teamet leder till bättre beslut. Genom öppen diskussion och debatt kan teammedlemmar nå samma slutsatser, även om de initialt har olika åsikter.",
+      "category": "philosophy",
+      "speaker": "Sverre Bergland",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "teamwork",
+        "beslutsfattande",
+        "informationsdelning",
+        "DNB Teknologi"
+      ]
+    },
+    {
+      "quote": "Det bästa bettet du gör, det är att du köper ett sällskap som folk tror är dåligt, som blir bra. Där du tjänar ordentligt mycket pengar.",
+      "summary": "Contrarian-investeringar ger ofta bäst avkastning. Att köpa bolag som marknaden har gett upp på, men som fortfarande har god marknadsposition, ger störst potential.",
+      "category": "philosophy",
+      "speaker": "Anders Tandberg-Johansen",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "contrarian",
+        "värdering",
+        "investeringsfilosofi",
+        "Samsung"
+      ]
+    },
+    {
+      "quote": "Först och främst så måste man jobba hårt och göra deep analyser och så måste man klara att slappa när det är röffe marknader och ta goda värderingar. De största procenten gör det från början. Det går väldigt väldigt fort när det går snurt.",
+      "summary": "Framgångsrik förvaltning kräver djupa analyser, tålamod att stå emot i tuffa marknader och mod att köpa när andra säljer. De bästa möjligheterna kommer tidigt och snabbt.",
+      "category": "wisdom",
+      "speaker": "Anders Tandberg-Johansen",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "djupanalys",
+        "tålamod",
+        "tajming",
+        "framgångsrecept"
+      ]
+    },
+    {
+      "quote": "Vi tänker odds. Hur länge de här aktierna faller ner nu, utan att du egentligen har fått någon väldigt klar bevis på att det är i fejn att bli disruptivt, så blir vi mer och mer intresserade.",
+      "summary": "Sannolikhetstänkande är centralt. Ju mer en aktie faller utan fundamentala bevis för disruption, desto mer intressant blir investeringsmöjligheten.",
+      "category": "philosophy",
+      "speaker": "Sverre Bergland",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "oddstänkande",
+        "risk-reward",
+        "mjukvara",
+        "disruption"
+      ]
+    },
+    {
+      "quote": "Vi kallar oss själv för opportunistiska. Vi gör allt möjligt rart. Vi ser efter möjligheter, där vi följer marknader kanske inte har priset riktigt.",
+      "summary": "Fonden beskriver sig som opportunistisk - de letar efter felprissättningar i marknaden snarare än att hålla sig till en fast strategi eller sektor.",
+      "category": "philosophy",
+      "speaker": "Anders Tandberg-Johansen",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "opportunistisk",
+        "felprissättning",
+        "investeringsstrategi",
+        "DNB Teknologi"
+      ]
+    },
+    {
+      "quote": "Vi gör det bra i tuffa marknader. I de sex drawdown man har haft som har varit lite signifikant sen vi startade så har vi outperformat i vart enstad i åren. I marknader som är väldigt hete, tenderar vi till att göra det lite dåligare än benchmark. Grunden till det är att vi har en valuation-fokus.",
+      "summary": "Värderingsfokuserade fonder tenderar att outperforma i nedmarknader och underprestera i euforiska marknader. Detta är en medveten karakteristik av fondens strategi.",
+      "category": "lesson",
+      "speaker": "Sverre Bergland",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "värdering",
+        "drawdown",
+        "outperformance",
+        "fondkaraktäristik"
+      ]
+    },
+    {
+      "quote": "Om du går ett år tillbaka så är alla helt säkra på att Google var en AI-taper. Nu är de samma investorerna helt säkra på att Google är en AI-vinner. Men de är helt säkra på att alla software-skeletter är AI-taper.",
+      "summary": "Marknadens konsensusuppfattning svänger dramatiskt och skapar möjligheter. Det som alla är säkra på idag kan vara fel imorgon.",
+      "category": "wisdom",
+      "speaker": "Anders Tandberg-Johansen",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "konsensus",
+        "sentimentskifte",
+        "Alphabet",
+        "AI",
+        "contrarian"
+      ]
+    },
+    {
+      "quote": "När du bygger performance över lång tid, så gör det att du blir mycket tryggare på det du driver med. Att du blir mycket enklare än om du på något sätt känner att du ligger bakom.",
+      "summary": "Långsiktigt bra resultat bygger självförtroende och trygghet i teamet, vilket i sin tur leder till bättre beslut - en positiv spiral.",
+      "category": "lesson",
+      "speaker": "Sverre Bergland",
+      "speaker_role": "guest",
+      "timestamp": null,
+      "confidence": "medium",
+      "tags": [
+        "förvaltning",
+        "track record",
+        "självförtroende",
+        "långsiktighet"
+      ]
+    },
+    {
+      "quote": "Volatiliteten är en långsiktigas vän och en kortsiktigas huvudvärk.",
+      "summary": "Volatilitet skapar möjligheter för långsiktiga investerare men är smärtsam för kortsiktiga.",
+      "category": "wisdom",
+      "speaker": "Montrose-värden",
+      "speaker_role": "host",
+      "timestamp": null,
+      "confidence": "high",
+      "tags": [
+        "volatilitet",
+        "långsiktighet",
+        "investeringsvisdom"
+      ]
+    }
+  ],
+  "crypto_mentions": [],
+  "market_sentiment": "mixed",
+  "summary": "Anders Tandberg-Johansen och Sverre Bergland från DNB Teknologifond delar med sig av 25 års erfarenhet av teknikförvaltning med 18,4% CAGR sedan 2001. Deras investeringsfilosofi bygger på tre pelare: tematik, bolagskvalitet och värdering, där värdering alltid är central. Fonden är positionerad med Microsoft som största innehav (billigt på låga 20-talet P/E), Amazon som största övervikt (bäst risk/reward via AWS), och har börjat ta hem vinster i Alphabet. De är underviktade i Nvidia (ökande konkurrensrisk) och Apple (för dyrt). Minnescykeln bedöms nå toppen efter Samsung-framgången. Mjukvarusektorn har fallit 60% mot halvledare på 14 månader och börjar se billig ut, men disruptionsrisken från AI är genuin.",
+  "key_takeaways": [
+    "Microsoft bedöms som rejält billig på låga 20-talet P/E med Azure som växer 38% - fondens största position nära 10%-gränsen",
+    "Amazon är fondens största övervikt med bäst risk/reward för AI-datacentertrenden, låga AWS-förväntningar gör det enkelt att överraska positivt",
+    "Minnescykeln (Samsung, Sandisk, SK Hynix) bedöms vara nära toppen med ny kinesisk supply på väg - fonden har sålt av det mesta",
+    "Mjukvarusektorn har underperformat halvledare med 85% spread och börjar se billig ut, men AI-disruptionsrisken är genuin",
+    "Nvidia underviktad - konkurrensrisken ökar från Google TPU:er, AMD och custom chips, mer osäkra än någonsin"
+  ],
+  "transcript_file": "data/transcripts/montrosepodden/montrosepodden-2026-02-09-e073.txt",
+  "transcript_word_count": 13177,
+  "has_timestamps": false,
+  "processed_at": "2026-02-11T12:00:00",
+  "model_used": "claude-opus-4-6"
+}
