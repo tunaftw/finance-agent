@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-01-20T19:54:34.168482",
+  "last_updated": "2026-02-05T19:48:49.910832",
   "sources": {
     "vildkatten": {
       "last_collected_at": "2025-12-28T16:31:40.435708",
@@ -297,6 +297,57 @@
           "requested_since": "2025-01-01",
           "requested_until": "2026-01-20",
           "tweets_added": 649,
+          "method": "advanced_search"
+        }
+      ]
+    },
+    "NoLimitGains": {
+      "last_collected_at": "2026-02-05T19:18:09.580158",
+      "last_tweet_id": "2019473839449575475",
+      "oldest_tweet_id": "2006582000908472368",
+      "tweet_count": 514,
+      "estimated_total_tweets": null,
+      "collection_complete": true,
+      "processed_count": 0,
+      "last_processed_at": null,
+      "last_error": null,
+      "error_count": 0,
+      "consecutive_errors": 0,
+      "collection_history": [
+        {
+          "collected_at": "2026-02-05T19:16:47.368693",
+          "requested_since": "2025-01-01",
+          "requested_until": "2025-12-31",
+          "tweets_added": 336,
+          "method": "advanced_search"
+        },
+        {
+          "collected_at": "2026-02-05T19:18:09.580187",
+          "requested_since": "2026-01-01",
+          "requested_until": "2026-02-05",
+          "tweets_added": 178,
+          "method": "advanced_search"
+        }
+      ]
+    },
+    "alexeliasson": {
+      "last_collected_at": "2026-02-05T19:48:49.910679",
+      "last_tweet_id": "2019360634136326389",
+      "oldest_tweet_id": "2004621438414946319",
+      "tweet_count": 158,
+      "estimated_total_tweets": null,
+      "collection_complete": true,
+      "processed_count": 0,
+      "last_processed_at": null,
+      "last_error": null,
+      "error_count": 0,
+      "consecutive_errors": 0,
+      "collection_history": [
+        {
+          "collected_at": "2026-02-05T19:48:49.910730",
+          "requested_since": "2025-12-25",
+          "requested_until": "2026-02-05",
+          "tweets_added": 78,
           "method": "advanced_search"
         }
       ]
