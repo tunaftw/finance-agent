@@ -160,6 +160,8 @@ Transkript sparade i:
 | 401 Unauthorized error | Bearer token expired - run `./scripts/refresh_apple_token.sh` |
 | "No bearer token found" | Run `./scripts/refresh_apple_token.sh` to create one |
 | FetchTranscript fork() crash | **Deprecated tool** - use `fetch_transcript_pure_python.py` instead |
+| Today's episode missing from sync list | Transcript identifier not in local DB yet - fetch via `fetch_transcript_pure_python.py --store-id <ZSTORETRACKID>` (see references/apple-method.md "Fresh Episodes") |
+| Transcript lacks [SPEAKER_N] blocks | Extracted with old word-level regex - re-extract TTML with `scripts/extract_ttml.py` (preserves Apple's speaker diarization) |
 
 ### Bearer Token Management
 

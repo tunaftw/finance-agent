@@ -192,3 +192,9 @@ Desktop.ini
 *~
 tools/apple-transcripts/bearer_token.txt
 .worktrees/
+
+# Apple Podcasts transcript tooling - local artifacts
+bearer_token.txt
+tools/apple-transcripts/*.ttml
+transcript_*.ttml
+data/podcasts/analyses-v2/*.json.bak

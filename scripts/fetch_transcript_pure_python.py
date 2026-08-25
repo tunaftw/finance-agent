@@ -12,6 +12,7 @@ import json
 import re
 import sqlite3
 import subprocess
+import sys
 import hashlib
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -194,10 +195,47 @@ def download_ttml(ttml_url: str, output_path: Path) -> bool:
 
 
 def parse_ttml(ttml_path: Path) -> str:
-    """Parse TTML and extract text."""
-    raw = ttml_path.read_text(encoding="utf-8")
-    words = re.findall(r'podcasts:unit="word"[^>]*>([^<]+)</span>', raw)
-    return re.sub(r"\s+", " ", " ".join(w.strip() for w in words if w.strip()))
+    """Parse TTML preserving Apple's speaker diarization (ttm:agent) as [SPEAKER_N] blocks."""
+    sys.path.insert(0, str(Path(__file__).parent))
+    from extract_ttml import parse_ttml_with_speakers
+    return parse_ttml_with_speakers(ttml_path)
+
+
+def get_episode_by_store_id(store_id: str) -> Optional[dict]:
+    """Look up a single episode by Apple store track ID.
+
+    Works for fresh (same-day) episodes whose ZTRANSCRIPTIDENTIFIER is still
+    NULL in the local DB - the transcript usually exists on Apple's servers.
+    """
+    mapping = load_podcast_mapping()
+    apple_to_id = mapping.get("apple_to_id", {})
+
+    conn = sqlite3.connect(SQLITE_DB_PATH)
+    row = conn.execute("""
+        SELECT e.ZTITLE, p.ZTITLE, e.ZPUBDATE, e.ZTRANSCRIPTIDENTIFIER
+        FROM ZMTEPISODE e JOIN ZMTPODCAST p ON e.ZPODCAST = p.Z_PK
+        WHERE e.ZSTORETRACKID = ?
+    """, (int(store_id),)).fetchone()
+    conn.close()
+    if not row:
+        return None
+
+    episode_title, podcast_name, pub_date_cocoa, transcript_id = row
+    podcast_id = apple_to_id.get(podcast_name)
+    if not podcast_id:
+        print(f"  ✗ Podcast '{podcast_name}' not in mapping")
+        return None
+
+    pub_date_str = (COCOA_EPOCH + timedelta(seconds=pub_date_cocoa)).strftime("%Y-%m-%d")
+    return {
+        "podcast_id": podcast_id,
+        "podcast_name": podcast_name,
+        "episode_title": episode_title,
+        "episode_id": f"{podcast_id}-{pub_date_str}-{hashlib.md5(episode_title.encode()).hexdigest()[:4]}",
+        "pub_date": pub_date_str,
+        "apple_episode_id": store_id,
+        "transcript_id": transcript_id,  # may be None for fresh episodes
+    }
 
 
 def get_missing_episodes(year: int = 2026) -> list:
@@ -305,7 +343,7 @@ def download_and_save(episode: dict, bearer_token: str, save_to_cache: bool = Tr
     transcript_path.write_text(header + text + "\n")
 
     # Optionally cache TTML in Apple's cache dir
-    if save_to_cache:
+    if save_to_cache and episode.get("transcript_id"):
         cache_path = TTML_CACHE_PATH / episode["transcript_id"]
         cache_path.parent.mkdir(parents=True, exist_ok=True)
         try:
@@ -327,6 +365,7 @@ def main():
     parser.add_argument("--year", type=int, default=2026, help="Year filter")
     parser.add_argument("--max", type=int, default=0, help="Max downloads (0=unlimited)")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be downloaded")
+    parser.add_argument("--store-id", help="Fetch a single episode by Apple store track ID (ZSTORETRACKID) - works for fresh episodes not yet flagged with a transcript in the local DB")
     args = parser.parse_args()
 
     # Load bearer token (auto-refreshes if expired)
@@ -339,6 +378,17 @@ def main():
     exp = get_token_expiration(bearer)
     exp_str = exp.strftime("%Y-%m-%d") if exp else "unknown"
     print(f"✓ Bearer token loaded (expires: {exp_str})")
+
+    # Single-episode mode (works for fresh episodes)
+    if args.store_id:
+        ep = get_episode_by_store_id(args.store_id)
+        if not ep:
+            print(f"✗ Episode {args.store_id} not found in Apple DB")
+            return 1
+        print(f"Fetching single episode: {ep['episode_title']}")
+        if args.dry_run:
+            return 0
+        return 0 if download_and_save(ep, bearer) else 1
 
     # Get missing episodes
     missing = get_missing_episodes(args.year)

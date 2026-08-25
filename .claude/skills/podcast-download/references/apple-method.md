@@ -127,7 +127,38 @@ The script:
 4. Downloads TTML via Apple API
 5. Extracts text and saves directly to `data/transcripts/{podcast_id}/`
 
-**No extraction step needed** - transcripts are saved as ready-to-use text files.
+**No extraction step needed** - transcripts are saved as ready-to-use text files,
+**with speaker labels**: Apple's TTML tags every paragraph with
+`ttm:agent="SPEAKER_N"`, and the script's parser (shared with
+`scripts/extract_ttml.py`) preserves them as `[SPEAKER_1]`/`[SPEAKER_2]` blocks.
+No audio diarization needed. Never extract with the old word-level regex
+(`podcasts:unit="word"` findall) - it silently discards speaker information.
+
+## Fresh Episodes (released today)
+
+Episodes released the same day often have **no transcript identifier in the
+local Apple DB yet** (`ZTRANSCRIPTIDENTIFIER` is NULL), so the year-based sync
+won't see them. The transcript usually exists on Apple's servers anyway - fetch
+it directly via the episode's store ID:
+
+```bash
+# 1. Get the store track ID
+sqlite3 -readonly ~/Library/Group\ Containers/243LU875E5.groups.com.apple.podcasts/Documents/MTLibrary.sqlite \
+  "SELECT ZTITLE, ZSTORETRACKID FROM ZMTEPISODE WHERE ZTITLE LIKE 'Avsnitt 595%'"
+
+# 2. Download + extract in one step
+python3 scripts/fetch_transcript_pure_python.py --store-id <ZSTORETRACKID>
+```
+
+## Manual TTML Extraction
+
+For a TTML file you already have (Apple cache or manual download), use
+`scripts/extract_ttml.py` - it preserves speaker labels and can look up
+title/date from the Apple DB via the store ID in the filename:
+
+```bash
+python3 scripts/extract_ttml.py path/to/transcript_1000785814768.ttml --podcast fillorkill
+```
 
 ### Legacy Script (DEPRECATED)
 

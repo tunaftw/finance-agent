@@ -322,6 +322,9 @@ Analyser sparas i JSON format:
   "date": "2025-01-15",
   "hosts": ["Johan Isaksson"],
   "guests": ["Erik Gäst"],
+  "speaker_mapping": {
+    "SPEAKER_1": {"name": "Johan Isaksson", "confidence": "high", "evidence": "Självintroduktion i inledningen"}
+  },
   "recommendations": [
     {
       "stock_name": "Evolution",

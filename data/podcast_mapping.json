@@ -28,6 +28,21 @@
     "Börssurr med Mitelman och Mellqvist",
     "Kraftsamtal"
   ],
+  "hosts": {
+    "fillorkill": {
+      "hosts": ["Lone Wolf", "Puketrader"],
+      "alias_variants": {
+        "Lone Wolf": ["Lone Wolf", "LoneWolf", "Lomwulf", "Lom Wolf", "Lån-Wolf", "Wolf"],
+        "Puketrader": ["Puketrader", "Pucket", "Puke Trader", "Pucket Trader"]
+      },
+      "identification_hints": {
+        "Lone Wolf": "Makro/räntor, biotech/mRNA-bull (äger Maravai sedan nov 2024), stor spretig långportfölj ('portföljen längre än du'), äger BTC+ETH, äger lite Freja eID",
+        "Puketrader": "Aktiv trader (momentum, snabba köp/sälj), bodde i Phuket i 15 år till vintern 2025/2026 (aliasets ursprung), äger Cardano+BTC, ATG/trav-intresse, äger ett vitt snus-bolag. OBS: 'Phuket'/'varit i Pucket' i transkript = ön, inte namnet",
+        "note": "Värdarna nämner sällan varandras namn i moderna avsnitt (vanligt 2016, ovanligt 2025+). Identifiera via ägar-disclaimern i slutet av varje avsnitt + persona-kontinuitet. Tidigare fanns en tredje värd (Andersson/Hansson, t.o.m. ~2016)",
+        "confirmed": "Persona-mappningen bekräftad av användaren 2026-08-25 utifrån avsnitt 595: Lone Wolf = makro/räntor + biotech/mRNA (Maravai, Freja, BTC+ETH, stor spretig portfölj); Puketrader = aktiv trader (Klarna/Xpeng-trades, Cardano+BTC, ATG). Persona-match mot dessa profiler får användas med confidence: high"
+      }
+    }
+  },
   "notes": {
     "description": "Mapping from Apple Podcasts names to our internal podcast IDs",
     "ignored_podcasts": "Podcasts in Apple but not tracked in our system",

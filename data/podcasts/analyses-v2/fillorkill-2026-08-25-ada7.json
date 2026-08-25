@@ -1,0 +1,350 @@
+{
+  "schema_version": "2.1",
+  "episode_id": "fillorkill-2026-08-25-ada7",
+  "source_type": "podcast",
+  "podcast_name": "Fill or Kill",
+  "date": "2026-08-25",
+  "hosts": ["Lone Wolf", "Puketrader"],
+  "guests": [],
+  "speaker_mapping": {
+    "SPEAKER_1": {
+      "name": "Lone Wolf",
+      "confidence": "high",
+      "evidence": "Persona-kontinuitet: makro/räntor-analytikern (Bessent-segmentet), biotech/mRNA-bull som äger Maravai, stor spretig portfölj ('din portfölj måste vara längre än du' sagt TILL denne), äger BTC+ETH. Mappningen bekräftad av användaren 2026-08-25."
+    },
+    "SPEAKER_2": {
+      "name": "Puketrader",
+      "confidence": "high",
+      "evidence": "Persona-kontinuitet: aktiv trader (köpte Klarna förra veckan, Xpeng igår, sålde hela Intrum), 'bränner upp min kassa', ATG/trav-referens, äger Cardano+BTC. Mappningen bekräftad av användaren 2026-08-25."
+    }
+  },
+  "recommendations": [
+    {
+      "company": "UiPath",
+      "ticker": "PATH",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "SPEAKER_1",
+      "reasoning": "Lyssnarcase som fick fill av båda. Handlas nära all time low (-77,8% från IPO) men växer fortfarande, lönsamt med stadig lönsamhet, stor kassa och aktiva återköp. Hög blankningsgrad. Point72 och Coatue har nyligen tagit små bevakningspositioner. Asymmetri: prisas som döende legacy-SaaS men kan omvärderas kraftigt om agentic AI-delen blir storyn. SPEAKER_1 äger inte men gör DD.",
+      "quote": "Jag tycker att den intressanta what-ifen här som kan göra att det kan bli lite asymmetri i caset... tänk om de råkar ut för SAS-döden men blir ett AI-bolag. Då kan det bli en ketchupeffekt.",
+      "position_context": "SPEAKER_1 äger inte, gör DD",
+      "catalyst_timing": "Rapport 3 september 2026, uppföljning utlovad"
+    },
+    {
+      "company": "Freja eID",
+      "ticker": "FREJA",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "SPEAKER_1",
+      "reasoning": "Storyn (redundans till BankID, cybersäkerhet, Försvarsmakten/Teracom, statliga kunder, Europa-option) är lätt att köpa men är exakt samma story som 2021-2022 utan att intjäningen lossnat. Svår intäktsmodell. Upp 50% på ett år. SPEAKER_1 äger en liten post men sitter på läktaren och vill se en ordentlig intjäningstrigger.",
+      "quote": "Jag köper storyn, det har ju varit samma story hur länge som helst. Ledtiderna är ju helt brutala... Jag orkar inte spå att det ska lossna för dem mer.",
+      "position_context": "SPEAKER_1 äger en liten post sedan tidigare"
+    },
+    {
+      "company": "Grängesberg Exploration (Sydvaranger)",
+      "ticker": "GRANGX",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Kill trots attraktiva siffror (NPV 14 mdr SEK, capex 4 mdr, börsvärde 600 mkr, Anglo American som malmköpare). Saknar en riktigt stark huvudägare som tagit bolaget under sina vingar, och uppbyggnadsfaser blir nästan alltid dyrare än planerat. Intressant först när gruvan är i drift.",
+      "quote": "Hela den här uppbyggnadsfasen blir oftast dyrare än vad man tror. Så jag säger kill, men när väl gruvan står där, då börjar nästa fas."
+    },
+    {
+      "company": "TRT (halvledartestning)",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Lyssnarcase: burn-in/reliability-testing av halvledare i Asien, omsättning +85%, marginellt lönsamt, spadar-och-hackor-exponering mot AI/GPU. Upp 280% på ett år. Båda passar - utanför deras kompetensområde.",
+      "quote": "Jag passar för jag är inte tillräckligt hajj, inte riktigt mycket KTH.",
+      "catalyst_timing": "Listbyte till Nasdaq Global Market 16 september, starkt bokslut"
+    },
+    {
+      "company": "Logistea",
+      "ticker": "LOGI B",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Ett av de billigaste fastighetsbolagen, handlas under NAV 17,8 med Rutger Arnhult-rabatt. Gör mycket rätt operationellt men fastighetssektorn är fortsatt hatad utan tydlig vändning.",
+      "quote": "Jag tycker absolut Logistea är ett av de mer intressanta fastighetsbolagen. De verkar göra mycket rätt, men fastighetssektorn är väldigt hatad på börsen."
+    },
+    {
+      "company": "Keo Capital",
+      "ticker": null,
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Stor oljetillgång i Venezuela som gynnas av Trump-administrationens Venezuela-politik. Särnotering i USA via SPAC ger renodlad Venezuela-proxy. NAV grovt 20 kr mot kurs 10, plus fintech-del och stor kassa. Båda tycker caset är intressant.",
+      "quote": "Man har några månader bort här till en stor trigger. Jag gillar ändå det här caset... det känns som att de kommer få mycket gratis av Trump-administrationen.",
+      "catalyst_timing": "SPAC-affär planerad att stängas sent 2026/tidigt 2027"
+    },
+    {
+      "company": "Coffee Stain Group",
+      "ticker": "COFFEE",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Fill. Bland de lägst värderade spelbolagen med kvalitetstitlar, missförstådd Embracer-spin-off där ägare vräkt ut aktier. Spelsläpp 9 september som trigger, plus fler releaser, utdelning och kommande återköp.",
+      "quote": "Det är en sån här spin-off där det känns som att alla bara vräker ut sina aktier, inte förstår vad de äger... Så jag är lite sugen här, det börjar dra ihop sig.",
+      "catalyst_timing": "Spelsläpp 9 september 2026"
+    },
+    {
+      "company": "Nordrest",
+      "ticker": "NREST",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Grundarlett kontraktsrestaurangbolag med lyckosam försvarsdel, Håkan Blomdahl som ankarinvesterare. Många bra rapporter men bortglömt och ned på slutet. Försvarsavtalet är tillväxtmotorn (och största risken om det tappas).",
+      "quote": "Det känns ju som en tillväxtmatch, försvarsavtalet.",
+      "catalyst_timing": "Rapport inom dagar (början av september 2026)"
+    },
+    {
+      "company": "CoinShares",
+      "ticker": "CS",
+      "action": "buy",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Skalbar krypto-ETF-förvaltare: när krypto går upp stiger AUM och avgiftsintäkter medan kostnaderna står stilla. Återköp klubbade via extrastämma. Attraktivt sätt att få kryptoexponering nu när sektorn vaknat.",
+      "quote": "CoinShares känns absolut som ett väldigt intressant alternativ om man vill ha exponering."
+    },
+    {
+      "company": "Synka (f.d. Vestum)",
+      "ticker": "SYNKA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Kurs ~15 kr med klubbad utdelning ~13,50 kr efter slutförd Flow-affär. Efter utdelningen kvarstår ett bolag under Conny Karlsson (Konorik) som SPEAKER_2 tycker är för billigt prissatt. Ska bevakas aktivt kring utdelningen.",
+      "quote": "Den här ska jag verkligen bevaka, tycker det är intressant.",
+      "catalyst_timing": "Utdelning ~13,50 kr, datum ej känt vid inspelning"
+    },
+    {
+      "company": "Tokmanni",
+      "ticker": "TOKMAN",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Lyssnarcase: ny skatt på kinesiska småpaket (Temu m.fl.) ska ha minskat paketvolymerna >70% och borde gynna lågprishandlare. Overifierat av värdarna. Aktien har gått dåligt sedan Dollar Store-förvärvet - tydlig trigger men skeptisk hållning till förvärvsintegrationen.",
+      "quote": "Man gillar ju alltid en tydlig trigger och att aktien inte har gått så bra... det är inte superlätt det här med förvärv och integration."
+    },
+    {
+      "company": "FlexQube",
+      "ticker": "FLEXQ",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Gamla 'Västkusttraden', grundarlett. Avtal med vad som nästan bekräftat är Amazon, ~800% omsättningstillväxt och lönsamma första gången vid Q3. Vinnare på humanoidrobot-trenden i logistik. Osäkerheten är hur skarpt ett Amazon-pilotprojekt är.",
+      "quote": "Om de lyckas med det här Amazon-avtalet och om man ska rida den här humanoid-robotgrejen så låter det superintressant."
+    },
+    {
+      "company": "Turning Point Brands",
+      "ticker": "TPB",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Pure play på vitt snus (varumärket Alp, förknippat med Tucker Carlson) med ny USA-fabrik. SPEAKER_2 har stark tro på sektorn, äger ett annat vitt snus-bolag, och väntar på PMTA-godkännandet innan köp efter att ha bränt sig på att köpa före binära besked. SPEAKER_1 tror marknaden är mättad och att genomförandet blir avgörande.",
+      "quote": "Den här aktien håller jag under bevakning och väntar på det här FDA-godkännandet och köper aktien då.",
+      "position_context": "SPEAKER_2 äger ett annat vitt snus-bolag",
+      "catalyst_timing": "PMTA-godkännande från FDA"
+    },
+    {
+      "company": "Sdiptech Salix (Volati-avknoppning)",
+      "ticker": "SALIX",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Avknoppning från Volati med säljflöde efter splitten, stark organisk tillväxt plus förvärv. Trevligare bolag än Volati på samma värdering. SPEAKER_2 gillar avknoppningar generellt; detta är den populära delen av splitten.",
+      "quote": "Jag gillar ju avknoppningar... Det känns som att det kommer tuffa på."
+    },
+    {
+      "company": "I-Tech",
+      "ticker": "ITECH",
+      "action": "watch",
+      "confidence": "low",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Båtbottenfärg (antifouling). Pangrapport senast och bra Q2/Q3. Kort omnämnande - värt att kolla på men båda har dålig koll.",
+      "quote": "Det kan vara värt att kolla på. Jag har dålig koll där."
+    },
+    {
+      "company": "Camurus",
+      "ticker": "CAMX",
+      "action": "watch",
+      "confidence": "high",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Börsvärde 38 mdr, kassa 4 mdr, EBIT 2027e 1,5 mdr - värderingen ser rimlig ut med CAM2029/Sorrento-studien som gratis option. Peak sales-potential 2 mdr USD. Kursen har inte rört sig inför beskedet; stor rörelse väntas åt något håll. En analytiker menar att marknaden inte kommer orka handla upp aktien tillräckligt vid positivt utfall.",
+      "quote": "Camurus håller jag väldigt mycket koll på... när det väl kommer så kommer det bli en väldigt stor rörelse.",
+      "catalyst_timing": "Sorrento-studien (CAM2029) resultat Q4 2026"
+    },
+    {
+      "company": "Steppe Gold",
+      "ticker": "STGO",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "340 MUSD market cap, 70 000 oz produktion med potential att dubbla via ny gruva. Många guldbolag handlas till 2-4x vinsten efter guldets renässans. Har rusat - köp på dipp. SPEAKER_2 har även tittat på P2 Gold och Orvana.",
+      "quote": "Köpa någon sån på dipp tycker jag låter väldigt intressant."
+    },
+    {
+      "company": "Intrum",
+      "ticker": "INTRUM",
+      "action": "avoid",
+      "confidence": "medium",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Rapporten nästa fredag kan komma in hur som helst. Kursen nedtryckt av emissionen - kan vara långsiktigt intressant men kortsiktigt för riskabelt. SPEAKER_2 köpte på Carnegie-rek men har sålt och vågar inte hålla över rapporten.",
+      "quote": "Jag har sålt varenda aktie, vågar liksom inte hålla.",
+      "position_context": "SPEAKER_2 har sålt hela sin position",
+      "catalyst_timing": "Rapport fredag vecka efter inspelning"
+    },
+    {
+      "company": "Connect Biopharma",
+      "ticker": "CNTB",
+      "action": "watch",
+      "confidence": "speculative",
+      "speaker": "SPEAKER_2",
+      "reasoning": "Binärt biotech-lotteri: antikropp mot IL-4Ra (samma validerade måltavla som Sanofis Dupixent, 14 mdr USD/år) för akut astma/KOL på akutmottagning där inget biologiskt läkemedel är godkänt. VD sålde sitt förra bolag till AstraZeneca. Skribenten hävdar 200% uppsida vid positivt utfall. Värdarna rekar inte köp inför studie - 'som att köpa en lott'.",
+      "quote": "Att reka någon att köpa inför en studie, det är mer som att köpa en lott.",
+      "catalyst_timing": "Studieresultat inom kort"
+    },
+    {
+      "company": "Maravai LifeSciences",
+      "ticker": "MRVI",
+      "action": "hold",
+      "confidence": "medium",
+      "speaker": "SPEAKER_1",
+      "reasoning": "Spadar-och-hackor i mRNA: deras capping-teknik ('lilla hatten') krävs för i princip alla mRNA-vacciner och de dominerar marknaden. +50% på veckan efter Moderna-nyheten, +250% på ett år. Vänt till lönsamhet två rapporter i rad, ny VD som är 'deal guy'. Ägs som budkandidat - VC-storägaren har suttit länge och bör bli alltmer medgörlig. Individanpassade cancervacciner skulle ge enorma tillverkningsvolymer.",
+      "quote": "För att du ska lyckas med mRNA så måste du köpa Maravais lilla hatt... Jag har ägt den som en budkandidat.",
+      "position_context": "SPEAKER_1 äger sedan november 2024, GAV ~5,70 USD, kurs nu ~8,8 USD"
+    },
+    {
+      "company": "Moderna",
+      "ticker": "MRNA",
+      "action": "watch",
+      "confidence": "medium",
+      "speaker": "SPEAKER_1",
+      "reasoning": "Cancervaccinstudien med Merck avbröts i förtid pga starka resultat - aktien +120-180% (+20 mdr USD). Individanpassade mRNA-vacciner efter tumöroperation, fler studier (njur-/blåscancer) i pipeline, AI bidrog till designen. Värdarna förvånas över att Moderna inte passar på att ta in kapital efter uppgången. Stor validering för hela mRNA-fältet och biotechsektorn.",
+      "quote": "Hela mRNA-forskningen kommer liksom explodera.",
+      "catalyst_timing": "Fler mRNA-onkologistudier i pipeline"
+    }
+  ],
+  "crypto_mentions": [
+    {
+      "asset_symbol": "BTC",
+      "sentiment": "bullish",
+      "speaker": "SPEAKER_1",
+      "confidence": "medium",
+      "quote": "Toppade förra oktober... gått ner, ner, ner, sidledes till den grad att folk slutade prata om det. Och helt plötsligt vaknar allting till liv. Och det börjar med en short squeeze. Jag tycker att det är ett intressant läge."
+    },
+    {
+      "asset_symbol": "ETH",
+      "sentiment": "bullish",
+      "speaker": "SPEAKER_2",
+      "confidence": "medium",
+      "quote": "Ethereum gick väl upp 18% på en dag. Man har haft inflöde i de amerikanska ETF-erna, sex raka dagar med inflöden."
+    },
+    {
+      "asset_symbol": "SOL",
+      "sentiment": "bullish",
+      "speaker": "SPEAKER_2",
+      "confidence": "low",
+      "quote": "Solana, Chainlink, Hyperliquid och Ethereum - alla de här gick ju fruktansvärt starkt utöver bitcoin... det visar att det var väldigt stora inflöden."
+    },
+    {
+      "asset_symbol": "LINK",
+      "sentiment": "bullish",
+      "speaker": "SPEAKER_2",
+      "confidence": "low",
+      "quote": "Solana, Chainlink, Hyperliquid och Ethereum - alla de här gick ju fruktansvärt starkt utöver bitcoin."
+    },
+    {
+      "asset_symbol": "HYPE",
+      "sentiment": "bullish",
+      "speaker": "SPEAKER_2",
+      "confidence": "low",
+      "quote": "De har lanserat en ny produkt på den här Hyperliquid. Så de rörde sig väldigt mycket i samband med de här uppåtrörelserna."
+    },
+    {
+      "asset_symbol": "ADA",
+      "sentiment": "neutral",
+      "speaker": "SPEAKER_2",
+      "confidence": "low",
+      "quote": "Ja, jag äger också Cardano och lite bitcoin."
+    }
+  ],
+  "insights": [
+    {
+      "quote": "Det är inte svårt att göra bort sig på börsen om man sitter på mycket likviditet. Det är fällor överallt.",
+      "summary": "Stor kassa bränner i fickan och lockar till dåliga affärer - likviditet är en risk i sig",
+      "category": "lesson",
+      "speaker": "SPEAKER_2",
+      "confidence": "high",
+      "tags": ["cash-management", "discipline", "psychology"]
+    },
+    {
+      "quote": "Med risk då, har jag lärt mig efter Klarna-rapporter och liknande, att köpa innan och så får man ett nej och så känner man sig dum i huvudet.",
+      "summary": "Köp inte före binära besked (studier, myndighetsgodkännanden) - vänta på utfallet även om man missar första rörelsen",
+      "category": "lesson",
+      "speaker": "SPEAKER_2",
+      "confidence": "high",
+      "tags": ["binary-events", "risk-management", "timing"]
+    },
+    {
+      "quote": "Det man gillar i den här branschen är väl att man vill ha en superstark ägare, typ Lundin... Hela den här uppbyggnadsfasen blir oftast dyrare än vad man tror.",
+      "summary": "I gruvbolag: kräv en stark huvudägare och undvik uppbyggnadsfasen - den blir nästan alltid dyrare än planerat",
+      "category": "wisdom",
+      "speaker": "SPEAKER_2",
+      "confidence": "high",
+      "tags": ["mining", "ownership", "capex-risk"]
+    },
+    {
+      "quote": "Det är en sån här spin-off där det känns som att alla bara vräker ut sina aktier, inte förstår vad de äger.",
+      "summary": "Avknoppningar skapar systematisk felprissättning när mottagare säljer utan analys (Coffee Stain, Salix)",
+      "category": "wisdom",
+      "speaker": "SPEAKER_2",
+      "confidence": "high",
+      "tags": ["spin-offs", "special-situations", "flow"]
+    },
+    {
+      "quote": "USA kommer alltid kunna låna pengar, punkt slut... Man måste bara acceptera att fiat-pengar är monopolpengar... Tricket är, som Warren Buffett säger, äga aktier.",
+      "summary": "Avfärdar USA-konkursnarrativet: staten kan alltid låna (i värsta fall via Fed som Japan). Fiat urholkas långsiktigt - skydda dig genom att äga tillgångar, inte kontanter",
+      "category": "philosophy",
+      "speaker": "SPEAKER_1",
+      "confidence": "high",
+      "tags": ["macro", "fiat", "equities", "buffett"]
+    },
+    {
+      "quote": "De här bondsen som Bessent nu köper tillbaks gavs ut 20, 21, 22 med 1,5% ränta... de handlas till typ 45% på dollarn. Så statsskulden minskar med dubbelt så mycket som de köper för.",
+      "summary": "Treasurys återköp av gamla lågkupongobligationer till ~45% av nominellt värde minskar den rapporterade statsskulden dubbelt så snabbt som köpbeloppet - inte QE utan kurvkontroll, förstärkt av kommande bankavreglering som trycker kapital in i mitten av räntekurvan",
+      "category": "wisdom",
+      "speaker": "SPEAKER_1",
+      "confidence": "high",
+      "tags": ["macro", "treasury", "rates", "bessent"]
+    },
+    {
+      "quote": "Covid förlöste, tog bort väldigt mycket red tape och finansierade väldigt mycket forskning. Jag är helt övertygad om att de resultaten kommer att bota folksjukdomar.",
+      "summary": "Biotech-bulltes: covid avreglerade och finansierade mRNA-forskningen; Moderna/Merck-genombrottet är första skörden och AI accelererar utvecklingen",
+      "category": "philosophy",
+      "speaker": "SPEAKER_1",
+      "confidence": "high",
+      "tags": ["biotech", "mrna", "ai", "long-term"]
+    },
+    {
+      "quote": "Nedgången var lång, och den var inte bara lång när det gick ner, den var lång sidledes också. Ett bra tecken.",
+      "summary": "En lång, hatad och bortglömd nedtrend som bryts med en short squeeze är ett tekniskt intressant lägesbyte (krypto)",
+      "category": "wisdom",
+      "speaker": "SPEAKER_1",
+      "confidence": "medium",
+      "tags": ["technical-analysis", "sentiment", "crypto"]
+    }
+  ],
+  "market_sentiment": "bullish",
+  "summary": "Casemaraton-avsnitt dar lyssnarinskickade case far fill eller kill. Fill: UiPath (agentic AI-asymmetri, rapport 3/9) och Coffee Stain (billig spin-off, slapp 9/9). Kill: Grangesberg/Sydvaranger (svag huvudagare, capex-risk) och i praktiken Freja eID (bra story, ingen intjaningstrigger). Bevakas: Keo Capital (Venezuela-proxy via US-SPAC), Camurus (Sorrento-studie Q4), CoinShares, Synka, Nordrest, FlexQube (Amazon-avtal), Turning Point Brands (PMTA-trigger), Steppe Gold m.fl. Intrum undviks fore rapport. Stort biotech-segment: Modernas cancervaccingenombrott med Merck validerar mRNA-faltet; SPEAKER_1 ager Maravai som spadar-och-hackor/budkandidat (+50% pa veckan). Makro: Bessents utokade aterkop av langa obligationer tolkas som kurvkontroll snarare an QE - aterkop till ~45% av par minskar rapporterad statsskuld dubbelt. Krypto har vaknat ur lang hatad nedtrend med short squeeze och sex dagar av ETF-infloden. Talare separerade via Apple TTML-diarisering: SPEAKER_1 ager Maravai, Freja, BTC, ETH; SPEAKER_2 ager Xpeng, Klarna (nykopt), ett annat vitt snus-bolag, ADA, BTC.",
+  "key_takeaways": [
+    "FILL: UiPath - agentic AI-omvardering mojlig, lonsamt nara ATL med aterkop, rapport 3 september",
+    "FILL: Coffee Stain - lagst vardering bland spelbolagen, spelslapp 9 september som trigger",
+    "KILL: Grangesberg/Sydvaranger - undvik gruvbolag i uppbyggnadsfas utan stark huvudagare",
+    "Camurus storsta binara svenska caset: Sorrento-studien Q4 med 2 mdr USD peak sales-potential",
+    "Maravai = spadar-och-hackor pa mRNA-boomen efter Modernas cancervaccingenombrott (SPEAKER_1 ager, GAV ~5,70)",
+    "Bessents obligationsaterkop ar kurvkontroll, inte QE - aterkop till 45% av par halverar bokford skuld",
+    "Krypto tillbaka i varmen: short squeeze ur lang nedtrend, sex raka dagar ETF-infloden, ETH +18% pa en dag",
+    "Lardom: kop inte fore binara besked - vanta pa PMTA/studieresultat aven om forsta rorelsen missas"
+  ]
+}
